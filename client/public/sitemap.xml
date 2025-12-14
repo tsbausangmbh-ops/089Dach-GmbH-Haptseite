@@ -259,6 +259,80 @@
     <!-- Dachberatung: Festpreis, Kostenvoranschlag, seriöser Dachdecker -->
   </url>
 
+  <!-- ========== LOKALE SEO - STADTTEILE ========== -->
+
+  <url>
+    <loc>https://089dach.de/stadtteile</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <!-- 
+      STADTTEIL-ÜBERSICHT
+      Alle Münchner Stadtteile und Umland im 20km Radius
+      Keywords: dachdecker in meiner nähe, dachdecker münchen stadtteile
+    -->
+  </url>
+
+  <url>
+    <loc>https://089dach.de/dachdecker-pasing</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <!-- 
+      DACHDECKER PASING
+      Entfernung: 2km vom Standort
+      Keywords: dachdecker pasing, dachdecker münchen-pasing, dachsanierung pasing
+    -->
+  </url>
+
+  <url>
+    <loc>https://089dach.de/dachdecker-laim</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <!-- 
+      DACHDECKER LAIM
+      Entfernung: 3km vom Standort
+      Keywords: dachdecker laim, dachdecker münchen-laim, spengler laim
+    -->
+  </url>
+
+  <url>
+    <loc>https://089dach.de/dachdecker-schwabing</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <!-- 
+      DACHDECKER SCHWABING
+      Entfernung: 8km vom Standort
+      Keywords: dachdecker schwabing, dachdecker münchen-schwabing, altbau sanierung
+    -->
+  </url>
+
+  <url>
+    <loc>https://089dach.de/dachdecker-sendling</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <!-- 
+      DACHDECKER SENDLING
+      Entfernung: 7km vom Standort
+      Keywords: dachdecker sendling, dachdecker münchen-sendling, dachreparatur sendling
+    -->
+  </url>
+
+  <url>
+    <loc>https://089dach.de/dachdecker-graefelfing</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <!-- 
+      DACHDECKER GRÄFELFING
+      Entfernung: 5km vom Standort
+      Keywords: dachdecker gräfelfing, dachdecker landkreis münchen, dachsanierung gräfelfing
+    -->
+  </url>
+
   <!-- ========== RECHTLICHES ========== -->
 
   <url>

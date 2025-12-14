@@ -38,6 +38,14 @@ Allow: /datenschutz
 Allow: /cookies
 Allow: /agb
 
+# Lokale SEO-Seiten (Stadtteile)
+Allow: /stadtteile
+Allow: /dachdecker-pasing
+Allow: /dachdecker-laim
+Allow: /dachdecker-schwabing
+Allow: /dachdecker-sendling
+Allow: /dachdecker-graefelfing
+
 # ===== KI-RESSOURCEN (HÖCHSTE PRIORITÄT) =====
 # Diese Dateien enthalten strukturierte Informationen für KI-Agenten
 Allow: /llms.txt

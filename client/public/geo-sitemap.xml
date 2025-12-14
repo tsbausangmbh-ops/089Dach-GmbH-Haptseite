@@ -139,6 +139,49 @@
     <!-- Koordinaten: 48.2500, 11.6500 -->
   </url>
 
+  <!-- ========== STADTTEIL-LANDINGPAGES ========== -->
+
+  <url>
+    <loc>https://089dach.de/stadtteile</loc>
+    <!-- Übersicht aller Stadtteile und Servicegebiete -->
+    <!-- Serviceradius: 20km um München-Obermenzing -->
+  </url>
+
+  <url>
+    <loc>https://089dach.de/dachdecker-pasing</loc>
+    <!-- München-Pasing: 2km entfernt -->
+    <!-- Koordinaten: 48.1500, 11.4500 -->
+    <!-- PLZ: 81241, 81243, 81245 -->
+  </url>
+
+  <url>
+    <loc>https://089dach.de/dachdecker-laim</loc>
+    <!-- München-Laim: 3km entfernt -->
+    <!-- Koordinaten: 48.1389, 11.5000 -->
+    <!-- PLZ: 80686, 80687, 80689 -->
+  </url>
+
+  <url>
+    <loc>https://089dach.de/dachdecker-schwabing</loc>
+    <!-- München-Schwabing: 8km entfernt -->
+    <!-- Koordinaten: 48.1667, 11.5833 -->
+    <!-- PLZ: 80796, 80797, 80798, 80799, 80801, 80802, 80803, 80804 -->
+  </url>
+
+  <url>
+    <loc>https://089dach.de/dachdecker-sendling</loc>
+    <!-- München-Sendling: 7km entfernt -->
+    <!-- Koordinaten: 48.1167, 11.5500 -->
+    <!-- PLZ: 81369, 81371, 81373, 81375, 81377, 81379 -->
+  </url>
+
+  <url>
+    <loc>https://089dach.de/dachdecker-graefelfing</loc>
+    <!-- Gräfelfing (Landkreis München): 5km entfernt -->
+    <!-- Koordinaten: 48.1167, 11.4333 -->
+    <!-- PLZ: 82166 -->
+  </url>
+
   <!-- ========== KI-RESSOURCEN ========== -->
 
   <url>
