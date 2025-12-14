@@ -19,19 +19,19 @@ export default function Navbar() {
 
   const leistungenItems = [
     { name: "Alle Leistungen", href: "/leistungen" },
-    { name: "Wartung", href: "/leistungen/wartung" },
-    { name: "Gaubenbau", href: "/leistungen/gaubenbau" },
-    { name: "Spenglerei", href: "/leistungen/spenglerei" },
-    { name: "Bedachungen", href: "/leistungen/bedachungen" },
-    { name: "Dachfenster", href: "/leistungen/dachfenster" },
-    { name: "Dachsanierung", href: "/leistungen/dachsanierung" },
-    { name: "Energieberatung", href: "/leistungen/energieberatung" },
-    { name: "Reparaturservice", href: "/leistungen/reparaturservice" },
     { name: "Architektenleistungen", href: "/leistungen/architektenleistungen" },
+    { name: "Reparaturservice", href: "/leistungen/reparaturservice" },
+    { name: "Energieberatung", href: "/leistungen/energieberatung" },
+    { name: "Dachsanierung", href: "/leistungen/dachsanierung" },
+    { name: "Dachfenster", href: "/leistungen/dachfenster" },
+    { name: "Bedachungen", href: "/leistungen/bedachungen" },
+    { name: "Spenglerei", href: "/leistungen/spenglerei" },
+    { name: "Gaubenbau", href: "/leistungen/gaubenbau" },
+    { name: "Wartung", href: "/leistungen/wartung" },
     { name: "---", href: "#", separator: true },
-    { name: "Leckortung & Reparatur", href: "/ratgeber/leckortung" },
-    { name: "Dachsanierung mit Dämmung", href: "/ratgeber/daemmung" },
     { name: "Kostenlose Beratung + Festpreis", href: "/ratgeber/beratung" },
+    { name: "Dachsanierung mit Dämmung", href: "/ratgeber/daemmung" },
+    { name: "Leckortung & Reparatur", href: "/ratgeber/leckortung" },
   ];
 
   return (
