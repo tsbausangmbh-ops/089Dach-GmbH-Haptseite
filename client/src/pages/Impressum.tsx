@@ -1,10 +1,16 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Shield, Phone, Mail, MapPin } from "lucide-react";
+import SEO from "@/components/SEO";
 
 export default function Impressum() {
   return (
     <div className="min-h-screen bg-white">
+      <SEO 
+        title="Impressum | 089Dach GmbH Dachdecker München"
+        description="Impressum der 089Dach GmbH, Ihrem Dachdecker-Meisterbetrieb in München-Obermenzing. Angaben gemäß § 5 TMG."
+        canonical="https://089dach.de/impressum"
+      />
       <Navbar />
       
       <section className="pt-24 pb-16 bg-gray-50">

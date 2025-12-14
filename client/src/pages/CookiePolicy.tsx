@@ -1,9 +1,15 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import SEO from "@/components/SEO";
 
 export default function CookiePolicy() {
   return (
     <div className="min-h-screen bg-background font-sans">
+      <SEO 
+        title="Cookie-Einstellungen | 089Dach GmbH München"
+        description="Cookie-Richtlinie der 089Dach GmbH. Informationen zu Cookies und Tracking auf unserer Website."
+        canonical="https://089dach.de/cookies"
+      />
       <Navbar />
       
       <div className="container mx-auto px-4 pt-24 pb-12 max-w-4xl">

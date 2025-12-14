@@ -1,9 +1,15 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import SEO from "@/components/SEO";
 
 export default function Datenschutz() {
   return (
     <div className="min-h-screen bg-white">
+      <SEO 
+        title="Datenschutz | 089Dach GmbH München"
+        description="Datenschutzerklärung der 089Dach GmbH. Informationen zur Verarbeitung Ihrer personenbezogenen Daten gemäß DSGVO."
+        canonical="https://089dach.de/datenschutz"
+      />
       <Navbar />
       
       <section className="pt-24 pb-16 bg-gray-50">

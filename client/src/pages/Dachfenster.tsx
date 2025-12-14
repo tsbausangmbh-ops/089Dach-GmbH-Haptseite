@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Sun, Wind, ThermometerSun, Shield, ArrowRight, Quote, Phone, Check, Lightbulb } from "lucide-react";
 import { Link } from "wouter";
+import SEO, { BreadcrumbSchema } from "@/components/SEO";
 
 export default function Dachfenster() {
   const benefits = [
@@ -24,6 +25,13 @@ export default function Dachfenster() {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEO 
+        title="Dachfenster München | Tageslichtlösungen & Velux Einbau"
+        description="Neue Dachfenster, Lichtkuppeln und Velux-Lösungen inklusive Planung, Montage und Innenausbau in München. Mehr Licht für Ihr Zuhause."
+        canonical="https://089dach.de/dachfenster"
+        keywords="dachfenster münchen, velux einbau münchen, tageslicht dach münchen, dachfenster austausch münchen"
+      />
+      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dachfenster", url: "/dachfenster" }]} />
       <Navbar />
       
       {/* Hero Section */}

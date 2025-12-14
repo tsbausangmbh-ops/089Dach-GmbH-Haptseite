@@ -4,8 +4,8 @@ import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Home, Warehouse, Wrench, Hammer, ShieldCheck, Ruler, CheckCircle2, Quote } from "lucide-react";
 import heroImage from "@assets/generated_images/modern_house_with_anthracite_roof.png";
-
 import LeadFunnel from "@/components/LeadFunnel";
+import SEO, { BreadcrumbSchema } from "@/components/SEO";
 
 export default function Leistungen() {
   const services = [
@@ -103,6 +103,13 @@ export default function Leistungen() {
 
   return (
     <div className="min-h-screen bg-background font-sans">
+      <SEO 
+        title="Leistungen Dachdecker München | Steildach, Flachdach & Wartung"
+        description="Komplette Dachlösungen: Dachneubau, Sanierung, Abdichtung, Wartung und Spenglerarbeiten für Privat und Gewerbe in München und Umgebung."
+        canonical="https://089dach.de/leistungen"
+        keywords="dachdecker leistungen münchen, flachdach reparatur münchen, dachwartung münchen, dachsanierung, steildach münchen"
+      />
+      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Leistungen", url: "/leistungen" }]} />
       <Navbar />
       
       {/* Hero Section */}

@@ -4,10 +4,18 @@ import Contact from "@/components/Contact";
 import { CheckCircle2, Award, Users, Heart, Quote, Clock, Handshake } from "lucide-react";
 import portraitGF from "@assets/generated_images/german_businessman_portrait_gf.png";
 import portraitMeister from "@assets/generated_images/german_master_roofer_portrait.png";
+import SEO, { BreadcrumbSchema } from "@/components/SEO";
 
 export default function UeberUns() {
   return (
     <div className="min-h-screen bg-background font-sans">
+      <SEO 
+        title="089Dach Meisterteam | Tradition & Innovation im Dachdeckerhandwerk München"
+        description="Familiengeführter Dachdecker-Meisterbetrieb aus München-Obermenzing: 25 Jahre Erfahrung, geprüfte Qualität und persönliche Beratung."
+        canonical="https://089dach.de/ueber-uns"
+        keywords="dachdecker team münchen, meisterbetrieb dach, dachdecker obermenzing, dachdeckermeister münchen"
+      />
+      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Über uns", url: "/ueber-uns" }]} />
       <Navbar />
       
       <div className="relative w-full h-[40vh] min-h-[350px] flex items-center overflow-hidden bg-secondary">

@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { AlertTriangle, Clock, Shield, Phone, Wrench, CloudRain, Wind, Check, Quote } from "lucide-react";
 import { Link } from "wouter";
+import SEO, { BreadcrumbSchema } from "@/components/SEO";
 
 export default function Reparaturservice() {
   const emergencies = [
@@ -24,6 +25,13 @@ export default function Reparaturservice() {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEO 
+        title="Dachreparatur München | Notdienst & Sturmschäden 24/7"
+        description="Schnelle Hilfe bei Dachschäden in München: Notfallabdichtung, Leckortung, Sturm- und Hagelschäden inkl. Versicherungsservice. 24h Notfall-Hotline."
+        canonical="https://089dach.de/reparaturservice"
+        keywords="dachreparatur münchen, notdienst dach münchen, sturmschaden dach münchen, dachnotdienst münchen, undichtes dach münchen"
+      />
+      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Reparaturservice", url: "/reparaturservice" }]} />
       <Navbar />
       
       {/* Hero Section - Notfall-Fokus */}

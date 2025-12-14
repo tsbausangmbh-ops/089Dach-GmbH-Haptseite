@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle2, AlertTriangle, Clock, Shield, Euro, ThermometerSun, ArrowRight, Quote, Phone } from "lucide-react";
 import { Link } from "wouter";
+import SEO, { BreadcrumbSchema } from "@/components/SEO";
 
 export default function Dachsanierung() {
   const warningSignals = [
@@ -26,6 +27,13 @@ export default function Dachsanierung() {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEO 
+        title="Dachsanierung München | Energetisch & förderfähig mit 089Dach"
+        description="Ganzheitliche Dachsanierungen in München: Energieberatung, Fördermittel, Wärmedämmung & Neueindeckung aus einer Hand. Jetzt kostenlose Beratung."
+        canonical="https://089dach.de/dachsanierung"
+        keywords="dachsanierung münchen, energetische dachsanierung, kfw dachsanierung münchen, dachdämmung münchen, dach erneuern münchen"
+      />
+      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dachsanierung", url: "/dachsanierung" }]} />
       <Navbar />
       
       {/* Hero Section mit Problem-Agitation */}

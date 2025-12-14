@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import Contact from "@/components/Contact";
 import LeadFunnel from "@/components/LeadFunnel";
 import { ArrowUpRight, Clock, Euro, CheckCircle2 } from "lucide-react";
+import SEO, { BreadcrumbSchema } from "@/components/SEO";
 
 import img1 from "@assets/generated_images/realistic_anthracite_roof_tiles_with_slight_weathering.png";
 import img3 from "@assets/generated_images/flat_roof_bitumen_detail_with_texture.png";
@@ -91,6 +92,13 @@ export default function Referenzen() {
 
   return (
     <div className="min-h-screen bg-background font-sans">
+      <SEO 
+        title="Dachreferenzen München | Vorher-Nachher Projekte 089Dach"
+        description="Entdecken Sie reale Dachprojekte aus München: Sanierungen, Neueindeckungen, Spengler-Highlights mit Vorher-Nachher-Galerie."
+        canonical="https://089dach.de/referenzen"
+        keywords="dach referenzen münchen, dachsanierung vorher nachher, kundenstimmen dachdecker, dachprojekte münchen"
+      />
+      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Referenzen", url: "/referenzen" }]} />
       <Navbar />
       
       {/* Hero Section */}

@@ -6,10 +6,18 @@ import { CheckCircle2, ArrowRight, Home, Warehouse, ShieldCheck, Quote, AlertTri
 import heroImage from "@assets/generated_images/roofer_working_on_red_tile_roof_munich.png";
 import tileImage from "@assets/generated_images/red_roof_tiles_texture_close_up.png";
 import LeadFunnel from "@/components/LeadFunnel";
+import SEO, { BreadcrumbSchema } from "@/components/SEO";
 
 export default function Bedachungen() {
   return (
     <div className="min-h-screen bg-background font-sans">
+      <SEO 
+        title="Bedachungen München | Steildach & Flachdach vom Meister"
+        description="Individuelle Bedachungslösungen in München: Steildach, Flachdach, energetische Dämmung und Abdichtung vom zertifizierten Meisterbetrieb 089Dach."
+        canonical="https://089dach.de/bedachungen"
+        keywords="steildach münchen, flachdach münchen, dachabdichtung münchen, dachisolierung münchen, dacheindeckung münchen"
+      />
+      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Bedachungen", url: "/bedachungen" }]} />
       <Navbar />
       
       {/* Hero Section */}

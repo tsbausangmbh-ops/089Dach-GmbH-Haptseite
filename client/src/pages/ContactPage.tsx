@@ -3,10 +3,18 @@ import Footer from "@/components/Footer";
 import Contact from "@/components/Contact";
 import { Mail, Phone, MapPin, Clock } from "lucide-react";
 import contactImage from "@assets/generated_images/friendly_woman_on_phone_in_office.png";
+import SEO, { BreadcrumbSchema } from "@/components/SEO";
 
 export default function ContactPage() {
   return (
     <div className="min-h-screen bg-background font-sans">
+      <SEO 
+        title="Kontakt 089Dach München | Beratung & Vor-Ort-Termin sichern"
+        description="Jetzt Dachberatung vereinbaren: Telefon 089 12621964, Thuillestr. 20, 81247 München-Obermenzing. Kontaktformular für Schnellantwort."
+        canonical="https://089dach.de/kontakt"
+        keywords="dachdecker kontakt münchen, dachangebot münchen, dachberatung obermenzing"
+      />
+      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Kontakt", url: "/kontakt" }]} />
       <Navbar />
       
       {/* Contact Hero */}

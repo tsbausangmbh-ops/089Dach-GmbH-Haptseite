@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { CheckCircle2, AlertTriangle, ThermometerSun, Droplets, Leaf, ArrowRight, BookOpen, Quote, Shield, Users, Award } from "lucide-react";
 import { Link } from "wouter";
+import SEO, { BreadcrumbSchema } from "@/components/SEO";
 
 export default function Ratgeber() {
   const guides = [
@@ -58,6 +59,13 @@ export default function Ratgeber() {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEO 
+        title="Dachwissen München | Ratgeber für Eigentümer & Hausverwaltungen"
+        description="Ratgeber-Artikel zu Dachsanierung, Wartung, Versicherung & Förderungen speziell für München und Oberbayern."
+        canonical="https://089dach.de/ratgeber"
+        keywords="dachratgeber münchen, dachwartung tipps, förderung dachsanierung münchen, dach wissen"
+      />
+      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Ratgeber", url: "/ratgeber" }]} />
       <Navbar />
       
       {/* Hero Section mit Storytelling */}

@@ -6,10 +6,18 @@ import { ArrowRight, Wrench, ShieldCheck, PenTool, CheckCircle2, Quote, Hammer }
 import heroImage from "@assets/generated_images/copper_roof_gutter_detail.png";
 import detailImage from "@assets/generated_images/metal_standing_seam_roof_detail.png";
 import LeadFunnel from "@/components/LeadFunnel";
+import SEO, { BreadcrumbSchema } from "@/components/SEO";
 
 export default function Spenglerei() {
   return (
     <div className="min-h-screen bg-background font-sans">
+      <SEO 
+        title="Spenglerarbeiten München | Dachentwässerung & Metallverarbeitung"
+        description="Präzise Spenglerarbeiten: Dachrinnen, Stehfalz, Gauben-Bekleidung & Kupferlösungen für München und Umland. Handgefertigt in eigener Werkstatt."
+        canonical="https://089dach.de/spenglerei"
+        keywords="spengler münchen, dachrinne münchen, stehfalz dach münchen, kupferdach münchen, blecharbeiten münchen"
+      />
+      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Spenglerei", url: "/spenglerei" }]} />
       <Navbar />
       
       {/* Hero Section */}

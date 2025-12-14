@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import Contact from "@/components/Contact";
 import LeadFunnel from "@/components/LeadFunnel";
 import heroImage from "@assets/generated_images/roofer_tools_arranged_cleanly.png";
+import SEO, { BreadcrumbSchema } from "@/components/SEO";
 
 export default function FAQ() {
   const faqs = [
@@ -110,6 +111,13 @@ export default function FAQ() {
 
   return (
     <div className="min-h-screen bg-background font-sans">
+      <SEO 
+        title="FAQ Dachdecker München | Antworten zu Kosten, Ablauf & Wartung"
+        description="Häufige Fragen zu Dachkosten, Förderungen, Wartung und Sicherheit beantwortet von 089Dach München."
+        canonical="https://089dach.de/faq"
+        keywords="dachdecker faq münchen, dachkosten münchen, dachwartung fragen"
+      />
+      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "FAQ", url: "/faq" }]} />
       <Navbar />
       
       <div className="relative w-full h-[35vh] min-h-[300px] flex items-center overflow-hidden">

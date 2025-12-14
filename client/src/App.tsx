@@ -21,6 +21,7 @@ import Dachfenster from "@/pages/Dachfenster";
 import Reparaturservice from "@/pages/Reparaturservice";
 import CookieConsent from "@/components/CookieConsent";
 import BackgroundLogo from "@/components/BackgroundLogo";
+import { LocalBusinessSchema } from "@/components/SEO";
 
 function Router() {
   return (
@@ -49,6 +50,7 @@ function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
+        <LocalBusinessSchema />
         <BackgroundLogo />
         <Toaster />
         <Router />
