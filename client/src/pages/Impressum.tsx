@@ -4,7 +4,7 @@ import BackButton from "@/components/BackButton";
 import { Button } from "@/components/ui/button";
 import { Shield, Phone, Mail, MapPin } from "lucide-react";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
-import heroImage from "@assets/generated_images/friendly_woman_on_phone_in_office.png";
+import heroImage from "@assets/generated_images/professional_office_legal_documents.png";
 
 export default function Impressum() {
   return (
