@@ -402,7 +402,7 @@ export default function KostenloseBeratung() {
                 <Label htmlFor="message">Erzählen Sie uns mehr (optional)</Label>
                 <Textarea 
                   id="message"
-                  placeholder="z.B. Seit wann besteht das Problem? Was haben Sie bereits versucht? Gibt es besondere Umstände?"
+                  placeholder="z.B. Welche Fragen haben Sie? Was möchten Sie in der Beratung besprechen? Gibt es besondere Wünsche?"
                   className="min-h-[100px]"
                   value={formData.message}
                   onChange={(e) => setFormData({ ...formData, message: e.target.value })}
