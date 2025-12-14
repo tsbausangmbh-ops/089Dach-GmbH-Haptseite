@@ -68,7 +68,7 @@ export default function Footer() {
 
         <div className="border-t border-white/10 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-500 text-sm">
-            &copy; {new Date().getFullYear()} 089Dach GmbH. Alle Rechte vorbehalten.
+            &copy; {new Date().getFullYear()} <a href="https://extrucon.de" target="_blank" rel="noopener noreferrer" className="text-white hover:text-primary font-medium transition-colors">ExtruCon GmbH</a>. Alle Rechte vorbehalten.
           </p>
           <div className="text-gray-500 text-sm flex flex-wrap items-center gap-2">
             <span><span className="font-medium text-gray-400">Öffnungszeiten:</span> Mo - Fr: 08:00 - 16:30 | Sa - So: geschlossen</span>
