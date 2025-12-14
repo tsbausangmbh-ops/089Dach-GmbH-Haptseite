@@ -28,6 +28,7 @@ export default function KostenloseBeratung() {
     name: "",
     email: "",
     phone: "",
+    address: "",
     problem: "",
     urgency: "",
     objectType: "",
@@ -88,6 +89,7 @@ export default function KostenloseBeratung() {
           details: [
             formData.objectType && `Objektart: ${formData.objectType}`,
             formData.urgency && `Dringlichkeit: ${formData.urgency}`,
+            formData.address && `Adresse: ${formData.address}`,
             formData.message
           ].filter(Boolean).join("\n") || "Keine Details angegeben",
           name: formData.name,
@@ -105,7 +107,7 @@ export default function KostenloseBeratung() {
         toast.success(successMsg, {
           description: "Wir melden uns zum vereinbarten Termin bei Ihnen."
         });
-        setFormData({ name: "", email: "", phone: "", problem: "", objectType: "", urgency: "", message: "" });
+        setFormData({ name: "", email: "", phone: "", address: "", problem: "", objectType: "", urgency: "", message: "" });
         setSelectedSlot(null);
         setSelectedDate(undefined);
         fetchAvailability();
@@ -249,6 +251,23 @@ export default function KostenloseBeratung() {
                 </select>
               </div>
 
+              <div className="space-y-2">
+                <Label htmlFor="urgency">Wie dringend ist es?</Label>
+                <select
+                  id="urgency"
+                  className="w-full h-12 px-3 rounded-md border border-input bg-background text-sm"
+                  value={formData.urgency}
+                  onChange={(e) => setFormData({ ...formData, urgency: e.target.value })}
+                  data-testid="select-beratung-urgency"
+                >
+                  <option value="">Bitte wählen...</option>
+                  <option value="Sofort/Notfall">Sofort / Notfall</option>
+                  <option value="In den nächsten Tagen">In den nächsten Tagen</option>
+                  <option value="In den nächsten Wochen">In den nächsten Wochen</option>
+                  <option value="Kein Zeitdruck">Kein Zeitdruck / nur informieren</option>
+                </select>
+              </div>
+
               <div className="space-y-4">
                 <Label className="text-base font-semibold flex items-center gap-2">
                   <CalendarIcon className="h-5 w-5 text-primary" />
@@ -377,6 +396,17 @@ export default function KostenloseBeratung() {
                     data-testid="input-beratung-email"
                   />
                 </div>
+              </div>
+
+              <div className="space-y-2">
+                <Label htmlFor="address">Adresse des Objekts (optional)</Label>
+                <Input 
+                  id="address"
+                  placeholder="Musterstraße 1, 80331 München"
+                  value={formData.address}
+                  onChange={(e) => setFormData({ ...formData, address: e.target.value })}
+                  data-testid="input-beratung-address"
+                />
               </div>
 
               <div className="space-y-2">
