@@ -7,6 +7,7 @@ import heroImage from "@assets/generated_images/copper_roof_gutter_detail.png";
 import detailImage from "@assets/generated_images/metal_standing_seam_roof_detail.png";
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema, ServiceSchema } from "@/components/SEO";
+import RelatedServices from "@/components/RelatedServices";
 
 export default function Spenglerei() {
   return (
@@ -227,7 +228,10 @@ export default function Spenglerei() {
       </section>
 
       <LeadFunnel />
-
+      <RelatedServices 
+        currentPage="spenglerei" 
+        relatedIds={["bedachungen", "dachsanierung", "wartung", "referenzen"]}
+      />
       <Contact />
       <Footer />
     </div>

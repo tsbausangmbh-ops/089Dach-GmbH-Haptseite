@@ -9,6 +9,7 @@ import { CheckCircle2, AlertTriangle, Clock, Shield, Euro, ThermometerSun, Arrow
 import { Link } from "wouter";
 import SEO, { BreadcrumbSchema, ServiceSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/realistic_renovated_roof_obermenzing_after.png";
+import RelatedServices from "@/components/RelatedServices";
 
 export default function Dachsanierung() {
   const warningSignals = [
@@ -261,6 +262,10 @@ export default function Dachsanierung() {
       </section>
 
       <LeadFunnel />
+      <RelatedServices 
+        currentPage="dachsanierung" 
+        relatedIds={["energieberatung", "bedachungen", "wartung", "referenzen"]}
+      />
       <Contact />
       <Footer />
     </div>
