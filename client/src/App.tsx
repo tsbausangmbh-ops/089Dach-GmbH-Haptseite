@@ -23,6 +23,7 @@ import Energieberatung from "@/pages/Energieberatung";
 import Architektenleistungen from "@/pages/Architektenleistungen";
 import Gaubenbau from "@/pages/Gaubenbau";
 import Wartung from "@/pages/Wartung";
+import Rueckruf from "@/pages/Rueckruf";
 import AGB from "@/pages/AGB";
 import CookieConsent from "@/components/CookieConsent";
 import BackgroundLogo from "@/components/BackgroundLogo";
@@ -51,6 +52,7 @@ function Router() {
       <Route path="/datenschutz" component={Datenschutz} />
       <Route path="/cookies" component={CookiePolicy} />
       <Route path="/agb" component={AGB} />
+      <Route path="/rueckruf" component={Rueckruf} />
       <Route component={NotFound} />
     </Switch>
   );
