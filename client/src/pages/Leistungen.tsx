@@ -21,7 +21,8 @@ export default function Leistungen() {
         "Energetische Sanierung nach GEG",
         "Aufsparren- & Zwischensparrendämmung",
         "Asbestsanierung nach TRGS 519",
-        "KfW-Fördermittelberatung inklusive"
+        "KfW-Fördermittelberatung inklusive",
+        "Förderanträge & Energieberatung durch unser Partnernetzwerk"
       ]
     },
     {
