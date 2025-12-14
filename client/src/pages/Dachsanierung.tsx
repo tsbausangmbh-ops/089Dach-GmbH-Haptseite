@@ -77,7 +77,6 @@ export default function Dachsanierung() {
           </div>
         </div>
       </section>
-      <BackButton />
 
       {/* Trust Badges */}
       <div className="bg-stone-100 py-2 border-b border-stone-200">
@@ -98,6 +97,7 @@ export default function Dachsanierung() {
           </div>
         </div>
       </div>
+      <BackButton />
 
       {/* Kundengeschichte */}
       <section className="py-5 bg-secondary text-white">

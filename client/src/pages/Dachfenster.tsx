@@ -75,7 +75,6 @@ export default function Dachfenster() {
           </div>
         </div>
       </section>
-      <BackButton />
 
       {/* Trust Badges */}
       <div className="bg-stone-100 py-2 border-b border-stone-200">
@@ -96,6 +95,7 @@ export default function Dachfenster() {
           </div>
         </div>
       </div>
+      <BackButton />
 
       {/* Transformation Story */}
       <section className="py-5 bg-secondary text-white">

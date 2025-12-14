@@ -57,7 +57,6 @@ export default function Bedachungen() {
           </div>
         </div>
       </section>
-      <BackButton />
 
       {/* Trust Badges */}
       <div className="bg-stone-100 py-2 border-b border-stone-200">
@@ -78,6 +77,7 @@ export default function Bedachungen() {
           </div>
         </div>
       </div>
+      <BackButton />
 
       {/* Story Section */}
       <section className="py-4 bg-gray-50">
