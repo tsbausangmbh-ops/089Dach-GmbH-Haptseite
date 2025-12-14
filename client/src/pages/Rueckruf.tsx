@@ -176,10 +176,10 @@ export default function Rueckruf() {
         </div>
       </div>
 
-      <section className="py-12 bg-white">
+      <section className="py-8 bg-white">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mx-auto">
-            <div className="mb-8">
+            <div className="mb-6">
               <div className="text-center mb-6">
                 <div className="inline-flex items-center justify-center w-16 h-16 bg-primary/10 rounded-full mb-4">
                   <PhoneCall className="h-8 w-8 text-primary" />
@@ -342,10 +342,10 @@ export default function Rueckruf() {
         </div>
       </section>
 
-      <section className="py-12 bg-gray-50">
+      <section className="py-8 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-heading font-bold text-secondary mb-8 text-center">
+            <h2 className="text-2xl font-heading font-bold text-secondary mb-6 text-center">
               Warum einen Rückruf anfordern?
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
