@@ -201,9 +201,9 @@ export default function Rueckruf() {
         </div>
       </div>
 
-      <section className="py-8 bg-white">
+      <section className="py-8 bg-white" id="formular">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-5xl mx-auto">
             <div className="mb-6">
               <div className="text-center mb-6">
                 <div className="inline-flex items-center justify-center w-16 h-16 bg-primary/10 rounded-full mb-4">
