@@ -6,54 +6,53 @@ export default function Services() {
     {
       icon: <Home className="h-10 w-10 text-primary" />,
       title: "Dachsanierung",
-      description: "Schluss mit kalten Füßen und hohen Heizkosten. Eine energetische Sanierung macht Ihr Zuhause behaglich – im Winter warm, im Sommer kühl. Und Ihr Geldbeutel freut sich auch."
+      description: "Weniger heizen, mehr sparen. Eine neue Dämmung macht Ihr Zuhause warm im Winter und kühl im Sommer – und senkt Ihre Energiekosten um bis zu 30%."
     },
     {
       icon: <Warehouse className="h-10 w-10 text-primary" />,
       title: "Steil- & Flachdach",
-      description: "Ob traditionelle Ziegel oder modernes Flachdach – wir geben Ihrem Haus die Krone, die es verdient. Dauerhaft dicht, optisch perfekt, gebaut für Generationen."
+      description: "Ein Dach für Generationen. Ob klassische Ziegel oder modernes Flachdach – wir bauen dauerhaft dicht und optisch perfekt."
     },
     {
       icon: <Wrench className="h-10 w-10 text-primary" />,
       title: "Spenglerei",
-      description: "Kupfer, Zink, Aluminium – in unserer Werkstatt entstehen Einzelstücke mit Charakter. Dachrinnen, die nicht nur funktionieren, sondern Ihr Haus verschönern."
+      description: "Handarbeit mit Präzision. Dachrinnen, Fallrohre und Verblendungen aus Kupfer, Zink oder Alu – passgenau gefertigt in unserer Werkstatt."
     },
     {
       icon: <Hammer className="h-10 w-10 text-primary" />,
       title: "Reparaturen",
-      description: "Sturm gehabt? Tropft es von der Decke? Rufen Sie an. Wir kommen schnell und lösen das Problem – oft am selben Tag. Damit Sie wieder ruhig schlafen können."
+      description: "Tropft es durch? Wir finden das Leck und beheben es – schnell und dauerhaft. Damit Sie wieder ruhig schlafen können."
     },
     {
       icon: <ShieldCheck className="h-10 w-10 text-primary" />,
-      title: "Wartung & Pflege",
-      description: "Kleine Schäden werden teuer, wenn man sie ignoriert. Eine jährliche Inspektion kostet wenig, spart viel – und gibt Ihnen die Sicherheit, dass alles in Ordnung ist."
+      title: "Wartung",
+      description: "Vorbeugen statt reparieren. Eine jährliche Inspektion findet kleine Schäden, bevor sie teuer werden."
     },
     {
       icon: <Ruler className="h-10 w-10 text-primary" />,
       title: "Dachfenster",
-      description: "Mehr Licht verändert alles. Ein neues Dachfenster macht aus dem dunklen Speicher einen hellen Lieblingsraum. Wir zeigen Ihnen die Möglichkeiten."
+      description: "Mehr Licht, mehr Wohnqualität. Neue Dachfenster verwandeln dunkle Räume in helle Lieblingsorte."
     }
   ];
 
   return (
-    <section id="services" className="py-20 bg-gray-50">
+    <section id="services" className="py-20 bg-white">
       <div className="container mx-auto px-4">
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-primary font-bold tracking-wider uppercase text-sm">Unsere Expertise</span>
+        <div className="text-center max-w-2xl mx-auto mb-16">
+          <span className="text-primary font-bold tracking-wider uppercase text-sm">Was wir für Sie tun</span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-secondary mt-2 mb-4">
-            Handwerkskunst auf höchstem Niveau
+            Alles rund ums Dach – aus einer Hand
           </h2>
           <p className="text-muted-foreground text-lg">
-            Als Meisterbetrieb bieten wir Ihnen das gesamte Spektrum der Dach- und Spenglerarbeiten.
-            Qualität und Langlebigkeit stehen dabei an erster Stelle.
+            Vom kleinen Leck bis zur kompletten Sanierung. Wir beraten ehrlich und arbeiten sauber.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, index) => (
-            <Card key={index} className="border-none shadow-sm hover:shadow-md transition-shadow duration-300 rounded-sm overflow-hidden group">
+            <Card key={index} className="border border-gray-100 shadow-sm hover:shadow-md hover:border-primary/20 transition-all duration-300 rounded-sm overflow-hidden group">
               <CardHeader className="pb-4">
-                <div className="mb-4 p-3 bg-secondary/5 w-fit rounded-sm group-hover:bg-primary/10 transition-colors">
+                <div className="mb-4 p-3 bg-gray-50 w-fit rounded-sm group-hover:bg-primary/10 transition-colors">
                   {service.icon}
                 </div>
                 <CardTitle className="text-xl font-heading font-bold text-secondary">
