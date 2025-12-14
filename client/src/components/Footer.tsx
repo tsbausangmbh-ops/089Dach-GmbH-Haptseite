@@ -5,10 +5,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           
           <div className="space-y-4">
-            <div className="flex items-center gap-2 group">
-              <img src="/favicon.png" alt="089Dach Logo" className="h-12 w-auto" />
-              <div className="flex flex-col gap-0.5">
-                <span className="font-heading font-bold text-base leading-none text-white">089Dach GmbH</span>
+            <div className="flex items-start gap-3 group">
+              <img src="/favicon.png" alt="089Dach Logo" className="h-12 w-auto flex-shrink-0" />
+              <div className="flex flex-col gap-1">
+                <span className="font-heading font-bold text-lg leading-none text-white">089Dach</span>
+                <span className="text-sm font-medium text-white">GmbH</span>
                 <span className="text-[9px] tracking-widest uppercase text-gray-400 font-medium">München</span>
               </div>
             </div>
