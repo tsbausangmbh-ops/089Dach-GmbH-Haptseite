@@ -33,7 +33,7 @@ export default function Navbar() {
             </span>
           </div>
           <div className="flex gap-4">
-            <span>Mo-Fr: 08:00 - 16:00</span>
+            <span>Mo-Fr: 08:00 - 16:30</span>
             <span>München & Umgebung</span>
           </div>
         </div>
