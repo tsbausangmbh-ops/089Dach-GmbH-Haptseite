@@ -99,6 +99,21 @@ export default function Leistungen() {
         "Sturmschaden-Soforthilfe",
         "Schnelle Hilfe bei Schäden"
       ]
+    },
+    {
+      id: "energieberatung",
+      icon: <Home className="h-8 w-8 text-primary" />,
+      title: "Energieberatung & Förderanträge",
+      problem: "Sie möchten Ihr Dach energetisch sanieren, wissen aber nicht, welche Förderungen Ihnen zustehen?",
+      solution: "Unsere zertifizierten Energieberater aus unserem Partnernetzwerk beraten Sie und stellen die Förderanträge für Sie.",
+      result: "Sie erhalten die maximale Förderung und sparen bares Geld bei Ihrer Dachsanierung.",
+      story: "Familie Müller aus Pasing hat durch unsere Energieberatung 18.000€ KfW-Förderung erhalten – mehr als erwartet. Die Beratung hat sich um ein Vielfaches bezahlt gemacht.",
+      details: [
+        "Zertifizierte Energieberater (Partnernetzwerk)",
+        "KfW- & BAFA-Förderanträge",
+        "Energieausweis & Sanierungsfahrplan",
+        "Maximale Fördersummen sichern"
+      ]
     }
   ];
 
