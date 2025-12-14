@@ -339,15 +339,15 @@ export default function RatgeberBeratung() {
                   <ul className="space-y-3 text-sm">
                     <li className="flex justify-between border-b pb-2">
                       <span className="text-muted-foreground">Dachsanierung inkl. Eindeckung</span>
-                      <span className="font-semibold text-secondary">ca. 195 – 325 €/m²</span>
+                      <span className="font-semibold text-secondary">ca. 275 – 455 €/m²</span>
                     </li>
                     <li className="flex justify-between border-b pb-2">
                       <span className="text-muted-foreground">Dachneueindeckung (ohne Dämmung)</span>
-                      <span className="font-semibold text-secondary">ca. 130 – 260 €/m²</span>
+                      <span className="font-semibold text-secondary">ca. 180 – 365 €/m²</span>
                     </li>
                     <li className="flex justify-between">
                       <span className="text-muted-foreground">Flachdachsanierung</span>
-                      <span className="font-semibold text-secondary">ca. 100 – 200 €/m²</span>
+                      <span className="font-semibold text-secondary">ca. 140 – 280 €/m²</span>
                     </li>
                   </ul>
                 </div>
@@ -360,15 +360,15 @@ export default function RatgeberBeratung() {
                   <ul className="space-y-3 text-sm">
                     <li className="flex justify-between border-b pb-2">
                       <span className="text-muted-foreground">Aufsparrendämmung</span>
-                      <span className="font-semibold text-secondary">ca. 195 – 325 €/m²</span>
+                      <span className="font-semibold text-secondary">ca. 275 – 455 €/m²</span>
                     </li>
                     <li className="flex justify-between border-b pb-2">
                       <span className="text-muted-foreground">Zwischensparrendämmung</span>
-                      <span className="font-semibold text-secondary">ca. 65 – 130 €/m²</span>
+                      <span className="font-semibold text-secondary">ca. 90 – 180 €/m²</span>
                     </li>
                     <li className="flex justify-between">
                       <span className="text-muted-foreground">Untersparrendämmung</span>
-                      <span className="font-semibold text-secondary">ca. 50 – 100 €/m²</span>
+                      <span className="font-semibold text-secondary">ca. 70 – 140 €/m²</span>
                     </li>
                   </ul>
                 </div>
@@ -381,15 +381,15 @@ export default function RatgeberBeratung() {
                   <ul className="space-y-3 text-sm">
                     <li className="flex justify-between border-b pb-2">
                       <span className="text-muted-foreground">Dachfenster Einbau (inkl. Fenster)</span>
-                      <span className="font-semibold text-secondary">ca. 1.300 – 2.600 €</span>
+                      <span className="font-semibold text-secondary">ca. 1.800 – 3.650 €</span>
                     </li>
                     <li className="flex justify-between border-b pb-2">
                       <span className="text-muted-foreground">Dachfenster Austausch</span>
-                      <span className="font-semibold text-secondary">ca. 650 – 1.300 €</span>
+                      <span className="font-semibold text-secondary">ca. 910 – 1.820 €</span>
                     </li>
                     <li className="flex justify-between">
                       <span className="text-muted-foreground">Gaube (Schleppgaube)</span>
-                      <span className="font-semibold text-secondary">ca. 6.500 – 13.000 €</span>
+                      <span className="font-semibold text-secondary">ca. 9.100 – 18.200 €</span>
                     </li>
                   </ul>
                 </div>
@@ -402,15 +402,15 @@ export default function RatgeberBeratung() {
                   <ul className="space-y-3 text-sm">
                     <li className="flex justify-between border-b pb-2">
                       <span className="text-muted-foreground">Dachreparatur (klein)</span>
-                      <span className="font-semibold text-secondary">ca. 260 – 650 €</span>
+                      <span className="font-semibold text-secondary">ca. 365 – 910 €</span>
                     </li>
                     <li className="flex justify-between border-b pb-2">
                       <span className="text-muted-foreground">Rinnenreinigung</span>
-                      <span className="font-semibold text-secondary">ca. 130 – 260 €</span>
+                      <span className="font-semibold text-secondary">ca. 180 – 365 €</span>
                     </li>
                     <li className="flex justify-between">
                       <span className="text-muted-foreground">Dachwartung (jährlich)</span>
-                      <span className="font-semibold text-secondary">ca. 195 – 390 €</span>
+                      <span className="font-semibold text-secondary">ca. 275 – 545 €</span>
                     </li>
                   </ul>
                 </div>
