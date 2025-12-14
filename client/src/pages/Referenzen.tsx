@@ -255,6 +255,8 @@ export default function Referenzen() {
             src={heroImage}
             alt="Fertiggestelltes Dachsanierung-Projekt München - 089Dach Referenz Steildach"
             className="w-full h-full object-cover"
+            fetchPriority="high"
+            decoding="async"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-secondary/95 via-secondary/85 to-secondary/70"></div>
         </div>
@@ -344,6 +346,7 @@ export default function Referenzen() {
                         alt={`${project.title} - Vorher`} 
                         className="w-full h-full object-cover"
                         loading="lazy"
+                        decoding="async"
                       />
                       <div className="absolute bottom-2 left-2 bg-red-600 text-white text-xs font-bold px-2 py-1 rounded-xl">
                         VORHER
@@ -355,6 +358,7 @@ export default function Referenzen() {
                         alt={`${project.title} - Nachher`} 
                         className="w-full h-full object-cover"
                         loading="lazy"
+                        decoding="async"
                       />
                       <div className="absolute bottom-2 right-2 bg-green-600 text-white text-xs font-bold px-2 py-1 rounded-xl">
                         NACHHER

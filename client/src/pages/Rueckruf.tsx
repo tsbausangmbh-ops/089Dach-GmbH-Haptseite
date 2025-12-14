@@ -136,6 +136,8 @@ export default function Rueckruf() {
             src={heroImage}
             alt="Freundliche Mitarbeiterin am Telefon - kostenloser Rückruf-Service Dachdecker München"
             className="w-full h-full object-cover"
+            fetchPriority="high"
+            decoding="async"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-secondary/90 via-secondary/70 to-secondary/50"></div>
         </div>

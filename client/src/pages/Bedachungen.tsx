@@ -37,6 +37,8 @@ export default function Bedachungen() {
             src={heroImage}
             alt="Dachdecker bei Steildach-Eindeckung mit roten Tondachziegeln in München"
             className="w-full h-full object-cover"
+            fetchPriority="high"
+            decoding="async"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-secondary/90 via-secondary/70 to-secondary/50"></div>
         </div>
@@ -176,6 +178,7 @@ export default function Bedachungen() {
                 alt="Nahaufnahme roter Tondachziegel Textur - hochwertige Dacheindeckung München" 
                 className="rounded-xl shadow-xl w-full object-cover aspect-[4/5]"
                 loading="lazy"
+                decoding="async"
               />
               <div className="absolute -bottom-8 -left-8 bg-white p-8 rounded-xl shadow-lg max-w-sm hidden md:block">
                 <h4 className="font-bold text-secondary text-lg mb-4">Warum 089Dach?</h4>

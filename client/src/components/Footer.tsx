@@ -6,7 +6,7 @@ export default function Footer() {
           
           <div className="space-y-4">
             <div className="flex items-start gap-3 group">
-              <img src="/favicon.png" alt="089Dach Logo" className="h-14 w-auto flex-shrink-0" loading="lazy" />
+              <img src="/favicon.png" alt="089Dach Logo" className="h-14 w-auto flex-shrink-0" loading="lazy" decoding="async" />
               <div className="flex flex-col gap-1">
                 <span className="font-heading font-bold text-xl leading-none text-white">089Dach GmbH</span>
                 <span className="text-sm font-semibold text-primary">Ihr Dachdecker in München</span>

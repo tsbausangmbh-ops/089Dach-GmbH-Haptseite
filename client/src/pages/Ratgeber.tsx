@@ -106,6 +106,8 @@ export default function Ratgeber() {
             src={ratgeberHeroImage}
             alt="Dachexperte mit Checkliste"
             className="w-full h-full object-cover"
+            fetchPriority="high"
+            decoding="async"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-secondary/95 via-secondary/85 to-secondary/70"></div>
         </div>
@@ -207,6 +209,7 @@ export default function Ratgeber() {
                 alt="Hausbesitzer bei Dachberatung" 
                 className="absolute inset-0 w-full h-full object-cover opacity-80"
                 loading="lazy"
+                decoding="async"
               />
             </div>
           </div>

@@ -15,6 +15,8 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
             src={heroImage}
             alt="Dachdecker München bei Ziegeldach-Arbeiten auf rotem Steildach - 089Dach Meisterbetrieb"
             className="w-full h-full object-cover"
+            fetchPriority="high"
+            decoding="async"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-secondary/95 via-secondary/80 to-secondary/40" />
           
