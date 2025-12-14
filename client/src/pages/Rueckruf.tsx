@@ -84,7 +84,7 @@ export default function Rueckruf() {
               Wir helfen schnell.
             </h1>
             <p className="text-xl text-gray-200 max-w-xl mb-4">
-              Schreiben Sie uns, wir rufen Sie zurück. In der Regel innerhalb von 24 Stunden.
+              Schreiben Sie uns, wir rufen Sie zurück. In der Regel innerhalb von 24 Stunden vor Ort.
             </p>
             <p className="text-lg text-gray-300 max-w-xl">
               Kostenlos und unverbindlich.
