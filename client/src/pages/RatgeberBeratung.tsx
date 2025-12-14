@@ -92,11 +92,11 @@ export default function RatgeberBeratung() {
       </section>
       <BackButton />
 
-      <section className="py-16 bg-stone-50">
+      <section className="py-10 bg-stone-50">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mx-auto">
             
-            <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-r-lg mb-12">
+            <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-r-lg mb-8">
               <h2 className="text-2xl font-heading font-bold text-secondary mb-4 flex items-center gap-2">
                 <AlertTriangle className="h-6 w-6 text-red-500" />
                 Die Angst, die viele lähmt:
@@ -116,7 +116,7 @@ export default function RatgeberBeratung() {
               </p>
             </div>
 
-            <div className="bg-primary/10 border border-primary/30 rounded-lg p-8 mb-12 text-center">
+            <div className="bg-primary/10 border border-primary/30 rounded-lg p-8 mb-8 text-center">
               <Heart className="h-12 w-12 text-primary mx-auto mb-4" />
               <h2 className="text-2xl font-heading font-bold text-secondary mb-4">
                 Wir verstehen das. Deshalb machen wir es anders.
@@ -128,7 +128,7 @@ export default function RatgeberBeratung() {
               </p>
             </div>
 
-            <div className="bg-white border border-gray-200 rounded-lg p-8 mb-12">
+            <div className="bg-white border border-gray-200 rounded-lg p-8 mb-8">
               <div className="text-center mb-8">
                 <div className="inline-flex items-center justify-center w-16 h-16 bg-primary/10 rounded-full mb-4">
                   <Euro className="h-8 w-8 text-primary" />
@@ -235,7 +235,7 @@ export default function RatgeberBeratung() {
               </div>
             </div>
 
-            <div className="bg-blue-50 border-2 border-blue-400 rounded-lg p-8 mb-12">
+            <div className="bg-blue-50 border-2 border-blue-400 rounded-lg p-8 mb-8">
               <div className="flex items-start gap-4">
                 <div className="bg-blue-500 text-white p-3 rounded-lg shrink-0">
                   <Euro className="h-8 w-8" />
@@ -275,7 +275,7 @@ export default function RatgeberBeratung() {
               </div>
             </div>
 
-            <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-r-lg mb-12">
+            <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-r-lg mb-8">
               <h2 className="text-2xl font-heading font-bold text-secondary mb-4">Unser Versprechen an Sie:</h2>
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
@@ -309,7 +309,7 @@ export default function RatgeberBeratung() {
               </ul>
             </div>
 
-            <div className="bg-white border-2 border-primary rounded-lg p-8 mb-12 shadow-lg">
+            <div className="bg-white border-2 border-primary rounded-lg p-8 mb-8 shadow-lg">
               <h2 className="text-2xl font-heading font-bold text-secondary mb-6 text-center">
                 <Calculator className="inline h-6 w-6 text-primary mr-2" />
                 So funktioniert unser Festpreis:
@@ -360,7 +360,7 @@ export default function RatgeberBeratung() {
               </div>
             </div>
 
-            <div className="bg-secondary text-white rounded-lg p-8 mb-12">
+            <div className="bg-secondary text-white rounded-lg p-8 mb-8">
               <h3 className="text-xl font-heading font-bold mb-4 flex items-center gap-2">
                 <Users className="h-5 w-5 text-primary" />
                 Familie Weber aus Schwabing – die Angst war unbegründet:
@@ -392,7 +392,7 @@ export default function RatgeberBeratung() {
               </div>
             </div>
 
-            <div className="grid md:grid-cols-3 gap-6 mb-12">
+            <div className="grid md:grid-cols-3 gap-6 mb-8">
               <div className="bg-white border-2 border-primary rounded-lg p-6 text-center">
                 <p className="text-5xl font-bold text-primary mb-2">0€</p>
                 <p className="font-bold text-secondary">Beratung vor Ort</p>
@@ -410,7 +410,7 @@ export default function RatgeberBeratung() {
               </div>
             </div>
 
-            <div className="bg-stone-100 rounded-lg p-8 mb-12">
+            <div className="bg-stone-100 rounded-lg p-8 mb-8">
               <h3 className="text-xl font-heading font-bold text-secondary mb-4 text-center">
                 Warum kostenlos? Was ist der Haken?
               </h3>
@@ -424,7 +424,7 @@ export default function RatgeberBeratung() {
               </p>
             </div>
 
-            <div className="bg-secondary text-white rounded-lg p-8 mb-12 text-center">
+            <div className="bg-secondary text-white rounded-lg p-8 mb-8 text-center">
               <h2 className="text-3xl font-heading font-bold mb-4">
                 Machen Sie den ersten Schritt – es kostet Sie nichts.
               </h2>
