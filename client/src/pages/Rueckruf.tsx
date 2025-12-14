@@ -61,7 +61,7 @@ export default function Rueckruf() {
         title="Rückruf anfordern | Dachdecker München - 089Dach"
         description="Kostenloser Rückruf vom Dachdecker-Meisterbetrieb. Wir rufen Sie schnellstmöglich zurück. Unverbindlich & persönlich!"
         canonical="https://089dach.de/rueckruf"
-        keywords="rückruf anfordern dachdecker münchen, kostenlose beratung dach münchen, dachdecker angebot einholen münchen, termin vereinbaren dachdecker obermenzing, dachberatung vor ort münchen, schnelle antwort dachdecker bayern"
+        keywords="rückruf dachdecker münchen, kostenlose beratung angebot termin anfrage, rückruf obermenzing pasing laim schwabing sendling bogenhausen moosach, rückruf gräfelfing planegg germering starnberg dachau fürstenfeldbruck, schnelle antwort persönlich unverbindlich vor ort"
         aiSummary="089Dach GmbH Rückruf-Service: Kostenloser Rückruf vom Dachdecker-Meisterbetrieb München. Persönliche Beratung, in der Regel Antwort am selben Tag. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Rückruf anfordern", url: "/rueckruf" }]} />

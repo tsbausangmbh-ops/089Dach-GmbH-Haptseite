@@ -79,7 +79,7 @@ export default function Reparaturservice() {
         title="Dachreparatur München | Notfall & Sturmschäden - 089Dach"
         description="Schnelle Dachreparatur in München: Sturmschäden, Leckortung, Wasserschäden. In 24h vor Ort. Versicherungsservice inklusive. Jetzt anrufen!"
         canonical="https://089dach.de/leistungen/reparaturservice"
-        keywords="dachreparatur sofort münchen, notdienst dachdecker münchen 24h, sturmschaden dach versicherung münchen, dachnotdienst wochenende münchen, undichtes dach schnell reparieren, dachziegel kaputt austauschen münchen, wasserschaden dach münchen, dach leckt was tun münchen, kleine dachreparatur kosten münchen"
+        keywords="dachreparatur münchen, notdienst sturmschaden hagelschaden wasserschaden undichtes dach, dachziegel austauschen firstziegel ortgang traufe kehle, dachreparatur obermenzing pasing laim schwabing sendling bogenhausen moosach, dachreparatur gräfelfing planegg germering starnberg dachau fürstenfeldbruck, schnelle hilfe notfall dach versicherung schadensmeldung"
         aiSummary="089Dach GmbH bietet schnelle Dachreparatur in München. Notfallabdichtung bei Sturmschäden und Wasserschäden. In der Regel innerhalb von 24 Stunden vor Ort. Versicherungsservice inklusive. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Reparaturservice", url: "/leistungen/reparaturservice" }]} />

@@ -86,7 +86,7 @@ export default function Ratgeber() {
         title="Dach-Ratgeber München | Tipps vom Meister - 089Dach"
         description="Expertenwissen zu Dachsanierung, Dämmung, Förderung & Wartung. Aus 25 Jahren Erfahrung auf Münchner Dächern. Jetzt informieren!"
         canonical="https://089dach.de/ratgeber"
-        keywords="dach ratgeber tipps münchen, dachwartung selbst checken, förderung dachsanierung 2024 2025 bayern, dach wissen hausbesitzer, dachdämmung selber machen tipps, wann dach sanieren erkennen, dachschäden erkennen anleitung"
+        keywords="dach ratgeber münchen, tipps tricks wissen anleitung checkliste, dämmung leckortung beratung wartung förderung sanierung, ratgeber obermenzing pasing laim schwabing sendling bogenhausen, ratgeber gräfelfing planegg germering starnberg dachau, hausbesitzer immobilienbesitzer bauherren architekten"
         aiSummary="089Dach GmbH Ratgeber: Expertenwissen zu Dachsanierung, Dämmung, Leckortung und Förderungen. Tipps vom Meisterbetrieb aus 25 Jahren Erfahrung in München. Kostenlose Beratung. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Tipps & Tricks", url: "/ratgeber" }]} />

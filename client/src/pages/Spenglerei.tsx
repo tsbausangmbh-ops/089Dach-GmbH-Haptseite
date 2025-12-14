@@ -15,7 +15,7 @@ export default function Spenglerei() {
         title="Spenglerei München | Dachrinnen & Kupfer - 089Dach"
         description="Spenglerarbeiten vom Meister: Dachrinnen, Stehfalz, Kupferarbeiten & Kamineinfassungen. Handgefertigt in eigener Werkstatt. Jetzt anfragen!"
         canonical="https://089dach.de/leistungen/spenglerei"
-        keywords="spengler meister münchen, dachrinne erneuern kosten münchen, stehfalz dach metall münchen, kupferdach verlegen münchen kosten, blecharbeiten dach münchen, dachrinne kupfer zink aluminium münchen, kamineinfassung blech münchen, regenrinne montieren lassen münchen, fassadenbekleidung metall münchen"
+        keywords="spengler meister münchen, dachrinne kupfer zink aluminium titanzink edelstahl, stehfalz winkelfalz kupferdach metalldach blechdach, kamineinfassung kaminverwahrung gaubenverkleidung mauerabdeckung fallrohre, spengler obermenzing pasing laim schwabing sendling bogenhausen neuhausen, spengler gräfelfing planegg germering starnberg dachau fürstenfeldbruck"
         aiSummary="089Dach GmbH Spenglerei in München-Obermenzing. Dachrinnen aus Kupfer, Zink und Aluminium, Stehfalzdächer, Kamineinfassungen und Gaubenverkleidungen. Handgefertigt in eigener Werkstatt. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Spenglerei", url: "/leistungen/spenglerei" }]} />

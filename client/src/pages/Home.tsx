@@ -19,7 +19,7 @@ export default function Home() {
         title="Dachdecker München Obermenzing | 089Dach Meisterbetrieb"
         description="Dachsanierung, Bedachungen & Spenglerarbeiten in München. Meisterbetrieb seit 1998 mit 10 Jahren Garantie. Jetzt kostenlose Beratung sichern!"
         canonical="https://089dach.de/"
-        keywords="dachdecker münchen, dachsanierung münchen kosten, spenglerarbeiten münchen, dachdecker obermenzing pasing laim, steildach sanierung münchen, flachdach abdichtung münchen, dachdecker in meiner nähe münchen, dach reparieren lassen münchen, dachdecker notdienst münchen, meisterbetrieb dach bayern"
+        keywords="dachdecker münchen, dachsanierung münchen kosten, spenglerarbeiten münchen, dachdecker obermenzing pasing laim schwabing sendling bogenhausen moosach neuhausen nymphenburg, steildach sanierung flachdach abdichtung dachfenster gaubenbau, dachdecker in meiner nähe münchen gräfelfing planegg germering fürstenfeldbruck dachau starnberg, dach reparieren dachdecker notdienst meisterbetrieb bayern"
         aiSummary="089Dach GmbH ist ein Dachdecker- und Spengler-Meisterbetrieb in München-Obermenzing. Spezialisiert auf Dachsanierung, Steildach, Flachdach, Spenglerarbeiten und Dachfenster. Telefon: 089 12621964. Adresse: Thuillestr. 20, 81247 München. 10 Jahre Garantie, über 100 zufriedene Kunden."
       />
       <LocalBusinessSchema />

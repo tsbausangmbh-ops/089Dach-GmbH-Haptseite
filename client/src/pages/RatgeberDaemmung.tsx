@@ -14,7 +14,7 @@ export default function RatgeberDaemmung() {
         title="Dachdämmung München | 30% Heizkosten sparen - 089Dach"
         description="Bis zu 30% Heizkosten sparen mit professioneller Dachdämmung. 40% Förderung möglich. Kostenlose Beratung. Jetzt anfragen!"
         canonical="https://089dach.de/ratgeber/daemmung"
-        keywords="dachdämmung kosten münchen pro qm, dachsanierung mit dämmung förderung, heizkosten senken durch dachdämmung, kfw förderung dachdämmung 2024 2025, aufsparrendämmung vs zwischensparrendämmung, beste dämmung für altbau dach, energetisch dämmen dach bayern"
+        keywords="dachdämmung münchen, aufsparrendämmung zwischensparrendämmung untersparrendämmung einblasdämmung, heizkosten senken förderung kfw bafa geg energetisch, dämmung obermenzing pasing laim schwabing sendling bogenhausen, dämmung gräfelfing planegg germering starnberg dachau, kosten qm altbau neubau einfamilienhaus reihenhaus"
         aiSummary="089Dach GmbH: Dachdämmung in München mit bis zu 30% Heizkosten-Ersparnis. Aufsparrendämmung und Zwischensparrendämmung. Bis zu 40% staatliche Förderung. Kostenlose Vor-Ort-Beratung. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[

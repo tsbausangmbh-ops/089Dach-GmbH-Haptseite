@@ -32,7 +32,7 @@ export default function Dachsanierung() {
         title="Dachsanierung München | Energetisch sanieren - 089Dach"
         description="Professionelle Dachsanierung in München mit bis zu 30% Heizkosten-Ersparnis. KfW-Förderung, Meisterqualität. Jetzt kostenlose Beratung!"
         canonical="https://089dach.de/leistungen/dachsanierung"
-        keywords="dachsanierung münchen kosten, energetische dachsanierung förderung bayern, kfw dachsanierung 2024 2025, dachdämmung münchen preis, dach erneuern lassen kosten münchen, dachsanierung obermenzing pasing, was kostet dachsanierung einfamilienhaus, dach komplett sanieren münchen, wärmedämmung dach nachträglich, dachdecker für sanierung münchen"
+        keywords="dachsanierung münchen kosten, energetische dachsanierung förderung bayern, kfw dachsanierung 2024 2025, dachdämmung münchen preis, dachsanierung obermenzing pasing laim schwabing sendling bogenhausen moosach neuhausen, dachsanierung gräfelfing planegg germering starnberg dachau, aufsparrendämmung zwischensparrendämmung asbestsanierung neueindeckung, was kostet dachsanierung einfamilienhaus reihenhaus altbau"
         aiSummary="089Dach GmbH bietet professionelle Dachsanierung in München-Obermenzing mit energetischer Beratung und KfW-Förderung. Bis zu 30% Heizkosten sparen. 10 Jahre Garantie. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dachsanierung", url: "/leistungen/dachsanierung" }]} />

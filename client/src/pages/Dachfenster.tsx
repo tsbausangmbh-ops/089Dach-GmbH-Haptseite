@@ -30,7 +30,7 @@ export default function Dachfenster() {
         title="Dachfenster München | Velux Einbau & Austausch - 089Dach"
         description="Dachfenster-Einbau vom Meister: Velux, Roto, Lichtkuppeln. 40% mehr Tageslicht, Einbau in 1-2 Tagen. Jetzt Beratung anfordern!"
         canonical="https://089dach.de/leistungen/dachfenster"
-        keywords="dachfenster einbauen lassen münchen kosten, velux fenster montage münchen, tageslicht dachgeschoss münchen, dachfenster austauschen kosten münchen, roto dachfenster münchen, dachbalkon cabrio fenster münchen, lichtkuppel flachdach münchen, was kostet dachfenster einbau, dachfenster nachträglich einbauen münchen"
+        keywords="dachfenster münchen, velux roto fakro schwingfenster klappfenster, dachbalkon cabrio-fenster lichtkuppel lichtband oberlicht, dachfenster obermenzing pasing laim schwabing sendling bogenhausen moosach, dachfenster gräfelfing planegg germering starnberg dachau, dachfenster einbau austausch montage nachträglich kosten"
         aiSummary="089Dach GmbH installiert Dachfenster in München: Velux, Roto, Schwingfenster, Lichtkuppeln. Zertifizierter VELUX-Partner. Einbau in 1-2 Tagen ohne Dreck. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dachfenster", url: "/leistungen/dachfenster" }]} />

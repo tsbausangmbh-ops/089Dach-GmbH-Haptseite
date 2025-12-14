@@ -15,7 +15,7 @@ export default function Bedachungen() {
         title="Bedachungen München | Steildach & Flachdach - 089Dach"
         description="Steildach & Flachdach vom Meisterbetrieb München: Neueindeckung, Abdichtung & energetische Dämmung. 10 Jahre Garantie. Jetzt Angebot anfordern!"
         canonical="https://089dach.de/leistungen/bedachungen"
-        keywords="steildach neu eindecken münchen kosten, flachdach abdichten lassen münchen, dachabdichtung bitumen münchen, dachisolierung nachträglich münchen, dacheindeckung ziegel schiefer münchen, tondachziegel verlegen münchen, betondachsteine kosten bayern, dachbegrünung extensiv münchen, flachdach undicht reparieren münchen"
+        keywords="steildach flachdach münchen, tondachziegel betondachsteine schiefer biberschwanz, bitumenabdichtung kunststoffbahnen flüssigkunststoff dachbegrünung, steildach obermenzing pasing laim schwabing sendling bogenhausen, flachdach gräfelfing planegg germering starnberg dachau, dacheindeckung neueindeckung dachabdichtung dachisolierung terrassenbeläge balkone"
         aiSummary="089Dach GmbH spezialisiert auf Steildach und Flachdach in München. Neueindeckung mit Tondachziegeln, Betonsteine, Schiefer. Flachdach-Abdichtung und Dachbegrünung. Meisterbetrieb seit 1998. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Bedachungen", url: "/leistungen/bedachungen" }]} />

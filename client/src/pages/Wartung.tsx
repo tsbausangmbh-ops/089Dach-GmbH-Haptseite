@@ -79,7 +79,7 @@ export default function Wartung() {
         title="Dachwartung München | Inspektion & Reinigung - 089Dach"
         description="Professionelle Dachwartung in München: Jährliche Inspektion, Dachrinnenreinigung, Moosentfernung. Schäden früh erkennen. Jetzt Termin vereinbaren!"
         canonical="https://089dach.de/leistungen/wartung"
-        keywords="dachwartung jährlich münchen kosten, dachinspektion nach sturm münchen, dachrinnenreinigung herbst münchen, dachreinigung moos entfernen münchen, dachpflege vertrag münchen, dach überprüfen lassen münchen, vorsorge dach münchen, dachcheck frühjahr herbst bayern"
+        keywords="dachwartung münchen, dachinspektion dachrinnenreinigung moosentfernung dachreinigung dachpflege, laub entfernen algen flechten ziegel prüfen firstziegel ortgang, dachwartung obermenzing pasing laim schwabing sendling bogenhausen moosach, dachwartung gräfelfing planegg germering starnberg dachau, wartungsvertrag jährlich frühjahr herbst kontrolle"
         aiSummary="089Dach GmbH bietet Dachwartung in München: Jährliche Dachinspektion, Dachrinnenreinigung, Moosentfernung und Kleinreparaturen. Schäden früh erkennen und teure Folgeschäden vermeiden. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Leistungen", url: "/leistungen" }, { name: "Wartung", url: "/leistungen/wartung" }]} />
