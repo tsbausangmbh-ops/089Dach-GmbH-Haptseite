@@ -355,6 +355,84 @@ export default function DaemmungInfo() {
               </div>
             </div>
 
+            <div className="bg-white border border-stone-200 rounded-xl p-8 mb-16">
+              <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-6 text-center">
+                So läuft eine Dachdämmung bei uns ab
+              </h2>
+              <p className="text-center text-muted-foreground max-w-2xl mx-auto mb-8">
+                Viele Hausbesitzer scheuen sich vor einer Dämmung, weil sie nicht wissen, was auf sie zukommt. 
+                Bei uns ist der Prozess <strong className="text-secondary">transparent, planbar und stressfrei</strong>.
+              </p>
+              <div className="grid md:grid-cols-4 gap-6">
+                <div className="text-center">
+                  <div className="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center mx-auto mb-3 font-bold text-lg">1</div>
+                  <h4 className="font-bold text-secondary mb-2">Kostenlose Beratung</h4>
+                  <p className="text-sm text-muted-foreground">Wir kommen zu Ihnen, schauen uns Ihr Dach an und besprechen Ihre Wünsche.</p>
+                </div>
+                <div className="text-center">
+                  <div className="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center mx-auto mb-3 font-bold text-lg">2</div>
+                  <h4 className="font-bold text-secondary mb-2">Individuelles Angebot</h4>
+                  <p className="text-sm text-muted-foreground">Sie erhalten ein detailliertes Angebot – inkl. Förderberatung. Ohne versteckte Kosten.</p>
+                </div>
+                <div className="text-center">
+                  <div className="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center mx-auto mb-3 font-bold text-lg">3</div>
+                  <h4 className="font-bold text-secondary mb-2">Professionelle Umsetzung</h4>
+                  <p className="text-sm text-muted-foreground">Unser erfahrenes Team führt die Arbeiten sauber und termingerecht durch.</p>
+                </div>
+                <div className="text-center">
+                  <div className="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center mx-auto mb-3 font-bold text-lg">4</div>
+                  <h4 className="font-bold text-secondary mb-2">Langfristig sparen</h4>
+                  <p className="text-sm text-muted-foreground">Ab sofort sparen Sie Heizkosten – Jahr für Jahr, Jahrzehnt für Jahrzehnt.</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-stone-50 rounded-xl p-8 mb-16">
+              <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-6 text-center">
+                Häufige Fragen zur Dachdämmung
+              </h2>
+              <div className="max-w-3xl mx-auto space-y-4">
+                <div className="bg-white p-5 rounded-lg border border-stone-200">
+                  <h4 className="font-bold text-secondary mb-2">Lohnt sich eine Dachdämmung bei meinem Altbau überhaupt?</h4>
+                  <p className="text-muted-foreground">Gerade bei Altbauten ist die Ersparnis am größten! Ältere Häuser haben oft gar keine oder nur sehr dünne Dämmung. Hier sparen Sie nach der Dämmung am meisten – oft 30% oder mehr Ihrer Heizkosten.</p>
+                </div>
+                <div className="bg-white p-5 rounded-lg border border-stone-200">
+                  <h4 className="font-bold text-secondary mb-2">Wie lange dauert eine Dachdämmung?</h4>
+                  <p className="text-muted-foreground">Bei einem typischen Einfamilienhaus dauert die Dämmung je nach Umfang 3-7 Werktage. Sie können während der Arbeiten normal in Ihrem Haus wohnen – wir arbeiten von außen oder auf dem Dachboden.</p>
+                </div>
+                <div className="bg-white p-5 rounded-lg border border-stone-200">
+                  <h4 className="font-bold text-secondary mb-2">Muss ich mich selbst um die Förderung kümmern?</h4>
+                  <p className="text-muted-foreground">Nein! Wir beraten Sie zu allen Fördermöglichkeiten (BAFA, KfW) und helfen Ihnen bei der Antragstellung. So bekommen Sie bis zu 40% der Kosten zurück – ohne Stress.</p>
+                </div>
+                <div className="bg-white p-5 rounded-lg border border-stone-200">
+                  <h4 className="font-bold text-secondary mb-2">Hilft eine Dämmung auch gegen Hitze im Sommer?</h4>
+                  <p className="text-muted-foreground">Absolut! Eine gute Dämmung wirkt in beide Richtungen: Im Winter bleibt die Wärme drinnen, im Sommer bleibt die Hitze draußen. Schluss mit tropischen Nächten im Dachgeschoss.</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-br from-green-50 to-green-100 border border-green-200 rounded-xl p-8 mb-16">
+              <h2 className="text-2xl font-heading font-bold text-secondary mb-6 text-center">
+                Was unsere Kunden sagen
+              </h2>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="bg-white p-6 rounded-lg shadow-sm">
+                  <p className="text-muted-foreground italic mb-4">
+                    „Wir haben lange gezögert, aber jetzt ärgern wir uns, dass wir nicht früher gedämmt haben. 
+                    Die erste Heizkostenabrechnung nach der Dämmung war ein echter Augenöffner – über 400 Euro weniger!"
+                  </p>
+                  <p className="font-medium text-secondary">– Familie Huber, München-Pasing</p>
+                </div>
+                <div className="bg-white p-6 rounded-lg shadow-sm">
+                  <p className="text-muted-foreground italic mb-4">
+                    „Endlich können wir unser Dachgeschoss auch im Winter nutzen. Vorher war es dort so kalt, 
+                    dass wir den Raum im Winter gemieden haben. Jetzt ist es unser Lieblingsraum."
+                  </p>
+                  <p className="font-medium text-secondary">– Herr Schneider, Grünwald</p>
+                </div>
+              </div>
+            </div>
+
             <div className="bg-secondary text-white rounded-lg p-8 text-center">
               <h2 className="text-3xl font-heading font-bold mb-4">
                 Bereit für weniger Heizkosten?
