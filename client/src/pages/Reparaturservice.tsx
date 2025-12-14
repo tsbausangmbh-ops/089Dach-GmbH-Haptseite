@@ -75,16 +75,16 @@ export default function Reparaturservice() {
   return (
     <div className="min-h-screen bg-white">
       <SEO 
-        title="Dachreparatur München | Notdienst & Sturmschäden"
+        title="Dachreparatur München | Schnelle Hilfe bei Sturmschäden"
         description="Schnelle Hilfe bei Dachschäden in München: Notfallabdichtung, Leckortung, Sturm- und Hagelschäden inkl. Versicherungsservice. Rückruf-Service."
         canonical="https://089dach.de/reparaturservice"
         keywords="dachreparatur münchen, notdienst dach münchen, sturmschaden dach münchen, dachnotdienst münchen, undichtes dach münchen"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Reparaturservice", url: "/reparaturservice" }]} />
       <ServiceSchema 
-        pageName="Dachreparatur & Notdienst München"
+        pageName="Dachreparatur München"
         services={[
-          { name: "Dach-Notdienst", description: "Schnelle Hilfe bei Wasserschäden und Sturmschäden innerhalb von 4 Stunden" },
+          { name: "Schnelle Dachreparatur", description: "Hilfe bei Wasserschäden und Sturmschäden - Antwort innerhalb von 24 Stunden" },
           { name: "Leckortung", description: "Professionelle Suche und Behebung undichter Stellen" },
           { name: "Versicherungsservice", description: "Dokumentation und Abwicklung für Ihre Versicherung" }
         ]}
@@ -97,7 +97,7 @@ export default function Reparaturservice() {
           <div className="max-w-4xl">
             <div className="flex items-center gap-2 mb-4">
               <AlertTriangle className="h-6 w-6" />
-              <span className="font-bold tracking-wider uppercase text-sm">Dach-Notdienst München</span>
+              <span className="font-bold tracking-wider uppercase text-sm">Schnelle Dachreparatur München</span>
             </div>
             <h1 className="text-4xl md:text-6xl font-heading font-bold mt-4 mb-6">
               Dach-Notfall? Wir helfen schnell.

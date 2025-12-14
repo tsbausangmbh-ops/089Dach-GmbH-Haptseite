@@ -96,7 +96,7 @@ export default function Leistungen() {
         "Jährliche Dachinspektion",
         "Rinnenreinigung",
         "Sturmschaden-Soforthilfe",
-        "4h-Notdienst"
+        "Schnelle Hilfe bei Schäden"
       ]
     }
   ];
@@ -117,7 +117,7 @@ export default function Leistungen() {
           { name: "Steildach & Flachdach", description: "Neueindeckung und Abdichtung für alle Dachtypen" },
           { name: "Spenglerarbeiten", description: "Dachrinnen, Kamineinfassungen und Metallverarbeitung" },
           { name: "Dachfenster", description: "Velux und Roto Einbau und Austausch" },
-          { name: "Wartung & Notdienst", description: "Jährliche Inspektion und schnelle Hilfe bei Schäden" }
+          { name: "Wartung & Reparatur", description: "Jährliche Inspektion und schnelle Hilfe bei Schäden" }
         ]}
       />
       <Navbar />

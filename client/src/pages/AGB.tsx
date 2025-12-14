@@ -105,7 +105,7 @@ export default function AGB() {
             <li>Dachfenstereinbau und -austausch</li>
             <li>Spenglerarbeiten (Dachrinnen, Fallrohre, Blecharbeiten)</li>
             <li>Fassadenverkleidungen</li>
-            <li>Notdienst und Sturmschadenbeseitigung</li>
+            <li>Schnelle Reparaturen und Sturmschadenbeseitigung</li>
           </ul>
 
           {/* Anordnungsrecht Box */}

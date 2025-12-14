@@ -41,8 +41,8 @@ export default function FAQ() {
       color: "bg-secondary/5 border-secondary/20"
     },
     {
-      question: "Bieten Sie Notdienst an?",
-      answer: "Ja, wir sind bei Sturmschäden und akuten Wassereintritten kurzfristig erreichbar und handeln schnell.",
+      question: "Wie schnell erhalte ich eine Antwort?",
+      answer: "Wir antworten auf alle Anfragen innerhalb von 24 Stunden. Bei dringenden Fällen rufen Sie uns direkt an.",
       color: "bg-primary/10 border-primary/20"
     },
     {

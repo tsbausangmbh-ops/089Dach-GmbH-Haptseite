@@ -135,7 +135,7 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
             <div className="py-6 md:py-8 px-4 text-center text-white">
               <Clock className="h-8 w-8 text-primary mx-auto mb-2" />
               <p className="font-bold text-lg">Schnelle Hilfe</p>
-              <p className="text-sm text-gray-400">Notdienst: Antwort in 2 Std.</p>
+              <p className="text-sm text-gray-400">Antwort in 24 Stunden</p>
             </div>
           </div>
         </div>
