@@ -175,7 +175,7 @@ export default function Rueckruf() {
                 </a>
               </Button>
               <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-secondary font-bold rounded-xl" data-testid="button-hero-form">
-                <a href="#formular">Termin wählen</a>
+                <a href="#formular">Beratungstermin wählen</a>
               </Button>
             </div>
           </div>
