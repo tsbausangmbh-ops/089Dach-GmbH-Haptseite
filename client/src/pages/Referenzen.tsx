@@ -12,10 +12,18 @@ import img6 from "@assets/generated_images/flat_green_roof_with_natural_variatio
 import img7 from "@assets/generated_images/slate_roof_with_copper_details_and_patina.png";
 import heroImage from "@assets/generated_images/historic_building_roof_renovation.png";
 
+import before1 from "@assets/generated_images/damaged_old_roof_before_renovation.png";
+import before2 from "@assets/generated_images/historic_roof_needing_restoration.png";
+import before3 from "@assets/generated_images/damaged_commercial_flat_roof.png";
+import before4 from "@assets/generated_images/dark_attic_before_window_installation.png";
+import before5 from "@assets/generated_images/villa_slate_roof_before_renovation.png";
+import before6 from "@assets/generated_images/office_flat_roof_with_leaks.png";
+
 export default function Referenzen() {
   const projects = [
     {
-      src: img1,
+      before: before1,
+      after: img1,
       title: "Einfamilienhaus Obermenzing",
       category: "Neubau / Steildach",
       problem: "Das 40 Jahre alte Dach war undicht, die Ziegel brüchig, die Dämmung veraltet.",
@@ -25,7 +33,8 @@ export default function Referenzen() {
       quote: "Unsere Nachbarn fragen, ob wir ein neues Haus gebaut haben!"
     },
     {
-      src: img5,
+      before: before2,
+      after: img5,
       title: "Altbau Sanierung Haidhausen",
       category: "Sanierung / Denkmalschutz",
       problem: "Historisches Gebäude unter Denkmalschutz mit maroder Dachsubstanz.",
@@ -35,7 +44,8 @@ export default function Referenzen() {
       quote: "Der Charme des Hauses wurde bewahrt – nur jetzt ohne Wasserflecken."
     },
     {
-      src: img6,
+      before: before3,
+      after: img6,
       title: "Gewerbepark Nord",
       category: "Flachdach / Begrünung",
       problem: "Undichte Flachdächer, hohe Hitzeentwicklung im Sommer, schlechtes Mikroklima.",
@@ -45,7 +55,8 @@ export default function Referenzen() {
       quote: "Unsere Mitarbeiter lieben die neuen Pausenbereiche mit Blick aufs Gründach."
     },
     {
-      src: img4,
+      before: before4,
+      after: img4,
       title: "Dachausbau Schwabing",
       category: "Dachfenster / Ausbau",
       problem: "Dunkles, ungemütliches Dachgeschoss, das als Wohnraum genutzt werden sollte.",
@@ -55,7 +66,8 @@ export default function Referenzen() {
       quote: "Aus dem Abstellraum wurde unser Lieblingsraum im Haus."
     },
     {
-      src: img7,
+      before: before5,
+      after: img7,
       title: "Villa Grünwald",
       category: "Schiefer / Spenglerarbeiten",
       problem: "Repräsentative Villa benötigte eine hochwertige Dachsanierung.",
@@ -65,7 +77,8 @@ export default function Referenzen() {
       quote: "Die Handwerkskunst sieht man auf den ersten Blick – wunderschön."
     },
     {
-      src: img3,
+      before: before6,
+      after: img3,
       title: "Bürogebäude Nymphenburg",
       category: "Flachdachsanierung",
       problem: "Wiederkehrende Undichtigkeiten, hohe Energiekosten, mangelnde Sicherheitsausstattung.",
@@ -139,17 +152,34 @@ export default function Referenzen() {
             {projects.map((project, index) => (
               <div key={index} className="group flex flex-col bg-white rounded-sm overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300" data-testid={`card-project-${index}`}>
                 <div className="relative aspect-[16/9] overflow-hidden">
-                  <img 
-                    src={project.src} 
-                    alt={project.title} 
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                  />
+                  <div className="grid grid-cols-2 h-full">
+                    <div className="relative">
+                      <img 
+                        src={project.before} 
+                        alt={`${project.title} - Vorher`} 
+                        className="w-full h-full object-cover"
+                      />
+                      <div className="absolute bottom-2 left-2 bg-red-600 text-white text-xs font-bold px-2 py-1 rounded-sm">
+                        VORHER
+                      </div>
+                    </div>
+                    <div className="relative">
+                      <img 
+                        src={project.after} 
+                        alt={`${project.title} - Nachher`} 
+                        className="w-full h-full object-cover"
+                      />
+                      <div className="absolute bottom-2 right-2 bg-green-600 text-white text-xs font-bold px-2 py-1 rounded-sm">
+                        NACHHER
+                      </div>
+                    </div>
+                  </div>
                   <div className="absolute top-4 left-4">
                     <span className="bg-primary text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-sm">
                       {project.category}
                     </span>
                   </div>
-                  <div className="absolute bottom-4 right-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-sm flex items-center gap-2">
+                  <div className="absolute bottom-4 right-1/2 translate-x-1/2 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-sm flex items-center gap-2">
                     <Clock className="h-4 w-4 text-primary" />
                     <span className="text-sm font-medium text-secondary">{project.duration}</span>
                   </div>
