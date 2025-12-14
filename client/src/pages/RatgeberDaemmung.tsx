@@ -95,7 +95,7 @@ export default function RatgeberDaemmung() {
       </section>
       <BackButton />
 
-      <section className="py-16 bg-stone-50">
+      <section className="py-2 md:py-4 bg-stone-50">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mx-auto">
             

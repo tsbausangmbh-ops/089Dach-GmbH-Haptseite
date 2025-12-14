@@ -250,7 +250,7 @@ export default function Leistungen() {
       <BackButton />
 
       {/* Services List */}
-      <section className="py-4">
+      <section className="pt-2 md:pt-4">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-1 gap-5">
             {services.map((service, index) => (

@@ -9,7 +9,7 @@ interface HeroProps {
 export default function Hero({ onOpenFunnel }: HeroProps) {
   return (
     <>
-      <div className="relative w-full min-h-[60vh] md:min-h-[70vh] flex items-center overflow-hidden pt-16 md:pt-20">
+      <div className="relative w-full min-h-[40vh] md:min-h-[60vh] flex items-center overflow-hidden pt-6 pb-8 md:pt-12 md:pb-16">
         <div className="absolute inset-0 z-0">
           <img
             src={heroImage}
@@ -40,7 +40,7 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
           </div>
         </div>
 
-        <div className="container mx-auto px-6 lg:px-12 relative z-10">
+        <div className="container mx-auto px-4 md:px-6 lg:px-12 relative z-10">
           <div className="max-w-3xl text-white animate-in slide-in-from-left duration-700 fade-in">
             <div className="flex flex-wrap items-center gap-3 mb-6">
               <span className="bg-primary px-4 py-1.5 text-sm font-bold uppercase tracking-wider rounded-xl">
@@ -54,7 +54,7 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
               </span>
             </div>
             
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-extrabold leading-tight mb-6">
+            <h1 className="text-3xl md:text-5xl lg:text-6xl font-heading font-extrabold leading-tight mb-4 md:mb-6">
               Dachprobleme?<br/>
               <span className="text-primary">Wir lösen sie.</span>
             </h1>
@@ -105,7 +105,7 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
       </div>
 
       <div className="bg-secondary border-t border-white/10">
-        <div className="container mx-auto px-6 lg:px-12">
+        <div className="container mx-auto px-4 md:px-6 lg:px-12">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-0 divide-y md:divide-y-0 md:divide-x divide-white/10">
             <div className="py-6 md:py-8 px-4 text-center text-white">
               <div className="flex items-center justify-center gap-1 mb-2">

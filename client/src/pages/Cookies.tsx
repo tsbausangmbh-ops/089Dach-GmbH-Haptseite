@@ -24,7 +24,7 @@ export default function Cookies() {
       </section>
       <BackButton />
 
-      <section className="py-16">
+      <section className="pt-2 md:pt-4 pb-16">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-3xl space-y-12">
             

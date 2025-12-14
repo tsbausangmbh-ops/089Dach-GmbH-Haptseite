@@ -20,7 +20,7 @@ export default function AGB() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="pt-10 pb-12 relative overflow-hidden min-h-[50vh] flex items-center">
+      <section className="pt-6 pb-8 md:pt-10 md:pb-12 relative overflow-hidden min-h-[40vh] md:min-h-[50vh] flex items-center">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img
@@ -35,10 +35,10 @@ export default function AGB() {
           <div className="absolute inset-0 bg-gradient-to-r from-secondary/95 via-secondary/85 to-secondary/70"></div>
         </div>
         
-        <div className="container mx-auto px-6 lg:px-12 relative z-10">
+        <div className="container mx-auto px-4 md:px-6 lg:px-12 relative z-10">
           <div className="max-w-2xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Rechtliches</span>
-            <h1 className="text-4xl md:text-6xl font-heading font-bold text-white mt-4 mb-6">
+            <h1 className="text-3xl md:text-5xl lg:text-6xl font-heading font-bold text-white mt-4 mb-4 md:mb-6">
               Allgemeine Geschäftsbedingungen
             </h1>
             
@@ -74,7 +74,7 @@ export default function AGB() {
       </section>
       <BackButton />
       
-      <div className="container mx-auto px-6 lg:px-12 pt-10 pb-12 max-w-4xl">
+      <div className="container mx-auto px-4 md:px-6 lg:px-12 pt-2 md:pt-4 pb-8 md:pb-12 max-w-4xl">
         <div className="prose prose-lg text-muted-foreground">
           
           {/* Rechtsgrundlagen Box */}
