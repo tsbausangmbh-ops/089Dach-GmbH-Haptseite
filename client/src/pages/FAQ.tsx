@@ -6,6 +6,7 @@ import LeadFunnel from "@/components/LeadFunnel";
 import heroImage from "@assets/generated_images/roofer_explaining_to_homeowner.png";
 import SEO, { BreadcrumbSchema, FAQPageSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
+import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import { Button } from "@/components/ui/button";
 import { Phone, Shield, Users, Award, CheckCircle2, Clock, Euro, Heart, Quote } from "lucide-react";
 import { Link } from "wouter";
@@ -308,7 +309,7 @@ export default function FAQ() {
                   {faq.question}
                 </h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  {faq.answer}
+                  <TextWithKeywordLinks currentPath="/faq">{faq.answer}</TextWithKeywordLinks>
                 </p>
               </div>
             ))}
