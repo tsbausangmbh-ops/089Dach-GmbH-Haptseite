@@ -259,6 +259,44 @@
     <!-- Dachberatung: Festpreis, Kostenvoranschlag, seriöser Dachdecker -->
   </url>
 
+  <!-- ========== TOOLS & RECHNER ========== -->
+
+  <url>
+    <loc>https://089dach.de/beratung</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <!-- 
+      KOSTENLOSE BERATUNG
+      Unverbindliche Vor-Ort-Beratung, Festpreis-Angebot
+      Keywords: kostenlose beratung dachdecker, dach angebot münchen
+    -->
+  </url>
+
+  <url>
+    <loc>https://089dach.de/heizkostenrechner</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <!-- 
+      HEIZKOSTENRECHNER
+      Interaktiver Rechner für Einsparpotenzial durch Dachdämmung
+      Keywords: heizkosten sparen rechner, dämmung rechner, einsparpotenzial dach
+    -->
+  </url>
+
+  <url>
+    <loc>https://089dach.de/daemmung-info</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <!-- 
+      DÄMMUNG INFORMATION
+      Informationen zu Dachdämmung, Arten, Kosten, Förderung
+      Keywords: dachdämmung info, dämmung arten, dämmung förderung
+    -->
+  </url>
+
   <!-- ========== LOKALE SEO - STADTTEILE ========== -->
 
   <url>
