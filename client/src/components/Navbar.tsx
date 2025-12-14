@@ -64,8 +64,8 @@ export default function Navbar() {
               {item.name}
             </a>
           ))}
-          <Button className="bg-primary hover:bg-primary/90 text-white font-bold rounded-sm">
-            Angebot anfordern
+          <Button className="bg-primary hover:bg-primary/90 text-white font-bold rounded-sm" asChild>
+            <a href="/kontakt">Angebot anfordern</a>
           </Button>
         </div>
 
