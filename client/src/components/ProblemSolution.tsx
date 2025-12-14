@@ -55,7 +55,7 @@ export default function ProblemSolution({ onOpenFunnel }: ProblemSolutionProps) 
             >
               <div className="grid grid-cols-1 lg:grid-cols-5 min-h-[280px]">
                 
-                <div className="p-8 bg-stone-50 flex flex-col justify-center border-b lg:border-b-0 lg:border-r border-stone-200 lg:col-span-2">
+                <div className="p-8 bg-red-50/50 flex flex-col justify-center border-b lg:border-b-0 lg:border-r border-red-200 lg:col-span-2">
                   <div className="flex items-center gap-3 mb-4">
                     <div className="p-2 bg-red-100 text-red-600 rounded-sm">
                       {item.icon}
