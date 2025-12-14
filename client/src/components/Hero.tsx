@@ -9,7 +9,7 @@ interface HeroProps {
 export default function Hero({ onOpenFunnel }: HeroProps) {
   return (
     <>
-      <div className="relative w-full min-h-[60vh] flex items-center overflow-hidden pt-4 md:pt-6">
+      <div className="relative w-full min-h-[70vh] flex items-center overflow-hidden pt-16 md:pt-20">
         <div className="absolute inset-0 z-0">
           <img
             src={heroImage}
