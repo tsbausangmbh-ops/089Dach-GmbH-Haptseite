@@ -191,34 +191,53 @@ export default function DaemmungInfo() {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mx-auto">
             
-            <div className="grid md:grid-cols-2 gap-8 mb-16">
-              <div>
-                <h2 className="text-3xl font-heading font-bold text-secondary mb-6">
+            <div className="grid md:grid-cols-2 gap-8 mb-16 items-stretch">
+              <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-r-lg">
+                <h2 className="text-2xl font-heading font-bold text-secondary mb-4 flex items-center gap-2">
+                  <CheckCircle2 className="h-6 w-6 text-green-600" />
                   Warum Dachdämmung so wichtig ist
                 </h2>
                 <div className="space-y-4">
-                  <div className="flex items-start gap-3">
-                    <CheckCircle2 className="h-6 w-6 text-green-600 shrink-0 mt-1" />
-                    <div>
-                      <strong className="text-secondary">Wärme steigt nach oben</strong>
-                      <p className="text-muted-foreground">Physik lässt sich nicht austricksen: Die teuer erzeugte Wärme sammelt sich unter Ihrem Dach – und entweicht dort am schnellsten.</p>
+                  <div className="bg-white/60 p-3 rounded-lg">
+                    <div className="flex items-start gap-3">
+                      <CheckCircle2 className="h-5 w-5 text-green-600 mt-0.5 shrink-0" />
+                      <div>
+                        <p className="font-bold text-secondary">Wärme steigt nach oben</p>
+                        <p className="text-sm text-muted-foreground">Physik lässt sich nicht austricksen: Die teuer erzeugte Wärme sammelt sich unter Ihrem Dach – und entweicht dort am schnellsten. Ohne Dämmung heizen Sie buchstäblich die Umwelt.</p>
+                      </div>
                     </div>
                   </div>
-                  <div className="flex items-start gap-3">
-                    <CheckCircle2 className="h-6 w-6 text-green-600 shrink-0 mt-1" />
-                    <div>
-                      <strong className="text-secondary">Größte Einsparmöglichkeit</strong>
-                      <p className="text-muted-foreground">Das Dach ist die größte Schwachstelle bei Altbauten. Hier sparen Sie am meisten – oft mehr als bei Fenstern oder Fassade.</p>
+                  <div className="bg-white/60 p-3 rounded-lg">
+                    <div className="flex items-start gap-3">
+                      <CheckCircle2 className="h-5 w-5 text-green-600 mt-0.5 shrink-0" />
+                      <div>
+                        <p className="font-bold text-secondary">Größte Einsparmöglichkeit</p>
+                        <p className="text-sm text-muted-foreground">Das Dach ist die größte Schwachstelle bei Altbauten. Hier sparen Sie am meisten – oft mehr als bei neuen Fenstern oder einer Fassadendämmung. Der Effekt ist sofort spürbar.</p>
+                      </div>
                     </div>
                   </div>
-                  <div className="flex items-start gap-3">
-                    <CheckCircle2 className="h-6 w-6 text-green-600 shrink-0 mt-1" />
-                    <div>
-                      <strong className="text-secondary">Werterhalt Ihrer Immobilie</strong>
-                      <p className="text-muted-foreground">Ein gut gedämmtes Dach steigert den Wert Ihres Hauses um 10-15% und macht es attraktiver für Käufer.</p>
+                  <div className="bg-white/60 p-3 rounded-lg">
+                    <div className="flex items-start gap-3">
+                      <CheckCircle2 className="h-5 w-5 text-green-600 mt-0.5 shrink-0" />
+                      <div>
+                        <p className="font-bold text-secondary">Werterhalt Ihrer Immobilie</p>
+                        <p className="text-sm text-muted-foreground">Ein gut gedämmtes Dach steigert den Wert Ihres Hauses um 10-15% und macht es attraktiver für Käufer. Ein guter Energieausweis ist heute ein echtes Verkaufsargument.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="bg-white/60 p-3 rounded-lg">
+                    <div className="flex items-start gap-3">
+                      <CheckCircle2 className="h-5 w-5 text-green-600 mt-0.5 shrink-0" />
+                      <div>
+                        <p className="font-bold text-secondary">Wohnkomfort das ganze Jahr</p>
+                        <p className="text-sm text-muted-foreground">Eine Dämmung wirkt in beide Richtungen: Im Winter bleibt es kuschelig warm, im Sommer angenehm kühl. Ihr Zuhause wird zum Wohlfühlort.</p>
+                      </div>
                     </div>
                   </div>
                 </div>
+                <p className="mt-4 text-sm text-green-700 font-medium italic">
+                  Fazit: Eine Dachdämmung ist eine der besten Investitionen in Ihr Eigenheim.
+                </p>
               </div>
               <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-r-lg">
                 <h3 className="text-xl font-bold text-secondary mb-4 flex items-center gap-2">
