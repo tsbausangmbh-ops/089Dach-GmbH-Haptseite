@@ -108,7 +108,8 @@ export default function Reparaturservice() {
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Schnelle Dachreparatur München</span>
             <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mt-4 mb-6">
               <span className="text-primary">Wir rufen Sie zurück.</span>
-              <span className="ml-3">Versprochen.</span>
+              <br />
+              Versprochen.
             </h1>
             <p className="text-xl text-gray-200 max-w-xl mb-4">
               Kein Warten in der Warteschleife. Kein Stress. Einfach Ihre Nummer hinterlassen – wir melden uns persönlich.
