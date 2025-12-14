@@ -85,6 +85,12 @@ export interface TimeSlot {
   available: boolean;
 }
 
+// Simple seeded random number generator for consistent "fake busy" slots
+function seededRandom(seed: number): number {
+  const x = Math.sin(seed) * 10000;
+  return x - Math.floor(x);
+}
+
 export async function getAvailableSlots(startDate: Date, endDate: Date): Promise<TimeSlot[]> {
   const calendar = await getUncachableGoogleCalendarClient();
   
@@ -99,6 +105,9 @@ export async function getAvailableSlots(startDate: Date, endDate: Date): Promise
 
   const busySlots = response.data.calendars?.primary?.busy || [];
   const slots: TimeSlot[] = [];
+  
+  // Target: ~58% of slots should appear as busy
+  const FAKE_BUSY_PERCENTAGE = 0.58;
 
   const current = new Date(startDate);
   while (current < endDate) {
@@ -118,7 +127,7 @@ export async function getAvailableSlots(startDate: Date, endDate: Date): Promise
         const BUFFER_HOURS = 2;
         const BUFFER_MS = BUFFER_HOURS * 60 * 60 * 1000;
         
-        const isBusy = busySlots.some(busy => {
+        const isReallyBusy = busySlots.some(busy => {
           const busyStart = new Date(busy.start!);
           const busyEnd = new Date(busy.end!);
           
@@ -129,12 +138,16 @@ export async function getAvailableSlots(startDate: Date, endDate: Date): Promise
           return slotStart < bufferedBusyEnd && slotEnd > bufferedBusyStart;
         });
         
+        // Generate consistent "fake busy" based on date+hour seed
+        const seed = current.getFullYear() * 10000 + (current.getMonth() + 1) * 100 + current.getDate() + hour * 7;
+        const isFakeBusy = seededRandom(seed) < FAKE_BUSY_PERCENTAGE;
+        
         // Only include future slots
         if (slotStart > new Date()) {
           slots.push({
             start: slotStart.toISOString(),
             end: slotEnd.toISOString(),
-            available: !isBusy,
+            available: !isReallyBusy && !isFakeBusy,
           });
         }
       }
