@@ -61,7 +61,7 @@ export default function RatgeberLeckortung() {
                 asChild
                 data-testid="button-hero-cta"
               >
-                <Link href="/rueckruf">
+                <Link href="/beratung">
                   <Phone className="mr-2 h-5 w-5" />
                   Jetzt Leckortung anfragen
                 </Link>
@@ -157,7 +157,7 @@ export default function RatgeberLeckortung() {
                 asChild
                 data-testid="button-mid-cta-1"
               >
-                <Link href="/rueckruf">
+                <Link href="/beratung">
                   <Phone className="mr-2 h-5 w-5" />
                   Jetzt Leck finden lassen
                 </Link>
@@ -280,7 +280,7 @@ export default function RatgeberLeckortung() {
                   asChild
                   data-testid="button-bottom-cta"
                 >
-                  <Link href="/rueckruf">
+                  <Link href="/beratung">
                     <Phone className="mr-2 h-5 w-5" />
                     Jetzt Leckortung anfragen
                   </Link>

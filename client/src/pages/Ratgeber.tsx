@@ -139,7 +139,7 @@ export default function Ratgeber() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-xl" data-testid="button-hero-call">
-                <a href="/rueckruf">
+                <a href="/beratung">
                   <Phone className="mr-2 h-5 w-5" />
                   Rückruf anfordern
                 </a>
@@ -323,7 +323,7 @@ export default function Ratgeber() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-xl text-lg px-8" data-testid="button-cta-call">
-              <a href="/rueckruf">
+              <a href="/beratung">
                 <Phone className="mr-2 h-5 w-5" />
                 Rückruf anfordern
               </a>

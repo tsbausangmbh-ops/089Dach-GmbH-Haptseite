@@ -178,7 +178,7 @@ export default function FAQ() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-xl" data-testid="button-hero-call">
-                <a href="/rueckruf">
+                <a href="/beratung">
                   <Phone className="mr-2 h-5 w-5" />
                   Rückruf anfordern
                 </a>

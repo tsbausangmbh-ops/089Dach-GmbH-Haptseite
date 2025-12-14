@@ -156,7 +156,7 @@ export default function Stadtteile() {
                 </div>
               ))}
             </div>
-            <a href="/rueckruf" className="inline-block mt-6">
+            <a href="/beratung" className="inline-block mt-6">
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-white" data-testid="button-beratung-cta">
                 Kostenlose Beratung anfordern <ArrowRight className="h-4 w-4 ml-2" />
               </Button>

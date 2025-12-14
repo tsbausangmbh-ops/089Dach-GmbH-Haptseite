@@ -270,7 +270,7 @@ export default function Leistungen() {
                     ))}
                   </ul>
 
-                  <a href="/rueckruf">
+                  <a href="/beratung">
                     <Button variant="outline" className="mt-4 border-secondary text-secondary hover:bg-secondary hover:text-white rounded-xl" data-testid={`button-beratung-${service.id}`}>
                       Rückruf anfordern
                     </Button>

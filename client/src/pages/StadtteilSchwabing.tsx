@@ -162,7 +162,7 @@ export default function StadtteilSchwabing() {
               <div className="bg-primary text-white rounded-xl p-6">
                 <h3 className="text-xl font-bold mb-4">Kostenlose Beratung in {stadtteilData.name}</h3>
                 <p className="text-white/90 mb-6">Spezialisierte Beratung für historische Gebäude.</p>
-                <a href="/rueckruf" className="block">
+                <a href="/beratung" className="block">
                   <Button size="lg" variant="secondary" className="w-full" data-testid="button-beratung-sidebar">
                     Rückruf anfordern <ArrowRight className="h-4 w-4 ml-2" />
                   </Button>

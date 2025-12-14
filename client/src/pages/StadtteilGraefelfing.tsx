@@ -124,7 +124,7 @@ export default function StadtteilGraefelfing() {
             <div className="space-y-6">
               <div className="bg-primary text-white rounded-xl p-6">
                 <h3 className="text-xl font-bold mb-4">Kostenlose Beratung</h3>
-                <a href="/rueckruf" className="block"><Button size="lg" variant="secondary" className="w-full" data-testid="button-beratung-sidebar">Rückruf anfordern <ArrowRight className="h-4 w-4 ml-2" /></Button></a>
+                <a href="/beratung" className="block"><Button size="lg" variant="secondary" className="w-full" data-testid="button-beratung-sidebar">Rückruf anfordern <ArrowRight className="h-4 w-4 ml-2" /></Button></a>
                 <a href="tel:08912621964" className="block mt-3"><Button size="lg" variant="outline" className="w-full border-white text-white hover:bg-white hover:text-primary" data-testid="button-anrufen-sidebar"><Phone className="h-4 w-4 mr-2" /> Jetzt anrufen</Button></a>
               </div>
               <div className="bg-white rounded-xl p-6 border border-gray-100">
