@@ -144,7 +144,7 @@ export default function Reparaturservice() {
       {/* Vertrauenstexte */}
       <section className="py-10 bg-secondary">
         <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto space-y-6">
+          <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Erster Vertrauenstext - Empathie & Verständnis */}
             <div className="bg-white/10 backdrop-blur-sm p-6 rounded-sm border-l-4 border-primary">
               <p className="text-lg text-white font-medium mb-3">
