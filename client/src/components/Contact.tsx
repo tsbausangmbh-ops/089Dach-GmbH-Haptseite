@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import contactImage from "@assets/generated_images/friendly_woman_on_phone_in_office.png";
 
 export default function Contact() {
   return (
@@ -18,6 +19,14 @@ export default function Contact() {
               Gerne beraten wir Sie unverbindlich vor Ort oder erstellen Ihnen ein individuelles Angebot. 
               Wir freuen uns auf Ihre Anfrage.
             </p>
+
+            <div className="mb-10 rounded-sm overflow-hidden shadow-lg">
+              <img 
+                src={contactImage} 
+                alt="Freundliche Mitarbeiterin am Telefon" 
+                className="w-full h-64 object-cover"
+              />
+            </div>
 
             <div className="space-y-8">
               <div className="flex items-start gap-4">
