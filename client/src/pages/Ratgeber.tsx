@@ -20,7 +20,8 @@ export default function Ratgeber() {
       story: "Herr Meier aus Pasing entdeckte einen kleinen Riss rechtzeitig. Das bewahrte ihn vor einem 15.000€ Wasserschaden. Heute sagt er: 'Hätte ich nur früher hingeschaut.'",
       takeaway: "15 Minuten Dachcheck können Ihnen 15.000€ sparen.",
       category: "Wartung",
-      readTime: "5 Min"
+      readTime: "5 Min",
+      href: "/ratgeber/leckortung"
     },
     {
       icon: ThermometerSun,
@@ -30,7 +31,8 @@ export default function Ratgeber() {
       story: "Familie Schmidt aus Schwabing konnte es kaum glauben: 2.400€ weniger Heizkosten pro Jahr. Und 40% Förderung für die Dämmung gab's obendrauf.",
       takeaway: "Jeder Euro in Dämmung spart Ihnen 3 Euro Heizkosten.",
       category: "Energie sparen",
-      readTime: "8 Min"
+      readTime: "8 Min",
+      href: "/ratgeber/daemmung"
     },
     {
       icon: Droplets,
@@ -40,7 +42,8 @@ export default function Ratgeber() {
       story: "Nach Sturm Niklas: Familie Huber in Sendling rief um 22 Uhr an. Um Mitternacht war die Notsicherung fertig. 'Die haben uns in der schlimmsten Nacht nicht allein gelassen.'",
       takeaway: "Im Notfall sind wir in 2 Stunden bei Ihnen – auch nachts.",
       category: "Notfall",
-      readTime: "3 Min"
+      readTime: "3 Min",
+      href: "/ratgeber/leckortung"
     },
     {
       icon: Leaf,
@@ -50,7 +53,8 @@ export default function Ratgeber() {
       story: "Das Architekturbüro Maier in Bogenhausen: 'Wir haben keine Klimaanlage mehr. Das Gründach macht das alleine. Unsere Stromrechnung hat sich halbiert.'",
       takeaway: "Ein Gründach zahlt sich nach 7 Jahren von selbst zurück.",
       category: "Nachhaltigkeit",
-      readTime: "6 Min"
+      readTime: "6 Min",
+      href: "/ratgeber/daemmung"
     },
     {
       icon: CheckCircle2,
@@ -60,7 +64,8 @@ export default function Ratgeber() {
       story: "Dr. Bauer hatte eine denkmalgeschützte Villa. Drei Dachdecker sagten 'geht nicht'. Wir fanden die perfekte Lösung: Originalgetreue Schieferdeckung, die 80 Jahre hält.",
       takeaway: "Das richtige Material hält 50 Jahre. Das falsche macht nach 20 Jahren Probleme.",
       category: "Materialkunde",
-      readTime: "7 Min"
+      readTime: "7 Min",
+      href: "/ratgeber/beratung"
     },
     {
       icon: HelpCircle,
@@ -70,7 +75,8 @@ export default function Ratgeber() {
       story: "Frau Weber aus Haidhausen dachte, sie bekommt keine Förderung. Wir haben 18.000€ für sie rausgeholt. 'Ohne 089Dach hätte ich das Geld auf dem Tisch liegen lassen.'",
       takeaway: "Im Schnitt holen wir 12.000€ Förderung für unsere Kunden.",
       category: "Förderung",
-      readTime: "10 Min"
+      readTime: "10 Min",
+      href: "/ratgeber/beratung"
     }
   ];
 
@@ -288,8 +294,10 @@ export default function Ratgeber() {
                   </div>
                   
                   <div className="mt-auto">
-                    <Button variant="default" className="w-full bg-secondary hover:bg-secondary/90 text-white font-bold rounded-sm" data-testid={`button-read-guide-${index}`}>
-                      Artikel lesen <ArrowRight className="ml-2 h-4 w-4" />
+                    <Button variant="default" className="w-full bg-secondary hover:bg-secondary/90 text-white font-bold rounded-sm" asChild data-testid={`button-read-guide-${index}`}>
+                      <Link href={guide.href}>
+                        Artikel lesen <ArrowRight className="ml-2 h-4 w-4" />
+                      </Link>
                     </Button>
                   </div>
                 </CardContent>
