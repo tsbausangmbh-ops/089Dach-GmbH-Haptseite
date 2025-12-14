@@ -92,7 +92,7 @@ export default function Reparaturservice() {
       <Navbar />
       
       {/* Hero Section - Lead-Fokus */}
-      <section className="pt-24 pb-16 bg-primary text-white relative overflow-hidden">
+      <section className="pt-10 pb-12 bg-primary text-white relative overflow-hidden">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl">
             <div className="flex items-center gap-2 mb-4">

@@ -22,7 +22,7 @@ export default function UeberUns() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="pt-24 pb-16 relative overflow-hidden min-h-[70vh] flex items-center">
+      <section className="pt-10 pb-12 relative overflow-hidden min-h-[50vh] flex items-center">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img

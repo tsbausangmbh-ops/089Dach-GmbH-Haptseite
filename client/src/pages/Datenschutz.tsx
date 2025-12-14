@@ -13,7 +13,7 @@ export default function Datenschutz() {
       />
       <Navbar />
       
-      <div className="container mx-auto px-4 pt-24 pb-12 max-w-4xl">
+      <div className="container mx-auto px-4 pt-10 pb-12 max-w-4xl">
         <div className="flex items-center gap-3 mb-4">
           <Shield className="h-8 w-8 text-primary" />
           <span className="text-primary font-bold tracking-wider uppercase text-sm">DSGVO konform</span>

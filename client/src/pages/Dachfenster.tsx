@@ -43,7 +43,7 @@ export default function Dachfenster() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="pt-24 pb-16 bg-gray-50 relative overflow-hidden">
+      <section className="pt-10 pb-12 bg-stone-50 relative overflow-hidden">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Dachfenster München</span>

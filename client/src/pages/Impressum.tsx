@@ -13,7 +13,7 @@ export default function Impressum() {
       />
       <Navbar />
       
-      <section className="pt-24 pb-16 bg-gray-50">
+      <section className="pt-10 pb-12 bg-stone-50">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Rechtliches</span>
