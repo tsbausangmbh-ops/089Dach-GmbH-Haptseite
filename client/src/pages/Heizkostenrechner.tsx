@@ -122,17 +122,33 @@ export default function Heizkostenrechner() {
         </div>
       </section>
 
-      <section className="py-8 bg-stone-50 border-b">
+      <section className="py-10 bg-stone-50 border-b">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-6">
-              <h2 className="text-2xl font-heading font-bold text-secondary mb-4">
+            <div className="text-center mb-8">
+              <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">
                 Warum Sie Ihre Heizkosten kennen sollten
               </h2>
-              <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+              <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-4">
                 Viele Hausbesitzer zahlen jährlich <strong className="text-secondary">hunderte Euro zu viel</strong> für Heizung – 
                 ohne es zu wissen. Unser Rechner zeigt Ihnen in 30 Sekunden, wo Ihr Geld bleibt und wie Sie es zurückbekommen.
               </p>
+              <div className="bg-white/80 border border-stone-200 rounded-xl p-6 max-w-2xl mx-auto mt-6">
+                <p className="text-muted-foreground mb-3">
+                  <strong className="text-secondary">Das Problem:</strong> Ein ungedämmtes Dach ist wie ein offenes Fenster im Winter. 
+                  Die Wärme steigt nach oben und entweicht – und mit ihr Ihr hart verdientes Geld. 
+                  Jeden Tag, jeden Monat, jedes Jahr.
+                </p>
+                <p className="text-muted-foreground mb-3">
+                  <strong className="text-secondary">Die Lösung:</strong> Mit einer professionellen Dachdämmung bleibt die Wärme dort, 
+                  wo sie hingehört – in Ihrem Zuhause. Unsere Kunden sparen durchschnittlich <strong className="text-green-600">20-30%</strong> ihrer 
+                  jährlichen Heizkosten.
+                </p>
+                <p className="text-muted-foreground">
+                  <strong className="text-secondary">Ihr erster Schritt:</strong> Finden Sie heraus, wie viel Sie persönlich sparen können. 
+                  Unser kostenloser Rechner zeigt es Ihnen in nur 30 Sekunden – <em>ohne Verpflichtungen, ohne Anmeldung</em>.
+                </p>
+              </div>
             </div>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-green-50/50 border border-green-100 p-5 rounded-lg shadow-sm text-center">
