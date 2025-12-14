@@ -10,6 +10,7 @@ export default function Contact() {
     name: "",
     phone: "",
     email: "",
+    address: "",
     message: ""
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -33,7 +34,7 @@ export default function Contact() {
         toast.success("Vielen Dank für Ihre Nachricht!", {
           description: "Wir melden uns schnellstmöglich bei Ihnen."
         });
-        setFormData({ name: "", phone: "", email: "", message: "" });
+        setFormData({ name: "", phone: "", email: "", address: "", message: "" });
       } else {
         toast.error("Fehler beim Senden", {
           description: "Bitte versuchen Sie es erneut oder rufen Sie uns an."
@@ -158,6 +159,18 @@ export default function Contact() {
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                   required
                   data-testid="input-contact-email"
+                />
+              </div>
+
+              <div className="space-y-2">
+                <label htmlFor="address" className="text-sm font-medium text-secondary">Adresse des Objekts</label>
+                <Input 
+                  id="address" 
+                  placeholder="Straße, PLZ Ort" 
+                  className="bg-white"
+                  value={formData.address}
+                  onChange={(e) => setFormData({ ...formData, address: e.target.value })}
+                  data-testid="input-contact-address"
                 />
               </div>
 
