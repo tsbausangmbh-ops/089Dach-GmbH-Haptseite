@@ -45,9 +45,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4 h-20 flex items-center justify-between">
         <Link href="/">
           <div className="flex items-center gap-2 group cursor-pointer">
-            <div className="bg-primary h-10 w-10 flex items-center justify-center text-white font-heading font-bold text-xl rounded-sm">
-              089
-            </div>
+            <img src="/favicon.png" alt="089Dach Logo" className="h-10 w-10 rounded-sm" />
             <div className="flex flex-col">
               <span className="font-heading font-bold text-xl leading-none text-secondary">DACH</span>
               <span className="text-[10px] tracking-widest uppercase text-muted-foreground font-medium">GmbH München</span>

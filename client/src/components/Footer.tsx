@@ -6,9 +6,7 @@ export default function Footer() {
           
           <div className="space-y-4">
             <div className="flex items-center gap-2 group">
-              <div className="bg-primary h-10 w-10 flex items-center justify-center text-white font-heading font-bold text-xl rounded-sm">
-                089
-              </div>
+              <img src="/favicon.png" alt="089Dach Logo" className="h-10 w-10 rounded-sm" />
               <div className="flex flex-col">
                 <span className="font-heading font-bold text-xl leading-none text-white">DACH</span>
                 <span className="text-[10px] tracking-widest uppercase text-gray-400 font-medium">GmbH München</span>
