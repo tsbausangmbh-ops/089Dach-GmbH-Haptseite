@@ -78,12 +78,12 @@ export default function Rueckruf() {
 
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-2xl text-white">
-            <span className="text-primary font-bold tracking-wider uppercase text-sm">Kostenloser Service</span>
+            <span className="text-primary font-bold tracking-wider uppercase text-sm">Dach-Notfall?</span>
             <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mt-4 mb-6">
-              Wir rufen Sie zurück
+              Wir helfen schnell.
             </h1>
             <p className="text-xl text-gray-200 max-w-xl mb-4">
-              Sie haben eine Frage zu Ihrem Dach? Hinterlassen Sie uns Ihre Telefonnummer – wir melden uns schnellstmöglich bei Ihnen.
+              Schreiben Sie uns, wir rufen Sie zurück. In der Regel innerhalb von 24 Stunden.
             </p>
             <p className="text-lg text-gray-300 max-w-xl">
               Kostenlos und unverbindlich.
