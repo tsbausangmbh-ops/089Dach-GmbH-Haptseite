@@ -113,10 +113,13 @@ export async function getAvailableSlots(startDate: Date, endDate: Date): Promise
   while (current < endDate) {
     const dayOfWeek = current.getDay();
     
-    // Skip weekends (0 = Sunday, 6 = Saturday)
-    if (dayOfWeek !== 0 && dayOfWeek !== 6) {
-      // Generate hourly slots from 8:00 to 17:00
-      for (let hour = 8; hour < 17; hour++) {
+    // Skip Sunday (0 = Sunday), Saturday has limited hours
+    if (dayOfWeek !== 0) {
+      // Saturday: 10:00-14:00, Weekdays: 8:00-17:00
+      const startHour = dayOfWeek === 6 ? 10 : 8;
+      const endHour = dayOfWeek === 6 ? 14 : 17;
+      
+      for (let hour = startHour; hour < endHour; hour++) {
         const slotStart = new Date(current);
         slotStart.setHours(hour, 0, 0, 0);
         

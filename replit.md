@@ -69,7 +69,7 @@ The server uses a simple storage pattern (`server/storage.ts`) that abstracts da
 - **Google Calendar**: Automatische Kalendereintrag-Erstellung bei Rückruf-Wünschen
   - Via Replit Connector (OAuth)
   - Erstellt Termine für nächsten Werktag um 9:00 Uhr
-  - Kunden können auf /rueckruf ihren Wunschtermin selbst auswählen (Mo-Fr, 8-17 Uhr)
+  - Kunden können auf /rueckruf ihren Wunschtermin selbst auswählen (Mo-Fr 8-17 Uhr, Sa 10-14 Uhr)
   - GET /api/availability liefert freie Slots für die nächsten 14 Tage
   - 2-Stunden-Puffer: Vor und nach gebuchten Terminen sind 2 Stunden automatisch gesperrt
 
