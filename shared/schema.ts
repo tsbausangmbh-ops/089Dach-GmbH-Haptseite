@@ -41,7 +41,7 @@ export const leads = pgTable("leads", {
   details: text("details"),
   name: text("name").notNull(),
   phone: text("phone").notNull(),
-  email: text("email").notNull(),
+  email: text("email"),
   callbackStart: timestamp("callback_start"),
   callbackEnd: timestamp("callback_end"),
   createdAt: timestamp("created_at").notNull().defaultNow(),
