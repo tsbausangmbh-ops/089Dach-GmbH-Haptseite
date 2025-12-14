@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import ProblemSolution from "@/components/ProblemSolution";
 import Services from "@/components/Services";
 import About from "@/components/About";
 import Gallery from "@/components/Gallery";
@@ -24,6 +25,7 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero onOpenFunnel={() => setFunnelOpen(true)} />
+        <ProblemSolution onOpenFunnel={() => setFunnelOpen(true)} />
         <Services />
         <LeadFunnel externalOpen={funnelOpen} onExternalOpenChange={setFunnelOpen} />
         <About />
