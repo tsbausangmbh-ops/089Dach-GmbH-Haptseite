@@ -22,6 +22,19 @@ import before4 from "@assets/generated_images/dark_attic_before_window_installat
 import before5 from "@assets/generated_images/villa_slate_roof_before_renovation.png";
 import before6 from "@assets/generated_images/office_flat_roof_with_leaks.png";
 
+import before7 from "@assets/generated_images/damaged_metal_roof_before_renovation.png";
+import img8 from "@assets/generated_images/new_metal_standing_seam_roof.png";
+import before8 from "@assets/generated_images/damaged_red_tile_roof_before.png";
+import img9 from "@assets/generated_images/restored_red_tile_roof_after.png";
+import before9 from "@assets/generated_images/damaged_dormer_window_before.png";
+import img10 from "@assets/generated_images/renovated_dormer_window_after.png";
+import before10 from "@assets/generated_images/damaged_garage_flat_roof.png";
+import img11 from "@assets/generated_images/new_epdm_flat_roof_garage.png";
+import before11 from "@assets/generated_images/damaged_chimney_flashing_before.png";
+import img12 from "@assets/generated_images/new_copper_chimney_flashing.png";
+import before12 from "@assets/generated_images/old_solar_panel_mounting_damage.png";
+import img13 from "@assets/generated_images/new_solar_panel_installation.png";
+
 export default function Referenzen() {
   const projects = [
     {
@@ -89,6 +102,72 @@ export default function Referenzen() {
       result: "Garantiert dicht, TÜV-geprüfte Sicherheit, 20% weniger Energieverbrauch.",
       duration: "15 Arbeitstage",
       quote: "Endlich können wir uns auf unser Kerngeschäft konzentrieren statt aufs Dach."
+    },
+    {
+      before: before7,
+      after: img8,
+      title: "Lagerhalle Feldmoching",
+      category: "Metalldach / Industrie",
+      problem: "Durchgerostetes Trapezblech, undichte Nähte, Wärmeverlust im Winter.",
+      solution: "Komplett neues Stehfalzdach aus verzinktem Stahl mit Wärmedämmung.",
+      result: "Rostfreie Optik, 30% Energieeinsparung, 25 Jahre Herstellergarantie.",
+      duration: "16 Arbeitstage",
+      quote: "Das neue Dach sieht aus wie ein Neubau – dabei ist die Halle 30 Jahre alt."
+    },
+    {
+      before: before8,
+      after: img9,
+      title: "Reihenhaus Pasing",
+      category: "Steildach / Ziegel",
+      problem: "Brüchige Ziegel, verstopfte Rinnen, Moos und Flechten überall.",
+      solution: "Neueindeckung mit hochwertigen Tondachziegeln in Naturrot, neue Kupferrinnen.",
+      result: "Klassisch schönes Erscheinungsbild, dauerhaft dicht, pflegeleicht.",
+      duration: "10 Arbeitstage",
+      quote: "Die neuen Ziegel glänzen wie am ersten Tag – unsere Nachbarn sind neidisch!"
+    },
+    {
+      before: before9,
+      after: img10,
+      title: "Altbau Sendling",
+      category: "Gauben / Spenglerarbeiten",
+      problem: "Undichte Dachgauben mit Wassereinbruch bei Starkregen, marode Verblendungen.",
+      solution: "Komplette Gaubensanierung mit neuer Zinkverkleidung und Dämmung.",
+      result: "Trockene Räume, modernes Design, verbesserte Energieeffizienz.",
+      duration: "14 Arbeitstage",
+      quote: "Keine Angst mehr bei Gewitter – das ist unbezahlbar."
+    },
+    {
+      before: before10,
+      after: img11,
+      title: "Garage Trudering",
+      category: "Flachdach / EPDM",
+      problem: "Stehendes Wasser, gerissene Bitumenbahnen, Schimmelbildung an der Decke.",
+      solution: "Neue EPDM-Abdichtung mit Gefälledämmung für optimalen Wasserablauf.",
+      result: "Dauerhaft wasserdicht, keine Pfützen mehr, 20 Jahre Garantie.",
+      duration: "4 Arbeitstage",
+      quote: "Endlich kann ich mein Auto wieder sorgenfrei in der Garage parken."
+    },
+    {
+      before: before11,
+      after: img12,
+      title: "Einfamilienhaus Bogenhausen",
+      category: "Schornstein / Spenglerei",
+      problem: "Undichte Schornsteinanschlüsse, Rostflecken auf dem Dach, Wasserschäden im Haus.",
+      solution: "Neue Kupfer-Schornsteineinfassung mit professioneller Lötarbeit.",
+      result: "Handwerklich perfekte Arbeit, garantiert wasserdicht, zeitlose Optik.",
+      duration: "3 Arbeitstage",
+      quote: "Die Kupferarbeit ist ein Kunstwerk – so präzise habe ich das selten gesehen."
+    },
+    {
+      before: before12,
+      after: img13,
+      title: "Doppelhaus Unterhaching",
+      category: "Photovoltaik / Dacharbeiten",
+      problem: "Veraltete Solaranlage mit beschädigter Unterkonstruktion, undichte Durchführungen.",
+      solution: "Dachsanierung mit Integration einer neuen 12kWp Photovoltaikanlage.",
+      result: "Saubere Installation, optimale Stromausbeute, perfekt abgedichtete Dachdurchführungen.",
+      duration: "9 Arbeitstage",
+      quote: "Das Dach ist jetzt nicht nur dicht, sondern produziert auch unseren Strom."
     }
   ];
 
