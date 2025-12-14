@@ -384,3 +384,460 @@ export function BreadcrumbSchema({ items }: { items: BreadcrumbItem[] }) {
     />
   );
 }
+
+export function OrganizationSchema() {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://089dach.de/#organization",
+    "name": "089Dach GmbH",
+    "alternateName": ["089 Dach", "Dachdecker München Obermenzing", "Blöckinger Dachdecker"],
+    "url": "https://089dach.de",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://089dach.de/logo.png",
+      "width": 200,
+      "height": 60
+    },
+    "image": "https://089dach.de/opengraph.jpg",
+    "description": "Dachdecker- und Spengler-Meisterbetrieb in München-Obermenzing. Spezialisiert auf Dachsanierung, Steildach, Flachdach und Spenglerarbeiten. Über 25 Jahre Erfahrung, 500+ Projekte, 10 Jahre Garantie.",
+    "email": "info@089dach.de",
+    "telephone": "+49-89-12621964",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Thuillestr. 20",
+      "addressLocality": "München",
+      "addressRegion": "Bayern",
+      "postalCode": "81247",
+      "addressCountry": "DE"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.1661,
+      "longitude": 11.4728
+    },
+    "foundingDate": "1998",
+    "founder": {
+      "@type": "Person",
+      "name": "Falko Georg Blöckinger",
+      "jobTitle": "Dachdecker- und Spenglermeister"
+    },
+    "numberOfEmployees": {
+      "@type": "QuantitativeValue",
+      "minValue": 10,
+      "maxValue": 20
+    },
+    "slogan": "Wir machen das aus Leidenschaft",
+    "knowsAbout": [
+      "Dachsanierung",
+      "Steildach",
+      "Flachdach",
+      "Spenglerarbeiten",
+      "Dachfenster",
+      "Gaubenbau",
+      "Energetische Sanierung",
+      "Dachreparatur",
+      "Dachwartung"
+    ],
+    "hasCredential": [
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Meisterbrief",
+        "name": "Dachdecker-Meister"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Meisterbrief",
+        "name": "Spengler-Meister"
+      }
+    ],
+    "memberOf": {
+      "@type": "Organization",
+      "name": "Dachdecker-Innung München"
+    },
+    "areaServed": [
+      {
+        "@type": "City",
+        "name": "München",
+        "@id": "https://www.wikidata.org/wiki/Q1726"
+      },
+      {
+        "@type": "AdministrativeArea",
+        "name": "Obermenzing"
+      },
+      {
+        "@type": "AdministrativeArea",
+        "name": "Pasing"
+      },
+      {
+        "@type": "AdministrativeArea",
+        "name": "Laim"
+      },
+      {
+        "@type": "AdministrativeArea",
+        "name": "Schwabing"
+      },
+      {
+        "@type": "AdministrativeArea",
+        "name": "Sendling"
+      },
+      {
+        "@type": "AdministrativeArea",
+        "name": "Bogenhausen"
+      },
+      {
+        "@type": "AdministrativeArea",
+        "name": "Moosach"
+      },
+      {
+        "@type": "AdministrativeArea",
+        "name": "Neuhausen"
+      },
+      {
+        "@type": "AdministrativeArea",
+        "name": "Nymphenburg"
+      },
+      {
+        "@type": "City",
+        "name": "Gräfelfing"
+      },
+      {
+        "@type": "City",
+        "name": "Planegg"
+      },
+      {
+        "@type": "City",
+        "name": "Germering"
+      },
+      {
+        "@type": "City",
+        "name": "Fürstenfeldbruck"
+      },
+      {
+        "@type": "City",
+        "name": "Dachau"
+      },
+      {
+        "@type": "City",
+        "name": "Starnberg"
+      }
+    ],
+    "sameAs": [
+      "https://www.instagram.com/089dach",
+      "https://www.facebook.com/089dach",
+      "https://www.google.com/maps/place/089Dach+GmbH"
+    ]
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+export function WebSiteSchema() {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://089dach.de/#website",
+    "url": "https://089dach.de",
+    "name": "089Dach GmbH - Dachdecker München",
+    "description": "Offizielle Website des Dachdecker-Meisterbetriebs 089Dach GmbH in München-Obermenzing",
+    "publisher": {
+      "@id": "https://089dach.de/#organization"
+    },
+    "inLanguage": "de-DE",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://089dach.de/?s={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+export function AggregateRatingSchema() {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "RoofingContractor",
+    "@id": "https://089dach.de/#business",
+    "name": "089Dach GmbH",
+    "image": "https://089dach.de/opengraph.jpg",
+    "url": "https://089dach.de",
+    "telephone": "+49-89-12621964",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Thuillestr. 20",
+      "addressLocality": "München",
+      "postalCode": "81247",
+      "addressCountry": "DE"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "bestRating": "5",
+      "worstRating": "1",
+      "ratingCount": "127",
+      "reviewCount": "89"
+    }
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+interface ReviewData {
+  author: string;
+  rating: number;
+  reviewBody: string;
+  datePublished: string;
+}
+
+export function ReviewSchema({ reviews }: { reviews: ReviewData[] }) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "RoofingContractor",
+    "name": "089Dach GmbH",
+    "review": reviews.map(review => ({
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": review.author
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": review.rating,
+        "bestRating": 5
+      },
+      "reviewBody": review.reviewBody,
+      "datePublished": review.datePublished
+    }))
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+interface HowToStep {
+  name: string;
+  text: string;
+  image?: string;
+}
+
+export function HowToSchema({ 
+  name, 
+  description, 
+  steps, 
+  totalTime,
+  estimatedCost
+}: { 
+  name: string; 
+  description: string; 
+  steps: HowToStep[];
+  totalTime?: string;
+  estimatedCost?: string;
+}) {
+  const schema: Record<string, unknown> = {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": name,
+    "description": description,
+    "step": steps.map((step, index) => ({
+      "@type": "HowToStep",
+      "position": index + 1,
+      "name": step.name,
+      "text": step.text,
+      ...(step.image && { "image": step.image })
+    })),
+    "tool": {
+      "@type": "HowToTool",
+      "name": "Professionelles Dachdeckerwerkzeug"
+    }
+  };
+
+  if (totalTime) {
+    schema.totalTime = totalTime;
+  }
+  
+  if (estimatedCost) {
+    schema.estimatedCost = {
+      "@type": "MonetaryAmount",
+      "currency": "EUR",
+      "value": estimatedCost
+    };
+  }
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+export function GeoServiceAreaSchema() {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Dachdeckerarbeiten",
+    "provider": {
+      "@type": "RoofingContractor",
+      "name": "089Dach GmbH",
+      "@id": "https://089dach.de/#organization"
+    },
+    "areaServed": {
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": 48.1661,
+        "longitude": 11.4728
+      },
+      "geoRadius": "30000"
+    },
+    "serviceArea": {
+      "@type": "AdministrativeArea",
+      "name": "München und Umgebung",
+      "containsPlace": [
+        { "@type": "City", "name": "München", "geo": { "@type": "GeoCoordinates", "latitude": 48.1351, "longitude": 11.5820 }},
+        { "@type": "City", "name": "Gräfelfing", "geo": { "@type": "GeoCoordinates", "latitude": 48.1167, "longitude": 11.4333 }},
+        { "@type": "City", "name": "Planegg", "geo": { "@type": "GeoCoordinates", "latitude": 48.1000, "longitude": 11.4333 }},
+        { "@type": "City", "name": "Germering", "geo": { "@type": "GeoCoordinates", "latitude": 48.1333, "longitude": 11.3667 }},
+        { "@type": "City", "name": "Fürstenfeldbruck", "geo": { "@type": "GeoCoordinates", "latitude": 48.1789, "longitude": 11.2547 }},
+        { "@type": "City", "name": "Dachau", "geo": { "@type": "GeoCoordinates", "latitude": 48.2603, "longitude": 11.4342 }},
+        { "@type": "City", "name": "Starnberg", "geo": { "@type": "GeoCoordinates", "latitude": 47.9981, "longitude": 11.3406 }},
+        { "@type": "City", "name": "Unterschleißheim", "geo": { "@type": "GeoCoordinates", "latitude": 48.2833, "longitude": 11.5667 }}
+      ]
+    },
+    "availableChannel": {
+      "@type": "ServiceChannel",
+      "serviceUrl": "https://089dach.de/kontakt",
+      "servicePhone": "+49-89-12621964",
+      "availableLanguage": {
+        "@type": "Language",
+        "name": "Deutsch"
+      }
+    }
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+export function ProfessionalServiceSchema() {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "@id": "https://089dach.de/#professionalservice",
+    "name": "089Dach GmbH - Professionelle Dachdeckerleistungen",
+    "description": "Meisterbetrieb für alle Dacharbeiten: Dachsanierung, Steildach, Flachdach, Spenglerei, Dachfenster, Gaubenbau. 25+ Jahre Erfahrung in München.",
+    "url": "https://089dach.de",
+    "telephone": "+49-89-12621964",
+    "email": "info@089dach.de",
+    "priceRange": "€€",
+    "currenciesAccepted": "EUR",
+    "paymentAccepted": "Cash, Bank Transfer, EC-Karte",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Thuillestr. 20",
+      "addressLocality": "München",
+      "addressRegion": "Bayern",
+      "postalCode": "81247",
+      "addressCountry": "DE"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 48.1661,
+      "longitude": 11.4728
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "07:00",
+        "closes": "18:00"
+      }
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Dachdeckerleistungen in München",
+      "itemListElement": [
+        {
+          "@type": "OfferCatalog",
+          "name": "Dachsanierung",
+          "itemListElement": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Energetische Dachsanierung" }},
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Komplettsanierung" }},
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Dachdämmung" }}
+          ]
+        },
+        {
+          "@type": "OfferCatalog",
+          "name": "Steildach",
+          "itemListElement": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Tondachziegel" }},
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Betondachsteine" }},
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Schiefereindeckung" }}
+          ]
+        },
+        {
+          "@type": "OfferCatalog",
+          "name": "Flachdach",
+          "itemListElement": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bitumenabdichtung" }},
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "EPDM/PVC Abdichtung" }},
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Dachbegrünung" }}
+          ]
+        },
+        {
+          "@type": "OfferCatalog",
+          "name": "Spenglerei",
+          "itemListElement": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Dachrinnen" }},
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Kamineinfassung" }},
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Blechverkleidung" }}
+          ]
+        }
+      ]
+    },
+    "knowsAbout": [
+      "Dachsanierung München",
+      "Dachdecker Obermenzing",
+      "Steildach Sanierung",
+      "Flachdach Abdichtung",
+      "Spenglerarbeiten München",
+      "Dachfenster Einbau",
+      "Gaube bauen",
+      "Dachreparatur Notdienst"
+    ]
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:geo="http://www.google.com/geo/schemas/sitemap/1.0"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- 
+    089Dach GmbH - Geo-Sitemap für lokale Suche
+    Optimiert für: Google Maps, Bing Places, Apple Maps, KI-Crawler
+    Hauptstandort: München-Obermenzing (48.1661, 11.4728)
+    Serviceradius: 30km
+  -->
+
+  <!-- ========== HAUPTSTANDORT ========== -->
+  
+  <url>
+    <loc>https://089dach.de/kontakt</loc>
+    <geo:geo>
+      <geo:format>kml</geo:format>
+    </geo:geo>
+    <xhtml:link rel="alternate" hreflang="de" href="https://089dach.de/kontakt"/>
+    <!-- 
+      Hauptstandort: 089Dach GmbH
+      Adresse: Thuillestr. 20, 81247 München-Obermenzing
+      Koordinaten: 48.1661, 11.4728
+      Telefon: 089 12621964
+      Öffnungszeiten: Mo-Fr 07:00-18:00
+    -->
+  </url>
+
+  <!-- ========== MÜNCHEN STADTTEILE ========== -->
+
+  <url>
+    <loc>https://089dach.de/</loc>
+    <!-- Obermenzing: Kerngebiet, Firmensitz -->
+    <!-- Koordinaten: 48.1661, 11.4728 -->
+  </url>
+
+  <url>
+    <loc>https://089dach.de/leistungen</loc>
+    <!-- Pasing: 3km entfernt -->
+    <!-- Koordinaten: 48.1500, 11.4500 -->
+  </url>
+
+  <url>
+    <loc>https://089dach.de/leistungen/dachsanierung</loc>
+    <!-- Laim: 4km entfernt -->
+    <!-- Koordinaten: 48.1389, 11.5000 -->
+  </url>
+
+  <url>
+    <loc>https://089dach.de/leistungen/bedachungen</loc>
+    <!-- Neuhausen: 5km entfernt -->
+    <!-- Koordinaten: 48.1583, 11.5417 -->
+  </url>
+
+  <url>
+    <loc>https://089dach.de/leistungen/spenglerei</loc>
+    <!-- Nymphenburg: 3km entfernt -->
+    <!-- Koordinaten: 48.1583, 11.5033 -->
+  </url>
+
+  <url>
+    <loc>https://089dach.de/leistungen/dachfenster</loc>
+    <!-- Moosach: 4km entfernt -->
+    <!-- Koordinaten: 48.1833, 11.5000 -->
+  </url>
+
+  <url>
+    <loc>https://089dach.de/leistungen/gaubenbau</loc>
+    <!-- Allach: 5km entfernt -->
+    <!-- Koordinaten: 48.1917, 11.4667 -->
+  </url>
+
+  <url>
+    <loc>https://089dach.de/leistungen/energieberatung</loc>
+    <!-- Schwabing: 8km entfernt -->
+    <!-- Koordinaten: 48.1667, 11.5833 -->
+  </url>
+
+  <url>
+    <loc>https://089dach.de/leistungen/reparaturservice</loc>
+    <!-- Sendling: 7km entfernt -->
+    <!-- Koordinaten: 48.1167, 11.5500 -->
+  </url>
+
+  <url>
+    <loc>https://089dach.de/leistungen/wartung</loc>
+    <!-- Bogenhausen: 10km entfernt -->
+    <!-- Koordinaten: 48.1500, 11.6167 -->
+  </url>
+
+  <!-- ========== MÜNCHNER UMLAND ========== -->
+
+  <url>
+    <loc>https://089dach.de/rueckruf</loc>
+    <!-- Gräfelfing: 4km entfernt -->
+    <!-- Koordinaten: 48.1167, 11.4333 -->
+  </url>
+
+  <url>
+    <loc>https://089dach.de/referenzen</loc>
+    <!-- Planegg: 6km entfernt -->
+    <!-- Koordinaten: 48.1000, 11.4333 -->
+  </url>
+
+  <url>
+    <loc>https://089dach.de/ueber-uns</loc>
+    <!-- Germering: 8km entfernt -->
+    <!-- Koordinaten: 48.1333, 11.3667 -->
+  </url>
+
+  <url>
+    <loc>https://089dach.de/faq</loc>
+    <!-- Fürstenfeldbruck: 15km entfernt -->
+    <!-- Koordinaten: 48.1789, 11.2547 -->
+  </url>
+
+  <url>
+    <loc>https://089dach.de/ratgeber</loc>
+    <!-- Dachau: 12km entfernt -->
+    <!-- Koordinaten: 48.2603, 11.4342 -->
+  </url>
+
+  <url>
+    <loc>https://089dach.de/ratgeber/daemmung</loc>
+    <!-- Starnberg: 20km entfernt -->
+    <!-- Koordinaten: 47.9981, 11.3406 -->
+  </url>
+
+  <url>
+    <loc>https://089dach.de/ratgeber/leckortung</loc>
+    <!-- Unterschleißheim: 12km entfernt -->
+    <!-- Koordinaten: 48.2833, 11.5667 -->
+  </url>
+
+  <url>
+    <loc>https://089dach.de/ratgeber/beratung</loc>
+    <!-- Garching: 15km entfernt -->
+    <!-- Koordinaten: 48.2500, 11.6500 -->
+  </url>
+
+  <!-- ========== KI-RESSOURCEN ========== -->
+
+  <url>
+    <loc>https://089dach.de/llms.txt</loc>
+    <!-- KI-Crawler Informationen -->
+  </url>
+
+  <url>
+    <loc>https://089dach.de/ai.txt</loc>
+    <!-- Erweiterte KI-Informationen -->
+  </url>
+
+</urlset>

@@ -9,7 +9,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { AlertTriangle, Clock, Shield, Mail, Wrench, CloudRain, Wind, Check, Quote, MapPin, PhoneCall, ArrowRight, ShieldCheck, Award, Users } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
-import SEO, { BreadcrumbSchema, ServiceSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, ServiceSchema, HowToSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/damaged_red_tile_roof_before.png";
 
 export default function Reparaturservice() {
@@ -90,6 +90,18 @@ export default function Reparaturservice() {
           { name: "Leckortung", description: "Professionelle Suche und Behebung undichter Stellen" },
           { name: "Versicherungsservice", description: "Dokumentation und Abwicklung für Ihre Versicherung" }
         ]}
+      />
+      <HowToSchema
+        name="Dachschaden beheben lassen in München"
+        description="So lassen Sie Ihr Dach nach einem Schaden professionell reparieren - von der Meldung bis zur fertigen Reparatur."
+        steps={[
+          { name: "Schaden dokumentieren", text: "Fotografieren Sie den Schaden von innen und außen. Notieren Sie wann der Schaden aufgetreten ist." },
+          { name: "089Dach kontaktieren", text: "Rufen Sie uns an unter 089 12621964 oder nutzen Sie unser Kontaktformular. Wir melden uns innerhalb von 24 Stunden." },
+          { name: "Vor-Ort-Termin", text: "Unser Meister begutachtet den Schaden vor Ort und erstellt einen Kostenvoranschlag." },
+          { name: "Versicherung informieren", text: "Bei Sturmschäden: Melden Sie den Schaden Ihrer Versicherung. Wir helfen bei der Dokumentation." },
+          { name: "Reparatur durchführen", text: "Nach Freigabe führen wir die Reparatur schnell und sauber durch - mit 10 Jahren Garantie." }
+        ]}
+        totalTime="P1D"
       />
       <Navbar />
       

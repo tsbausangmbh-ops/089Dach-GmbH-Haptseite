@@ -9,7 +9,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { CalendarCheck, Shield, Clock, Mail, Search, Droplets, Leaf, Check, Quote, PhoneCall, ArrowRight, ShieldCheck, Award, Users, ClipboardCheck, Settings } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
-import SEO, { BreadcrumbSchema, ServiceSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, ServiceSchema, HowToSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/roofer_tools_arranged_cleanly.png";
 
 export default function Wartung() {
@@ -90,6 +90,18 @@ export default function Wartung() {
           { name: "Dachrinnenreinigung", description: "Professionelle Säuberung von Rinnen und Fallrohren" },
           { name: "Moos- & Laubentfernung", description: "Entfernung von Ablagerungen für ein langlebiges Dach" }
         ]}
+      />
+      <HowToSchema
+        name="Dach richtig warten - Anleitung vom Meister"
+        description="Regelmäßige Dachwartung verlängert die Lebensdauer Ihres Daches erheblich. So läuft eine professionelle Wartung ab."
+        steps={[
+          { name: "Sichtprüfung durchführen", text: "Überprüfen Sie vom Boden aus auf offensichtliche Schäden wie fehlende oder verschobene Ziegel." },
+          { name: "Dachrinnen reinigen", text: "Entfernen Sie Laub und Ablagerungen aus Rinnen und Fallrohren - idealerweise im Frühjahr und Herbst." },
+          { name: "Moos entfernen", text: "Moosbewuchs kann Ziegel beschädigen. Professionelle Entfernung schützt Ihr Dach." },
+          { name: "Anschlüsse prüfen", text: "Kontrollieren Sie Dachfenster, Kamine und Wandanschlüsse auf Dichtheit." },
+          { name: "Profi-Inspektion buchen", text: "Lassen Sie einmal jährlich einen Dachdecker-Meister Ihr Dach prüfen. Rufen Sie 089 12621964 für einen Termin." }
+        ]}
+        totalTime="PT2H"
       />
       <Navbar />
       

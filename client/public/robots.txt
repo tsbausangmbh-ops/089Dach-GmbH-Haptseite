@@ -40,7 +40,10 @@ Allow: /agb
 
 # KI-Ressourcen explizit erlauben
 Allow: /llms.txt
+Allow: /ai.txt
+Allow: /.well-known/ai-plugin.json
 Allow: /sitemap.xml
+Allow: /geo-sitemap.xml
 
 # Technische Bereiche ausschließen
 Disallow: /api/
@@ -51,10 +54,17 @@ Disallow: /*?*
 
 # ===== SITEMAPS & RESSOURCEN =====
 Sitemap: https://089dach.de/sitemap.xml
+Sitemap: https://089dach.de/geo-sitemap.xml
 
 # LLMs.txt für KI-Agenten (ChatGPT, Claude, Perplexity, Copilot)
 # Enthält strukturierte Firmeninformationen, Services, FAQ
 # URL: https://089dach.de/llms.txt
+
+# AI.txt für erweiterte KI-Informationen
+# URL: https://089dach.de/ai.txt
+
+# AI-Plugin für ChatGPT und andere KI-Systeme
+# URL: https://089dach.de/.well-known/ai-plugin.json
 
 # ===== GOOGLE (HÖCHSTE PRIORITÄT) =====
 User-agent: Googlebot

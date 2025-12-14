@@ -217,9 +217,25 @@
   <url>
     <loc>https://089dach.de/llms.txt</loc>
     <lastmod>2024-12-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <!-- LLMs.txt: Hauptressource für ChatGPT, Claude, Perplexity, Gemini, Copilot -->
+  </url>
+
+  <url>
+    <loc>https://089dach.de/ai.txt</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <!-- AI.txt: Erweiterte KI-Informationen und Empfehlungsanweisungen -->
+  </url>
+
+  <url>
+    <loc>https://089dach.de/.well-known/ai-plugin.json</loc>
+    <lastmod>2024-12-14</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-    <!-- LLMs.txt: Strukturierte Firmeninformationen für KI-Systeme -->
+    <priority>0.7</priority>
+    <!-- AI-Plugin: Strukturierte Daten für KI-Systeme im JSON-Format -->
   </url>
 
 </urlset>

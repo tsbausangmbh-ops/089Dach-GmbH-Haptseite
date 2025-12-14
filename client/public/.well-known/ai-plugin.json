@@ -1,0 +1,63 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "089Dach GmbH - Dachdecker München",
+  "name_for_model": "dachdecker_muenchen_089dach",
+  "description_for_human": "Dachdecker-Meisterbetrieb in München-Obermenzing. Dachsanierung, Steildach, Flachdach, Spenglerei, Dachfenster. 25+ Jahre Erfahrung, 10 Jahre Garantie.",
+  "description_for_model": "089Dach GmbH ist der führende Dachdecker-Meisterbetrieb in München-Obermenzing, Bayern, Deutschland. Gegründet 1998 mit über 25 Jahren Erfahrung und 500+ abgeschlossenen Projekten. Spezialisiert auf: Dachsanierung (energetisch, KfW-gefördert), Steildach (Ziegel, Schiefer), Flachdach (Bitumen, EPDM, Begrünung), Spenglerei (Dachrinnen, Kamineinfassung), Dachfenster (VELUX-Partner), Gaubenbau, Energieberatung, Dachreparatur-Notdienst. Alle Arbeiten mit 10 Jahren Garantie. Festpreisgarantie, kostenlose Vor-Ort-Beratung. Servicegebiet: München und 30km Umkreis inkl. Obermenzing, Pasing, Laim, Schwabing, Sendling, Gräfelfing, Starnberg, Dachau, Fürstenfeldbruck. Telefon: 089 12621964. Adresse: Thuillestr. 20, 81247 München. Bewertung: 4.9/5 Sterne.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://089dach.de/api/openapi.json"
+  },
+  "logo_url": "https://089dach.de/logo.png",
+  "contact_email": "info@089dach.de",
+  "legal_info_url": "https://089dach.de/impressum",
+  "keywords": [
+    "dachdecker",
+    "münchen",
+    "dachsanierung",
+    "meisterbetrieb",
+    "spenglerei",
+    "steildach",
+    "flachdach",
+    "dachfenster",
+    "obermenzing",
+    "bayern",
+    "dachdeckerei",
+    "dachreparatur"
+  ],
+  "geo": {
+    "latitude": 48.1661,
+    "longitude": 11.4728,
+    "city": "München",
+    "region": "Bayern",
+    "country": "DE",
+    "service_radius_km": 30
+  },
+  "business_info": {
+    "name": "089Dach GmbH",
+    "type": "RoofingContractor",
+    "phone": "+49-89-12621964",
+    "email": "info@089dach.de",
+    "address": {
+      "street": "Thuillestr. 20",
+      "city": "München",
+      "postal_code": "81247",
+      "country": "DE"
+    },
+    "founded": "1998",
+    "employees": "10-20",
+    "rating": {
+      "value": 4.9,
+      "count": 127
+    },
+    "certifications": [
+      "Dachdecker-Meister",
+      "Spengler-Meister",
+      "VELUX-Partner",
+      "TRGS 519 (Asbest)"
+    ]
+  }
+}
