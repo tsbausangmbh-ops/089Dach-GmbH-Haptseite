@@ -27,10 +27,11 @@ export default function Architektenleistungen() {
   return (
     <div className="min-h-screen bg-white">
       <SEO 
-        title="Architektenleistungen & Bauanträge München | 089Dach"
-        description="Bauanträge, Genehmigungsplanung und Architektenleistungen für Ihr Dachprojekt in München. Alles aus einer Hand – von der Planung bis zur Fertigstellung."
+        title="Bauantrag Dachausbau München | Architekten - 089Dach"
+        description="Bauanträge & Genehmigungsplanung für Dachausbau, Gauben, Aufstockung. Partner-Architekten, schnelle Bearbeitung. Jetzt Beratung anfragen!"
         canonical="https://089dach.de/leistungen/architektenleistungen"
         keywords="bauantrag dachausbau münchen, architekt dachgeschoss münchen, genehmigung gaube münchen, dachaufstockung planung münchen"
+        aiSummary="089Dach GmbH bietet Architektenleistungen in München: Bauanträge, Genehmigungsplanung, Statikprüfung für Dachausbau, Gauben und Aufstockungen. Partner-Architekten übernehmen Planung. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Architektenleistungen", url: "/leistungen/architektenleistungen" }]} />
       <ServiceSchema 

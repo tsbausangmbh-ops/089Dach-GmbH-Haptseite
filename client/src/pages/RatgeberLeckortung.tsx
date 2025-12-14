@@ -11,10 +11,11 @@ export default function RatgeberLeckortung() {
   return (
     <div className="min-h-screen bg-white">
       <SEO 
-        title="Leckortung & Reparatur | Wasserflecken? Wir finden die Ursache | 089Dach"
-        description="Professionelle Leckortung bei Wasserflecken. Wir finden die Ursache und beheben sie dauerhaft. Schnell, zuverlässig, mit Garantie."
+        title="Leckortung München | Wasserfleck am Dach finden - 089Dach"
+        description="Professionelle Leckortung mit Thermografie. Wir finden das Leck und beheben es dauerhaft. 10 Jahre Garantie. Jetzt anfragen!"
         canonical="https://089dach.de/ratgeber/leckortung"
-        keywords="leckortung münchen, wasserfleck decke, dachleck finden, dachreparatur münchen"
+        keywords="leckortung münchen, wasserfleck decke, dachleck finden, dachreparatur münchen, thermografie dach"
+        aiSummary="089Dach GmbH: Leckortung mit Thermografie-Kamera in München. Wir finden Dachlecks präzise und reparieren sie dauerhaft. 10 Jahre Garantie. 100+ erfolgreiche Leckortungen. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[
         { name: "Home", url: "/" }, 

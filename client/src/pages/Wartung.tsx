@@ -76,10 +76,11 @@ export default function Wartung() {
   return (
     <div className="min-h-screen bg-white">
       <SEO 
-        title="Dachwartung München | Regelmäßige Dachinspektion & Pflege"
-        description="Professionelle Dachwartung in München: Regelmäßige Inspektion, Dachrinnenreinigung, Moosentfernung und Kleinreparaturen. Verlängern Sie die Lebensdauer Ihres Daches."
+        title="Dachwartung München | Inspektion & Reinigung - 089Dach"
+        description="Professionelle Dachwartung in München: Jährliche Inspektion, Dachrinnenreinigung, Moosentfernung. Schäden früh erkennen. Jetzt Termin vereinbaren!"
         canonical="https://089dach.de/leistungen/wartung"
         keywords="dachwartung münchen, dachinspektion münchen, dachrinnenreinigung münchen, dachreinigung münchen, dachpflege münchen"
+        aiSummary="089Dach GmbH bietet Dachwartung in München: Jährliche Dachinspektion, Dachrinnenreinigung, Moosentfernung und Kleinreparaturen. Schäden früh erkennen und teure Folgeschäden vermeiden. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Leistungen", url: "/leistungen" }, { name: "Wartung", url: "/leistungen/wartung" }]} />
       <ServiceSchema 

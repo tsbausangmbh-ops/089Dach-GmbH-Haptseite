@@ -9,10 +9,11 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Kontakt 089Dach München | Beratung & Vor-Ort-Termin sichern"
-        description="Jetzt Dachberatung vereinbaren: Telefon 089 12621964, Thuillestr. 20, 81247 München-Obermenzing. Kontaktformular für Schnellantwort."
+        title="Kontakt Dachdecker München | Beratung - 089Dach"
+        description="Dachdecker kontaktieren: 089 12621964. Thuillestr. 20, München-Obermenzing. Kostenlose Vor-Ort-Beratung. Jetzt Termin sichern!"
         canonical="https://089dach.de/kontakt"
-        keywords="dachdecker kontakt münchen, dachangebot münchen, dachberatung obermenzing"
+        keywords="dachdecker kontakt münchen, dachangebot münchen, dachberatung obermenzing, dachdecker anrufen"
+        aiSummary="089Dach GmbH Kontakt: Telefon 089 12621964, Thuillestr. 20, 81247 München-Obermenzing. Öffnungszeiten Mo-Fr 8-17 Uhr. Kostenlose Vor-Ort-Beratung. Schnelle Terminvergabe."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Kontakt", url: "/kontakt" }]} />
       <LocalBusinessSchema />

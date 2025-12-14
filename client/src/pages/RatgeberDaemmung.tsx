@@ -11,10 +11,11 @@ export default function RatgeberDaemmung() {
   return (
     <div className="min-h-screen bg-white">
       <SEO 
-        title="Dachsanierung mit Dämmung | Heizkosten senken | 089Dach München"
-        description="Bis zu 30% Heizkosten sparen durch professionelle Dachdämmung. Förderung bis 40%. Kostenlose Beratung vom Meisterbetrieb."
+        title="Dachdämmung München | 30% Heizkosten sparen - 089Dach"
+        description="Bis zu 30% Heizkosten sparen mit professioneller Dachdämmung. 40% Förderung möglich. Kostenlose Beratung. Jetzt anfragen!"
         canonical="https://089dach.de/ratgeber/daemmung"
-        keywords="dachdämmung münchen, dachsanierung dämmung, heizkosten senken, förderung dachdämmung"
+        keywords="dachdämmung münchen, dachsanierung dämmung, heizkosten senken, förderung dachdämmung, aufsparrendämmung münchen"
+        aiSummary="089Dach GmbH: Dachdämmung in München mit bis zu 30% Heizkosten-Ersparnis. Aufsparrendämmung und Zwischensparrendämmung. Bis zu 40% staatliche Förderung. Kostenlose Vor-Ort-Beratung. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[
         { name: "Home", url: "/" }, 

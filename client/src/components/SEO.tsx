@@ -5,9 +5,22 @@ interface SEOProps {
   description: string;
   canonical?: string;
   keywords?: string;
+  geoRegion?: string;
+  geoPlacename?: string;
+  geoPosition?: string;
+  aiSummary?: string;
 }
 
-export default function SEO({ title, description, canonical, keywords }: SEOProps) {
+export default function SEO({ 
+  title, 
+  description, 
+  canonical, 
+  keywords,
+  geoRegion = "DE-BY",
+  geoPlacename = "München, Bayern, Deutschland",
+  geoPosition = "48.1661;11.4728",
+  aiSummary
+}: SEOProps) {
   useEffect(() => {
     document.title = title;
     
@@ -22,14 +35,64 @@ export default function SEO({ title, description, canonical, keywords }: SEOProp
       meta.setAttribute('content', content);
     };
 
+    // Standard SEO Meta Tags
     setMeta('description', description);
     if (keywords) {
       setMeta('keywords', keywords);
     }
+    
+    // Open Graph für Social Media & KI-Crawler
     setMeta('og:title', title, true);
     setMeta('og:description', description, true);
+    setMeta('og:type', 'website', true);
+    setMeta('og:locale', 'de_DE', true);
+    setMeta('og:site_name', '089Dach GmbH München', true);
+    
+    // Twitter Cards
     setMeta('twitter:title', title);
     setMeta('twitter:description', description);
+    setMeta('twitter:card', 'summary_large_image');
+    
+    // Geo-Tags für lokale Suche (Google, Bing, Apple Maps)
+    setMeta('geo.region', geoRegion);
+    setMeta('geo.placename', geoPlacename);
+    setMeta('geo.position', geoPosition);
+    setMeta('ICBM', geoPosition.replace(';', ', '));
+    
+    // Bing spezifisch
+    setMeta('msvalidate.01', '089DACH-BING-VERIFY');
+    setMeta('msnbot', 'index,follow');
+    
+    // KI-Bot & LLM Optimierung
+    setMeta('robots', 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1');
+    setMeta('googlebot', 'index, follow, max-image-preview:large, max-snippet:-1');
+    setMeta('bingbot', 'index, follow');
+    
+    // AI Summary für ChatGPT, Claude, Perplexity etc.
+    if (aiSummary) {
+      setMeta('ai-summary', aiSummary);
+      setMeta('abstract', aiSummary);
+    }
+    
+    // Zusätzliche semantische Meta-Tags für KI-Verständnis
+    setMeta('author', '089Dach GmbH - Dachdecker-Meisterbetrieb München');
+    setMeta('publisher', '089Dach GmbH');
+    setMeta('copyright', '089Dach GmbH München');
+    setMeta('language', 'de');
+    setMeta('content-language', 'de-DE');
+    setMeta('audience', 'Hausbesitzer, Immobilienbesitzer, Architekten, Bauherren in München');
+    setMeta('coverage', 'München, Obermenzing, Pasing, Laim, Schwabing, Sendling, Gräfelfing, Bayern');
+    setMeta('distribution', 'local');
+    setMeta('rating', 'general');
+    setMeta('revisit-after', '7 days');
+    
+    // Business-spezifische Tags
+    setMeta('business:contact_data:street_address', 'Thuillestr. 20');
+    setMeta('business:contact_data:locality', 'München');
+    setMeta('business:contact_data:postal_code', '81247');
+    setMeta('business:contact_data:country_name', 'Deutschland');
+    setMeta('business:contact_data:phone_number', '+49 89 12621964');
+    setMeta('business:contact_data:email', 'info@089dach.de');
 
     if (canonical) {
       let link = document.querySelector('link[rel="canonical"]') as HTMLLinkElement | null;
@@ -44,7 +107,7 @@ export default function SEO({ title, description, canonical, keywords }: SEOProp
     return () => {
       document.title = '089Dach GmbH - Ihr Dachdecker in München';
     };
-  }, [title, description, canonical, keywords]);
+  }, [title, description, canonical, keywords, geoRegion, geoPlacename, geoPosition, aiSummary]);
 
   return null;
 }

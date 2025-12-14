@@ -12,10 +12,11 @@ export default function Bedachungen() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Bedachungen München | Steildach & Flachdach vom Meister"
-        description="Individuelle Bedachungslösungen in München: Steildach, Flachdach, energetische Dämmung und Abdichtung vom zertifizierten Meisterbetrieb 089Dach."
+        title="Bedachungen München | Steildach & Flachdach - 089Dach"
+        description="Steildach & Flachdach vom Meisterbetrieb München: Neueindeckung, Abdichtung & energetische Dämmung. 10 Jahre Garantie. Jetzt Angebot anfordern!"
         canonical="https://089dach.de/leistungen/bedachungen"
         keywords="steildach münchen, flachdach münchen, dachabdichtung münchen, dachisolierung münchen, dacheindeckung münchen"
+        aiSummary="089Dach GmbH spezialisiert auf Steildach und Flachdach in München. Neueindeckung mit Tondachziegeln, Betonsteine, Schiefer. Flachdach-Abdichtung und Dachbegrünung. Meisterbetrieb seit 1998. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Bedachungen", url: "/leistungen/bedachungen" }]} />
       <ServiceSchema 

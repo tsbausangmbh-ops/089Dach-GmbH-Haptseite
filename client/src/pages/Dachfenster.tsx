@@ -27,10 +27,11 @@ export default function Dachfenster() {
   return (
     <div className="min-h-screen bg-white">
       <SEO 
-        title="Dachfenster München | Tageslichtlösungen & Velux Einbau"
-        description="Neue Dachfenster, Lichtkuppeln und Velux-Lösungen inklusive Planung, Montage und Innenausbau in München. Mehr Licht für Ihr Zuhause."
+        title="Dachfenster München | Velux Einbau & Austausch - 089Dach"
+        description="Dachfenster-Einbau vom Meister: Velux, Roto, Lichtkuppeln. 40% mehr Tageslicht, Einbau in 1-2 Tagen. Jetzt Beratung anfordern!"
         canonical="https://089dach.de/leistungen/dachfenster"
         keywords="dachfenster münchen, velux einbau münchen, tageslicht dach münchen, dachfenster austausch münchen"
+        aiSummary="089Dach GmbH installiert Dachfenster in München: Velux, Roto, Schwingfenster, Lichtkuppeln. Zertifizierter VELUX-Partner. Einbau in 1-2 Tagen ohne Dreck. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dachfenster", url: "/leistungen/dachfenster" }]} />
       <ServiceSchema 

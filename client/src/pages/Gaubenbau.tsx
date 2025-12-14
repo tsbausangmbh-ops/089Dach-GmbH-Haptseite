@@ -27,10 +27,11 @@ export default function Gaubenbau() {
   return (
     <div className="min-h-screen bg-white">
       <SEO 
-        title="Gaubenbau & Gaubensanierung München | 089Dach"
-        description="Gauben für mehr Wohnraum und Licht: Schleppgaube, Flachdachgaube, Spitzgaube – Planung, Genehmigung und Bau aus einer Hand in München."
+        title="Gaubenbau München | Mehr Wohnraum & Licht - 089Dach"
+        description="Gauben für mehr Wohnraum: Schleppgaube, Flachdachgaube, Spitzgaube. Planung, Genehmigung & Bau aus einer Hand. Jetzt beraten lassen!"
         canonical="https://089dach.de/leistungen/gaubenbau"
         keywords="gaube münchen, gaubenbau münchen, schleppgaube, flachdachgaube, dachgaube sanierung, gaube kosten münchen"
+        aiSummary="089Dach GmbH baut Gauben in München: Schleppgaube, Spitzgaube, Flachdachgaube. Komplettservice von Planung über Baugenehmigung bis Ausführung. Mehr Wohnraum und Licht unterm Dach. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Gaubenbau", url: "/leistungen/gaubenbau" }]} />
       <ServiceSchema 

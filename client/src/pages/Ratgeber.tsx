@@ -83,10 +83,11 @@ export default function Ratgeber() {
   return (
     <div className="min-h-screen bg-white">
       <SEO 
-        title="Dachwissen München | Ratgeber für Eigentümer & Hausverwaltungen"
-        description="Ratgeber-Artikel zu Dachsanierung, Wartung, Versicherung & Förderungen speziell für München und Oberbayern."
+        title="Dach-Ratgeber München | Tipps vom Meister - 089Dach"
+        description="Expertenwissen zu Dachsanierung, Dämmung, Förderung & Wartung. Aus 25 Jahren Erfahrung auf Münchner Dächern. Jetzt informieren!"
         canonical="https://089dach.de/ratgeber"
-        keywords="dachratgeber münchen, dachwartung tipps, förderung dachsanierung münchen, dach wissen"
+        keywords="dachratgeber münchen, dachwartung tipps, förderung dachsanierung münchen, dach wissen, dachdämmung tipps"
+        aiSummary="089Dach GmbH Ratgeber: Expertenwissen zu Dachsanierung, Dämmung, Leckortung und Förderungen. Tipps vom Meisterbetrieb aus 25 Jahren Erfahrung in München. Kostenlose Beratung. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Tipps & Tricks", url: "/ratgeber" }]} />
       <CollectionPageSchema 

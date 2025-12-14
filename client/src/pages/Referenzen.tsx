@@ -174,10 +174,11 @@ export default function Referenzen() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachsanierung München Referenzen | 500+ Projekte Vorher-Nachher | 089Dach"
-        description="Sehen Sie 12 echte Dachprojekte aus München mit Vorher-Nachher-Bildern: Steildach, Flachdach, Schieferdach, Dachfenster. Meister für Dach- und Spenglerei seit 1998. ✓ 10 Jahre Garantie ✓ Kostenlose Beratung"
+        title="Dachdecker Referenzen München | Vorher-Nachher - 089Dach"
+        description="12 echte Dachprojekte aus München mit Vorher-Nachher-Bildern. Steildach, Flachdach, Dachfenster. 10 Jahre Garantie. Jetzt ansehen!"
         canonical="https://089dach.de/referenzen"
-        keywords="dachdecker münchen referenzen, dachsanierung münchen vorher nachher, dachreparatur münchen erfahrungen, steildach sanierung münchen, flachdach sanierung münchen, dachfenster einbau münchen, schieferdach münchen, spenglerarbeiten münchen, dachbegrünung münchen, dachdecker obermenzing, dachdecker schwabing, dachdecker pasing"
+        keywords="dachdecker münchen referenzen, dachsanierung münchen vorher nachher, dachreparatur münchen erfahrungen, steildach sanierung münchen, flachdach sanierung münchen"
+        aiSummary="089Dach GmbH Referenzen: 12 Dachprojekte in München mit Vorher-Nachher-Bildern. Steildach, Flachdach, Schieferdach, Dachfenster. 500+ abgeschlossene Projekte, 10 Jahre Garantie. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Referenzen", url: "/referenzen" }]} />
       

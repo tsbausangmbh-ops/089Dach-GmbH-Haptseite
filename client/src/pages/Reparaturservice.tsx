@@ -76,10 +76,11 @@ export default function Reparaturservice() {
   return (
     <div className="min-h-screen bg-white">
       <SEO 
-        title="Dachreparatur München | Schnelle Hilfe bei Sturmschäden"
-        description="Schnelle Hilfe bei Dachschäden in München: Notfallabdichtung, Leckortung, Sturm- und Hagelschäden inkl. Versicherungsservice. Rückruf-Service."
+        title="Dachreparatur München | Notfall & Sturmschäden - 089Dach"
+        description="Schnelle Dachreparatur in München: Sturmschäden, Leckortung, Wasserschäden. In 24h vor Ort. Versicherungsservice inklusive. Jetzt anrufen!"
         canonical="https://089dach.de/leistungen/reparaturservice"
         keywords="dachreparatur münchen, notdienst dach münchen, sturmschaden dach münchen, dachnotdienst münchen, undichtes dach münchen"
+        aiSummary="089Dach GmbH bietet schnelle Dachreparatur in München. Notfallabdichtung bei Sturmschäden und Wasserschäden. In der Regel innerhalb von 24 Stunden vor Ort. Versicherungsservice inklusive. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Reparaturservice", url: "/leistungen/reparaturservice" }]} />
       <ServiceSchema 

@@ -12,10 +12,11 @@ export default function Spenglerei() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Spenglerarbeiten München | Dachentwässerung & Metallverarbeitung"
-        description="Präzise Spenglerarbeiten: Dachrinnen, Stehfalz, Gauben-Bekleidung & Kupferlösungen für München und Umland. Handgefertigt in eigener Werkstatt."
+        title="Spenglerei München | Dachrinnen & Kupfer - 089Dach"
+        description="Spenglerarbeiten vom Meister: Dachrinnen, Stehfalz, Kupferarbeiten & Kamineinfassungen. Handgefertigt in eigener Werkstatt. Jetzt anfragen!"
         canonical="https://089dach.de/leistungen/spenglerei"
         keywords="spengler münchen, dachrinne münchen, stehfalz dach münchen, kupferdach münchen, blecharbeiten münchen"
+        aiSummary="089Dach GmbH Spenglerei in München-Obermenzing. Dachrinnen aus Kupfer, Zink und Aluminium, Stehfalzdächer, Kamineinfassungen und Gaubenverkleidungen. Handgefertigt in eigener Werkstatt. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Spenglerei", url: "/leistungen/spenglerei" }]} />
       <ServiceSchema 

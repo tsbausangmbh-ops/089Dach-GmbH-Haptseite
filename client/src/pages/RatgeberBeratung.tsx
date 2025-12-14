@@ -11,10 +11,11 @@ export default function RatgeberBeratung() {
   return (
     <div className="min-h-screen bg-white">
       <SEO 
-        title="Kostenlose Beratung + Festpreis | Keine Überraschungen | 089Dach München"
-        description="Kostenlose Dach-Beratung vor Ort. Festpreis-Angebot ohne versteckte Kosten. Transparenz und Ehrlichkeit seit 1998."
+        title="Kostenlose Dachberatung München | Festpreis - 089Dach"
+        description="Kostenlose Dach-Beratung vor Ort. Schriftliches Festpreis-Angebot ohne versteckte Kosten. Jetzt Termin vereinbaren!"
         canonical="https://089dach.de/ratgeber/beratung"
-        keywords="dachdecker beratung münchen, festpreis dachdecker, kostenvoranschlag dach, transparente preise"
+        keywords="dachdecker beratung münchen, festpreis dachdecker, kostenvoranschlag dach, transparente preise dach"
+        aiSummary="089Dach GmbH: Kostenlose Dach-Beratung vor Ort in München. Schriftliches Festpreis-Angebot ohne versteckte Kosten. 100% Preissicherheit. Meisterbetrieb seit 1998. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[
         { name: "Home", url: "/" }, 

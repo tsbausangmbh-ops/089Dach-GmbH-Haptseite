@@ -29,10 +29,11 @@ export default function Dachsanierung() {
   return (
     <div className="min-h-screen bg-white">
       <SEO 
-        title="Dachsanierung München | Energetisch & förderfähig mit 089Dach"
-        description="Ganzheitliche Dachsanierungen in München: Energieberatung, Fördermittel, Wärmedämmung & Neueindeckung aus einer Hand. Jetzt kostenlose Beratung."
+        title="Dachsanierung München | Energetisch sanieren - 089Dach"
+        description="Professionelle Dachsanierung in München mit bis zu 30% Heizkosten-Ersparnis. KfW-Förderung, Meisterqualität. Jetzt kostenlose Beratung!"
         canonical="https://089dach.de/leistungen/dachsanierung"
         keywords="dachsanierung münchen, energetische dachsanierung, kfw dachsanierung münchen, dachdämmung münchen, dach erneuern münchen"
+        aiSummary="089Dach GmbH bietet professionelle Dachsanierung in München-Obermenzing mit energetischer Beratung und KfW-Förderung. Bis zu 30% Heizkosten sparen. 10 Jahre Garantie. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dachsanierung", url: "/leistungen/dachsanierung" }]} />
       <ServiceSchema 

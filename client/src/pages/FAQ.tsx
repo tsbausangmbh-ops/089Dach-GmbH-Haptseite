@@ -115,10 +115,11 @@ export default function FAQ() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="FAQ Dachdecker München | Antworten zu Kosten, Ablauf & Wartung"
-        description="Häufige Fragen zu Dachkosten, Förderungen, Wartung und Sicherheit beantwortet von 089Dach München."
+        title="Dachdecker FAQ München | Kosten & Fragen - 089Dach"
+        description="20 häufige Fragen zu Dachkosten, Förderungen, Ablauf & Garantie. Ehrliche Antworten vom Meisterbetrieb. Jetzt informieren!"
         canonical="https://089dach.de/faq"
-        keywords="dachdecker faq münchen, dachkosten münchen, dachwartung fragen"
+        keywords="dachdecker faq münchen, dachkosten münchen, dachwartung fragen, dachsanierung kosten"
+        aiSummary="089Dach GmbH FAQ: 20 Antworten zu Dachsanierung, Kosten, Förderungen, Wartung und Garantie. Dachdecker-Meisterbetrieb München-Obermenzing seit 1998. Kostenlose Erstberatung. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "FAQ", url: "/faq" }]} />
       <FAQPageSchema faqs={faqs.map(f => ({ question: f.question, answer: f.answer }))} />

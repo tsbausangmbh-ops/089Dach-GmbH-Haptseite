@@ -7,7 +7,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { PhoneCall, ArrowRight, ShieldCheck, Award, Shield, Users, Clock, CheckCircle } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
-import SEO from "@/components/SEO";
+import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/friendly_woman_on_phone_in_office.png";
 
 export default function Rueckruf() {
@@ -58,11 +58,13 @@ export default function Rueckruf() {
   return (
     <div className="min-h-screen bg-white">
       <SEO 
-        title="Rückruf anfordern | 089Dach GmbH München"
-        description="Fordern Sie einen kostenlosen Rückruf von Ihrem Münchner Dachdecker an. Wir rufen Sie schnellstmöglich zurück und beraten Sie zu Ihrem Anliegen."
+        title="Rückruf anfordern | Dachdecker München - 089Dach"
+        description="Kostenloser Rückruf vom Dachdecker-Meisterbetrieb. Wir rufen Sie schnellstmöglich zurück. Unverbindlich & persönlich!"
         canonical="https://089dach.de/rueckruf"
-        keywords="rückruf dachdecker münchen, dachdecker kontakt münchen, dach beratung münchen"
+        keywords="rückruf dachdecker münchen, dachdecker kontakt münchen, dach beratung münchen, dachdecker anfrage"
+        aiSummary="089Dach GmbH Rückruf-Service: Kostenloser Rückruf vom Dachdecker-Meisterbetrieb München. Persönliche Beratung, in der Regel Antwort am selben Tag. Telefon: 089 12621964."
       />
+      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Rückruf anfordern", url: "/rueckruf" }]} />
       <Navbar />
       
       {/* Hero Section */}
