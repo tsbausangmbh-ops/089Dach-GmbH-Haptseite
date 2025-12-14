@@ -19,6 +19,7 @@ import UeberUns from "@/pages/UeberUns";
 import Dachsanierung from "@/pages/Dachsanierung";
 import Dachfenster from "@/pages/Dachfenster";
 import Reparaturservice from "@/pages/Reparaturservice";
+import AGB from "@/pages/AGB";
 import CookieConsent from "@/components/CookieConsent";
 import BackgroundLogo from "@/components/BackgroundLogo";
 import { LocalBusinessSchema } from "@/components/SEO";
@@ -41,6 +42,7 @@ function Router() {
       <Route path="/dachsanierung" component={Dachsanierung} />
       <Route path="/dachfenster" component={Dachfenster} />
       <Route path="/reparaturservice" component={Reparaturservice} />
+      <Route path="/agb" component={AGB} />
       <Route component={NotFound} />
     </Switch>
   );

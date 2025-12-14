@@ -39,6 +39,7 @@ export default function Footer() {
               <li><a href="/referenzen" className="hover:text-primary transition-colors">Referenzen</a></li>
               <li><a href="/impressum" className="hover:text-primary transition-colors">Impressum</a></li>
               <li><a href="/datenschutz" className="hover:text-primary transition-colors">Datenschutz</a></li>
+              <li><a href="/agb" className="hover:text-primary transition-colors">AGB</a></li>
               <li><a href="/cookies" className="hover:text-primary transition-colors">Cookie Einstellungen</a></li>
             </ul>
           </div>
