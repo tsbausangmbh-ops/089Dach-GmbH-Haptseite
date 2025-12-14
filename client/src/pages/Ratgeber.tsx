@@ -4,7 +4,7 @@ import LeadFunnel from "@/components/LeadFunnel";
 import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
-import { CheckCircle2, AlertTriangle, ThermometerSun, Droplets, Leaf, ArrowRight, BookOpen, Quote, Shield, Users, Award } from "lucide-react";
+import { CheckCircle2, AlertTriangle, ThermometerSun, Droplets, Leaf, ArrowRight, BookOpen, Quote, Shield, Users, Award, Phone, HelpCircle, Lightbulb } from "lucide-react";
 import { Link } from "wouter";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import gegArticleImage from "@assets/generated_images/homeowner_roof_consultation_scene.png";
@@ -13,48 +13,63 @@ export default function Ratgeber() {
   const guides = [
     {
       icon: AlertTriangle,
-      title: "Dachcheck: Wann ist eine Sanierung fällig?",
-      problem: "Viele Hausbesitzer bemerken Schäden erst, wenn es schon reinregnet – dann wird's teuer.",
-      description: "Erfahren Sie, wie Sie Schäden frühzeitig erkennen und teure Folgeschäden vermeiden können. Mit unserer Experten-Checkliste prüfen Sie Ihr Dach selbst.",
-      story: "So wie bei Herrn Meier aus Pasing: Ein kleiner Riss, den er früh erkannte, bewahrte ihn vor einem 15.000€ Wasserschaden.",
+      title: "Dachcheck: Wann ist eine Sanierung wirklich nötig?",
+      problem: "Sie liegen nachts wach, wenn der Sturm ums Haus pfeift. Bei jedem Regen schauen Sie nervös zur Decke. Und die Angst vor einer teuren Überraschung wächst.",
+      solution: "Erfahren Sie, wie Sie Schäden frühzeitig erkennen – bevor aus einem kleinen Problem ein großer Wasserschaden wird. Mit unserer Experten-Checkliste prüfen Sie Ihr Dach selbst.",
+      story: "Herr Meier aus Pasing entdeckte einen kleinen Riss rechtzeitig. Das bewahrte ihn vor einem 15.000€ Wasserschaden. Heute sagt er: 'Hätte ich nur früher hingeschaut.'",
+      takeaway: "15 Minuten Dachcheck können Ihnen 15.000€ sparen.",
       category: "Wartung",
       readTime: "5 Min"
     },
     {
       icon: ThermometerSun,
-      title: "Energetische Dachsanierung: Kosten & Förderung",
-      problem: "Heizkosten explodieren – und ein Großteil der Wärme entweicht durch ein schlecht gedämmtes Dach.",
-      description: "Wie Sie durch moderne Dämmung bis zu 30% Heizkosten sparen und welche staatlichen Förderungen (BAFA/KfW) Ihnen zustehen – einfach erklärt.",
-      story: "Familie Schmidt aus Schwabing spart jetzt 2.400€ pro Jahr – und hat 40% der Kosten gefördert bekommen.",
+      title: "Heizkosten explodieren? So stoppt Ihr Dach den Wärmeverlust",
+      problem: "Sie heizen und heizen – aber richtig warm wird es nie. Die Heizrechnung wird jedes Jahr höher. Und Sie fragen sich: Wo geht die ganze Wärme eigentlich hin?",
+      solution: "Bis zu 30% Ihrer Heizwärme entweicht durchs Dach. Mit moderner Dämmung stoppen Sie den Wärmeverlust – und der Staat bezahlt bis zu 40% der Kosten.",
+      story: "Familie Schmidt aus Schwabing konnte es kaum glauben: 2.400€ weniger Heizkosten pro Jahr. Und 40% Förderung für die Dämmung gab's obendrauf.",
+      takeaway: "Jeder Euro in Dämmung spart Ihnen 3 Euro Heizkosten.",
       category: "Energie sparen",
       readTime: "8 Min"
     },
     {
       icon: Droplets,
-      title: "Was tun bei einem Sturmschaden?",
-      problem: "Ein Sturm hat Ihr Dach beschädigt – Panik macht sich breit. Was jetzt?",
-      description: "Erste Hilfe für Ihr Dach: Sicherungsmaßnahmen, Versicherungsmeldung und Reparaturablauf – Schritt für Schritt erklärt.",
-      story: "Nach Sturm Niklas waren wir innerhalb von 2 Stunden bei Familie Huber in Sendling zur Notsicherung.",
+      title: "Sturm, Hagel, Wasserschaden – Was tun, wenn's passiert ist?",
+      problem: "Der Sturm hat Ziegel vom Dach gerissen. Wasser tropft von der Decke. Die Panik steigt. Was sollen Sie jetzt bloß tun? Wen rufen Sie an? Was zahlt die Versicherung?",
+      solution: "Atmen Sie durch. Wir zeigen Ihnen Schritt für Schritt, was jetzt zu tun ist: Erste Sicherung, Versicherungsmeldung, Reparaturablauf. Alles verständlich erklärt.",
+      story: "Nach Sturm Niklas: Familie Huber in Sendling rief um 22 Uhr an. Um Mitternacht war die Notsicherung fertig. 'Die haben uns in der schlimmsten Nacht nicht allein gelassen.'",
+      takeaway: "Im Notfall sind wir in 2 Stunden bei Ihnen – auch nachts.",
       category: "Notfall",
       readTime: "3 Min"
     },
     {
       icon: Leaf,
-      title: "Dachbegrünung: Vorteile & Umsetzung",
-      problem: "Heiße Sommer, Starkregen – Ihr Dach muss immer mehr aushalten. Gibt es eine Lösung?",
-      description: "Warum ein Gründach nicht nur gut aussieht, sondern auch das Klima schützt, Regenwasser puffert und die Lebensdauer Ihrer Abdichtung verdoppelt.",
-      story: "Das Architekturbüro Maier in Bogenhausen genießt jetzt eine natürliche Klimaanlage auf dem Dach.",
+      title: "Gründach: Die Lösung für Hitze, Starkregen und steigende Kosten",
+      problem: "Im Sommer wird's unterm Dach unerträglich heiß. Bei Starkregen läuft der Keller voll. Und die Stadtwerke erhöhen die Abwassergebühren. Gibt es überhaupt eine Lösung?",
+      solution: "Ein Gründach kühlt Ihr Haus um bis zu 8°C, puffert Regenwasser und verdoppelt die Lebensdauer Ihrer Abdichtung. Plus: In vielen Gemeinden gibt's Förderung.",
+      story: "Das Architekturbüro Maier in Bogenhausen: 'Wir haben keine Klimaanlage mehr. Das Gründach macht das alleine. Unsere Stromrechnung hat sich halbiert.'",
+      takeaway: "Ein Gründach zahlt sich nach 7 Jahren von selbst zurück.",
       category: "Nachhaltigkeit",
       readTime: "6 Min"
     },
     {
       icon: CheckCircle2,
-      title: "Das richtige Material für Ihr Steildach",
-      problem: "Ziegel, Betonstein, Schiefer – die Auswahl ist riesig. Welches Material passt zu Ihrem Haus?",
-      description: "Vor- und Nachteile der beliebtesten Eindeckungen im Vergleich. Lebensdauer, Kosten und Optik – ehrlich und neutral erklärt.",
-      story: "Wir haben Herrn Dr. Bauer geholfen, die perfekte Lösung für seine denkmalgeschützte Villa zu finden.",
+      title: "Ziegel, Schiefer oder Metall? So finden Sie das richtige Material",
+      problem: "Die Auswahl erschlägt Sie: Tonziegel, Betonstein, Schiefer, Metall... Jeder Dachdecker empfiehlt was anderes. Woher wissen Sie, was wirklich zu Ihrem Haus passt?",
+      solution: "Wir erklären ehrlich die Vor- und Nachteile jedes Materials – Lebensdauer, Kosten, Optik. Ohne Verkaufsdruck. Damit Sie die richtige Entscheidung treffen.",
+      story: "Dr. Bauer hatte eine denkmalgeschützte Villa. Drei Dachdecker sagten 'geht nicht'. Wir fanden die perfekte Lösung: Originalgetreue Schieferdeckung, die 80 Jahre hält.",
+      takeaway: "Das richtige Material hält 50 Jahre. Das falsche macht nach 20 Jahren Probleme.",
       category: "Materialkunde",
       readTime: "7 Min"
+    },
+    {
+      icon: HelpCircle,
+      title: "Förderung beantragen ohne Stress – So klappt's garantiert",
+      problem: "Sie haben gehört, dass es Förderung gibt. Aber die Anträge sind kompliziert, die Fristen kurz, und wenn Sie einen Fehler machen, bekommen Sie nichts. Frustrierend.",
+      solution: "Wir führen Sie durch den Förderdschungel: Welche Programme für Sie passen, wie Sie den Antrag richtig stellen, und welche Fehler Sie unbedingt vermeiden müssen.",
+      story: "Frau Weber aus Haidhausen dachte, sie bekommt keine Förderung. Wir haben 18.000€ für sie rausgeholt. 'Ohne 089Dach hätte ich das Geld auf dem Tisch liegen lassen.'",
+      takeaway: "Im Schnitt holen wir 12.000€ Förderung für unsere Kunden.",
+      category: "Förderung",
+      readTime: "10 Min"
     }
   ];
 
@@ -69,58 +84,58 @@ export default function Ratgeber() {
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Ratgeber", url: "/ratgeber" }]} />
       <Navbar />
       
-      {/* Hero Section mit Storytelling */}
-      <section className="pt-24 pb-12 bg-gray-50 relative overflow-hidden">
-        
-        {/* Hero Logo Overlay */}
-        <div className="absolute right-0 top-0 h-full w-1/2 opacity-10 pointer-events-none hidden md:flex items-center justify-center overflow-hidden">
-             <svg 
-            width="100%" 
-            height="100%" 
-            viewBox="0 0 800 800" 
-            xmlns="http://www.w3.org/2000/svg"
-            className="w-full h-full max-w-none transform rotate-12 scale-150"
-          >
-            <g fill="currentColor" className="text-secondary">
-              <rect x="100" y="200" width="200" height="200" rx="20" fill="currentColor" />
-              <text x="200" y="340" fontSize="120" fontWeight="bold" fontFamily="sans-serif" textAnchor="middle" fill="white">089</text>
-              <text x="340" y="340" fontSize="120" fontWeight="bold" fontFamily="sans-serif" fill="currentColor">DACH</text>
-              <text x="345" y="390" fontSize="30" fontWeight="medium" fontFamily="sans-serif" letterSpacing="5" fill="currentColor">GMBH MÜNCHEN</text>
-            </g>
-          </svg>
-        </div>
-
-        <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-3xl mx-auto text-center">
+      {/* Hero Section */}
+      <section className="pt-24 pb-16 bg-gray-50 relative overflow-hidden">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">089Dach Expertenwissen</span>
             <h1 className="text-4xl md:text-6xl font-heading font-bold text-secondary mt-4 mb-6">
-              Wissen, das Ihr Dach schützt
+              Endlich verstehen, was Ihr Dach wirklich braucht
             </h1>
             
-            {/* Emotionale Einleitung */}
-            <div className="text-left bg-white p-6 rounded-sm shadow-sm border-l-4 border-primary mb-8">
+            {/* Problem-Agitation */}
+            <div className="bg-white p-6 rounded-sm shadow-sm border-l-4 border-primary mb-8">
               <p className="text-lg text-secondary font-medium mb-3">
-                Kennen Sie das auch?
+                Kennen Sie das Gefühl?
               </p>
-              <p className="text-muted-foreground leading-relaxed">
-                Sie stehen vor einer Entscheidung rund ums Dach – und im Internet finden Sie tausend 
-                widersprüchliche Meinungen. Werbeversprechen hier, Panikmache dort. 
-                <strong className="text-secondary"> Wem können Sie noch vertrauen?</strong>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Sie googeln „Dachsanierung München" und finden tausend widersprüchliche Meinungen. 
+                Ein Dachdecker sagt teuer sanieren, der andere sagt abwarten. Im Forum schreiben 
+                Leute Horror-Geschichten. Und am Ende wissen Sie weniger als vorher.
+              </p>
+              <p className="text-secondary font-medium">
+                <strong>Wem können Sie noch vertrauen?</strong>
               </p>
             </div>
             
-            <p className="text-xl text-muted-foreground leading-relaxed">
-              Deshalb teilen wir hier unser Wissen aus <strong>über 25 Jahren Erfahrung</strong> – 
-              ehrlich, verständlich und ohne Verkaufsdruck. Damit Sie die richtigen Entscheidungen 
-              für Ihr Zuhause treffen können.
+            <p className="text-xl text-muted-foreground leading-relaxed mb-8">
+              Uns. Weil wir Ihnen hier unser komplettes Wissen schenken – aus über 25 Jahren 
+              Erfahrung auf Münchner Dächern. <strong>Ehrlich. Verständlich. Ohne Verkaufsdruck.</strong> 
+              Damit Sie die richtigen Entscheidungen treffen – egal ob mit uns oder jemand anderem.
             </p>
+
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-sm" data-testid="button-hero-call">
+                <a href="tel:08912621964">
+                  <Phone className="mr-2 h-5 w-5" />
+                  Frage? Rufen Sie an
+                </a>
+              </Button>
+              <Button asChild variant="outline" size="lg" className="border-secondary text-secondary hover:bg-secondary hover:text-white font-bold rounded-sm" data-testid="button-hero-articles">
+                <a href="#artikel">Alle Artikel durchstöbern</a>
+              </Button>
+            </div>
           </div>
-          
-          {/* Trust Badges */}
-          <div className="flex flex-wrap justify-center gap-8 mt-12 text-sm text-muted-foreground">
+        </div>
+      </section>
+      
+      {/* Trust Badges */}
+      <section className="py-8 border-b border-border">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-wrap justify-center gap-8 text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
               <Users className="h-5 w-5 text-primary" />
-              <span><strong className="text-secondary">1.500+</strong> Kunden beraten</span>
+              <span><strong className="text-secondary">1.500+</strong> Hausbesitzer beraten</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="h-5 w-5 text-primary" />
@@ -128,33 +143,36 @@ export default function Ratgeber() {
             </div>
             <div className="flex items-center gap-2">
               <Shield className="h-5 w-5 text-primary" />
-              <span><strong className="text-secondary">Unabhängige</strong> Beratung</span>
+              <span><strong className="text-secondary">100%</strong> unabhängige Beratung</span>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Featured Article mit Storytelling */}
-      <section className="py-12">
+      {/* Featured Article */}
+      <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="bg-secondary text-white rounded-sm overflow-hidden shadow-xl grid md:grid-cols-2">
             <div className="p-8 md:p-12 flex flex-col justify-center">
               <div className="flex items-center gap-2 text-primary font-medium mb-4">
-                <BookOpen className="h-4 w-4" />
-                <span>Aktuell wichtig für Hausbesitzer</span>
+                <Lightbulb className="h-4 w-4" />
+                <span>Das beschäftigt gerade alle Hausbesitzer</span>
               </div>
               <h2 className="text-3xl font-heading font-bold mb-4">
-                Die neue GEG-Novelle 2024: Das müssen Sie jetzt wissen
+                GEG 2024: Was bedeutet das neue Gesetz für Ihr Dach?
               </h2>
-              <p className="text-gray-300 mb-6 leading-relaxed">
-                „Muss ich jetzt mein Dach dämmen? Was kostet das? Gibt es Förderung?" – Diese Fragen 
-                hören wir täglich. Das Gebäudeenergiegesetz verunsichert viele Hausbesitzer. 
+              <p className="text-gray-300 mb-4 leading-relaxed">
+                „Muss ich jetzt dämmen?" „Wird mein Haus wertlos?" „Bekomme ich noch Förderung?" 
               </p>
-              <p className="text-white font-medium mb-8">
-                Wir erklären einfach und verständlich, was wirklich auf Sie zukommt – und was nicht.
+              <p className="text-white mb-6 leading-relaxed">
+                Die Verunsicherung ist riesig. Viele Hausbesitzer schieben die Entscheidung vor sich her – 
+                aus Angst, etwas falsch zu machen. <strong>Dabei ist die Lage oft viel entspannter als gedacht.</strong>
+              </p>
+              <p className="text-gray-300 mb-8">
+                Wir erklären einfach und ehrlich, was wirklich auf Sie zukommt – und was nicht.
               </p>
               <Button className="w-fit bg-primary hover:bg-primary/90 text-white font-bold rounded-sm" data-testid="button-read-geg-article">
-                Artikel lesen <ArrowRight className="ml-2 h-4 w-4" />
+                Jetzt Klarheit bekommen <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </div>
             <div className="bg-gray-800 min-h-[300px] relative">
@@ -170,69 +188,92 @@ export default function Ratgeber() {
       </section>
 
       {/* Expert Quote */}
-      <section className="py-12 bg-gray-50">
+      <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <Quote className="h-12 w-12 text-primary/30 mx-auto mb-6" />
-            <blockquote className="text-2xl font-heading text-secondary italic mb-6">
-              „Ein gut informierter Kunde ist unser bester Kunde. Denn nur wer versteht, 
-              was wir tun, kann den Wert unserer Arbeit schätzen."
+            <blockquote className="text-2xl font-heading text-secondary italic mb-6 leading-relaxed">
+              „Die meisten Hausbesitzer haben keine Ahnung, was ihr Dach braucht – und das ist 
+              nicht ihre Schuld. Aber genau deshalb werden sie oft über den Tisch gezogen. 
+              Wir wollen, dass Sie verstehen, wofür Sie bezahlen."
             </blockquote>
             <div className="flex items-center justify-center gap-4">
-              <div className="w-12 h-12 bg-secondary rounded-full flex items-center justify-center text-white font-bold">
-                MH
+              <div className="w-14 h-14 bg-secondary rounded-full flex items-center justify-center text-white font-bold text-lg">
+                FB
               </div>
               <div className="text-left">
-                <p className="font-bold text-secondary">Michael Haslbeck</p>
-                <p className="text-sm text-muted-foreground">Dachdeckermeister & Geschäftsführer, 089Dach GmbH</p>
+                <p className="font-bold text-secondary">Falko Georg Blöckinger</p>
+                <p className="text-sm text-muted-foreground">Dachdecker- und Spenglermeister, Geschäftsführer 089Dach GmbH</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Grid of Guides mit Storytelling */}
-      <section className="py-20">
+      {/* Grid of Guides */}
+      <section id="artikel" className="py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mb-12">
-            <h2 className="text-3xl font-heading font-bold text-secondary mb-4">Alle Ratgeber-Artikel</h2>
-            <p className="text-muted-foreground">
-              Jeder Artikel basiert auf echten Fragen unserer Kunden – und echten Lösungen aus unserer Praxis.
+            <h2 className="text-3xl font-heading font-bold text-secondary mb-4">
+              Welches Problem beschäftigt Sie gerade?
+            </h2>
+            <p className="text-muted-foreground text-lg">
+              Jeder Artikel basiert auf echten Fragen echter Hausbesitzer. Klicken Sie auf das Thema, 
+              das Sie gerade am meisten beschäftigt.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {guides.map((guide, index) => (
-              <Card key={index} className="group hover:shadow-lg transition-all duration-300 border-border flex flex-col" data-testid={`card-guide-${index}`}>
-                <CardHeader>
+              <Card key={index} className="group hover:shadow-xl transition-all duration-300 border-border flex flex-col overflow-hidden" data-testid={`card-guide-${index}`}>
+                <CardHeader className="pb-4">
                   <div className="flex justify-between items-start mb-4">
-                    <div className="p-2 bg-primary/10 rounded-sm text-primary">
+                    <div className="p-3 bg-primary/10 rounded-sm text-primary">
                       <guide.icon className="h-6 w-6" />
                     </div>
-                    <span className="text-xs font-medium text-muted-foreground bg-gray-100 px-2 py-1 rounded-full">
+                    <span className="text-xs font-medium text-muted-foreground bg-gray-100 px-3 py-1 rounded-full">
                       {guide.readTime} Lesezeit
                     </span>
                   </div>
                   <div className="text-sm font-medium text-primary mb-2">{guide.category}</div>
-                  <CardTitle className="text-xl font-heading font-bold text-secondary group-hover:text-primary transition-colors">
+                  <CardTitle className="text-xl font-heading font-bold text-secondary group-hover:text-primary transition-colors leading-tight">
                     {guide.title}
                   </CardTitle>
                 </CardHeader>
-                <CardContent className="flex-1 flex flex-col">
-                  {/* Problem-Framing */}
-                  <p className="text-sm text-primary/80 italic mb-3">
-                    {guide.problem}
-                  </p>
-                  <CardDescription className="text-base mb-4">
-                    {guide.description}
-                  </CardDescription>
-                  {/* Mini-Story */}
-                  <p className="text-sm text-muted-foreground bg-gray-50 p-3 rounded-sm mb-6 border-l-2 border-primary/30">
-                    💡 {guide.story}
-                  </p>
+                <CardContent className="flex-1 flex flex-col pt-0">
+                  {/* Das Problem */}
+                  <div className="mb-4">
+                    <p className="text-sm font-medium text-secondary mb-1">Das Problem:</p>
+                    <p className="text-sm text-muted-foreground leading-relaxed">
+                      {guide.problem}
+                    </p>
+                  </div>
+                  
+                  {/* Die Lösung */}
+                  <div className="mb-4">
+                    <p className="text-sm font-medium text-secondary mb-1">Die Lösung:</p>
+                    <p className="text-sm text-muted-foreground leading-relaxed">
+                      {guide.solution}
+                    </p>
+                  </div>
+                  
+                  {/* Erfolgsgeschichte */}
+                  <div className="bg-gray-50 p-4 rounded-sm mb-4 border-l-3 border-primary">
+                    <p className="text-sm text-secondary italic leading-relaxed">
+                      „{guide.story}"
+                    </p>
+                  </div>
+                  
+                  {/* Takeaway */}
+                  <div className="bg-primary/5 p-3 rounded-sm mb-6">
+                    <p className="text-sm font-bold text-primary">
+                      💡 {guide.takeaway}
+                    </p>
+                  </div>
+                  
                   <div className="mt-auto">
-                    <Button variant="link" className="p-0 h-auto text-secondary font-bold group-hover:text-primary transition-colors" data-testid={`button-read-guide-${index}`}>
-                      Weiterlesen <ArrowRight className="ml-2 h-4 w-4" />
+                    <Button variant="default" className="w-full bg-secondary hover:bg-secondary/90 text-white font-bold rounded-sm" data-testid={`button-read-guide-${index}`}>
+                      Artikel lesen <ArrowRight className="ml-2 h-4 w-4" />
                     </Button>
                   </div>
                 </CardContent>
@@ -243,21 +284,27 @@ export default function Ratgeber() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-secondary text-white">
+      <section className="py-20 bg-secondary text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-heading font-bold mb-4">
-            Sie haben eine Frage, die hier nicht beantwortet wird?
+          <h2 className="text-3xl md:text-4xl font-heading font-bold mb-6">
+            Ihre Frage ist hier nicht dabei?
           </h2>
-          <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
-            Rufen Sie uns an oder schreiben Sie uns. Wir nehmen uns Zeit für Ihre Fragen – 
-            auch wenn Sie noch nicht wissen, ob Sie überhaupt etwas machen wollen.
+          <p className="text-xl text-gray-300 mb-4 max-w-2xl mx-auto">
+            Kein Problem. Rufen Sie uns einfach an. Wir nehmen uns Zeit für Ihre Fragen – 
+            auch wenn Sie noch gar nicht wissen, ob Sie überhaupt etwas machen wollen.
+          </p>
+          <p className="text-gray-400 mb-8 max-w-xl mx-auto">
+            Keine Verkaufsgespräche. Keine Überrumpelung. Nur ehrliche Antworten von echten Handwerkern.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild className="bg-primary hover:bg-primary/90 text-white font-bold rounded-sm" data-testid="button-cta-call">
-              <a href="tel:+498912345678">Jetzt anrufen</a>
+            <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-sm text-lg px-8" data-testid="button-cta-call">
+              <a href="tel:08912621964">
+                <Phone className="mr-2 h-5 w-5" />
+                089 12621964
+              </a>
             </Button>
-            <Button asChild variant="outline" className="border-white text-white hover:bg-white hover:text-secondary font-bold rounded-sm" data-testid="button-cta-contact">
-              <Link href="/#kontakt">Nachricht schreiben</Link>
+            <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-secondary font-bold rounded-sm text-lg px-8" data-testid="button-cta-contact">
+              <Link href="/#contact">Nachricht schreiben</Link>
             </Button>
           </div>
         </div>
