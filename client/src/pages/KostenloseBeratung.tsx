@@ -4,13 +4,26 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
-import { MessageSquare, ArrowRight, ShieldCheck, Award, Shield, Users, CheckCircle, Lightbulb, Target, Heart } from "lucide-react";
-import { useState } from "react";
+import { Calendar } from "@/components/ui/calendar";
+import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
+import { MessageSquare, ArrowRight, ShieldCheck, Award, Shield, Users, Lightbulb, Target, Heart, CalendarIcon, Loader2 } from "lucide-react";
+import { useState, useEffect } from "react";
 import { toast } from "sonner";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import { format, isSameDay } from "date-fns";
+import { de } from "date-fns/locale";
+
+interface TimeSlot {
+  start: string;
+  end: string;
+}
 
 export default function KostenloseBeratung() {
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [availableSlots, setAvailableSlots] = useState<TimeSlot[]>([]);
+  const [isLoadingSlots, setIsLoadingSlots] = useState(true);
+  const [selectedDate, setSelectedDate] = useState<Date | undefined>();
+  const [selectedSlot, setSelectedSlot] = useState<TimeSlot | null>(null);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -18,6 +31,44 @@ export default function KostenloseBeratung() {
     problem: "",
     message: ""
   });
+
+  useEffect(() => {
+    fetchAvailability();
+  }, []);
+
+  const fetchAvailability = async () => {
+    try {
+      const response = await fetch("/api/availability");
+      if (response.ok) {
+        const data = await response.json();
+        setAvailableSlots(data.slots || []);
+      }
+    } catch (error) {
+      console.error("Failed to fetch availability:", error);
+    } finally {
+      setIsLoadingSlots(false);
+    }
+  };
+
+  const getAvailableDates = () => {
+    const dates = new Set<string>();
+    availableSlots.forEach(slot => {
+      const date = new Date(slot.start);
+      dates.add(date.toDateString());
+    });
+    return Array.from(dates).map(d => new Date(d));
+  };
+
+  const getSlotsForDate = (date: Date) => {
+    return availableSlots.filter(slot => {
+      const slotDate = new Date(slot.start);
+      return isSameDay(slotDate, date);
+    });
+  };
+
+  const formatTime = (isoString: string) => {
+    return format(new Date(isoString), "HH:mm", { locale: de });
+  };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -29,19 +80,29 @@ export default function KostenloseBeratung() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           problem: formData.problem || "Kostenlose Beratung angefragt",
-          timing: "Beratungsanfrage",
+          timing: selectedSlot 
+            ? `Gewünschter Termin: ${format(new Date(selectedSlot.start), "dd.MM.yyyy HH:mm", { locale: de })} Uhr`
+            : "Beratungsanfrage",
           details: formData.message || "Keine Details angegeben",
           name: formData.name,
           phone: formData.phone,
-          email: formData.email
+          email: formData.email,
+          callbackStart: selectedSlot?.start || null,
+          callbackEnd: selectedSlot?.end || null
         })
       });
 
       if (response.ok) {
-        toast.success("Anfrage gesendet!", {
-          description: "Wir melden uns innerhalb von 24 Stunden bei Ihnen."
+        const successMsg = selectedSlot 
+          ? `Beratungstermin am ${format(new Date(selectedSlot.start), "dd.MM. 'um' HH:mm", { locale: de })} Uhr gebucht!`
+          : "Beratungsanfrage gesendet!";
+        toast.success(successMsg, {
+          description: "Wir melden uns zum vereinbarten Termin bei Ihnen."
         });
         setFormData({ name: "", email: "", phone: "", problem: "", message: "" });
+        setSelectedSlot(null);
+        setSelectedDate(undefined);
+        fetchAvailability();
       } else {
         toast.error("Fehler beim Senden", {
           description: "Bitte versuchen Sie es erneut oder rufen Sie uns direkt an."
@@ -55,6 +116,8 @@ export default function KostenloseBeratung() {
       setIsSubmitting(false);
     }
   };
+
+  const availableDates = getAvailableDates();
 
   return (
     <div className="min-h-screen bg-white">
@@ -157,6 +220,86 @@ export default function KostenloseBeratung() {
                 </select>
               </div>
 
+              <div className="space-y-4">
+                <Label className="text-base font-semibold flex items-center gap-2">
+                  <CalendarIcon className="h-5 w-5 text-primary" />
+                  Wunschtermin für Beratungsgespräch (optional)
+                </Label>
+                
+                {isLoadingSlots ? (
+                  <div className="flex items-center justify-center py-8">
+                    <Loader2 className="h-6 w-6 animate-spin text-primary" />
+                    <span className="ml-2 text-muted-foreground">Lade verfügbare Termine...</span>
+                  </div>
+                ) : availableSlots.length === 0 ? (
+                  <div className="bg-yellow-50 p-4 rounded-md border border-yellow-200">
+                    <p className="text-sm text-yellow-800">Keine freien Termine verfügbar. Wir melden uns schnellstmöglich bei Ihnen.</p>
+                  </div>
+                ) : (
+                  <div className="grid md:grid-cols-2 gap-6">
+                    <div>
+                      <Popover>
+                        <PopoverTrigger asChild>
+                          <Button
+                            variant="outline"
+                            className="w-full justify-start text-left font-normal h-12"
+                            data-testid="button-date-picker"
+                          >
+                            <CalendarIcon className="mr-2 h-4 w-4" />
+                            {selectedDate ? format(selectedDate, "EEEE, dd. MMMM yyyy", { locale: de }) : "Datum auswählen"}
+                          </Button>
+                        </PopoverTrigger>
+                        <PopoverContent className="w-auto p-0" align="start">
+                          <Calendar
+                            mode="single"
+                            selected={selectedDate}
+                            onSelect={(date) => {
+                              setSelectedDate(date);
+                              setSelectedSlot(null);
+                            }}
+                            disabled={(date) => {
+                              const dayOfWeek = date.getDay();
+                              if (dayOfWeek === 0) return true;
+                              return !availableDates.some(d => isSameDay(d, date));
+                            }}
+                            locale={de}
+                            data-testid="calendar-date"
+                          />
+                        </PopoverContent>
+                      </Popover>
+                    </div>
+
+                    {selectedDate && (
+                      <div>
+                        <p className="text-sm text-muted-foreground mb-2">Verfügbare Zeiten:</p>
+                        <div className="grid grid-cols-3 gap-2">
+                          {getSlotsForDate(selectedDate).map((slot, idx) => (
+                            <Button
+                              key={idx}
+                              type="button"
+                              variant={selectedSlot?.start === slot.start ? "default" : "outline"}
+                              size="sm"
+                              onClick={() => setSelectedSlot(slot)}
+                              data-testid={`button-slot-${formatTime(slot.start)}`}
+                            >
+                              {formatTime(slot.start)} Uhr
+                            </Button>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                )}
+
+                {selectedSlot && (
+                  <div className="bg-primary/10 p-4 rounded-md">
+                    <p className="text-sm font-medium text-primary">
+                      ✓ Gewählter Termin: {format(new Date(selectedSlot.start), "EEEE, dd. MMMM yyyy 'um' HH:mm", { locale: de })} Uhr
+                    </p>
+                  </div>
+                )}
+              </div>
+
               <div className="grid md:grid-cols-2 gap-4">
                 <div className="space-y-2">
                   <Label htmlFor="name">Ihr Name *</Label>
@@ -214,7 +357,7 @@ export default function KostenloseBeratung() {
                 disabled={isSubmitting}
                 data-testid="button-beratung-submit"
               >
-                {isSubmitting ? "Wird gesendet..." : "Kostenlose Beratung anfordern"}
+                {isSubmitting ? "Wird gesendet..." : selectedSlot ? "Beratungstermin buchen" : "Kostenlose Beratung anfordern"}
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
 
@@ -226,7 +369,7 @@ export default function KostenloseBeratung() {
         </div>
       </section>
 
-      <section className="py-6 bg-gray-50">
+      <section className="py-4 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-2xl font-heading font-bold text-secondary mb-4 text-center">
@@ -247,19 +390,6 @@ export default function KostenloseBeratung() {
                 </div>
               ))}
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-6 bg-white">
-        <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-2xl mx-auto text-center">
-            <h2 className="text-xl font-heading font-bold text-secondary mb-4">
-              Warum ist die Beratung kostenlos?
-            </h2>
-            <p className="text-muted-foreground leading-relaxed">
-              Weil wir glauben, dass jeder Hausbesitzer das Recht auf ehrliche Information hat. Wenn Sie nach der Beratung entscheiden, mit uns zu arbeiten – wunderbar. Wenn nicht, haben Sie zumindest Klarheit gewonnen. Für uns ist das eine Win-Win-Situation: Zufriedene Menschen empfehlen uns weiter, und das ist uns mehr wert als jeder kurzfristige Verkauf.
-            </p>
           </div>
         </div>
       </section>
