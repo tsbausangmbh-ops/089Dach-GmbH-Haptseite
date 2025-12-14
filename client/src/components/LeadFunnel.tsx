@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, CheckCircle2, ShieldCheck, HardHat, Sparkles, AlertTriangle, ThermometerSun, Home } from "lucide-react";
+import { ArrowRight, CheckCircle2, ShieldCheck, HardHat, Sparkles, AlertTriangle, ThermometerSun, Home, ClipboardCheck } from "lucide-react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger, DialogDescription, DialogFooter } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
