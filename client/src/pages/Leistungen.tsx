@@ -114,6 +114,21 @@ export default function Leistungen() {
         "Energieausweis & Sanierungsfahrplan",
         "Maximale Fördersummen sichern"
       ]
+    },
+    {
+      id: "gaubenausbau",
+      icon: <Warehouse className="h-8 w-8 text-primary" />,
+      title: "Gaubenausbau & Sanierung",
+      problem: "Sie möchten mehr Wohnraum unterm Dach schaffen oder eine alte Gaube modernisieren?",
+      solution: "Wir planen und bauen Gauben, die perfekt zu Ihrem Haus passen – von der Schleppgaube bis zur Flachdachgaube.",
+      result: "Mehr Platz, mehr Licht und ein aufgewertetes Zuhause mit gesteigertem Wohnwert.",
+      story: "Familie Schmidt aus Sendling hat durch den Gaubenausbau ein komplettes Kinderzimmer gewonnen. 'Endlich hat jedes Kind sein eigenes Reich', sagt Frau Schmidt stolz.",
+      details: [
+        "Schleppgauben & Spitzgauben",
+        "Flachdachgauben",
+        "Gaubensanierung & Modernisierung",
+        "Genehmigungsplanung inklusive"
+      ]
     }
   ];
 
