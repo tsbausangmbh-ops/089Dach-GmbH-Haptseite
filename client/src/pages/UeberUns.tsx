@@ -8,6 +8,7 @@ import portraitMeister from "@assets/generated_images/german_master_roofer_portr
 import heroImage from "@assets/generated_images/roofing_team_partnership_handshake.png";
 import SEO, { BreadcrumbSchema, AboutPageSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
+import { KeywordLink } from "@/components/KeywordLink";
 
 export default function UeberUns() {
   return (
@@ -301,7 +302,7 @@ export default function UeberUns() {
                 </div>
                 <div>
                   <h3 className="font-heading font-bold text-secondary">Die Kupfer-Dachrinne</h3>
-                  <p className="text-sm text-muted-foreground">Spenglerarbeit, Oktober 2024</p>
+                  <p className="text-sm text-muted-foreground"><KeywordLink keyword="Spenglerei" className="text-muted-foreground hover:text-primary" />, Oktober 2024</p>
                 </div>
               </div>
               <p className="text-muted-foreground leading-relaxed mb-4">
@@ -325,7 +326,7 @@ export default function UeberUns() {
                 </div>
                 <div>
                   <h3 className="font-heading font-bold text-secondary">Das mysteriöse Leck</h3>
-                  <p className="text-sm text-muted-foreground">Leckortung, März 2024</p>
+                  <p className="text-sm text-muted-foreground"><KeywordLink keyword="Leckortung" className="text-muted-foreground hover:text-primary" />, März 2024</p>
                 </div>
               </div>
               <p className="text-muted-foreground leading-relaxed mb-4">
@@ -349,7 +350,7 @@ export default function UeberUns() {
                 </div>
                 <div>
                   <h3 className="font-heading font-bold text-secondary">Die warme Wohnung</h3>
-                  <p className="text-sm text-muted-foreground">Dachsanierung mit Dämmung, Januar 2024</p>
+                  <p className="text-sm text-muted-foreground"><KeywordLink keyword="Dachsanierung" className="text-muted-foreground hover:text-primary" /> mit <KeywordLink keyword="Dämmung" className="text-muted-foreground hover:text-primary" />, Januar 2024</p>
                 </div>
               </div>
               <p className="text-muted-foreground leading-relaxed mb-4">

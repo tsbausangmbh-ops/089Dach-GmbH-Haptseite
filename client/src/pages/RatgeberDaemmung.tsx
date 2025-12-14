@@ -8,6 +8,7 @@ import { Link } from "wouter";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 import heroImage from "@assets/generated_images/roof_insulation_installation_scene.png";
+import { KeywordLink } from "@/components/KeywordLink";
 
 export default function RatgeberDaemmung() {
   return (
@@ -236,7 +237,7 @@ export default function RatgeberDaemmung() {
                 </div>
                 <div>
                   <p className="font-bold">Familie Huber</p>
-                  <p className="text-sm text-gray-400">Pasing, München • Dachsanierung 2023</p>
+                  <p className="text-sm text-gray-400">Pasing, München • <KeywordLink keyword="Dachsanierung" className="text-gray-400 hover:text-primary" /> 2023</p>
                 </div>
               </div>
             </div>

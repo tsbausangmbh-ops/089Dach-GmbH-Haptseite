@@ -8,6 +8,7 @@ import { Link } from "wouter";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 import heroImage from "@assets/generated_images/roof_leak_detection_scene.png";
+import { KeywordLink } from "@/components/KeywordLink";
 
 export default function RatgeberLeckortung() {
   return (
@@ -227,7 +228,7 @@ export default function RatgeberLeckortung() {
                 </div>
                 <div>
                   <p className="font-bold">Martin Schmitt</p>
-                  <p className="text-sm text-gray-400">Moosach, München • Leckortung 2023</p>
+                  <p className="text-sm text-gray-400">Moosach, München • <KeywordLink keyword="Leckortung" className="text-gray-400 hover:text-primary" /> 2023</p>
                 </div>
               </div>
             </div>
