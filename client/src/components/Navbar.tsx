@@ -48,10 +48,6 @@ export default function Navbar() {
               <span className="text-primary">★</span>
               Kostenlose Beratung
             </a>
-            <a href="/rueckruf" className="flex items-center gap-2 hover:text-primary transition-colors">
-              <Phone className="h-4 w-4 text-primary" />
-              Rückruf anfordern
-            </a>
             <a href="mailto:info@089dach.de" className="flex items-center gap-2 hover:text-primary transition-colors">
               <Mail className="h-4 w-4 text-primary" />
               info@089dach.de
@@ -141,11 +137,8 @@ export default function Navbar() {
           <a href="/kontakt" className="text-sm font-medium text-secondary hover:text-primary transition-colors">
             Kontakt
           </a>
-          <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-white font-bold rounded-sm" asChild>
-            <a href="/ratgeber/beratung">Kostenlose Beratung</a>
-          </Button>
           <Button className="bg-primary hover:bg-primary/90 text-white font-bold rounded-sm" asChild>
-            <a href="/rueckruf">Rückruf anfordern</a>
+            <a href="/ratgeber/beratung">Kostenlose Beratung</a>
           </Button>
         </div>
 
@@ -229,11 +222,8 @@ export default function Navbar() {
                 Kontakt
                 <ChevronRight className="h-4 w-4" />
               </a>
-              <Button variant="outline" className="mt-4 border-primary text-primary hover:bg-primary hover:text-white w-full rounded-sm" asChild>
+              <Button className="mt-4 bg-primary hover:bg-primary/90 w-full rounded-sm" asChild>
                 <a href="/ratgeber/beratung" onClick={() => setIsOpen(false)}>Kostenlose Beratung</a>
-              </Button>
-              <Button className="mt-2 bg-primary hover:bg-primary/90 w-full rounded-sm" asChild>
-                <a href="/rueckruf" onClick={() => setIsOpen(false)}>Rückruf anfordern</a>
               </Button>
             </nav>
           </SheetContent>
