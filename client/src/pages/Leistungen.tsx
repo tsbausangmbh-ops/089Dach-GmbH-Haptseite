@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import BackButton from "@/components/BackButton";
 import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Home, Warehouse, Wrench, Hammer, ShieldCheck, Ruler, CheckCircle2, Quote, Award, Shield, Users } from "lucide-react";
+import { ArrowRight, Home, Warehouse, Wrench, Hammer, ShieldCheck, Ruler, CheckCircle2, Quote, Award, Shield, Users, Phone } from "lucide-react";
 import heroImage from "@assets/generated_images/modern_house_with_anthracite_roof.png";
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema, ServiceSchema } from "@/components/SEO";
@@ -180,7 +180,7 @@ export default function Leistungen() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="pt-10 pb-12 bg-secondary relative overflow-hidden min-h-[40vh] flex items-center">
+      <section className="pt-10 pb-12 relative overflow-hidden min-h-[50vh] flex items-center">
         <div className="absolute inset-0 z-0">
           <img
             src={heroImage}
@@ -191,21 +191,38 @@ export default function Leistungen() {
             fetchPriority="high"
             decoding="async"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-secondary/90 via-secondary/70 to-secondary/50"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-secondary/95 via-secondary/85 to-secondary/70"></div>
         </div>
 
         <div className="container mx-auto px-6 lg:px-12 relative z-10">
           <div className="max-w-2xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Dachdecker München</span>
-            <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mt-4 mb-6">
+            <h1 className="text-4xl md:text-6xl font-heading font-bold text-white mt-4 mb-6">
               Unsere Dachdecker-Leistungen
             </h1>
-            <p className="text-xl text-gray-200 max-w-xl mb-4">
-              Wir kümmern uns um Ihr Dach, als wäre es unser eigenes. Von der kleinen Reparatur bis zur kompletten Sanierung – alles aus einer Hand.
-            </p>
-            <p className="text-lg text-gray-300 max-w-xl">
-              Als Meisterbetrieb seit 1998 bieten wir Ihnen das volle Spektrum professioneller Dacharbeiten mit 10 Jahren Garantie.
-            </p>
+            
+            <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl border-l-4 border-primary mb-8">
+              <p className="text-lg text-white font-medium mb-3">
+                Von der kleinen Reparatur bis zur kompletten Sanierung
+              </p>
+              <p className="text-gray-200 leading-relaxed">
+                Wir kümmern uns um Ihr Dach, als wäre es unser eigenes. Als Meisterbetrieb seit 1998 
+                bieten wir Ihnen das <strong className="text-white">volle Spektrum professioneller Dacharbeiten</strong> – 
+                alles aus einer Hand, mit 10 Jahren Garantie.
+              </p>
+            </div>
+
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-xl" data-testid="button-hero-call">
+                <a href="/rueckruf">
+                  <Phone className="mr-2 h-5 w-5" />
+                  Rückruf anfordern
+                </a>
+              </Button>
+              <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-secondary font-bold rounded-xl" data-testid="button-hero-services">
+                <a href="#dachsanierung">Alle Leistungen ansehen</a>
+              </Button>
+            </div>
           </div>
         </div>
       </section>
