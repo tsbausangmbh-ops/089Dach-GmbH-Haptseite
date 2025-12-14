@@ -173,6 +173,16 @@ export async function registerRoutes(
           eventDuration
         );
         console.log("Calendar event created successfully");
+
+        // Send confirmation email to customer if they provided email and selected a specific time
+        if (validatedData.email && validatedData.callbackStart) {
+          await sendCustomerConfirmationEmail(
+            validatedData.email,
+            validatedData.name,
+            eventStart,
+            validatedData.problem
+          );
+        }
       } catch (calError) {
         console.error("Error creating calendar event:", calError);
       }
