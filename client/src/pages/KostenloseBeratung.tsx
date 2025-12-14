@@ -28,7 +28,8 @@ export default function KostenloseBeratung() {
     name: "",
     email: "",
     phone: "",
-    address: "",
+    privateAddress: "",
+    objectAddress: "",
     problem: "",
     urgency: "",
     objectType: "",
@@ -89,7 +90,8 @@ export default function KostenloseBeratung() {
           details: [
             formData.objectType && `Objektart: ${formData.objectType}`,
             formData.urgency && `Dringlichkeit: ${formData.urgency}`,
-            formData.address && `Adresse: ${formData.address}`,
+            formData.privateAddress && `Privatadresse: ${formData.privateAddress}`,
+            formData.objectAddress && `Adresse des Objekts: ${formData.objectAddress}`,
             formData.message
           ].filter(Boolean).join("\n") || "Keine Details angegeben",
           name: formData.name,
@@ -107,7 +109,7 @@ export default function KostenloseBeratung() {
         toast.success(successMsg, {
           description: "Wir melden uns zum vereinbarten Termin bei Ihnen."
         });
-        setFormData({ name: "", email: "", phone: "", address: "", problem: "", objectType: "", urgency: "", message: "" });
+        setFormData({ name: "", email: "", phone: "", privateAddress: "", objectAddress: "", problem: "", objectType: "", urgency: "", message: "" });
         setSelectedSlot(null);
         setSelectedDate(undefined);
         fetchAvailability();
@@ -361,13 +363,24 @@ export default function KostenloseBeratung() {
               </div>
 
               <div className="space-y-2">
-                <Label htmlFor="address">Adresse des Objekts (optional)</Label>
+                <Label htmlFor="privateAddress">Ihre Privatadresse (optional)</Label>
                 <Input 
-                  id="address"
+                  id="privateAddress"
                   placeholder="Straße, PLZ Ort"
-                  value={formData.address}
-                  onChange={(e) => setFormData({ ...formData, address: e.target.value })}
-                  data-testid="input-beratung-address"
+                  value={formData.privateAddress}
+                  onChange={(e) => setFormData({ ...formData, privateAddress: e.target.value })}
+                  data-testid="input-beratung-private-address"
+                />
+              </div>
+
+              <div className="space-y-2">
+                <Label htmlFor="objectAddress">Adresse des Objekts (optional)</Label>
+                <Input 
+                  id="objectAddress"
+                  placeholder="Straße, PLZ Ort (falls abweichend)"
+                  value={formData.objectAddress}
+                  onChange={(e) => setFormData({ ...formData, objectAddress: e.target.value })}
+                  data-testid="input-beratung-object-address"
                 />
               </div>
 
