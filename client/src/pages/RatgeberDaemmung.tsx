@@ -2,7 +2,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
-import { CheckCircle2, ThermometerSnowflake, ArrowRight, Euro, Home, Phone, AlertTriangle, TrendingDown, Clock, Shield, Users, Star, Calculator } from "lucide-react";
+import { CheckCircle2, ThermometerSnowflake, ArrowRight, ArrowLeft, Euro, Home, Phone, AlertTriangle, TrendingDown, Clock, Shield, Users, Star, Calculator } from "lucide-react";
 import { Link } from "wouter";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/roof_insulation_installation_scene.png";
@@ -88,6 +88,17 @@ export default function RatgeberDaemmung() {
               <span>Meisterbetrieb seit 1998</span>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="py-3 bg-white border-b">
+        <div className="container mx-auto px-6 lg:px-12">
+          <Link href="/ratgeber">
+            <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-secondary" data-testid="button-back">
+              <ArrowLeft className="mr-2 h-4 w-4" />
+              Zurück zu Tipps & Tricks
+            </Button>
+          </Link>
         </div>
       </section>
 

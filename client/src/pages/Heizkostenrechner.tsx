@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { Calculator, Flame, Home, Thermometer, TrendingDown, Euro, Leaf, ArrowRight, ThermometerSnowflake } from "lucide-react";
+import { Calculator, Flame, Home, Thermometer, TrendingDown, Euro, Leaf, ArrowRight, ThermometerSnowflake, ArrowLeft } from "lucide-react";
 import { useState } from "react";
 import { Link } from "wouter";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
@@ -108,6 +108,17 @@ export default function Heizkostenrechner() {
               Berechnen Sie Ihre aktuellen Heizkosten und erfahren Sie, wie viel Sie durch eine professionelle Dachdämmung sparen können.
             </p>
           </div>
+        </div>
+      </section>
+
+      <section className="py-3 bg-white border-b">
+        <div className="container mx-auto px-6 lg:px-12">
+          <Link href="/">
+            <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-secondary" data-testid="button-back">
+              <ArrowLeft className="mr-2 h-4 w-4" />
+              Zurück zur Startseite
+            </Button>
+          </Link>
         </div>
       </section>
 

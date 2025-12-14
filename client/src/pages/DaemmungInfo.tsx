@@ -1,7 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
-import { CheckCircle2, ThermometerSnowflake, ArrowRight, Euro, Home, Phone, AlertTriangle, TrendingDown, Snowflake, Sun, Shield, Clock } from "lucide-react";
+import { CheckCircle2, ThermometerSnowflake, ArrowRight, ArrowLeft, Euro, Home, Phone, AlertTriangle, TrendingDown, Snowflake, Sun, Shield, Clock } from "lucide-react";
 import { Link } from "wouter";
 import { useState } from "react";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
@@ -106,6 +106,17 @@ export default function DaemmungInfo() {
               Erfahren Sie, wie Sie das ändern können – und warum es sich lohnt.
             </p>
           </div>
+        </div>
+      </section>
+
+      <section className="py-3 bg-white border-b">
+        <div className="container mx-auto px-6 lg:px-12">
+          <Link href="/heizkostenrechner">
+            <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-secondary" data-testid="button-back">
+              <ArrowLeft className="mr-2 h-4 w-4" />
+              Zurück zum Heizkosten-Rechner
+            </Button>
+          </Link>
         </div>
       </section>
 
