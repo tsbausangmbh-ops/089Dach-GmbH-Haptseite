@@ -39,13 +39,13 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
         <div className="container mx-auto px-6 lg:px-12 relative z-10">
           <div className="max-w-3xl text-white animate-in slide-in-from-left duration-700 fade-in">
             <div className="flex flex-wrap items-center gap-3 mb-6">
-              <span className="bg-primary px-4 py-1.5 text-sm font-bold uppercase tracking-wider rounded-sm">
+              <span className="bg-primary px-4 py-1.5 text-sm font-bold uppercase tracking-wider rounded-xl">
                 089Dach GmbH München
               </span>
-              <span className="bg-white/20 backdrop-blur-sm px-3 py-1.5 text-sm font-medium rounded-sm flex items-center gap-1.5">
+              <span className="bg-white/20 backdrop-blur-sm px-3 py-1.5 text-sm font-medium rounded-xl flex items-center gap-1.5">
                 <span className="text-yellow-400">★</span> Meister seit 1998
               </span>
-              <span className="bg-white/20 backdrop-blur-sm px-3 py-1.5 text-sm font-medium rounded-sm flex items-center gap-1.5">
+              <span className="bg-white/20 backdrop-blur-sm px-3 py-1.5 text-sm font-medium rounded-xl flex items-center gap-1.5">
                 <span className="text-green-400">✓</span> 10 Jahre Garantie
               </span>
             </div>
@@ -55,7 +55,7 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
               <span className="text-primary">Wir lösen sie.</span>
             </h1>
             
-            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-sm p-5 mb-6">
+            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-5 mb-6">
               <p className="text-lg md:text-xl text-white font-medium">
                 <span className="text-primary">✓</span> Undichte Stellen finden und beheben<br/>
                 <span className="text-primary">✓</span> Heizkosten senken durch bessere Dämmung<br/>
@@ -71,7 +71,7 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
             <div className="flex flex-col sm:flex-row gap-4 mb-6">
               <Button 
                 size="lg" 
-                className="bg-primary hover:bg-primary/90 text-white font-bold text-lg px-8 py-7 rounded-sm shadow-xl hover:scale-105 transition-transform"
+                className="bg-primary hover:bg-primary/90 text-white font-bold text-lg px-8 py-7 rounded-xl shadow-xl hover:scale-105 transition-transform"
                 onClick={onOpenFunnel}
                 data-testid="button-hero-funnel"
               >
@@ -81,7 +81,7 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
               <Button 
                 size="lg" 
                 variant="outline" 
-                className="bg-white/10 border-white text-white hover:bg-white hover:text-secondary font-bold text-lg px-8 py-7 rounded-sm backdrop-blur-sm"
+                className="bg-white/10 border-white text-white hover:bg-white hover:text-secondary font-bold text-lg px-8 py-7 rounded-xl backdrop-blur-sm"
                 asChild
                 data-testid="button-hero-call"
               >

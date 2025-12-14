@@ -133,7 +133,7 @@ export default function LeadFunnel({ externalOpen, onExternalOpenChange }: LeadF
 
         {/* 3-Schritte-Prozess */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-          <div className="bg-white/10 backdrop-blur-sm p-8 rounded-sm border border-white/20 relative group hover:bg-white/20 transition-all">
+          <div className="bg-white/10 backdrop-blur-sm p-8 rounded-xl border border-white/20 relative group hover:bg-white/20 transition-all">
             <div className="absolute -top-6 left-1/2 -translate-x-1/2 bg-white text-primary font-bold w-12 h-12 flex items-center justify-center rounded-full text-xl shadow-lg group-hover:scale-110 transition-transform">
               1
             </div>
@@ -146,7 +146,7 @@ export default function LeadFunnel({ externalOpen, onExternalOpenChange }: LeadF
             </div>
           </div>
 
-          <div className="bg-white/10 backdrop-blur-sm p-8 rounded-sm border border-white/20 relative group hover:bg-white/20 transition-all">
+          <div className="bg-white/10 backdrop-blur-sm p-8 rounded-xl border border-white/20 relative group hover:bg-white/20 transition-all">
             <div className="absolute -top-6 left-1/2 -translate-x-1/2 bg-white text-primary font-bold w-12 h-12 flex items-center justify-center rounded-full text-xl shadow-lg group-hover:scale-110 transition-transform">
               2
             </div>
@@ -159,7 +159,7 @@ export default function LeadFunnel({ externalOpen, onExternalOpenChange }: LeadF
             </div>
           </div>
 
-          <div className="bg-white/10 backdrop-blur-sm p-8 rounded-sm border border-white/20 relative group hover:bg-white/20 transition-all">
+          <div className="bg-white/10 backdrop-blur-sm p-8 rounded-xl border border-white/20 relative group hover:bg-white/20 transition-all">
             <div className="absolute -top-6 left-1/2 -translate-x-1/2 bg-white text-primary font-bold w-12 h-12 flex items-center justify-center rounded-full text-xl shadow-lg group-hover:scale-110 transition-transform">
               3
             </div>
@@ -178,7 +178,7 @@ export default function LeadFunnel({ externalOpen, onExternalOpenChange }: LeadF
             <DialogTrigger asChild>
               <Button 
                 size="lg" 
-                className="bg-white text-primary hover:bg-gray-100 font-bold text-xl px-12 py-8 rounded-sm shadow-xl transition-transform hover:scale-105"
+                className="bg-white text-primary hover:bg-gray-100 font-bold text-xl px-12 py-8 rounded-xl shadow-xl transition-transform hover:scale-105"
                 data-testid="button-funnel-open"
               >
                 Ja, ich will mein Problem lösen!
@@ -320,7 +320,7 @@ export default function LeadFunnel({ externalOpen, onExternalOpenChange }: LeadF
 
                     <Button 
                       type="submit"
-                      className="w-full bg-primary hover:bg-primary/90 text-white font-bold py-6 text-lg rounded-sm mt-4"
+                      className="w-full bg-primary hover:bg-primary/90 text-white font-bold py-6 text-lg rounded-xl mt-4"
                       disabled={isSubmitting}
                       data-testid="button-lead-submit"
                     >
