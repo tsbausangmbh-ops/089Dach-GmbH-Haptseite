@@ -117,29 +117,29 @@ export default function Rueckruf() {
       <section className="py-10 bg-secondary">
         <div className="container mx-auto px-4">
           <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* Erster Vertrauenstext - Empathie & Verständnis */}
+            {/* Erster Vertrauenstext - Persönlicher Service */}
             <div className="bg-white/10 backdrop-blur-sm p-6 rounded-sm border-l-4 border-primary">
               <p className="text-lg text-white font-medium mb-3">
-                Sie machen sich Sorgen um Ihr Dach?
+                Sie haben eine Frage zu Ihrem Dach?
               </p>
               <p className="text-gray-200 leading-relaxed mb-4">
-                Das verstehen wir. Ein undichtes Dach, ein Sturmschaden oder einfach die Unsicherheit, ob alles in Ordnung ist – das kann belasten. Genau deshalb sind wir für Sie da. Jede Anfrage wird persönlich von unserem Team bearbeitet. Kein Callcenter, keine automatischen Antworten – nur echte Menschen, die zuhören und helfen.
+                Das kennen wir. Manchmal braucht man einfach jemanden, der zuhört und ehrlich berät. Bei uns erreichen Sie keine Hotline, sondern echte Dachdeckermeister. Wir nehmen uns Zeit für Ihr Anliegen – ohne Zeitdruck, ohne Verkaufsgespräch. Einfach ein offenes Ohr und kompetente Antworten.
               </p>
               <p className="text-gray-300 text-sm italic">
-                Schreiben Sie uns einfach – wir melden uns zeitnah und besprechen in Ruhe, wie wir Ihnen helfen können.
+                Hinterlassen Sie Ihre Nummer – wir rufen Sie persönlich zurück.
               </p>
             </div>
 
-            {/* Zweiter Vertrauenstext - Sicherheit & Kompetenz */}
+            {/* Zweiter Vertrauenstext - Versprechen */}
             <div className="bg-white/10 backdrop-blur-sm p-6 rounded-sm border-l-4 border-primary">
               <p className="text-lg text-white font-medium mb-3">
-                Stellen Sie sich vor...
+                Unser Versprechen an Sie...
               </p>
               <p className="text-gray-200 leading-relaxed mb-4">
-                ...wie es sich anfühlt, wenn Sie wissen: Ihr Dach ist in den besten Händen. Keine schlaflosen Nächte mehr bei Sturm. Keine Sorgen mehr vor dem nächsten Regen. Seit über 25 Jahren geben wir unseren Kunden genau dieses Gefühl von Sicherheit zurück. Als Münchner Meisterbetrieb kennen wir jedes Dach, jedes Problem – und vor allem: die beste Lösung für Sie.
+                ...ist so einfach wie ehrlich: Wenn Sie uns Ihre Nummer hinterlassen, rufen wir Sie zurück. Zeitnah, verbindlich und persönlich. Keine Warteschleifen, keine leeren Versprechen. Seit über 25 Jahren vertrauen uns Münchner Hausbesitzer – weil wir halten, was wir sagen.
               </p>
               <p className="text-gray-300 text-sm italic">
-                Vertrauen Sie auf Erfahrung, die sich bewährt hat. Wir sind für Sie da.
+                Probieren Sie es aus. Wir freuen uns auf Ihren Anruf.
               </p>
             </div>
           </div>
