@@ -114,11 +114,19 @@ export async function getAvailableSlots(startDate: Date, endDate: Date): Promise
         const slotEnd = new Date(current);
         slotEnd.setHours(hour + 1, 0, 0, 0);
         
-        // Check if slot overlaps with any busy period
+        // Check if slot overlaps with any busy period (including 2-hour buffer)
+        const BUFFER_HOURS = 2;
+        const BUFFER_MS = BUFFER_HOURS * 60 * 60 * 1000;
+        
         const isBusy = busySlots.some(busy => {
           const busyStart = new Date(busy.start!);
           const busyEnd = new Date(busy.end!);
-          return slotStart < busyEnd && slotEnd > busyStart;
+          
+          // Extend busy period by 2 hours before and after
+          const bufferedBusyStart = new Date(busyStart.getTime() - BUFFER_MS);
+          const bufferedBusyEnd = new Date(busyEnd.getTime() + BUFFER_MS);
+          
+          return slotStart < bufferedBusyEnd && slotEnd > bufferedBusyStart;
         });
         
         // Only include future slots

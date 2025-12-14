@@ -71,6 +71,7 @@ The server uses a simple storage pattern (`server/storage.ts`) that abstracts da
   - Erstellt Termine für nächsten Werktag um 9:00 Uhr
   - Kunden können auf /rueckruf ihren Wunschtermin selbst auswählen (Mo-Fr, 8-17 Uhr)
   - GET /api/availability liefert freie Slots für die nächsten 14 Tage
+  - 2-Stunden-Puffer: Vor und nach gebuchten Terminen sind 2 Stunden automatisch gesperrt
 
 ### Key NPM Packages
 - `drizzle-orm` / `drizzle-zod`: Database ORM and schema validation
