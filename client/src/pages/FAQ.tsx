@@ -87,7 +87,17 @@ export default function FAQ() {
     },
     {
       question: "Wie weit fahren Sie?",
-      answer: "Wir bedienen München und einen Umkreis von ca. 50 km. Fragen Sie gerne an!",
+      answer: "Wir bedienen München-Obermenzing, Pasing, Laim, Schwabing, Sendling, Bogenhausen sowie das Umland bis Gräfelfing, Starnberg und Dachau.",
+      color: "bg-secondary/5 border-secondary/20"
+    },
+    {
+      question: "Gibt es einen Dachdecker in meiner Nähe in München?",
+      answer: "Von unserem Standort in Obermenzing erreichen wir Pasing, Laim, Nymphenburg in unter 10 Minuten. Rufen Sie an: 089 12621964.",
+      color: "bg-primary/10 border-primary/20"
+    },
+    {
+      question: "Bedienen Sie auch das Münchner Umland?",
+      answer: "Ja! Wir sind auch in Gräfelfing, Planegg, Germering, Fürstenfeldbruck, Dachau und Starnberg für Sie da.",
       color: "bg-secondary/5 border-secondary/20"
     },
     {
@@ -174,7 +184,7 @@ export default function FAQ() {
                 </a>
               </Button>
               <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-secondary font-bold rounded-xl" data-testid="button-hero-faq">
-                <a href="#fragen">Alle 20 Fragen ansehen</a>
+                <a href="#fragen">Alle Fragen ansehen</a>
               </Button>
             </div>
           </div>
@@ -273,7 +283,7 @@ export default function FAQ() {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-2xl mb-12">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-secondary mb-4">
-              20 Antworten auf Ihre wichtigsten Fragen
+              {faqs.length} Antworten auf Ihre wichtigsten Fragen
             </h2>
             <p className="text-muted-foreground text-lg">
               Diese Fragen hören wir täglich. Die Antworten kommen direkt aus 25 Jahren Erfahrung auf Münchner Dächern.

@@ -1215,3 +1215,79 @@ export function LocalSEO20kmSchema() {
 
   return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
 }
+
+// NearbyService Schema für "in der Nähe" Suchen (Google, Bing, Apple Maps)
+export function NearbyServiceSchema({ stadtteil, entfernung }: { stadtteil?: string; entfernung?: string }) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "@id": "https://089dach.de/#nearby-service",
+    "name": stadtteil 
+      ? `Dachdecker in der Nähe - ${stadtteil}` 
+      : "Dachdecker in meiner Nähe - München",
+    "description": stadtteil
+      ? `089Dach GmbH: Ihr Dachdecker in der Nähe von ${stadtteil}. Nur ${entfernung || "wenige Minuten"} entfernt. Schnelle Hilfe bei Dachschäden.`
+      : "089Dach GmbH: Dachdecker in Ihrer Nähe in München und Umgebung. Schnelle Anfahrt, kostenlose Beratung.",
+    "provider": {
+      "@type": "RoofingContractor",
+      "name": "089Dach GmbH",
+      "telephone": "+49-89-12621964",
+      "email": "info@089dach.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Thuillestr. 20",
+        "addressLocality": "München-Obermenzing",
+        "postalCode": "81247",
+        "addressCountry": "DE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 48.1661,
+        "longitude": 11.4728
+      }
+    },
+    "areaServed": {
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": 48.1661,
+        "longitude": 11.4728
+      },
+      "geoRadius": "20000"
+    },
+    "availableChannel": {
+      "@type": "ServiceChannel",
+      "serviceUrl": "https://089dach.de/kontakt",
+      "servicePhone": "+49-89-12621964",
+      "servicePostalAddress": {
+        "@type": "PostalAddress",
+        "streetAddress": "Thuillestr. 20",
+        "addressLocality": "München",
+        "postalCode": "81247"
+      }
+    },
+    "offers": {
+      "@type": "Offer",
+      "description": "Kostenlose Vor-Ort-Beratung",
+      "price": "0",
+      "priceCurrency": "EUR"
+    },
+    "serviceType": [
+      "Dachdecker in der Nähe",
+      "Dachdecker in meiner Nähe",
+      "Dachreparatur Notdienst",
+      "Dachsanierung",
+      "Spenglerarbeiten"
+    ],
+    "potentialAction": {
+      "@type": "ReserveAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://089dach.de/rueckruf"
+      },
+      "name": "Termin vereinbaren"
+    }
+  };
+
+  return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
+}
