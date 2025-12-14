@@ -2,7 +2,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
-import { CheckCircle2, ArrowRight, Home, Warehouse, ShieldCheck, Quote, AlertTriangle } from "lucide-react";
+import { CheckCircle2, ArrowRight, Home, Warehouse, ShieldCheck, Quote, AlertTriangle, Award, Shield, Users } from "lucide-react";
 import heroImage from "@assets/generated_images/roofer_working_on_red_tile_roof_munich.png";
 import tileImage from "@assets/generated_images/red_roof_tiles_texture_close_up.png";
 import LeadFunnel from "@/components/LeadFunnel";
@@ -64,6 +64,26 @@ export default function Bedachungen() {
           <p className="text-xl text-gray-200 max-w-2xl">
             Schützen Sie, was Ihnen wichtig ist. Wir sorgen dafür, dass Sie und Ihre Familie unter einem sicheren Dach leben.
           </p>
+        </div>
+      </div>
+
+      {/* Trust Badges */}
+      <div className="bg-stone-100 py-4 border-b border-stone-200">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-wrap justify-center gap-6 text-sm">
+            <span className="flex items-center gap-2">
+              <Award className="h-5 w-5 text-primary" />
+              <strong>Meisterbetrieb seit 1998</strong>
+            </span>
+            <span className="flex items-center gap-2">
+              <Shield className="h-5 w-5 text-primary" />
+              <strong>10 Jahre Garantie</strong>
+            </span>
+            <span className="flex items-center gap-2">
+              <Users className="h-5 w-5 text-primary" />
+              <strong>1.500+ zufriedene Kunden</strong>
+            </span>
+          </div>
         </div>
       </div>
 

@@ -4,7 +4,7 @@ import LeadFunnel from "@/components/LeadFunnel";
 import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Sun, Wind, ThermometerSun, Shield, ArrowRight, Quote, Phone, Check, Lightbulb } from "lucide-react";
+import { Sun, Wind, ThermometerSun, Shield, ArrowRight, Quote, Phone, Check, Lightbulb, Award, Users } from "lucide-react";
 import { Link } from "wouter";
 import SEO, { BreadcrumbSchema, ServiceSchema } from "@/components/SEO";
 
@@ -80,6 +80,26 @@ export default function Dachfenster() {
           </div>
         </div>
       </section>
+
+      {/* Trust Badges */}
+      <div className="bg-stone-100 py-4 border-b border-stone-200">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-wrap justify-center gap-6 text-sm">
+            <span className="flex items-center gap-2">
+              <Award className="h-5 w-5 text-primary" />
+              <strong>Meisterbetrieb seit 1998</strong>
+            </span>
+            <span className="flex items-center gap-2">
+              <Shield className="h-5 w-5 text-primary" />
+              <strong>10 Jahre Garantie</strong>
+            </span>
+            <span className="flex items-center gap-2">
+              <Users className="h-5 w-5 text-primary" />
+              <strong>1.500+ zufriedene Kunden</strong>
+            </span>
+          </div>
+        </div>
+      </div>
 
       {/* Transformation Story */}
       <section className="py-16 bg-secondary text-white">

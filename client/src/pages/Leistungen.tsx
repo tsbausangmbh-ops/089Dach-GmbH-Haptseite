@@ -2,7 +2,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Home, Warehouse, Wrench, Hammer, ShieldCheck, Ruler, CheckCircle2, Quote } from "lucide-react";
+import { ArrowRight, Home, Warehouse, Wrench, Hammer, ShieldCheck, Ruler, CheckCircle2, Quote, Award, Shield, Users } from "lucide-react";
 import heroImage from "@assets/generated_images/modern_house_with_anthracite_roof.png";
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema, ServiceSchema } from "@/components/SEO";
@@ -158,6 +158,26 @@ export default function Leistungen() {
           <p className="text-xl text-gray-200 max-w-2xl">
             Wir kümmern uns um Ihr Dach, als wäre es unser eigenes. Von der kleinen Reparatur bis zur kompletten Sanierung – alles aus einer Hand.
           </p>
+        </div>
+      </div>
+
+      {/* Trust Badges */}
+      <div className="bg-stone-100 py-4 border-b border-stone-200">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-wrap justify-center gap-6 text-sm">
+            <span className="flex items-center gap-2">
+              <Award className="h-5 w-5 text-primary" />
+              <strong>Meisterbetrieb seit 1998</strong>
+            </span>
+            <span className="flex items-center gap-2">
+              <Shield className="h-5 w-5 text-primary" />
+              <strong>10 Jahre Garantie</strong>
+            </span>
+            <span className="flex items-center gap-2">
+              <Users className="h-5 w-5 text-primary" />
+              <strong>1.500+ zufriedene Kunden</strong>
+            </span>
+          </div>
         </div>
       </div>
 

@@ -6,7 +6,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
-import { AlertTriangle, Clock, Shield, Mail, Wrench, CloudRain, Wind, Check, Quote, MapPin, PhoneCall, ArrowRight, ShieldCheck } from "lucide-react";
+import { AlertTriangle, Clock, Shield, Mail, Wrench, CloudRain, Wind, Check, Quote, MapPin, PhoneCall, ArrowRight, ShieldCheck, Award, Users } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
 import SEO, { BreadcrumbSchema, ServiceSchema } from "@/components/SEO";
@@ -127,6 +127,26 @@ export default function Reparaturservice() {
           </div>
         </div>
       </section>
+
+      {/* Trust Badges */}
+      <div className="bg-stone-100 py-4 border-b border-stone-200">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-wrap justify-center gap-6 text-sm">
+            <span className="flex items-center gap-2">
+              <Award className="h-5 w-5 text-primary" />
+              <strong>Meisterbetrieb seit 1998</strong>
+            </span>
+            <span className="flex items-center gap-2">
+              <Shield className="h-5 w-5 text-primary" />
+              <strong>10 Jahre Garantie</strong>
+            </span>
+            <span className="flex items-center gap-2">
+              <Users className="h-5 w-5 text-primary" />
+              <strong>1.500+ zufriedene Kunden</strong>
+            </span>
+          </div>
+        </div>
+      </div>
 
       {/* Kundengeschichte - Notfall */}
       <section className="py-16 bg-gray-50">
