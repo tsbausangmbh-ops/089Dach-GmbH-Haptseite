@@ -40,6 +40,14 @@ export default function Navbar() {
       <div className="hidden md:block bg-secondary text-white py-2">
         <div className="container mx-auto px-6 lg:px-12 flex justify-between items-center text-sm font-medium">
           <div className="flex gap-6">
+            <a href="/ratgeber/daemmung" className="flex items-center gap-2 hover:text-primary transition-colors font-semibold">
+              <span className="text-primary">★</span>
+              Dachsanierung
+            </a>
+            <a href="/ratgeber/leckortung" className="flex items-center gap-2 hover:text-primary transition-colors font-semibold">
+              <span className="text-primary">★</span>
+              Leckortung
+            </a>
             <a href="/ratgeber/beratung" className="flex items-center gap-2 hover:text-primary transition-colors font-semibold">
               <span className="text-primary">★</span>
               Kostenlose Beratung
