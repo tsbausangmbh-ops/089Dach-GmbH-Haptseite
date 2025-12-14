@@ -2,7 +2,9 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
 import BackButton from "@/components/BackButton";
-import { Shield, Cookie, Bot, Scale, Lock, FileText, AlertTriangle, Globe, Server, Database, Users } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Shield, Cookie, Bot, Scale, Lock, FileText, AlertTriangle, Globe, Server, Database, Users, Phone } from "lucide-react";
+import heroImage from "@assets/generated_images/professional_office_legal_documents.png";
 
 export default function CookiePolicy() {
   return (
@@ -13,18 +15,64 @@ export default function CookiePolicy() {
         canonical="https://089dach.de/cookies"
       />
       <Navbar />
+      
+      {/* Hero Section */}
+      <section className="pt-10 pb-12 relative overflow-hidden min-h-[50vh] flex items-center">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <img
+            src={heroImage}
+            alt="Cookie-Richtlinie 089Dach GmbH München"
+            className="w-full h-full object-cover"
+            width={1792}
+            height={1024}
+            fetchPriority="high"
+            decoding="async"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-secondary/95 via-secondary/85 to-secondary/70"></div>
+        </div>
+        
+        <div className="container mx-auto px-6 lg:px-12 relative z-10">
+          <div className="max-w-2xl text-white">
+            <span className="text-primary font-bold tracking-wider uppercase text-sm">EU-Recht konform</span>
+            <h1 className="text-4xl md:text-6xl font-heading font-bold text-white mt-4 mb-6">
+              Cookie-Richtlinie & Datenschutz
+            </h1>
+            
+            <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl border-l-4 border-primary mb-8">
+              <p className="text-lg text-white font-medium mb-3">
+                Transparenz bei Cookies und Datenverarbeitung.
+              </p>
+              <p className="text-gray-200 leading-relaxed mb-4">
+                Konform mit DSGVO, TDDDG, EU AI Act, Digital Services Act und Data Act. 
+                <strong className="text-white"> Ihre Privatsphäre ist uns wichtig.</strong>
+              </p>
+              <p className="text-gray-200 leading-relaxed">
+                <strong className="text-white">Stand: Dezember 2025</strong> | Gilt für den Europäischen Wirtschaftsraum
+              </p>
+            </div>
+            
+            <p className="text-xl text-gray-200 leading-relaxed mb-8">
+              <strong className="text-white">Fragen zu Cookies?</strong> Wir helfen Ihnen gerne weiter.
+            </p>
+
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-xl" data-testid="button-hero-call">
+                <a href="/rueckruf">
+                  <Phone className="mr-2 h-5 w-5" />
+                  Rückruf anfordern
+                </a>
+              </Button>
+              <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-secondary font-bold rounded-xl" data-testid="button-hero-content">
+                <a href="/beratung">24h Beratungstermin</a>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
       <BackButton />
       
       <div className="container mx-auto px-6 lg:px-12 pt-10 pb-12 max-w-4xl">
-        <div className="flex items-center gap-3 mb-4">
-          <Cookie className="h-8 w-8 text-primary" />
-          <span className="text-primary font-bold tracking-wider uppercase text-sm">EU-Recht konform</span>
-        </div>
-        <h1 className="text-4xl font-heading font-bold mb-4 text-secondary">Cookie-Richtlinie & Datenschutz</h1>
-        <p className="text-muted-foreground mb-8">
-          <strong>Stand: Dezember 2025</strong> | Gilt für Bürger und Einwohner des Europäischen Wirtschaftsraums
-        </p>
-
         <div className="prose prose-lg text-muted-foreground">
           
           {/* Rechtsgrundlagen Box */}
