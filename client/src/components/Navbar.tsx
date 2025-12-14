@@ -9,10 +9,11 @@ export default function Navbar() {
 
   const navItems = [
     { name: "Startseite", href: "/" },
-    { name: "Leistungen", href: "#services" },
-    { name: "Über uns", href: "#about" },
-    { name: "Referenzen", href: "#gallery" },
-    { name: "Kontakt", href: "#contact" },
+    { name: "Dachdeckerei", href: "/dachdeckerei" },
+    { name: "Leistungen", href: "/#services" },
+    { name: "Über uns", href: "/#about" },
+    { name: "Referenzen", href: "/#gallery" },
+    { name: "Kontakt", href: "/#contact" },
   ];
 
   return (
