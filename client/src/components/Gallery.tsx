@@ -33,8 +33,8 @@ export default function Gallery() {
               Ausgewählte Projekte
             </h2>
           </div>
-          <Button variant="outline" className="text-white border-white/20 hover:bg-white/10 hover:text-white rounded-sm">
-            Alle Projekte ansehen
+          <Button variant="outline" className="text-white border-white/20 hover:bg-white/10 hover:text-white rounded-sm" asChild>
+            <a href="/referenzen">Alle Projekte ansehen</a>
           </Button>
         </div>
 
