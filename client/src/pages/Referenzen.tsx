@@ -4,13 +4,12 @@ import Contact from "@/components/Contact";
 import LeadFunnel from "@/components/LeadFunnel";
 import { ArrowUpRight } from "lucide-react";
 
-import img1 from "@assets/generated_images/modern_house_with_anthracite_roof.png";
-import img2 from "@assets/generated_images/red_roof_tiles_texture_close_up.png";
-import img3 from "@assets/generated_images/modern_anthracite_flat_roof_detail.png";
-import img4 from "@assets/generated_images/modern_roof_window_installation.png";
-import img5 from "@assets/generated_images/historic_building_roof_renovation.png";
-import img6 from "@assets/generated_images/flat_roof_green_roof_detail.png";
-import img7 from "@assets/generated_images/slate_roof_detail.png";
+import img1 from "@assets/generated_images/realistic_anthracite_roof_tiles_with_slight_weathering.png";
+import img3 from "@assets/generated_images/flat_roof_bitumen_detail_with_texture.png";
+import img4 from "@assets/generated_images/roof_window_installation_with_realistic_roof_texture.png";
+import img5 from "@assets/generated_images/historic_biberschwanz_roof_with_patina.png";
+import img6 from "@assets/generated_images/flat_green_roof_with_natural_variations.png";
+import img7 from "@assets/generated_images/slate_roof_with_copper_details_and_patina.png";
 import heroImage from "@assets/generated_images/historic_building_roof_renovation.png";
 
 export default function Referenzen() {
