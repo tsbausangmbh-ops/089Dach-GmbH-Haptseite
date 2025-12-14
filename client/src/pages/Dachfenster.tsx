@@ -10,6 +10,7 @@ import { Link } from "wouter";
 import SEO, { BreadcrumbSchema, ServiceSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/bright_attic_room_after_skylights.png";
 import RelatedServices from "@/components/RelatedServices";
+import { TextWithKeywordLinks } from "@/components/KeywordLink";
 
 export default function Dachfenster() {
   const benefits = [
@@ -149,7 +150,7 @@ export default function Dachfenster() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-secondary mb-2">{benefit.title}</h3>
-                  <p className="text-muted-foreground">{benefit.desc}</p>
+                  <p className="text-muted-foreground"><TextWithKeywordLinks currentPath="/leistungen/dachfenster">{benefit.desc}</TextWithKeywordLinks></p>
                 </div>
               </div>
             ))}
@@ -175,7 +176,7 @@ export default function Dachfenster() {
               <Card key={index} className="hover:shadow-lg transition-shadow" data-testid={`product-${index}`}>
                 <CardContent className="p-6">
                   <h3 className="text-xl font-bold text-secondary mb-2">{product.name}</h3>
-                  <p className="text-muted-foreground mb-3">{product.desc}</p>
+                  <p className="text-muted-foreground mb-3"><TextWithKeywordLinks currentPath="/leistungen/dachfenster">{product.desc}</TextWithKeywordLinks></p>
                   <p className="text-sm text-primary font-medium">{product.ideal}</p>
                 </CardContent>
               </Card>
@@ -205,7 +206,7 @@ export default function Dachfenster() {
                   {item.step}
                 </div>
                 <h3 className="font-bold text-secondary mb-2">{item.title}</h3>
-                <p className="text-muted-foreground text-sm">{item.desc}</p>
+                <p className="text-muted-foreground text-sm"><TextWithKeywordLinks currentPath="/leistungen/dachfenster">{item.desc}</TextWithKeywordLinks></p>
               </div>
             ))}
           </div>

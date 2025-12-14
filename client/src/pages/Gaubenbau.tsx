@@ -9,6 +9,7 @@ import { CheckCircle2, Home, Sun, Maximize, Euro, Phone, Quote, Award, Shield, U
 import SEO, { BreadcrumbSchema, ServiceSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/renovated_dormer_window_after.png";
 import RelatedServices from "@/components/RelatedServices";
+import { TextWithKeywordLinks } from "@/components/KeywordLink";
 
 export default function Gaubenbau() {
   const benefits = [
@@ -143,7 +144,7 @@ export default function Gaubenbau() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-secondary mb-2">{benefit.title}</h3>
-                  <p className="text-muted-foreground">{benefit.desc}</p>
+                  <p className="text-muted-foreground"><TextWithKeywordLinks currentPath="/leistungen/gaubenbau">{benefit.desc}</TextWithKeywordLinks></p>
                 </div>
               </div>
             ))}
@@ -171,7 +172,7 @@ export default function Gaubenbau() {
                     <CheckCircle2 className="h-6 w-6 text-primary shrink-0 mt-1" />
                     <div>
                       <h3 className="font-bold text-secondary mb-2">{gaube.title}</h3>
-                      <p className="text-muted-foreground text-sm">{gaube.desc}</p>
+                      <p className="text-muted-foreground text-sm"><TextWithKeywordLinks currentPath="/leistungen/gaubenbau">{gaube.desc}</TextWithKeywordLinks></p>
                     </div>
                   </div>
                 </CardContent>
@@ -237,7 +238,7 @@ export default function Gaubenbau() {
                   {item.step}
                 </div>
                 <h3 className="font-bold text-secondary mb-2">{item.title}</h3>
-                <p className="text-muted-foreground text-sm">{item.desc}</p>
+                <p className="text-muted-foreground text-sm"><TextWithKeywordLinks currentPath="/leistungen/gaubenbau">{item.desc}</TextWithKeywordLinks></p>
               </div>
             ))}
           </div>

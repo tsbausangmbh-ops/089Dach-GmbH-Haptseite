@@ -8,6 +8,7 @@ import detailImage from "@assets/generated_images/metal_standing_seam_roof_detai
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema, ServiceSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
+import { TextWithKeywordLinks } from "@/components/KeywordLink";
 
 export default function Spenglerei() {
   return (
@@ -137,9 +138,9 @@ export default function Spenglerei() {
                   <div>
                     <h3 className="text-xl font-bold text-secondary mb-2">Dachrinnen & Entwässerung</h3>
                     <p className="text-muted-foreground">
-                      Die unsichtbaren Helden Ihres Hauses. Eine gut geplante Dachentwässerung schützt 
-                      Fassade, Fundament und Keller. Wir bieten Kupfer, Titanzink und Aluminium – 
-                      mit optionalem Laubschutz.
+                      <TextWithKeywordLinks currentPath="/leistungen/spenglerei">
+                        Die unsichtbaren Helden Ihres Hauses. Eine gut geplante Dachentwässerung schützt Fassade, Fundament und Keller. Wir bieten Kupfer, Titanzink und Aluminium – mit optionalem Laubschutz.
+                      </TextWithKeywordLinks>
                     </p>
                   </div>
                 </div>
@@ -151,8 +152,9 @@ export default function Spenglerei() {
                   <div>
                     <h3 className="text-xl font-bold text-secondary mb-2">Kamin- & Gaubenverkleidung</h3>
                     <p className="text-muted-foreground">
-                      Hier zeigt sich wahre Handwerkskunst. Komplexe Formen, präzise Anschlüsse – und 
-                      eine Optik, die Ihr Haus aufwertet. Einmal gut gemacht, hält es ein Leben lang.
+                      <TextWithKeywordLinks currentPath="/leistungen/spenglerei">
+                        Hier zeigt sich wahre Handwerkskunst. Komplexe Formen, präzise Anschlüsse – und eine Optik, die Ihr Haus aufwertet. Einmal gut gemacht, hält es ein Leben lang.
+                      </TextWithKeywordLinks>
                     </p>
                   </div>
                 </div>
@@ -164,8 +166,9 @@ export default function Spenglerei() {
                   <div>
                     <h3 className="text-xl font-bold text-secondary mb-2">Metalldächer (Stehfalz)</h3>
                     <p className="text-muted-foreground">
-                      Die Königsklasse für architektonisch anspruchsvolle Projekte. Extrem langlebig, 
-                      sturmsicher und absolut regenfest – auch bei flachen Neigungen.
+                      <TextWithKeywordLinks currentPath="/leistungen/spenglerei">
+                        Die Königsklasse für architektonisch anspruchsvolle Projekte. Extrem langlebig, sturmsicher und absolut regenfest – auch bei flachen Neigungen.
+                      </TextWithKeywordLinks>
                     </p>
                   </div>
                 </div>

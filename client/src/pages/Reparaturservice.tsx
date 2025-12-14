@@ -12,6 +12,7 @@ import { toast } from "sonner";
 import SEO, { BreadcrumbSchema, ServiceSchema, HowToSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/damaged_red_tile_roof_before.png";
 import RelatedServices from "@/components/RelatedServices";
+import { TextWithKeywordLinks } from "@/components/KeywordLink";
 
 export default function Reparaturservice() {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -346,7 +347,7 @@ export default function Reparaturservice() {
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-secondary mb-2">{emergency.title}</h3>
-                      <p className="text-muted-foreground">{emergency.desc}</p>
+                      <p className="text-muted-foreground"><TextWithKeywordLinks currentPath="/leistungen/reparaturservice">{emergency.desc}</TextWithKeywordLinks></p>
                     </div>
                   </div>
                 </CardContent>
@@ -376,7 +377,7 @@ export default function Reparaturservice() {
                 </div>
                 <div>
                   <h3 className="font-bold mb-1">{adv.title}</h3>
-                  <p className="text-gray-300">{adv.desc}</p>
+                  <p className="text-gray-300"><TextWithKeywordLinks currentPath="/leistungen/reparaturservice">{adv.desc}</TextWithKeywordLinks></p>
                 </div>
               </div>
             ))}

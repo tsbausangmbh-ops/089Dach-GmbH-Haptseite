@@ -9,6 +9,7 @@ import { CheckCircle2, FileText, Ruler, Building2, Phone, Quote, Award, Shield, 
 import SEO, { BreadcrumbSchema, ServiceSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/homeowner_roof_consultation_scene.png";
 import RelatedServices from "@/components/RelatedServices";
+import { TextWithKeywordLinks } from "@/components/KeywordLink";
 
 export default function Architektenleistungen() {
   const services = [
@@ -143,7 +144,7 @@ export default function Architektenleistungen() {
                     <CheckCircle2 className="h-6 w-6 text-primary shrink-0 mt-1" />
                     <div>
                       <h3 className="font-bold text-secondary mb-2">{service.title}</h3>
-                      <p className="text-muted-foreground text-sm">{service.desc}</p>
+                      <p className="text-muted-foreground text-sm"><TextWithKeywordLinks currentPath="/leistungen/architektenleistungen">{service.desc}</TextWithKeywordLinks></p>
                     </div>
                   </div>
                 </CardContent>
@@ -173,7 +174,7 @@ export default function Architektenleistungen() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-secondary mb-2">{project.title}</h3>
-                  <p className="text-muted-foreground">{project.desc}</p>
+                  <p className="text-muted-foreground"><TextWithKeywordLinks currentPath="/leistungen/architektenleistungen">{project.desc}</TextWithKeywordLinks></p>
                 </div>
               </div>
             ))}
@@ -202,7 +203,7 @@ export default function Architektenleistungen() {
                   {item.step}
                 </div>
                 <h3 className="font-bold text-secondary mb-2">{item.title}</h3>
-                <p className="text-muted-foreground text-sm">{item.desc}</p>
+                <p className="text-muted-foreground text-sm"><TextWithKeywordLinks currentPath="/leistungen/architektenleistungen">{item.desc}</TextWithKeywordLinks></p>
               </div>
             ))}
           </div>

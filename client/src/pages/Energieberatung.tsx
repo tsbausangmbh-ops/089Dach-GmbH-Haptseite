@@ -9,6 +9,7 @@ import { CheckCircle2, Euro, Home, Leaf, FileText, Phone, Quote, Award, Shield, 
 import SEO, { BreadcrumbSchema, ServiceSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/new_solar_panel_installation.png";
 import RelatedServices from "@/components/RelatedServices";
+import { TextWithKeywordLinks } from "@/components/KeywordLink";
 
 export default function Energieberatung() {
   const benefits = [
@@ -142,7 +143,7 @@ export default function Energieberatung() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-secondary mb-2">{benefit.title}</h3>
-                  <p className="text-muted-foreground">{benefit.desc}</p>
+                  <p className="text-muted-foreground"><TextWithKeywordLinks currentPath="/leistungen/energieberatung">{benefit.desc}</TextWithKeywordLinks></p>
                 </div>
               </div>
             ))}
@@ -170,7 +171,7 @@ export default function Energieberatung() {
                     <CheckCircle2 className="h-6 w-6 text-primary shrink-0 mt-1" />
                     <div>
                       <h3 className="font-bold text-secondary mb-2">{service.title}</h3>
-                      <p className="text-muted-foreground text-sm">{service.desc}</p>
+                      <p className="text-muted-foreground text-sm"><TextWithKeywordLinks currentPath="/leistungen/energieberatung">{service.desc}</TextWithKeywordLinks></p>
                     </div>
                   </div>
                 </CardContent>
@@ -201,7 +202,7 @@ export default function Energieberatung() {
                   {item.step}
                 </div>
                 <h3 className="font-bold text-secondary mb-2">{item.title}</h3>
-                <p className="text-muted-foreground text-sm">{item.desc}</p>
+                <p className="text-muted-foreground text-sm"><TextWithKeywordLinks currentPath="/leistungen/energieberatung">{item.desc}</TextWithKeywordLinks></p>
               </div>
             ))}
           </div>

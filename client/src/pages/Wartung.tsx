@@ -12,6 +12,7 @@ import { toast } from "sonner";
 import SEO, { BreadcrumbSchema, ServiceSchema, HowToSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/roofer_tools_arranged_cleanly.png";
 import RelatedServices from "@/components/RelatedServices";
+import { TextWithKeywordLinks } from "@/components/KeywordLink";
 
 export default function Wartung() {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -310,7 +311,7 @@ export default function Wartung() {
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-secondary mb-2">{leistung.title}</h3>
-                      <p className="text-muted-foreground">{leistung.desc}</p>
+                      <p className="text-muted-foreground"><TextWithKeywordLinks currentPath="/leistungen/wartung">{leistung.desc}</TextWithKeywordLinks></p>
                     </div>
                   </div>
                 </CardContent>
@@ -340,7 +341,7 @@ export default function Wartung() {
                 </div>
                 <div>
                   <h3 className="font-bold mb-1">{adv.title}</h3>
-                  <p className="text-gray-300">{adv.desc}</p>
+                  <p className="text-gray-300"><TextWithKeywordLinks currentPath="/leistungen/wartung">{adv.desc}</TextWithKeywordLinks></p>
                 </div>
               </div>
             ))}
@@ -373,7 +374,7 @@ export default function Wartung() {
                     <CalendarCheck className="h-5 w-5 text-primary shrink-0 mt-0.5" />
                     <div>
                       <span className="font-bold text-secondary">{item.interval}:</span>
-                      <span className="text-muted-foreground ml-2">{item.desc}</span>
+                      <span className="text-muted-foreground ml-2"><TextWithKeywordLinks currentPath="/leistungen/wartung">{item.desc}</TextWithKeywordLinks></span>
                     </div>
                   </li>
                 ))}

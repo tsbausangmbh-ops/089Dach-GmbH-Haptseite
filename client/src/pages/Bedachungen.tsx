@@ -9,6 +9,7 @@ import tileImage from "@assets/generated_images/red_roof_tiles_texture_close_up.
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema, ServiceSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
+import { TextWithKeywordLinks } from "@/components/KeywordLink";
 
 export default function Bedachungen() {
   return (
@@ -141,8 +142,9 @@ export default function Bedachungen() {
                   <div>
                     <h3 className="text-xl font-bold text-secondary mb-2">Steildach Sanierung & Neubau</h3>
                     <p className="text-muted-foreground">
-                      Ob Tondachziegel, Betonsteine oder edles Schiefer – wir finden die perfekte Eindeckung 
-                      für Ihr Haus. Sturmsicher befestigt, fachmännisch verlegt.
+                      <TextWithKeywordLinks currentPath="/leistungen/bedachungen">
+                        Ob Tondachziegel, Betonsteine oder edles Schiefer – wir finden die perfekte Eindeckung für Ihr Haus. Sturmsicher befestigt, fachmännisch verlegt.
+                      </TextWithKeywordLinks>
                     </p>
                   </div>
                 </div>
@@ -154,8 +156,9 @@ export default function Bedachungen() {
                   <div>
                     <h3 className="text-xl font-bold text-secondary mb-2">Flachdach Abdichtung</h3>
                     <p className="text-muted-foreground">
-                      Flachdächer verzeihen keine Fehler. Deshalb arbeiten wir nur mit Premiummaterialien 
-                      und erfahrenen Fachkräften. Für Garagen, Anbauten und große Gewerbeobjekte.
+                      <TextWithKeywordLinks currentPath="/leistungen/bedachungen">
+                        Flachdächer verzeihen keine Fehler. Deshalb arbeiten wir nur mit Premiummaterialien und erfahrenen Fachkräften. Für Garagen, Anbauten und große Gewerbeobjekte.
+                      </TextWithKeywordLinks>
                     </p>
                   </div>
                 </div>
@@ -167,8 +170,9 @@ export default function Bedachungen() {
                   <div>
                     <h3 className="text-xl font-bold text-secondary mb-2">Energetische Dachsanierung</h3>
                     <p className="text-muted-foreground">
-                      Bis zu 30% weniger Heizkosten durch moderne Dämmung. Wir beraten Sie auch zu 
-                      KfW-Förderung und BAFA-Zuschüssen – die können mehrere tausend Euro ausmachen!
+                      <TextWithKeywordLinks currentPath="/leistungen/bedachungen">
+                        Bis zu 30% weniger Heizkosten durch moderne Dämmung. Wir beraten Sie auch zu KfW-Förderung und BAFA-Zuschüssen – die können mehrere tausend Euro ausmachen!
+                      </TextWithKeywordLinks>
                     </p>
                   </div>
                 </div>

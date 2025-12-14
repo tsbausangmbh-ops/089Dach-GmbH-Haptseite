@@ -10,6 +10,7 @@ import { Link } from "wouter";
 import SEO, { BreadcrumbSchema, ServiceSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/realistic_renovated_roof_obermenzing_after.png";
 import RelatedServices from "@/components/RelatedServices";
+import { TextWithKeywordLinks } from "@/components/KeywordLink";
 
 export default function Dachsanierung() {
   const warningSignals = [
@@ -145,7 +146,7 @@ export default function Dachsanierung() {
                     </div>
                     <div>
                       <h3 className="font-bold text-secondary mb-1">{signal.title}</h3>
-                      <p className="text-muted-foreground text-sm">{signal.desc}</p>
+                      <p className="text-muted-foreground text-sm"><TextWithKeywordLinks currentPath="/leistungen/dachsanierung">{signal.desc}</TextWithKeywordLinks></p>
                     </div>
                   </div>
                 </CardContent>
@@ -187,7 +188,7 @@ export default function Dachsanierung() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-secondary mb-2">{benefit.title}</h3>
-                  <p className="text-muted-foreground">{benefit.desc}</p>
+                  <p className="text-muted-foreground"><TextWithKeywordLinks currentPath="/leistungen/dachsanierung">{benefit.desc}</TextWithKeywordLinks></p>
                 </div>
               </div>
             ))}
@@ -219,7 +220,7 @@ export default function Dachsanierung() {
                   {item.step}
                 </div>
                 <h3 className="font-bold text-secondary mb-2">{item.title}</h3>
-                <p className="text-muted-foreground text-sm">{item.desc}</p>
+                <p className="text-muted-foreground text-sm"><TextWithKeywordLinks currentPath="/leistungen/dachsanierung">{item.desc}</TextWithKeywordLinks></p>
               </div>
             ))}
           </div>
