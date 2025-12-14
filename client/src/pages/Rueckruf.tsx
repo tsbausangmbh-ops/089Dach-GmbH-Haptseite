@@ -4,19 +4,70 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
-import { PhoneCall, ArrowRight, ShieldCheck, Award, Shield, Users, Clock, CheckCircle } from "lucide-react";
-import { useState } from "react";
+import { Calendar } from "@/components/ui/calendar";
+import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
+import { PhoneCall, ArrowRight, ShieldCheck, Award, Shield, Users, Clock, CheckCircle, CalendarIcon, Loader2 } from "lucide-react";
+import { useState, useEffect } from "react";
 import { toast } from "sonner";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/friendly_woman_on_phone_in_office.png";
+import { format, isSameDay } from "date-fns";
+import { de } from "date-fns/locale";
+
+interface TimeSlot {
+  start: string;
+  end: string;
+}
 
 export default function Rueckruf() {
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [availableSlots, setAvailableSlots] = useState<TimeSlot[]>([]);
+  const [isLoadingSlots, setIsLoadingSlots] = useState(true);
+  const [selectedDate, setSelectedDate] = useState<Date | undefined>();
+  const [selectedSlot, setSelectedSlot] = useState<TimeSlot | null>(null);
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
     message: ""
   });
+
+  useEffect(() => {
+    fetchAvailability();
+  }, []);
+
+  const fetchAvailability = async () => {
+    try {
+      const response = await fetch("/api/availability");
+      if (response.ok) {
+        const data = await response.json();
+        setAvailableSlots(data.slots || []);
+      }
+    } catch (error) {
+      console.error("Failed to fetch availability:", error);
+    } finally {
+      setIsLoadingSlots(false);
+    }
+  };
+
+  const getAvailableDates = () => {
+    const dates = new Set<string>();
+    availableSlots.forEach(slot => {
+      const date = new Date(slot.start);
+      dates.add(date.toDateString());
+    });
+    return Array.from(dates).map(d => new Date(d));
+  };
+
+  const getSlotsForDate = (date: Date) => {
+    return availableSlots.filter(slot => {
+      const slotDate = new Date(slot.start);
+      return isSameDay(slotDate, date);
+    });
+  };
+
+  const formatTime = (isoString: string) => {
+    return format(new Date(isoString), "HH:mm", { locale: de });
+  };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -28,19 +79,29 @@ export default function Rueckruf() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           problem: "Rückrufanfrage",
-          timing: "Rückruf gewünscht",
+          timing: selectedSlot 
+            ? `Gewünschter Termin: ${format(new Date(selectedSlot.start), "dd.MM.yyyy HH:mm", { locale: de })} Uhr`
+            : "Rückruf gewünscht",
           details: formData.message || "Keine Nachricht hinterlassen",
           name: formData.name,
           phone: formData.phone,
-          email: ""
+          email: "",
+          callbackStart: selectedSlot?.start || null,
+          callbackEnd: selectedSlot?.end || null
         })
       });
 
       if (response.ok) {
-        toast.success("Rückruf angefordert!", {
-          description: "Wir rufen Sie schnellstmöglich zurück."
+        const successMsg = selectedSlot 
+          ? `Termin am ${format(new Date(selectedSlot.start), "dd.MM. 'um' HH:mm", { locale: de })} Uhr gebucht!`
+          : "Rückruf angefordert!";
+        toast.success(successMsg, {
+          description: "Wir rufen Sie zum vereinbarten Termin zurück."
         });
         setFormData({ name: "", phone: "", message: "" });
+        setSelectedSlot(null);
+        setSelectedDate(undefined);
+        fetchAvailability();
       } else {
         toast.error("Fehler beim Senden", {
           description: "Bitte versuchen Sie es erneut oder rufen Sie uns direkt an."
@@ -55,6 +116,8 @@ export default function Rueckruf() {
     }
   };
 
+  const availableDates = getAvailableDates();
+
   return (
     <div className="min-h-screen bg-white">
       <SEO 
@@ -67,7 +130,6 @@ export default function Rueckruf() {
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Rückruf anfordern", url: "/rueckruf" }]} />
       <Navbar />
       
-      {/* Hero Section */}
       <section className="pt-10 pb-12 bg-secondary relative overflow-hidden min-h-[40vh] flex items-center">
         <div className="absolute inset-0 z-0">
           <img
@@ -86,7 +148,7 @@ export default function Rueckruf() {
               Versprochen.
             </h1>
             <p className="text-xl text-gray-200 max-w-xl mb-4">
-              Schreiben Sie uns, wir rufen Sie zurück. In der Regel innerhalb von 24 Stunden vor Ort.
+              Wählen Sie Ihren Wunschtermin und wir rufen Sie pünktlich zurück.
             </p>
             <p className="text-lg text-gray-300 max-w-xl">
               Kostenlos und unverbindlich.
@@ -95,7 +157,6 @@ export default function Rueckruf() {
         </div>
       </section>
 
-      {/* Trust Badges */}
       <div className="bg-stone-100 py-2 border-b border-stone-200">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="flex flex-wrap justify-center gap-4 text-xs">
@@ -115,7 +176,6 @@ export default function Rueckruf() {
         </div>
       </div>
 
-      {/* Rückruf-Formular */}
       <section className="py-12 bg-white">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mx-auto">
@@ -125,18 +185,15 @@ export default function Rueckruf() {
                   <PhoneCall className="h-8 w-8 text-primary" />
                 </div>
                 <h2 className="text-3xl font-heading font-bold text-secondary mb-2">
-                  Wir sind für Sie da.
+                  Wählen Sie Ihren Wunschtermin
                 </h2>
               </div>
               <div className="bg-stone-50 p-6 rounded-xl border-l-4 border-primary">
                 <p className="text-secondary font-medium mb-3">
-                  Sie haben Fragen, Sorgen oder einfach ein ungutes Gefühl bei Ihrem Dach?
+                  Wann dürfen wir Sie zurückrufen?
                 </p>
-                <p className="text-muted-foreground leading-relaxed mb-4">
-                  Das verstehen wir. Ein tropfender Fleck an der Decke, lose Ziegel nach dem letzten Sturm oder einfach die Frage: „Ist bei mir noch alles in Ordnung?" – solche Gedanken können belasten. Genau dafür sind wir hier. Kein Callcenter, keine Warteschleife. Nur ein kurzes Formular – und wir melden uns persönlich bei Ihnen.
-                </p>
-                <p className="text-sm text-primary font-medium italic">
-                  Lassen Sie uns gemeinsam eine Lösung finden. Wir freuen uns auf Ihren Kontakt.
+                <p className="text-muted-foreground leading-relaxed">
+                  Wählen Sie einen freien Termin aus unserem Kalender. Wir rufen Sie pünktlich zur gewünschten Zeit an – kein Callcenter, sondern persönliche Beratung vom Fachmann.
                 </p>
               </div>
             </div>
@@ -148,6 +205,86 @@ export default function Rueckruf() {
                   <p className="text-sm text-green-800 font-medium">100% kostenlos & unverbindlich</p>
                   <p className="text-xs text-green-700 mt-1">Wir beraten Sie ehrlich und ohne Verkaufsdruck.</p>
                 </div>
+              </div>
+
+              <div className="space-y-4">
+                <Label className="text-base font-semibold flex items-center gap-2">
+                  <CalendarIcon className="h-5 w-5 text-primary" />
+                  Wunschtermin auswählen
+                </Label>
+                
+                {isLoadingSlots ? (
+                  <div className="flex items-center justify-center py-8">
+                    <Loader2 className="h-6 w-6 animate-spin text-primary" />
+                    <span className="ml-2 text-muted-foreground">Lade verfügbare Termine...</span>
+                  </div>
+                ) : availableSlots.length === 0 ? (
+                  <div className="bg-yellow-50 p-4 rounded-md border border-yellow-200">
+                    <p className="text-sm text-yellow-800">Keine freien Termine verfügbar. Wir rufen Sie schnellstmöglich zurück.</p>
+                  </div>
+                ) : (
+                  <div className="grid md:grid-cols-2 gap-6">
+                    <div>
+                      <Popover>
+                        <PopoverTrigger asChild>
+                          <Button
+                            variant="outline"
+                            className="w-full justify-start text-left font-normal h-12"
+                            data-testid="button-date-picker"
+                          >
+                            <CalendarIcon className="mr-2 h-4 w-4" />
+                            {selectedDate ? format(selectedDate, "EEEE, dd. MMMM yyyy", { locale: de }) : "Datum auswählen"}
+                          </Button>
+                        </PopoverTrigger>
+                        <PopoverContent className="w-auto p-0" align="start">
+                          <Calendar
+                            mode="single"
+                            selected={selectedDate}
+                            onSelect={(date) => {
+                              setSelectedDate(date);
+                              setSelectedSlot(null);
+                            }}
+                            disabled={(date) => {
+                              const dayOfWeek = date.getDay();
+                              if (dayOfWeek === 0 || dayOfWeek === 6) return true;
+                              return !availableDates.some(d => isSameDay(d, date));
+                            }}
+                            locale={de}
+                            data-testid="calendar-date"
+                          />
+                        </PopoverContent>
+                      </Popover>
+                    </div>
+
+                    {selectedDate && (
+                      <div>
+                        <p className="text-sm text-muted-foreground mb-2">Verfügbare Zeiten:</p>
+                        <div className="grid grid-cols-3 gap-2">
+                          {getSlotsForDate(selectedDate).map((slot, idx) => (
+                            <Button
+                              key={idx}
+                              type="button"
+                              variant={selectedSlot?.start === slot.start ? "default" : "outline"}
+                              size="sm"
+                              onClick={() => setSelectedSlot(slot)}
+                              data-testid={`button-slot-${formatTime(slot.start)}`}
+                            >
+                              {formatTime(slot.start)} Uhr
+                            </Button>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                )}
+
+                {selectedSlot && (
+                  <div className="bg-primary/10 p-4 rounded-md">
+                    <p className="text-sm font-medium text-primary">
+                      ✓ Gewählter Termin: {format(new Date(selectedSlot.start), "EEEE, dd. MMMM yyyy 'um' HH:mm", { locale: de })} Uhr
+                    </p>
+                  </div>
+                )}
               </div>
 
               <div className="space-y-2">
@@ -193,7 +330,7 @@ export default function Rueckruf() {
                 disabled={isSubmitting}
                 data-testid="button-rueckruf-submit"
               >
-                {isSubmitting ? "Wird gesendet..." : "Rückruf anfordern"}
+                {isSubmitting ? "Wird gesendet..." : selectedSlot ? "Termin buchen" : "Rückruf anfordern"}
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
 
@@ -205,7 +342,6 @@ export default function Rueckruf() {
         </div>
       </section>
 
-      {/* Vorteile */}
       <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-3xl mx-auto">
@@ -214,7 +350,7 @@ export default function Rueckruf() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {[
-                { icon: Clock, title: "Schnelle Antwort", desc: "Wir rufen Sie in der Regel noch am selben Tag zurück." },
+                { icon: Clock, title: "Pünktlicher Rückruf", desc: "Wir rufen Sie zur gewählten Zeit zurück." },
                 { icon: CheckCircle, title: "Kostenlos", desc: "Unser Rückrufservice ist komplett kostenlos für Sie." },
                 { icon: ShieldCheck, title: "Unverbindlich", desc: "Kein Verkaufsdruck – nur ehrliche Beratung." }
               ].map((item, index) => (

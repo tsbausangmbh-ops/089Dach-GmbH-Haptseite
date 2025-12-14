@@ -4,7 +4,7 @@ import { storage } from "./storage";
 import { insertContactSchema, insertLeadSchema } from "@shared/schema";
 import OpenAI from "openai";
 import nodemailer from "nodemailer";
-import { createCalendarEvent } from "./googleCalendar";
+import { createCalendarEvent, getAvailableSlots } from "./googleCalendar";
 
 const transporter = nodemailer.createTransport({
   host: process.env.SMTP_HOST,
@@ -77,22 +77,31 @@ export async function registerRoutes(
         `
       );
 
-      // Create calendar event for callback request (Mo-Fr, 8:00-17:00)
+      // Create calendar event for callback request
       try {
-        const nextWorkday = new Date();
-        nextWorkday.setDate(nextWorkday.getDate() + 1);
+        let eventStart: Date;
+        let eventDuration: number;
         
-        // Skip weekends: 0=Sunday, 6=Saturday
-        while (nextWorkday.getDay() === 0 || nextWorkday.getDay() === 6) {
-          nextWorkday.setDate(nextWorkday.getDate() + 1);
+        if (validatedData.callbackStart) {
+          // Customer selected a specific time slot
+          eventStart = new Date(validatedData.callbackStart);
+          eventDuration = 60; // 1 hour slot
+        } else {
+          // No specific time - use next workday 8:00-17:00
+          eventStart = new Date();
+          eventStart.setDate(eventStart.getDate() + 1);
+          while (eventStart.getDay() === 0 || eventStart.getDay() === 6) {
+            eventStart.setDate(eventStart.getDate() + 1);
+          }
+          eventStart.setHours(8, 0, 0, 0);
+          eventDuration = 540; // Full day
         }
-        nextWorkday.setHours(8, 0, 0, 0);
         
         await createCalendarEvent(
           `Rückruf: ${validatedData.name} - ${validatedData.problem}`,
           `Kunde: ${validatedData.name}\nTelefon: ${validatedData.phone}\nE-Mail: ${validatedData.email}\nProblem: ${validatedData.problem}\nDringlichkeit: ${validatedData.timing}\nDetails: ${validatedData.details || "Keine"}`,
-          nextWorkday,
-          540 // 9 hours (8:00 - 17:00)
+          eventStart,
+          eventDuration
         );
         console.log("Calendar event created successfully");
       } catch (calError) {
@@ -103,6 +112,20 @@ export async function registerRoutes(
     } catch (error) {
       console.error("Error creating lead:", error);
       res.status(400).json({ success: false, error: "Invalid lead data" });
+    }
+  });
+
+  app.get("/api/availability", async (req, res) => {
+    try {
+      const startDate = new Date();
+      const endDate = new Date();
+      endDate.setDate(endDate.getDate() + 14);
+      
+      const slots = await getAvailableSlots(startDate, endDate);
+      res.json({ slots: slots.filter(s => s.available) });
+    } catch (error) {
+      console.error("Error fetching availability:", error);
+      res.status(500).json({ error: "Kalender nicht verfügbar" });
     }
   });
 
