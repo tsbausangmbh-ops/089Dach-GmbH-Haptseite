@@ -32,13 +32,16 @@ export default function ContactPage() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="text-left z-10">
-              <span className="text-primary font-bold tracking-wider uppercase text-sm">Kontakt</span>
+              <span className="text-primary font-bold tracking-wider uppercase text-sm">Kontakt & Beratung</span>
               <h1 className="text-4xl md:text-5xl font-heading font-bold text-secondary mt-4 mb-6">
-                Wir sind für Sie da
+                Wir sind persönlich für Sie da
               </h1>
-              <p className="text-xl text-muted-foreground max-w-xl">
-                Haben Sie Fragen zu Ihrem Dach oder benötigen Sie ein Angebot? 
-                Unser Team freut sich auf Ihre Nachricht.
+              <p className="text-xl text-muted-foreground max-w-xl mb-4">
+                Ob dringende Reparatur, energetische Sanierung oder ein Neubauprojekt: Wir nehmen uns Zeit für Ihr Anliegen. 
+              </p>
+              <p className="text-lg text-muted-foreground max-w-xl">
+                Als Meisterbetrieb legen wir größten Wert auf eine transparente Beratung und eine fachgerechte Ausführung. 
+                Schreiben Sie uns oder rufen Sie an – wir kümmern uns um den Rest, damit Sie sich sicher fühlen können.
               </p>
             </div>
             
