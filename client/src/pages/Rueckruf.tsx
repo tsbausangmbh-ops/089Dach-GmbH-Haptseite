@@ -143,15 +143,15 @@ export default function Rueckruf() {
         <div className="container mx-auto px-6 lg:px-12 relative z-10">
           <div className="max-w-2xl text-white">
             <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mb-6">
-              <span className="text-primary">Wir rufen Sie zurück.</span>
+              <span className="text-primary">Sparen Sie Zeit & Nerven.</span>
               <br />
-              Versprochen.
+              Wir rufen Sie an.
             </h1>
             <p className="text-xl text-gray-200 max-w-xl mb-4">
-              Wählen Sie Ihren Wunschtermin und wir rufen Sie pünktlich zurück.
+              Kein Warten in der Leitung, keine Warteschleife. Sie wählen den perfekten Zeitpunkt – wir sind pünktlich für Sie da.
             </p>
             <p className="text-lg text-gray-300 max-w-xl">
-              Kostenlos und unverbindlich.
+              100% kostenlos. 100% unverbindlich. 100% persönlich.
             </p>
           </div>
         </div>
@@ -190,10 +190,10 @@ export default function Rueckruf() {
               </div>
               <div className="bg-stone-50 p-6 rounded-xl border-l-4 border-primary">
                 <p className="text-secondary font-medium mb-3">
-                  Wann dürfen wir Sie zurückrufen?
+                  Ihr Dach verdient die beste Beratung – und Sie den besten Service.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
-                  Wählen Sie einen freien Termin aus unserem Kalender. Wir rufen Sie pünktlich zur gewünschten Zeit an – kein Callcenter, sondern persönliche Beratung vom Fachmann.
+                  Stellen Sie sich vor: Sie entspannen sich, und genau zum gewünschten Zeitpunkt klingelt Ihr Telefon. Am anderen Ende: Ein erfahrener Dachdeckermeister, der Ihre Fragen persönlich beantwortet. Keine Warteschleife, kein Callcenter – nur echte Expertise.
                 </p>
               </div>
             </div>
@@ -350,9 +350,9 @@ export default function Rueckruf() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {[
-                { icon: Clock, title: "Pünktlicher Rückruf", desc: "Wir rufen Sie zur gewählten Zeit zurück." },
-                { icon: CheckCircle, title: "Kostenlos", desc: "Unser Rückrufservice ist komplett kostenlos für Sie." },
-                { icon: ShieldCheck, title: "Unverbindlich", desc: "Kein Verkaufsdruck – nur ehrliche Beratung." }
+                { icon: Clock, title: "Ihre Zeit ist wertvoll", desc: "Wir passen uns Ihrem Zeitplan an – nicht umgekehrt. Wählen Sie, wann es Ihnen passt." },
+                { icon: CheckCircle, title: "Null Risiko für Sie", desc: "Komplett kostenlos. Sie gewinnen wertvolle Informationen, ohne einen Cent zu zahlen." },
+                { icon: ShieldCheck, title: "Ehrliche Beratung", desc: "Wir sagen Ihnen, was Ihr Dach wirklich braucht – auch wenn das bedeutet: nichts." }
               ].map((item, index) => (
                 <div key={index} className="text-center p-6" data-testid={`advantage-rueckruf-${index}`}>
                   <div className="inline-flex items-center justify-center w-12 h-12 bg-primary/10 rounded-full mb-4">
