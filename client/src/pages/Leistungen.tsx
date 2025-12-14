@@ -185,12 +185,12 @@ export default function Leistungen() {
       {/* Services List */}
       <section className="py-4">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 gap-16">
+          <div className="grid grid-cols-1 gap-5">
             {services.map((service, index) => (
               <div 
                 key={service.id} 
                 id={service.id}
-                className={`flex flex-col ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} gap-8 lg:gap-12 items-start border-b border-gray-100 pb-16 last:border-0`}
+                className={`flex flex-col ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} gap-3 lg:gap-4 items-start border-b border-gray-100 pb-5 last:border-0`}
               >
                 <div className="flex-1 space-y-6">
                   <div className="flex items-center gap-4">

@@ -118,7 +118,7 @@ export default function Spenglerei() {
       {/* Main Content */}
       <section className="py-4">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 items-start">
             
             <div>
               <span className="text-primary font-bold tracking-wider uppercase text-sm">Spenglerhandwerk München</span>

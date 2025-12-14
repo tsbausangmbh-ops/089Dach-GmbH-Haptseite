@@ -105,7 +105,7 @@ export default function Dachfenster() {
       <section className="py-5 bg-secondary text-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <div className="grid md:grid-cols-2 gap-12 items-center" data-testid="testimonial-berger">
+            <div className="grid md:grid-cols-2 gap-4 items-center" data-testid="testimonial-berger">
               <div>
                 <Lightbulb className="h-12 w-12 text-primary mb-6" />
                 <h2 className="text-3xl font-heading font-bold mb-4">
@@ -144,7 +144,7 @@ export default function Dachfenster() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             {benefits.map((benefit, index) => (
               <div key={index} className="flex items-start gap-4 bg-gray-50 p-6 rounded-sm" data-testid={`benefit-${index}`}>
                 <div className="p-3 bg-primary/10 rounded-sm text-primary shrink-0">
@@ -196,7 +196,7 @@ export default function Dachfenster() {
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-3">
             {[
               { step: "1", title: "Beratung vor Ort", desc: "Wir schauen uns Ihr Dach an und besprechen Ihre Wünsche." },
               { step: "2", title: "Maßgeschneidertes Angebot", desc: "Sie erhalten ein Festpreisangebot ohne versteckte Kosten." },

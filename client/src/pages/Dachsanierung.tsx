@@ -188,7 +188,7 @@ export default function Dachsanierung() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             {benefits.map((benefit, index) => (
               <div key={index} className="flex items-start gap-4 bg-white p-6 rounded-sm shadow-sm" data-testid={`benefit-${index}`}>
                 <div className="p-3 bg-primary/10 rounded-sm text-primary shrink-0">
@@ -216,7 +216,7 @@ export default function Dachsanierung() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-3">
             {[
               { step: "1", title: "Kostenloser Dachcheck", desc: "Wir inspizieren Ihr Dach und dokumentieren den Zustand." },
               { step: "2", title: "Transparentes Angebot", desc: "Sie erhalten ein detailliertes Angebot ohne versteckte Kosten." },
@@ -238,7 +238,7 @@ export default function Dachsanierung() {
       {/* Zweite Kundengeschichte */}
       <section className="py-5 bg-gray-50">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-12 items-center" data-testid="case-study-steinbach">
+          <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-4 items-center" data-testid="case-study-steinbach">
             <div>
               <h3 className="text-2xl font-heading font-bold text-secondary mb-4">
                 Aus der Praxis: Familie Steinbach aus Sendling
