@@ -20,7 +20,7 @@ export default function ChatWidget() {
   const [messages, setMessages] = useState<Message[]>([
     {
       role: "assistant",
-      content: "Hallo! Ich bin der digitale Assistent von 089Dach. Wie kann ich Ihnen bei Ihrem Dach-Anliegen helfen? Wählen Sie eine Frage oder schreiben Sie uns direkt!"
+      content: "Hallo!\n\nIch bin der digitale Assistent von 089Dach. Wie kann ich Ihnen bei Ihrem Dach-Anliegen helfen? Wählen Sie eine Frage oder schreiben Sie uns direkt!"
     }
   ]);
   const [input, setInput] = useState("");
@@ -173,7 +173,7 @@ export default function ChatWidget() {
                   </div>
                 )}
                 <div
-                  className={`max-w-[80%] p-3 rounded-lg text-sm ${
+                  className={`max-w-[80%] p-3 rounded-lg text-sm whitespace-pre-line ${
                     msg.role === "user"
                       ? "bg-primary text-white rounded-br-none"
                       : "bg-white border border-gray-200 text-secondary rounded-bl-none"
