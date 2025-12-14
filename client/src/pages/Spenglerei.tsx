@@ -87,7 +87,7 @@ export default function Spenglerei() {
               <div className="flex items-start gap-4">
                 <Hammer className="h-10 w-10 text-primary flex-shrink-0" />
                 <div>
-                  <h2 className="text-2xl font-heading font-bold text-secondary mb-4">
+                  <h2 className="text-2xl font-heading font-bold text-center text-secondary mb-4">
                     Warum eine eigene Werkstatt den Unterschied macht
                   </h2>
                   <p className="text-lg text-muted-foreground leading-relaxed mb-4">
@@ -114,7 +114,7 @@ export default function Spenglerei() {
             
             <div>
               <span className="text-primary font-bold tracking-wider uppercase text-sm">Spenglerhandwerk München</span>
-              <h2 className="text-3xl font-heading font-bold text-secondary mt-2 mb-6">
+              <h2 className="text-3xl font-heading font-bold text-secondary text-center mt-2 mb-6">
                 Metall, das schützt und begeistert
               </h2>
               <div className="prose prose-lg text-muted-foreground">

@@ -134,7 +134,7 @@ export default function Dachfenster() {
       <section className="py-6">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-2xl mb-12">
-            <h2 className="text-3xl font-heading font-bold text-secondary mb-4">
+            <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
               Was ein neues Dachfenster für Sie tut
             </h2>
             <p className="text-muted-foreground">
@@ -162,7 +162,7 @@ export default function Dachfenster() {
       <section className="py-6 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-2xl mb-12">
-            <h2 className="text-3xl font-heading font-bold text-secondary mb-4">
+            <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
               Das richtige Fenster für Ihre Situation
             </h2>
             <p className="text-muted-foreground">
@@ -189,7 +189,7 @@ export default function Dachfenster() {
       <section className="py-6">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-2xl mb-12">
-            <h2 className="text-3xl font-heading font-bold text-secondary mb-4">
+            <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
               Von der Idee zum Licht – so läuft's ab
             </h2>
           </div>

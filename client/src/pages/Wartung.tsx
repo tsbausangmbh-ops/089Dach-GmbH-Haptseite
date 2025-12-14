@@ -192,7 +192,7 @@ export default function Wartung() {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-2xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-heading font-bold text-secondary mb-4">
+              <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
                 Wartungstermin vereinbaren
               </h2>
               <p className="text-muted-foreground">
@@ -293,7 +293,7 @@ export default function Wartung() {
       <section className="py-6 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-2xl mb-12">
-            <h2 className="text-3xl font-heading font-bold text-secondary mb-4">
+            <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
               Was wir bei der Wartung prüfen
             </h2>
             <p className="text-muted-foreground">
@@ -353,7 +353,7 @@ export default function Wartung() {
       <section className="py-6">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-heading font-bold text-secondary mb-4">
+            <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
               Wie oft sollte ein Dach gewartet werden?
             </h2>
             <p className="text-muted-foreground mb-8 leading-relaxed">

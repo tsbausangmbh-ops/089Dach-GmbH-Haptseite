@@ -128,7 +128,7 @@ export default function Dachsanierung() {
       <section id="warnsignale" className="py-6">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-2xl mb-12">
-            <h2 className="text-3xl font-heading font-bold text-secondary mb-4">
+            <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
               6 Warnsignale, die Sie nicht ignorieren sollten
             </h2>
             <p className="text-muted-foreground">
@@ -172,7 +172,7 @@ export default function Dachsanierung() {
       <section className="py-6 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-2xl mb-12">
-            <h2 className="text-3xl font-heading font-bold text-secondary mb-4">
+            <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
               Was Sie von einer Sanierung haben
             </h2>
             <p className="text-muted-foreground">
@@ -200,7 +200,7 @@ export default function Dachsanierung() {
       <section className="py-6">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-2xl mb-12">
-            <h2 className="text-3xl font-heading font-bold text-secondary mb-4">
+            <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
               So einfach geht's – in 4 Schritten zum neuen Dach
             </h2>
             <p className="text-muted-foreground">

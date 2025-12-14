@@ -89,7 +89,7 @@ export default function Bedachungen() {
               <div className="flex items-start gap-4 mb-6">
                 <AlertTriangle className="h-10 w-10 text-primary flex-shrink-0" />
                 <div>
-                  <h2 className="text-2xl font-heading font-bold text-secondary mb-4">
+                  <h2 className="text-2xl font-heading font-bold text-center text-secondary mb-4">
                     Kennen Sie das auch?
                   </h2>
                   <p className="text-lg text-muted-foreground leading-relaxed">
@@ -118,7 +118,7 @@ export default function Bedachungen() {
             
             <div>
               <span className="text-primary font-bold tracking-wider uppercase text-sm">Unsere Expertise</span>
-              <h2 className="text-3xl font-heading font-bold text-secondary mt-2 mb-6">
+              <h2 className="text-3xl font-heading font-bold text-secondary text-center mt-2 mb-6">
                 Vom ersten Blick bis zum letzten Ziegel: Wir kümmern uns um alles.
               </h2>
               <div className="prose prose-lg text-muted-foreground">

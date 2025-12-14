@@ -128,7 +128,7 @@ export default function Gaubenbau() {
       <section className="py-6">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-2xl mb-12">
-            <h2 className="text-3xl font-heading font-bold text-secondary mb-4">
+            <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
               Warum eine Gaube?
             </h2>
             <p className="text-muted-foreground">
@@ -156,7 +156,7 @@ export default function Gaubenbau() {
       <section className="py-6 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-2xl mb-12">
-            <h2 className="text-3xl font-heading font-bold text-secondary mb-4">
+            <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
               Die richtige Gaube für Ihr Haus
             </h2>
             <p className="text-muted-foreground">
@@ -186,7 +186,7 @@ export default function Gaubenbau() {
       <section className="py-6">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-heading font-bold text-secondary mb-4">
+            <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
               Gaubensanierung
             </h2>
             <p className="text-muted-foreground mb-8 leading-relaxed">
@@ -221,7 +221,7 @@ export default function Gaubenbau() {
       <section className="py-6 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-2xl mb-12">
-            <h2 className="text-3xl font-heading font-bold text-secondary mb-4">
+            <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
               So entsteht Ihre Gaube
             </h2>
           </div>
@@ -248,7 +248,7 @@ export default function Gaubenbau() {
       {/* CTA */}
       <section className="py-5 bg-secondary text-white">
         <div className="container mx-auto px-6 lg:px-12 text-center">
-          <h2 className="text-2xl font-heading font-bold mb-4">
+          <h2 className="text-2xl font-heading font-bold text-center mb-4">
             Mehr Wohnraum unterm Dach?
           </h2>
           <p className="text-gray-300 max-w-2xl mx-auto mb-6">
