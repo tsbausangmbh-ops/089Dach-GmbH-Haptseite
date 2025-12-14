@@ -138,8 +138,11 @@ export async function getAvailableSlots(startDate: Date, endDate: Date): Promise
           return slotStart < bufferedBusyEnd && slotEnd > bufferedBusyStart;
         });
         
-        // Generate consistent "fake busy" based on date+hour seed
-        const seed = current.getFullYear() * 10000 + (current.getMonth() + 1) * 100 + current.getDate() + hour * 7;
+        // Generate "fake busy" that rotates daily based on today's date
+        const today = new Date();
+        const todayFactor = today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate();
+        const slotDate = current.getFullYear() * 10000 + (current.getMonth() + 1) * 100 + current.getDate();
+        const seed = (slotDate * 13 + hour * 7 + todayFactor * 3) % 100000;
         const isFakeBusy = seededRandom(seed) < FAKE_BUSY_PERCENTAGE;
         
         // Only include future slots
