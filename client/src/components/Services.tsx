@@ -6,31 +6,37 @@ export default function Services() {
     {
       icon: <Home className="h-10 w-10 text-primary" />,
       title: "Dachsanierung",
+      link: "/leistungen/dachsanierung",
       description: "Weniger heizen, mehr sparen. Eine neue Dämmung macht Ihr Zuhause warm im Winter und kühl im Sommer – und senkt Ihre Energiekosten um bis zu 30%."
     },
     {
       icon: <Warehouse className="h-10 w-10 text-primary" />,
       title: "Steil- & Flachdach",
+      link: "/leistungen/bedachungen",
       description: "Ein Dach für Generationen. Ob klassische Ziegel oder modernes Flachdach – wir bauen dauerhaft dicht und optisch perfekt."
     },
     {
       icon: <Wrench className="h-10 w-10 text-primary" />,
       title: "Spenglerei",
+      link: "/leistungen/spenglerei",
       description: "Handarbeit mit Präzision. Dachrinnen, Fallrohre und Verblendungen aus Kupfer, Zink oder Alu – passgenau gefertigt in unserer Werkstatt."
     },
     {
       icon: <Hammer className="h-10 w-10 text-primary" />,
       title: "Reparaturen",
+      link: "/leistungen/reparaturservice",
       description: "Tropft es durch? Wir finden das Leck und beheben es – schnell und dauerhaft. Damit Sie wieder ruhig schlafen können."
     },
     {
       icon: <ShieldCheck className="h-10 w-10 text-primary" />,
       title: "Wartung",
+      link: "/leistungen/reparaturservice",
       description: "Vorbeugen statt reparieren. Eine jährliche Inspektion findet kleine Schäden, bevor sie teuer werden."
     },
     {
       icon: <Ruler className="h-10 w-10 text-primary" />,
       title: "Dachfenster",
+      link: "/leistungen/dachfenster",
       description: "Mehr Licht, mehr Wohnqualität. Neue Dachfenster verwandeln dunkle Räume in helle Lieblingsorte."
     }
   ];
@@ -50,21 +56,23 @@ export default function Services() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, index) => (
-            <Card key={index} className="border border-stone-200 shadow-sm hover:shadow-md hover:border-primary/20 transition-all duration-300 rounded-sm overflow-hidden group bg-white">
-              <CardHeader className="pb-4">
-                <div className="mb-4 p-3 bg-stone-100 w-fit rounded-sm group-hover:bg-primary/10 transition-colors">
-                  {service.icon}
-                </div>
-                <CardTitle className="text-xl font-heading font-bold text-secondary">
-                  {service.title}
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <CardDescription className="text-base text-muted-foreground leading-relaxed">
-                  {service.description}
-                </CardDescription>
-              </CardContent>
-            </Card>
+            <a key={index} href={service.link} className="block">
+              <Card className="border border-stone-200 shadow-sm hover:shadow-md hover:border-primary/20 transition-all duration-300 rounded-sm overflow-hidden group bg-white h-full cursor-pointer">
+                <CardHeader className="pb-4">
+                  <div className="mb-4 p-3 bg-stone-100 w-fit rounded-sm group-hover:bg-primary/10 transition-colors">
+                    {service.icon}
+                  </div>
+                  <CardTitle className="text-xl font-heading font-bold text-secondary group-hover:text-primary transition-colors">
+                    {service.title}
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <CardDescription className="text-base text-muted-foreground leading-relaxed">
+                    {service.description}
+                  </CardDescription>
+                </CardContent>
+              </Card>
+            </a>
           ))}
         </div>
       </div>
