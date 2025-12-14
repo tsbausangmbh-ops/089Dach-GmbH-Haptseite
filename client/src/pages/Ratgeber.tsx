@@ -51,8 +51,27 @@ export default function Ratgeber() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="pt-24 pb-12 bg-gray-50">
-        <div className="container mx-auto px-4">
+      <section className="pt-24 pb-12 bg-gray-50 relative overflow-hidden">
+        
+        {/* Hero Logo Overlay */}
+        <div className="absolute right-0 top-0 h-full w-1/2 opacity-10 pointer-events-none hidden md:flex items-center justify-center overflow-hidden">
+             <svg 
+            width="100%" 
+            height="100%" 
+            viewBox="0 0 800 800" 
+            xmlns="http://www.w3.org/2000/svg"
+            className="w-full h-full max-w-none transform rotate-12 scale-150"
+          >
+            <g fill="currentColor" className="text-secondary">
+              <rect x="100" y="200" width="200" height="200" rx="20" fill="currentColor" />
+              <text x="200" y="340" fontSize="120" fontWeight="bold" fontFamily="sans-serif" textAnchor="middle" fill="white">089</text>
+              <text x="340" y="340" fontSize="120" fontWeight="bold" fontFamily="sans-serif" fill="currentColor">DACH</text>
+              <text x="345" y="390" fontSize="30" fontWeight="medium" fontFamily="sans-serif" letterSpacing="5" fill="currentColor">GMBH MÜNCHEN</text>
+            </g>
+          </svg>
+        </div>
+
+        <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">089Dach Ratgeber</span>
             <h1 className="text-4xl md:text-6xl font-heading font-bold text-secondary mt-4 mb-6">
