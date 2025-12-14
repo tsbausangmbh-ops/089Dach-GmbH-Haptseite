@@ -174,12 +174,76 @@ export default function Referenzen() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachreferenzen München | Vorher-Nachher Projekte 089Dach"
-        description="Entdecken Sie reale Dachprojekte aus München: Sanierungen, Neueindeckungen, Spengler-Highlights mit Vorher-Nachher-Galerie."
+        title="Dachsanierung München Referenzen | 500+ Projekte Vorher-Nachher | 089Dach"
+        description="Sehen Sie 12 echte Dachprojekte aus München mit Vorher-Nachher-Bildern: Steildach, Flachdach, Schieferdach, Dachfenster. Meisterbetrieb seit 1998. ✓ 10 Jahre Garantie ✓ Kostenlose Beratung"
         canonical="https://089dach.de/referenzen"
-        keywords="dach referenzen münchen, dachsanierung vorher nachher, kundenstimmen dachdecker, dachprojekte münchen"
+        keywords="dachdecker münchen referenzen, dachsanierung münchen vorher nachher, dachreparatur münchen erfahrungen, steildach sanierung münchen, flachdach sanierung münchen, dachfenster einbau münchen, schieferdach münchen, spenglerarbeiten münchen, dachbegrünung münchen, dachdecker obermenzing, dachdecker schwabing, dachdecker pasing"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Referenzen", url: "/referenzen" }]} />
+      
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "name": "Dachsanierung Referenzen München",
+            "description": "Erfolgreich abgeschlossene Dachprojekte von 089Dach GmbH in München und Umgebung",
+            "numberOfItems": 12,
+            "itemListElement": projects.map((project, index) => ({
+              "@type": "ListItem",
+              "position": index + 1,
+              "item": {
+                "@type": "Service",
+                "name": project.title,
+                "description": `${project.problem} Lösung: ${project.solution} Ergebnis: ${project.result}`,
+                "provider": {
+                  "@type": "RoofingContractor",
+                  "name": "089Dach GmbH",
+                  "address": { "@type": "PostalAddress", "addressLocality": "München", "addressRegion": "Bayern" }
+                },
+                "areaServed": "München"
+              }
+            }))
+          })
+        }}
+      />
+      
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Wie lange dauert eine Dachsanierung in München?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Die Dauer einer Dachsanierung hängt von der Größe und Art des Projekts ab. Ein Einfamilienhaus-Steildach dauert ca. 10-15 Arbeitstage, eine Flachdachsanierung 4-21 Tage je nach Fläche. Bei 089Dach erhalten Sie vorab einen verbindlichen Zeitplan."
+                }
+              },
+              {
+                "@type": "Question", 
+                "name": "Was kostet eine Dachsanierung in München?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Die Kosten variieren je nach Dachtyp, Größe und gewählten Materialien. Für eine verlässliche Kostenschätzung bieten wir eine kostenlose Vor-Ort-Beratung an. Bei 089Dach erhalten Sie ein transparentes Festpreisangebot ohne versteckte Kosten."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Welche Garantie gibt 089Dach auf Dacharbeiten?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "089Dach gibt 10 Jahre Garantie auf alle ausgeführten Dacharbeiten. Als Meisterbetrieb seit 1998 stehen wir für Qualität und Langlebigkeit unserer Arbeit."
+                }
+              }
+            ]
+          })
+        }}
+      />
       <Navbar />
       
       {/* Hero Section */}
@@ -258,6 +322,16 @@ export default function Referenzen() {
       {/* Case Studies Grid */}
       <section id="projekte" className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
+          <header className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-heading font-bold text-secondary mb-4">
+              12 echte Dachprojekte aus München und Umgebung
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+              Jedes Projekt zeigt den Vorher-Nachher-Vergleich mit Problem, Lösung und Ergebnis. 
+              Von der <strong>Steildachsanierung in Obermenzing</strong> bis zur <strong>Flachdachbegrünung im Gewerbepark</strong> – 
+              sehen Sie, wie wir Münchner Dächer verwandeln.
+            </p>
+          </header>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {projects.map((project, index) => (
               <div key={index} className="group flex flex-col bg-white rounded-sm overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300" data-testid={`card-project-${index}`}>
@@ -323,6 +397,64 @@ export default function Referenzen() {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* SEO FAQ Section for Featured Snippets */}
+      <section className="py-16 bg-white" itemScope itemType="https://schema.org/FAQPage">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
+            Häufige Fragen zu Dachsanierungen in München
+          </h2>
+          <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
+            Antworten auf die wichtigsten Fragen rund um Ihr Dachprojekt in München und Umgebung
+          </p>
+          
+          <div className="max-w-3xl mx-auto space-y-6">
+            <article className="bg-gray-50 p-6 rounded-sm" itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
+              <h3 className="text-lg font-bold text-secondary mb-2" itemProp="name">
+                Wie lange dauert eine Dachsanierung in München?
+              </h3>
+              <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+                <p className="text-muted-foreground" itemProp="text">
+                  Die Dauer einer Dachsanierung hängt von der Größe und Art des Projekts ab. Ein <strong>Einfamilienhaus-Steildach</strong> dauert bei uns ca. 10-15 Arbeitstage, eine <strong>Flachdachsanierung</strong> 4-21 Tage je nach Fläche, und <strong>Dachfenster-Einbauten</strong> sind oft in 3-8 Tagen erledigt. Bei 089Dach erhalten Sie vorab einen verbindlichen Zeitplan.
+                </p>
+              </div>
+            </article>
+            
+            <article className="bg-gray-50 p-6 rounded-sm" itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
+              <h3 className="text-lg font-bold text-secondary mb-2" itemProp="name">
+                Was kostet eine Dachsanierung in München?
+              </h3>
+              <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+                <p className="text-muted-foreground" itemProp="text">
+                  Die Kosten variieren je nach Dachtyp, Größe und gewählten Materialien. Richtwerte: <strong>Steildach-Neueindeckung</strong> ab 120-180€/m², <strong>Flachdachsanierung</strong> ab 80-150€/m², <strong>Schieferdeckung</strong> ab 150-250€/m². Für eine verlässliche Kostenschätzung bieten wir eine <strong>kostenlose Vor-Ort-Beratung</strong> an. Bei 089Dach erhalten Sie ein transparentes Festpreisangebot ohne versteckte Kosten.
+                </p>
+              </div>
+            </article>
+            
+            <article className="bg-gray-50 p-6 rounded-sm" itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
+              <h3 className="text-lg font-bold text-secondary mb-2" itemProp="name">
+                Welche Garantie gibt 089Dach auf Dacharbeiten?
+              </h3>
+              <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+                <p className="text-muted-foreground" itemProp="text">
+                  089Dach gibt <strong>10 Jahre Garantie</strong> auf alle ausgeführten Dacharbeiten. Als <strong>Meisterbetrieb seit 1998</strong> mit über 500 abgeschlossenen Projekten stehen wir für Qualität und Langlebigkeit. Zusätzlich profitieren Sie von den Herstellergarantien auf verwendete Materialien (bis zu 30 Jahre bei Premium-Ziegeln).
+                </p>
+              </div>
+            </article>
+            
+            <article className="bg-gray-50 p-6 rounded-sm" itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
+              <h3 className="text-lg font-bold text-secondary mb-2" itemProp="name">
+                In welchen Münchner Stadtteilen arbeitet 089Dach?
+              </h3>
+              <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+                <p className="text-muted-foreground" itemProp="text">
+                  Wir sind in ganz München und Umgebung tätig: <strong>Obermenzing, Pasing, Laim, Nymphenburg, Schwabing, Sendling, Haidhausen, Bogenhausen, Trudering</strong> sowie in den umliegenden Gemeinden wie <strong>Grünwald, Unterhaching, Feldmoching, Gräfelfing</strong> und dem gesamten Landkreis München. Unser Firmensitz in München-Obermenzing ermöglicht schnelle Anfahrtszeiten.
+                </p>
+              </div>
+            </article>
           </div>
         </div>
       </section>
