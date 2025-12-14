@@ -225,24 +225,47 @@ export default function DaemmungInfo() {
                   <AlertTriangle className="h-6 w-6 text-red-500" />
                   Das kostet Sie ein ungedämmtes Dach:
                 </h3>
-                <ul className="space-y-3 text-muted-foreground">
-                  <li className="flex items-center gap-2">
-                    <Euro className="h-5 w-5 text-red-500" />
-                    <span><strong>800-1.500€</strong> mehr Heizkosten pro Jahr</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Snowflake className="h-5 w-5 text-red-500" />
-                    <span>Kalte Räume im Obergeschoss</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <Sun className="h-5 w-5 text-red-500" />
-                    <span>Unerträgliche Hitze im Sommer</span>
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <TrendingDown className="h-5 w-5 text-red-500" />
-                    <span>Wertverlust der Immobilie</span>
-                  </li>
-                </ul>
+                <div className="space-y-4">
+                  <div className="bg-white/60 p-3 rounded-lg">
+                    <div className="flex items-start gap-3">
+                      <Euro className="h-5 w-5 text-red-500 mt-0.5 shrink-0" />
+                      <div>
+                        <p className="font-bold text-secondary">800-1.500€ mehr Heizkosten pro Jahr</p>
+                        <p className="text-sm text-muted-foreground">Jeden Monat zahlen Sie für Wärme, die sofort durch Ihr Dach entweicht. Das summiert sich – Jahr für Jahr, Jahrzehnt für Jahrzehnt.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="bg-white/60 p-3 rounded-lg">
+                    <div className="flex items-start gap-3">
+                      <Snowflake className="h-5 w-5 text-red-500 mt-0.5 shrink-0" />
+                      <div>
+                        <p className="font-bold text-secondary">Kalte Räume im Obergeschoss</p>
+                        <p className="text-sm text-muted-foreground">Kennen Sie das? Unten mollig warm, oben Eiseskälte. Das Kinderzimmer oder Schlafzimmer wird zum ungemütlichsten Raum im Haus.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="bg-white/60 p-3 rounded-lg">
+                    <div className="flex items-start gap-3">
+                      <Sun className="h-5 w-5 text-red-500 mt-0.5 shrink-0" />
+                      <div>
+                        <p className="font-bold text-secondary">Unerträgliche Hitze im Sommer</p>
+                        <p className="text-sm text-muted-foreground">Im Sommer wird das Dachgeschoss zur Sauna. Schlafen bei 30°C? Arbeiten im Home-Office unmöglich. Eine Klimaanlage kostet noch mehr Geld.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="bg-white/60 p-3 rounded-lg">
+                    <div className="flex items-start gap-3">
+                      <TrendingDown className="h-5 w-5 text-red-500 mt-0.5 shrink-0" />
+                      <div>
+                        <p className="font-bold text-secondary">Wertverlust der Immobilie</p>
+                        <p className="text-sm text-muted-foreground">Ein schlechter Energieausweis schreckt Käufer ab. Bei einem Verkauf verlieren Sie bis zu 15% des möglichen Preises – oft 50.000€ oder mehr.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p className="mt-4 text-sm text-red-700 font-medium italic">
+                  Die gute Nachricht: All diese Probleme lassen sich lösen – mit einer professionellen Dachdämmung.
+                </p>
               </div>
             </div>
 
