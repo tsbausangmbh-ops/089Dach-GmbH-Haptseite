@@ -15,7 +15,7 @@ export default function UeberUns() {
         title="Über uns | Dachdecker-Meisterbetrieb München - 089Dach"
         description="Familiengeführter Meisterbetrieb seit 1998 in München-Obermenzing. 100+ zufriedene Kunden, persönliche Beratung. Lernen Sie uns kennen!"
         canonical="https://089dach.de/ueber-uns"
-        keywords="dachdecker team münchen, meisterbetrieb dach, dachdecker obermenzing, dachdeckermeister münchen"
+        keywords="dachdecker team münchen obermenzing, meisterbetrieb dach seit 1998 münchen, familie dachdecker obermenzing, dachdeckermeister falko blöckinger münchen, traditionsbetrieb dachdecker bayern, dachdecker firma familiengeführt münchen, 25 jahre erfahrung dachdecker münchen"
         aiSummary="089Dach GmbH: Dachdecker- und Spengler-Meisterbetrieb in München-Obermenzing. Gegründet 1998, über 100 zufriedene Kunden. Familiengeführt mit 60+ Jahren Erfahrung. Thuillestr. 20, 81247 München. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Über uns", url: "/ueber-uns" }]} />

@@ -118,7 +118,7 @@ export default function FAQ() {
         title="Dachdecker FAQ München | Kosten & Fragen - 089Dach"
         description="20 häufige Fragen zu Dachkosten, Förderungen, Ablauf & Garantie. Ehrliche Antworten vom Meisterbetrieb. Jetzt informieren!"
         canonical="https://089dach.de/faq"
-        keywords="dachdecker faq münchen, dachkosten münchen, dachwartung fragen, dachsanierung kosten"
+        keywords="dachdecker fragen antworten münchen, was kostet dachsanierung münchen, wie lange dauert dachsanierung, dachdecker förderung bayern fragen, dach undicht was tun münchen, wann dach sanieren lassen, dachdecker preise münchen vergleich, häufige fragen dachdecker"
         aiSummary="089Dach GmbH FAQ: 20 Antworten zu Dachsanierung, Kosten, Förderungen, Wartung und Garantie. Dachdecker-Meisterbetrieb München-Obermenzing seit 1998. Kostenlose Erstberatung. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "FAQ", url: "/faq" }]} />

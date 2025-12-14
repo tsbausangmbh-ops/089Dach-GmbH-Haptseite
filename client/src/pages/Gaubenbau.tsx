@@ -30,7 +30,7 @@ export default function Gaubenbau() {
         title="Gaubenbau München | Mehr Wohnraum & Licht - 089Dach"
         description="Gauben für mehr Wohnraum: Schleppgaube, Flachdachgaube, Spitzgaube. Planung, Genehmigung & Bau aus einer Hand. Jetzt beraten lassen!"
         canonical="https://089dach.de/leistungen/gaubenbau"
-        keywords="gaube münchen, gaubenbau münchen, schleppgaube, flachdachgaube, dachgaube sanierung, gaube kosten münchen"
+        keywords="gaube bauen lassen münchen kosten, gaubenbau genehmigung münchen, schleppgaube kosten bayern, flachdachgaube nachträglich einbauen, dachgaube sanieren münchen, was kostet eine gaube münchen, dachausbau mit gaube münchen, mehr wohnraum dachgeschoss münchen, trapezgaube dreiecksgaube münchen"
         aiSummary="089Dach GmbH baut Gauben in München: Schleppgaube, Spitzgaube, Flachdachgaube. Komplettservice von Planung über Baugenehmigung bis Ausführung. Mehr Wohnraum und Licht unterm Dach. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Gaubenbau", url: "/leistungen/gaubenbau" }]} />

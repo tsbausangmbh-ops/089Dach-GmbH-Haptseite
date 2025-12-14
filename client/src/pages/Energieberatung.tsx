@@ -30,7 +30,7 @@ export default function Energieberatung() {
         title="Energieberatung München | KfW & BAFA Förderung - 089Dach"
         description="Bis zu 20% KfW-Förderung für Ihre Dachsanierung. Zertifizierte Energieberatung & Antragsabwicklung. Jetzt maximale Förderung sichern!"
         canonical="https://089dach.de/leistungen/energieberatung"
-        keywords="energieberatung münchen, kfw förderung dach, bafa zuschuss dachsanierung, sanierungsfahrplan münchen, energieausweis münchen"
+        keywords="energieberatung dach münchen kostenlos, kfw förderung dachsanierung 2024 2025 bayern, bafa zuschuss dachdämmung antrag, sanierungsfahrplan erstellen münchen, energieausweis haus münchen kosten, heizkosten senken durch dach, energetische sanierung förderung bayern, geg gebäudeenergiegesetz dach münchen"
         aiSummary="089Dach GmbH bietet Energieberatung in München mit KfW- und BAFA-Förderberatung. Bis zu 20% Förderung für Dachsanierung. Sanierungsfahrplan und Energieausweis durch zertifizierte Partner. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Energieberatung", url: "/leistungen/energieberatung" }]} />
