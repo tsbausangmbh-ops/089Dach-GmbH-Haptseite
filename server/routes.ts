@@ -4,7 +4,21 @@ import { storage } from "./storage";
 import { insertContactSchema, insertLeadSchema } from "@shared/schema";
 import OpenAI from "openai";
 import nodemailer from "nodemailer";
+import multer from "multer";
 import { createCalendarEvent, getAvailableSlots } from "./googleCalendar";
+
+const upload = multer({
+  storage: multer.memoryStorage(),
+  limits: { fileSize: 10 * 1024 * 1024 }, // 10MB limit
+  fileFilter: (req, file, cb) => {
+    const allowedTypes = ['application/pdf', 'image/jpeg', 'image/png', 'image/gif', 'image/webp'];
+    if (allowedTypes.includes(file.mimetype)) {
+      cb(null, true);
+    } else {
+      cb(new Error('Nur PDF und Bilder erlaubt'));
+    }
+  }
+});
 
 const transporter = nodemailer.createTransport({
   host: process.env.SMTP_HOST,
@@ -16,13 +30,24 @@ const transporter = nodemailer.createTransport({
   },
 });
 
-async function sendNotificationEmail(subject: string, htmlContent: string) {
+interface Attachment {
+  filename: string;
+  content: Buffer;
+  contentType: string;
+}
+
+async function sendNotificationEmail(subject: string, htmlContent: string, attachments?: Attachment[]) {
   try {
     await transporter.sendMail({
       from: process.env.SMTP_USER,
       to: "info@089dach.de",
       subject: subject,
       html: htmlContent,
+      attachments: attachments?.map(a => ({
+        filename: a.filename,
+        content: a.content,
+        contentType: a.contentType
+      }))
     });
     console.log("Email sent successfully");
   } catch (error) {
@@ -217,6 +242,87 @@ export async function registerRoutes(
       res.status(201).json({ success: true, data: lead });
     } catch (error) {
       console.error("Error creating lead:", error);
+      res.status(400).json({ success: false, error: "Invalid lead data" });
+    }
+  });
+
+  // Leads endpoint with file upload support
+  app.post("/api/leads-with-files", upload.array('files', 5), async (req, res) => {
+    try {
+      const formData = JSON.parse(req.body.data || '{}');
+      const validatedData = insertLeadSchema.parse(formData);
+      const lead = await storage.createLead(validatedData);
+      
+      // Prepare attachments from uploaded files
+      const files = req.files as Express.Multer.File[];
+      const attachments: Attachment[] = files?.map(file => ({
+        filename: file.originalname,
+        content: file.buffer,
+        contentType: file.mimetype
+      })) || [];
+
+      const attachmentInfo = attachments.length > 0 
+        ? `<p><strong>Anhänge:</strong> ${attachments.length} Datei(en) angehängt</p>`
+        : '';
+      
+      await sendNotificationEmail(
+        `Neue Beratungsanfrage: ${validatedData.problem}`,
+        `
+        <h2>Neue Beratungsanfrage über die Website</h2>
+        <p><strong>Problem:</strong> ${validatedData.problem}</p>
+        <p><strong>Dringlichkeit:</strong> ${validatedData.timing}</p>
+        <p><strong>Details:</strong> ${validatedData.details || "Keine weiteren Angaben"}</p>
+        ${attachmentInfo}
+        <hr>
+        <p><strong>Name:</strong> ${validatedData.name}</p>
+        <p><strong>E-Mail:</strong> ${validatedData.email}</p>
+        <p><strong>Telefon:</strong> ${validatedData.phone}</p>
+        `,
+        attachments
+      );
+
+      // Create calendar event for callback request
+      try {
+        let eventStart: Date;
+        let eventDuration: number;
+        
+        if (validatedData.callbackStart) {
+          eventStart = new Date(validatedData.callbackStart);
+          eventDuration = 60;
+        } else {
+          eventStart = new Date();
+          eventStart.setDate(eventStart.getDate() + 1);
+          while (eventStart.getDay() === 0 || eventStart.getDay() === 6) {
+            eventStart.setDate(eventStart.getDate() + 1);
+          }
+          eventStart.setHours(8, 0, 0, 0);
+          eventDuration = 540;
+        }
+        
+        await createCalendarEvent(
+          `Beratung: ${validatedData.name} - ${validatedData.problem}`,
+          `Kunde: ${validatedData.name}\nTelefon: ${validatedData.phone}\nE-Mail: ${validatedData.email}\nProblem: ${validatedData.problem}\nDetails: ${validatedData.details || "Keine"}`,
+          eventStart,
+          eventDuration
+        );
+
+        const isFromBeratungsseite = validatedData.timing?.includes("Beratungsanfrage") || 
+                                      validatedData.timing?.includes("Gewünschter Termin");
+        if (validatedData.email && isFromBeratungsseite) {
+          await sendCustomerConfirmationEmail(
+            validatedData.email,
+            validatedData.name,
+            validatedData.callbackStart ? eventStart : null,
+            validatedData.problem
+          );
+        }
+      } catch (calError) {
+        console.error("Error creating calendar event:", calError);
+      }
+      
+      res.status(201).json({ success: true, data: lead });
+    } catch (error) {
+      console.error("Error creating lead with files:", error);
       res.status(400).json({ success: false, error: "Invalid lead data" });
     }
   });
