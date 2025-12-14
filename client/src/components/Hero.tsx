@@ -114,7 +114,7 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
                 ))}
               </div>
               <p className="font-bold text-lg">4.9 von 5 Sternen</p>
-              <p className="text-sm text-gray-400">Über 500 zufriedene Kunden</p>
+              <p className="text-sm text-gray-400">Über 62 zufriedene Kunden</p>
             </div>
 
             {/* Garantie */}

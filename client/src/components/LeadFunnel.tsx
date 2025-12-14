@@ -118,7 +118,7 @@ export default function LeadFunnel({ externalOpen, onExternalOpenChange }: LeadF
           <div className="flex flex-wrap justify-center gap-4 md:gap-8 mb-8 text-sm md:text-base font-medium">
             <div className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full backdrop-blur-sm">
               <Users className="h-5 w-5 text-green-400" />
-              <span>500+ Kunden vertrauen uns</span>
+              <span>62+ Kunden vertrauen uns</span>
             </div>
             <div className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full backdrop-blur-sm">
               <ShieldCheck className="h-5 w-5 text-green-400" />
@@ -354,7 +354,7 @@ export default function LeadFunnel({ externalOpen, onExternalOpenChange }: LeadF
           </Dialog>
           
           <p className="mt-6 text-white/60 text-sm">
-            Über 500 Münchner Familien vertrauen uns bereits ihr Dach an.
+            Über 62 Münchner Familien vertrauen uns bereits ihr Dach an.
           </p>
         </div>
       </div>
