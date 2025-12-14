@@ -7,7 +7,6 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [leistungenOpen, setLeistungenOpen] = useState(false);
-  const [tippsOpen, setTippsOpen] = useState(false);
 
   const navItems = [
     { name: "Startseite", href: "/" },
@@ -16,13 +15,6 @@ export default function Navbar() {
     { name: "FAQ", href: "/faq" },
     { name: "Referenzen", href: "/referenzen" },
     { name: "Kontakt", href: "/kontakt" },
-  ];
-
-  const tippsItems = [
-    { name: "Alle Tipps & Tricks", href: "/ratgeber" },
-    { name: "Dachsanierung mit Dämmung", href: "/ratgeber/daemmung" },
-    { name: "Leckortung & Reparatur", href: "/ratgeber/leckortung" },
-    { name: "Kostenlose Beratung + Festpreis", href: "/ratgeber/beratung" },
   ];
 
   const leistungenItems = [
@@ -36,6 +28,10 @@ export default function Navbar() {
     { name: "Energieberatung", href: "/leistungen/energieberatung" },
     { name: "Gaubenbau", href: "/leistungen/gaubenbau" },
     { name: "Architektenleistungen", href: "/leistungen/architektenleistungen" },
+    { name: "---", href: "#", separator: true },
+    { name: "Dachsanierung mit Dämmung", href: "/ratgeber/daemmung" },
+    { name: "Leckortung & Reparatur", href: "/ratgeber/leckortung" },
+    { name: "Kostenlose Beratung + Festpreis", href: "/ratgeber/beratung" },
   ];
 
   return (
@@ -93,41 +89,27 @@ export default function Navbar() {
               <ChevronDown className="h-4 w-4" />
             </button>
             <div className="absolute top-full left-0 pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-              <div className="bg-white shadow-lg border border-gray-100 rounded-sm py-2 min-w-[220px]">
-                {leistungenItems.map((item) => (
-                  <a
-                    key={item.name}
-                    href={item.href}
-                    className="block px-4 py-2 text-sm text-secondary hover:bg-primary/5 hover:text-primary transition-colors"
-                  >
-                    {item.name}
-                  </a>
-                ))}
-              </div>
-            </div>
-          </div>
-
-          {/* Tipps & Tricks Dropdown */}
-          <div className="relative group">
-            <button className="text-sm font-medium text-secondary hover:text-primary transition-colors flex items-center gap-1">
-              Tipps & Tricks
-              <ChevronDown className="h-4 w-4" />
-            </button>
-            <div className="absolute top-full left-0 pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
               <div className="bg-white shadow-lg border border-gray-100 rounded-sm py-2 min-w-[260px]">
-                {tippsItems.map((item) => (
-                  <a
-                    key={item.name}
-                    href={item.href}
-                    className="block px-4 py-2 text-sm text-secondary hover:bg-primary/5 hover:text-primary transition-colors"
-                  >
-                    {item.name}
-                  </a>
+                {leistungenItems.map((item) => (
+                  item.name === "---" ? (
+                    <div key="separator" className="border-t border-gray-200 my-2" />
+                  ) : (
+                    <a
+                      key={item.name}
+                      href={item.href}
+                      className="block px-4 py-2 text-sm text-secondary hover:bg-primary/5 hover:text-primary transition-colors"
+                    >
+                      {item.name}
+                    </a>
+                  )
                 ))}
               </div>
             </div>
           </div>
 
+          <a href="/ratgeber" className="text-sm font-medium text-secondary hover:text-primary transition-colors">
+            Tipps & Tricks
+          </a>
           <a href="/faq" className="text-sm font-medium text-secondary hover:text-primary transition-colors">
             FAQ
           </a>
@@ -172,44 +154,27 @@ export default function Navbar() {
                 {leistungenOpen && (
                   <div className="mt-2 ml-4 space-y-2">
                     {leistungenItems.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
-                        className="block text-sm text-muted-foreground hover:text-primary transition-colors py-1"
-                        onClick={() => setIsOpen(false)}
-                      >
-                        {item.name}
-                      </a>
+                      item.name === "---" ? (
+                        <div key="separator" className="border-t border-gray-200 my-2" />
+                      ) : (
+                        <a
+                          key={item.name}
+                          href={item.href}
+                          className="block text-sm text-muted-foreground hover:text-primary transition-colors py-1"
+                          onClick={() => setIsOpen(false)}
+                        >
+                          {item.name}
+                        </a>
+                      )
                     ))}
                   </div>
                 )}
               </div>
 
-              {/* Tipps & Tricks Accordion */}
-              <div className="border-b pb-2">
-                <button 
-                  onClick={() => setTippsOpen(!tippsOpen)}
-                  className="text-lg font-medium text-foreground hover:text-primary transition-colors flex items-center justify-between w-full"
-                >
-                  Tipps & Tricks
-                  <ChevronDown className={`h-4 w-4 transition-transform ${tippsOpen ? 'rotate-180' : ''}`} />
-                </button>
-                {tippsOpen && (
-                  <div className="mt-2 ml-4 space-y-2">
-                    {tippsItems.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
-                        className="block text-sm text-muted-foreground hover:text-primary transition-colors py-1"
-                        onClick={() => setIsOpen(false)}
-                      >
-                        {item.name}
-                      </a>
-                    ))}
-                  </div>
-                )}
-              </div>
-
+              <a href="/ratgeber" className="text-lg font-medium text-foreground hover:text-primary transition-colors flex items-center justify-between border-b pb-2" onClick={() => setIsOpen(false)}>
+                Tipps & Tricks
+                <ChevronRight className="h-4 w-4" />
+              </a>
               <a href="/faq" className="text-lg font-medium text-foreground hover:text-primary transition-colors flex items-center justify-between border-b pb-2" onClick={() => setIsOpen(false)}>
                 FAQ
                 <ChevronRight className="h-4 w-4" />
