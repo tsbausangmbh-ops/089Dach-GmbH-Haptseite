@@ -1,6 +1,6 @@
-import img1 from "@assets/generated_images/modern_house_with_anthracite_roof.png";
-import img2 from "@assets/generated_images/red_roof_tiles_texture_close_up.png";
-import img3 from "@assets/generated_images/modern_anthracite_flat_roof_detail.png";
+import img1 from "@assets/generated_images/realistic_house_anthracite_roof.png";
+import img2 from "@assets/generated_images/aged_red_roof_tiles_closeup.png";
+import img3 from "@assets/generated_images/weathered_flat_roof_commercial.png";
 import { Button } from "@/components/ui/button";
 import { ArrowUpRight } from "lucide-react";
 
