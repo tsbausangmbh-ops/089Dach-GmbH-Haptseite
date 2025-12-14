@@ -62,7 +62,7 @@ export default function RatgeberLeckortung() {
               >
                 <Link href="/rueckruf">
                   <Phone className="mr-2 h-5 w-5" />
-                  Jetzt Leckortung anfragen
+                  Rückruf anfragen
                 </Link>
               </Button>
             </div>
@@ -281,7 +281,7 @@ export default function RatgeberLeckortung() {
                 >
                   <Link href="/rueckruf">
                     <Phone className="mr-2 h-5 w-5" />
-                    Jetzt Leckortung anfragen
+                    Rückruf anfragen
                   </Link>
                 </Button>
               </div>

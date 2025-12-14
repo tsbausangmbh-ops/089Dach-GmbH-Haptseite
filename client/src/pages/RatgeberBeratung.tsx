@@ -62,7 +62,7 @@ export default function RatgeberBeratung() {
               >
                 <Link href="/rueckruf">
                   <Phone className="mr-2 h-5 w-5" />
-                  Kostenlose Beratung anfragen
+                  Rückruf anfragen
                 </Link>
               </Button>
             </div>
@@ -203,7 +203,7 @@ export default function RatgeberBeratung() {
                 >
                   <Link href="/rueckruf">
                     <Phone className="mr-2 h-5 w-5" />
-                    Jetzt kostenlosen Termin anfragen
+                    Rückruf anfragen
                   </Link>
                 </Button>
                 <p className="text-sm text-muted-foreground mt-3">Kein Risiko. Keine Kosten. Keine Verpflichtung.</p>
