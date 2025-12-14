@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react";
-import { MessageCircle, X, Send, Bot, User } from "lucide-react";
+import { MessageCircle, X, Send, Bot, User, ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
@@ -65,26 +65,38 @@ export default function ChatWidget() {
 
   return (
     <>
-      {!isOpen && (
+      <div 
+        className={`fixed top-0 right-0 z-50 h-full transition-transform duration-300 ease-in-out ${
+          isOpen ? "translate-x-0" : "translate-x-full"
+        }`}
+      >
         <button
-          onClick={() => setIsOpen(true)}
-          className="fixed bottom-6 right-6 z-50 bg-primary hover:bg-primary/90 text-white p-4 rounded-full shadow-lg transition-all hover:scale-105"
-          data-testid="button-chat-open"
+          onClick={() => setIsOpen(!isOpen)}
+          className="absolute left-0 top-1/2 -translate-x-full -translate-y-1/2 bg-primary hover:bg-primary/90 text-white px-2 py-6 rounded-l-lg shadow-lg transition-all flex flex-col items-center gap-2"
+          data-testid="button-chat-toggle"
         >
-          <MessageCircle className="h-6 w-6" />
+          {isOpen ? (
+            <ChevronRight className="h-5 w-5" />
+          ) : (
+            <>
+              <ChevronLeft className="h-5 w-5" />
+              <MessageCircle className="h-5 w-5" />
+              <span className="text-xs font-bold writing-mode-vertical" style={{ writingMode: "vertical-rl", textOrientation: "mixed" }}>
+                KI-Assistent
+              </span>
+            </>
+          )}
         </button>
-      )}
 
-      {isOpen && (
-        <div className="fixed bottom-6 right-6 z-50 w-[380px] h-[500px] bg-white rounded-lg shadow-2xl flex flex-col border border-gray-200 overflow-hidden">
+        <div className="w-[350px] h-full bg-white shadow-2xl flex flex-col border-l border-gray-200">
           <div className="bg-secondary text-white p-4 flex items-center justify-between">
             <div className="flex items-center gap-3">
               <div className="bg-primary p-2 rounded-full">
                 <Bot className="h-5 w-5" />
               </div>
               <div>
-                <p className="font-bold text-sm">089Dach Assistent</p>
-                <p className="text-xs text-gray-300">Wir helfen Ihnen gerne</p>
+                <p className="font-bold text-sm">089Dach KI-Assistent</p>
+                <p className="text-xs text-gray-300">Fragen Sie uns!</p>
               </div>
             </div>
             <button
@@ -108,7 +120,7 @@ export default function ChatWidget() {
                   </div>
                 )}
                 <div
-                  className={`max-w-[75%] p-3 rounded-lg text-sm ${
+                  className={`max-w-[80%] p-3 rounded-lg text-sm ${
                     msg.role === "user"
                       ? "bg-primary text-white rounded-br-none"
                       : "bg-white border border-gray-200 text-secondary rounded-bl-none"
@@ -140,27 +152,32 @@ export default function ChatWidget() {
             <div ref={messagesEndRef} />
           </div>
 
-          <form onSubmit={handleSubmit} className="p-3 border-t bg-white flex gap-2">
-            <Input
-              value={input}
-              onChange={(e) => setInput(e.target.value)}
-              placeholder="Ihre Frage..."
-              className="flex-1"
-              disabled={isLoading}
-              data-testid="input-chat-message"
-            />
-            <Button 
-              type="submit" 
-              size="icon" 
-              className="bg-primary hover:bg-primary/90"
-              disabled={isLoading || !input.trim()}
-              data-testid="button-chat-send"
-            >
-              <Send className="h-4 w-4" />
-            </Button>
-          </form>
+          <div className="p-3 border-t bg-white">
+            <p className="text-xs text-muted-foreground mb-2 text-center">
+              Schnelle Fragen? Unser KI-Assistent hilft!
+            </p>
+            <form onSubmit={handleSubmit} className="flex gap-2">
+              <Input
+                value={input}
+                onChange={(e) => setInput(e.target.value)}
+                placeholder="Ihre Frage zum Dach..."
+                className="flex-1"
+                disabled={isLoading}
+                data-testid="input-chat-message"
+              />
+              <Button 
+                type="submit" 
+                size="icon" 
+                className="bg-primary hover:bg-primary/90"
+                disabled={isLoading || !input.trim()}
+                data-testid="button-chat-send"
+              >
+                <Send className="h-4 w-4" />
+              </Button>
+            </form>
+          </div>
         </div>
-      )}
+      </div>
     </>
   );
 }
