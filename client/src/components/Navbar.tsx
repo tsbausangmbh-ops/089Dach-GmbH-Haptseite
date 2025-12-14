@@ -127,10 +127,10 @@ export default function Navbar() {
           <a href="/kontakt" className="text-sm font-medium text-secondary hover:text-primary transition-colors">
             Kontakt
           </a>
-          <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-white font-bold rounded-md" asChild>
+          <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-white font-bold" asChild>
             <a href="/ratgeber/daemmung">Dachsanierung</a>
           </Button>
-          <Button className="bg-primary hover:bg-primary/90 text-white font-bold rounded-md" asChild>
+          <Button className="bg-primary hover:bg-primary/90 text-white font-bold" asChild>
             <a href="/ratgeber/beratung">Kostenlose Beratung</a>
           </Button>
         </div>
@@ -198,7 +198,7 @@ export default function Navbar() {
                 Kontakt
                 <ChevronRight className="h-4 w-4" />
               </a>
-              <Button className="mt-4 bg-primary hover:bg-primary/90 w-full rounded-md" asChild>
+              <Button className="mt-4 bg-primary hover:bg-primary/90 w-full" asChild>
                 <a href="/ratgeber/beratung" onClick={() => setIsOpen(false)}>Kostenlose Beratung</a>
               </Button>
             </nav>
