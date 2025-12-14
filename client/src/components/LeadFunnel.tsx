@@ -181,7 +181,7 @@ export default function LeadFunnel({ externalOpen, onExternalOpenChange }: LeadF
             <DialogTrigger asChild>
               <Button 
                 size="lg" 
-                className="bg-white text-primary hover:bg-gray-100 font-bold text-xl px-12 py-8 rounded-xl shadow-xl transition-transform hover:scale-105"
+                className="bg-white text-primary hover:bg-gray-100 font-bold text-base md:text-xl px-6 md:px-12 py-6 md:py-8 rounded-xl shadow-xl transition-transform hover:scale-105"
                 data-testid="button-funnel-open"
               >
                 Ja, ich will mein Problem lösen!
