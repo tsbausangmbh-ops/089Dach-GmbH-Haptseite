@@ -7,6 +7,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [leistungenOpen, setLeistungenOpen] = useState(false);
+  const [desktopDropdownOpen, setDesktopDropdownOpen] = useState(false);
 
   const navItems = [
     { name: "Startseite", href: "/" },
@@ -91,31 +92,37 @@ export default function Navbar() {
           </a>
           
           {/* Leistungen Dropdown */}
-          <div className="relative group">
-            <button 
+          <div 
+            className="relative"
+            onMouseEnter={() => setDesktopDropdownOpen(true)}
+            onMouseLeave={() => setDesktopDropdownOpen(false)}
+          >
+            <a 
+              href="/leistungen"
               className="text-sm font-medium text-secondary hover:text-primary transition-colors flex items-center gap-1"
-              onClick={() => window.location.href = '/leistungen'}
             >
               Leistungen
-              <ChevronDown className="h-4 w-4" />
-            </button>
-            <div className="absolute top-full left-0 pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-[100]">
-              <div className="bg-white shadow-lg border border-gray-100 rounded-xl py-2 min-w-[260px]">
-                {leistungenItems.map((item) => (
-                  item.name === "---" ? (
-                    <div key="separator" className="border-t border-gray-200 my-2" />
-                  ) : (
-                    <a
-                      key={item.name}
-                      href={item.href}
-                      className="block px-4 py-2 text-sm text-secondary hover:bg-primary/5 hover:text-primary transition-colors"
-                    >
-                      {item.name}
-                    </a>
-                  )
-                ))}
+              <ChevronDown className={`h-4 w-4 transition-transform ${desktopDropdownOpen ? 'rotate-180' : ''}`} />
+            </a>
+            {desktopDropdownOpen && (
+              <div className="absolute top-full left-0 pt-2 z-[100]">
+                <div className="bg-white shadow-lg border border-gray-100 rounded-xl py-2 min-w-[260px]">
+                  {leistungenItems.map((item) => (
+                    item.name === "---" ? (
+                      <div key="separator" className="border-t border-gray-200 my-2" />
+                    ) : (
+                      <a
+                        key={item.name}
+                        href={item.href}
+                        className="block px-4 py-2 text-sm text-secondary hover:bg-primary/5 hover:text-primary transition-colors"
+                      >
+                        {item.name}
+                      </a>
+                    )
+                  ))}
+                </div>
               </div>
-            </div>
+            )}
           </div>
 
           <a href="/ratgeber" className="text-sm font-medium text-secondary hover:text-primary transition-colors">
