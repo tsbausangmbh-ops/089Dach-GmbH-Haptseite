@@ -25,6 +25,9 @@ import Gaubenbau from "@/pages/Gaubenbau";
 import Wartung from "@/pages/Wartung";
 import Rueckruf from "@/pages/Rueckruf";
 import AGB from "@/pages/AGB";
+import RatgeberDaemmung from "@/pages/RatgeberDaemmung";
+import RatgeberLeckortung from "@/pages/RatgeberLeckortung";
+import RatgeberBeratung from "@/pages/RatgeberBeratung";
 import CookieConsent from "@/components/CookieConsent";
 import BackgroundLogo from "@/components/BackgroundLogo";
 import { LocalBusinessSchema } from "@/components/SEO";
@@ -46,6 +49,9 @@ function Router() {
       <Route path="/leistungen/wartung" component={Wartung} />
       <Route path="/referenzen" component={Referenzen} />
       <Route path="/ratgeber" component={Ratgeber} />
+      <Route path="/ratgeber/daemmung" component={RatgeberDaemmung} />
+      <Route path="/ratgeber/leckortung" component={RatgeberLeckortung} />
+      <Route path="/ratgeber/beratung" component={RatgeberBeratung} />
       <Route path="/faq" component={FAQ} />
       <Route path="/kontakt" component={ContactPage} />
       <Route path="/ueber-uns" component={UeberUns} />

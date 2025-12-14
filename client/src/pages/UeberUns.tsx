@@ -240,6 +240,121 @@ export default function UeberUns() {
         </div>
       </section>
 
+      {/* Geschichten aus unserem Alltag */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-6 lg:px-12">
+          <div className="max-w-4xl mx-auto text-center mb-12">
+            <span className="text-primary font-bold tracking-wider uppercase text-sm">Aus unserem Alltag</span>
+            <h2 className="text-3xl md:text-4xl font-heading font-bold text-secondary mt-2 mb-6">
+              Geschichten, die zeigen, wer wir sind
+            </h2>
+            <p className="text-lg text-muted-foreground">
+              Jedes Dach hat seine Geschichte. Hier sind einige, die uns besonders am Herzen liegen.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            
+            {/* Geschichte 1: Notfall */}
+            <div className="bg-stone-50 rounded-sm p-8 border border-border">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
+                  <Clock className="h-6 w-6 text-primary" />
+                </div>
+                <div>
+                  <h3 className="font-heading font-bold text-secondary">Der Sturm um Mitternacht</h3>
+                  <p className="text-sm text-muted-foreground">Notfall-Einsatz, Dezember 2023</p>
+                </div>
+              </div>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Es war kurz vor Weihnachten, als der Sturm über München fegte. Familie Huber aus Sendling rief uns um 22:30 Uhr an – 
+                der Wind hatte Ziegel vom Dach gerissen und Wasser tropfte bereits ins Kinderzimmer.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Unser Meister war um 23:15 Uhr vor Ort. Mit Planen und provisorischen Befestigungen sicherten wir das Dach, 
+                damit die Familie die Nacht trocken überstehen konnte. Am nächsten Tag dann die komplette Reparatur.
+              </p>
+              <p className="text-secondary font-medium italic border-l-2 border-primary pl-4">
+                "Die haben uns in der schlimmsten Nacht nicht allein gelassen. Das vergessen wir nie." – Herr Huber
+              </p>
+            </div>
+
+            {/* Geschichte 2: Spenglerei */}
+            <div className="bg-stone-50 rounded-sm p-8 border border-border">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
+                  <Award className="h-6 w-6 text-primary" />
+                </div>
+                <div>
+                  <h3 className="font-heading font-bold text-secondary">Die Kupfer-Dachrinne</h3>
+                  <p className="text-sm text-muted-foreground">Spenglerarbeit, Oktober 2024</p>
+                </div>
+              </div>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Dr. Maier hatte eine denkmalgeschützte Villa in Bogenhausen. Die originale Kupfer-Dachrinne von 1920 
+                war an mehreren Stellen durchgerostet. Drei Spengler sagten ihm: "Das muss komplett neu."
+              </p>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Unser Meister sah das anders. In tagelanger Handarbeit restaurierte er die historischen Elemente, 
+                ergänzte fehlende Teile mit passendem Material und bewahrte so ein Stück Münchner Baugeschichte.
+              </p>
+              <p className="text-secondary font-medium italic border-l-2 border-primary pl-4">
+                "Handwerkskunst, wie sie heute selten geworden ist. Diese Dachrinne hält jetzt wieder 50 Jahre." – Dr. Maier
+              </p>
+            </div>
+
+            {/* Geschichte 3: Problemlöser */}
+            <div className="bg-stone-50 rounded-sm p-8 border border-border">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
+                  <Shield className="h-6 w-6 text-primary" />
+                </div>
+                <div>
+                  <h3 className="font-heading font-bold text-secondary">Das mysteriöse Leck</h3>
+                  <p className="text-sm text-muted-foreground">Leckortung, März 2024</p>
+                </div>
+              </div>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Herr Schmitt aus Moosach war am Verzweifeln. Seit zwei Jahren ein Wasserfleck im Schlafzimmer. 
+                Drei verschiedene Dachdecker hatten dreimal verschiedene Stellen repariert. Der Fleck kam immer wieder.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Wir brachten unsere Thermografie-Kamera mit. Das Ergebnis: Das Leck war 3 Meter entfernt vom Fleck – 
+                an einer Stelle, die noch niemand untersucht hatte. Eine versteckte Undichtigkeit am Schornstein.
+              </p>
+              <p className="text-secondary font-medium italic border-l-2 border-primary pl-4">
+                "Endlich trocken! Nach zwei Jahren. Ich hätte früher bei 089Dach anrufen sollen." – Herr Schmitt
+              </p>
+            </div>
+
+            {/* Geschichte 4: Energiesparen */}
+            <div className="bg-stone-50 rounded-sm p-8 border border-border">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
+                  <Heart className="h-6 w-6 text-primary" />
+                </div>
+                <div>
+                  <h3 className="font-heading font-bold text-secondary">Die warme Wohnung</h3>
+                  <p className="text-sm text-muted-foreground">Dachsanierung mit Dämmung, Januar 2024</p>
+                </div>
+              </div>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Die Rentnerin Frau Weber aus Schwabing lebte seit 40 Jahren in ihrer Dachgeschosswohnung. 
+                Jeden Winter fror sie, trotz maximaler Heizung. "Ich dachte, das gehört eben dazu", sagte sie uns.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Nach der Dämmung konnte sie es kaum glauben. Die Heizkosten sanken von 2.800€ auf 1.600€ im Jahr. 
+                Zum ersten Mal seit Jahrzehnten war ihr im Winter wirklich warm. Und 18.000€ Förderung gab's obendrauf.
+              </p>
+              <p className="text-secondary font-medium italic border-l-2 border-primary pl-4">
+                "Ich hätte nie gedacht, dass sich das in meinem Alter noch lohnt. Danke!" – Frau Weber, 78 Jahre
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mx-auto text-center mb-12">

@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, CheckCircle2, ThermometerSnowflake, Droplets, Euro, Users } from "lucide-react";
+import { Link } from "wouter";
 
 interface ProblemSolutionProps {
   onOpenFunnel?: () => void;
@@ -14,7 +15,8 @@ export default function ProblemSolution({ onOpenFunnel }: ProblemSolutionProps) 
       solution: "Dachsanierung mit Dämmung",
       result: "Bis zu 30% weniger Heizkosten. Im Winter warm, im Sommer kühl.",
       example: "Familie Huber, Pasing: Heizkosten von 3.200€ auf 2.100€ gesenkt.",
-      cta: "Heizkosten senken"
+      cta: "Heizkosten senken",
+      link: "/ratgeber/daemmung"
     },
     {
       icon: <Droplets className="h-6 w-6" />,
@@ -23,7 +25,8 @@ export default function ProblemSolution({ onOpenFunnel }: ProblemSolutionProps) 
       solution: "Leckortung & Reparatur",
       result: "Wir finden die Ursache und beheben sie. Einmal richtig – dann Ruhe.",
       example: "Herr Schmitt, Moosach: 3 Handwerker scheiterten. Wir fanden das Leck.",
-      cta: "Leck finden"
+      cta: "Leck finden",
+      link: "/ratgeber/leckortung"
     },
     {
       icon: <Euro className="h-6 w-6" />,
@@ -32,7 +35,8 @@ export default function ProblemSolution({ onOpenFunnel }: ProblemSolutionProps) 
       solution: "Kostenlose Beratung + Festpreis",
       result: "Sie wissen vorher genau, was es kostet. Keine Überraschungen.",
       example: "Familie Weber: Befürchtete 50.000€. Tatsächlich 22.000€ mit Förderung.",
-      cta: "Preis erfahren"
+      cta: "Preis erfahren",
+      link: "/ratgeber/beratung"
     }
   ];
 
@@ -94,11 +98,13 @@ export default function ProblemSolution({ onOpenFunnel }: ProblemSolutionProps) 
                   </div>
                   <Button 
                     className="bg-primary hover:bg-primary/90 text-white font-bold rounded-sm w-fit"
-                    onClick={onOpenFunnel}
+                    asChild
                     data-testid={`button-problem-cta-${index}`}
                   >
-                    {item.cta}
-                    <ArrowRight className="ml-2 h-4 w-4" />
+                    <Link href={item.link}>
+                      {item.cta}
+                      <ArrowRight className="ml-2 h-4 w-4" />
+                    </Link>
                   </Button>
                 </div>
 
