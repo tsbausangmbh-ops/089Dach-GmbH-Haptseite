@@ -333,14 +333,59 @@ export default function Heizkostenrechner() {
                     </div>
                   </div>
                 ) : (
-                  <div className="bg-gray-50 p-8 rounded-xl h-full flex flex-col items-center justify-center text-center">
-                    <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mb-4">
-                      <Thermometer className="h-10 w-10 text-primary" />
+                  <div className="bg-gradient-to-br from-stone-50 to-stone-100 p-8 rounded-xl h-full">
+                    <div className="flex items-center gap-3 mb-5">
+                      <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center">
+                        <Thermometer className="h-7 w-7 text-primary" />
+                      </div>
+                      <div>
+                        <h3 className="text-xl font-bold text-secondary">Ihr Sparpotenzial</h3>
+                        <p className="text-sm text-muted-foreground">Erfahren Sie es in 30 Sekunden</p>
+                      </div>
                     </div>
-                    <h3 className="text-xl font-bold text-secondary mb-2">Ihr Sparpotenzial</h3>
-                    <p className="text-muted-foreground">
-                      Geben Sie Ihre Daten ein und sehen Sie sofort, wie viel Sie durch eine Dachdämmung sparen können.
+                    
+                    <p className="text-muted-foreground mb-5">
+                      Geben Sie links Ihre Daten ein und sehen Sie sofort, wie viel Euro Sie jährlich durch eine fachgerechte Dachdämmung sparen können.
                     </p>
+
+                    <div className="space-y-3 mb-6">
+                      <div className="flex items-start gap-3 bg-white/80 p-3 rounded-lg">
+                        <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                          <TrendingDown className="h-4 w-4 text-green-600" />
+                        </div>
+                        <div>
+                          <p className="text-sm font-medium text-secondary">Wussten Sie schon?</p>
+                          <p className="text-sm text-muted-foreground">Bis zu 30% der Heizwärme entweichen über ein ungedämmtes Dach – das sind oft mehrere hundert Euro pro Jahr.</p>
+                        </div>
+                      </div>
+                      
+                      <div className="flex items-start gap-3 bg-white/80 p-3 rounded-lg">
+                        <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                          <Home className="h-4 w-4 text-blue-600" />
+                        </div>
+                        <div>
+                          <p className="text-sm font-medium text-secondary">Echte Münchner Erfahrung</p>
+                          <p className="text-sm text-muted-foreground">Unsere Berechnung basiert auf über 25 Jahren Erfahrung mit Dächern in München und Umgebung.</p>
+                        </div>
+                      </div>
+                      
+                      <div className="flex items-start gap-3 bg-white/80 p-3 rounded-lg">
+                        <div className="w-8 h-8 bg-amber-100 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                          <Euro className="h-4 w-4 text-amber-600" />
+                        </div>
+                        <div>
+                          <p className="text-sm font-medium text-secondary">Keine versteckten Kosten</p>
+                          <p className="text-sm text-muted-foreground">Kostenlose Berechnung, keine Anmeldung nötig. Die Vor-Ort-Beratung ist ebenfalls unverbindlich.</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="bg-secondary/5 border border-secondary/10 p-4 rounded-lg">
+                      <p className="text-sm text-secondary/80 italic">
+                        „Viele unserer Kunden sind überrascht, wie schnell sich eine Dachdämmung rechnet – oft schon nach wenigen Jahren."
+                      </p>
+                      <p className="text-xs text-muted-foreground mt-2">– Team 089Dach GmbH</p>
+                    </div>
                   </div>
                 )}
               </div>
