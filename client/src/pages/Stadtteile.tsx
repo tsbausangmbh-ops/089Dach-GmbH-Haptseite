@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { MapPin, Phone, ArrowRight, CheckCircle2 } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import RelatedServices from "@/components/RelatedServices";
 
 const stadtteile = [
   { name: "Obermenzing", entfernung: "0 km", link: "/", highlight: true },
@@ -166,6 +167,10 @@ export default function Stadtteile() {
       </section>
 
       <LeadFunnel />
+      <RelatedServices 
+        currentPage="stadtteile" 
+        relatedIds={["referenzen", "faq", "dachsanierung", "bedachungen"]}
+      />
       <Contact />
       <Footer />
     </div>

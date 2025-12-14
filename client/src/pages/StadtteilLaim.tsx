@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Phone, MapPin, Clock, CheckCircle2, Star, Shield, Award, ArrowRight } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import RelatedServices from "@/components/RelatedServices";
 
 const stadtteilData = {
   name: "Laim",
@@ -210,6 +211,10 @@ export default function StadtteilLaim() {
       </section>
 
       <LeadFunnel />
+      <RelatedServices 
+        currentPage="stadtteile" 
+        relatedIds={["stadtteile", "referenzen", "bedachungen", "faq"]}
+      />
       <Contact />
       <Footer />
     </div>

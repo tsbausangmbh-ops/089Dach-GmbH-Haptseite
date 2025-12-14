@@ -8,6 +8,7 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 import { CheckCircle2, AlertTriangle, ThermometerSun, Droplets, Leaf, ArrowRight, BookOpen, Quote, Shield, Users, Award, Phone, HelpCircle, Lightbulb } from "lucide-react";
 import { Link } from "wouter";
 import SEO, { BreadcrumbSchema, CollectionPageSchema } from "@/components/SEO";
+import RelatedServices from "@/components/RelatedServices";
 import gegArticleImage from "@assets/generated_images/homeowner_roof_consultation_scene.png";
 import ratgeberHeroImage from "@assets/generated_images/roofing_expert_with_checklist.png";
 
@@ -346,6 +347,10 @@ export default function Ratgeber() {
       </section>
 
       <LeadFunnel />
+      <RelatedServices 
+        currentPage="ratgeber" 
+        relatedIds={["faq", "referenzen", "dachsanierung", "wartung"]}
+      />
       <Contact />
       <Footer />
     </div>

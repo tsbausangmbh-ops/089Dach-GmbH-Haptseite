@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { CheckCircle2, Euro, ArrowRight, Shield, FileText, Calculator, Phone, Users, Star, AlertTriangle, Heart, Lock, Clock } from "lucide-react";
 import { Link } from "wouter";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import RelatedServices from "@/components/RelatedServices";
 import heroImage from "@assets/generated_images/roof_consultation_with_homeowner.png";
 
 export default function RatgeberBeratung() {
@@ -466,6 +467,10 @@ export default function RatgeberBeratung() {
         </div>
       </section>
 
+      <RelatedServices 
+        currentPage="ratgeber" 
+        relatedIds={["energieberatung", "dachsanierung", "faq", "referenzen"]}
+      />
       <Contact />
       <Footer />
     </div>

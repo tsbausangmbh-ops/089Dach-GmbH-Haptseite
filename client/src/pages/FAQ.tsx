@@ -5,6 +5,7 @@ import Contact from "@/components/Contact";
 import LeadFunnel from "@/components/LeadFunnel";
 import heroImage from "@assets/generated_images/roofer_explaining_to_homeowner.png";
 import SEO, { BreadcrumbSchema, FAQPageSchema } from "@/components/SEO";
+import RelatedServices from "@/components/RelatedServices";
 import { Button } from "@/components/ui/button";
 import { Phone, Shield, Users, Award, CheckCircle2, Clock, Euro, Heart, Quote } from "lucide-react";
 import { Link } from "wouter";
@@ -316,6 +317,10 @@ export default function FAQ() {
       </section>
 
       <LeadFunnel />
+      <RelatedServices 
+        currentPage="faq" 
+        relatedIds={["ratgeber", "referenzen", "dachsanierung", "wartung"]}
+      />
       <Contact />
       <Footer />
     </div>

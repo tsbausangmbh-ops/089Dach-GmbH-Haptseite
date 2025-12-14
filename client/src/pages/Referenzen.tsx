@@ -4,6 +4,7 @@ import Contact from "@/components/Contact";
 import LeadFunnel from "@/components/LeadFunnel";
 import { ArrowUpRight, Clock, Euro, CheckCircle2, Phone, Shield, Users, Award } from "lucide-react";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import RelatedServices from "@/components/RelatedServices";
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
 
@@ -473,6 +474,10 @@ export default function Referenzen() {
       </section>
 
       <LeadFunnel />
+      <RelatedServices 
+        currentPage="referenzen" 
+        relatedIds={["dachsanierung", "bedachungen", "spenglerei", "faq"]}
+      />
       <Contact />
       <Footer />
     </div>

@@ -7,6 +7,7 @@ import portraitGF from "@assets/generated_images/german_businessman_portrait_gf.
 import portraitMeister from "@assets/generated_images/german_master_roofer_portrait.png";
 import heroImage from "@assets/generated_images/roofing_team_partnership_handshake.png";
 import SEO, { BreadcrumbSchema, AboutPageSchema } from "@/components/SEO";
+import RelatedServices from "@/components/RelatedServices";
 
 export default function UeberUns() {
   return (
@@ -411,6 +412,10 @@ export default function UeberUns() {
         </div>
       </section>
 
+      <RelatedServices 
+        currentPage="ueber-uns" 
+        relatedIds={["referenzen", "faq", "dachsanierung", "stadtteile"]}
+      />
       <Contact />
       <Footer />
     </div>

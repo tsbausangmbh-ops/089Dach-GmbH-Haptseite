@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Phone, MapPin, Clock, CheckCircle2, Star, Shield, Award, ArrowRight } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import RelatedServices from "@/components/RelatedServices";
 
 const stadtteilData = {
   name: "Gräfelfing",
@@ -137,6 +138,10 @@ export default function StadtteilGraefelfing() {
       </section>
 
       <LeadFunnel />
+      <RelatedServices 
+        currentPage="stadtteile" 
+        relatedIds={["stadtteile", "referenzen", "wartung", "faq"]}
+      />
       <Contact />
       <Footer />
     </div>

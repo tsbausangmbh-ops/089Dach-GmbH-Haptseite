@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { CheckCircle2, ThermometerSnowflake, ArrowRight, ArrowLeft, Euro, Home, Phone, AlertTriangle, TrendingDown, Clock, Shield, Users, Star, Calculator } from "lucide-react";
 import { Link } from "wouter";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import RelatedServices from "@/components/RelatedServices";
 import heroImage from "@assets/generated_images/roof_insulation_installation_scene.png";
 
 export default function RatgeberDaemmung() {
@@ -338,6 +339,10 @@ export default function RatgeberDaemmung() {
         </div>
       </section>
 
+      <RelatedServices 
+        currentPage="ratgeber" 
+        relatedIds={["dachsanierung", "energieberatung", "wartung", "faq"]}
+      />
       <Contact />
       <Footer />
     </div>

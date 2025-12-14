@@ -7,6 +7,7 @@ import { ArrowRight, Home, Warehouse, Wrench, Hammer, ShieldCheck, Ruler, CheckC
 import heroImage from "@assets/generated_images/modern_house_with_anthracite_roof.png";
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema, ServiceSchema } from "@/components/SEO";
+import RelatedServices from "@/components/RelatedServices";
 
 export default function Leistungen() {
   const services = [
@@ -338,6 +339,10 @@ export default function Leistungen() {
       </section>
       */}
 
+      <RelatedServices 
+        currentPage="leistungen" 
+        relatedIds={["referenzen", "faq", "ratgeber", "stadtteile"]}
+      />
       <Contact />
       <Footer />
     </div>
