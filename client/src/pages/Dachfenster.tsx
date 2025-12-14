@@ -43,40 +43,21 @@ export default function Dachfenster() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="pt-10 pb-12 bg-stone-50 relative overflow-hidden">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl">
+      <section className="pt-10 pb-12 bg-secondary relative overflow-hidden min-h-[40vh] flex items-center">
+        <div className="absolute inset-0 z-0 bg-gradient-to-r from-secondary/90 via-secondary/70 to-secondary/50"></div>
+
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="max-w-2xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Dachfenster München</span>
-            <h1 className="text-4xl md:text-6xl font-heading font-bold text-secondary mt-4 mb-6">
+            <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mt-4 mb-6">
               Lassen Sie endlich Licht in Ihr Leben
             </h1>
-            
-            {/* Emotionale Einleitung */}
-            <div className="bg-white p-6 rounded-sm shadow-sm border-l-4 border-primary mb-8">
-              <p className="text-lg text-secondary font-medium mb-3">
-                Kennen Sie das Gefühl?
-              </p>
-              <p className="text-muted-foreground leading-relaxed">
-                Oben unterm Dach ist es dunkel und stickig. Der Raum hat so viel Potenzial – 
-                aber er fühlt sich an wie ein Keller. <strong className="text-secondary">Dabei könnte 
-                genau hier Ihr Lieblingsplatz sein.</strong> Ein Arbeitszimmer mit Blick in den Himmel. 
-                Ein Kinderzimmer, in dem es nie düster wird. Ein Schlafzimmer, das Sie mit Sonnenlicht weckt.
-              </p>
-            </div>
-            
-            <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-              Mit dem richtigen Dachfenster verwandeln Sie dunkle Räume in lichtdurchflutete 
-              Wohlfühloasen – <strong>oft in nur einem Tag eingebaut.</strong>
+            <p className="text-xl text-gray-200 max-w-xl mb-4">
+              Mit dem richtigen Dachfenster verwandeln Sie dunkle Räume in lichtdurchflutete Wohlfühloasen – oft in nur einem Tag eingebaut.
             </p>
-
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-sm" data-testid="button-hero-consultation">
-                <a href="tel:08912621964">
-                  <Phone className="mr-2 h-5 w-5" />
-                  Beratung anfragen
-                </a>
-              </Button>
-            </div>
+            <p className="text-lg text-gray-300 max-w-xl">
+              Als zertifizierter VELUX-Partner beraten wir Sie herstellerunabhängig – damit Sie die beste Lösung bekommen.
+            </p>
           </div>
         </div>
       </section>

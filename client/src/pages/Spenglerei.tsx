@@ -29,43 +29,28 @@ export default function Spenglerei() {
       <Navbar />
       
       {/* Hero Section */}
-      <div className="relative w-full h-[40vh] min-h-[350px] flex items-center overflow-hidden">
+      <section className="pt-10 pb-12 bg-secondary relative overflow-hidden min-h-[40vh] flex items-center">
         <div className="absolute inset-0 z-0">
           <img
             src={heroImage}
             alt="Spenglerarbeiten Kupfer"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-secondary/70 mix-blend-multiply" />
-
-        {/* Hero Logo Overlay */}
-        <div className="absolute right-0 bottom-0 h-full w-1/2 opacity-10 pointer-events-none hidden md:flex items-center justify-center overflow-hidden">
-             <svg 
-            width="100%" 
-            height="100%" 
-            viewBox="0 0 800 800" 
-            xmlns="http://www.w3.org/2000/svg"
-            className="w-full h-full max-w-none transform rotate-12 scale-150"
-          >
-            <g fill="currentColor" className="text-white">
-              <rect x="100" y="200" width="200" height="200" rx="20" fill="currentColor" />
-              <text x="200" y="340" fontSize="120" fontWeight="bold" fontFamily="sans-serif" textAnchor="middle" fill="black">089</text>
-              <text x="340" y="340" fontSize="120" fontWeight="bold" fontFamily="sans-serif" fill="currentColor">DACH</text>
-              <text x="345" y="390" fontSize="30" fontWeight="medium" fontFamily="sans-serif" letterSpacing="5" fill="currentColor">GMBH MÜNCHEN</text>
-            </g>
-          </svg>
+          <div className="absolute inset-0 bg-gradient-to-r from-secondary/90 via-secondary/70 to-secondary/50"></div>
         </div>
 
-        </div>
         <div className="container mx-auto px-4 relative z-10">
-          <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mb-4">
-            Spenglerei München – Handwerkskunst in Metall
-          </h1>
-          <p className="text-xl text-gray-200 max-w-2xl">
-            Wenn Metall auf Meisterhand trifft, entstehen Bauteile, die Generationen überdauern. Maßgefertigt in unserer eigenen Werkstatt.
-          </p>
+          <div className="max-w-2xl text-white">
+            <span className="text-primary font-bold tracking-wider uppercase text-sm">Spenglerarbeiten München</span>
+            <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mt-4 mb-6">
+              Spenglerei München – Handwerkskunst in Metall
+            </h1>
+            <p className="text-xl text-gray-200 max-w-xl mb-4">
+              Wenn Metall auf Meisterhand trifft, entstehen Bauteile, die Generationen überdauern. Maßgefertigt in unserer eigenen Werkstatt.
+            </p>
+          </div>
         </div>
-      </div>
+      </section>
 
       {/* Trust Badges */}
       <div className="bg-stone-100 py-2 border-b border-stone-200">

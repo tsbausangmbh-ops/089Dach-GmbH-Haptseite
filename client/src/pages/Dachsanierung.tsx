@@ -44,47 +44,22 @@ export default function Dachsanierung() {
       />
       <Navbar />
       
-      {/* Hero Section mit Problem-Agitation */}
-      <section className="pt-10 pb-12 bg-stone-50 relative overflow-hidden">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl">
+      {/* Hero Section */}
+      <section className="pt-10 pb-12 bg-secondary relative overflow-hidden min-h-[40vh] flex items-center">
+        <div className="absolute inset-0 z-0 bg-gradient-to-r from-secondary/90 via-secondary/70 to-secondary/50"></div>
+
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="max-w-2xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Dachsanierung München</span>
-            <h1 className="text-4xl md:text-6xl font-heading font-bold text-secondary mt-4 mb-6">
+            <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mt-4 mb-6">
               Ihr Dach macht Ihnen Sorgen?
             </h1>
-            
-            {/* Emotionale Problem-Agitation */}
-            <div className="bg-white p-6 rounded-sm shadow-sm border-l-4 border-primary mb-8">
-              <p className="text-lg text-secondary font-medium mb-3">
-                Kennen Sie das?
-              </p>
-              <p className="text-muted-foreground leading-relaxed mb-4">
-                Sie liegen nachts wach, wenn der Sturm ums Haus pfeift. Bei jedem starken Regen 
-                schauen Sie nervös zur Decke. Im Winter heizen Sie und heizen – aber richtig warm 
-                wird es nie. <strong className="text-secondary">Und jedes Jahr schieben Sie die Entscheidung vor sich her.</strong>
-              </p>
-              <p className="text-secondary font-medium">
-                „Wird schon noch halten." – Bis es nicht mehr hält.
-              </p>
-            </div>
-            
-            <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-              <strong>Die gute Nachricht:</strong> Eine Dachsanierung muss kein Albtraum sein. 
-              Mit der richtigen Planung, transparenten Kosten und einem erfahrenen Team wird Ihr 
-              Zuhause wieder sicher – und Sie können endlich aufatmen.
+            <p className="text-xl text-gray-200 max-w-xl mb-4">
+              Eine Dachsanierung muss kein Albtraum sein. Mit der richtigen Planung, transparenten Kosten und einem erfahrenen Team wird Ihr Zuhause wieder sicher.
             </p>
-
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-sm" data-testid="button-hero-consultation">
-                <a href="tel:08912621964">
-                  <Phone className="mr-2 h-5 w-5" />
-                  Kostenlose Erstberatung
-                </a>
-              </Button>
-              <Button asChild variant="outline" size="lg" className="border-secondary text-secondary hover:bg-secondary hover:text-white font-bold rounded-sm" data-testid="button-hero-checklist">
-                <Link href="#warnsignale">Warnsignale prüfen</Link>
-              </Button>
-            </div>
+            <p className="text-lg text-gray-300 max-w-xl">
+              Wir begleiten Sie vom ersten Anruf bis zur Abnahme – mit bis zu 30% weniger Heizkosten und Förderung durch KfW & BAFA.
+            </p>
           </div>
         </div>
       </section>

@@ -91,39 +91,22 @@ export default function Reparaturservice() {
       />
       <Navbar />
       
-      {/* Hero Section - Lead-Fokus */}
-      <section className="pt-10 pb-12 bg-primary text-white relative overflow-hidden">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl">
-            <div className="flex items-center gap-2 mb-4">
-              <AlertTriangle className="h-6 w-6" />
-              <span className="font-bold tracking-wider uppercase text-sm">Schnelle Dachreparatur München</span>
-            </div>
-            <h1 className="text-4xl md:text-6xl font-heading font-bold mt-4 mb-6">
+      {/* Hero Section */}
+      <section className="pt-10 pb-12 bg-secondary relative overflow-hidden min-h-[40vh] flex items-center">
+        <div className="absolute inset-0 z-0 bg-gradient-to-r from-secondary/90 via-secondary/70 to-secondary/50"></div>
+
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="max-w-2xl text-white">
+            <span className="text-primary font-bold tracking-wider uppercase text-sm">Schnelle Dachreparatur München</span>
+            <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mt-4 mb-6">
               Dach-Notfall? Wir helfen schnell.
             </h1>
-            
-            <p className="text-xl leading-relaxed mb-8 text-white/90">
-              Sturm, Hagel oder plötzlich ein Wasserfleck an der Decke – wenn Ihr Dach 
-              Probleme macht, zählt jede Stunde. <strong>Schreiben Sie uns, wir rufen Sie zurück.</strong>
+            <p className="text-xl text-gray-200 max-w-xl mb-4">
+              Sturm, Hagel oder plötzlich ein Wasserfleck an der Decke – wenn Ihr Dach Probleme macht, zählt jede Stunde.
             </p>
-
-            <div className="bg-white text-secondary p-6 rounded-sm mb-8">
-              <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-                <div>
-                  <p className="text-lg font-bold mb-1">Rückruf anfordern</p>
-                  <p className="text-muted-foreground">Wir melden uns schnellstmöglich bei Ihnen</p>
-                </div>
-                <Button 
-                  onClick={() => document.getElementById('anfrage-form')?.scrollIntoView({ behavior: 'smooth' })}
-                  className="bg-primary hover:bg-primary/90 text-white font-bold px-8"
-                  data-testid="button-hero-request"
-                >
-                  <PhoneCall className="mr-2 h-5 w-5" />
-                  Rückruf anfordern
-                </Button>
-              </div>
-            </div>
+            <p className="text-lg text-gray-300 max-w-xl">
+              Schreiben Sie uns, wir rufen Sie zurück. In der Regel innerhalb von 4 Stunden vor Ort.
+            </p>
           </div>
         </div>
       </section>
