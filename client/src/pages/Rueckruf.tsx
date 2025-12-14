@@ -342,10 +342,10 @@ export default function Rueckruf() {
         </div>
       </section>
 
-      <section className="py-8 bg-gray-50">
+      <section className="py-4 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-heading font-bold text-secondary mb-6 text-center">
+            <h2 className="text-2xl font-heading font-bold text-secondary mb-4 text-center">
               Warum einen Rückruf anfordern?
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
