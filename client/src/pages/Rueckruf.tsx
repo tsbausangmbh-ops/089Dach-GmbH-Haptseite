@@ -150,16 +150,26 @@ export default function Rueckruf() {
       <section className="py-12 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-8">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-primary/10 rounded-full mb-4">
-                <PhoneCall className="h-8 w-8 text-primary" />
+            <div className="mb-8">
+              <div className="text-center mb-6">
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-primary/10 rounded-full mb-4">
+                  <PhoneCall className="h-8 w-8 text-primary" />
+                </div>
+                <h2 className="text-3xl font-heading font-bold text-secondary mb-2">
+                  Wir sind für Sie da.
+                </h2>
               </div>
-              <h2 className="text-3xl font-heading font-bold text-secondary mb-4">
-                Rückruf anfordern
-              </h2>
-              <p className="text-muted-foreground">
-                Füllen Sie das kurze Formular aus – wir rufen Sie zeitnah zurück.
-              </p>
+              <div className="bg-stone-50 p-6 rounded-sm border-l-4 border-primary">
+                <p className="text-secondary font-medium mb-3">
+                  Sie haben Fragen, Sorgen oder einfach ein ungutes Gefühl bei Ihrem Dach?
+                </p>
+                <p className="text-muted-foreground leading-relaxed mb-4">
+                  Das verstehen wir. Ein tropfender Fleck an der Decke, lose Ziegel nach dem letzten Sturm oder einfach die Frage: „Ist bei mir noch alles in Ordnung?" – solche Gedanken können belasten. Genau dafür sind wir hier. Kein Callcenter, keine Warteschleife. Nur ein kurzes Formular – und wir melden uns persönlich bei Ihnen.
+                </p>
+                <p className="text-sm text-primary font-medium italic">
+                  Lassen Sie uns gemeinsam eine Lösung finden. Wir freuen uns auf Ihren Kontakt.
+                </p>
+              </div>
             </div>
 
             <form onSubmit={handleSubmit} className="bg-gray-50 p-8 rounded-sm space-y-6">
