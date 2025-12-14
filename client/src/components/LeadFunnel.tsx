@@ -6,10 +6,12 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
+import { toast } from "sonner";
 
 export default function LeadFunnel() {
   const [open, setOpen] = useState(false);
   const [step, setStep] = useState(1);
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const [formData, setFormData] = useState({
     problem: "",
     timing: "",
@@ -27,6 +29,42 @@ export default function LeadFunnel() {
   const handleTimingSelect = (timing: string) => {
     setFormData({ ...formData, timing });
     setStep(3);
+  };
+
+  const handleFinalSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+
+    try {
+      const response = await fetch("/api/leads", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(formData)
+      });
+
+      const result = await response.json();
+
+      if (response.ok && result.success) {
+        toast.success("Anfrage erfolgreich gesendet!", {
+          description: "Wir melden uns innerhalb von 24 Stunden bei Ihnen."
+        });
+        setOpen(false);
+        setTimeout(resetForm, 300);
+      } else {
+        toast.error("Fehler beim Senden", {
+          description: "Bitte versuchen Sie es erneut oder rufen Sie uns an."
+        });
+      }
+    } catch (error) {
+      console.error("Error submitting lead:", error);
+      toast.error("Fehler beim Senden", {
+        description: "Bitte versuchen Sie es erneut oder rufen Sie uns an."
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const resetForm = () => {
@@ -205,7 +243,7 @@ export default function LeadFunnel() {
                 )}
 
                 {step === 3 && (
-                  <div className="space-y-6">
+                  <form onSubmit={handleFinalSubmit} className="space-y-6">
                     <div className="bg-green-50 p-4 rounded-md flex gap-3 items-start border border-green-100">
                       <ShieldCheck className="h-5 w-5 text-green-600 shrink-0 mt-0.5" />
                       <p className="text-sm text-green-800">
@@ -216,22 +254,49 @@ export default function LeadFunnel() {
                     <div className="grid grid-cols-2 gap-4">
                       <div className="space-y-2">
                         <Label htmlFor="name">Name</Label>
-                        <Input id="name" placeholder="Ihr Name" />
+                        <Input 
+                          id="name" 
+                          placeholder="Ihr Name"
+                          value={formData.name}
+                          onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                          required
+                          data-testid="input-lead-name"
+                        />
                       </div>
                       <div className="space-y-2">
                         <Label htmlFor="phone">Telefon</Label>
-                        <Input id="phone" placeholder="Für Rückfragen" />
+                        <Input 
+                          id="phone" 
+                          placeholder="Für Rückfragen"
+                          value={formData.phone}
+                          onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
+                          required
+                          data-testid="input-lead-phone"
+                        />
                       </div>
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="email">E-Mail</Label>
-                      <Input id="email" type="email" placeholder="ihre@email.de" />
+                      <Input 
+                        id="email" 
+                        type="email" 
+                        placeholder="ihre@email.de"
+                        value={formData.email}
+                        onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                        required
+                        data-testid="input-lead-email"
+                      />
                     </div>
 
-                    <Button className="w-full bg-primary hover:bg-primary/90 text-white font-bold py-6 text-lg rounded-sm mt-4">
-                      Jetzt kostenlose Beratung anfordern
+                    <Button 
+                      type="submit"
+                      className="w-full bg-primary hover:bg-primary/90 text-white font-bold py-6 text-lg rounded-sm mt-4"
+                      disabled={isSubmitting}
+                      data-testid="button-lead-submit"
+                    >
+                      {isSubmitting ? "Wird gesendet..." : "Jetzt kostenlose Beratung anfordern"}
                     </Button>
-                  </div>
+                  </form>
                 )}
               </div>
               
