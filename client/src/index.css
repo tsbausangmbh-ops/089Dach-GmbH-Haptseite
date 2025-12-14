@@ -113,13 +113,18 @@
   }
 }
 
-/* Mobile: Überschriften zentrieren */
+/* Mobile: Überschriften und Labels zentrieren */
 @media (max-width: 767px) {
   h1 {
     text-align: center;
   }
   section > .container > div > h2:first-of-type,
   section > .container > .text-center h2 {
+    text-align: center;
+  }
+  /* Hero-Labels wie "Wer wir sind" */
+  section .text-primary.uppercase.tracking-wider.text-sm {
+    display: block;
     text-align: center;
   }
 }
