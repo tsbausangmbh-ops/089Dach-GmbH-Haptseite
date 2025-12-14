@@ -1,22 +1,32 @@
 import { Link } from "wouter";
-import { Phone, Mail, Menu, X, ChevronRight } from "lucide-react";
+import { Phone, Mail, Menu, X, ChevronRight, ChevronDown } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const [leistungenOpen, setLeistungenOpen] = useState(false);
 
   const navItems = [
     { name: "Startseite", href: "/" },
     { name: "Über uns", href: "/ueber-uns" },
-    { name: "Leistungen", href: "/leistungen" },
-    { name: "Bedachungen", href: "/leistungen/bedachungen" },
-    { name: "Spenglerei", href: "/leistungen/spenglerei" },
     { name: "Ratgeber", href: "/ratgeber" },
     { name: "FAQ", href: "/faq" },
     { name: "Referenzen", href: "/referenzen" },
     { name: "Kontakt", href: "/kontakt" },
+  ];
+
+  const leistungenItems = [
+    { name: "Alle Leistungen", href: "/leistungen" },
+    { name: "Bedachungen", href: "/leistungen/bedachungen" },
+    { name: "Spenglerei", href: "/leistungen/spenglerei" },
+    { name: "Dachsanierung", href: "/leistungen/dachsanierung" },
+    { name: "Dachfenster", href: "/leistungen/dachfenster" },
+    { name: "Reparaturservice", href: "/leistungen/reparaturservice" },
+    { name: "Energieberatung", href: "/leistungen/energieberatung" },
+    { name: "Gaubenbau", href: "/leistungen/gaubenbau" },
+    { name: "Architektenleistungen", href: "/leistungen/architektenleistungen" },
   ];
 
   return (
@@ -59,16 +69,47 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop Nav */}
-        <div className="hidden md:flex items-center gap-8">
-          {navItems.map((item) => (
-            <a
-              key={item.name}
-              href={item.href}
-              className="text-sm font-medium text-secondary hover:text-primary transition-colors"
-            >
-              {item.name}
-            </a>
-          ))}
+        <div className="hidden md:flex items-center gap-6">
+          <a href="/" className="text-sm font-medium text-secondary hover:text-primary transition-colors">
+            Startseite
+          </a>
+          <a href="/ueber-uns" className="text-sm font-medium text-secondary hover:text-primary transition-colors">
+            Über uns
+          </a>
+          
+          {/* Leistungen Dropdown */}
+          <div className="relative group">
+            <button className="text-sm font-medium text-secondary hover:text-primary transition-colors flex items-center gap-1">
+              Leistungen
+              <ChevronDown className="h-4 w-4" />
+            </button>
+            <div className="absolute top-full left-0 pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+              <div className="bg-white shadow-lg border border-gray-100 rounded-sm py-2 min-w-[220px]">
+                {leistungenItems.map((item) => (
+                  <a
+                    key={item.name}
+                    href={item.href}
+                    className="block px-4 py-2 text-sm text-secondary hover:bg-primary/5 hover:text-primary transition-colors"
+                  >
+                    {item.name}
+                  </a>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          <a href="/ratgeber" className="text-sm font-medium text-secondary hover:text-primary transition-colors">
+            Ratgeber
+          </a>
+          <a href="/faq" className="text-sm font-medium text-secondary hover:text-primary transition-colors">
+            FAQ
+          </a>
+          <a href="/referenzen" className="text-sm font-medium text-secondary hover:text-primary transition-colors">
+            Referenzen
+          </a>
+          <a href="/kontakt" className="text-sm font-medium text-secondary hover:text-primary transition-colors">
+            Kontakt
+          </a>
           <Button className="bg-primary hover:bg-primary/90 text-white font-bold rounded-sm" asChild>
             <a href="/kontakt">Angebot anfordern</a>
           </Button>
@@ -81,19 +122,58 @@ export default function Navbar() {
               <Menu className="h-6 w-6" />
             </Button>
           </SheetTrigger>
-          <SheetContent side="right" className="w-[300px] sm:w-[400px]">
+          <SheetContent side="right" className="w-[300px] sm:w-[400px] overflow-y-auto">
             <nav className="flex flex-col gap-4 mt-8">
-              {navItems.map((item) => (
-                <a
-                  key={item.name}
-                  href={item.href}
-                  className="text-lg font-medium text-foreground hover:text-primary transition-colors flex items-center justify-between border-b pb-2"
-                  onClick={() => setIsOpen(false)}
+              <a href="/" className="text-lg font-medium text-foreground hover:text-primary transition-colors flex items-center justify-between border-b pb-2" onClick={() => setIsOpen(false)}>
+                Startseite
+                <ChevronRight className="h-4 w-4" />
+              </a>
+              <a href="/ueber-uns" className="text-lg font-medium text-foreground hover:text-primary transition-colors flex items-center justify-between border-b pb-2" onClick={() => setIsOpen(false)}>
+                Über uns
+                <ChevronRight className="h-4 w-4" />
+              </a>
+              
+              {/* Leistungen Accordion */}
+              <div className="border-b pb-2">
+                <button 
+                  onClick={() => setLeistungenOpen(!leistungenOpen)}
+                  className="text-lg font-medium text-foreground hover:text-primary transition-colors flex items-center justify-between w-full"
                 >
-                  {item.name}
-                  <ChevronRight className="h-4 w-4" />
-                </a>
-              ))}
+                  Leistungen
+                  <ChevronDown className={`h-4 w-4 transition-transform ${leistungenOpen ? 'rotate-180' : ''}`} />
+                </button>
+                {leistungenOpen && (
+                  <div className="mt-2 ml-4 space-y-2">
+                    {leistungenItems.map((item) => (
+                      <a
+                        key={item.name}
+                        href={item.href}
+                        className="block text-sm text-muted-foreground hover:text-primary transition-colors py-1"
+                        onClick={() => setIsOpen(false)}
+                      >
+                        {item.name}
+                      </a>
+                    ))}
+                  </div>
+                )}
+              </div>
+
+              <a href="/ratgeber" className="text-lg font-medium text-foreground hover:text-primary transition-colors flex items-center justify-between border-b pb-2" onClick={() => setIsOpen(false)}>
+                Ratgeber
+                <ChevronRight className="h-4 w-4" />
+              </a>
+              <a href="/faq" className="text-lg font-medium text-foreground hover:text-primary transition-colors flex items-center justify-between border-b pb-2" onClick={() => setIsOpen(false)}>
+                FAQ
+                <ChevronRight className="h-4 w-4" />
+              </a>
+              <a href="/referenzen" className="text-lg font-medium text-foreground hover:text-primary transition-colors flex items-center justify-between border-b pb-2" onClick={() => setIsOpen(false)}>
+                Referenzen
+                <ChevronRight className="h-4 w-4" />
+              </a>
+              <a href="/kontakt" className="text-lg font-medium text-foreground hover:text-primary transition-colors flex items-center justify-between border-b pb-2" onClick={() => setIsOpen(false)}>
+                Kontakt
+                <ChevronRight className="h-4 w-4" />
+              </a>
               <Button className="mt-4 bg-primary hover:bg-primary/90 w-full rounded-sm" asChild>
                 <a href="tel:08912621964">Jetzt anrufen</a>
               </Button>
