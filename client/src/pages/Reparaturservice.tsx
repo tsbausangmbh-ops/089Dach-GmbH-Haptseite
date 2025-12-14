@@ -107,15 +107,15 @@ export default function Reparaturservice() {
           <div className="max-w-2xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Schnelle Dachreparatur München</span>
             <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mt-4 mb-6">
-              <span className="text-primary">Dach-Notfall?</span>
+              <span className="text-primary">Wir rufen Sie zurück.</span>
               <br />
-              Wir helfen schnell.
+              Versprochen.
             </h1>
             <p className="text-xl text-gray-200 max-w-xl mb-4">
-              Sturm, Hagel oder plötzlich ein Wasserfleck an der Decke – wenn Ihr Dach Probleme macht, zählt jede Stunde.
+              Kein Warten in der Warteschleife. Kein Stress. Einfach Ihre Nummer hinterlassen – wir melden uns persönlich.
             </p>
             <p className="text-lg text-gray-300 max-w-xl">
-              Schreiben Sie uns, wir rufen Sie zurück. In der Regel innerhalb von 24 Stunden vor Ort.
+              In der Regel innerhalb von 24 Stunden vor Ort.
             </p>
           </div>
         </div>
