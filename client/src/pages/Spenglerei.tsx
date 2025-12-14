@@ -36,6 +36,8 @@ export default function Spenglerei() {
             src={heroImage}
             alt="Kupfer-Dachrinne Detail Spenglerarbeit - handgefertigte Rinnen München"
             className="w-full h-full object-cover"
+            width={1792}
+            height={1024}
             fetchPriority="high"
             decoding="async"
           />
@@ -174,6 +176,8 @@ export default function Spenglerei() {
                 src={detailImage} 
                 alt="Stehfalzdach Detail" 
                 className="rounded-xl shadow-xl w-full object-cover aspect-[4/5]"
+                width={1024}
+                height={1280}
                 loading="lazy"
                 decoding="async"
               />

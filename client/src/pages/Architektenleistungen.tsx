@@ -52,6 +52,8 @@ export default function Architektenleistungen() {
             src={heroImage}
             alt="Dachdecker berät Hausbesitzer vor Ort - Bauantrag und Planung Dachausbau München"
             className="w-full h-full object-cover"
+            width={1792}
+            height={1024}
             fetchPriority="high"
             decoding="async"
           />

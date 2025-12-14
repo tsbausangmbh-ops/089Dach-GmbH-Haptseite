@@ -106,6 +106,8 @@ export default function Ratgeber() {
             src={ratgeberHeroImage}
             alt="Dachexperte mit Checkliste"
             className="w-full h-full object-cover"
+            width={1792}
+            height={1024}
             fetchPriority="high"
             decoding="async"
           />
@@ -208,6 +210,8 @@ export default function Ratgeber() {
                 src={gegArticleImage}
                 alt="Hausbesitzer bei Dachberatung" 
                 className="absolute inset-0 w-full h-full object-cover opacity-80"
+                width={1792}
+                height={1024}
                 loading="lazy"
                 decoding="async"
               />

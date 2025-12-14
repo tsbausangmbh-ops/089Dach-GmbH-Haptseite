@@ -144,6 +144,8 @@ export default function FAQ() {
             src={heroImage}
             alt="Dachdecker-Meister erklärt Hausbesitzer Dachsanierung - Beratungsgespräch München"
             className="w-full h-full object-cover"
+            width={1792}
+            height={1024}
             fetchPriority="high"
             decoding="async"
           />

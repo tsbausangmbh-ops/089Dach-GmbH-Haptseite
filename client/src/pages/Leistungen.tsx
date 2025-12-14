@@ -186,6 +186,8 @@ export default function Leistungen() {
             src={heroImage}
             alt="Modernes Einfamilienhaus mit anthrazitfarbenem Steildach nach Dachsanierung in München"
             className="w-full h-full object-cover"
+            width={1792}
+            height={1024}
             fetchPriority="high"
             decoding="async"
           />

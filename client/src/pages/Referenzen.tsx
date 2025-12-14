@@ -255,6 +255,8 @@ export default function Referenzen() {
             src={heroImage}
             alt="Fertiggestelltes Dachsanierung-Projekt München - 089Dach Referenz Steildach"
             className="w-full h-full object-cover"
+            width={1792}
+            height={1024}
             fetchPriority="high"
             decoding="async"
           />
@@ -345,6 +347,8 @@ export default function Referenzen() {
                         src={project.before} 
                         alt={`${project.title} - Vorher`} 
                         className="w-full h-full object-cover"
+                        width={800}
+                        height={600}
                         loading="lazy"
                         decoding="async"
                       />
@@ -357,6 +361,8 @@ export default function Referenzen() {
                         src={project.after} 
                         alt={`${project.title} - Nachher`} 
                         className="w-full h-full object-cover"
+                        width={800}
+                        height={600}
                         loading="lazy"
                         decoding="async"
                       />

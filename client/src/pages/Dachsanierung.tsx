@@ -54,6 +54,8 @@ export default function Dachsanierung() {
             src={heroImage}
             alt="Saniertes Steildach Einfamilienhaus Obermenzing - energetische Dachsanierung München"
             className="w-full h-full object-cover"
+            width={1792}
+            height={1024}
             fetchPriority="high"
             decoding="async"
           />

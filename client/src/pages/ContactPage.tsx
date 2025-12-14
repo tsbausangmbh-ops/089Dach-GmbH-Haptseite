@@ -28,6 +28,8 @@ export default function ContactPage() {
             src={contactImage}
             alt="Freundliche Mitarbeiterin am Telefon - Kundenberatung Dachdecker München 089Dach"
             className="w-full h-full object-cover"
+            width={1792}
+            height={1024}
             fetchPriority="high"
             decoding="async"
           />

@@ -52,6 +52,8 @@ export default function Dachfenster() {
             src={heroImage}
             alt="Helles Dachgeschoss mit Velux-Dachfenstern - lichtdurchfluteter Wohnraum München"
             className="w-full h-full object-cover"
+            width={1792}
+            height={1024}
             fetchPriority="high"
             decoding="async"
           />

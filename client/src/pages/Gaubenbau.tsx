@@ -52,6 +52,8 @@ export default function Gaubenbau() {
             src={heroImage}
             alt="Renovierte Dachgaube mit neuem Fenster - Gaubenbau für mehr Wohnraum München"
             className="w-full h-full object-cover"
+            width={1792}
+            height={1024}
             fetchPriority="high"
             decoding="async"
           />

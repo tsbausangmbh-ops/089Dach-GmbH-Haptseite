@@ -45,6 +45,8 @@ export default function Gallery() {
                 src={project.src} 
                 alt={project.title} 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-90 group-hover:opacity-100"
+                width={1024}
+                height={768}
                 loading="lazy"
                 decoding="async"
               />

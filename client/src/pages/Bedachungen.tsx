@@ -37,6 +37,8 @@ export default function Bedachungen() {
             src={heroImage}
             alt="Dachdecker bei Steildach-Eindeckung mit roten Tondachziegeln in München"
             className="w-full h-full object-cover"
+            width={1792}
+            height={1024}
             fetchPriority="high"
             decoding="async"
           />
@@ -177,6 +179,8 @@ export default function Bedachungen() {
                 src={tileImage} 
                 alt="Nahaufnahme roter Tondachziegel Textur - hochwertige Dacheindeckung München" 
                 className="rounded-xl shadow-xl w-full object-cover aspect-[4/5]"
+                width={1024}
+                height={1280}
                 loading="lazy"
                 decoding="async"
               />
