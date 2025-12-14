@@ -116,7 +116,7 @@ export default function Ratgeber() {
             </h1>
             
             {/* Problem-Agitation */}
-            <div className="bg-white/10 backdrop-blur-sm p-6 rounded-sm border-l-4 border-primary mb-8">
+            <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl border-l-4 border-primary mb-8">
               <p className="text-lg text-white font-medium mb-3">
                 Kennen Sie das Gefühl?
               </p>
@@ -137,13 +137,13 @@ export default function Ratgeber() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-sm" data-testid="button-hero-call">
+              <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-xl" data-testid="button-hero-call">
                 <a href="/rueckruf">
                   <Phone className="mr-2 h-5 w-5" />
                   Rückruf anfordern
                 </a>
               </Button>
-              <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-secondary font-bold rounded-sm" data-testid="button-hero-articles">
+              <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-secondary font-bold rounded-xl" data-testid="button-hero-articles">
                 <a href="#artikel">Alle Artikel durchstöbern</a>
               </Button>
             </div>
@@ -174,7 +174,7 @@ export default function Ratgeber() {
       {/* Featured Article */}
       <section className="py-16">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="bg-secondary text-white rounded-sm overflow-hidden shadow-xl grid md:grid-cols-2">
+          <div className="bg-secondary text-white rounded-xl overflow-hidden shadow-xl grid md:grid-cols-2">
             <div className="p-8 md:p-12 flex flex-col justify-center">
               <div className="flex items-center gap-2 text-primary font-medium mb-4">
                 <Lightbulb className="h-4 w-4" />
@@ -193,7 +193,7 @@ export default function Ratgeber() {
               <p className="text-gray-300 mb-8">
                 Wir erklären einfach und ehrlich, was wirklich auf Sie zukommt – und was nicht.
               </p>
-              <Button className="w-fit bg-primary hover:bg-primary/90 text-white font-bold rounded-sm" data-testid="button-read-geg-article">
+              <Button className="w-fit bg-primary hover:bg-primary/90 text-white font-bold rounded-xl" data-testid="button-read-geg-article">
                 Jetzt Klarheit bekommen <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </div>
@@ -250,7 +250,7 @@ export default function Ratgeber() {
               <Card key={index} className="group hover:shadow-xl transition-all duration-300 border-border flex flex-col overflow-hidden" data-testid={`card-guide-${index}`}>
                 <CardHeader className="pb-4">
                   <div className="flex justify-between items-start mb-4">
-                    <div className="p-3 bg-primary/10 rounded-sm text-primary">
+                    <div className="p-3 bg-primary/10 rounded-xl text-primary">
                       <guide.icon className="h-6 w-6" />
                     </div>
                     <span className="text-xs font-medium text-muted-foreground bg-gray-100 px-3 py-1 rounded-full">
@@ -280,21 +280,21 @@ export default function Ratgeber() {
                   </div>
                   
                   {/* Erfolgsgeschichte */}
-                  <div className="bg-gray-50 p-4 rounded-sm mb-4 border-l-3 border-primary">
+                  <div className="bg-gray-50 p-4 rounded-xl mb-4 border-l-3 border-primary">
                     <p className="text-sm text-secondary italic leading-relaxed">
                       „{guide.story}"
                     </p>
                   </div>
                   
                   {/* Takeaway */}
-                  <div className="bg-primary/5 p-3 rounded-sm mb-6">
+                  <div className="bg-primary/5 p-3 rounded-xl mb-6">
                     <p className="text-sm font-bold text-primary">
                       💡 {guide.takeaway}
                     </p>
                   </div>
                   
                   <div className="mt-auto">
-                    <Button variant="default" className="w-full bg-secondary hover:bg-secondary/90 text-white font-bold rounded-sm" asChild data-testid={`button-read-guide-${index}`}>
+                    <Button variant="default" className="w-full bg-secondary hover:bg-secondary/90 text-white font-bold rounded-xl" asChild data-testid={`button-read-guide-${index}`}>
                       <Link href={guide.href}>
                         Artikel lesen <ArrowRight className="ml-2 h-4 w-4" />
                       </Link>
@@ -321,13 +321,13 @@ export default function Ratgeber() {
             Keine Verkaufsgespräche. Keine Überrumpelung. Nur ehrliche Antworten von echten Handwerkern.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-sm text-lg px-8" data-testid="button-cta-call">
+            <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-xl text-lg px-8" data-testid="button-cta-call">
               <a href="/rueckruf">
                 <Phone className="mr-2 h-5 w-5" />
                 Rückruf anfordern
               </a>
             </Button>
-            <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-secondary font-bold rounded-sm text-lg px-8" data-testid="button-cta-contact">
+            <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-secondary font-bold rounded-xl text-lg px-8" data-testid="button-cta-contact">
               <Link href="/#contact">Nachricht schreiben</Link>
             </Button>
           </div>

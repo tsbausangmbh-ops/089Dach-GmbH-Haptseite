@@ -94,7 +94,7 @@ export default function Architektenleistungen() {
       <section className="py-5 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mx-auto">
-            <div className="bg-white p-8 rounded-sm shadow-sm border-l-4 border-primary" data-testid="testimonial-wagner">
+            <div className="bg-white p-8 rounded-xl shadow-sm border-l-4 border-primary" data-testid="testimonial-wagner">
               <Quote className="h-10 w-10 text-primary/30 mb-4" />
               <p className="text-xl text-secondary leading-relaxed italic mb-6">
                 „Wir wollten unser Dachgeschoss ausbauen, aber der Papierkram hat uns überfordert. 
@@ -159,8 +159,8 @@ export default function Architektenleistungen() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {projects.map((project, index) => (
-              <div key={index} className="flex items-start gap-4 bg-white p-6 rounded-sm shadow-sm" data-testid={`project-${index}`}>
-                <div className="p-3 bg-primary/10 rounded-sm text-primary shrink-0">
+              <div key={index} className="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm" data-testid={`project-${index}`}>
+                <div className="p-3 bg-primary/10 rounded-xl text-primary shrink-0">
                   <Building2 className="h-8 w-8" />
                 </div>
                 <div>
@@ -211,7 +211,7 @@ export default function Architektenleistungen() {
             Die Architektenleistungen und Bauanträge werden durch erfahrene Architekten aus unserem 
             Partnernetzwerk erstellt. So erhalten Sie alles aus einer Hand – von der Planung bis zum fertigen Dach.
           </p>
-          <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-sm" data-testid="button-beratung">
+          <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-xl" data-testid="button-beratung">
             <a href="/rueckruf">
               <Phone className="mr-2 h-5 w-5" />
               Rückruf anfordern

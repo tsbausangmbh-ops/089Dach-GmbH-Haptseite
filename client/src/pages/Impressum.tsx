@@ -32,7 +32,7 @@ export default function Impressum() {
           <div className="max-w-3xl space-y-12">
             
             {/* Unternehmensdaten */}
-            <div className="bg-gray-50 p-8 rounded-sm">
+            <div className="bg-gray-50 p-8 rounded-xl">
               <h2 className="text-2xl font-heading font-bold text-secondary mb-6">089Dach GmbH</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="flex items-start gap-3">

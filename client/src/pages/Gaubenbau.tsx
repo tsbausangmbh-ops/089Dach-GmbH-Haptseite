@@ -94,7 +94,7 @@ export default function Gaubenbau() {
       <section className="py-5 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mx-auto">
-            <div className="bg-white p-8 rounded-sm shadow-sm border-l-4 border-primary" data-testid="testimonial-schmidt">
+            <div className="bg-white p-8 rounded-xl shadow-sm border-l-4 border-primary" data-testid="testimonial-schmidt">
               <Quote className="h-10 w-10 text-primary/30 mb-4" />
               <p className="text-xl text-secondary leading-relaxed italic mb-6">
                 „Unsere drei Kinder teilten sich ein Zimmer. Durch den Gaubenausbau haben wir jetzt 
@@ -129,8 +129,8 @@ export default function Gaubenbau() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {benefits.map((benefit, index) => (
-              <div key={index} className="flex items-start gap-4 bg-gray-50 p-6 rounded-sm" data-testid={`benefit-${index}`}>
-                <div className="p-3 bg-primary/10 rounded-sm text-primary shrink-0">
+              <div key={index} className="flex items-start gap-4 bg-gray-50 p-6 rounded-xl" data-testid={`benefit-${index}`}>
+                <div className="p-3 bg-primary/10 rounded-xl text-primary shrink-0">
                   <benefit.icon className="h-8 w-8" />
                 </div>
                 <div>
@@ -186,7 +186,7 @@ export default function Gaubenbau() {
               Bekleidungen bis zur kompletten Modernisierung.
             </p>
             
-            <div className="bg-gray-50 p-8 rounded-sm">
+            <div className="bg-gray-50 p-8 rounded-xl">
               <h3 className="text-xl font-bold text-secondary mb-4">Unsere Sanierungsleistungen:</h3>
               <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 {[
@@ -246,7 +246,7 @@ export default function Gaubenbau() {
             Lassen Sie sich unverbindlich beraten, wie eine Gaube Ihr Zuhause aufwerten kann. 
             Wir zeigen Ihnen die Möglichkeiten und erstellen ein transparentes Angebot.
           </p>
-          <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-sm" data-testid="button-beratung">
+          <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-xl" data-testid="button-beratung">
             <a href="/rueckruf">
               <Phone className="mr-2 h-5 w-5" />
               Rückruf anfordern

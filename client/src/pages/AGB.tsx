@@ -26,28 +26,28 @@ export default function AGB() {
         <div className="prose prose-lg text-muted-foreground">
           
           {/* Rechtsgrundlagen Box */}
-          <div className="bg-secondary text-white p-8 rounded-sm mb-8 not-prose">
+          <div className="bg-secondary text-white p-8 rounded-xl mb-8 not-prose">
             <div className="flex items-start gap-4">
               <Scale className="h-8 w-8 text-primary shrink-0" />
               <div>
                 <h2 className="text-xl font-heading font-bold mb-4">Anwendbare Rechtsvorschriften</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div className="bg-white/10 p-4 rounded-sm">
+                  <div className="bg-white/10 p-4 rounded-xl">
                     <h4 className="font-bold text-white text-sm">BGB §§ 650a-650v</h4>
                     <p className="text-xs text-gray-300">Bauvertragsrecht</p>
                     <p className="text-xs text-gray-400 mt-1">Seit 01.01.2018</p>
                   </div>
-                  <div className="bg-white/10 p-4 rounded-sm">
+                  <div className="bg-white/10 p-4 rounded-xl">
                     <h4 className="font-bold text-white text-sm">BGB §§ 631-651</h4>
                     <p className="text-xs text-gray-300">Werkvertragsrecht</p>
                     <p className="text-xs text-gray-400 mt-1">Allgemeine Regelungen</p>
                   </div>
-                  <div className="bg-white/10 p-4 rounded-sm">
+                  <div className="bg-white/10 p-4 rounded-xl">
                     <h4 className="font-bold text-white text-sm">BGB §§ 305-310</h4>
                     <p className="text-xs text-gray-300">AGB-Recht</p>
                     <p className="text-xs text-gray-400 mt-1">Inhaltskontrolle</p>
                   </div>
-                  <div className="bg-white/10 p-4 rounded-sm">
+                  <div className="bg-white/10 p-4 rounded-xl">
                     <h4 className="font-bold text-white text-sm">VOB/B</h4>
                     <p className="text-xs text-gray-300">Vergabe- und Vertragsordnung für Bauleistungen</p>
                     <p className="text-xs text-gray-400 mt-1">Bei Vereinbarung</p>
@@ -61,7 +61,7 @@ export default function AGB() {
           <p>
             (1) Diese Allgemeinen Geschäftsbedingungen (nachfolgend „AGB") gelten für alle Verträge zwischen der
           </p>
-          <div className="bg-gray-50 p-6 rounded-sm border border-gray-100 my-4">
+          <div className="bg-gray-50 p-6 rounded-xl border border-gray-100 my-4">
             <p className="font-bold text-secondary">089Dach GmbH</p>
             <p>Geschäftsführer: Falko Georg Blöckinger<br />
             Thuillestr. 20<br />
@@ -109,13 +109,13 @@ export default function AGB() {
           </ul>
 
           {/* Anordnungsrecht Box */}
-          <div className="bg-primary text-white p-8 rounded-sm my-8 not-prose">
+          <div className="bg-primary text-white p-8 rounded-xl my-8 not-prose">
             <div className="flex items-start gap-4">
               <Hammer className="h-8 w-8 text-white shrink-0" />
               <div>
                 <h2 className="text-2xl font-heading font-bold mb-4">§ 3 Änderung des Vertrags (§ 650b BGB)</h2>
                 <div className="space-y-4">
-                  <div className="bg-white/10 p-4 rounded-sm">
+                  <div className="bg-white/10 p-4 rounded-xl">
                     <h4 className="font-bold text-white mb-2">Anordnungsrecht des Auftraggebers</h4>
                     <p className="text-sm text-white/80">
                       (1) Der Auftraggeber kann gemäß <strong>§ 650b Abs. 1 BGB</strong> eine Änderung des 
@@ -124,7 +124,7 @@ export default function AGB() {
                     </p>
                   </div>
                   
-                  <div className="bg-white/10 p-4 rounded-sm">
+                  <div className="bg-white/10 p-4 rounded-xl">
                     <h4 className="font-bold text-white mb-2">Angebotspflicht des Auftragnehmers</h4>
                     <p className="text-sm text-white/80">
                       (2) Auf Verlangen des Auftraggebers ist der Auftragnehmer verpflichtet, ein Angebot 
@@ -133,7 +133,7 @@ export default function AGB() {
                     </p>
                   </div>
 
-                  <div className="bg-white/10 p-4 rounded-sm">
+                  <div className="bg-white/10 p-4 rounded-xl">
                     <h4 className="font-bold text-white mb-2">30-Tage-Frist</h4>
                     <p className="text-sm text-white/80">
                       (3) Erzielen die Parteien innerhalb von <strong>30 Tagen</strong> nach Zugang des 
@@ -142,7 +142,7 @@ export default function AGB() {
                     </p>
                   </div>
 
-                  <div className="bg-white/10 p-4 rounded-sm">
+                  <div className="bg-white/10 p-4 rounded-xl">
                     <h4 className="font-bold text-white mb-2">Ausführungspflicht</h4>
                     <p className="text-sm text-white/80">
                       (4) Der Auftragnehmer ist verpflichtet, einer Anordnung nach Abs. 3 nachzukommen, 
@@ -155,13 +155,13 @@ export default function AGB() {
           </div>
 
           {/* Vergütungsanpassung Box */}
-          <div className="bg-blue-900 text-white p-8 rounded-sm my-8 not-prose">
+          <div className="bg-blue-900 text-white p-8 rounded-xl my-8 not-prose">
             <div className="flex items-start gap-4">
               <FileText className="h-8 w-8 text-blue-300 shrink-0" />
               <div>
                 <h2 className="text-2xl font-heading font-bold mb-4">§ 4 Vergütungsanpassung (§ 650c BGB)</h2>
                 <div className="space-y-4">
-                  <div className="bg-white/10 p-4 rounded-sm">
+                  <div className="bg-white/10 p-4 rounded-xl">
                     <h4 className="font-bold text-white mb-2">Berechnung der Mehr- oder Mindervergütung</h4>
                     <p className="text-sm text-white/80">
                       (1) Die Höhe der Vergütung für den infolge einer Anordnung nach § 650b Abs. 2 BGB 
@@ -170,7 +170,7 @@ export default function AGB() {
                     </p>
                   </div>
                   
-                  <div className="bg-white/10 p-4 rounded-sm">
+                  <div className="bg-white/10 p-4 rounded-xl">
                     <h4 className="font-bold text-white mb-2">Alternativ: Urkalkulation</h4>
                     <p className="text-sm text-white/80">
                       (2) Der Auftragnehmer kann zur Berechnung der Vergütung auch auf die Ansätze in 
@@ -178,7 +178,7 @@ export default function AGB() {
                     </p>
                   </div>
 
-                  <div className="bg-white/10 p-4 rounded-sm">
+                  <div className="bg-white/10 p-4 rounded-xl">
                     <h4 className="font-bold text-white mb-2">Abschlagszahlung (§ 650c Abs. 3 BGB)</h4>
                     <p className="text-sm text-white/80">
                       (3) Bei einer Anordnung nach § 650b Abs. 2 BGB kann der Auftragnehmer 
@@ -212,7 +212,7 @@ export default function AGB() {
           </p>
 
           {/* Bauhandwerkersicherung */}
-          <div className="bg-orange-50 border-l-4 border-orange-500 p-6 rounded-sm my-6 not-prose">
+          <div className="bg-orange-50 border-l-4 border-orange-500 p-6 rounded-xl my-6 not-prose">
             <div className="flex items-start gap-3">
               <Shield className="h-5 w-5 text-orange-600 shrink-0 mt-0.5" />
               <div>
@@ -313,7 +313,7 @@ export default function AGB() {
           </p>
 
           {/* Widerrufsrecht für Verbraucher */}
-          <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-sm my-6 not-prose">
+          <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-xl my-6 not-prose">
             <div className="flex items-start gap-3">
               <Clock className="h-5 w-5 text-green-600 shrink-0 mt-0.5" />
               <div>
@@ -385,7 +385,7 @@ export default function AGB() {
           </p>
 
           {/* Kontakt */}
-          <div className="bg-secondary text-white p-6 rounded-sm my-8">
+          <div className="bg-secondary text-white p-6 rounded-xl my-8">
             <p className="font-bold text-lg">089Dach GmbH</p>
             <p className="text-gray-300 mt-2">
               Geschäftsführer: Falko Georg Blöckinger<br />

@@ -143,7 +143,7 @@ export default function Wartung() {
       <section className="py-5 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mx-auto">
-            <div className="bg-white p-8 rounded-sm shadow-sm border-l-4 border-primary" data-testid="testimonial-wartung">
+            <div className="bg-white p-8 rounded-xl shadow-sm border-l-4 border-primary" data-testid="testimonial-wartung">
               <Quote className="h-10 w-10 text-primary/30 mb-4" />
               <h3 className="text-xl font-bold text-secondary mb-4">
                 „Jährliche Wartung – und seit 15 Jahren kein Problem"
@@ -181,7 +181,7 @@ export default function Wartung() {
               </p>
             </div>
 
-            <form onSubmit={handleSubmit} className="bg-gray-50 p-8 rounded-sm space-y-6">
+            <form onSubmit={handleSubmit} className="bg-gray-50 p-8 rounded-xl space-y-6">
               <div className="bg-green-50 p-4 rounded-md flex gap-3 items-start border border-green-100 mb-6">
                 <ShieldCheck className="h-5 w-5 text-green-600 shrink-0 mt-0.5" />
                 <div>
@@ -287,7 +287,7 @@ export default function Wartung() {
               <Card key={index} className="hover:shadow-lg transition-shadow" data-testid={`card-wartung-${index}`}>
                 <CardContent className="p-6">
                   <div className="flex items-start gap-4">
-                    <div className="p-3 bg-primary/10 rounded-sm text-primary shrink-0">
+                    <div className="p-3 bg-primary/10 rounded-xl text-primary shrink-0">
                       <leistung.icon className="h-8 w-8" />
                     </div>
                     <div>
@@ -317,7 +317,7 @@ export default function Wartung() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {advantages.map((adv, index) => (
               <div key={index} className="flex items-start gap-4" data-testid={`advantage-wartung-${index}`}>
-                <div className="p-2 bg-primary rounded-sm shrink-0">
+                <div className="p-2 bg-primary rounded-xl shrink-0">
                   <Check className="h-5 w-5 text-white" />
                 </div>
                 <div>
@@ -342,7 +342,7 @@ export default function Wartung() {
               Umgebung (Bäume, Laub) und Material. Als Faustregel empfehlen wir:
             </p>
             
-            <div className="bg-gray-50 p-8 rounded-sm">
+            <div className="bg-gray-50 p-8 rounded-xl">
               <h3 className="text-xl font-bold text-secondary mb-4">Unsere Empfehlung:</h3>
               <ul className="space-y-4">
                 {[
@@ -369,7 +369,7 @@ export default function Wartung() {
               <Button 
                 onClick={() => document.getElementById('anfrage-form')?.scrollIntoView({ behavior: 'smooth' })}
                 size="lg" 
-                className="bg-primary hover:bg-primary/90 text-white font-bold rounded-sm" 
+                className="bg-primary hover:bg-primary/90 text-white font-bold rounded-xl" 
                 data-testid="button-contact-wartung"
               >
                 <ClipboardCheck className="mr-2 h-5 w-5" />
@@ -394,13 +394,13 @@ export default function Wartung() {
             <Button 
               onClick={() => document.getElementById('anfrage-form')?.scrollIntoView({ behavior: 'smooth' })}
               size="lg" 
-              className="bg-white text-primary hover:bg-gray-100 font-bold rounded-sm" 
+              className="bg-white text-primary hover:bg-gray-100 font-bold rounded-xl" 
               data-testid="button-cta-wartung"
             >
               <PhoneCall className="mr-2 h-5 w-5" />
               Termin vereinbaren
             </Button>
-            <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary font-bold rounded-sm" data-testid="button-cta-email-wartung">
+            <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary font-bold rounded-xl" data-testid="button-cta-email-wartung">
               <a href="mailto:info@089dach.de">
                 <Mail className="mr-2 h-5 w-5" />
                 E-Mail schreiben

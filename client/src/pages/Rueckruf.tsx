@@ -126,7 +126,7 @@ export default function Rueckruf() {
                   Wir sind für Sie da.
                 </h2>
               </div>
-              <div className="bg-stone-50 p-6 rounded-sm border-l-4 border-primary">
+              <div className="bg-stone-50 p-6 rounded-xl border-l-4 border-primary">
                 <p className="text-secondary font-medium mb-3">
                   Sie haben Fragen, Sorgen oder einfach ein ungutes Gefühl bei Ihrem Dach?
                 </p>
@@ -139,7 +139,7 @@ export default function Rueckruf() {
               </div>
             </div>
 
-            <form onSubmit={handleSubmit} className="bg-gray-50 p-8 rounded-sm space-y-6">
+            <form onSubmit={handleSubmit} className="bg-gray-50 p-8 rounded-xl space-y-6">
               <div className="bg-green-50 p-4 rounded-md flex gap-3 items-start border border-green-100 mb-6">
                 <ShieldCheck className="h-5 w-5 text-green-600 shrink-0 mt-0.5" />
                 <div>

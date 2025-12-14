@@ -30,7 +30,7 @@ export default function Datenschutz() {
         <div className="prose prose-lg text-muted-foreground">
           
           {/* Inhaltsübersicht */}
-          <div className="bg-gray-50 p-6 rounded-sm border border-gray-100 mb-8 not-prose">
+          <div className="bg-gray-50 p-6 rounded-xl border border-gray-100 mb-8 not-prose">
             <h3 className="font-bold text-secondary mb-4">Inhaltsübersicht</h3>
             <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm">
               <li><a href="#praeambel" className="text-primary hover:underline">Präambel</a></li>
@@ -62,7 +62,7 @@ export default function Datenschutz() {
           <p>Die verwendeten Begriffe sind nicht geschlechtsspezifisch.</p>
 
           <h2 id="verantwortlicher" className="text-2xl font-bold text-secondary mt-8 mb-4">Verantwortlicher</h2>
-          <div className="bg-gray-50 p-6 rounded-sm border border-gray-100 my-4">
+          <div className="bg-gray-50 p-6 rounded-xl border border-gray-100 my-4">
             <p className="font-bold text-secondary">089Dach GmbH</p>
             <p>Falko Georg Blöckinger<br />
             Thuillestr. 20<br />
@@ -113,7 +113,7 @@ export default function Datenschutz() {
           </p>
           
           <div className="space-y-4 not-prose my-6">
-            <div className="bg-gray-50 p-6 rounded-sm border border-gray-100">
+            <div className="bg-gray-50 p-6 rounded-xl border border-gray-100">
               <div className="flex items-start gap-3">
                 <Lock className="h-5 w-5 text-primary shrink-0 mt-1" />
                 <div>
@@ -126,7 +126,7 @@ export default function Datenschutz() {
               </div>
             </div>
 
-            <div className="bg-gray-50 p-6 rounded-sm border border-gray-100">
+            <div className="bg-gray-50 p-6 rounded-xl border border-gray-100">
               <div className="flex items-start gap-3">
                 <FileText className="h-5 w-5 text-blue-600 shrink-0 mt-1" />
                 <div>
@@ -140,7 +140,7 @@ export default function Datenschutz() {
               </div>
             </div>
 
-            <div className="bg-gray-50 p-6 rounded-sm border border-gray-100">
+            <div className="bg-gray-50 p-6 rounded-xl border border-gray-100">
               <div className="flex items-start gap-3">
                 <Shield className="h-5 w-5 text-green-600 shrink-0 mt-1" />
                 <div>
@@ -170,7 +170,7 @@ export default function Datenschutz() {
             Verfügbarkeit und ihrer Trennung.
           </p>
           
-          <div className="bg-green-50 p-4 rounded-sm border border-green-100 my-4">
+          <div className="bg-green-50 p-4 rounded-xl border border-green-100 my-4">
             <p className="text-sm text-green-800">
               <strong>TLS-/SSL-Verschlüsselung (HTTPS):</strong> Um die Daten der Nutzer, die über unsere 
               Online-Dienste übertragen werden, vor unerlaubten Zugriffen zu schützen, setzen wir auf die 
@@ -197,7 +197,7 @@ export default function Datenschutz() {
             mit den gesetzlichen Vorgaben.
           </p>
           
-          <div className="bg-blue-50 p-6 rounded-sm border border-blue-100 my-4">
+          <div className="bg-blue-50 p-6 rounded-xl border border-blue-100 my-4">
             <h4 className="font-bold text-secondary mb-2">Data Privacy Framework (DPF)</h4>
             <p className="text-sm text-muted-foreground">
               Für Datenübermittlungen in die USA stützen wir uns vorrangig auf das <strong>Data Privacy 
@@ -219,21 +219,21 @@ export default function Datenschutz() {
           
           <h3 className="text-xl font-bold text-secondary mt-6 mb-3">Aufbewahrungsfristen nach deutschem Recht</h3>
           <div className="space-y-3 not-prose">
-            <div className="bg-gray-50 p-4 rounded-sm border border-gray-100">
+            <div className="bg-gray-50 p-4 rounded-xl border border-gray-100">
               <p className="font-bold text-secondary">10 Jahre</p>
               <p className="text-sm text-muted-foreground">
                 Bücher, Jahresabschlüsse, Inventare, Lageberichte, Eröffnungsbilanz 
                 (§ 147 Abs. 1 Nr. 1 i.V.m. Abs. 3 AO, § 14b Abs. 1 UStG, § 257 Abs. 1 Nr. 1 i.V.m. Abs. 4 HGB)
               </p>
             </div>
-            <div className="bg-gray-50 p-4 rounded-sm border border-gray-100">
+            <div className="bg-gray-50 p-4 rounded-xl border border-gray-100">
               <p className="font-bold text-secondary">6 Jahre</p>
               <p className="text-sm text-muted-foreground">
                 Übrige Geschäftsunterlagen: Handels- oder Geschäftsbriefe, Kalkulationsunterlagen 
                 (§ 147 Abs. 1 Nr. 2, 3, 5 i.V.m. Abs. 3 AO, § 257 Abs. 1 Nr. 2, 3 i.V.m. Abs. 4 HGB)
               </p>
             </div>
-            <div className="bg-gray-50 p-4 rounded-sm border border-gray-100">
+            <div className="bg-gray-50 p-4 rounded-xl border border-gray-100">
               <p className="font-bold text-secondary">3 Jahre</p>
               <p className="text-sm text-muted-foreground">
                 Daten für Gewährleistungs- und Schadensersatzansprüche (§§ 195, 199 BGB)
@@ -248,41 +248,41 @@ export default function Datenschutz() {
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6 not-prose">
-            <div className="bg-gray-50 p-4 rounded-sm border border-gray-100">
+            <div className="bg-gray-50 p-4 rounded-xl border border-gray-100">
               <h4 className="font-bold text-secondary text-sm">Widerspruchsrecht</h4>
               <p className="text-xs text-muted-foreground">Art. 21 DSGVO</p>
             </div>
-            <div className="bg-gray-50 p-4 rounded-sm border border-gray-100">
+            <div className="bg-gray-50 p-4 rounded-xl border border-gray-100">
               <h4 className="font-bold text-secondary text-sm">Widerrufsrecht bei Einwilligungen</h4>
               <p className="text-xs text-muted-foreground">Art. 7 Abs. 3 DSGVO</p>
             </div>
-            <div className="bg-gray-50 p-4 rounded-sm border border-gray-100">
+            <div className="bg-gray-50 p-4 rounded-xl border border-gray-100">
               <h4 className="font-bold text-secondary text-sm">Auskunftsrecht</h4>
               <p className="text-xs text-muted-foreground">Art. 15 DSGVO</p>
             </div>
-            <div className="bg-gray-50 p-4 rounded-sm border border-gray-100">
+            <div className="bg-gray-50 p-4 rounded-xl border border-gray-100">
               <h4 className="font-bold text-secondary text-sm">Recht auf Berichtigung</h4>
               <p className="text-xs text-muted-foreground">Art. 16 DSGVO</p>
             </div>
-            <div className="bg-gray-50 p-4 rounded-sm border border-gray-100">
+            <div className="bg-gray-50 p-4 rounded-xl border border-gray-100">
               <h4 className="font-bold text-secondary text-sm">Recht auf Löschung</h4>
               <p className="text-xs text-muted-foreground">Art. 17 DSGVO</p>
             </div>
-            <div className="bg-gray-50 p-4 rounded-sm border border-gray-100">
+            <div className="bg-gray-50 p-4 rounded-xl border border-gray-100">
               <h4 className="font-bold text-secondary text-sm">Recht auf Einschränkung</h4>
               <p className="text-xs text-muted-foreground">Art. 18 DSGVO</p>
             </div>
-            <div className="bg-gray-50 p-4 rounded-sm border border-gray-100">
+            <div className="bg-gray-50 p-4 rounded-xl border border-gray-100">
               <h4 className="font-bold text-secondary text-sm">Recht auf Datenübertragbarkeit</h4>
               <p className="text-xs text-muted-foreground">Art. 20 DSGVO</p>
             </div>
-            <div className="bg-gray-50 p-4 rounded-sm border border-gray-100">
+            <div className="bg-gray-50 p-4 rounded-xl border border-gray-100">
               <h4 className="font-bold text-secondary text-sm">Beschwerderecht</h4>
               <p className="text-xs text-muted-foreground">Art. 77 DSGVO</p>
             </div>
           </div>
 
-          <div className="bg-gray-50 p-6 rounded-sm border border-gray-100 my-4">
+          <div className="bg-gray-50 p-6 rounded-xl border border-gray-100 my-4">
             <p className="font-bold text-secondary">Zuständige Aufsichtsbehörde:</p>
             <p className="text-muted-foreground mt-2">
               Bayerisches Landesamt für Datenschutzaufsicht (BayLDA)<br />
@@ -300,7 +300,7 @@ export default function Datenschutz() {
             übermitteln.
           </p>
           
-          <div className="bg-gray-50 p-6 rounded-sm border border-gray-100 my-4">
+          <div className="bg-gray-50 p-6 rounded-xl border border-gray-100 my-4">
             <h4 className="font-bold text-secondary mb-2">Erhebung von Zugriffsdaten und Logfiles</h4>
             <p className="text-sm text-muted-foreground">
               Der Zugriff auf unser Onlineangebot wird in Form von "Server-Logfiles" protokolliert. 
@@ -326,13 +326,13 @@ export default function Datenschutz() {
           </p>
           
           <div className="space-y-3 not-prose my-4">
-            <div className="bg-gray-50 p-4 rounded-sm border border-gray-100">
+            <div className="bg-gray-50 p-4 rounded-xl border border-gray-100">
               <p className="font-bold text-secondary">Temporäre Cookies (Session-Cookies)</p>
               <p className="text-sm text-muted-foreground">
                 Werden gelöscht, nachdem der Nutzer das Onlineangebot verlassen und den Browser geschlossen hat.
               </p>
             </div>
-            <div className="bg-gray-50 p-4 rounded-sm border border-gray-100">
+            <div className="bg-gray-50 p-4 rounded-xl border border-gray-100">
               <p className="font-bold text-secondary">Permanente Cookies</p>
               <p className="text-sm text-muted-foreground">
                 Bleiben auch nach dem Schließen des Browsers gespeichert (z.B. für Anmeldestatus).
@@ -345,13 +345,13 @@ export default function Datenschutz() {
           </p>
 
           {/* KI-Chatbot Section */}
-          <div className="bg-primary text-white p-8 rounded-sm my-8 not-prose">
+          <div className="bg-primary text-white p-8 rounded-xl my-8 not-prose">
             <div className="flex items-start gap-4">
               <Bot className="h-8 w-8 text-white shrink-0" />
               <div>
                 <h2 id="ki" className="text-2xl font-heading font-bold mb-4">KI-Chatbot (OpenAI)</h2>
                 
-                <div className="bg-white/10 p-4 rounded-sm mb-4">
+                <div className="bg-white/10 p-4 rounded-xl mb-4">
                   <h4 className="font-bold text-white mb-2">Hinweis gemäß Art. 50 EU AI Act</h4>
                   <p className="text-sm text-white/80">
                     Auf unserer Website setzen wir einen KI-gestützten Chatbot ein, um Ihnen rund um die Uhr 
@@ -361,7 +361,7 @@ export default function Datenschutz() {
                 </div>
                 
                 <div className="space-y-4">
-                  <div className="bg-white/10 p-4 rounded-sm">
+                  <div className="bg-white/10 p-4 rounded-xl">
                     <h4 className="font-bold text-white mb-2">Anbieter</h4>
                     <p className="text-sm text-white/80">
                       OpenAI, L.L.C., 3180 18th Street, San Francisco, CA 94110, USA<br />
@@ -370,7 +370,7 @@ export default function Datenschutz() {
                     </p>
                   </div>
 
-                  <div className="bg-white/10 p-4 rounded-sm">
+                  <div className="bg-white/10 p-4 rounded-xl">
                     <h4 className="font-bold text-white mb-2">Verarbeitete Datenarten</h4>
                     <p className="text-sm text-white/80">
                       Inhaltsdaten (Ihre Chatnachrichten und Anfragen); Meta-, Kommunikations- und 
@@ -378,7 +378,7 @@ export default function Datenschutz() {
                     </p>
                   </div>
 
-                  <div className="bg-white/10 p-4 rounded-sm">
+                  <div className="bg-white/10 p-4 rounded-xl">
                     <h4 className="font-bold text-white mb-2">Zwecke der Verarbeitung</h4>
                     <p className="text-sm text-white/80">
                       Beantwortung von Anfragen zu unseren Dienstleistungen; Terminvereinbarung; 
@@ -386,7 +386,7 @@ export default function Datenschutz() {
                     </p>
                   </div>
 
-                  <div className="bg-white/10 p-4 rounded-sm">
+                  <div className="bg-white/10 p-4 rounded-xl">
                     <h4 className="font-bold text-white mb-2">Rechtsgrundlagen</h4>
                     <p className="text-sm text-white/80">
                       Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO); Vertragserfüllung und 
@@ -394,7 +394,7 @@ export default function Datenschutz() {
                     </p>
                   </div>
 
-                  <div className="bg-white/10 p-4 rounded-sm">
+                  <div className="bg-white/10 p-4 rounded-xl">
                     <h4 className="font-bold text-white mb-2">Speicherdauer</h4>
                     <p className="text-sm text-white/80">
                       Chatnachrichten werden nur für die Dauer der Sitzung verarbeitet und nicht dauerhaft 
@@ -404,7 +404,7 @@ export default function Datenschutz() {
                   </div>
                 </div>
 
-                <div className="bg-yellow-500/20 border border-yellow-500/40 p-4 rounded-sm mt-4">
+                <div className="bg-yellow-500/20 border border-yellow-500/40 p-4 rounded-xl mt-4">
                   <div className="flex items-start gap-2">
                     <AlertTriangle className="h-5 w-5 text-yellow-400 shrink-0 mt-0.5" />
                     <p className="text-sm text-white">
@@ -427,7 +427,7 @@ export default function Datenschutz() {
             und etwaiger angefragter Maßnahmen erforderlich ist.
           </p>
           
-          <div className="bg-gray-50 p-6 rounded-sm border border-gray-100 my-4">
+          <div className="bg-gray-50 p-6 rounded-xl border border-gray-100 my-4">
             <h4 className="font-bold text-secondary mb-2">Verarbeitete Datenarten</h4>
             <ul className="text-sm text-muted-foreground list-disc list-inside space-y-1">
               <li>Bestandsdaten (Name, Adresse, Kundennummer)</li>
@@ -443,7 +443,7 @@ export default function Datenschutz() {
           </div>
 
           <h2 className="text-2xl font-bold text-secondary mt-8 mb-4">Fragen zum Datenschutz?</h2>
-          <div className="bg-secondary text-white p-6 rounded-sm my-4">
+          <div className="bg-secondary text-white p-6 rounded-xl my-4">
             <p className="text-gray-300">
               Kontaktieren Sie uns unter <strong className="text-white">info@089dach.de</strong> oder 
               telefonisch unter <strong className="text-white">+49 89 12621964</strong>.

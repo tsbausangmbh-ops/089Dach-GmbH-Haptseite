@@ -132,7 +132,7 @@ export default function Dachsanierung() {
               <Card key={index} className="border-l-4 border-l-primary hover:shadow-lg transition-shadow" data-testid={`card-warning-${index}`}>
                 <CardContent className="p-6">
                   <div className="flex items-start gap-4">
-                    <div className="p-2 bg-primary/10 rounded-sm text-primary shrink-0">
+                    <div className="p-2 bg-primary/10 rounded-xl text-primary shrink-0">
                       <signal.icon className="h-6 w-6" />
                     </div>
                     <div>
@@ -145,14 +145,14 @@ export default function Dachsanierung() {
             ))}
           </div>
 
-          <div className="mt-12 bg-primary/10 p-8 rounded-sm text-center">
+          <div className="mt-12 bg-primary/10 p-8 rounded-xl text-center">
             <p className="text-lg text-secondary font-medium mb-4">
               Erkennen Sie eines oder mehrere dieser Warnsignale?
             </p>
             <p className="text-muted-foreground mb-6">
               Warten Sie nicht, bis es zu spät ist. Eine kostenlose Dachinspektion gibt Ihnen Klarheit.
             </p>
-            <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-sm" data-testid="button-inspection">
+            <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-xl" data-testid="button-inspection">
               <a href="/rueckruf">Rückruf anfordern</a>
             </Button>
           </div>
@@ -173,8 +173,8 @@ export default function Dachsanierung() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             {benefits.map((benefit, index) => (
-              <div key={index} className="flex items-start gap-4 bg-white p-6 rounded-sm shadow-sm" data-testid={`benefit-${index}`}>
-                <div className="p-3 bg-primary/10 rounded-sm text-primary shrink-0">
+              <div key={index} className="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm" data-testid={`benefit-${index}`}>
+                <div className="p-3 bg-primary/10 rounded-xl text-primary shrink-0">
                   <benefit.icon className="h-8 w-8" />
                 </div>
                 <div>
@@ -241,7 +241,7 @@ export default function Dachsanierung() {
                 </p>
               </div>
             </div>
-            <div className="bg-secondary p-8 rounded-sm text-white">
+            <div className="bg-secondary p-8 rounded-xl text-white">
               <Quote className="h-8 w-8 text-primary mb-4" />
               <p className="italic mb-4">
                 „Wir dachten, wir müssten das Haus verkaufen. Jetzt bleiben wir – und unsere 

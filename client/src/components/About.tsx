@@ -7,7 +7,7 @@ export default function About() {
     <section id="about" className="py-8 bg-stone-50">
       <div className="container mx-auto px-6 lg:px-12">
         
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 bg-white rounded-sm overflow-hidden shadow-sm border border-stone-200">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 bg-white rounded-xl overflow-hidden shadow-sm border border-stone-200">
           
           <div className="relative h-64 lg:h-auto lg:min-h-[500px]">
             <img 
@@ -36,7 +36,7 @@ export default function About() {
                 Deshalb beraten wir ehrlich: Wir verkaufen Ihnen kein neues Dach, wenn eine Reparatur reicht. 
                 Aber wir sagen auch klar, wann eine Sanierung langfristig die bessere Wahl ist.
               </p>
-              <div className="bg-white border border-gray-200 rounded-sm p-4 italic">
+              <div className="bg-white border border-gray-200 rounded-xl p-4 italic">
                 „Die haben uns nicht nur das Dach repariert – sie haben uns die Sorgen genommen."
                 <span className="block text-sm text-primary font-medium mt-2 not-italic">– Familie Schneider, München-Schwabing</span>
               </div>
@@ -60,7 +60,7 @@ export default function About() {
             </div>
             
             <div className="mt-8">
-              <Button className="bg-secondary hover:bg-secondary/90 text-white rounded-sm px-6 py-5" asChild>
+              <Button className="bg-secondary hover:bg-secondary/90 text-white rounded-xl px-6 py-5" asChild>
                 <a href="/ueber-uns">Mehr über uns</a>
               </Button>
             </div>

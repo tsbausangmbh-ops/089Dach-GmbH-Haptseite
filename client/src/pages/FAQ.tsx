@@ -144,7 +144,7 @@ export default function FAQ() {
             </h1>
             
             {/* Problem-Agitation */}
-            <div className="bg-white/10 backdrop-blur-sm p-6 rounded-sm border-l-4 border-primary mb-8">
+            <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl border-l-4 border-primary mb-8">
               <p className="text-lg text-white font-medium mb-3">
                 Kennen Sie das Gefühl?
               </p>
@@ -166,13 +166,13 @@ export default function FAQ() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-sm" data-testid="button-hero-call">
+              <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-xl" data-testid="button-hero-call">
                 <a href="/rueckruf">
                   <Phone className="mr-2 h-5 w-5" />
                   Rückruf anfordern
                 </a>
               </Button>
-              <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-secondary font-bold rounded-sm" data-testid="button-hero-faq">
+              <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-secondary font-bold rounded-xl" data-testid="button-hero-faq">
                 <a href="#fragen">Alle 20 Fragen ansehen</a>
               </Button>
             </div>
@@ -213,28 +213,28 @@ export default function FAQ() {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="bg-white p-6 rounded-sm shadow-sm border-l-4 border-primary">
+            <div className="bg-white p-6 rounded-xl shadow-sm border-l-4 border-primary">
               <CheckCircle2 className="h-8 w-8 text-primary mb-4" />
               <h3 className="font-heading font-bold text-secondary mb-2">Keine bösen Überraschungen</h3>
               <p className="text-sm text-muted-foreground">
                 Sie bekommen ein Festpreisangebot. Was drinsteht, gilt. Punkt.
               </p>
             </div>
-            <div className="bg-white p-6 rounded-sm shadow-sm border-l-4 border-primary">
+            <div className="bg-white p-6 rounded-xl shadow-sm border-l-4 border-primary">
               <Clock className="h-8 w-8 text-primary mb-4" />
               <h3 className="font-heading font-bold text-secondary mb-2">Pünktlich wie versprochen</h3>
               <p className="text-sm text-muted-foreground">
                 Wir halten Termine ein. Und wenn's mal eng wird, sagen wir's Ihnen vorher.
               </p>
             </div>
-            <div className="bg-white p-6 rounded-sm shadow-sm border-l-4 border-primary">
+            <div className="bg-white p-6 rounded-xl shadow-sm border-l-4 border-primary">
               <Euro className="h-8 w-8 text-primary mb-4" />
               <h3 className="font-heading font-bold text-secondary mb-2">Faire Preise, ehrlich kalkuliert</h3>
               <p className="text-sm text-muted-foreground">
                 Kein Lockvogelangebot. Kein Nachverhandeln. Was fair ist, ist fair.
               </p>
             </div>
-            <div className="bg-white p-6 rounded-sm shadow-sm border-l-4 border-primary">
+            <div className="bg-white p-6 rounded-xl shadow-sm border-l-4 border-primary">
               <Heart className="h-8 w-8 text-primary mb-4" />
               <h3 className="font-heading font-bold text-secondary mb-2">Wir hören Ihnen zu</h3>
               <p className="text-sm text-muted-foreground">
@@ -283,7 +283,7 @@ export default function FAQ() {
             {faqs.map((faq, index) => (
               <div 
                 key={index} 
-                className={`${faq.color} p-5 rounded-sm border transition-all hover:shadow-md hover:-translate-y-1`}
+                className={`${faq.color} p-5 rounded-xl border transition-all hover:shadow-md hover:-translate-y-1`}
                 data-testid={`faq-box-${index}`}
               >
                 <h3 className="font-heading font-bold text-secondary text-base mb-2 leading-tight">

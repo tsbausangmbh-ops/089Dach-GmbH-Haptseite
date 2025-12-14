@@ -266,7 +266,7 @@ export default function Referenzen() {
             </h1>
             
             {/* Problem-Agitation */}
-            <div className="bg-white/10 backdrop-blur-sm p-6 rounded-sm border-l-4 border-primary mb-8">
+            <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl border-l-4 border-primary mb-8">
               <p className="text-lg text-white font-medium mb-3">
                 Kennen Sie die Angst?
               </p>
@@ -285,13 +285,13 @@ export default function Referenzen() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-sm" data-testid="button-hero-call">
+              <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-xl" data-testid="button-hero-call">
                 <a href="/rueckruf">
                   <Phone className="mr-2 h-5 w-5" />
                   Rückruf anfordern
                 </a>
               </Button>
-              <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-secondary font-bold rounded-sm" data-testid="button-hero-projects">
+              <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-secondary font-bold rounded-xl" data-testid="button-hero-projects">
                 <a href="#projekte">Alle Projekte ansehen</a>
               </Button>
             </div>
@@ -334,7 +334,7 @@ export default function Referenzen() {
           </header>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {projects.map((project, index) => (
-              <div key={index} className="group flex flex-col bg-white rounded-sm overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300" data-testid={`card-project-${index}`}>
+              <div key={index} className="group flex flex-col bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300" data-testid={`card-project-${index}`}>
                 <div className="relative aspect-[16/9] overflow-hidden">
                   <div className="grid grid-cols-2 h-full">
                     <div className="relative">
@@ -343,7 +343,7 @@ export default function Referenzen() {
                         alt={`${project.title} - Vorher`} 
                         className="w-full h-full object-cover"
                       />
-                      <div className="absolute bottom-2 left-2 bg-red-600 text-white text-xs font-bold px-2 py-1 rounded-sm">
+                      <div className="absolute bottom-2 left-2 bg-red-600 text-white text-xs font-bold px-2 py-1 rounded-xl">
                         VORHER
                       </div>
                     </div>
@@ -353,17 +353,17 @@ export default function Referenzen() {
                         alt={`${project.title} - Nachher`} 
                         className="w-full h-full object-cover"
                       />
-                      <div className="absolute bottom-2 right-2 bg-green-600 text-white text-xs font-bold px-2 py-1 rounded-sm">
+                      <div className="absolute bottom-2 right-2 bg-green-600 text-white text-xs font-bold px-2 py-1 rounded-xl">
                         NACHHER
                       </div>
                     </div>
                   </div>
                   <div className="absolute top-4 left-4">
-                    <span className="bg-primary text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-sm">
+                    <span className="bg-primary text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-xl">
                       {project.category}
                     </span>
                   </div>
-                  <div className="absolute bottom-4 right-1/2 translate-x-1/2 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-sm flex items-center gap-2">
+                  <div className="absolute bottom-4 right-1/2 translate-x-1/2 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-xl flex items-center gap-2">
                     <Clock className="h-4 w-4 text-primary" />
                     <span className="text-sm font-medium text-secondary">{project.duration}</span>
                   </div>
@@ -412,7 +412,7 @@ export default function Referenzen() {
           </p>
           
           <div className="max-w-3xl mx-auto space-y-6">
-            <article className="bg-gray-50 p-6 rounded-sm" itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
+            <article className="bg-gray-50 p-6 rounded-xl" itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
               <h3 className="text-lg font-bold text-secondary mb-2" itemProp="name">
                 Wie lange dauert eine Dachsanierung in München?
               </h3>
@@ -423,7 +423,7 @@ export default function Referenzen() {
               </div>
             </article>
             
-            <article className="bg-gray-50 p-6 rounded-sm" itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
+            <article className="bg-gray-50 p-6 rounded-xl" itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
               <h3 className="text-lg font-bold text-secondary mb-2" itemProp="name">
                 Was kostet eine Dachsanierung in München?
               </h3>
@@ -434,7 +434,7 @@ export default function Referenzen() {
               </div>
             </article>
             
-            <article className="bg-gray-50 p-6 rounded-sm" itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
+            <article className="bg-gray-50 p-6 rounded-xl" itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
               <h3 className="text-lg font-bold text-secondary mb-2" itemProp="name">
                 Welche Garantie gibt 089Dach auf Dacharbeiten?
               </h3>
@@ -445,7 +445,7 @@ export default function Referenzen() {
               </div>
             </article>
             
-            <article className="bg-gray-50 p-6 rounded-sm" itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
+            <article className="bg-gray-50 p-6 rounded-xl" itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
               <h3 className="text-lg font-bold text-secondary mb-2" itemProp="name">
                 In welchen Münchner Stadtteilen arbeitet 089Dach?
               </h3>

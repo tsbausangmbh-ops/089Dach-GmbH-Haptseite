@@ -57,7 +57,7 @@ export default function RatgeberDaemmung() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Button 
                 size="lg"
-                className="bg-primary hover:bg-primary/90 text-white font-bold px-8 py-6 rounded-sm"
+                className="bg-primary hover:bg-primary/90 text-white font-bold px-8 py-6 rounded-xl"
                 asChild
                 data-testid="button-hero-cta"
               >
@@ -184,7 +184,7 @@ export default function RatgeberDaemmung() {
               <div className="text-center">
                 <Button 
                   size="lg"
-                  className="bg-primary hover:bg-primary/90 text-white font-bold px-8 py-6 rounded-sm"
+                  className="bg-primary hover:bg-primary/90 text-white font-bold px-8 py-6 rounded-xl"
                   asChild
                   data-testid="button-mid-cta"
                 >
@@ -290,7 +290,7 @@ export default function RatgeberDaemmung() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button 
                   size="lg"
-                  className="bg-primary hover:bg-primary/90 text-white font-bold px-10 py-6 rounded-sm text-lg"
+                  className="bg-primary hover:bg-primary/90 text-white font-bold px-10 py-6 rounded-xl text-lg"
                   asChild
                   data-testid="button-bottom-cta"
                 >
@@ -309,7 +309,7 @@ export default function RatgeberDaemmung() {
               <Button 
                 size="lg"
                 variant="outline"
-                className="font-bold px-8 py-6 rounded-sm"
+                className="font-bold px-8 py-6 rounded-xl"
                 asChild
               >
                 <Link href="/ratgeber">

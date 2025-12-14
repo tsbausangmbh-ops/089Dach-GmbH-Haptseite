@@ -33,14 +33,14 @@ export default function Gallery() {
               Ausgewählte Projekte
             </h2>
           </div>
-          <Button variant="outline" className="text-white border-white/20 hover:bg-white/10 hover:text-white rounded-sm" asChild>
+          <Button variant="outline" className="text-white border-white/20 hover:bg-white/10 hover:text-white rounded-xl" asChild>
             <a href="/referenzen">Alle Projekte ansehen</a>
           </Button>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {projects.map((project, index) => (
-            <div key={index} className="group relative overflow-hidden rounded-sm aspect-[4/3] cursor-pointer bg-gray-800">
+            <div key={index} className="group relative overflow-hidden rounded-xl aspect-[4/3] cursor-pointer bg-gray-800">
               <img 
                 src={project.src} 
                 alt={project.title} 

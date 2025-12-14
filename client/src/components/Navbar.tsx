@@ -97,7 +97,7 @@ export default function Navbar() {
               <ChevronDown className="h-4 w-4" />
             </button>
             <div className="absolute top-full left-0 pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-              <div className="bg-white shadow-lg border border-gray-100 rounded-sm py-2 min-w-[260px]">
+              <div className="bg-white shadow-lg border border-gray-100 rounded-xl py-2 min-w-[260px]">
                 {leistungenItems.map((item) => (
                   item.name === "---" ? (
                     <div key="separator" className="border-t border-gray-200 my-2" />

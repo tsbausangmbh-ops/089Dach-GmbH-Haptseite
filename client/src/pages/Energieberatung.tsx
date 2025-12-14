@@ -94,7 +94,7 @@ export default function Energieberatung() {
       <section className="py-5 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mx-auto">
-            <div className="bg-white p-8 rounded-sm shadow-sm border-l-4 border-primary" data-testid="testimonial-mueller">
+            <div className="bg-white p-8 rounded-xl shadow-sm border-l-4 border-primary" data-testid="testimonial-mueller">
               <Quote className="h-10 w-10 text-primary/30 mb-4" />
               <p className="text-xl text-secondary leading-relaxed italic mb-6">
                 „Wir dachten, die Förderung ist kompliziert. Aber die Energieberatung durch 089Dach hat uns 
@@ -128,8 +128,8 @@ export default function Energieberatung() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {benefits.map((benefit, index) => (
-              <div key={index} className="flex items-start gap-4 bg-gray-50 p-6 rounded-sm" data-testid={`benefit-${index}`}>
-                <div className="p-3 bg-primary/10 rounded-sm text-primary shrink-0">
+              <div key={index} className="flex items-start gap-4 bg-gray-50 p-6 rounded-xl" data-testid={`benefit-${index}`}>
+                <div className="p-3 bg-primary/10 rounded-xl text-primary shrink-0">
                   <benefit.icon className="h-8 w-8" />
                 </div>
                 <div>
@@ -210,7 +210,7 @@ export default function Energieberatung() {
             Die Energieberatung und Antragsstellung erfolgt durch zertifizierte Energieberater aus unserem 
             Partnernetzwerk. So erhalten Sie alles aus einer Hand – von der Beratung bis zur fertigen Dachsanierung.
           </p>
-          <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-sm" data-testid="button-beratung">
+          <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-xl" data-testid="button-beratung">
             <a href="/rueckruf">
               <Phone className="mr-2 h-5 w-5" />
               Rückruf anfordern

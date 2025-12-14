@@ -57,9 +57,9 @@ export default function Services() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, index) => (
             <a key={index} href={service.link} className="block">
-              <Card className="border border-stone-200 shadow-sm hover:shadow-md hover:border-primary/20 transition-all duration-300 rounded-sm overflow-hidden group bg-white h-full cursor-pointer">
+              <Card className="border border-stone-200 shadow-sm hover:shadow-md hover:border-primary/20 transition-all duration-300 rounded-xl overflow-hidden group bg-white h-full cursor-pointer">
                 <CardHeader className="pb-4">
-                  <div className="mb-4 p-3 bg-stone-100 w-fit rounded-sm group-hover:bg-primary/10 transition-colors">
+                  <div className="mb-4 p-3 bg-stone-100 w-fit rounded-xl group-hover:bg-primary/10 transition-colors">
                     {service.icon}
                   </div>
                   <CardTitle className="text-xl font-heading font-bold text-secondary group-hover:text-primary transition-colors">

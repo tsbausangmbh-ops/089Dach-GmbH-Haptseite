@@ -79,7 +79,7 @@ export default function Contact() {
 
             <div className="space-y-8">
               <div className="flex items-start gap-4">
-                <div className="bg-primary/10 p-3 rounded-sm">
+                <div className="bg-primary/10 p-3 rounded-xl">
                   <MapPin className="h-6 w-6 text-primary" />
                 </div>
                 <div>
@@ -93,7 +93,7 @@ export default function Contact() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="bg-primary/10 p-3 rounded-sm">
+                <div className="bg-primary/10 p-3 rounded-xl">
                   <Phone className="h-6 w-6 text-primary" />
                 </div>
                 <div>
@@ -105,7 +105,7 @@ export default function Contact() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="bg-primary/10 p-3 rounded-sm">
+                <div className="bg-primary/10 p-3 rounded-xl">
                   <Mail className="h-6 w-6 text-primary" />
                 </div>
                 <div>
@@ -117,7 +117,7 @@ export default function Contact() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="bg-primary/10 p-3 rounded-sm">
+                <div className="bg-primary/10 p-3 rounded-xl">
                   <Clock className="h-6 w-6 text-primary" />
                 </div>
                 <div>
@@ -131,7 +131,7 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className="bg-white p-8 md:p-10 rounded-sm border border-stone-200">
+          <div className="bg-white p-8 md:p-10 rounded-xl border border-stone-200">
             <h3 className="text-2xl font-heading font-bold text-secondary mb-6">Nachricht senden</h3>
             <form className="space-y-6" onSubmit={handleSubmit}>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -220,7 +220,7 @@ export default function Contact() {
 
               <Button 
                 type="submit" 
-                className="w-full bg-primary hover:bg-primary/90 text-white font-bold py-6 rounded-sm text-lg"
+                className="w-full bg-primary hover:bg-primary/90 text-white font-bold py-6 rounded-xl text-lg"
                 disabled={isSubmitting}
                 data-testid="button-contact-submit"
               >

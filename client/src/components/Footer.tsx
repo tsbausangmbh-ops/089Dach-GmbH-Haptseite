@@ -16,10 +16,10 @@ export default function Footer() {
               Meister für Dach- und Spenglerei seit 1998. Über 100 zufriedene Kunden in München und Umgebung.
             </p>
             <div className="flex flex-wrap gap-3 text-xs">
-              <span className="bg-white/10 px-2 py-1 rounded-sm flex items-center gap-1">
+              <span className="bg-white/10 px-2 py-1 rounded-xl flex items-center gap-1">
                 <span className="text-yellow-400">★</span> Meisterbetrieb
               </span>
-              <span className="bg-white/10 px-2 py-1 rounded-sm flex items-center gap-1">
+              <span className="bg-white/10 px-2 py-1 rounded-xl flex items-center gap-1">
                 <span className="text-green-400">✓</span> 10 Jahre Garantie
               </span>
             </div>

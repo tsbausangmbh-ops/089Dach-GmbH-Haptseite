@@ -41,7 +41,7 @@ export default function UeberUns() {
             </h1>
             
             {/* Emotionale Problem-Agitation */}
-            <div className="bg-white/10 backdrop-blur-sm p-6 rounded-sm border-l-4 border-primary mb-8">
+            <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl border-l-4 border-primary mb-8">
               <p className="text-lg text-white font-medium mb-3">
                 Warum tun wir, was wir tun?
               </p>
@@ -62,13 +62,13 @@ export default function UeberUns() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-sm" data-testid="button-hero-call">
+              <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-xl" data-testid="button-hero-call">
                 <a href="/rueckruf">
                   <Phone className="mr-2 h-5 w-5" />
                   Rückruf anfordern
                 </a>
               </Button>
-              <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-secondary font-bold rounded-sm" data-testid="button-hero-story">
+              <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-secondary font-bold rounded-xl" data-testid="button-hero-story">
                 <a href="#geschichte">Unsere Geschichte lesen</a>
               </Button>
             </div>
@@ -151,7 +151,7 @@ export default function UeberUns() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-20">
-            <div className="bg-gray-50 rounded-sm p-8 border border-border">
+            <div className="bg-gray-50 rounded-xl p-8 border border-border">
               <div className="flex flex-col items-center text-center">
                 <div className="w-48 h-48 rounded-full overflow-hidden mb-6 border-4 border-primary/20">
                   <img 
@@ -177,7 +177,7 @@ export default function UeberUns() {
               </div>
             </div>
 
-            <div className="bg-gray-50 rounded-sm p-8 border border-border">
+            <div className="bg-gray-50 rounded-xl p-8 border border-border">
               <div className="flex flex-col items-center text-center">
                 <div className="w-48 h-48 rounded-full overflow-hidden mb-6 border-4 border-primary/20">
                   <img 
@@ -205,24 +205,24 @@ export default function UeberUns() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
-            <div className="bg-white p-6 rounded-sm border border-border text-center">
+            <div className="bg-white p-6 rounded-xl border border-border text-center">
               <Clock className="h-8 w-8 text-primary mx-auto mb-3" />
               <span className="text-4xl font-heading font-bold text-primary">60+</span>
               <p className="text-muted-foreground mt-2">Jahre gemeinsame Erfahrung</p>
             </div>
-            <div className="bg-white p-6 rounded-sm border border-border text-center">
+            <div className="bg-white p-6 rounded-xl border border-border text-center">
               <Award className="h-8 w-8 text-primary mx-auto mb-3" />
               <span className="text-4xl font-heading font-bold text-primary">100+</span>
               <p className="text-muted-foreground mt-2">Zufriedene Kunden in München</p>
             </div>
-            <div className="bg-white p-6 rounded-sm border border-border text-center">
+            <div className="bg-white p-6 rounded-xl border border-border text-center">
               <Handshake className="h-8 w-8 text-primary mx-auto mb-3" />
               <span className="text-4xl font-heading font-bold text-primary">100%</span>
               <p className="text-muted-foreground mt-2">Fokus auf Kundenzufriedenheit</p>
             </div>
           </div>
 
-          <div className="bg-secondary/5 rounded-sm p-8 md:p-12 border border-secondary/10 max-w-4xl mx-auto">
+          <div className="bg-secondary/5 rounded-xl p-8 md:p-12 border border-secondary/10 max-w-4xl mx-auto">
             <div className="flex items-start gap-4">
               <Quote className="h-12 w-12 text-primary flex-shrink-0" />
               <div>
@@ -256,7 +256,7 @@ export default function UeberUns() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             
             {/* Geschichte 1: Notfall */}
-            <div className="bg-stone-50 rounded-sm p-8 border border-border">
+            <div className="bg-stone-50 rounded-xl p-8 border border-border">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
                   <Clock className="h-6 w-6 text-primary" />
@@ -280,7 +280,7 @@ export default function UeberUns() {
             </div>
 
             {/* Geschichte 2: Spenglerei */}
-            <div className="bg-stone-50 rounded-sm p-8 border border-border">
+            <div className="bg-stone-50 rounded-xl p-8 border border-border">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
                   <Award className="h-6 w-6 text-primary" />
@@ -304,7 +304,7 @@ export default function UeberUns() {
             </div>
 
             {/* Geschichte 3: Problemlöser */}
-            <div className="bg-stone-50 rounded-sm p-8 border border-border">
+            <div className="bg-stone-50 rounded-xl p-8 border border-border">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
                   <Shield className="h-6 w-6 text-primary" />
@@ -328,7 +328,7 @@ export default function UeberUns() {
             </div>
 
             {/* Geschichte 4: Energiesparen */}
-            <div className="bg-stone-50 rounded-sm p-8 border border-border">
+            <div className="bg-stone-50 rounded-xl p-8 border border-border">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
                   <Heart className="h-6 w-6 text-primary" />
@@ -365,7 +365,7 @@ export default function UeberUns() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            <div className="bg-white p-8 rounded-sm border border-border text-center">
+            <div className="bg-white p-8 rounded-xl border border-border text-center">
               <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
                 <CheckCircle2 className="h-8 w-8 text-primary" />
               </div>
@@ -375,7 +375,7 @@ export default function UeberUns() {
               </p>
             </div>
 
-            <div className="bg-white p-8 rounded-sm border border-border text-center">
+            <div className="bg-white p-8 rounded-xl border border-border text-center">
               <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Users className="h-8 w-8 text-primary" />
               </div>
@@ -385,7 +385,7 @@ export default function UeberUns() {
               </p>
             </div>
 
-            <div className="bg-white p-8 rounded-sm border border-border text-center">
+            <div className="bg-white p-8 rounded-xl border border-border text-center">
               <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Heart className="h-8 w-8 text-primary" />
               </div>

@@ -76,7 +76,7 @@ export default function Bedachungen() {
       <section className="py-4 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mx-auto">
-            <div className="bg-white rounded-sm p-8 md:p-12 shadow-sm border border-border">
+            <div className="bg-white rounded-xl p-8 md:p-12 shadow-sm border border-border">
               <div className="flex items-start gap-4 mb-6">
                 <AlertTriangle className="h-10 w-10 text-primary flex-shrink-0" />
                 <div>
@@ -127,7 +127,7 @@ export default function Bedachungen() {
 
               <div className="mt-10 space-y-6">
                 <div className="flex gap-4">
-                  <div className="bg-primary/10 p-3 rounded-sm h-fit">
+                  <div className="bg-primary/10 p-3 rounded-xl h-fit">
                     <Home className="h-6 w-6 text-primary" />
                   </div>
                   <div>
@@ -140,7 +140,7 @@ export default function Bedachungen() {
                 </div>
 
                 <div className="flex gap-4">
-                  <div className="bg-primary/10 p-3 rounded-sm h-fit">
+                  <div className="bg-primary/10 p-3 rounded-xl h-fit">
                     <Warehouse className="h-6 w-6 text-primary" />
                   </div>
                   <div>
@@ -153,7 +153,7 @@ export default function Bedachungen() {
                 </div>
 
                 <div className="flex gap-4">
-                  <div className="bg-primary/10 p-3 rounded-sm h-fit">
+                  <div className="bg-primary/10 p-3 rounded-xl h-fit">
                     <ShieldCheck className="h-6 w-6 text-primary" />
                   </div>
                   <div>
@@ -171,9 +171,9 @@ export default function Bedachungen() {
               <img 
                 src={tileImage} 
                 alt="Dachziegel Detail" 
-                className="rounded-sm shadow-xl w-full object-cover aspect-[4/5]"
+                className="rounded-xl shadow-xl w-full object-cover aspect-[4/5]"
               />
-              <div className="absolute -bottom-8 -left-8 bg-white p-8 rounded-sm shadow-lg max-w-sm hidden md:block">
+              <div className="absolute -bottom-8 -left-8 bg-white p-8 rounded-xl shadow-lg max-w-sm hidden md:block">
                 <h4 className="font-bold text-secondary text-lg mb-4">Warum 089Dach?</h4>
                 <ul className="space-y-3">
                   <li className="flex items-center gap-2 text-muted-foreground">

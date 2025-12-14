@@ -26,48 +26,48 @@ export default function CookiePolicy() {
         <div className="prose prose-lg text-muted-foreground">
           
           {/* Rechtsgrundlagen Box */}
-          <div className="bg-secondary text-white p-8 rounded-sm mb-8 not-prose">
+          <div className="bg-secondary text-white p-8 rounded-xl mb-8 not-prose">
             <div className="flex items-start gap-4">
               <Scale className="h-8 w-8 text-primary shrink-0" />
               <div>
                 <h2 className="text-xl font-heading font-bold mb-4">Anwendbare EU-Rechtsvorschriften (Stand 12/2025)</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div className="bg-white/10 p-4 rounded-sm">
+                  <div className="bg-white/10 p-4 rounded-xl">
                     <h4 className="font-bold text-white text-sm">DSGVO</h4>
                     <p className="text-xs text-gray-300">Verordnung (EU) 2016/679</p>
                     <p className="text-xs text-gray-400 mt-1">Datenschutz-Grundverordnung</p>
                   </div>
-                  <div className="bg-white/10 p-4 rounded-sm">
+                  <div className="bg-white/10 p-4 rounded-xl">
                     <h4 className="font-bold text-white text-sm">BDSG</h4>
                     <p className="text-xs text-gray-300">Bundesdatenschutzgesetz 2018</p>
                     <p className="text-xs text-gray-400 mt-1">Nationale Ergänzung zur DSGVO</p>
                   </div>
-                  <div className="bg-white/10 p-4 rounded-sm">
+                  <div className="bg-white/10 p-4 rounded-xl">
                     <h4 className="font-bold text-white text-sm">TDDDG</h4>
                     <p className="text-xs text-gray-300">Telekommunikation-Digitale-Dienste-Datenschutz-Gesetz</p>
                     <p className="text-xs text-gray-400 mt-1">Seit 14.05.2024 (ehem. TTDSG)</p>
                   </div>
-                  <div className="bg-white/10 p-4 rounded-sm">
+                  <div className="bg-white/10 p-4 rounded-xl">
                     <h4 className="font-bold text-white text-sm">EU AI Act</h4>
                     <p className="text-xs text-gray-300">Verordnung (EU) 2024/1689</p>
                     <p className="text-xs text-gray-400 mt-1">KI-Verordnung, in Kraft seit 02/2025</p>
                   </div>
-                  <div className="bg-white/10 p-4 rounded-sm">
+                  <div className="bg-white/10 p-4 rounded-xl">
                     <h4 className="font-bold text-white text-sm">DSA</h4>
                     <p className="text-xs text-gray-300">Verordnung (EU) 2022/2065</p>
                     <p className="text-xs text-gray-400 mt-1">Digital Services Act</p>
                   </div>
-                  <div className="bg-white/10 p-4 rounded-sm">
+                  <div className="bg-white/10 p-4 rounded-xl">
                     <h4 className="font-bold text-white text-sm">Data Act</h4>
                     <p className="text-xs text-gray-300">Verordnung (EU) 2023/2854</p>
                     <p className="text-xs text-gray-400 mt-1">EU-Datenverordnung</p>
                   </div>
-                  <div className="bg-white/10 p-4 rounded-sm">
+                  <div className="bg-white/10 p-4 rounded-xl">
                     <h4 className="font-bold text-white text-sm">EinwV</h4>
                     <p className="text-xs text-gray-300">Einwilligungsverordnung</p>
                     <p className="text-xs text-gray-400 mt-1">Seit 01.04.2025</p>
                   </div>
-                  <div className="bg-white/10 p-4 rounded-sm">
+                  <div className="bg-white/10 p-4 rounded-xl">
                     <h4 className="font-bold text-white text-sm">NIS2</h4>
                     <p className="text-xs text-gray-300">Richtlinie (EU) 2022/2555</p>
                     <p className="text-xs text-gray-400 mt-1">Cybersicherheit, DE-Umsetzung 11/2025</p>
@@ -78,7 +78,7 @@ export default function CookiePolicy() {
           </div>
 
           <h2 className="text-2xl font-bold text-secondary mt-8 mb-4">1. Verantwortlicher (Art. 4 Nr. 7 DSGVO)</h2>
-          <div className="bg-gray-50 p-6 rounded-sm border border-gray-100 my-4">
+          <div className="bg-gray-50 p-6 rounded-xl border border-gray-100 my-4">
             <p className="font-bold text-secondary">089Dach GmbH</p>
             <p>Thuillestr. 20<br />81247 München-Obermenzing<br />Deutschland</p>
             <p className="mt-2">
@@ -98,7 +98,7 @@ export default function CookiePolicy() {
           <h2 className="text-2xl font-bold text-secondary mt-8 mb-4">3. Rechtsgrundlagen der Verarbeitung</h2>
           
           <div className="space-y-4 not-prose">
-            <div className="bg-gray-50 p-6 rounded-sm border border-gray-100">
+            <div className="bg-gray-50 p-6 rounded-xl border border-gray-100">
               <div className="flex items-start gap-3">
                 <Lock className="h-5 w-5 text-primary shrink-0 mt-1" />
                 <div>
@@ -111,7 +111,7 @@ export default function CookiePolicy() {
               </div>
             </div>
 
-            <div className="bg-gray-50 p-6 rounded-sm border border-gray-100">
+            <div className="bg-gray-50 p-6 rounded-xl border border-gray-100">
               <div className="flex items-start gap-3">
                 <Shield className="h-5 w-5 text-green-600 shrink-0 mt-1" />
                 <div>
@@ -124,7 +124,7 @@ export default function CookiePolicy() {
               </div>
             </div>
 
-            <div className="bg-gray-50 p-6 rounded-sm border border-gray-100">
+            <div className="bg-gray-50 p-6 rounded-xl border border-gray-100">
               <div className="flex items-start gap-3">
                 <FileText className="h-5 w-5 text-blue-600 shrink-0 mt-1" />
                 <div>
@@ -137,7 +137,7 @@ export default function CookiePolicy() {
               </div>
             </div>
 
-            <div className="bg-gray-50 p-6 rounded-sm border border-gray-100">
+            <div className="bg-gray-50 p-6 rounded-xl border border-gray-100">
               <div className="flex items-start gap-3">
                 <FileText className="h-5 w-5 text-blue-600 shrink-0 mt-1" />
                 <div>
@@ -150,7 +150,7 @@ export default function CookiePolicy() {
               </div>
             </div>
 
-            <div className="bg-gray-50 p-6 rounded-sm border border-gray-100">
+            <div className="bg-gray-50 p-6 rounded-xl border border-gray-100">
               <div className="flex items-start gap-3">
                 <FileText className="h-5 w-5 text-blue-600 shrink-0 mt-1" />
                 <div>
@@ -170,7 +170,7 @@ export default function CookiePolicy() {
           <p>
             Diese Cookies sind für den Betrieb der Website unbedingt erforderlich und können nicht deaktiviert werden.
           </p>
-          <div className="bg-green-50 p-4 rounded-sm border border-green-100 my-4">
+          <div className="bg-green-50 p-4 rounded-xl border border-green-100 my-4">
             <p className="text-sm text-green-800"><strong>Rechtsgrundlage:</strong> § 25 Abs. 2 Nr. 2 TDDDG (keine Einwilligung erforderlich)</p>
           </div>
 
@@ -178,7 +178,7 @@ export default function CookiePolicy() {
           <p>
             Ermöglichen erweiterte Funktionen und Personalisierung, wie Spracheinstellungen.
           </p>
-          <div className="bg-blue-50 p-4 rounded-sm border border-blue-100 my-4">
+          <div className="bg-blue-50 p-4 rounded-xl border border-blue-100 my-4">
             <p className="text-sm text-blue-800"><strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. a DSGVO (Einwilligung erforderlich)</p>
           </div>
 
@@ -186,7 +186,7 @@ export default function CookiePolicy() {
           <p>
             Ermöglichen uns, Besuche und Besucherquellen zu zählen, um die Leistung unserer Website zu messen.
           </p>
-          <div className="bg-blue-50 p-4 rounded-sm border border-blue-100 my-4">
+          <div className="bg-blue-50 p-4 rounded-xl border border-blue-100 my-4">
             <p className="text-sm text-blue-800"><strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. a DSGVO (Einwilligung erforderlich)</p>
           </div>
 
@@ -194,12 +194,12 @@ export default function CookiePolicy() {
           <p>
             Können von Werbepartnern gesetzt werden, um ein Profil Ihrer Interessen zu erstellen.
           </p>
-          <div className="bg-blue-50 p-4 rounded-sm border border-blue-100 my-4">
+          <div className="bg-blue-50 p-4 rounded-xl border border-blue-100 my-4">
             <p className="text-sm text-blue-800"><strong>Rechtsgrundlage:</strong> Art. 6 Abs. 1 lit. a DSGVO (Einwilligung erforderlich)</p>
           </div>
 
           {/* EU AI Act Section */}
-          <div className="bg-primary text-white p-8 rounded-sm my-8 not-prose">
+          <div className="bg-primary text-white p-8 rounded-xl my-8 not-prose">
             <div className="flex items-start gap-4">
               <Bot className="h-8 w-8 text-white shrink-0" />
               <div>
@@ -210,7 +210,7 @@ export default function CookiePolicy() {
                 </p>
                 
                 <div className="space-y-4">
-                  <div className="bg-white/10 p-4 rounded-sm">
+                  <div className="bg-white/10 p-4 rounded-xl">
                     <h4 className="font-bold text-white mb-2">Art. 50 – Transparenzpflichten</h4>
                     <p className="text-sm text-white/80">
                       Betreiber von KI-Systemen mit begrenztem Risiko (z.B. Chatbots) müssen sicherstellen, 
@@ -218,7 +218,7 @@ export default function CookiePolicy() {
                     </p>
                   </div>
                   
-                  <div className="bg-white/10 p-4 rounded-sm">
+                  <div className="bg-white/10 p-4 rounded-xl">
                     <h4 className="font-bold text-white mb-2">Unser Status</h4>
                     <p className="text-sm text-white/80">
                       <strong>089Dach GmbH setzt derzeit keine KI-Systeme ein</strong>, die unter die 
@@ -227,7 +227,7 @@ export default function CookiePolicy() {
                     </p>
                   </div>
 
-                  <div className="bg-white/10 p-4 rounded-sm">
+                  <div className="bg-white/10 p-4 rounded-xl">
                     <h4 className="font-bold text-white mb-2">Art. 5 – Verbotene Praktiken (seit 02.02.2025)</h4>
                     <p className="text-sm text-white/80">
                       Wir verwenden keine KI-Systeme für: unterschwellige Manipulation, Ausnutzung von 
@@ -235,7 +235,7 @@ export default function CookiePolicy() {
                     </p>
                   </div>
 
-                  <div className="bg-white/10 p-4 rounded-sm">
+                  <div className="bg-white/10 p-4 rounded-xl">
                     <h4 className="font-bold text-white mb-2">Zeitplan EU AI Act</h4>
                     <ul className="text-sm text-white/80 space-y-1">
                       <li>• 02.02.2025: Verbotene Praktiken & KI-Kompetenz</li>
@@ -249,7 +249,7 @@ export default function CookiePolicy() {
           </div>
 
           {/* Digital Services Act Section */}
-          <div className="bg-blue-900 text-white p-8 rounded-sm my-8 not-prose">
+          <div className="bg-blue-900 text-white p-8 rounded-xl my-8 not-prose">
             <div className="flex items-start gap-4">
               <Globe className="h-8 w-8 text-blue-300 shrink-0" />
               <div>
@@ -261,7 +261,7 @@ export default function CookiePolicy() {
                 </p>
                 
                 <div className="space-y-4">
-                  <div className="bg-white/10 p-4 rounded-sm">
+                  <div className="bg-white/10 p-4 rounded-xl">
                     <h4 className="font-bold text-white mb-2">Unser Status</h4>
                     <p className="text-sm text-white/80">
                       Als Website eines Handwerksbetriebs fallen wir nicht unter die Kategorie der 
@@ -270,7 +270,7 @@ export default function CookiePolicy() {
                     </p>
                   </div>
 
-                  <div className="bg-white/10 p-4 rounded-sm">
+                  <div className="bg-white/10 p-4 rounded-xl">
                     <h4 className="font-bold text-white mb-2">Zuständige Behörde in Deutschland</h4>
                     <p className="text-sm text-white/80">
                       <strong>Bundesnetzagentur</strong> als Digital Services Coordinator (DSC)
@@ -282,7 +282,7 @@ export default function CookiePolicy() {
           </div>
 
           {/* Data Act Section */}
-          <div className="bg-purple-900 text-white p-8 rounded-sm my-8 not-prose">
+          <div className="bg-purple-900 text-white p-8 rounded-xl my-8 not-prose">
             <div className="flex items-start gap-4">
               <Database className="h-8 w-8 text-purple-300 shrink-0" />
               <div>
@@ -292,7 +292,7 @@ export default function CookiePolicy() {
                   fairen Zugang zu und die Nutzung von Daten und tritt schrittweise in Kraft.
                 </p>
                 
-                <div className="bg-white/10 p-4 rounded-sm">
+                <div className="bg-white/10 p-4 rounded-xl">
                   <h4 className="font-bold text-white mb-2">Relevanz für unsere Website</h4>
                   <p className="text-sm text-white/80">
                     Der Data Act betrifft primär IoT-Geräte und industrielle Daten. Als 
@@ -305,7 +305,7 @@ export default function CookiePolicy() {
           </div>
 
           {/* NIS2 Section */}
-          <div className="bg-orange-900 text-white p-8 rounded-sm my-8 not-prose">
+          <div className="bg-orange-900 text-white p-8 rounded-xl my-8 not-prose">
             <div className="flex items-start gap-4">
               <Server className="h-8 w-8 text-orange-300 shrink-0" />
               <div>
@@ -315,7 +315,7 @@ export default function CookiePolicy() {
                   am 13. November 2025 durch den Bundestag verabschiedet.
                 </p>
                 
-                <div className="bg-white/10 p-4 rounded-sm">
+                <div className="bg-white/10 p-4 rounded-xl">
                   <h4 className="font-bold text-white mb-2">Unser Status</h4>
                   <p className="text-sm text-white/80">
                     Als kleines Handwerksunternehmen fallen wir nicht unter die Größenschwellen 
@@ -328,7 +328,7 @@ export default function CookiePolicy() {
           </div>
 
           {/* EinwV Section */}
-          <div className="bg-teal-900 text-white p-8 rounded-sm my-8 not-prose">
+          <div className="bg-teal-900 text-white p-8 rounded-xl my-8 not-prose">
             <div className="flex items-start gap-4">
               <Users className="h-8 w-8 text-teal-300 shrink-0" />
               <div>
@@ -338,7 +338,7 @@ export default function CookiePolicy() {
                   1. April 2025 in Kraft getreten und ermöglicht zentrale Einwilligungsverwaltungsdienste.
                 </p>
                 
-                <div className="bg-white/10 p-4 rounded-sm">
+                <div className="bg-white/10 p-4 rounded-xl">
                   <h4 className="font-bold text-white mb-2">Status</h4>
                   <p className="text-sm text-white/80">
                     Sobald vom BfDI anerkannte Consent Management Dienste verfügbar sind, 
@@ -353,7 +353,7 @@ export default function CookiePolicy() {
           <h2 className="text-2xl font-bold text-secondary mt-8 mb-4">10. Aktuell verwendete Cookies</h2>
           
           <div className="space-y-4 not-prose">
-            <div className="bg-gray-50 p-6 rounded-sm border border-gray-100">
+            <div className="bg-gray-50 p-6 rounded-xl border border-gray-100">
               <div className="flex justify-between items-start">
                 <div>
                   <h4 className="font-bold text-secondary">cookie-consent</h4>
@@ -368,7 +368,7 @@ export default function CookiePolicy() {
               </div>
             </div>
 
-            <div className="bg-gray-50 p-6 rounded-sm border border-gray-100">
+            <div className="bg-gray-50 p-6 rounded-xl border border-gray-100">
               <div className="flex justify-between items-start">
                 <div>
                   <h4 className="font-bold text-secondary">Session-Cookie</h4>
@@ -387,41 +387,41 @@ export default function CookiePolicy() {
           <h2 className="text-2xl font-bold text-secondary mt-8 mb-4">11. Ihre Rechte nach DSGVO</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6 not-prose">
-            <div className="bg-gray-50 p-4 rounded-sm border border-gray-100">
+            <div className="bg-gray-50 p-4 rounded-xl border border-gray-100">
               <h4 className="font-bold text-secondary text-sm">Art. 15 DSGVO</h4>
               <p className="text-sm text-muted-foreground">Auskunftsrecht</p>
             </div>
-            <div className="bg-gray-50 p-4 rounded-sm border border-gray-100">
+            <div className="bg-gray-50 p-4 rounded-xl border border-gray-100">
               <h4 className="font-bold text-secondary text-sm">Art. 16 DSGVO</h4>
               <p className="text-sm text-muted-foreground">Recht auf Berichtigung</p>
             </div>
-            <div className="bg-gray-50 p-4 rounded-sm border border-gray-100">
+            <div className="bg-gray-50 p-4 rounded-xl border border-gray-100">
               <h4 className="font-bold text-secondary text-sm">Art. 17 DSGVO</h4>
               <p className="text-sm text-muted-foreground">Recht auf Löschung („Recht auf Vergessenwerden")</p>
             </div>
-            <div className="bg-gray-50 p-4 rounded-sm border border-gray-100">
+            <div className="bg-gray-50 p-4 rounded-xl border border-gray-100">
               <h4 className="font-bold text-secondary text-sm">Art. 18 DSGVO</h4>
               <p className="text-sm text-muted-foreground">Recht auf Einschränkung der Verarbeitung</p>
             </div>
-            <div className="bg-gray-50 p-4 rounded-sm border border-gray-100">
+            <div className="bg-gray-50 p-4 rounded-xl border border-gray-100">
               <h4 className="font-bold text-secondary text-sm">Art. 20 DSGVO</h4>
               <p className="text-sm text-muted-foreground">Recht auf Datenübertragbarkeit</p>
             </div>
-            <div className="bg-gray-50 p-4 rounded-sm border border-gray-100">
+            <div className="bg-gray-50 p-4 rounded-xl border border-gray-100">
               <h4 className="font-bold text-secondary text-sm">Art. 21 DSGVO</h4>
               <p className="text-sm text-muted-foreground">Widerspruchsrecht</p>
             </div>
-            <div className="bg-gray-50 p-4 rounded-sm border border-gray-100">
+            <div className="bg-gray-50 p-4 rounded-xl border border-gray-100">
               <h4 className="font-bold text-secondary text-sm">Art. 22 DSGVO</h4>
               <p className="text-sm text-muted-foreground">Automatisierte Entscheidungen im Einzelfall</p>
             </div>
-            <div className="bg-gray-50 p-4 rounded-sm border border-gray-100">
+            <div className="bg-gray-50 p-4 rounded-xl border border-gray-100">
               <h4 className="font-bold text-secondary text-sm">Art. 77 DSGVO</h4>
               <p className="text-sm text-muted-foreground">Beschwerderecht bei Aufsichtsbehörde</p>
             </div>
           </div>
 
-          <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 rounded-sm my-6 not-prose">
+          <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 rounded-xl my-6 not-prose">
             <div className="flex items-start gap-3">
               <AlertTriangle className="h-5 w-5 text-yellow-600 shrink-0 mt-0.5" />
               <div>
@@ -439,7 +439,7 @@ export default function CookiePolicy() {
             Sie haben das Recht, sich bei einer Datenschutz-Aufsichtsbehörde zu beschweren, wenn Sie der 
             Ansicht sind, dass die Verarbeitung Ihrer personenbezogenen Daten gegen die DSGVO verstößt.
           </p>
-          <div className="bg-gray-50 p-6 rounded-sm border border-gray-100 my-4">
+          <div className="bg-gray-50 p-6 rounded-xl border border-gray-100 my-4">
             <p className="font-bold text-secondary">Zuständige Aufsichtsbehörde für Bayern:</p>
             <p className="text-muted-foreground mt-2">
               <strong>Bayerisches Landesamt für Datenschutzaufsicht (BayLDA)</strong><br />
@@ -450,7 +450,7 @@ export default function CookiePolicy() {
               Website: www.lda.bayern.de
             </p>
           </div>
-          <div className="bg-gray-50 p-6 rounded-sm border border-gray-100 my-4">
+          <div className="bg-gray-50 p-6 rounded-xl border border-gray-100 my-4">
             <p className="font-bold text-secondary">Bundesbeauftragte für den Datenschutz (BfDI):</p>
             <p className="text-muted-foreground mt-2">
               Die Bundesbeauftragte für den Datenschutz und die Informationsfreiheit<br />
@@ -462,19 +462,19 @@ export default function CookiePolicy() {
 
           <h2 className="text-2xl font-bold text-secondary mt-8 mb-4">13. Sanktionen bei Verstößen</h2>
           <div className="space-y-4 not-prose">
-            <div className="bg-red-50 p-4 rounded-sm border border-red-100">
+            <div className="bg-red-50 p-4 rounded-xl border border-red-100">
               <h4 className="font-bold text-red-800">DSGVO (Art. 83)</h4>
               <p className="text-sm text-red-700">Bis zu 20 Mio. € oder 4% des weltweiten Jahresumsatzes</p>
             </div>
-            <div className="bg-red-50 p-4 rounded-sm border border-red-100">
+            <div className="bg-red-50 p-4 rounded-xl border border-red-100">
               <h4 className="font-bold text-red-800">TDDDG (§ 25)</h4>
               <p className="text-sm text-red-700">Bis zu 300.000 € bei Cookie-Verstößen</p>
             </div>
-            <div className="bg-red-50 p-4 rounded-sm border border-red-100">
+            <div className="bg-red-50 p-4 rounded-xl border border-red-100">
               <h4 className="font-bold text-red-800">EU AI Act</h4>
               <p className="text-sm text-red-700">Bis zu 35 Mio. € oder 7% des weltweiten Jahresumsatzes</p>
             </div>
-            <div className="bg-red-50 p-4 rounded-sm border border-red-100">
+            <div className="bg-red-50 p-4 rounded-xl border border-red-100">
               <h4 className="font-bold text-red-800">DSA</h4>
               <p className="text-sm text-red-700">Bis zu 6% des weltweiten Jahresumsatzes</p>
             </div>
@@ -486,7 +486,7 @@ export default function CookiePolicy() {
             Browser-Einstellungen anpassen:
           </p>
           
-          <div className="bg-gray-50 p-6 rounded-sm border border-gray-100 my-4">
+          <div className="bg-gray-50 p-6 rounded-xl border border-gray-100 my-4">
             <ul className="space-y-2 text-muted-foreground">
               <li><strong>Chrome:</strong> Einstellungen → Datenschutz und Sicherheit → Cookies</li>
               <li><strong>Firefox:</strong> Einstellungen → Datenschutz & Sicherheit → Cookies</li>
@@ -503,7 +503,7 @@ export default function CookiePolicy() {
           </p>
 
           <h2 className="text-2xl font-bold text-secondary mt-8 mb-4">16. Kontakt</h2>
-          <div className="bg-secondary text-white p-6 rounded-sm my-4">
+          <div className="bg-secondary text-white p-6 rounded-xl my-4">
             <p className="font-bold text-lg">089Dach GmbH</p>
             <p className="text-gray-300 mt-2">
               Thuillestr. 20, 81247 München-Obermenzing<br />

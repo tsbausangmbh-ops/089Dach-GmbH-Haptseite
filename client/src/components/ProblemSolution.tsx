@@ -55,13 +55,13 @@ export default function ProblemSolution({ onOpenFunnel }: ProblemSolutionProps) 
           {problems.map((item, index) => (
             <div 
               key={index}
-              className="bg-white rounded-sm shadow-sm border border-stone-200 overflow-hidden"
+              className="bg-white rounded-xl shadow-sm border border-stone-200 overflow-hidden"
             >
               <div className="grid grid-cols-1 lg:grid-cols-5 min-h-[280px]">
                 
                 <div className="p-8 bg-red-50/50 flex flex-col justify-center border-b lg:border-b-0 lg:border-r border-red-200 lg:col-span-2">
                   <div className="flex items-center gap-3 mb-4">
-                    <div className="p-2 bg-red-100 text-red-600 rounded-sm">
+                    <div className="p-2 bg-red-100 text-red-600 rounded-xl">
                       {item.icon}
                     </div>
                     <span className="text-xs font-bold uppercase tracking-wider text-red-600">Problem</span>
@@ -79,7 +79,7 @@ export default function ProblemSolution({ onOpenFunnel }: ProblemSolutionProps) 
 
                 <div className="p-8 bg-green-50/50 flex flex-col justify-center lg:col-span-3">
                   <div className="flex items-center gap-3 mb-4">
-                    <div className="p-2 bg-green-100 text-green-700 rounded-sm">
+                    <div className="p-2 bg-green-100 text-green-700 rounded-xl">
                       <CheckCircle2 className="h-6 w-6" />
                     </div>
                     <span className="text-xs font-bold uppercase tracking-wider text-green-700">Lösung</span>
@@ -90,14 +90,14 @@ export default function ProblemSolution({ onOpenFunnel }: ProblemSolutionProps) 
                   <p className="text-muted-foreground leading-relaxed mb-4">
                     {item.result}
                   </p>
-                  <div className="flex items-start gap-2 bg-white border border-green-200 rounded-sm p-3 mb-4">
+                  <div className="flex items-start gap-2 bg-white border border-green-200 rounded-xl p-3 mb-4">
                     <Users className="h-4 w-4 text-primary shrink-0 mt-0.5" />
                     <p className="text-sm text-muted-foreground">
                       <span className="font-medium text-secondary">Beispiel:</span> {item.example}
                     </p>
                   </div>
                   <Button 
-                    className="bg-primary hover:bg-primary/90 text-white font-bold rounded-sm w-fit"
+                    className="bg-primary hover:bg-primary/90 text-white font-bold rounded-xl w-fit"
                     asChild
                     data-testid={`button-problem-cta-${index}`}
                   >
@@ -119,7 +119,7 @@ export default function ProblemSolution({ onOpenFunnel }: ProblemSolutionProps) 
           </p>
           <Button 
             size="lg"
-            className="bg-secondary hover:bg-secondary/90 text-white font-bold px-8 py-6 rounded-sm"
+            className="bg-secondary hover:bg-secondary/90 text-white font-bold px-8 py-6 rounded-xl"
             onClick={onOpenFunnel}
             data-testid="button-problem-main-cta"
           >

@@ -236,7 +236,7 @@ export default function Leistungen() {
               >
                 <div className="flex-1 space-y-6">
                   <a href={service.link} className="flex items-center gap-4 group">
-                    <div className="bg-primary/10 p-4 rounded-sm">
+                    <div className="bg-primary/10 p-4 rounded-xl">
                       {service.icon}
                     </div>
                     <h2 className="text-3xl font-heading font-bold text-secondary group-hover:text-primary transition-colors">{service.title}</h2>
@@ -270,14 +270,14 @@ export default function Leistungen() {
                   </ul>
 
                   <a href="/rueckruf">
-                    <Button variant="outline" className="mt-4 border-secondary text-secondary hover:bg-secondary hover:text-white rounded-sm" data-testid={`button-beratung-${service.id}`}>
+                    <Button variant="outline" className="mt-4 border-secondary text-secondary hover:bg-secondary hover:text-white rounded-xl" data-testid={`button-beratung-${service.id}`}>
                       Rückruf anfordern
                     </Button>
                   </a>
                 </div>
                 
                 <div className="w-full lg:w-2/5 space-y-4">
-                  <div className="bg-secondary/5 rounded-sm p-6 border border-secondary/10">
+                  <div className="bg-secondary/5 rounded-xl p-6 border border-secondary/10">
                     <div className="flex items-start gap-3 mb-4">
                       <Quote className="h-8 w-8 text-primary flex-shrink-0" />
                       <p className="text-secondary italic leading-relaxed">
@@ -286,14 +286,14 @@ export default function Leistungen() {
                     </div>
                   </div>
                   
-                  <div className="bg-gray-50 rounded-sm p-6 border border-gray-100 text-center">
+                  <div className="bg-gray-50 rounded-xl p-6 border border-gray-100 text-center">
                     <div className="mb-4 inline-flex items-center justify-center w-12 h-12 rounded-full bg-white shadow-sm">
                       {service.icon}
                     </div>
                     <h3 className="font-heading font-bold text-lg text-secondary">Haben Sie ein ähnliches Problem?</h3>
                     <p className="text-sm text-muted-foreground mt-2 mb-4">Wir finden gemeinsam die beste Lösung für Sie.</p>
                     <a href={service.link} className="w-full">
-                      <Button size="sm" className="bg-primary hover:bg-primary/90 text-white rounded-sm w-full" data-testid={`button-termin-${service.id}`}>
+                      <Button size="sm" className="bg-primary hover:bg-primary/90 text-white rounded-xl w-full" data-testid={`button-termin-${service.id}`}>
                         Mehr erfahren <ArrowRight className="h-4 w-4 ml-2" />
                       </Button>
                     </a>

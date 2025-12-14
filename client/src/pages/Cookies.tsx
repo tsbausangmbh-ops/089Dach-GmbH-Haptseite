@@ -27,7 +27,7 @@ export default function Cookies() {
           <div className="max-w-3xl space-y-12">
             
             {/* Einfache Erklärung */}
-            <div className="bg-primary/10 p-8 rounded-sm">
+            <div className="bg-primary/10 p-8 rounded-xl">
               <div className="flex items-start gap-4">
                 <Cookie className="h-8 w-8 text-primary shrink-0" />
                 <div>
@@ -47,7 +47,7 @@ export default function Cookies() {
               <h2 className="text-2xl font-heading font-bold text-secondary mb-6">Welche Cookies verwenden wir?</h2>
               
               <div className="space-y-6">
-                <div className="bg-gray-50 p-6 rounded-sm">
+                <div className="bg-gray-50 p-6 rounded-xl">
                   <div className="flex items-start gap-4">
                     <Shield className="h-6 w-6 text-primary shrink-0 mt-1" />
                     <div>
@@ -62,7 +62,7 @@ export default function Cookies() {
                   </div>
                 </div>
 
-                <div className="bg-gray-50 p-6 rounded-sm">
+                <div className="bg-gray-50 p-6 rounded-xl">
                   <div className="flex items-start gap-4">
                     <Settings className="h-6 w-6 text-muted-foreground shrink-0 mt-1" />
                     <div>
@@ -87,7 +87,7 @@ export default function Cookies() {
                 unserer Website einschränken kann.
               </p>
               
-              <div className="bg-gray-50 p-6 rounded-sm">
+              <div className="bg-gray-50 p-6 rounded-xl">
                 <h3 className="font-bold text-secondary mb-4">So verwalten Sie Cookies in Ihrem Browser:</h3>
                 <ul className="space-y-2 text-muted-foreground">
                   <li><strong>Chrome:</strong> Einstellungen → Datenschutz und Sicherheit → Cookies</li>
@@ -99,13 +99,13 @@ export default function Cookies() {
             </div>
 
             {/* Kontakt */}
-            <div className="bg-secondary text-white p-8 rounded-sm">
+            <div className="bg-secondary text-white p-8 rounded-xl">
               <h2 className="text-xl font-heading font-bold mb-4">Fragen zu Cookies?</h2>
               <p className="text-gray-300 mb-6">
                 Wenn Sie Fragen zur Verwendung von Cookies auf unserer Website haben, 
                 können Sie uns jederzeit kontaktieren.
               </p>
-              <Button asChild className="bg-primary hover:bg-primary/90 text-white font-bold rounded-sm" data-testid="button-contact-cookies">
+              <Button asChild className="bg-primary hover:bg-primary/90 text-white font-bold rounded-xl" data-testid="button-contact-cookies">
                 <a href="mailto:info@089dach.de">info@089dach.de</a>
               </Button>
             </div>

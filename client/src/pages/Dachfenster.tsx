@@ -108,7 +108,7 @@ export default function Dachfenster() {
                   Heute? Ein helles Home-Office mit zwei VELUX-Fenstern – und der beste Platz im ganzen Haus.
                 </p>
               </div>
-              <div className="bg-white/10 p-6 rounded-sm">
+              <div className="bg-white/10 p-6 rounded-xl">
                 <Quote className="h-8 w-8 text-primary mb-4" />
                 <p className="italic mb-4">
                   „Ich verbringe jetzt jeden Tag dort oben. Morgens die erste Sonne, abends 
@@ -135,8 +135,8 @@ export default function Dachfenster() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             {benefits.map((benefit, index) => (
-              <div key={index} className="flex items-start gap-4 bg-gray-50 p-6 rounded-sm" data-testid={`benefit-${index}`}>
-                <div className="p-3 bg-primary/10 rounded-sm text-primary shrink-0">
+              <div key={index} className="flex items-start gap-4 bg-gray-50 p-6 rounded-xl" data-testid={`benefit-${index}`}>
+                <div className="p-3 bg-primary/10 rounded-xl text-primary shrink-0">
                   <benefit.icon className="h-8 w-8" />
                 </div>
                 <div>
@@ -211,20 +211,20 @@ export default function Dachfenster() {
             Häufige Fragen zu Dachfenstern
           </h2>
           <div className="max-w-2xl mx-auto space-y-4 text-left mt-8">
-            <div className="bg-white/10 p-4 rounded-sm" data-testid="faq-item-0">
+            <div className="bg-white/10 p-4 rounded-xl" data-testid="faq-item-0">
               <p className="font-bold mb-2">Brauche ich eine Baugenehmigung?</p>
               <p className="text-gray-300">In den meisten Fällen nicht – wir prüfen das für Sie.</p>
             </div>
-            <div className="bg-white/10 p-4 rounded-sm" data-testid="faq-item-1">
+            <div className="bg-white/10 p-4 rounded-xl" data-testid="faq-item-1">
               <p className="font-bold mb-2">Wird es im Sommer zu heiß?</p>
               <p className="text-gray-300">Mit Hitzeschutz-Markisen und Rollläden bleibt es angenehm.</p>
             </div>
-            <div className="bg-white/10 p-4 rounded-sm" data-testid="faq-item-2">
+            <div className="bg-white/10 p-4 rounded-xl" data-testid="faq-item-2">
               <p className="font-bold mb-2">Was kostet ein Dachfenster mit Einbau?</p>
               <p className="text-gray-300">Je nach Größe und Ausstattung ab ca. 1.500 € – wir erstellen Ihnen ein individuelles Angebot.</p>
             </div>
           </div>
-          <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-sm mt-8" data-testid="button-faq-contact">
+          <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-xl mt-8" data-testid="button-faq-contact">
             <a href="/rueckruf">Rückruf anfordern</a>
           </Button>
         </div>
