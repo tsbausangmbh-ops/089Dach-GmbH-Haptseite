@@ -139,7 +139,7 @@ export default function FAQ() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="pt-10 pb-12 relative overflow-hidden min-h-[50vh] flex items-center">
+      <section className="pt-6 pb-8 md:pt-10 md:pb-12 relative overflow-hidden min-h-[40vh] md:min-h-[50vh] flex items-center">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img
@@ -157,12 +157,12 @@ export default function FAQ() {
         <div className="container mx-auto px-6 lg:px-12 relative z-10">
           <div className="max-w-2xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">089Dach FAQ</span>
-            <h1 className="text-4xl md:text-6xl font-heading font-bold text-white mt-4 mb-6">
+            <h1 className="text-3xl md:text-5xl lg:text-6xl font-heading font-bold text-white mt-4 mb-4 md:mb-6">
               Die Antworten, die Sie wirklich brauchen
             </h1>
             
             {/* Problem-Agitation */}
-            <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl border-l-4 border-primary mb-8">
+            <div className="bg-white/10 backdrop-blur-sm p-4 md:p-6 rounded-xl border-l-4 border-primary mb-6 md:mb-8">
               <p className="text-lg text-white font-medium mb-3">
                 Kennen Sie das Gefühl?
               </p>
@@ -177,7 +177,7 @@ export default function FAQ() {
               </p>
             </div>
             
-            <p className="text-xl text-gray-200 leading-relaxed mb-8">
+            <p className="text-lg md:text-xl text-gray-200 leading-relaxed mb-6 md:mb-8">
               <strong className="text-white">Genau dafür sind wir hier.</strong> 20 echte Fragen. 20 ehrliche Antworten. 
               Kein Kleingedrucktes. Kein Verkaufsdruck. Nur die Wahrheit – aus 25 Jahren Erfahrung 
               auf Münchner Dächern.
@@ -200,9 +200,9 @@ export default function FAQ() {
       <BackButton />
       
       {/* Trust Badges */}
-      <section className="py-8 border-b border-border bg-white">
+      <section className="py-4 md:py-8 border-b border-border bg-white">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="flex flex-wrap justify-center gap-8 text-sm text-muted-foreground">
+          <div className="flex flex-wrap justify-center gap-4 md:gap-8 text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
               <Users className="h-5 w-5 text-primary" />
               <span><strong className="text-secondary">100+</strong> Kunden beraten</span>
@@ -220,10 +220,10 @@ export default function FAQ() {
       </section>
 
       {/* Ihre Vorteile */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-10 md:py-16 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-3xl mx-auto text-center mb-12">
-            <h2 className="text-3xl font-heading font-bold text-secondary mb-4">
+          <div className="max-w-3xl mx-auto text-center mb-8 md:mb-12">
+            <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">
               Warum unsere Kunden uns vertrauen
             </h2>
             <p className="text-lg text-muted-foreground">
@@ -265,7 +265,7 @@ export default function FAQ() {
       </section>
 
       {/* Problemlöser-Sektion */}
-      <section className="py-16 bg-secondary text-white">
+      <section className="py-10 md:py-16 bg-secondary text-white">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mx-auto">
             <Quote className="h-12 w-12 text-primary mb-6" />
@@ -287,10 +287,10 @@ export default function FAQ() {
         </div>
       </section>
 
-      <section id="fragen" className="py-16 bg-white">
+      <section id="fragen" className="py-10 md:py-16 bg-white">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-2xl mb-12">
-            <h2 className="text-3xl md:text-4xl font-heading font-bold text-secondary mb-4">
+          <div className="max-w-2xl mb-8 md:mb-12">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-heading font-bold text-secondary mb-4">
               {faqs.length} Antworten auf Ihre wichtigsten Fragen
             </h2>
             <p className="text-muted-foreground text-lg">

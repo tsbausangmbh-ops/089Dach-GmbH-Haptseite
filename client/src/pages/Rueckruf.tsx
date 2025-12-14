@@ -130,7 +130,7 @@ export default function Rueckruf() {
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Rückruf anfordern", url: "/rueckruf" }]} />
       <Navbar />
       
-      <section className="pt-10 pb-12 relative overflow-hidden min-h-[50vh] flex items-center">
+      <section className="pt-6 pb-8 md:pt-10 md:pb-12 relative overflow-hidden min-h-[40vh] md:min-h-[50vh] flex items-center">
         <div className="absolute inset-0 z-0">
           <img
             src={heroImage}
@@ -147,13 +147,13 @@ export default function Rueckruf() {
         <div className="container mx-auto px-6 lg:px-12 relative z-10">
           <div className="max-w-2xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">089Dach Rückruf-Service</span>
-            <h1 className="text-4xl md:text-6xl font-heading font-bold text-white mt-4 mb-6">
+            <h1 className="text-3xl md:text-5xl lg:text-6xl font-heading font-bold text-white mt-4 mb-6">
               Sparen Sie Zeit & Nerven.
               <br />
               <span className="text-primary">Wir rufen Sie an.</span>
             </h1>
             
-            <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl border-l-4 border-primary mb-8">
+            <div className="bg-white/10 backdrop-blur-sm p-4 md:p-6 rounded-xl border-l-4 border-primary mb-8">
               <p className="text-lg text-white font-medium mb-3">
                 Keine Lust auf Warteschleifen?
               </p>
@@ -213,7 +213,7 @@ export default function Rueckruf() {
                   Wählen Sie Ihren Wunschtermin
                 </h2>
               </div>
-              <div className="bg-stone-50 p-6 rounded-xl border-l-4 border-primary">
+              <div className="bg-stone-50 p-4 md:p-6 rounded-xl border-l-4 border-primary">
                 <p className="text-secondary font-medium mb-3">
                   Ihr Dach verdient die beste Beratung – und Sie den besten Service.
                 </p>

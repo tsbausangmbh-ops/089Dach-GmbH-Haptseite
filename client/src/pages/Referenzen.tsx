@@ -249,7 +249,7 @@ export default function Referenzen() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="pt-10 pb-12 relative overflow-hidden min-h-[50vh] flex items-center">
+      <section className="pt-6 pb-8 md:pt-10 md:pb-12 relative overflow-hidden min-h-[40vh] md:min-h-[50vh] flex items-center">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img
@@ -267,12 +267,12 @@ export default function Referenzen() {
         <div className="container mx-auto px-6 lg:px-12 relative z-10">
           <div className="max-w-2xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">089Dach Referenzen</span>
-            <h1 className="text-4xl md:text-6xl font-heading font-bold text-white mt-4 mb-6">
+            <h1 className="text-3xl md:text-5xl lg:text-6xl font-heading font-bold text-white mt-4 mb-4 md:mb-6">
               So sieht zufrieden aus
             </h1>
             
             {/* Problem-Agitation */}
-            <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl border-l-4 border-primary mb-8">
+            <div className="bg-white/10 backdrop-blur-sm p-4 md:p-6 rounded-xl border-l-4 border-primary mb-6 md:mb-8">
               <p className="text-lg text-white font-medium mb-3">
                 Kennen Sie die Angst?
               </p>
@@ -285,7 +285,7 @@ export default function Referenzen() {
               </p>
             </div>
             
-            <p className="text-xl text-gray-200 leading-relaxed mb-8">
+            <p className="text-lg md:text-xl text-gray-200 leading-relaxed mb-6 md:mb-8">
               Vorher. Nachher. Das Problem. Die Lösung. <strong className="text-white">Und was die Kunden selbst sagen.</strong> 
               Urteilen Sie selbst, ob wir halten, was wir versprechen.
             </p>
@@ -306,9 +306,9 @@ export default function Referenzen() {
       </section>
       
       {/* Trust Badges */}
-      <section className="py-8 border-b border-border bg-white">
+      <section className="py-4 md:py-8 border-b border-border bg-white">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="flex flex-wrap justify-center gap-8 text-sm text-muted-foreground">
+          <div className="flex flex-wrap justify-center gap-4 md:gap-8 text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
               <CheckCircle2 className="h-5 w-5 text-primary" />
               <span><strong className="text-secondary">500+</strong> Projekte abgeschlossen</span>
@@ -326,10 +326,10 @@ export default function Referenzen() {
       </section>
 
       {/* Case Studies Grid */}
-      <section id="projekte" className="py-16 bg-gray-50">
+      <section id="projekte" className="py-10 md:py-16 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
-          <header className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-heading font-bold text-secondary mb-4">
+          <header className="text-center mb-8 md:mb-12">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-heading font-bold text-secondary mb-4">
               12 echte Dachprojekte aus München und Umgebung
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
@@ -338,7 +338,7 @@ export default function Referenzen() {
               sehen Sie, wie wir Münchner Dächer verwandeln.
             </p>
           </header>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-8">
             {projects.map((project, index) => (
               <div key={index} className="group flex flex-col bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300" data-testid={`card-project-${index}`}>
                 <div className="relative aspect-[16/9] overflow-hidden">
@@ -416,9 +416,9 @@ export default function Referenzen() {
       </section>
 
       {/* SEO FAQ Section for Featured Snippets */}
-      <section className="py-16 bg-white" itemScope itemType="https://schema.org/FAQPage">
+      <section className="py-10 md:py-16 bg-white" itemScope itemType="https://schema.org/FAQPage">
         <div className="container mx-auto px-6 lg:px-12">
-          <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
+          <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary text-center mb-4">
             Häufige Fragen zu Dachsanierungen in München
           </h2>
           <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">

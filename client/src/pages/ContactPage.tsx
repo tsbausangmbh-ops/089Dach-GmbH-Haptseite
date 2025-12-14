@@ -22,7 +22,7 @@ export default function ContactPage() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="pt-10 pb-12 relative overflow-hidden min-h-[50vh] flex items-center">
+      <section className="pt-6 pb-8 md:pt-10 md:pb-12 relative overflow-hidden min-h-[40vh] md:min-h-[50vh] flex items-center">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img
@@ -40,11 +40,11 @@ export default function ContactPage() {
         <div className="container mx-auto px-6 lg:px-12 relative z-10">
           <div className="max-w-2xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">089Dach Kontakt</span>
-            <h1 className="text-4xl md:text-6xl font-heading font-bold text-white mt-4 mb-6">
+            <h1 className="text-3xl md:text-5xl lg:text-6xl font-heading font-bold text-white mt-4 mb-6">
               Wir sind persönlich für Sie da
             </h1>
             
-            <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl border-l-4 border-primary mb-8">
+            <div className="bg-white/10 backdrop-blur-sm p-4 md:p-6 rounded-xl border-l-4 border-primary mb-8">
               <p className="text-lg text-white font-medium mb-3">
                 Ihr Anliegen ist bei uns in guten Händen.
               </p>

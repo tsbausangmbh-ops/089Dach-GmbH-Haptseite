@@ -108,7 +108,7 @@ export default function Reparaturservice() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="pt-10 pb-12 bg-secondary relative overflow-hidden min-h-[40vh] flex items-center">
+      <section className="pt-6 pb-8 md:pt-10 md:pb-12 bg-secondary relative overflow-hidden min-h-[40vh] flex items-center">
         <div className="absolute inset-0 z-0">
           <img
             src={heroImage}
@@ -125,7 +125,7 @@ export default function Reparaturservice() {
         <div className="container mx-auto px-6 lg:px-12 relative z-10">
           <div className="max-w-2xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Schnelle Dachreparatur München</span>
-            <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mt-4 mb-6">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mt-4 mb-6">
               <span className="text-primary">Dach-Notfall?</span>
               <br />
               Wir helfen schnell.

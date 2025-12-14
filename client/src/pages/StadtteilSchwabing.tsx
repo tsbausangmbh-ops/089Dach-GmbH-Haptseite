@@ -65,18 +65,18 @@ export default function StadtteilSchwabing() {
       <NearbyServiceSchema />
       <Navbar />
       
-      <section className="pt-10 pb-12 bg-secondary relative overflow-hidden min-h-[35vh] flex items-center">
+      <section className="pt-6 pb-8 md:pt-10 md:pb-12 bg-secondary relative overflow-hidden min-h-[35vh] flex items-center">
         <div className="absolute inset-0 bg-gradient-to-r from-secondary via-secondary/95 to-secondary/80"></div>
-        <div className="container mx-auto px-6 lg:px-12 relative z-10">
+        <div className="container mx-auto px-4 md:px-6 lg:px-12 relative z-10">
           <div className="max-w-3xl text-white">
-            <div className="flex items-center gap-2 mb-4">
+            <div className="flex items-center gap-2 mb-3 md:mb-4">
               <MapPin className="h-5 w-5 text-primary" />
               <span className="text-primary font-bold tracking-wider uppercase text-sm">Denkmalschutz-Experten</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mb-6">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-4 md:mb-6">
               Dachdecker {stadtteilData.fullName}
             </h1>
-            <p className="text-xl text-gray-200 max-w-xl mb-6">
+            <p className="text-lg md:text-xl text-gray-200 max-w-xl mb-4 md:mb-6">
               Spezialisiert auf historische Jugendstilbauten und denkmalgeschützte Dächer in {stadtteilData.name}.
             </p>
             <div className="flex flex-wrap gap-4">
@@ -95,9 +95,9 @@ export default function StadtteilSchwabing() {
         </div>
       </section>
 
-      <div className="bg-stone-100 py-3 border-b border-stone-200">
-        <div className="container mx-auto px-6 lg:px-12">
-          <div className="flex flex-wrap justify-center gap-6 text-sm">
+      <div className="bg-stone-100 py-2 md:py-3 border-b border-stone-200">
+        <div className="container mx-auto px-4 md:px-6 lg:px-12">
+          <div className="flex flex-wrap justify-center gap-3 md:gap-6 text-xs md:text-sm">
             <span className="flex items-center gap-2"><MapPin className="h-4 w-4 text-primary" />PLZ: {stadtteilData.plz}</span>
             <span className="flex items-center gap-2"><Clock className="h-4 w-4 text-primary" />Anfahrt: ~20 Min</span>
             <span className="flex items-center gap-2"><Star className="h-4 w-4 text-primary" />4.9/5 Sterne</span>
@@ -106,12 +106,12 @@ export default function StadtteilSchwabing() {
         </div>
       </div>
 
-      <section className="py-12">
-        <div className="container mx-auto px-6 lg:px-12">
+      <section className="py-8 md:py-12">
+        <div className="container mx-auto px-4 md:px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="lg:col-span-2 space-y-8">
               <div>
-                <h2 className="text-3xl font-heading font-bold text-secondary mb-4">Denkmalschutz-Experten für {stadtteilData.name}</h2>
+                <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Denkmalschutz-Experten für {stadtteilData.name}</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4">{stadtteilData.beschreibung}</p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
                   Unser Meister hat jahrzehntelange Erfahrung mit historischen Dächern. Wir arbeiten eng mit dem 
@@ -119,7 +119,7 @@ export default function StadtteilSchwabing() {
                 </p>
               </div>
 
-              <div className="bg-primary/5 rounded-xl p-6 border border-primary/20">
+              <div className="bg-primary/5 rounded-xl p-4 md:p-6 border border-primary/20">
                 <h3 className="text-xl font-heading font-bold text-secondary mb-4 flex items-center gap-2">
                   <Award className="h-6 w-6 text-primary" />Besonderheiten in {stadtteilData.name}
                 </h3>
@@ -134,7 +134,7 @@ export default function StadtteilSchwabing() {
               </div>
 
               <div>
-                <h3 className="text-2xl font-heading font-bold text-secondary mb-4">Unsere Leistungen in {stadtteilData.name}</h3>
+                <h3 className="text-xl md:text-2xl font-heading font-bold text-secondary mb-4">Unsere Leistungen in {stadtteilData.name}</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {[
                     { title: "Schiefereindeckung", desc: "Naturschiefer für historische Bauten" },
@@ -152,7 +152,7 @@ export default function StadtteilSchwabing() {
                 </div>
               </div>
 
-              <div className="bg-secondary/5 rounded-xl p-6">
+              <div className="bg-secondary/5 rounded-xl p-4 md:p-6">
                 <h3 className="text-xl font-heading font-bold text-secondary mb-2">Referenzprojekt: {stadtteilData.referenzProjekt.titel}</h3>
                 <p className="text-muted-foreground mb-2">{stadtteilData.referenzProjekt.beschreibung}</p>
                 <p className="text-sm text-primary font-medium">Fertigstellung: {stadtteilData.referenzProjekt.jahr}</p>
@@ -160,7 +160,7 @@ export default function StadtteilSchwabing() {
             </div>
 
             <div className="space-y-6">
-              <div className="bg-primary text-white rounded-xl p-6">
+              <div className="bg-primary text-white rounded-xl p-4 md:p-6">
                 <h3 className="text-xl font-bold mb-4">Kostenlose Beratung in {stadtteilData.name}</h3>
                 <p className="text-white/90 mb-6">Spezialisierte Beratung für historische Gebäude.</p>
                 <a href="/beratung" className="block">
@@ -175,7 +175,7 @@ export default function StadtteilSchwabing() {
                 </a>
               </div>
 
-              <div className="bg-white rounded-xl p-6 border border-gray-100">
+              <div className="bg-white rounded-xl p-4 md:p-6 border border-gray-100">
                 <h4 className="font-bold text-secondary mb-4">Auch in der Nähe tätig:</h4>
                 <ul className="space-y-2">
                   {stadtteilData.nachbarStadtteile.map((stadtteil, idx) => (
@@ -188,7 +188,7 @@ export default function StadtteilSchwabing() {
                 </ul>
               </div>
 
-              <div className="bg-gray-50 rounded-xl p-6">
+              <div className="bg-gray-50 rounded-xl p-4 md:p-6">
                 <h4 className="font-bold text-secondary mb-4">Warum 089Dach?</h4>
                 <ul className="space-y-3">
                   {["Meisterbetrieb seit 1998", "Denkmalschutz-Erfahrung", "10 Jahre Garantie", "Eigene Spenglerwerkstatt", "Hochwertige Materialien"].map((item, idx) => (

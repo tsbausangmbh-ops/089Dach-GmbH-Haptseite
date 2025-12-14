@@ -9,7 +9,7 @@ interface HeroProps {
 export default function Hero({ onOpenFunnel }: HeroProps) {
   return (
     <>
-      <div className="relative w-full min-h-[70vh] flex items-center overflow-hidden pt-16 md:pt-20">
+      <div className="relative w-full min-h-[60vh] md:min-h-[70vh] flex items-center overflow-hidden pt-16 md:pt-20">
         <div className="absolute inset-0 z-0">
           <img
             src={heroImage}
@@ -59,7 +59,7 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
               <span className="text-primary">Wir lösen sie.</span>
             </h1>
             
-            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-5 mb-6">
+            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-4 md:p-5 mb-4 md:mb-6">
               <p className="text-lg md:text-xl text-white font-medium">
                 <span className="text-primary">✓</span> Undichte Stellen finden und beheben<br/>
                 <span className="text-primary">✓</span> Heizkosten senken durch bessere Dämmung<br/>
@@ -67,12 +67,12 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
               </p>
             </div>
             
-            <p className="text-lg md:text-xl text-gray-100 mb-8 max-w-xl leading-relaxed">
+            <p className="text-base md:text-xl text-gray-100 mb-6 md:mb-8 max-w-xl leading-relaxed">
               <strong className="text-white">Über 100+ zufriedene Kunden</strong> vertrauen 089Dach GmbH München. 
               <span className="text-primary font-semibold"> Faire Festpreise. Ehrliche Beratung. Saubere Arbeit.</span>
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 mb-6">
+            <div className="flex flex-col sm:flex-row gap-3 md:gap-4 mb-4 md:mb-6">
               <Button 
                 size="lg" 
                 className="bg-primary hover:bg-primary/90 text-white font-bold text-lg px-8 py-7 rounded-xl shadow-xl hover:scale-105 transition-transform"
