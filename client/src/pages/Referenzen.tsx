@@ -306,7 +306,7 @@ export default function Referenzen() {
       </section>
       
       {/* Trust Badges */}
-      <section className="py-4 md:py-8 border-b border-border bg-white">
+      <section className="py-3 md:py-6 border-b border-border bg-white">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="flex flex-wrap justify-center gap-4 md:gap-8 text-sm text-muted-foreground">
             <div className="flex items-center gap-2">

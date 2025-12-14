@@ -100,7 +100,7 @@ export default function Dachfenster() {
       <BackButton />
 
       {/* Transformation Story */}
-      <section className="py-10 md:py-16 bg-secondary text-white">
+      <section className="py-6 md:py-10 bg-secondary text-white">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mx-auto">
             <div className="grid md:grid-cols-2 gap-4 items-center" data-testid="testimonial-berger">
