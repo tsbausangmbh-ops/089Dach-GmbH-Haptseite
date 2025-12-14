@@ -2,7 +2,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Contact from "@/components/Contact";
 import LeadFunnel from "@/components/LeadFunnel";
-import heroImage from "@assets/generated_images/expert_answering_roof_questions.png";
+import heroImage from "@assets/generated_images/roofer_explaining_to_homeowner.png";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Phone, Shield, Users, Award } from "lucide-react";
