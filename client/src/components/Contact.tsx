@@ -6,7 +6,7 @@ import { MapPin, Phone, Mail, Clock } from "lucide-react";
 export default function Contact() {
   return (
     <section id="contact" className="py-20 bg-white">
-      <div className="container mx-auto px-4 mb-20">
+      <div className="container mx-auto px-4 mb-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24">
           
           <div>
@@ -109,7 +109,7 @@ export default function Contact() {
         </div>
       </div>
 
-      <div className="w-full h-[500px] bg-gray-100 grayscale hover:grayscale-0 transition-all duration-500">
+      <div className="w-full h-[350px] bg-gray-100 grayscale hover:grayscale-0 transition-all duration-500">
         <iframe 
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2660.569852277457!2d11.455648976922557!3d48.1764669712478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e7710a3099999%3A0x6b801a0808080808!2sThuillestra%C3%9Fe%2020%2C%2081247%20M%C3%BCnchen!5e0!3m2!1sde!2sde!4v1709825484897!5m2!1sde!2sde" 
           width="100%" 
