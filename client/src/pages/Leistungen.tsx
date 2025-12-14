@@ -295,7 +295,7 @@ export default function Leistungen() {
                     </div>
                     <h3 className="font-heading font-bold text-lg text-secondary">Haben Sie ein ähnliches Problem?</h3>
                     <p className="text-sm text-muted-foreground mt-2 mb-4">Wir finden gemeinsam die beste Lösung für Sie.</p>
-                    <a href="tel:08912621964" className="w-full">
+                    <a href="/kontakt" className="w-full">
                       <Button size="sm" className="bg-primary hover:bg-primary/90 text-white rounded-sm w-full" data-testid={`button-termin-${service.id}`}>
                         Jetzt Termin vereinbaren
                       </Button>
