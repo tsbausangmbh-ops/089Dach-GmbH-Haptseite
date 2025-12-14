@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Wrench, ShieldCheck, PenTool, CheckCircle2 } from "lucide-react";
 import heroImage from "@assets/generated_images/copper_roof_gutter_detail.png";
 import detailImage from "@assets/generated_images/metal_standing_seam_roof_detail.png";
+import LeadFunnel from "@/components/LeadFunnel";
 
 export default function Spenglerei() {
   return (
@@ -123,21 +124,7 @@ export default function Spenglerei() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="bg-gray-50 py-16">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-heading font-bold text-secondary mb-6">
-            Individuelle Blecharbeiten benötigt?
-          </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-            Wir fertigen auch Sonderlösungen nach Maß. Kontaktieren Sie uns für eine Beratung.
-          </p>
-          <Button size="lg" className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-lg rounded-sm">
-            Jetzt Angebot anfordern
-            <ArrowRight className="ml-2 h-5 w-5" />
-          </Button>
-        </div>
-      </section>
+      <LeadFunnel />
 
       <Contact />
       <Footer />

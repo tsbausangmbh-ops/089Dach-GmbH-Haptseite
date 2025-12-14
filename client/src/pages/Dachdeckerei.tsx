@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { CheckCircle2, ArrowRight, Home, Warehouse, ShieldCheck } from "lucide-react";
 import heroImage from "@assets/generated_images/roofer_working_on_red_tile_roof_munich.png";
 import tileImage from "@assets/generated_images/red_roof_tiles_texture_close_up.png";
+import LeadFunnel from "@/components/LeadFunnel";
 
 export default function Dachdeckerei() {
   return (
@@ -123,22 +124,8 @@ export default function Dachdeckerei() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="bg-gray-50 py-16">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-heading font-bold text-secondary mb-6">
-            Planen Sie eine Dachsanierung?
-          </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-            Lassen Sie sich von uns beraten. Wir prüfen Ihr Dach und erstellen Ihnen ein unverbindliches Angebot.
-          </p>
-          <Button size="lg" className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-lg rounded-sm">
-            Jetzt Beratungstermin vereinbaren
-            <ArrowRight className="ml-2 h-5 w-5" />
-          </Button>
-        </div>
-      </section>
-
+      <LeadFunnel />
+      
       <Contact />
       <Footer />
     </div>

@@ -5,6 +5,8 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Home, Warehouse, Wrench, Hammer, ShieldCheck, Ruler, CheckCircle2 } from "lucide-react";
 import heroImage from "@assets/generated_images/modern_house_with_anthracite_roof.png";
 
+import LeadFunnel from "@/components/LeadFunnel";
+
 export default function Leistungen() {
   const services = [
     {
@@ -159,23 +161,15 @@ export default function Leistungen() {
           </div>
         </div>
       </section>
+      
+      <LeadFunnel />
 
-      {/* CTA Section */}
+      {/* CTA Section - Removed as it's redundant with LeadFunnel, or keep as a secondary one? Removing for cleaner look since LeadFunnel is strong */}
+      {/* 
       <section className="bg-secondary text-white py-16">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-heading font-bold mb-6">
-            Nicht das Passende gefunden?
-          </h2>
-          <p className="text-lg text-gray-300 max-w-2xl mx-auto mb-8">
-            Kein Problem. Als Meisterbetrieb finden wir für fast jede Herausforderung am Dach eine Lösung.
-            Sprechen Sie uns einfach an.
-          </p>
-          <Button size="lg" className="bg-white text-secondary hover:bg-gray-100 px-8 py-6 text-lg rounded-sm font-bold">
-            Individuelle Anfrage stellen
-            <ArrowRight className="ml-2 h-5 w-5" />
-          </Button>
-        </div>
+        ...
       </section>
+      */}
 
       <Contact />
       <Footer />

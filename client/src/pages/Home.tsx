@@ -5,6 +5,7 @@ import About from "@/components/About";
 import Gallery from "@/components/Gallery";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import LeadFunnel from "@/components/LeadFunnel";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <main>
         <Hero />
         <Services />
+        <LeadFunnel />
         <About />
         <Gallery />
         <Contact />
