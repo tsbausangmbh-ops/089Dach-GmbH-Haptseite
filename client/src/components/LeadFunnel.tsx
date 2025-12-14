@@ -69,13 +69,13 @@ export default function LeadFunnel({ externalOpen, onExternalOpenChange }: LeadF
         handleOpenChange(false);
       } else {
         toast.error("Etwas ist schiefgelaufen", {
-          description: "Bitte versuchen Sie es erneut oder rufen Sie uns direkt an."
+          description: "Bitte versuchen Sie es erneut oder schreiben Sie uns per E-Mail."
         });
       }
     } catch (error) {
       console.error("Error submitting lead:", error);
       toast.error("Verbindungsfehler", {
-        description: "Bitte versuchen Sie es erneut oder rufen Sie uns an: 089 12621964"
+        description: "Bitte versuchen Sie es erneut oder schreiben Sie uns: info@089dach.de"
       });
     } finally {
       setIsSubmitting(false);
@@ -345,9 +345,8 @@ export default function LeadFunnel({ externalOpen, onExternalOpenChange }: LeadF
                   >
                     ← Zurück
                   </button>
-                  <a href="tel:08912621964" className="text-sm text-primary font-medium flex items-center gap-1">
-                    <Phone className="h-4 w-4" />
-                    Lieber anrufen?
+                  <a href="mailto:info@089dach.de" className="text-sm text-primary font-medium flex items-center gap-1">
+                    Lieber per E-Mail?
                   </a>
                 </div>
               )}
