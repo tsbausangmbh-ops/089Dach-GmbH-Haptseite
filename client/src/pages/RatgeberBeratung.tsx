@@ -452,8 +452,7 @@ export default function RatgeberBeratung() {
             <div className="text-center">
               <Button 
                 size="lg"
-                variant="outline"
-                className="font-bold px-8 py-6 rounded-xl"
+                className="bg-secondary hover:bg-secondary/90 text-white font-bold px-8 py-6 rounded-xl"
                 asChild
               >
                 <Link href="/ratgeber">
