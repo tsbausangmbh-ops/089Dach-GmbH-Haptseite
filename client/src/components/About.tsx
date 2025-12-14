@@ -4,10 +4,10 @@ import { Award, MapPin } from "lucide-react";
 
 export default function About() {
   return (
-    <section id="about" className="py-20 bg-white">
+    <section id="about" className="py-20 bg-stone-50">
       <div className="container mx-auto px-4">
         
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 bg-gray-50 rounded-sm overflow-hidden shadow-sm border border-gray-100">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 bg-white rounded-sm overflow-hidden shadow-sm border border-stone-200">
           
           <div className="relative h-64 lg:h-auto lg:min-h-[500px]">
             <img 

@@ -128,7 +128,7 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
         </div>
       </div>
 
-      <div className="bg-gray-50 py-6 border-b border-gray-100">
+      <div className="bg-stone-100 py-6 border-b border-stone-200">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 text-center md:text-left">
             <div className="flex -space-x-3">

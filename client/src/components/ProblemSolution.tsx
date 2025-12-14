@@ -37,7 +37,7 @@ export default function ProblemSolution({ onOpenFunnel }: ProblemSolutionProps) 
   ];
 
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-20 bg-stone-100">
       <div className="container mx-auto px-4">
         
         <div className="text-center max-w-2xl mx-auto mb-12">
@@ -51,11 +51,11 @@ export default function ProblemSolution({ onOpenFunnel }: ProblemSolutionProps) 
           {problems.map((item, index) => (
             <div 
               key={index}
-              className="bg-white rounded-sm shadow-sm border border-gray-100 overflow-hidden"
+              className="bg-white rounded-sm shadow-sm border border-stone-200 overflow-hidden"
             >
               <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[280px]">
                 
-                <div className="p-8 flex flex-col justify-center border-b lg:border-b-0 lg:border-r border-gray-100">
+                <div className="p-8 flex flex-col justify-center border-b lg:border-b-0 lg:border-r border-stone-200">
                   <div className="flex items-center gap-3 mb-4">
                     <div className="p-2 bg-red-100 text-red-600 rounded-sm">
                       {item.icon}
