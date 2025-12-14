@@ -65,7 +65,7 @@ export default function UeberUns() {
               <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-sm" data-testid="button-hero-call">
                 <a href="/rueckruf">
                   <Phone className="mr-2 h-5 w-5" />
-                  Rückruf anfragen
+                  Rückruf anfordern
                 </a>
               </Button>
               <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-secondary font-bold rounded-sm" data-testid="button-hero-story">

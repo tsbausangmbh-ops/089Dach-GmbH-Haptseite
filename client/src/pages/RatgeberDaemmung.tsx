@@ -63,7 +63,7 @@ export default function RatgeberDaemmung() {
               >
                 <Link href="/rueckruf">
                   <Phone className="mr-2 h-5 w-5" />
-                  Rückruf anfragen
+                  Jetzt kostenlos beraten lassen
                 </Link>
               </Button>
             </div>
@@ -190,7 +190,7 @@ export default function RatgeberDaemmung() {
                 >
                   <Link href="/rueckruf">
                     <Phone className="mr-2 h-5 w-5" />
-                    Rückruf anfragen
+                    Jetzt Ersparnis berechnen lassen
                   </Link>
                 </Button>
                 <p className="text-sm text-muted-foreground mt-3">Kostenlos und unverbindlich</p>
@@ -296,7 +296,7 @@ export default function RatgeberDaemmung() {
                 >
                   <Link href="/rueckruf">
                     <Phone className="mr-2 h-5 w-5" />
-                    Rückruf anfragen
+                    Jetzt kostenlos beraten lassen
                   </Link>
                 </Button>
               </div>

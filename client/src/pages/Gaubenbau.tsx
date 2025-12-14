@@ -249,7 +249,7 @@ export default function Gaubenbau() {
           <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-sm" data-testid="button-beratung">
             <a href="/rueckruf">
               <Phone className="mr-2 h-5 w-5" />
-              Rückruf anfragen
+              Rückruf anfordern
             </a>
           </Button>
         </div>

@@ -153,7 +153,7 @@ export default function Dachsanierung() {
               Warten Sie nicht, bis es zu spät ist. Eine kostenlose Dachinspektion gibt Ihnen Klarheit.
             </p>
             <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-sm" data-testid="button-inspection">
-              <a href="/rueckruf">Rückruf anfragen</a>
+              <a href="/rueckruf">Rückruf anfordern</a>
             </Button>
           </div>
         </div>

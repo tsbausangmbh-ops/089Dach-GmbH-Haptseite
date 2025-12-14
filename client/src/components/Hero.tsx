@@ -87,7 +87,7 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
               >
                 <a href="/rueckruf">
                   <Phone className="mr-2 h-5 w-5" />
-                  Rückruf anfragen
+                  Rückruf anfordern
                 </a>
               </Button>
             </div>

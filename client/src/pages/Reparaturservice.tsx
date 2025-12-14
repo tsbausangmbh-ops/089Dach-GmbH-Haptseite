@@ -294,7 +294,7 @@ export default function Reparaturservice() {
                 disabled={isSubmitting}
                 data-testid="button-repair-submit"
               >
-                {isSubmitting ? "Wird gesendet..." : "Rückruf anfragen"}
+                {isSubmitting ? "Wird gesendet..." : "Rückruf anfordern"}
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
 
@@ -433,7 +433,7 @@ export default function Reparaturservice() {
               data-testid="button-cta-request"
             >
               <PhoneCall className="mr-2 h-5 w-5" />
-              Rückruf anfragen
+              Rückruf anfordern
             </Button>
             <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary font-bold rounded-sm" data-testid="button-cta-email">
               <a href="mailto:info@089dach.de">
