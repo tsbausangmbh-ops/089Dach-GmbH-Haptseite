@@ -1,8 +1,8 @@
 export default function Footer() {
   return (
-    <footer className="bg-secondary text-white pt-20 pb-10 border-t border-white/10">
+    <footer className="bg-secondary text-white py-8 border-t border-white/10">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           
           <div className="space-y-4">
             <div className="flex items-center gap-2 group">
@@ -54,7 +54,7 @@ export default function Footer() {
 
         </div>
 
-        <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="border-t border-white/10 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-500 text-sm">
             &copy; {new Date().getFullYear()} 089Dach GmbH. Alle Rechte vorbehalten.
           </p>
