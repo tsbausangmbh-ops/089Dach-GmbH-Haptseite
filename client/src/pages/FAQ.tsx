@@ -5,7 +5,7 @@ import LeadFunnel from "@/components/LeadFunnel";
 import heroImage from "@assets/generated_images/roofer_explaining_to_homeowner.png";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import { Button } from "@/components/ui/button";
-import { Phone, Shield, Users, Award } from "lucide-react";
+import { Phone, Shield, Users, Award, CheckCircle2, Clock, Euro, Heart, Quote } from "lucide-react";
 import { Link } from "wouter";
 
 export default function FAQ() {
@@ -149,14 +149,19 @@ export default function FAQ() {
               </p>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Sie haben Fragen zum Dach – aber im Internet finden Sie nur Werbeversprechen oder 
-                Fachchinesisch. <strong className="text-secondary">Wer erklärt Ihnen die Dinge so, 
-                dass Sie sie wirklich verstehen?</strong>
+                Fachchinesisch. Jeder Dachdecker erzählt etwas anderes. Und Sie fragen sich: 
+                <strong className="text-secondary"> Wem kann ich hier noch vertrauen?</strong>
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Sie wollen keine Verkaufsgespräche. Sie wollen <strong className="text-secondary">ehrliche Antworten</strong> – 
+                damit Sie selbst entscheiden können, was das Richtige für Ihr Zuhause ist.
               </p>
             </div>
             
             <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-              Hier beantworten wir die 20 häufigsten Fragen unserer Kunden – <strong>ehrlich, 
-              verständlich und ohne Verkaufsgespräch.</strong> Ihre Frage nicht dabei? Rufen Sie uns an.
+              <strong>Genau dafür sind wir hier.</strong> 20 echte Fragen. 20 ehrliche Antworten. 
+              Kein Kleingedrucktes. Kein Verkaufsdruck. Nur die Wahrheit – aus 25 Jahren Erfahrung 
+              auf Münchner Dächern.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -189,6 +194,74 @@ export default function FAQ() {
             <div className="flex items-center gap-2">
               <Shield className="h-5 w-5 text-primary" />
               <span><strong className="text-secondary">Kostenlose</strong> Erstberatung</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Ihre Vorteile */}
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto text-center mb-12">
+            <h2 className="text-3xl font-heading font-bold text-secondary mb-4">
+              Warum unsere Kunden uns vertrauen
+            </h2>
+            <p className="text-lg text-muted-foreground">
+              Wir wissen: Ein Dachprojekt ist eine große Entscheidung. Deshalb machen wir es Ihnen so leicht wie möglich.
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="bg-white p-6 rounded-sm shadow-sm border-l-4 border-primary">
+              <CheckCircle2 className="h-8 w-8 text-primary mb-4" />
+              <h3 className="font-heading font-bold text-secondary mb-2">Keine bösen Überraschungen</h3>
+              <p className="text-sm text-muted-foreground">
+                Sie bekommen ein Festpreisangebot. Was drinsteht, gilt. Punkt.
+              </p>
+            </div>
+            <div className="bg-white p-6 rounded-sm shadow-sm border-l-4 border-primary">
+              <Clock className="h-8 w-8 text-primary mb-4" />
+              <h3 className="font-heading font-bold text-secondary mb-2">Pünktlich wie versprochen</h3>
+              <p className="text-sm text-muted-foreground">
+                Wir halten Termine ein. Und wenn's mal eng wird, sagen wir's Ihnen vorher.
+              </p>
+            </div>
+            <div className="bg-white p-6 rounded-sm shadow-sm border-l-4 border-primary">
+              <Euro className="h-8 w-8 text-primary mb-4" />
+              <h3 className="font-heading font-bold text-secondary mb-2">Faire Preise, ehrlich kalkuliert</h3>
+              <p className="text-sm text-muted-foreground">
+                Kein Lockvogelangebot. Kein Nachverhandeln. Was fair ist, ist fair.
+              </p>
+            </div>
+            <div className="bg-white p-6 rounded-sm shadow-sm border-l-4 border-primary">
+              <Heart className="h-8 w-8 text-primary mb-4" />
+              <h3 className="font-heading font-bold text-secondary mb-2">Wir hören Ihnen zu</h3>
+              <p className="text-sm text-muted-foreground">
+                Ihre Wünsche stehen an erster Stelle. Wir beraten – Sie entscheiden.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Problemlöser-Sektion */}
+      <section className="py-16 bg-secondary text-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <Quote className="h-12 w-12 text-primary mb-6" />
+            <blockquote className="text-2xl font-heading italic mb-6 leading-relaxed">
+              „Die meisten Hausbesitzer haben Angst, über den Tisch gezogen zu werden. 
+              Deshalb beantworten wir jede Frage – auch die unbequemen. Denn nur wenn 
+              Sie verstehen, können Sie vertrauen."
+            </blockquote>
+            <div className="flex items-center gap-4">
+              <div className="w-14 h-14 bg-primary rounded-full flex items-center justify-center text-white font-bold text-lg">
+                FB
+              </div>
+              <div>
+                <p className="font-bold">Falko Georg Blöckinger</p>
+                <p className="text-gray-300">Dachdecker- und Spenglermeister, Geschäftsführer 089Dach GmbH</p>
+              </div>
             </div>
           </div>
         </div>
