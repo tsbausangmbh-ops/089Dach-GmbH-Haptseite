@@ -186,8 +186,8 @@ export default function Heizkostenrechner() {
       <section className="py-12 bg-white">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mx-auto">
-            <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-gray-50 p-8 rounded-xl">
+            <div className="grid md:grid-cols-2 gap-8 items-stretch">
+              <div className="bg-gray-50 p-8 rounded-xl flex flex-col">
                 <div className="flex items-center gap-3 mb-6">
                   <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
                     <Calculator className="h-6 w-6 text-primary" />
@@ -273,9 +273,9 @@ export default function Heizkostenrechner() {
                 </div>
               </div>
 
-              <div>
+              <div className="flex flex-col">
                 {result ? (
-                  <div className="bg-gradient-to-br from-primary/10 to-primary/5 p-8 rounded-xl border border-primary/20">
+                  <div className="bg-gradient-to-br from-primary/10 to-primary/5 p-8 rounded-xl border border-primary/20 flex-1">
                     <h3 className="text-2xl font-heading font-bold text-secondary mb-6">Ihr Ergebnis</h3>
                     
                     <div className="space-y-4">
@@ -349,7 +349,7 @@ export default function Heizkostenrechner() {
                     </div>
                   </div>
                 ) : (
-                  <div className="bg-gradient-to-br from-stone-50 to-stone-100 p-8 rounded-xl h-full">
+                  <div className="bg-gradient-to-br from-stone-50 to-stone-100 p-8 rounded-xl flex-1">
                     <div className="flex items-center gap-3 mb-5">
                       <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center">
                         <Thermometer className="h-7 w-7 text-primary" />
