@@ -64,7 +64,7 @@ export default function LeadFunnel({ externalOpen, onExternalOpenChange }: LeadF
 
       if (response.ok && result.success) {
         toast.success("Geschafft! Wir melden uns bei Ihnen.", {
-          description: "Innerhalb von 24 Stunden erhalten Sie eine Rückmeldung von uns."
+          description: "Innerhalb von 4 Stunden erhalten Sie eine Rückmeldung von uns."
         });
         handleOpenChange(false);
       } else {
@@ -126,7 +126,7 @@ export default function LeadFunnel({ externalOpen, onExternalOpenChange }: LeadF
             </div>
             <div className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full backdrop-blur-sm">
               <Clock className="h-5 w-5 text-green-400" />
-              <span>Antwort in 24h</span>
+              <span>Antwort in 4h</span>
             </div>
           </div>
         </div>

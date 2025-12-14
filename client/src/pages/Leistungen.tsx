@@ -96,7 +96,7 @@ export default function Leistungen() {
         "Jährliche Dachinspektion",
         "Rinnenreinigung",
         "Sturmschaden-Soforthilfe",
-        "24h-Notdienst"
+        "4h-Notdienst"
       ]
     }
   ];

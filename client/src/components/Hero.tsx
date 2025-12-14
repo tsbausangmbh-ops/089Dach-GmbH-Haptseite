@@ -96,7 +96,7 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
             {/* NLP: Risiko-Umkehr */}
             <p className="text-sm text-gray-300 mb-8">
               <CheckCircle2 className="inline h-4 w-4 text-green-400 mr-1" />
-              Kostenlose Erstberatung • Unverbindlich • Antwort innerhalb 24h
+              Kostenlose Erstberatung • Unverbindlich • Antwort innerhalb 4h
             </p>
           </div>
         </div>

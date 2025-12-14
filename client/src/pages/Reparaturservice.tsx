@@ -41,7 +41,7 @@ export default function Reparaturservice() {
 
       if (response.ok) {
         toast.success("Anfrage gesendet!", {
-          description: "Wir melden uns innerhalb von 24 Stunden bei Ihnen."
+          description: "Wir melden uns innerhalb von 4 Stunden bei Ihnen."
         });
         setFormData({ name: "", email: "", phone: "", address: "", message: "" });
       } else {
@@ -66,7 +66,7 @@ export default function Reparaturservice() {
   ];
 
   const advantages = [
-    { title: "Schnelle Reaktion", desc: "In der Regel innerhalb von 24 Stunden vor Ort" },
+    { title: "Schnelle Reaktion", desc: "In der Regel innerhalb von 4 Stunden vor Ort" },
     { title: "Faire Preise", desc: "Transparente Kosten, keine versteckten Aufschläge" },
     { title: "Versicherungshilfe", desc: "Wir dokumentieren den Schaden für Ihre Versicherung" },
     { title: "Rückruf-Service", desc: "Wir rufen Sie zurück – kein langes Warten in der Leitung" }
