@@ -124,12 +124,12 @@ export default function Heizkostenrechner() {
               </p>
             </div>
             <div className="grid md:grid-cols-3 gap-6">
-              <div className="bg-white p-5 rounded-lg shadow-sm text-center">
-                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <Calculator className="h-6 w-6 text-primary" />
+              <div className="bg-green-50 border border-green-200 p-5 rounded-lg shadow-sm text-center">
+                <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <Calculator className="h-6 w-6 text-green-600" />
                 </div>
-                <h3 className="font-bold text-secondary mb-2">Kostenlos & unverbindlich</h3>
-                <p className="text-sm text-muted-foreground">
+                <h3 className="font-bold text-green-800 mb-2">Kostenlos & unverbindlich</h3>
+                <p className="text-sm text-green-700">
                   Keine Anmeldung nötig. Berechnen Sie sofort Ihr persönliches Sparpotenzial.
                 </p>
               </div>
