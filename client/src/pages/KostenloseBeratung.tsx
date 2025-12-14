@@ -329,19 +329,30 @@ export default function KostenloseBeratung() {
                 )}
               </div>
 
-              <div className="grid md:grid-cols-2 gap-4">
-                <div className="space-y-2">
-                  <Label htmlFor="name">Ihr Name *</Label>
-                  <Input 
-                    id="name"
-                    placeholder="Max Mustermann"
-                    value={formData.name}
-                    onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                    required
-                    data-testid="input-beratung-name"
-                  />
-                </div>
+              <div className="space-y-2">
+                <Label htmlFor="name">Ihr Name *</Label>
+                <Input 
+                  id="name"
+                  placeholder="Max Mustermann"
+                  value={formData.name}
+                  onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                  required
+                  data-testid="input-beratung-name"
+                />
+              </div>
 
+              <div className="space-y-2">
+                <Label htmlFor="address">Adresse des Objekts (optional)</Label>
+                <Input 
+                  id="address"
+                  placeholder="Straße, PLZ Ort"
+                  value={formData.address}
+                  onChange={(e) => setFormData({ ...formData, address: e.target.value })}
+                  data-testid="input-beratung-address"
+                />
+              </div>
+
+              <div className="grid md:grid-cols-2 gap-4">
                 <div className="space-y-2">
                   <Label htmlFor="phone">Ihre Telefonnummer *</Label>
                   <Input 
@@ -354,18 +365,18 @@ export default function KostenloseBeratung() {
                     data-testid="input-beratung-phone"
                   />
                 </div>
-              </div>
 
-              <div className="space-y-2">
-                <Label htmlFor="email">Ihre E-Mail (optional)</Label>
-                <Input 
-                  id="email"
-                  type="email"
-                  placeholder="max@beispiel.de"
-                  value={formData.email}
-                  onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                  data-testid="input-beratung-email"
-                />
+                <div className="space-y-2">
+                  <Label htmlFor="email">Ihre E-Mail (optional)</Label>
+                  <Input 
+                    id="email"
+                    type="email"
+                    placeholder="max@beispiel.de"
+                    value={formData.email}
+                    onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                    data-testid="input-beratung-email"
+                  />
+                </div>
               </div>
 
               <div className="space-y-2">

@@ -30,6 +30,75 @@ async function sendNotificationEmail(subject: string, htmlContent: string) {
   }
 }
 
+async function sendCustomerConfirmationEmail(
+  customerEmail: string,
+  customerName: string,
+  appointmentDate: Date,
+  problem: string
+) {
+  try {
+    const dateOptions: Intl.DateTimeFormatOptions = {
+      weekday: "long",
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    };
+    const timeOptions: Intl.DateTimeFormatOptions = {
+      hour: "2-digit",
+      minute: "2-digit",
+    };
+    const formattedDate = appointmentDate.toLocaleDateString("de-DE", dateOptions);
+    const formattedTime = appointmentDate.toLocaleTimeString("de-DE", timeOptions);
+
+    await transporter.sendMail({
+      from: process.env.SMTP_USER,
+      to: customerEmail,
+      subject: `Terminbestätigung: Ihre Beratung bei 089Dach GmbH`,
+      html: `
+        <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
+          <div style="background-color: #1a365d; padding: 20px; text-align: center;">
+            <h1 style="color: #f59e0b; margin: 0;">089Dach GmbH</h1>
+            <p style="color: white; margin: 5px 0;">Ihr Dachdecker-Meisterbetrieb in München</p>
+          </div>
+          
+          <div style="padding: 30px; background-color: #f8fafc;">
+            <h2 style="color: #1a365d;">Vielen Dank für Ihre Terminbuchung!</h2>
+            
+            <p>Sehr geehrte/r ${customerName},</p>
+            
+            <p>wir freuen uns, Ihnen Ihren Beratungstermin zu bestätigen:</p>
+            
+            <div style="background-color: white; border-left: 4px solid #f59e0b; padding: 20px; margin: 20px 0;">
+              <p style="margin: 5px 0;"><strong>📅 Datum:</strong> ${formattedDate}</p>
+              <p style="margin: 5px 0;"><strong>🕐 Uhrzeit:</strong> ${formattedTime} Uhr</p>
+              <p style="margin: 5px 0;"><strong>📋 Thema:</strong> ${problem}</p>
+            </div>
+            
+            <p><strong>Wir rufen Sie zum vereinbarten Termin an.</strong></p>
+            
+            <p>Falls Sie den Termin verschieben oder absagen möchten, erreichen Sie uns unter:</p>
+            <ul style="list-style: none; padding: 0;">
+              <li>📞 Telefon: <a href="tel:08912621964" style="color: #f59e0b;">089 12621964</a></li>
+              <li>📧 E-Mail: <a href="mailto:info@089dach.de" style="color: #f59e0b;">info@089dach.de</a></li>
+            </ul>
+            
+            <p>Mit freundlichen Grüßen,<br>
+            <strong>Ihr Team von 089Dach GmbH</strong></p>
+          </div>
+          
+          <div style="background-color: #1a365d; padding: 15px; text-align: center; color: white; font-size: 12px;">
+            <p style="margin: 0;">089Dach GmbH | Dachdecker-Meisterbetrieb seit 1998</p>
+            <p style="margin: 5px 0;">Telefon: 089 12621964 | E-Mail: info@089dach.de</p>
+          </div>
+        </div>
+      `,
+    });
+    console.log("Customer confirmation email sent successfully");
+  } catch (error) {
+    console.error("Error sending customer confirmation email:", error);
+  }
+}
+
 export async function registerRoutes(
   httpServer: Server,
   app: Express
