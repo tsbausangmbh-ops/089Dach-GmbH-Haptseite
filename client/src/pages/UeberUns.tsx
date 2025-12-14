@@ -14,10 +14,10 @@ export default function UeberUns() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Über uns | Dachdecker-Meisterbetrieb München - 089Dach"
-        description="Familiengeführter Meisterbetrieb seit 1998 in München-Obermenzing. 100+ zufriedene Kunden, persönliche Beratung. Lernen Sie uns kennen!"
+        title="Dachdecker Meisterbetrieb München | 25 Jahre Erfahrung ⭐ 4.9/5"
+        description="Familiengeführter Dachdecker-Meisterbetrieb seit 1998 in München-Obermenzing. 100+ zufriedene Kunden ✓ Festpreisgarantie ✓ 10 Jahre Garantie ✓"
         canonical="https://089dach.de/ueber-uns"
-        keywords="dachdecker team münchen, meisterbetrieb 1998 familiengeführt tradition erfahrung, dachdeckermeister spenglermeister handwerksrolle innung, team obermenzing pasing laim schwabing sendling bogenhausen, team gräfelfing planegg germering starnberg dachau, über uns wer wir sind qualifikation zertifizierung"
+        keywords="dachdecker meisterbetrieb münchen, dachdecker obermenzing, bester dachdecker münchen, dachdecker empfehlung münchen, dachdecker mit garantie münchen, dachdecker familienbetrieb münchen, zuverlässiger dachdecker münchen"
         aiSummary="089Dach GmbH: Dachdecker- und Spengler-Meisterbetrieb in München-Obermenzing. Gegründet 1998, über 100 zufriedene Kunden. Familiengeführt mit 60+ Jahren Erfahrung. Thuillestr. 20, 81247 München. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Über uns", url: "/ueber-uns" }]} />

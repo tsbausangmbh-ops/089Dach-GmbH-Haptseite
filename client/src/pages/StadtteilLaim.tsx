@@ -61,12 +61,12 @@ export default function StadtteilLaim() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Dachdecker ${stadtteilData.fullName} | Flachdach & Sanierung - 089Dach`}
-        description={`Ihr Dachdecker in ${stadtteilData.fullName} ✓ Nur ${stadtteilData.entfernung} entfernt ✓ Flachdach, Dachsanierung, Dachreparatur ✓ Meisterbetrieb ✓ 10 Jahre Garantie. Tel: 089 12621964`}
-        canonical={`https://089dach.de/dachdecker-${stadtteilData.name.toLowerCase()}`}
-        keywords={`dachdecker ${stadtteilData.name.toLowerCase()}, dachdecker ${stadtteilData.fullName.toLowerCase()}, flachdach ${stadtteilData.name.toLowerCase()}, dachsanierung ${stadtteilData.name.toLowerCase()}, dachreparatur ${stadtteilData.name.toLowerCase()}, spengler ${stadtteilData.name.toLowerCase()}, dachdecker in der nähe ${stadtteilData.name.toLowerCase()}`}
-        geoPlacename={`${stadtteilData.fullName}, Bayern, Deutschland`}
-        aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für ${stadtteilData.fullName}. Nur ${stadtteilData.entfernung} entfernt. Spezialist für Flachdach und Dachsanierung. Tel: 089 12621964.`}
+        title={`Dachdecker Laim | Flachdach undicht? Soforthilfe ⭐ 4.9/5`}
+        description={`Dachdecker in München-Laim gesucht? ✓ Nur 3 km entfernt ✓ Flachdach-Spezialist ✓ Notdienst ✓ 10 Jahre Garantie. Jetzt anrufen: 089 12621964`}
+        canonical={`https://089dach.de/dachdecker-laim`}
+        keywords={`dachdecker laim bewertung, flachdach undicht laim was tun, dachdecker in der nähe laim, flachdachsanierung kosten münchen, dachreparatur notdienst laim, bester dachdecker münchen laim`}
+        geoPlacename={`München-Laim, Bayern, Deutschland`}
+        aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Laim. Nur 3 km entfernt. Spezialist für Flachdach und Dachsanierung. Tel: 089 12621964.`}
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-${stadtteilData.name.toLowerCase()}` }]} />
       <NearbyServiceSchema />

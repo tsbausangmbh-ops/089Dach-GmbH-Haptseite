@@ -14,10 +14,10 @@ export default function RatgeberLeckortung() {
   return (
     <div className="min-h-screen bg-white">
       <SEO 
-        title="Leckortung München | Wasserfleck am Dach finden - 089Dach"
-        description="Professionelle Leckortung mit Thermografie. Wir finden das Leck und beheben es dauerhaft. 10 Jahre Garantie. Jetzt anfragen!"
+        title="Dach undicht München | Leck finden & Soforthilfe 24h"
+        description="Wasserfleck an der Decke? Wir finden das Dachleck mit Thermografie ✓ Soforthilfe ✓ Festpreis ✓ 10 Jahre Garantie. Jetzt anrufen: 089 12621964"
         canonical="https://089dach.de/ratgeber/leckortung"
-        keywords="leckortung dach münchen, thermografie wärmebildkamera feuchtigkeitsmessung wasserfleck undicht, dachleck wasserschaden schimmel feuchtigkeit orten finden, leckortung obermenzing pasing laim schwabing sendling bogenhausen, leckortung gräfelfing planegg germering starnberg dachau, ursache finden beheben reparieren"
+        keywords="dach undicht was tun münchen, wasserfleck decke woher, dachleck finden thermografie, wasserschaden dach reparieren kosten, leckortung dach preis, schimmel durch dachleck"
         aiSummary="089Dach GmbH: Leckortung mit Thermografie-Kamera in München. Wir finden Dachlecks präzise und reparieren sie dauerhaft. 10 Jahre Garantie. 100+ erfolgreiche Leckortungen. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[

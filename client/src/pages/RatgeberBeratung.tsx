@@ -13,10 +13,10 @@ export default function RatgeberBeratung() {
   return (
     <div className="min-h-screen bg-white">
       <SEO 
-        title="Kostenlose Dachberatung München | Festpreis - 089Dach"
-        description="Kostenlose Dach-Beratung vor Ort. Schriftliches Festpreis-Angebot ohne versteckte Kosten. Jetzt Termin vereinbaren!"
+        title="Dachsanierung Angebot München | Kostenlose Beratung + Festpreis"
+        description="Wie viel kostet meine Dachsanierung? Kostenlose Vor-Ort-Beratung ✓ Festpreis-Angebot ✓ Keine versteckten Kosten ✓ Jetzt Termin: 089 12621964"
         canonical="https://089dach.de/ratgeber/beratung"
-        keywords="dachberatung münchen, festpreis kostenvoranschlag angebot transparent unverbindlich, beratung obermenzing pasing laim schwabing sendling bogenhausen, beratung gräfelfing planegg germering starnberg dachau, seriöser dachdecker erkennen tipps qualität preisvergleich"
+        keywords="dachsanierung angebot einholen, kostenvoranschlag dachdecker münchen, festpreis dachsanierung, dachdecker kostenlos beraten, wie finde ich guten dachdecker, dachdecker vergleich münchen"
         aiSummary="089Dach GmbH: Kostenlose Dach-Beratung vor Ort in München. Schriftliches Festpreis-Angebot ohne versteckte Kosten. 100% Preissicherheit. Meisterbetrieb seit 1998. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[

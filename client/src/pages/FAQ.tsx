@@ -128,11 +128,11 @@ export default function FAQ() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker FAQ München | Kosten & Fragen - 089Dach"
-        description="20 häufige Fragen zu Dachkosten, Förderungen, Ablauf & Garantie. Ehrliche Antworten vom Meisterbetrieb. Jetzt informieren!"
+        title="Dachdecker Fragen München | Was kostet Dachsanierung? FAQ 2025"
+        description="Was kostet eine Dachsanierung? Wie lange dauert Dachreparatur? 22 Antworten vom Meister. Festpreisgarantie ✓ Kostenlose Beratung ✓ Jetzt informieren!"
         canonical="https://089dach.de/faq"
-        keywords="dachdecker faq münchen, dachsanierung kosten förderung dauer garantie ablauf, steildach flachdach spenglerei dachfenster wartung reparatur, fragen obermenzing pasing laim schwabing sendling bogenhausen, fragen gräfelfing planegg germering starnberg dachau, was kostet wie lange wann dachdecker preise"
-        aiSummary="089Dach GmbH FAQ: 20 Antworten zu Dachsanierung, Kosten, Förderungen, Wartung und Garantie. Dachdecker-Meisterbetrieb München-Obermenzing seit 1998. Kostenlose Erstberatung. Telefon: 089 12621964."
+        keywords="was kostet dachsanierung münchen, wie lange dauert dachreparatur, dachdecker in der nähe münchen, dach undicht was tun, dachsanierung kosten pro qm, dachfenster einbau kosten, dachrinne erneuern kosten, kfw förderung dach 2025"
+        aiSummary="089Dach GmbH FAQ: 22 Antworten zu Dachsanierung, Kosten, Förderungen, Wartung und Garantie. Dachdecker-Meisterbetrieb München-Obermenzing seit 1998. Kostenlose Erstberatung. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "FAQ", url: "/faq" }]} />
       <FAQPageSchema faqs={faqs.map(f => ({ question: f.question, answer: f.answer }))} />

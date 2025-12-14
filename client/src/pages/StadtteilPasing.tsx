@@ -89,10 +89,10 @@ export default function StadtteilPasing() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Dachdecker ${stadtteilData.fullName} | Dachsanierung & Reparatur - 089Dach`}
-        description={`Ihr Dachdecker in ${stadtteilData.fullName} ✓ Nur ${stadtteilData.entfernung} entfernt ✓ Dachsanierung, Dachreparatur, Dachfenster ✓ Meisterbetrieb ✓ 10 Jahre Garantie. Tel: 089 12621964`}
+        title={`Dachdecker ${stadtteilData.name} | Dach undicht? Soforthilfe ⭐ 4.9/5`}
+        description={`Dachdecker in ${stadtteilData.fullName} gesucht? ✓ Nur ${stadtteilData.entfernung} entfernt ✓ Notdienst ✓ Festpreisgarantie ✓ 10 Jahre Garantie. Jetzt anrufen: 089 12621964`}
         canonical={`https://089dach.de/dachdecker-${stadtteilData.name.toLowerCase()}`}
-        keywords={`dachdecker ${stadtteilData.name.toLowerCase()}, dachdecker ${stadtteilData.fullName.toLowerCase()}, dachsanierung ${stadtteilData.name.toLowerCase()}, dachreparatur ${stadtteilData.name.toLowerCase()}, dachfenster ${stadtteilData.name.toLowerCase()}, spengler ${stadtteilData.name.toLowerCase()}, dachdecker in der nähe ${stadtteilData.name.toLowerCase()}, dach undicht ${stadtteilData.name.toLowerCase()}`}
+        keywords={`dachdecker ${stadtteilData.name.toLowerCase()} bewertung, dach undicht ${stadtteilData.name.toLowerCase()} was tun, dachdecker in der nähe ${stadtteilData.name.toLowerCase()}, dachsanierung kosten ${stadtteilData.name.toLowerCase()}, dachreparatur notdienst ${stadtteilData.name.toLowerCase()}, bester dachdecker ${stadtteilData.name.toLowerCase()}`}
         geoPlacename={`${stadtteilData.fullName}, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für ${stadtteilData.fullName}. Nur ${stadtteilData.entfernung} von unserem Standort in Obermenzing. Dachsanierung, Dachreparatur, Dachfenster und Spenglerarbeiten. Tel: 089 12621964.`}
       />

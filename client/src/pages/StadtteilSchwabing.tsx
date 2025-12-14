@@ -54,12 +54,12 @@ export default function StadtteilSchwabing() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Dachdecker ${stadtteilData.fullName} | Denkmalschutz & Sanierung - 089Dach`}
-        description={`Ihr Dachdecker in ${stadtteilData.fullName} ✓ Spezialist für Jugendstil & Denkmalschutz ✓ Schiefereindeckung ✓ Meisterbetrieb ✓ 10 Jahre Garantie. Tel: 089 12621964`}
-        canonical={`https://089dach.de/dachdecker-${stadtteilData.name.toLowerCase()}`}
-        keywords={`dachdecker ${stadtteilData.name.toLowerCase()}, dachdecker ${stadtteilData.fullName.toLowerCase()}, dachsanierung ${stadtteilData.name.toLowerCase()}, denkmalschutz dach ${stadtteilData.name.toLowerCase()}, schieferdach ${stadtteilData.name.toLowerCase()}, jugendstil dach münchen`}
-        geoPlacename={`${stadtteilData.fullName}, Bayern, Deutschland`}
-        aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für ${stadtteilData.fullName}. Spezialist für denkmalgeschützte Gebäude und Jugendstilbauten. Tel: 089 12621964.`}
+        title={`Dachdecker Schwabing | Denkmalschutz Jugendstil ⭐ 4.9/5`}
+        description={`Dachdecker in München-Schwabing für Jugendstil & Denkmalschutz ✓ Schiefereindeckung ✓ Kupferdachrinnen ✓ 10 Jahre Garantie. Jetzt anfragen: 089 12621964`}
+        canonical={`https://089dach.de/dachdecker-schwabing`}
+        keywords={`dachdecker schwabing denkmalschutz, schieferdach sanierung münchen, dachsanierung altbau schwabing, jugendstil dach reparatur, dachdecker historische gebäude, kupferdachrinne münchen`}
+        geoPlacename={`München-Schwabing, Bayern, Deutschland`}
+        aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Schwabing. Spezialist für denkmalgeschützte Gebäude und Jugendstilbauten. Tel: 089 12621964.`}
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-${stadtteilData.name.toLowerCase()}` }]} />
       <NearbyServiceSchema />
