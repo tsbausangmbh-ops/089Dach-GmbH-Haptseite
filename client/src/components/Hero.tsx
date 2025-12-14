@@ -20,18 +20,18 @@ export default function Hero() {
         <div className="max-w-2xl text-white animate-in slide-in-from-left duration-700 fade-in">
           <div className="flex items-center gap-2 mb-4">
             <span className="bg-primary px-3 py-1 text-xs font-bold uppercase tracking-wider rounded-sm">
-              Meisterbetrieb seit 25 Jahren
+              Dachdecker Meisterbetrieb München
             </span>
           </div>
           
           <h1 className="text-4xl md:text-6xl font-heading font-extrabold leading-tight mb-6">
-            Qualitätsbedachungen <br/>
-            <span className="text-primary-foreground">für München & Umgebung</span>
+            Sicherheit für Ihr Dach <br/>
+            <span className="text-primary-foreground">in München & Umgebung</span>
           </h1>
           
           <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-xl font-light">
-            Wir sind Ihr zuverlässiger Partner für Dachsanierung, Neubau und Spenglerarbeiten. 
-            Präzise, sauber und termingerecht.
+            Wir lassen Sie nicht im Regen stehen. Ihr vertrauensvoller Partner für Dachsanierung, Reparaturen und Spenglerarbeiten. 
+            Schnell, ehrlich und kompetent.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4">

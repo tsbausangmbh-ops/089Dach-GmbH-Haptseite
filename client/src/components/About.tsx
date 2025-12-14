@@ -25,21 +25,20 @@ export default function About() {
           </div>
 
           <div className="w-full lg:w-1/2">
-            <span className="text-primary font-bold tracking-wider uppercase text-sm">Über 089Dach GmbH</span>
+            <span className="text-primary font-bold tracking-wider uppercase text-sm">Über 089Dach GmbH München</span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-secondary mt-2 mb-6">
-              Ihr Vertrauen ist unser Fundament
+              Handwerk mit Herz und Verstand – Wir kümmern uns um Ihr Zuhause
             </h2>
             
             <div className="space-y-6 text-muted-foreground text-lg leading-relaxed">
               <p>
-                Die 089Dach GmbH steht für traditionelle Handwerkskunst verbunden mit modernster Technik. 
-                Als in München verwurzelter Meisterbetrieb kennen wir die spezifischen Anforderungen 
-                der Region und bieten Lösungen, die Generationen überdauern.
+                Ein Dachschaden kommt oft unerwartet und bringt Sorgen mit sich. "Hält das Dach beim nächsten Sturm?", "Wie teuer wird die Reparatur?". 
+                Wir von der 089Dach GmbH verstehen diese Ängste. Als Ihr lokaler Dachdecker in München sind wir da, um Ihnen diese Sorgen zu nehmen.
               </p>
               <p>
-                Unser Team aus qualifizierten Fachkräften arbeitet mit höchster Präzision und Sauberkeit. 
-                Wir verstehen, dass ein Dach mehr ist als nur Schutz vor Witterung – es ist ein 
-                wesentlicher Bestandteil Ihres Zuhauses und trägt maßgeblich zum Werterhalt bei.
+                Wir beraten Sie ehrlich – wir verkaufen Ihnen kein neues Dach, wenn eine Reparatur ausreicht. 
+                Aber wir sagen Ihnen auch klar, wann eine Sanierung langfristig die sicherere und kostengünstigere Lösung ist. 
+                Vertrauen Sie auf über 25 Jahre Erfahrung und echte Münchner Handschlagqualität.
               </p>
             </div>
 

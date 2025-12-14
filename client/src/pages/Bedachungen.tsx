@@ -24,10 +24,10 @@ export default function Bedachungen() {
         </div>
         <div className="container mx-auto px-4 relative z-10">
           <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mb-4">
-            Bedachungen
+            Dachsanierung & Bedachungen in München
           </h1>
           <p className="text-xl text-gray-200 max-w-2xl">
-            Ihr Fachbetrieb für Steil- und Flachdächer in München. Wir sorgen für dichte Dächer und energetische Sanierungen.
+            Ihr Fachbetrieb für sichere Steil- und Flachdächer. Wir schützen Ihre Immobilie vor Wind und Wetter – langlebig und energieeffizient.
           </p>
         </div>
       </div>
@@ -38,19 +38,19 @@ export default function Bedachungen() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
             
             <div>
-              <span className="text-primary font-bold tracking-wider uppercase text-sm">Unsere Leistungen</span>
+              <span className="text-primary font-bold tracking-wider uppercase text-sm">Unsere Expertise</span>
               <h2 className="text-3xl font-heading font-bold text-secondary mt-2 mb-6">
-                Alles rund ums Dach
+                Ist Ihr Dach noch sicher? Wir prüfen und sanieren fachgerecht.
               </h2>
               <div className="prose prose-lg text-muted-foreground">
                 <p>
-                  Das Dach ist eines der am stärksten beanspruchten Bauteile Ihres Hauses. Es schützt vor Witterungseinflüssen 
-                  und trägt maßgeblich zur Energiebilanz bei. Als Meisterbetrieb bieten wir Ihnen fachgerechte Lösungen 
-                  für Neubau und Sanierung.
+                  Ein undichtes oder schlecht gedämmtes Dach kann schnell zu teuren Folgeschäden an der Bausubstanz führen. 
+                  Feuchtigkeit, Schimmel und Energieverlust sind die Folgen. Warten Sie nicht, bis es durchtropft.
                 </p>
                 <p className="mt-4">
-                  Ob klassisches Ziegeldach, modernes Flachdach oder energetische Dachsanierung – wir beraten Sie 
-                  umfassend und führen alle Arbeiten mit höchster Sorgfalt aus.
+                  Wir als 089Dach GmbH prüfen Ihr Dach auf Herz und Nieren. Ob komplette <strong>Dachsanierung</strong>, 
+                  <strong>Neueindeckung</strong> oder <strong>Flachdachabdichtung</strong> – wir finden die Lösung, 
+                  die zu Ihrem Budget und Ihrem Haus passt. Damit Sie wieder ruhig schlafen können.
                 </p>
               </div>
 
@@ -60,10 +60,10 @@ export default function Bedachungen() {
                     <Home className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-secondary mb-2">Steildach</h3>
+                    <h3 className="text-xl font-bold text-secondary mb-2">Steildach Sanierung & Neubau</h3>
                     <p className="text-muted-foreground">
-                      Eindeckung mit Tondachziegeln oder Betondachsteinen. Wir achten auf optimale Hinterlüftung 
-                      und fachgerechte Anschlüsse.
+                      Klassische Ziegel, Betonstein oder Schiefer. Wir decken Ihr Dach neu ein – sturmsicher und optisch ansprechend.
+                      Inklusive Prüfung des Dachstuhls.
                     </p>
                   </div>
                 </div>
@@ -73,10 +73,10 @@ export default function Bedachungen() {
                     <Warehouse className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-secondary mb-2">Flachdach</h3>
+                    <h3 className="text-xl font-bold text-secondary mb-2">Flachdach Abdichtung</h3>
                     <p className="text-muted-foreground">
-                      Abdichtung mit Bitumen- oder Kunststoffbahnen. Dauerhaft dicht und auf Wunsch mit Dachbegrünung 
-                      für ein besseres Mikroklima.
+                      Flachdächer sind sensibel. Wir nutzen hochwertige Bitumen- oder Kunststoffbahnen für 100% Dichtigkeit.
+                      Ideal auch für Garagen und Anbauten.
                     </p>
                   </div>
                 </div>
@@ -86,9 +86,10 @@ export default function Bedachungen() {
                     <ShieldCheck className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-secondary mb-2">Dachsanierung & Dämmung</h3>
+                    <h3 className="text-xl font-bold text-secondary mb-2">Energetische Dachsanierung</h3>
                     <p className="text-muted-foreground">
-                      Sparen Sie Energie durch eine moderne Aufsparrendämmung oder Zwischensparrendämmung nach GEG.
+                      Heizkosten sparen und Wohnklima verbessern. Wir dämmen Ihr Dach nach den aktuellen GEG-Richtlinien.
+                      Fragen Sie uns nach Fördermöglichkeiten!
                     </p>
                   </div>
                 </div>

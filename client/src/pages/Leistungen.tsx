@@ -99,10 +99,10 @@ export default function Leistungen() {
         </div>
         <div className="container mx-auto px-4 relative z-10">
           <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mb-4">
-            Unsere Leistungen
+            Unsere Dachdecker-Leistungen in München
           </h1>
           <p className="text-xl text-gray-200 max-w-2xl">
-            Qualitätshandwerk aus München. Von der kleinen Reparatur bis zur kompletten Dachsanierung – wir sind Ihr Partner.
+            Wir kümmern uns um Ihr Dach, als wäre es unser eigenes. Von der kleinen Reparatur bis zur kompletten Sanierung – alles aus einer Hand.
           </p>
         </div>
       </div>
@@ -139,7 +139,7 @@ export default function Leistungen() {
                   </ul>
 
                   <Button variant="outline" className="mt-4 border-secondary text-secondary hover:bg-secondary hover:text-white rounded-sm">
-                    Mehr dazu anfragen
+                    Kostenlose Beratung anfordern
                   </Button>
                 </div>
                 
@@ -149,10 +149,10 @@ export default function Leistungen() {
                       <div className="mb-4 inline-flex items-center justify-center w-16 h-16 rounded-full bg-white shadow-sm">
                         {service.icon}
                       </div>
-                      <h3 className="font-heading font-bold text-lg text-secondary">Interesse an {service.title}?</h3>
-                      <p className="text-sm text-muted-foreground mt-2 mb-4">Kontaktieren Sie uns für ein unverbindliches Angebot.</p>
+                      <h3 className="font-heading font-bold text-lg text-secondary">Hilfe bei {service.title}?</h3>
+                      <p className="text-sm text-muted-foreground mt-2 mb-4">Schildern Sie uns Ihr Problem. Wir finden die Lösung.</p>
                       <Button size="sm" className="bg-primary hover:bg-primary/90 text-white rounded-sm w-full">
-                        Jetzt anfragen
+                        Jetzt Termin vereinbaren
                       </Button>
                    </div>
                 </div>

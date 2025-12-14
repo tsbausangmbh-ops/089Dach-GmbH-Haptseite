@@ -24,10 +24,10 @@ export default function Spenglerei() {
         </div>
         <div className="container mx-auto px-4 relative z-10">
           <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mb-4">
-            Spenglerei & Blecharbeiten
+            Spenglerei München – Langlebige Blecharbeiten
           </h1>
           <p className="text-xl text-gray-200 max-w-2xl">
-            Präzisionsarbeit aus Metall. Wir fertigen langlebige Lösungen für Dach und Fassade in unserer eigenen Werkstatt.
+            Präzision in Kupfer, Zink & Alu. Wir schützen Ihr Haus dauerhaft vor Wasser und Witterung. Maßgefertigt in eigener Werkstatt.
           </p>
         </div>
       </div>
@@ -38,18 +38,20 @@ export default function Spenglerei() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
             
             <div>
-              <span className="text-primary font-bold tracking-wider uppercase text-sm">Handwerkskunst</span>
+              <span className="text-primary font-bold tracking-wider uppercase text-sm">Spenglerhandwerk München</span>
               <h2 className="text-3xl font-heading font-bold text-secondary mt-2 mb-6">
-                Langlebige Ästhetik aus Metall
+                Der sichere Schutz für Dach & Fassade
               </h2>
               <div className="prose prose-lg text-muted-foreground">
                 <p>
-                  Spenglerarbeiten sind die perfekte Ergänzung zu jedem Dach. Metall bietet nicht nur hervorragenden 
-                  Schutz vor Witterungseinflüssen, sondern setzt auch architektonische Akzente. 
+                  Nichts hält so lange wie Metall. Ein fachgerecht ausgeführtes Metalldach oder eine Kaminverkleidung 
+                  kann Generationen überdauern. Doch schlecht ausgeführte Spenglerarbeiten sind oft der Grund für 
+                  versteckte Wasserschäden.
                 </p>
                 <p className="mt-4">
-                  Wir verarbeiten hochwertige Materialien wie Kupfer, Titanzink, Aluminium und Edelstahl. 
-                  Jedes Bauteil wird individuell für Ihr Objekt gefertigt und fachgerecht montiert.
+                  Gehen Sie kein Risiko ein. Wir fertigen alle Bauteile – von der <strong>Dachrinne</strong> bis zur komplexen 
+                  <strong>Gaubenverkleidung</strong> – passgenau für Ihr Objekt. Für eine Optik, die begeistert, und Dichtigkeit, 
+                  auf die Sie sich verlassen können.
                 </p>
               </div>
 
@@ -59,10 +61,10 @@ export default function Spenglerei() {
                     <Wrench className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-secondary mb-2">Dachentwässerung</h3>
+                    <h3 className="text-xl font-bold text-secondary mb-2">Dachrinnen & Entwässerung</h3>
                     <p className="text-muted-foreground">
-                      Dachrinnen, Fallrohre und Zubehör in verschiedenen Dimensionen und Materialien. 
-                      Damit Regenwasser sicher abgeleitet wird.
+                      Verstopfte oder undichte Rinnen schaden der Fassade. Wir montieren langlebige Systeme aus Kupfer, Zink oder Alu.
+                      Inklusive Laubschutz auf Wunsch.
                     </p>
                   </div>
                 </div>
@@ -72,10 +74,10 @@ export default function Spenglerei() {
                     <ShieldCheck className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-secondary mb-2">Anschlüsse & Einfassungen</h3>
+                    <h3 className="text-xl font-bold text-secondary mb-2">Kamin- & Gaubenverkleidung</h3>
                     <p className="text-muted-foreground">
-                      Kamineinfassungen, Wandanschlüsse, Gaubenverkleidungen und Mauerabdeckungen. 
-                      Dauerhafter Schutz für empfindliche Übergänge.
+                      Schützen Sie die Schwachstellen Ihres Daches. Eine Metallverkleidung ist wartungsfrei und 
+                      schützt das Mauerwerk sicher vor Durchfeuchtung.
                     </p>
                   </div>
                 </div>
@@ -85,10 +87,10 @@ export default function Spenglerei() {
                     <PenTool className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-secondary mb-2">Metalldächer & Fassaden</h3>
+                    <h3 className="text-xl font-bold text-secondary mb-2">Metalldächer (Stehfalz)</h3>
                     <p className="text-muted-foreground">
-                      Komplette Dacheindeckungen in Stehfalztechnik oder moderne Metallfassaden 
-                      für einen zeitlosen Look.
+                      Die Königsklasse der Bedachung. Extrem langlebig, sturmsicher und architektonisch anspruchsvoll.
+                      Ideal auch für flach geneigte Dächer.
                     </p>
                   </div>
                 </div>
