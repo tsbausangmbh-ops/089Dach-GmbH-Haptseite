@@ -1,10 +1,11 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
-import { CheckCircle2, ThermometerSnowflake, ArrowRight, ArrowLeft, Euro, Home, Phone, AlertTriangle, TrendingDown, Snowflake, Sun, Shield, Clock } from "lucide-react";
+import { CheckCircle2, ThermometerSnowflake, ArrowRight, ArrowLeft, Euro, Home, Phone, AlertTriangle, TrendingDown, Snowflake, Sun, Shield, Clock, Heart, Users, Award } from "lucide-react";
 import { Link } from "wouter";
 import { useState } from "react";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import heroImage from "@assets/generated_images/roof_insulation_installation_scene.png";
 
 export default function DaemmungInfo() {
   const [funnelStep, setFunnelStep] = useState(0);
@@ -89,8 +90,13 @@ export default function DaemmungInfo() {
       ]} />
       <Navbar />
       
-      <section className="relative min-h-[400px] flex items-center bg-secondary">
-        <div className="absolute inset-0 bg-gradient-to-r from-secondary via-secondary/95 to-primary/30"></div>
+      <section className="relative min-h-[400px] flex items-center">
+        <div 
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: `url(${heroImage})` }}
+        >
+          <div className="absolute inset-0 bg-gradient-to-r from-secondary/95 via-secondary/85 to-secondary/60"></div>
+        </div>
         <div className="container mx-auto px-6 lg:px-12 relative z-10 py-16">
           <div className="max-w-3xl text-white">
             <div className="flex items-center gap-3 mb-4">
@@ -117,6 +123,67 @@ export default function DaemmungInfo() {
               Zurück zum Heizkosten-Rechner
             </Button>
           </Link>
+        </div>
+      </section>
+
+      <section className="py-10 bg-stone-50 border-b">
+        <div className="container mx-auto px-6 lg:px-12">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-8">
+              <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">
+                Wissen Sie, wohin Ihre Heizwärme wirklich geht?
+              </h2>
+              <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-4">
+                Stellen Sie sich vor: Jeden Tag heizen Sie – und ein großer Teil dieser teuren Wärme 
+                <strong className="text-secondary"> verschwindet einfach durch Ihr Dach</strong>. 
+                Tag für Tag, Monat für Monat, Jahr für Jahr.
+              </p>
+              <div className="bg-white/80 border border-stone-200 rounded-xl p-6 max-w-2xl mx-auto mt-6">
+                <p className="text-muted-foreground mb-3">
+                  <strong className="text-secondary">Die Wahrheit:</strong> Ein ungedämmtes Dach ist wie ein Loch in Ihrem Geldbeutel. 
+                  Warme Luft steigt nach oben – das ist Physik. Und wenn dort keine Barriere ist, entweicht sie einfach nach draußen.
+                </p>
+                <p className="text-muted-foreground mb-3">
+                  <strong className="text-secondary">Was das bedeutet:</strong> Bei einem typischen Einfamilienhaus sprechen wir von 
+                  <strong className="text-green-600"> 800 bis 1.500 Euro pro Jahr</strong>, die Sie unnötig verbrennen. 
+                  Geld, das Sie für schönere Dinge ausgeben könnten.
+                </p>
+                <p className="text-muted-foreground">
+                  <strong className="text-secondary">Die gute Nachricht:</strong> Eine professionelle Dachdämmung stoppt diesen Verlust. 
+                  Und mit staatlicher Förderung von bis zu 40% ist die Investition schneller zurückgezahlt, als die meisten denken.
+                </p>
+              </div>
+            </div>
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="bg-green-50/50 border border-green-100 p-5 rounded-lg shadow-sm text-center">
+                <div className="w-12 h-12 bg-green-50 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <Award className="h-6 w-6 text-green-500" />
+                </div>
+                <h3 className="font-bold text-green-700 mb-2">25+ Jahre Erfahrung</h3>
+                <p className="text-sm text-green-600">
+                  Wir kennen jedes Dachproblem – und die beste Lösung dafür.
+                </p>
+              </div>
+              <div className="bg-green-50/50 border border-green-100 p-5 rounded-lg shadow-sm text-center">
+                <div className="w-12 h-12 bg-green-50 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <Users className="h-6 w-6 text-green-500" />
+                </div>
+                <h3 className="font-bold text-green-700 mb-2">500+ zufriedene Kunden</h3>
+                <p className="text-sm text-green-600">
+                  Münchner Hausbesitzer vertrauen auf unsere Arbeit.
+                </p>
+              </div>
+              <div className="bg-green-50/50 border border-green-100 p-5 rounded-lg shadow-sm text-center">
+                <div className="w-12 h-12 bg-green-50 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <Heart className="h-6 w-6 text-green-500" />
+                </div>
+                <h3 className="font-bold text-green-700 mb-2">Ehrliche Beratung</h3>
+                <p className="text-sm text-green-600">
+                  Wir sagen Ihnen, was wirklich nötig ist – nicht mehr.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -180,9 +247,14 @@ export default function DaemmungInfo() {
             </div>
 
             <div className="bg-gradient-to-br from-primary/10 to-primary/5 p-8 rounded-xl border border-primary/20 mb-16">
-              <h2 className="text-2xl font-heading font-bold text-secondary mb-6 text-center">
+              <h2 className="text-2xl font-heading font-bold text-secondary mb-4 text-center">
                 Finden Sie Ihre persönliche Lösung
               </h2>
+              <p className="text-center text-muted-foreground max-w-2xl mx-auto mb-6">
+                Jedes Dach ist anders – und jedes Problem braucht eine individuelle Lösung. 
+                Beantworten Sie <strong className="text-secondary">3 kurze Fragen</strong> und wir zeigen Ihnen, 
+                wie wir Ihnen konkret helfen können.
+              </p>
               
               {funnelStep < funnelQuestions.length ? (
                 <div className="max-w-2xl mx-auto">
