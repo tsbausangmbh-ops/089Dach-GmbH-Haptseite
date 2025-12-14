@@ -113,9 +113,11 @@
   }
 }
 
-/* Mobile: Nur Sektions-Überschriften zentrieren */
+/* Mobile: Überschriften zentrieren */
 @media (max-width: 767px) {
-  section > .container h1:first-of-type,
+  h1 {
+    text-align: center;
+  }
   section > .container > div > h2:first-of-type,
   section > .container > .text-center h2 {
     text-align: center;
