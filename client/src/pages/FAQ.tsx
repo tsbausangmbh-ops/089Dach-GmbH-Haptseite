@@ -186,7 +186,7 @@ export default function FAQ() {
           <div className="flex flex-wrap justify-center gap-8 text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
               <Users className="h-5 w-5 text-primary" />
-              <span><strong className="text-secondary">1.500+</strong> Kunden beraten</span>
+              <span><strong className="text-secondary">100+</strong> Kunden beraten</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="h-5 w-5 text-primary" />

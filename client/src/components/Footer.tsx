@@ -13,7 +13,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-gray-400 leading-relaxed">
-              Meister für Dach- und Spenglerei seit 1998. Über 1.500 zufriedene Kunden in München und Umgebung.
+              Meister für Dach- und Spenglerei seit 1998. Über 100 zufriedene Kunden in München und Umgebung.
             </p>
             <div className="flex flex-wrap gap-3 text-xs">
               <span className="bg-white/10 px-2 py-1 rounded-sm flex items-center gap-1">

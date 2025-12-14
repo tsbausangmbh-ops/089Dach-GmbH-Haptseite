@@ -82,7 +82,7 @@ export default function UeberUns() {
           <div className="flex flex-wrap justify-center gap-8 text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
               <Users className="h-5 w-5 text-primary" />
-              <span><strong className="text-secondary">1.500+</strong> glückliche Kunden</span>
+              <span><strong className="text-secondary">100+</strong> glückliche Kunden</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="h-5 w-5 text-primary" />
@@ -166,7 +166,7 @@ export default function UeberUns() {
                 <div className="text-muted-foreground leading-relaxed space-y-3">
                   <p>
                     Schon als Teenager half er seinem Onkel auf dem Dach. Mit 16 begann die Lehre, mit 23 der 
-                    Meisterbrief – und seither hat er über <strong className="text-secondary">1.500 Dächer</strong> in 
+                    Meisterbrief – und seither hat er über <strong className="text-secondary">100 Dächer</strong> in 
                     München und Umgebung saniert, repariert oder neu gedeckt.
                   </p>
                   <p>
@@ -212,7 +212,7 @@ export default function UeberUns() {
             </div>
             <div className="bg-white p-6 rounded-sm border border-border text-center">
               <Award className="h-8 w-8 text-primary mx-auto mb-3" />
-              <span className="text-4xl font-heading font-bold text-primary">1.500+</span>
+              <span className="text-4xl font-heading font-bold text-primary">100+</span>
               <p className="text-muted-foreground mt-2">Zufriedene Kunden in München</p>
             </div>
             <div className="bg-white p-6 rounded-sm border border-border text-center">
