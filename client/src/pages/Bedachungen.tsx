@@ -6,7 +6,7 @@ import { CheckCircle2, ArrowRight, Home, Warehouse, ShieldCheck, Quote, AlertTri
 import heroImage from "@assets/generated_images/roofer_working_on_red_tile_roof_munich.png";
 import tileImage from "@assets/generated_images/red_roof_tiles_texture_close_up.png";
 import LeadFunnel from "@/components/LeadFunnel";
-import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, ServiceSchema } from "@/components/SEO";
 
 export default function Bedachungen() {
   return (
@@ -18,6 +18,14 @@ export default function Bedachungen() {
         keywords="steildach münchen, flachdach münchen, dachabdichtung münchen, dachisolierung münchen, dacheindeckung münchen"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Bedachungen", url: "/bedachungen" }]} />
+      <ServiceSchema 
+        pageName="Dachsanierung & Bedachungen München"
+        services={[
+          { name: "Steildach Sanierung & Neubau", description: "Tondachziegel, Betonsteine oder Schiefer - sturmsicher befestigt, fachmännisch verlegt" },
+          { name: "Flachdach Abdichtung", description: "Premiummaterialien für Garagen, Anbauten und große Gewerbeobjekte" },
+          { name: "Energetische Dachsanierung", description: "Moderne Dämmung mit bis zu 30% Heizkostenersparnis inkl. KfW/BAFA Förderberatung" }
+        ]}
+      />
       <Navbar />
       
       {/* Hero Section */}

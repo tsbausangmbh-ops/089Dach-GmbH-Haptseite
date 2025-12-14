@@ -153,6 +153,150 @@ export function LocalBusinessSchema() {
   );
 }
 
+interface ServiceItem {
+  name: string;
+  description: string;
+}
+
+export function ServiceSchema({ services, pageName }: { services: ServiceItem[], pageName: string }) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": pageName,
+    "provider": {
+      "@type": "RoofingContractor",
+      "name": "089Dach GmbH",
+      "telephone": "+49-89-12621964",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Thuillestr. 20",
+        "addressLocality": "München",
+        "postalCode": "81247",
+        "addressCountry": "DE"
+      }
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "München"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": pageName,
+      "itemListElement": services.map(service => ({
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": service.name,
+          "description": service.description
+        }
+      }))
+    }
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+export function AboutPageSchema() {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "mainEntity": {
+      "@type": "Organization",
+      "name": "089Dach GmbH",
+      "description": "Familiengeführter Dachdecker-Meisterbetrieb aus München-Obermenzing mit über 25 Jahren Erfahrung",
+      "founder": {
+        "@type": "Person",
+        "name": "Falko Georg Blöckinger",
+        "jobTitle": "Geschäftsführer und Dachdecker- & Spenglermeister",
+        "knowsAbout": ["Dachsanierung", "Steildach", "Flachdach", "Spenglerarbeiten", "Energetische Sanierung"]
+      },
+      "foundingDate": "1998",
+      "numberOfEmployees": {
+        "@type": "QuantitativeValue",
+        "value": 10
+      },
+      "slogan": "Wir machen das aus Leidenschaft",
+      "award": "Meisterbetrieb seit 1998"
+    }
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+interface GuideItem {
+  title: string;
+  description: string;
+  category: string;
+}
+
+export function CollectionPageSchema({ title, description, items }: { title: string, description: string, items: GuideItem[] }) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": title,
+    "description": description,
+    "publisher": {
+      "@type": "Organization",
+      "name": "089Dach GmbH"
+    },
+    "mainEntity": {
+      "@type": "ItemList",
+      "name": "Ratgeber-Artikel",
+      "numberOfItems": items.length,
+      "itemListElement": items.map((item, index) => ({
+        "@type": "ListItem",
+        "position": index + 1,
+        "name": item.title,
+        "description": item.description
+      }))
+    }
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+interface FAQItem {
+  question: string;
+  answer: string;
+}
+
+export function FAQPageSchema({ faqs }: { faqs: FAQItem[] }) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map(faq => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
 interface BreadcrumbItem {
   name: string;
   url: string;

@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import Contact from "@/components/Contact";
 import LeadFunnel from "@/components/LeadFunnel";
 import heroImage from "@assets/generated_images/roofer_explaining_to_homeowner.png";
-import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, FAQPageSchema } from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Phone, Shield, Users, Award, CheckCircle2, Clock, Euro, Heart, Quote } from "lucide-react";
 import { Link } from "wouter";
@@ -121,6 +121,7 @@ export default function FAQ() {
         keywords="dachdecker faq münchen, dachkosten münchen, dachwartung fragen"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "FAQ", url: "/faq" }]} />
+      <FAQPageSchema faqs={faqs.map(f => ({ question: f.question, answer: f.answer }))} />
       <Navbar />
       
       {/* Hero Section */}

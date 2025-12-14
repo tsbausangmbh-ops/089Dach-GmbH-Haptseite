@@ -7,7 +7,7 @@ import Gallery from "@/components/Gallery";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import LeadFunnel from "@/components/LeadFunnel";
-import SEO from "@/components/SEO";
+import SEO, { LocalBusinessSchema } from "@/components/SEO";
 
 export default function Home() {
   const [funnelOpen, setFunnelOpen] = useState(false);
@@ -20,6 +20,7 @@ export default function Home() {
         canonical="https://089dach.de/"
         keywords="dachdecker münchen, dachsanierung münchen, spenglerarbeiten münchen, dachdecker obermenzing, steildach münchen, flachdach münchen"
       />
+      <LocalBusinessSchema />
       <Navbar />
       <main>
         <Hero onOpenFunnel={() => setFunnelOpen(true)} />

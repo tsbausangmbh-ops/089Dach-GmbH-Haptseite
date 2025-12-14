@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { CheckCircle2, AlertTriangle, ThermometerSun, Droplets, Leaf, ArrowRight, BookOpen, Quote, Shield, Users, Award, Phone, HelpCircle, Lightbulb } from "lucide-react";
 import { Link } from "wouter";
-import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, CollectionPageSchema } from "@/components/SEO";
 import gegArticleImage from "@assets/generated_images/homeowner_roof_consultation_scene.png";
 import ratgeberHeroImage from "@assets/generated_images/roofing_expert_with_checklist.png";
 
@@ -83,6 +83,11 @@ export default function Ratgeber() {
         keywords="dachratgeber münchen, dachwartung tipps, förderung dachsanierung münchen, dach wissen"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Ratgeber", url: "/ratgeber" }]} />
+      <CollectionPageSchema 
+        title="Dachwissen München - Ratgeber für Eigentümer"
+        description="Expertenwissen zu Dachsanierung, Wartung und Förderungen speziell für München und Oberbayern"
+        items={guides.map(g => ({ title: g.title, description: g.solution, category: g.category }))}
+      />
       <Navbar />
       
       {/* Hero Section */}

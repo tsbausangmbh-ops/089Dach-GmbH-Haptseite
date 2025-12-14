@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import Contact from "@/components/Contact";
 import { Mail, Phone, MapPin, Clock } from "lucide-react";
 import contactImage from "@assets/generated_images/friendly_woman_on_phone_in_office.png";
-import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, LocalBusinessSchema } from "@/components/SEO";
 
 export default function ContactPage() {
   return (
@@ -15,6 +15,7 @@ export default function ContactPage() {
         keywords="dachdecker kontakt münchen, dachangebot münchen, dachberatung obermenzing"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Kontakt", url: "/kontakt" }]} />
+      <LocalBusinessSchema />
       <Navbar />
       
       {/* Contact Hero */}
