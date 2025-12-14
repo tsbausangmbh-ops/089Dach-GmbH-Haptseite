@@ -1,9 +1,20 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
+
+const serviceOptions = [
+  "Steildach & Flachdach",
+  "Spenglerarbeiten",
+  "Reparaturservice",
+  "Ratgeber & Tipps",
+  "Dachsanierung",
+  "Dachfenster",
+  "Sonstiges"
+];
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -11,6 +22,7 @@ export default function Contact() {
     phone: "",
     email: "",
     address: "",
+    subject: "",
     message: ""
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -34,7 +46,7 @@ export default function Contact() {
         toast.success("Vielen Dank für Ihre Nachricht!", {
           description: "Wir melden uns schnellstmöglich bei Ihnen."
         });
-        setFormData({ name: "", phone: "", email: "", address: "", message: "" });
+        setFormData({ name: "", phone: "", email: "", address: "", subject: "", message: "" });
       } else {
         toast.error("Fehler beim Senden", {
           description: "Bitte versuchen Sie es erneut oder rufen Sie uns an."
@@ -172,6 +184,25 @@ export default function Contact() {
                   onChange={(e) => setFormData({ ...formData, address: e.target.value })}
                   data-testid="input-contact-address"
                 />
+              </div>
+
+              <div className="space-y-2">
+                <label htmlFor="subject" className="text-sm font-medium text-secondary">Betreff</label>
+                <Select
+                  value={formData.subject}
+                  onValueChange={(value) => setFormData({ ...formData, subject: value })}
+                >
+                  <SelectTrigger className="bg-white" data-testid="select-contact-subject">
+                    <SelectValue placeholder="Worum geht es?" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    {serviceOptions.map((option) => (
+                      <SelectItem key={option} value={option} data-testid={`option-subject-${option}`}>
+                        {option}
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
               </div>
 
               <div className="space-y-2">
