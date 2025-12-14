@@ -370,7 +370,7 @@ export default function Heizkostenrechner() {
               </div>
               <div className="mt-8 text-center">
                 <Link href="/daemmung-info">
-                  <Button variant="outline" className="font-bold px-8 py-6 rounded-xl border-secondary text-secondary hover:bg-secondary hover:text-white" data-testid="link-daemmung-ratgeber">
+                  <Button className="bg-red-600 hover:bg-red-700 text-white font-bold px-8 py-6 rounded-xl" data-testid="link-daemmung-ratgeber">
                     <ThermometerSnowflake className="mr-2 h-5 w-5" />
                     Mehr über Dachdämmung erfahren
                     <ArrowRight className="ml-2 h-5 w-5" />
