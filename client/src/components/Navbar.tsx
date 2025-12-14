@@ -19,18 +19,18 @@ export default function Navbar() {
 
   const leistungenItems = [
     { name: "Alle Leistungen", href: "/leistungen" },
-    { name: "Bedachungen", href: "/leistungen/bedachungen" },
-    { name: "Spenglerei", href: "/leistungen/spenglerei" },
-    { name: "Dachsanierung", href: "/leistungen/dachsanierung" },
-    { name: "Dachfenster", href: "/leistungen/dachfenster" },
-    { name: "Reparaturservice", href: "/leistungen/reparaturservice" },
     { name: "Wartung", href: "/leistungen/wartung" },
-    { name: "Energieberatung", href: "/leistungen/energieberatung" },
     { name: "Gaubenbau", href: "/leistungen/gaubenbau" },
+    { name: "Spenglerei", href: "/leistungen/spenglerei" },
+    { name: "Bedachungen", href: "/leistungen/bedachungen" },
+    { name: "Dachfenster", href: "/leistungen/dachfenster" },
+    { name: "Dachsanierung", href: "/leistungen/dachsanierung" },
+    { name: "Energieberatung", href: "/leistungen/energieberatung" },
+    { name: "Reparaturservice", href: "/leistungen/reparaturservice" },
     { name: "Architektenleistungen", href: "/leistungen/architektenleistungen" },
     { name: "---", href: "#", separator: true },
-    { name: "Dachsanierung mit Dämmung", href: "/ratgeber/daemmung" },
     { name: "Leckortung & Reparatur", href: "/ratgeber/leckortung" },
+    { name: "Dachsanierung mit Dämmung", href: "/ratgeber/daemmung" },
     { name: "Kostenlose Beratung + Festpreis", href: "/ratgeber/beratung" },
   ];
 
