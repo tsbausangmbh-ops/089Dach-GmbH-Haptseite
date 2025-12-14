@@ -4,6 +4,7 @@ import { storage } from "./storage";
 import { insertContactSchema, insertLeadSchema } from "@shared/schema";
 import OpenAI from "openai";
 import nodemailer from "nodemailer";
+import { createCalendarEvent } from "./googleCalendar";
 
 const transporter = nodemailer.createTransport({
   host: process.env.SMTP_HOST,
@@ -75,6 +76,23 @@ export async function registerRoutes(
         <p><strong>Telefon:</strong> ${validatedData.phone}</p>
         `
       );
+
+      // Create calendar event for callback request
+      try {
+        const tomorrow = new Date();
+        tomorrow.setDate(tomorrow.getDate() + 1);
+        tomorrow.setHours(9, 0, 0, 0);
+        
+        await createCalendarEvent(
+          `Rückruf: ${validatedData.name} - ${validatedData.problem}`,
+          `Kunde: ${validatedData.name}\nTelefon: ${validatedData.phone}\nE-Mail: ${validatedData.email}\nProblem: ${validatedData.problem}\nDringlichkeit: ${validatedData.timing}\nDetails: ${validatedData.details || "Keine"}`,
+          tomorrow,
+          30
+        );
+        console.log("Calendar event created successfully");
+      } catch (calError) {
+        console.error("Error creating calendar event:", calError);
+      }
       
       res.status(201).json({ success: true, data: lead });
     } catch (error) {

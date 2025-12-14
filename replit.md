@@ -66,6 +66,9 @@ The server uses a simple storage pattern (`server/storage.ts`) that abstracts da
   - Secrets: SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS
   - Empfänger: info@089dach.de
   - Verwendet Nodemailer
+- **Google Calendar**: Automatische Kalendereintrag-Erstellung bei Rückruf-Wünschen
+  - Via Replit Connector (OAuth)
+  - Erstellt Termine für nächsten Werktag um 9:00 Uhr
 
 ### Key NPM Packages
 - `drizzle-orm` / `drizzle-zod`: Database ORM and schema validation
