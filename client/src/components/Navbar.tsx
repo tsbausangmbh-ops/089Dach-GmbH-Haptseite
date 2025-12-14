@@ -9,8 +9,9 @@ export default function Navbar() {
 
   const navItems = [
     { name: "Startseite", href: "/" },
+    { name: "Leistungen", href: "/leistungen" },
     { name: "Dachdeckerei", href: "/dachdeckerei" },
-    { name: "Leistungen", href: "/#services" },
+    { name: "Spenglerei", href: "/spenglerei" },
     { name: "Über uns", href: "/#about" },
     { name: "Referenzen", href: "/#gallery" },
     { name: "Kontakt", href: "/#contact" },

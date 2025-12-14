@@ -6,12 +6,16 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/not-found";
 import Home from "@/pages/Home";
 import Dachdeckerei from "@/pages/Dachdeckerei";
+import Leistungen from "@/pages/Leistungen";
+import Spenglerei from "@/pages/Spenglerei";
 
 function Router() {
   return (
     <Switch>
       <Route path="/" component={Home} />
       <Route path="/dachdeckerei" component={Dachdeckerei} />
+      <Route path="/spenglerei" component={Spenglerei} />
+      <Route path="/leistungen" component={Leistungen} />
       <Route component={NotFound} />
     </Switch>
   );
