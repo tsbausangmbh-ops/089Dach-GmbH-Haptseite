@@ -252,6 +252,17 @@ export default function KostenloseBeratung() {
               </div>
 
               <div className="space-y-2">
+                <Label htmlFor="address">Adresse des Objekts (optional)</Label>
+                <Input 
+                  id="address"
+                  placeholder="Musterstraße 1, 80331 München"
+                  value={formData.address}
+                  onChange={(e) => setFormData({ ...formData, address: e.target.value })}
+                  data-testid="input-beratung-address"
+                />
+              </div>
+
+              <div className="space-y-2">
                 <Label htmlFor="urgency">Wie dringend ist es?</Label>
                 <select
                   id="urgency"
@@ -396,17 +407,6 @@ export default function KostenloseBeratung() {
                     data-testid="input-beratung-email"
                   />
                 </div>
-              </div>
-
-              <div className="space-y-2">
-                <Label htmlFor="address">Adresse des Objekts (optional)</Label>
-                <Input 
-                  id="address"
-                  placeholder="Musterstraße 1, 80331 München"
-                  value={formData.address}
-                  onChange={(e) => setFormData({ ...formData, address: e.target.value })}
-                  data-testid="input-beratung-address"
-                />
               </div>
 
               <div className="space-y-2">
