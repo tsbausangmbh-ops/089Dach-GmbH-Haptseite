@@ -6,7 +6,7 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Calendar } from "@/components/ui/calendar";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
-import { MessageSquare, ArrowRight, ShieldCheck, Award, Shield, Users, Lightbulb, Target, Heart, CalendarIcon, Loader2 } from "lucide-react";
+import { MessageSquare, ArrowRight, ShieldCheck, Award, Shield, Users, Lightbulb, Target, Heart, CalendarIcon, Loader2, Upload, X } from "lucide-react";
 import { useState, useEffect } from "react";
 import { toast } from "sonner";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
@@ -24,6 +24,8 @@ export default function KostenloseBeratung() {
   const [isLoadingSlots, setIsLoadingSlots] = useState(true);
   const [selectedDate, setSelectedDate] = useState<Date | undefined>();
   const [selectedSlot, setSelectedSlot] = useState<TimeSlot | null>(null);
+  const [files, setFiles] = useState<File[]>([]);
+  const [isDragging, setIsDragging] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -74,32 +76,66 @@ export default function KostenloseBeratung() {
     return format(new Date(isoString), "HH:mm", { locale: de });
   };
 
+  const allowedTypes = ['application/pdf', 'image/jpeg', 'image/png', 'image/gif', 'image/webp'];
+
+  const handleFiles = (newFiles: File[]) => {
+    const validFiles = newFiles.filter(file => allowedTypes.includes(file.type));
+    if (validFiles.length < newFiles.length) {
+      toast.error("Nur PDF und Bilder erlaubt");
+    }
+    setFiles(prev => [...prev, ...validFiles].slice(0, 5));
+    if (files.length + validFiles.length > 5) {
+      toast.info("Maximal 5 Dateien erlaubt");
+    }
+  };
+
+  const handleDragOver = (e: React.DragEvent) => {
+    e.preventDefault();
+    setIsDragging(true);
+  };
+
+  const handleDragLeave = (e: React.DragEvent) => {
+    e.preventDefault();
+    setIsDragging(false);
+  };
+
+  const handleDrop = (e: React.DragEvent) => {
+    e.preventDefault();
+    setIsDragging(false);
+    const droppedFiles = Array.from(e.dataTransfer.files);
+    handleFiles(droppedFiles);
+  };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
 
     try {
-      const response = await fetch("/api/leads", {
+      const submitData = new FormData();
+      submitData.append('data', JSON.stringify({
+        problem: formData.problem || "Kostenlose Beratung angefragt",
+        timing: selectedSlot 
+          ? `Gewünschter Termin: ${format(new Date(selectedSlot.start), "dd.MM.yyyy HH:mm", { locale: de })} Uhr`
+          : "Beratungsanfrage",
+        details: [
+          formData.objectType && `Objektart: ${formData.objectType}`,
+          formData.urgency && `Dringlichkeit: ${formData.urgency}`,
+          formData.privateAddress && `Privatadresse: ${formData.privateAddress}`,
+          formData.objectAddress && `Adresse des Objekts: ${formData.objectAddress}`,
+          formData.message
+        ].filter(Boolean).join("\n") || "Keine Details angegeben",
+        name: formData.name,
+        phone: formData.phone,
+        email: formData.email,
+        callbackStart: selectedSlot?.start || null,
+        callbackEnd: selectedSlot?.end || null
+      }));
+      
+      files.forEach(file => submitData.append('files', file));
+
+      const response = await fetch("/api/leads-with-files", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          problem: formData.problem || "Kostenlose Beratung angefragt",
-          timing: selectedSlot 
-            ? `Gewünschter Termin: ${format(new Date(selectedSlot.start), "dd.MM.yyyy HH:mm", { locale: de })} Uhr`
-            : "Beratungsanfrage",
-          details: [
-            formData.objectType && `Objektart: ${formData.objectType}`,
-            formData.urgency && `Dringlichkeit: ${formData.urgency}`,
-            formData.privateAddress && `Privatadresse: ${formData.privateAddress}`,
-            formData.objectAddress && `Adresse des Objekts: ${formData.objectAddress}`,
-            formData.message
-          ].filter(Boolean).join("\n") || "Keine Details angegeben",
-          name: formData.name,
-          phone: formData.phone,
-          email: formData.email,
-          callbackStart: selectedSlot?.start || null,
-          callbackEnd: selectedSlot?.end || null
-        })
+        body: submitData
       });
 
       if (response.ok) {
@@ -110,6 +146,7 @@ export default function KostenloseBeratung() {
           description: "Wir melden uns zum vereinbarten Termin bei Ihnen."
         });
         setFormData({ name: "", email: "", phone: "", privateAddress: "", objectAddress: "", problem: "", objectType: "", urgency: "", message: "" });
+        setFiles([]);
         setSelectedSlot(null);
         setSelectedDate(undefined);
         fetchAvailability();
@@ -421,6 +458,55 @@ export default function KostenloseBeratung() {
                   onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                   data-testid="textarea-beratung-message"
                 />
+              </div>
+
+              <div className="space-y-2">
+                <Label>Dateien anhängen (optional)</Label>
+                <div 
+                  className={`border-2 border-dashed rounded-lg p-4 text-center transition-colors ${isDragging ? 'border-primary bg-primary/5' : 'border-gray-300 hover:border-primary'}`}
+                  onDragOver={handleDragOver}
+                  onDragLeave={handleDragLeave}
+                  onDrop={handleDrop}
+                  data-testid="dropzone-beratung-files"
+                >
+                  <input
+                    type="file"
+                    multiple
+                    accept=".pdf,.jpg,.jpeg,.png,.gif,.webp"
+                    onChange={(e) => {
+                      const newFiles = Array.from(e.target.files || []);
+                      handleFiles(newFiles);
+                      e.target.value = '';
+                    }}
+                    className="hidden"
+                    id="file-upload"
+                    data-testid="input-beratung-files"
+                  />
+                  <label htmlFor="file-upload" className="cursor-pointer">
+                    <Upload className={`h-8 w-8 mx-auto mb-2 ${isDragging ? 'text-primary' : 'text-gray-400'}`} />
+                    <p className="text-sm text-muted-foreground">
+                      {isDragging ? 'Dateien hier ablegen' : 'Dateien hierher ziehen oder klicken zum Hochladen'}
+                    </p>
+                    <p className="text-xs text-muted-foreground mt-1">PDF oder Bilder (max. 5 Dateien, je 10MB)</p>
+                  </label>
+                </div>
+                {files.length > 0 && (
+                  <div className="space-y-2">
+                    {files.map((file, idx) => (
+                      <div key={idx} className="flex items-center justify-between bg-gray-100 p-2 rounded">
+                        <span className="text-sm truncate">{file.name}</span>
+                        <Button
+                          type="button"
+                          variant="ghost"
+                          size="sm"
+                          onClick={() => setFiles(files.filter((_, i) => i !== idx))}
+                        >
+                          <X className="h-4 w-4" />
+                        </Button>
+                      </div>
+                    ))}
+                  </div>
+                )}
               </div>
 
               <Button 
