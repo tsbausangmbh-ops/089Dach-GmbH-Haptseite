@@ -20,7 +20,7 @@ export default function Datenschutz() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="pt-10 pb-12 relative overflow-hidden min-h-[50vh] flex items-center">
+      <section className="pt-6 pb-8 md:pt-10 md:pb-12 relative overflow-hidden min-h-[50vh] flex items-center">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img
@@ -35,15 +35,15 @@ export default function Datenschutz() {
           <div className="absolute inset-0 bg-gradient-to-r from-secondary/95 via-secondary/85 to-secondary/70"></div>
         </div>
         
-        <div className="container mx-auto px-6 lg:px-12 relative z-10">
+        <div className="container mx-auto px-4 md:px-6 lg:px-12 relative z-10">
           <div className="max-w-2xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">DSGVO konform</span>
-            <h1 className="text-4xl md:text-6xl font-heading font-bold text-white mt-4 mb-6">
+            <h1 className="text-3xl md:text-5xl lg:text-6xl font-heading font-bold text-white mt-4 mb-4 md:mb-6">
               Datenschutzerklärung
             </h1>
             
-            <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl border-l-4 border-primary mb-8">
-              <p className="text-lg text-white font-medium mb-3">
+            <div className="bg-white/10 backdrop-blur-sm p-4 md:p-6 rounded-xl border-l-4 border-primary mb-6 md:mb-8">
+              <p className="text-base md:text-lg text-white font-medium mb-3">
                 Ihre Daten sind bei uns sicher.
               </p>
               <p className="text-gray-200 leading-relaxed mb-4">
@@ -55,7 +55,7 @@ export default function Datenschutz() {
               </p>
             </div>
             
-            <p className="text-xl text-gray-200 leading-relaxed mb-8">
+            <p className="text-lg md:text-xl text-gray-200 leading-relaxed mb-6 md:mb-8">
               <strong className="text-white">Fragen zum Datenschutz?</strong> Wir helfen Ihnen gerne weiter – 
               schnell und unkompliziert.
             </p>
@@ -76,11 +76,11 @@ export default function Datenschutz() {
       </section>
       <BackButton />
 
-      <div className="container mx-auto px-6 lg:px-12 pt-8 pb-12 max-w-4xl">
+      <div className="container mx-auto px-4 md:px-6 lg:px-12 pt-6 md:pt-8 pb-10 md:pb-12 max-w-4xl">
         <div className="prose prose-lg text-muted-foreground">
           
           {/* Inhaltsübersicht */}
-          <div className="bg-gray-50 p-6 rounded-xl border border-gray-100 mb-8 not-prose">
+          <div className="bg-gray-50 p-4 md:p-6 rounded-xl border border-gray-100 mb-6 md:mb-8 not-prose">
             <h3 className="font-bold text-secondary mb-4">Inhaltsübersicht</h3>
             <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm">
               <li><a href="#praeambel" className="text-primary hover:underline">Präambel</a></li>
@@ -99,7 +99,7 @@ export default function Datenschutz() {
             </ul>
           </div>
 
-          <h2 id="praeambel" className="text-2xl font-bold text-secondary mt-8 mb-4">Präambel</h2>
+          <h2 id="praeambel" className="text-xl md:text-2xl font-bold text-secondary mt-6 md:mt-8 mb-4">Präambel</h2>
           <p>
             Mit der folgenden Datenschutzerklärung möchten wir Sie darüber aufklären, welche Arten Ihrer 
             personenbezogenen Daten (nachfolgend auch kurz als "Daten" bezeichnet) wir zu welchen Zwecken 
@@ -111,8 +111,8 @@ export default function Datenschutz() {
           </p>
           <p>Die verwendeten Begriffe sind nicht geschlechtsspezifisch.</p>
 
-          <h2 id="verantwortlicher" className="text-2xl font-bold text-secondary mt-8 mb-4">Verantwortlicher</h2>
-          <div className="bg-gray-50 p-6 rounded-xl border border-gray-100 my-4">
+          <h2 id="verantwortlicher" className="text-xl md:text-2xl font-bold text-secondary mt-6 md:mt-8 mb-4">Verantwortlicher</h2>
+          <div className="bg-gray-50 p-4 md:p-6 rounded-xl border border-gray-100 my-4">
             <p className="font-bold text-secondary">089Dach GmbH</p>
             <p>Falko Georg Blöckinger<br />
             Thuillestr. 20<br />
@@ -124,7 +124,7 @@ export default function Datenschutz() {
             </p>
           </div>
 
-          <h2 id="verarbeitungen" className="text-2xl font-bold text-secondary mt-8 mb-4">Übersicht der Verarbeitungen</h2>
+          <h2 id="verarbeitungen" className="text-xl md:text-2xl font-bold text-secondary mt-6 md:mt-8 mb-4">Übersicht der Verarbeitungen</h2>
           <p>
             Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und die Zwecke ihrer 
             Verarbeitung zusammen und verweist auf die betroffenen Personen.
@@ -156,14 +156,14 @@ export default function Datenschutz() {
             <li>Informationstechnische Infrastruktur</li>
           </ul>
 
-          <h2 id="rechtsgrundlagen" className="text-2xl font-bold text-secondary mt-8 mb-4">Maßgebliche Rechtsgrundlagen</h2>
+          <h2 id="rechtsgrundlagen" className="text-xl md:text-2xl font-bold text-secondary mt-6 md:mt-8 mb-4">Maßgebliche Rechtsgrundlagen</h2>
           <p>
             <strong>Maßgebliche Rechtsgrundlagen nach der DSGVO:</strong> Im Folgenden erhalten Sie eine 
             Übersicht der Rechtsgrundlagen der DSGVO, auf deren Basis wir personenbezogene Daten verarbeiten.
           </p>
           
-          <div className="space-y-4 not-prose my-6">
-            <div className="bg-gray-50 p-6 rounded-xl border border-gray-100">
+          <div className="space-y-4 not-prose my-4 md:my-6">
+            <div className="bg-gray-50 p-4 md:p-6 rounded-xl border border-gray-100">
               <div className="flex items-start gap-3">
                 <Lock className="h-5 w-5 text-primary shrink-0 mt-1" />
                 <div>
@@ -176,7 +176,7 @@ export default function Datenschutz() {
               </div>
             </div>
 
-            <div className="bg-gray-50 p-6 rounded-xl border border-gray-100">
+            <div className="bg-gray-50 p-4 md:p-6 rounded-xl border border-gray-100">
               <div className="flex items-start gap-3">
                 <FileText className="h-5 w-5 text-blue-600 shrink-0 mt-1" />
                 <div>
@@ -190,7 +190,7 @@ export default function Datenschutz() {
               </div>
             </div>
 
-            <div className="bg-gray-50 p-6 rounded-xl border border-gray-100">
+            <div className="bg-gray-50 p-4 md:p-6 rounded-xl border border-gray-100">
               <div className="flex items-start gap-3">
                 <Shield className="h-5 w-5 text-green-600 shrink-0 mt-1" />
                 <div>
@@ -205,7 +205,7 @@ export default function Datenschutz() {
             </div>
           </div>
 
-          <h2 id="sicherheit" className="text-2xl font-bold text-secondary mt-8 mb-4">Sicherheitsmaßnahmen</h2>
+          <h2 id="sicherheit" className="text-xl md:text-2xl font-bold text-secondary mt-6 md:mt-8 mb-4">Sicherheitsmaßnahmen</h2>
           <p>
             Wir treffen nach Maßgabe der gesetzlichen Vorgaben unter Berücksichtigung des Stands der Technik, 
             der Implementierungskosten und der Art, des Umfangs, der Umstände und der Zwecke der Verarbeitung 
@@ -228,7 +228,7 @@ export default function Datenschutz() {
             </p>
           </div>
 
-          <h2 id="uebermittlung" className="text-2xl font-bold text-secondary mt-8 mb-4">Übermittlung von personenbezogenen Daten</h2>
+          <h2 id="uebermittlung" className="text-xl md:text-2xl font-bold text-secondary mt-6 md:mt-8 mb-4">Übermittlung von personenbezogenen Daten</h2>
           <p>
             Im Rahmen unserer Verarbeitung von personenbezogenen Daten kommt es vor, dass diese an andere 
             Stellen, Unternehmen, rechtlich selbstständige Organisationseinheiten oder Personen übermittelt 
@@ -239,7 +239,7 @@ export default function Datenschutz() {
             dienen, mit den Empfängern Ihrer Daten ab.
           </p>
 
-          <h2 id="drittlaender" className="text-2xl font-bold text-secondary mt-8 mb-4">Internationale Datentransfers</h2>
+          <h2 id="drittlaender" className="text-xl md:text-2xl font-bold text-secondary mt-6 md:mt-8 mb-4">Internationale Datentransfers</h2>
           <p>
             <strong>Datenverarbeitung in Drittländern:</strong> Sofern wir Daten in ein Drittland (d. h. 
             außerhalb der Europäischen Union (EU) oder des Europäischen Wirtschaftsraums (EWR)) übermitteln 
@@ -247,7 +247,7 @@ export default function Datenschutz() {
             mit den gesetzlichen Vorgaben.
           </p>
           
-          <div className="bg-blue-50 p-6 rounded-xl border border-blue-100 my-4">
+          <div className="bg-blue-50 p-4 md:p-6 rounded-xl border border-blue-100 my-4">
             <h4 className="font-bold text-secondary mb-2">Data Privacy Framework (DPF)</h4>
             <p className="text-sm text-muted-foreground">
               Für Datenübermittlungen in die USA stützen wir uns vorrangig auf das <strong>Data Privacy 
@@ -260,7 +260,7 @@ export default function Datenschutz() {
             </p>
           </div>
 
-          <h2 id="speicherung" className="text-2xl font-bold text-secondary mt-8 mb-4">Allgemeine Informationen zur Datenspeicherung und Löschung</h2>
+          <h2 id="speicherung" className="text-xl md:text-2xl font-bold text-secondary mt-6 md:mt-8 mb-4">Allgemeine Informationen zur Datenspeicherung und Löschung</h2>
           <p>
             Wir löschen personenbezogene Daten, die wir verarbeiten, gemäß den gesetzlichen Bestimmungen, 
             sobald die zugrundeliegenden Einwilligungen widerrufen werden oder keine weiteren rechtlichen 
@@ -291,7 +291,7 @@ export default function Datenschutz() {
             </div>
           </div>
 
-          <h2 id="rechte" className="text-2xl font-bold text-secondary mt-8 mb-4">Rechte der betroffenen Personen</h2>
+          <h2 id="rechte" className="text-xl md:text-2xl font-bold text-secondary mt-6 md:mt-8 mb-4">Rechte der betroffenen Personen</h2>
           <p>
             Ihnen stehen als Betroffene nach der DSGVO verschiedene Rechte zu, die sich insbesondere aus 
             Art. 15 bis 21 DSGVO ergeben:
@@ -332,7 +332,7 @@ export default function Datenschutz() {
             </div>
           </div>
 
-          <div className="bg-gray-50 p-6 rounded-xl border border-gray-100 my-4">
+          <div className="bg-gray-50 p-4 md:p-6 rounded-xl border border-gray-100 my-4">
             <p className="font-bold text-secondary">Zuständige Aufsichtsbehörde:</p>
             <p className="text-muted-foreground mt-2">
               Bayerisches Landesamt für Datenschutzaufsicht (BayLDA)<br />
@@ -342,7 +342,7 @@ export default function Datenschutz() {
             </p>
           </div>
 
-          <h2 id="webhosting" className="text-2xl font-bold text-secondary mt-8 mb-4">Bereitstellung des Onlineangebots und Webhosting</h2>
+          <h2 id="webhosting" className="text-xl md:text-2xl font-bold text-secondary mt-6 md:mt-8 mb-4">Bereitstellung des Onlineangebots und Webhosting</h2>
           <p>
             Wir verarbeiten die Daten der Nutzer, um ihnen unsere Online-Dienste zur Verfügung stellen zu 
             können. Zu diesem Zweck verarbeiten wir die IP-Adresse des Nutzers, die notwendig ist, um die 
@@ -350,7 +350,7 @@ export default function Datenschutz() {
             übermitteln.
           </p>
           
-          <div className="bg-gray-50 p-6 rounded-xl border border-gray-100 my-4">
+          <div className="bg-gray-50 p-4 md:p-6 rounded-xl border border-gray-100 my-4">
             <h4 className="font-bold text-secondary mb-2">Erhebung von Zugriffsdaten und Logfiles</h4>
             <p className="text-sm text-muted-foreground">
               Der Zugriff auf unser Onlineangebot wird in Form von "Server-Logfiles" protokolliert. 
@@ -364,7 +364,7 @@ export default function Datenschutz() {
             </p>
           </div>
 
-          <h2 id="cookies" className="text-2xl font-bold text-secondary mt-8 mb-4">Einsatz von Cookies</h2>
+          <h2 id="cookies" className="text-xl md:text-2xl font-bold text-secondary mt-6 md:mt-8 mb-4">Einsatz von Cookies</h2>
           <p>
             Unter dem Begriff "Cookies" werden Funktionen verstanden, die Informationen auf Endgeräten der 
             Nutzer speichern und aus ihnen auslesen. Cookies können zu unterschiedlichen Zwecken eingesetzt 
@@ -395,7 +395,7 @@ export default function Datenschutz() {
           </p>
 
           {/* KI-Chatbot Section */}
-          <div className="bg-primary text-white p-8 rounded-xl my-8 not-prose">
+          <div className="bg-primary text-white p-5 md:p-8 rounded-xl my-6 md:my-8 not-prose">
             <div className="flex items-start gap-4">
               <Bot className="h-8 w-8 text-white shrink-0" />
               <div>

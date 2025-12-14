@@ -100,7 +100,7 @@ export default function Ratgeber() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="pt-10 pb-12 relative overflow-hidden min-h-[50vh] flex items-center">
+      <section className="pt-6 pb-8 md:pt-10 md:pb-12 relative overflow-hidden min-h-[50vh] flex items-center">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img
@@ -115,16 +115,16 @@ export default function Ratgeber() {
           <div className="absolute inset-0 bg-gradient-to-r from-secondary/95 via-secondary/85 to-secondary/70"></div>
         </div>
         
-        <div className="container mx-auto px-6 lg:px-12 relative z-10">
+        <div className="container mx-auto px-4 md:px-6 lg:px-12 relative z-10">
           <div className="max-w-2xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">089Dach Expertenwissen</span>
-            <h1 className="text-4xl md:text-6xl font-heading font-bold text-white mt-4 mb-6">
+            <h1 className="text-3xl md:text-5xl lg:text-6xl font-heading font-bold text-white mt-4 mb-4 md:mb-6">
               Endlich verstehen, was Ihr Dach wirklich braucht
             </h1>
             
             {/* Problem-Agitation */}
-            <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl border-l-4 border-primary mb-8">
-              <p className="text-lg text-white font-medium mb-3">
+            <div className="bg-white/10 backdrop-blur-sm p-4 md:p-6 rounded-xl border-l-4 border-primary mb-6 md:mb-8">
+              <p className="text-base md:text-lg text-white font-medium mb-3">
                 Kennen Sie das Gefühl?
               </p>
               <p className="text-gray-200 leading-relaxed mb-4">
@@ -137,7 +137,7 @@ export default function Ratgeber() {
               </p>
             </div>
             
-            <p className="text-xl text-gray-200 leading-relaxed mb-8">
+            <p className="text-lg md:text-xl text-gray-200 leading-relaxed mb-6 md:mb-8">
               Uns. Weil wir Ihnen hier unser komplettes Wissen schenken – aus über 25 Jahren 
               Erfahrung auf Münchner Dächern. <strong className="text-white">Ehrlich. Verständlich. Ohne Verkaufsdruck.</strong> 
               Damit Sie die richtigen Entscheidungen treffen – egal ob mit uns oder jemand anderem.
@@ -160,9 +160,9 @@ export default function Ratgeber() {
       <BackButton />
       
       {/* Trust Badges */}
-      <section className="py-8 border-b border-border">
-        <div className="container mx-auto px-6 lg:px-12">
-          <div className="flex flex-wrap justify-center gap-8 text-sm text-muted-foreground">
+      <section className="py-4 md:py-8 border-b border-border">
+        <div className="container mx-auto px-4 md:px-6 lg:px-12">
+          <div className="flex flex-wrap justify-center gap-4 md:gap-8 text-xs md:text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
               <Users className="h-5 w-5 text-primary" />
               <span><strong className="text-secondary">100+</strong> Hausbesitzer beraten</span>
@@ -180,15 +180,15 @@ export default function Ratgeber() {
       </section>
 
       {/* Featured Article */}
-      <section className="py-16">
-        <div className="container mx-auto px-6 lg:px-12">
+      <section className="py-10 md:py-16">
+        <div className="container mx-auto px-4 md:px-6 lg:px-12">
           <div className="bg-secondary text-white rounded-xl overflow-hidden shadow-xl grid md:grid-cols-2">
-            <div className="p-8 md:p-12 flex flex-col justify-center">
+            <div className="p-6 md:p-12 flex flex-col justify-center">
               <div className="flex items-center gap-2 text-primary font-medium mb-4">
                 <Lightbulb className="h-4 w-4" />
                 <span>Das beschäftigt gerade alle Hausbesitzer</span>
               </div>
-              <h2 className="text-3xl font-heading font-bold mb-4">
+              <h2 className="text-2xl md:text-3xl font-heading font-bold mb-4">
                 GEG 2024: Was bedeutet das neue Gesetz für Ihr Dach?
               </h2>
               <p className="text-gray-300 mb-4 leading-relaxed">
@@ -222,11 +222,11 @@ export default function Ratgeber() {
       </section>
 
       {/* Expert Quote */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-6 lg:px-12">
+      <section className="py-10 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4 md:px-6 lg:px-12">
           <div className="max-w-3xl mx-auto text-center">
-            <Quote className="h-12 w-12 text-primary/30 mx-auto mb-6" />
-            <blockquote className="text-2xl font-heading text-secondary italic mb-6 leading-relaxed">
+            <Quote className="h-10 w-10 md:h-12 md:w-12 text-primary/30 mx-auto mb-4 md:mb-6" />
+            <blockquote className="text-xl md:text-2xl font-heading text-secondary italic mb-4 md:mb-6 leading-relaxed">
               „Die meisten Hausbesitzer haben keine Ahnung, was ihr Dach braucht – und das ist 
               nicht ihre Schuld. Aber genau deshalb werden sie oft über den Tisch gezogen. 
               Wir wollen, dass Sie verstehen, wofür Sie bezahlen."
@@ -245,10 +245,10 @@ export default function Ratgeber() {
       </section>
 
       {/* Grid of Guides */}
-      <section id="artikel" className="py-20">
-        <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-2xl mb-12">
-            <h2 className="text-3xl font-heading font-bold text-secondary mb-4">
+      <section id="artikel" className="py-12 md:py-20">
+        <div className="container mx-auto px-4 md:px-6 lg:px-12">
+          <div className="max-w-2xl mb-8 md:mb-12">
+            <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">
               Welches Problem beschäftigt Sie gerade?
             </h2>
             <p className="text-muted-foreground text-lg">
@@ -320,16 +320,16 @@ export default function Ratgeber() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-secondary text-white">
-        <div className="container mx-auto px-6 lg:px-12 text-center">
-          <h2 className="text-3xl md:text-4xl font-heading font-bold mb-6">
+      <section className="py-12 md:py-20 bg-secondary text-white">
+        <div className="container mx-auto px-4 md:px-6 lg:px-12 text-center">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-heading font-bold mb-4 md:mb-6">
             Ihre Frage ist hier nicht dabei?
           </h2>
-          <p className="text-xl text-gray-300 mb-4 max-w-2xl mx-auto">
+          <p className="text-lg md:text-xl text-gray-300 mb-4 max-w-2xl mx-auto">
             Kein Problem. Rufen Sie uns einfach an. Wir nehmen uns Zeit für Ihre Fragen – 
             auch wenn Sie noch gar nicht wissen, ob Sie überhaupt etwas machen wollen.
           </p>
-          <p className="text-gray-400 mb-8 max-w-xl mx-auto">
+          <p className="text-gray-400 mb-6 md:mb-8 max-w-xl mx-auto">
             Keine Verkaufsgespräche. Keine Überrumpelung. Nur ehrliche Antworten von echten Handwerkern.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
