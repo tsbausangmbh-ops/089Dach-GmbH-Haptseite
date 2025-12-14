@@ -68,7 +68,7 @@ export default function Datenschutz() {
                 </a>
               </Button>
               <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-secondary font-bold rounded-xl" data-testid="button-hero-content">
-                <a href="#praeambel">Zur Datenschutzerklärung</a>
+                <a href="#praeambel">24h Beratungstermin</a>
               </Button>
             </div>
           </div>
