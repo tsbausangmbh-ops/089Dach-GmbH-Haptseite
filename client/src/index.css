@@ -113,9 +113,9 @@
   }
 }
 
-/* Mobile: Alle Überschriften zentrieren */
+/* Mobile: Hauptüberschriften zentrieren */
 @media (max-width: 767px) {
-  h1, h2, h3, h4 {
+  h1, h2 {
     text-align: center;
   }
 }
