@@ -269,9 +269,9 @@ export default function Leistungen() {
                     ))}
                   </ul>
 
-                  <a href="tel:08912621964">
+                  <a href="/rueckruf">
                     <Button variant="outline" className="mt-4 border-secondary text-secondary hover:bg-secondary hover:text-white rounded-sm" data-testid={`button-beratung-${service.id}`}>
-                      Kostenlose Beratung anfordern
+                      Rückruf anfordern
                     </Button>
                   </a>
                 </div>

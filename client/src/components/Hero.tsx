@@ -85,9 +85,9 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
                 asChild
                 data-testid="button-hero-call"
               >
-                <a href="tel:08912621964">
+                <a href="/rueckruf">
                   <Phone className="mr-2 h-5 w-5" />
-                  089 12621964
+                  Rückruf anfordern
                 </a>
               </Button>
             </div>

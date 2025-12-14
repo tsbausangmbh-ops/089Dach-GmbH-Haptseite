@@ -225,7 +225,7 @@ export default function Dachfenster() {
             </div>
           </div>
           <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-sm mt-8" data-testid="button-faq-contact">
-            <a href="tel:08912621964">Ihre Frage stellen</a>
+            <a href="/rueckruf">Rückruf anfordern</a>
           </Button>
         </div>
       </section>

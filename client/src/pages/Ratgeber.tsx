@@ -132,9 +132,9 @@ export default function Ratgeber() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-sm" data-testid="button-hero-call">
-                <a href="tel:08912621964">
+                <a href="/rueckruf">
                   <Phone className="mr-2 h-5 w-5" />
-                  Frage? Rufen Sie an
+                  Rückruf anfordern
                 </a>
               </Button>
               <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-secondary font-bold rounded-sm" data-testid="button-hero-articles">
@@ -314,9 +314,9 @@ export default function Ratgeber() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-sm text-lg px-8" data-testid="button-cta-call">
-              <a href="tel:08912621964">
+              <a href="/rueckruf">
                 <Phone className="mr-2 h-5 w-5" />
-                089 12621964
+                Rückruf anfordern
               </a>
             </Button>
             <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-secondary font-bold rounded-sm text-lg px-8" data-testid="button-cta-contact">

@@ -36,9 +36,9 @@ export default function Navbar() {
       <div className="hidden md:block bg-secondary text-white py-2">
         <div className="container mx-auto px-4 flex justify-between items-center text-sm font-medium">
           <div className="flex gap-6">
-            <a href="tel:08912621964" className="flex items-center gap-2 hover:text-primary transition-colors">
+            <a href="/rueckruf" className="flex items-center gap-2 hover:text-primary transition-colors">
               <Phone className="h-4 w-4 text-primary" />
-              089 12621964
+              Rückruf anfordern
             </a>
             <a href="mailto:info@089dach.de" className="flex items-center gap-2 hover:text-primary transition-colors">
               <Mail className="h-4 w-4 text-primary" />
@@ -176,7 +176,7 @@ export default function Navbar() {
                 <ChevronRight className="h-4 w-4" />
               </a>
               <Button className="mt-4 bg-primary hover:bg-primary/90 w-full rounded-sm" asChild>
-                <a href="tel:08912621964">Jetzt anrufen</a>
+                <a href="/rueckruf">Rückruf anfordern</a>
               </Button>
             </nav>
           </SheetContent>

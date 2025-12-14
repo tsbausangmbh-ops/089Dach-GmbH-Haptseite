@@ -211,9 +211,9 @@ export default function Energieberatung() {
             Partnernetzwerk. So erhalten Sie alles aus einer Hand – von der Beratung bis zur fertigen Dachsanierung.
           </p>
           <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-sm" data-testid="button-beratung">
-            <a href="tel:08912621964">
+            <a href="/rueckruf">
               <Phone className="mr-2 h-5 w-5" />
-              Beratungstermin vereinbaren
+              Rückruf anfordern
             </a>
           </Button>
         </div>
