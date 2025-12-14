@@ -251,14 +251,20 @@ export default function KostenloseBeratung() {
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="address">Adresse des Objekts (optional)</Label>
-                  <Input 
-                    id="address"
-                    placeholder="Straße, PLZ Ort"
-                    value={formData.address}
-                    onChange={(e) => setFormData({ ...formData, address: e.target.value })}
-                    data-testid="input-beratung-address"
-                  />
+                  <Label htmlFor="urgency">Wie dringend ist es?</Label>
+                  <select
+                    id="urgency"
+                    className="w-full h-12 px-3 rounded-md border border-input bg-background text-sm"
+                    value={formData.urgency}
+                    onChange={(e) => setFormData({ ...formData, urgency: e.target.value })}
+                    data-testid="select-beratung-urgency"
+                  >
+                    <option value="">Bitte wählen...</option>
+                    <option value="Sofort/Notfall">Sofort / Notfall</option>
+                    <option value="In den nächsten Tagen">In den nächsten Tagen</option>
+                    <option value="In den nächsten Wochen">In den nächsten Wochen</option>
+                    <option value="Kein Zeitdruck">Kein Zeitdruck / nur informieren</option>
+                  </select>
                 </div>
               </div>
 
