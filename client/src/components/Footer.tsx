@@ -6,17 +6,23 @@ export default function Footer() {
           
           <div className="space-y-4">
             <div className="flex items-start gap-3 group">
-              <img src="/favicon.png" alt="089Dach Logo" className="h-12 w-auto flex-shrink-0" />
+              <img src="/favicon.png" alt="089Dach Logo" className="h-14 w-auto flex-shrink-0" />
               <div className="flex flex-col gap-1">
-                <span className="font-heading font-bold text-lg leading-none text-white">089Dach</span>
-                <span className="text-sm font-medium text-white">GmbH</span>
-                <span className="text-[9px] tracking-widest uppercase text-gray-400 font-medium">München</span>
+                <span className="font-heading font-bold text-xl leading-none text-white">089Dach GmbH</span>
+                <span className="text-sm font-semibold text-primary">Ihr Dachdecker in München</span>
               </div>
             </div>
             <p className="text-gray-400 leading-relaxed">
-              Ihr Meisterbetrieb für Bedachungen aller Art in München und Umgebung.
-              Qualität, Zuverlässigkeit und Kompetenz seit über 25 Jahren.
+              Meister für Dach- und Spenglerei seit 1998. Über 1.500 zufriedene Kunden in München und Umgebung.
             </p>
+            <div className="flex flex-wrap gap-3 text-xs">
+              <span className="bg-white/10 px-2 py-1 rounded-sm flex items-center gap-1">
+                <span className="text-yellow-400">★</span> Meisterbetrieb
+              </span>
+              <span className="bg-white/10 px-2 py-1 rounded-sm flex items-center gap-1">
+                <span className="text-green-400">✓</span> 10 Jahre Garantie
+              </span>
+            </div>
           </div>
 
           <div>

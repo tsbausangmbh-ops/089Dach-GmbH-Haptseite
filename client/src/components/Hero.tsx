@@ -38,9 +38,15 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
 
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl text-white animate-in slide-in-from-left duration-700 fade-in">
-            <div className="flex items-center gap-2 mb-6">
+            <div className="flex flex-wrap items-center gap-3 mb-6">
               <span className="bg-primary px-4 py-1.5 text-sm font-bold uppercase tracking-wider rounded-sm">
-                Ihr Dachdecker-Meister in München
+                089Dach GmbH München
+              </span>
+              <span className="bg-white/20 backdrop-blur-sm px-3 py-1.5 text-sm font-medium rounded-sm flex items-center gap-1.5">
+                <span className="text-yellow-400">★</span> Meister seit 1998
+              </span>
+              <span className="bg-white/20 backdrop-blur-sm px-3 py-1.5 text-sm font-medium rounded-sm flex items-center gap-1.5">
+                <span className="text-green-400">✓</span> 10 Jahre Garantie
               </span>
             </div>
             
@@ -58,8 +64,8 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
             </div>
             
             <p className="text-lg md:text-xl text-gray-100 mb-8 max-w-xl leading-relaxed">
-              <strong className="text-white">Seit 25 Jahren</strong> vertrauen uns Münchner Familien ihr Dach an. 
-              <span className="text-primary font-semibold"> Faire Preise. Ehrliche Beratung. Saubere Arbeit.</span>
+              <strong className="text-white">Über 1.500 zufriedene Kunden</strong> vertrauen 089Dach GmbH München. 
+              <span className="text-primary font-semibold"> Faire Festpreise. Ehrliche Beratung. Saubere Arbeit.</span>
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 mb-6">

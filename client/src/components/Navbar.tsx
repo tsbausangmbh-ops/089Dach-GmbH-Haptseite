@@ -34,9 +34,14 @@ export default function Navbar() {
               info@089dach.de
             </a>
           </div>
-          <div className="flex gap-4">
+          <div className="flex gap-6 items-center">
+            <span className="flex items-center gap-1.5">
+              <span className="text-primary">★</span> Meisterbetrieb seit 1998
+            </span>
+            <span className="flex items-center gap-1.5">
+              <span className="text-primary">✓</span> 10 Jahre Garantie
+            </span>
             <span>Mo-Fr: 08:00 - 16:30</span>
-            <span>München & Umgebung</span>
           </div>
         </div>
       </div>
@@ -44,11 +49,11 @@ export default function Navbar() {
       {/* Main Nav */}
       <div className="container mx-auto px-4 h-20 flex items-center justify-between">
         <Link href="/">
-          <div className="flex items-center gap-2 group cursor-pointer">
-            <img src="/favicon.png" alt="089Dach Logo" className="h-12 w-auto" />
+          <div className="flex items-center gap-3 group cursor-pointer">
+            <img src="/favicon.png" alt="089Dach Logo" className="h-14 w-auto" />
             <div className="flex flex-col gap-0.5">
-              <span className="font-heading font-bold text-base leading-none text-secondary">089Dach GmbH</span>
-              <span className="text-[9px] tracking-widest uppercase text-muted-foreground font-medium">München</span>
+              <span className="font-heading font-bold text-lg leading-none text-secondary">089Dach GmbH</span>
+              <span className="text-xs tracking-wide text-primary font-semibold">Ihr Dachdecker in München</span>
             </div>
           </div>
         </Link>
