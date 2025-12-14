@@ -2,8 +2,53 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { useState } from "react";
+import { toast } from "sonner";
 
 export default function Contact() {
+  const [formData, setFormData] = useState({
+    name: "",
+    phone: "",
+    email: "",
+    message: ""
+  });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(formData)
+      });
+
+      const result = await response.json();
+
+      if (response.ok && result.success) {
+        toast.success("Vielen Dank für Ihre Nachricht!", {
+          description: "Wir melden uns schnellstmöglich bei Ihnen."
+        });
+        setFormData({ name: "", phone: "", email: "", message: "" });
+      } else {
+        toast.error("Fehler beim Senden", {
+          description: "Bitte versuchen Sie es erneut oder rufen Sie uns an."
+        });
+      }
+    } catch (error) {
+      console.error("Error submitting contact form:", error);
+      toast.error("Fehler beim Senden", {
+        description: "Bitte versuchen Sie es erneut oder rufen Sie uns an."
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
   return (
     <section id="contact" className="py-12 bg-white">
       <div className="container mx-auto px-4 mb-12">
@@ -41,7 +86,7 @@ export default function Contact() {
                 <div>
                   <h4 className="font-heading font-bold text-secondary text-lg">Telefon</h4>
                   <p className="text-muted-foreground">
-                    <a href="tel:08912621964" className="hover:text-primary transition-colors">089 12621964</a>
+                    <a href="tel:08912621964" className="hover:text-primary transition-colors" data-testid="link-phone">089 12621964</a>
                   </p>
                 </div>
               </div>
@@ -53,7 +98,7 @@ export default function Contact() {
                 <div>
                   <h4 className="font-heading font-bold text-secondary text-lg">E-Mail</h4>
                   <p className="text-muted-foreground">
-                    <a href="mailto:info@089dach.de" className="hover:text-primary transition-colors">info@089dach.de</a>
+                    <a href="mailto:info@089dach.de" className="hover:text-primary transition-colors" data-testid="link-email">info@089dach.de</a>
                   </p>
                 </div>
               </div>
@@ -75,30 +120,67 @@ export default function Contact() {
 
           <div className="bg-gray-50 p-8 md:p-10 rounded-sm border border-border">
             <h3 className="text-2xl font-heading font-bold text-secondary mb-6">Nachricht senden</h3>
-            <form className="space-y-6">
+            <form className="space-y-6" onSubmit={handleSubmit}>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-2">
                   <label htmlFor="name" className="text-sm font-medium text-secondary">Name</label>
-                  <Input id="name" placeholder="Max Mustermann" className="bg-white" />
+                  <Input 
+                    id="name" 
+                    placeholder="Max Mustermann" 
+                    className="bg-white"
+                    value={formData.name}
+                    onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                    required
+                    data-testid="input-contact-name"
+                  />
                 </div>
                 <div className="space-y-2">
                   <label htmlFor="phone" className="text-sm font-medium text-secondary">Telefon</label>
-                  <Input id="phone" placeholder="Für Rückrufe" className="bg-white" />
+                  <Input 
+                    id="phone" 
+                    placeholder="Für Rückrufe" 
+                    className="bg-white"
+                    value={formData.phone}
+                    onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
+                    data-testid="input-contact-phone"
+                  />
                 </div>
               </div>
               
               <div className="space-y-2">
                 <label htmlFor="email" className="text-sm font-medium text-secondary">E-Mail Adresse</label>
-                <Input id="email" type="email" placeholder="name@beispiel.de" className="bg-white" />
+                <Input 
+                  id="email" 
+                  type="email" 
+                  placeholder="name@beispiel.de" 
+                  className="bg-white"
+                  value={formData.email}
+                  onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                  required
+                  data-testid="input-contact-email"
+                />
               </div>
 
               <div className="space-y-2">
                 <label htmlFor="message" className="text-sm font-medium text-secondary">Ihre Nachricht</label>
-                <Textarea id="message" placeholder="Wie können wir Ihnen helfen?" className="min-h-[120px] bg-white" />
+                <Textarea 
+                  id="message" 
+                  placeholder="Wie können wir Ihnen helfen?" 
+                  className="min-h-[120px] bg-white"
+                  value={formData.message}
+                  onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+                  required
+                  data-testid="input-contact-message"
+                />
               </div>
 
-              <Button type="submit" className="w-full bg-primary hover:bg-primary/90 text-white font-bold py-6 rounded-sm text-lg">
-                Anfrage absenden
+              <Button 
+                type="submit" 
+                className="w-full bg-primary hover:bg-primary/90 text-white font-bold py-6 rounded-sm text-lg"
+                disabled={isSubmitting}
+                data-testid="button-contact-submit"
+              >
+                {isSubmitting ? "Wird gesendet..." : "Anfrage absenden"}
               </Button>
               <p className="text-xs text-muted-foreground text-center">
                 Mit dem Absenden erklären Sie sich mit der Verarbeitung Ihrer Daten einverstanden.
