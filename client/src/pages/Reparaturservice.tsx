@@ -107,7 +107,9 @@ export default function Reparaturservice() {
           <div className="max-w-2xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Schnelle Dachreparatur München</span>
             <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mt-4 mb-6">
-              Dach-Notfall? Wir helfen schnell.
+              <span className="text-primary">Dach-Notfall?</span>
+              <br />
+              Wir helfen schnell.
             </h1>
             <p className="text-xl text-gray-200 max-w-xl mb-4">
               Sturm, Hagel oder plötzlich ein Wasserfleck an der Decke – wenn Ihr Dach Probleme macht, zählt jede Stunde.
