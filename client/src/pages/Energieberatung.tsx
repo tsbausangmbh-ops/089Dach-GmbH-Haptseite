@@ -28,10 +28,10 @@ export default function Energieberatung() {
       <SEO 
         title="Energieberatung & Förderanträge München | 089Dach"
         description="Zertifizierte Energieberatung und Förderanträge für Ihre Dachsanierung in München. KfW, BAFA & iSFP – wir sichern Ihnen die maximale Förderung."
-        canonical="https://089dach.de/energieberatung"
+        canonical="https://089dach.de/leistungen/energieberatung"
         keywords="energieberatung münchen, kfw förderung dach, bafa zuschuss dachsanierung, sanierungsfahrplan münchen, energieausweis münchen"
       />
-      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Energieberatung", url: "/energieberatung" }]} />
+      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Energieberatung", url: "/leistungen/energieberatung" }]} />
       <ServiceSchema 
         pageName="Energieberatung München"
         services={[

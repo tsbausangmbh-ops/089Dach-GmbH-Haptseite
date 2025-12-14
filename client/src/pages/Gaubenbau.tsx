@@ -28,10 +28,10 @@ export default function Gaubenbau() {
       <SEO 
         title="Gaubenbau & Gaubensanierung München | 089Dach"
         description="Gauben für mehr Wohnraum und Licht: Schleppgaube, Flachdachgaube, Spitzgaube – Planung, Genehmigung und Bau aus einer Hand in München."
-        canonical="https://089dach.de/gaubenbau"
+        canonical="https://089dach.de/leistungen/gaubenbau"
         keywords="gaube münchen, gaubenbau münchen, schleppgaube, flachdachgaube, dachgaube sanierung, gaube kosten münchen"
       />
-      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Gaubenbau", url: "/gaubenbau" }]} />
+      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Gaubenbau", url: "/leistungen/gaubenbau" }]} />
       <ServiceSchema 
         pageName="Gaubenbau München"
         services={[

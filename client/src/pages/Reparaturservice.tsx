@@ -77,10 +77,10 @@ export default function Reparaturservice() {
       <SEO 
         title="Dachreparatur München | Schnelle Hilfe bei Sturmschäden"
         description="Schnelle Hilfe bei Dachschäden in München: Notfallabdichtung, Leckortung, Sturm- und Hagelschäden inkl. Versicherungsservice. Rückruf-Service."
-        canonical="https://089dach.de/reparaturservice"
+        canonical="https://089dach.de/leistungen/reparaturservice"
         keywords="dachreparatur münchen, notdienst dach münchen, sturmschaden dach münchen, dachnotdienst münchen, undichtes dach münchen"
       />
-      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Reparaturservice", url: "/reparaturservice" }]} />
+      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Reparaturservice", url: "/leistungen/reparaturservice" }]} />
       <ServiceSchema 
         pageName="Dachreparatur München"
         services={[

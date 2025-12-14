@@ -30,10 +30,10 @@ export default function Dachsanierung() {
       <SEO 
         title="Dachsanierung München | Energetisch & förderfähig mit 089Dach"
         description="Ganzheitliche Dachsanierungen in München: Energieberatung, Fördermittel, Wärmedämmung & Neueindeckung aus einer Hand. Jetzt kostenlose Beratung."
-        canonical="https://089dach.de/dachsanierung"
+        canonical="https://089dach.de/leistungen/dachsanierung"
         keywords="dachsanierung münchen, energetische dachsanierung, kfw dachsanierung münchen, dachdämmung münchen, dach erneuern münchen"
       />
-      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dachsanierung", url: "/dachsanierung" }]} />
+      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dachsanierung", url: "/leistungen/dachsanierung" }]} />
       <ServiceSchema 
         pageName="Dachsanierung München"
         services={[

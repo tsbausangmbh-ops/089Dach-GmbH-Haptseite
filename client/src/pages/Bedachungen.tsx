@@ -14,10 +14,10 @@ export default function Bedachungen() {
       <SEO 
         title="Bedachungen München | Steildach & Flachdach vom Meister"
         description="Individuelle Bedachungslösungen in München: Steildach, Flachdach, energetische Dämmung und Abdichtung vom zertifizierten Meisterbetrieb 089Dach."
-        canonical="https://089dach.de/bedachungen"
+        canonical="https://089dach.de/leistungen/bedachungen"
         keywords="steildach münchen, flachdach münchen, dachabdichtung münchen, dachisolierung münchen, dacheindeckung münchen"
       />
-      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Bedachungen", url: "/bedachungen" }]} />
+      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Bedachungen", url: "/leistungen/bedachungen" }]} />
       <ServiceSchema 
         pageName="Dachsanierung & Bedachungen München"
         services={[

@@ -14,10 +14,10 @@ export default function Spenglerei() {
       <SEO 
         title="Spenglerarbeiten München | Dachentwässerung & Metallverarbeitung"
         description="Präzise Spenglerarbeiten: Dachrinnen, Stehfalz, Gauben-Bekleidung & Kupferlösungen für München und Umland. Handgefertigt in eigener Werkstatt."
-        canonical="https://089dach.de/spenglerei"
+        canonical="https://089dach.de/leistungen/spenglerei"
         keywords="spengler münchen, dachrinne münchen, stehfalz dach münchen, kupferdach münchen, blecharbeiten münchen"
       />
-      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Spenglerei", url: "/spenglerei" }]} />
+      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Spenglerei", url: "/leistungen/spenglerei" }]} />
       <ServiceSchema 
         pageName="Spenglerarbeiten München"
         services={[

@@ -28,10 +28,10 @@ export default function Dachfenster() {
       <SEO 
         title="Dachfenster München | Tageslichtlösungen & Velux Einbau"
         description="Neue Dachfenster, Lichtkuppeln und Velux-Lösungen inklusive Planung, Montage und Innenausbau in München. Mehr Licht für Ihr Zuhause."
-        canonical="https://089dach.de/dachfenster"
+        canonical="https://089dach.de/leistungen/dachfenster"
         keywords="dachfenster münchen, velux einbau münchen, tageslicht dach münchen, dachfenster austausch münchen"
       />
-      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dachfenster", url: "/dachfenster" }]} />
+      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dachfenster", url: "/leistungen/dachfenster" }]} />
       <ServiceSchema 
         pageName="Dachfenster München"
         services={[

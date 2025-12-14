@@ -28,10 +28,10 @@ export default function Architektenleistungen() {
       <SEO 
         title="Architektenleistungen & Bauanträge München | 089Dach"
         description="Bauanträge, Genehmigungsplanung und Architektenleistungen für Ihr Dachprojekt in München. Alles aus einer Hand – von der Planung bis zur Fertigstellung."
-        canonical="https://089dach.de/architektenleistungen"
+        canonical="https://089dach.de/leistungen/architektenleistungen"
         keywords="bauantrag dachausbau münchen, architekt dachgeschoss münchen, genehmigung gaube münchen, dachaufstockung planung münchen"
       />
-      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Architektenleistungen", url: "/architektenleistungen" }]} />
+      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Architektenleistungen", url: "/leistungen/architektenleistungen" }]} />
       <ServiceSchema 
         pageName="Architektenleistungen München"
         services={[

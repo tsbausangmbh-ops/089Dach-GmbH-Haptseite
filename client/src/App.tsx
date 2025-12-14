@@ -31,9 +31,15 @@ function Router() {
   return (
     <Switch>
       <Route path="/" component={Home} />
-      <Route path="/bedachungen" component={Bedachungen} />
-      <Route path="/spenglerei" component={Spenglerei} />
       <Route path="/leistungen" component={Leistungen} />
+      <Route path="/leistungen/bedachungen" component={Bedachungen} />
+      <Route path="/leistungen/spenglerei" component={Spenglerei} />
+      <Route path="/leistungen/dachsanierung" component={Dachsanierung} />
+      <Route path="/leistungen/dachfenster" component={Dachfenster} />
+      <Route path="/leistungen/reparaturservice" component={Reparaturservice} />
+      <Route path="/leistungen/energieberatung" component={Energieberatung} />
+      <Route path="/leistungen/architektenleistungen" component={Architektenleistungen} />
+      <Route path="/leistungen/gaubenbau" component={Gaubenbau} />
       <Route path="/referenzen" component={Referenzen} />
       <Route path="/ratgeber" component={Ratgeber} />
       <Route path="/faq" component={FAQ} />
@@ -42,12 +48,6 @@ function Router() {
       <Route path="/impressum" component={Impressum} />
       <Route path="/datenschutz" component={Datenschutz} />
       <Route path="/cookies" component={CookiePolicy} />
-      <Route path="/dachsanierung" component={Dachsanierung} />
-      <Route path="/dachfenster" component={Dachfenster} />
-      <Route path="/reparaturservice" component={Reparaturservice} />
-      <Route path="/energieberatung" component={Energieberatung} />
-      <Route path="/architektenleistungen" component={Architektenleistungen} />
-      <Route path="/gaubenbau" component={Gaubenbau} />
       <Route path="/agb" component={AGB} />
       <Route component={NotFound} />
     </Switch>
