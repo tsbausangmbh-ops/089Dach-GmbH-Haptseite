@@ -21,6 +21,7 @@ import Dachfenster from "@/pages/Dachfenster";
 import Reparaturservice from "@/pages/Reparaturservice";
 import Energieberatung from "@/pages/Energieberatung";
 import Architektenleistungen from "@/pages/Architektenleistungen";
+import Gaubenbau from "@/pages/Gaubenbau";
 import AGB from "@/pages/AGB";
 import CookieConsent from "@/components/CookieConsent";
 import BackgroundLogo from "@/components/BackgroundLogo";
@@ -46,6 +47,7 @@ function Router() {
       <Route path="/reparaturservice" component={Reparaturservice} />
       <Route path="/energieberatung" component={Energieberatung} />
       <Route path="/architektenleistungen" component={Architektenleistungen} />
+      <Route path="/gaubenbau" component={Gaubenbau} />
       <Route path="/agb" component={AGB} />
       <Route component={NotFound} />
     </Switch>
