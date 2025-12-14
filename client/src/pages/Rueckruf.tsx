@@ -113,39 +113,6 @@ export default function Rueckruf() {
         </div>
       </div>
 
-      {/* Vertrauenstexte */}
-      <section className="py-10 bg-secondary">
-        <div className="container mx-auto px-4">
-          <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* Erster Vertrauenstext - Persönlicher Service */}
-            <div className="bg-white/10 backdrop-blur-sm p-6 rounded-sm border-l-4 border-primary">
-              <p className="text-lg text-white font-medium mb-3">
-                Sie haben eine Frage zu Ihrem Dach?
-              </p>
-              <p className="text-gray-200 leading-relaxed mb-4">
-                Das kennen wir. Manchmal braucht man einfach jemanden, der zuhört und ehrlich berät. Bei uns erreichen Sie keine Hotline, sondern echte Dachdeckermeister. Wir nehmen uns Zeit für Ihr Anliegen – ohne Zeitdruck, ohne Verkaufsgespräch. Einfach ein offenes Ohr und kompetente Antworten.
-              </p>
-              <p className="text-gray-300 text-sm italic">
-                Hinterlassen Sie Ihre Nummer – wir rufen Sie persönlich zurück.
-              </p>
-            </div>
-
-            {/* Zweiter Vertrauenstext - Versprechen */}
-            <div className="bg-white/10 backdrop-blur-sm p-6 rounded-sm border-l-4 border-primary">
-              <p className="text-lg text-white font-medium mb-3">
-                Unser Versprechen an Sie...
-              </p>
-              <p className="text-gray-200 leading-relaxed mb-4">
-                ...ist so einfach wie ehrlich: Wenn Sie uns Ihre Nummer hinterlassen, rufen wir Sie zurück. Zeitnah, verbindlich und persönlich. Keine Warteschleifen, keine leeren Versprechen. Seit über 25 Jahren vertrauen uns Münchner Hausbesitzer – weil wir halten, was wir sagen.
-              </p>
-              <p className="text-gray-300 text-sm italic">
-                Probieren Sie es aus. Wir freuen uns auf Ihren Anruf.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Rückruf-Formular */}
       <section className="py-12 bg-white">
         <div className="container mx-auto px-4">
