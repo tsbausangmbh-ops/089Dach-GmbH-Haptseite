@@ -1,9 +1,11 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Contact from "@/components/Contact";
-import { CheckCircle2, Award, Users, Heart, Quote, Clock, Handshake } from "lucide-react";
+import { CheckCircle2, Award, Users, Heart, Quote, Clock, Handshake, Phone, Shield, Sparkles } from "lucide-react";
+import { Button } from "@/components/ui/button";
 import portraitGF from "@assets/generated_images/german_businessman_portrait_gf.png";
 import portraitMeister from "@assets/generated_images/german_master_roofer_portrait.png";
+import heroImage from "@assets/generated_images/roofing_team_partnership_handshake.png";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 
 export default function UeberUns() {
@@ -18,63 +20,131 @@ export default function UeberUns() {
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Über uns", url: "/ueber-uns" }]} />
       <Navbar />
       
-      <div className="relative w-full h-[40vh] min-h-[350px] flex items-center overflow-hidden bg-secondary">
+      {/* Hero Section */}
+      <section className="pt-24 pb-16 relative overflow-hidden min-h-[70vh] flex items-center">
+        {/* Background Image */}
         <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-gradient-to-r from-secondary via-secondary/95 to-secondary/80" />
-          <div className="absolute right-0 bottom-0 h-full w-1/2 opacity-10 pointer-events-none hidden md:flex items-center justify-center overflow-hidden">
-            <svg 
-              width="100%" 
-              height="100%" 
-              viewBox="0 0 800 800" 
-              preserveAspectRatio="xMidYMid slice"
-              className="text-white"
-            >
-              <text 
-                x="50%" 
-                y="50%" 
-                dominantBaseline="middle" 
-                textAnchor="middle"
-                fill="currentColor"
-                style={{ fontSize: '280px', fontWeight: 900, fontFamily: 'Plus Jakarta Sans, sans-serif', letterSpacing: '-0.02em' }}
-              >
-                089DACH
-              </text>
-            </svg>
-          </div>
+          <img
+            src={heroImage}
+            alt="089Dach Team"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-white via-white/95 to-white/70"></div>
         </div>
         
         <div className="container mx-auto px-4 relative z-10">
-          <span className="text-primary font-bold tracking-wider uppercase text-sm">Wer wir sind</span>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white mt-2 max-w-3xl">
-            Über uns
-          </h1>
-          <p className="text-lg text-white/80 mt-4 max-w-2xl">
-            Zwei Experten, eine Vision: Ihr Dach in den besten Händen.
-          </p>
-        </div>
-      </div>
+          <div className="max-w-2xl">
+            <span className="text-primary font-bold tracking-wider uppercase text-sm">Wer wir sind</span>
+            <h1 className="text-4xl md:text-6xl font-heading font-bold text-secondary mt-4 mb-6">
+              Wir machen das aus Leidenschaft
+            </h1>
+            
+            {/* Emotionale Problem-Agitation */}
+            <div className="bg-white/80 backdrop-blur-sm p-6 rounded-sm shadow-sm border-l-4 border-primary mb-8">
+              <p className="text-lg text-secondary font-medium mb-3">
+                Warum tun wir, was wir tun?
+              </p>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Weil wir es satt hatten. Satt, dass Hausbesitzer Angst vor Handwerkern haben. 
+                Satt, dass Menschen mit überhöhten Rechnungen und schlechter Arbeit allein gelassen werden. 
+                <strong className="text-secondary"> Satt, dass „Dachdecker" für viele ein Schimpfwort geworden ist.</strong>
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Wir wollten beweisen: <strong className="text-secondary">Es geht auch anders.</strong> Mit Ehrlichkeit. 
+                Mit Respekt. Mit Handwerkskunst, auf die man stolz sein kann.
+              </p>
+            </div>
+            
+            <p className="text-xl text-muted-foreground leading-relaxed mb-8">
+              Unser Antrieb? <strong>Ihre Sorgen zu lösen.</strong> Ihr Zuhause zu schützen. 
+              Ihnen das Gefühl zu geben, dass Sie endlich jemandem vertrauen können.
+            </p>
 
-      <section className="py-20 bg-white">
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-sm" data-testid="button-hero-call">
+                <a href="tel:08912621964">
+                  <Phone className="mr-2 h-5 w-5" />
+                  Lernen Sie uns kennen
+                </a>
+              </Button>
+              <Button asChild variant="outline" size="lg" className="border-secondary text-secondary hover:bg-secondary hover:text-white font-bold rounded-sm" data-testid="button-hero-story">
+                <a href="#geschichte">Unsere Geschichte lesen</a>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      {/* Trust Badges */}
+      <section className="py-8 border-b border-border bg-white">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-wrap justify-center gap-8 text-sm text-muted-foreground">
+            <div className="flex items-center gap-2">
+              <Users className="h-5 w-5 text-primary" />
+              <span><strong className="text-secondary">1.500+</strong> glückliche Kunden</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <Award className="h-5 w-5 text-primary" />
+              <span><strong className="text-secondary">Meisterbetrieb</strong> seit 1998</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <Heart className="h-5 w-5 text-primary" />
+              <span><strong className="text-secondary">100%</strong> Herzblut</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Unsere Mission */}
+      <section className="py-16 bg-secondary text-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <Sparkles className="h-12 w-12 text-primary mx-auto mb-6" />
+            <h2 className="text-3xl md:text-4xl font-heading font-bold mb-6">
+              Unsere Mission: Ihre Sorgen beenden
+            </h2>
+            <p className="text-xl text-gray-300 leading-relaxed mb-6">
+              Wir wissen, wie sich das anfühlt: Die Angst vor dem nächsten Sturm. 
+              Die schlaflosen Nächte, wenn es regnet. Die Unsicherheit, ob das Angebot fair ist.
+            </p>
+            <p className="text-xl text-white font-medium leading-relaxed">
+              <strong>Genau diese Leiden wollen wir Ihnen nehmen.</strong> Nicht mit leeren Versprechen – 
+              sondern mit ehrlicher Arbeit, fairen Preisen und der Gewissheit, dass Ihr Zuhause 
+              in den besten Händen ist.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="geschichte" className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center mb-16">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Unsere Geschichte</span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-secondary mt-2 mb-6">
-              Wie alles begann
+              Aus Frust wurde Leidenschaft
             </h2>
-            <div className="text-lg text-muted-foreground leading-relaxed space-y-4">
+            <div className="text-lg text-muted-foreground leading-relaxed space-y-4 text-left">
               <p>
-                Es war ein stürmischer Herbsttag 2018, als sich ihre Wege kreuzten. Ein Hausbesitzer aus Pasing 
-                stand vor den Trümmern seines Daches – der Sturm hatte gewütet, und er wusste nicht weiter. 
-                Der eine kam als Handwerker, der andere als Freund des Hausbesitzers.
+                Es war ein stürmischer Herbsttag 2018. Ein Hausbesitzer aus Pasing stand vor den Trümmern 
+                seines Daches – verzweifelt, überfordert, allein. Drei Dachdecker hatten ihm Angebote gemacht. 
+                Keines konnte er verstehen. Keinem konnte er vertrauen.
               </p>
               <p>
-                Was folgte, war mehr als eine Reparatur. Es war der Beginn einer außergewöhnlichen Partnerschaft. 
-                Der erfahrene Dachdecker- und Spenglermeister sah, wie oft Hausbesitzer mit schlechter Beratung, 
-                überhöhten Preisen und mangelhafter Arbeit konfrontiert wurden. Der kaufmännische Experte erkannte, 
-                dass gutes Handwerk allein nicht reicht – es braucht auch faire Kommunikation und verlässliche Organisation.
+                <strong className="text-secondary">Das war der Moment, in dem alles begann.</strong>
               </p>
-              <p className="font-medium text-secondary">
-                So entstand 089Dach GmbH: Ein Unternehmen, das <strong>handwerkliche Perfektion mit menschlicher Wärme</strong> verbindet.
+              <p>
+                Der erfahrene Meister sah, was er schon hundertmal gesehen hatte: Ein Mensch in Not, 
+                der Angst hat, über den Tisch gezogen zu werden. Der kaufmännische Experte erkannte: 
+                <em>„Gutes Handwerk allein reicht nicht. Menschen brauchen jemanden, der ihnen zuhört. 
+                Der erklärt statt verkauft. Der Probleme löst statt neue schafft."</em>
+              </p>
+              <p>
+                An diesem Tag beschlossen sie: <strong className="text-secondary">Wir machen es anders.</strong> 
+                Nicht besser reden – besser handeln. Nicht mehr versprechen – mehr halten.
+              </p>
+              <p className="text-xl font-medium text-secondary text-center pt-4">
+                So entstand 089Dach: Ein Unternehmen, das <strong>Ihre Probleme löst</strong> – 
+                nicht neue schafft.
               </p>
             </div>
           </div>
