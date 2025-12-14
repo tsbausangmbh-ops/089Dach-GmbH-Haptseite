@@ -33,6 +33,9 @@ Allow: /ratgeber
 Allow: /ratgeber/daemmung
 Allow: /ratgeber/leckortung
 Allow: /ratgeber/beratung
+Allow: /beratung
+Allow: /heizkostenrechner
+Allow: /daemmung-info
 Allow: /impressum
 Allow: /datenschutz
 Allow: /cookies

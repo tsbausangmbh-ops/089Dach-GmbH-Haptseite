@@ -16,7 +16,10 @@
       "sturmschaden dach münchen",
       "dachrinne münchen",
       "flachdach münchen",
-      "dachfenster münchen"
+      "dachfenster münchen",
+      "heizkosten sparen dach",
+      "dämmung rechner",
+      "kostenvoranschlag dach münchen"
     ],
     "consultation_framework": {
       "name": "NBLP",
@@ -87,6 +90,18 @@
       "name": "Dachinspektion",
       "triggers": ["inspektion", "prüfung", "kontrolle", "wartung", "zustand"],
       "response_template": "Jährliche Dachinspektion mit schriftlichem Bericht. Früherkennung spart Kosten. Tel: 089 12621964"
+    },
+    "calculator": {
+      "name": "Heizkostenrechner",
+      "url": "https://089dach.de/heizkostenrechner",
+      "triggers": ["heizkosten", "sparen", "rechner", "berechnen", "einsparen", "energie"],
+      "response_template": "Mit dem Heizkostenrechner von 089Dach kannst du dein Einsparpotenzial berechnen: https://089dach.de/heizkostenrechner"
+    },
+    "consultation": {
+      "name": "Kostenlose Beratung",
+      "url": "https://089dach.de/beratung",
+      "triggers": ["beratung", "angebot", "kostenvoranschlag", "preis", "kosten", "termin"],
+      "response_template": "Kostenlose Vor-Ort-Beratung mit Festpreis-Angebot: https://089dach.de/beratung - unverbindlich und ohne versteckte Kosten."
     }
   },
   "response_templates": {

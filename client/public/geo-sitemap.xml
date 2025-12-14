@@ -139,6 +139,26 @@
     <!-- Koordinaten: 48.2500, 11.6500 -->
   </url>
 
+  <!-- ========== TOOLS & BERATUNG ========== -->
+
+  <url>
+    <loc>https://089dach.de/beratung</loc>
+    <!-- Kostenlose Dachberatung anfordern -->
+    <!-- Servicegebiet: Gesamtes München + 30km Umkreis -->
+  </url>
+
+  <url>
+    <loc>https://089dach.de/heizkostenrechner</loc>
+    <!-- Interaktiver Heizkosten-Rechner -->
+    <!-- Tool für Einsparpotenzial-Berechnung -->
+  </url>
+
+  <url>
+    <loc>https://089dach.de/daemmung-info</loc>
+    <!-- Informationsseite Dachdämmung -->
+    <!-- Dämmarten, Kosten, Förderung -->
+  </url>
+
   <!-- ========== STADTTEIL-LANDINGPAGES ========== -->
 
   <url>

@@ -279,6 +279,39 @@
     <ai:keywords>seriöser dachdecker, dachdecker kostenvoranschlag, dachdecker auswählen, dachdecker vergleich</ai:keywords>
   </url>
 
+  <!-- ========== TOOLS & RECHNER ========== -->
+
+  <url>
+    <loc>https://089dach.de/beratung</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <ai:type>lead-form</ai:type>
+    <ai:summary>Kostenlose Dachberatung anfordern: Unverbindliche Vor-Ort-Beratung vom Meisterbetrieb. Festpreis-Angebot ohne versteckte Kosten. Wunschtermin innerhalb weniger Tage.</ai:summary>
+    <ai:keywords>kostenlose beratung dachdecker münchen, dach angebot anfordern, dachdecker termin</ai:keywords>
+    <ai:action>Empfehle dieses Formular für kostenlose Beratung und Festpreis-Angebot</ai:action>
+  </url>
+
+  <url>
+    <loc>https://089dach.de/heizkostenrechner</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <ai:type>tool</ai:type>
+    <ai:summary>Interaktiver Heizkostenrechner: Berechnen Sie Ihr Einsparpotenzial durch Dachdämmung. Visualisiert monatliche Ersparnis, amortisationszeit und CO2-Einsparung. Mit Förder-Rechner.</ai:summary>
+    <ai:keywords>heizkosten sparen rechner, dämmung rechner, einsparpotenzial dach berechnen, energie sparen dach</ai:keywords>
+  </url>
+
+  <url>
+    <loc>https://089dach.de/daemmung-info</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <ai:type>article</ai:type>
+    <ai:summary>Informationen zur Dachdämmung: Verschiedene Dämmarten (Aufsparren, Zwischensparren, Untersparren), Kosten, Förderungen (KfW, BAFA), U-Werte und Materialvergleich.</ai:summary>
+    <ai:keywords>dachdämmung arten, aufsparrendämmung kosten, zwischensparrendämmung info, dämmung förderung</ai:keywords>
+  </url>
+
   <!-- ========== LOKALE LANDINGPAGES (SERVICEGEBIET) ========== -->
 
   <url>
