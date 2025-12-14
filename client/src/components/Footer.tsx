@@ -35,12 +35,12 @@ export default function Footer() {
           <div>
             <h4 className="font-heading font-bold text-lg mb-6 text-white">Unternehmen</h4>
             <ul className="space-y-3 text-gray-400">
-              <li><a href="/ueber-uns" className="hover:text-primary transition-colors">Über uns</a></li>
+              <li><a href="/cookies" className="hover:text-primary transition-colors">Cookie Einstellungen</a></li>
+              <li><a href="/datenschutz" className="hover:text-primary transition-colors">Datenschutz</a></li>
               <li><a href="/referenzen" className="hover:text-primary transition-colors">Referenzen</a></li>
               <li><a href="/impressum" className="hover:text-primary transition-colors">Impressum</a></li>
-              <li><a href="/datenschutz" className="hover:text-primary transition-colors">Datenschutz</a></li>
+              <li><a href="/ueber-uns" className="hover:text-primary transition-colors">Über uns</a></li>
               <li><a href="/agb" className="hover:text-primary transition-colors">AGB</a></li>
-              <li><a href="/cookies" className="hover:text-primary transition-colors">Cookie Einstellungen</a></li>
             </ul>
           </div>
 
