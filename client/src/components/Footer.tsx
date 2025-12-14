@@ -66,7 +66,7 @@ export default function Footer() {
 
         </div>
 
-        <div className="border-t border-white/10 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="border-t border-white/10 pt-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
           <p className="text-gray-500 text-sm">
             &copy; {new Date().getFullYear()} <a href="https://extrucon.de" target="_blank" rel="noopener noreferrer" className="text-white hover:text-primary font-medium transition-colors">ExtruCon GmbH</a>
           </p>
