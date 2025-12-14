@@ -221,7 +221,7 @@ export function AboutPageSchema() {
         "value": 10
       },
       "slogan": "Wir machen das aus Leidenschaft",
-      "award": "Meisterbetrieb seit 1998"
+      "award": "Meister für Dach- und Spenglerei seit 1998"
     }
   };
 

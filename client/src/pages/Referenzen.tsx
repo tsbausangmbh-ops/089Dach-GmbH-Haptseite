@@ -175,7 +175,7 @@ export default function Referenzen() {
     <div className="min-h-screen bg-background font-sans">
       <SEO 
         title="Dachsanierung München Referenzen | 500+ Projekte Vorher-Nachher | 089Dach"
-        description="Sehen Sie 12 echte Dachprojekte aus München mit Vorher-Nachher-Bildern: Steildach, Flachdach, Schieferdach, Dachfenster. Meisterbetrieb seit 1998. ✓ 10 Jahre Garantie ✓ Kostenlose Beratung"
+        description="Sehen Sie 12 echte Dachprojekte aus München mit Vorher-Nachher-Bildern: Steildach, Flachdach, Schieferdach, Dachfenster. Meister für Dach- und Spenglerei seit 1998. ✓ 10 Jahre Garantie ✓ Kostenlose Beratung"
         canonical="https://089dach.de/referenzen"
         keywords="dachdecker münchen referenzen, dachsanierung münchen vorher nachher, dachreparatur münchen erfahrungen, steildach sanierung münchen, flachdach sanierung münchen, dachfenster einbau münchen, schieferdach münchen, spenglerarbeiten münchen, dachbegrünung münchen, dachdecker obermenzing, dachdecker schwabing, dachdecker pasing"
       />
@@ -237,7 +237,7 @@ export default function Referenzen() {
                 "name": "Welche Garantie gibt 089Dach auf Dacharbeiten?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "089Dach gibt 10 Jahre Garantie auf alle ausgeführten Dacharbeiten. Als Meisterbetrieb seit 1998 stehen wir für Qualität und Langlebigkeit unserer Arbeit."
+                  "text": "089Dach gibt 10 Jahre Garantie auf alle ausgeführten Dacharbeiten. Als Meister für Dach- und Spenglerei seit 1998 stehen wir für Qualität und Langlebigkeit unserer Arbeit."
                 }
               }
             ]
@@ -440,7 +440,7 @@ export default function Referenzen() {
               </h3>
               <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
                 <p className="text-muted-foreground" itemProp="text">
-                  089Dach gibt <strong>10 Jahre Garantie</strong> auf alle ausgeführten Dacharbeiten. Als <strong>Meisterbetrieb seit 1998</strong> mit über 500 abgeschlossenen Projekten stehen wir für Qualität und Langlebigkeit. Zusätzlich profitieren Sie von den Herstellergarantien auf verwendete Materialien (bis zu 30 Jahre bei Premium-Ziegeln).
+                  089Dach gibt <strong>10 Jahre Garantie</strong> auf alle ausgeführten Dacharbeiten. Als <strong>Meister für Dach- und Spenglerei seit 1998</strong> mit über 500 abgeschlossenen Projekten stehen wir für Qualität und Langlebigkeit. Zusätzlich profitieren Sie von den Herstellergarantien auf verwendete Materialien (bis zu 30 Jahre bei Premium-Ziegeln).
                 </p>
               </div>
             </article>

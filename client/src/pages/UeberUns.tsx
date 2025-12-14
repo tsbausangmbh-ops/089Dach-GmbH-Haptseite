@@ -86,7 +86,7 @@ export default function UeberUns() {
             </div>
             <div className="flex items-center gap-2">
               <Award className="h-5 w-5 text-primary" />
-              <span><strong className="text-secondary">Meisterbetrieb</strong> seit 1998</span>
+              <span><strong className="text-secondary">Meister für Dach- und Spenglerei</strong> seit 1998</span>
             </div>
             <div className="flex items-center gap-2">
               <Heart className="h-5 w-5 text-primary" />
