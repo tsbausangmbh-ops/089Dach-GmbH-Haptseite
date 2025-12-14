@@ -17,7 +17,7 @@ export default function RatgeberBeratung() {
       />
       <BreadcrumbSchema items={[
         { name: "Home", url: "/" }, 
-        { name: "Ratgeber", url: "/ratgeber" },
+        { name: "Tipps & Tricks", url: "/ratgeber" },
         { name: "Kostenlose Beratung + Festpreis", url: "/ratgeber/beratung" }
       ]} />
       <Navbar />
@@ -27,7 +27,7 @@ export default function RatgeberBeratung() {
           <div className="max-w-3xl text-white">
             <div className="flex items-center gap-2 mb-4">
               <Link href="/ratgeber">
-                <span className="text-primary hover:underline cursor-pointer">Ratgeber</span>
+                <span className="text-primary hover:underline cursor-pointer">Tipps & Tricks</span>
               </Link>
               <span className="text-gray-400">/</span>
               <span className="text-gray-300">Kostenlose Beratung + Festpreis</span>
@@ -183,7 +183,7 @@ export default function RatgeberBeratung() {
                   asChild
                 >
                   <Link href="/ratgeber">
-                    Zurück zum Ratgeber
+                    Zurück zu Tipps & Tricks
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>
                 </Button>

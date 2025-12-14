@@ -31,7 +31,7 @@ export default function Footer() {
               <li><a href="/leistungen/bedachungen" className="hover:text-primary transition-colors">Steildach & Flachdach</a></li>
               <li><a href="/leistungen/spenglerei" className="hover:text-primary transition-colors">Spenglerarbeiten</a></li>
               <li><a href="/leistungen/reparaturservice" className="hover:text-primary transition-colors">Reparaturservice</a></li>
-              <li><a href="/ratgeber" className="hover:text-primary transition-colors">Ratgeber & Tipps</a></li>
+              <li><a href="/ratgeber" className="hover:text-primary transition-colors">Tipps & Tricks</a></li>
               <li><a href="/leistungen/dachsanierung" className="hover:text-primary transition-colors">Dachsanierung</a></li>
               <li><a href="/leistungen/dachfenster" className="hover:text-primary transition-colors">Dachfenster</a></li>
             </ul>

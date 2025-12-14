@@ -82,7 +82,7 @@ export default function Ratgeber() {
         canonical="https://089dach.de/ratgeber"
         keywords="dachratgeber münchen, dachwartung tipps, förderung dachsanierung münchen, dach wissen"
       />
-      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Ratgeber", url: "/ratgeber" }]} />
+      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Tipps & Tricks", url: "/ratgeber" }]} />
       <CollectionPageSchema 
         title="Dachwissen München - Ratgeber für Eigentümer"
         description="Expertenwissen zu Dachsanierung, Wartung und Förderungen speziell für München und Oberbayern"

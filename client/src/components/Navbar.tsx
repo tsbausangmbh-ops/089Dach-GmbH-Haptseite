@@ -11,7 +11,7 @@ export default function Navbar() {
   const navItems = [
     { name: "Startseite", href: "/" },
     { name: "Über uns", href: "/ueber-uns" },
-    { name: "Ratgeber", href: "/ratgeber" },
+    { name: "Tipps & Tricks", href: "/ratgeber" },
     { name: "FAQ", href: "/faq" },
     { name: "Referenzen", href: "/referenzen" },
     { name: "Kontakt", href: "/kontakt" },
@@ -100,7 +100,7 @@ export default function Navbar() {
           </div>
 
           <a href="/ratgeber" className="text-sm font-medium text-secondary hover:text-primary transition-colors">
-            Ratgeber
+            Tipps & Tricks
           </a>
           <a href="/faq" className="text-sm font-medium text-secondary hover:text-primary transition-colors">
             FAQ
@@ -160,7 +160,7 @@ export default function Navbar() {
               </div>
 
               <a href="/ratgeber" className="text-lg font-medium text-foreground hover:text-primary transition-colors flex items-center justify-between border-b pb-2" onClick={() => setIsOpen(false)}>
-                Ratgeber
+                Tipps & Tricks
                 <ChevronRight className="h-4 w-4" />
               </a>
               <a href="/faq" className="text-lg font-medium text-foreground hover:text-primary transition-colors flex items-center justify-between border-b pb-2" onClick={() => setIsOpen(false)}>
