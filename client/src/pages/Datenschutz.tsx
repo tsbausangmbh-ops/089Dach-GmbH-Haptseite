@@ -2,7 +2,9 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import BackButton from "@/components/BackButton";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
-import { Shield, Lock, FileText, Globe, Bot, AlertTriangle, Database, Server } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Shield, Lock, FileText, Globe, Bot, AlertTriangle, Database, Server, Phone } from "lucide-react";
+import heroImage from "@assets/generated_images/friendly_woman_on_phone_in_office.png";
 
 export default function Datenschutz() {
   return (
@@ -17,18 +19,61 @@ export default function Datenschutz() {
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Datenschutz", url: "/datenschutz" }]} />
       <Navbar />
       
-      <div className="bg-secondary pt-10 pb-12">
-        <div className="container mx-auto px-6 lg:px-12 max-w-4xl">
-          <div className="flex items-center gap-3 mb-4">
-            <Shield className="h-8 w-8 text-primary" />
-            <span className="text-primary font-bold tracking-wider uppercase text-sm">DSGVO konform</span>
-          </div>
-          <h1 className="text-4xl font-heading font-bold mb-4 text-white">Datenschutzerklärung</h1>
-          <p className="text-gray-300 mb-4">
-            <strong>Stand: Dezember 2025</strong> | Gemäß DSGVO, BDSG, TDDDG und EU AI Act
-          </p>
+      {/* Hero Section */}
+      <section className="pt-10 pb-12 relative overflow-hidden min-h-[50vh] flex items-center">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <img
+            src={heroImage}
+            alt="Datenschutz bei 089Dach GmbH München"
+            className="w-full h-full object-cover"
+            width={1792}
+            height={1024}
+            fetchPriority="high"
+            decoding="async"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-secondary/95 via-secondary/85 to-secondary/70"></div>
         </div>
-      </div>
+        
+        <div className="container mx-auto px-6 lg:px-12 relative z-10">
+          <div className="max-w-2xl text-white">
+            <span className="text-primary font-bold tracking-wider uppercase text-sm">DSGVO konform</span>
+            <h1 className="text-4xl md:text-6xl font-heading font-bold text-white mt-4 mb-6">
+              Datenschutzerklärung
+            </h1>
+            
+            <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl border-l-4 border-primary mb-8">
+              <p className="text-lg text-white font-medium mb-3">
+                Ihre Daten sind bei uns sicher.
+              </p>
+              <p className="text-gray-200 leading-relaxed mb-4">
+                Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst. 
+                <strong className="text-white"> Transparent, verständlich und DSGVO-konform.</strong>
+              </p>
+              <p className="text-gray-200 leading-relaxed">
+                <strong className="text-white">Stand: Dezember 2025</strong> | Gemäß DSGVO, BDSG, TDDDG und EU AI Act
+              </p>
+            </div>
+            
+            <p className="text-xl text-gray-200 leading-relaxed mb-8">
+              <strong className="text-white">Fragen zum Datenschutz?</strong> Wir helfen Ihnen gerne weiter – 
+              schnell und unkompliziert.
+            </p>
+
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-xl" data-testid="button-hero-call">
+                <a href="/rueckruf">
+                  <Phone className="mr-2 h-5 w-5" />
+                  Rückruf anfordern
+                </a>
+              </Button>
+              <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-secondary font-bold rounded-xl" data-testid="button-hero-content">
+                <a href="#praeambel">Zur Datenschutzerklärung</a>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
       <BackButton />
 
       <div className="container mx-auto px-6 lg:px-12 pt-8 pb-12 max-w-4xl">
