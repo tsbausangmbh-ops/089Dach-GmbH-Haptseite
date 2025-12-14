@@ -109,6 +109,51 @@ export default function Heizkostenrechner() {
         </div>
       </section>
 
+      <section className="py-8 bg-stone-50 border-b">
+        <div className="container mx-auto px-6 lg:px-12">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-6">
+              <h2 className="text-2xl font-heading font-bold text-secondary mb-4">
+                Warum Sie Ihre Heizkosten kennen sollten
+              </h2>
+              <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+                Viele Hausbesitzer zahlen jährlich <strong className="text-secondary">hunderte Euro zu viel</strong> für Heizung – 
+                ohne es zu wissen. Unser Rechner zeigt Ihnen in 30 Sekunden, wo Ihr Geld bleibt und wie Sie es zurückbekommen.
+              </p>
+            </div>
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="bg-white p-5 rounded-lg shadow-sm text-center">
+                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <Calculator className="h-6 w-6 text-primary" />
+                </div>
+                <h3 className="font-bold text-secondary mb-2">Kostenlos & unverbindlich</h3>
+                <p className="text-sm text-muted-foreground">
+                  Keine Anmeldung nötig. Berechnen Sie sofort Ihr persönliches Sparpotenzial.
+                </p>
+              </div>
+              <div className="bg-white p-5 rounded-lg shadow-sm text-center">
+                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <Home className="h-6 w-6 text-primary" />
+                </div>
+                <h3 className="font-bold text-secondary mb-2">Basierend auf echten Daten</h3>
+                <p className="text-sm text-muted-foreground">
+                  Unsere Berechnung nutzt aktuelle Energiepreise und Erfahrungswerte aus 25+ Jahren.
+                </p>
+              </div>
+              <div className="bg-white p-5 rounded-lg shadow-sm text-center">
+                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                  <TrendingDown className="h-6 w-6 text-primary" />
+                </div>
+                <h3 className="font-bold text-secondary mb-2">Konkrete Ersparnis sehen</h3>
+                <p className="text-sm text-muted-foreground">
+                  Erfahren Sie genau, wie viel Euro Sie jährlich durch eine Dämmung sparen können.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="py-12 bg-white">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mx-auto">
