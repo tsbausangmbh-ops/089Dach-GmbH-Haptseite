@@ -28,6 +28,7 @@ import AGB from "@/pages/AGB";
 import CookieConsent from "@/components/CookieConsent";
 import BackgroundLogo from "@/components/BackgroundLogo";
 import { LocalBusinessSchema } from "@/components/SEO";
+import ChatWidget from "@/components/ChatWidget";
 
 function Router() {
   return (
@@ -66,6 +67,7 @@ function App() {
         <BackgroundLogo />
         <Toaster />
         <Router />
+        <ChatWidget />
         <CookieConsent />
       </TooltipProvider>
     </QueryClientProvider>

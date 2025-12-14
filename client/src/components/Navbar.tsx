@@ -47,7 +47,7 @@ export default function Navbar() {
           </div>
           <div className="flex gap-6 items-center">
             <span className="flex items-center gap-1.5">
-              <span className="text-primary">★</span> Meisterbetrieb seit 1998
+              <span className="text-primary">★</span> Meister für Dach- und Spenglerei seit 1998
             </span>
             <span className="flex items-center gap-1.5">
               <span className="text-primary">✓</span> 10 Jahre Garantie
