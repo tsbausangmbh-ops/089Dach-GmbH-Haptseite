@@ -102,6 +102,7 @@ function App() {
         <Toaster />
         <Router />
         <ChatWidget />
+        <FloatingCTA />
         <CookieConsent />
       </TooltipProvider>
     </QueryClientProvider>
