@@ -25,9 +25,9 @@ export default function ContactPage() {
           <img
             src={contactImage}
             alt="Kundenberatung"
-            className="w-full h-full object-cover opacity-30"
+            className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-secondary/95 via-secondary/90 to-secondary/80"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-secondary/90 via-secondary/70 to-secondary/50"></div>
         </div>
 
         <div className="container mx-auto px-4 relative z-10">
