@@ -112,6 +112,25 @@ export default function Rueckruf() {
         </div>
       </div>
 
+      {/* Vertrauenstext */}
+      <section className="py-10 bg-secondary">
+        <div className="container mx-auto px-4">
+          <div className="max-w-2xl mx-auto">
+            <div className="bg-white/10 backdrop-blur-sm p-6 rounded-sm border-l-4 border-primary">
+              <p className="text-lg text-white font-medium mb-3">
+                Sie machen sich Sorgen um Ihr Dach?
+              </p>
+              <p className="text-gray-200 leading-relaxed mb-4">
+                Das verstehen wir. Ein undichtes Dach, ein Sturmschaden oder einfach die Unsicherheit, ob alles in Ordnung ist – das kann belasten. Genau deshalb sind wir für Sie da. Jede Anfrage wird persönlich von unserem Team bearbeitet. Kein Callcenter, keine automatischen Antworten – nur echte Menschen, die zuhören und helfen.
+              </p>
+              <p className="text-gray-300 text-sm italic">
+                Schreiben Sie uns einfach – wir melden uns zeitnah und besprechen in Ruhe, wie wir Ihnen helfen können.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Rückruf-Formular */}
       <section className="py-12 bg-white">
         <div className="container mx-auto px-4">
