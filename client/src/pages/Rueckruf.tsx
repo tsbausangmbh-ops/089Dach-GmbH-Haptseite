@@ -6,7 +6,7 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Calendar } from "@/components/ui/calendar";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
-import { PhoneCall, ArrowRight, ShieldCheck, Award, Shield, Users, Clock, CheckCircle, CalendarIcon, Loader2 } from "lucide-react";
+import { PhoneCall, ArrowRight, ShieldCheck, Award, Shield, Users, Clock, CheckCircle, CalendarIcon, Loader2, Phone } from "lucide-react";
 import { useState, useEffect } from "react";
 import { toast } from "sonner";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
@@ -130,7 +130,7 @@ export default function Rueckruf() {
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Rückruf anfordern", url: "/rueckruf" }]} />
       <Navbar />
       
-      <section className="pt-10 pb-12 bg-secondary relative overflow-hidden min-h-[40vh] flex items-center">
+      <section className="pt-10 pb-12 relative overflow-hidden min-h-[50vh] flex items-center">
         <div className="absolute inset-0 z-0">
           <img
             src={heroImage}
@@ -141,22 +141,43 @@ export default function Rueckruf() {
             fetchPriority="high"
             decoding="async"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-secondary/90 via-secondary/70 to-secondary/50"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-secondary/95 via-secondary/85 to-secondary/70"></div>
         </div>
 
         <div className="container mx-auto px-6 lg:px-12 relative z-10">
           <div className="max-w-2xl text-white">
-            <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mb-6">
-              <span className="text-primary">Sparen Sie Zeit & Nerven.</span>
+            <span className="text-primary font-bold tracking-wider uppercase text-sm">089Dach Rückruf-Service</span>
+            <h1 className="text-4xl md:text-6xl font-heading font-bold text-white mt-4 mb-6">
+              Sparen Sie Zeit & Nerven.
               <br />
-              Wir rufen Sie an.
+              <span className="text-primary">Wir rufen Sie an.</span>
             </h1>
-            <p className="text-xl text-gray-200 max-w-xl mb-4">
-              Kein Warten in der Leitung, keine Warteschleife. Sie wählen den perfekten Zeitpunkt – wir sind pünktlich für Sie da.
+            
+            <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl border-l-4 border-primary mb-8">
+              <p className="text-lg text-white font-medium mb-3">
+                Keine Lust auf Warteschleifen?
+              </p>
+              <p className="text-gray-200 leading-relaxed">
+                Kein Warten in der Leitung, keine Warteschleife. Sie wählen den perfekten Zeitpunkt – 
+                <strong className="text-white"> wir sind pünktlich für Sie da.</strong>
+              </p>
+            </div>
+            
+            <p className="text-xl text-gray-200 leading-relaxed mb-8">
+              <strong className="text-white">100% kostenlos.</strong> 100% unverbindlich. 100% persönlich.
             </p>
-            <p className="text-lg text-gray-300 max-w-xl">
-              100% kostenlos. 100% unverbindlich. 100% persönlich.
-            </p>
+
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-xl" data-testid="button-hero-call">
+                <a href="tel:08912621964">
+                  <Phone className="mr-2 h-5 w-5" />
+                  089 12621964
+                </a>
+              </Button>
+              <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-secondary font-bold rounded-xl" data-testid="button-hero-form">
+                <a href="#formular">Termin wählen</a>
+              </Button>
+            </div>
           </div>
         </div>
       </section>
