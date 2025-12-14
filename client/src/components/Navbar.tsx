@@ -15,7 +15,7 @@ export default function Navbar() {
     { name: "Ratgeber", href: "/ratgeber" },
     { name: "FAQ", href: "/faq" },
     { name: "Referenzen", href: "/referenzen" },
-    { name: "Kontakt", href: "/#contact" },
+    { name: "Kontakt", href: "/kontakt" },
   ];
 
   return (

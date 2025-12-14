@@ -14,6 +14,7 @@ import CookiePolicy from "@/pages/CookiePolicy";
 import Referenzen from "@/pages/Referenzen";
 import Ratgeber from "@/pages/Ratgeber";
 import Impressum from "@/pages/Impressum";
+import ContactPage from "@/pages/ContactPage";
 import CookieConsent from "@/components/CookieConsent";
 
 function Router() {
@@ -26,6 +27,7 @@ function Router() {
       <Route path="/referenzen" component={Referenzen} />
       <Route path="/ratgeber" component={Ratgeber} />
       <Route path="/faq" component={FAQ} />
+      <Route path="/kontakt" component={ContactPage} />
       <Route path="/impressum" component={Impressum} />
       <Route path="/datenschutz" component={Datenschutz} />
       <Route path="/cookies" component={CookiePolicy} />
