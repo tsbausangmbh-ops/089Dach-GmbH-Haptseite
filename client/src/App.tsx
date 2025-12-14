@@ -30,6 +30,7 @@ import AGB from "@/pages/AGB";
 import RatgeberDaemmung from "@/pages/RatgeberDaemmung";
 import RatgeberLeckortung from "@/pages/RatgeberLeckortung";
 import RatgeberBeratung from "@/pages/RatgeberBeratung";
+import Heizkostenrechner from "@/pages/Heizkostenrechner";
 import Stadtteile from "@/pages/Stadtteile";
 import StadtteilPasing from "@/pages/StadtteilPasing";
 import StadtteilLaim from "@/pages/StadtteilLaim";
@@ -82,6 +83,7 @@ function Router() {
       <Route path="/agb" component={AGB} />
       <Route path="/rueckruf" component={Rueckruf} />
       <Route path="/beratung" component={KostenloseBeratung} />
+      <Route path="/heizkostenrechner" component={Heizkostenrechner} />
       <Route path="/stadtteile" component={Stadtteile} />
       <Route path="/dachdecker-pasing" component={StadtteilPasing} />
       <Route path="/dachdecker-laim" component={StadtteilLaim} />
