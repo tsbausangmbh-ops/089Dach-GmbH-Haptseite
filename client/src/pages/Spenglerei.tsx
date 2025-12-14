@@ -14,11 +14,11 @@ export default function Spenglerei() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Spenglerei München | Dachrinnen & Kupfer - 089Dach"
-        description="Spenglerarbeiten vom Meister: Dachrinnen, Stehfalz, Kupferarbeiten & Kamineinfassungen. Handgefertigt in eigener Werkstatt. Jetzt anfragen!"
+        title="Dachrinne erneuern München | Kosten Kupfer & Zink 2025"
+        description="Was kostet neue Dachrinne? Kupfer ab 45€/m, Zink ab 25€/m. ✓ Meister-Handwerk ✓ Eigene Werkstatt ✓ Maßanfertigung. Kostenlose Beratung ☎ 089 12621964"
         canonical="https://089dach.de/leistungen/spenglerei"
-        keywords="spengler meister münchen, dachrinne kupfer zink aluminium titanzink edelstahl, stehfalz winkelfalz kupferdach metalldach blechdach, kamineinfassung kaminverwahrung gaubenverkleidung mauerabdeckung fallrohre, spengler obermenzing pasing laim schwabing sendling bogenhausen neuhausen, spengler gräfelfing planegg germering starnberg dachau fürstenfeldbruck"
-        aiSummary="089Dach GmbH Spenglerei in München-Obermenzing. Dachrinnen aus Kupfer, Zink und Aluminium, Stehfalzdächer, Kamineinfassungen und Gaubenverkleidungen. Handgefertigt in eigener Werkstatt. Telefon: 089 12621964."
+        keywords="was kostet dachrinne erneuern münchen, dachrinne kupfer oder zink was ist besser, dachrinne tropft was tun reparatur, spengler in meiner nähe münchen empfehlung, kamineinfassung undicht kosten, fallrohr verstopft reinigen lassen, dachrinne laubschutz nachrüsten, stehfalzdach kosten pro qm erfahrungen, metalldach lebensdauer vorteile, spengler obermenzing pasing laim schwabing, gaubenverkleidung blech kosten, dachrinne fachgerecht montieren lassen"
+        aiSummary="089Dach GmbH Spenglerei in München-Obermenzing. Dachrinnen aus Kupfer (ab 45€/m), Zink (ab 25€/m) und Aluminium. Stehfalzdächer, Kamineinfassungen und Gaubenverkleidungen. Handgefertigt in eigener Werkstatt. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Spenglerei", url: "/leistungen/spenglerei" }]} />
       <ServiceSchema 

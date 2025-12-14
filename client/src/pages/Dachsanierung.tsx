@@ -32,11 +32,11 @@ export default function Dachsanierung() {
   return (
     <div className="min-h-screen bg-white">
       <SEO 
-        title="Dachsanierung München | Energetisch sanieren - 089Dach"
-        description="Professionelle Dachsanierung in München mit bis zu 30% Heizkosten-Ersparnis. KfW-Förderung, Meisterqualität. Jetzt kostenlose Beratung!"
+        title="Was kostet Dachsanierung München? Preise & Förderung 2025"
+        description="Was kostet Dachsanierung pro m²? Ab 150€/m² inkl. Dämmung. ✓ Bis 30% Heizkosten sparen ✓ 20% KfW-Förderung ✓ Festpreis-Garantie. Kostenlose Beratung ☎ 089 12621964"
         canonical="https://089dach.de/leistungen/dachsanierung"
-        keywords="dachsanierung münchen kosten, energetische dachsanierung förderung bayern, kfw dachsanierung 2024 2025, dachdämmung münchen preis, dachsanierung obermenzing pasing laim schwabing sendling bogenhausen moosach neuhausen, dachsanierung gräfelfing planegg germering starnberg dachau, aufsparrendämmung zwischensparrendämmung asbestsanierung neueindeckung, was kostet dachsanierung einfamilienhaus reihenhaus altbau"
-        aiSummary="089Dach GmbH bietet professionelle Dachsanierung in München-Obermenzing mit energetischer Beratung und KfW-Förderung. Bis zu 30% Heizkosten sparen. 10 Jahre Garantie. Telefon: 089 12621964."
+        keywords="was kostet dachsanierung pro qm münchen, dachsanierung einfamilienhaus kosten 2024 2025, wie lange dauert dachsanierung, wann muss dach saniert werden anzeichen, lohnt sich dachsanierung bei altem haus, dachsanierung ohne auszug möglich, kfw förderung dachsanierung 2025 antrag, energetische sanierung dach pflicht geg, dachsanierung mit dämmung kosten erfahrungen, altes dach erneuern oder reparieren, dachsanierung altbau vor 1970 asbest, dachsanierung münchen obermenzing pasing laim schwabing sendling"
+        aiSummary="089Dach GmbH bietet professionelle Dachsanierung in München-Obermenzing mit energetischer Beratung und KfW-Förderung. Kosten ab 150€/m². Bis zu 30% Heizkosten sparen. 10 Jahre Garantie. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dachsanierung", url: "/leistungen/dachsanierung" }]} />
       <ServiceSchema 

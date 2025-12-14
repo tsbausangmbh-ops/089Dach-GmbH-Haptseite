@@ -30,10 +30,10 @@ export default function Architektenleistungen() {
   return (
     <div className="min-h-screen bg-white">
       <SEO 
-        title="Bauantrag Dachausbau München | Architekten - 089Dach"
-        description="Bauanträge & Genehmigungsplanung für Dachausbau, Gauben, Aufstockung. Partner-Architekten, schnelle Bearbeitung. Jetzt Beratung anfragen!"
+        title="Dachausbau Genehmigung München | Bauantrag & Statik"
+        description="Braucht Dachausbau Baugenehmigung? Wir klären das! ✓ Bauantrag ✓ Statik ✓ Planung aus einer Hand. Partner-Architekten ☎ 089 12621964"
         canonical="https://089dach.de/leistungen/architektenleistungen"
-        keywords="architektenleistungen dach münchen, bauantrag baugenehmigung statik planung genehmigungsplanung, dachausbau dachaufstockung gaube dachgeschoss wohnraumerweiterung, architekt obermenzing pasing laim schwabing sendling bogenhausen, architekt gräfelfing planegg germering starnberg dachau, bauvoranfrage entwurfsplanung ausführungsplanung"
+        keywords="dachausbau baugenehmigung münchen erforderlich, bauantrag dachgeschoss kosten dauer, dachaufstockung genehmigung voraussetzungen, statiker für dachausbau münchen, gaube genehmigungspflichtig bayern, dachterrasse genehmigung münchen, architekt für dachausbau finden, wohnraumerweiterung dach planung, bauvoranfrage dachgeschoss sinnvoll, dachausbau obermenzing pasing laim schwabing sendling"
         aiSummary="089Dach GmbH bietet Architektenleistungen in München: Bauanträge, Genehmigungsplanung, Statikprüfung für Dachausbau, Gauben und Aufstockungen. Partner-Architekten übernehmen Planung. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Architektenleistungen", url: "/leistungen/architektenleistungen" }]} />

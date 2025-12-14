@@ -78,11 +78,11 @@ export default function Wartung() {
   return (
     <div className="min-h-screen bg-white">
       <SEO 
-        title="Dachwartung München | Inspektion & Reinigung - 089Dach"
-        description="Professionelle Dachwartung in München: Jährliche Inspektion, Dachrinnenreinigung, Moosentfernung. Schäden früh erkennen. Jetzt Termin vereinbaren!"
+        title="Dachwartung München | Dachrinne reinigen & Moos entfernen"
+        description="Dachrinne verstopft? Moos auf dem Dach? Jährliche Wartung ab 250€. ✓ Inspektion ✓ Reinigung ✓ Protokoll. Termin in 48h ☎ 089 12621964"
         canonical="https://089dach.de/leistungen/wartung"
-        keywords="dachwartung münchen, dachinspektion dachrinnenreinigung moosentfernung dachreinigung dachpflege, laub entfernen algen flechten ziegel prüfen firstziegel ortgang, dachwartung obermenzing pasing laim schwabing sendling bogenhausen moosach, dachwartung gräfelfing planegg germering starnberg dachau, wartungsvertrag jährlich frühjahr herbst kontrolle"
-        aiSummary="089Dach GmbH bietet Dachwartung in München: Jährliche Dachinspektion, Dachrinnenreinigung, Moosentfernung und Kleinreparaturen. Schäden früh erkennen und teure Folgeschäden vermeiden. Telefon: 089 12621964."
+        keywords="dachrinne reinigen lassen kosten münchen, moos vom dach entfernen lassen preis, wie oft dach kontrollieren lassen empfehlung, dachinspektion nach sturm kosten, dachrinne verstopft wasser läuft über, laub in dachrinne verhindern, dachwartung jährlich sinnvoll, dachdecker für kontrolle münchen, dachziegel prüfen lassen kosten, wann dach reinigen lassen, dachwartung obermenzing pasing laim schwabing sendling"
+        aiSummary="089Dach GmbH bietet Dachwartung in München ab 250€: Jährliche Dachinspektion, Dachrinnenreinigung, Moosentfernung und Kleinreparaturen. Schäden früh erkennen und teure Folgeschäden vermeiden. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Leistungen", url: "/leistungen" }, { name: "Wartung", url: "/leistungen/wartung" }]} />
       <ServiceSchema 

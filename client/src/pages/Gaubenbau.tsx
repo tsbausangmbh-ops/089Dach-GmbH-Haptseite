@@ -30,11 +30,11 @@ export default function Gaubenbau() {
   return (
     <div className="min-h-screen bg-white">
       <SEO 
-        title="Gaubenbau München | Mehr Wohnraum & Licht - 089Dach"
-        description="Gauben für mehr Wohnraum: Schleppgaube, Flachdachgaube, Spitzgaube. Planung, Genehmigung & Bau aus einer Hand. Jetzt beraten lassen!"
+        title="Gaube bauen München | Kosten Schleppgaube ab 12.000€"
+        description="Was kostet eine Gaube? Schleppgaube ab 12.000€. ✓ Planung ✓ Baugenehmigung ✓ Bau aus einer Hand. Mehr Wohnraum unterm Dach ☎ 089 12621964"
         canonical="https://089dach.de/leistungen/gaubenbau"
-        keywords="gaubenbau münchen, schleppgaube spitzgaube flachdachgaube trapezgaube dreiecksgaube walmdachgaube, dachausbau wohnraum dachgeschoss stehhöhe licht, gaube obermenzing pasing laim schwabing sendling bogenhausen neuhausen, gaube gräfelfing planegg germering starnberg dachau fürstenfeldbruck, gaube genehmigung baugenehmigung statik planung kosten"
-        aiSummary="089Dach GmbH baut Gauben in München: Schleppgaube, Spitzgaube, Flachdachgaube. Komplettservice von Planung über Baugenehmigung bis Ausführung. Mehr Wohnraum und Licht unterm Dach. Telefon: 089 12621964."
+        keywords="was kostet gaube bauen münchen, schleppgaube kosten pro m2 erfahrungen, gaube baugenehmigung münchen erforderlich, dachgaube nachträglich einbauen altbau, mehr stehhöhe im dachgeschoss lösung, welche gaubenart ist die beste, flachdachgaube modern kosten, gaube wohnraum gewinnen quadratmeter, dachausbau mit gaube förderung, gaube oder dachfenster was ist besser, gaube obermenzing pasing laim schwabing sendling"
+        aiSummary="089Dach GmbH baut Gauben in München ab 12.000€: Schleppgaube, Spitzgaube, Flachdachgaube. Komplettservice von Planung über Baugenehmigung bis Ausführung. Mehr Wohnraum und Licht unterm Dach. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Gaubenbau", url: "/leistungen/gaubenbau" }]} />
       <ServiceSchema 

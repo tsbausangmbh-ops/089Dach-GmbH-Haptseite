@@ -15,11 +15,11 @@ export default function Bedachungen() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Bedachungen München | Steildach & Flachdach - 089Dach"
-        description="Steildach & Flachdach vom Meisterbetrieb München: Neueindeckung, Abdichtung & energetische Dämmung. 10 Jahre Garantie. Jetzt Angebot anfordern!"
+        title="Dach neu eindecken München | Kosten Ziegel & Dämmung 2025"
+        description="Was kostet Dach neu eindecken? Ab 80€/m² ohne Dämmung. ✓ Steildach & Flachdach ✓ Meisterbetrieb ✓ 10 Jahre Garantie. Festpreis-Angebot ☎ 089 12621964"
         canonical="https://089dach.de/leistungen/bedachungen"
-        keywords="steildach flachdach münchen, tondachziegel betondachsteine schiefer biberschwanz, bitumenabdichtung kunststoffbahnen flüssigkunststoff dachbegrünung, steildach obermenzing pasing laim schwabing sendling bogenhausen, flachdach gräfelfing planegg germering starnberg dachau, dacheindeckung neueindeckung dachabdichtung dachisolierung terrassenbeläge balkone"
-        aiSummary="089Dach GmbH spezialisiert auf Steildach und Flachdach in München. Neueindeckung mit Tondachziegeln, Betonsteine, Schiefer. Flachdach-Abdichtung und Dachbegrünung. Meisterbetrieb seit 1998. Telefon: 089 12621964."
+        keywords="was kostet dach neu eindecken pro qm münchen, dachziegel oder betonsteine was ist besser, flachdach abdichten kosten pro m2, dach undicht reparieren oder komplett erneuern, dacheindeckung altbau was beachten, biberschwanzziegel preis erfahrungen, schieferdach kosten lebensdauer, dachbegrünung kosten förderung münchen, steildach isolieren nachträglich kosten, welche dachziegel sind die besten, dacheindeckung obermenzing pasing laim schwabing sendling"
+        aiSummary="089Dach GmbH spezialisiert auf Steildach und Flachdach in München. Neueindeckung ab 80€/m². Tondachziegel, Betonsteine, Schiefer. Flachdach-Abdichtung und Dachbegrünung. Meisterbetrieb seit 1998. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Bedachungen", url: "/leistungen/bedachungen" }]} />
       <ServiceSchema 
