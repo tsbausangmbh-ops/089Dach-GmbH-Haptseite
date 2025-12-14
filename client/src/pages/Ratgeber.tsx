@@ -8,6 +8,7 @@ import { CheckCircle2, AlertTriangle, ThermometerSun, Droplets, Leaf, ArrowRight
 import { Link } from "wouter";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import gegArticleImage from "@assets/generated_images/homeowner_roof_consultation_scene.png";
+import ratgeberHeroImage from "@assets/generated_images/roofing_expert_with_checklist.png";
 
 export default function Ratgeber() {
   const guides = [
@@ -85,9 +86,19 @@ export default function Ratgeber() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="pt-24 pb-16 bg-gray-50 relative overflow-hidden">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl">
+      <section className="pt-24 pb-16 relative overflow-hidden min-h-[70vh] flex items-center">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <img
+            src={ratgeberHeroImage}
+            alt="Dachexperte mit Checkliste"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-white via-white/95 to-white/70"></div>
+        </div>
+        
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="max-w-2xl">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">089Dach Expertenwissen</span>
             <h1 className="text-4xl md:text-6xl font-heading font-bold text-secondary mt-4 mb-6">
               Endlich verstehen, was Ihr Dach wirklich braucht
