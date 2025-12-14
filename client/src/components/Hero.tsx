@@ -64,7 +64,7 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
             </div>
             
             <p className="text-lg md:text-xl text-gray-100 mb-8 max-w-xl leading-relaxed">
-              <strong className="text-white">Über 100 zufriedene Kunden</strong> vertrauen 089Dach GmbH München. 
+              <strong className="text-white">Über 100+ zufriedene Kunden</strong> vertrauen 089Dach GmbH München. 
               <span className="text-primary font-semibold"> Faire Festpreise. Ehrliche Beratung. Saubere Arbeit.</span>
             </p>
             
