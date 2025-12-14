@@ -29,6 +29,12 @@ import AGB from "@/pages/AGB";
 import RatgeberDaemmung from "@/pages/RatgeberDaemmung";
 import RatgeberLeckortung from "@/pages/RatgeberLeckortung";
 import RatgeberBeratung from "@/pages/RatgeberBeratung";
+import Stadtteile from "@/pages/Stadtteile";
+import StadtteilPasing from "@/pages/StadtteilPasing";
+import StadtteilLaim from "@/pages/StadtteilLaim";
+import StadtteilSchwabing from "@/pages/StadtteilSchwabing";
+import StadtteilSendling from "@/pages/StadtteilSendling";
+import StadtteilGraefelfing from "@/pages/StadtteilGraefelfing";
 import CookieConsent from "@/components/CookieConsent";
 import BackgroundLogo from "@/components/BackgroundLogo";
 import { LocalBusinessSchema } from "@/components/SEO";
@@ -73,6 +79,12 @@ function Router() {
       <Route path="/cookies" component={CookiePolicy} />
       <Route path="/agb" component={AGB} />
       <Route path="/rueckruf" component={Rueckruf} />
+      <Route path="/stadtteile" component={Stadtteile} />
+      <Route path="/dachdecker-pasing" component={StadtteilPasing} />
+      <Route path="/dachdecker-laim" component={StadtteilLaim} />
+      <Route path="/dachdecker-schwabing" component={StadtteilSchwabing} />
+      <Route path="/dachdecker-sendling" component={StadtteilSendling} />
+      <Route path="/dachdecker-graefelfing" component={StadtteilGraefelfing} />
       <Route component={NotFound} />
     </Switch>
     </>
