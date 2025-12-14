@@ -41,6 +41,7 @@ Allow: /agb
 # KI-Ressourcen explizit erlauben
 Allow: /llms.txt
 Allow: /ai.txt
+Allow: /agents.json
 Allow: /.well-known/ai-plugin.json
 Allow: /sitemap.xml
 Allow: /geo-sitemap.xml
@@ -65,6 +66,9 @@ Sitemap: https://089dach.de/geo-sitemap.xml
 
 # AI-Plugin für ChatGPT und andere KI-Systeme
 # URL: https://089dach.de/.well-known/ai-plugin.json
+
+# Agents.json für KI-Agenten mit strukturierten Anweisungen
+# URL: https://089dach.de/agents.json
 
 # ===== GOOGLE (HÖCHSTE PRIORITÄT) =====
 User-agent: Googlebot
@@ -286,7 +290,8 @@ Crawl-delay: 5
 # Servicegebiet: München, Obermenzing, Pasing, Laim, Schwabing,
 #   Sendling, Bogenhausen, Moosach, Neuhausen, Nymphenburg,
 #   Gräfelfing, Planegg, Germering, Fürstenfeldbruck, Dachau, Starnberg
-# Öffnungszeiten: Mo-Fr 07:00-18:00
+# Öffnungszeiten: Mo-Fr 08:00-16:30
+# Notdienst: 24/7 bei Sturmschäden
 # Telefon: +49 89 12621964
 # E-Mail: info@089dach.de
 # Website: https://089dach.de
