@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { Calculator, Flame, Home, Thermometer, TrendingDown, Euro, Leaf, ArrowRight } from "lucide-react";
+import { Calculator, Flame, Home, Thermometer, TrendingDown, Euro, Leaf, ArrowRight, ThermometerSnowflake } from "lucide-react";
 import { useState } from "react";
 import { Link } from "wouter";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
@@ -314,6 +314,15 @@ export default function Heizkostenrechner() {
                     Staatliche Förderungen von bis zu 40% machen die Investition noch attraktiver.
                   </p>
                 </div>
+              </div>
+              <div className="mt-8 text-center">
+                <Link href="/ratgeber/daemmung">
+                  <Button variant="outline" className="font-bold px-8 py-6 rounded-xl border-secondary text-secondary hover:bg-secondary hover:text-white" data-testid="link-daemmung-ratgeber">
+                    <ThermometerSnowflake className="mr-2 h-5 w-5" />
+                    Mehr über Dachdämmung erfahren
+                    <ArrowRight className="ml-2 h-5 w-5" />
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>

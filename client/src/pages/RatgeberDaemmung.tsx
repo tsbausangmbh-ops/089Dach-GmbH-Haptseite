@@ -2,7 +2,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
-import { CheckCircle2, ThermometerSnowflake, ArrowRight, Euro, Home, Phone, AlertTriangle, TrendingDown, Clock, Shield, Users, Star } from "lucide-react";
+import { CheckCircle2, ThermometerSnowflake, ArrowRight, Euro, Home, Phone, AlertTriangle, TrendingDown, Clock, Shield, Users, Star, Calculator } from "lucide-react";
 import { Link } from "wouter";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/roof_insulation_installation_scene.png";
@@ -121,9 +121,21 @@ export default function RatgeberDaemmung() {
               <p className="text-2xl font-heading font-bold text-primary mb-2">
                 Die bessere Frage ist: Können Sie es sich leisten, KEINE zu haben?
               </p>
-              <p className="text-muted-foreground">
+              <p className="text-muted-foreground mb-6">
                 Jedes Jahr ohne Dämmung kostet Sie 1.000€ oder mehr an unnötigen Heizkosten.
               </p>
+              <Button 
+                size="lg"
+                variant="outline"
+                className="font-bold px-8 py-6 rounded-xl border-primary text-primary hover:bg-primary hover:text-white"
+                asChild
+                data-testid="button-heizkosten-rechner"
+              >
+                <Link href="/heizkostenrechner">
+                  <Calculator className="mr-2 h-5 w-5" />
+                  Jetzt Ihre Heizkosten berechnen
+                </Link>
+              </Button>
             </div>
 
             <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-r-lg mb-12">
