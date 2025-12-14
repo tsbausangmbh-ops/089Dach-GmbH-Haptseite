@@ -7,33 +7,33 @@ import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
 
-import img1 from "@assets/generated_images/realistic_anthracite_roof_tiles_with_slight_weathering.png";
-import img3 from "@assets/generated_images/flat_roof_bitumen_detail_with_texture.png";
-import img4 from "@assets/generated_images/roof_window_installation_with_realistic_roof_texture.png";
-import img5 from "@assets/generated_images/historic_biberschwanz_roof_with_patina.png";
-import img6 from "@assets/generated_images/flat_green_roof_with_natural_variations.png";
-import img7 from "@assets/generated_images/slate_roof_with_copper_details_and_patina.png";
 import heroImage from "@assets/generated_images/completed_roof_showcase_reference.png";
 
-import before1 from "@assets/generated_images/damaged_old_roof_before_renovation.png";
-import before2 from "@assets/generated_images/historic_roof_needing_restoration.png";
-import before3 from "@assets/generated_images/damaged_commercial_flat_roof.png";
-import before4 from "@assets/generated_images/dark_attic_before_window_installation.png";
-import before5 from "@assets/generated_images/villa_slate_roof_before_renovation.png";
-import before6 from "@assets/generated_images/office_flat_roof_with_leaks.png";
+import before1 from "@assets/generated_images/realistic_damaged_roof_obermenzing_before.png";
+import img1 from "@assets/generated_images/realistic_renovated_roof_obermenzing_after.png";
+import before2 from "@assets/generated_images/realistic_historic_roof_haidhausen_before.png";
+import img5 from "@assets/generated_images/realistic_restored_historic_roof_after.png";
+import before3 from "@assets/generated_images/realistic_damaged_flat_roof_before.png";
+import img6 from "@assets/generated_images/realistic_green_roof_installed_after.png";
+import before4 from "@assets/generated_images/realistic_dark_attic_before_windows.png";
+import img4 from "@assets/generated_images/realistic_bright_attic_after_windows.png";
+import before5 from "@assets/generated_images/realistic_villa_slate_roof_before.png";
+import img7 from "@assets/generated_images/realistic_villa_slate_roof_after.png";
+import before6 from "@assets/generated_images/realistic_office_flat_roof_before.png";
+import img3 from "@assets/generated_images/realistic_office_flat_roof_after.png";
 
-import before7 from "@assets/generated_images/damaged_metal_roof_before_renovation.png";
-import img8 from "@assets/generated_images/new_metal_standing_seam_roof.png";
-import before8 from "@assets/generated_images/damaged_red_tile_roof_before.png";
-import img9 from "@assets/generated_images/restored_red_tile_roof_after.png";
-import before9 from "@assets/generated_images/damaged_dormer_window_before.png";
-import img10 from "@assets/generated_images/renovated_dormer_window_after.png";
-import before10 from "@assets/generated_images/damaged_garage_flat_roof.png";
-import img11 from "@assets/generated_images/new_epdm_flat_roof_garage.png";
-import before11 from "@assets/generated_images/damaged_chimney_flashing_before.png";
-import img12 from "@assets/generated_images/new_copper_chimney_flashing.png";
-import before12 from "@assets/generated_images/old_solar_panel_mounting_damage.png";
-import img13 from "@assets/generated_images/new_solar_panel_installation.png";
+import before7 from "@assets/generated_images/realistic_metal_warehouse_roof_before.png";
+import img8 from "@assets/generated_images/realistic_metal_warehouse_roof_after.png";
+import before8 from "@assets/generated_images/realistic_row_house_roof_before.png";
+import img9 from "@assets/generated_images/realistic_row_house_roof_after.png";
+import before9 from "@assets/generated_images/realistic_damaged_dormer_before.png";
+import img10 from "@assets/generated_images/realistic_renovated_dormer_after.png";
+import before10 from "@assets/generated_images/realistic_garage_flat_roof_before.png";
+import img11 from "@assets/generated_images/realistic_garage_epdm_roof_after.png";
+import before11 from "@assets/generated_images/realistic_chimney_flashing_before.png";
+import img12 from "@assets/generated_images/realistic_copper_chimney_after.png";
+import before12 from "@assets/generated_images/realistic_old_solar_installation_before.png";
+import img13 from "@assets/generated_images/realistic_new_solar_installation_after.png";
 
 export default function Referenzen() {
   const projects = [
