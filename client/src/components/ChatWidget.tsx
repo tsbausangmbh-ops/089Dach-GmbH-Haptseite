@@ -8,16 +8,24 @@ interface Message {
   content: string;
 }
 
+const quickQuestions = [
+  "Was kostet eine Dachsanierung?",
+  "Wie erkenne ich Dachschäden?",
+  "Welche Förderungen gibt es?",
+  "Wie lange dauert eine Reparatur?",
+];
+
 export default function ChatWidget() {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<Message[]>([
     {
       role: "assistant",
-      content: "Hallo! Ich bin der digitale Assistent von 089Dach. Wie kann ich Ihnen bei Ihrem Dach-Anliegen helfen?"
+      content: "Hallo! Ich bin der digitale Assistent von 089Dach. Wie kann ich Ihnen bei Ihrem Dach-Anliegen helfen? Wählen Sie eine Frage oder schreiben Sie uns direkt!"
     }
   ]);
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
+  const [showQuickQuestions, setShowQuickQuestions] = useState(true);
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
   const scrollToBottom = () => {
@@ -37,11 +45,18 @@ export default function ChatWidget() {
     setMessages(prev => [...prev, { role: "user", content: userMessage }]);
     setIsLoading(true);
 
+    setShowQuickQuestions(false);
+    
     try {
+      const conversationHistory = [...messages, { role: "user" as const, content: userMessage }];
+      
       const response = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message: userMessage })
+        body: JSON.stringify({ 
+          message: userMessage,
+          history: conversationHistory.slice(-10)
+        })
       });
 
       if (response.ok) {
@@ -51,6 +66,44 @@ export default function ChatWidget() {
         setMessages(prev => [...prev, { 
           role: "assistant", 
           content: "Entschuldigung, es gab einen Fehler. Bitte rufen Sie uns an unter 089 12621964 oder nutzen Sie unser Rückruf-Formular." 
+        }]);
+      }
+    } catch {
+      setMessages(prev => [...prev, { 
+        role: "assistant", 
+        content: "Entschuldigung, es gab einen Verbindungsfehler. Bitte rufen Sie uns an unter 089 12621964." 
+      }]);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  const handleQuickQuestion = async (question: string) => {
+    if (isLoading) return;
+    
+    setMessages(prev => [...prev, { role: "user", content: question }]);
+    setIsLoading(true);
+    setShowQuickQuestions(false);
+    
+    try {
+      const conversationHistory = [...messages, { role: "user" as const, content: question }];
+      
+      const response = await fetch("/api/chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ 
+          message: question,
+          history: conversationHistory.slice(-10)
+        })
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+        setMessages(prev => [...prev, { role: "assistant", content: data.reply }]);
+      } else {
+        setMessages(prev => [...prev, { 
+          role: "assistant", 
+          content: "Entschuldigung, es gab einen Fehler. Bitte rufen Sie uns an unter 089 12621964." 
         }]);
       }
     } catch {
@@ -149,13 +202,27 @@ export default function ChatWidget() {
                 </div>
               </div>
             )}
+            {showQuickQuestions && messages.length <= 1 && (
+              <div className="space-y-2">
+                <p className="text-xs text-muted-foreground text-center">Häufige Fragen:</p>
+                <div className="flex flex-wrap gap-2">
+                  {quickQuestions.map((question, index) => (
+                    <button
+                      key={index}
+                      onClick={() => handleQuickQuestion(question)}
+                      className="text-xs bg-white border border-primary/30 text-primary px-3 py-2 rounded-full hover:bg-primary/10 transition-colors"
+                      data-testid={`button-quick-question-${index}`}
+                    >
+                      {question}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
             <div ref={messagesEndRef} />
           </div>
 
           <div className="p-3 border-t bg-white">
-            <p className="text-xs text-muted-foreground mb-2 text-center">
-              Schnelle Fragen? Unser KI-Assistent hilft!
-            </p>
             <form onSubmit={handleSubmit} className="flex gap-2">
               <Input
                 value={input}

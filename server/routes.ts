@@ -343,7 +343,7 @@ export async function registerRoutes(
 
   app.post("/api/chat", async (req, res) => {
     try {
-      const { message } = req.body;
+      const { message, history } = req.body;
       if (!message) {
         return res.status(400).json({ error: "Message required" });
       }
@@ -353,29 +353,69 @@ export async function registerRoutes(
         baseURL: process.env.AI_INTEGRATIONS_OPENAI_BASE_URL
       });
 
-      const completion = await openai.chat.completions.create({
-        model: "gpt-4o-mini",
-        messages: [
-          {
-            role: "system",
-            content: `Du bist der freundliche digitale Assistent von 089Dach GmbH, einem Münchner Dachdecker-Meisterbetrieb seit 1998. 
-            
-Deine Aufgabe:
-- Beantworte Fragen rund ums Dach freundlich und kompetent
-- Empfehle bei konkreten Problemen einen Rückruf oder Vor-Ort-Termin
-- Weise auf unsere Leistungen hin: Bedachungen, Spenglerei, Dachsanierung, Dachfenster, Reparaturservice, Wartung, Energieberatung, Gaubenbau
-- Bleibe immer höflich, empathisch und professionell
-- Antworte auf Deutsch
-- Halte Antworten kurz und hilfreich (max. 2-3 Sätze)
+      const systemPrompt = `Du bist der freundliche digitale Assistent von 089Dach GmbH, einem Münchner Dachdecker-Meisterbetrieb seit 1998.
 
-Kontaktdaten:
+FACHWISSEN:
+
+KOSTEN (Richtwerte):
+- Dachsanierung komplett: 150-300 €/m² (abhängig von Material und Zustand)
+- Dachreparatur klein: ab 200-500 €
+- Dachfenster (Velux): 800-2.500 € inkl. Einbau
+- Flachdachsanierung: 80-150 €/m²
+- Dachwartung: 150-300 € pro Einsatz
+- Gaube: 5.000-15.000 € je nach Größe
+
+FÖRDERUNGEN:
+- KfW-Förderung für energetische Sanierung (bis 45% Zuschuss)
+- BAFA-Förderung für Dämmung
+- Münchner Förderprogramm Klimaschutz
+- Steuerbonus: 20% der Handwerkerkosten absetzbar
+
+DACHSCHÄDEN ERKENNEN:
+- Feuchte Flecken an der Decke
+- Abblätternde Farbe, Schimmelbildung
+- Lose oder fehlende Ziegel
+- Verstopfte Dachrinnen, Moos/Flechten
+- Undichte Stellen bei Regen
+
+MATERIALIEN:
+- Tondachziegel: langlebig, traditionell, 50-80 Jahre
+- Betondachsteine: preiswert, 30-40 Jahre
+- Schiefer: Premium, 100+ Jahre
+- Metalldach: modern, wartungsarm, 50+ Jahre
+- Bitumen-Flachdach: wirtschaftlich, 15-25 Jahre
+
+ANTWORTREGELN:
+- Antworte auf Deutsch, freundlich und kompetent
+- Halte Antworten kurz (2-4 Sätze)
+- Bei konkreten Problemen: empfehle Rückruf oder Vor-Ort-Termin
+- Nenne bei Kostenangaben immer "Richtwert" oder "ca."
+- Erinnere dich an vorherige Nachrichten im Gespräch
+
+KONTAKTDATEN:
 - Telefon: 089 12621964
 - E-Mail: info@089dach.de
-- Rückruf-Service: /rueckruf`
-          },
-          { role: "user", content: message }
-        ],
-        max_tokens: 200
+- Kostenlose Beratung: 089dach.de/beratung
+- Rückruf-Service: 089dach.de/rueckruf`;
+
+      const conversationMessages: Array<{role: "system" | "user" | "assistant", content: string}> = [
+        { role: "system", content: systemPrompt }
+      ];
+
+      if (history && Array.isArray(history)) {
+        history.forEach((msg: {role: string, content: string}) => {
+          if (msg.role === "user" || msg.role === "assistant") {
+            conversationMessages.push({ role: msg.role, content: msg.content });
+          }
+        });
+      } else {
+        conversationMessages.push({ role: "user", content: message });
+      }
+
+      const completion = await openai.chat.completions.create({
+        model: "gpt-4o-mini",
+        messages: conversationMessages,
+        max_tokens: 300
       });
 
       const reply = completion.choices[0]?.message?.content || "Entschuldigung, ich konnte keine Antwort generieren.";
