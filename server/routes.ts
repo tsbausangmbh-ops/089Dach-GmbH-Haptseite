@@ -33,27 +33,59 @@ async function sendNotificationEmail(subject: string, htmlContent: string) {
 async function sendCustomerConfirmationEmail(
   customerEmail: string,
   customerName: string,
-  appointmentDate: Date,
+  appointmentDate: Date | null,
   problem: string
 ) {
   try {
-    const dateOptions: Intl.DateTimeFormatOptions = {
-      weekday: "long",
-      year: "numeric",
-      month: "long",
-      day: "numeric",
-    };
-    const timeOptions: Intl.DateTimeFormatOptions = {
-      hour: "2-digit",
-      minute: "2-digit",
-    };
-    const formattedDate = appointmentDate.toLocaleDateString("de-DE", dateOptions);
-    const formattedTime = appointmentDate.toLocaleTimeString("de-DE", timeOptions);
+    let appointmentSection: string;
+    let subject: string;
+    let heading: string;
+
+    if (appointmentDate) {
+      const dateOptions: Intl.DateTimeFormatOptions = {
+        weekday: "long",
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+      };
+      const timeOptions: Intl.DateTimeFormatOptions = {
+        hour: "2-digit",
+        minute: "2-digit",
+      };
+      const formattedDate = appointmentDate.toLocaleDateString("de-DE", dateOptions);
+      const formattedTime = appointmentDate.toLocaleTimeString("de-DE", timeOptions);
+
+      subject = "Terminbestätigung: Ihre Beratung bei 089Dach GmbH";
+      heading = "Vielen Dank für Ihre Terminbuchung!";
+      appointmentSection = `
+        <p>wir freuen uns, Ihnen Ihren Beratungstermin zu bestätigen:</p>
+        
+        <div style="background-color: white; border-left: 4px solid #f59e0b; padding: 20px; margin: 20px 0;">
+          <p style="margin: 5px 0;"><strong>📅 Datum:</strong> ${formattedDate}</p>
+          <p style="margin: 5px 0;"><strong>🕐 Uhrzeit:</strong> ${formattedTime} Uhr</p>
+          <p style="margin: 5px 0;"><strong>📋 Thema:</strong> ${problem}</p>
+        </div>
+        
+        <p><strong>Wir rufen Sie zum vereinbarten Termin an.</strong></p>
+      `;
+    } else {
+      subject = "Bestätigung: Ihre Beratungsanfrage bei 089Dach GmbH";
+      heading = "Vielen Dank für Ihre Beratungsanfrage!";
+      appointmentSection = `
+        <p>wir haben Ihre Anfrage erhalten und werden uns schnellstmöglich bei Ihnen melden.</p>
+        
+        <div style="background-color: white; border-left: 4px solid #f59e0b; padding: 20px; margin: 20px 0;">
+          <p style="margin: 5px 0;"><strong>📋 Thema:</strong> ${problem}</p>
+        </div>
+        
+        <p><strong>Einer unserer Experten wird sich in Kürze telefonisch bei Ihnen melden.</strong></p>
+      `;
+    }
 
     await transporter.sendMail({
       from: process.env.SMTP_USER,
       to: customerEmail,
-      subject: `Terminbestätigung: Ihre Beratung bei 089Dach GmbH`,
+      subject: subject,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
           <div style="background-color: #1a365d; padding: 20px; text-align: center;">
@@ -62,21 +94,13 @@ async function sendCustomerConfirmationEmail(
           </div>
           
           <div style="padding: 30px; background-color: #f8fafc;">
-            <h2 style="color: #1a365d;">Vielen Dank für Ihre Terminbuchung!</h2>
+            <h2 style="color: #1a365d;">${heading}</h2>
             
             <p>Sehr geehrte/r ${customerName},</p>
             
-            <p>wir freuen uns, Ihnen Ihren Beratungstermin zu bestätigen:</p>
+            ${appointmentSection}
             
-            <div style="background-color: white; border-left: 4px solid #f59e0b; padding: 20px; margin: 20px 0;">
-              <p style="margin: 5px 0;"><strong>📅 Datum:</strong> ${formattedDate}</p>
-              <p style="margin: 5px 0;"><strong>🕐 Uhrzeit:</strong> ${formattedTime} Uhr</p>
-              <p style="margin: 5px 0;"><strong>📋 Thema:</strong> ${problem}</p>
-            </div>
-            
-            <p><strong>Wir rufen Sie zum vereinbarten Termin an.</strong></p>
-            
-            <p>Falls Sie den Termin verschieben oder absagen möchten, erreichen Sie uns unter:</p>
+            <p>Falls Sie Fragen haben, erreichen Sie uns unter:</p>
             <ul style="list-style: none; padding: 0;">
               <li>📞 Telefon: <a href="tel:08912621964" style="color: #f59e0b;">089 12621964</a></li>
               <li>📧 E-Mail: <a href="mailto:info@089dach.de" style="color: #f59e0b;">info@089dach.de</a></li>
@@ -174,12 +198,15 @@ export async function registerRoutes(
         );
         console.log("Calendar event created successfully");
 
-        // Send confirmation email to customer if they provided email and selected a specific time
-        if (validatedData.email && validatedData.callbackStart) {
+        // Send confirmation email to customer if they provided email (from Beratungsseite)
+        // Check if it's from Beratungsseite by looking at timing field
+        const isFromBeratungsseite = validatedData.timing?.includes("Beratungsanfrage") || 
+                                      validatedData.timing?.includes("Gewünschter Termin");
+        if (validatedData.email && isFromBeratungsseite) {
           await sendCustomerConfirmationEmail(
             validatedData.email,
             validatedData.name,
-            eventStart,
+            validatedData.callbackStart ? eventStart : null,
             validatedData.problem
           );
         }
