@@ -135,7 +135,7 @@ export default function Contact() {
           </div>
 
           <div className="bg-white p-8 md:p-10 rounded-xl border border-stone-200">
-            <h3 className="text-2xl font-heading font-bold text-secondary mb-6">Nachricht senden</h3>
+            <h3 className="text-2xl font-heading font-bold text-secondary mb-6 text-center md:text-left">Nachricht senden</h3>
             <form className="space-y-6" onSubmit={handleSubmit}>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-2">
