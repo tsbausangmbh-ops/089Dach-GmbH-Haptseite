@@ -107,7 +107,7 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
       <div className="bg-secondary border-t border-white/10">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-0 divide-y md:divide-y-0 md:divide-x divide-white/10">
-            <div className="py-6 md:py-8 px-4 text-center text-white">
+            <div className="py-4 md:py-6 px-4 text-center text-white">
               <div className="flex items-center justify-center gap-1 mb-2">
                 {[1,2,3,4,5].map(i => (
                   <Star key={i} className="h-5 w-5 fill-yellow-400 text-yellow-400" />
@@ -117,19 +117,19 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
               <p className="text-sm text-gray-400">62+ zufriedene Kunden</p>
             </div>
 
-            <div className="py-6 md:py-8 px-4 text-center text-white">
+            <div className="py-4 md:py-6 px-4 text-center text-white">
               <Shield className="h-8 w-8 text-primary mx-auto mb-2" />
               <p className="font-bold text-lg">Meister-Qualität</p>
               <p className="text-sm text-gray-400">Schriftliche Garantie</p>
             </div>
 
-            <div className="py-6 md:py-8 px-4 text-center text-white">
+            <div className="py-4 md:py-6 px-4 text-center text-white">
               <p className="text-4xl font-bold text-primary mb-1">25+</p>
               <p className="font-bold text-lg">Jahre Erfahrung</p>
               <p className="text-sm text-gray-400">in München</p>
             </div>
 
-            <div className="py-6 md:py-8 px-4 text-center text-white">
+            <div className="py-4 md:py-6 px-4 text-center text-white">
               <Clock className="h-8 w-8 text-primary mx-auto mb-2" />
               <p className="font-bold text-lg">Schnell vor Ort</p>
               <p className="text-sm text-gray-400">Termin in 48h möglich</p>
@@ -138,7 +138,7 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
         </div>
       </div>
 
-      <div className="bg-stone-100 py-6 border-b border-stone-200">
+      <div className="bg-stone-100 py-4 border-b border-stone-200">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 text-center md:text-left">
             <div className="flex -space-x-3">
