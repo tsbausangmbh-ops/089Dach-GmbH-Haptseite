@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import BackButton from "@/components/BackButton";
 import { Button } from "@/components/ui/button";
 import { Cookie, Shield, Settings } from "lucide-react";
 
@@ -21,6 +22,7 @@ export default function Cookies() {
           </div>
         </div>
       </section>
+      <BackButton />
 
       <section className="py-16">
         <div className="container mx-auto px-6 lg:px-12">

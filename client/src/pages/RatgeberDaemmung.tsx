@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import BackButton from "@/components/BackButton";
 import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
 import { CheckCircle2, ThermometerSnowflake, ArrowRight, ArrowLeft, Euro, Home, Phone, AlertTriangle, TrendingDown, Clock, Shield, Users, Star, Calculator } from "lucide-react";
@@ -90,17 +91,7 @@ export default function RatgeberDaemmung() {
           </div>
         </div>
       </section>
-
-      <section className="py-3 bg-white border-b">
-        <div className="container mx-auto px-6 lg:px-12">
-          <Link href="/ratgeber">
-            <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-secondary" data-testid="button-back">
-              <ArrowLeft className="mr-2 h-4 w-4" />
-              Zurück zu Tipps & Tricks
-            </Button>
-          </Link>
-        </div>
-      </section>
+      <BackButton />
 
       <section className="py-16 bg-stone-50">
         <div className="container mx-auto px-6 lg:px-12">

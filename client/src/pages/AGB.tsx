@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import BackButton from "@/components/BackButton";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import { Scale, FileText, Shield, AlertTriangle, Clock, Hammer, CheckCircle2 } from "lucide-react";
 
@@ -15,6 +16,7 @@ export default function AGB() {
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "AGB", url: "/agb" }]} />
       <Navbar />
+      <BackButton />
       
       <div className="container mx-auto px-6 lg:px-12 pt-10 pb-12 max-w-4xl">
         <div className="flex items-center gap-3 mb-4">

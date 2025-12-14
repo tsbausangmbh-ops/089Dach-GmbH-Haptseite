@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import BackButton from "@/components/BackButton";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -110,17 +111,7 @@ export default function Heizkostenrechner() {
           </div>
         </div>
       </section>
-
-      <section className="py-3 bg-white border-b">
-        <div className="container mx-auto px-6 lg:px-12">
-          <Link href="/">
-            <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-secondary" data-testid="button-back">
-              <ArrowLeft className="mr-2 h-4 w-4" />
-              Zurück zur Startseite
-            </Button>
-          </Link>
-        </div>
-      </section>
+      <BackButton />
 
       <section className="py-10 bg-stone-50 border-b">
         <div className="container mx-auto px-6 lg:px-12">

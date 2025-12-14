@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Contact from "@/components/Contact";
+import BackButton from "@/components/BackButton";
 import { Button } from "@/components/ui/button";
 import { CheckCircle2, ArrowRight, Home, Warehouse, ShieldCheck, Quote, AlertTriangle, Award, Shield, Users } from "lucide-react";
 import heroImage from "@assets/generated_images/roofer_working_on_red_tile_roof_munich.png";
@@ -52,6 +53,7 @@ export default function Bedachungen() {
           </div>
         </div>
       </section>
+      <BackButton />
 
       {/* Trust Badges */}
       <div className="bg-stone-100 py-2 border-b border-stone-200">

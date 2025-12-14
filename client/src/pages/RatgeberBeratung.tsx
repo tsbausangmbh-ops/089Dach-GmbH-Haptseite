@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import BackButton from "@/components/BackButton";
 import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
 import { CheckCircle2, Euro, ArrowRight, Shield, FileText, Calculator, Phone, Users, Star, AlertTriangle, Heart, Lock, Clock } from "lucide-react";
@@ -89,6 +90,7 @@ export default function RatgeberBeratung() {
           </div>
         </div>
       </section>
+      <BackButton />
 
       <section className="py-16 bg-stone-50">
         <div className="container mx-auto px-6 lg:px-12">

@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import BackButton from "@/components/BackButton";
 import { Shield, Phone, Mail, MapPin } from "lucide-react";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 
@@ -29,6 +30,7 @@ export default function Impressum() {
           </div>
         </div>
       </section>
+      <BackButton />
 
       <section className="py-16">
         <div className="container mx-auto px-6 lg:px-12">

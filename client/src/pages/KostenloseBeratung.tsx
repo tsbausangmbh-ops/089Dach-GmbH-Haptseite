@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import BackButton from "@/components/BackButton";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -201,6 +202,7 @@ export default function KostenloseBeratung() {
           </div>
         </div>
       </section>
+      <BackButton />
 
       <div className="bg-stone-100 py-2 border-b border-stone-200">
         <div className="container mx-auto px-6 lg:px-12">

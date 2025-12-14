@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import BackButton from "@/components/BackButton";
 import LeadFunnel from "@/components/LeadFunnel";
 import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
@@ -151,6 +152,7 @@ export default function Ratgeber() {
           </div>
         </div>
       </section>
+      <BackButton />
       
       {/* Trust Badges */}
       <section className="py-8 border-b border-border">

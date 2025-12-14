@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Contact from "@/components/Contact";
+import BackButton from "@/components/BackButton";
 import { Mail, Phone, MapPin, Clock } from "lucide-react";
 import contactImage from "@assets/generated_images/friendly_woman_on_phone_in_office.png";
 import SEO, { BreadcrumbSchema, LocalBusinessSchema } from "@/components/SEO";
@@ -47,6 +48,7 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
+      <BackButton />
 
       <Contact />
       

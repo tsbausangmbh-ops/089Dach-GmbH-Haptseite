@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import BackButton from "@/components/BackButton";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import { Shield, Lock, FileText, Globe, Bot, AlertTriangle, Database, Server } from "lucide-react";
 
@@ -28,6 +29,7 @@ export default function Datenschutz() {
           </p>
         </div>
       </div>
+      <BackButton />
 
       <div className="container mx-auto px-6 lg:px-12 pt-8 pb-12 max-w-4xl">
         <div className="prose prose-lg text-muted-foreground">

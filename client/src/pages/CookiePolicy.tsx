@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
+import BackButton from "@/components/BackButton";
 import { Shield, Cookie, Bot, Scale, Lock, FileText, AlertTriangle, Globe, Server, Database, Users } from "lucide-react";
 
 export default function CookiePolicy() {
@@ -12,6 +13,7 @@ export default function CookiePolicy() {
         canonical="https://089dach.de/cookies"
       />
       <Navbar />
+      <BackButton />
       
       <div className="container mx-auto px-6 lg:px-12 pt-10 pb-12 max-w-4xl">
         <div className="flex items-center gap-3 mb-4">

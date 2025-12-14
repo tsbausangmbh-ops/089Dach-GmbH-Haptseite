@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import BackButton from "@/components/BackButton";
 import LeadFunnel from "@/components/LeadFunnel";
 import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
@@ -70,6 +71,7 @@ export default function Dachfenster() {
           </div>
         </div>
       </section>
+      <BackButton />
 
       {/* Trust Badges */}
       <div className="bg-stone-100 py-2 border-b border-stone-200">

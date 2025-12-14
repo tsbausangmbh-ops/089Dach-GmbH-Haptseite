@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import BackButton from "@/components/BackButton";
 import Contact from "@/components/Contact";
 import LeadFunnel from "@/components/LeadFunnel";
 import heroImage from "@assets/generated_images/roofer_explaining_to_homeowner.png";
@@ -190,6 +191,7 @@ export default function FAQ() {
           </div>
         </div>
       </section>
+      <BackButton />
       
       {/* Trust Badges */}
       <section className="py-8 border-b border-border bg-white">
