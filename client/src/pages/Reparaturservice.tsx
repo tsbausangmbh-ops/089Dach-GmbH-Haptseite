@@ -171,7 +171,7 @@ export default function Reparaturservice() {
       {/* Anfrage-Formular */}
       <section id="anfrage-form" className="py-6 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-2xl mx-auto">
+          <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-heading font-bold text-secondary mb-4">
                 Reparaturanfrage senden
