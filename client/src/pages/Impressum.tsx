@@ -13,14 +13,14 @@ export default function Impressum() {
       />
       <Navbar />
       
-      <section className="pt-10 pb-12 bg-stone-50">
+      <section className="pt-10 pb-12 bg-secondary">
         <div className="container mx-auto px-4">
-          <div className="max-w-3xl">
+          <div className="max-w-3xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Rechtliches</span>
-            <h1 className="text-4xl md:text-5xl font-heading font-bold text-secondary mt-4 mb-6">
+            <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mt-4 mb-6">
               Impressum
             </h1>
-            <p className="text-muted-foreground">
+            <p className="text-gray-300">
               Angaben gemäß § 5 TMG
             </p>
           </div>

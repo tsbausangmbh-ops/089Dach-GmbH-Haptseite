@@ -30,34 +30,34 @@ export default function UeberUns() {
             alt="089Dach Team"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-white via-white/95 to-white/70"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-secondary/95 via-secondary/85 to-secondary/70"></div>
         </div>
         
         <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-2xl">
+          <div className="max-w-2xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Wer wir sind</span>
-            <h1 className="text-4xl md:text-6xl font-heading font-bold text-secondary mt-4 mb-6">
+            <h1 className="text-4xl md:text-6xl font-heading font-bold text-white mt-4 mb-6">
               Wir machen das aus Leidenschaft
             </h1>
             
             {/* Emotionale Problem-Agitation */}
-            <div className="bg-white/80 backdrop-blur-sm p-6 rounded-sm shadow-sm border-l-4 border-primary mb-8">
-              <p className="text-lg text-secondary font-medium mb-3">
+            <div className="bg-white/10 backdrop-blur-sm p-6 rounded-sm border-l-4 border-primary mb-8">
+              <p className="text-lg text-white font-medium mb-3">
                 Warum tun wir, was wir tun?
               </p>
-              <p className="text-muted-foreground leading-relaxed mb-4">
+              <p className="text-gray-200 leading-relaxed mb-4">
                 Weil wir es satt hatten. Satt, dass Hausbesitzer Angst vor Handwerkern haben. 
                 Satt, dass Menschen mit überhöhten Rechnungen und schlechter Arbeit allein gelassen werden. 
-                <strong className="text-secondary"> Satt, dass „Dachdecker" für viele ein Schimpfwort geworden ist.</strong>
+                <strong className="text-white"> Satt, dass „Dachdecker" für viele ein Schimpfwort geworden ist.</strong>
               </p>
-              <p className="text-muted-foreground leading-relaxed">
-                Wir wollten beweisen: <strong className="text-secondary">Es geht auch anders.</strong> Mit Ehrlichkeit. 
+              <p className="text-gray-200 leading-relaxed">
+                Wir wollten beweisen: <strong className="text-white">Es geht auch anders.</strong> Mit Ehrlichkeit. 
                 Mit Respekt. Mit Handwerkskunst, auf die man stolz sein kann.
               </p>
             </div>
             
-            <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-              Unser Antrieb? <strong>Ihre Sorgen zu lösen.</strong> Ihr Zuhause zu schützen. 
+            <p className="text-xl text-gray-200 leading-relaxed mb-8">
+              Unser Antrieb? <strong className="text-white">Ihre Sorgen zu lösen.</strong> Ihr Zuhause zu schützen. 
               Ihnen das Gefühl zu geben, dass Sie endlich jemandem vertrauen können.
             </p>
 
@@ -68,7 +68,7 @@ export default function UeberUns() {
                   Lernen Sie uns kennen
                 </a>
               </Button>
-              <Button asChild variant="outline" size="lg" className="border-secondary text-secondary hover:bg-secondary hover:text-white font-bold rounded-sm" data-testid="button-hero-story">
+              <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-secondary font-bold rounded-sm" data-testid="button-hero-story">
                 <a href="#geschichte">Unsere Geschichte lesen</a>
               </Button>
             </div>
