@@ -2,8 +2,11 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Contact from "@/components/Contact";
 import LeadFunnel from "@/components/LeadFunnel";
-import heroImage from "@assets/generated_images/roofer_tools_arranged_cleanly.png";
+import heroImage from "@assets/generated_images/expert_answering_roof_questions.png";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import { Button } from "@/components/ui/button";
+import { Phone, Shield, Users, Award } from "lucide-react";
+import { Link } from "wouter";
 
 export default function FAQ() {
   const faqs = [
@@ -120,52 +123,86 @@ export default function FAQ() {
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "FAQ", url: "/faq" }]} />
       <Navbar />
       
-      <div className="relative w-full h-[35vh] min-h-[300px] flex items-center overflow-hidden">
+      {/* Hero Section */}
+      <section className="pt-24 pb-16 relative overflow-hidden min-h-[70vh] flex items-center">
+        {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img
             src={heroImage}
-            alt="FAQ - Häufige Fragen"
+            alt="Dachexperte beantwortet Fragen"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-secondary/80 mix-blend-multiply" />
-          <div className="absolute right-0 bottom-0 h-full w-1/2 opacity-10 pointer-events-none hidden md:flex items-center justify-center overflow-hidden">
-            <svg 
-              width="100%" 
-              height="100%" 
-              viewBox="0 0 800 800" 
-              preserveAspectRatio="xMidYMid slice"
-              className="text-white"
-            >
-              <text 
-                x="50%" 
-                y="50%" 
-                dominantBaseline="middle" 
-                textAnchor="middle"
-                fill="currentColor"
-                style={{ fontSize: '280px', fontWeight: 900, fontFamily: 'Plus Jakarta Sans, sans-serif', letterSpacing: '-0.02em' }}
-              >
-                089DACH
-              </text>
-            </svg>
+          <div className="absolute inset-0 bg-gradient-to-r from-white via-white/95 to-white/70"></div>
+        </div>
+        
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="max-w-2xl">
+            <span className="text-primary font-bold tracking-wider uppercase text-sm">089Dach FAQ</span>
+            <h1 className="text-4xl md:text-6xl font-heading font-bold text-secondary mt-4 mb-6">
+              Die Antworten, die Sie wirklich brauchen
+            </h1>
+            
+            {/* Problem-Agitation */}
+            <div className="bg-white/80 backdrop-blur-sm p-6 rounded-sm shadow-sm border-l-4 border-primary mb-8">
+              <p className="text-lg text-secondary font-medium mb-3">
+                Kennen Sie das Gefühl?
+              </p>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Sie haben Fragen zum Dach – aber im Internet finden Sie nur Werbeversprechen oder 
+                Fachchinesisch. <strong className="text-secondary">Wer erklärt Ihnen die Dinge so, 
+                dass Sie sie wirklich verstehen?</strong>
+              </p>
+            </div>
+            
+            <p className="text-xl text-muted-foreground leading-relaxed mb-8">
+              Hier beantworten wir die 20 häufigsten Fragen unserer Kunden – <strong>ehrlich, 
+              verständlich und ohne Verkaufsgespräch.</strong> Ihre Frage nicht dabei? Rufen Sie uns an.
+            </p>
+
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-sm" data-testid="button-hero-call">
+                <a href="tel:08912621964">
+                  <Phone className="mr-2 h-5 w-5" />
+                  Frage? Rufen Sie an
+                </a>
+              </Button>
+              <Button asChild variant="outline" size="lg" className="border-secondary text-secondary hover:bg-secondary hover:text-white font-bold rounded-sm" data-testid="button-hero-faq">
+                <a href="#fragen">Alle 20 Fragen ansehen</a>
+              </Button>
+            </div>
           </div>
         </div>
-        <div className="container mx-auto px-4 relative z-10 text-center">
-          <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mb-4">
-            Häufige Fragen & Antworten
-          </h1>
-          <p className="text-xl text-gray-200 max-w-2xl mx-auto">
-            Wir lassen keine Fragen offen. Hier finden Sie Antworten auf die wichtigsten Themen rund um Ihr Dachprojekt.
-          </p>
-        </div>
-      </div>
-
-      <section className="py-16 bg-white">
+      </section>
+      
+      {/* Trust Badges */}
+      <section className="py-8 border-b border-border bg-white">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <span className="text-primary font-bold tracking-wider uppercase text-sm">Wissenswertes</span>
-            <h2 className="text-3xl md:text-4xl font-heading font-bold text-secondary mt-2">
-              20 Antworten auf Ihre Fragen
+          <div className="flex flex-wrap justify-center gap-8 text-sm text-muted-foreground">
+            <div className="flex items-center gap-2">
+              <Users className="h-5 w-5 text-primary" />
+              <span><strong className="text-secondary">1.500+</strong> Kunden beraten</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <Award className="h-5 w-5 text-primary" />
+              <span><strong className="text-secondary">Meisterbetrieb</strong> seit 1998</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <Shield className="h-5 w-5 text-primary" />
+              <span><strong className="text-secondary">Kostenlose</strong> Erstberatung</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="fragen" className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-2xl mb-12">
+            <h2 className="text-3xl md:text-4xl font-heading font-bold text-secondary mb-4">
+              20 Antworten auf Ihre wichtigsten Fragen
             </h2>
+            <p className="text-muted-foreground text-lg">
+              Diese Fragen hören wir täglich. Die Antworten kommen direkt aus 25 Jahren Erfahrung auf Münchner Dächern.
+            </p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">

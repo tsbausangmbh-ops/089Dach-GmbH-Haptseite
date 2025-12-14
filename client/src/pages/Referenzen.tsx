@@ -2,8 +2,10 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Contact from "@/components/Contact";
 import LeadFunnel from "@/components/LeadFunnel";
-import { ArrowUpRight, Clock, Euro, CheckCircle2 } from "lucide-react";
+import { ArrowUpRight, Clock, Euro, CheckCircle2, Phone, Shield, Users, Award } from "lucide-react";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import { Button } from "@/components/ui/button";
+import { Link } from "wouter";
 
 import img1 from "@assets/generated_images/realistic_anthracite_roof_tiles_with_slight_weathering.png";
 import img3 from "@assets/generated_images/flat_roof_bitumen_detail_with_texture.png";
@@ -11,7 +13,7 @@ import img4 from "@assets/generated_images/roof_window_installation_with_realist
 import img5 from "@assets/generated_images/historic_biberschwanz_roof_with_patina.png";
 import img6 from "@assets/generated_images/flat_green_roof_with_natural_variations.png";
 import img7 from "@assets/generated_images/slate_roof_with_copper_details_and_patina.png";
-import heroImage from "@assets/generated_images/historic_building_roof_renovation.png";
+import heroImage from "@assets/generated_images/completed_roof_showcase_reference.png";
 
 import before1 from "@assets/generated_images/damaged_old_roof_before_renovation.png";
 import before2 from "@assets/generated_images/historic_roof_needing_restoration.png";
@@ -102,59 +104,80 @@ export default function Referenzen() {
       <Navbar />
       
       {/* Hero Section */}
-      <div className="relative w-full h-[35vh] min-h-[300px] flex items-center overflow-hidden">
+      <section className="pt-24 pb-16 relative overflow-hidden min-h-[70vh] flex items-center">
+        {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img
             src={heroImage}
-            alt="Unsere Referenzen"
+            alt="Fertiggestelltes Dachprojekt"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-secondary/80 mix-blend-multiply" />
-
-        {/* Hero Logo Overlay */}
-        <div className="absolute right-0 bottom-0 h-full w-1/2 opacity-10 pointer-events-none hidden md:flex items-center justify-center overflow-hidden">
-             <svg 
-            width="100%" 
-            height="100%" 
-            viewBox="0 0 800 800" 
-            xmlns="http://www.w3.org/2000/svg"
-            className="w-full h-full max-w-none transform rotate-12 scale-150"
-          >
-            <g fill="currentColor" className="text-white">
-              <rect x="100" y="200" width="200" height="200" rx="20" fill="currentColor" />
-              <text x="200" y="340" fontSize="120" fontWeight="bold" fontFamily="sans-serif" textAnchor="middle" fill="black">089</text>
-              <text x="340" y="340" fontSize="120" fontWeight="bold" fontFamily="sans-serif" fill="currentColor">DACH</text>
-              <text x="345" y="390" fontSize="30" fontWeight="medium" fontFamily="sans-serif" letterSpacing="5" fill="currentColor">GMBH MÜNCHEN</text>
-            </g>
-          </svg>
+          <div className="absolute inset-0 bg-gradient-to-r from-white via-white/95 to-white/70"></div>
         </div>
-
-        </div>
-        <div className="container mx-auto px-4 relative z-10 text-center">
-          <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mb-4">
-            Unsere Referenzen
-          </h1>
-          <p className="text-xl text-gray-200 max-w-2xl mx-auto">
-            Bilder sagen mehr als Worte. Überzeugen Sie sich von unserer Handwerksqualität anhand ausgewählter Projekte aus München und Umgebung.
-          </p>
-        </div>
-      </div>
-
-      {/* Intro */}
-      <section className="py-12">
-        <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center">
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              Jedes Projekt erzählt eine Geschichte. Von Problemen, die gelöst wurden. Von Kunden, 
-              die wieder ruhig schlafen können. Hier zeigen wir Ihnen nicht nur Bilder – sondern 
-              die <strong className="text-secondary">Transformationen</strong>, die dahinterstehen.
+        
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="max-w-2xl">
+            <span className="text-primary font-bold tracking-wider uppercase text-sm">089Dach Referenzen</span>
+            <h1 className="text-4xl md:text-6xl font-heading font-bold text-secondary mt-4 mb-6">
+              So sieht zufrieden aus
+            </h1>
+            
+            {/* Problem-Agitation */}
+            <div className="bg-white/80 backdrop-blur-sm p-6 rounded-sm shadow-sm border-l-4 border-primary mb-8">
+              <p className="text-lg text-secondary font-medium mb-3">
+                Kennen Sie die Angst?
+              </p>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                „Kann ich dem Dachdecker vertrauen? Wird das Ergebnis wirklich gut? Oder stehe ich 
+                am Ende mit einem halbfertigen Dach und leerer Brieftasche da?"
+              </p>
+              <p className="text-secondary font-medium">
+                <strong>Diese Sorge verstehen wir. Deshalb zeigen wir Ihnen echte Projekte – mit allem, was dazugehört.</strong>
+              </p>
+            </div>
+            
+            <p className="text-xl text-muted-foreground leading-relaxed mb-8">
+              Vorher. Nachher. Das Problem. Die Lösung. <strong>Und was die Kunden selbst sagen.</strong> 
+              Urteilen Sie selbst, ob wir halten, was wir versprechen.
             </p>
+
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-sm" data-testid="button-hero-call">
+                <a href="tel:08912621964">
+                  <Phone className="mr-2 h-5 w-5" />
+                  Ihr Projekt besprechen
+                </a>
+              </Button>
+              <Button asChild variant="outline" size="lg" className="border-secondary text-secondary hover:bg-secondary hover:text-white font-bold rounded-sm" data-testid="button-hero-projects">
+                <a href="#projekte">Alle Projekte ansehen</a>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      {/* Trust Badges */}
+      <section className="py-8 border-b border-border bg-white">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-wrap justify-center gap-8 text-sm text-muted-foreground">
+            <div className="flex items-center gap-2">
+              <CheckCircle2 className="h-5 w-5 text-primary" />
+              <span><strong className="text-secondary">500+</strong> Projekte abgeschlossen</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <Award className="h-5 w-5 text-primary" />
+              <span><strong className="text-secondary">Meisterbetrieb</strong> seit 1998</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <Shield className="h-5 w-5 text-primary" />
+              <span><strong className="text-secondary">10 Jahre</strong> Garantie</span>
+            </div>
           </div>
         </div>
       </section>
 
       {/* Case Studies Grid */}
-      <section className="py-12 bg-gray-50">
+      <section id="projekte" className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {projects.map((project, index) => (
