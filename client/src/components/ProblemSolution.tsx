@@ -73,12 +73,12 @@ export default function ProblemSolution({ onOpenFunnel }: ProblemSolutionProps) 
                   </p>
                 </div>
 
-                <div className="p-8 bg-red-50/50 flex flex-col justify-center lg:col-span-3">
+                <div className="p-8 bg-green-50/50 flex flex-col justify-center lg:col-span-3">
                   <div className="flex items-center gap-3 mb-4">
-                    <div className="p-2 bg-red-100 text-red-700 rounded-sm">
+                    <div className="p-2 bg-green-100 text-green-700 rounded-sm">
                       <CheckCircle2 className="h-6 w-6" />
                     </div>
-                    <span className="text-xs font-bold uppercase tracking-wider text-red-700">Lösung</span>
+                    <span className="text-xs font-bold uppercase tracking-wider text-green-700">Lösung</span>
                   </div>
                   <h4 className="text-2xl font-heading font-bold text-secondary mb-3">
                     {item.solution}
@@ -86,7 +86,7 @@ export default function ProblemSolution({ onOpenFunnel }: ProblemSolutionProps) 
                   <p className="text-muted-foreground leading-relaxed mb-4">
                     {item.result}
                   </p>
-                  <div className="flex items-start gap-2 bg-white border border-red-200 rounded-sm p-3 mb-4">
+                  <div className="flex items-start gap-2 bg-white border border-green-200 rounded-sm p-3 mb-4">
                     <Users className="h-4 w-4 text-primary shrink-0 mt-0.5" />
                     <p className="text-sm text-muted-foreground">
                       <span className="font-medium text-secondary">Beispiel:</span> {item.example}
