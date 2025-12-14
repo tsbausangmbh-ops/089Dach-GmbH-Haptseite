@@ -231,41 +231,22 @@ export default function KostenloseBeratung() {
                 </select>
               </div>
 
-              <div className="grid md:grid-cols-2 gap-4">
-                <div className="space-y-2">
-                  <Label htmlFor="objectType">Art des Gebäudes</Label>
-                  <select
-                    id="objectType"
-                    className="w-full h-12 px-3 rounded-md border border-input bg-background text-sm"
-                    value={formData.objectType}
-                    onChange={(e) => setFormData({ ...formData, objectType: e.target.value })}
-                    data-testid="select-beratung-objecttype"
-                  >
-                    <option value="">Bitte wählen...</option>
-                    <option value="Einfamilienhaus">Einfamilienhaus</option>
-                    <option value="Mehrfamilienhaus">Mehrfamilienhaus</option>
-                    <option value="Reihenhaus/Doppelhaushälfte">Reihenhaus / Doppelhaushälfte</option>
-                    <option value="Gewerbe">Gewerbegebäude</option>
-                    <option value="Sonstiges">Sonstiges</option>
-                  </select>
-                </div>
-
-                <div className="space-y-2">
-                  <Label htmlFor="urgency">Wie dringend ist es?</Label>
-                  <select
-                    id="urgency"
-                    className="w-full h-12 px-3 rounded-md border border-input bg-background text-sm"
-                    value={formData.urgency}
-                    onChange={(e) => setFormData({ ...formData, urgency: e.target.value })}
-                    data-testid="select-beratung-urgency"
-                  >
-                    <option value="">Bitte wählen...</option>
-                    <option value="Sofort/Notfall">Sofort / Notfall</option>
-                    <option value="In den nächsten Tagen">In den nächsten Tagen</option>
-                    <option value="In den nächsten Wochen">In den nächsten Wochen</option>
-                    <option value="Kein Zeitdruck">Kein Zeitdruck / nur informieren</option>
-                  </select>
-                </div>
+              <div className="space-y-2">
+                <Label htmlFor="objectType">Art des Gebäudes</Label>
+                <select
+                  id="objectType"
+                  className="w-full h-12 px-3 rounded-md border border-input bg-background text-sm"
+                  value={formData.objectType}
+                  onChange={(e) => setFormData({ ...formData, objectType: e.target.value })}
+                  data-testid="select-beratung-objecttype"
+                >
+                  <option value="">Bitte wählen...</option>
+                  <option value="Einfamilienhaus">Einfamilienhaus</option>
+                  <option value="Mehrfamilienhaus">Mehrfamilienhaus</option>
+                  <option value="Reihenhaus/Doppelhaushälfte">Reihenhaus / Doppelhaushälfte</option>
+                  <option value="Gewerbe">Gewerbegebäude</option>
+                  <option value="Sonstiges">Sonstiges</option>
+                </select>
               </div>
 
               <div className="space-y-4">
