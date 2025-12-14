@@ -112,3 +112,10 @@
     @apply font-heading tracking-tight;
   }
 }
+
+/* Mobile: Alle Überschriften zentrieren */
+@media (max-width: 767px) {
+  h1, h2, h3, h4 {
+    text-align: center;
+  }
+}
