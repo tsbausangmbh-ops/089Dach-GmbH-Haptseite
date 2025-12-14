@@ -44,7 +44,7 @@ export default function ProblemSolution({ onOpenFunnel }: ProblemSolutionProps) 
     <section className="py-4 md:py-6 bg-stone-100">
       <div className="container mx-auto px-6 lg:px-12">
         
-        <div className="text-center max-w-2xl mx-auto mb-8">
+        <div className="text-center max-w-2xl mx-auto mb-6 md:mb-8">
           <span className="text-primary font-bold tracking-wider uppercase text-sm">Das kennen Sie?</span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-secondary mt-2 mb-4">
             Typische Probleme – und wie wir sie lösen
