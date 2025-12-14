@@ -14,7 +14,7 @@ export default function Datenschutz() {
       <Navbar />
       
       <div className="bg-secondary pt-10 pb-12">
-        <div className="container mx-auto px-4 max-w-4xl">
+        <div className="container mx-auto px-6 lg:px-12 max-w-4xl">
           <div className="flex items-center gap-3 mb-4">
             <Shield className="h-8 w-8 text-primary" />
             <span className="text-primary font-bold tracking-wider uppercase text-sm">DSGVO konform</span>
@@ -26,7 +26,7 @@ export default function Datenschutz() {
         </div>
       </div>
 
-      <div className="container mx-auto px-4 pt-8 pb-12 max-w-4xl">
+      <div className="container mx-auto px-6 lg:px-12 pt-8 pb-12 max-w-4xl">
         <div className="prose prose-lg text-muted-foreground">
           
           {/* Inhaltsübersicht */}

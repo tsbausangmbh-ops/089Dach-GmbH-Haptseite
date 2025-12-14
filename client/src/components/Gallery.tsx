@@ -25,7 +25,7 @@ export default function Gallery() {
 
   return (
     <section id="gallery" className="py-8 bg-secondary text-white">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-6 lg:px-12">
         <div className="flex flex-col md:flex-row justify-between items-end mb-8 gap-6">
           <div className="max-w-2xl">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Unsere Referenzen</span>

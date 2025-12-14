@@ -258,7 +258,7 @@ export default function Referenzen() {
           <div className="absolute inset-0 bg-gradient-to-r from-secondary/95 via-secondary/85 to-secondary/70"></div>
         </div>
         
-        <div className="container mx-auto px-4 relative z-10">
+        <div className="container mx-auto px-6 lg:px-12 relative z-10">
           <div className="max-w-2xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">089Dach Referenzen</span>
             <h1 className="text-4xl md:text-6xl font-heading font-bold text-white mt-4 mb-6">
@@ -301,7 +301,7 @@ export default function Referenzen() {
       
       {/* Trust Badges */}
       <section className="py-8 border-b border-border bg-white">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="flex flex-wrap justify-center gap-8 text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
               <CheckCircle2 className="h-5 w-5 text-primary" />
@@ -321,7 +321,7 @@ export default function Referenzen() {
 
       {/* Case Studies Grid */}
       <section id="projekte" className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <header className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-secondary mb-4">
               12 echte Dachprojekte aus München und Umgebung
@@ -403,7 +403,7 @@ export default function Referenzen() {
 
       {/* SEO FAQ Section for Featured Snippets */}
       <section className="py-16 bg-white" itemScope itemType="https://schema.org/FAQPage">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
             Häufige Fragen zu Dachsanierungen in München
           </h2>

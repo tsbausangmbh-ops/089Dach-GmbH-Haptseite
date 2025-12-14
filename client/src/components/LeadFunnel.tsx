@@ -102,7 +102,7 @@ export default function LeadFunnel({ externalOpen, onExternalOpenChange }: LeadF
         <div className="absolute -bottom-24 -left-24 w-96 h-96 rounded-full bg-white blur-3xl"></div>
       </div>
 
-      <div className="container mx-auto px-4 relative z-10">
+      <div className="container mx-auto px-6 lg:px-12 relative z-10">
         <div className="text-center max-w-4xl mx-auto mb-16">
           {/* NLP: Problem-Agitation */}
           <h2 className="text-3xl md:text-5xl font-heading font-bold mb-6 leading-tight">

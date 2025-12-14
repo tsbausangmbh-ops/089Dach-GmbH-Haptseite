@@ -103,7 +103,7 @@ export default function Reparaturservice() {
           <div className="absolute inset-0 bg-gradient-to-r from-secondary/90 via-secondary/70 to-secondary/50"></div>
         </div>
 
-        <div className="container mx-auto px-4 relative z-10">
+        <div className="container mx-auto px-6 lg:px-12 relative z-10">
           <div className="max-w-2xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Schnelle Dachreparatur München</span>
             <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mt-4 mb-6">
@@ -123,7 +123,7 @@ export default function Reparaturservice() {
 
       {/* Trust Badges */}
       <div className="bg-stone-100 py-2 border-b border-stone-200">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="flex flex-wrap justify-center gap-4 text-xs">
             <span className="flex items-center gap-1.5">
               <Award className="h-4 w-4 text-primary" />
@@ -143,7 +143,7 @@ export default function Reparaturservice() {
 
       {/* Vertrauenstexte */}
       <section className="py-10 bg-secondary">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Erster Vertrauenstext - Empathie & Verständnis */}
             <div className="bg-white/10 backdrop-blur-sm p-6 rounded-sm border-l-4 border-primary">
@@ -176,7 +176,7 @@ export default function Reparaturservice() {
 
       {/* Kundengeschichte - Notfall */}
       <section className="py-5 bg-gray-50">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mx-auto">
             <div className="bg-white p-8 rounded-sm shadow-sm border-l-4 border-primary" data-testid="testimonial-keller">
               <Quote className="h-10 w-10 text-primary/30 mb-4" />
@@ -205,7 +205,7 @@ export default function Reparaturservice() {
 
       {/* Anfrage-Formular */}
       <section id="anfrage-form" className="py-6 bg-white">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-heading font-bold text-secondary mb-4">
@@ -308,7 +308,7 @@ export default function Reparaturservice() {
 
       {/* Notfälle, die wir lösen */}
       <section className="py-6 bg-gray-50">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-2xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary mb-4">
               Diese Notfälle lösen wir für Sie
@@ -340,7 +340,7 @@ export default function Reparaturservice() {
 
       {/* Warum wir */}
       <section className="py-6 bg-secondary text-white">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-2xl mb-12">
             <h2 className="text-3xl font-heading font-bold mb-4">
               Warum Sie bei uns richtig sind
@@ -368,7 +368,7 @@ export default function Reparaturservice() {
 
       {/* Kleine Reparaturen */}
       <section className="py-6">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-heading font-bold text-secondary mb-4">
               Kein Notfall, aber auch kein gutes Gefühl?
@@ -417,7 +417,7 @@ export default function Reparaturservice() {
 
       {/* CTA */}
       <section className="py-5 bg-primary text-white">
-        <div className="container mx-auto px-4 text-center">
+        <div className="container mx-auto px-6 lg:px-12 text-center">
           <h2 className="text-3xl font-heading font-bold mb-4">
             Schnelle Hilfe – wir rufen Sie zurück
           </h2>

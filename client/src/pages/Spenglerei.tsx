@@ -39,7 +39,7 @@ export default function Spenglerei() {
           <div className="absolute inset-0 bg-gradient-to-r from-secondary/90 via-secondary/70 to-secondary/50"></div>
         </div>
 
-        <div className="container mx-auto px-4 relative z-10">
+        <div className="container mx-auto px-6 lg:px-12 relative z-10">
           <div className="max-w-2xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Spenglerarbeiten München</span>
             <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mt-4 mb-6">
@@ -54,7 +54,7 @@ export default function Spenglerei() {
 
       {/* Trust Badges */}
       <div className="bg-stone-100 py-2 border-b border-stone-200">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="flex flex-wrap justify-center gap-4 text-xs">
             <span className="flex items-center gap-1.5">
               <Award className="h-4 w-4 text-primary" />
@@ -74,7 +74,7 @@ export default function Spenglerei() {
 
       {/* Craftmanship Story */}
       <section className="py-4 bg-gray-50">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mx-auto">
             <div className="bg-white rounded-sm p-8 md:p-12 shadow-sm border border-border">
               <div className="flex items-start gap-4">
@@ -102,7 +102,7 @@ export default function Spenglerei() {
 
       {/* Main Content */}
       <section className="py-4">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 items-start">
             
             <div>
@@ -197,7 +197,7 @@ export default function Spenglerei() {
 
       {/* Customer Story */}
       <section className="py-4 bg-secondary/5">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mx-auto">
             <div className="flex items-start gap-4">
               <Quote className="h-12 w-12 text-primary flex-shrink-0" />

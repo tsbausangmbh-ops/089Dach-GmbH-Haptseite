@@ -54,7 +54,7 @@ export default function Gaubenbau() {
           <div className="absolute inset-0 bg-gradient-to-r from-secondary/90 via-secondary/70 to-secondary/50"></div>
         </div>
 
-        <div className="container mx-auto px-4 relative z-10">
+        <div className="container mx-auto px-6 lg:px-12 relative z-10">
           <div className="max-w-2xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Gaubenbau & Sanierung</span>
             <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mt-4 mb-6">
@@ -72,7 +72,7 @@ export default function Gaubenbau() {
 
       {/* Trust Badges */}
       <div className="bg-stone-100 py-2 border-b border-stone-200">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="flex flex-wrap justify-center gap-4 text-xs">
             <span className="flex items-center gap-1.5">
               <Award className="h-4 w-4 text-primary" />
@@ -92,7 +92,7 @@ export default function Gaubenbau() {
 
       {/* Kundengeschichte */}
       <section className="py-5 bg-gray-50">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mx-auto">
             <div className="bg-white p-8 rounded-sm shadow-sm border-l-4 border-primary" data-testid="testimonial-schmidt">
               <Quote className="h-10 w-10 text-primary/30 mb-4" />
@@ -117,7 +117,7 @@ export default function Gaubenbau() {
 
       {/* Vorteile */}
       <section className="py-6">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-2xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary mb-4">
               Warum eine Gaube?
@@ -145,7 +145,7 @@ export default function Gaubenbau() {
 
       {/* Gaubenarten */}
       <section className="py-6 bg-gray-50">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-2xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary mb-4">
               Die richtige Gaube für Ihr Haus
@@ -175,7 +175,7 @@ export default function Gaubenbau() {
 
       {/* Gaubensanierung */}
       <section className="py-6">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-heading font-bold text-secondary mb-4">
               Gaubensanierung
@@ -210,7 +210,7 @@ export default function Gaubenbau() {
 
       {/* Ablauf */}
       <section className="py-6 bg-gray-50">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-2xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary mb-4">
               So entsteht Ihre Gaube
@@ -238,7 +238,7 @@ export default function Gaubenbau() {
 
       {/* CTA */}
       <section className="py-5 bg-secondary text-white">
-        <div className="container mx-auto px-4 text-center">
+        <div className="container mx-auto px-6 lg:px-12 text-center">
           <h2 className="text-2xl font-heading font-bold mb-4">
             Mehr Wohnraum unterm Dach?
           </h2>

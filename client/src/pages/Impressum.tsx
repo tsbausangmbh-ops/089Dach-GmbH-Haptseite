@@ -14,7 +14,7 @@ export default function Impressum() {
       <Navbar />
       
       <section className="pt-10 pb-12 bg-secondary">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-3xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Rechtliches</span>
             <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mt-4 mb-6">
@@ -28,7 +28,7 @@ export default function Impressum() {
       </section>
 
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-3xl space-y-12">
             
             {/* Unternehmensdaten */}

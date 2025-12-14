@@ -56,7 +56,7 @@ export default function Dachsanierung() {
           <div className="absolute inset-0 bg-gradient-to-r from-secondary/90 via-secondary/70 to-secondary/50"></div>
         </div>
 
-        <div className="container mx-auto px-4 relative z-10">
+        <div className="container mx-auto px-6 lg:px-12 relative z-10">
           <div className="max-w-2xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Dachsanierung München</span>
             <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mt-4 mb-6">
@@ -74,7 +74,7 @@ export default function Dachsanierung() {
 
       {/* Trust Badges */}
       <div className="bg-stone-100 py-2 border-b border-stone-200">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="flex flex-wrap justify-center gap-4 text-xs">
             <span className="flex items-center gap-1.5">
               <Award className="h-4 w-4 text-primary" />
@@ -94,7 +94,7 @@ export default function Dachsanierung() {
 
       {/* Kundengeschichte */}
       <section className="py-5 bg-secondary text-white">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mx-auto" data-testid="testimonial-kramer">
             <Quote className="h-12 w-12 text-primary mb-6" />
             <blockquote className="text-2xl font-heading italic mb-6 leading-relaxed">
@@ -117,7 +117,7 @@ export default function Dachsanierung() {
 
       {/* Warnsignale */}
       <section id="warnsignale" className="py-6">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-2xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary mb-4">
               6 Warnsignale, die Sie nicht ignorieren sollten
@@ -161,7 +161,7 @@ export default function Dachsanierung() {
 
       {/* Vorteile einer Sanierung */}
       <section className="py-6 bg-gray-50">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-2xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary mb-4">
               Was Sie von einer Sanierung haben
@@ -189,7 +189,7 @@ export default function Dachsanierung() {
 
       {/* Ablauf */}
       <section className="py-6">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-2xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary mb-4">
               So einfach geht's – in 4 Schritten zum neuen Dach
@@ -220,7 +220,7 @@ export default function Dachsanierung() {
 
       {/* Zweite Kundengeschichte */}
       <section className="py-5 bg-gray-50">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-4 items-center" data-testid="case-study-steinbach">
             <div>
               <h3 className="text-2xl font-heading font-bold text-secondary mb-4">

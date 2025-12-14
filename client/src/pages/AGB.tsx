@@ -13,7 +13,7 @@ export default function AGB() {
       />
       <Navbar />
       
-      <div className="container mx-auto px-4 pt-10 pb-12 max-w-4xl">
+      <div className="container mx-auto px-6 lg:px-12 pt-10 pb-12 max-w-4xl">
         <div className="flex items-center gap-3 mb-4">
           <Scale className="h-8 w-8 text-primary" />
           <span className="text-primary font-bold tracking-wider uppercase text-sm">Rechtliches</span>

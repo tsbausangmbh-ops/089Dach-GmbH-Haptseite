@@ -102,7 +102,7 @@ export default function Ratgeber() {
           <div className="absolute inset-0 bg-gradient-to-r from-secondary/95 via-secondary/85 to-secondary/70"></div>
         </div>
         
-        <div className="container mx-auto px-4 relative z-10">
+        <div className="container mx-auto px-6 lg:px-12 relative z-10">
           <div className="max-w-2xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">089Dach Expertenwissen</span>
             <h1 className="text-4xl md:text-6xl font-heading font-bold text-white mt-4 mb-6">
@@ -147,7 +147,7 @@ export default function Ratgeber() {
       
       {/* Trust Badges */}
       <section className="py-8 border-b border-border">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="flex flex-wrap justify-center gap-8 text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
               <Users className="h-5 w-5 text-primary" />
@@ -167,7 +167,7 @@ export default function Ratgeber() {
 
       {/* Featured Article */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="bg-secondary text-white rounded-sm overflow-hidden shadow-xl grid md:grid-cols-2">
             <div className="p-8 md:p-12 flex flex-col justify-center">
               <div className="flex items-center gap-2 text-primary font-medium mb-4">
@@ -205,7 +205,7 @@ export default function Ratgeber() {
 
       {/* Expert Quote */}
       <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-3xl mx-auto text-center">
             <Quote className="h-12 w-12 text-primary/30 mx-auto mb-6" />
             <blockquote className="text-2xl font-heading text-secondary italic mb-6 leading-relaxed">
@@ -228,7 +228,7 @@ export default function Ratgeber() {
 
       {/* Grid of Guides */}
       <section id="artikel" className="py-20">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-2xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary mb-4">
               Welches Problem beschäftigt Sie gerade?
@@ -301,7 +301,7 @@ export default function Ratgeber() {
 
       {/* CTA Section */}
       <section className="py-20 bg-secondary text-white">
-        <div className="container mx-auto px-4 text-center">
+        <div className="container mx-auto px-6 lg:px-12 text-center">
           <h2 className="text-3xl md:text-4xl font-heading font-bold mb-6">
             Ihre Frage ist hier nicht dabei?
           </h2>

@@ -76,7 +76,7 @@ export default function Rueckruf() {
           <div className="absolute inset-0 bg-gradient-to-r from-secondary/90 via-secondary/70 to-secondary/50"></div>
         </div>
 
-        <div className="container mx-auto px-4 relative z-10">
+        <div className="container mx-auto px-6 lg:px-12 relative z-10">
           <div className="max-w-2xl text-white">
             <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mb-6">
               <span className="text-primary">Wir rufen Sie zurück.</span>
@@ -95,7 +95,7 @@ export default function Rueckruf() {
 
       {/* Trust Badges */}
       <div className="bg-stone-100 py-2 border-b border-stone-200">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="flex flex-wrap justify-center gap-4 text-xs">
             <span className="flex items-center gap-1.5">
               <Award className="h-4 w-4 text-primary" />
@@ -115,7 +115,7 @@ export default function Rueckruf() {
 
       {/* Rückruf-Formular */}
       <section className="py-12 bg-white">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mx-auto">
             <div className="mb-8">
               <div className="text-center mb-6">
@@ -205,7 +205,7 @@ export default function Rueckruf() {
 
       {/* Vorteile */}
       <section className="py-12 bg-gray-50">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-2xl font-heading font-bold text-secondary mb-8 text-center">
               Warum einen Rückruf anfordern?

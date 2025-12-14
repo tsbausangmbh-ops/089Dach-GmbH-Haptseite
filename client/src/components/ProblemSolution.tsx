@@ -38,7 +38,7 @@ export default function ProblemSolution({ onOpenFunnel }: ProblemSolutionProps) 
 
   return (
     <section className="py-8 bg-stone-100">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-6 lg:px-12">
         
         <div className="text-center max-w-2xl mx-auto mb-8">
           <span className="text-primary font-bold tracking-wider uppercase text-sm">Das kennen Sie?</span>

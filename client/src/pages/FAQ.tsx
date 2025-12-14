@@ -136,7 +136,7 @@ export default function FAQ() {
           <div className="absolute inset-0 bg-gradient-to-r from-secondary/95 via-secondary/85 to-secondary/70"></div>
         </div>
         
-        <div className="container mx-auto px-4 relative z-10">
+        <div className="container mx-auto px-6 lg:px-12 relative z-10">
           <div className="max-w-2xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">089Dach FAQ</span>
             <h1 className="text-4xl md:text-6xl font-heading font-bold text-white mt-4 mb-6">
@@ -182,7 +182,7 @@ export default function FAQ() {
       
       {/* Trust Badges */}
       <section className="py-8 border-b border-border bg-white">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="flex flex-wrap justify-center gap-8 text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
               <Users className="h-5 w-5 text-primary" />
@@ -202,7 +202,7 @@ export default function FAQ() {
 
       {/* Ihre Vorteile */}
       <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-3xl mx-auto text-center mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary mb-4">
               Warum unsere Kunden uns vertrauen
@@ -247,7 +247,7 @@ export default function FAQ() {
 
       {/* Problemlöser-Sektion */}
       <section className="py-16 bg-secondary text-white">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mx-auto">
             <Quote className="h-12 w-12 text-primary mb-6" />
             <blockquote className="text-2xl font-heading italic mb-6 leading-relaxed">
@@ -269,7 +269,7 @@ export default function FAQ() {
       </section>
 
       <section id="fragen" className="py-16 bg-white">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-2xl mb-12">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-secondary mb-4">
               20 Antworten auf Ihre wichtigsten Fragen

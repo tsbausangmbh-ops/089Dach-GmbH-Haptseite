@@ -36,7 +36,7 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
           </div>
         </div>
 
-        <div className="container mx-auto px-4 relative z-10">
+        <div className="container mx-auto px-6 lg:px-12 relative z-10">
           <div className="max-w-3xl text-white animate-in slide-in-from-left duration-700 fade-in">
             <div className="flex flex-wrap items-center gap-3 mb-6">
               <span className="bg-primary px-4 py-1.5 text-sm font-bold uppercase tracking-wider rounded-sm">
@@ -101,7 +101,7 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
       </div>
 
       <div className="bg-secondary border-t border-white/10">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-0 divide-y md:divide-y-0 md:divide-x divide-white/10">
             <div className="py-6 md:py-8 px-4 text-center text-white">
               <div className="flex items-center justify-center gap-1 mb-2">
@@ -135,7 +135,7 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
       </div>
 
       <div className="bg-stone-100 py-6 border-b border-stone-200">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 text-center md:text-left">
             <div className="flex -space-x-3">
               <div className="w-10 h-10 rounded-full bg-secondary text-white flex items-center justify-center text-sm font-bold border-2 border-white">MK</div>

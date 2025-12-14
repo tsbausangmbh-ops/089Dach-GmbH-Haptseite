@@ -34,7 +34,7 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 w-full bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/80 border-b border-border/40">
       {/* Top Bar - Contact Info */}
       <div className="hidden md:block bg-secondary text-white py-2">
-        <div className="container mx-auto px-4 flex justify-between items-center text-sm font-medium">
+        <div className="container mx-auto px-6 lg:px-12 flex justify-between items-center text-sm font-medium">
           <div className="flex gap-6">
             <a href="/rueckruf" className="flex items-center gap-2 hover:text-primary transition-colors">
               <Phone className="h-4 w-4 text-primary" />
@@ -58,7 +58,7 @@ export default function Navbar() {
       </div>
 
       {/* Main Nav */}
-      <div className="container mx-auto px-4 h-20 flex items-center justify-between">
+      <div className="container mx-auto px-6 lg:px-12 h-20 flex items-center justify-between">
         <Link href="/">
           <div className="flex items-center gap-3 group cursor-pointer">
             <img src="/favicon.png" alt="089Dach Logo" className="h-14 w-auto" />

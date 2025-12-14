@@ -33,7 +33,7 @@ export default function UeberUns() {
           <div className="absolute inset-0 bg-gradient-to-r from-secondary/95 via-secondary/85 to-secondary/70"></div>
         </div>
         
-        <div className="container mx-auto px-4 relative z-10">
+        <div className="container mx-auto px-6 lg:px-12 relative z-10">
           <div className="max-w-2xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Wer wir sind</span>
             <h1 className="text-4xl md:text-6xl font-heading font-bold text-white mt-4 mb-6">
@@ -78,7 +78,7 @@ export default function UeberUns() {
       
       {/* Trust Badges */}
       <section className="py-8 border-b border-border bg-white">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="flex flex-wrap justify-center gap-8 text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
               <Users className="h-5 w-5 text-primary" />
@@ -98,7 +98,7 @@ export default function UeberUns() {
 
       {/* Unsere Mission */}
       <section className="py-16 bg-secondary text-white">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mx-auto text-center">
             <Sparkles className="h-12 w-12 text-primary mx-auto mb-6" />
             <h2 className="text-3xl md:text-4xl font-heading font-bold mb-6">
@@ -118,7 +118,7 @@ export default function UeberUns() {
       </section>
 
       <section id="geschichte" className="py-20 bg-white">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mx-auto text-center mb-16">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Unsere Geschichte</span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-secondary mt-2 mb-6">
@@ -241,7 +241,7 @@ export default function UeberUns() {
       </section>
 
       <section className="py-20 bg-gray-50">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mx-auto text-center mb-12">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Unsere Werte</span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-secondary mt-2 mb-6">
