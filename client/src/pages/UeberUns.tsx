@@ -8,7 +8,7 @@ import portraitMeister from "@assets/generated_images/german_master_roofer_portr
 import heroImage from "@assets/generated_images/roofing_team_partnership_handshake.png";
 import SEO, { BreadcrumbSchema, AboutPageSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
-import { KeywordLink } from "@/components/KeywordLink";
+import { KeywordLink, HighlightedKeyword } from "@/components/KeywordLink";
 
 export default function UeberUns() {
   return (
@@ -278,7 +278,7 @@ export default function UeberUns() {
                 </div>
                 <div>
                   <h3 className="font-heading font-bold text-secondary">Der Sturm um Mitternacht</h3>
-                  <p className="text-sm text-muted-foreground">Notfall-Einsatz, Dezember 2023</p>
+                  <p className="text-sm text-muted-foreground"><HighlightedKeyword keyword="Notfall" />-Einsatz, Dezember 2023</p>
                 </div>
               </div>
               <p className="text-muted-foreground leading-relaxed mb-4">

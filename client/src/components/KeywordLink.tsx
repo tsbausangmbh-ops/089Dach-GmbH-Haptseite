@@ -38,6 +38,58 @@ const keywordMapping: Record<string, string> = {
   "Wasserschaden": "/ratgeber/leckortung",
 };
 
+const highlightKeywords: string[] = [
+  "Notdienst",
+  "Dachdecker",
+  "Spengler",
+  "Reparatur",
+  "Sturm",
+  "Sturmschaden",
+  "Sturmschäden",
+  "Hagel",
+  "Hagelschaden",
+  "Ziegel",
+  "Dachziegel",
+  "Tonziegel",
+  "Schiefer",
+  "Metall",
+  "Metalldach",
+  "Kupfer",
+  "Zink",
+  "Dachrinne",
+  "Dachrinnen",
+  "Fallrohr",
+  "Fallrohre",
+  "Kamin",
+  "Kamineinfassung",
+  "Schornstein",
+  "Abdichtung",
+  "Dachabdichtung",
+  "Bitumen",
+  "Folie",
+  "Notsicherung",
+  "Notfall",
+  "Leck",
+  "undicht",
+  "Undichtigkeit",
+  "Feuchtigkeit",
+  "Schimmel",
+  "Wärme",
+  "Heizkosten",
+  "Energie",
+  "Solar",
+  "Photovoltaik",
+  "Gründach",
+  "Dachbegrünung",
+  "Meisterbetrieb",
+  "Meister",
+  "Handwerk",
+  "Qualität",
+  "Garantie",
+  "Inspektion",
+  "Dachcheck",
+];
+
 interface TextWithKeywordLinksProps {
   children: string;
   currentPath?: string;
@@ -45,18 +97,19 @@ interface TextWithKeywordLinksProps {
 }
 
 export function TextWithKeywordLinks({ children, currentPath, className }: TextWithKeywordLinksProps) {
-  const sortedKeywords = Object.keys(keywordMapping).sort((a, b) => b.length - a.length);
-  const pattern = new RegExp(`(${sortedKeywords.map(k => k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})`, 'gi');
+  const linkKeywords = Object.keys(keywordMapping).sort((a, b) => b.length - a.length);
+  const allKeywords = [...linkKeywords, ...highlightKeywords].sort((a, b) => b.length - a.length);
+  const pattern = new RegExp(`(${allKeywords.map(k => k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})`, 'gi');
   
   const parts = children.split(pattern);
   const usedLinks = new Set<string>();
   
   const result: ReactNode[] = parts.map((part, index) => {
     const lowerPart = part.toLowerCase();
-    const matchedKeyword = sortedKeywords.find(k => k.toLowerCase() === lowerPart);
     
-    if (matchedKeyword) {
-      const href = keywordMapping[matchedKeyword];
+    const matchedLinkKeyword = linkKeywords.find(k => k.toLowerCase() === lowerPart);
+    if (matchedLinkKeyword) {
+      const href = keywordMapping[matchedLinkKeyword];
       if (href && href !== currentPath && !usedLinks.has(href)) {
         usedLinks.add(href);
         return (
@@ -70,6 +123,16 @@ export function TextWithKeywordLinks({ children, currentPath, className }: TextW
         );
       }
     }
+    
+    const matchedHighlight = highlightKeywords.find(k => k.toLowerCase() === lowerPart);
+    if (matchedHighlight) {
+      return (
+        <strong key={index} className="text-secondary font-semibold">
+          {part}
+        </strong>
+      );
+    }
+    
     return part;
   });
   
@@ -97,5 +160,18 @@ export function KeywordLink({ keyword, className }: KeywordLinkProps) {
   );
 }
 
-export { keywordMapping };
+interface HighlightedKeywordProps {
+  keyword: string;
+  className?: string;
+}
+
+export function HighlightedKeyword({ keyword, className }: HighlightedKeywordProps) {
+  return (
+    <strong className={className || "text-secondary font-semibold"}>
+      {keyword}
+    </strong>
+  );
+}
+
+export { keywordMapping, highlightKeywords };
 export default TextWithKeywordLinks;
