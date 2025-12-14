@@ -131,7 +131,7 @@ export default function Navbar() {
             <a href="/ratgeber/daemmung">Dachsanierung</a>
           </Button>
           <Button className="bg-primary hover:bg-primary/90 text-white font-bold" asChild>
-            <a href="/ratgeber/beratung">Kostenlose Beratung</a>
+            <a href="/beratung">24h Online Termine</a>
           </Button>
         </div>
 
@@ -199,7 +199,7 @@ export default function Navbar() {
                 <ChevronRight className="h-4 w-4" />
               </a>
               <Button className="mt-4 bg-primary hover:bg-primary/90 w-full" asChild>
-                <a href="/ratgeber/beratung" onClick={() => setIsOpen(false)}>Kostenlose Beratung</a>
+                <a href="/beratung" onClick={() => setIsOpen(false)}>24h Online Termine</a>
               </Button>
             </nav>
           </SheetContent>
