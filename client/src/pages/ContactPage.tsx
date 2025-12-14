@@ -71,7 +71,7 @@ export default function ContactPage() {
                 </a>
               </Button>
               <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-secondary font-bold rounded-xl" data-testid="button-hero-form">
-                <a href="#contact">Zum Kontaktformular</a>
+                <a href="#contact">24h Beratungstermin</a>
               </Button>
             </div>
           </div>
