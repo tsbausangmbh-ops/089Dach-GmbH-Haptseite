@@ -133,34 +133,34 @@ export default function FAQ() {
             alt="Dachexperte beantwortet Fragen"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-white via-white/95 to-white/70"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-secondary/95 via-secondary/85 to-secondary/70"></div>
         </div>
         
         <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-2xl">
+          <div className="max-w-2xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">089Dach FAQ</span>
-            <h1 className="text-4xl md:text-6xl font-heading font-bold text-secondary mt-4 mb-6">
+            <h1 className="text-4xl md:text-6xl font-heading font-bold text-white mt-4 mb-6">
               Die Antworten, die Sie wirklich brauchen
             </h1>
             
             {/* Problem-Agitation */}
-            <div className="bg-white/80 backdrop-blur-sm p-6 rounded-sm shadow-sm border-l-4 border-primary mb-8">
-              <p className="text-lg text-secondary font-medium mb-3">
+            <div className="bg-white/10 backdrop-blur-sm p-6 rounded-sm border-l-4 border-primary mb-8">
+              <p className="text-lg text-white font-medium mb-3">
                 Kennen Sie das Gefühl?
               </p>
-              <p className="text-muted-foreground leading-relaxed mb-4">
+              <p className="text-gray-200 leading-relaxed mb-4">
                 Sie haben Fragen zum Dach – aber im Internet finden Sie nur Werbeversprechen oder 
                 Fachchinesisch. Jeder Dachdecker erzählt etwas anderes. Und Sie fragen sich: 
-                <strong className="text-secondary"> Wem kann ich hier noch vertrauen?</strong>
+                <strong className="text-white"> Wem kann ich hier noch vertrauen?</strong>
               </p>
-              <p className="text-muted-foreground leading-relaxed">
-                Sie wollen keine Verkaufsgespräche. Sie wollen <strong className="text-secondary">ehrliche Antworten</strong> – 
+              <p className="text-gray-200 leading-relaxed">
+                Sie wollen keine Verkaufsgespräche. Sie wollen <strong className="text-white">ehrliche Antworten</strong> – 
                 damit Sie selbst entscheiden können, was das Richtige für Ihr Zuhause ist.
               </p>
             </div>
             
-            <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-              <strong>Genau dafür sind wir hier.</strong> 20 echte Fragen. 20 ehrliche Antworten. 
+            <p className="text-xl text-gray-200 leading-relaxed mb-8">
+              <strong className="text-white">Genau dafür sind wir hier.</strong> 20 echte Fragen. 20 ehrliche Antworten. 
               Kein Kleingedrucktes. Kein Verkaufsdruck. Nur die Wahrheit – aus 25 Jahren Erfahrung 
               auf Münchner Dächern.
             </p>
@@ -172,7 +172,7 @@ export default function FAQ() {
                   Frage? Rufen Sie an
                 </a>
               </Button>
-              <Button asChild variant="outline" size="lg" className="border-secondary text-secondary hover:bg-secondary hover:text-white font-bold rounded-sm" data-testid="button-hero-faq">
+              <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-secondary font-bold rounded-sm" data-testid="button-hero-faq">
                 <a href="#fragen">Alle 20 Fragen ansehen</a>
               </Button>
             </div>

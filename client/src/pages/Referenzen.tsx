@@ -255,32 +255,32 @@ export default function Referenzen() {
             alt="Fertiggestelltes Dachprojekt"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-white via-white/95 to-white/70"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-secondary/95 via-secondary/85 to-secondary/70"></div>
         </div>
         
         <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-2xl">
+          <div className="max-w-2xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">089Dach Referenzen</span>
-            <h1 className="text-4xl md:text-6xl font-heading font-bold text-secondary mt-4 mb-6">
+            <h1 className="text-4xl md:text-6xl font-heading font-bold text-white mt-4 mb-6">
               So sieht zufrieden aus
             </h1>
             
             {/* Problem-Agitation */}
-            <div className="bg-white/80 backdrop-blur-sm p-6 rounded-sm shadow-sm border-l-4 border-primary mb-8">
-              <p className="text-lg text-secondary font-medium mb-3">
+            <div className="bg-white/10 backdrop-blur-sm p-6 rounded-sm border-l-4 border-primary mb-8">
+              <p className="text-lg text-white font-medium mb-3">
                 Kennen Sie die Angst?
               </p>
-              <p className="text-muted-foreground leading-relaxed mb-4">
+              <p className="text-gray-200 leading-relaxed mb-4">
                 „Kann ich dem Dachdecker vertrauen? Wird das Ergebnis wirklich gut? Oder stehe ich 
                 am Ende mit einem halbfertigen Dach und leerer Brieftasche da?"
               </p>
-              <p className="text-secondary font-medium">
+              <p className="text-white font-medium">
                 <strong>Diese Sorge verstehen wir. Deshalb zeigen wir Ihnen echte Projekte – mit allem, was dazugehört.</strong>
               </p>
             </div>
             
-            <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-              Vorher. Nachher. Das Problem. Die Lösung. <strong>Und was die Kunden selbst sagen.</strong> 
+            <p className="text-xl text-gray-200 leading-relaxed mb-8">
+              Vorher. Nachher. Das Problem. Die Lösung. <strong className="text-white">Und was die Kunden selbst sagen.</strong> 
               Urteilen Sie selbst, ob wir halten, was wir versprechen.
             </p>
 
@@ -291,7 +291,7 @@ export default function Referenzen() {
                   Ihr Projekt besprechen
                 </a>
               </Button>
-              <Button asChild variant="outline" size="lg" className="border-secondary text-secondary hover:bg-secondary hover:text-white font-bold rounded-sm" data-testid="button-hero-projects">
+              <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-secondary font-bold rounded-sm" data-testid="button-hero-projects">
                 <a href="#projekte">Alle Projekte ansehen</a>
               </Button>
             </div>
