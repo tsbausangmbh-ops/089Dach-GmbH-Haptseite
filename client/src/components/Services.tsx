@@ -30,7 +30,7 @@ export default function Services() {
     {
       icon: <ShieldCheck className="h-10 w-10 text-primary" />,
       title: "Wartung",
-      link: "/leistungen/reparaturservice",
+      link: "/leistungen/wartung",
       description: "Vorbeugen statt reparieren. Eine jährliche Inspektion findet kleine Schäden, bevor sie teuer werden."
     },
     {

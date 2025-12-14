@@ -24,6 +24,7 @@ export default function Navbar() {
     { name: "Dachsanierung", href: "/leistungen/dachsanierung" },
     { name: "Dachfenster", href: "/leistungen/dachfenster" },
     { name: "Reparaturservice", href: "/leistungen/reparaturservice" },
+    { name: "Wartung", href: "/leistungen/wartung" },
     { name: "Energieberatung", href: "/leistungen/energieberatung" },
     { name: "Gaubenbau", href: "/leistungen/gaubenbau" },
     { name: "Architektenleistungen", href: "/leistungen/architektenleistungen" },
