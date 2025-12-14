@@ -76,6 +76,22 @@ export default function Footer() {
             <a href="/rueckruf" className="text-primary hover:text-primary/80 font-medium transition-colors" data-testid="link-footer-rueckruf">Rückruf anfordern</a>
           </div>
         </div>
+
+        <div className="border-t border-white/10 mt-6 pt-4 text-center">
+          <p className="text-gray-500 text-sm flex items-center justify-center gap-2">
+            <span className="text-gray-600">Powered by</span>
+            <a 
+              href="https://extrucon.de" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-primary hover:text-primary/80 font-semibold transition-colors"
+              data-testid="link-footer-extrucon"
+            >
+              ExtruCon GmbH
+            </a>
+            <span className="text-gray-600">&copy; 2025</span>
+          </p>
+        </div>
       </div>
     </footer>
   );
