@@ -82,7 +82,7 @@ export default function ChatWidget() {
               <ChevronLeft className="h-5 w-5" />
               <MessageCircle className="h-5 w-5" />
               <span className="text-xs font-bold writing-mode-vertical" style={{ writingMode: "vertical-rl", textOrientation: "mixed" }}>
-                KI-Assistent
+                089Dach KI-Assistent
               </span>
             </>
           )}
