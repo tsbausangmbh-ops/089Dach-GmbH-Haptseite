@@ -182,7 +182,7 @@ export default function Leistungen() {
       </div>
 
       {/* Services List */}
-      <section className="py-12">
+      <section className="py-4">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 gap-16">
             {services.map((service, index) => (
@@ -262,7 +262,7 @@ export default function Leistungen() {
 
       {/* CTA Section - Removed as it's redundant with LeadFunnel, or keep as a secondary one? Removing for cleaner look since LeadFunnel is strong */}
       {/* 
-      <section className="bg-secondary text-white py-16">
+      <section className="bg-secondary text-white py-5">
         ...
       </section>
       */}

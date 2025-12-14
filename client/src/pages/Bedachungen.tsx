@@ -88,7 +88,7 @@ export default function Bedachungen() {
       </div>
 
       {/* Story Section */}
-      <section className="py-12 bg-gray-50">
+      <section className="py-4 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="bg-white rounded-sm p-8 md:p-12 shadow-sm border border-border">
@@ -118,7 +118,7 @@ export default function Bedachungen() {
       </section>
 
       {/* Main Content */}
-      <section className="py-12">
+      <section className="py-4">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
             
@@ -212,7 +212,7 @@ export default function Bedachungen() {
       </section>
 
       {/* Customer Story */}
-      <section className="py-12 bg-secondary/5">
+      <section className="py-4 bg-secondary/5">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="flex items-start gap-4">

@@ -110,7 +110,7 @@ export default function Dachsanierung() {
       </div>
 
       {/* Kundengeschichte */}
-      <section className="py-16 bg-secondary text-white">
+      <section className="py-5 bg-secondary text-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto" data-testid="testimonial-kramer">
             <Quote className="h-12 w-12 text-primary mb-6" />
@@ -133,7 +133,7 @@ export default function Dachsanierung() {
       </section>
 
       {/* Warnsignale */}
-      <section id="warnsignale" className="py-20">
+      <section id="warnsignale" className="py-6">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary mb-4">
@@ -177,7 +177,7 @@ export default function Dachsanierung() {
       </section>
 
       {/* Vorteile einer Sanierung */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-6 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary mb-4">
@@ -205,7 +205,7 @@ export default function Dachsanierung() {
       </section>
 
       {/* Ablauf */}
-      <section className="py-20">
+      <section className="py-6">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary mb-4">
@@ -236,7 +236,7 @@ export default function Dachsanierung() {
       </section>
 
       {/* Zweite Kundengeschichte */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-5 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-12 items-center" data-testid="case-study-steinbach">
             <div>

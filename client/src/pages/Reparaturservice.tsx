@@ -149,7 +149,7 @@ export default function Reparaturservice() {
       </div>
 
       {/* Kundengeschichte - Notfall */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-5 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="bg-white p-8 rounded-sm shadow-sm border-l-4 border-primary" data-testid="testimonial-keller">
@@ -178,7 +178,7 @@ export default function Reparaturservice() {
       </section>
 
       {/* Anfrage-Formular */}
-      <section id="anfrage-form" className="py-20 bg-white">
+      <section id="anfrage-form" className="py-6 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto">
             <div className="text-center mb-12">
@@ -281,7 +281,7 @@ export default function Reparaturservice() {
       </section>
 
       {/* Notfälle, die wir lösen */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-6 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary mb-4">
@@ -313,7 +313,7 @@ export default function Reparaturservice() {
       </section>
 
       {/* Warum wir */}
-      <section className="py-20 bg-secondary text-white">
+      <section className="py-6 bg-secondary text-white">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mb-12">
             <h2 className="text-3xl font-heading font-bold mb-4">
@@ -341,7 +341,7 @@ export default function Reparaturservice() {
       </section>
 
       {/* Kleine Reparaturen */}
-      <section className="py-20">
+      <section className="py-6">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-heading font-bold text-secondary mb-4">
@@ -390,7 +390,7 @@ export default function Reparaturservice() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-primary text-white">
+      <section className="py-5 bg-primary text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-heading font-bold mb-4">
             Schnelle Hilfe – wir rufen Sie zurück
