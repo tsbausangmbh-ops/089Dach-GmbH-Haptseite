@@ -13,6 +13,7 @@ export default function Leistungen() {
       id: "dachsanierung",
       icon: <Home className="h-8 w-8 text-primary" />,
       title: "Dachsanierung & Energetik",
+      link: "/dachsanierung",
       problem: "Ihr Dach ist undicht, schlecht gedämmt oder die Heizkosten steigen Jahr für Jahr?",
       solution: "Wir sanieren Ihr Dach so, dass es nicht nur dicht ist – sondern auch Energie spart.",
       result: "Bis zu 30% weniger Heizkosten und ein Zuhause, das im Winter warm und im Sommer kühl bleibt.",
@@ -29,6 +30,7 @@ export default function Leistungen() {
       id: "steildach",
       icon: <Warehouse className="h-8 w-8 text-primary" />,
       title: "Steildach & Eindeckung",
+      link: "/bedachungen",
       problem: "Die Ziegel sind brüchig, Moos überwuchert das Dach und bei jedem Sturm haben Sie Angst?",
       solution: "Wir decken Ihr Dach komplett neu ein – sturmsicher und mit Garantie auf die Ausführung.",
       result: "Ein Dach, das Generationen hält und Ihrem Haus das Aussehen gibt, das es verdient.",
@@ -44,6 +46,7 @@ export default function Leistungen() {
       id: "flachdach",
       icon: <Warehouse className="h-8 w-8 text-primary" />,
       title: "Flachdach & Abdichtung",
+      link: "/bedachungen",
       problem: "Wasserflecken an der Decke? Der typische Alptraum bei schlecht abgedichteten Flachdächern.",
       solution: "Wir machen Ihr Flachdach 100% dicht – mit hochwertigen Materialien und Liebe zum Detail.",
       result: "Endlich Ruhe. Kein Tropfen mehr, auch nicht nach dem stärksten Regen.",
@@ -59,6 +62,7 @@ export default function Leistungen() {
       id: "spenglerei",
       icon: <Wrench className="h-8 w-8 text-primary" />,
       title: "Spenglerei & Blecharbeiten",
+      link: "/spenglerei",
       problem: "Die Dachrinne ist undicht, der Kamin rostet – und die Fassade zeigt schon erste Schäden?",
       solution: "Wir fertigen alle Bauteile maßgenau in unserer eigenen Werkstatt. Keine Kompromisse.",
       result: "Metall, das Jahrzehnte hält und dabei auch noch gut aussieht.",
@@ -74,6 +78,7 @@ export default function Leistungen() {
       id: "dachfenster",
       icon: <Ruler className="h-8 w-8 text-primary" />,
       title: "Dachfenster & Lichtlösungen",
+      link: "/dachfenster",
       problem: "Das Dachgeschoss ist dunkel, stickig im Sommer und die alten Fenster beschlagen ständig?",
       solution: "Wir tauschen alte Dachfenster oder bauen neue ein – sauber, schnell, ohne Dreck.",
       result: "Mehr Licht, bessere Luft und ein Fenster, das auch im Winter warm hält.",
@@ -89,6 +94,7 @@ export default function Leistungen() {
       id: "wartung",
       icon: <ShieldCheck className="h-8 w-8 text-primary" />,
       title: "Wartung & Reparatur",
+      link: "/reparaturservice",
       problem: "Sie wissen nicht, ob Ihr Dach noch in Ordnung ist? Kleine Schäden werden schnell zu großen Problemen.",
       solution: "Wir prüfen Ihr Dach jährlich und reparieren kleine Schäden, bevor sie teuer werden.",
       result: "Sicherheit und Planbarkeit. Sie wissen immer, wie es um Ihr Dach steht.",
@@ -104,6 +110,7 @@ export default function Leistungen() {
       id: "energieberatung",
       icon: <Home className="h-8 w-8 text-primary" />,
       title: "Energieberatung & Förderanträge",
+      link: "/energieberatung",
       problem: "Sie möchten Ihr Dach energetisch sanieren, wissen aber nicht, welche Förderungen Ihnen zustehen?",
       solution: "Unsere zertifizierten Energieberater aus unserem Partnernetzwerk beraten Sie und stellen die Förderanträge für Sie.",
       result: "Sie erhalten die maximale Förderung und sparen bares Geld bei Ihrer Dachsanierung.",
@@ -119,6 +126,7 @@ export default function Leistungen() {
       id: "gaubenausbau",
       icon: <Warehouse className="h-8 w-8 text-primary" />,
       title: "Gaubenausbau & Sanierung",
+      link: "/gaubenbau",
       problem: "Sie möchten mehr Wohnraum unterm Dach schaffen oder eine alte Gaube modernisieren?",
       solution: "Wir planen und bauen Gauben, die perfekt zu Ihrem Haus passen – von der Schleppgaube bis zur Flachdachgaube.",
       result: "Mehr Platz, mehr Licht und ein aufgewertetes Zuhause mit gesteigertem Wohnwert.",
@@ -134,6 +142,7 @@ export default function Leistungen() {
       id: "bauantraege",
       icon: <Ruler className="h-8 w-8 text-primary" />,
       title: "Bauanträge & Architektenleistungen",
+      link: "/architektenleistungen",
       problem: "Sie benötigen eine Baugenehmigung für Ihr Dachprojekt, aber der Papierkram überfordert Sie?",
       solution: "Unsere Partner-Architekten übernehmen Planung, Zeichnungen und Bauanträge – alles aus einer Hand.",
       result: "Sie bekommen die Genehmigung ohne Stress und können sich auf Ihr Projekt freuen.",
@@ -238,12 +247,12 @@ export default function Leistungen() {
                 className={`flex flex-col ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} gap-3 lg:gap-4 items-start border-b border-gray-100 pb-5 last:border-0`}
               >
                 <div className="flex-1 space-y-6">
-                  <div className="flex items-center gap-4">
+                  <a href={service.link} className="flex items-center gap-4 group">
                     <div className="bg-primary/10 p-4 rounded-sm">
                       {service.icon}
                     </div>
-                    <h2 className="text-3xl font-heading font-bold text-secondary">{service.title}</h2>
-                  </div>
+                    <h2 className="text-3xl font-heading font-bold text-secondary group-hover:text-primary transition-colors">{service.title}</h2>
+                  </a>
                   
                   <div className="space-y-4">
                     <div className="bg-red-50 border-l-4 border-primary p-4 rounded-r-sm">
@@ -295,9 +304,9 @@ export default function Leistungen() {
                     </div>
                     <h3 className="font-heading font-bold text-lg text-secondary">Haben Sie ein ähnliches Problem?</h3>
                     <p className="text-sm text-muted-foreground mt-2 mb-4">Wir finden gemeinsam die beste Lösung für Sie.</p>
-                    <a href="/kontakt" className="w-full">
+                    <a href={service.link} className="w-full">
                       <Button size="sm" className="bg-primary hover:bg-primary/90 text-white rounded-sm w-full" data-testid={`button-termin-${service.id}`}>
-                        Jetzt Termin vereinbaren
+                        Mehr erfahren <ArrowRight className="h-4 w-4 ml-2" />
                       </Button>
                     </a>
                   </div>
