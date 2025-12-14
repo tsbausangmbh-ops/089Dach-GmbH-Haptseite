@@ -72,11 +72,13 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
               <Button 
                 size="lg" 
                 className="bg-primary hover:bg-primary/90 text-white font-bold text-lg px-8 py-7 rounded-xl shadow-xl hover:scale-105 transition-transform"
-                onClick={onOpenFunnel}
+                asChild
                 data-testid="button-hero-funnel"
               >
-                Kostenlos beraten lassen
-                <ArrowRight className="ml-2 h-5 w-5" />
+                <a href="/beratung">
+                  Kostenlos beraten lassen
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </a>
               </Button>
               <Button 
                 size="lg" 
