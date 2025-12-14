@@ -113,10 +113,11 @@ export default function Rueckruf() {
         </div>
       </div>
 
-      {/* Vertrauenstext */}
+      {/* Vertrauenstexte */}
       <section className="py-10 bg-secondary">
         <div className="container mx-auto px-4">
-          <div className="max-w-2xl mx-auto">
+          <div className="max-w-3xl mx-auto space-y-6">
+            {/* Erster Vertrauenstext - Empathie & Verständnis */}
             <div className="bg-white/10 backdrop-blur-sm p-6 rounded-sm border-l-4 border-primary">
               <p className="text-lg text-white font-medium mb-3">
                 Sie machen sich Sorgen um Ihr Dach?
@@ -126,6 +127,19 @@ export default function Rueckruf() {
               </p>
               <p className="text-gray-300 text-sm italic">
                 Schreiben Sie uns einfach – wir melden uns zeitnah und besprechen in Ruhe, wie wir Ihnen helfen können.
+              </p>
+            </div>
+
+            {/* Zweiter Vertrauenstext - Sicherheit & Kompetenz */}
+            <div className="bg-white/10 backdrop-blur-sm p-6 rounded-sm border-l-4 border-primary">
+              <p className="text-lg text-white font-medium mb-3">
+                Stellen Sie sich vor...
+              </p>
+              <p className="text-gray-200 leading-relaxed mb-4">
+                ...wie es sich anfühlt, wenn Sie wissen: Ihr Dach ist in den besten Händen. Keine schlaflosen Nächte mehr bei Sturm. Keine Sorgen mehr vor dem nächsten Regen. Seit über 25 Jahren geben wir unseren Kunden genau dieses Gefühl von Sicherheit zurück. Als Münchner Meisterbetrieb kennen wir jedes Dach, jedes Problem – und vor allem: die beste Lösung für Sie.
+              </p>
+              <p className="text-gray-300 text-sm italic">
+                Vertrauen Sie auf Erfahrung, die sich bewährt hat. Wir sind für Sie da.
               </p>
             </div>
           </div>
