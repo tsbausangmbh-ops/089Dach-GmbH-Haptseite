@@ -9,7 +9,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { AlertTriangle, Clock, Shield, Mail, Wrench, CloudRain, Wind, Check, Quote, MapPin, PhoneCall, ArrowRight, ShieldCheck } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
-import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, ServiceSchema } from "@/components/SEO";
 
 export default function Reparaturservice() {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -81,6 +81,14 @@ export default function Reparaturservice() {
         keywords="dachreparatur münchen, notdienst dach münchen, sturmschaden dach münchen, dachnotdienst münchen, undichtes dach münchen"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Reparaturservice", url: "/reparaturservice" }]} />
+      <ServiceSchema 
+        pageName="Dachreparatur & Notdienst München"
+        services={[
+          { name: "Dach-Notdienst", description: "Schnelle Hilfe bei Wasserschäden und Sturmschäden innerhalb von 4 Stunden" },
+          { name: "Leckortung", description: "Professionelle Suche und Behebung undichter Stellen" },
+          { name: "Versicherungsservice", description: "Dokumentation und Abwicklung für Ihre Versicherung" }
+        ]}
+      />
       <Navbar />
       
       {/* Hero Section - Lead-Fokus */}

@@ -6,7 +6,7 @@ import { ArrowRight, Wrench, ShieldCheck, PenTool, CheckCircle2, Quote, Hammer }
 import heroImage from "@assets/generated_images/copper_roof_gutter_detail.png";
 import detailImage from "@assets/generated_images/metal_standing_seam_roof_detail.png";
 import LeadFunnel from "@/components/LeadFunnel";
-import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, ServiceSchema } from "@/components/SEO";
 
 export default function Spenglerei() {
   return (
@@ -18,6 +18,14 @@ export default function Spenglerei() {
         keywords="spengler münchen, dachrinne münchen, stehfalz dach münchen, kupferdach münchen, blecharbeiten münchen"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Spenglerei", url: "/spenglerei" }]} />
+      <ServiceSchema 
+        pageName="Spenglerarbeiten München"
+        services={[
+          { name: "Dachrinnen & Fallrohre", description: "Kupfer, Zink und Aluminium - handgefertigt in eigener Werkstatt" },
+          { name: "Kamineinfassungen", description: "Maßgefertigte Verkleidungen für Schornsteine" },
+          { name: "Stehfalzdach", description: "Hochwertige Metalldächer mit langer Lebensdauer" }
+        ]}
+      />
       <Navbar />
       
       {/* Hero Section */}

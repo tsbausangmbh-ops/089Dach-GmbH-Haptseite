@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Home, Warehouse, Wrench, Hammer, ShieldCheck, Ruler, CheckCircle2, Quote } from "lucide-react";
 import heroImage from "@assets/generated_images/modern_house_with_anthracite_roof.png";
 import LeadFunnel from "@/components/LeadFunnel";
-import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, ServiceSchema } from "@/components/SEO";
 
 export default function Leistungen() {
   const services = [
@@ -110,6 +110,16 @@ export default function Leistungen() {
         keywords="dachdecker leistungen münchen, flachdach reparatur münchen, dachwartung münchen, dachsanierung, steildach münchen"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Leistungen", url: "/leistungen" }]} />
+      <ServiceSchema 
+        pageName="Dachdecker Leistungen München"
+        services={[
+          { name: "Dachsanierung", description: "Energetische Sanierung nach GEG mit Förderberatung" },
+          { name: "Steildach & Flachdach", description: "Neueindeckung und Abdichtung für alle Dachtypen" },
+          { name: "Spenglerarbeiten", description: "Dachrinnen, Kamineinfassungen und Metallverarbeitung" },
+          { name: "Dachfenster", description: "Velux und Roto Einbau und Austausch" },
+          { name: "Wartung & Notdienst", description: "Jährliche Inspektion und schnelle Hilfe bei Schäden" }
+        ]}
+      />
       <Navbar />
       
       {/* Hero Section */}

@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Sun, Wind, ThermometerSun, Shield, ArrowRight, Quote, Phone, Check, Lightbulb } from "lucide-react";
 import { Link } from "wouter";
-import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, ServiceSchema } from "@/components/SEO";
 
 export default function Dachfenster() {
   const benefits = [
@@ -32,6 +32,14 @@ export default function Dachfenster() {
         keywords="dachfenster münchen, velux einbau münchen, tageslicht dach münchen, dachfenster austausch münchen"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dachfenster", url: "/dachfenster" }]} />
+      <ServiceSchema 
+        pageName="Dachfenster München"
+        services={[
+          { name: "Velux & Roto Einbau", description: "Professionelle Montage von Marken-Dachfenstern" },
+          { name: "Dachfenster-Austausch", description: "Schneller Wechsel ohne Dreck und Staub" },
+          { name: "Lichtkuppeln", description: "Tageslichtlösungen für Flachdächer" }
+        ]}
+      />
       <Navbar />
       
       {/* Hero Section */}

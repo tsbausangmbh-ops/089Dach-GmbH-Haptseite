@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle2, AlertTriangle, Clock, Shield, Euro, ThermometerSun, ArrowRight, Quote, Phone } from "lucide-react";
 import { Link } from "wouter";
-import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, ServiceSchema } from "@/components/SEO";
 
 export default function Dachsanierung() {
   const warningSignals = [
@@ -34,6 +34,14 @@ export default function Dachsanierung() {
         keywords="dachsanierung münchen, energetische dachsanierung, kfw dachsanierung münchen, dachdämmung münchen, dach erneuern münchen"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dachsanierung", url: "/dachsanierung" }]} />
+      <ServiceSchema 
+        pageName="Dachsanierung München"
+        services={[
+          { name: "Energetische Dachsanierung", description: "Wärmedämmung nach GEG mit bis zu 30% Heizkosten-Ersparnis" },
+          { name: "Komplettsanierung", description: "Neue Eindeckung mit 25 Jahren Garantie" },
+          { name: "KfW-Förderberatung", description: "Bis zu 20% Förderung durch BAFA und KfW" }
+        ]}
+      />
       <Navbar />
       
       {/* Hero Section mit Problem-Agitation */}
