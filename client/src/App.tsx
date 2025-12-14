@@ -16,7 +16,6 @@ import Ratgeber from "@/pages/Ratgeber";
 import Impressum from "@/pages/Impressum";
 import ContactPage from "@/pages/ContactPage";
 import CookieConsent from "@/components/CookieConsent";
-import BackgroundLogo from "@/components/BackgroundLogo";
 
 function Router() {
   return (
@@ -41,7 +40,6 @@ function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
-        <BackgroundLogo />
         <Toaster />
         <Router />
         <CookieConsent />

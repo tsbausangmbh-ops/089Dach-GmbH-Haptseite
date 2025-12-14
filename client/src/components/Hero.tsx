@@ -13,6 +13,24 @@ export default function Hero() {
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-secondary/90 via-secondary/70 to-transparent" />
+        
+        {/* Hero Logo Overlay */}
+        <div className="absolute right-0 bottom-0 h-full w-1/2 opacity-10 pointer-events-none hidden md:flex items-center justify-center overflow-hidden">
+             <svg 
+            width="100%" 
+            height="100%" 
+            viewBox="0 0 800 800" 
+            xmlns="http://www.w3.org/2000/svg"
+            className="w-full h-full max-w-none transform rotate-12 scale-150"
+          >
+            <g fill="currentColor" className="text-white">
+              <rect x="100" y="200" width="200" height="200" rx="20" fill="currentColor" />
+              <text x="200" y="340" fontSize="120" fontWeight="bold" fontFamily="sans-serif" textAnchor="middle" fill="black">089</text>
+              <text x="340" y="340" fontSize="120" fontWeight="bold" fontFamily="sans-serif" fill="currentColor">DACH</text>
+              <text x="345" y="390" fontSize="30" fontWeight="medium" fontFamily="sans-serif" letterSpacing="5" fill="currentColor">GMBH MÜNCHEN</text>
+            </g>
+          </svg>
+        </div>
       </div>
 
       {/* Content */}
