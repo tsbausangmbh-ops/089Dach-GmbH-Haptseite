@@ -20,7 +20,7 @@ export default function ChatWidget() {
   const [messages, setMessages] = useState<Message[]>([
     {
       role: "assistant",
-      content: "Hallo!\nIch bin der digitale Assistent von 089Dach. Wie kann ich Ihnen bei Ihrem Dach-Anliegen helfen?\nWählen Sie eine Frage oder schreiben Sie uns direkt!"
+      content: "Hallo!\nIch bin der digitale Assistent von 089Dach.\nWie kann ich Ihnen bei Ihrem Dach-Anliegen helfen?\nWählen Sie eine Frage oder schreiben Sie uns direkt!"
     }
   ]);
   const [input, setInput] = useState("");
