@@ -39,7 +39,7 @@ export default function FAQ() {
       <Navbar />
       
       {/* Hero Section */}
-      <div className="relative w-full h-[40vh] min-h-[300px] flex items-center overflow-hidden">
+      <div className="relative w-full h-[35vh] min-h-[300px] flex items-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
             src={heroImage}
@@ -59,7 +59,7 @@ export default function FAQ() {
       </div>
 
       {/* Values Section */}
-      <section className="py-16 bg-white">
+      <section className="py-12 bg-white">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
             <div className="bg-gray-50 p-8 rounded-sm border border-gray-100 text-center hover:shadow-md transition-shadow">

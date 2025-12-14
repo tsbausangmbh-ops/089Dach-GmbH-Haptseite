@@ -13,7 +13,7 @@ export default function Bedachungen() {
       <Navbar />
       
       {/* Hero Section */}
-      <div className="relative w-full h-[50vh] min-h-[400px] flex items-center overflow-hidden">
+      <div className="relative w-full h-[40vh] min-h-[350px] flex items-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
             src={heroImage}
@@ -33,7 +33,7 @@ export default function Bedachungen() {
       </div>
 
       {/* Main Content */}
-      <section className="py-20">
+      <section className="py-12">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
             

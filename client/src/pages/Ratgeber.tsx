@@ -51,7 +51,7 @@ export default function Ratgeber() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="pt-32 pb-20 bg-gray-50">
+      <section className="pt-24 pb-12 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">089Dach Ratgeber</span>

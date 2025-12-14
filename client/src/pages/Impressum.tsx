@@ -6,7 +6,7 @@ export default function Impressum() {
     <div className="min-h-screen bg-background font-sans">
       <Navbar />
       
-      <section className="pt-32 pb-20">
+      <section className="pt-24 pb-12">
         <div className="container mx-auto px-4 max-w-3xl">
           <h1 className="text-4xl font-heading font-bold text-secondary mb-8">Impressum</h1>
           

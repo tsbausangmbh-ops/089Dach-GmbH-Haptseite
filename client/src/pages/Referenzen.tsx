@@ -58,7 +58,7 @@ export default function Referenzen() {
       <Navbar />
       
       {/* Hero Section */}
-      <div className="relative w-full h-[40vh] min-h-[300px] flex items-center overflow-hidden">
+      <div className="relative w-full h-[35vh] min-h-[300px] flex items-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
             src={heroImage}
@@ -78,7 +78,7 @@ export default function Referenzen() {
       </div>
 
       {/* Gallery Grid */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project, index) => (

@@ -88,7 +88,7 @@ export default function Leistungen() {
       <Navbar />
       
       {/* Hero Section */}
-      <div className="relative w-full h-[50vh] min-h-[400px] flex items-center overflow-hidden">
+      <div className="relative w-full h-[40vh] min-h-[350px] flex items-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
             src={heroImage}
@@ -108,7 +108,7 @@ export default function Leistungen() {
       </div>
 
       {/* Services List */}
-      <section className="py-20">
+      <section className="py-12">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 gap-12">
             {services.map((service, index) => (

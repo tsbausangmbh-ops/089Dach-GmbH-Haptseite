@@ -4,7 +4,7 @@ import heroImage from "@assets/generated_images/roofer_working_on_red_tile_roof_
 
 export default function Hero() {
   return (
-    <div className="relative w-full h-[80vh] min-h-[600px] flex items-center overflow-hidden">
+    <div className="relative w-full h-[70vh] min-h-[500px] flex items-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img
