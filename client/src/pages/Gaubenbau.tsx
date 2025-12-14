@@ -8,6 +8,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle2, Home, Sun, Maximize, Euro, Phone, Quote, Award, Shield, Users } from "lucide-react";
 import SEO, { BreadcrumbSchema, ServiceSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/renovated_dormer_window_after.png";
+import RelatedServices from "@/components/RelatedServices";
 
 export default function Gaubenbau() {
   const benefits = [
@@ -263,6 +264,10 @@ export default function Gaubenbau() {
       </section>
 
       <LeadFunnel />
+      <RelatedServices 
+        currentPage="gaubenbau" 
+        relatedIds={["dachfenster", "bedachungen", "architektenleistungen", "referenzen"]}
+      />
       <Contact />
       <Footer />
     </div>

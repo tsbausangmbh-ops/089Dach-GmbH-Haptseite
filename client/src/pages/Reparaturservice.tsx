@@ -11,6 +11,7 @@ import { useState } from "react";
 import { toast } from "sonner";
 import SEO, { BreadcrumbSchema, ServiceSchema, HowToSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/damaged_red_tile_roof_before.png";
+import RelatedServices from "@/components/RelatedServices";
 
 export default function Reparaturservice() {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -463,6 +464,10 @@ export default function Reparaturservice() {
       </section>
 
       <LeadFunnel />
+      <RelatedServices 
+        currentPage="reparaturservice" 
+        relatedIds={["wartung", "dachsanierung", "bedachungen", "faq"]}
+      />
       <Footer />
     </div>
   );

@@ -8,6 +8,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle2, FileText, Ruler, Building2, Phone, Quote, Award, Shield, Users } from "lucide-react";
 import SEO, { BreadcrumbSchema, ServiceSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/homeowner_roof_consultation_scene.png";
+import RelatedServices from "@/components/RelatedServices";
 
 export default function Architektenleistungen() {
   const services = [
@@ -228,6 +229,10 @@ export default function Architektenleistungen() {
       </section>
 
       <LeadFunnel />
+      <RelatedServices 
+        currentPage="architektenleistungen" 
+        relatedIds={["gaubenbau", "energieberatung", "dachsanierung", "referenzen"]}
+      />
       <Contact />
       <Footer />
     </div>

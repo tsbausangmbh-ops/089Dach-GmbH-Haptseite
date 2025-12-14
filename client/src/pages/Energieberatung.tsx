@@ -8,6 +8,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle2, Euro, Home, Leaf, FileText, Phone, Quote, Award, Shield, Users } from "lucide-react";
 import SEO, { BreadcrumbSchema, ServiceSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/new_solar_panel_installation.png";
+import RelatedServices from "@/components/RelatedServices";
 
 export default function Energieberatung() {
   const benefits = [
@@ -227,6 +228,10 @@ export default function Energieberatung() {
       </section>
 
       <LeadFunnel />
+      <RelatedServices 
+        currentPage="energieberatung" 
+        relatedIds={["dachsanierung", "architektenleistungen", "ratgeber", "faq"]}
+      />
       <Contact />
       <Footer />
     </div>
