@@ -62,7 +62,7 @@ export default function RatgeberDaemmung() {
                 asChild
                 data-testid="button-hero-cta"
               >
-                <Link href="/beratung">
+                <Link href="/kontakt">
                   <Phone className="mr-2 h-5 w-5" />
                   Jetzt kostenlos beraten lassen
                 </Link>
@@ -189,7 +189,7 @@ export default function RatgeberDaemmung() {
                   asChild
                   data-testid="button-mid-cta"
                 >
-                  <Link href="/beratung">
+                  <Link href="/kontakt">
                     <Phone className="mr-2 h-5 w-5" />
                     Jetzt Ersparnis berechnen lassen
                   </Link>
@@ -295,7 +295,7 @@ export default function RatgeberDaemmung() {
                   asChild
                   data-testid="button-bottom-cta"
                 >
-                  <Link href="/beratung">
+                  <Link href="/kontakt">
                     <Phone className="mr-2 h-5 w-5" />
                     Jetzt kostenlos beraten lassen
                   </Link>
