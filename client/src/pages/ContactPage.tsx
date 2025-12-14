@@ -26,7 +26,7 @@ export default function ContactPage() {
         <div className="absolute inset-0 z-0">
           <img
             src={contactImage}
-            alt="Kundenberatung"
+            alt="Freundliche Mitarbeiterin am Telefon - Kundenberatung Dachdecker München 089Dach"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-secondary/90 via-secondary/70 to-secondary/50"></div>

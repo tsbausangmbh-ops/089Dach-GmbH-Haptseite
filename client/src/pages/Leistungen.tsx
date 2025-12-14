@@ -184,7 +184,7 @@ export default function Leistungen() {
         <div className="absolute inset-0 z-0">
           <img
             src={heroImage}
-            alt="Unsere Leistungen"
+            alt="Modernes Einfamilienhaus mit anthrazitfarbenem Steildach nach Dachsanierung in München"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-secondary/90 via-secondary/70 to-secondary/50"></div>

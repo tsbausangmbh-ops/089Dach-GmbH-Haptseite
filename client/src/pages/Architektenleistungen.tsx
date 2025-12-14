@@ -50,7 +50,7 @@ export default function Architektenleistungen() {
         <div className="absolute inset-0 z-0">
           <img
             src={heroImage}
-            alt="Architektenleistungen München"
+            alt="Dachdecker berät Hausbesitzer vor Ort - Bauantrag und Planung Dachausbau München"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-secondary/90 via-secondary/70 to-secondary/50"></div>

@@ -28,7 +28,7 @@ export default function UeberUns() {
         <div className="absolute inset-0 z-0">
           <img
             src={heroImage}
-            alt="089Dach Team"
+            alt="089Dach GmbH Team München - Dachdecker- und Spenglermeister Handschlag Partnerschaft"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-secondary/95 via-secondary/85 to-secondary/70"></div>
@@ -157,7 +157,7 @@ export default function UeberUns() {
                 <div className="w-48 h-48 rounded-full overflow-hidden mb-6 border-4 border-primary/20">
                   <img 
                     src={portraitMeister} 
-                    alt="Dachdecker- und Spenglermeister" 
+                    alt="Dachdeckermeister und Spenglermeister München - 089Dach GmbH seit 1998" 
                     className="w-full h-full object-cover"
                     data-testid="img-portrait-meister"
                   />
@@ -183,7 +183,7 @@ export default function UeberUns() {
                 <div className="w-48 h-48 rounded-full overflow-hidden mb-6 border-4 border-primary/20">
                   <img 
                     src={portraitGF} 
-                    alt="Geschäftsführer" 
+                    alt="Geschäftsführer 089Dach GmbH München - Kaufmännische Leitung" 
                     className="w-full h-full object-cover"
                     data-testid="img-portrait-gf"
                   />

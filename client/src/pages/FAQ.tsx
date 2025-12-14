@@ -142,7 +142,7 @@ export default function FAQ() {
         <div className="absolute inset-0 z-0">
           <img
             src={heroImage}
-            alt="Dachexperte beantwortet Fragen"
+            alt="Dachdecker-Meister erklärt Hausbesitzer Dachsanierung - Beratungsgespräch München"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-secondary/95 via-secondary/85 to-secondary/70"></div>

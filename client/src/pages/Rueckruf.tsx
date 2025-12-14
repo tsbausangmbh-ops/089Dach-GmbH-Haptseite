@@ -134,7 +134,7 @@ export default function Rueckruf() {
         <div className="absolute inset-0 z-0">
           <img
             src={heroImage}
-            alt="Rückruf anfordern"
+            alt="Freundliche Mitarbeiterin am Telefon - kostenloser Rückruf-Service Dachdecker München"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-secondary/90 via-secondary/70 to-secondary/50"></div>

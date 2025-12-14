@@ -50,7 +50,7 @@ export default function Dachfenster() {
         <div className="absolute inset-0 z-0">
           <img
             src={heroImage}
-            alt="Dachfenster München"
+            alt="Helles Dachgeschoss mit Velux-Dachfenstern - lichtdurchfluteter Wohnraum München"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-secondary/90 via-secondary/70 to-secondary/50"></div>

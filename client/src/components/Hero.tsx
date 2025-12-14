@@ -13,7 +13,7 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
         <div className="absolute inset-0 z-0">
           <img
             src={heroImage}
-            alt="Dachdecker bei der Arbeit"
+            alt="Dachdecker München bei Ziegeldach-Arbeiten auf rotem Steildach - 089Dach Meisterbetrieb"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-secondary/95 via-secondary/80 to-secondary/40" />

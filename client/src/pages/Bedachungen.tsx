@@ -35,7 +35,7 @@ export default function Bedachungen() {
         <div className="absolute inset-0 z-0">
           <img
             src={heroImage}
-            alt="Dachdeckerarbeiten"
+            alt="Dachdecker bei Steildach-Eindeckung mit roten Tondachziegeln in München"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-secondary/90 via-secondary/70 to-secondary/50"></div>
@@ -173,7 +173,7 @@ export default function Bedachungen() {
             <div className="relative">
               <img 
                 src={tileImage} 
-                alt="Dachziegel Detail" 
+                alt="Nahaufnahme roter Tondachziegel Textur - hochwertige Dacheindeckung München" 
                 className="rounded-xl shadow-xl w-full object-cover aspect-[4/5]"
               />
               <div className="absolute -bottom-8 -left-8 bg-white p-8 rounded-xl shadow-lg max-w-sm hidden md:block">

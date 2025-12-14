@@ -110,7 +110,7 @@ export default function Reparaturservice() {
         <div className="absolute inset-0 z-0">
           <img
             src={heroImage}
-            alt="Dachreparatur München"
+            alt="Beschädigtes Ziegeldach vor Reparatur - Sturmschaden Dachreparatur München"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-secondary/90 via-secondary/70 to-secondary/50"></div>

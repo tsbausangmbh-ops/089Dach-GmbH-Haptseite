@@ -253,7 +253,7 @@ export default function Referenzen() {
         <div className="absolute inset-0 z-0">
           <img
             src={heroImage}
-            alt="Fertiggestelltes Dachprojekt"
+            alt="Fertiggestelltes Dachsanierung-Projekt München - 089Dach Referenz Steildach"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-secondary/95 via-secondary/85 to-secondary/70"></div>

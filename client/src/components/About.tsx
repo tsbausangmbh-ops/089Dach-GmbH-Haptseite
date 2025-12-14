@@ -12,7 +12,7 @@ export default function About() {
           <div className="relative h-64 lg:h-auto lg:min-h-[500px]">
             <img 
               src={toolsImage} 
-              alt="Dachdecker Werkzeug" 
+              alt="Professionelles Dachdecker-Werkzeug für Spenglerarbeiten und Dachsanierung in München" 
               className="absolute inset-0 w-full h-full object-cover"
             />
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-secondary/90 to-transparent p-6 lg:p-8">
