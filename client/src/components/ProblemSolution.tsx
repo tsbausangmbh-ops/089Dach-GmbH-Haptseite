@@ -65,8 +65,11 @@ export default function ProblemSolution({ onOpenFunnel }: ProblemSolutionProps) 
                   <h3 className="text-2xl font-heading font-bold text-secondary mb-3">
                     {item.problem}
                   </h3>
-                  <p className="text-muted-foreground leading-relaxed">
+                  <p className="text-muted-foreground leading-relaxed mb-4">
                     {item.pain}
+                  </p>
+                  <p className="text-sm text-secondary/80 italic border-l-2 border-primary/30 pl-3">
+                    Wir verstehen, wie belastend das ist. Sie sind nicht allein – und es gibt einen Weg heraus.
                   </p>
                 </div>
 
