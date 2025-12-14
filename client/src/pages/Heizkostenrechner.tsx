@@ -7,6 +7,7 @@ import { Calculator, Flame, Home, Thermometer, TrendingDown, Euro, Leaf, ArrowRi
 import { useState } from "react";
 import { Link } from "wouter";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import heroImage from "@assets/generated_images/house_with_heat_loss_visualization.png";
 
 interface CalculationResult {
   currentCost: number;
@@ -87,9 +88,14 @@ export default function Heizkostenrechner() {
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Heizkosten-Rechner", url: "/heizkostenrechner" }]} />
       <Navbar />
       
-      <section className="pt-10 pb-12 bg-secondary relative overflow-hidden min-h-[40vh] flex items-center">
-        <div className="absolute inset-0 bg-gradient-to-br from-secondary via-secondary/95 to-primary/20"></div>
-        <div className="container mx-auto px-6 lg:px-12 relative z-10">
+      <section className="relative min-h-[400px] flex items-center">
+        <div 
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: `url(${heroImage})` }}
+        >
+          <div className="absolute inset-0 bg-gradient-to-r from-secondary/95 via-secondary/85 to-secondary/60"></div>
+        </div>
+        <div className="container mx-auto px-6 lg:px-12 relative z-10 py-16">
           <div className="max-w-2xl text-white">
             <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mb-6">
               <span className="text-primary">Heizkosten-Rechner</span>
