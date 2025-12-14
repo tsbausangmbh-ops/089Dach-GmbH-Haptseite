@@ -43,13 +43,14 @@ export default function Hero() {
           </div>
           
           <h1 className="text-4xl md:text-6xl font-heading font-extrabold leading-tight mb-6">
-            Sicherheit für Ihr Dach <br/>
-            <span className="text-primary-foreground">in München & Umgebung</span>
+            Wenn das Dach zur Sorge wird –<br/>
+            <span className="text-primary-foreground">wir sind Ihre Lösung.</span>
           </h1>
           
           <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-xl font-light">
-            Wir lassen Sie nicht im Regen stehen. Ihr vertrauensvoller Partner für Dachsanierung, Reparaturen und Spenglerarbeiten. 
-            Schnell, ehrlich und kompetent.
+            Ein undichtes Dach, ein Sturm in der Nacht, die Angst vor hohen Kosten – wir kennen diese Sorgen. 
+            Seit über 25 Jahren helfen wir Münchner Familien, wieder ruhig zu schlafen. 
+            <strong className="text-white"> Ehrlich. Schnell. Zuverlässig.</strong>
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4">

@@ -6,32 +6,32 @@ export default function Services() {
     {
       icon: <Home className="h-10 w-10 text-primary" />,
       title: "Dachsanierung",
-      description: "Komplette energetische Sanierung Ihres Daches nach neuesten GEG-Standards für mehr Wohnkomfort und Energieeffizienz."
+      description: "Schluss mit kalten Füßen und hohen Heizkosten. Eine energetische Sanierung macht Ihr Zuhause behaglich – im Winter warm, im Sommer kühl. Und Ihr Geldbeutel freut sich auch."
     },
     {
       icon: <Warehouse className="h-10 w-10 text-primary" />,
       title: "Steil- & Flachdach",
-      description: "Fachgerechte Eindeckung von Steildächern mit Ziegeln oder Schiefer sowie dauerhafte Abdichtung von Flachdächern."
+      description: "Ob traditionelle Ziegel oder modernes Flachdach – wir geben Ihrem Haus die Krone, die es verdient. Dauerhaft dicht, optisch perfekt, gebaut für Generationen."
     },
     {
       icon: <Wrench className="h-10 w-10 text-primary" />,
       title: "Spenglerei",
-      description: "Maßgefertigte Blecharbeiten für Kamineinfassungen, Dachrinnen und Verkleidungen aus unserer eigenen Werkstatt."
+      description: "Kupfer, Zink, Aluminium – in unserer Werkstatt entstehen Einzelstücke mit Charakter. Dachrinnen, die nicht nur funktionieren, sondern Ihr Haus verschönern."
     },
     {
       icon: <Hammer className="h-10 w-10 text-primary" />,
       title: "Reparaturen",
-      description: "Schnelle Hilfe bei Sturmschäden, undichten Stellen oder kleineren Reparaturen. Wir sind für Sie da."
+      description: "Sturm gehabt? Tropft es von der Decke? Rufen Sie an. Wir kommen schnell und lösen das Problem – oft am selben Tag. Damit Sie wieder ruhig schlafen können."
     },
     {
       icon: <ShieldCheck className="h-10 w-10 text-primary" />,
       title: "Wartung & Pflege",
-      description: "Regelmäßige Dachinspektionen zur Werterhaltung Ihrer Immobilie und Vermeidung teurer Folgeschäden."
+      description: "Kleine Schäden werden teuer, wenn man sie ignoriert. Eine jährliche Inspektion kostet wenig, spart viel – und gibt Ihnen die Sicherheit, dass alles in Ordnung ist."
     },
     {
       icon: <Ruler className="h-10 w-10 text-primary" />,
       title: "Dachfenster",
-      description: "Einbau und Austausch von hochwertigen Dachfenstern für mehr Licht und Luft in Ihrem Dachgeschoss."
+      description: "Mehr Licht verändert alles. Ein neues Dachfenster macht aus dem dunklen Speicher einen hellen Lieblingsraum. Wir zeigen Ihnen die Möglichkeiten."
     }
   ];
 

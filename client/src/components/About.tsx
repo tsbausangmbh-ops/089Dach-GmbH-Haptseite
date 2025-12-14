@@ -32,13 +32,18 @@ export default function About() {
             
             <div className="space-y-6 text-muted-foreground text-lg leading-relaxed">
               <p>
-                Ein Dachschaden kommt oft unerwartet und bringt Sorgen mit sich. "Hält das Dach beim nächsten Sturm?", "Wie teuer wird die Reparatur?". 
-                Wir von der 089Dach GmbH verstehen diese Ängste. Als Ihr lokaler Dachdecker in München sind wir da, um Ihnen diese Sorgen zu nehmen.
+                <strong className="text-secondary">„Als mitten in der Nacht der Sturm kam und wir Wasser im Kinderzimmer hatten, waren wir verzweifelt."</strong> – 
+                So begann der Anruf von Familie Schneider aus Schwabing. Zwei Stunden später waren wir vor Ort, haben das Dach provisorisch abgedichtet 
+                und der Familie den Schlaf zurückgegeben.
               </p>
               <p>
-                Wir beraten Sie ehrlich – wir verkaufen Ihnen kein neues Dach, wenn eine Reparatur ausreicht. 
-                Aber wir sagen Ihnen auch klar, wann eine Sanierung langfristig die sicherere und kostengünstigere Lösung ist. 
-                Vertrauen Sie auf über 25 Jahre Erfahrung und echte Münchner Handschlagqualität.
+                Das ist es, was uns antreibt: <strong className="text-secondary">Menschen in schwierigen Momenten zu helfen.</strong> 
+                Ein Dachschaden kommt immer unerwartet. Die Angst vor hohen Kosten, die Unsicherheit – wir verstehen das. 
+                Deshalb beraten wir ehrlich: Wir verkaufen Ihnen kein neues Dach, wenn eine Reparatur reicht. 
+                Aber wir sagen auch klar, wann eine Sanierung langfristig die bessere Wahl ist.
+              </p>
+              <p className="italic border-l-4 border-primary pl-4 bg-primary/5 py-3">
+                „Die haben uns nicht nur das Dach repariert – sie haben uns die Sorgen genommen." – Familie Schneider, München-Schwabing
               </p>
             </div>
 
