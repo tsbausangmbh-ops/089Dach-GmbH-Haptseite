@@ -29,6 +29,8 @@ export default function KostenloseBeratung() {
     email: "",
     phone: "",
     problem: "",
+    urgency: "",
+    objectType: "",
     message: ""
   });
 
@@ -83,7 +85,11 @@ export default function KostenloseBeratung() {
           timing: selectedSlot 
             ? `Gewünschter Termin: ${format(new Date(selectedSlot.start), "dd.MM.yyyy HH:mm", { locale: de })} Uhr`
             : "Beratungsanfrage",
-          details: formData.message || "Keine Details angegeben",
+          details: [
+            formData.objectType && `Objektart: ${formData.objectType}`,
+            formData.urgency && `Dringlichkeit: ${formData.urgency}`,
+            formData.message
+          ].filter(Boolean).join("\n") || "Keine Details angegeben",
           name: formData.name,
           phone: formData.phone,
           email: formData.email,
@@ -99,7 +105,7 @@ export default function KostenloseBeratung() {
         toast.success(successMsg, {
           description: "Wir melden uns zum vereinbarten Termin bei Ihnen."
         });
-        setFormData({ name: "", email: "", phone: "", problem: "", message: "" });
+        setFormData({ name: "", email: "", phone: "", problem: "", objectType: "", urgency: "", message: "" });
         setSelectedSlot(null);
         setSelectedDate(undefined);
         fetchAvailability();
@@ -216,8 +222,44 @@ export default function KostenloseBeratung() {
                   <option value="Dachfenster">Ich möchte ein Dachfenster einbauen</option>
                   <option value="Dämmung">Ich möchte mein Dach dämmen</option>
                   <option value="Wartung">Ich brauche eine Dachwartung</option>
+                  <option value="Sturmschaden">Mein Dach hat einen Sturmschaden</option>
+                  <option value="Rinne/Regenrinne">Rinne oder Regenrinne defekt</option>
+                  <option value="Flachdach">Flachdach-Problem oder -Sanierung</option>
+                  <option value="Gaube">Gaube einbauen oder sanieren</option>
+                  <option value="Schimmel/Feuchtigkeit">Schimmel oder Feuchtigkeit im Dach</option>
                   <option value="Sonstiges">Etwas anderes</option>
                 </select>
+              </div>
+
+              <div className="grid md:grid-cols-2 gap-4">
+                <div className="space-y-2">
+                  <Label htmlFor="objectType">Art des Gebäudes</Label>
+                  <select
+                    id="objectType"
+                    className="w-full h-12 px-3 rounded-md border border-input bg-background text-sm"
+                    value={formData.objectType}
+                    onChange={(e) => setFormData({ ...formData, objectType: e.target.value })}
+                    data-testid="select-beratung-objecttype"
+                  >
+                    <option value="">Bitte wählen...</option>
+                    <option value="Einfamilienhaus">Einfamilienhaus</option>
+                    <option value="Mehrfamilienhaus">Mehrfamilienhaus</option>
+                    <option value="Reihenhaus/Doppelhaushälfte">Reihenhaus / Doppelhaushälfte</option>
+                    <option value="Gewerbe">Gewerbegebäude</option>
+                    <option value="Sonstiges">Sonstiges</option>
+                  </select>
+                </div>
+
+                <div className="space-y-2">
+                  <Label htmlFor="address">Adresse des Objekts (optional)</Label>
+                  <Input 
+                    id="address"
+                    placeholder="Straße, PLZ Ort"
+                    value={formData.address}
+                    onChange={(e) => setFormData({ ...formData, address: e.target.value })}
+                    data-testid="input-beratung-address"
+                  />
+                </div>
               </div>
 
               <div className="space-y-4">
