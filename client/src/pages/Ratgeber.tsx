@@ -7,6 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 import { CheckCircle2, AlertTriangle, ThermometerSun, Droplets, Leaf, ArrowRight, BookOpen, Quote, Shield, Users, Award } from "lucide-react";
 import { Link } from "wouter";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import gegArticleImage from "@assets/generated_images/homeowner_roof_consultation_scene.png";
 
 export default function Ratgeber() {
   const guides = [
@@ -159,9 +160,9 @@ export default function Ratgeber() {
             <div className="bg-gray-800 min-h-[300px] relative">
               <div className="absolute inset-0 bg-gradient-to-r from-secondary/80 to-transparent z-10"></div>
               <img 
-                src="https://images.unsplash.com/photo-1621508653603-5147817eb482?q=80&w=2670&auto=format&fit=crop" 
-                alt="Dacharbeiten" 
-                className="absolute inset-0 w-full h-full object-cover opacity-60"
+                src={gegArticleImage}
+                alt="Hausbesitzer bei Dachberatung" 
+                className="absolute inset-0 w-full h-full object-cover opacity-80"
               />
             </div>
           </div>
