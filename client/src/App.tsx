@@ -10,6 +10,8 @@ import Leistungen from "@/pages/Leistungen";
 import Spenglerei from "@/pages/Spenglerei";
 import FAQ from "@/pages/FAQ";
 import Datenschutz from "@/pages/Datenschutz";
+import CookiePolicy from "@/pages/CookiePolicy";
+import CookieConsent from "@/components/CookieConsent";
 
 function Router() {
   return (
@@ -20,6 +22,7 @@ function Router() {
       <Route path="/leistungen" component={Leistungen} />
       <Route path="/faq" component={FAQ} />
       <Route path="/datenschutz" component={Datenschutz} />
+      <Route path="/cookies" component={CookiePolicy} />
       <Route component={NotFound} />
     </Switch>
   );
@@ -31,6 +34,7 @@ function App() {
       <TooltipProvider>
         <Toaster />
         <Router />
+        <CookieConsent />
       </TooltipProvider>
     </QueryClientProvider>
   );
