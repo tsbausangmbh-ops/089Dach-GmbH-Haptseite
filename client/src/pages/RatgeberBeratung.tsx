@@ -235,6 +235,46 @@ export default function RatgeberBeratung() {
               </div>
             </div>
 
+            <div className="bg-blue-50 border-2 border-blue-400 rounded-lg p-8 mb-12">
+              <div className="flex items-start gap-4">
+                <div className="bg-blue-500 text-white p-3 rounded-lg shrink-0">
+                  <Euro className="h-8 w-8" />
+                </div>
+                <div>
+                  <h3 className="text-2xl font-heading font-bold text-blue-900 mb-4">
+                    Hinweis: BAFA-Förderung & Förderantragstellung
+                  </h3>
+                  <p className="text-lg text-blue-800 mb-4">
+                    <strong>Bis zu 40% staatliche Förderung</strong> für Ihre Dachsanierung – und wir helfen Ihnen dabei, diese auch zu bekommen!
+                  </p>
+                  <div className="bg-white/70 rounded-lg p-4 mb-4">
+                    <h4 className="font-bold text-blue-900 mb-3">So unterstützen wir Sie bei der Förderung:</h4>
+                    <ul className="space-y-2 text-blue-800">
+                      <li className="flex items-start gap-2">
+                        <CheckCircle2 className="h-5 w-5 text-blue-600 shrink-0 mt-0.5" />
+                        <span><strong>Fördercheck:</strong> Wir prüfen, welche Förderprogramme für Ihr Projekt infrage kommen (BAFA, KfW, regionale Förderungen)</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle2 className="h-5 w-5 text-blue-600 shrink-0 mt-0.5" />
+                        <span><strong>Antragsstellung:</strong> Wir helfen Ihnen beim kompletten Förderantrag – von der Dokumentation bis zur Einreichung</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle2 className="h-5 w-5 text-blue-600 shrink-0 mt-0.5" />
+                        <span><strong>Energieberater-Netzwerk:</strong> Falls ein zertifizierter Energieberater benötigt wird, vermitteln wir Ihnen einen</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle2 className="h-5 w-5 text-blue-600 shrink-0 mt-0.5" />
+                        <span><strong>Förderfähige Ausführung:</strong> Wir führen die Arbeiten so aus, dass alle Förderkriterien erfüllt werden</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <p className="text-blue-700 text-sm">
+                    <strong>Wichtig:</strong> Der Förderantrag muss VOR Beginn der Arbeiten gestellt werden. Deshalb ist es wichtig, früh mit uns zu sprechen – wir beraten Sie, welche Schritte in welcher Reihenfolge nötig sind.
+                  </p>
+                </div>
+              </div>
+            </div>
+
             <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-r-lg mb-12">
               <h2 className="text-2xl font-heading font-bold text-secondary mb-4">Unser Versprechen an Sie:</h2>
               <ul className="space-y-4">
@@ -367,46 +407,6 @@ export default function RatgeberBeratung() {
                 <p className="text-5xl font-bold text-primary mb-2">40%</p>
                 <p className="font-bold text-secondary">Förderung möglich</p>
                 <p className="text-sm text-muted-foreground mt-2">Wir kümmern uns um die Anträge</p>
-              </div>
-            </div>
-
-            <div className="bg-blue-50 border-2 border-blue-400 rounded-lg p-8 mb-12">
-              <div className="flex items-start gap-4">
-                <div className="bg-blue-500 text-white p-3 rounded-lg shrink-0">
-                  <Euro className="h-8 w-8" />
-                </div>
-                <div>
-                  <h3 className="text-2xl font-heading font-bold text-blue-900 mb-4">
-                    Hinweis: BAFA-Förderung & Förderantragstellung
-                  </h3>
-                  <p className="text-lg text-blue-800 mb-4">
-                    <strong>Bis zu 40% staatliche Förderung</strong> für Ihre Dachsanierung – und wir helfen Ihnen dabei, diese auch zu bekommen!
-                  </p>
-                  <div className="bg-white/70 rounded-lg p-4 mb-4">
-                    <h4 className="font-bold text-blue-900 mb-3">So unterstützen wir Sie bei der Förderung:</h4>
-                    <ul className="space-y-2 text-blue-800">
-                      <li className="flex items-start gap-2">
-                        <CheckCircle2 className="h-5 w-5 text-blue-600 shrink-0 mt-0.5" />
-                        <span><strong>Fördercheck:</strong> Wir prüfen, welche Förderprogramme für Ihr Projekt infrage kommen (BAFA, KfW, regionale Förderungen)</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <CheckCircle2 className="h-5 w-5 text-blue-600 shrink-0 mt-0.5" />
-                        <span><strong>Antragsstellung:</strong> Wir helfen Ihnen beim kompletten Förderantrag – von der Dokumentation bis zur Einreichung</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <CheckCircle2 className="h-5 w-5 text-blue-600 shrink-0 mt-0.5" />
-                        <span><strong>Energieberater-Netzwerk:</strong> Falls ein zertifizierter Energieberater benötigt wird, vermitteln wir Ihnen einen</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <CheckCircle2 className="h-5 w-5 text-blue-600 shrink-0 mt-0.5" />
-                        <span><strong>Förderfähige Ausführung:</strong> Wir führen die Arbeiten so aus, dass alle Förderkriterien erfüllt werden</span>
-                      </li>
-                    </ul>
-                  </div>
-                  <p className="text-blue-700 text-sm">
-                    <strong>Wichtig:</strong> Der Förderantrag muss VOR Beginn der Arbeiten gestellt werden. Deshalb ist es wichtig, früh mit uns zu sprechen – wir beraten Sie, welche Schritte in welcher Reihenfolge nötig sind.
-                  </p>
-                </div>
               </div>
             </div>
 
