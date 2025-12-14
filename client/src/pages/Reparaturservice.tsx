@@ -129,20 +129,20 @@ export default function Reparaturservice() {
       </section>
 
       {/* Trust Badges */}
-      <div className="bg-stone-100 py-4 border-b border-stone-200">
+      <div className="bg-stone-100 py-2 border-b border-stone-200">
         <div className="container mx-auto px-4">
-          <div className="flex flex-wrap justify-center gap-6 text-sm">
-            <span className="flex items-center gap-2">
-              <Award className="h-5 w-5 text-primary" />
-              <strong>Meisterbetrieb seit 1998</strong>
+          <div className="flex flex-wrap justify-center gap-4 text-xs">
+            <span className="flex items-center gap-1.5">
+              <Award className="h-4 w-4 text-primary" />
+              <span>Meisterbetrieb seit 1998</span>
             </span>
-            <span className="flex items-center gap-2">
-              <Shield className="h-5 w-5 text-primary" />
-              <strong>10 Jahre Garantie</strong>
+            <span className="flex items-center gap-1.5">
+              <Shield className="h-4 w-4 text-primary" />
+              <span>10 Jahre Garantie</span>
             </span>
-            <span className="flex items-center gap-2">
-              <Users className="h-5 w-5 text-primary" />
-              <strong>1.500+ zufriedene Kunden</strong>
+            <span className="flex items-center gap-1.5">
+              <Users className="h-4 w-4 text-primary" />
+              <span>1.500+ zufriedene Kunden</span>
             </span>
           </div>
         </div>
