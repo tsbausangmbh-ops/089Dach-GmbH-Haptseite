@@ -70,7 +70,7 @@ export default function Contact() {
       <div className="container mx-auto px-4 md:px-6 lg:px-12 mb-8 md:mb-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-24">
           
-          <div>
+          <div className="text-center md:text-left">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Kontakt</span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-secondary mt-2 mb-6">
               Sprechen Sie mit uns über Ihr Projekt
