@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle2, Euro, Home, Leaf, FileText, Phone, Quote, Award, Shield, Users } from "lucide-react";
 import SEO, { BreadcrumbSchema, ServiceSchema } from "@/components/SEO";
+import heroImage from "@assets/generated_images/new_solar_panel_installation.png";
 
 export default function Energieberatung() {
   const benefits = [
@@ -44,7 +45,14 @@ export default function Energieberatung() {
       
       {/* Hero Section */}
       <section className="pt-10 pb-12 bg-secondary relative overflow-hidden min-h-[40vh] flex items-center">
-        <div className="absolute inset-0 z-0 bg-gradient-to-r from-secondary/90 via-secondary/70 to-secondary/50"></div>
+        <div className="absolute inset-0 z-0">
+          <img
+            src={heroImage}
+            alt="Energieberatung München"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-secondary/90 via-secondary/70 to-secondary/50"></div>
+        </div>
 
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-2xl text-white">

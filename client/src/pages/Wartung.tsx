@@ -10,6 +10,7 @@ import { CalendarCheck, Shield, Clock, Mail, Search, Droplets, Leaf, Check, Quot
 import { useState } from "react";
 import { toast } from "sonner";
 import SEO, { BreadcrumbSchema, ServiceSchema } from "@/components/SEO";
+import heroImage from "@assets/generated_images/roofer_tools_arranged_cleanly.png";
 
 export default function Wartung() {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -93,7 +94,14 @@ export default function Wartung() {
       
       {/* Hero Section */}
       <section className="pt-10 pb-12 bg-secondary relative overflow-hidden min-h-[40vh] flex items-center">
-        <div className="absolute inset-0 z-0 bg-gradient-to-r from-secondary/90 via-secondary/70 to-secondary/50"></div>
+        <div className="absolute inset-0 z-0">
+          <img
+            src={heroImage}
+            alt="Dachwartung München"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-secondary/90 via-secondary/70 to-secondary/50"></div>
+        </div>
 
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-2xl text-white">
