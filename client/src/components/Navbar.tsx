@@ -92,10 +92,10 @@ export default function Navbar() {
           
           {/* Leistungen Dropdown */}
           <div className="relative group">
-            <button className="text-sm font-medium text-secondary hover:text-primary transition-colors flex items-center gap-1">
+            <a href="/leistungen" className="text-sm font-medium text-secondary hover:text-primary transition-colors flex items-center gap-1">
               Leistungen
               <ChevronDown className="h-4 w-4" />
-            </button>
+            </a>
             <div className="absolute top-full left-0 pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
               <div className="bg-white shadow-lg border border-gray-100 rounded-xl py-2 min-w-[260px]">
                 {leistungenItems.map((item) => (
@@ -155,13 +155,21 @@ export default function Navbar() {
               
               {/* Leistungen Accordion */}
               <div className="border-b pb-2">
-                <button 
-                  onClick={() => setLeistungenOpen(!leistungenOpen)}
-                  className="text-lg font-medium text-foreground hover:text-primary transition-colors flex items-center justify-between w-full"
-                >
-                  Leistungen
-                  <ChevronDown className={`h-4 w-4 transition-transform ${leistungenOpen ? 'rotate-180' : ''}`} />
-                </button>
+                <div className="flex items-center justify-between">
+                  <a 
+                    href="/leistungen" 
+                    className="text-lg font-medium text-foreground hover:text-primary transition-colors flex-1"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    Leistungen
+                  </a>
+                  <button 
+                    onClick={() => setLeistungenOpen(!leistungenOpen)}
+                    className="p-2 hover:text-primary transition-colors"
+                  >
+                    <ChevronDown className={`h-4 w-4 transition-transform ${leistungenOpen ? 'rotate-180' : ''}`} />
+                  </button>
+                </div>
                 {leistungenOpen && (
                   <div className="mt-2 ml-4 space-y-2">
                     {leistungenItems.map((item) => (
