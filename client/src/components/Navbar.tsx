@@ -127,6 +127,9 @@ export default function Navbar() {
           <a href="/kontakt" className="text-sm font-medium text-secondary hover:text-primary transition-colors">
             Kontakt
           </a>
+          <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-white font-bold rounded-md" asChild>
+            <a href="/ratgeber/daemmung">Dachsanierung</a>
+          </Button>
           <Button className="bg-primary hover:bg-primary/90 text-white font-bold rounded-md" asChild>
             <a href="/ratgeber/beratung">Kostenlose Beratung</a>
           </Button>
