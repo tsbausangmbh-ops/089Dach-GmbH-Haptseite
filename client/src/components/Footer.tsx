@@ -23,12 +23,12 @@ export default function Footer() {
           <div>
             <h4 className="font-heading font-bold text-lg mb-6 text-white">Leistungen</h4>
             <ul className="space-y-3 text-gray-400">
-              <li><a href="/ratgeber" className="hover:text-primary transition-colors">Ratgeber & Tipps</a></li>
-              <li><a href="/dachsanierung" className="hover:text-primary transition-colors">Dachsanierung</a></li>
               <li><a href="/bedachungen" className="hover:text-primary transition-colors">Steildach & Flachdach</a></li>
               <li><a href="/spenglerei" className="hover:text-primary transition-colors">Spenglerarbeiten</a></li>
-              <li><a href="/dachfenster" className="hover:text-primary transition-colors">Dachfenster</a></li>
               <li><a href="/reparaturservice" className="hover:text-primary transition-colors">Reparaturservice</a></li>
+              <li><a href="/ratgeber" className="hover:text-primary transition-colors">Ratgeber & Tipps</a></li>
+              <li><a href="/dachsanierung" className="hover:text-primary transition-colors">Dachsanierung</a></li>
+              <li><a href="/dachfenster" className="hover:text-primary transition-colors">Dachfenster</a></li>
             </ul>
           </div>
 
