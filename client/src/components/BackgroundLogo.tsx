@@ -1,6 +1,6 @@
 export default function BackgroundLogo() {
   return (
-    <div className="fixed inset-0 z-0 pointer-events-none flex items-center justify-center overflow-hidden opacity-[0.03]">
+    <div className="fixed inset-0 z-50 pointer-events-none flex items-center justify-center overflow-hidden opacity-[0.03] mix-blend-multiply">
       <svg 
         width="100%" 
         height="100%" 
