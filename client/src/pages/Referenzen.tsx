@@ -9,8 +9,8 @@ import { Link } from "wouter";
 
 import heroImage from "@assets/generated_images/completed_roof_showcase_reference.png";
 
-import before1 from "@assets/generated_images/obermenzing_house_damaged_roof_before.png";
-import img1 from "@assets/generated_images/obermenzing_house_new_roof_after.png";
+import before1 from "@assets/generated_images/obermenzing_einfamilienhaus_vorher.png";
+import img1 from "@assets/generated_images/obermenzing_einfamilienhaus_nachher.png";
 import before2 from "@assets/generated_images/haidhausen_altbau_damaged_roof_before.png";
 import img5 from "@assets/generated_images/haidhausen_altbau_restored_roof_after.png";
 import before3 from "@assets/generated_images/commercial_flat_roof_damaged_before.png";
