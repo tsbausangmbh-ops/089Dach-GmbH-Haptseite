@@ -1,6 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import SEO from "@/components/SEO";
+import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import { Scale, FileText, Shield, AlertTriangle, Clock, Hammer, CheckCircle2 } from "lucide-react";
 
 export default function AGB() {
@@ -10,7 +10,10 @@ export default function AGB() {
         title="AGB - Allgemeine Geschäftsbedingungen | 089Dach GmbH München"
         description="Allgemeine Geschäftsbedingungen der 089Dach GmbH für Dachdeckerarbeiten nach BGB §650a-c Bauvertragsrecht. Stand Dezember 2025."
         canonical="https://089dach.de/agb"
+        keywords="agb allgemeine geschäftsbedingungen 089dach, bauvertragsrecht bgb 650a 650b 650c dachdeckerarbeiten, werkvertrag abnahme gewährleistung 5 jahre mängelansprüche, zahlungsbedingungen abschlagszahlung bauhandwerkersicherung, widerrufsrecht verbraucher 14 tage"
+        aiSummary="089Dach GmbH AGB: Allgemeine Geschäftsbedingungen für Dachdeckerarbeiten nach BGB §650a-650v Bauvertragsrecht. 5 Jahre Gewährleistung, 14 Tage Widerrufsrecht für Verbraucher. Stand Dezember 2025. Gerichtsstand München."
       />
+      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "AGB", url: "/agb" }]} />
       <Navbar />
       
       <div className="container mx-auto px-6 lg:px-12 pt-10 pb-12 max-w-4xl">

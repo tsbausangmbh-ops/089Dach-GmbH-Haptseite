@@ -1,6 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import SEO from "@/components/SEO";
+import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import { Shield, Lock, FileText, Globe, Bot, AlertTriangle, Database, Server } from "lucide-react";
 
 export default function Datenschutz() {
@@ -10,7 +10,10 @@ export default function Datenschutz() {
         title="Datenschutzerklärung | 089Dach GmbH München"
         description="Datenschutzerklärung der 089Dach GmbH gemäß DSGVO, BDSG, TDDDG und EU AI Act. Stand Dezember 2025."
         canonical="https://089dach.de/datenschutz"
+        keywords="datenschutz 089dach gmbh, dsgvo datenschutzerklärung münchen, cookies webhosting ki chatbot openai, betroffenenrechte auskunft löschung widerspruch, bayerisches landesamt datenschutzaufsicht"
+        aiSummary="089Dach GmbH Datenschutzerklärung: DSGVO-konform, Stand Dezember 2025. Verantwortlicher: Falko Georg Blöckinger, Thuillestr. 20, 81247 München. Aufsichtsbehörde: BayLDA Ansbach. KI-Chatbot mit OpenAI. Kontakt: info@089dach.de."
       />
+      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Datenschutz", url: "/datenschutz" }]} />
       <Navbar />
       
       <div className="bg-secondary pt-10 pb-12">

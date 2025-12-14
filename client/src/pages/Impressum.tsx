@@ -1,7 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Shield, Phone, Mail, MapPin } from "lucide-react";
-import SEO from "@/components/SEO";
+import SEO, { BreadcrumbSchema } from "@/components/SEO";
 
 export default function Impressum() {
   return (
@@ -10,7 +10,10 @@ export default function Impressum() {
         title="Impressum | 089Dach GmbH Dachdecker München"
         description="Impressum der 089Dach GmbH, Ihrem Dachdecker-Meisterbetrieb in München-Obermenzing. Angaben gemäß § 5 TMG."
         canonical="https://089dach.de/impressum"
+        keywords="impressum 089dach gmbh, dachdecker münchen obermenzing kontakt adresse, falko blöckinger geschäftsführer handwerkskammer, hrb 305535 amtsgericht münchen, thuillestr 20 81247 münchen"
+        aiSummary="089Dach GmbH Impressum: Geschäftsführer Falko Georg Blöckinger, Thuillestr. 20, 81247 München-Obermenzing. HRB 305535, Amtsgericht München. Telefon: 089 12621964, E-Mail: info@089dach.de. Dachdecker- und Spenglermeister."
       />
+      <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Impressum", url: "/impressum" }]} />
       <Navbar />
       
       <section className="pt-10 pb-12 bg-secondary">
