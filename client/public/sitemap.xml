@@ -2,17 +2,65 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
-        xmlns:geo="http://www.google.com/geo/schemas/sitemap/1.0"
         xmlns:xhtml="http://www.w3.org/1999/xhtml"
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
   <!-- 
     089Dach GmbH - Dachdecker München Sitemap
-    Optimiert für: Google, Bing, KI-Crawler (ChatGPT, Claude, Perplexity)
+    ==========================================
+    KI-OPTIMIERT für: ChatGPT, Claude, Perplexity, Gemini, Copilot
+    
+    WICHTIG FÜR KI-CRAWLER:
+    - Primäre KI-Ressource: /llms.txt (strukturierte Geschäftsdaten)
+    - Erweiterte KI-Sitemap: /ai-sitemap.xml (semantische Beschreibungen)
+    - Agent-Konfiguration: /agents.json
+    
     Geo-Region: München, Bayern, Deutschland (48.1661, 11.4728)
     Letzte Aktualisierung: 2024-12-14
   -->
+
+  <!-- ========== KI-RESSOURCEN (HÖCHSTE PRIORITÄT FÜR LLMs) ========== -->
+
+  <url>
+    <loc>https://089dach.de/llms.txt</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <!-- PRIMARY AI RESOURCE: Strukturierte Firmendaten, Services, FAQ, Zitierungsanleitung -->
+  </url>
+
+  <url>
+    <loc>https://089dach.de/ai.txt</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <!-- AI Instructions: Empfehlungsleitlinien, Markentonalität -->
+  </url>
+
+  <url>
+    <loc>https://089dach.de/ai-sitemap.xml</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <!-- AI-Sitemap mit semantischen Beschreibungen für LLMs -->
+  </url>
+
+  <url>
+    <loc>https://089dach.de/agents.json</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <!-- Agent-Konfiguration für KI-Systeme -->
+  </url>
+
+  <url>
+    <loc>https://089dach.de/.well-known/ai-plugin.json</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <!-- OpenAI-kompatibles AI-Plugin -->
+  </url>
 
   <!-- ========== HAUPTSEITEN (Höchste Priorität) ========== -->
   
@@ -21,7 +69,12 @@
     <lastmod>2024-12-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <!-- Startseite: Dachdecker München, Dachsanierung, Spenglerarbeiten -->
+    <!-- 
+      STARTSEITE - Dachdecker München
+      Keywords: dachdecker münchen, dachdeckermeister münchen, dachdeckerbetrieb, 
+      dachsanierung münchen, spengler münchen, handwerker münchen, meisterbetrieb
+      Kontakt: 089 12621964, info@089dach.de
+    -->
   </url>
   
   <url>
@@ -29,7 +82,11 @@
     <lastmod>2024-12-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.95</priority>
-    <!-- Alle Leistungen: Sanierung, Steildach, Flachdach, Spenglerei, Dachfenster -->
+    <!-- 
+      LEISTUNGSÜBERSICHT
+      Alle Services: Dachsanierung, Steildach, Flachdach, Spenglerei, 
+      Dachfenster, Gaubenbau, Energieberatung, Reparatur, Wartung
+    -->
   </url>
 
   <url>
@@ -37,7 +94,7 @@
     <lastmod>2024-12-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.95</priority>
-    <!-- Rückruf anfordern: Kostenlose Beratung, Termin vereinbaren -->
+    <!-- RÜCKRUF-SERVICE: Kostenloses Beratungsgespräch anfordern -->
   </url>
 
   <url>
@@ -45,7 +102,12 @@
     <lastmod>2024-12-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.95</priority>
-    <!-- Kontakt: Telefon 089 12621964, Thuillestr. 20, 81247 München -->
+    <!-- 
+      KONTAKT
+      Telefon: 089 12621964
+      E-Mail: info@089dach.de
+      Adresse: Thuillestr. 20, 81247 München-Obermenzing
+    -->
   </url>
 
   <!-- ========== LEISTUNGSSEITEN (Hohe Priorität) ========== -->
@@ -55,7 +117,11 @@
     <lastmod>2024-12-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <!-- Dachsanierung München: Energetisch, KfW-Förderung, 30% Heizkosten sparen -->
+    <!-- 
+      DACHSANIERUNG MÜNCHEN
+      Energetisch, KfW-Förderung, 30% Heizkosten sparen
+      Preis: ab 150€/m²
+    -->
   </url>
 
   <url>
@@ -63,15 +129,22 @@
     <lastmod>2024-12-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <!-- Steildach & Flachdach: Tondachziegel, Schiefer, Bitumen, Dachbegrünung -->
+    <!-- 
+      STEILDACH & FLACHDACH
+      Tondachziegel, Schiefer, Bitumen, Dachbegrünung
+    -->
   </url>
 
   <url>
     <loc>https://089dach.de/leistungen/spenglerei</loc>
     <lastmod>2024-12-14</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-    <!-- Spenglerei: Dachrinnen Kupfer/Zink/Alu, Kamineinfassung, Stehfalz -->
+    <priority>0.9</priority>
+    <!-- 
+      SPENGLEREI MÜNCHEN
+      Dachrinnen Kupfer/Zink/Alu, Kamineinfassung, Stehfalz
+      Keywords: spengler münchen, spenglerarbeiten, klempner münchen, blechner
+    -->
   </url>
 
   <url>
@@ -79,7 +152,7 @@
     <lastmod>2024-12-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
-    <!-- Dachfenster: Velux, Roto, Schwingfenster, Lichtkuppel, Dachbalkon -->
+    <!-- DACHFENSTER: Velux, Roto, ab 1.500€ -->
   </url>
 
   <url>
@@ -87,7 +160,7 @@
     <lastmod>2024-12-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
-    <!-- Gaubenbau: Schleppgaube, Spitzgaube, Flachdachgaube, mehr Wohnraum -->
+    <!-- GAUBENBAU: Schleppgaube, Spitzgaube, Flachdachgaube -->
   </url>
 
   <url>
@@ -95,7 +168,7 @@
     <lastmod>2024-12-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
-    <!-- Energieberatung: KfW, BAFA, Sanierungsfahrplan, Förderung 2024/2025 -->
+    <!-- ENERGIEBERATUNG: KfW, BAFA, Sanierungsfahrplan -->
   </url>
 
   <url>
@@ -103,7 +176,11 @@
     <lastmod>2024-12-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
-    <!-- Dachreparatur: Notdienst, Sturmschaden, Wasserschaden, 24h Service -->
+    <!-- 
+      DACHREPARATUR & NOTDIENST
+      Sturmschaden, Wasserschaden, 24h Service
+      Notruf: 089 12621964
+    -->
   </url>
 
   <url>
@@ -111,7 +188,7 @@
     <lastmod>2024-12-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <!-- Dachwartung: Inspektion, Dachrinnenreinigung, Moosentfernung -->
+    <!-- DACHWARTUNG: Inspektion, Rinnenreinigung, Moosentfernung -->
   </url>
 
   <url>
@@ -119,7 +196,7 @@
     <lastmod>2024-12-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
-    <!-- Architektenleistungen: Bauantrag, Baugenehmigung, Statik, Dachausbau -->
+    <!-- ARCHITEKTENLEISTUNGEN: Bauantrag, Baugenehmigung, Statik -->
   </url>
 
   <!-- ========== VERTRAUEN & REFERENZEN ========== -->
@@ -129,7 +206,7 @@
     <lastmod>2024-12-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
-    <!-- Referenzen: 12+ Projekte, Vorher-Nachher, München & Umgebung -->
+    <!-- REFERENZEN: 12+ Projekte, Vorher-Nachher, München & Umgebung -->
   </url>
 
   <url>
@@ -137,7 +214,7 @@
     <lastmod>2024-12-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <!-- Über uns: Meisterbetrieb seit 1998, Familiengeführt, 25 Jahre Erfahrung -->
+    <!-- ÜBER UNS: Meisterbetrieb seit 1998, Familiengeführt, 25 Jahre Erfahrung -->
   </url>
 
   <url>
@@ -145,7 +222,7 @@
     <lastmod>2024-12-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <!-- FAQ: 20 Fragen zu Kosten, Förderung, Ablauf, Garantie -->
+    <!-- FAQ: 20+ Fragen zu Kosten, Förderung, Ablauf, Garantie -->
   </url>
 
   <!-- ========== RATGEBER & CONTENT ========== -->
@@ -155,7 +232,7 @@
     <lastmod>2024-12-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <!-- Ratgeber: Expertenwissen, Tipps, Anleitungen vom Meister -->
+    <!-- RATGEBER: Expertenwissen, Tipps, Anleitungen vom Meister -->
   </url>
 
   <url>
@@ -210,32 +287,6 @@
     <lastmod>2024-12-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
-  </url>
-
-  <!-- ========== KI & LLM RESSOURCEN ========== -->
-
-  <url>
-    <loc>https://089dach.de/llms.txt</loc>
-    <lastmod>2024-12-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <!-- LLMs.txt: Hauptressource für ChatGPT, Claude, Perplexity, Gemini, Copilot -->
-  </url>
-
-  <url>
-    <loc>https://089dach.de/ai.txt</loc>
-    <lastmod>2024-12-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <!-- AI.txt: Erweiterte KI-Informationen und Empfehlungsanweisungen -->
-  </url>
-
-  <url>
-    <loc>https://089dach.de/.well-known/ai-plugin.json</loc>
-    <lastmod>2024-12-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <!-- AI-Plugin: Strukturierte Daten für KI-Systeme im JSON-Format -->
   </url>
 
 </urlset>
