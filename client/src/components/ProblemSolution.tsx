@@ -59,7 +59,7 @@ export default function ProblemSolution({ onOpenFunnel }: ProblemSolutionProps) 
             >
               <div className="grid grid-cols-1 lg:grid-cols-5 min-h-[280px]">
                 
-                <div className="p-8 bg-red-50/50 flex flex-col justify-center border-b lg:border-b-0 lg:border-r border-red-200 lg:col-span-2">
+                <div className="p-4 md:p-8 bg-red-50/50 flex flex-col justify-center border-b lg:border-b-0 lg:border-r border-red-200 lg:col-span-2">
                   <div className="flex items-center gap-3 mb-4">
                     <div className="p-2 bg-red-100 text-red-600 rounded-xl">
                       {item.icon}
@@ -77,7 +77,7 @@ export default function ProblemSolution({ onOpenFunnel }: ProblemSolutionProps) 
                   </p>
                 </div>
 
-                <div className="p-8 bg-green-50/50 flex flex-col justify-center lg:col-span-3">
+                <div className="p-4 md:p-8 bg-green-50/50 flex flex-col justify-center lg:col-span-3">
                   <div className="flex items-center gap-3 mb-4">
                     <div className="p-2 bg-green-100 text-green-700 rounded-xl">
                       <CheckCircle2 className="h-6 w-6" />
