@@ -129,6 +129,21 @@ export default function Leistungen() {
         "Gaubensanierung & Modernisierung",
         "Genehmigungsplanung inklusive"
       ]
+    },
+    {
+      id: "bauantraege",
+      icon: <Ruler className="h-8 w-8 text-primary" />,
+      title: "Bauanträge & Architektenleistungen",
+      problem: "Sie benötigen eine Baugenehmigung für Ihr Dachprojekt, aber der Papierkram überfordert Sie?",
+      solution: "Unsere Partner-Architekten übernehmen Planung, Zeichnungen und Bauanträge – alles aus einer Hand.",
+      result: "Sie bekommen die Genehmigung ohne Stress und können sich auf Ihr Projekt freuen.",
+      story: "Herr Wagner wollte sein Dachgeschoss ausbauen. Unser Partnernetzwerk hat den Bauantrag in 4 Wochen durchgebracht – schneller als erwartet.",
+      details: [
+        "Bauanträge & Genehmigungen",
+        "Architektenleistungen (Partnernetzwerk)",
+        "Statikprüfung & Planung",
+        "Komplette Projektbegleitung"
+      ]
     }
   ];
 
