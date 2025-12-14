@@ -72,7 +72,7 @@ export default function ChatWidget() {
       >
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="absolute left-0 top-1/2 -translate-x-full -translate-y-1/2 bg-primary hover:bg-primary/90 text-white px-2 py-6 rounded-l-lg shadow-lg transition-all flex flex-col items-center gap-2"
+          className="absolute left-0 top-1/2 -translate-x-full -translate-y-1/2 bg-primary hover:bg-primary/90 text-white px-2 py-6 rounded-l-xl shadow-lg transition-all flex flex-col items-center gap-2"
           data-testid="button-chat-toggle"
         >
           {isOpen ? (
