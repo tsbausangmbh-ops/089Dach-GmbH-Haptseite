@@ -158,7 +158,7 @@ export default function RatgeberLeckortung() {
               >
                 <Link href="/rueckruf">
                   <Phone className="mr-2 h-5 w-5" />
-                  Jetzt Leck finden lassen
+                  Rückruf anfragen
                 </Link>
               </Button>
               <p className="text-sm text-muted-foreground mt-3">Termin oft schon in 24-48 Stunden</p>

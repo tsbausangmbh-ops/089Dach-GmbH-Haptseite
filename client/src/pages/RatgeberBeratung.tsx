@@ -330,7 +330,7 @@ export default function RatgeberBeratung() {
                 >
                   <Link href="/rueckruf">
                     <Phone className="mr-2 h-5 w-5" />
-                    Jetzt kostenlos beraten lassen
+                    Rückruf anfragen
                   </Link>
                 </Button>
               </div>

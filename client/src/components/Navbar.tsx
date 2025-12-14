@@ -50,7 +50,7 @@ export default function Navbar() {
             </a>
             <a href="/rueckruf" className="flex items-center gap-2 hover:text-primary transition-colors">
               <Phone className="h-4 w-4 text-primary" />
-              Rückruf anfordern
+              Rückruf anfragen
             </a>
             <a href="mailto:info@089dach.de" className="flex items-center gap-2 hover:text-primary transition-colors">
               <Mail className="h-4 w-4 text-primary" />
@@ -142,7 +142,7 @@ export default function Navbar() {
             Kontakt
           </a>
           <Button className="bg-primary hover:bg-primary/90 text-white font-bold rounded-sm" asChild>
-            <a href="/rueckruf">Rückruf anfordern</a>
+            <a href="/rueckruf">Rückruf anfragen</a>
           </Button>
         </div>
 
@@ -227,7 +227,7 @@ export default function Navbar() {
                 <ChevronRight className="h-4 w-4" />
               </a>
               <Button className="mt-4 bg-primary hover:bg-primary/90 w-full rounded-sm" asChild>
-                <a href="/rueckruf">Rückruf anfordern</a>
+                <a href="/rueckruf">Rückruf anfragen</a>
               </Button>
             </nav>
           </SheetContent>
