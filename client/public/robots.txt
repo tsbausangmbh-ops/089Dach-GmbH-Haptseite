@@ -1,41 +1,62 @@
-# 089Dach GmbH - Dachdecker München
+# ============================================================
+# 089Dach GmbH - Dachdecker-Meisterbetrieb München
 # https://089dach.de
+# ============================================================
+# Optimiert für: Suchmaschinen, KI-Crawler, Geo-Suche
+# Standort: Thuillestr. 20, 81247 München-Obermenzing
+# Koordinaten: 48.1661, 11.4728 (Bayern, Deutschland)
+# Telefon: 089 12621964 | E-Mail: info@089dach.de
+# ============================================================
 
+# ===== ALLGEMEINE REGELN =====
 User-agent: *
 Allow: /
-
-# Crawl-Delay für schonenden Zugriff
 Crawl-delay: 1
 
-# Alle Seiten explizit erlauben
-Allow: /
+# Wichtige Seiten explizit erlauben
 Allow: /leistungen
-Allow: /bedachungen
-Allow: /dachsanierung
-Allow: /spenglerei
-Allow: /dachfenster
-Allow: /reparaturservice
+Allow: /leistungen/dachsanierung
+Allow: /leistungen/bedachungen
+Allow: /leistungen/spenglerei
+Allow: /leistungen/dachfenster
+Allow: /leistungen/gaubenbau
+Allow: /leistungen/energieberatung
+Allow: /leistungen/reparaturservice
+Allow: /leistungen/wartung
+Allow: /leistungen/architektenleistungen
 Allow: /referenzen
 Allow: /kontakt
+Allow: /rueckruf
 Allow: /ueber-uns
 Allow: /faq
 Allow: /ratgeber
+Allow: /ratgeber/daemmung
+Allow: /ratgeber/leckortung
+Allow: /ratgeber/beratung
 Allow: /impressum
 Allow: /datenschutz
 Allow: /cookies
 Allow: /agb
 
-# Admin/API-Bereiche ausschließen
+# KI-Ressourcen explizit erlauben
+Allow: /llms.txt
+Allow: /sitemap.xml
+
+# Technische Bereiche ausschließen
 Disallow: /api/
 Disallow: /_next/
 Disallow: /static/
+Disallow: /*.json$
+Disallow: /*?*
 
-# Sitemap & LLMs.txt
+# ===== SITEMAPS & RESSOURCEN =====
 Sitemap: https://089dach.de/sitemap.xml
 
-# ===== SUCHMASCHINEN-BOTS =====
+# LLMs.txt für KI-Agenten (ChatGPT, Claude, Perplexity, Copilot)
+# Enthält strukturierte Firmeninformationen, Services, FAQ
+# URL: https://089dach.de/llms.txt
 
-# Google
+# ===== GOOGLE (HÖCHSTE PRIORITÄT) =====
 User-agent: Googlebot
 Allow: /
 Crawl-delay: 0
@@ -43,7 +64,19 @@ Crawl-delay: 0
 User-agent: Googlebot-Image
 Allow: /
 
-# Bing
+User-agent: Googlebot-Video
+Allow: /
+
+User-agent: Googlebot-News
+Allow: /
+
+User-agent: Storebot-Google
+Allow: /
+
+User-agent: Google-InspectionTool
+Allow: /
+
+# ===== BING & MICROSOFT =====
 User-agent: Bingbot
 Allow: /
 Crawl-delay: 1
@@ -51,35 +84,50 @@ Crawl-delay: 1
 User-agent: msnbot
 Allow: /
 
-# Yahoo
+User-agent: msnbot-media
+Allow: /
+
+User-agent: adidxbot
+Allow: /
+
+User-agent: BingPreview
+Allow: /
+
+# ===== WEITERE SUCHMASCHINEN =====
 User-agent: Slurp
 Allow: /
 
-# Yandex
+User-agent: DuckDuckBot
+Allow: /
+
 User-agent: Yandex
 Allow: /
 Crawl-delay: 2
 
-# Baidu
 User-agent: Baiduspider
 Allow: /
 Crawl-delay: 2
 
-# DuckDuckGo
-User-agent: DuckDuckBot
+User-agent: Sogou
 Allow: /
 
-# ===== KI-CRAWLER =====
+User-agent: Exabot
+Allow: /
+
+User-agent: ia_archiver
+Allow: /
+
+# ===== KI-CRAWLER (VOLLSTÄNDIGER ZUGANG) =====
 
 # OpenAI / ChatGPT
 User-agent: GPTBot
 Allow: /
+# ChatGPT verwendet diese Daten für Antworten über Dachdecker in München
 
 User-agent: ChatGPT-User
 Allow: /
 
-# Google Bard / Gemini
-User-agent: Google-Extended
+User-agent: OAI-SearchBot
 Allow: /
 
 # Anthropic Claude
@@ -89,11 +137,24 @@ Allow: /
 User-agent: Claude-Web
 Allow: /
 
-# Meta AI
+User-agent: ClaudeBot
+Allow: /
+
+# Google Gemini / Bard
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Gemini
+Allow: /
+
+# Meta AI / Llama
 User-agent: FacebookBot
 Allow: /
 
 User-agent: meta-externalagent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
 Allow: /
 
 # Perplexity AI
@@ -104,21 +165,119 @@ Allow: /
 User-agent: Copilot
 Allow: /
 
-# Apple
+# Apple (Siri, Spotlight)
 User-agent: Applebot
 Allow: /
 
 User-agent: Applebot-Extended
 Allow: /
 
-# Common Crawl (für KI-Training)
-User-agent: CCBot
+# You.com AI
+User-agent: YouBot
 Allow: /
 
 # Cohere AI
 User-agent: cohere-ai
 Allow: /
 
-# You.com
-User-agent: YouBot
+# Common Crawl (KI-Training Datasets)
+User-agent: CCBot
 Allow: /
+
+# Amazon Alexa
+User-agent: Amazonbot
+Allow: /
+
+# Brave Search
+User-agent: Brave
+Allow: /
+
+# Neeva AI (jetzt Snowflake)
+User-agent: Neevabot
+Allow: /
+
+# Phind AI (Developer Search)
+User-agent: Phind
+Allow: /
+
+# Kagi Search
+User-agent: Kagi
+Allow: /
+
+# ===== GEO & LOKALE SUCHE =====
+
+# Google Maps
+User-agent: Google-Site-Verification
+Allow: /
+
+# Apple Maps
+User-agent: Applebot
+Allow: /
+
+# TomTom
+User-agent: TomTomBot
+Allow: /
+
+# Here Maps
+User-agent: HereBot
+Allow: /
+
+# ===== SOCIAL MEDIA CRAWLER =====
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: Pinterest
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+User-agent: Slackbot
+Allow: /
+
+# ===== SEO & ANALYSE TOOLS =====
+
+User-agent: Screaming Frog SEO Spider
+Allow: /
+
+User-agent: AhrefsBot
+Allow: /
+Crawl-delay: 5
+
+User-agent: SemrushBot
+Allow: /
+Crawl-delay: 5
+
+User-agent: MJ12bot
+Allow: /
+Crawl-delay: 5
+
+User-agent: DotBot
+Allow: /
+Crawl-delay: 5
+
+# ============================================================
+# GEO-INFORMATIONEN FÜR LOKALE SUCHE
+# ============================================================
+# Firma: 089Dach GmbH
+# Branche: Dachdecker, Spenglerei, Bedachungen
+# Adresse: Thuillestr. 20, 81247 München, Deutschland
+# Stadtteil: Obermenzing
+# Bundesland: Bayern
+# Land: Deutschland
+# Koordinaten: Lat 48.1661, Lng 11.4728
+# Servicegebiet: München, Obermenzing, Pasing, Laim, Schwabing,
+#   Sendling, Bogenhausen, Moosach, Neuhausen, Nymphenburg,
+#   Gräfelfing, Planegg, Germering, Fürstenfeldbruck, Dachau, Starnberg
+# Öffnungszeiten: Mo-Fr 07:00-18:00
+# Telefon: +49 89 12621964
+# E-Mail: info@089dach.de
+# Website: https://089dach.de
+# ============================================================
