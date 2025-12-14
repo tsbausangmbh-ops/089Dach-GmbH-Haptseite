@@ -31,9 +31,27 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://089dach.de/dachfenster</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://089dach.de/reparaturservice</loc>
     <lastmod>2024-12-14</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://089dach.de/referenzen</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://089dach.de/ratgeber</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
@@ -43,22 +61,10 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://089dach.de/referenzen</loc>
-    <lastmod>2024-12-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://089dach.de/faq</loc>
     <lastmod>2024-12-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://089dach.de/ratgeber</loc>
-    <lastmod>2024-12-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://089dach.de/kontakt</loc>
@@ -79,15 +85,15 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://089dach.de/agb</loc>
+    <loc>https://089dach.de/cookies</loc>
     <lastmod>2024-12-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://089dach.de/dachfenster</loc>
+    <loc>https://089dach.de/agb</loc>
     <lastmod>2024-12-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
 </urlset>

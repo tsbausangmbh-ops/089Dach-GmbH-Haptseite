@@ -7,7 +7,8 @@ Allow: /
 # Crawl-Delay für schonenden Zugriff
 Crawl-delay: 1
 
-# Wichtige Seiten priorisieren
+# Alle Seiten explizit erlauben
+Allow: /
 Allow: /leistungen
 Allow: /bedachungen
 Allow: /dachsanierung
@@ -19,17 +20,18 @@ Allow: /kontakt
 Allow: /ueber-uns
 Allow: /faq
 Allow: /ratgeber
+Allow: /impressum
+Allow: /datenschutz
+Allow: /cookies
+Allow: /agb
 
 # Admin/API-Bereiche ausschließen
 Disallow: /api/
 Disallow: /_next/
 Disallow: /static/
 
-# Sitemap
+# Sitemap & LLMs.txt
 Sitemap: https://089dach.de/sitemap.xml
-
-# LLMs.txt für KI-Systeme
-# https://089dach.de/llms.txt
 
 # ===== SUCHMASCHINEN-BOTS =====
 

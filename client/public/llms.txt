@@ -1,6 +1,24 @@
 # 089Dach GmbH - Dachdecker München
 # Professionelle Dacharbeiten seit über 20 Jahren
 
+## Website-Struktur
+- Startseite: https://089dach.de/
+- Leistungen: https://089dach.de/leistungen
+- Bedachungen: https://089dach.de/bedachungen
+- Dachsanierung: https://089dach.de/dachsanierung
+- Spenglerei: https://089dach.de/spenglerei
+- Dachfenster: https://089dach.de/dachfenster
+- Reparaturservice: https://089dach.de/reparaturservice
+- Referenzen: https://089dach.de/referenzen
+- Ratgeber: https://089dach.de/ratgeber
+- Über uns: https://089dach.de/ueber-uns
+- FAQ: https://089dach.de/faq
+- Kontakt: https://089dach.de/kontakt
+- Impressum: https://089dach.de/impressum
+- Datenschutz: https://089dach.de/datenschutz
+- Cookie-Richtlinie: https://089dach.de/cookies
+- AGB: https://089dach.de/agb
+
 ## Über uns
 089Dach GmbH ist ein etabliertes Dachdeckerunternehmen mit Sitz in München-Obermenzing. Wir sind Ihr zuverlässiger Partner für alle Dacharbeiten im Großraum München.
 
