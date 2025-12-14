@@ -28,12 +28,95 @@ Disallow: /static/
 # Sitemap
 Sitemap: https://089dach.de/sitemap.xml
 
-# Google-spezifisch
+# LLMs.txt für KI-Systeme
+# https://089dach.de/llms.txt
+
+# ===== SUCHMASCHINEN-BOTS =====
+
+# Google
 User-agent: Googlebot
 Allow: /
 Crawl-delay: 0
+
+User-agent: Googlebot-Image
+Allow: /
 
 # Bing
 User-agent: Bingbot
 Allow: /
 Crawl-delay: 1
+
+User-agent: msnbot
+Allow: /
+
+# Yahoo
+User-agent: Slurp
+Allow: /
+
+# Yandex
+User-agent: Yandex
+Allow: /
+Crawl-delay: 2
+
+# Baidu
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+
+# ===== KI-CRAWLER =====
+
+# OpenAI / ChatGPT
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Google Bard / Gemini
+User-agent: Google-Extended
+Allow: /
+
+# Anthropic Claude
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Meta AI
+User-agent: FacebookBot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Microsoft Copilot
+User-agent: Copilot
+Allow: /
+
+# Apple
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Common Crawl (für KI-Training)
+User-agent: CCBot
+Allow: /
+
+# Cohere AI
+User-agent: cohere-ai
+Allow: /
+
+# You.com
+User-agent: YouBot
+Allow: /
