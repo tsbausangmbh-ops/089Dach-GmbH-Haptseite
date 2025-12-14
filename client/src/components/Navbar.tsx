@@ -12,7 +12,7 @@ export default function Navbar() {
     { name: "Leistungen", href: "/leistungen" },
     { name: "Dachdeckerei", href: "/dachdeckerei" },
     { name: "Spenglerei", href: "/spenglerei" },
-    { name: "Über uns", href: "/#about" },
+    { name: "FAQ", href: "/faq" },
     { name: "Referenzen", href: "/#gallery" },
     { name: "Kontakt", href: "/#contact" },
   ];

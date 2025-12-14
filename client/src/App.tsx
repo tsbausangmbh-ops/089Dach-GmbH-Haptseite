@@ -8,6 +8,7 @@ import Home from "@/pages/Home";
 import Dachdeckerei from "@/pages/Dachdeckerei";
 import Leistungen from "@/pages/Leistungen";
 import Spenglerei from "@/pages/Spenglerei";
+import FAQ from "@/pages/FAQ";
 
 function Router() {
   return (
@@ -16,6 +17,7 @@ function Router() {
       <Route path="/dachdeckerei" component={Dachdeckerei} />
       <Route path="/spenglerei" component={Spenglerei} />
       <Route path="/leistungen" component={Leistungen} />
+      <Route path="/faq" component={FAQ} />
       <Route component={NotFound} />
     </Switch>
   );
