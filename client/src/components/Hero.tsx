@@ -146,8 +146,8 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
               <span className="font-semibold text-secondary">"Pünktlich, sauber, fairer Preis – genau wie versprochen."</span>
               {" "}– M. Keller, Obermenzing
             </p>
-            <Button variant="link" className="text-primary font-semibold p-0" asChild data-testid="link-more-reviews">
-              <a href="/referenzen">Mehr Bewertungen →</a>
+            <Button variant="link" className="text-primary font-semibold p-0" asChild data-testid="link-all-services">
+              <a href="/leistungen">Alle Leistungen im Überblick →</a>
             </Button>
           </div>
         </div>
