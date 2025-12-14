@@ -124,7 +124,7 @@ export default function Navbar() {
           <a href="/referenzen" className="text-sm font-medium text-secondary hover:text-primary transition-colors">
             Referenzen
           </a>
-          <a href="/beratung" className="text-sm font-medium text-secondary hover:text-primary transition-colors">
+          <a href="/kontakt" className="text-sm font-medium text-secondary hover:text-primary transition-colors">
             Kontakt
           </a>
           <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-white font-bold" asChild>
@@ -194,7 +194,7 @@ export default function Navbar() {
                 Referenzen
                 <ChevronRight className="h-4 w-4" />
               </a>
-              <a href="/beratung" className="text-lg font-medium text-foreground hover:text-primary transition-colors flex items-center justify-between border-b pb-2" onClick={() => setIsOpen(false)}>
+              <a href="/kontakt" className="text-lg font-medium text-foreground hover:text-primary transition-colors flex items-center justify-between border-b pb-2" onClick={() => setIsOpen(false)}>
                 Kontakt
                 <ChevronRight className="h-4 w-4" />
               </a>
