@@ -449,18 +449,6 @@ export default function KostenloseBeratung() {
               </div>
 
               <div className="space-y-2">
-                <Label htmlFor="message">Erzählen Sie uns mehr (optional)</Label>
-                <Textarea 
-                  id="message"
-                  placeholder="z.B. Welche Fragen haben Sie? Was möchten Sie in der Beratung besprechen? Gibt es besondere Wünsche?"
-                  className="min-h-[100px]"
-                  value={formData.message}
-                  onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                  data-testid="textarea-beratung-message"
-                />
-              </div>
-
-              <div className="space-y-2">
                 <Label>Dateien anhängen (optional)</Label>
                 <div 
                   className={`border-2 border-dashed rounded-lg p-4 text-center transition-colors ${isDragging ? 'border-primary bg-primary/5' : 'border-gray-300 hover:border-primary'}`}
@@ -507,6 +495,18 @@ export default function KostenloseBeratung() {
                     ))}
                   </div>
                 )}
+              </div>
+
+              <div className="space-y-2">
+                <Label htmlFor="message">Erzählen Sie uns mehr (optional)</Label>
+                <Textarea 
+                  id="message"
+                  placeholder="z.B. Welche Fragen haben Sie? Was möchten Sie in der Beratung besprechen? Gibt es besondere Wünsche?"
+                  className="min-h-[100px]"
+                  value={formData.message}
+                  onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+                  data-testid="textarea-beratung-message"
+                />
               </div>
 
               <Button 
