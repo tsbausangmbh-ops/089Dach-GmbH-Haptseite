@@ -11,6 +11,7 @@ import Spenglerei from "@/pages/Spenglerei";
 import FAQ from "@/pages/FAQ";
 import Datenschutz from "@/pages/Datenschutz";
 import CookiePolicy from "@/pages/CookiePolicy";
+import Referenzen from "@/pages/Referenzen";
 import CookieConsent from "@/components/CookieConsent";
 
 function Router() {
@@ -20,6 +21,7 @@ function Router() {
       <Route path="/bedachungen" component={Bedachungen} />
       <Route path="/spenglerei" component={Spenglerei} />
       <Route path="/leistungen" component={Leistungen} />
+      <Route path="/referenzen" component={Referenzen} />
       <Route path="/faq" component={FAQ} />
       <Route path="/datenschutz" component={Datenschutz} />
       <Route path="/cookies" component={CookiePolicy} />

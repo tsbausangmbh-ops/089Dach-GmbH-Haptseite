@@ -13,7 +13,7 @@ export default function Navbar() {
     { name: "Bedachungen", href: "/bedachungen" },
     { name: "Spenglerei", href: "/spenglerei" },
     { name: "FAQ", href: "/faq" },
-    { name: "Referenzen", href: "/#gallery" },
+    { name: "Referenzen", href: "/referenzen" },
     { name: "Kontakt", href: "/#contact" },
   ];
 
