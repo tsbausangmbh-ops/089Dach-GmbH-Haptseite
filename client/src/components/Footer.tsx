@@ -66,8 +66,10 @@ export default function Footer() {
           <p className="text-gray-500 text-sm">
             &copy; {new Date().getFullYear()} 089Dach GmbH. Alle Rechte vorbehalten.
           </p>
-          <div className="text-gray-500 text-sm">
-            <span className="font-medium text-gray-400">Öffnungszeiten:</span> Mo - Fr: 08:00 - 16:30 | Sa - So: geschlossen
+          <div className="text-gray-500 text-sm flex flex-wrap items-center gap-2">
+            <span><span className="font-medium text-gray-400">Öffnungszeiten:</span> Mo - Fr: 08:00 - 16:30 | Sa - So: geschlossen</span>
+            <span className="text-gray-600">|</span>
+            <a href="/rueckruf" className="text-primary hover:text-primary/80 font-medium transition-colors" data-testid="link-footer-rueckruf">Rückruf anfordern</a>
           </div>
         </div>
       </div>
