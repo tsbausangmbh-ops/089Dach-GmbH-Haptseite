@@ -231,7 +231,7 @@ export default function Leistungen() {
       {/* Trust Badges */}
       <div className="bg-stone-100 py-2 border-b border-stone-200">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="flex flex-wrap justify-center gap-4 text-xs">
+          <div className="flex flex-col md:flex-row flex-wrap justify-center items-center gap-2 md:gap-4 text-xs">
             <span className="flex items-center gap-1.5">
               <Award className="h-4 w-4 text-primary" />
               <span>Meister für Dach- und Spenglerei seit 1998</span>
