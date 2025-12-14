@@ -27,20 +27,20 @@ export default function Heizkostenrechner() {
   const [result, setResult] = useState<CalculationResult | null>(null);
 
   const heizungsarten = [
-    { value: "gas", label: "Erdgas", preis: 0.12, co2: 0.201 },
-    { value: "oel", label: "Heizöl", preis: 0.10, co2: 0.266 },
-    { value: "fernwaerme", label: "Fernwärme", preis: 0.11, co2: 0.183 },
-    { value: "waermepumpe", label: "Wärmepumpe", preis: 0.30, co2: 0.366 },
-    { value: "pellets", label: "Holzpellets", preis: 0.08, co2: 0.023 }
+    { value: "gas", label: "Erdgas", preis: 0.14, co2: 0.201 },
+    { value: "oel", label: "Heizöl", preis: 0.12, co2: 0.266 },
+    { value: "fernwaerme", label: "Fernwärme", preis: 0.13, co2: 0.183 },
+    { value: "waermepumpe", label: "Wärmepumpe", preis: 0.35, co2: 0.366 },
+    { value: "pellets", label: "Holzpellets", preis: 0.10, co2: 0.023 }
   ];
 
   const getEnergiebedarf = (baujahr: number, gedaemmt: boolean): number => {
-    if (baujahr < 1970) return gedaemmt ? 120 : 200;
-    if (baujahr < 1980) return gedaemmt ? 100 : 170;
-    if (baujahr < 1990) return gedaemmt ? 90 : 150;
-    if (baujahr < 2000) return gedaemmt ? 75 : 120;
-    if (baujahr < 2010) return gedaemmt ? 60 : 90;
-    return gedaemmt ? 45 : 70;
+    if (baujahr < 1970) return gedaemmt ? 100 : 220;
+    if (baujahr < 1980) return gedaemmt ? 85 : 180;
+    if (baujahr < 1990) return gedaemmt ? 75 : 160;
+    if (baujahr < 2000) return gedaemmt ? 60 : 130;
+    if (baujahr < 2010) return gedaemmt ? 50 : 100;
+    return gedaemmt ? 40 : 75;
   };
 
   const handleCalculate = () => {
@@ -65,8 +65,8 @@ export default function Heizkostenrechner() {
     const co2New = (jahresverbrauchNeu * heizung.co2) / 1000;
     const co2Savings = co2Current - co2New;
     
-    const daemmKosten = wohnflaeche * 150;
-    let paybackYears = potentialSavings > 0 ? daemmKosten / potentialSavings : 0;
+    const daemmKosten = wohnflaeche * 120;
+    let paybackYears = potentialSavings > 0 ? daemmKosten / potentialSavings : 8;
     if (paybackYears < 8) paybackYears = 8;
     if (paybackYears > 15) paybackYears = 15;
 
