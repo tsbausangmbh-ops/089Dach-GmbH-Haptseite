@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { CheckCircle2, ThermometerSnowflake, ArrowRight, Euro, Leaf, Home, Phone } from "lucide-react";
 import { Link } from "wouter";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import heroImage from "@assets/generated_images/roof_insulation_installation_scene.png";
 
 export default function RatgeberDaemmung() {
   return (
@@ -22,8 +23,14 @@ export default function RatgeberDaemmung() {
       ]} />
       <Navbar />
       
-      <section className="pt-10 pb-12 bg-secondary">
-        <div className="container mx-auto px-6 lg:px-12">
+      <section className="relative min-h-[500px] flex items-center">
+        <div 
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: `url(${heroImage})` }}
+        >
+          <div className="absolute inset-0 bg-gradient-to-r from-secondary/95 via-secondary/85 to-secondary/60"></div>
+        </div>
+        <div className="container mx-auto px-6 lg:px-12 relative z-10 py-16">
           <div className="max-w-3xl text-white">
             <div className="flex items-center gap-2 mb-4">
               <Link href="/ratgeber">
