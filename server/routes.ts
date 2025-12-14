@@ -77,17 +77,22 @@ export async function registerRoutes(
         `
       );
 
-      // Create calendar event for callback request
+      // Create calendar event for callback request (Mo-Fr, 8:00-17:00)
       try {
-        const tomorrow = new Date();
-        tomorrow.setDate(tomorrow.getDate() + 1);
-        tomorrow.setHours(9, 0, 0, 0);
+        const nextWorkday = new Date();
+        nextWorkday.setDate(nextWorkday.getDate() + 1);
+        
+        // Skip weekends: 0=Sunday, 6=Saturday
+        while (nextWorkday.getDay() === 0 || nextWorkday.getDay() === 6) {
+          nextWorkday.setDate(nextWorkday.getDate() + 1);
+        }
+        nextWorkday.setHours(8, 0, 0, 0);
         
         await createCalendarEvent(
           `Rückruf: ${validatedData.name} - ${validatedData.problem}`,
           `Kunde: ${validatedData.name}\nTelefon: ${validatedData.phone}\nE-Mail: ${validatedData.email}\nProblem: ${validatedData.problem}\nDringlichkeit: ${validatedData.timing}\nDetails: ${validatedData.details || "Keine"}`,
-          tomorrow,
-          30
+          nextWorkday,
+          540 // 9 hours (8:00 - 17:00)
         );
         console.log("Calendar event created successfully");
       } catch (calError) {
