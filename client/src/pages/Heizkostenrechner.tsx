@@ -67,6 +67,7 @@ export default function Heizkostenrechner() {
     
     const daemmKosten = wohnflaeche * 150;
     let paybackYears = potentialSavings > 0 ? daemmKosten / potentialSavings : 0;
+    if (paybackYears < 8) paybackYears = 8;
     if (paybackYears > 15) paybackYears = 15;
 
     setResult({
