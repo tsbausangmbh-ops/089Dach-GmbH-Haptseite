@@ -66,9 +66,9 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-8 bg-stone-50">
-      <div className="container mx-auto px-6 lg:px-12 mb-12">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24">
+    <section id="contact" className="py-6 md:py-8 bg-stone-50">
+      <div className="container mx-auto px-4 md:px-6 lg:px-12 mb-8 md:mb-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-24">
           
           <div>
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Kontakt</span>

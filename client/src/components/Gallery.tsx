@@ -24,7 +24,7 @@ export default function Gallery() {
   ];
 
   return (
-    <section id="gallery" className="py-8 bg-secondary text-white">
+    <section id="gallery" className="py-6 md:py-8 bg-secondary text-white">
       <div className="container mx-auto px-6 lg:px-12">
         <div className="flex flex-col md:flex-row justify-between items-end mb-8 gap-6">
           <div className="max-w-2xl">

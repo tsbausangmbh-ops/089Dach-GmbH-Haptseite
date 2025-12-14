@@ -42,7 +42,7 @@ export default function Services() {
   ];
 
   return (
-    <section id="services" className="py-8 bg-stone-50">
+    <section id="services" className="py-6 md:py-8 bg-stone-50">
       <div className="container mx-auto px-6 lg:px-12">
         <div className="text-center max-w-2xl mx-auto mb-10">
           <span className="text-primary font-bold tracking-wider uppercase text-sm">Was wir für Sie tun</span>

@@ -98,7 +98,7 @@ export default function LeadFunnel({ externalOpen, onExternalOpenChange }: LeadF
   };
 
   return (
-    <section className="py-20 bg-primary text-white overflow-hidden relative">
+    <section className="py-10 md:py-20 bg-primary text-white overflow-hidden relative">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10 pointer-events-none">
         <div className="absolute -top-24 -right-24 w-96 h-96 rounded-full bg-white blur-3xl"></div>
@@ -106,7 +106,7 @@ export default function LeadFunnel({ externalOpen, onExternalOpenChange }: LeadF
       </div>
 
       <div className="container mx-auto px-6 lg:px-12 relative z-10">
-        <div className="text-center max-w-4xl mx-auto mb-16">
+        <div className="text-center max-w-4xl mx-auto mb-8 md:mb-16">
           {/* NLP: Problem-Agitation */}
           <h2 className="text-3xl md:text-5xl font-heading font-bold mb-6 leading-tight">
             Sie wissen, dass etwas getan werden muss.<br/>
@@ -135,7 +135,7 @@ export default function LeadFunnel({ externalOpen, onExternalOpenChange }: LeadF
         </div>
 
         {/* 3-Schritte-Prozess */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-8 md:mb-16">
           <div className="bg-white/10 backdrop-blur-sm p-8 rounded-xl border border-white/20 relative group hover:bg-white/20 transition-all">
             <div className="absolute -top-6 left-1/2 -translate-x-1/2 bg-white text-primary font-bold w-12 h-12 flex items-center justify-center rounded-full text-xl shadow-lg group-hover:scale-110 transition-transform">
               1
