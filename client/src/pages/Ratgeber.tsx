@@ -206,6 +206,7 @@ export default function Ratgeber() {
                 src={gegArticleImage}
                 alt="Hausbesitzer bei Dachberatung" 
                 className="absolute inset-0 w-full h-full object-cover opacity-80"
+                loading="lazy"
               />
             </div>
           </div>

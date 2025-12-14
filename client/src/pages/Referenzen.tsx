@@ -343,6 +343,7 @@ export default function Referenzen() {
                         src={project.before} 
                         alt={`${project.title} - Vorher`} 
                         className="w-full h-full object-cover"
+                        loading="lazy"
                       />
                       <div className="absolute bottom-2 left-2 bg-red-600 text-white text-xs font-bold px-2 py-1 rounded-xl">
                         VORHER
@@ -353,6 +354,7 @@ export default function Referenzen() {
                         src={project.after} 
                         alt={`${project.title} - Nachher`} 
                         className="w-full h-full object-cover"
+                        loading="lazy"
                       />
                       <div className="absolute bottom-2 right-2 bg-green-600 text-white text-xs font-bold px-2 py-1 rounded-xl">
                         NACHHER

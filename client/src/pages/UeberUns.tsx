@@ -159,6 +159,7 @@ export default function UeberUns() {
                     src={portraitMeister} 
                     alt="Dachdeckermeister und Spenglermeister München - 089Dach GmbH seit 1998" 
                     className="w-full h-full object-cover"
+                    loading="lazy"
                     data-testid="img-portrait-meister"
                   />
                 </div>
@@ -185,6 +186,7 @@ export default function UeberUns() {
                     src={portraitGF} 
                     alt="Geschäftsführer 089Dach GmbH München - Kaufmännische Leitung" 
                     className="w-full h-full object-cover"
+                    loading="lazy"
                     data-testid="img-portrait-gf"
                   />
                 </div>

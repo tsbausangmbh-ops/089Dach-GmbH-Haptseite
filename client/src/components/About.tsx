@@ -14,6 +14,7 @@ export default function About() {
               src={toolsImage} 
               alt="Professionelles Dachdecker-Werkzeug für Spenglerarbeiten und Dachsanierung in München" 
               className="absolute inset-0 w-full h-full object-cover"
+              loading="lazy"
             />
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-secondary/90 to-transparent p-6 lg:p-8">
               <p className="font-heading font-bold text-4xl text-primary mb-1">25+</p>
