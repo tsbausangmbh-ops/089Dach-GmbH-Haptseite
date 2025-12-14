@@ -61,7 +61,11 @@ The server uses a simple storage pattern (`server/storage.ts`) that abstracts da
 
 ### Third-Party Services
 - **Google Fonts**: Inter and Plus Jakarta Sans fonts loaded via CDN
-- **No external APIs currently integrated** (prepared for potential Google Generative AI, OpenAI, Stripe based on package.json)
+- **OpenAI**: AI Chat Widget using GPT-4o-mini (via Replit AI Integration)
+- **IONOS SMTP**: E-Mail-Benachrichtigungen bei Kontaktanfragen und Rückruf-Wünschen
+  - Secrets: SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS
+  - Empfänger: info@089dach.de
+  - Verwendet Nodemailer
 
 ### Key NPM Packages
 - `drizzle-orm` / `drizzle-zod`: Database ORM and schema validation

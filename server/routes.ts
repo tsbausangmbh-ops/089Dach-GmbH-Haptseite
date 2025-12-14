@@ -3,6 +3,31 @@ import { createServer, type Server } from "http";
 import { storage } from "./storage";
 import { insertContactSchema, insertLeadSchema } from "@shared/schema";
 import OpenAI from "openai";
+import nodemailer from "nodemailer";
+
+const transporter = nodemailer.createTransport({
+  host: process.env.SMTP_HOST,
+  port: parseInt(process.env.SMTP_PORT || "465"),
+  secure: process.env.SMTP_PORT === "465",
+  auth: {
+    user: process.env.SMTP_USER,
+    pass: process.env.SMTP_PASS,
+  },
+});
+
+async function sendNotificationEmail(subject: string, htmlContent: string) {
+  try {
+    await transporter.sendMail({
+      from: process.env.SMTP_USER,
+      to: "info@089dach.de",
+      subject: subject,
+      html: htmlContent,
+    });
+    console.log("Email sent successfully");
+  } catch (error) {
+    console.error("Error sending email:", error);
+  }
+}
 
 export async function registerRoutes(
   httpServer: Server,
@@ -12,6 +37,19 @@ export async function registerRoutes(
     try {
       const validatedData = insertContactSchema.parse(req.body);
       const contact = await storage.createContact(validatedData);
+      
+      await sendNotificationEmail(
+        `Neue Kontaktanfrage von ${validatedData.name}`,
+        `
+        <h2>Neue Kontaktanfrage über die Website</h2>
+        <p><strong>Name:</strong> ${validatedData.name}</p>
+        <p><strong>E-Mail:</strong> ${validatedData.email}</p>
+        <p><strong>Telefon:</strong> ${validatedData.phone || "Nicht angegeben"}</p>
+        <p><strong>Nachricht:</strong></p>
+        <p>${validatedData.message}</p>
+        `
+      );
+      
       res.status(201).json({ success: true, data: contact });
     } catch (error) {
       console.error("Error creating contact:", error);
@@ -23,6 +61,21 @@ export async function registerRoutes(
     try {
       const validatedData = insertLeadSchema.parse(req.body);
       const lead = await storage.createLead(validatedData);
+      
+      await sendNotificationEmail(
+        `Neuer Rückruf-Wunsch: ${validatedData.problem}`,
+        `
+        <h2>Neuer Rückruf-Wunsch über die Website</h2>
+        <p><strong>Problem:</strong> ${validatedData.problem}</p>
+        <p><strong>Dringlichkeit:</strong> ${validatedData.timing}</p>
+        <p><strong>Details:</strong> ${validatedData.details || "Keine weiteren Angaben"}</p>
+        <hr>
+        <p><strong>Name:</strong> ${validatedData.name}</p>
+        <p><strong>E-Mail:</strong> ${validatedData.email}</p>
+        <p><strong>Telefon:</strong> ${validatedData.phone}</p>
+        `
+      );
+      
       res.status(201).json({ success: true, data: lead });
     } catch (error) {
       console.error("Error creating lead:", error);
