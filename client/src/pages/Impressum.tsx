@@ -83,7 +83,7 @@ export default function Impressum() {
               <p className="text-muted-foreground">
                 Eintragung im Handelsregister<br />
                 Registergericht: Amtsgericht München<br />
-                Registernummer: HRB [XXXXX]
+                Registernummer: HRB 305535
               </p>
             </div>
 
