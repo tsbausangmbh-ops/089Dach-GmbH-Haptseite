@@ -1,4 +1,39 @@
+# 089Dach GmbH - Dachdecker München
+# https://089dach.de
+
 User-agent: *
 Allow: /
 
+# Crawl-Delay für schonenden Zugriff
+Crawl-delay: 1
+
+# Wichtige Seiten priorisieren
+Allow: /leistungen
+Allow: /bedachungen
+Allow: /dachsanierung
+Allow: /spenglerei
+Allow: /dachfenster
+Allow: /reparaturservice
+Allow: /referenzen
+Allow: /kontakt
+Allow: /ueber-uns
+Allow: /faq
+Allow: /ratgeber
+
+# Admin/API-Bereiche ausschließen
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+
+# Sitemap
 Sitemap: https://089dach.de/sitemap.xml
+
+# Google-spezifisch
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
