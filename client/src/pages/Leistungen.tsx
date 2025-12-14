@@ -226,7 +226,6 @@ export default function Leistungen() {
           </div>
         </div>
       </section>
-      <BackButton />
 
       {/* Trust Badges */}
       <div className="bg-stone-100 py-2 border-b border-stone-200">
@@ -247,6 +246,7 @@ export default function Leistungen() {
           </div>
         </div>
       </div>
+      <BackButton />
 
       {/* Services List */}
       <section className="py-4">
