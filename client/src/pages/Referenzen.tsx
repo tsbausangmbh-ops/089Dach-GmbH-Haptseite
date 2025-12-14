@@ -2,7 +2,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Contact from "@/components/Contact";
 import LeadFunnel from "@/components/LeadFunnel";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, Clock, Euro, CheckCircle2 } from "lucide-react";
 
 import img1 from "@assets/generated_images/realistic_anthracite_roof_tiles_with_slight_weathering.png";
 import img3 from "@assets/generated_images/flat_roof_bitumen_detail_with_texture.png";
@@ -18,37 +18,61 @@ export default function Referenzen() {
       src: img1,
       title: "Einfamilienhaus Obermenzing",
       category: "Neubau / Steildach",
-      desc: "Komplette Neueindeckung mit hochwertigen anthrazitfarbenen Tondachziegeln."
+      problem: "Das 40 Jahre alte Dach war undicht, die Ziegel brüchig, die Dämmung veraltet.",
+      solution: "Komplette Neueindeckung mit Anthrazit-Tondachziegeln und Aufsparrendämmung.",
+      result: "Modernes Aussehen, 35% weniger Heizkosten, 10 Jahre Garantie auf die Ausführung.",
+      duration: "12 Arbeitstage",
+      quote: "Unsere Nachbarn fragen, ob wir ein neues Haus gebaut haben!"
     },
     {
       src: img5,
       title: "Altbau Sanierung Haidhausen",
       category: "Sanierung / Denkmalschutz",
-      desc: "Fachgerechte Sanierung eines historischen Dachstuhls mit Biberschwanz-Ziegeln."
+      problem: "Historisches Gebäude unter Denkmalschutz mit maroder Dachsubstanz.",
+      solution: "Behutsame Sanierung mit originalen Biberschwanz-Ziegeln, Abstimmung mit Denkmalamt.",
+      result: "Erhalt des historischen Charakters bei modernem Wetterschutz.",
+      duration: "18 Arbeitstage",
+      quote: "Der Charme des Hauses wurde bewahrt – nur jetzt ohne Wasserflecken."
     },
     {
       src: img6,
       title: "Gewerbepark Nord",
       category: "Flachdach / Begrünung",
-      desc: "Großflächige Flachdachabdichtung mit extensiver Dachbegrünung für besseres Klima."
+      problem: "Undichte Flachdächer, hohe Hitzeentwicklung im Sommer, schlechtes Mikroklima.",
+      solution: "Neue Abdichtung mit extensiver Dachbegrünung auf 2.500m².",
+      result: "Regenwasserrückhaltung, 5°C kühlere Räume im Sommer, CO2-Einsparung.",
+      duration: "21 Arbeitstage",
+      quote: "Unsere Mitarbeiter lieben die neuen Pausenbereiche mit Blick aufs Gründach."
     },
     {
       src: img4,
       title: "Dachausbau Schwabing",
       category: "Dachfenster / Ausbau",
-      desc: "Einbau großflächiger Lichtlösungen und energetische Ertüchtigung des Dachgeschosses."
+      problem: "Dunkles, ungemütliches Dachgeschoss, das als Wohnraum genutzt werden sollte.",
+      solution: "Einbau von 6 großflächigen Velux-Fenstern plus energetische Ertüchtigung.",
+      result: "Helles Wohnzimmer mit Panoramablick, 45m² zusätzlicher Wohnfläche.",
+      duration: "8 Arbeitstage",
+      quote: "Aus dem Abstellraum wurde unser Lieblingsraum im Haus."
     },
     {
       src: img7,
       title: "Villa Grünwald",
       category: "Schiefer / Spenglerarbeiten",
-      desc: "Exklusive Schieferdeckung in Altdeutscher Deckung mit Kupfer-Spenglerarbeiten."
+      problem: "Repräsentative Villa benötigte eine hochwertige Dachsanierung.",
+      solution: "Schieferdeckung in Altdeutscher Deckung, handgefertigte Kupfer-Spenglerarbeiten.",
+      result: "Zeitlos elegantes Erscheinungsbild, das den Wert der Immobilie steigert.",
+      duration: "24 Arbeitstage",
+      quote: "Die Handwerkskunst sieht man auf den ersten Blick – wunderschön."
     },
     {
       src: img3,
       title: "Bürogebäude Nymphenburg",
       category: "Flachdachsanierung",
-      desc: "Thermische Sanierung und Neubelegung der Dachflächen inkl. Sicherheitsausstattung."
+      problem: "Wiederkehrende Undichtigkeiten, hohe Energiekosten, mangelnde Sicherheitsausstattung.",
+      solution: "Thermische Sanierung, neue Abdichtung, Absturzsicherung und Blitzschutz.",
+      result: "Garantiert dicht, TÜV-geprüfte Sicherheit, 20% weniger Energieverbrauch.",
+      duration: "15 Arbeitstage",
+      quote: "Endlich können wir uns auf unser Kerngeschäft konzentrieren statt aufs Dach."
     }
   ];
 
@@ -95,35 +119,67 @@ export default function Referenzen() {
         </div>
       </div>
 
-      {/* Gallery Grid */}
+      {/* Intro */}
+      <section className="py-12">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto text-center">
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              Jedes Projekt erzählt eine Geschichte. Von Problemen, die gelöst wurden. Von Kunden, 
+              die wieder ruhig schlafen können. Hier zeigen wir Ihnen nicht nur Bilder – sondern 
+              die <strong className="text-secondary">Transformationen</strong>, die dahinterstehen.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Case Studies Grid */}
       <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {projects.map((project, index) => (
-              <div key={index} className="group flex flex-col bg-white rounded-sm overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300">
-                <div className="relative aspect-[4/3] overflow-hidden">
+              <div key={index} className="group flex flex-col bg-white rounded-sm overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300" data-testid={`card-project-${index}`}>
+                <div className="relative aspect-[16/9] overflow-hidden">
                   <img 
                     src={project.src} 
                     alt={project.title} 
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
-                  <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                    <span className="text-white font-bold flex items-center gap-2 border border-white/50 px-4 py-2 rounded-sm backdrop-blur-sm">
-                      Projekt ansehen <ArrowUpRight className="h-4 w-4" />
+                  <div className="absolute top-4 left-4">
+                    <span className="bg-primary text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-sm">
+                      {project.category}
                     </span>
+                  </div>
+                  <div className="absolute bottom-4 right-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-sm flex items-center gap-2">
+                    <Clock className="h-4 w-4 text-primary" />
+                    <span className="text-sm font-medium text-secondary">{project.duration}</span>
                   </div>
                 </div>
                 
                 <div className="p-6 flex-1 flex flex-col">
-                  <span className="text-primary text-xs font-bold uppercase tracking-wider mb-2">
-                    {project.category}
-                  </span>
-                  <h3 className="text-xl font-heading font-bold text-secondary mb-3">
+                  <h3 className="text-2xl font-heading font-bold text-secondary mb-4">
                     {project.title}
                   </h3>
-                  <p className="text-muted-foreground text-sm leading-relaxed">
-                    {project.desc}
-                  </p>
+                  
+                  <div className="space-y-3 mb-4">
+                    <div className="flex items-start gap-2">
+                      <span className="text-primary font-bold text-sm whitespace-nowrap">Problem:</span>
+                      <p className="text-muted-foreground text-sm">{project.problem}</p>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <span className="text-blue-600 font-bold text-sm whitespace-nowrap">Lösung:</span>
+                      <p className="text-muted-foreground text-sm">{project.solution}</p>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <span className="text-green-600 font-bold text-sm whitespace-nowrap">Ergebnis:</span>
+                      <p className="text-muted-foreground text-sm">{project.result}</p>
+                    </div>
+                  </div>
+                  
+                  <div className="mt-auto pt-4 border-t border-border">
+                    <p className="text-secondary italic text-sm">
+                      "{project.quote}"
+                    </p>
+                  </div>
                 </div>
               </div>
             ))}

@@ -1,7 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Contact from "@/components/Contact";
-import { CheckCircle2, Award, Users, Heart } from "lucide-react";
+import { CheckCircle2, Award, Users, Heart, Quote, Clock, Handshake } from "lucide-react";
 import portraitGF from "@assets/generated_images/german_businessman_portrait_gf.png";
 import portraitMeister from "@assets/generated_images/german_master_roofer_portrait.png";
 
@@ -51,13 +51,24 @@ export default function UeberUns() {
           <div className="max-w-4xl mx-auto text-center mb-16">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Unsere Geschichte</span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-secondary mt-2 mb-6">
-              Gemeinsam stärker für Ihr Dach
+              Wie alles begann
             </h2>
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              Als sich ein erfahrener Dachdecker- und Spenglermeister mit einem kaufmännischen Experten zusammentat, 
-              entstand mehr als nur ein Unternehmen. Es entstand eine Partnerschaft, die auf einer gemeinsamen 
-              Vision basiert: <strong className="text-secondary">Kunden mit Qualität, Zuverlässigkeit und Fairness zu helfen.</strong>
-            </p>
+            <div className="text-lg text-muted-foreground leading-relaxed space-y-4">
+              <p>
+                Es war ein stürmischer Herbsttag 2018, als sich ihre Wege kreuzten. Ein Hausbesitzer aus Pasing 
+                stand vor den Trümmern seines Daches – der Sturm hatte gewütet, und er wusste nicht weiter. 
+                Der eine kam als Handwerker, der andere als Freund des Hausbesitzers.
+              </p>
+              <p>
+                Was folgte, war mehr als eine Reparatur. Es war der Beginn einer außergewöhnlichen Partnerschaft. 
+                Der erfahrene Dachdecker- und Spenglermeister sah, wie oft Hausbesitzer mit schlechter Beratung, 
+                überhöhten Preisen und mangelhafter Arbeit konfrontiert wurden. Der kaufmännische Experte erkannte, 
+                dass gutes Handwerk allein nicht reicht – es braucht auch faire Kommunikation und verlässliche Organisation.
+              </p>
+              <p className="font-medium text-secondary">
+                So entstand 089Dach GmbH: Ein Unternehmen, das <strong>handwerkliche Perfektion mit menschlicher Wärme</strong> verbindet.
+              </p>
+            </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-20">
@@ -73,12 +84,17 @@ export default function UeberUns() {
                 </div>
                 <h3 className="text-2xl font-heading font-bold text-secondary mb-2">Der Meister</h3>
                 <p className="text-primary font-medium mb-4">Dachdecker- & Spenglermeister</p>
-                <p className="text-muted-foreground leading-relaxed">
-                  Mit über 30 Jahren Erfahrung auf dem Dach kennt er jedes Material, jede Technik und jede 
-                  Herausforderung. Als gelernter Dachdecker und Spenglermeister verbindet er traditionelles 
-                  Handwerk mit modernsten Methoden. Sein Credo: <em>"Ein Dach muss nicht nur dicht sein – 
-                  es muss für Generationen halten."</em>
-                </p>
+                <div className="text-muted-foreground leading-relaxed space-y-3">
+                  <p>
+                    Schon als Teenager half er seinem Onkel auf dem Dach. Mit 16 begann die Lehre, mit 23 der 
+                    Meisterbrief – und seither hat er über <strong className="text-secondary">1.500 Dächer</strong> in 
+                    München und Umgebung saniert, repariert oder neu gedeckt.
+                  </p>
+                  <p>
+                    Was ihn antreibt? <em>"Wenn eine Familie mir ihr Haus anvertraut, dann ist das eine Verantwortung. 
+                    Ich denke bei jedem Nagel daran, dass unter diesem Dach Kinder schlafen."</em>
+                  </p>
+                </div>
               </div>
             </div>
 
@@ -94,28 +110,53 @@ export default function UeberUns() {
                 </div>
                 <h3 className="text-2xl font-heading font-bold text-secondary mb-2">Der Geschäftsführer</h3>
                 <p className="text-primary font-medium mb-4">Kaufmännische Leitung</p>
-                <p className="text-muted-foreground leading-relaxed">
-                  Mit über 30 Jahren kaufmännischer Erfahrung sorgt er dafür, dass Projekte reibungslos laufen, 
-                  Angebote fair kalkuliert sind und Kunden transparent informiert werden. Seine Stärke liegt 
-                  in der Organisation und im Kundenservice. Sein Motto: <em>"Der Kunde soll sich um nichts 
-                  kümmern müssen – außer sich auf sein neues Dach zu freuen."</em>
-                </p>
+                <div className="text-muted-foreground leading-relaxed space-y-3">
+                  <p>
+                    Nach 30 Jahren in der Unternehmensführung weiß er: <strong className="text-secondary">Gutes Handwerk 
+                    verdient gute Betreuung.</strong> Vom ersten Anruf bis zur letzten Rechnung sorgt er dafür, dass 
+                    Sie sich verstanden und gut aufgehoben fühlen.
+                  </p>
+                  <p>
+                    Sein Versprechen: <em>"Bei uns gibt es keine versteckten Kosten, keine Überraschungen. 
+                    Was wir anbieten, das halten wir – pünktlich und zum vereinbarten Preis."</em>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
 
-          <div className="bg-primary/5 rounded-sm p-8 md:p-12 border border-primary/10 text-center max-w-4xl mx-auto">
-            <div className="flex items-center justify-center gap-2 mb-4">
-              <Award className="h-8 w-8 text-primary" />
-              <span className="text-5xl font-heading font-bold text-primary">60+</span>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+            <div className="bg-white p-6 rounded-sm border border-border text-center">
+              <Clock className="h-8 w-8 text-primary mx-auto mb-3" />
+              <span className="text-4xl font-heading font-bold text-primary">60+</span>
+              <p className="text-muted-foreground mt-2">Jahre gemeinsame Erfahrung</p>
             </div>
-            <h3 className="text-2xl font-heading font-bold text-secondary mb-4">
-              Jahre gemeinsame Erfahrung
-            </h3>
-            <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-              Zusammen bringen wir über 60 Jahre Berufserfahrung mit – die perfekte Kombination aus 
-              handwerklicher Expertise und kaufmännischem Know-how.
-            </p>
+            <div className="bg-white p-6 rounded-sm border border-border text-center">
+              <Award className="h-8 w-8 text-primary mx-auto mb-3" />
+              <span className="text-4xl font-heading font-bold text-primary">1.500+</span>
+              <p className="text-muted-foreground mt-2">Zufriedene Kunden in München</p>
+            </div>
+            <div className="bg-white p-6 rounded-sm border border-border text-center">
+              <Handshake className="h-8 w-8 text-primary mx-auto mb-3" />
+              <span className="text-4xl font-heading font-bold text-primary">100%</span>
+              <p className="text-muted-foreground mt-2">Fokus auf Kundenzufriedenheit</p>
+            </div>
+          </div>
+
+          <div className="bg-secondary/5 rounded-sm p-8 md:p-12 border border-secondary/10 max-w-4xl mx-auto">
+            <div className="flex items-start gap-4">
+              <Quote className="h-12 w-12 text-primary flex-shrink-0" />
+              <div>
+                <p className="text-lg text-secondary leading-relaxed italic mb-4">
+                  "Nach dem Sturmschaden waren wir verzweifelt. Drei andere Firmen gaben uns Angebote, die wir nicht 
+                  verstanden haben. Dann kam 089Dach. Der Geschäftsführer nahm sich eine Stunde Zeit, alles zu erklären. 
+                  Der Meister zeigte uns genau, was gemacht werden muss. Keine Überraschungen, keine Nachforderungen. 
+                  Heute empfehlen wir 089Dach jedem in unserer Nachbarschaft weiter."
+                </p>
+                <p className="font-bold text-secondary">Familie Bergmann, München-Pasing</p>
+                <p className="text-muted-foreground text-sm">Komplettsanierung nach Sturmschaden, 2023</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>

@@ -2,7 +2,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Wrench, ShieldCheck, PenTool, CheckCircle2 } from "lucide-react";
+import { ArrowRight, Wrench, ShieldCheck, PenTool, CheckCircle2, Quote, Hammer } from "lucide-react";
 import heroImage from "@assets/generated_images/copper_roof_gutter_detail.png";
 import detailImage from "@assets/generated_images/metal_standing_seam_roof_detail.png";
 import LeadFunnel from "@/components/LeadFunnel";
@@ -43,13 +43,41 @@ export default function Spenglerei() {
         </div>
         <div className="container mx-auto px-4 relative z-10">
           <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mb-4">
-            Spenglerei München – Langlebige Blecharbeiten
+            Spenglerei München – Handwerkskunst in Metall
           </h1>
           <p className="text-xl text-gray-200 max-w-2xl">
-            Präzision in Kupfer, Zink & Alu. Wir schützen Ihr Haus dauerhaft vor Wasser und Witterung. Maßgefertigt in eigener Werkstatt.
+            Wenn Metall auf Meisterhand trifft, entstehen Bauteile, die Generationen überdauern. Maßgefertigt in unserer eigenen Werkstatt.
           </p>
         </div>
       </div>
+
+      {/* Craftmanship Story */}
+      <section className="py-12 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <div className="bg-white rounded-sm p-8 md:p-12 shadow-sm border border-border">
+              <div className="flex items-start gap-4">
+                <Hammer className="h-10 w-10 text-primary flex-shrink-0" />
+                <div>
+                  <h2 className="text-2xl font-heading font-bold text-secondary mb-4">
+                    Warum eine eigene Werkstatt den Unterschied macht
+                  </h2>
+                  <p className="text-lg text-muted-foreground leading-relaxed mb-4">
+                    In einer Zeit, in der vieles von der Stange kommt, halten wir an der Tradition fest: 
+                    <strong className="text-secondary"> Jedes Bauteil wird von Hand gefertigt</strong> – genau 
+                    passend für Ihr Objekt.
+                  </p>
+                  <p className="text-lg text-muted-foreground leading-relaxed">
+                    Unser Meister arbeitet seit über 30 Jahren mit Kupfer, Zink und Aluminium. Er kennt 
+                    die Eigenschaften jedes Materials, weiß wie es sich im Laufe der Jahre verändert, 
+                    und fertigt Bauteile, die nicht nur funktionieren – sondern auch schön altern.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Main Content */}
       <section className="py-12">
@@ -59,18 +87,18 @@ export default function Spenglerei() {
             <div>
               <span className="text-primary font-bold tracking-wider uppercase text-sm">Spenglerhandwerk München</span>
               <h2 className="text-3xl font-heading font-bold text-secondary mt-2 mb-6">
-                Der sichere Schutz für Dach & Fassade
+                Metall, das schützt und begeistert
               </h2>
               <div className="prose prose-lg text-muted-foreground">
                 <p>
-                  Nichts hält so lange wie Metall. Ein fachgerecht ausgeführtes Metalldach oder eine Kaminverkleidung 
-                  kann Generationen überdauern. Doch schlecht ausgeführte Spenglerarbeiten sind oft der Grund für 
-                  versteckte Wasserschäden.
+                  Eine undichte Dachrinne sieht man nicht – bis der Schaden an der Fassade sichtbar wird. 
+                  Dann ist es oft zu spät, und die Reparaturkosten vervielfachen sich. Gute Spenglerarbeit 
+                  verhindert genau das.
                 </p>
                 <p className="mt-4">
-                  Gehen Sie kein Risiko ein. Wir fertigen alle Bauteile – von der <strong>Dachrinne</strong> bis zur komplexen 
-                  <strong>Gaubenverkleidung</strong> – passgenau für Ihr Objekt. Für eine Optik, die begeistert, und Dichtigkeit, 
-                  auf die Sie sich verlassen können.
+                  Wir bei 089Dach verbinden <strong>traditionelles Handwerk mit modernster Technik</strong>. 
+                  Jede Rinne, jede Kamineinfassung, jede Gaubenverkleidung wird millimetergenau gefertigt – 
+                  damit das Wasser immer dorthin fließt, wo es hin soll: weg von Ihrem Haus.
                 </p>
               </div>
 
@@ -82,8 +110,9 @@ export default function Spenglerei() {
                   <div>
                     <h3 className="text-xl font-bold text-secondary mb-2">Dachrinnen & Entwässerung</h3>
                     <p className="text-muted-foreground">
-                      Verstopfte oder undichte Rinnen schaden der Fassade. Wir montieren langlebige Systeme aus Kupfer, Zink oder Alu.
-                      Inklusive Laubschutz auf Wunsch.
+                      Die unsichtbaren Helden Ihres Hauses. Eine gut geplante Dachentwässerung schützt 
+                      Fassade, Fundament und Keller. Wir bieten Kupfer, Titanzink und Aluminium – 
+                      mit optionalem Laubschutz.
                     </p>
                   </div>
                 </div>
@@ -95,8 +124,8 @@ export default function Spenglerei() {
                   <div>
                     <h3 className="text-xl font-bold text-secondary mb-2">Kamin- & Gaubenverkleidung</h3>
                     <p className="text-muted-foreground">
-                      Schützen Sie die Schwachstellen Ihres Daches. Eine Metallverkleidung ist wartungsfrei und 
-                      schützt das Mauerwerk sicher vor Durchfeuchtung.
+                      Hier zeigt sich wahre Handwerkskunst. Komplexe Formen, präzise Anschlüsse – und 
+                      eine Optik, die Ihr Haus aufwertet. Einmal gut gemacht, hält es ein Leben lang.
                     </p>
                   </div>
                 </div>
@@ -108,8 +137,8 @@ export default function Spenglerei() {
                   <div>
                     <h3 className="text-xl font-bold text-secondary mb-2">Metalldächer (Stehfalz)</h3>
                     <p className="text-muted-foreground">
-                      Die Königsklasse der Bedachung. Extrem langlebig, sturmsicher und architektonisch anspruchsvoll.
-                      Ideal auch für flach geneigte Dächer.
+                      Die Königsklasse für architektonisch anspruchsvolle Projekte. Extrem langlebig, 
+                      sturmsicher und absolut regenfest – auch bei flachen Neigungen.
                     </p>
                   </div>
                 </div>
@@ -123,24 +152,46 @@ export default function Spenglerei() {
                 className="rounded-sm shadow-xl w-full object-cover aspect-[4/5]"
               />
               <div className="absolute -bottom-8 -left-8 bg-white p-8 rounded-sm shadow-lg max-w-sm hidden md:block">
-                <h4 className="font-bold text-secondary text-lg mb-4">Materialvielfalt</h4>
+                <h4 className="font-bold text-secondary text-lg mb-4">Unsere Materialien</h4>
                 <ul className="space-y-3">
                   <li className="flex items-center gap-2 text-muted-foreground">
                     <CheckCircle2 className="h-5 w-5 text-primary" />
-                    <span>Kupfer - Der Klassiker</span>
+                    <span>Kupfer – patiniert zeitlos schön</span>
                   </li>
                   <li className="flex items-center gap-2 text-muted-foreground">
                     <CheckCircle2 className="h-5 w-5 text-primary" />
-                    <span>Titanzink - Modern & puristisch</span>
+                    <span>Titanzink – modern & wartungsfrei</span>
                   </li>
                   <li className="flex items-center gap-2 text-muted-foreground">
                     <CheckCircle2 className="h-5 w-5 text-primary" />
-                    <span>Aluminium - Farbig & leicht</span>
+                    <span>Aluminium – leicht & farbvielfältig</span>
                   </li>
                 </ul>
               </div>
             </div>
 
+          </div>
+        </div>
+      </section>
+
+      {/* Customer Story */}
+      <section className="py-12 bg-secondary/5">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <div className="flex items-start gap-4">
+              <Quote className="h-12 w-12 text-primary flex-shrink-0" />
+              <div>
+                <p className="text-xl text-secondary leading-relaxed italic mb-6">
+                  "Unser Altbau in Bogenhausen hat einen wunderschönen Erker mit komplizierter Dachform. 
+                  Drei Betriebe hatten abgesagt – zu aufwändig, zu schwierig. Der Meister von 089Dach 
+                  hat sich die Sache angeschaut, Maß genommen und gesagt: 'Das kriegen wir hin.' 
+                  Heute glänzt dort eine handgefertigte Kupferverkleidung, die jeder Besucher bewundert. 
+                  Das ist kein Blech von der Stange – das ist Kunst."
+                </p>
+                <p className="font-bold text-secondary">Dr. Friedrich Weber, München-Bogenhausen</p>
+                <p className="text-muted-foreground text-sm">Kupfer-Erkerverkleidung, handgefertigt 2021</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
