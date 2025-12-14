@@ -5,7 +5,7 @@ import { MapPin, Phone, Mail, Clock } from "lucide-react";
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-20 bg-white">
+    <section id="contact" className="py-12 bg-white">
       <div className="container mx-auto px-4 mb-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24">
           

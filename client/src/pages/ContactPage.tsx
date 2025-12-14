@@ -10,7 +10,7 @@ export default function ContactPage() {
       <Navbar />
       
       {/* Contact Hero */}
-      <section className="pt-32 pb-20 bg-gray-50 relative overflow-hidden">
+      <section className="pt-24 pb-8 bg-gray-50 relative overflow-hidden">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="text-left z-10">
