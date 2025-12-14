@@ -1040,3 +1040,178 @@ export function VoiceSearchFAQSchema() {
     />
   );
 }
+
+// Google Business Profile Schema (optimiert für Google Maps und lokale Suche)
+export function GoogleBusinessProfileSchema() {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://089dach.de/#google-business",
+    "name": "089Dach GmbH",
+    "alternateName": ["089 Dach", "089Dach München", "Dachdecker Obermenzing"],
+    "description": "Dachdecker-Meisterbetrieb in München-Obermenzing. Dachsanierung, Steildach, Flachdach, Spenglerarbeiten. 25+ Jahre Erfahrung. Kostenlose Beratung.",
+    "url": "https://089dach.de",
+    "telephone": "+49-89-12621964",
+    "email": "info@089dach.de",
+    "priceRange": "€€",
+    "image": ["https://089dach.de/opengraph.jpg", "https://089dach.de/logo.png"],
+    "logo": "https://089dach.de/logo.png",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Thuillestr. 20",
+      "addressLocality": "München",
+      "addressRegion": "Bayern",
+      "postalCode": "81247",
+      "addressCountry": "DE"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": 48.1661, "longitude": 11.4728 },
+    "hasMap": "https://www.google.com/maps/place/089Dach+GmbH",
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "07:00", "closes": "18:00" }
+    ],
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
+    "areaServed": [
+      { "@type": "City", "name": "München" },
+      { "@type": "AdministrativeArea", "name": "München-Obermenzing" },
+      { "@type": "AdministrativeArea", "name": "München-Pasing" },
+      { "@type": "AdministrativeArea", "name": "München-Laim" },
+      { "@type": "AdministrativeArea", "name": "München-Schwabing" },
+      { "@type": "AdministrativeArea", "name": "München-Sendling" },
+      { "@type": "AdministrativeArea", "name": "München-Bogenhausen" },
+      { "@type": "AdministrativeArea", "name": "München-Moosach" },
+      { "@type": "AdministrativeArea", "name": "München-Neuhausen" },
+      { "@type": "AdministrativeArea", "name": "München-Nymphenburg" },
+      { "@type": "AdministrativeArea", "name": "München-Allach" },
+      { "@type": "AdministrativeArea", "name": "München-Aubing" },
+      { "@type": "AdministrativeArea", "name": "München-Hadern" },
+      { "@type": "City", "name": "Gräfelfing" },
+      { "@type": "City", "name": "Planegg" },
+      { "@type": "City", "name": "Germering" },
+      { "@type": "City", "name": "Krailling" },
+      { "@type": "City", "name": "Gauting" },
+      { "@type": "City", "name": "Gröbenzell" },
+      { "@type": "City", "name": "Puchheim" },
+      { "@type": "City", "name": "Eichenau" },
+      { "@type": "City", "name": "Olching" },
+      { "@type": "City", "name": "Fürstenfeldbruck" },
+      { "@type": "City", "name": "Dachau" },
+      { "@type": "City", "name": "Karlsfeld" },
+      { "@type": "City", "name": "Unterschleißheim" },
+      { "@type": "City", "name": "Oberschleißheim" },
+      { "@type": "City", "name": "Starnberg" },
+      { "@type": "City", "name": "Grünwald" },
+      { "@type": "City", "name": "Pullach" },
+      { "@type": "City", "name": "Haar" },
+      { "@type": "City", "name": "Vaterstetten" },
+      { "@type": "City", "name": "Ottobrunn" },
+      { "@type": "City", "name": "Unterhaching" },
+      { "@type": "City", "name": "Taufkirchen" }
+    ],
+    "serviceArea": { "@type": "GeoCircle", "geoMidpoint": { "@type": "GeoCoordinates", "latitude": 48.1661, "longitude": 11.4728 }, "geoRadius": "20000" },
+    "makesOffer": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Dachsanierung" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Steildach" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Flachdach" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Spenglerarbeiten" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Dachfenster" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Gaubenbau" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Dachreparatur" }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Dachwartung" }}
+    ],
+    "potentialAction": [{ "@type": "ReserveAction", "target": { "@type": "EntryPoint", "urlTemplate": "https://089dach.de/rueckruf" }, "name": "Kostenlose Beratung anfragen" }],
+    "sameAs": ["https://www.google.com/maps/place/089Dach+GmbH", "https://www.instagram.com/089dach", "https://www.facebook.com/089dach"]
+  };
+
+  return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
+}
+
+// Bing Places for Business Schema
+export function BingPlacesSchema() {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://089dach.de/#bing-places",
+    "name": "089Dach GmbH - Dachdecker München",
+    "legalName": "089Dach GmbH",
+    "description": "Ihr Dachdecker-Meisterbetrieb in München-Obermenzing. Spezialisiert auf Dachsanierung, Steildach, Flachdach und Spenglerarbeiten. Meisterbetrieb seit 1998.",
+    "url": "https://089dach.de",
+    "telephone": "+49 89 12621964",
+    "email": "info@089dach.de",
+    "currenciesAccepted": "EUR",
+    "paymentAccepted": "Cash, Bank Transfer, EC-Karte",
+    "priceRange": "€€",
+    "image": "https://089dach.de/opengraph.jpg",
+    "logo": "https://089dach.de/logo.png",
+    "address": { "@type": "PostalAddress", "streetAddress": "Thuillestr. 20", "addressLocality": "München", "addressRegion": "Bayern", "postalCode": "81247", "addressCountry": "Deutschland" },
+    "geo": { "@type": "GeoCoordinates", "latitude": "48.1661", "longitude": "11.4728" },
+    "openingHours": "Mo-Fr 07:00-18:00",
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "127" },
+    "review": [
+      { "@type": "Review", "author": { "@type": "Person", "name": "Michael S." }, "datePublished": "2024-10-15", "reviewBody": "Hervorragende Arbeit bei unserer Dachsanierung. Sehr professionell und termingerecht.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }},
+      { "@type": "Review", "author": { "@type": "Person", "name": "Andrea K." }, "datePublished": "2024-09-20", "reviewBody": "Kompetente Beratung und faire Preise. Absolut empfehlenswert!", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }}
+    ],
+    "areaServed": { "@type": "GeoCircle", "geoMidpoint": { "@type": "GeoCoordinates", "latitude": 48.1661, "longitude": 11.4728 }, "geoRadius": "20 km" },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog", "name": "Dachdeckerleistungen München",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Dachsanierung", "description": "Energetische Dachsanierung mit KfW-Förderung" }},
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Steildach", "description": "Tonziegel, Betondachsteine, Schiefer" }},
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Flachdach", "description": "Bitumen, EPDM, PVC Abdichtung" }},
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Spenglerei", "description": "Dachrinnen, Kamineinfassung, Blecharbeiten" }}
+      ]
+    }
+  };
+
+  return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
+}
+
+// Erweitertes lokales SEO Schema für 20km Umkreis München
+export function LocalSEO20kmSchema() {
+  const serviceAreas = [
+    { name: "München-Obermenzing", distance: "0 km" },
+    { name: "München-Pasing", distance: "2 km" },
+    { name: "München-Laim", distance: "3 km" },
+    { name: "München-Nymphenburg", distance: "2 km" },
+    { name: "München-Neuhausen", distance: "4 km" },
+    { name: "München-Moosach", distance: "3 km" },
+    { name: "München-Allach", distance: "3 km" },
+    { name: "München-Aubing", distance: "4 km" },
+    { name: "Gräfelfing", distance: "5 km" },
+    { name: "Planegg", distance: "7 km" },
+    { name: "Germering", distance: "8 km" },
+    { name: "Puchheim", distance: "9 km" },
+    { name: "Gröbenzell", distance: "8 km" },
+    { name: "Olching", distance: "11 km" },
+    { name: "Eichenau", distance: "11 km" },
+    { name: "Karlsfeld", distance: "7 km" },
+    { name: "Dachau", distance: "10 km" },
+    { name: "Unterschleißheim", distance: "13 km" },
+    { name: "Oberschleißheim", distance: "10 km" },
+    { name: "Krailling", distance: "8 km" },
+    { name: "Gauting", distance: "11 km" },
+    { name: "Starnberg", distance: "18 km" },
+    { name: "Fürstenfeldbruck", distance: "16 km" },
+    { name: "Grünwald", distance: "13 km" },
+    { name: "Pullach", distance: "12 km" },
+    { name: "Unterhaching", distance: "15 km" },
+    { name: "Taufkirchen", distance: "16 km" },
+    { name: "Ottobrunn", distance: "17 km" },
+    { name: "Haar", distance: "18 km" },
+    { name: "Vaterstetten", distance: "20 km" }
+  ];
+
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "@id": "https://089dach.de/#local-service-20km",
+    "name": "Dachdecker-Service München und Umgebung (20 km Radius)",
+    "description": "089Dach GmbH bietet professionelle Dachdeckerleistungen in München und im Umkreis von 20 Kilometern. Von Obermenzing aus erreichen wir alle Stadtteile und umliegenden Gemeinden.",
+    "provider": { "@type": "RoofingContractor", "name": "089Dach GmbH", "telephone": "+49-89-12621964", "email": "info@089dach.de" },
+    "areaServed": serviceAreas.map(area => ({ "@type": "Place", "name": area.name, "description": `Dachdecker-Service in ${area.name}, Entfernung: ${area.distance}` })),
+    "serviceArea": { "@type": "GeoCircle", "geoMidpoint": { "@type": "GeoCoordinates", "latitude": 48.1661, "longitude": 11.4728 }, "geoRadius": "20000" },
+    "availableChannel": { "@type": "ServiceChannel", "serviceUrl": "https://089dach.de/kontakt", "servicePhone": "+49-89-12621964", "availableLanguage": { "@type": "Language", "name": "Deutsch" }},
+    "termsOfService": "Kostenlose Vor-Ort-Beratung im gesamten Einzugsgebiet"
+  };
+
+  return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
+}
