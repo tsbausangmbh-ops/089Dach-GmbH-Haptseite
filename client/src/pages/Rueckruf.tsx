@@ -79,9 +79,9 @@ export default function Rueckruf() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-2xl text-white">
             <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mb-6">
-              <span className="text-primary">Dach-Notfall?</span>
+              <span className="text-primary">Wir rufen Sie zurück.</span>
               <br />
-              Wir helfen schnell.
+              Versprochen.
             </h1>
             <p className="text-xl text-gray-200 max-w-xl mb-4">
               Schreiben Sie uns, wir rufen Sie zurück. In der Regel innerhalb von 24 Stunden vor Ort.
