@@ -254,6 +254,17 @@ export default function KostenloseBeratung() {
               </div>
 
               <div className="space-y-2">
+                <Label htmlFor="objectAddress">Adresse des Objekts (optional)</Label>
+                <Input 
+                  id="objectAddress"
+                  placeholder="Straße, PLZ Ort"
+                  value={formData.objectAddress}
+                  onChange={(e) => setFormData({ ...formData, objectAddress: e.target.value })}
+                  data-testid="input-beratung-object-address"
+                />
+              </div>
+
+              <div className="space-y-2">
                 <Label htmlFor="urgency">Wie dringend ist es?</Label>
                 <select
                   id="urgency"
@@ -370,17 +381,6 @@ export default function KostenloseBeratung() {
                   value={formData.privateAddress}
                   onChange={(e) => setFormData({ ...formData, privateAddress: e.target.value })}
                   data-testid="input-beratung-private-address"
-                />
-              </div>
-
-              <div className="space-y-2">
-                <Label htmlFor="objectAddress">Adresse des Objekts (optional)</Label>
-                <Input 
-                  id="objectAddress"
-                  placeholder="Straße, PLZ Ort (falls abweichend)"
-                  value={formData.objectAddress}
-                  onChange={(e) => setFormData({ ...formData, objectAddress: e.target.value })}
-                  data-testid="input-beratung-object-address"
                 />
               </div>
 
