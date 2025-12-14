@@ -151,7 +151,7 @@ export default function KostenloseBeratung() {
         toast.success(successMsg, {
           description: "Wir melden uns zum vereinbarten Termin bei Ihnen."
         });
-        setFormData({ name: "", email: "", phone: "", privateAddress: "", objectAddress: "", problem: "", objectType: "", urgency: "", message: "" });
+        setFormData({ name: "", email: "", phone: "", privateAddress: "", objectAddress: "", problem: "", objectType: "", urgency: "", budget: "", message: "" });
         setFiles([]);
         setSelectedSlot(null);
         setSelectedDate(undefined);

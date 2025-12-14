@@ -89,7 +89,7 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
                 asChild
                 data-testid="button-hero-call"
               >
-                <a href="/beratung">
+                <a href="/rueckruf">
                   <Phone className="mr-2 h-5 w-5" />
                   Rückruf anfordern
                 </a>
