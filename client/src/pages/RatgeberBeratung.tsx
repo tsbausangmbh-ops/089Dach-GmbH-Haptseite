@@ -317,6 +317,113 @@ export default function RatgeberBeratung() {
               </p>
             </div>
 
+            <div className="bg-white border border-gray-200 rounded-lg p-8 mb-12">
+              <div className="text-center mb-8">
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-primary/10 rounded-full mb-4">
+                  <Euro className="h-8 w-8 text-primary" />
+                </div>
+                <h2 className="text-3xl font-heading font-bold text-secondary mb-2">
+                  Unsere Festpreise für München
+                </h2>
+                <p className="text-muted-foreground max-w-2xl mx-auto">
+                  Transparente Preise ohne versteckte Kosten. Bei uns wissen Sie vorher, was es kostet.
+                </p>
+              </div>
+
+              <div className="grid md:grid-cols-2 gap-6 mb-8">
+                <div className="bg-stone-50 p-6 rounded-xl">
+                  <h3 className="text-lg font-bold text-secondary mb-4 flex items-center gap-2">
+                    <span className="w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center text-sm">1</span>
+                    Dachsanierung komplett
+                  </h3>
+                  <ul className="space-y-3 text-sm">
+                    <li className="flex justify-between border-b pb-2">
+                      <span className="text-muted-foreground">Dachsanierung inkl. Eindeckung</span>
+                      <span className="font-semibold text-secondary">ca. 195 – 325 €/m²</span>
+                    </li>
+                    <li className="flex justify-between border-b pb-2">
+                      <span className="text-muted-foreground">Dachneueindeckung (ohne Dämmung)</span>
+                      <span className="font-semibold text-secondary">ca. 130 – 260 €/m²</span>
+                    </li>
+                    <li className="flex justify-between">
+                      <span className="text-muted-foreground">Flachdachsanierung</span>
+                      <span className="font-semibold text-secondary">ca. 100 – 200 €/m²</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="bg-stone-50 p-6 rounded-xl">
+                  <h3 className="text-lg font-bold text-secondary mb-4 flex items-center gap-2">
+                    <span className="w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center text-sm">2</span>
+                    Dachdämmung
+                  </h3>
+                  <ul className="space-y-3 text-sm">
+                    <li className="flex justify-between border-b pb-2">
+                      <span className="text-muted-foreground">Aufsparrendämmung</span>
+                      <span className="font-semibold text-secondary">ca. 195 – 325 €/m²</span>
+                    </li>
+                    <li className="flex justify-between border-b pb-2">
+                      <span className="text-muted-foreground">Zwischensparrendämmung</span>
+                      <span className="font-semibold text-secondary">ca. 65 – 130 €/m²</span>
+                    </li>
+                    <li className="flex justify-between">
+                      <span className="text-muted-foreground">Untersparrendämmung</span>
+                      <span className="font-semibold text-secondary">ca. 50 – 100 €/m²</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="bg-stone-50 p-6 rounded-xl">
+                  <h3 className="text-lg font-bold text-secondary mb-4 flex items-center gap-2">
+                    <span className="w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center text-sm">3</span>
+                    Dachfenster & Gauben
+                  </h3>
+                  <ul className="space-y-3 text-sm">
+                    <li className="flex justify-between border-b pb-2">
+                      <span className="text-muted-foreground">Dachfenster Einbau (inkl. Fenster)</span>
+                      <span className="font-semibold text-secondary">ca. 1.300 – 2.600 €</span>
+                    </li>
+                    <li className="flex justify-between border-b pb-2">
+                      <span className="text-muted-foreground">Dachfenster Austausch</span>
+                      <span className="font-semibold text-secondary">ca. 650 – 1.300 €</span>
+                    </li>
+                    <li className="flex justify-between">
+                      <span className="text-muted-foreground">Gaube (Schleppgaube)</span>
+                      <span className="font-semibold text-secondary">ca. 6.500 – 13.000 €</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="bg-stone-50 p-6 rounded-xl">
+                  <h3 className="text-lg font-bold text-secondary mb-4 flex items-center gap-2">
+                    <span className="w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center text-sm">4</span>
+                    Reparaturen & Wartung
+                  </h3>
+                  <ul className="space-y-3 text-sm">
+                    <li className="flex justify-between border-b pb-2">
+                      <span className="text-muted-foreground">Dachreparatur (klein)</span>
+                      <span className="font-semibold text-secondary">ca. 260 – 650 €</span>
+                    </li>
+                    <li className="flex justify-between border-b pb-2">
+                      <span className="text-muted-foreground">Rinnenreinigung</span>
+                      <span className="font-semibold text-secondary">ca. 130 – 260 €</span>
+                    </li>
+                    <li className="flex justify-between">
+                      <span className="text-muted-foreground">Dachwartung (jährlich)</span>
+                      <span className="font-semibold text-secondary">ca. 195 – 390 €</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="bg-amber-50 border border-amber-200 p-4 rounded-lg text-center">
+                <p className="text-sm text-amber-800">
+                  <strong>Hinweis:</strong> Alle Preise sind ca.-Angaben und ohne Gewähr. 
+                  Der tatsächliche Festpreis wird nach einer kostenlosen Vor-Ort-Besichtigung ermittelt.
+                </p>
+              </div>
+            </div>
+
             <div className="bg-secondary text-white rounded-lg p-8 mb-12 text-center">
               <h2 className="text-3xl font-heading font-bold mb-4">
                 Machen Sie den ersten Schritt – es kostet Sie nichts.
