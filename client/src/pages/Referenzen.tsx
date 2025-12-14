@@ -245,7 +245,7 @@ export default function Referenzen() {
             </div>
             <div className="flex items-center gap-2">
               <Award className="h-5 w-5 text-primary" />
-              <span><strong className="text-secondary">Meisterbetrieb</strong> seit 1998</span>
+              <span><strong className="text-secondary">Meister</strong> seit 1998 für Dachdecker- und Spenglerarbeiten</span>
             </div>
             <div className="flex items-center gap-2">
               <Shield className="h-5 w-5 text-primary" />
