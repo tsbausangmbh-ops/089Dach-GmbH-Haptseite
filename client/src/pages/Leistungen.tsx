@@ -219,8 +219,8 @@ export default function Leistungen() {
                   Rückruf anfordern
                 </a>
               </Button>
-              <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-secondary font-bold rounded-xl" data-testid="button-hero-services">
-                <a href="#dachsanierung">Alle Leistungen ansehen</a>
+              <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-secondary font-bold rounded-xl" data-testid="button-hero-beratung">
+                <a href="/beratung">24h Beratungstermin</a>
               </Button>
             </div>
           </div>
