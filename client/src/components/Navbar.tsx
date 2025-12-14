@@ -112,7 +112,7 @@ export default function Navbar() {
             Kontakt
           </a>
           <Button className="bg-primary hover:bg-primary/90 text-white font-bold rounded-sm" asChild>
-            <a href="/kontakt">Angebot anfordern</a>
+            <a href="/rueckruf">Rückruf anfordern</a>
           </Button>
         </div>
 
