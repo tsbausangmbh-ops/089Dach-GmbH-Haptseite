@@ -63,7 +63,7 @@ export default function AGB() {
           </p>
           <div className="bg-gray-50 p-6 rounded-sm border border-gray-100 my-4">
             <p className="font-bold text-secondary">089Dach GmbH</p>
-            <p>Geschäftsführer: Ali Kemal Kurt<br />
+            <p>Geschäftsführer: Falko Georg Blöckinger<br />
             Thuillestr. 20<br />
             81247 München-Obermenzing<br />
             Deutschland</p>
@@ -388,7 +388,7 @@ export default function AGB() {
           <div className="bg-secondary text-white p-6 rounded-sm my-8">
             <p className="font-bold text-lg">089Dach GmbH</p>
             <p className="text-gray-300 mt-2">
-              Geschäftsführer: Ali Kemal Kurt<br />
+              Geschäftsführer: Falko Georg Blöckinger<br />
               Thuillestr. 20, 81247 München-Obermenzing<br />
               E-Mail: info@089dach.de<br />
               Telefon: +49 89 12621964

@@ -73,7 +73,7 @@ export default function Impressum() {
             <div>
               <h2 className="text-xl font-heading font-bold text-secondary mb-4">Vertretungsberechtigter Geschäftsführer</h2>
               <p className="text-muted-foreground">
-                Michael Haslbeck, Dachdeckermeister
+                Falko Georg Blöckinger
               </p>
             </div>
 

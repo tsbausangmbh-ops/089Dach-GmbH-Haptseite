@@ -59,7 +59,7 @@ export default function Footer() {
 
         <div className="border-t border-white/10 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-500 text-sm">
-            &copy; {new Date().getFullYear()} 089Dach GmbH. Alle Rechte vorbehalten.
+            &copy; {new Date().getFullYear()} 089Dach GmbH. Alle Rechte vorbehalten. | <a href="/agb" className="hover:text-primary transition-colors">AGB</a>
           </p>
           <div className="flex gap-4">
             {/* Social Icons could go here */}

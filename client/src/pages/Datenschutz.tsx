@@ -60,7 +60,7 @@ export default function Datenschutz() {
           <h2 id="verantwortlicher" className="text-2xl font-bold text-secondary mt-8 mb-4">Verantwortlicher</h2>
           <div className="bg-gray-50 p-6 rounded-sm border border-gray-100 my-4">
             <p className="font-bold text-secondary">089Dach GmbH</p>
-            <p>Ali Kemal Kurt<br />
+            <p>Falko Georg Blöckinger<br />
             Thuillestr. 20<br />
             81247 München<br />
             Deutschland</p>
