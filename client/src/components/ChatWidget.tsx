@@ -141,7 +141,7 @@ export default function ChatWidget() {
           )}
         </button>
 
-        <div className="w-[350px] h-full bg-white shadow-2xl flex flex-col border-l border-gray-200">
+        <div className="w-[100vw] sm:w-[350px] h-full bg-white shadow-2xl flex flex-col border-l border-gray-200">
           <div className="bg-secondary text-white p-4 flex items-center justify-between">
             <div className="flex items-center gap-3">
               <div className="bg-primary p-2 rounded-full">
