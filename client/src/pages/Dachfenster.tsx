@@ -87,7 +87,7 @@ export default function Dachfenster() {
           <div className="flex flex-wrap justify-center gap-4 text-xs">
             <span className="flex items-center gap-1.5">
               <Award className="h-4 w-4 text-primary" />
-              <span>Meisterbetrieb seit 1998</span>
+              <span>Meister für Dach- und Spenglerei seit 1998</span>
             </span>
             <span className="flex items-center gap-1.5">
               <Shield className="h-4 w-4 text-primary" />
