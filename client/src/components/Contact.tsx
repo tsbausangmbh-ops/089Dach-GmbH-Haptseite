@@ -2,9 +2,11 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { Checkbox } from "@/components/ui/checkbox";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
+import { Link } from "wouter";
 
 const serviceOptions = [
   "Steildach & Flachdach",
@@ -26,6 +28,7 @@ export default function Contact() {
     message: ""
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [dsgvoAccepted, setDsgvoAccepted] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -218,17 +221,26 @@ export default function Contact() {
                 />
               </div>
 
+              <div className="flex items-start space-x-3">
+                <Checkbox 
+                  id="dsgvo-contact" 
+                  checked={dsgvoAccepted}
+                  onCheckedChange={(checked) => setDsgvoAccepted(checked === true)}
+                  data-testid="checkbox-contact-dsgvo"
+                />
+                <label htmlFor="dsgvo-contact" className="text-sm text-muted-foreground leading-tight cursor-pointer">
+                  Ich habe die <Link href="/datenschutz" className="text-primary underline hover:no-underline">Datenschutzerklärung</Link> gelesen und stimme der Verarbeitung meiner Daten zu. *
+                </label>
+              </div>
+
               <Button 
                 type="submit" 
                 className="w-full bg-primary hover:bg-primary/90 text-white font-bold py-6 rounded-xl text-lg"
-                disabled={isSubmitting}
+                disabled={isSubmitting || !dsgvoAccepted}
                 data-testid="button-contact-submit"
               >
                 {isSubmitting ? "Wird gesendet..." : "Anfrage absenden"}
               </Button>
-              <p className="text-xs text-muted-foreground text-center">
-                Mit dem Absenden erklären Sie sich mit der Verarbeitung Ihrer Daten einverstanden.
-              </p>
             </form>
           </div>
 

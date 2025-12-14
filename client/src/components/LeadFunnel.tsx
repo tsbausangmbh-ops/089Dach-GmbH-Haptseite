@@ -4,8 +4,10 @@ import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
+import { Checkbox } from "@/components/ui/checkbox";
 import { useState, useEffect } from "react";
 import { toast } from "sonner";
+import { Link } from "wouter";
 
 interface LeadFunnelProps {
   externalOpen?: boolean;
@@ -16,6 +18,7 @@ export default function LeadFunnel({ externalOpen, onExternalOpenChange }: LeadF
   const [open, setOpen] = useState(false);
   const [step, setStep] = useState(1);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [dsgvoAccepted, setDsgvoAccepted] = useState(false);
   const [formData, setFormData] = useState({
     problem: "",
     timing: "",
@@ -318,10 +321,22 @@ export default function LeadFunnel({ externalOpen, onExternalOpenChange }: LeadF
                       />
                     </div>
 
+                    <div className="flex items-start space-x-3">
+                      <Checkbox 
+                        id="dsgvo-lead" 
+                        checked={dsgvoAccepted}
+                        onCheckedChange={(checked) => setDsgvoAccepted(checked === true)}
+                        data-testid="checkbox-lead-dsgvo"
+                      />
+                      <label htmlFor="dsgvo-lead" className="text-sm text-muted-foreground leading-tight cursor-pointer">
+                        Ich habe die <Link href="/datenschutz" className="text-primary underline hover:no-underline">Datenschutzerklärung</Link> gelesen und akzeptiere diese. *
+                      </label>
+                    </div>
+
                     <Button 
                       type="submit"
                       className="w-full bg-primary hover:bg-primary/90 text-white font-bold py-6 text-lg rounded-xl mt-4"
-                      disabled={isSubmitting}
+                      disabled={isSubmitting || !dsgvoAccepted}
                       data-testid="button-lead-submit"
                     >
                       {isSubmitting ? "Wird gesendet..." : "Ja, ich will mein kostenloses Angebot!"}

@@ -5,8 +5,10 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Calendar } from "@/components/ui/calendar";
+import { Checkbox } from "@/components/ui/checkbox";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { MessageSquare, ArrowRight, ShieldCheck, Award, Shield, Users, Lightbulb, Target, Heart, CalendarIcon, Loader2, Upload, X } from "lucide-react";
+import { Link } from "wouter";
 import { useState, useEffect } from "react";
 import { toast } from "sonner";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
@@ -26,6 +28,7 @@ export default function KostenloseBeratung() {
   const [selectedSlot, setSelectedSlot] = useState<TimeSlot | null>(null);
   const [files, setFiles] = useState<File[]>([]);
   const [isDragging, setIsDragging] = useState(false);
+  const [dsgvoAccepted, setDsgvoAccepted] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -35,6 +38,7 @@ export default function KostenloseBeratung() {
     problem: "",
     urgency: "",
     objectType: "",
+    budget: "",
     message: ""
   });
 
@@ -498,6 +502,25 @@ export default function KostenloseBeratung() {
               </div>
 
               <div className="space-y-2">
+                <Label htmlFor="budget">Ihr Budget (optional)</Label>
+                <select
+                  id="budget"
+                  className="w-full h-12 px-3 rounded-md border border-input bg-background text-sm"
+                  value={formData.budget}
+                  onChange={(e) => setFormData({ ...formData, budget: e.target.value })}
+                  data-testid="select-beratung-budget"
+                >
+                  <option value="">Bitte wählen...</option>
+                  <option value="Unter 5.000 €">Unter 5.000 €</option>
+                  <option value="5.000 - 10.000 €">5.000 - 10.000 €</option>
+                  <option value="10.000 - 25.000 €">10.000 - 25.000 €</option>
+                  <option value="25.000 - 50.000 €">25.000 - 50.000 €</option>
+                  <option value="Über 50.000 €">Über 50.000 €</option>
+                  <option value="Noch unklar">Noch unklar</option>
+                </select>
+              </div>
+
+              <div className="space-y-2">
                 <Label htmlFor="message">Erzählen Sie uns mehr (optional)</Label>
                 <Textarea 
                   id="message"
@@ -509,10 +532,22 @@ export default function KostenloseBeratung() {
                 />
               </div>
 
+              <div className="flex items-start space-x-3">
+                <Checkbox 
+                  id="dsgvo" 
+                  checked={dsgvoAccepted}
+                  onCheckedChange={(checked) => setDsgvoAccepted(checked === true)}
+                  data-testid="checkbox-beratung-dsgvo"
+                />
+                <label htmlFor="dsgvo" className="text-sm text-muted-foreground leading-tight cursor-pointer">
+                  Ich habe die <Link href="/datenschutz" className="text-primary underline hover:no-underline">Datenschutzerklärung</Link> gelesen und stimme der Verarbeitung meiner Daten zu. *
+                </label>
+              </div>
+
               <Button 
                 type="submit"
                 className="w-full bg-primary hover:bg-primary/90 text-white font-bold py-6 text-lg"
-                disabled={isSubmitting}
+                disabled={isSubmitting || !dsgvoAccepted}
                 data-testid="button-beratung-submit"
               >
                 {isSubmitting ? "Wird gesendet..." : selectedSlot ? "Beratungstermin buchen" : "Kostenlose Beratung anfordern"}
