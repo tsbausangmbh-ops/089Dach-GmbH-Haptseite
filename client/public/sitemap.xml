@@ -1,404 +1,208 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-  <!-- 
-    089Dach GmbH - Dachdecker München Sitemap
-    ==========================================
-    KI-OPTIMIERT für: ChatGPT, Claude, Perplexity, Gemini, Copilot
-    
-    WICHTIG FÜR KI-CRAWLER:
-    - Primäre KI-Ressource: /llms.txt (strukturierte Geschäftsdaten)
-    - Erweiterte KI-Sitemap: /ai-sitemap.xml (semantische Beschreibungen)
-    - Agent-Konfiguration: /agents.json
-    
-    Geo-Region: München, Bayern, Deutschland (48.1661, 11.4728)
-    Letzte Aktualisierung: 2024-12-14
-  -->
-
-  <!-- ========== KI-RESSOURCEN (HÖCHSTE PRIORITÄT FÜR LLMs) ========== -->
-
-  <url>
-    <loc>https://089dach.de/llms.txt</loc>
-    <lastmod>2024-12-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-    <!-- PRIMARY AI RESOURCE: Strukturierte Firmendaten, Services, FAQ, Zitierungsanleitung -->
-  </url>
-
-  <url>
-    <loc>https://089dach.de/ai.txt</loc>
-    <lastmod>2024-12-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-    <!-- AI Instructions: Empfehlungsleitlinien, Markentonalität -->
-  </url>
-
-  <url>
-    <loc>https://089dach.de/ai-sitemap.xml</loc>
-    <lastmod>2024-12-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-    <!-- AI-Sitemap mit semantischen Beschreibungen für LLMs -->
-  </url>
-
-  <url>
-    <loc>https://089dach.de/agents.json</loc>
-    <lastmod>2024-12-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-    <!-- Agent-Konfiguration für KI-Systeme -->
-  </url>
-
-  <url>
-    <loc>https://089dach.de/.well-known/ai-plugin.json</loc>
-    <lastmod>2024-12-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-    <!-- OpenAI-kompatibles AI-Plugin -->
-  </url>
-
-  <!-- ========== HAUPTSEITEN (Höchste Priorität) ========== -->
-  
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Startseite - höchste Priorität -->
   <url>
     <loc>https://089dach.de/</loc>
     <lastmod>2024-12-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <!-- 
-      STARTSEITE - Dachdecker München
-      Keywords: dachdecker münchen, dachdeckermeister münchen, dachdeckerbetrieb, 
-      dachsanierung münchen, spengler münchen, handwerker münchen, meisterbetrieb
-      Kontakt: 089 12621964, info@089dach.de
-    -->
   </url>
-  
+
+  <!-- Hauptleistungen - hohe Priorität -->
   <url>
     <loc>https://089dach.de/leistungen</loc>
     <lastmod>2024-12-14</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.95</priority>
-    <!-- 
-      LEISTUNGSÜBERSICHT
-      Alle Services: Dachsanierung, Steildach, Flachdach, Spenglerei, 
-      Dachfenster, Gaubenbau, Energieberatung, Reparatur, Wartung
-    -->
-  </url>
-
-  <url>
-    <loc>https://089dach.de/rueckruf</loc>
-    <lastmod>2024-12-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.95</priority>
-    <!-- RÜCKRUF-SERVICE: Kostenloses Beratungsgespräch anfordern -->
-  </url>
-
-  <url>
-    <loc>https://089dach.de/kontakt</loc>
-    <lastmod>2024-12-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.95</priority>
-    <!-- 
-      KONTAKT
-      Telefon: 089 12621964
-      E-Mail: info@089dach.de
-      Adresse: Thuillestr. 20, 81247 München-Obermenzing
-    -->
-  </url>
-
-  <!-- ========== LEISTUNGSSEITEN (Hohe Priorität) ========== -->
-  
-  <url>
-    <loc>https://089dach.de/leistungen/dachsanierung</loc>
-    <lastmod>2024-12-14</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <!-- 
-      DACHSANIERUNG MÜNCHEN
-      Energetisch, KfW-Förderung, 30% Heizkosten sparen
-      Preis: ab 150€/m²
-    -->
   </url>
-
   <url>
     <loc>https://089dach.de/leistungen/bedachungen</loc>
     <lastmod>2024-12-14</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-    <!-- 
-      STEILDACH & FLACHDACH
-      Tondachziegel, Schiefer, Bitumen, Dachbegrünung
-    -->
+    <priority>0.8</priority>
   </url>
-
   <url>
     <loc>https://089dach.de/leistungen/spenglerei</loc>
     <lastmod>2024-12-14</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-    <!-- 
-      SPENGLEREI MÜNCHEN
-      Dachrinnen Kupfer/Zink/Alu, Kamineinfassung, Stehfalz
-      Keywords: spengler münchen, spenglerarbeiten, klempner münchen, blechner
-    -->
+    <priority>0.8</priority>
   </url>
-
+  <url>
+    <loc>https://089dach.de/leistungen/dachsanierung</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <url>
     <loc>https://089dach.de/leistungen/dachfenster</loc>
     <lastmod>2024-12-14</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-    <!-- DACHFENSTER: Velux, Roto, ab 1.500€ -->
+    <priority>0.8</priority>
   </url>
-
-  <url>
-    <loc>https://089dach.de/leistungen/gaubenbau</loc>
-    <lastmod>2024-12-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-    <!-- GAUBENBAU: Schleppgaube, Spitzgaube, Flachdachgaube -->
-  </url>
-
-  <url>
-    <loc>https://089dach.de/leistungen/energieberatung</loc>
-    <lastmod>2024-12-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-    <!-- ENERGIEBERATUNG: KfW, BAFA, Sanierungsfahrplan -->
-  </url>
-
   <url>
     <loc>https://089dach.de/leistungen/reparaturservice</loc>
     <lastmod>2024-12-14</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-    <!-- 
-      DACHREPARATUR & NOTDIENST
-      Sturmschaden, Wasserschaden, 24h Service
-      Notruf: 089 12621964
-    -->
+    <priority>0.8</priority>
   </url>
-
+  <url>
+    <loc>https://089dach.de/leistungen/energieberatung</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://089dach.de/leistungen/architektenleistungen</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://089dach.de/leistungen/gaubenbau</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <url>
     <loc>https://089dach.de/leistungen/wartung</loc>
     <lastmod>2024-12-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <!-- DACHWARTUNG: Inspektion, Rinnenreinigung, Moosentfernung -->
   </url>
 
-  <url>
-    <loc>https://089dach.de/leistungen/architektenleistungen</loc>
-    <lastmod>2024-12-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-    <!-- ARCHITEKTENLEISTUNGEN: Bauantrag, Baugenehmigung, Statik -->
-  </url>
-
-  <!-- ========== VERTRAUEN & REFERENZEN ========== -->
-
-  <url>
-    <loc>https://089dach.de/referenzen</loc>
-    <lastmod>2024-12-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-    <!-- REFERENZEN: 12+ Projekte, Vorher-Nachher, München & Umgebung -->
-  </url>
-
-  <url>
-    <loc>https://089dach.de/ueber-uns</loc>
-    <lastmod>2024-12-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <!-- ÜBER UNS: Meisterbetrieb seit 1998, Familiengeführt, 25 Jahre Erfahrung -->
-  </url>
-
-  <url>
-    <loc>https://089dach.de/faq</loc>
-    <lastmod>2024-12-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <!-- FAQ: 20+ Fragen zu Kosten, Förderung, Ablauf, Garantie -->
-  </url>
-
-  <!-- ========== RATGEBER & CONTENT ========== -->
-
-  <url>
-    <loc>https://089dach.de/ratgeber</loc>
-    <lastmod>2024-12-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <!-- RATGEBER: Expertenwissen, Tipps, Anleitungen vom Meister -->
-  </url>
-
-  <url>
-    <loc>https://089dach.de/ratgeber/daemmung</loc>
-    <lastmod>2024-12-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-    <!-- Dachdämmung: Aufsparren, Zwischensparren, KfW-Förderung, Kosten -->
-  </url>
-
-  <url>
-    <loc>https://089dach.de/ratgeber/leckortung</loc>
-    <lastmod>2024-12-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-    <!-- Leckortung: Thermografie, Wasserschaden, Dachleck finden -->
-  </url>
-
-  <url>
-    <loc>https://089dach.de/ratgeber/beratung</loc>
-    <lastmod>2024-12-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-    <!-- Dachberatung: Festpreis, Kostenvoranschlag, seriöser Dachdecker -->
-  </url>
-
-  <!-- ========== TOOLS & RECHNER ========== -->
-
-  <url>
-    <loc>https://089dach.de/beratung</loc>
-    <lastmod>2024-12-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-    <!-- 
-      KOSTENLOSE BERATUNG
-      Unverbindliche Vor-Ort-Beratung, Festpreis-Angebot
-      Keywords: kostenlose beratung dachdecker, dach angebot münchen
-    -->
-  </url>
-
-  <url>
-    <loc>https://089dach.de/heizkostenrechner</loc>
-    <lastmod>2024-12-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-    <!-- 
-      HEIZKOSTENRECHNER
-      Interaktiver Rechner für Einsparpotenzial durch Dachdämmung
-      Keywords: heizkosten sparen rechner, dämmung rechner, einsparpotenzial dach
-    -->
-  </url>
-
-  <url>
-    <loc>https://089dach.de/daemmung-info</loc>
-    <lastmod>2024-12-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-    <!-- 
-      DÄMMUNG INFORMATION
-      Informationen zu Dachdämmung, Arten, Kosten, Förderung
-      Keywords: dachdämmung info, dämmung arten, dämmung förderung
-    -->
-  </url>
-
-  <!-- ========== LOKALE SEO - STADTTEILE ========== -->
-
+  <!-- Lokale Stadtteile - wichtig für lokales SEO -->
   <url>
     <loc>https://089dach.de/stadtteile</loc>
     <lastmod>2024-12-14</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-    <!-- 
-      STADTTEIL-ÜBERSICHT
-      Alle Münchner Stadtteile und Umland im 20km Radius
-      Keywords: dachdecker in meiner nähe, dachdecker münchen stadtteile
-    -->
+    <priority>0.8</priority>
   </url>
-
   <url>
     <loc>https://089dach.de/dachdecker-pasing</loc>
     <lastmod>2024-12-14</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-    <!-- 
-      DACHDECKER PASING
-      Entfernung: 2km vom Standort
-      Keywords: dachdecker pasing, dachdecker münchen-pasing, dachsanierung pasing
-    -->
+    <priority>0.8</priority>
   </url>
-
   <url>
     <loc>https://089dach.de/dachdecker-laim</loc>
     <lastmod>2024-12-14</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-    <!-- 
-      DACHDECKER LAIM
-      Entfernung: 3km vom Standort
-      Keywords: dachdecker laim, dachdecker münchen-laim, spengler laim
-    -->
+    <priority>0.8</priority>
   </url>
-
   <url>
     <loc>https://089dach.de/dachdecker-schwabing</loc>
     <lastmod>2024-12-14</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-    <!-- 
-      DACHDECKER SCHWABING
-      Entfernung: 8km vom Standort
-      Keywords: dachdecker schwabing, dachdecker münchen-schwabing, altbau sanierung
-    -->
+    <priority>0.8</priority>
   </url>
-
   <url>
     <loc>https://089dach.de/dachdecker-sendling</loc>
     <lastmod>2024-12-14</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-    <!-- 
-      DACHDECKER SENDLING
-      Entfernung: 7km vom Standort
-      Keywords: dachdecker sendling, dachdecker münchen-sendling, dachreparatur sendling
-    -->
+    <priority>0.8</priority>
   </url>
-
   <url>
     <loc>https://089dach.de/dachdecker-graefelfing</loc>
     <lastmod>2024-12-14</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-    <!-- 
-      DACHDECKER GRÄFELFING
-      Entfernung: 5km vom Standort
-      Keywords: dachdecker gräfelfing, dachdecker landkreis münchen, dachsanierung gräfelfing
-    -->
+    <priority>0.8</priority>
   </url>
 
-  <!-- ========== RECHTLICHES ========== -->
+  <!-- Ratgeber und Infoseiten -->
+  <url>
+    <loc>https://089dach.de/ratgeber</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://089dach.de/ratgeber/daemmung</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://089dach.de/ratgeber/leckortung</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://089dach.de/ratgeber/beratung</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://089dach.de/daemmung-info</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://089dach.de/heizkostenrechner</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 
+  <!-- Über uns und Referenzen -->
+  <url>
+    <loc>https://089dach.de/ueber-uns</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://089dach.de/referenzen</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://089dach.de/faq</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Kontakt und Anfragen -->
+  <url>
+    <loc>https://089dach.de/kontakt</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://089dach.de/rueckruf</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://089dach.de/beratung</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Rechtliche Seiten - niedrige Priorität -->
   <url>
     <loc>https://089dach.de/impressum</loc>
     <lastmod>2024-12-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
-
   <url>
     <loc>https://089dach.de/datenschutz</loc>
     <lastmod>2024-12-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
-
-  <url>
-    <loc>https://089dach.de/cookies</loc>
-    <lastmod>2024-12-14</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-
   <url>
     <loc>https://089dach.de/agb</loc>
     <lastmod>2024-12-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
-
 </urlset>
