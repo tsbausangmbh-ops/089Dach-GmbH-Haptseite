@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
@@ -9,6 +10,8 @@ import LeadFunnel from "@/components/LeadFunnel";
 import SEO from "@/components/SEO";
 
 export default function Home() {
+  const [funnelOpen, setFunnelOpen] = useState(false);
+
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
@@ -19,9 +22,9 @@ export default function Home() {
       />
       <Navbar />
       <main>
-        <Hero />
+        <Hero onOpenFunnel={() => setFunnelOpen(true)} />
         <Services />
-        <LeadFunnel />
+        <LeadFunnel externalOpen={funnelOpen} onExternalOpenChange={setFunnelOpen} />
         <About />
         <Gallery />
         <Contact />
