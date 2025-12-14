@@ -25,6 +25,7 @@ import Architektenleistungen from "@/pages/Architektenleistungen";
 import Gaubenbau from "@/pages/Gaubenbau";
 import Wartung from "@/pages/Wartung";
 import Rueckruf from "@/pages/Rueckruf";
+import KostenloseBeratung from "@/pages/KostenloseBeratung";
 import AGB from "@/pages/AGB";
 import RatgeberDaemmung from "@/pages/RatgeberDaemmung";
 import RatgeberLeckortung from "@/pages/RatgeberLeckortung";
@@ -79,6 +80,7 @@ function Router() {
       <Route path="/cookies" component={CookiePolicy} />
       <Route path="/agb" component={AGB} />
       <Route path="/rueckruf" component={Rueckruf} />
+      <Route path="/beratung" component={KostenloseBeratung} />
       <Route path="/stadtteile" component={Stadtteile} />
       <Route path="/dachdecker-pasing" component={StadtteilPasing} />
       <Route path="/dachdecker-laim" component={StadtteilLaim} />
