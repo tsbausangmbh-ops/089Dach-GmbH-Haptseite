@@ -37,10 +37,10 @@ export default function ProblemSolution({ onOpenFunnel }: ProblemSolutionProps) 
   ];
 
   return (
-    <section className="py-20 bg-stone-100">
+    <section className="py-12 bg-stone-100">
       <div className="container mx-auto px-4">
         
-        <div className="text-center max-w-2xl mx-auto mb-12">
+        <div className="text-center max-w-2xl mx-auto mb-8">
           <span className="text-primary font-bold tracking-wider uppercase text-sm">Das kennen Sie?</span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-secondary mt-2 mb-4">
             Typische Probleme – und wie wir sie lösen
