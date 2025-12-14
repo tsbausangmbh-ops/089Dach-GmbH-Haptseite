@@ -7,7 +7,7 @@ import heroImage from "@assets/generated_images/roofer_working_on_red_tile_roof_
 import tileImage from "@assets/generated_images/red_roof_tiles_texture_close_up.png";
 import LeadFunnel from "@/components/LeadFunnel";
 
-export default function Dachdeckerei() {
+export default function Bedachungen() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <Navbar />
@@ -24,7 +24,7 @@ export default function Dachdeckerei() {
         </div>
         <div className="container mx-auto px-4 relative z-10">
           <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mb-4">
-            Dachdeckerei
+            Bedachungen
           </h1>
           <p className="text-xl text-gray-200 max-w-2xl">
             Ihr Fachbetrieb für Steil- und Flachdächer in München. Wir sorgen für dichte Dächer und energetische Sanierungen.

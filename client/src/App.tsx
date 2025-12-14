@@ -5,7 +5,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/not-found";
 import Home from "@/pages/Home";
-import Dachdeckerei from "@/pages/Dachdeckerei";
+import Bedachungen from "@/pages/Bedachungen";
 import Leistungen from "@/pages/Leistungen";
 import Spenglerei from "@/pages/Spenglerei";
 import FAQ from "@/pages/FAQ";
@@ -17,7 +17,7 @@ function Router() {
   return (
     <Switch>
       <Route path="/" component={Home} />
-      <Route path="/dachdeckerei" component={Dachdeckerei} />
+      <Route path="/bedachungen" component={Bedachungen} />
       <Route path="/spenglerei" component={Spenglerei} />
       <Route path="/leistungen" component={Leistungen} />
       <Route path="/faq" component={FAQ} />
