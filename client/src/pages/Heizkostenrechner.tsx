@@ -66,7 +66,8 @@ export default function Heizkostenrechner() {
     const co2Savings = co2Current - co2New;
     
     const daemmKosten = wohnflaeche * 150;
-    const paybackYears = potentialSavings > 0 ? daemmKosten / potentialSavings : 0;
+    let paybackYears = potentialSavings > 0 ? daemmKosten / potentialSavings : 0;
+    if (paybackYears > 15) paybackYears = 15;
 
     setResult({
       currentCost: Math.round(currentCost),
