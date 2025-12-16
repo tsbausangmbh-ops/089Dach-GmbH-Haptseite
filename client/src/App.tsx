@@ -111,6 +111,7 @@ function App() {
         <ChatWidget />
         <CookieConsent />
         <ChristmasPopup />
+        <NewYearPopup />
       </TooltipProvider>
     </QueryClientProvider>
   );
