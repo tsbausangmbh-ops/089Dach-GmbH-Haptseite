@@ -1,15 +1,13 @@
 import { useState } from "react";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import ProblemSolution from "@/components/ProblemSolution";
+import EmotionalFunnel from "@/components/EmotionalFunnel";
 import Services from "@/components/Services";
-import About from "@/components/About";
 import Gallery from "@/components/Gallery";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { LocalBusinessSchema, OrganizationSchema, WebSiteSchema, AggregateRatingSchema, GeoServiceAreaSchema, ProfessionalServiceSchema, AIKnowledgeSchema, VoiceSearchFAQSchema, GoogleBusinessProfileSchema, BingPlacesSchema, LocalSEO20kmSchema, NearbyServiceSchema } from "@/components/SEO";
-import { DachdeckerKomplettContent } from "@/components/SEOContent";
 
 export default function Home() {
   const [funnelOpen, setFunnelOpen] = useState(false);
@@ -38,11 +36,9 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero onOpenFunnel={() => setFunnelOpen(true)} />
-        <ProblemSolution onOpenFunnel={() => setFunnelOpen(true)} />
-        <Services />
+        <EmotionalFunnel onOpenFunnel={() => setFunnelOpen(true)} />
         <LeadFunnel externalOpen={funnelOpen} onExternalOpenChange={setFunnelOpen} />
-        <About />
-        <DachdeckerKomplettContent />
+        <Services />
         <Gallery />
         <Contact />
       </main>
