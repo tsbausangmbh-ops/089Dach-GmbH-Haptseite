@@ -1,4 +1,4 @@
-import { CheckCircle2, MapPin, Phone, Clock, Shield, Award, Users, Star } from "lucide-react";
+import { CheckCircle2, MapPin, Phone, Clock, Shield, Award, Users, Star, Wrench, Home, Sun, AlertTriangle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export function DachdeckerMuenchenContent() {
@@ -291,6 +291,279 @@ export function DachsanierungMuenchenContent() {
                   </div>
                 </div>
               ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export function SpenglereiMuenchenContent() {
+  return (
+    <section className="py-12 bg-white">
+      <div className="container mx-auto px-6 lg:px-12">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-heading font-bold text-secondary mb-6 text-center">
+            Spenglerei München – Meisterhandwerk in Kupfer, Zink & Aluminium
+          </h2>
+          
+          <div className="prose prose-lg max-w-none text-muted-foreground">
+            <p className="lead text-lg mb-6">
+              Als <strong className="text-secondary">Spengler in München</strong> fertigen wir alle Bauteile in unserer eigenen Werkstatt. 
+              Von der Dachrinne bis zur Kamineinfassung – jedes Stück wird passgenau für Ihr Objekt hergestellt.
+            </p>
+
+            <h3 className="text-2xl font-bold text-secondary mt-8 mb-4">
+              Dachrinne erneuern – Was kostet das in München?
+            </h3>
+
+            <div className="bg-stone-50 p-6 rounded-xl my-6">
+              <table className="w-full">
+                <thead>
+                  <tr className="border-b border-stone-200">
+                    <th className="text-left py-3 text-secondary">Material</th>
+                    <th className="text-right py-3 text-secondary">Kosten pro Meter</th>
+                    <th className="text-right py-3 text-secondary">Lebensdauer</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b border-stone-100">
+                    <td className="py-3">Zink (Titanzink)</td>
+                    <td className="text-right py-3 font-bold">ab 25 €</td>
+                    <td className="text-right py-3">40-50 Jahre</td>
+                  </tr>
+                  <tr className="border-b border-stone-100">
+                    <td className="py-3">Aluminium</td>
+                    <td className="text-right py-3 font-bold">ab 20 €</td>
+                    <td className="text-right py-3">30-40 Jahre</td>
+                  </tr>
+                  <tr className="border-b border-stone-100">
+                    <td className="py-3">Kupfer</td>
+                    <td className="text-right py-3 font-bold">ab 45 €</td>
+                    <td className="text-right py-3">80-100 Jahre</td>
+                  </tr>
+                  <tr>
+                    <td className="py-3">Edelstahl</td>
+                    <td className="text-right py-3 font-bold">ab 55 €</td>
+                    <td className="text-right py-3">50+ Jahre</td>
+                  </tr>
+                </tbody>
+              </table>
+              <p className="text-sm text-muted-foreground mt-4">
+                * Preise inkl. Montage, exkl. Gerüst. Individuelle Angebote nach Besichtigung.
+              </p>
+            </div>
+
+            <div className="bg-secondary text-white p-6 rounded-xl my-8">
+              <h4 className="text-xl font-bold mb-3">Eigene Werkstatt = Faire Preise</h4>
+              <p className="text-gray-200">
+                Da wir alle Bauteile selbst fertigen, sparen Sie die Zwischenhändler-Marge. 
+                Und wir können flexibel auf Ihre Wünsche eingehen – auch bei Sondermaßen.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export function DachfensterMuenchenContent() {
+  return (
+    <section className="py-12 bg-stone-50">
+      <div className="container mx-auto px-6 lg:px-12">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-heading font-bold text-secondary mb-6 text-center">
+            Dachfenster München – Mehr Licht für Ihr Zuhause
+          </h2>
+          
+          <div className="prose prose-lg max-w-none text-muted-foreground">
+            <p className="lead text-lg mb-6">
+              Ein <strong className="text-secondary">Dachfenster in München</strong> einbauen zu lassen ist eine Investition, die sich täglich auszahlt. 
+              Mehr Tageslicht, bessere Belüftung und höherer Wohnkomfort – oft schon nach einem Tag Arbeit.
+            </p>
+
+            <h3 className="text-2xl font-bold text-secondary mt-8 mb-4">
+              Was kostet ein Dachfenster mit Einbau?
+            </h3>
+
+            <div className="bg-white p-6 rounded-xl border border-stone-200 my-6">
+              <table className="w-full">
+                <thead>
+                  <tr className="border-b border-stone-200">
+                    <th className="text-left py-3 text-secondary">Fenstertyp</th>
+                    <th className="text-right py-3 text-secondary">Preis inkl. Einbau</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b border-stone-100">
+                    <td className="py-3">Schwingfenster Standard (78x98cm)</td>
+                    <td className="text-right py-3 font-bold">ab 1.200 €</td>
+                  </tr>
+                  <tr className="border-b border-stone-100">
+                    <td className="py-3">Schwingfenster Komfort (78x118cm)</td>
+                    <td className="text-right py-3 font-bold">ab 1.500 €</td>
+                  </tr>
+                  <tr className="border-b border-stone-100">
+                    <td className="py-3">Klapp-Schwingfenster</td>
+                    <td className="text-right py-3 font-bold">ab 1.800 €</td>
+                  </tr>
+                  <tr>
+                    <td className="py-3">Velux Cabrio Dachbalkon</td>
+                    <td className="text-right py-3 font-bold">ab 4.500 €</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div className="bg-primary/10 p-6 rounded-xl my-8">
+              <h4 className="text-xl font-bold text-secondary mb-2">Einbau in 1-2 Tagen</h4>
+              <p className="mb-0">
+                Als zertifizierter VELUX- und Roto-Partner bauen wir Ihr neues Dachfenster schnell und sauber ein. 
+                Wir arbeiten von außen – Ihr Wohnraum bleibt sauber.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export function DachreparaturMuenchenContent() {
+  return (
+    <section className="py-12 bg-white">
+      <div className="container mx-auto px-6 lg:px-12">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-heading font-bold text-secondary mb-6 text-center">
+            Dachreparatur München – Schnelle Hilfe bei Dachschäden
+          </h2>
+          
+          <div className="prose prose-lg max-w-none text-muted-foreground">
+            <p className="lead text-lg mb-6">
+              Wenn das <strong className="text-secondary">Dach undicht</strong> ist, zählt jede Stunde. 
+              Als Dachdecker in München sind wir in der Regel innerhalb von 24 Stunden bei Ihnen und sichern den Schaden ab.
+            </p>
+
+            <h3 className="text-2xl font-bold text-secondary mt-8 mb-4">
+              Was kostet eine Dachreparatur?
+            </h3>
+
+            <div className="bg-stone-50 p-6 rounded-xl my-6">
+              <table className="w-full">
+                <thead>
+                  <tr className="border-b border-stone-200">
+                    <th className="text-left py-3 text-secondary">Reparatur</th>
+                    <th className="text-right py-3 text-secondary">Kosten ca.</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b border-stone-100">
+                    <td className="py-3">Einzelne Ziegel austauschen</td>
+                    <td className="text-right py-3 font-bold">ab 150 €</td>
+                  </tr>
+                  <tr className="border-b border-stone-100">
+                    <td className="py-3">Notsicherung bei Sturmschaden</td>
+                    <td className="text-right py-3 font-bold">ab 200 €</td>
+                  </tr>
+                  <tr className="border-b border-stone-100">
+                    <td className="py-3">Undichte Stelle abdichten</td>
+                    <td className="text-right py-3 font-bold">ab 250 €</td>
+                  </tr>
+                  <tr>
+                    <td className="py-3">Dachrinne reparieren</td>
+                    <td className="text-right py-3 font-bold">ab 100 €</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div className="bg-secondary text-white p-6 rounded-xl my-8">
+              <h4 className="text-xl font-bold mb-3">Versicherungsfall? Wir helfen!</h4>
+              <p className="text-gray-200 mb-4">
+                Bei Sturmschäden übernimmt oft die Gebäudeversicherung die Kosten. 
+                Wir dokumentieren den Schaden fachgerecht für Ihre Versicherung.
+              </p>
+              <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-xl" data-testid="button-emergency-call">
+                <a href="tel:08912621964" className="flex items-center gap-2">
+                  <Phone className="h-5 w-5" />
+                  Notfall: 089 12621964
+                </a>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export function FlachdachMuenchenContent() {
+  return (
+    <section className="py-12 bg-stone-50">
+      <div className="container mx-auto px-6 lg:px-12">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-heading font-bold text-secondary mb-6 text-center">
+            Flachdach München – Abdichtung & Sanierung vom Meister
+          </h2>
+          
+          <div className="prose prose-lg max-w-none text-muted-foreground">
+            <p className="lead text-lg mb-6">
+              Ein <strong className="text-secondary">Flachdach in München</strong> muss besonderen Anforderungen standhalten: 
+              Starkregen, Hagel, Schneelast und UV-Strahlung. Wir sorgen dafür, dass Ihr Flachdach 100% dicht bleibt.
+            </p>
+
+            <h3 className="text-2xl font-bold text-secondary mt-8 mb-4">
+              Flachdach-Abdichtung – Materialien im Vergleich
+            </h3>
+
+            <div className="bg-white p-6 rounded-xl border border-stone-200 my-6">
+              <table className="w-full">
+                <thead>
+                  <tr className="border-b border-stone-200">
+                    <th className="text-left py-3 text-secondary">Material</th>
+                    <th className="text-right py-3 text-secondary">Kosten/m²</th>
+                    <th className="text-right py-3 text-secondary">Lebensdauer</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b border-stone-100">
+                    <td className="py-3">Bitumenbahnen</td>
+                    <td className="text-right py-3 font-bold">ab 35 €</td>
+                    <td className="text-right py-3">20-25 Jahre</td>
+                  </tr>
+                  <tr className="border-b border-stone-100">
+                    <td className="py-3">EPDM-Folie</td>
+                    <td className="text-right py-3 font-bold">ab 45 €</td>
+                    <td className="text-right py-3">40+ Jahre</td>
+                  </tr>
+                  <tr>
+                    <td className="py-3">Dachbegrünung (extensiv)</td>
+                    <td className="text-right py-3 font-bold">ab 80 €</td>
+                    <td className="text-right py-3">50+ Jahre</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-4 my-6">
+              <div className="flex items-start gap-3 bg-white p-4 rounded-xl border border-stone-200">
+                <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                <span>Verdoppelt die Lebensdauer der Abdichtung</span>
+              </div>
+              <div className="flex items-start gap-3 bg-white p-4 rounded-xl border border-stone-200">
+                <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                <span>Kühlt im Sommer um bis zu 8°C</span>
+              </div>
+              <div className="flex items-start gap-3 bg-white p-4 rounded-xl border border-stone-200">
+                <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                <span>Regenwasser-Retention bei Starkregen</span>
+              </div>
+              <div className="flex items-start gap-3 bg-white p-4 rounded-xl border border-stone-200">
+                <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                <span>Förderung in vielen Münchner Stadtteilen</span>
+              </div>
             </div>
           </div>
         </div>

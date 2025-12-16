@@ -11,6 +11,7 @@ import SEO, { BreadcrumbSchema, ServiceSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/bright_attic_room_after_skylights.png";
 import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
+import { DachfensterMuenchenContent } from "@/components/SEOContent";
 
 export default function Dachfenster() {
   const benefits = [
@@ -239,6 +240,7 @@ export default function Dachfenster() {
         </div>
       </section>
 
+      <DachfensterMuenchenContent />
       <LeadFunnel />
       <RelatedServices 
         currentPage="dachfenster" 

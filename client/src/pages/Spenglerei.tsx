@@ -9,6 +9,7 @@ import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema, ServiceSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
+import { SpenglereiMuenchenContent } from "@/components/SEOContent";
 
 export default function Spenglerei() {
   return (
@@ -230,6 +231,7 @@ export default function Spenglerei() {
         </div>
       </section>
 
+      <SpenglereiMuenchenContent />
       <LeadFunnel />
       <RelatedServices 
         currentPage="spenglerei" 

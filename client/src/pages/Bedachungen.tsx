@@ -10,6 +10,7 @@ import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema, ServiceSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
+import { FlachdachMuenchenContent } from "@/components/SEOContent";
 
 export default function Bedachungen() {
   return (
@@ -235,6 +236,7 @@ export default function Bedachungen() {
         </div>
       </section>
 
+      <FlachdachMuenchenContent />
       <LeadFunnel />
       <RelatedServices 
         currentPage="bedachungen" 

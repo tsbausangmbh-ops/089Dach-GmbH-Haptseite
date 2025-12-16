@@ -13,6 +13,7 @@ import SEO, { BreadcrumbSchema, ServiceSchema, HowToSchema } from "@/components/
 import heroImage from "@assets/generated_images/damaged_red_tile_roof_before.png";
 import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
+import { DachreparaturMuenchenContent } from "@/components/SEOContent";
 
 export default function Reparaturservice() {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -464,6 +465,7 @@ export default function Reparaturservice() {
         </div>
       </section>
 
+      <DachreparaturMuenchenContent />
       <LeadFunnel />
       <RelatedServices 
         currentPage="reparaturservice" 
