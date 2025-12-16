@@ -249,7 +249,7 @@ export default function Contact() {
 
       <div className="w-full h-[350px] bg-stone-200 grayscale hover:grayscale-0 transition-all duration-500">
         <iframe 
-          src="https://www.google.com/maps?q=089Dach+GmbH+Thuillestraße+20+81247+München&output=embed&hl=de" 
+          src="https://www.google.com/maps?q=Thuillestraße+20,+81247+München&output=embed&hl=de" 
           width="100%" 
           height="100%" 
           style={{ border: 0 }} 
