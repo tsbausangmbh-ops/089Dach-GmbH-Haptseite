@@ -44,6 +44,7 @@ import { LocalBusinessSchema } from "@/components/SEO";
 import ChatWidget from "@/components/ChatWidget";
 import FloatingCTA from "@/components/FloatingCTA";
 import ChristmasPopup from "@/components/ChristmasPopup";
+import NewYearPopup from "@/components/NewYearPopup";
 
 function ScrollToTop() {
   const [location] = useLocation();
