@@ -76,13 +76,13 @@ export default function ChristmasPopup() {
         
         <div className="absolute bottom-0 left-0 right-0 p-6 md:p-10 text-center text-gray-700">
           <h3 className="text-xl md:text-3xl font-bold mb-4 text-gray-800">
-            Frohe Weihnachten und ein gesundes und glückliches Jahr 2026
+            Frohe Weihnachten und ein gesundes und glückliches Jahr {new Date().getFullYear() + 1}
           </h3>
           <p className="text-base md:text-lg font-medium mb-3 text-gray-700">
             Liebe Kunden und Kundinnen,
           </p>
           <p className="text-sm md:text-base mb-2 text-gray-600">
-            Wir sagen Danke für die gute Zusammenarbeit und das Vertrauen, das Sie uns 2025 entgegengebracht haben.
+            Wir sagen Danke für die gute Zusammenarbeit und das Vertrauen, das Sie uns {new Date().getFullYear()} entgegengebracht haben.
           </p>
           <p className="text-sm md:text-base text-gray-600">
             Wir freuen uns, auch im nächsten Jahr für Sie im Einsatz zu sein.

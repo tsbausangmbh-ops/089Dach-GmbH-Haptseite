@@ -76,13 +76,13 @@ export default function NewYearPopup() {
         
         <div className="absolute bottom-0 left-0 right-0 p-6 md:p-10 text-center">
           <h3 className="text-xl md:text-3xl font-bold mb-4 text-slate-800">
-            Frohes Neues Jahr 2026!
+            Frohes Neues Jahr {new Date().getFullYear()}!
           </h3>
           <p className="text-base md:text-lg font-medium mb-3 text-slate-700">
             Liebe Kunden und Kundinnen,
           </p>
           <p className="text-sm md:text-base mb-2 text-slate-600">
-            Wir wünschen Ihnen ein gesundes, glückliches und erfolgreiches Jahr 2026!
+            Wir wünschen Ihnen ein gesundes, glückliches und erfolgreiches Jahr {new Date().getFullYear()}!
           </p>
           <p className="text-sm md:text-base text-slate-600">
             Wir freuen uns darauf, auch in diesem Jahr für Sie da zu sein.
