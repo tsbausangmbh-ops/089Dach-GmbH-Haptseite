@@ -83,20 +83,6 @@ export default function Contact() {
             <div className="space-y-8">
               <div className="flex items-start gap-4">
                 <div className="bg-primary/10 p-3 rounded-xl">
-                  <MapPin className="h-6 w-6 text-primary" />
-                </div>
-                <div>
-                  <h4 className="font-heading font-bold text-secondary text-lg">Anschrift</h4>
-                  <p className="text-muted-foreground">
-                    089Dach GmbH<br/>
-                    Thuillestr. 20<br/>
-                    81247 München-Obermenzing
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-4">
-                <div className="bg-primary/10 p-3 rounded-xl">
                   <Phone className="h-6 w-6 text-primary" />
                 </div>
                 <div>
