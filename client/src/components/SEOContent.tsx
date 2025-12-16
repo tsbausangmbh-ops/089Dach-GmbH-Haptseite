@@ -76,15 +76,15 @@ export function DachdeckerMuenchenContent() {
             </p>
 
             <div className="grid md:grid-cols-3 gap-4 my-8">
-              <div className="text-center p-4 bg-primary/5 rounded-xl">
+              <div className="text-center p-4 bg-primary/5 rounded-xl" data-testid="stat-experience">
                 <div className="text-3xl font-bold text-primary mb-1">25+</div>
                 <div className="text-sm text-muted-foreground">Jahre Erfahrung</div>
               </div>
-              <div className="text-center p-4 bg-primary/5 rounded-xl">
+              <div className="text-center p-4 bg-primary/5 rounded-xl" data-testid="stat-projects">
                 <div className="text-3xl font-bold text-primary mb-1">500+</div>
                 <div className="text-sm text-muted-foreground">Projekte abgeschlossen</div>
               </div>
-              <div className="text-center p-4 bg-primary/5 rounded-xl">
+              <div className="text-center p-4 bg-primary/5 rounded-xl" data-testid="stat-rating">
                 <div className="text-3xl font-bold text-primary mb-1">4.9/5</div>
                 <div className="text-sm text-muted-foreground">Kundenbewertung</div>
               </div>
@@ -128,13 +128,13 @@ export function DachdeckerMuenchenContent() {
                 und vereinbaren einen kostenlosen Vor-Ort-Termin mit Ihnen.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-xl">
+                <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-xl" data-testid="button-phone-seo">
                   <a href="tel:08912621964" className="flex items-center gap-2">
                     <Phone className="h-5 w-5" />
                     089 12621964
                   </a>
                 </Button>
-                <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white/10 rounded-xl">
+                <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white/10 rounded-xl" data-testid="button-contact-seo">
                   <a href="/kontakt">Kontaktformular</a>
                 </Button>
               </div>
