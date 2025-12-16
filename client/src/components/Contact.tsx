@@ -75,49 +75,10 @@ export default function Contact() {
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-secondary mt-2 mb-6 text-center md:text-left">
               Sprechen Sie mit uns über Ihr Projekt
             </h2>
-            <p className="text-muted-foreground text-lg mb-10">
+            <p className="text-muted-foreground text-lg">
               Gerne beraten wir Sie unverbindlich vor Ort oder erstellen Ihnen ein individuelles Angebot. 
               Wir freuen uns auf Ihre Anfrage.
             </p>
-
-            <div className="space-y-8">
-              <div className="flex items-start gap-4">
-                <div className="bg-primary/10 p-3 rounded-xl">
-                  <Phone className="h-6 w-6 text-primary" />
-                </div>
-                <div>
-                  <h4 className="font-heading font-bold text-secondary text-lg">Telefon</h4>
-                  <p className="text-muted-foreground">
-                    <a href="tel:08912621964" className="hover:text-primary transition-colors" data-testid="link-phone">089 12621964</a>
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-4">
-                <div className="bg-primary/10 p-3 rounded-xl">
-                  <Mail className="h-6 w-6 text-primary" />
-                </div>
-                <div>
-                  <h4 className="font-heading font-bold text-secondary text-lg">E-Mail</h4>
-                  <p className="text-muted-foreground">
-                    <a href="mailto:info@089dach.de" className="hover:text-primary transition-colors" data-testid="link-email">info@089dach.de</a>
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-4">
-                <div className="bg-primary/10 p-3 rounded-xl">
-                  <Clock className="h-6 w-6 text-primary" />
-                </div>
-                <div>
-                  <h4 className="font-heading font-bold text-secondary text-lg">Öffnungszeiten</h4>
-                  <p className="text-muted-foreground">
-                    Mo - Fr: 08:00 - 16:30 Uhr<br/>
-                    Wochenende geschlossen
-                  </p>
-                </div>
-              </div>
-            </div>
           </div>
 
           <div className="bg-white p-8 md:p-10 rounded-xl border border-stone-200">
