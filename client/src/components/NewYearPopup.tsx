@@ -76,20 +76,20 @@ export default function NewYearPopup() {
           <X className="w-6 h-6" />
         </Button>
         
-        <div className="absolute bottom-0 left-0 right-0 p-6 md:p-10 text-center text-gray-700">
-          <h3 className="text-xl md:text-3xl font-bold mb-4 text-gray-800">
+        <div className="absolute bottom-0 left-0 right-0 p-6 md:p-10 text-center">
+          <h3 className="text-xl md:text-3xl font-bold mb-4 text-amber-700">
             Frohes Neues Jahr 2026!
           </h3>
-          <p className="text-base md:text-lg font-medium mb-3 text-gray-700">
+          <p className="text-base md:text-lg font-medium mb-3 text-amber-800">
             Liebe Kunden und Kundinnen,
           </p>
-          <p className="text-sm md:text-base mb-2 text-gray-600">
+          <p className="text-sm md:text-base mb-2 text-amber-900">
             Wir wünschen Ihnen ein gesundes, glückliches und erfolgreiches Jahr 2026!
           </p>
-          <p className="text-sm md:text-base text-gray-600">
+          <p className="text-sm md:text-base text-amber-900">
             Wir freuen uns darauf, auch in diesem Jahr für Sie da zu sein.
           </p>
-          <p className="text-sm mt-4 text-gray-500">
+          <p className="text-sm mt-4 text-amber-700">
             Ihr Team von 089Dach GmbH
           </p>
         </div>
