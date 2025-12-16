@@ -249,14 +249,15 @@ export default function Contact() {
 
       <div className="w-full h-[350px] bg-stone-200 grayscale hover:grayscale-0 transition-all duration-500">
         <iframe 
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2660.569852277457!2d11.455648976922557!3d48.1764669712478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e7710a3099999%3A0x6b801a0808080808!2sThuillestra%C3%9Fe%2020%2C%2081247%20M%C3%BCnchen!5e0!3m2!1sde!2sde!4v1709825484897!5m2!1sde!2sde" 
+          src="https://www.google.com/maps?q=089Dach+GmbH+Thuillestraße+20+81247+München&output=embed&hl=de" 
           width="100%" 
           height="100%" 
           style={{ border: 0 }} 
           allowFullScreen 
           loading="lazy" 
           referrerPolicy="no-referrer-when-downgrade"
-          title="Standort 089Dach GmbH"
+          title="089Dach GmbH - Dachdecker München Obermenzing"
+          aria-label="Google Maps Karte mit Standort der 089Dach GmbH in München-Obermenzing"
         ></iframe>
       </div>
     </section>
