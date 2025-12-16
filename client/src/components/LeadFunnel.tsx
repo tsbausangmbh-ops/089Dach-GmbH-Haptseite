@@ -66,7 +66,10 @@ export default function LeadFunnel({ externalOpen, onExternalOpenChange }: LeadF
   const handleOpenChange = (val: boolean) => {
     setOpen(val);
     onExternalOpenChange?.(val);
-    if (!val) setTimeout(resetForm, 300);
+    if (!val) {
+      setCookie(POPUP_COOKIE_NAME, "1", 30);
+      setTimeout(resetForm, 300);
+    }
   };
 
   const handleProblemSelect = (problem: string) => {
