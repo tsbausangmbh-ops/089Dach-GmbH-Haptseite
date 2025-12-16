@@ -82,10 +82,10 @@ export default function NewYearPopup() {
             Liebe Kunden und Kundinnen,
           </p>
           <p className="text-sm md:text-base mb-2 text-slate-600">
-            Wir wünschen Ihnen ein gesundes, glückliches und erfolgreiches Jahr {new Date().getFullYear()}!
+            Danke für Ihr Vertrauen in {new Date().getFullYear() - 1}!
           </p>
           <p className="text-sm md:text-base text-slate-600">
-            Wir freuen uns darauf, auch in diesem Jahr für Sie da zu sein.
+            Wir wünschen Ihnen ein gesundes, glückliches und erfolgreiches Jahr {new Date().getFullYear()}!
           </p>
           <p className="text-sm mt-4 text-slate-500">
             Ihr Team von 089Dach GmbH
