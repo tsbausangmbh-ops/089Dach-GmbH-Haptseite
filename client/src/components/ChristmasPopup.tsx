@@ -43,7 +43,7 @@ export default function ChristmasPopup() {
       onClick={handleClose}
     >
       <div 
-        className={`relative max-w-4xl w-full mx-4 rounded-lg overflow-hidden shadow-2xl transition-all duration-300 ${
+        className={`relative max-w-4xl w-full mx-4 rounded-3xl overflow-hidden shadow-2xl transition-all duration-300 ${
           isClosing ? "scale-95" : "scale-100"
         }`}
         onClick={(e) => e.stopPropagation()}
@@ -74,20 +74,20 @@ export default function ChristmasPopup() {
           <X className="w-8 h-8" />
         </Button>
         
-        <div className="absolute bottom-0 left-0 right-0 p-6 md:p-10 text-center text-gray-800">
-          <h3 className="text-xl md:text-3xl font-bold mb-4">
+        <div className="absolute bottom-0 left-0 right-0 p-6 md:p-10 text-center text-gray-700">
+          <h3 className="text-xl md:text-3xl font-bold mb-4 text-gray-800">
             Frohe Weihnachten und ein gesundes und glückliches Jahr 2026
           </h3>
-          <p className="text-base md:text-lg font-medium mb-3">
+          <p className="text-base md:text-lg font-medium mb-3 text-gray-700">
             Liebe Kunden und Kundinnen,
           </p>
-          <p className="text-sm md:text-base mb-2">
+          <p className="text-sm md:text-base mb-2 text-gray-600">
             Wir sagen Danke für die gute Zusammenarbeit und das Vertrauen, das Sie uns 2025 entgegengebracht haben.
           </p>
-          <p className="text-sm md:text-base">
+          <p className="text-sm md:text-base text-gray-600">
             Wir freuen uns, auch im nächsten Jahr für Sie im Einsatz zu sein.
           </p>
-          <p className="text-sm mt-4 text-gray-600">
+          <p className="text-sm mt-4 text-gray-500">
             Ihr Team von 089Dach GmbH
           </p>
         </div>
