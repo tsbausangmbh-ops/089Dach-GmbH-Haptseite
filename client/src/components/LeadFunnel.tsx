@@ -9,18 +9,6 @@ import { useState, useEffect } from "react";
 import { toast } from "sonner";
 import { Link } from "wouter";
 
-const POPUP_COOKIE_NAME = "089dach_popup_shown";
-const POPUP_DELAY_MS = 8000;
-
-function setCookie(name: string, value: string, days: number) {
-  const expires = new Date(Date.now() + days * 864e5).toUTCString();
-  document.cookie = `${name}=${encodeURIComponent(value)}; expires=${expires}; path=/; SameSite=Lax`;
-}
-
-function getCookie(name: string): string | null {
-  const match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
-  return match ? decodeURIComponent(match[2]) : null;
-}
 
 interface LeadFunnelProps {
   externalOpen?: boolean;
@@ -47,27 +35,11 @@ export default function LeadFunnel({ externalOpen, onExternalOpenChange }: LeadF
     }
   }, [externalOpen]);
 
-  useEffect(() => {
-    const alreadyShown = getCookie(POPUP_COOKIE_NAME);
-    if (alreadyShown) return;
-
-    const timer = setTimeout(() => {
-      const stillNotShown = !getCookie(POPUP_COOKIE_NAME);
-      if (stillNotShown && !open) {
-        setOpen(true);
-        onExternalOpenChange?.(true);
-        setCookie(POPUP_COOKIE_NAME, "1", 30);
-      }
-    }, POPUP_DELAY_MS);
-
-    return () => clearTimeout(timer);
-  }, []);
-
+  
   const handleOpenChange = (val: boolean) => {
     setOpen(val);
     onExternalOpenChange?.(val);
     if (!val) {
-      setCookie(POPUP_COOKIE_NAME, "1", 30);
       setTimeout(resetForm, 300);
     }
   };
