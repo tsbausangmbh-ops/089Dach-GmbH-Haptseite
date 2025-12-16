@@ -198,7 +198,7 @@ export default function StadtteilLaim() {
               <div className="bg-gray-50 rounded-xl p-4 md:p-6">
                 <h4 className="font-bold text-secondary mb-4">Warum 089Dach?</h4>
                 <ul className="space-y-3">
-                  {["Meisterbetrieb seit 1998", "Über 500 Projekte in München", "10 Jahre Garantie", "Festpreisgarantie", "KfW-Förderberatung"].map((item, idx) => (
+                  {["Meisterbetrieb seit 1998", "Über 200 Projekte in München", "10 Jahre Garantie", "Festpreisgarantie", "KfW-Förderberatung"].map((item, idx) => (
                     <li key={idx} className="flex items-center gap-2 text-sm">
                       <CheckCircle2 className="h-4 w-4 text-primary" />{item}
                     </li>

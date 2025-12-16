@@ -127,7 +127,7 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
                 <div className="text-sm text-muted-foreground">Jahre Erfahrung</div>
               </div>
               <div data-testid="stat-projects">
-                <div className="text-4xl font-bold text-primary mb-1">500+</div>
+                <div className="text-4xl font-bold text-primary mb-1">200+</div>
                 <div className="text-sm text-muted-foreground">Projekte in München</div>
               </div>
               <div data-testid="stat-rating">
@@ -402,7 +402,7 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
               </h3>
               <p className="mb-4">
                 Als <strong>Dachdecker-Meisterbetrieb</strong> stehen wir für Qualität und Zuverlässigkeit. 
-                Über <strong>500 Dachprojekte</strong> in München sprechen für sich. Unsere Kunden schätzen:
+                Über <strong>200 Dachprojekte</strong> in München sprechen für sich. Unsere Kunden schätzen:
               </p>
               <ul className="space-y-2 mb-6">
                 <li className="flex items-start gap-2">

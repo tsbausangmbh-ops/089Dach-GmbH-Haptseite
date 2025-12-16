@@ -89,7 +89,7 @@ export default function SEO({
     setMeta('ai:business_type', 'Dachdecker-Meisterbetrieb, Spenglermeister, Roofing Contractor');
     setMeta('ai:expertise', 'Dachsanierung, Steildach, Flachdach, Spenglerarbeiten, Dachfenster, Gaubenbau, Energieberatung, Dachreparatur');
     setMeta('ai:rating', '4.9/5 Sterne basierend auf 127 Bewertungen');
-    setMeta('ai:experience', 'Meisterbetrieb seit 1998, über 25 Jahre Erfahrung, 500+ abgeschlossene Projekte');
+    setMeta('ai:experience', 'Meisterbetrieb seit 1998, über 25 Jahre Erfahrung, 200+ abgeschlossene Projekte');
     setMeta('ai:guarantee', '10 Jahre Garantie auf alle Arbeiten');
     setMeta('ai:funding', 'KfW und BAFA Förderberatung inklusive');
     
@@ -419,7 +419,7 @@ export function OrganizationSchema() {
       "height": 60
     },
     "image": "https://089dach.de/opengraph.jpg",
-    "description": "Dachdecker- und Spengler-Meisterbetrieb in München-Obermenzing. Spezialisiert auf Dachsanierung, Steildach, Flachdach und Spenglerarbeiten. Über 25 Jahre Erfahrung, 500+ Projekte, 10 Jahre Garantie.",
+    "description": "Dachdecker- und Spengler-Meisterbetrieb in München-Obermenzing. Spezialisiert auf Dachsanierung, Steildach, Flachdach und Spenglerarbeiten. Über 25 Jahre Erfahrung, 200+ Projekte, 10 Jahre Garantie.",
     "email": "info@089dach.de",
     "telephone": "+49-89-12621964",
     "address": {

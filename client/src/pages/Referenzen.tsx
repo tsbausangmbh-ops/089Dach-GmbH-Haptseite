@@ -179,7 +179,7 @@ export default function Referenzen() {
         description="12 echte Dachprojekte aus München mit Vorher-Nachher-Bildern. Steildach, Flachdach, Dachfenster. 10 Jahre Garantie. Jetzt ansehen!"
         canonical="https://089dach.de/referenzen"
         keywords="dachdecker referenzen münchen, dachsanierung steildach flachdach spenglerei dachfenster vorher nachher, referenzen obermenzing pasing laim schwabing sendling bogenhausen moosach, referenzen gräfelfing planegg germering starnberg dachau fürstenfeldbruck, bewertungen erfahrungen empfehlungen kundenmeinungen projekte"
-        aiSummary="089Dach GmbH Referenzen: 12 Dachprojekte in München mit Vorher-Nachher-Bildern. Steildach, Flachdach, Schieferdach, Dachfenster. 500+ abgeschlossene Projekte, 10 Jahre Garantie. Telefon: 089 12621964."
+        aiSummary="089Dach GmbH Referenzen: 12 Dachprojekte in München mit Vorher-Nachher-Bildern. Steildach, Flachdach, Schieferdach, Dachfenster. 200+ abgeschlossene Projekte, 10 Jahre Garantie. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Referenzen", url: "/referenzen" }]} />
       

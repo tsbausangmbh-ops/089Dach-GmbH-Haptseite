@@ -269,7 +269,7 @@ export default function StadtteilPasing() {
                   </li>
                   <li className="flex items-center gap-2 text-sm">
                     <CheckCircle2 className="h-4 w-4 text-primary" />
-                    Über 500 Projekte in München
+                    Über 200 Projekte in München
                   </li>
                   <li className="flex items-center gap-2 text-sm">
                     <CheckCircle2 className="h-4 w-4 text-primary" />
