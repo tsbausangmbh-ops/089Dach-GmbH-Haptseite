@@ -344,27 +344,27 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
                   <tbody>
                     <tr className="border-b border-stone-100">
                       <td className="py-3"><strong>Dachsanierung</strong> komplett (inkl. Dämmung)</td>
-                      <td className="text-right py-3 font-bold text-primary">ab 180 €/m²</td>
+                      <td className="text-right py-3 font-bold text-primary">ab 235 €/m²</td>
                     </tr>
                     <tr className="border-b border-stone-100">
                       <td className="py-3"><strong>Dachreparatur</strong> (einzelne Ziegel)</td>
-                      <td className="text-right py-3 font-bold text-primary">ab 150 €</td>
+                      <td className="text-right py-3 font-bold text-primary">ab 195 €</td>
                     </tr>
                     <tr className="border-b border-stone-100">
                       <td className="py-3"><strong>Dachfenster</strong> einbauen (inkl. Fenster)</td>
-                      <td className="text-right py-3 font-bold text-primary">ab 1.200 €</td>
+                      <td className="text-right py-3 font-bold text-primary">ab 1.560 €</td>
                     </tr>
                     <tr className="border-b border-stone-100">
                       <td className="py-3"><strong>Dachrinne</strong> erneuern (Zink)</td>
-                      <td className="text-right py-3 font-bold text-primary">ab 25 €/m</td>
+                      <td className="text-right py-3 font-bold text-primary">ab 35 €/m</td>
                     </tr>
                     <tr className="border-b border-stone-100">
                       <td className="py-3"><strong>Flachdach</strong>-Abdichtung</td>
-                      <td className="text-right py-3 font-bold text-primary">ab 45 €/m²</td>
+                      <td className="text-right py-3 font-bold text-primary">ab 60 €/m²</td>
                     </tr>
                     <tr>
-                      <td className="py-3"><strong>Sturmschaden</strong> Notsicherung</td>
-                      <td className="text-right py-3 font-bold text-primary">ab 200 €</td>
+                      <td className="py-3"><strong>Notdienst Dach</strong> (Sturmschaden, Notsicherung)</td>
+                      <td className="text-right py-3 font-bold text-primary">ab 300 €</td>
                     </tr>
                   </tbody>
                 </table>
