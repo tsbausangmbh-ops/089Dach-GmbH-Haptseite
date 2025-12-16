@@ -43,6 +43,7 @@ import BackgroundLogo from "@/components/BackgroundLogo";
 import { LocalBusinessSchema } from "@/components/SEO";
 import ChatWidget from "@/components/ChatWidget";
 import FloatingCTA from "@/components/FloatingCTA";
+import ChristmasPopup from "@/components/ChristmasPopup";
 
 function ScrollToTop() {
   const [location] = useLocation();
@@ -108,6 +109,7 @@ function App() {
         <Router />
         <ChatWidget />
         <CookieConsent />
+        <ChristmasPopup />
       </TooltipProvider>
     </QueryClientProvider>
   );
