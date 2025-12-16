@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, CheckCircle2, Phone, Shield, Clock, Star, AlertTriangle, Heart, ThermometerSnowflake, Droplets, Home, Users } from "lucide-react";
+import { ArrowRight, CheckCircle2, Phone, Shield, Clock, Star, AlertTriangle, Heart, ThermometerSnowflake, Droplets, Home, Users, MapPin, Award, Wrench } from "lucide-react";
 
 interface EmotionalFunnelProps {
   onOpenFunnel?: () => void;
@@ -251,6 +251,213 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
               <CheckCircle2 className="h-4 w-4" />
               Festpreis-Angebot
             </span>
+          </div>
+        </div>
+      </section>
+
+      {/* Sektion 5: SEO Content Block */}
+      <section className="py-16 bg-stone-50">
+        <div className="container mx-auto px-6 lg:px-12">
+          <div className="max-w-5xl mx-auto">
+            <h2 className="text-3xl font-heading font-bold text-secondary mb-8 text-center">
+              Dachdecker München – Ihr Meisterbetrieb für alle Dacharbeiten
+            </h2>
+            
+            <div className="prose prose-lg max-w-none text-muted-foreground mb-12">
+              <p className="text-lg mb-6">
+                <strong className="text-secondary">Dachdecker in München</strong> gesucht? Die 089Dach GmbH ist Ihr zuverlässiger Partner für professionelle <strong>Dacharbeiten</strong> in München und Umgebung. 
+                Als inhabergeführter <strong>Dachdecker-Meisterbetrieb</strong> mit über 25 Jahren Erfahrung bieten wir Ihnen das komplette Spektrum: 
+                <strong> Dachsanierung München</strong>, <strong>Dachreparatur</strong>, <strong>Flachdach</strong>-Abdichtung, <strong>Steildach</strong>-Eindeckung und <strong>Spenglerarbeiten</strong>.
+              </p>
+              
+              <p className="mb-6">
+                Ob Ihr <strong>Dach undicht</strong> ist, Sie eine <strong>energetische Dachsanierung</strong> planen oder <strong>Dachziegel austauschen</strong> lassen möchten – 
+                wir sind der <strong>Dachdecker in Ihrer Nähe</strong>, der schnell, sauber und zu fairen Festpreisen arbeitet. 
+                Mit <strong>10 Jahren Garantie</strong> auf alle Arbeiten und kostenloser <strong>KfW-Förderberatung</strong>.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              <div className="bg-white p-6 rounded-xl border border-stone-200">
+                <h3 className="text-xl font-bold text-secondary mb-4 flex items-center gap-2">
+                  <Wrench className="h-5 w-5 text-primary" />
+                  Unsere Dachdecker-Leistungen
+                </h3>
+                <ul className="space-y-3">
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                    <span><strong>Dachsanierung</strong> – Kompletterneuerung für Steildach & Flachdach</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                    <span><strong>Dachreparatur</strong> – Schnelle Hilfe bei Sturmschäden & Undichtigkeiten</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                    <span><strong>Dachdämmung</strong> – Energetische Sanierung für weniger Heizkosten</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                    <span><strong>Dachfenster</strong> – VELUX & Roto Einbau vom Fachmann</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                    <span><strong>Spenglerei</strong> – Dachrinnen, Fallrohre, Blecharbeiten</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                    <span><strong>Flachdach</strong> – Abdichtung, Begrünung, Lichtkuppeln</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div className="bg-white p-6 rounded-xl border border-stone-200">
+                <h3 className="text-xl font-bold text-secondary mb-4 flex items-center gap-2">
+                  <MapPin className="h-5 w-5 text-primary" />
+                  Dachdecker für ganz München
+                </h3>
+                <p className="text-muted-foreground mb-4">
+                  Von unserem Standort in <strong>München-Obermenzing</strong> aus sind wir als <strong>Dachdecker</strong> in allen Stadtteilen für Sie da:
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {["Dachdecker Pasing", "Dachdecker Laim", "Dachdecker Schwabing", "Dachdecker Sendling", "Dachdecker Bogenhausen", "Dachdecker Moosach", "Dachdecker Nymphenburg", "Dachdecker Gräfelfing", "Dachdecker Germering", "Dachdecker Starnberg"].map((s) => (
+                    <span key={s} className="bg-stone-50 px-3 py-1 rounded-full text-sm border border-stone-200">
+                      {s}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white p-8 rounded-xl border border-stone-200 mb-12">
+              <h3 className="text-2xl font-bold text-secondary mb-6 text-center">
+                Was kostet ein Dachdecker in München?
+              </h3>
+              <div className="overflow-x-auto">
+                <table className="w-full">
+                  <thead>
+                    <tr className="border-b border-stone-200">
+                      <th className="text-left py-3 text-secondary">Leistung</th>
+                      <th className="text-right py-3 text-secondary">Kosten</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr className="border-b border-stone-100">
+                      <td className="py-3"><strong>Dachsanierung</strong> komplett (inkl. Dämmung)</td>
+                      <td className="text-right py-3 font-bold text-primary">ab 180 €/m²</td>
+                    </tr>
+                    <tr className="border-b border-stone-100">
+                      <td className="py-3"><strong>Dachreparatur</strong> (einzelne Ziegel)</td>
+                      <td className="text-right py-3 font-bold text-primary">ab 150 €</td>
+                    </tr>
+                    <tr className="border-b border-stone-100">
+                      <td className="py-3"><strong>Dachfenster</strong> einbauen (inkl. Fenster)</td>
+                      <td className="text-right py-3 font-bold text-primary">ab 1.200 €</td>
+                    </tr>
+                    <tr className="border-b border-stone-100">
+                      <td className="py-3"><strong>Dachrinne</strong> erneuern (Zink)</td>
+                      <td className="text-right py-3 font-bold text-primary">ab 25 €/m</td>
+                    </tr>
+                    <tr className="border-b border-stone-100">
+                      <td className="py-3"><strong>Flachdach</strong>-Abdichtung</td>
+                      <td className="text-right py-3 font-bold text-primary">ab 45 €/m²</td>
+                    </tr>
+                    <tr>
+                      <td className="py-3"><strong>Sturmschaden</strong> Notsicherung</td>
+                      <td className="text-right py-3 font-bold text-primary">ab 200 €</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <p className="text-sm text-muted-foreground mt-4 text-center">
+                * Richtpreise für München 2025. Individuelle Angebote nach kostenloser Vor-Ort-Besichtigung.
+              </p>
+            </div>
+
+            <div className="prose prose-lg max-w-none text-muted-foreground">
+              <h3 className="text-2xl font-bold text-secondary mb-4">
+                Förderung für Dachsanierung in München 2025
+              </h3>
+              <p className="mb-4">
+                Bei einer <strong>energetischen Dachsanierung</strong> können Sie von attraktiven Förderprogrammen profitieren. 
+                Als erfahrener <strong>Dachdecker in München</strong> beraten wir Sie kostenlos zu allen Möglichkeiten:
+              </p>
+              <div className="grid md:grid-cols-3 gap-4 my-6">
+                <div className="bg-white p-4 rounded-xl border border-stone-200 text-center">
+                  <div className="text-2xl font-bold text-primary mb-1">bis 20%</div>
+                  <div className="text-sm text-muted-foreground">KfW-Zuschuss</div>
+                </div>
+                <div className="bg-white p-4 rounded-xl border border-stone-200 text-center">
+                  <div className="text-2xl font-bold text-primary mb-1">15%</div>
+                  <div className="text-sm text-muted-foreground">BAFA-Förderung</div>
+                </div>
+                <div className="bg-white p-4 rounded-xl border border-stone-200 text-center">
+                  <div className="text-2xl font-bold text-primary mb-1">1.200 €</div>
+                  <div className="text-sm text-muted-foreground">Steuerbonus/Jahr</div>
+                </div>
+              </div>
+              
+              <h3 className="text-2xl font-bold text-secondary mt-8 mb-4">
+                Warum 089Dach als Dachdecker wählen?
+              </h3>
+              <p className="mb-4">
+                Als <strong>Dachdecker-Meisterbetrieb</strong> stehen wir für Qualität und Zuverlässigkeit. 
+                Über <strong>500 Dachprojekte</strong> in München sprechen für sich. Unsere Kunden schätzen:
+              </p>
+              <ul className="space-y-2 mb-6">
+                <li className="flex items-start gap-2">
+                  <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                  <span><strong>Meister-Qualität</strong> – Dachdecker- und Spenglermeister seit 1998</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                  <span><strong>Festpreis-Garantie</strong> – Keine versteckten Kosten, keine Nachforderungen</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                  <span><strong>10 Jahre Garantie</strong> – Auf alle Dacharbeiten und Materialien</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                  <span><strong>Schnelle Reaktion</strong> – Bei Notfällen oft innerhalb von 24 Stunden</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                  <span><strong>Förderberatung</strong> – Kostenlose KfW/BAFA-Beratung inklusive</span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="bg-secondary text-white p-8 rounded-xl text-center mt-8">
+              <h3 className="text-2xl font-bold mb-4">Jetzt Dachdecker aus München kontaktieren</h3>
+              <p className="text-gray-200 mb-6">
+                Kostenlose Beratung, ehrliches Angebot, professionelle Ausführung. 
+                Rufen Sie uns an oder fordern Sie einen Rückruf an.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <Button 
+                  size="lg" 
+                  className="bg-primary hover:bg-primary/90 text-white font-bold rounded-xl"
+                  onClick={onOpenFunnel}
+                  data-testid="button-seo-cta"
+                >
+                  Kostenlos beraten lassen
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </Button>
+                <Button 
+                  size="lg" 
+                  variant="outline"
+                  className="border-white text-white hover:bg-white hover:text-secondary font-bold rounded-xl"
+                  asChild
+                  data-testid="button-seo-call"
+                >
+                  <a href="tel:08912621964">
+                    <Phone className="mr-2 h-5 w-5" />
+                    089 12621964
+                  </a>
+                </Button>
+              </div>
+            </div>
           </div>
         </div>
       </section>
