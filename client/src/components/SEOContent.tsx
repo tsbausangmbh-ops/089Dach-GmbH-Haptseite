@@ -1,167 +1,142 @@
 import { CheckCircle2, MapPin, Phone, Clock, Shield, Award, Users, Star, Wrench, Home, Sun, AlertTriangle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-export function WarumDachsanierungContent() {
-  return (
-    <section className="py-12 bg-stone-50">
-      <div className="container mx-auto px-6 lg:px-12">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-heading font-bold text-secondary mb-6 text-center">
-            Warum jetzt das Dach sanieren? 5 gute Gründe
-          </h2>
-          
-          <div className="space-y-6">
-            <div className="flex gap-4 bg-white p-5 rounded-xl border border-stone-200" data-testid="reason-energy">
-              <div className="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center font-bold shrink-0">1</div>
-              <div>
-                <h3 className="font-bold text-secondary text-lg">Heizkosten senken</h3>
-                <p className="text-muted-foreground">Ein ungedämmtes Dach verliert bis zu 30% der Heizwärme. Mit einer energetischen Sanierung sparen Sie jedes Jahr bares Geld.</p>
-              </div>
-            </div>
-            
-            <div className="flex gap-4 bg-white p-5 rounded-xl border border-stone-200" data-testid="reason-funding">
-              <div className="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center font-bold shrink-0">2</div>
-              <div>
-                <h3 className="font-bold text-secondary text-lg">Förderungen 2025 nutzen</h3>
-                <p className="text-muted-foreground">KfW und BAFA fördern energetische Sanierungen mit bis zu 20% Zuschuss. Wir beraten Sie kostenlos zu allen Möglichkeiten.</p>
-              </div>
-            </div>
-            
-            <div className="flex gap-4 bg-white p-5 rounded-xl border border-stone-200" data-testid="reason-value">
-              <div className="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center font-bold shrink-0">3</div>
-              <div>
-                <h3 className="font-bold text-secondary text-lg">Wertsteigerung Ihrer Immobilie</h3>
-                <p className="text-muted-foreground">Ein saniertes Dach steigert den Wert Ihres Hauses um durchschnittlich 5-10% – wichtig bei Verkauf oder Vererbung.</p>
-              </div>
-            </div>
-            
-            <div className="flex gap-4 bg-white p-5 rounded-xl border border-stone-200" data-testid="reason-damage">
-              <div className="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center font-bold shrink-0">4</div>
-              <div>
-                <h3 className="font-bold text-secondary text-lg">Folgeschäden vermeiden</h3>
-                <p className="text-muted-foreground">Kleine Undichtigkeiten werden schnell zu großen Problemen: Schimmel, Holzschäden, hohe Reparaturkosten.</p>
-              </div>
-            </div>
-            
-            <div className="flex gap-4 bg-white p-5 rounded-xl border border-stone-200" data-testid="reason-comfort">
-              <div className="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center font-bold shrink-0">5</div>
-              <div>
-                <h3 className="font-bold text-secondary text-lg">Besseres Wohnklima</h3>
-                <p className="text-muted-foreground">Kein Zugluft im Winter, angenehme Temperaturen im Sommer – ein gutes Dach macht das Zuhause gemütlicher.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-export function MuenchenStadtteileContent() {
-  const stadtteile = [
-    { name: "Obermenzing", desc: "Unser Hauptsitz – schnelle Reaktionszeiten und lokale Expertise" },
-    { name: "Pasing", desc: "Viele Altbauten mit Sanierungsbedarf, kurze Anfahrtswege" },
-    { name: "Laim", desc: "Regelmäßige Aufträge in der Nachbarschaft" },
-    { name: "Schwabing", desc: "Denkmalgeschützte Altbauten und stilvolle Villen" },
-    { name: "Bogenhausen", desc: "Anspruchsvolle Villen-Architektur mit komplexen Dachformen" },
-    { name: "Sendling", desc: "Vom Altbau bis zum Neubau – wir kennen das Viertel" },
-    { name: "Moosach", desc: "Einfamilienhäuser und Reihenhäuser aus den 60er-70er Jahren" },
-    { name: "Nymphenburg", desc: "Historische Gebäude mit besonderen Anforderungen" },
-  ];
+export function DachdeckerKomplettContent() {
+  const stadtteile = ["Obermenzing", "Pasing", "Laim", "Schwabing", "Sendling", "Bogenhausen", "Moosach", "Nymphenburg", "Gräfelfing", "Planegg", "Germering", "Starnberg"];
   
-  return (
-    <section className="py-12 bg-white">
-      <div className="container mx-auto px-6 lg:px-12">
-        <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-heading font-bold text-secondary mb-6 text-center">
-            Ihr Dachdecker in allen Münchner Stadtteilen
-          </h2>
-          <p className="text-center text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Von Obermenzing aus sind wir in ganz München für Sie da. In der Regel sind wir innerhalb von 24 Stunden bei Ihnen vor Ort.
-          </p>
-          
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
-            {stadtteile.map((s) => (
-              <div key={s.name} className="bg-stone-50 p-4 rounded-xl" data-testid={`stadtteil-${s.name.toLowerCase()}`}>
-                <div className="flex items-center gap-2 mb-2">
-                  <MapPin className="h-4 w-4 text-primary" />
-                  <span className="font-bold text-secondary">{s.name}</span>
-                </div>
-                <p className="text-sm text-muted-foreground">{s.desc}</p>
-              </div>
-            ))}
-          </div>
-          
-          <div className="mt-8 text-center">
-            <p className="text-muted-foreground mb-4">
-              Auch in <strong>Gräfelfing, Planegg, Germering, Fürstenfeldbruck, Starnberg, Dachau</strong> und dem gesamten Münchner Umland.
-            </p>
-            <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-xl" data-testid="button-request-callback">
-              <a href="/beratung">Kostenlose Beratung anfragen</a>
-            </Button>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-export function KundenstimmenContent() {
   const bewertungen = [
-    {
-      name: "Thomas M.",
-      ort: "München-Pasing",
-      text: "Nach einem Sturmschaden war das Team von 089Dach am nächsten Tag da. Professionell, sauber und zu fairen Preisen. Klare Empfehlung!",
-      projekt: "Sturmschaden-Reparatur",
-      sterne: 5
-    },
-    {
-      name: "Elisabeth K.",
-      ort: "München-Schwabing",
-      text: "Die Dachsanierung unseres 1920er Altbaus war eine Herausforderung. Herr Meister hat alles perfekt umgesetzt – sogar die Denkmalschutzbehörde war begeistert.",
-      projekt: "Altbau-Dachsanierung",
-      sterne: 5
-    },
-    {
-      name: "Familie Huber",
-      ort: "Germering",
-      text: "Endlich ein Handwerksbetrieb, der pünktlich ist, aufräumt und tut was er verspricht. Das neue Dach ist wunderschön.",
-      projekt: "Komplettsanierung Einfamilienhaus",
-      sterne: 5
-    }
+    { name: "Thomas M.", ort: "München-Pasing", text: "Professionell, sauber und zu fairen Preisen. Klare Empfehlung!", sterne: 5 },
+    { name: "Elisabeth K.", ort: "München-Schwabing", text: "Perfekte Dachsanierung unseres 1920er Altbaus.", sterne: 5 },
+    { name: "Familie Huber", ort: "Germering", text: "Pünktlich, sauber – das neue Dach ist wunderschön.", sterne: 5 }
   ];
-  
+
   return (
-    <section className="py-12 bg-secondary text-white">
+    <section className="py-16 bg-stone-50">
       <div className="container mx-auto px-6 lg:px-12">
         <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-10">
-            <h2 className="text-3xl font-heading font-bold mb-4">
-              Das sagen unsere Kunden
-            </h2>
-            <div className="flex items-center justify-center gap-2 mb-2">
-              {[1,2,3,4,5].map(i => (
-                <Star key={i} className="h-6 w-6 text-yellow-400 fill-yellow-400" />
+          <h2 className="text-3xl font-heading font-bold text-secondary mb-8 text-center">
+            Dachdecker München – Dacharbeiten vom Meisterbetrieb
+          </h2>
+          
+          <div className="prose prose-lg max-w-none text-muted-foreground mb-12">
+            <p className="text-lg mb-6">
+              <strong className="text-secondary">Dachdecker in München</strong> gesucht? Die 089Dach GmbH ist Ihr zuverlässiger Partner für alle <strong>Dacharbeiten</strong> in München und Umgebung. 
+              Als inhabergeführter <strong>Dachdecker-Meisterbetrieb</strong> mit über 25 Jahren Erfahrung bieten wir Ihnen professionelle <strong>Dachsanierung</strong>, 
+              <strong> Dachreparatur</strong>, <strong>Flachdach</strong>-Abdichtung und <strong>Spenglerarbeiten</strong> aus einer Hand.
+            </p>
+            
+            <p className="mb-6">
+              Ob <strong>Steildach</strong> oder <strong>Flachdach</strong>, ob <strong>Dachziegel austauschen</strong> oder komplette <strong>Dacheindeckung</strong> – 
+              unsere erfahrenen <strong>Dachdecker</strong> arbeiten schnell, sauber und zu transparenten Festpreisen. 
+              Bei <strong>Dachschäden</strong> und <strong>undichtem Dach</strong> sind wir oft innerhalb von 24 Stunden bei Ihnen.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 mb-12">
+            <div className="bg-white p-6 rounded-xl border border-stone-200">
+              <h3 className="text-xl font-bold text-secondary mb-4 flex items-center gap-2">
+                <Award className="h-5 w-5 text-primary" />
+                Warum 089Dach wählen?
+              </h3>
+              <ul className="space-y-3">
+                <li className="flex items-start gap-2">
+                  <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                  <span><strong>Dachdecker-Meister</strong> seit 1998 – Qualität garantiert</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                  <span>500+ <strong>Dachprojekte</strong> erfolgreich abgeschlossen</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                  <span>10 Jahre Garantie auf alle <strong>Dacharbeiten</strong></span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                  <span>Festpreisgarantie – keine versteckten Kosten</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                  <span>KfW/BAFA-<strong>Förderberatung</strong> für Dachsanierung 2025</span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="bg-white p-6 rounded-xl border border-stone-200">
+              <h3 className="text-xl font-bold text-secondary mb-4 flex items-center gap-2">
+                <Wrench className="h-5 w-5 text-primary" />
+                Unsere Dachdecker-Leistungen
+              </h3>
+              <ul className="space-y-3">
+                <li className="flex items-start gap-2">
+                  <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                  <span><strong>Dachsanierung</strong> & Dacherneuerung</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                  <span><strong>Dachreparatur</strong> & Sturmschaden-Behebung</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                  <span><strong>Flachdach</strong>-Abdichtung & Begrünung</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                  <span><strong>Dachfenster</strong> & Gauben einbauen</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                  <span><strong>Dachrinnen</strong>, Spenglerei & Blecharbeiten</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="bg-secondary text-white p-8 rounded-xl mb-12">
+            <div className="text-center mb-6">
+              <h3 className="text-2xl font-bold mb-2">Kundenbewertungen</h3>
+              <div className="flex items-center justify-center gap-2 mb-1">
+                {[1,2,3,4,5].map(i => (
+                  <Star key={i} className="h-5 w-5 text-yellow-400 fill-yellow-400" />
+                ))}
+              </div>
+              <p className="text-gray-300 text-sm">4.9/5 Sterne – 120+ zufriedene Kunden in München</p>
+            </div>
+            <div className="grid md:grid-cols-3 gap-4">
+              {bewertungen.map((b, i) => (
+                <div key={i} className="bg-white/10 p-4 rounded-xl" data-testid={`review-${i}`}>
+                  <div className="flex gap-1 mb-2">
+                    {[...Array(b.sterne)].map((_, j) => (
+                      <Star key={j} className="h-3 w-3 text-yellow-400 fill-yellow-400" />
+                    ))}
+                  </div>
+                  <p className="text-gray-200 text-sm italic mb-2">"{b.text}"</p>
+                  <p className="text-xs text-gray-400">{b.name}, {b.ort}</p>
+                </div>
               ))}
             </div>
-            <p className="text-gray-300">4.9 von 5 Sternen bei 120+ Bewertungen</p>
           </div>
-          
-          <div className="grid md:grid-cols-3 gap-6">
-            {bewertungen.map((b, i) => (
-              <div key={i} className="bg-white/10 p-6 rounded-xl" data-testid={`review-${i}`}>
-                <div className="flex gap-1 mb-3">
-                  {[...Array(b.sterne)].map((_, j) => (
-                    <Star key={j} className="h-4 w-4 text-yellow-400 fill-yellow-400" />
-                  ))}
-                </div>
-                <p className="text-gray-200 mb-4 italic">"{b.text}"</p>
-                <div>
-                  <p className="font-bold">{b.name}</p>
-                  <p className="text-sm text-gray-400">{b.ort} – {b.projekt}</p>
-                </div>
-              </div>
-            ))}
+
+          <div className="bg-white p-6 rounded-xl border border-stone-200">
+            <h3 className="text-xl font-bold text-secondary mb-4 flex items-center gap-2">
+              <MapPin className="h-5 w-5 text-primary" />
+              Dachdecker für ganz München & Umland
+            </h3>
+            <p className="text-muted-foreground mb-4">
+              Von unserem Standort in <strong>München-Obermenzing</strong> aus sind wir als <strong>Dachdecker</strong> in allen Stadtteilen für Sie da:
+            </p>
+            <div className="flex flex-wrap gap-2 mb-4">
+              {stadtteile.map((s) => (
+                <span key={s} className="bg-stone-50 px-3 py-1 rounded-full text-sm border border-stone-200">
+                  Dachdecker {s}
+                </span>
+              ))}
+            </div>
+            <div className="text-center mt-6">
+              <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-xl" data-testid="button-request-callback">
+                <a href="/beratung">Kostenlose Beratung anfragen</a>
+              </Button>
+            </div>
           </div>
         </div>
       </div>

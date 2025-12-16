@@ -9,7 +9,7 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { LocalBusinessSchema, OrganizationSchema, WebSiteSchema, AggregateRatingSchema, GeoServiceAreaSchema, ProfessionalServiceSchema, AIKnowledgeSchema, VoiceSearchFAQSchema, GoogleBusinessProfileSchema, BingPlacesSchema, LocalSEO20kmSchema, NearbyServiceSchema } from "@/components/SEO";
-import { DachdeckerMuenchenContent, WarumDachsanierungContent, MuenchenStadtteileContent, KundenstimmenContent } from "@/components/SEOContent";
+import { DachdeckerKomplettContent } from "@/components/SEOContent";
 
 export default function Home() {
   const [funnelOpen, setFunnelOpen] = useState(false);
@@ -42,10 +42,7 @@ export default function Home() {
         <Services />
         <LeadFunnel externalOpen={funnelOpen} onExternalOpenChange={setFunnelOpen} />
         <About />
-        <DachdeckerMuenchenContent />
-        <WarumDachsanierungContent />
-        <KundenstimmenContent />
-        <MuenchenStadtteileContent />
+        <DachdeckerKomplettContent />
         <Gallery />
         <Contact />
       </main>
