@@ -9,9 +9,9 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
   return (
     <>
       {/* Sektion 1: Empathie - "Kennen Sie das?" */}
-      <section className="py-12 bg-stone-100">
+      <section className="py-8 bg-stone-100">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="text-center max-w-3xl mx-auto mb-10">
+          <div className="text-center max-w-3xl mx-auto mb-6">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Kommt Ihnen das bekannt vor?</span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-secondary mt-2 mb-4">
               Sie liegen nachts wach und machen sich Sorgen ums Dach?
@@ -21,44 +21,44 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
-            <div className="bg-white p-6 rounded-xl border-l-4 border-red-400 shadow-sm" data-testid="pain-heizkosten">
-              <ThermometerSnowflake className="h-8 w-8 text-red-500 mb-4" />
-              <h3 className="font-bold text-secondary mb-2">"Die Heizkosten fressen uns auf"</h3>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
+            <div className="bg-white p-4 rounded-xl border-l-4 border-red-400 shadow-sm" data-testid="pain-heizkosten">
+              <ThermometerSnowflake className="h-6 w-6 text-red-500 mb-2" />
+              <h3 className="font-bold text-secondary text-sm mb-1">"Die Heizkosten fressen uns auf"</h3>
               <p className="text-sm text-muted-foreground">
                 Sie drehen die Heizung hoch, aber es bleibt kalt. Die Wärme verschwindet einfach durchs Dach.
               </p>
             </div>
 
-            <div className="bg-white p-6 rounded-xl border-l-4 border-red-400 shadow-sm" data-testid="pain-flecken">
-              <Droplets className="h-8 w-8 text-red-500 mb-4" />
-              <h3 className="font-bold text-secondary mb-2">"Der Fleck an der Decke wird größer"</h3>
+            <div className="bg-white p-4 rounded-xl border-l-4 border-red-400 shadow-sm" data-testid="pain-flecken">
+              <Droplets className="h-6 w-6 text-red-500 mb-2" />
+              <h3 className="font-bold text-secondary text-sm mb-1">"Der Fleck an der Decke wird größer"</h3>
               <p className="text-sm text-muted-foreground">
                 Erst war er klein. Jetzt wächst er. Woher kommt das Wasser? Was kostet das?
               </p>
             </div>
 
-            <div className="bg-white p-6 rounded-xl border-l-4 border-red-400 shadow-sm" data-testid="pain-alter">
-              <Home className="h-8 w-8 text-red-500 mb-4" />
-              <h3 className="font-bold text-secondary mb-2">"Unser Dach ist 30 Jahre alt"</h3>
+            <div className="bg-white p-4 rounded-xl border-l-4 border-red-400 shadow-sm" data-testid="pain-alter">
+              <Home className="h-6 w-6 text-red-500 mb-2" />
+              <h3 className="font-bold text-secondary text-sm mb-1">"Unser Dach ist 30 Jahre alt"</h3>
               <p className="text-sm text-muted-foreground">
                 Sie wissen, dass was getan werden muss. Aber die Angst vor den Kosten lähmt.
               </p>
             </div>
 
-            <div className="bg-white p-6 rounded-xl border-l-4 border-red-400 shadow-sm" data-testid="pain-handwerker">
-              <AlertTriangle className="h-8 w-8 text-red-500 mb-4" />
-              <h3 className="font-bold text-secondary mb-2">"Schlechte Erfahrungen mit Handwerkern"</h3>
+            <div className="bg-white p-4 rounded-xl border-l-4 border-red-400 shadow-sm" data-testid="pain-handwerker">
+              <AlertTriangle className="h-6 w-6 text-red-500 mb-2" />
+              <h3 className="font-bold text-secondary text-sm mb-1">"Schlechte Erfahrungen mit Handwerkern"</h3>
               <p className="text-sm text-muted-foreground">
                 Unzuverlässig, teuer, Pfusch. Sie haben Angst, wieder enttäuscht zu werden.
               </p>
             </div>
           </div>
 
-          <div className="bg-secondary text-white p-8 rounded-xl text-center max-w-3xl mx-auto">
-            <Heart className="h-10 w-10 text-primary mx-auto mb-4" />
-            <h3 className="text-2xl font-bold mb-3">Sie sind nicht allein.</h3>
-            <p className="text-gray-200 mb-6">
+          <div className="bg-secondary text-white p-6 rounded-xl text-center max-w-3xl mx-auto">
+            <Heart className="h-8 w-8 text-primary mx-auto mb-3" />
+            <h3 className="text-xl font-bold mb-2">Sie sind nicht allein.</h3>
+            <p className="text-gray-200 mb-4">
               Jede Woche helfen wir Familien in München, die genau diese Sorgen haben. 
               <strong className="text-white"> Und es gibt immer eine Lösung</strong> – oft günstiger als befürchtet.
             </p>
@@ -76,16 +76,16 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
       </section>
 
       {/* Sektion 2: Vertrauen - Warum 089Dach */}
-      <section className="py-12 bg-white">
+      <section className="py-8 bg-white">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="text-center max-w-3xl mx-auto mb-10">
+          <div className="text-center max-w-3xl mx-auto mb-6">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Warum 089Dach?</span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-secondary mt-2 mb-4">
               Wir nehmen Ihnen die Sorgen ab
             </h2>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8 mb-10">
+          <div className="grid md:grid-cols-3 gap-6 mb-6">
             <div className="text-center" data-testid="trust-ehrlich">
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <CheckCircle2 className="h-8 w-8 text-primary" />
@@ -144,10 +144,10 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
       </section>
 
       {/* Sektion 3: Social Proof */}
-      <section className="py-12 bg-secondary text-white">
+      <section className="py-8 bg-secondary text-white">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="text-center mb-10">
-            <div className="flex items-center justify-center gap-1 mb-3">
+          <div className="text-center mb-6">
+            <div className="flex items-center justify-center gap-1 mb-2">
               {[1,2,3,4,5].map(i => (
                 <Star key={i} className="h-6 w-6 text-yellow-400 fill-yellow-400" />
               ))}
@@ -205,7 +205,7 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
       </section>
 
       {/* Sektion 4: Einfacher CTA */}
-      <section className="py-16 bg-primary">
+      <section className="py-10 bg-primary">
         <div className="container mx-auto px-6 lg:px-12 text-center">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-4">
             Bereit, Ihre Dachsorgen loszuwerden?
@@ -256,7 +256,7 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
       </section>
 
       {/* Sektion 5: SEO Content Block */}
-      <section className="py-16 bg-stone-50">
+      <section className="py-10 bg-stone-50">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl font-heading font-bold text-secondary mb-8 text-center">
