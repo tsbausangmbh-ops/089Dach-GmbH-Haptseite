@@ -68,10 +68,10 @@ export default function ChristmasPopup() {
         <Button
           size="lg"
           variant="ghost"
-          className="absolute top-4 right-4 text-gray-700 hover:bg-black/10 p-3"
+          className="absolute top-4 right-4 bg-white/80 hover:bg-white text-gray-800 p-3 rounded-full shadow-lg z-10"
           onClick={handleClose}
         >
-          <X className="w-8 h-8" />
+          <X className="w-6 h-6" />
         </Button>
         
         <div className="absolute bottom-0 left-0 right-0 p-6 md:p-10 text-center text-gray-700">
