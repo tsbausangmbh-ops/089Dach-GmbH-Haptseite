@@ -43,6 +43,10 @@ import StadtteilNymphenburg from "@/pages/StadtteilNymphenburg";
 import StadtteilHarlaching from "@/pages/StadtteilHarlaching";
 import StadtteilTrudering from "@/pages/StadtteilTrudering";
 import StadtteilMoosach from "@/pages/StadtteilMoosach";
+import StadtteilAllach from "@/pages/StadtteilAllach";
+import StadtteilKarlsfeld from "@/pages/StadtteilKarlsfeld";
+import StadtteilFasanerie from "@/pages/StadtteilFasanerie";
+import StadtteilFeldmoching from "@/pages/StadtteilFeldmoching";
 import Notdienst from "@/pages/Notdienst";
 import CookieConsent from "@/components/CookieConsent";
 import BackgroundLogo from "@/components/BackgroundLogo";
@@ -105,6 +109,10 @@ function Router() {
       <Route path="/dachdecker-harlaching" component={StadtteilHarlaching} />
       <Route path="/dachdecker-trudering" component={StadtteilTrudering} />
       <Route path="/dachdecker-moosach" component={StadtteilMoosach} />
+      <Route path="/dachdecker-allach" component={StadtteilAllach} />
+      <Route path="/dachdecker-karlsfeld" component={StadtteilKarlsfeld} />
+      <Route path="/dachdecker-fasanerie" component={StadtteilFasanerie} />
+      <Route path="/dachdecker-feldmoching" component={StadtteilFeldmoching} />
       <Route path="/leistungen/notdienst" component={Notdienst} />
       <Route component={NotFound} />
     </Switch>

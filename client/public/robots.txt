@@ -45,6 +45,10 @@ Allow: /dachdecker-nymphenburg
 Allow: /dachdecker-harlaching
 Allow: /dachdecker-trudering
 Allow: /dachdecker-moosach
+Allow: /dachdecker-allach
+Allow: /dachdecker-karlsfeld
+Allow: /dachdecker-fasanerie
+Allow: /dachdecker-feldmoching
 
 # Utility-Seiten blockieren
 Disallow: /api/
