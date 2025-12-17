@@ -29,6 +29,7 @@ export default function Navbar() {
     { name: "Spenglerei", href: "/leistungen/spenglerei" },
     { name: "Gaubenbau", href: "/leistungen/gaubenbau" },
     { name: "Wartung", href: "/leistungen/wartung" },
+    { name: "24h Notdienst", href: "/leistungen/notdienst" },
     { name: "---", href: "#", separator: true },
     { name: "Kostenlose Beratung + Festpreis", href: "/ratgeber/beratung" },
     { name: "Dachsanierung mit Dämmung", href: "/ratgeber/daemmung" },

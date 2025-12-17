@@ -4,7 +4,7 @@
 User-agent: *
 Allow: /
 
-# Wichtige Seiten für Crawler
+# Lead-Seiten (höchste Priorität)
 Allow: /leistungen
 Allow: /leistungen/bedachungen
 Allow: /leistungen/spenglerei
@@ -15,20 +15,36 @@ Allow: /leistungen/energieberatung
 Allow: /leistungen/architektenleistungen
 Allow: /leistungen/gaubenbau
 Allow: /leistungen/wartung
+Allow: /leistungen/notdienst
+Allow: /kontakt
+Allow: /rueckruf
+Allow: /beratung
+
+# SEO-Verstärker
 Allow: /referenzen
+Allow: /ueber-uns
+Allow: /faq
+
+# Content & Expertise
 Allow: /ratgeber
 Allow: /ratgeber/daemmung
 Allow: /ratgeber/leckortung
 Allow: /ratgeber/beratung
-Allow: /faq
-Allow: /kontakt
-Allow: /ueber-uns
+Allow: /daemmung-info
+Allow: /heizkostenrechner
+
+# Lokale SEO - Stadtteile München
 Allow: /stadtteile
 Allow: /dachdecker-pasing
 Allow: /dachdecker-laim
 Allow: /dachdecker-schwabing
 Allow: /dachdecker-sendling
 Allow: /dachdecker-graefelfing
+Allow: /dachdecker-bogenhausen
+Allow: /dachdecker-nymphenburg
+Allow: /dachdecker-harlaching
+Allow: /dachdecker-trudering
+Allow: /dachdecker-moosach
 
 # Utility-Seiten blockieren
 Disallow: /api/
@@ -36,3 +52,6 @@ Disallow: /cookies
 
 # Sitemap
 Sitemap: https://089dach.de/sitemap.xml
+
+# Crawl-Delay für schonenden Zugriff
+Crawl-delay: 1
