@@ -68,9 +68,9 @@ export default function Contact() {
   return (
     <section id="contact" className="py-6 md:py-8 bg-stone-50">
       <div className="container mx-auto px-4 md:px-6 lg:px-12 mb-8 md:mb-12">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-24">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-24 items-stretch">
           
-          <div>
+          <div className="flex flex-col">
             <span className="text-primary font-bold tracking-wider uppercase text-sm block text-center md:text-left">Kontakt</span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-secondary mt-2 mb-6 text-center md:text-left">
               Sprechen Sie mit uns über Ihr Projekt
@@ -137,23 +137,25 @@ export default function Contact() {
               </div>
             </div>
 
-            <div className="mt-8 p-6 bg-primary rounded-xl text-white">
-              <h4 className="font-bold text-lg mb-2">24h Online Termine buchen</h4>
-              <p className="text-white/90 text-sm mb-4">
-                Jederzeit online Ihren Wunschtermin auswählen – auch außerhalb unserer Öffnungszeiten.
-              </p>
-              <a href="/beratung">
-                <Button size="lg" variant="secondary" className="w-full font-bold" data-testid="button-24h-booking">
-                  <Clock className="h-5 w-5 mr-2" />
-                  Jetzt Termin buchen
-                </Button>
-              </a>
+            <div className="mt-auto pt-8">
+              <div className="p-6 bg-primary rounded-xl text-white">
+                <h4 className="font-bold text-lg mb-2">24h Online Termine buchen</h4>
+                <p className="text-white/90 text-sm mb-4">
+                  Jederzeit online Ihren Wunschtermin auswählen – auch außerhalb unserer Öffnungszeiten.
+                </p>
+                <a href="/beratung">
+                  <Button size="lg" variant="secondary" className="w-full font-bold" data-testid="button-24h-booking">
+                    <Clock className="h-5 w-5 mr-2" />
+                    Jetzt Termin buchen
+                  </Button>
+                </a>
+              </div>
             </div>
           </div>
 
-          <div className="bg-white p-8 md:p-10 rounded-xl border border-stone-200">
+          <div className="bg-white p-8 md:p-10 rounded-xl border border-stone-200 flex flex-col">
             <h3 className="text-2xl font-heading font-bold text-secondary mb-6 text-center md:text-left">Nachricht senden</h3>
-            <form className="space-y-6" onSubmit={handleSubmit}>
+            <form className="space-y-6 flex flex-col flex-1" onSubmit={handleSubmit}>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-2">
                   <label htmlFor="name" className="text-sm font-medium text-secondary">Name</label>
@@ -251,14 +253,16 @@ export default function Contact() {
                 </label>
               </div>
 
-              <Button 
-                type="submit" 
-                className="w-full bg-primary hover:bg-primary/90 text-white font-bold py-6 rounded-xl text-lg"
-                disabled={isSubmitting || !dsgvoAccepted}
-                data-testid="button-contact-submit"
-              >
-                {isSubmitting ? "Wird gesendet..." : "Anfrage absenden"}
-              </Button>
+              <div className="mt-auto pt-4">
+                <Button 
+                  type="submit" 
+                  className="w-full bg-primary hover:bg-primary/90 text-white font-bold py-6 rounded-xl text-lg"
+                  disabled={isSubmitting || !dsgvoAccepted}
+                  data-testid="button-contact-submit"
+                >
+                  {isSubmitting ? "Wird gesendet..." : "Anfrage absenden"}
+                </Button>
+              </div>
             </form>
           </div>
 
