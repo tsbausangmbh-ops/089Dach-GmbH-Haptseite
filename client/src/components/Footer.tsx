@@ -26,31 +26,31 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="font-heading font-bold text-lg mb-6 text-white">Leistungen</h4>
+            <h4 className="font-heading font-bold text-lg mb-6 text-white">Dachdecker Leistungen</h4>
             <ul className="space-y-3 text-gray-400">
-              <li><a href="/leistungen/bedachungen" className="hover:text-primary transition-colors">Steildach & Flachdach</a></li>
-              <li><a href="/leistungen/spenglerei" className="hover:text-primary transition-colors">Spenglerarbeiten</a></li>
-              <li><a href="/leistungen/reparaturservice" className="hover:text-primary transition-colors">Reparaturservice</a></li>
-              <li><a href="/ratgeber" className="hover:text-primary transition-colors">Tipps & Tricks</a></li>
-              <li><a href="/leistungen/dachsanierung" className="hover:text-primary transition-colors">Dachsanierung</a></li>
-              <li><a href="/leistungen/dachfenster" className="hover:text-primary transition-colors">Dachfenster</a></li>
+              <li><a href="/leistungen/dachsanierung" className="hover:text-primary transition-colors">Dachsanierung München</a></li>
+              <li><a href="/leistungen/flachdach" className="hover:text-primary transition-colors">Flachdach Abdichtung</a></li>
+              <li><a href="/leistungen/bedachungen" className="hover:text-primary transition-colors">Steildach Eindeckung</a></li>
+              <li><a href="/leistungen/spenglerei" className="hover:text-primary transition-colors">Dachrinnen & Spenglerei</a></li>
+              <li><a href="/leistungen/dachfenster" className="hover:text-primary transition-colors">Dachfenster Einbau</a></li>
+              <li><a href="/leistungen/notdienst" className="hover:text-primary transition-colors">🚨 Dach Notdienst 24/7</a></li>
             </ul>
           </div>
 
           <div>
-            <h4 className="font-heading font-bold text-lg mb-6 text-white">Unternehmen</h4>
+            <h4 className="font-heading font-bold text-lg mb-6 text-white">Dachdecker vor Ort</h4>
             <ul className="space-y-3 text-gray-400">
-              <li><a href="/cookies" className="hover:text-primary transition-colors">Cookie Einstellungen</a></li>
-              <li><a href="/datenschutz" className="hover:text-primary transition-colors">Datenschutz</a></li>
-              <li><a href="/referenzen" className="hover:text-primary transition-colors">Referenzen</a></li>
-              <li><a href="/impressum" className="hover:text-primary transition-colors">Impressum</a></li>
-              <li><a href="/ueber-uns" className="hover:text-primary transition-colors">Über uns</a></li>
-              <li><a href="/agb" className="hover:text-primary transition-colors">AGB</a></li>
+              <li><a href="/dachdecker-pasing" className="hover:text-primary transition-colors">Dachdecker Pasing</a></li>
+              <li><a href="/dachdecker-schwabing" className="hover:text-primary transition-colors">Dachdecker Schwabing</a></li>
+              <li><a href="/dachdecker-sendling" className="hover:text-primary transition-colors">Dachdecker Sendling</a></li>
+              <li><a href="/dachdecker-bogenhausen" className="hover:text-primary transition-colors">Dachdecker Bogenhausen</a></li>
+              <li><a href="/dachdecker-nymphenburg" className="hover:text-primary transition-colors">Dachdecker Nymphenburg</a></li>
+              <li><a href="/stadtteile" className="hover:text-primary transition-colors text-primary font-medium">→ Alle Stadtteile</a></li>
             </ul>
           </div>
 
           <div>
-            <h4 className="font-heading font-bold text-lg mb-6 text-white">Kontakt</h4>
+            <h4 className="font-heading font-bold text-lg mb-6 text-white">Kontakt & Service</h4>
             <ul className="space-y-3 text-gray-400">
               <li>089Dach GmbH</li>
               <li>Thuillestr. 20</li>
@@ -66,14 +66,57 @@ export default function Footer() {
 
         </div>
 
+        {/* SEO Keyword Links Section */}
+        <div className="border-t border-white/10 pt-6 mb-6">
+          <div className="flex flex-wrap gap-x-4 gap-y-2 text-xs text-gray-500">
+            <a href="/ratgeber/kosten" className="hover:text-primary transition-colors">Was kostet Dachsanierung?</a>
+            <span>•</span>
+            <a href="/ratgeber/foerderung" className="hover:text-primary transition-colors">KfW Förderung Dach 2025</a>
+            <span>•</span>
+            <a href="/ratgeber/sturmschaden" className="hover:text-primary transition-colors">Sturmschaden am Dach</a>
+            <span>•</span>
+            <a href="/ratgeber/materialien" className="hover:text-primary transition-colors">Dachziegel Vergleich</a>
+            <span>•</span>
+            <a href="/ratgeber/daemmung" className="hover:text-primary transition-colors">Dachdämmung Kosten</a>
+            <span>•</span>
+            <a href="/leistungen/sturmschaden" className="hover:text-primary transition-colors">Sturmschaden Reparatur</a>
+            <span>•</span>
+            <a href="/leistungen/dachrinnenreinigung" className="hover:text-primary transition-colors">Dachrinnen reinigen</a>
+            <span>•</span>
+            <a href="/leistungen/energieberatung" className="hover:text-primary transition-colors">Energieberatung Dach</a>
+            <span>•</span>
+            <a href="/faq" className="hover:text-primary transition-colors">Häufige Fragen</a>
+            <span>•</span>
+            <a href="/referenzen" className="hover:text-primary transition-colors">Referenzen München</a>
+          </div>
+        </div>
+
+        {/* Umland Links */}
+        <div className="border-t border-white/10 pt-6 mb-6">
+          <p className="text-xs text-gray-500 mb-3">Dachdecker im Münchner Umland:</p>
+          <div className="flex flex-wrap gap-x-3 gap-y-1 text-xs text-gray-500">
+            <a href="/dachdecker-germering" className="hover:text-primary transition-colors">Germering</a>
+            <a href="/dachdecker-starnberg" className="hover:text-primary transition-colors">Starnberg</a>
+            <a href="/dachdecker-dachau" className="hover:text-primary transition-colors">Dachau</a>
+            <a href="/dachdecker-freising" className="hover:text-primary transition-colors">Freising</a>
+            <a href="/dachdecker-erding" className="hover:text-primary transition-colors">Erding</a>
+            <a href="/dachdecker-fuerstenfeldbruck" className="hover:text-primary transition-colors">Fürstenfeldbruck</a>
+            <a href="/dachdecker-unterschleissheim" className="hover:text-primary transition-colors">Unterschleißheim</a>
+            <a href="/dachdecker-ottobrunn" className="hover:text-primary transition-colors">Ottobrunn</a>
+          </div>
+        </div>
+
         <div className="border-t border-white/10 pt-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
-          <p className="text-gray-500 text-sm">
-            &copy; {new Date().getFullYear()} <a href="https://extrucon.de" target="_blank" rel="noopener noreferrer" className="text-white hover:text-primary font-medium transition-colors">ExtruCon GmbH</a>
-          </p>
+          <div className="flex flex-wrap gap-4 text-gray-500 text-sm">
+            <a href="/impressum" className="hover:text-primary transition-colors">Impressum</a>
+            <a href="/datenschutz" className="hover:text-primary transition-colors">Datenschutz</a>
+            <a href="/agb" className="hover:text-primary transition-colors">AGB</a>
+            <a href="/cookies" className="hover:text-primary transition-colors">Cookies</a>
+          </div>
           <div className="text-gray-500 text-sm flex flex-wrap items-center gap-2">
-            <span><span className="font-medium text-gray-400">Öffnungszeiten:</span> Mo - Fr: 08:00 - 16:30 | Sa - So: geschlossen</span>
+            <span>&copy; {new Date().getFullYear()} <a href="https://extrucon.de" target="_blank" rel="noopener noreferrer" className="text-white hover:text-primary font-medium transition-colors">ExtruCon GmbH</a></span>
             <span className="text-gray-600">|</span>
-            <a href="/rueckruf" className="text-primary hover:text-primary/80 font-medium transition-colors" data-testid="link-footer-rueckruf">Rückruf anfordern</a>
+            <span><span className="font-medium text-gray-400">Mo-Fr:</span> 08:00-16:30</span>
           </div>
         </div>
 
