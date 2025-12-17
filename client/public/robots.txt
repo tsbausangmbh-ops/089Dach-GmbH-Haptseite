@@ -30,6 +30,10 @@ Allow: /ratgeber
 Allow: /ratgeber/daemmung
 Allow: /ratgeber/leckortung
 Allow: /ratgeber/beratung
+Allow: /ratgeber/sturmschaden
+Allow: /ratgeber/kosten
+Allow: /ratgeber/foerderung
+Allow: /ratgeber/materialien
 Allow: /daemmung-info
 Allow: /heizkostenrechner
 
@@ -53,9 +57,25 @@ Allow: /dachdecker-neuhausen
 Allow: /dachdecker-obermenzing
 Allow: /dachdecker-solln
 Allow: /dachdecker-giesing
+Allow: /dachdecker-au-haidhausen
+Allow: /dachdecker-ramersdorf-perlach
+Allow: /dachdecker-milbertshofen
+
+# Lokale SEO - Umland
 Allow: /dachdecker-germering
 Allow: /dachdecker-starnberg
 Allow: /dachdecker-dachau
+Allow: /dachdecker-freising
+Allow: /dachdecker-erding
+Allow: /dachdecker-unterschleissheim
+Allow: /dachdecker-fuerstenfeldbruck
+Allow: /dachdecker-ottobrunn
+
+# Leistungen
+Allow: /leistungen/flachdach
+Allow: /leistungen/sturmschaden
+Allow: /leistungen/dachbeschichtung
+Allow: /leistungen/dachrinnenreinigung
 
 # Utility-Seiten blockieren
 Disallow: /api/

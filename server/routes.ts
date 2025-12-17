@@ -6,6 +6,8 @@ import OpenAI from "openai";
 import nodemailer from "nodemailer";
 import multer from "multer";
 import { createCalendarEvent, getAvailableSlots } from "./googleCalendar";
+import path from "path";
+import fs from "fs";
 
 const upload = multer({
   storage: multer.memoryStorage(),
@@ -152,6 +154,26 @@ export async function registerRoutes(
   httpServer: Server,
   app: Express
 ): Promise<Server> {
+  // robots.txt muss IMMER verfügbar sein - gesetzliche Pflicht für SEO
+  app.get("/robots.txt", (_req, res) => {
+    const robotsPath = path.resolve(process.cwd(), "client/public/robots.txt");
+    if (fs.existsSync(robotsPath)) {
+      res.type("text/plain").sendFile(robotsPath);
+    } else {
+      res.type("text/plain").send("User-agent: *\nAllow: /\nSitemap: https://089dach.de/sitemap.xml");
+    }
+  });
+
+  // sitemap.xml auch explizit bereitstellen
+  app.get("/sitemap.xml", (_req, res) => {
+    const sitemapPath = path.resolve(process.cwd(), "client/public/sitemap.xml");
+    if (fs.existsSync(sitemapPath)) {
+      res.type("application/xml").sendFile(sitemapPath);
+    } else {
+      res.status(404).send("Sitemap not found");
+    }
+  });
+
   app.post("/api/contact", async (req, res) => {
     try {
       const validatedData = insertContactSchema.parse(req.body);
