@@ -8,39 +8,38 @@ import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 
 const stadtteile = [
-  { name: "Obermenzing", entfernung: "0 km", link: "/", highlight: true },
+  { name: "Obermenzing", entfernung: "0 km", link: "/dachdecker-obermenzing", highlight: true },
   { name: "Pasing", entfernung: "2 km", link: "/dachdecker-pasing" },
   { name: "Laim", entfernung: "3 km", link: "/dachdecker-laim" },
   { name: "Nymphenburg", entfernung: "2 km", link: "/dachdecker-nymphenburg" },
   { name: "Neuhausen", entfernung: "4 km", link: "/dachdecker-neuhausen" },
   { name: "Moosach", entfernung: "3 km", link: "/dachdecker-moosach" },
   { name: "Allach", entfernung: "3 km", link: "/dachdecker-allach" },
-  { name: "Aubing", entfernung: "4 km", link: "/dachdecker-aubing" },
   { name: "Schwabing", entfernung: "8 km", link: "/dachdecker-schwabing" },
   { name: "Sendling", entfernung: "7 km", link: "/dachdecker-sendling" },
   { name: "Bogenhausen", entfernung: "10 km", link: "/dachdecker-bogenhausen" },
-  { name: "Hadern", entfernung: "5 km", link: "/dachdecker-hadern" },
+  { name: "Harlaching", entfernung: "9 km", link: "/dachdecker-harlaching" },
   { name: "Trudering", entfernung: "14 km", link: "/dachdecker-trudering" },
-  { name: "Haidhausen", entfernung: "9 km", link: "/dachdecker-haidhausen" },
-  { name: "Maxvorstadt", entfernung: "7 km", link: "/dachdecker-maxvorstadt" }
+  { name: "Au-Haidhausen", entfernung: "9 km", link: "/dachdecker-au-haidhausen" },
+  { name: "Solln", entfernung: "8 km", link: "/dachdecker-solln" },
+  { name: "Giesing", entfernung: "8 km", link: "/dachdecker-giesing" },
+  { name: "Ramersdorf-Perlach", entfernung: "10 km", link: "/dachdecker-ramersdorf-perlach" },
+  { name: "Milbertshofen", entfernung: "6 km", link: "/dachdecker-milbertshofen" },
+  { name: "Feldmoching", entfernung: "7 km", link: "/dachdecker-feldmoching" },
+  { name: "Fasanerie", entfernung: "5 km", link: "/dachdecker-fasanerie" }
 ];
 
 const umlandOrte = [
   { name: "Gräfelfing", entfernung: "5 km", link: "/dachdecker-graefelfing" },
-  { name: "Planegg", entfernung: "7 km", link: "/dachdecker-planegg" },
-  { name: "Germering", entfernung: "8 km", link: "/dachdecker-germering" },
-  { name: "Puchheim", entfernung: "9 km", link: "/dachdecker-puchheim" },
-  { name: "Gröbenzell", entfernung: "8 km", link: "/dachdecker-groebenzell" },
-  { name: "Olching", entfernung: "11 km", link: "/dachdecker-olching" },
   { name: "Karlsfeld", entfernung: "7 km", link: "/dachdecker-karlsfeld" },
+  { name: "Germering", entfernung: "8 km", link: "/dachdecker-germering" },
   { name: "Dachau", entfernung: "10 km", link: "/dachdecker-dachau" },
   { name: "Unterschleißheim", entfernung: "13 km", link: "/dachdecker-unterschleissheim" },
+  { name: "Ottobrunn", entfernung: "12 km", link: "/dachdecker-ottobrunn" },
   { name: "Starnberg", entfernung: "18 km", link: "/dachdecker-starnberg" },
   { name: "Fürstenfeldbruck", entfernung: "16 km", link: "/dachdecker-fuerstenfeldbruck" },
-  { name: "Gauting", entfernung: "11 km", link: "/dachdecker-gauting" },
-  { name: "Krailling", entfernung: "8 km", link: "/dachdecker-krailling" },
-  { name: "Grünwald", entfernung: "13 km", link: "/dachdecker-gruenwald" },
-  { name: "Pullach", entfernung: "12 km", link: "/dachdecker-pullach" }
+  { name: "Freising", entfernung: "35 km", link: "/dachdecker-freising" },
+  { name: "Erding", entfernung: "35 km", link: "/dachdecker-erding" }
 ];
 
 function ServiceAreaListSchema() {

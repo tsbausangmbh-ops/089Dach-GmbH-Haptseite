@@ -20,20 +20,22 @@ export default function Navbar() {
 
   const leistungenItems = [
     { name: "Alle Leistungen", href: "/leistungen" },
-    { name: "Architektenleistungen", href: "/leistungen/architektenleistungen" },
-    { name: "Reparaturservice", href: "/leistungen/reparaturservice" },
-    { name: "Energieberatung", href: "/leistungen/energieberatung" },
     { name: "Dachsanierung", href: "/leistungen/dachsanierung" },
-    { name: "Dachfenster", href: "/leistungen/dachfenster" },
+    { name: "Flachdach", href: "/leistungen/flachdach" },
     { name: "Bedachungen", href: "/leistungen/bedachungen" },
+    { name: "Dachfenster", href: "/leistungen/dachfenster" },
     { name: "Spenglerei", href: "/leistungen/spenglerei" },
     { name: "Gaubenbau", href: "/leistungen/gaubenbau" },
+    { name: "Dachrinnenreinigung", href: "/leistungen/dachrinnenreinigung" },
     { name: "Wartung", href: "/leistungen/wartung" },
-    { name: "24h Notdienst", href: "/leistungen/notdienst" },
     { name: "---", href: "#", separator: true },
-    { name: "Kostenlose Beratung + Festpreis", href: "/ratgeber/beratung" },
-    { name: "Dachsanierung mit Dämmung", href: "/ratgeber/daemmung" },
-    { name: "Leckortung & Reparatur", href: "/ratgeber/leckortung" },
+    { name: "🚨 Sturmschaden", href: "/leistungen/sturmschaden" },
+    { name: "🚨 24h Notdienst", href: "/leistungen/notdienst" },
+    { name: "---", href: "#", separator: true },
+    { name: "Energieberatung", href: "/leistungen/energieberatung" },
+    { name: "Dachbeschichtung", href: "/leistungen/dachbeschichtung" },
+    { name: "Architektenleistungen", href: "/leistungen/architektenleistungen" },
+    { name: "Reparaturservice", href: "/leistungen/reparaturservice" },
   ];
 
   return (

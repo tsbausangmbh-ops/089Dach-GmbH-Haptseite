@@ -48,7 +48,7 @@ export default function Leistungen() {
       id: "flachdach",
       icon: <Warehouse className="h-8 w-8 text-primary" />,
       title: "Flachdach & Abdichtung",
-      link: "/leistungen/bedachungen",
+      link: "/leistungen/flachdach",
       problem: "Wasserflecken an der Decke? Der typische Alptraum bei schlecht abgedichteten Flachdächern.",
       solution: "Wir machen Ihr Flachdach 100% dicht – mit hochwertigen Materialien und Liebe zum Detail.",
       result: "Endlich Ruhe. Kein Tropfen mehr, auch nicht nach dem stärksten Regen.",
