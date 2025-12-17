@@ -81,6 +81,26 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://089dach.de/ratgeber/sturmschaden</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://089dach.de/ratgeber/kosten</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://089dach.de/ratgeber/foerderung</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://089dach.de/ratgeber/materialien</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://089dach.de/faq</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

@@ -45,7 +45,7 @@ export default function Ratgeber() {
       takeaway: "Im Notfall sind wir in 2 Stunden bei Ihnen – auch nachts.",
       category: "Notfall",
       readTime: "3 Min",
-      href: "/ratgeber/leckortung"
+      href: "/ratgeber/sturmschaden"
     },
     {
       icon: Leaf,
@@ -67,7 +67,7 @@ export default function Ratgeber() {
       takeaway: "Das richtige Material hält 50 Jahre. Das falsche macht nach 20 Jahren Probleme.",
       category: "Materialkunde",
       readTime: "7 Min",
-      href: "/ratgeber/beratung"
+      href: "/ratgeber/materialien"
     },
     {
       icon: HelpCircle,
@@ -78,7 +78,18 @@ export default function Ratgeber() {
       takeaway: "Im Schnitt holen wir 12.000€ Förderung für unsere Kunden.",
       category: "Förderung",
       readTime: "10 Min",
-      href: "/ratgeber/beratung"
+      href: "/ratgeber/foerderung"
+    },
+    {
+      icon: Lightbulb,
+      title: "Was kostet eine Dachsanierung 2025?",
+      problem: "Sie haben keine Ahnung, was eine Dachsanierung kostet. Sie haben Angst vor versteckten Kosten und bösen Überraschungen.",
+      solution: "Transparente Preisübersicht: Was kostet Steildach, Flachdach, Dämmung? Echte Beispiele aus München. Plus Spartipps.",
+      story: "Familie Müller aus Pasing bekam drei Angebote – alle völlig unterschiedlich. Mit unserem Ratgeber konnten sie endlich vergleichen.",
+      takeaway: "Mit Förderung sparen Sie bis zu 20% der Kosten.",
+      category: "Kosten",
+      readTime: "6 Min",
+      href: "/ratgeber/kosten"
     }
   ];
 

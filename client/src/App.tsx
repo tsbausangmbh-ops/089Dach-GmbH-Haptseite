@@ -30,6 +30,10 @@ import AGB from "@/pages/AGB";
 import RatgeberDaemmung from "@/pages/RatgeberDaemmung";
 import RatgeberLeckortung from "@/pages/RatgeberLeckortung";
 import RatgeberBeratung from "@/pages/RatgeberBeratung";
+import RatgeberSturmschaden from "@/pages/RatgeberSturmschaden";
+import RatgeberKosten from "@/pages/RatgeberKosten";
+import RatgeberFoerderung from "@/pages/RatgeberFoerderung";
+import RatgeberMaterialien from "@/pages/RatgeberMaterialien";
 import Heizkostenrechner from "@/pages/Heizkostenrechner";
 import DaemmungInfo from "@/pages/DaemmungInfo";
 import Stadtteile from "@/pages/Stadtteile";
@@ -106,6 +110,10 @@ function Router() {
       <Route path="/ratgeber/daemmung" component={RatgeberDaemmung} />
       <Route path="/ratgeber/leckortung" component={RatgeberLeckortung} />
       <Route path="/ratgeber/beratung" component={RatgeberBeratung} />
+      <Route path="/ratgeber/sturmschaden" component={RatgeberSturmschaden} />
+      <Route path="/ratgeber/kosten" component={RatgeberKosten} />
+      <Route path="/ratgeber/foerderung" component={RatgeberFoerderung} />
+      <Route path="/ratgeber/materialien" component={RatgeberMaterialien} />
       <Route path="/faq" component={FAQ} />
       <Route path="/kontakt" component={ContactPage} />
       <Route path="/ueber-uns" component={UeberUns} />
