@@ -162,8 +162,11 @@ export async function registerRoutes(
         `
         <h2>Neue Kontaktanfrage über die Website</h2>
         <p><strong>Name:</strong> ${validatedData.name}</p>
-        <p><strong>E-Mail:</strong> ${validatedData.email}</p>
         <p><strong>Telefon:</strong> ${validatedData.phone || "Nicht angegeben"}</p>
+        <p><strong>E-Mail:</strong> ${validatedData.email}</p>
+        <p><strong>Adresse:</strong> ${validatedData.address || "Nicht angegeben"}</p>
+        <p><strong>Betreff:</strong> ${validatedData.subject || "Nicht angegeben"}</p>
+        <hr>
         <p><strong>Nachricht:</strong></p>
         <p>${validatedData.message}</p>
         `
