@@ -75,10 +75,67 @@ export default function Contact() {
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-secondary mt-2 mb-6 text-center md:text-left">
               Sprechen Sie mit uns über Ihr Projekt
             </h2>
-            <p className="text-muted-foreground text-lg">
+            <p className="text-muted-foreground text-lg mb-8">
               Gerne beraten wir Sie unverbindlich vor Ort oder erstellen Ihnen ein individuelles Angebot. 
               Wir freuen uns auf Ihre Anfrage.
             </p>
+
+            <div className="space-y-6">
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center shrink-0">
+                  <MapPin className="h-6 w-6 text-primary" />
+                </div>
+                <div>
+                  <h4 className="font-bold text-secondary mb-1">Adresse</h4>
+                  <p className="text-muted-foreground">
+                    089Dach GmbH<br />
+                    Thuillestraße 20<br />
+                    81247 München-Obermenzing
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center shrink-0">
+                  <Phone className="h-6 w-6 text-primary" />
+                </div>
+                <div>
+                  <h4 className="font-bold text-secondary mb-1">Telefon</h4>
+                  <p className="text-muted-foreground">
+                    089 12621964
+                  </p>
+                  <a href="/rueckruf" className="text-primary text-sm font-medium hover:underline">
+                    → Rückruf anfordern
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center shrink-0">
+                  <Mail className="h-6 w-6 text-primary" />
+                </div>
+                <div>
+                  <h4 className="font-bold text-secondary mb-1">E-Mail</h4>
+                  <a href="mailto:info@089dach.de" className="text-muted-foreground hover:text-primary">
+                    info@089dach.de
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center shrink-0">
+                  <Clock className="h-6 w-6 text-primary" />
+                </div>
+                <div>
+                  <h4 className="font-bold text-secondary mb-1">Öffnungszeiten</h4>
+                  <p className="text-muted-foreground">
+                    Mo – Fr: 8:00 – 17:00 Uhr<br />
+                    Sa: 10:00 – 14:00 Uhr<br />
+                    <span className="text-sm">Notdienst 24/7 erreichbar</span>
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
 
           <div className="bg-white p-8 md:p-10 rounded-xl border border-stone-200">
