@@ -1,88 +1,140 @@
 # 089Dach GmbH - Dachdecker München
 # https://089dach.de
 
+# Alle seriösen Suchmaschinen erlauben
 User-agent: *
 Allow: /
-
-# Lead-Seiten (höchste Priorität)
-Allow: /leistungen
-Allow: /leistungen/bedachungen
-Allow: /leistungen/spenglerei
-Allow: /leistungen/dachsanierung
-Allow: /leistungen/dachfenster
-Allow: /leistungen/reparaturservice
-Allow: /leistungen/energieberatung
-Allow: /leistungen/architektenleistungen
-Allow: /leistungen/gaubenbau
-Allow: /leistungen/wartung
-Allow: /leistungen/notdienst
-Allow: /kontakt
-Allow: /rueckruf
-Allow: /beratung
-
-# SEO-Verstärker
-Allow: /referenzen
-Allow: /ueber-uns
-Allow: /faq
-
-# Content & Expertise
-Allow: /ratgeber
-Allow: /ratgeber/daemmung
-Allow: /ratgeber/leckortung
-Allow: /ratgeber/beratung
-Allow: /ratgeber/sturmschaden
-Allow: /ratgeber/kosten
-Allow: /ratgeber/foerderung
-Allow: /ratgeber/materialien
-Allow: /daemmung-info
-Allow: /heizkostenrechner
-
-# Lokale SEO - Stadtteile München
-Allow: /stadtteile
-Allow: /dachdecker-pasing
-Allow: /dachdecker-laim
-Allow: /dachdecker-schwabing
-Allow: /dachdecker-sendling
-Allow: /dachdecker-graefelfing
-Allow: /dachdecker-bogenhausen
-Allow: /dachdecker-nymphenburg
-Allow: /dachdecker-harlaching
-Allow: /dachdecker-trudering
-Allow: /dachdecker-moosach
-Allow: /dachdecker-allach
-Allow: /dachdecker-karlsfeld
-Allow: /dachdecker-fasanerie
-Allow: /dachdecker-feldmoching
-Allow: /dachdecker-neuhausen
-Allow: /dachdecker-obermenzing
-Allow: /dachdecker-solln
-Allow: /dachdecker-giesing
-Allow: /dachdecker-au-haidhausen
-Allow: /dachdecker-ramersdorf-perlach
-Allow: /dachdecker-milbertshofen
-
-# Lokale SEO - Umland
-Allow: /dachdecker-germering
-Allow: /dachdecker-starnberg
-Allow: /dachdecker-dachau
-Allow: /dachdecker-freising
-Allow: /dachdecker-erding
-Allow: /dachdecker-unterschleissheim
-Allow: /dachdecker-fuerstenfeldbruck
-Allow: /dachdecker-ottobrunn
-
-# Leistungen
-Allow: /leistungen/flachdach
-Allow: /leistungen/sturmschaden
-Allow: /leistungen/dachbeschichtung
-Allow: /leistungen/dachrinnenreinigung
-
-# Utility-Seiten blockieren
 Disallow: /api/
-Disallow: /cookies
 
 # Sitemap
 Sitemap: https://089dach.de/sitemap.xml
 
 # Crawl-Delay für schonenden Zugriff
 Crawl-delay: 1
+
+# ============================================
+# Schädliche Bots & Scraper blockieren
+# ============================================
+
+# AI-Training Bots blockieren
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+# Bekannte Scraper blockieren
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+User-agent: serpstatbot
+Disallow: /
+
+User-agent: Screaming Frog SEO Spider
+Disallow: /
+
+# Aggressive Crawler blockieren
+User-agent: MegaIndex.ru
+Disallow: /
+
+User-agent: BacklinkCrawler
+Disallow: /
+
+User-agent: Exabot
+Disallow: /
+
+User-agent: Sogou
+Disallow: /
+
+User-agent: YandexBot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+# Spam-Bots blockieren
+User-agent: spbot
+Disallow: /
+
+User-agent: SEOkicks
+Disallow: /
+
+User-agent: proximic
+Disallow: /
+
+User-agent: Riddler
+Disallow: /
+
+User-agent: rogerbot
+Disallow: /
+
+User-agent: Linguee Bot
+Disallow: /
+
+User-agent: webmeup-crawler
+Disallow: /
+
+# E-Mail Harvester blockieren
+User-agent: EmailCollector
+Disallow: /
+
+User-agent: EmailSiphon
+Disallow: /
+
+User-agent: EmailWolf
+Disallow: /
+
+# Allgemeine Scraper
+User-agent: python-requests
+Disallow: /
+
+User-agent: Go-http-client
+Disallow: /
+
+User-agent: Java
+Disallow: /
+
+User-agent: libwww-perl
+Disallow: /
+
+User-agent: Wget
+Disallow: /
+
+User-agent: curl
+Disallow: /
