@@ -47,6 +47,13 @@ import StadtteilAllach from "@/pages/StadtteilAllach";
 import StadtteilKarlsfeld from "@/pages/StadtteilKarlsfeld";
 import StadtteilFasanerie from "@/pages/StadtteilFasanerie";
 import StadtteilFeldmoching from "@/pages/StadtteilFeldmoching";
+import StadtteilNeuhausen from "@/pages/StadtteilNeuhausen";
+import StadtteilObermenzing from "@/pages/StadtteilObermenzing";
+import StadtteilSolln from "@/pages/StadtteilSolln";
+import StadtteilGiesing from "@/pages/StadtteilGiesing";
+import UmlandGermering from "@/pages/UmlandGermering";
+import UmlandStarnberg from "@/pages/UmlandStarnberg";
+import UmlandDachau from "@/pages/UmlandDachau";
 import Notdienst from "@/pages/Notdienst";
 import CookieConsent from "@/components/CookieConsent";
 import BackgroundLogo from "@/components/BackgroundLogo";
@@ -113,6 +120,13 @@ function Router() {
       <Route path="/dachdecker-karlsfeld" component={StadtteilKarlsfeld} />
       <Route path="/dachdecker-fasanerie" component={StadtteilFasanerie} />
       <Route path="/dachdecker-feldmoching" component={StadtteilFeldmoching} />
+      <Route path="/dachdecker-neuhausen" component={StadtteilNeuhausen} />
+      <Route path="/dachdecker-obermenzing" component={StadtteilObermenzing} />
+      <Route path="/dachdecker-solln" component={StadtteilSolln} />
+      <Route path="/dachdecker-giesing" component={StadtteilGiesing} />
+      <Route path="/dachdecker-germering" component={UmlandGermering} />
+      <Route path="/dachdecker-starnberg" component={UmlandStarnberg} />
+      <Route path="/dachdecker-dachau" component={UmlandDachau} />
       <Route path="/leistungen/notdienst" component={Notdienst} />
       <Route component={NotFound} />
     </Switch>

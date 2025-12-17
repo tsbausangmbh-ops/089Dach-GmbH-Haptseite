@@ -49,6 +49,13 @@ Allow: /dachdecker-allach
 Allow: /dachdecker-karlsfeld
 Allow: /dachdecker-fasanerie
 Allow: /dachdecker-feldmoching
+Allow: /dachdecker-neuhausen
+Allow: /dachdecker-obermenzing
+Allow: /dachdecker-solln
+Allow: /dachdecker-giesing
+Allow: /dachdecker-germering
+Allow: /dachdecker-starnberg
+Allow: /dachdecker-dachau
 
 # Utility-Seiten blockieren
 Disallow: /api/
