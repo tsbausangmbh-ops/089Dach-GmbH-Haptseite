@@ -54,6 +54,18 @@ import StadtteilGiesing from "@/pages/StadtteilGiesing";
 import UmlandGermering from "@/pages/UmlandGermering";
 import UmlandStarnberg from "@/pages/UmlandStarnberg";
 import UmlandDachau from "@/pages/UmlandDachau";
+import UmlandFreising from "@/pages/UmlandFreising";
+import UmlandErding from "@/pages/UmlandErding";
+import UmlandUnterschleissheim from "@/pages/UmlandUnterschleissheim";
+import UmlandFuerstenfeldbruck from "@/pages/UmlandFuerstenfeldbruck";
+import UmlandOttobrunn from "@/pages/UmlandOttobrunn";
+import StadtteilRamersdorf from "@/pages/StadtteilRamersdorf";
+import StadtteilHaidhausen from "@/pages/StadtteilHaidhausen";
+import StadtteilMilbertshofen from "@/pages/StadtteilMilbertshofen";
+import Flachdach from "@/pages/Flachdach";
+import Sturmschaden from "@/pages/Sturmschaden";
+import Dachbeschichtung from "@/pages/Dachbeschichtung";
+import Dachrinnenreinigung from "@/pages/Dachrinnenreinigung";
 import Notdienst from "@/pages/Notdienst";
 import CookieConsent from "@/components/CookieConsent";
 import BackgroundLogo from "@/components/BackgroundLogo";
@@ -127,6 +139,18 @@ function Router() {
       <Route path="/dachdecker-germering" component={UmlandGermering} />
       <Route path="/dachdecker-starnberg" component={UmlandStarnberg} />
       <Route path="/dachdecker-dachau" component={UmlandDachau} />
+      <Route path="/dachdecker-freising" component={UmlandFreising} />
+      <Route path="/dachdecker-erding" component={UmlandErding} />
+      <Route path="/dachdecker-unterschleissheim" component={UmlandUnterschleissheim} />
+      <Route path="/dachdecker-fuerstenfeldbruck" component={UmlandFuerstenfeldbruck} />
+      <Route path="/dachdecker-ottobrunn" component={UmlandOttobrunn} />
+      <Route path="/dachdecker-ramersdorf-perlach" component={StadtteilRamersdorf} />
+      <Route path="/dachdecker-au-haidhausen" component={StadtteilHaidhausen} />
+      <Route path="/dachdecker-milbertshofen" component={StadtteilMilbertshofen} />
+      <Route path="/leistungen/flachdach" component={Flachdach} />
+      <Route path="/leistungen/sturmschaden" component={Sturmschaden} />
+      <Route path="/leistungen/dachbeschichtung" component={Dachbeschichtung} />
+      <Route path="/leistungen/dachrinnenreinigung" component={Dachrinnenreinigung} />
       <Route path="/leistungen/notdienst" component={Notdienst} />
       <Route component={NotFound} />
     </Switch>
