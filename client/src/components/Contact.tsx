@@ -136,6 +136,19 @@ export default function Contact() {
                 </div>
               </div>
             </div>
+
+            <div className="mt-8 p-6 bg-primary rounded-xl text-white">
+              <h4 className="font-bold text-lg mb-2">24h Online Termine buchen</h4>
+              <p className="text-white/90 text-sm mb-4">
+                Jederzeit online Ihren Wunschtermin auswählen – auch außerhalb unserer Öffnungszeiten.
+              </p>
+              <a href="/beratung">
+                <Button size="lg" variant="secondary" className="w-full font-bold" data-testid="button-24h-booking">
+                  <Clock className="h-5 w-5 mr-2" />
+                  Jetzt Termin buchen
+                </Button>
+              </a>
+            </div>
           </div>
 
           <div className="bg-white p-8 md:p-10 rounded-xl border border-stone-200">
