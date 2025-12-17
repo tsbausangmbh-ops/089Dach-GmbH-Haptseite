@@ -11,12 +11,22 @@ function isNewYearsDay(): boolean {
   return month === 1 && day === 1;
 }
 
+function getCookieKey(): string {
+  const year = new Date().getFullYear();
+  return `newyear-popup-${year}`;
+}
+
 export default function NewYearPopup() {
   const [isVisible, setIsVisible] = useState(false);
   const [isClosing, setIsClosing] = useState(false);
 
   useEffect(() => {
     if (!isNewYearsDay()) {
+      return;
+    }
+
+    const alreadySeen = localStorage.getItem(getCookieKey());
+    if (alreadySeen) {
       return;
     }
 
@@ -27,6 +37,7 @@ export default function NewYearPopup() {
   }, []);
 
   const handleClose = () => {
+    localStorage.setItem(getCookieKey(), "true");
     setIsClosing(true);
     setTimeout(() => {
       setIsVisible(false);

@@ -11,12 +11,22 @@ function isChristmasSeason(): boolean {
   return month === 12 && day >= 16 && day <= 26;
 }
 
+function getCookieKey(): string {
+  const year = new Date().getFullYear();
+  return `christmas-popup-${year}`;
+}
+
 export default function ChristmasPopup() {
   const [isVisible, setIsVisible] = useState(false);
   const [isClosing, setIsClosing] = useState(false);
 
   useEffect(() => {
     if (!isChristmasSeason()) {
+      return;
+    }
+
+    const alreadySeen = localStorage.getItem(getCookieKey());
+    if (alreadySeen) {
       return;
     }
 
@@ -27,6 +37,7 @@ export default function ChristmasPopup() {
   }, []);
 
   const handleClose = () => {
+    localStorage.setItem(getCookieKey(), "true");
     setIsClosing(true);
     setTimeout(() => {
       setIsVisible(false);
