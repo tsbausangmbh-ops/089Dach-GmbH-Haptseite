@@ -223,9 +223,9 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
               asChild
               data-testid="button-final-call"
             >
-              <a href="tel:08912621964">
+              <a href="/rueckruf">
                 <Phone className="mr-2 h-4 w-4 md:h-5 md:w-5" />
-                089 12621964
+                Rückruf anfordern
               </a>
             </Button>
           </div>
@@ -443,9 +443,9 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
                   asChild
                   data-testid="button-seo-call"
                 >
-                  <a href="tel:08912621964">
+                  <a href="/rueckruf">
                     <Phone className="mr-2 h-5 w-5" />
-                    089 12621964
+                    Rückruf anfordern
                   </a>
                 </Button>
               </div>

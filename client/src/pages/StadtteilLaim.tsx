@@ -87,9 +87,9 @@ export default function StadtteilLaim() {
               Ihr Dachdecker-Meisterbetrieb für {stadtteilData.name}. Spezialisiert auf Flachdach und Steildachsanierung.
             </p>
             <div className="flex flex-wrap gap-4">
-              <a href="tel:08912621964">
+              <a href="/rueckruf">
                 <Button size="lg" className="bg-primary hover:bg-primary/90 text-white" data-testid="button-anrufen-hero">
-                  <Phone className="h-5 w-5 mr-2" /> 089 12621964
+                  <Phone className="h-5 w-5 mr-2" /> Rückruf anfordern
                 </Button>
               </a>
               <a href="https://wa.me/498912621964" target="_blank" rel="noopener noreferrer">
@@ -175,9 +175,9 @@ export default function StadtteilLaim() {
                     Rückruf anfordern <ArrowRight className="h-4 w-4 ml-2" />
                   </Button>
                 </a>
-                <a href="tel:08912621964" className="block mt-3">
+                <a href="/rueckruf" className="block mt-3">
                   <Button size="lg" variant="outline" className="w-full border-white text-white hover:bg-white hover:text-primary" data-testid="button-anrufen-sidebar">
-                    <Phone className="h-4 w-4 mr-2" /> Jetzt anrufen
+                    <Phone className="h-4 w-4 mr-2" /> Rückruf anfordern
                   </Button>
                 </a>
               </div>

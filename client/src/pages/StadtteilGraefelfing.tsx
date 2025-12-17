@@ -72,7 +72,7 @@ export default function StadtteilGraefelfing() {
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-4 md:mb-6">Dachdecker {stadtteilData.fullName}</h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-xl mb-4 md:mb-6">Premium-Dacharbeiten für anspruchsvolle Villen und Einfamilienhäuser.</p>
             <div className="flex flex-wrap gap-4">
-              <a href="tel:08912621964"><Button size="lg" className="bg-primary hover:bg-primary/90 text-white" data-testid="button-anrufen-hero"><Phone className="h-5 w-5 mr-2" /> 089 12621964</Button></a>
+              <a href="/rueckruf"><Button size="lg" className="bg-primary hover:bg-primary/90 text-white" data-testid="button-anrufen-hero"><Phone className="h-5 w-5 mr-2" /> Rückruf anfordern</Button></a>
               <a href="https://wa.me/498912621964" target="_blank" rel="noopener noreferrer"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-secondary" data-testid="button-whatsapp-hero">WhatsApp Anfrage</Button></a>
             </div>
           </div>
@@ -126,7 +126,7 @@ export default function StadtteilGraefelfing() {
               <div className="bg-primary text-white rounded-xl p-4 md:p-6">
                 <h3 className="text-xl font-bold mb-4">Kostenlose Beratung</h3>
                 <a href="/beratung" className="block"><Button size="lg" variant="secondary" className="w-full" data-testid="button-beratung-sidebar">Rückruf anfordern <ArrowRight className="h-4 w-4 ml-2" /></Button></a>
-                <a href="tel:08912621964" className="block mt-3"><Button size="lg" variant="outline" className="w-full border-white text-white hover:bg-white hover:text-primary" data-testid="button-anrufen-sidebar"><Phone className="h-4 w-4 mr-2" /> Jetzt anrufen</Button></a>
+                <a href="/rueckruf" className="block mt-3"><Button size="lg" variant="outline" className="w-full border-white text-white hover:bg-white hover:text-primary" data-testid="button-anrufen-sidebar"><Phone className="h-4 w-4 mr-2" /> Rückruf anfordern</Button></a>
               </div>
               <div className="bg-white rounded-xl p-4 md:p-6 border border-gray-100">
                 <h4 className="font-bold text-secondary mb-4">Auch in der Nähe:</h4>

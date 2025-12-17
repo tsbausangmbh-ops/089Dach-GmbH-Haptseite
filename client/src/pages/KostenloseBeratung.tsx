@@ -223,9 +223,9 @@ export default function KostenloseBeratung() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-xl" data-testid="button-hero-call">
-                <a href="tel:08912621964">
+                <a href="#formular">
                   <Phone className="mr-2 h-5 w-5" />
-                  089 12621964
+                  Rückruf anfordern
                 </a>
               </Button>
               <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-secondary font-bold rounded-xl" data-testid="button-hero-form">
@@ -590,7 +590,7 @@ export default function KostenloseBeratung() {
               </Button>
 
               <p className="text-center text-sm text-muted-foreground">
-                Oder rufen Sie uns direkt an: <a href="tel:08912621964" className="text-primary font-medium hover:underline" data-testid="link-phone-beratung">089 12621964</a>
+                Oder schreiben Sie uns: <a href="mailto:info@089dach.de" className="text-primary font-medium hover:underline" data-testid="link-email-beratung">info@089dach.de</a>
               </p>
             </form>
           </div>
