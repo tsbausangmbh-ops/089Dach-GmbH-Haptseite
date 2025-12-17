@@ -1,10 +1,17 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { AlertCircle } from "lucide-react";
+import { AlertCircle, Home, Phone } from "lucide-react";
 import BackButton from "@/components/BackButton";
+import { Button } from "@/components/ui/button";
+import SEO from "@/components/SEO";
 
 export default function NotFound() {
   return (
     <div className="min-h-screen w-full flex flex-col bg-gray-50">
+      <SEO 
+        title="Seite nicht gefunden | 089Dach GmbH München"
+        description="Die gesuchte Seite wurde nicht gefunden. Besuchen Sie unsere Startseite oder kontaktieren Sie uns für Dachdecker-Leistungen in München."
+        canonical="https://089dach.de/404"
+      />
       <BackButton />
       <div className="flex-1 flex items-center justify-center">
         <Card className="w-full max-w-md mx-4">

@@ -3,10 +3,16 @@ import Footer from "@/components/Footer";
 import BackButton from "@/components/BackButton";
 import { Button } from "@/components/ui/button";
 import { Cookie, Shield, Settings } from "lucide-react";
+import SEO from "@/components/SEO";
 
 export default function Cookies() {
   return (
     <div className="min-h-screen bg-white">
+      <SEO 
+        title="Cookie-Einstellungen | 089Dach GmbH München"
+        description="Verwalten Sie Ihre Cookie-Einstellungen auf 089dach.de. Erfahren Sie, welche Cookies wir verwenden und wie Sie Ihre Datenschutz-Präferenzen anpassen können."
+        canonical="https://089dach.de/cookies"
+      />
       <Navbar />
       
       <section className="pt-10 pb-12 bg-stone-50">
