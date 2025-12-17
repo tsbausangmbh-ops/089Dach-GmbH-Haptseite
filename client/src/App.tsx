@@ -38,6 +38,12 @@ import StadtteilLaim from "@/pages/StadtteilLaim";
 import StadtteilSchwabing from "@/pages/StadtteilSchwabing";
 import StadtteilSendling from "@/pages/StadtteilSendling";
 import StadtteilGraefelfing from "@/pages/StadtteilGraefelfing";
+import StadtteilBogenhausen from "@/pages/StadtteilBogenhausen";
+import StadtteilNymphenburg from "@/pages/StadtteilNymphenburg";
+import StadtteilHarlaching from "@/pages/StadtteilHarlaching";
+import StadtteilTrudering from "@/pages/StadtteilTrudering";
+import StadtteilMoosach from "@/pages/StadtteilMoosach";
+import Notdienst from "@/pages/Notdienst";
 import CookieConsent from "@/components/CookieConsent";
 import BackgroundLogo from "@/components/BackgroundLogo";
 import { LocalBusinessSchema } from "@/components/SEO";
@@ -94,6 +100,12 @@ function Router() {
       <Route path="/dachdecker-schwabing" component={StadtteilSchwabing} />
       <Route path="/dachdecker-sendling" component={StadtteilSendling} />
       <Route path="/dachdecker-graefelfing" component={StadtteilGraefelfing} />
+      <Route path="/dachdecker-bogenhausen" component={StadtteilBogenhausen} />
+      <Route path="/dachdecker-nymphenburg" component={StadtteilNymphenburg} />
+      <Route path="/dachdecker-harlaching" component={StadtteilHarlaching} />
+      <Route path="/dachdecker-trudering" component={StadtteilTrudering} />
+      <Route path="/dachdecker-moosach" component={StadtteilMoosach} />
+      <Route path="/leistungen/notdienst" component={Notdienst} />
       <Route component={NotFound} />
     </Switch>
     </>
