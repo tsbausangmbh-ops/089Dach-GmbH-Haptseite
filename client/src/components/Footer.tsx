@@ -114,6 +114,13 @@ export default function Footer({ showAIBerater = false }: FooterProps) {
           </div>
         </div>
 
+        {/* KI-Hinweis gemäß EU AI Act */}
+        <div className="border-t border-white/10 pt-4 mb-4">
+          <p className="text-xs text-gray-500 leading-relaxed">
+            <span className="font-medium text-gray-400">KI-Hinweis gemäß EU AI Act (Art. 50):</span> 089Dach GmbH setzt zur Unterstützung der Geschäftsprozesse KI-basierte Systeme ein. Diese werden u.a. bei der Angebotserstellung, Kommunikation und Dokumentenverarbeitung genutzt. Alle endgültigen Entscheidungen werden von qualifizierten Mitarbeitern getroffen und verantwortet. Rechtsgrundlage: Verordnung (EU) 2024/1689 (EU AI Act), Art. 22 DSGVO.
+          </p>
+        </div>
+
         <div className="border-t border-white/10 pt-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
           <div className="flex flex-wrap gap-4 text-gray-500 text-sm">
             <a href="/impressum" className="hover:text-primary transition-colors">Impressum</a>
