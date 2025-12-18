@@ -5,7 +5,7 @@ export default function NotFound() {
   const [, setLocation] = useLocation();
 
   useEffect(() => {
-    setLocation("/rueckruf");
+    setLocation("/");
   }, [setLocation]);
 
   return null;
