@@ -192,6 +192,20 @@ export default function Impressum() {
               </p>
             </div>
 
+            {/* KI-Hinweis gemäß EU AI Act */}
+            <div className="bg-blue-50 p-5 md:p-6 rounded-xl border border-blue-200">
+              <h2 className="text-lg md:text-xl font-heading font-bold text-secondary mb-3 md:mb-4">KI-Hinweis gemäß EU AI Act (Art. 50)</h2>
+              <p className="text-muted-foreground mb-3">
+                <strong>Transparenzhinweis:</strong> 089Dach GmbH setzt zur Unterstützung der Geschäftsprozesse KI-basierte Systeme ein. Diese werden u.a. bei der Angebotserstellung, Kommunikation und Dokumentenverarbeitung genutzt.
+              </p>
+              <p className="text-muted-foreground mb-3">
+                Alle endgültigen Entscheidungen werden von qualifizierten Mitarbeitern getroffen und verantwortet.
+              </p>
+              <p className="text-muted-foreground text-sm">
+                <strong>Rechtsgrundlage:</strong> Verordnung (EU) 2024/1689 (EU AI Act), Art. 22 DSGVO
+              </p>
+            </div>
+
           </div>
         </div>
       </section>

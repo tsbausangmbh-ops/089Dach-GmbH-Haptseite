@@ -394,12 +394,26 @@ export default function Datenschutz() {
             Weitere Informationen finden Sie in unserer <a href="/cookies" className="text-primary hover:underline">Cookie-Richtlinie</a>.
           </p>
 
+          {/* KI-Hinweis gemäß EU AI Act - Allgemein */}
+          <div className="bg-blue-50 p-5 md:p-6 rounded-xl border border-blue-200 my-6 md:my-8 not-prose">
+            <h2 id="ki" className="text-xl font-heading font-bold text-secondary mb-4">KI-Hinweis gemäß EU AI Act (Art. 50)</h2>
+            <p className="text-muted-foreground mb-3">
+              <strong>Transparenzhinweis:</strong> 089Dach GmbH setzt zur Unterstützung der Geschäftsprozesse KI-basierte Systeme ein. Diese werden u.a. bei der Angebotserstellung, Kommunikation und Dokumentenverarbeitung genutzt.
+            </p>
+            <p className="text-muted-foreground mb-3">
+              Alle endgültigen Entscheidungen werden von qualifizierten Mitarbeitern getroffen und verantwortet.
+            </p>
+            <p className="text-muted-foreground text-sm">
+              <strong>Rechtsgrundlage:</strong> Verordnung (EU) 2024/1689 (EU AI Act), Art. 22 DSGVO
+            </p>
+          </div>
+
           {/* KI-Chatbot Section */}
           <div className="bg-primary text-white p-5 md:p-8 rounded-xl my-6 md:my-8 not-prose">
             <div className="flex items-start gap-4">
               <Bot className="h-8 w-8 text-white shrink-0" />
               <div>
-                <h2 id="ki" className="text-2xl font-heading font-bold mb-4">KI-Chatbot (OpenAI)</h2>
+                <h2 className="text-2xl font-heading font-bold mb-4">KI-Chatbot (OpenAI)</h2>
                 
                 <div className="bg-white/10 p-4 rounded-xl mb-4">
                   <h4 className="font-bold text-white mb-2">Hinweis gemäß Art. 50 EU AI Act</h4>
