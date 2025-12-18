@@ -55,7 +55,7 @@ export default function UmlandGermering() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Dachdecker Germering | Meisterbetrieb München ⭐ 4.9/5`}
+        title={`Dachdecker Germering | Meisterbetrieb München`}
         description={`Dachdecker in Germering bei München ✓ Dachsanierung ✓ Dämmung ✓ Solaranlage ✓ 10 Jahre Garantie. Tel: 089 12621964`}
         canonical={`https://089dach.de/dachdecker-germering`}
         keywords={`dachdecker germering, dachsanierung germering, dachdecker fürstenfeldbruck, dachdämmung germering, dachfenster germering`}

@@ -11,10 +11,11 @@ export default function Flachdach() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Flachdach München | Abdichtung & Sanierung ⭐ 4.9/5`}
-        description={`Flachdach-Experten in München ✓ Abdichtung ✓ Sanierung ✓ Dämmung ✓ Begrünung ✓ 10 Jahre Garantie. Tel: 089 12621964`}
-        canonical={`https://089dach.de/leistungen/flachdach`}
-        keywords={`flachdach münchen, flachdach abdichtung, flachdach sanierung münchen, flachdachdämmung, bitumenbahn münchen, flachdach begrünung`}
+        title="Flachdach abdichten München | EPDM & Bitumen ab 85€/m²"
+        description="Flachdach undicht? Abdichtung ab 85€/m² mit 10 Jahren Garantie. ✓ EPDM ✓ Bitumen ✓ Begrünung. Meisterbetrieb München ☎ 089 12621964"
+        canonical="https://089dach.de/leistungen/flachdach"
+        keywords="flachdach abdichten münchen kosten, flachdach undicht was tun, flachdach sanierung preis pro qm, epdm abdichtung erfahrungen, bitumenbahn verlegen lassen, flachdach begrünung förderung münchen, flachdachdämmung aufdach, flachdach lebensdauer erwarten, flachdach obermenzing pasing laim"
+        aiSummary="089Dach GmbH saniert Flachdächer in München ab 85€/m². EPDM, Bitumen, Flüssigabdichtung und Begrünung. 10 Jahre Garantie. Meisterbetrieb seit 1998. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Leistungen", url: "/leistungen" }, { name: "Flachdach", url: "/leistungen/flachdach" }]} />
       <Navbar />

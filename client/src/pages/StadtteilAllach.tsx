@@ -55,10 +55,10 @@ export default function StadtteilAllach() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Dachdecker Allach | Ihr Nachbar-Dachdecker ⭐ 4.9/5`}
-        description={`Dachdecker in München-Allach ✓ Kürzeste Anfahrt ✓ Einfamilienhäuser ✓ Siedlungshäuser ✓ 10 Jahre Garantie. Tel: 089 12621964`}
-        canonical={`https://089dach.de/dachdecker-allach`}
-        keywords={`dachdecker allach, dachsanierung allach münchen, dachdecker untermenzing, ziegeldach allach, dachreparatur münchen nord, dachdeckerei allach`}
+        title="Dachdecker Allach | Ihr Nachbar in nur 3km"
+        description="Dachdecker Allach - kürzeste Anfahrt garantiert! ✓ Siedlungshäuser ✓ Einfamilienhäuser ✓ 10 Jahre Garantie. Schnelle Hilfe ☎ 089 12621964"
+        canonical="https://089dach.de/dachdecker-allach"
+        keywords="dachdecker allach empfehlung, dachsanierung allach münchen, dachdecker untermenzing, siedlungshaus dach sanieren, dachziegel allach, dachreparatur münchen nord"
         geoPlacename={`München-Allach, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb direkt neben Allach. Kürzeste Anfahrtswege, schneller Service. Tel: 089 12621964.`}
       />

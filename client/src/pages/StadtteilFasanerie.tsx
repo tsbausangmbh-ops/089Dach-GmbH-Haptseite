@@ -55,7 +55,7 @@ export default function StadtteilFasanerie() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Dachdecker Fasanerie | Einfamilienhaus-Experten ⭐ 4.9/5`}
+        title={`Dachdecker Fasanerie | Einfamilienhaus-Experten`}
         description={`Dachdecker in München-Fasanerie ✓ Einfamilienhäuser ✓ Reihenhäuser ✓ Dachdämmung ✓ 10 Jahre Garantie. Tel: 089 12621964`}
         canonical={`https://089dach.de/dachdecker-fasanerie`}
         keywords={`dachdecker fasanerie, dachsanierung fasanerie münchen, dachdecker münchen nord, dachdämmung fasanerie, dachfenster fasanerie, dachreparatur fasanerie`}

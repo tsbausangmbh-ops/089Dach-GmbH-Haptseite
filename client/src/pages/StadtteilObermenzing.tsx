@@ -55,10 +55,10 @@ export default function StadtteilObermenzing() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Dachdecker Obermenzing | Villen-Experten München ⭐ 4.9/5`}
-        description={`Dachdecker in München-Obermenzing ✓ Villen ✓ Schiefer ✓ Kupferdach ✓ Premium-Qualität ✓ 10 Jahre Garantie. Tel: 089 12621964`}
-        canonical={`https://089dach.de/dachdecker-obermenzing`}
-        keywords={`dachdecker obermenzing, dachsanierung obermenzing münchen, villa dachdecker münchen, schieferdach obermenzing, kupferdach münchen`}
+        title="Dachdecker Obermenzing | Villa & Schiefer-Experten"
+        description="Dachdecker für Villen in Obermenzing: Schiefer, Kupferdach & Premium-Qualität. ✓ 10 Jahre Garantie ✓ Festpreis. Jetzt beraten ☎ 089 12621964"
+        canonical="https://089dach.de/dachdecker-obermenzing"
+        keywords="dachdecker obermenzing empfehlung, villa dach sanieren münchen, schieferdach kosten obermenzing, kupferdach preis, dachsanierung villa obermenzing, dachdecker thuillestraße"
         geoPlacename={`München-Obermenzing, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Obermenzing. Spezialisiert auf exklusive Villen. Tel: 089 12621964.`}
       />

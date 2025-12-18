@@ -51,7 +51,7 @@ export default function StadtteilRamersdorf() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Dachdecker Ramersdorf-Perlach | München ⭐ 4.9/5`}
+        title={`Dachdecker Ramersdorf-Perlach | München`}
         description={`Dachdecker in München-Ramersdorf-Perlach ✓ Siedlungshäuser ✓ Flachdach ✓ Dämmung ✓ 10 Jahre Garantie. Tel: 089 12621964`}
         canonical={`https://089dach.de/dachdecker-ramersdorf-perlach`}
         keywords={`dachdecker ramersdorf, dachdecker perlach, dachsanierung neuperlach, flachdach ramersdorf, dachdämmung perlach`}

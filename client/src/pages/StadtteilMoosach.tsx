@@ -55,10 +55,10 @@ export default function StadtteilMoosach() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Dachdecker Moosach | Ihr Nachbar-Dachdecker ⭐ 4.9/5`}
-        description={`Dachdecker in München-Moosach ✓ Kürzeste Anfahrt ✓ Flachdach & Steildach ✓ Notdienst ✓ 10 Jahre Garantie. Tel: 089 12621964`}
-        canonical={`https://089dach.de/dachdecker-moosach`}
-        keywords={`dachdecker moosach, dachsanierung moosach münchen, flachdach moosach, dachdecker notdienst moosach, dachrinnen moosach, dachreparatur münchen nord`}
+        title="Dachdecker Moosach | Flachdach & Notdienst - 4km"
+        description="Dachdecker Moosach nur 4km entfernt! ✓ Flachdach ✓ Steildach ✓ Notdienst ✓ 10 Jahre Garantie. Schnelle Hilfe ☎ 089 12621964"
+        canonical="https://089dach.de/dachdecker-moosach"
+        keywords="dachdecker moosach empfehlung, flachdach moosach abdichten, dachsanierung moosach münchen, dachdecker notdienst moosach, dachrinnen moosach"
         geoPlacename={`München-Moosach, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb direkt neben Moosach. Kürzeste Anfahrtswege, schneller Notdienst. Tel: 089 12621964.`}
       />

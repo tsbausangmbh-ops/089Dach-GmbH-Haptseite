@@ -51,7 +51,7 @@ export default function UmlandFuerstenfeldbruck() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Dachdecker Fürstenfeldbruck | Meisterbetrieb München ⭐ 4.9/5`}
+        title={`Dachdecker Fürstenfeldbruck | Meisterbetrieb München`}
         description={`Dachdecker in Fürstenfeldbruck ✓ Altbau ✓ Denkmalschutz ✓ Dämmung ✓ 10 Jahre Garantie. Tel: 089 12621964`}
         canonical={`https://089dach.de/dachdecker-fuerstenfeldbruck`}
         keywords={`dachdecker fürstenfeldbruck, dachsanierung ffb, dachdecker landkreis fürstenfeldbruck, denkmalschutz ffb, dachdämmung fürstenfeldbruck`}

@@ -55,10 +55,10 @@ export default function StadtteilNeuhausen() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Dachdecker Neuhausen | Altbau-Experten München ⭐ 4.9/5`}
-        description={`Dachdecker in München-Neuhausen ✓ Altbausanierung ✓ Denkmalschutz ✓ Dachgeschossausbau ✓ 10 Jahre Garantie. Tel: 089 12621964`}
-        canonical={`https://089dach.de/dachdecker-neuhausen`}
-        keywords={`dachdecker neuhausen, dachsanierung neuhausen münchen, altbau dachdecker münchen, dachgeschossausbau neuhausen, dachreparatur neuhausen`}
+        title="Dachdecker Neuhausen | Altbau & Dachausbau München"
+        description="Dachdecker Neuhausen für Altbau & Dachgeschossausbau. ✓ Gründerzeit-Experten ✓ 10 Jahre Garantie. Kostenlose Beratung ☎ 089 12621964"
+        canonical="https://089dach.de/dachdecker-neuhausen"
+        keywords="dachdecker neuhausen empfehlung, dachsanierung altbau neuhausen, dachgeschossausbau neuhausen kosten, gründerzeit dach sanieren, dachreparatur neuhausen münchen"
         geoPlacename={`München-Neuhausen, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Neuhausen. Spezialisiert auf Altbauten und Denkmalschutz. Tel: 089 12621964.`}
       />

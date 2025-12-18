@@ -55,7 +55,7 @@ export default function StadtteilGiesing() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Dachdecker Giesing | Altbau & Dachausbau München ⭐ 4.9/5`}
+        title="Dachdecker Giesing | Altbau & Dachgeschossausbau"
         description={`Dachdecker in München-Giesing ✓ Altbausanierung ✓ Dachgeschossausbau ✓ Flachdach ✓ 10 Jahre Garantie. Tel: 089 12621964`}
         canonical={`https://089dach.de/dachdecker-giesing`}
         keywords={`dachdecker giesing, dachsanierung giesing münchen, dachgeschossausbau giesing, altbau dachdecker giesing, flachdach giesing`}

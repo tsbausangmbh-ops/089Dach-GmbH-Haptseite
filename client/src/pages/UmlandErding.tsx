@@ -51,7 +51,7 @@ export default function UmlandErding() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Dachdecker Erding | Meisterbetrieb München ⭐ 4.9/5`}
+        title={`Dachdecker Erding | Meisterbetrieb München`}
         description={`Dachdecker in Erding bei München ✓ Dachsanierung ✓ Dämmung ✓ Dachfenster ✓ 10 Jahre Garantie. Tel: 089 12621964`}
         canonical={`https://089dach.de/dachdecker-erding`}
         keywords={`dachdecker erding, dachsanierung erding, dachdecker landkreis erding, dachdämmung erding, dachfenster erding`}

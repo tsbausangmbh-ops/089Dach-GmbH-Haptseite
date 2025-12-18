@@ -55,7 +55,7 @@ export default function StadtteilFeldmoching() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Dachdecker Feldmoching | Alle Gebäudetypen ⭐ 4.9/5`}
+        title={`Dachdecker Feldmoching | Alle Gebäudetypen`}
         description={`Dachdecker in München-Feldmoching ✓ Einfamilienhäuser ✓ Mehrfamilienhäuser ✓ Flachdach ✓ 10 Jahre Garantie. Tel: 089 12621964`}
         canonical={`https://089dach.de/dachdecker-feldmoching`}
         keywords={`dachdecker feldmoching, dachsanierung feldmoching münchen, flachdach feldmoching, dachdecker hasenbergl, dachreparatur münchen nord, dachdeckerei feldmoching`}

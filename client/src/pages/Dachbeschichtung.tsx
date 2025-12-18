@@ -11,10 +11,11 @@ export default function Dachbeschichtung() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Dachbeschichtung München | Profi-Beratung ⭐ 4.9/5`}
-        description={`Dachbeschichtung München - Ehrliche Beratung vom Meisterbetrieb ✓ Wann sinnvoll? ✓ Alternativen ✓ 10 Jahre Garantie. Tel: 089 12621964`}
-        canonical={`https://089dach.de/leistungen/dachbeschichtung`}
-        keywords={`dachbeschichtung münchen, dachreinigung und beschichtung, dachziegel beschichten, dachfarbe münchen, dachanstrich`}
+        title="Dachbeschichtung München | Sinnvoll? Ehrliche Beratung"
+        description="Dachbeschichtung lohnt sich nicht immer! Ehrliche Beratung vom Meister ✓ Wann sinnvoll ✓ Alternativen. Kostenlos beraten ☎ 089 12621964"
+        canonical="https://089dach.de/leistungen/dachbeschichtung"
+        keywords="dachbeschichtung sinnvoll oder nicht, dachbeschichtung kosten pro qm münchen, dachziegel beschichten erfahrungen, dachreinigung münchen preise, dachbeschichtung haltbarkeit, dachbeschichtung nachteile, alternative dachbeschichtung sanierung, dachfarbe streichen kosten"
+        aiSummary="089Dach GmbH berät ehrlich zur Dachbeschichtung in München. Wann sinnvoll, wann nicht? Professionelle Alternativen zur Beschichtung. Meisterbetrieb mit 10 Jahren Garantie. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Leistungen", url: "/leistungen" }, { name: "Dachbeschichtung", url: "/leistungen/dachbeschichtung" }]} />
       <Navbar />

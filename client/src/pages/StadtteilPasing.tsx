@@ -89,10 +89,10 @@ export default function StadtteilPasing() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Dachdecker ${stadtteilData.name} | Dach undicht? Soforthilfe ⭐ 4.9/5`}
-        description={`Dachdecker in ${stadtteilData.fullName} gesucht? ✓ Nur ${stadtteilData.entfernung} entfernt ✓ Notdienst ✓ Festpreisgarantie ✓ 10 Jahre Garantie. Jetzt anrufen: 089 12621964`}
-        canonical={`https://089dach.de/dachdecker-${stadtteilData.name.toLowerCase()}`}
-        keywords={`dachdecker ${stadtteilData.name.toLowerCase()} bewertung, dach undicht ${stadtteilData.name.toLowerCase()} was tun, dachdecker in der nähe ${stadtteilData.name.toLowerCase()}, dachsanierung kosten ${stadtteilData.name.toLowerCase()}, dachreparatur notdienst ${stadtteilData.name.toLowerCase()}, bester dachdecker ${stadtteilData.name.toLowerCase()}`}
+        title="Dachdecker Pasing | Ihr Nachbar-Dachdecker in 2km"
+        description="Dachdecker Pasing nur 2km entfernt! ✓ Altbau-Experten ✓ Biberschwanz ✓ Festpreis ✓ 10 Jahre Garantie. Schnelle Hilfe ☎ 089 12621964"
+        canonical="https://089dach.de/dachdecker-pasing"
+        keywords="dachdecker pasing empfehlung, dachsanierung pasing altbau, dachdecker in der nähe pasing, biberschwanz pasing, dachfenster einbau pasing, dachreparatur pasing münchen"
         geoPlacename={`${stadtteilData.fullName}, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für ${stadtteilData.fullName}. Nur ${stadtteilData.entfernung} von unserem Standort in Obermenzing. Dachsanierung, Dachreparatur, Dachfenster und Spenglerarbeiten. Tel: 089 12621964.`}
       />

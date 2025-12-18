@@ -51,7 +51,7 @@ export default function StadtteilMilbertshofen() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Dachdecker Milbertshofen | München Nord ⭐ 4.9/5`}
+        title={`Dachdecker Milbertshofen | München Nord`}
         description={`Dachdecker in München-Milbertshofen ✓ Flachdach ✓ Gewerbe ✓ Mehrfamilienhaus ✓ 10 Jahre Garantie. Tel: 089 12621964`}
         canonical={`https://089dach.de/dachdecker-milbertshofen`}
         keywords={`dachdecker milbertshofen, dachdecker am hart, flachdach münchen nord, dachsanierung milbertshofen, gewerbe dachdecker`}

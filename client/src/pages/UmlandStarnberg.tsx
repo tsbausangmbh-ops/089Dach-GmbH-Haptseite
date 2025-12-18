@@ -55,7 +55,7 @@ export default function UmlandStarnberg() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Dachdecker Starnberg | Premium-Villen am See ⭐ 4.9/5`}
+        title={`Dachdecker Starnberg | Premium-Villen am See`}
         description={`Dachdecker in Starnberg am See ✓ Premium-Villen ✓ Schiefer ✓ Kupferdach ✓ Denkmalschutz ✓ 10 Jahre Garantie. Tel: 089 12621964`}
         canonical={`https://089dach.de/dachdecker-starnberg`}
         keywords={`dachdecker starnberg, dachsanierung starnberg, villa dachdecker starnberger see, schieferdach starnberg, kupferdach starnberg`}

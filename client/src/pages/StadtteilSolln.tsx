@@ -55,7 +55,7 @@ export default function StadtteilSolln() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Dachdecker Solln | Villen & Landhäuser München ⭐ 4.9/5`}
+        title={`Dachdecker Solln | Villen & Landhäuser München`}
         description={`Dachdecker in München-Solln ✓ Villen ✓ Landhäuser ✓ Denkmalschutz ✓ Premium-Qualität ✓ 10 Jahre Garantie. Tel: 089 12621964`}
         canonical={`https://089dach.de/dachdecker-solln`}
         keywords={`dachdecker solln, dachsanierung solln münchen, villa dachdecker solln, landhaus dach münchen, denkmalschutz dachdecker`}

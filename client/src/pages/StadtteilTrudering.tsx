@@ -55,7 +55,7 @@ export default function StadtteilTrudering() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Dachdecker Trudering | Einfamilienhaus & Reihenhaus ⭐ 4.9/5`}
+        title={`Dachdecker Trudering | Einfamilienhaus & Reihenhaus`}
         description={`Dachdecker in München-Trudering für Einfamilienhäuser & Reihenhäuser ✓ Dachsanierung ✓ Sturmschaden ✓ 10 Jahre Garantie. Tel: 089 12621964`}
         canonical={`https://089dach.de/dachdecker-trudering`}
         keywords={`dachdecker trudering, dachsanierung reihenhaus münchen, dachdecker trudering-riem, sturmschaden dach trudering, dachreparatur trudering, dachdeckerei münchen ost`}

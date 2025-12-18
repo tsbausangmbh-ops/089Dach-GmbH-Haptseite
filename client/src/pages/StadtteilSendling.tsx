@@ -50,9 +50,9 @@ export default function StadtteilSendling() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Dachdecker Sendling | Dachausbau Kosten ab 800€/m² ⭐ 4.9/5`}
-        description={`Dachdecker in München-Sendling ✓ Dachausbau & Gaubenbau ✓ KfW-Förderung ✓ Mehr Wohnraum unterm Dach ✓ Festpreis. Jetzt anfragen: 089 12621964`}
-        canonical={`https://089dach.de/dachdecker-sendling`}
+        title="Dachdecker Sendling | Dachausbau & Gaubenbau München"
+        description="Dachdecker Sendling für Dachausbau & Gaubenbau. ✓ KfW-Förderung ✓ Mehr Wohnraum ✓ Festpreis. Jetzt anfragen ☎ 089 12621964"
+        canonical="https://089dach.de/dachdecker-sendling"
         keywords={`dachausbau kosten sendling, dachdecker sendling bewertung, gaube bauen münchen sendling, dachgeschoss ausbauen kosten, kfw förderung dachausbau, dachdecker in der nähe sendling`}
         geoPlacename={`München-Sendling, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker für München-Sendling. Spezialist für Dachausbau und Gaubenbau. Tel: 089 12621964.`}

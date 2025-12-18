@@ -55,10 +55,10 @@ export default function StadtteilNymphenburg() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Dachdecker Nymphenburg | Altbau & Denkmalschutz ⭐ 4.9/5`}
-        description={`Dachdecker in München-Nymphenburg für Altbau & Denkmalschutz ✓ Biberschwanz ✓ Historische Dächer ✓ 10 Jahre Garantie. Tel: 089 12621964`}
-        canonical={`https://089dach.de/dachdecker-nymphenburg`}
-        keywords={`dachdecker nymphenburg, dachsanierung altbau münchen, biberschwanz dachdecker, denkmalschutz dach nymphenburg, dachreparatur nymphenburg, gründerzeit dach sanierung`}
+        title="Dachdecker Nymphenburg | Denkmalschutz & Biberschwanz"
+        description="Dachdecker für historische Gebäude in Nymphenburg. ✓ Denkmalschutz ✓ Biberschwanz ✓ 10 Jahre Garantie. Beratung ☎ 089 12621964"
+        canonical="https://089dach.de/dachdecker-nymphenburg"
+        keywords="dachdecker nymphenburg empfehlung, dachsanierung denkmalschutz nymphenburg, biberschwanz kosten münchen, altbau dach sanieren nymphenburg, gründerzeit dach reparieren"
         geoPlacename={`München-Nymphenburg, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Nymphenburg. Spezialist für Altbauten und denkmalgeschützte Gebäude. Tel: 089 12621964.`}
       />

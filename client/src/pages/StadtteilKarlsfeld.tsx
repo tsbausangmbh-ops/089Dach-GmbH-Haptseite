@@ -55,7 +55,7 @@ export default function StadtteilKarlsfeld() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Dachdecker Karlsfeld | Meisterbetrieb aus München ⭐ 4.9/5`}
+        title={`Dachdecker Karlsfeld | Meisterbetrieb aus München`}
         description={`Dachdecker in Karlsfeld bei München ✓ Dachsanierung ✓ Flachdach ✓ KfW-Förderung ✓ 10 Jahre Garantie. Jetzt anfragen: 089 12621964`}
         canonical={`https://089dach.de/dachdecker-karlsfeld`}
         keywords={`dachdecker karlsfeld, dachsanierung karlsfeld, dachdecker landkreis dachau, flachdach karlsfeld, dachreparatur karlsfeld, dachdeckerei münchen nord`}

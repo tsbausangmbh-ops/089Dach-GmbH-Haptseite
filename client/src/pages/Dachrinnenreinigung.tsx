@@ -11,10 +11,11 @@ export default function Dachrinnenreinigung() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Dachrinnenreinigung München | Profi-Service ⭐ 4.9/5`}
-        description={`Dachrinnenreinigung in München ✓ Laub entfernen ✓ Verstopfungen lösen ✓ Fallrohre reinigen ✓ Festpreis. Tel: 089 12621964`}
-        canonical={`https://089dach.de/leistungen/dachrinnenreinigung`}
-        keywords={`dachrinnenreinigung münchen, dachrinne reinigen, fallrohr reinigen, dachrinnenschutz, laub dachrinne`}
+        title="Dachrinne reinigen München | Festpreis ab 150€"
+        description="Dachrinne verstopft? Profi-Reinigung zum Festpreis ab 150€. ✓ Laub entfernen ✓ Fallrohre spülen ✓ Meisterbetrieb. Jetzt Termin ☎ 089 12621964"
+        canonical="https://089dach.de/leistungen/dachrinnenreinigung"
+        keywords="dachrinne reinigen lassen kosten münchen, dachrinne verstopft fallrohr, dachrinnenreinigung preis einfamilienhaus, laub aus dachrinne entfernen, dachrinnenschutz nachrüsten, dachrinne läuft über was tun, fallrohr verstopft münchen"
+        aiSummary="089Dach GmbH reinigt Dachrinnen in München zum Festpreis ab 150€. Laub entfernen, Fallrohre spülen, Verstopfungen lösen. Schneller Service vom Meisterbetrieb. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Leistungen", url: "/leistungen" }, { name: "Dachrinnenreinigung", url: "/leistungen/dachrinnenreinigung" }]} />
       <Navbar />

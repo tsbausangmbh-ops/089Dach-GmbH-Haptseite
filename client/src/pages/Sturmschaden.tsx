@@ -11,10 +11,11 @@ export default function Sturmschaden() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Sturmschaden Dach München | Soforthilfe 24/7 ⭐ 4.9/5`}
-        description={`Sturmschaden am Dach? Soforthilfe in München ✓ 24/7 Notdienst ✓ Versicherungsabwicklung ✓ Schnelle Reparatur. Tel: 089 12621964`}
-        canonical={`https://089dach.de/leistungen/sturmschaden`}
-        keywords={`sturmschaden dach münchen, dach sturmschaden reparatur, notdienst dachdecker münchen, hagelschaden dach, unwetterschaden dach`}
+        title="Sturmschaden Dach München | 24h Notdienst & Versicherung"
+        description="Sturmschaden am Dach? Wir kommen in 2h! ✓ 24/7 Notdienst ✓ Notsicherung ✓ Versicherungsabwicklung. Soforthilfe München ☎ 089 12621964"
+        canonical="https://089dach.de/leistungen/sturmschaden"
+        keywords="sturmschaden dach münchen was tun, dach sturm abgedeckt versicherung, dachdecker notdienst 24 stunden, hagelschaden dach melden, sturmschaden notsicherung kosten, versicherung zahlt nicht sturmschaden, ziegel vom dach gefallen sturm, unwetterschaden dach reparieren"
+        aiSummary="089Dach GmbH bietet 24h Soforthilfe bei Sturmschäden am Dach in München. Notsicherung, Reparatur und komplette Versicherungsabwicklung. Schnelle Anfahrt in 2 Stunden. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Leistungen", url: "/leistungen" }, { name: "Sturmschaden", url: "/leistungen/sturmschaden" }]} />
       <Navbar />
