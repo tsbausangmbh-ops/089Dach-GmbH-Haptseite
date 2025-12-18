@@ -270,7 +270,7 @@ export default function Gaubenbau() {
         relatedIds={["dachfenster", "bedachungen", "architektenleistungen", "referenzen"]}
       />
       <Contact />
-      <Footer />
+      <Footer showAIBerater={true} />
     </div>
   );
 }

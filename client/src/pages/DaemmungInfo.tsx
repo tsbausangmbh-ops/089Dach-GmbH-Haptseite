@@ -503,7 +503,7 @@ export default function DaemmungInfo() {
         </div>
       </section>
 
-      <Footer />
+      <Footer showAIBerater={true} />
     </div>
   );
 }

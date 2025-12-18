@@ -471,7 +471,7 @@ export default function Reparaturservice() {
         currentPage="reparaturservice" 
         relatedIds={["wartung", "dachsanierung", "bedachungen", "faq"]}
       />
-      <Footer />
+      <Footer showAIBerater={true} />
     </div>
   );
 }

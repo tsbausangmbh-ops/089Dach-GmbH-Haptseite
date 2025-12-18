@@ -234,7 +234,7 @@ export default function Energieberatung() {
         relatedIds={["dachsanierung", "architektenleistungen", "ratgeber", "faq"]}
       />
       <Contact />
-      <Footer />
+      <Footer showAIBerater={true} />
     </div>
   );
 }

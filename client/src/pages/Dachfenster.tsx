@@ -247,7 +247,7 @@ export default function Dachfenster() {
         relatedIds={["gaubenbau", "dachsanierung", "energieberatung", "referenzen"]}
       />
       <Contact />
-      <Footer />
+      <Footer showAIBerater={true} />
     </div>
   );
 }

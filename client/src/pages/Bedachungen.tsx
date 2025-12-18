@@ -243,7 +243,7 @@ export default function Bedachungen() {
         relatedIds={["dachsanierung", "spenglerei", "gaubenbau", "referenzen"]}
       />
       <Contact />
-      <Footer />
+      <Footer showAIBerater={true} />
     </div>
   );
 }

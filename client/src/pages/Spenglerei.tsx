@@ -238,7 +238,7 @@ export default function Spenglerei() {
         relatedIds={["bedachungen", "dachsanierung", "wartung", "referenzen"]}
       />
       <Contact />
-      <Footer />
+      <Footer showAIBerater={true} />
     </div>
   );
 }

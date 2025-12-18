@@ -249,7 +249,7 @@ export default function Notdienst() {
         relatedIds={["reparaturservice", "dachsanierung", "bedachungen", "faq"]}
       />
       <Contact />
-      <Footer />
+      <Footer showAIBerater={true} />
     </div>
   );
 }

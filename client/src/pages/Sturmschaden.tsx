@@ -185,7 +185,7 @@ export default function Sturmschaden() {
       <LeadFunnel />
       <RelatedServices currentPage="sturmschaden" relatedIds={["reparaturservice", "dachsanierung", "notdienst", "wartung"]} />
       <Contact />
-      <Footer />
+      <Footer showAIBerater={true} />
     </div>
   );
 }

@@ -270,7 +270,7 @@ export default function Dachsanierung() {
         relatedIds={["energieberatung", "bedachungen", "wartung", "referenzen"]}
       />
       <Contact />
-      <Footer />
+      <Footer showAIBerater={true} />
     </div>
   );
 }

@@ -166,7 +166,7 @@ export default function Flachdach() {
       <LeadFunnel />
       <RelatedServices currentPage="flachdach" relatedIds={["dachsanierung", "energieberatung", "spenglerei", "wartung"]} />
       <Contact />
-      <Footer />
+      <Footer showAIBerater={true} />
     </div>
   );
 }

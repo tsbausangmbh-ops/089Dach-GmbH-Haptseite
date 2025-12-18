@@ -182,7 +182,7 @@ export default function Dachrinnenreinigung() {
       <LeadFunnel />
       <RelatedServices currentPage="dachrinnenreinigung" relatedIds={["wartung", "spenglerei", "reparaturservice", "dachsanierung"]} />
       <Contact />
-      <Footer />
+      <Footer showAIBerater={true} />
     </div>
   );
 }

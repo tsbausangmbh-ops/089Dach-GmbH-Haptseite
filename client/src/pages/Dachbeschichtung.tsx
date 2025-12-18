@@ -203,7 +203,7 @@ export default function Dachbeschichtung() {
       <LeadFunnel />
       <RelatedServices currentPage="dachbeschichtung" relatedIds={["dachsanierung", "reparaturservice", "wartung", "energieberatung"]} />
       <Contact />
-      <Footer />
+      <Footer showAIBerater={true} />
     </div>
   );
 }

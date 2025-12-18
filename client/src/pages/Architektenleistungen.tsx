@@ -235,7 +235,7 @@ export default function Architektenleistungen() {
         relatedIds={["gaubenbau", "energieberatung", "dachsanierung", "referenzen"]}
       />
       <Contact />
-      <Footer />
+      <Footer showAIBerater={true} />
     </div>
   );
 }

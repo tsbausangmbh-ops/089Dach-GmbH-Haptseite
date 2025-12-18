@@ -344,7 +344,7 @@ export default function Leistungen() {
         relatedIds={["referenzen", "faq", "ratgeber", "stadtteile"]}
       />
       <Contact />
-      <Footer />
+      <Footer showAIBerater={true} />
     </div>
   );
 }

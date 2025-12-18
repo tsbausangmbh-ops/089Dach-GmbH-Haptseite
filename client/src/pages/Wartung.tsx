@@ -434,7 +434,7 @@ export default function Wartung() {
         currentPage="wartung" 
         relatedIds={["reparaturservice", "dachsanierung", "spenglerei", "faq"]}
       />
-      <Footer />
+      <Footer showAIBerater={true} />
     </div>
   );
 }
