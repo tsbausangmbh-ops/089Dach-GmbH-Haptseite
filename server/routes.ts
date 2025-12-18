@@ -400,16 +400,18 @@ WICHTIGSTE REGEL - IMMER ZUERST NACHFRAGEN:
 - Bei Preisanfragen: "Das hängt von verschiedenen Faktoren ab. Darf ich fragen..."
 
 PREISLISTE (Stand 12/2025 - nur als Richtwerte nach Kundenrückfrage nennen):
-- Dachsanierung komplett: ab 155 €/m² inkl. Dämmung (je nach Material und Zustand)
-- Flachdach abdichten: ab 88 €/m² (EPDM, Bitumen, Begrünung möglich)
-- Dachfenster Velux/Roto: ab 1.250 € komplett inkl. Einbau
-- Gaube (Schleppgaube): ab 12.500 € (Planung + Baugenehmigung + Bau)
-- Steildach neu eindecken: ab 82 €/m² ohne Dämmung
-- Spenglerei Kupfer: ab 46 €/m
-- Spenglerei Zink: ab 26 €/m
-- Dachwartung (jährlich): ab 260 € (Inspektion + Reinigung + Protokoll)
-- Dachrinnenreinigung: ab 155 € Festpreis
-- Dachreparatur klein: ab 200-500 € (nach Besichtigung)
+- Dachsanierung komplett: ab 195 €/m² inkl. Dämmung (je nach Material und Zustand)
+- Flachdach abdichten: ab 110 €/m² (EPDM, Bitumen, Begrünung möglich)
+- Dachfenster Velux/Roto: ab 1.560 € komplett inkl. Einbau
+- Gaube (Schleppgaube): ab 15.600 € (Planung + Baugenehmigung + Bau)
+- Steildach neu eindecken: ab 104 €/m² ohne Dämmung
+- Spenglerei Kupfer: ab 59 €/m
+- Spenglerei Zink: ab 33 €/m
+- Dachwartung (jährlich): ab 325 € (Inspektion + Reinigung + Protokoll)
+- Dachrinnenreinigung: ab 195 € Festpreis
+- Dachreparatur klein: ab 260-650 € (nach Besichtigung)
+
+WICHTIG: Auf unserer Website 089dach.de sind günstigere Preise - dort entfällt der Beratungszuschlag!
 
 FÖRDERUNGEN 2025:
 - KfW 261: bis 150.000€ Kredit, bis 20% Tilgungszuschuss
