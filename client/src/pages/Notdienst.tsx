@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import AIBeraterSection from "@/components/AIBeraterSection";
 import Footer from "@/components/Footer";
 import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
@@ -56,6 +57,7 @@ export default function Notdienst() {
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Leistungen", url: "/leistungen" }, { name: "Notdienst", url: "/leistungen/notdienst" }]} />
       <EmergencyServiceSchema />
       <Navbar />
+      <AIBeraterSection />
       
       <section className="pt-6 pb-8 md:pt-10 md:pb-12 bg-red-700 relative overflow-hidden min-h-[40vh] flex items-center">
         <div className="absolute inset-0 bg-gradient-to-r from-red-800 via-red-700 to-red-600"></div>
@@ -249,7 +251,7 @@ export default function Notdienst() {
         relatedIds={["reparaturservice", "dachsanierung", "bedachungen", "faq"]}
       />
       <Contact />
-      <Footer showAIBerater={true} />
+      <Footer />
     </div>
   );
 }

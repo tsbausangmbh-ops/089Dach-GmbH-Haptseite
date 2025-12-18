@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import AIBeraterSection from "@/components/AIBeraterSection";
 import Footer from "@/components/Footer";
 import LeadFunnel from "@/components/LeadFunnel";
 import BackButton from "@/components/BackButton";
@@ -46,6 +47,7 @@ export default function Architektenleistungen() {
         ]}
       />
       <Navbar />
+      <AIBeraterSection />
       
       {/* Hero Section */}
       <section className="pt-6 pb-8 md:pt-10 md:pb-12 bg-secondary relative overflow-hidden min-h-[40vh] flex items-center">
@@ -235,7 +237,7 @@ export default function Architektenleistungen() {
         relatedIds={["gaubenbau", "energieberatung", "dachsanierung", "referenzen"]}
       />
       <Contact />
-      <Footer showAIBerater={true} />
+      <Footer />
     </div>
   );
 }

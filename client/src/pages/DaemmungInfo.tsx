@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import AIBeraterSection from "@/components/AIBeraterSection";
 import Footer from "@/components/Footer";
 import BackButton from "@/components/BackButton";
 import { Button } from "@/components/ui/button";
@@ -90,6 +91,7 @@ export default function DaemmungInfo() {
         { name: "Dachdämmung verstehen", url: "/daemmung-info" }
       ]} />
       <Navbar />
+      <AIBeraterSection />
       
       <section className="relative min-h-[400px] flex items-center">
         <div 
@@ -503,7 +505,7 @@ export default function DaemmungInfo() {
         </div>
       </section>
 
-      <Footer showAIBerater={true} />
+      <Footer />
     </div>
   );
 }

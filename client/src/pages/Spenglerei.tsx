@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import AIBeraterSection from "@/components/AIBeraterSection";
 import Footer from "@/components/Footer";
 import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
@@ -31,6 +32,7 @@ export default function Spenglerei() {
         ]}
       />
       <Navbar />
+      <AIBeraterSection />
       
       {/* Hero Section */}
       <section className="pt-6 pb-8 md:pt-10 md:pb-12 bg-secondary relative overflow-hidden min-h-[40vh] flex items-center">
@@ -238,7 +240,7 @@ export default function Spenglerei() {
         relatedIds={["bedachungen", "dachsanierung", "wartung", "referenzen"]}
       />
       <Contact />
-      <Footer showAIBerater={true} />
+      <Footer />
     </div>
   );
 }

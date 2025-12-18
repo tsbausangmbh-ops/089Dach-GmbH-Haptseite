@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import AIBeraterSection from "@/components/AIBeraterSection";
 import Footer from "@/components/Footer";
 import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
@@ -19,6 +20,7 @@ export default function Sturmschaden() {
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Leistungen", url: "/leistungen" }, { name: "Sturmschaden", url: "/leistungen/sturmschaden" }]} />
       <Navbar />
+      <AIBeraterSection />
       
       <section className="pt-6 pb-8 md:pt-10 md:pb-12 bg-secondary relative overflow-hidden min-h-[35vh] flex items-center">
         <div className="absolute inset-0 bg-gradient-to-r from-secondary via-secondary/95 to-secondary/80"></div>
@@ -185,7 +187,7 @@ export default function Sturmschaden() {
       <LeadFunnel />
       <RelatedServices currentPage="sturmschaden" relatedIds={["reparaturservice", "dachsanierung", "notdienst", "wartung"]} />
       <Contact />
-      <Footer showAIBerater={true} />
+      <Footer />
     </div>
   );
 }

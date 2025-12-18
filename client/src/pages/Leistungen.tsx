@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import AIBeraterSection from "@/components/AIBeraterSection";
 import Footer from "@/components/Footer";
 import BackButton from "@/components/BackButton";
 import Contact from "@/components/Contact";
@@ -179,6 +180,7 @@ export default function Leistungen() {
         ]}
       />
       <Navbar />
+      <AIBeraterSection />
       
       {/* Hero Section */}
       <section className="pt-6 pb-8 md:pt-10 md:pb-12 relative overflow-hidden min-h-[40vh] md:min-h-[50vh] flex items-center">
@@ -344,7 +346,7 @@ export default function Leistungen() {
         relatedIds={["referenzen", "faq", "ratgeber", "stadtteile"]}
       />
       <Contact />
-      <Footer showAIBerater={true} />
+      <Footer />
     </div>
   );
 }

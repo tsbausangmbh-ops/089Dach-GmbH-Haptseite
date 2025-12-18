@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import AIBeraterSection from "@/components/AIBeraterSection";
 import Footer from "@/components/Footer";
 import BackButton from "@/components/BackButton";
 import LeadFunnel from "@/components/LeadFunnel";
@@ -46,6 +47,7 @@ export default function Energieberatung() {
         ]}
       />
       <Navbar />
+      <AIBeraterSection />
       
       {/* Hero Section */}
       <section className="pt-6 pb-8 md:pt-10 md:pb-12 bg-secondary relative overflow-hidden min-h-[40vh] flex items-center">
@@ -234,7 +236,7 @@ export default function Energieberatung() {
         relatedIds={["dachsanierung", "architektenleistungen", "ratgeber", "faq"]}
       />
       <Contact />
-      <Footer showAIBerater={true} />
+      <Footer />
     </div>
   );
 }
