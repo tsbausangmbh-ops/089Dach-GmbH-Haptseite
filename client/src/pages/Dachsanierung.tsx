@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle2, AlertTriangle, Clock, Shield, Euro, ThermometerSun, ArrowRight, Quote, Phone, Award, Users } from "lucide-react";
 import { Link } from "wouter";
-import SEO, { BreadcrumbSchema, ServiceSchema, ProductServiceSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, ServiceSchema, ProductServiceSchema, FAQPageSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/realistic_renovated_roof_obermenzing_after.png";
 import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
@@ -57,6 +57,13 @@ export default function Dachsanierung() {
         priceUnit="pro m²"
         category="Dachsanierung"
       />
+      <FAQPageSchema faqs={[
+        { question: "Was kostet eine Dachsanierung pro m² in München?", answer: "In München kostet eine Dachsanierung ab 195€/m² inkl. Dämmung. Ohne Dämmung ab 120€/m². Eine Komplettsanierung für 120m² Dachfläche liegt bei ca. 24.000-32.000€." },
+        { question: "Wie lange dauert eine Dachsanierung?", answer: "Ein Einfamilienhaus (100-150m²) dauert 1-2 Wochen bei guter Witterung. Sie müssen in der Regel nicht ausziehen - wir arbeiten von außen." },
+        { question: "Wann muss ein Dach saniert werden?", answer: "Typische Anzeichen: Wasserflecken an der Decke, verrutschte Ziegel, starker Moosbewuchs, hohe Heizkosten, Dach älter als 40 Jahre. Bei diesen Zeichen sollten Sie handeln." },
+        { question: "Gibt es Förderung für Dachsanierung 2025?", answer: "Ja! BAFA fördert energetische Dachsanierung mit 15-20% Zuschuss (bis 6.000€). KfW bietet zinsgünstige Kredite bis 150.000€. Wir helfen beim Antrag." },
+        { question: "Kann man eine Dachsanierung im Winter machen?", answer: "Ja, bei Temperaturen über 5°C ist eine Sanierung möglich. Wir schützen den Innenraum mit Planen. Einige Arbeiten wie Dämmung sind auch bei Kälte machbar." }
+      ]} />
       <Navbar />
       <AIBeraterSection />
       

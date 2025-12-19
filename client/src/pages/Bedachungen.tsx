@@ -8,7 +8,7 @@ import { CheckCircle2, ArrowRight, Home, Warehouse, ShieldCheck, Quote, AlertTri
 import heroImage from "@assets/generated_images/roofer_working_on_red_tile_roof_munich.png";
 import tileImage from "@assets/generated_images/red_roof_tiles_texture_close_up.png";
 import LeadFunnel from "@/components/LeadFunnel";
-import SEO, { BreadcrumbSchema, ServiceSchema, ProductServiceSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, ServiceSchema, ProductServiceSchema, FAQPageSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import { FlachdachMuenchenContent } from "@/components/SEOContent";
@@ -40,6 +40,13 @@ export default function Bedachungen() {
         priceUnit="pro m²"
         category="Bedachungen"
       />
+      <FAQPageSchema faqs={[
+        { question: "Was kostet Dach neu eindecken ohne Dämmung?", answer: "Eine Neueindeckung ohne Dämmung kostet ab 80€/m² für Betondachsteine, ab 100€/m² für Tonziegel, ab 150€/m² für Schiefer. Bei 100m² Dachfläche: 8.000-15.000€." },
+        { question: "Steildach oder Flachdach - was ist besser?", answer: "Steildächer halten länger (50+ Jahre), sind wartungsärmer und bieten Dachraum. Flachdächer sind günstiger im Bau, ermöglichen Begrünung und Terrassen. Die Wahl hängt von Ihrem Gebäude ab." },
+        { question: "Welche Dachziegel sind die besten?", answer: "Tondachziegel sind langlebig (80+ Jahre), farbecht und natürlich. Betondachsteine sind günstiger, schwerer und halten 40-50 Jahre. Schiefer ist am hochwertigsten (100+ Jahre), aber auch teurer." },
+        { question: "Wie oft muss ein Steildach gewartet werden?", answer: "Einmal jährlich sollten Sie Dachrinnen reinigen, Moos entfernen lassen und lockere Ziegel prüfen. Wir bieten Wartungsverträge ab 250€/Jahr an." },
+        { question: "Kann man eine Dachbegrünung auf jedem Dach machen?", answer: "Extensive Begrünung (Sedum) geht auf Flachdächern bis 15° Neigung. Das Dach muss die zusätzliche Last (60-150 kg/m²) tragen können. Wir prüfen die Statik vorab." }
+      ]} />
       <Navbar />
       <AIBeraterSection />
       

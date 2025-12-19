@@ -5,7 +5,7 @@ import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, Shield, Clock, Award, ArrowRight, Droplets, Thermometer, Wrench, Layers } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
-import SEO, { BreadcrumbSchema, ProductServiceSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, ProductServiceSchema, FAQPageSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 
 export default function Flachdach() {
@@ -27,6 +27,13 @@ export default function Flachdach() {
         priceUnit="pro m²"
         category="Flachdach"
       />
+      <FAQPageSchema faqs={[
+        { question: "Was kostet Flachdach abdichten pro m²?", answer: "Flachdach-Abdichtung kostet ab 85€/m² mit Bitumen, ab 95€/m² mit EPDM oder Kunststoff. Mit Dämmung ab 180€/m². Garage (20m²) ca. 2.000-2.500€." },
+        { question: "Welche Abdichtung ist besser: EPDM oder Bitumen?", answer: "EPDM hält länger (40+ Jahre), ist elastischer und UV-beständiger. Bitumen ist günstiger und bewährt (25-30 Jahre). Für Garagen reicht Bitumen, für Wohngebäude empfehlen wir EPDM." },
+        { question: "Wie lange hält ein Flachdach?", answer: "Mit guter Pflege: Bitumen 25-30 Jahre, EPDM/Kunststoff 40+ Jahre. Regelmäßige Wartung (Abflüsse reinigen, Kontrolle) verlängert die Lebensdauer erheblich." },
+        { question: "Kann man ein Flachdach selbst abdichten?", answer: "Kleine Reparaturen mit Flüssigkunststoff sind möglich. Für komplette Abdichtungen empfehlen wir den Fachmann - Fehler führen zu teuren Wasserschäden." },
+        { question: "Was tun wenn das Flachdach tropft?", answer: "Sofort Eimer unterstellen, Wasserquelle fotografieren und uns anrufen: 089 12621964. Wir kommen zur Notabdichtung und verhindern größere Schäden." }
+      ]} />
       <Navbar />
       <AIBeraterSection />
       
