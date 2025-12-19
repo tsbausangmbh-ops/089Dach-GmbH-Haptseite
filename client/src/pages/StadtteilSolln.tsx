@@ -58,7 +58,7 @@ export default function StadtteilSolln() {
         title={`Dachdecker Solln | Villen & Landhäuser München`}
         description={`Dachdecker in München-Solln ✓ Villen ✓ Landhäuser ✓ Denkmalschutz ✓ Premium-Qualität ✓ 10 Jahre Garantie. Tel: 089 12621964`}
         canonical={`https://089dach.de/dachdecker-solln`}
-        keywords={`dachdecker solln, dachsanierung solln münchen, villa dachdecker solln, landhaus dach münchen, denkmalschutz dachdecker`}
+        keywords={`dachdecker solln, dachsanierung solln münchen, villa dachdecker solln, landhaus dach münchen, denkmalschutz dachdecker, dachdecker 81477 81479, biberschwanz solln, schieferdach solln, sturmschaden dach solln, dachfenster solln, kupferdachrinne solln`}
         geoPlacename={`München-Solln, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Solln. Spezialisiert auf Villen und historische Landhäuser. Tel: 089 12621964.`}
       />

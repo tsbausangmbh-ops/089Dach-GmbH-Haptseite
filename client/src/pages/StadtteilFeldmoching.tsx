@@ -58,7 +58,7 @@ export default function StadtteilFeldmoching() {
         title={`Dachdecker Feldmoching | Alle Gebäudetypen`}
         description={`Dachdecker in München-Feldmoching ✓ Einfamilienhäuser ✓ Mehrfamilienhäuser ✓ Flachdach ✓ 10 Jahre Garantie. Tel: 089 12621964`}
         canonical={`https://089dach.de/dachdecker-feldmoching`}
-        keywords={`dachdecker feldmoching, dachsanierung feldmoching münchen, flachdach feldmoching, dachdecker hasenbergl, dachreparatur münchen nord, dachdeckerei feldmoching`}
+        keywords={`dachdecker feldmoching, dachsanierung feldmoching münchen, flachdach feldmoching, dachdecker hasenbergl, dachreparatur münchen nord, dachdeckerei feldmoching, dachdecker 80933 80995, sturmschaden dach feldmoching, dachfenster feldmoching, wärmedämmung dach feldmoching, steildach feldmoching`}
         geoPlacename={`München-Feldmoching, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Feldmoching. Spezialisiert auf alle Gebäudetypen. Tel: 089 12621964.`}
       />

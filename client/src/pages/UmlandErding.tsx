@@ -54,7 +54,7 @@ export default function UmlandErding() {
         title={`Dachdecker Erding | Meisterbetrieb München`}
         description={`Dachdecker in Erding bei München ✓ Dachsanierung ✓ Dämmung ✓ Dachfenster ✓ 10 Jahre Garantie. Tel: 089 12621964`}
         canonical={`https://089dach.de/dachdecker-erding`}
-        keywords={`dachdecker erding, dachsanierung erding, dachdecker landkreis erding, dachdämmung erding, dachfenster erding`}
+        keywords={`dachdecker erding, dachsanierung erding, dachdecker landkreis erding, dachdämmung erding, dachfenster erding, dachdecker 85435, sturmschaden dach erding, altstadt erding dach, steildach erding, dachrinne erding, ziegeldach erding`}
         geoPlacename={`Erding, Landkreis Erding, Bayern, Deutschland`}
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Umland", url: "/umland" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-${stadtteilData.name.toLowerCase()}` }]} />

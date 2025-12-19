@@ -58,7 +58,7 @@ export default function StadtteilHarlaching() {
         title={`Dachdecker Harlaching | Einfamilienhaus-Experten`}
         description={`Dachdecker in München-Harlaching für Einfamilienhäuser & Villen ✓ Ziegeleindeckung ✓ Dachdämmung ✓ 10 Jahre Garantie. Tel: 089 12621964`}
         canonical={`https://089dach.de/dachdecker-harlaching`}
-        keywords={`dachdecker harlaching, dachsanierung einfamilienhaus münchen, dachdecker menterschwaige, ziegeldach harlaching, dachdämmung harlaching, dachfenster einbau münchen süd`}
+        keywords={`dachdecker harlaching, dachsanierung einfamilienhaus münchen, dachdecker menterschwaige, ziegeldach harlaching, dachdämmung harlaching, dachfenster einbau münchen süd, dachdecker 81545 81547, sturmschaden dach harlaching, villa dach harlaching, dachrinne harlaching, steildach harlaching`}
         geoPlacename={`München-Harlaching, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Harlaching. Spezialisiert auf Einfamilienhäuser und hochwertige Dachsanierungen. Tel: 089 12621964.`}
       />

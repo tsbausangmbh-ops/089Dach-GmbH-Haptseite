@@ -54,7 +54,7 @@ export default function StadtteilMilbertshofen() {
         title={`Dachdecker Milbertshofen | München Nord`}
         description={`Dachdecker in München-Milbertshofen ✓ Flachdach ✓ Gewerbe ✓ Mehrfamilienhaus ✓ 10 Jahre Garantie. Tel: 089 12621964`}
         canonical={`https://089dach.de/dachdecker-milbertshofen`}
-        keywords={`dachdecker milbertshofen, dachdecker am hart, flachdach münchen nord, dachsanierung milbertshofen, gewerbe dachdecker`}
+        keywords={`dachdecker milbertshofen, dachdecker am hart, flachdach münchen nord, dachsanierung milbertshofen, gewerbe dachdecker, dachdecker 80807 80809, sturmschaden dach milbertshofen, dachfenster milbertshofen, wärmedämmung dach milbertshofen, industriedach münchen, mehrfamilienhaus dach milbertshofen`}
         geoPlacename={`München Milbertshofen-Am Hart, Bayern, Deutschland`}
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Stadtteile", url: "/stadtteile" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-milbertshofen` }]} />

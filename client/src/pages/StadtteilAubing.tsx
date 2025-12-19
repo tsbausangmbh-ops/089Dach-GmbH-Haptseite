@@ -58,7 +58,7 @@ export default function StadtteilAubing() {
         title="Dachdecker Aubing Lochhausen Langwied | München West"
         description="Dachdecker für Einfamilienhäuser in Aubing-Lochhausen-Langwied. ✓ Steildach ✓ Solar-Vorbereitung ✓ 10 Jahre Garantie. Beratung ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-aubing-lochhausen-langwied"
-        keywords="dachdecker aubing, dachdecker lochhausen, dachsanierung aubing münchen, solardach aubing, dachdecker 81243"
+        keywords="dachdecker aubing, dachdecker lochhausen, dachsanierung aubing münchen, solardach aubing, dachdecker 81243 81245 81249, dachdecker langwied, sturmschaden dach aubing, dachfenster aubing, wärmedämmung dach aubing, steildach aubing"
         geoPlacename="München Aubing-Lochhausen-Langwied, Bayern, Deutschland"
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für Aubing-Lochhausen-Langwied. Spezialist für Einfamilienhäuser. Tel: 089 12621964.`}
       />

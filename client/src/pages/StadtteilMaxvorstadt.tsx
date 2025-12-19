@@ -57,7 +57,7 @@ export default function StadtteilMaxvorstadt() {
         title="Dachdecker Maxvorstadt | Altbau & Denkmalschutz München"
         description="Dachdecker für Altbau & Denkmalschutz in der Maxvorstadt. ✓ Schiefereindeckung ✓ Zinkarbeiten ✓ 10 Jahre Garantie. Beratung ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-maxvorstadt"
-        keywords="dachdecker maxvorstadt, dachsanierung altbau münchen, dachdecker denkmalschutz maxvorstadt, schieferdach maxvorstadt, dachrinne altbau münchen"
+        keywords="dachdecker maxvorstadt, dachsanierung altbau münchen, dachdecker denkmalschutz maxvorstadt, schieferdach maxvorstadt, dachrinne altbau münchen, dachdecker 80333 80335, gaubenreparatur maxvorstadt, zinkarbeiten maxvorstadt, sturmschaden dach maxvorstadt, mansarddach maxvorstadt"
         geoPlacename="München-Maxvorstadt, Bayern, Deutschland"
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Maxvorstadt. Spezialist für Altbauten und Denkmalschutz. Tel: 089 12621964.`}
       />

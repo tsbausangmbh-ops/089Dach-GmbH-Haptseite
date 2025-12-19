@@ -58,7 +58,7 @@ export default function StadtteilOberfoehring() {
         title="Dachdecker Oberföhring | Villen & Premium München"
         description="Dachdecker für Villen in Oberföhring. ✓ Schiefereindeckung ✓ Premium-Zinkarbeiten ✓ 10 Jahre Garantie. Beratung ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-oberfoehring"
-        keywords="dachdecker oberföhring, dachsanierung villa münchen, dachdecker bogenhausen nord, schieferdach oberföhring, premium dachdecker münchen"
+        keywords="dachdecker oberföhring, dachsanierung villa münchen, dachdecker bogenhausen nord, schieferdach oberföhring, premium dachdecker münchen, dachdecker 81925 81927, sturmschaden dach oberföhring, dachfenster oberföhring, kupferdachrinne oberföhring, zinkarbeiten oberföhring"
         geoPlacename="München-Oberföhring, Bayern, Deutschland"
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Oberföhring. Spezialist für Villen und Premium-Wohnhäuser. Tel: 089 12621964.`}
       />

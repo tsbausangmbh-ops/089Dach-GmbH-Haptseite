@@ -58,7 +58,7 @@ export default function StadtteilAltstadt() {
         title="Dachdecker Altstadt München | Denkmalschutz & historische Dächer"
         description="Dachdecker für historische Dächer in der Münchner Altstadt. ✓ Denkmalschutz ✓ Kupferarbeiten ✓ 10 Jahre Garantie. Beratung ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-altstadt"
-        keywords="dachdecker altstadt münchen, dachsanierung denkmalschutz münchen, dachdecker marienplatz, historische dächer münchen, kupferdach altstadt"
+        keywords="dachdecker altstadt münchen, dachsanierung denkmalschutz münchen, dachdecker marienplatz, historische dächer münchen, kupferdach altstadt, dachdecker 80331 80333, schieferdach altstadt, biberschwanz altstadt, sturmschaden dach altstadt, kirchendach münchen"
         geoPlacename="München-Altstadt, Bayern, Deutschland"
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für die Münchner Altstadt. Spezialist für Denkmalschutz. Tel: 089 12621964.`}
       />

@@ -58,7 +58,7 @@ export default function StadtteilGiesing() {
         title="Dachdecker Giesing | Altbau & Dachgeschossausbau"
         description={`Dachdecker in München-Giesing ✓ Altbausanierung ✓ Dachgeschossausbau ✓ Flachdach ✓ 10 Jahre Garantie. Tel: 089 12621964`}
         canonical={`https://089dach.de/dachdecker-giesing`}
-        keywords={`dachdecker giesing, dachsanierung giesing münchen, dachgeschossausbau giesing, altbau dachdecker giesing, flachdach giesing`}
+        keywords={`dachdecker giesing, dachsanierung giesing münchen, dachgeschossausbau giesing, altbau dachdecker giesing, flachdach giesing, dachdecker obergiesing, dachdecker untergiesing, dachdecker 81539 81541, sturmschaden dach giesing, dachfenster giesing, wärmedämmung dach giesing, dachrinne giesing`}
         geoPlacename={`München-Giesing, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Giesing. Spezialisiert auf Altbauten und Dachgeschossausbau. Tel: 089 12621964.`}
       />

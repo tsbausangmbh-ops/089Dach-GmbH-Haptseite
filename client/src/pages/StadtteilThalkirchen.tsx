@@ -57,7 +57,7 @@ export default function StadtteilThalkirchen() {
         title="Dachdecker Thalkirchen | Einfamilienhaus & Steildach München"
         description="Dachdecker für Einfamilienhäuser in Thalkirchen. ✓ Dachsanierung ✓ Dämmung ✓ Dachfenster ✓ 10 Jahre Garantie. Beratung ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-thalkirchen"
-        keywords="dachdecker thalkirchen, dachsanierung einfamilienhaus münchen, dachdecker isartal, dachfenster thalkirchen, dachdämmung thalkirchen"
+        keywords="dachdecker thalkirchen, dachsanierung einfamilienhaus münchen, dachdecker isartal, dachfenster thalkirchen, dachdämmung thalkirchen, dachdecker 81379 81475, sturmschaden dach thalkirchen, steildach thalkirchen, dachrinne thalkirchen, ziegeldach thalkirchen"
         geoPlacename="München-Thalkirchen, Bayern, Deutschland"
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Thalkirchen. Spezialist für Einfamilienhäuser. Tel: 089 12621964.`}
       />

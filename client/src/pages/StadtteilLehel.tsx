@@ -57,7 +57,7 @@ export default function StadtteilLehel() {
         title="Dachdecker Lehel | Villen & Altbau München"
         description="Dachdecker für Villen & historische Bauten im Lehel. ✓ Kupferarbeiten ✓ Zinkornamente ✓ 10 Jahre Garantie. Beratung ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-lehel"
-        keywords="dachdecker lehel, dachsanierung villa münchen, dachdecker altstadt münchen, kupferdach lehel, dachrinne kupfer münchen"
+        keywords="dachdecker lehel, dachsanierung villa münchen, dachdecker altstadt münchen, kupferdach lehel, dachrinne kupfer münchen, dachdecker 80538 80539, zinkornamente lehel, sturmschaden dach lehel, biberschwanz lehel, denkmalschutz dach lehel"
         geoPlacename="München-Lehel, Bayern, Deutschland"
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Lehel. Spezialist für Villen und historische Bauten. Tel: 089 12621964.`}
       />

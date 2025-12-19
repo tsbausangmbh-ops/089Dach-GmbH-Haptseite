@@ -53,7 +53,7 @@ export default function StadtteilGraefelfing() {
         title={`Dachdecker Gräfelfing | Villa Dachsanierung`}
         description={`Dachdecker in Gräfelfing für Villen & EFH ✓ Nur 5 km entfernt ✓ Schiefer & Kupfer ✓ Premium-Qualität ✓ 10 Jahre Garantie. Jetzt anfragen: 089 12621964`}
         canonical={`https://089dach.de/dachdecker-graefelfing`}
-        keywords={`dachdecker gräfelfing bewertung, villa dachsanierung landkreis münchen, schieferdach eindecken kosten, kupferdachrinne preis, dachdecker planegg germering, bester dachdecker gräfelfing`}
+        keywords={`dachdecker gräfelfing bewertung, villa dachsanierung landkreis münchen, schieferdach eindecken kosten, kupferdachrinne preis, dachdecker planegg germering, bester dachdecker gräfelfing, dachdecker 82166, sturmschaden dach gräfelfing, dachfenster gräfelfing, solardach gräfelfing, premium dach gräfelfing`}
         geoPlacename={`Gräfelfing, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker für Gräfelfing. Premium-Dachsanierung für Villen. Nur 5 km entfernt. Tel: 089 12621964.`}
       />

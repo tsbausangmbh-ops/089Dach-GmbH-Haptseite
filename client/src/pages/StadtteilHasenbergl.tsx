@@ -58,7 +58,7 @@ export default function StadtteilHasenbergl() {
         title="Dachdecker Hasenbergl | Dachsanierung München Nord"
         description="Dachdecker für Dachsanierung im Hasenbergl. ✓ Flachdach ✓ Wärmedämmung ✓ 10 Jahre Garantie. Beratung ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-hasenbergl"
-        keywords="dachdecker hasenbergl, dachsanierung hasenbergl, flachdach münchen nord, wärmedämmung hasenbergl, dachdecker 80933"
+        keywords="dachdecker hasenbergl, dachsanierung hasenbergl, flachdach münchen nord, wärmedämmung hasenbergl, dachdecker 80933 80935, sturmschaden dach hasenbergl, dachfenster hasenbergl, steildach hasenbergl, mehrfamilienhaus dach hasenbergl, dachrinne hasenbergl"
         geoPlacename="München-Hasenbergl, Bayern, Deutschland"
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für das Hasenbergl. Spezialist für Sanierung. Tel: 089 12621964.`}
       />

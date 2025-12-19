@@ -58,7 +58,7 @@ export default function StadtteilTrudering() {
         title={`Dachdecker Trudering | Einfamilienhaus & Reihenhaus`}
         description={`Dachdecker in München-Trudering für Einfamilienhäuser & Reihenhäuser ✓ Dachsanierung ✓ Sturmschaden ✓ 10 Jahre Garantie. Tel: 089 12621964`}
         canonical={`https://089dach.de/dachdecker-trudering`}
-        keywords={`dachdecker trudering, dachsanierung reihenhaus münchen, dachdecker trudering-riem, sturmschaden dach trudering, dachreparatur trudering, dachdeckerei münchen ost`}
+        keywords={`dachdecker trudering, dachsanierung reihenhaus münchen, dachdecker trudering-riem, sturmschaden dach trudering, dachreparatur trudering, dachdeckerei münchen ost, dachdecker 81825 81827, flachdach trudering, dachfenster trudering, wärmedämmung dach trudering, solardach trudering`}
         geoPlacename={`München-Trudering, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Trudering. Spezialisiert auf Einfamilienhäuser und Reihenhäuser. Tel: 089 12621964.`}
       />

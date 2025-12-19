@@ -58,7 +58,7 @@ export default function StadtteilIsarvorstadt() {
         title="Dachdecker Glockenbachviertel & Isarvorstadt München"
         description="Dachdecker für Altbauten im Glockenbachviertel. ✓ Mansarddächer ✓ Gaubenreparatur ✓ 10 Jahre Garantie. Beratung ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-ludwigsvorstadt-isarvorstadt"
-        keywords="dachdecker glockenbachviertel, dachdecker isarvorstadt, dachsanierung altbau münchen, mansarddach sanierung, gaubenreparatur münchen"
+        keywords="dachdecker glockenbachviertel, dachdecker isarvorstadt, dachsanierung altbau münchen, mansarddach sanierung, gaubenreparatur münchen, dachdecker 80337 80469, zinkarbeiten isarvorstadt, sturmschaden dach glockenbachviertel, dachterrasse münchen, denkmalschutz isarvorstadt"
         geoPlacename="München Ludwigsvorstadt-Isarvorstadt, Bayern, Deutschland"
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für Ludwigsvorstadt-Isarvorstadt. Spezialist für gründerzeitliche Altbauten. Tel: 089 12621964.`}
       />

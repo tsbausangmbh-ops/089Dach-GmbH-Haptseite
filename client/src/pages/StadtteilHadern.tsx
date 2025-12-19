@@ -57,7 +57,7 @@ export default function StadtteilHadern() {
         title="Dachdecker Hadern | Flachdach & Bestandsbau München"
         description="Dachdecker für Hadern und Großhadern. ✓ Flachdach ✓ Dachsanierung ✓ Dämmung ✓ 10 Jahre Garantie. Beratung ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-hadern"
-        keywords="dachdecker hadern, dachdecker großhadern, flachdach sanierung münchen, dachsanierung hadern, dachdecker münchen west"
+        keywords="dachdecker hadern, dachdecker großhadern, flachdach sanierung münchen, dachsanierung hadern, dachdecker münchen west, dachdecker 81375 81377, sturmschaden dach hadern, dachfenster hadern, wärmedämmung dach hadern, garagendach hadern"
         geoPlacename="München-Hadern, Bayern, Deutschland"
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Hadern. Nur 5 km entfernt. Tel: 089 12621964.`}
       />

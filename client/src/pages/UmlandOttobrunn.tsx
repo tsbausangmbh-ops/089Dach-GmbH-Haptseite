@@ -54,7 +54,7 @@ export default function UmlandOttobrunn() {
         title={`Dachdecker Ottobrunn | Meisterbetrieb München`}
         description={`Dachdecker in Ottobrunn bei München ✓ Dachsanierung ✓ Flachdach ✓ Dämmung ✓ 10 Jahre Garantie. Tel: 089 12621964`}
         canonical={`https://089dach.de/dachdecker-ottobrunn`}
-        keywords={`dachdecker ottobrunn, dachsanierung ottobrunn, flachdach ottobrunn, dachdämmung ottobrunn, dachdecker münchen süd`}
+        keywords={`dachdecker ottobrunn, dachsanierung ottobrunn, flachdach ottobrunn, dachdämmung ottobrunn, dachdecker münchen süd, dachdecker 85521, sturmschaden dach ottobrunn, dachfenster ottobrunn, solardach ottobrunn, dachziegel wechseln ottobrunn, steildach ottobrunn`}
         geoPlacename={`Ottobrunn, Landkreis München, Bayern, Deutschland`}
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Umland", url: "/umland" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-${stadtteilData.name.toLowerCase()}` }]} />

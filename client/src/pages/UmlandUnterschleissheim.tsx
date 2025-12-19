@@ -54,7 +54,7 @@ export default function UmlandUnterschleissheim() {
         title={`Dachdecker Unterschleißheim | Meisterbetrieb München`}
         description={`Dachdecker in Unterschleißheim ✓ Dachsanierung ✓ Flachdach ✓ Dämmung ✓ 10 Jahre Garantie. Tel: 089 12621964`}
         canonical={`https://089dach.de/dachdecker-unterschleissheim`}
-        keywords={`dachdecker unterschleißheim, dachsanierung unterschleißheim, flachdach unterschleißheim, dachdämmung unterschleißheim`}
+        keywords={`dachdecker unterschleißheim, dachsanierung unterschleißheim, flachdach unterschleißheim, dachdämmung unterschleißheim, dachdecker 85716, sturmschaden dach unterschleißheim, dachfenster unterschleißheim, solardach unterschleißheim, reihenhaus dach unterschleißheim, steildach unterschleißheim`}
         geoPlacename={`Unterschleißheim, Landkreis München, Bayern, Deutschland`}
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Umland", url: "/umland" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-unterschleissheim` }]} />

@@ -58,7 +58,7 @@ export default function StadtteilFasanerie() {
         title={`Dachdecker Fasanerie | Einfamilienhaus-Experten`}
         description={`Dachdecker in München-Fasanerie ✓ Einfamilienhäuser ✓ Reihenhäuser ✓ Dachdämmung ✓ 10 Jahre Garantie. Tel: 089 12621964`}
         canonical={`https://089dach.de/dachdecker-fasanerie`}
-        keywords={`dachdecker fasanerie, dachsanierung fasanerie münchen, dachdecker münchen nord, dachdämmung fasanerie, dachfenster fasanerie, dachreparatur fasanerie`}
+        keywords={`dachdecker fasanerie, dachsanierung fasanerie münchen, dachdecker münchen nord, dachdämmung fasanerie, dachfenster fasanerie, dachreparatur fasanerie, dachdecker 80995 80996, sturmschaden dach fasanerie, flachdach fasanerie, dachrinne fasanerie, steildach fasanerie`}
         geoPlacename={`München-Fasanerie, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Fasanerie. Spezialisiert auf Einfamilienhäuser und Reihenhäuser. Tel: 089 12621964.`}
       />

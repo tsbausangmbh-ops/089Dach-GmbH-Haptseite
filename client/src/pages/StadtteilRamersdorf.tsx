@@ -54,7 +54,7 @@ export default function StadtteilRamersdorf() {
         title={`Dachdecker Ramersdorf-Perlach | München`}
         description={`Dachdecker in München-Ramersdorf-Perlach ✓ Siedlungshäuser ✓ Flachdach ✓ Dämmung ✓ 10 Jahre Garantie. Tel: 089 12621964`}
         canonical={`https://089dach.de/dachdecker-ramersdorf-perlach`}
-        keywords={`dachdecker ramersdorf, dachdecker perlach, dachsanierung neuperlach, flachdach ramersdorf, dachdämmung perlach`}
+        keywords={`dachdecker ramersdorf, dachdecker perlach, dachsanierung neuperlach, flachdach ramersdorf, dachdämmung perlach, dachdecker 81735 81737, sturmschaden dach ramersdorf, dachfenster perlach, siedlungshaus dach perlach, dachrinne ramersdorf, steildach neuperlach`}
         geoPlacename={`München-Ramersdorf-Perlach, Bayern, Deutschland`}
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Stadtteile", url: "/stadtteile" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-ramersdorf-perlach` }]} />

@@ -58,7 +58,7 @@ export default function StadtteilFreimann() {
         title="Dachdecker Freimann | München Nord Allianz Arena"
         description="Dachdecker in Freimann nahe Allianz Arena. ✓ Steildach ✓ Flachdach ✓ 10 Jahre Garantie. Beratung ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-freimann"
-        keywords="dachdecker freimann, dachsanierung münchen nord, dachdecker allianz arena, flachdach freimann, solardach münchen nord"
+        keywords="dachdecker freimann, dachsanierung münchen nord, dachdecker allianz arena, flachdach freimann, solardach münchen nord, dachdecker 80939 80807, steildach freimann, sturmschaden dach freimann, dachfenster freimann, wärmedämmung dach freimann, gewerbe dachdecker freimann"
         geoPlacename="München-Freimann, Bayern, Deutschland"
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Freimann. Wohn- und Gewerbegebäude. Tel: 089 12621964.`}
       />
