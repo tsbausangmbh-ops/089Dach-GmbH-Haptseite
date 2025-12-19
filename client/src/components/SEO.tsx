@@ -1004,14 +1004,6 @@ export function AIKnowledgeSchema() {
           "description": "Dachrinnen, Kamineinfassungen, Blechverkleidungen in Kupfer, Zink und Aluminium."
         }
       ],
-      "potentialAction": {
-        "@type": "ReserveAction",
-        "name": "Kostenlose Beratung buchen",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://089dach.de/rueckruf"
-        }
-      },
       "contactPoint": {
         "@type": "ContactPoint",
         "telephone": "+49-89-12621964",
@@ -1174,7 +1166,6 @@ export function GoogleBusinessProfileSchema() {
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Dachreparatur" }},
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Dachwartung" }}
     ],
-    "potentialAction": [{ "@type": "ReserveAction", "target": { "@type": "EntryPoint", "urlTemplate": "https://089dach.de/rueckruf" }, "name": "Kostenlose Beratung anfragen" }],
     "sameAs": ["https://www.google.com/maps/place/089Dach+GmbH", "https://www.instagram.com/089dach", "https://www.facebook.com/089dach"]
   };
 
@@ -1334,15 +1325,7 @@ export function NearbyServiceSchema({ stadtteil, entfernung }: { stadtteil?: str
       "Dachreparatur Notdienst",
       "Dachsanierung",
       "Spenglerarbeiten"
-    ],
-    "potentialAction": {
-      "@type": "ReserveAction",
-      "target": {
-        "@type": "EntryPoint",
-        "urlTemplate": "https://089dach.de/rueckruf"
-      },
-      "name": "Termin vereinbaren"
-    }
+    ]
   };
 
   return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
