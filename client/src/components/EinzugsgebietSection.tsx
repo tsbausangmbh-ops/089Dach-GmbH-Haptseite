@@ -22,7 +22,10 @@ const umland = [
   { name: "Unterföhring", url: "/dachdecker-unterfoehring" },
   { name: "Pullach", url: "/dachdecker-pullach" },
   { name: "Grünwald", url: "/dachdecker-gruenwald" },
-  { name: "Planegg", url: "/dachdecker-planegg" }
+  { name: "Planegg", url: "/dachdecker-planegg" },
+  { name: "Fürstenfeldbruck", url: "/dachdecker-fuerstenfeldbruck" },
+  { name: "Eching", url: "/dachdecker-eching" },
+  { name: "Baierbrunn", url: "/dachdecker-baierbrunn" }
 ];
 
 export default function EinzugsgebietSection() {

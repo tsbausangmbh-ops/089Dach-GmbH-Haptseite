@@ -81,10 +81,11 @@ export default function Home() {
               <span className="text-xs text-muted-foreground">Auch im Umland:</span>
               {[
                 { name: "Gräfelfing", href: "/dachdecker-graefelfing" },
-                { name: "Ottobrunn", href: "/dachdecker-ottobrunn" },
-                { name: "Unterföhring", href: "/dachdecker-unterfoehring" },
                 { name: "Grünwald", href: "/dachdecker-gruenwald" },
                 { name: "Pullach", href: "/dachdecker-pullach" },
+                { name: "Fürstenfeldbruck", href: "/dachdecker-fuerstenfeldbruck" },
+                { name: "Eching", href: "/dachdecker-eching" },
+                { name: "Baierbrunn", href: "/dachdecker-baierbrunn" },
               ].map((loc, idx) => (
                 <a
                   key={idx}
