@@ -1,4 +1,4 @@
-import Navigation from "@/components/Navigation";
+import Navigation from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import LeadFunnel from "@/components/LeadFunnel";
 import { Button } from "@/components/ui/button";
