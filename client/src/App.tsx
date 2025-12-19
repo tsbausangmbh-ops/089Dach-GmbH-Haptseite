@@ -72,6 +72,14 @@ import StadtteilThalkirchen from "@/pages/StadtteilThalkirchen";
 import StadtteilHadern from "@/pages/StadtteilHadern";
 import StadtteilWestend from "@/pages/StadtteilWestend";
 import StadtteilBergAmLaim from "@/pages/StadtteilBergAmLaim";
+import StadtteilAltstadt from "@/pages/StadtteilAltstadt";
+import StadtteilIsarvorstadt from "@/pages/StadtteilIsarvorstadt";
+import StadtteilSchwanthalerhoehe from "@/pages/StadtteilSchwanthalerhoehe";
+import StadtteilSendlingWestpark from "@/pages/StadtteilSendlingWestpark";
+import StadtteilFreimann from "@/pages/StadtteilFreimann";
+import StadtteilHasenbergl from "@/pages/StadtteilHasenbergl";
+import StadtteilOberfoehring from "@/pages/StadtteilOberfoehring";
+import StadtteilAubing from "@/pages/StadtteilAubing";
 import Flachdach from "@/pages/Flachdach";
 import Sturmschaden from "@/pages/Sturmschaden";
 import Dachbeschichtung from "@/pages/Dachbeschichtung";
@@ -167,6 +175,14 @@ function Router() {
       <Route path="/dachdecker-hadern" component={StadtteilHadern} />
       <Route path="/dachdecker-westend" component={StadtteilWestend} />
       <Route path="/dachdecker-berg-am-laim" component={StadtteilBergAmLaim} />
+      <Route path="/dachdecker-altstadt" component={StadtteilAltstadt} />
+      <Route path="/dachdecker-ludwigsvorstadt-isarvorstadt" component={StadtteilIsarvorstadt} />
+      <Route path="/dachdecker-schwanthalerhoehe" component={StadtteilSchwanthalerhoehe} />
+      <Route path="/dachdecker-sendling-westpark" component={StadtteilSendlingWestpark} />
+      <Route path="/dachdecker-freimann" component={StadtteilFreimann} />
+      <Route path="/dachdecker-hasenbergl" component={StadtteilHasenbergl} />
+      <Route path="/dachdecker-oberfoehring" component={StadtteilOberfoehring} />
+      <Route path="/dachdecker-aubing-lochhausen-langwied" component={StadtteilAubing} />
       <Route path="/leistungen/flachdach" component={Flachdach} />
       <Route path="/leistungen/sturmschaden" component={Sturmschaden} />
       <Route path="/leistungen/dachbeschichtung" component={Dachbeschichtung} />
