@@ -1004,23 +1004,21 @@ export function AIKnowledgeSchema() {
           "description": "Dachrinnen, Kamineinfassungen, Blechverkleidungen in Kupfer, Zink und Aluminium."
         }
       ],
-      "potentialAction": [
-        {
-          "@type": "ReserveAction",
-          "name": "Kostenlose Beratung buchen",
-          "target": "https://089dach.de/rueckruf"
-        },
-        {
-          "@type": "CommunicateAction",
-          "name": "Anrufen",
-          "target": "tel:+498912621964"
-        },
-        {
-          "@type": "CommunicateAction",
-          "name": "E-Mail senden",
-          "target": "mailto:info@089dach.de"
+      "potentialAction": {
+        "@type": "ReserveAction",
+        "name": "Kostenlose Beratung buchen",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://089dach.de/rueckruf"
         }
-      ]
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+49-89-12621964",
+        "email": "info@089dach.de",
+        "contactType": "customer service",
+        "availableLanguage": ["German", "English"]
+      }
     },
     "mentions": [
       { "@type": "Place", "name": "München" },
