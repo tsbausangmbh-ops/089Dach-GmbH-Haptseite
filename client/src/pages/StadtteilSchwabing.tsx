@@ -57,7 +57,7 @@ export default function StadtteilSchwabing() {
         title="Dachdecker Schwabing | Altbau & Denkmalschutz München"
         description="Dachdecker für Jugendstil & Denkmalschutz in Schwabing. ✓ Schiefereindeckung ✓ Kupferrinnen ✓ 10 Jahre Garantie. Beratung ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-schwabing"
-        keywords="dachdecker schwabing empfehlung, dachsanierung denkmalschutz münchen, jugendstil dach reparieren, schieferdach schwabing kosten, altbau dach sanieren, dachdecker historische gebäude münchen"
+        keywords="dachdecker schwabing empfehlung, dachsanierung denkmalschutz münchen, jugendstil dach reparieren, schieferdach schwabing kosten, altbau dach sanieren, dachdecker historische gebäude münchen, kupferdachrinne schwabing, gaubenrestaurierung schwabing, dachdecker 80798 80799 80801, dachsanierung villa schwabing, sturmschaden altbau schwabing"
         geoPlacename={`München-Schwabing, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Schwabing. Spezialist für denkmalgeschützte Gebäude und Jugendstilbauten. Tel: 089 12621964.`}
       />

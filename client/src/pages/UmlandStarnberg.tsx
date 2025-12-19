@@ -58,7 +58,7 @@ export default function UmlandStarnberg() {
         title={`Dachdecker Starnberg | Premium-Villen am See`}
         description={`Dachdecker in Starnberg am See ✓ Premium-Villen ✓ Schiefer ✓ Kupferdach ✓ Denkmalschutz ✓ 10 Jahre Garantie. Tel: 089 12621964`}
         canonical={`https://089dach.de/dachdecker-starnberg`}
-        keywords={`dachdecker starnberg, dachsanierung starnberg, villa dachdecker starnberger see, schieferdach starnberg, kupferdach starnberg`}
+        keywords={`dachdecker starnberg, dachsanierung starnberg, villa dachdecker starnberger see, schieferdach starnberg, kupferdach starnberg, denkmalschutz dach starnberg, dachsanierung landkreis starnberg, seevilla dach starnberg, landhausdach starnberg, sturmschaden dach starnberg, dachfenster starnberg, premium dachdecker 82319`}
         geoPlacename={`Starnberg, Landkreis Starnberg, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für Starnberg am See. Spezialisiert auf Premium-Villen. Tel: 089 12621964.`}
       />

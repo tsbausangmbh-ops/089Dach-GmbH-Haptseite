@@ -54,7 +54,7 @@ export default function UmlandFuerstenfeldbruck() {
         title={`Dachdecker Fürstenfeldbruck | Meisterbetrieb München`}
         description={`Dachdecker in Fürstenfeldbruck ✓ Altbau ✓ Denkmalschutz ✓ Dämmung ✓ 10 Jahre Garantie. Tel: 089 12621964`}
         canonical={`https://089dach.de/dachdecker-fuerstenfeldbruck`}
-        keywords={`dachdecker fürstenfeldbruck, dachsanierung ffb, dachdecker landkreis fürstenfeldbruck, denkmalschutz ffb, dachdämmung fürstenfeldbruck`}
+        keywords={`dachdecker fürstenfeldbruck, dachsanierung ffb, dachdecker landkreis fürstenfeldbruck, denkmalschutz ffb, dachdämmung fürstenfeldbruck, altstadt ffb dach, sturmschaden dach ffb, dachziegel wechseln ffb, dachdecker 82256, dachfenster fürstenfeldbruck, biberschwanz ffb`}
         geoPlacename={`Fürstenfeldbruck, Landkreis Fürstenfeldbruck, Bayern, Deutschland`}
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Umland", url: "/umland" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-fuerstenfeldbruck` }]} />

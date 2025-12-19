@@ -92,7 +92,7 @@ export default function StadtteilPasing() {
         title="Dachdecker Pasing | Ihr Nachbar-Dachdecker in 2km"
         description="Dachdecker Pasing nur 2km entfernt! ✓ Altbau-Experten ✓ Biberschwanz ✓ Festpreis ✓ 10 Jahre Garantie. Schnelle Hilfe ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-pasing"
-        keywords="dachdecker pasing empfehlung, dachsanierung pasing altbau, dachdecker in der nähe pasing, biberschwanz pasing, dachfenster einbau pasing, dachreparatur pasing münchen"
+        keywords="dachdecker pasing empfehlung, dachsanierung pasing altbau, dachdecker in der nähe pasing, biberschwanz pasing, dachfenster einbau pasing, dachreparatur pasing münchen, flachdach pasing, dachgaube pasing, sturmschaden dach pasing, dachdecker 81241 81243, wärmedämmung dach pasing, dachrinnenreinigung pasing"
         geoPlacename={`${stadtteilData.fullName}, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für ${stadtteilData.fullName}. Nur ${stadtteilData.entfernung} von unserem Standort in Obermenzing. Dachsanierung, Dachreparatur, Dachfenster und Spenglerarbeiten. Tel: 089 12621964.`}
       />

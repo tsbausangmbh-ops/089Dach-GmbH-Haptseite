@@ -54,7 +54,7 @@ export default function StadtteilHaidhausen() {
         title="Dachdecker Au-Haidhausen | Gründerzeit & Denkmalschutz"
         description="Dachdecker für Altbau in Au-Haidhausen. ✓ Gründerzeit ✓ Denkmalschutz ✓ 10 Jahre Garantie. Kostenlose Beratung ☎ 089 12621964"
         canonical={`https://089dach.de/dachdecker-au-haidhausen`}
-        keywords={`dachdecker haidhausen, dachdecker au, dachsanierung haidhausen, altbau dach münchen, denkmalschutz dachdecker`}
+        keywords={`dachdecker haidhausen, dachdecker au, dachsanierung haidhausen, altbau dach münchen, denkmalschutz dachdecker, dachdecker 81667 81669, dachgeschossausbau haidhausen, schieferdach haidhausen, sturmschaden dach haidhausen, dachfenster haidhausen, zinkblechdach haidhausen`}
         geoPlacename={`München Au-Haidhausen, Bayern, Deutschland`}
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Stadtteile", url: "/stadtteile" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-au-haidhausen` }]} />

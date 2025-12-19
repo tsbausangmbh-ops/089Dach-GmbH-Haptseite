@@ -14,7 +14,7 @@ export default function RatgeberSturmschaden() {
         title={`Sturmschaden am Dach - Was tun? | Sofort-Ratgeber 2025`}
         description={`Sturmschaden am Dach? Schritt-für-Schritt Anleitung: Sicherung, Dokumentation, Versicherung, Reparatur. Kostenlose Soforthilfe. Tel: 089 12621964`}
         canonical={`https://089dach.de/ratgeber/sturmschaden`}
-        keywords={`sturmschaden dach was tun, dach sturm beschädigt, sturmschaden versicherung melden, dach sturmschaden reparatur, notfall dach münchen, dachdecker notdienst münchen, sturm dachziegel weg, versicherung sturmschaden melden frist, was tun bei wassereinbruch dach`}
+        keywords={`sturmschaden dach was tun, dach sturm beschädigt, sturmschaden versicherung melden, dach sturmschaden reparatur, notfall dach münchen, dachdecker notdienst münchen, sturm dachziegel weg, versicherung sturmschaden melden frist, was tun bei wassereinbruch dach, sturmschaden dokumentieren fotos, sturmschaden selbstbeteiligung gebäudeversicherung, wer zahlt sturmschaden mieter vermieter, dach notsicherung plane kosten, sturmschaden gutachter notwendig, nach sturm dach kontrollieren, sturmschaden first abgedeckt, hagel dach beschädigt erkennen`}
         aiSummary="089Dach GmbH München bietet 24/7 Notdienst bei Sturmschäden. Sofort-Absicherung mit Planen, professionelle Dokumentation für Versicherung, fachgerechte Reparatur. Telefon: 089 12621964. Schnelle Hilfe auch nachts und am Wochenende."
       />
       <FAQPageSchema faqs={[

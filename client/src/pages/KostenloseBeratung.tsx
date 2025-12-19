@@ -178,7 +178,7 @@ export default function KostenloseBeratung() {
         title="Kostenlose Beratung | Dachdecker München - 089Dach"
         description="Kostenlose Dachberatung vom Meisterbetrieb. Ehrliche Einschätzung, keine versteckten Kosten. Jetzt unverbindlich anfragen!"
         canonical="https://089dach.de/beratung"
-        keywords="kostenlose beratung dachdecker münchen, dachberatung gratis, expertenberatung dach, unverbindliche beratung, dachcheck kostenlos"
+        keywords="kostenlose beratung dachdecker münchen, dachberatung gratis, expertenberatung dach, unverbindliche beratung, dachcheck kostenlos, dachdecker vor ort kostenlos, dachinspektion gratis münchen, beratungstermin dachdecker buchen, was kostet dachberatung, dachdecker erstgespräch kostenlos, zustandsbewertung dach kostenlos, dachdecker angebot ohne kosten, dachzustand einschätzen lassen"
         aiSummary="089Dach GmbH: Kostenlose Dachberatung vom Meisterbetrieb in München. Ehrliche Einschätzung ohne Verkaufsdruck. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Kostenlose Beratung", url: "/beratung" }]} />

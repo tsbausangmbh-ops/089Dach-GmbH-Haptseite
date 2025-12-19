@@ -58,7 +58,7 @@ export default function UmlandGermering() {
         title={`Dachdecker Germering | Meisterbetrieb München`}
         description={`Dachdecker in Germering bei München ✓ Dachsanierung ✓ Dämmung ✓ Solaranlage ✓ 10 Jahre Garantie. Tel: 089 12621964`}
         canonical={`https://089dach.de/dachdecker-germering`}
-        keywords={`dachdecker germering, dachsanierung germering, dachdecker fürstenfeldbruck, dachdämmung germering, dachfenster germering`}
+        keywords={`dachdecker germering, dachsanierung germering, dachdecker fürstenfeldbruck, dachdämmung germering, dachfenster germering, sturmschaden dach germering, flachdach germering, solardach germering, dachziegel wechseln germering, dachdecker 82110, dachrinne germering, dachsanierung einfamilienhaus germering`}
         geoPlacename={`Germering, Landkreis Fürstenfeldbruck, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für Germering bei München. Schnelle Anfahrt aus München. Tel: 089 12621964.`}
       />

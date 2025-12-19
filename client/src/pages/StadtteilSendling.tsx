@@ -53,7 +53,7 @@ export default function StadtteilSendling() {
         title="Dachdecker Sendling | Dachausbau & Gaubenbau München"
         description="Dachdecker Sendling für Dachausbau & Gaubenbau. ✓ KfW-Förderung ✓ Mehr Wohnraum ✓ Festpreis. Jetzt anfragen ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-sendling"
-        keywords={`dachausbau kosten sendling, dachdecker sendling bewertung, gaube bauen münchen sendling, dachgeschoss ausbauen kosten, kfw förderung dachausbau, dachdecker in der nähe sendling`}
+        keywords={`dachausbau kosten sendling, dachdecker sendling bewertung, gaube bauen münchen sendling, dachgeschoss ausbauen kosten, kfw förderung dachausbau, dachdecker in der nähe sendling, flachdach sendling, dachfenster sendling, wärmedämmung dach sendling, sturmschaden dach sendling, dachdecker 81369 81371, dachsanierung mehrfamilienhaus sendling`}
         geoPlacename={`München-Sendling, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker für München-Sendling. Spezialist für Dachausbau und Gaubenbau. Tel: 089 12621964.`}
       />

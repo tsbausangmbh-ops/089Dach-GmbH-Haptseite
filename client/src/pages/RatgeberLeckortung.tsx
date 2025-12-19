@@ -17,7 +17,7 @@ export default function RatgeberLeckortung() {
         title="Dach undicht München | Leck finden & Soforthilfe 24h"
         description="Wasserfleck an der Decke? Wir finden das Dachleck mit Thermografie ✓ Soforthilfe ✓ Festpreis ✓ 10 Jahre Garantie. Jetzt anrufen: 089 12621964"
         canonical="https://089dach.de/ratgeber/leckortung"
-        keywords="dach undicht was tun münchen, wasserfleck decke woher, dachleck finden thermografie, wasserschaden dach reparieren kosten, leckortung dach preis, schimmel durch dachleck"
+        keywords="dach undicht was tun münchen, wasserfleck decke woher, dachleck finden thermografie, wasserschaden dach reparieren kosten, leckortung dach preis, schimmel durch dachleck, wasserfleck an decke trocknen, dachschaden erkennen anzeichen, lecksuche flachdach kosten, feuchtemessung dach durchführen, infrarotkamera leckortung, verstecktes leck im dach, kondenswasser oder leck unterscheiden, wasserschaden dach versicherung melden"
         aiSummary="089Dach GmbH: Leckortung mit Thermografie-Kamera in München. Wir finden Dachlecks präzise und reparieren sie dauerhaft. 10 Jahre Garantie. 100+ erfolgreiche Leckortungen. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[

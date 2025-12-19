@@ -64,7 +64,7 @@ export default function StadtteilLaim() {
         title="Dachdecker Laim | Flachdach & Altbau - nur 3km entfernt"
         description="Flachdach undicht? Dachdecker Laim in 3km Entfernung. ✓ Flachdach-Spezialist ✓ Notdienst ✓ 10 Jahre Garantie. Soforthilfe ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-laim"
-        keywords="dachdecker laim empfehlung, flachdach undicht laim soforthilfe, flachdachsanierung kosten münchen, dachdecker in der nähe laim, dachreparatur notdienst laim"
+        keywords="dachdecker laim empfehlung, flachdach undicht laim soforthilfe, flachdachsanierung kosten münchen, dachdecker in der nähe laim, dachreparatur notdienst laim, dachsanierung mehrfamilienhaus laim, dachfenster laim, sturmschaden dach laim, dachdecker 80686 80687, dachrinne laim, wärmedämmung dach laim"
         geoPlacename={`München-Laim, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Laim. Nur 3 km entfernt. Spezialist für Flachdach und Dachsanierung. Tel: 089 12621964.`}
       />

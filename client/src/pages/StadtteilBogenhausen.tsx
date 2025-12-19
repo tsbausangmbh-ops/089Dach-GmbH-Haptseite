@@ -58,7 +58,7 @@ export default function StadtteilBogenhausen() {
         title="Dachdecker Bogenhausen | Villen & Premium-Dächer"
         description="Dachdecker für Villen in Bogenhausen: Kupferdach, Naturschiefer & Premium-Qualität. ✓ 10 Jahre Garantie. Beratung ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-bogenhausen"
-        keywords="dachdecker bogenhausen empfehlung, villa dach sanieren bogenhausen, kupferdach kosten münchen, schieferdach bogenhausen, dachsanierung prinzregentenplatz"
+        keywords="dachdecker bogenhausen empfehlung, villa dach sanieren bogenhausen, kupferdach kosten münchen, schieferdach bogenhausen, dachsanierung prinzregentenplatz, dachdecker 81675 81677 81679, mansarddach bogenhausen, gaubenumbau bogenhausen, sturmschaden villa bogenhausen, dachfenster einbau bogenhausen, dachrinne zink bogenhausen"
         geoPlacename={`München-Bogenhausen, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Premium-Dachdecker für München-Bogenhausen. Spezialisiert auf exklusive Villen und hochwertige Materialien. Tel: 089 12621964.`}
       />
