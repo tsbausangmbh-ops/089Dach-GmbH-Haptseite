@@ -85,22 +85,22 @@ export default function AGB() {
                 <h2 className="text-xl font-heading font-bold mb-4">Anwendbare Rechtsvorschriften</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="bg-white/10 p-4 rounded-xl">
-                    <h4 className="font-bold text-white text-sm">BGB §§ 650a-650v</h4>
+                    <h3 className="font-bold text-white text-sm">BGB §§ 650a-650v</h3>
                     <p className="text-xs text-gray-300">Bauvertragsrecht</p>
                     <p className="text-xs text-gray-400 mt-1">Seit 01.01.2018</p>
                   </div>
                   <div className="bg-white/10 p-4 rounded-xl">
-                    <h4 className="font-bold text-white text-sm">BGB §§ 631-651</h4>
+                    <h3 className="font-bold text-white text-sm">BGB §§ 631-651</h3>
                     <p className="text-xs text-gray-300">Werkvertragsrecht</p>
                     <p className="text-xs text-gray-400 mt-1">Allgemeine Regelungen</p>
                   </div>
                   <div className="bg-white/10 p-4 rounded-xl">
-                    <h4 className="font-bold text-white text-sm">BGB §§ 305-310</h4>
+                    <h3 className="font-bold text-white text-sm">BGB §§ 305-310</h3>
                     <p className="text-xs text-gray-300">AGB-Recht</p>
                     <p className="text-xs text-gray-400 mt-1">Inhaltskontrolle</p>
                   </div>
                   <div className="bg-white/10 p-4 rounded-xl">
-                    <h4 className="font-bold text-white text-sm">VOB/B</h4>
+                    <h3 className="font-bold text-white text-sm">VOB/B</h3>
                     <p className="text-xs text-gray-300">Vergabe- und Vertragsordnung für Bauleistungen</p>
                     <p className="text-xs text-gray-400 mt-1">Bei Vereinbarung</p>
                   </div>
@@ -168,7 +168,7 @@ export default function AGB() {
                 <h2 className="text-2xl font-heading font-bold mb-4">§ 3 Änderung des Vertrags (§ 650b BGB)</h2>
                 <div className="space-y-4">
                   <div className="bg-white/10 p-4 rounded-xl">
-                    <h4 className="font-bold text-white mb-2">Anordnungsrecht des Auftraggebers</h4>
+                    <h3 className="font-bold text-white mb-2">Anordnungsrecht des Auftraggebers</h3>
                     <p className="text-sm text-white/80">
                       (1) Der Auftraggeber kann gemäß <strong>§ 650b Abs. 1 BGB</strong> eine Änderung des 
                       vereinbarten Werkerfolgs oder eine Änderung, die zur Erreichung des vereinbarten 
@@ -177,7 +177,7 @@ export default function AGB() {
                   </div>
                   
                   <div className="bg-white/10 p-4 rounded-xl">
-                    <h4 className="font-bold text-white mb-2">Angebotspflicht des Auftragnehmers</h4>
+                    <h3 className="font-bold text-white mb-2">Angebotspflicht des Auftragnehmers</h3>
                     <p className="text-sm text-white/80">
                       (2) Auf Verlangen des Auftraggebers ist der Auftragnehmer verpflichtet, ein Angebot 
                       über die Mehr- oder Mindervergütung zu erstellen, es sei denn, die Ausführung der 
@@ -186,7 +186,7 @@ export default function AGB() {
                   </div>
 
                   <div className="bg-white/10 p-4 rounded-xl">
-                    <h4 className="font-bold text-white mb-2">30-Tage-Frist</h4>
+                    <h3 className="font-bold text-white mb-2">30-Tage-Frist</h3>
                     <p className="text-sm text-white/80">
                       (3) Erzielen die Parteien innerhalb von <strong>30 Tagen</strong> nach Zugang des 
                       Änderungsbegehrens keine Einigung, kann der Auftraggeber die Änderung in 
@@ -195,7 +195,7 @@ export default function AGB() {
                   </div>
 
                   <div className="bg-white/10 p-4 rounded-xl">
-                    <h4 className="font-bold text-white mb-2">Ausführungspflicht</h4>
+                    <h3 className="font-bold text-white mb-2">Ausführungspflicht</h3>
                     <p className="text-sm text-white/80">
                       (4) Der Auftragnehmer ist verpflichtet, einer Anordnung nach Abs. 3 nachzukommen, 
                       sofern ihm die Ausführung zumutbar ist.
@@ -214,7 +214,7 @@ export default function AGB() {
                 <h2 className="text-2xl font-heading font-bold mb-4">§ 4 Vergütungsanpassung (§ 650c BGB)</h2>
                 <div className="space-y-4">
                   <div className="bg-white/10 p-4 rounded-xl">
-                    <h4 className="font-bold text-white mb-2">Berechnung der Mehr- oder Mindervergütung</h4>
+                    <h3 className="font-bold text-white mb-2">Berechnung der Mehr- oder Mindervergütung</h3>
                     <p className="text-sm text-white/80">
                       (1) Die Höhe der Vergütung für den infolge einer Anordnung nach § 650b Abs. 2 BGB 
                       vermehrten oder verminderten Aufwand ist nach den <strong>tatsächlich erforderlichen Kosten</strong> 
@@ -223,7 +223,7 @@ export default function AGB() {
                   </div>
                   
                   <div className="bg-white/10 p-4 rounded-xl">
-                    <h4 className="font-bold text-white mb-2">Alternativ: Urkalkulation</h4>
+                    <h3 className="font-bold text-white mb-2">Alternativ: Urkalkulation</h3>
                     <p className="text-sm text-white/80">
                       (2) Der Auftragnehmer kann zur Berechnung der Vergütung auch auf die Ansätze in 
                       einer vereinbarungsgemäß hinterlegten Urkalkulation zurückgreifen.
@@ -231,7 +231,7 @@ export default function AGB() {
                   </div>
 
                   <div className="bg-white/10 p-4 rounded-xl">
-                    <h4 className="font-bold text-white mb-2">Abschlagszahlung (§ 650c Abs. 3 BGB)</h4>
+                    <h3 className="font-bold text-white mb-2">Abschlagszahlung (§ 650c Abs. 3 BGB)</h3>
                     <p className="text-sm text-white/80">
                       (3) Bei einer Anordnung nach § 650b Abs. 2 BGB kann der Auftragnehmer 
                       <strong> 80 % der in einem Angebot genannten Mehrvergütung</strong> als 
@@ -268,7 +268,7 @@ export default function AGB() {
             <div className="flex items-start gap-3">
               <Shield className="h-5 w-5 text-orange-600 shrink-0 mt-0.5" />
               <div>
-                <h4 className="font-bold text-secondary">§ 6 Bauhandwerkersicherung (§ 650f BGB)</h4>
+                <h3 className="font-bold text-secondary">§ 6 Bauhandwerkersicherung (§ 650f BGB)</h3>
                 <p className="text-sm text-muted-foreground mt-2">
                   (1) Der Auftragnehmer kann vom Auftraggeber Sicherheit für die auch in Zusatzaufträgen 
                   vereinbarte und noch nicht gezahlte Vergütung einschließlich dazugehöriger 
@@ -369,7 +369,7 @@ export default function AGB() {
             <div className="flex items-start gap-3">
               <Clock className="h-5 w-5 text-green-600 shrink-0 mt-0.5" />
               <div>
-                <h4 className="font-bold text-secondary">§ 12 Widerrufsrecht für Verbraucher</h4>
+                <h3 className="font-bold text-secondary">§ 12 Widerrufsrecht für Verbraucher</h3>
                 <p className="text-sm text-muted-foreground mt-2">
                   (1) Verbraucher haben bei außerhalb von Geschäftsräumen geschlossenen Verträgen 
                   (§ 312b BGB) ein <strong>14-tägiges Widerrufsrecht</strong>.

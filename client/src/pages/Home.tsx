@@ -50,7 +50,7 @@ export default function Home() {
           <div className="container mx-auto px-6 lg:px-12">
             <div className="flex items-center gap-2 mb-4">
               <MapPin className="h-5 w-5 text-primary" />
-              <h3 className="text-lg font-heading font-bold text-secondary">Dachdecker in Ihrer Nähe</h3>
+              <h2 className="text-lg font-heading font-bold text-secondary">Dachdecker in Ihrer Nähe</h2>
             </div>
             <div className="flex flex-wrap gap-2 mb-4">
               {[
@@ -103,7 +103,7 @@ export default function Home() {
           <div className="container mx-auto px-6 lg:px-12">
             <div className="flex items-center gap-2 mb-4">
               <BookOpen className="h-5 w-5 text-primary" />
-              <h3 className="text-lg font-heading font-bold text-secondary">Ratgeber & Tipps</h3>
+              <h2 className="text-lg font-heading font-bold text-secondary">Ratgeber & Tipps</h2>
             </div>
             <div className="flex flex-wrap gap-2">
               {[
