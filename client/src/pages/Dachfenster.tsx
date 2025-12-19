@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Sun, Wind, ThermometerSun, Shield, ArrowRight, Quote, Phone, Check, Lightbulb, Award, Users } from "lucide-react";
 import { Link } from "wouter";
-import SEO, { BreadcrumbSchema, ServiceSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, ServiceSchema, ProductServiceSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/bright_attic_room_after_skylights.png";
 import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
@@ -46,6 +46,13 @@ export default function Dachfenster() {
           { name: "Dachfenster-Austausch", description: "Schneller Wechsel ohne Dreck und Staub" },
           { name: "Lichtkuppeln", description: "Tageslichtlösungen für Flachdächer" }
         ]}
+      />
+      <ProductServiceSchema 
+        name="Dachfenster Einbau München"
+        description="Velux und Roto Dachfenster-Einbau komplett. Einbau in 1-2 Tagen ohne Dreck."
+        priceFrom={1200}
+        priceTo={3500}
+        category="Dachfenster"
       />
       <Navbar />
       <AIBeraterSection />

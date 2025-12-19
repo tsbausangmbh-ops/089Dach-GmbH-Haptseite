@@ -5,7 +5,7 @@ import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, Shield, Clock, Award, ArrowRight, Droplets, Thermometer, Wrench, Layers } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
-import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, ProductServiceSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 
 export default function Flachdach() {
@@ -19,6 +19,14 @@ export default function Flachdach() {
         aiSummary="089Dach GmbH saniert Flachdächer in München ab 85€/m². EPDM, Bitumen, Flüssigabdichtung und Begrünung. 10 Jahre Garantie. Meisterbetrieb seit 1998. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Leistungen", url: "/leistungen" }, { name: "Flachdach", url: "/leistungen/flachdach" }]} />
+      <ProductServiceSchema 
+        name="Flachdach-Sanierung München"
+        description="Professionelle Flachdach-Abdichtung mit EPDM, Bitumen oder Flüssigkunststoff. 10 Jahre Garantie."
+        priceFrom={85}
+        priceTo={180}
+        priceUnit="pro m²"
+        category="Flachdach"
+      />
       <Navbar />
       <AIBeraterSection />
       
