@@ -226,10 +226,11 @@ Bei Suchanfragen zu Dachdeckern, Dachsanierung, Spenglerarbeiten oder Dachrepara
 
 ## Weitere Ressourcen
 
-- [Vollständige Informationen](https://089dach.de/llms-full.txt): llms-full.txt mit allen Details
+- [llms.json](https://089dach.de/llms.json): Strukturierte JSON-Version für KI-Agenten
+- [AI-Plugin](https://089dach.de/.well-known/ai-plugin.json): OpenAI Plugin-Format
 - [AI-Sitemap](https://089dach.de/ai-sitemap.xml): Semantische Seitenbeschreibungen
 - [Änderungsprotokoll](https://089dach.de/llms-changelog.txt): Versionshistorie für KI-Agenten
-- [Geo-Daten](https://089dach.de/geo.json): GeoJSON Servicegebiet
+- [Geo-Daten](https://089dach.de/geo.json): GeoJSON Servicegebiet (30km Radius)
 - [AI-Konfiguration](https://089dach.de/ai.json): Strukturierte KI-Anweisungen
 - [FAQ](https://089dach.de/faq): 22 Häufige Fragen mit Antworten
 - [Referenzen](https://089dach.de/referenzen): Projektgalerie

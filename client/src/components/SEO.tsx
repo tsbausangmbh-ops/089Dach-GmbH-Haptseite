@@ -1347,3 +1347,78 @@ export function NearbyServiceSchema({ stadtteil, entfernung }: { stadtteil?: str
 
   return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
 }
+
+export function PriceSpecificationSchema() {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Dachdeckerleistungen München",
+    "provider": {
+      "@type": "RoofingContractor",
+      "name": "089Dach GmbH"
+    },
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "Dachsanierung inkl. Dämmung",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": 195,
+          "priceCurrency": "EUR",
+          "unitCode": "MTK",
+          "unitText": "pro m²"
+        }
+      },
+      {
+        "@type": "Offer",
+        "name": "Flachdach-Sanierung",
+        "priceSpecification": {
+          "@type": "UnitPriceSpecification",
+          "price": 110,
+          "priceCurrency": "EUR",
+          "unitCode": "MTK",
+          "unitText": "pro m²"
+        }
+      },
+      {
+        "@type": "Offer",
+        "name": "Dachfenster VELUX Einbau",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "price": 1560,
+          "priceCurrency": "EUR"
+        }
+      },
+      {
+        "@type": "Offer",
+        "name": "Dachgaube komplett",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "price": 15600,
+          "priceCurrency": "EUR"
+        }
+      },
+      {
+        "@type": "Offer",
+        "name": "Notdienst Anfahrt",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "price": 89,
+          "priceCurrency": "EUR"
+        }
+      },
+      {
+        "@type": "Offer",
+        "name": "Dachinspektion",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "price": 0,
+          "priceCurrency": "EUR"
+        },
+        "description": "Kostenlose Erstberatung vor Ort"
+      }
+    ]
+  };
+
+  return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
+}
