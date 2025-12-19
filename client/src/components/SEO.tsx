@@ -934,10 +934,7 @@ export function SpeakableSchema({
     "@type": "WebPage",
     "name": headline,
     "url": `https://089dach.de${url}`,
-    "speakable": {
-      "@type": "SpeakableSpecification",
-      "cssSelector": [".speakable-content", "h1", "h2", ".ai-summary"]
-    },
+    "description": speakableText.join(" "),
     "mainEntity": {
       "@type": "Article",
       "headline": headline,
