@@ -73,7 +73,7 @@ export default function StadtteilSendling() {
             <p className="text-lg md:text-xl text-gray-200 max-w-xl mb-4 md:mb-6">Mehr Wohnraum durch professionellen Dachausbau in {stadtteilData.name}.</p>
             <div className="flex flex-wrap gap-4">
               <a href="/rueckruf"><Button size="lg" className="bg-primary hover:bg-primary/90 text-white" data-testid="button-anrufen-hero"><Phone className="h-5 w-5 mr-2" /> Rückruf anfordern</Button></a>
-              <a href="https://wa.me/498912621964" target="_blank" rel="noopener noreferrer"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-secondary" data-testid="button-whatsapp-hero">WhatsApp Anfrage</Button></a>
+              <a href="/kontakt"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-secondary" data-testid="button-contact-hero">Kontakt aufnehmen</Button></a>
             </div>
           </div>
         </div>

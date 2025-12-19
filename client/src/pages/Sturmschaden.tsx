@@ -59,9 +59,9 @@ export default function Sturmschaden() {
                   <Phone className="h-5 w-5 mr-2" /> Sofort-Rückruf
                 </Button>
               </a>
-              <a href="https://wa.me/498912621964" target="_blank" rel="noopener noreferrer">
-                <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-secondary" data-testid="button-whatsapp-hero">
-                  WhatsApp Notfall
+              <a href="/kontakt">
+                <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-secondary" data-testid="button-contact-hero">
+                  Kontakt aufnehmen
                 </Button>
               </a>
             </div>
@@ -163,9 +163,9 @@ export default function Sturmschaden() {
                     Sofort-Rückruf <ArrowRight className="h-4 w-4 ml-2" />
                   </Button>
                 </a>
-                <a href="https://wa.me/498912621964" className="block mt-3" target="_blank" rel="noopener noreferrer">
-                  <Button size="lg" variant="outline" className="w-full border-white text-white hover:bg-white hover:text-red-600" data-testid="button-whatsapp-sidebar">
-                    <Phone className="h-4 w-4 mr-2" /> WhatsApp Notfall
+                <a href="/kontakt" className="block mt-3">
+                  <Button size="lg" variant="outline" className="w-full border-white text-white hover:bg-white hover:text-red-600" data-testid="button-contact-sidebar">
+                    Kontakt aufnehmen
                   </Button>
                 </a>
               </div>

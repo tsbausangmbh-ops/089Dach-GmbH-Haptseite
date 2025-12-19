@@ -60,7 +60,7 @@ export default function Footer({ showAIBerater = false }: FooterProps) {
             <ul className="space-y-1 text-gray-400 text-sm">
               <li>Thuillestr. 20, 81247 München</li>
               <li><a href="/rueckruf" className="hover:text-primary transition-colors text-white font-medium" data-testid="link-footer-phone">📞 Rückruf anfordern</a></li>
-              <li><a href="https://wa.me/498912621964" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 transition-colors text-green-400 font-medium" data-testid="link-footer-whatsapp">WhatsApp</a></li>
+              <li><a href="/kontakt" className="hover:text-primary transition-colors text-white font-medium" data-testid="link-footer-contact">Kontakt</a></li>
               <li><a href="mailto:info@089dach.de" className="hover:text-primary transition-colors" data-testid="link-footer-email">info@089dach.de</a></li>
             </ul>
           </div>

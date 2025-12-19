@@ -214,9 +214,9 @@ export default function RatgeberSturmschaden() {
                     <Phone className="h-5 w-5 mr-2" /> Sofort-Rückruf
                   </Button>
                 </a>
-                <a href="https://wa.me/498912621964" target="_blank" rel="noopener noreferrer">
-                  <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-red-600">
-                    WhatsApp Notfall
+                <a href="/kontakt">
+                  <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-red-600" data-testid="button-contact-cta">
+                    Kontakt aufnehmen
                   </Button>
                 </a>
               </div>

@@ -80,9 +80,9 @@ export default function DachUndicht() {
                   <Phone className="h-5 w-5 mr-2" /> Jetzt anrufen: 089 12621964
                 </Button>
               </a>
-              <a href="https://wa.me/498912621964" target="_blank" rel="noopener noreferrer">
-                <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-red-900" data-testid="button-whatsapp-hero">
-                  WhatsApp Notfall
+              <a href="/kontakt">
+                <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-red-900" data-testid="button-contact-hero">
+                  Kontakt aufnehmen
                 </Button>
               </a>
             </div>

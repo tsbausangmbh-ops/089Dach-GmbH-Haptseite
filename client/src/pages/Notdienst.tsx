@@ -85,9 +85,9 @@ export default function Notdienst() {
                   <Phone className="h-5 w-5 mr-2" /> Sofort Rückruf anfordern
                 </Button>
               </a>
-              <a href="https://wa.me/498912621964?text=NOTFALL:%20" target="_blank" rel="noopener noreferrer">
-                <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-red-700 font-bold" data-testid="button-notdienst-whatsapp">
-                  <MessageCircle className="h-5 w-5 mr-2" /> WhatsApp Notfall
+              <a href="/kontakt">
+                <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-red-700 font-bold" data-testid="button-contact-hero">
+                  Kontakt aufnehmen
                 </Button>
               </a>
             </div>
@@ -239,9 +239,9 @@ export default function Notdienst() {
                     <Phone className="h-5 w-5 mr-2" /> Sofort Rückruf anfordern
                   </Button>
                 </a>
-                <a href="https://wa.me/498912621964" target="_blank" rel="noopener noreferrer">
-                  <Button size="lg" variant="outline" className="border-red-600 text-red-600 hover:bg-red-600 hover:text-white font-bold" data-testid="button-notdienst-wa">
-                    <MessageCircle className="h-5 w-5 mr-2" /> WhatsApp schreiben
+                <a href="/kontakt">
+                  <Button size="lg" variant="outline" className="border-red-600 text-red-600 hover:bg-red-600 hover:text-white font-bold" data-testid="button-contact-cta">
+                    Kontakt aufnehmen
                   </Button>
                 </a>
               </div>
