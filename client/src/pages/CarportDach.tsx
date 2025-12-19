@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, ArrowRight, Car, Shield, Euro } from "lucide-react";
 import SEO, { BreadcrumbSchema, ServiceSchema, FAQPageSchema, ProductServiceSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
+import EinzugsgebietSection from "@/components/EinzugsgebietSection";
 import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
 
@@ -134,6 +135,7 @@ export default function CarportDach() {
         </div>
       </section>
 
+      <EinzugsgebietSection />
       <LeadFunnel />
       <RelatedServices currentPage="eindeckung" />
       <Footer />
