@@ -17,16 +17,12 @@ const stadtteile = [
 ];
 
 const umland = [
-  { name: "Starnberg", url: "/dachdecker-starnberg" },
-  { name: "Dachau", url: "/dachdecker-dachau" },
-  { name: "Freising", url: "/dachdecker-freising" },
-  { name: "Erding", url: "/dachdecker-erding" },
-  { name: "Fürstenfeldbruck", url: "/dachdecker-fuerstenfeldbruck" },
-  { name: "Germering", url: "/dachdecker-germering" },
   { name: "Gräfelfing", url: "/dachdecker-graefelfing" },
-  { name: "Unterschleißheim", url: "/dachdecker-unterschleissheim" },
   { name: "Ottobrunn", url: "/dachdecker-ottobrunn" },
-  { name: "Karlsfeld", url: "/dachdecker-karlsfeld" }
+  { name: "Unterföhring", url: "/dachdecker-unterfoehring" },
+  { name: "Pullach", url: "/dachdecker-pullach" },
+  { name: "Grünwald", url: "/dachdecker-gruenwald" },
+  { name: "Planegg", url: "/dachdecker-planegg" }
 ];
 
 export default function EinzugsgebietSection() {

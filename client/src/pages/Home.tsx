@@ -80,11 +80,11 @@ export default function Home() {
             <div className="flex flex-wrap gap-2">
               <span className="text-xs text-muted-foreground">Auch im Umland:</span>
               {[
-                { name: "Germering", href: "/dachdecker-germering" },
-                { name: "Starnberg", href: "/dachdecker-starnberg" },
-                { name: "Dachau", href: "/dachdecker-dachau" },
-                { name: "Freising", href: "/dachdecker-freising" },
-                { name: "Erding", href: "/dachdecker-erding" },
+                { name: "Gräfelfing", href: "/dachdecker-graefelfing" },
+                { name: "Ottobrunn", href: "/dachdecker-ottobrunn" },
+                { name: "Unterföhring", href: "/dachdecker-unterfoehring" },
+                { name: "Grünwald", href: "/dachdecker-gruenwald" },
+                { name: "Pullach", href: "/dachdecker-pullach" },
               ].map((loc, idx) => (
                 <a
                   key={idx}
