@@ -63,6 +63,10 @@ import UmlandErding from "@/pages/UmlandErding";
 import UmlandUnterschleissheim from "@/pages/UmlandUnterschleissheim";
 import UmlandFuerstenfeldbruck from "@/pages/UmlandFuerstenfeldbruck";
 import UmlandOttobrunn from "@/pages/UmlandOttobrunn";
+import UmlandGroebenzell from "@/pages/UmlandGroebenzell";
+import UmlandPuchheim from "@/pages/UmlandPuchheim";
+import UmlandOlching from "@/pages/UmlandOlching";
+import UmlandEching from "@/pages/UmlandEching";
 import StadtteilRamersdorf from "@/pages/StadtteilRamersdorf";
 import StadtteilHaidhausen from "@/pages/StadtteilHaidhausen";
 import StadtteilMilbertshofen from "@/pages/StadtteilMilbertshofen";
@@ -211,6 +215,10 @@ function Router() {
       <Route path="/dachdecker-unterschleissheim" component={UmlandUnterschleissheim} />
       <Route path="/dachdecker-fuerstenfeldbruck" component={UmlandFuerstenfeldbruck} />
       <Route path="/dachdecker-ottobrunn" component={UmlandOttobrunn} />
+      <Route path="/dachdecker-groebenzell" component={UmlandGroebenzell} />
+      <Route path="/dachdecker-puchheim" component={UmlandPuchheim} />
+      <Route path="/dachdecker-olching" component={UmlandOlching} />
+      <Route path="/dachdecker-eching" component={UmlandEching} />
       <Route path="/dachdecker-ramersdorf-perlach" component={StadtteilRamersdorf} />
       <Route path="/dachdecker-au-haidhausen" component={StadtteilHaidhausen} />
       <Route path="/dachdecker-milbertshofen" component={StadtteilMilbertshofen} />

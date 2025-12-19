@@ -175,7 +175,7 @@ export default function UmlandGroebenzell() {
         </div>
       </section>
 
-      <RelatedServices />
+      <RelatedServices currentPage="dachdecker-groebenzell" />
       <LeadFunnel />
       <Contact />
       <Footer />

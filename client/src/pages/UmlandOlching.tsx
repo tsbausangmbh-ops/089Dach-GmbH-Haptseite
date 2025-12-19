@@ -155,7 +155,7 @@ export default function UmlandOlching() {
           </div>
         </div>
       </section>
-      <RelatedServices />
+      <RelatedServices currentPage="dachdecker-olching" />
       <LeadFunnel />
       <Contact />
       <Footer />

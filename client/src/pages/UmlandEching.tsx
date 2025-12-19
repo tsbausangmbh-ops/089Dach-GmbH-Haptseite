@@ -155,7 +155,7 @@ export default function UmlandEching() {
           </div>
         </div>
       </section>
-      <RelatedServices />
+      <RelatedServices currentPage="dachdecker-eching" />
       <LeadFunnel />
       <Contact />
       <Footer />

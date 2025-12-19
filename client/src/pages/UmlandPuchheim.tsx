@@ -155,7 +155,7 @@ export default function UmlandPuchheim() {
           </div>
         </div>
       </section>
-      <RelatedServices />
+      <RelatedServices currentPage="dachdecker-puchheim" />
       <LeadFunnel />
       <Contact />
       <Footer />
