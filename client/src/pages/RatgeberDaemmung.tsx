@@ -17,7 +17,7 @@ export default function RatgeberDaemmung() {
         title="Was kostet Dachdämmung München? Preise & 40% Förderung 2025"
         description="Dachdämmung Kosten ab 80€/m² ✓ Bis 40% KfW-Förderung ✓ 30% Heizkosten sparen ✓ Aufsparrendämmung vs Zwischensparrendämmung. Kostenlose Beratung!"
         canonical="https://089dach.de/ratgeber/daemmung"
-        keywords="was kostet dachdämmung pro qm, dachdämmung kosten einfamilienhaus, aufsparrendämmung kosten münchen, zwischensparrendämmung preis, kfw förderung dachdämmung 2025, dachdämmung altbau kosten, wie viel spart dachdämmung heizkosten"
+        keywords="was kostet dachdämmung pro qm, dachdämmung kosten einfamilienhaus, aufsparrendämmung kosten münchen, zwischensparrendämmung preis, kfw förderung dachdämmung 2025, dachdämmung altbau kosten, wie viel spart dachdämmung heizkosten, untersparrendämmung kosten nachträglich, einblasdämmung dach erfahrungen, mineralwolle oder holzfaser dämmung, dämmstoff wlg vergleich, dampfbremse dachschräge anbringen, wärmebrücken dach vermeiden, dachdämmung u-wert berechnen, dachdämmung schimmel verhindern, dachdämmung sommer hitzeschutz, dachdämmung schallschutz verbessern, dachboden dämmen oberste geschossdecke, dachdämmung münchen erfahrungen empfehlung, nachrüstpflicht dämmung altbau geg"
         aiSummary="089Dach GmbH: Dachdämmung in München mit bis zu 30% Heizkosten-Ersparnis. Aufsparrendämmung und Zwischensparrendämmung. Bis zu 40% staatliche Förderung. Kostenlose Vor-Ort-Beratung. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[

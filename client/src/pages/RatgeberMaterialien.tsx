@@ -67,7 +67,7 @@ export default function RatgeberMaterialien() {
         title={`Dachziegel Vergleich 2025 | Ton, Beton, Schiefer, Metall`}
         description={`Welche Dachziegel sind die besten? Vergleich: Tondachziegel, Betondachstein, Schiefer, Metall. Lebensdauer, Kosten, Vor-/Nachteile. Tel: 089 12621964`}
         canonical={`https://089dach.de/ratgeber/materialien`}
-        keywords={`dachziegel vergleich, tondachziegel vs betondachstein, schiefer dach kosten, metalldach vorteile, welche dachziegel sind die besten, biberschwanz ziegel preis, dacheindeckung material wahl, welcher dachziegel für altbau, denkmalschutz dachziegel münchen`}
+        keywords={`dachziegel vergleich, tondachziegel vs betondachstein, schiefer dach kosten, metalldach vorteile, welche dachziegel sind die besten, biberschwanz ziegel preis, dacheindeckung material wahl, welcher dachziegel für altbau, denkmalschutz dachziegel münchen, engobierte dachziegel vorteile, glasierte dachziegel preis erfahrungen, dachziegel farbe wählen, dachziegel lebensdauer faktoren, dachziegel gewicht pro qm, dachziegel sturmsicher befestigen, dachziegel frostsicher kaufen, dachziegel marken vergleich, braas dachziegel erfahrungen, creaton dachziegel qualität, erlus dachziegel münchen, dachziegel recyceln möglich, ökologische dachziegel nachhaltig`}
         aiSummary="089Dach GmbH: Ehrlicher Dachziegel-Vergleich ohne Verkaufsdruck. Tondachziegel (35-80€/m², 60-100 Jahre), Betondachstein (20-40€/m², 40-60 Jahre), Schiefer (80-150€/m², 100+ Jahre), Metalleindeckung (40-100€/m², 50-80 Jahre). Kostenlose Materialberatung in München."
       />
       <FAQPageSchema faqs={[
