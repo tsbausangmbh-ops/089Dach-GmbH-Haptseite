@@ -97,6 +97,7 @@ import SchimmelDach from "@/pages/SchimmelDach";
 import EternitDach from "@/pages/EternitDach";
 import DachpfannenAbdichten from "@/pages/DachpfannenAbdichten";
 import DachAbdichten from "@/pages/DachAbdichten";
+import DachNeuEindecken from "@/pages/DachNeuEindecken";
 import CookieConsent from "@/components/CookieConsent";
 import BackgroundLogo from "@/components/BackgroundLogo";
 import { LocalBusinessSchema } from "@/components/SEO";
@@ -212,6 +213,7 @@ function Router() {
       <Route path="/eternit-dach" component={EternitDach} />
       <Route path="/dachpfannen-abdichten" component={DachpfannenAbdichten} />
       <Route path="/dach-abdichten" component={DachAbdichten} />
+      <Route path="/dach-neu-eindecken" component={DachNeuEindecken} />
       <Route component={NotFound} />
     </Switch>
     </>
