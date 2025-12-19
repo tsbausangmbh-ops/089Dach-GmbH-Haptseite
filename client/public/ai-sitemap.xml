@@ -328,8 +328,53 @@
     
     Umland (20km): Gräfelfing, Planegg, Germering, Puchheim, Gröbenzell, 
     Olching, Eichenau, Karlsfeld, Dachau, Unterschleißheim, Oberschleißheim, 
-    Krailling, Gauting, Starnberg, Fürstenfeldbruck, Grünwald, Pullach, 
+    Eching, Krailling, Gauting, Starnberg, Fürstenfeldbruck, Grünwald, Pullach, 
     Unterhaching, Taufkirchen, Ottobrunn, Haar, Vaterstetten
   -->
+
+  <!-- Umland-Landingpages (14) -->
+  <url>
+    <loc>https://089dach.de/dachdecker-groebenzell</loc>
+    <lastmod>2025-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <ai:type>local-landing</ai:type>
+    <ai:geo-target>Gröbenzell</ai:geo-target>
+    <ai:summary>Dachdecker in Gröbenzell bei München. PLZ 82194. 15 Min Anfahrt aus Obermenzing. Spezialisiert auf Einfamilienhäuser. Tel: 089 12621964.</ai:summary>
+    <ai:keywords>dachdecker gröbenzell, dachsanierung gröbenzell, dach decken gröbenzell 82194</ai:keywords>
+  </url>
+
+  <url>
+    <loc>https://089dach.de/dachdecker-puchheim</loc>
+    <lastmod>2025-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <ai:type>local-landing</ai:type>
+    <ai:geo-target>Puchheim</ai:geo-target>
+    <ai:summary>Dachdecker in Puchheim bei München. PLZ 82178. 18 Min Anfahrt. Alt- und Neubau, Flachdach. Tel: 089 12621964.</ai:summary>
+    <ai:keywords>dachdecker puchheim, dachsanierung puchheim, flachdach puchheim 82178</ai:keywords>
+  </url>
+
+  <url>
+    <loc>https://089dach.de/dachdecker-olching</loc>
+    <lastmod>2025-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <ai:type>local-landing</ai:type>
+    <ai:geo-target>Olching</ai:geo-target>
+    <ai:summary>Dachdecker in Olching bei München. PLZ 82140. 20 Min Anfahrt über A8. Ziegeleindeckung, Bestandsbau. Tel: 089 12621964.</ai:summary>
+    <ai:keywords>dachdecker olching, dachsanierung olching, dachziegel olching 82140</ai:keywords>
+  </url>
+
+  <url>
+    <loc>https://089dach.de/dachdecker-eching</loc>
+    <lastmod>2025-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <ai:type>local-landing</ai:type>
+    <ai:geo-target>Eching</ai:geo-target>
+    <ai:summary>Dachdecker in Eching bei München. PLZ 85386. 25 Min Anfahrt über A9. Einfamilienhäuser und Gewerbe. Tel: 089 12621964.</ai:summary>
+    <ai:keywords>dachdecker eching, dachsanierung eching, flachdach eching 85386</ai:keywords>
+  </url>
 
 </urlset>

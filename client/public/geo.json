@@ -160,6 +160,58 @@
         "type": "Point",
         "coordinates": [11.2547, 48.1789]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gröbenzell",
+        "type": "surrounding_city",
+        "distance": "12km",
+        "url": "https://089dach.de/dachdecker-groebenzell"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.3667, 48.2000]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Puchheim",
+        "type": "surrounding_city",
+        "distance": "14km",
+        "url": "https://089dach.de/dachdecker-puchheim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.3542, 48.1500]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Olching",
+        "type": "surrounding_city",
+        "distance": "16km",
+        "url": "https://089dach.de/dachdecker-olching"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.3333, 48.2167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Eching",
+        "type": "surrounding_city",
+        "distance": "20km",
+        "url": "https://089dach.de/dachdecker-eching"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.6167, 48.2833]
+      }
     }
   ]
 }
