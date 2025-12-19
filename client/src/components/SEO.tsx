@@ -179,11 +179,11 @@ export function LocalBusinessSchema() {
     ],
     "aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "bestRating": "5",
-      "worstRating": "1",
-      "ratingCount": "127",
-      "reviewCount": "89"
+      "ratingValue": 4.9,
+      "bestRating": 5,
+      "worstRating": 1,
+      "ratingCount": 127,
+      "reviewCount": 89
     },
     "review": [
       {
@@ -194,7 +194,7 @@ export function LocalBusinessSchema() {
         },
         "reviewRating": {
           "@type": "Rating",
-          "ratingValue": "5"
+          "ratingValue": 5
         },
         "reviewBody": "Professionelle Dachsanierung in Schwabing. Pünktlich, sauber, faire Preise. Absolute Empfehlung!",
         "datePublished": "2025-11-15"
@@ -207,7 +207,7 @@ export function LocalBusinessSchema() {
         },
         "reviewRating": {
           "@type": "Rating",
-          "ratingValue": "5"
+          "ratingValue": 5
         },
         "reviewBody": "Sturmschaden um 22 Uhr gemeldet, um Mitternacht war das Dach gesichert. Vielen Dank!",
         "datePublished": "2025-10-28"
@@ -220,7 +220,7 @@ export function LocalBusinessSchema() {
         },
         "reviewRating": {
           "@type": "Rating",
-          "ratingValue": "5"
+          "ratingValue": 5
         },
         "reviewBody": "Denkmalgerechte Schieferdeckung an historischer Villa. Handwerkskunst auf höchstem Niveau.",
         "datePublished": "2025-09-12"
