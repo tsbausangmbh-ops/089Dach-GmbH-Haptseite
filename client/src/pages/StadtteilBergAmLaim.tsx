@@ -6,6 +6,7 @@ import { Phone, MapPin, Clock, CheckCircle2, Star, Shield, Award, ArrowRight } f
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
+import heroImage from "@assets/generated_images/realistic_house_anthracite_roof.png";
 
 const stadtteilData = {
   name: "Berg am Laim",
@@ -66,8 +67,19 @@ export default function StadtteilBergAmLaim() {
       <NearbyServiceSchema />
       <Navbar />
       
-      <section className="pt-6 pb-8 md:pt-10 md:pb-12 bg-secondary relative overflow-hidden min-h-[35vh] flex items-center">
-        <div className="absolute inset-0 bg-gradient-to-r from-secondary via-secondary/95 to-secondary/80"></div>
+      <section className="pt-6 pb-8 md:pt-10 md:pb-12 bg-secondary relative overflow-hidden min-h-[40vh] flex items-center">
+        <div className="absolute inset-0 z-0">
+          <img
+            src={heroImage}
+            alt={`Dachsanierung ${stadtteilData.name} - Dachdecker Meisterbetrieb München`}
+            className="w-full h-full object-cover"
+            width={1792}
+            height={1024}
+            fetchPriority="high"
+            decoding="async"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-secondary/90 via-secondary/70 to-secondary/50"></div>
+        </div>
         <div className="container mx-auto px-4 md:px-6 lg:px-12 relative z-10">
           <div className="max-w-3xl text-white">
             <div className="flex items-center gap-2 mb-3 md:mb-4">
