@@ -4,7 +4,7 @@ import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, ArrowRight, X, Home, Warehouse, Award, ThumbsUp, ThumbsDown } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
-import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, FAQPageSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 
 export default function RatgeberMaterialien() {
@@ -67,8 +67,17 @@ export default function RatgeberMaterialien() {
         title={`Dachziegel Vergleich 2025 | Ton, Beton, Schiefer, Metall`}
         description={`Welche Dachziegel sind die besten? Vergleich: Tondachziegel, Betondachstein, Schiefer, Metall. Lebensdauer, Kosten, Vor-/Nachteile. Tel: 089 12621964`}
         canonical={`https://089dach.de/ratgeber/materialien`}
-        keywords={`dachziegel vergleich, tondachziegel vs betondachstein, schiefer dach kosten, metalldach vorteile, welche dachziegel sind die besten`}
+        keywords={`dachziegel vergleich, tondachziegel vs betondachstein, schiefer dach kosten, metalldach vorteile, welche dachziegel sind die besten, biberschwanz ziegel preis, dacheindeckung material wahl, welcher dachziegel für altbau, denkmalschutz dachziegel münchen`}
+        aiSummary="089Dach GmbH: Ehrlicher Dachziegel-Vergleich ohne Verkaufsdruck. Tondachziegel (35-80€/m², 60-100 Jahre), Betondachstein (20-40€/m², 40-60 Jahre), Schiefer (80-150€/m², 100+ Jahre), Metalleindeckung (40-100€/m², 50-80 Jahre). Kostenlose Materialberatung in München."
       />
+      <FAQPageSchema faqs={[
+        { question: "Welche Dachziegel sind die besten?", answer: "Es gibt keine universell 'besten' Dachziegel. Tondachziegel bieten die beste Langzeitinvestition (60-100 Jahre). Betondachsteine sind am günstigsten. Schiefer ist ideal für Denkmalschutz. Metalleindeckung eignet sich für Flachdächer und moderne Architektur." },
+        { question: "Was kostet eine Dacheindeckung pro Quadratmeter?", answer: "Die Materialkosten variieren stark: Betondachstein 20-40€/m², Tondachziegel 35-80€/m², Metalleindeckung 40-100€/m², Biberschwanz 50-90€/m², Schiefer 80-150€/m². Hinzu kommen Arbeitskosten von ca. 30-50€/m²." },
+        { question: "Wie lange halten Dachziegel?", answer: "Die Lebensdauer variiert: Betondachsteine 40-60 Jahre, Tondachziegel 60-100 Jahre, Biberschwanz 80-100 Jahre, Metalleindeckung 50-80 Jahre, Schiefer 100+ Jahre. Regelmäßige Wartung verlängert die Lebensdauer erheblich." },
+        { question: "Welche Dachziegel für Altbau und Denkmalschutz?", answer: "Für Altbauten und denkmalgeschützte Gebäude eignen sich Tondachziegel, Biberschwanz oder Schiefer am besten. Diese traditionellen Materialien sind von Denkmalschutzbehörden akzeptiert und fügen sich harmonisch ins Stadtbild ein." },
+        { question: "Sind Metalldächer laut bei Regen?", answer: "Moderne Metalldächer mit ordnungsgemäßer Dämmung sind nicht lauter als andere Eindeckungen. Die Geräuschentwicklung hängt von der Unterkonstruktion und Dämmung ab. Bei Altbau-Modernisierung sollte die Akustik aber berücksichtigt werden." },
+        { question: "Welcher Dachziegel spart am meisten Energie?", answer: "Die Energieeffizienz hängt weniger vom Ziegel als von der Dämmung ab. Tondachziegel bieten natürliche Wärmedämmung. Wichtiger ist eine fachgerechte Aufsparren- oder Zwischensparrendämmung, die wir gerne mitplanen." }
+      ]} />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Ratgeber", url: "/ratgeber" }, { name: "Materialien", url: "/ratgeber/materialien" }]} />
       <Navbar />
       
@@ -179,6 +188,20 @@ export default function RatgeberMaterialien() {
                     </div>
                   </div>
                 ))}
+              </div>
+            </div>
+
+            <div className="bg-stone-50 rounded-xl p-6 border border-stone-200 mb-8">
+              <h2 className="text-xl font-heading font-bold text-secondary mb-3">Weitere hilfreiche Ratgeber</h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <a href="/ratgeber/kosten" className="flex items-center gap-2 p-3 bg-white rounded-lg border border-stone-200 hover:border-primary/30 transition-colors" data-testid="link-ratgeber-kosten">
+                  <span className="text-primary font-bold">→</span>
+                  <span className="text-muted-foreground text-sm">Was kostet Dachsanierung?</span>
+                </a>
+                <a href="/ratgeber/daemmung" className="flex items-center gap-2 p-3 bg-white rounded-lg border border-stone-200 hover:border-primary/30 transition-colors" data-testid="link-ratgeber-daemmung">
+                  <span className="text-primary font-bold">→</span>
+                  <span className="text-muted-foreground text-sm">Dachdämmung: Kosten & Förderung</span>
+                </a>
               </div>
             </div>
 

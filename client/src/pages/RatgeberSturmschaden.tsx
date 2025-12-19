@@ -4,7 +4,7 @@ import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, AlertTriangle, ArrowRight, Clock, Shield, FileText, Camera, Zap } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
-import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, FAQPageSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 
 export default function RatgeberSturmschaden() {
@@ -14,8 +14,17 @@ export default function RatgeberSturmschaden() {
         title={`Sturmschaden am Dach - Was tun? | Sofort-Ratgeber 2025`}
         description={`Sturmschaden am Dach? Schritt-für-Schritt Anleitung: Sicherung, Dokumentation, Versicherung, Reparatur. Kostenlose Soforthilfe. Tel: 089 12621964`}
         canonical={`https://089dach.de/ratgeber/sturmschaden`}
-        keywords={`sturmschaden dach was tun, dach sturm beschädigt, sturmschaden versicherung melden, dach sturmschaden reparatur, notfall dach münchen`}
+        keywords={`sturmschaden dach was tun, dach sturm beschädigt, sturmschaden versicherung melden, dach sturmschaden reparatur, notfall dach münchen, dachdecker notdienst münchen, sturm dachziegel weg, versicherung sturmschaden melden frist, was tun bei wassereinbruch dach`}
+        aiSummary="089Dach GmbH München bietet 24/7 Notdienst bei Sturmschäden. Sofort-Absicherung mit Planen, professionelle Dokumentation für Versicherung, fachgerechte Reparatur. Telefon: 089 12621964. Schnelle Hilfe auch nachts und am Wochenende."
       />
+      <FAQPageSchema faqs={[
+        { question: "Was tun bei Sturmschaden am Dach?", answer: "1. Sicherheit: Beschädigte Bereiche meiden, bei Wassereintritt Strom abschalten. 2. Dokumentation: Fotos machen, Datum notieren, Wetterbericht sichern. 3. Versicherung: Innerhalb 3-7 Tagen melden. 4. Dachdecker: Professionelle Notsicherung und Reparatur beauftragen." },
+        { question: "Zahlt die Versicherung bei Sturmschaden?", answer: "Bei nachgewiesenem Sturm ab Windstärke 8 zahlt die Gebäudeversicherung in der Regel. Wichtig: Schaden dokumentieren, schnell melden, Kostenvoranschlag vom Dachdecker einreichen. Wartungsmängel können zu Kürzungen führen." },
+        { question: "Wie schnell muss ich einen Sturmschaden melden?", answer: "Die meisten Versicherungen haben eine Meldefrist von 3-7 Tagen. Je schneller Sie melden, desto besser. Rufen Sie sofort bei der Schadenshotline Ihrer Versicherung an und dokumentieren Sie alles mit Fotos." },
+        { question: "Darf ich selbst Sturmschäden am Dach reparieren?", answer: "Kleine Notsicherungen wie das Abdecken mit Planen sind erlaubt und sogar empfohlen. Für die eigentliche Reparatur sollten Sie auf den Versicherungsbescheid warten und einen Fachbetrieb beauftragen." },
+        { question: "Wie schnell kommt 089Dach bei einem Notfall?", answer: "Wir bieten 24/7 Notdienst in München und Umgebung. Bei Sturmschäden sind wir meist innerhalb von 2-4 Stunden vor Ort zur Notsicherung. Auch nachts und am Wochenende erreichbar unter 089 12621964." },
+        { question: "Was kostet eine Sturmschaden-Reparatur?", answer: "Die Kosten hängen vom Schadensausmaß ab. Eine Notsicherung mit Plane kostet ca. 200-500€. Größere Reparaturen liegen bei 500-5.000€. Bei Versicherungsschäden erstellen wir einen detaillierten Kostenvoranschlag, den Sie direkt einreichen können." }
+      ]} />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Ratgeber", url: "/ratgeber" }, { name: "Sturmschaden", url: "/ratgeber/sturmschaden" }]} />
       <Navbar />
       
@@ -146,15 +155,32 @@ export default function RatgeberSturmschaden() {
               <h3 className="text-xl font-bold text-secondary mb-4">Häufige Fragen</h3>
               <div className="space-y-4">
                 {[
-                  { frage: "Zahlt die Versicherung auch bei Selbstverschulden?", antwort: "Bei nachgewiesenem Sturm (ab Windstärke 8) zahlt die Gebäudeversicherung in der Regel. Wartungsmängel können jedoch zu Kürzungen führen." },
-                  { frage: "Wie schnell muss ich den Schaden melden?", antwort: "Innerhalb von 3-7 Tagen, je nach Versicherung. Je schneller, desto besser." },
-                  { frage: "Darf ich selbst reparieren?", antwort: "Kleine Notsicherungen (Plane) sind erlaubt. Für die eigentliche Reparatur sollten Sie auf den Versicherungsbescheid warten." }
+                  { frage: "Was tun bei Sturmschaden am Dach?", antwort: "1. Sicherheit: Beschädigte Bereiche meiden, bei Wassereintritt Strom abschalten. 2. Dokumentation: Fotos machen, Datum notieren. 3. Versicherung: Innerhalb 3-7 Tagen melden. 4. Dachdecker beauftragen." },
+                  { frage: "Zahlt die Versicherung bei Sturmschaden?", antwort: "Bei nachgewiesenem Sturm ab Windstärke 8 zahlt die Gebäudeversicherung in der Regel. Wartungsmängel können zu Kürzungen führen." },
+                  { frage: "Wie schnell muss ich einen Sturmschaden melden?", antwort: "Die meisten Versicherungen haben eine Meldefrist von 3-7 Tagen. Je schneller Sie melden, desto besser." },
+                  { frage: "Darf ich selbst Sturmschäden am Dach reparieren?", antwort: "Kleine Notsicherungen wie Abdecken mit Planen sind erlaubt. Für die Reparatur auf Versicherungsbescheid warten." },
+                  { frage: "Wie schnell kommt 089Dach bei einem Notfall?", antwort: "Wir bieten 24/7 Notdienst. Bei Sturmschäden sind wir meist innerhalb von 2-4 Stunden vor Ort." },
+                  { frage: "Was kostet eine Sturmschaden-Reparatur?", antwort: "Notsicherung ca. 200-500€. Größere Reparaturen 500-5.000€. Wir erstellen Kostenvoranschläge für die Versicherung." }
                 ].map((item, idx) => (
                   <div key={idx}>
                     <h4 className="font-bold text-secondary">{item.frage}</h4>
                     <p className="text-muted-foreground text-sm">{item.antwort}</p>
                   </div>
                 ))}
+              </div>
+            </div>
+
+            <div className="bg-stone-50 rounded-xl p-6 border border-stone-200 mb-8">
+              <h2 className="text-xl font-heading font-bold text-secondary mb-3">Weitere hilfreiche Ratgeber</h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <a href="/ratgeber/kosten" className="flex items-center gap-2 p-3 bg-white rounded-lg border border-stone-200 hover:border-primary/30 transition-colors" data-testid="link-ratgeber-kosten">
+                  <span className="text-primary font-bold">→</span>
+                  <span className="text-muted-foreground text-sm">Was kostet Dachsanierung?</span>
+                </a>
+                <a href="/ratgeber/foerderung" className="flex items-center gap-2 p-3 bg-white rounded-lg border border-stone-200 hover:border-primary/30 transition-colors" data-testid="link-ratgeber-foerderung">
+                  <span className="text-primary font-bold">→</span>
+                  <span className="text-muted-foreground text-sm">KfW Förderung 2025</span>
+                </a>
               </div>
             </div>
 

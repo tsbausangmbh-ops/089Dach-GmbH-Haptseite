@@ -185,7 +185,7 @@ export default function RatgeberFoerderung() {
               <p className="text-muted-foreground mb-4">
                 Bevor Sie Förderung beantragen, sollten Sie wissen, mit welchen Kosten zu rechnen ist. Unser Kostenratgeber zeigt aktuelle Preise für München.
               </p>
-              <a href="/ratgeber/kosten" className="inline-flex items-center gap-2 text-primary font-bold hover:underline">
+              <a href="/ratgeber/kosten" className="inline-flex items-center gap-2 text-primary font-bold hover:underline" data-testid="link-ratgeber-kosten">
                 Zum Kostenratgeber <ArrowRight className="h-4 w-4" />
               </a>
             </div>

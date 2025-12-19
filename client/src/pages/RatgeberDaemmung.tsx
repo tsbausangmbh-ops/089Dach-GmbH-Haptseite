@@ -5,7 +5,7 @@ import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
 import { CheckCircle2, ThermometerSnowflake, ArrowRight, ArrowLeft, Euro, Home, Phone, AlertTriangle, TrendingDown, Clock, Shield, Users, Star, Calculator } from "lucide-react";
 import { Link } from "wouter";
-import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, FAQPageSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 import heroImage from "@assets/generated_images/roof_insulation_installation_scene.png";
 import { KeywordLink } from "@/components/KeywordLink";
@@ -24,6 +24,14 @@ export default function RatgeberDaemmung() {
         { name: "Home", url: "/" }, 
         { name: "Tipps & Tricks", url: "/ratgeber" },
         { name: "Dachsanierung mit Dämmung", url: "/ratgeber/daemmung" }
+      ]} />
+      <FAQPageSchema faqs={[
+        { question: "Was kostet Dachdämmung pro Quadratmeter?", answer: "Zwischensparrendämmung kostet 80-120€/m², Aufsparrendämmung 150-250€/m² (jeweils inkl. Einbau). Bei einem typischen Einfamilienhaus (100m² Dachfläche) liegen die Gesamtkosten zwischen 8.000€ und 25.000€." },
+        { question: "Wie viel Heizkosten spart Dachdämmung?", answer: "Eine fachgerechte Dachdämmung spart durchschnittlich 20-30% der Heizkosten. Bei Heizkosten von 2.000€/Jahr sind das 400-600€ Ersparnis jährlich. Die Investition amortisiert sich in 10-15 Jahren." },
+        { question: "Welche Förderung gibt es für Dachdämmung 2025?", answer: "Das BAFA fördert Dachdämmung mit 15% der Kosten. Mit individuellem Sanierungsfahrplan (iSFP) steigt der Zuschuss auf 20%. Bei 20.000€ Dämmkosten sind das bis zu 4.000€ Zuschuss." },
+        { question: "Was ist besser: Aufsparren- oder Zwischensparrendämmung?", answer: "Aufsparrendämmung ist thermisch besser und vermeidet Wärmebrücken, kostet aber mehr und ist aufwendiger. Zwischensparrendämmung ist günstiger und schneller, benötigt aber ausreichend Sparrentiefe. Wir beraten individuell vor Ort." },
+        { question: "Muss das Dach für die Dämmung neu eingedeckt werden?", answer: "Bei Aufsparrendämmung ja, da die Dämmung von außen auf die Sparren kommt. Bei Zwischensparrendämmung von innen bleibt die Eindeckung erhalten. Sinnvoll: Beides kombinieren bei ohnehin fälliger Neueindeckung." },
+        { question: "Wie lange dauert eine Dachdämmung?", answer: "Eine Zwischensparrendämmung dauert bei einem Einfamilienhaus 3-5 Tage. Eine Aufsparrendämmung mit Neueindeckung dauert 1-2 Wochen, je nach Dachgröße und Wetterbedingungen." }
       ]} />
       <Navbar />
       
