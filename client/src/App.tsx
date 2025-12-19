@@ -88,6 +88,13 @@ import Notdienst from "@/pages/Notdienst";
 import Dachreparatur from "@/pages/Dachreparatur";
 import Flachdachsanierung from "@/pages/Flachdachsanierung";
 import DachUndicht from "@/pages/DachUndicht";
+import DachziegelAustauschen from "@/pages/DachziegelAustauschen";
+import Dachdaemmung from "@/pages/Dachdaemmung";
+import Dachinspektion from "@/pages/Dachinspektion";
+import SturmschadenDach from "@/pages/SturmschadenDach";
+import DachrinneReparieren from "@/pages/DachrinneReparieren";
+import SchimmelDach from "@/pages/SchimmelDach";
+import EternitDach from "@/pages/EternitDach";
 import CookieConsent from "@/components/CookieConsent";
 import BackgroundLogo from "@/components/BackgroundLogo";
 import { LocalBusinessSchema } from "@/components/SEO";
@@ -194,6 +201,13 @@ function Router() {
       <Route path="/dachreparatur" component={Dachreparatur} />
       <Route path="/flachdachsanierung" component={Flachdachsanierung} />
       <Route path="/dach-undicht" component={DachUndicht} />
+      <Route path="/dachziegel-austauschen" component={DachziegelAustauschen} />
+      <Route path="/dachdaemmung" component={Dachdaemmung} />
+      <Route path="/dachinspektion" component={Dachinspektion} />
+      <Route path="/sturmschaden-dach" component={SturmschadenDach} />
+      <Route path="/dachrinne-reparieren" component={DachrinneReparieren} />
+      <Route path="/schimmel-dach" component={SchimmelDach} />
+      <Route path="/eternit-dach" component={EternitDach} />
       <Route component={NotFound} />
     </Switch>
     </>
