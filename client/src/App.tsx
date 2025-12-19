@@ -98,6 +98,8 @@ import EternitDach from "@/pages/EternitDach";
 import DachpfannenAbdichten from "@/pages/DachpfannenAbdichten";
 import DachAbdichten from "@/pages/DachAbdichten";
 import DachNeuEindecken from "@/pages/DachNeuEindecken";
+import Dachdecker from "@/pages/Dachdecker";
+import DachDecken from "@/pages/DachDecken";
 import CookieConsent from "@/components/CookieConsent";
 import BackgroundLogo from "@/components/BackgroundLogo";
 import { LocalBusinessSchema } from "@/components/SEO";
@@ -214,6 +216,8 @@ function Router() {
       <Route path="/dachpfannen-abdichten" component={DachpfannenAbdichten} />
       <Route path="/dach-abdichten" component={DachAbdichten} />
       <Route path="/dach-neu-eindecken" component={DachNeuEindecken} />
+      <Route path="/dachdecker-muenchen" component={Dachdecker} />
+      <Route path="/dach-decken" component={DachDecken} />
       <Route component={NotFound} />
     </Switch>
     </>
