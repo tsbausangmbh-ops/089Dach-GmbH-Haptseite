@@ -6,33 +6,62 @@ User-agent: *
 Allow: /
 Disallow: /api/
 
-# Sitemap
+# Sitemaps
 Sitemap: https://089dach.de/sitemap.xml
+Sitemap: https://089dach.de/ai-sitemap.xml
 
 # Crawl-Delay für schonenden Zugriff
 Crawl-delay: 1
 
 # ============================================
-# Schädliche Bots & Scraper blockieren
+# KI-Ressourcen für alle Bots erlauben
 # ============================================
+# Diese Dateien sind speziell für KI-Agenten optimiert
+Allow: /llms.txt
+Allow: /llms-full.txt
+Allow: /ai.json
+Allow: /ai-sitemap.xml
+Allow: /geo.json
 
-# AI-Training Bots blockieren
+# ============================================
+# AI-Training Bots - eingeschränkter Zugriff
+# ============================================
+# Erlaubt: KI-Ressourcen und öffentliche Seiten
+# Blockiert: API-Endpunkte
+
 User-agent: GPTBot
-Disallow: /
+Allow: /llms.txt
+Allow: /ai.json
+Allow: /ai-sitemap.xml
+Allow: /geo.json
+Allow: /faq
+Disallow: /api/
 
 User-agent: ChatGPT-User
-Disallow: /
-
-User-agent: CCBot
-Disallow: /
+Allow: /llms.txt
+Allow: /ai.json
+Disallow: /api/
 
 User-agent: anthropic-ai
-Disallow: /
+Allow: /llms.txt
+Allow: /ai.json
+Disallow: /api/
 
 User-agent: Claude-Web
-Disallow: /
+Allow: /llms.txt
+Allow: /ai.json
+Disallow: /api/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /api/
 
 User-agent: cohere-ai
+Allow: /llms.txt
+Disallow: /api/
+
+# Aggressive KI-Scraper vollständig blockieren
+User-agent: CCBot
 Disallow: /
 
 User-agent: Bytespider

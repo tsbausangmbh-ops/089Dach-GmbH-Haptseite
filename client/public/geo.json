@@ -1,0 +1,165 @@
+{
+  "type": "FeatureCollection",
+  "name": "089Dach GmbH Servicegebiet",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "089Dach GmbH Hauptsitz",
+        "type": "headquarters",
+        "address": "Thuillestr. 20, 81247 München",
+        "phone": "+49 89 12621964",
+        "email": "info@089dach.de",
+        "website": "https://089dach.de",
+        "openingHours": "Mo-Fr 07:00-18:00",
+        "serviceRadius": "30km"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.4728, 48.1661]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Servicegebiet München",
+        "type": "service_area",
+        "description": "30km Radius um München-Obermenzing"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [11.0728, 48.1661],
+          [11.1228, 48.3661],
+          [11.4728, 48.4661],
+          [11.8228, 48.3661],
+          [11.8728, 48.1661],
+          [11.8228, 47.9661],
+          [11.4728, 47.8661],
+          [11.1228, 47.9661],
+          [11.0728, 48.1661]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "München-Obermenzing",
+        "type": "priority_district",
+        "priority": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.4728, 48.1661]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "München-Pasing",
+        "type": "priority_district",
+        "priority": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.4533, 48.1417]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "München-Laim",
+        "type": "district",
+        "priority": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.4983, 48.1383]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "München-Schwabing",
+        "type": "district",
+        "priority": 4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.5833, 48.1667]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "München-Sendling",
+        "type": "district",
+        "priority": 5
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.5417, 48.1083]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gräfelfing",
+        "type": "surrounding_city",
+        "distance": "5km"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.4333, 48.1167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Germering",
+        "type": "surrounding_city",
+        "distance": "10km"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.3667, 48.1333]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dachau",
+        "type": "surrounding_city",
+        "distance": "15km"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.4342, 48.2603]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Starnberg",
+        "type": "surrounding_city",
+        "distance": "25km"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.3406, 47.9981]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fürstenfeldbruck",
+        "type": "surrounding_city",
+        "distance": "20km"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.2547, 48.1789]
+      }
+    }
+  ]
+}

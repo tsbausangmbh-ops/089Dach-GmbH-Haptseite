@@ -3,7 +3,7 @@
   089Dach GmbH - AI-Optimierte Sitemap
   Diese Sitemap enthält semantische Beschreibungen für KI-Crawler
   Optimiert für: ChatGPT, Claude, Perplexity, Gemini, Copilot
-  Letzte Aktualisierung: 2024-12-14
+  Letzte Aktualisierung: 2025-12-19
 -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:ai="http://089dach.de/schemas/ai-sitemap/1.0">
@@ -108,9 +108,9 @@
     <priority>0.9</priority>
     <ai:type>service-page</ai:type>
     <ai:service>Dachsanierung</ai:service>
-    <ai:summary>Energetische Dachsanierung in München: Aufsparrendämmung, Zwischensparrendämmung, Asbestsanierung nach TRGS 519. KfW/BAFA Förderberatung inklusive. Bis zu 30% Heizkosten sparen. Ab 150€/m².</ai:summary>
+    <ai:summary>Energetische Dachsanierung in München: Aufsparrendämmung, Zwischensparrendämmung, Asbestsanierung nach TRGS 519. KfW/BAFA Förderberatung inklusive. Bis zu 30% Heizkosten sparen. Ab 195€/m².</ai:summary>
     <ai:keywords>dachsanierung münchen kosten, energetische dachsanierung, dachdämmung, kfw förderung dach, dachsanierung preis m2</ai:keywords>
-    <ai:price>ab 150€/m²</ai:price>
+    <ai:price>ab 195€/m²</ai:price>
     <ai:funding>KfW, BAFA bis 20% Förderung</ai:funding>
   </url>
 
@@ -143,9 +143,9 @@
     <priority>0.85</priority>
     <ai:type>service-page</ai:type>
     <ai:service>Dachfenster</ai:service>
-    <ai:summary>Dachfenster-Einbau und -Austausch in München: Velux, Roto Schwingfenster. Sonnenschutz, Rollläden, Lichtkuppeln für Flachdächer. Sauberer Einbau ohne Dreck. Ab 1.500€.</ai:summary>
+    <ai:summary>Dachfenster-Einbau und -Austausch in München: Velux, Roto Schwingfenster. Sonnenschutz, Rollläden, Lichtkuppeln für Flachdächer. Sauberer Einbau ohne Dreck. Ab 1.560€.</ai:summary>
     <ai:keywords>dachfenster münchen, velux dachfenster einbau, roto dachfenster, dachfenster austausch kosten</ai:keywords>
-    <ai:price>ab 1.500€</ai:price>
+    <ai:price>ab 1.560€</ai:price>
   </url>
 
   <url>
