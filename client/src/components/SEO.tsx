@@ -175,8 +175,10 @@ export function LocalBusinessSchema() {
     ],
     "sameAs": [
       "https://www.instagram.com/089dach",
-      "https://www.facebook.com/089dach"
+      "https://www.facebook.com/089dach",
+      "https://www.google.com/maps/place/089Dach+GmbH"
     ],
+    "hasMap": "https://www.google.com/maps/place/089Dach+GmbH",
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": 4.9,

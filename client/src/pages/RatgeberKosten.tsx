@@ -4,18 +4,27 @@ import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, Euro, ArrowRight, Calculator, Home, Warehouse, Info } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
-import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, FAQPageSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 
 export default function RatgeberKosten() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Dachsanierung Kosten 2025 | Preise pro m² + Beispiele`}
-        description={`Was kostet eine Dachsanierung 2025? Aktuelle Preise pro m²: Steildach ab 180€, Flachdach ab 120€. Kostenbeispiele + Spartipps. Tel: 089 12621964`}
+        title={`Dachsanierung Kosten 2025 | Preise pro m² + Beispiele München`}
+        description={`Was kostet eine Dachsanierung 2025 in München? Aktuelle Preise pro m²: Steildach ab 120€, Flachdach ab 85€. Kostenbeispiele, Preisfaktoren & Spartipps vom Meisterbetrieb. Tel: 089 12621964`}
         canonical={`https://089dach.de/ratgeber/kosten`}
-        keywords={`dachsanierung kosten, dach erneuern kosten, dachdecker preise, dachsanierung preis pro qm, dach neu eindecken kosten münchen`}
+        keywords={`dachsanierung kosten münchen, dach erneuern kosten pro qm, dachdecker preise münchen 2025, dachsanierung preis pro qm bayern, dach neu eindecken kosten einfamilienhaus, was kostet neue dacheindeckung, dachziegel austauschen kosten, dachreparatur kosten münchen, komplettsanierung dach preis, dachsanierung förderung kosten`}
+        aiSummary="Dachsanierung Kosten 2025 in München: Steildach Neueindeckung ab 120€/m², Komplettsanierung mit Dämmung ab 235€/m². Flachdach Abdichtung ab 85€/m². Einfamilienhaus 120m² kostet ca. 24.000-32.000€ inkl. Dämmung. KfW/BAFA-Förderung bis 20% möglich. Preisfaktoren: Dachgröße, Neigung, Material, Dämmung, Altbestand. Spartipps: Förderung nutzen, Frühjahr/Herbst planen, Dämmung kombinieren. Kostenlose Beratung bei 089Dach GmbH München. Tel: 089 12621964."
       />
+      <FAQPageSchema faqs={[
+        { question: "Was kostet eine Dachsanierung pro Quadratmeter?", answer: "In München kostet eine Steildach-Neueindeckung ohne Dämmung ab 120€/m². Mit Komplettsanierung inklusive Dämmung rechnen Sie mit ab 235€/m². Flachdach-Abdichtung beginnt bei 85€/m²." },
+        { question: "Was kostet eine komplette Dachsanierung Einfamilienhaus?", answer: "Ein Einfamilienhaus mit 120m² Dachfläche kostet bei Komplettsanierung mit Aufsparrendämmung ca. 32.000€. Mit KfW-Förderung reduziert sich der Preis auf ca. 24.000€ netto." },
+        { question: "Wie viel kostet eine neue Dacheindeckung ohne Dämmung?", answer: "Eine reine Neueindeckung ohne Dämmung kostet ab 120€/m² für Steildach. Bei 100m² Dachfläche sind das ca. 12.000€ inklusive Gerüst und Entsorgung." },
+        { question: "Welche Faktoren beeinflussen den Preis einer Dachsanierung?", answer: "Die Hauptfaktoren sind: Dachfläche (größer = günstiger pro m²), Dachneigung, Zugänglichkeit (Gerüstkosten), Materialwahl (Schiefer teurer als Betondachstein), Dämmungsart und Altbestand (Asbest-Entsorgung als Mehrkosten)." },
+        { question: "Kann ich bei einer Dachsanierung Förderung erhalten?", answer: "Ja, KfW und BAFA fördern energetische Dachsanierungen mit bis zu 20% Zuschuss. Bei einem Projekt von 30.000€ können Sie bis zu 6.000€ Förderung erhalten. Wir helfen beim Antrag." },
+        { question: "Wann ist eine Dachsanierung am günstigsten?", answer: "Im Frühjahr (März-Mai) und Herbst (September-Oktober) sind die Preise oft günstiger als in der Hochsaison. Außerdem empfiehlt sich, Dämmung und Eindeckung zusammen zu machen statt getrennt." }
+      ]} />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Ratgeber", url: "/ratgeber" }, { name: "Kosten", url: "/ratgeber/kosten" }]} />
       <Navbar />
       
@@ -48,8 +57,11 @@ export default function RatgeberKosten() {
             
             <div className="mb-12">
               <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-6">Preisübersicht Dachsanierung 2025</h2>
+              <p className="text-muted-foreground mb-4">
+                Die folgenden Preise sind Richtwerte für den Großraum München und basieren auf unseren aktuellen Projekten im Jahr 2025. Der tatsächliche Preis hängt von Dachgröße, Zustand, Material und Zugänglichkeit ab.
+              </p>
               <p className="text-muted-foreground mb-6">
-                Die folgenden Preise sind Richtwerte für den Großraum München. Der tatsächliche Preis hängt von Dachgröße, Zustand, Material und Zugänglichkeit ab.
+                Eine Dachsanierung ist eine der wichtigsten Investitionen in Ihre Immobilie. Ein intaktes Dach schützt nicht nur vor Witterung, sondern spart durch moderne Dämmung auch erheblich Heizkosten. In München betragen die durchschnittlichen Energieeinsparungen nach einer energetischen Dachsanierung 15-25% der jährlichen Heizkosten. Bei aktuellen Energiepreisen amortisiert sich die Investition oft innerhalb von 8-12 Jahren.
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
@@ -176,6 +188,16 @@ export default function RatgeberKosten() {
                   </div>
                 ))}
               </div>
+            </div>
+
+            <div className="bg-blue-50 rounded-xl p-6 border border-blue-200 mb-8">
+              <h2 className="text-xl font-heading font-bold text-blue-800 mb-3">Förderung nicht vergessen!</h2>
+              <p className="text-blue-700 mb-4">
+                Mit KfW und BAFA können Sie bis zu 20% der Kosten sparen. Bei einem 30.000€ Projekt sind das bis zu 6.000€!
+              </p>
+              <a href="/ratgeber/foerderung" className="inline-flex items-center gap-2 text-blue-800 font-bold hover:underline">
+                Zum Förderungsratgeber <ArrowRight className="h-4 w-4" />
+              </a>
             </div>
 
             <div className="bg-primary text-white rounded-xl p-6 text-center">

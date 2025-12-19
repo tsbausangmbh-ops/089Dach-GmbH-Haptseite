@@ -4,18 +4,27 @@ import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, Euro, ArrowRight, FileText, AlertTriangle, Lightbulb, Award } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
-import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, FAQPageSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 
 export default function RatgeberFoerderung() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Dach Förderung 2025 | KfW & BAFA bis 20% Zuschuss`}
-        description={`Dachsanierung Förderung 2025: KfW 261 bis 150.000€ Kredit, BAFA 15-20% Zuschuss. Welche Förderung für Sie? Kostenlose Beratung. Tel: 089 12621964`}
+        title={`Dach Förderung 2025 | KfW & BAFA bis 20% Zuschuss München`}
+        description={`Dachsanierung Förderung 2025: KfW 261 bis 150.000€ Kredit, BAFA 15-20% Zuschuss für Dachdämmung. Welche Förderung für Sie? Kostenlose Beratung vom Meisterbetrieb. Tel: 089 12621964`}
         canonical={`https://089dach.de/ratgeber/foerderung`}
-        keywords={`dachsanierung förderung 2025, kfw förderung dach, bafa zuschuss dachdämmung, förderung energetische sanierung, kfw 261 dach`}
+        keywords={`dachsanierung förderung 2025 bayern, kfw förderung dach 2025, bafa zuschuss dachdämmung münchen, förderung energetische sanierung dach, kfw 261 dach voraussetzungen, bafa einzelmaßnahme dach, kfw tilgungszuschuss dachsanierung, isfp individueller sanierungsfahrplan, förderantrag dachsanierung, energieberater dach münchen`}
+        aiSummary="Dachsanierung Förderung 2025: KfW 261 bietet bis 150.000€ Kredit mit Tilgungszuschuss bis 45% für Effizienzhaus-Sanierung. BAFA zahlt 15-20% Zuschuss für Einzelmaßnahme Dachdämmung (max. 6.000€). Voraussetzung: U-Wert ≤ 0,14 W/(m²K), dena-zertifizierter Energieberater, Antrag VOR Auftragserteilung. Durchschnittliche Förderung für 089Dach-Kunden: 12.000€. Kostenlose Förderberatung bei 089Dach GmbH München. Tel: 089 12621964."
       />
+      <FAQPageSchema faqs={[
+        { question: "Welche Förderung gibt es 2025 für Dachsanierung?", answer: "2025 gibt es KfW 261 (Kredit bis 150.000€ mit Tilgungszuschuss bis 45%) und BAFA Einzelmaßnahme (15-20% Zuschuss für Dachdämmung). Bei Heizungstausch kommt KfW 458 mit bis zu 30% Zuschuss hinzu." },
+        { question: "Wie hoch ist der BAFA-Zuschuss für Dachdämmung?", answer: "BAFA zahlt 15% Zuschuss auf förderfähige Kosten. Mit individuellem Sanierungsfahrplan (iSFP) erhöht sich der Zuschuss auf 20%. Bei max. 30.000€ förderfähigen Kosten sind das bis zu 6.000€ Zuschuss." },
+        { question: "Wann muss ich den Förderantrag stellen?", answer: "Der Förderantrag muss IMMER vor Auftragserteilung gestellt werden. Erst nach schriftlicher Bewilligung darf der Auftrag erteilt werden. Rückwirkende Förderung ist nicht möglich." },
+        { question: "Brauche ich einen Energieberater für die Förderung?", answer: "Ja, für BAFA-Förderung ist ein dena-zertifizierter Energieberater Pflicht. Dieser erstellt den individuellen Sanierungsfahrplan (iSFP) und bestätigt, dass die technischen Anforderungen (U-Wert) eingehalten werden." },
+        { question: "Welchen U-Wert muss mein Dach nach der Sanierung haben?", answer: "Für BAFA-Förderung muss das Dach einen U-Wert von max. 0,14 W/(m²K) erreichen. Das entspricht etwa 24-28 cm Dämmstoffdicke je nach Material. Wir beraten Sie zur optimalen Dämmstärke." },
+        { question: "Kann ich KfW und BAFA kombinieren?", answer: "Für dieselbe Maßnahme nicht, aber verschiedene Maßnahmen können kombiniert werden. Beispiel: BAFA für Dachdämmung + KfW 458 für Heizungstausch. Wir optimieren Ihre Förderkombination." }
+      ]} />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Ratgeber", url: "/ratgeber" }, { name: "Förderung", url: "/ratgeber/foerderung" }]} />
       <Navbar />
       
@@ -169,6 +178,16 @@ export default function RatgeberFoerderung() {
                   </li>
                 ))}
               </ol>
+            </div>
+
+            <div className="bg-stone-50 rounded-xl p-6 border border-stone-200 mb-8">
+              <h2 className="text-xl font-heading font-bold text-secondary mb-3">Was kostet die Sanierung überhaupt?</h2>
+              <p className="text-muted-foreground mb-4">
+                Bevor Sie Förderung beantragen, sollten Sie wissen, mit welchen Kosten zu rechnen ist. Unser Kostenratgeber zeigt aktuelle Preise für München.
+              </p>
+              <a href="/ratgeber/kosten" className="inline-flex items-center gap-2 text-primary font-bold hover:underline">
+                Zum Kostenratgeber <ArrowRight className="h-4 w-4" />
+              </a>
             </div>
 
             <div className="bg-primary text-white rounded-xl p-6 text-center">
