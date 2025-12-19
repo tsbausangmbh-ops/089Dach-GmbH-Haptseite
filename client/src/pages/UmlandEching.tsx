@@ -46,12 +46,12 @@ export default function UmlandEching() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Eching | Meisterbetrieb aus München"
-        description="Dachdecker in Eching ✓ Einfamilienhäuser ✓ Gewerbe ✓ Dämmung ✓ 10 Jahre Garantie. Tel: 089 12621964"
+        title="Dachdecker Eching 2025 | Kosten & Preise vom Meisterbetrieb"
+        description="Was kostet ein Dachdecker in Eching? ✓ Einfamilienhäuser ab 195€/m² ✓ Flachdach Gewerbe ab 110€/m² ✓ Dämmung ✓ 10 Jahre Garantie. Tel: 089 12621964"
         canonical="https://089dach.de/dachdecker-eching"
-        keywords="dachdecker eching, dachsanierung eching, flachdach eching, dachdämmung eching, dachfenster eching, sturmschaden eching, dachdecker 85386"
+        keywords="dachdecker eching, dachsanierung eching kosten, was kostet dachdecker eching, dachdecker eching preise 2025, flachdach eching, dachdämmung eching, dachfenster eching, sturmschaden eching, dachdecker 85386, dach neu eindecken eching, gewerbe dach eching"
         geoPlacename="Eching, Landkreis Freising, Bayern, Deutschland"
-        aiSummary="089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für Eching bei München. Tel: 089 12621964."
+        aiSummary="089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für Eching bei München. Dachsanierung ab 195€/m². Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Umland", url: "/umland" }, { name: "Dachdecker Eching", url: "/dachdecker-eching" }]} />
       <NearbyServiceSchema />

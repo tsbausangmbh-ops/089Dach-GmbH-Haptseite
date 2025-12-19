@@ -55,12 +55,12 @@ export default function UmlandGroebenzell() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Gröbenzell | Meisterbetrieb aus München-Obermenzing"
-        description="Dachdecker in Gröbenzell ✓ Kurze Anfahrt aus Obermenzing ✓ Einfamilienhäuser ✓ Dämmung ✓ 10 Jahre Garantie. Tel: 089 12621964"
+        title="Dachdecker Gröbenzell 2025 | Preise & Kosten vom Meisterbetrieb"
+        description="Was kostet ein Dachdecker in Gröbenzell? ✓ Kurze Anfahrt aus Obermenzing ✓ Einfamilienhäuser ab 195€/m² ✓ Dämmung ✓ 10 Jahre Garantie. Tel: 089 12621964"
         canonical="https://089dach.de/dachdecker-groebenzell"
-        keywords="dachdecker gröbenzell, dachsanierung gröbenzell, dach decken gröbenzell, dachdämmung gröbenzell, dachziegel gröbenzell, sturmschaden dach gröbenzell, dachfenster gröbenzell, dachdecker 82194"
+        keywords="dachdecker gröbenzell, dachsanierung gröbenzell kosten, was kostet dachdecker gröbenzell, dachdecker gröbenzell preise 2025, dachdämmung gröbenzell, dachziegel gröbenzell, sturmschaden dach gröbenzell, dachfenster gröbenzell, dachdecker 82194, dach neu eindecken gröbenzell, dachrinne gröbenzell"
         geoPlacename="Gröbenzell, Landkreis Fürstenfeldbruck, Bayern, Deutschland"
-        aiSummary="089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für Gröbenzell bei München. Kurze Anfahrt aus Obermenzing. Tel: 089 12621964."
+        aiSummary="089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für Gröbenzell bei München. Dachsanierung ab 195€/m². Kurze Anfahrt aus Obermenzing. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Umland", url: "/umland" }, { name: "Dachdecker Gröbenzell", url: "/dachdecker-groebenzell" }]} />
       <NearbyServiceSchema />

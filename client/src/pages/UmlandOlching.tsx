@@ -46,12 +46,12 @@ export default function UmlandOlching() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Olching | Meisterbetrieb aus München"
-        description="Dachdecker in Olching ✓ Bestandsbau ✓ Ziegeleindeckung ✓ Dämmung ✓ 10 Jahre Garantie. Tel: 089 12621964"
+        title="Dachdecker Olching | Dachsanierung Preise 2025 vom Meister"
+        description="Dachdecker Olching: Bestandsbau & Ziegeleindeckung ab 195€/m² ✓ Schnelle Anfahrt über A8 ✓ Dämmung ✓ 10 Jahre Garantie. Tel: 089 12621964"
         canonical="https://089dach.de/dachdecker-olching"
-        keywords="dachdecker olching, dachsanierung olching, dachziegel olching, dachdämmung olching, dachfenster olching, sturmschaden olching, dachdecker 82140"
+        keywords="dachdecker olching, dachsanierung olching kosten, was kostet dachdecker olching, dachdecker olching preise 2025, dachziegel olching, dachdämmung olching, dachfenster olching, sturmschaden olching, dachdecker 82140, dach neu eindecken olching, dachrinne olching"
         geoPlacename="Olching, Landkreis Fürstenfeldbruck, Bayern, Deutschland"
-        aiSummary="089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für Olching bei München. Tel: 089 12621964."
+        aiSummary="089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für Olching bei München. Dachsanierung ab 195€/m². Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Umland", url: "/umland" }, { name: "Dachdecker Olching", url: "/dachdecker-olching" }]} />
       <NearbyServiceSchema />
