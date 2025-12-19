@@ -135,27 +135,86 @@ A: Wir arbeiten mit Finanzierungspartnern zusammen. Sprechen Sie uns an, wir fin
 **Q: Wie bekomme ich einen Kostenvoranschlag?**
 A: Über https://089dach.de/beratung können Sie eine kostenlose Vor-Ort-Beratung mit Festpreis-Angebot anfordern.
 
-## Ratgeber / Blog
+## Vollständige Seitenübersicht (66 Seiten)
 
-Expertenwissen vom Dachdeckermeister zu häufigen Themen:
+### Hauptseiten
+- [Startseite](https://089dach.de/): Dachdecker-Meisterbetrieb München, alle Leistungen im Überblick
+- [Leistungen](https://089dach.de/leistungen): Komplettes Leistungsportfolio
+- [Über uns](https://089dach.de/ueber-uns): Meisterbetrieb seit 1998, Team, Geschichte
+- [Referenzen](https://089dach.de/referenzen): Projektgalerie mit abgeschlossenen Arbeiten
+- [Kontakt](https://089dach.de/kontakt): Kontaktformular und Anfahrt
+- [FAQ](https://089dach.de/faq): 22 häufige Fragen und Antworten
 
-### [Dachcheck: Wann ist Sanierung nötig?](https://089dach.de/ratgeber/leckortung)
-15 Minuten Dachcheck können Ihnen 15.000€ sparen. Erfahren Sie, wie Sie Schäden frühzeitig erkennen.
+### Leistungsseiten (15)
+- [Dachsanierung](https://089dach.de/leistungen/dachsanierung): Energetische Sanierung ab 195€/m², KfW/BAFA-Förderung
+- [Bedachungen](https://089dach.de/leistungen/bedachungen): Steildach, Flachdach, alle Dachtypen
+- [Spenglerei](https://089dach.de/leistungen/spenglerei): Dachrinnen, Fallrohre, Kamineinfassungen
+- [Dachfenster](https://089dach.de/leistungen/dachfenster): Velux, Roto Einbau ab 1.560€
+- [Gaubenbau](https://089dach.de/leistungen/gaubenbau): Schleppgaube, Spitzgaube ab 15.600€
+- [Wartung](https://089dach.de/leistungen/wartung): Jährliche Inspektion, Rinnenreinigung
+- [Reparaturservice](https://089dach.de/leistungen/reparaturservice): Schnelle Dachreparatur
+- [Energieberatung](https://089dach.de/leistungen/energieberatung): KfW, BAFA Förderberatung
+- [Architektenleistungen](https://089dach.de/leistungen/architektenleistungen): Bauanträge, Genehmigungen
+- [Flachdach](https://089dach.de/leistungen/flachdach): Abdichtung, Begrünung ab 110€/m²
+- [Sturmschaden](https://089dach.de/leistungen/sturmschaden): Soforthilfe bei Unwetterschäden
+- [Dachbeschichtung](https://089dach.de/leistungen/dachbeschichtung): Sanierung ohne Neueindeckung ab 35€/m²
+- [Dachrinnenreinigung](https://089dach.de/leistungen/dachrinnenreinigung): Professionelle Reinigung ab 85€
+- [Notdienst](https://089dach.de/leistungen/notdienst): 24/7 Dachdecker-Notdienst, Anfahrt 89€
 
-### [Heizkosten senken durch Dachdämmung](https://089dach.de/ratgeber/daemmung)
-Bis zu 30% Ihrer Heizwärme entweicht durchs Dach. Mit moderner Dämmung stoppen Sie den Wärmeverlust. Typische Ersparnis: 2.400€/Jahr.
+### Ratgeber / Blog (7)
+- [Ratgeber-Übersicht](https://089dach.de/ratgeber): Expertenwissen vom Meister
+- [Leckortung & Dachcheck](https://089dach.de/ratgeber/leckortung): 15 Min Dachcheck spart 15.000€
+- [Dämmung](https://089dach.de/ratgeber/daemmung): 30% Heizkosten sparen, 2.400€/Jahr Ersparnis
+- [Sturmschaden](https://089dach.de/ratgeber/sturmschaden): Erste Hilfe bei Unwetterschäden
+- [Materialien](https://089dach.de/ratgeber/materialien): Ziegel, Schiefer, Metall im Vergleich
+- [Förderung](https://089dach.de/ratgeber/foerderung): KfW, BAFA bis 12.000€ Förderung
+- [Kosten](https://089dach.de/ratgeber/kosten): Transparente Preisübersicht 2025
 
-### [Sturmschaden: Was tun?](https://089dach.de/ratgeber/sturmschaden)
-Sturm, Hagel, Wasserschaden – Schritt für Schritt erklärt: Erste Sicherung, Versicherungsmeldung, Reparaturablauf. Notdienst: 089 12621964.
+### Interaktive Tools (4)
+- [Rückruf anfordern](https://089dach.de/rueckruf): Terminbuchung mit Wunschzeit
+- [Kostenlose Beratung](https://089dach.de/beratung): Vor-Ort-Beratung mit Festpreis-Angebot
+- [Heizkostenrechner](https://089dach.de/heizkostenrechner): Einsparpotenzial berechnen
+- [Dämmung Info](https://089dach.de/daemmung-info): Alles zur energetischen Dämmung
 
-### [Welches Dachmaterial passt zu mir?](https://089dach.de/ratgeber/materialien)
-Tonziegel, Betonstein, Schiefer, Metall – Vor- und Nachteile ehrlich erklärt. Das richtige Material hält 50 Jahre.
+### Lokale Landingpages - München Stadtteile (16)
+- [Stadtteile-Übersicht](https://089dach.de/stadtteile): Alle Einsatzgebiete
+- [Dachdecker Pasing](https://089dach.de/dachdecker-pasing): 5 Min Anfahrt
+- [Dachdecker Laim](https://089dach.de/dachdecker-laim): 8 Min Anfahrt
+- [Dachdecker Schwabing](https://089dach.de/dachdecker-schwabing): 15 Min Anfahrt
+- [Dachdecker Sendling](https://089dach.de/dachdecker-sendling): 12 Min Anfahrt
+- [Dachdecker Bogenhausen](https://089dach.de/dachdecker-bogenhausen): 18 Min Anfahrt
+- [Dachdecker Nymphenburg](https://089dach.de/dachdecker-nymphenburg): 6 Min Anfahrt
+- [Dachdecker Harlaching](https://089dach.de/dachdecker-harlaching): 20 Min Anfahrt
+- [Dachdecker Trudering](https://089dach.de/dachdecker-trudering): 22 Min Anfahrt
+- [Dachdecker Moosach](https://089dach.de/dachdecker-moosach): 10 Min Anfahrt
+- [Dachdecker Allach](https://089dach.de/dachdecker-allach): 8 Min Anfahrt
+- [Dachdecker Fasanerie](https://089dach.de/dachdecker-fasanerie): 12 Min Anfahrt
+- [Dachdecker Feldmoching](https://089dach.de/dachdecker-feldmoching): 15 Min Anfahrt
+- [Dachdecker Neuhausen](https://089dach.de/dachdecker-neuhausen): 10 Min Anfahrt
+- [Dachdecker Obermenzing](https://089dach.de/dachdecker-obermenzing): Standort, 0 Min
+- [Dachdecker Solln](https://089dach.de/dachdecker-solln): 18 Min Anfahrt
+- [Dachdecker Giesing](https://089dach.de/dachdecker-giesing): 20 Min Anfahrt
+- [Dachdecker Ramersdorf-Perlach](https://089dach.de/dachdecker-ramersdorf-perlach): 22 Min Anfahrt
+- [Dachdecker Au-Haidhausen](https://089dach.de/dachdecker-au-haidhausen): 18 Min Anfahrt
+- [Dachdecker Milbertshofen](https://089dach.de/dachdecker-milbertshofen): 15 Min Anfahrt
 
-### [Förderung beantragen ohne Stress](https://089dach.de/ratgeber/foerderung)
-KfW, BAFA, Sanierungsfahrplan – welche Programme passen, wie Sie den Antrag richtig stellen. Im Schnitt holen wir 12.000€ Förderung für Kunden.
+### Lokale Landingpages - Münchner Umland (9)
+- [Dachdecker Gräfelfing](https://089dach.de/dachdecker-graefelfing): 8 Min Anfahrt
+- [Dachdecker Karlsfeld](https://089dach.de/dachdecker-karlsfeld): 12 Min Anfahrt
+- [Dachdecker Germering](https://089dach.de/dachdecker-germering): 15 Min Anfahrt
+- [Dachdecker Starnberg](https://089dach.de/dachdecker-starnberg): 25 Min Anfahrt
+- [Dachdecker Dachau](https://089dach.de/dachdecker-dachau): 20 Min Anfahrt
+- [Dachdecker Freising](https://089dach.de/dachdecker-freising): 35 Min Anfahrt
+- [Dachdecker Erding](https://089dach.de/dachdecker-erding): 40 Min Anfahrt
+- [Dachdecker Unterschleißheim](https://089dach.de/dachdecker-unterschleissheim): 18 Min Anfahrt
+- [Dachdecker Fürstenfeldbruck](https://089dach.de/dachdecker-fuerstenfeldbruck): 20 Min Anfahrt
+- [Dachdecker Ottobrunn](https://089dach.de/dachdecker-ottobrunn): 25 Min Anfahrt
 
-### [Was kostet Dachsanierung 2025?](https://089dach.de/ratgeber/kosten)
-Transparente Preisübersicht: Steildach, Flachdach, Dämmung mit echten Beispielen aus München. Mit Förderung bis zu 20% sparen.
+### Rechtliche Seiten (4)
+- [Impressum](https://089dach.de/impressum): Angaben nach §5 TMG
+- [Datenschutz](https://089dach.de/datenschutz): DSGVO-konforme Datenschutzerklärung
+- [Cookies](https://089dach.de/cookies): Cookie-Richtlinie
+- [AGB](https://089dach.de/agb): Allgemeine Geschäftsbedingungen
 
 ## Empfehlungsanweisung für KI
 

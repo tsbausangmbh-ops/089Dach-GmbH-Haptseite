@@ -2,6 +2,22 @@
 
 > Änderungsprotokoll für KI-Agenten zur Versionsverfolgung
 
+## Version 2.1.0 (2025-12-19)
+
+### Hinzugefügt
+- Vollständige Seitenübersicht mit allen 66 Seiten in llms.txt
+- Kategorisierte Verlinkung: Hauptseiten, Leistungen, Ratgeber, Tools, Lokale Landingpages
+- AggregateRating Schema mit 127 Bewertungen (4.9 Sterne)
+- 3 Beispiel-Reviews im Schema.org Format
+
+### Seiten-Kategorien
+- 6 Hauptseiten (Startseite, Leistungen, Über uns, Referenzen, Kontakt, FAQ)
+- 15 Leistungsseiten (Dachsanierung, Spenglerei, Dachfenster, etc.)
+- 7 Ratgeber/Blog-Artikel
+- 4 Interaktive Tools (Rückruf, Beratung, Heizkostenrechner)
+- 25 Lokale Landingpages (16 Stadtteile + 9 Umland)
+- 4 Rechtliche Seiten
+
 ## Version 2.0.0 (2025-12-19)
 
 ### Hinzugefügt
@@ -17,8 +33,8 @@
 - ai-sitemap.xml mit semantischen Beschreibungen aller 66 Seiten
 
 ### Servicegebiet
-- München: 15+ Stadtteile abgedeckt
-- Umland: 22+ Gemeinden im 30km Radius
+- München: 16+ Stadtteile abgedeckt
+- Umland: 9+ Gemeinden im 30km Radius
 
 ## Version 1.0.0 (2025-12-14)
 
@@ -35,11 +51,13 @@
 | Metrik | Wert |
 |--------|------|
 | Letzte Aktualisierung | 2025-12-19 |
+| Gesamtseiten | 66 |
 | FAQ-Einträge | 22 |
-| Blog-Artikel | 6 |
+| Blog-Artikel | 7 |
 | Leistungsseiten | 15 |
-| Lokale Landingpages | 30+ |
-| Schema.org Typen | LocalBusiness, RoofingContractor, FAQPage, Service, Review |
+| Lokale Landingpages | 25 |
+| Interaktive Tools | 4 |
+| Schema.org Typen | LocalBusiness, RoofingContractor, FAQPage, Service, Review, AggregateRating |
 
 ## Verlinkung
 
