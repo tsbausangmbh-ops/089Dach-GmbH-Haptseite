@@ -37,11 +37,11 @@ export default function AsbestDachSanieren() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <SEO 
-        title="Asbestdach sanieren München | 40-70€/m² | Zertifiziert"
-        description="Asbestdach sanieren München: ✓ Zertifizierter Fachbetrieb ✓ Demontage 30-50€/m² ✓ Fachgerechte Entsorgung ✓ Neueindeckung. Jetzt beraten lassen!"
+        title="Eternit & Asbest Dach sanieren München | TRGS 519 zertifiziert"
+        description="Asbestdach fachgerecht entsorgen lassen: ✓ TRGS 519 zertifizierter Betrieb ✓ Demontage 30-50€/m² ✓ Sichere Entsorgung ✓ Neueindeckung. Dachdecker München & Oberbayern!"
         canonical="/asbest-dach-sanieren"
-        keywords="asbest dach sanieren, eternit dach entsorgen, asbest dachdecker, asbestdach erneuern kosten, eternit sanierung, welleternitplatten entsorgen, asbest entsorgung dach"
-        aiSummary="Asbestdach sanieren München: Demontage 30-50€/m², Entsorgung inkl. TRGS 519 zertifizierter Fachbetrieb. 089Dach. Tel: 089 12621964."
+        keywords="asbest dach sanieren münchen, eternit dach entsorgen bayern, asbestdach erneuern kosten, eternit wellplatten entsorgen, asbest dachdecker oberbayern, asbestsanierung dach"
+        aiSummary="Asbestdach sanieren München und Umgebung: Demontage 30-50€/m², fachgerechte Entsorgung. 089Dach - TRGS 519 zertifiziert für München, Freising, Erding, Starnberg. Kostenlose Beratung: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Asbestdach sanieren", url: "/asbest-dach-sanieren" }]} />
       <ServiceSchema pageName="Asbestdach sanieren" services={[{ name: "Asbestsanierung", description: "Fachgerechte Demontage und Entsorgung" }]} />

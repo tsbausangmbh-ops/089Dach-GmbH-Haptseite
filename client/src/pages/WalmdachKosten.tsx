@@ -36,11 +36,11 @@ export default function WalmdachKosten() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <SEO 
-        title="Walmdach Kosten München | 80-200€/m² | Sanierung & Eindeckung"
-        description="Walmdach Kosten München: ✓ Neueindeckung 80-200€/m² ✓ Sanierung 150-400€/m² ✓ Grate/Kehlen ✓ Meisterbetrieb. Jetzt beraten lassen!"
+        title="Walmdach sanieren München | Was kostet ein Walmdach? | Preise 2025"
+        description="Walmdach Kosten in München & Oberbayern: ✓ Neueindeckung 80-200€/m² ✓ Komplettsanierung 150-400€/m² ✓ Grate & Kehlen als Spezialität. Meisterbetrieb mit Festpreisen!"
         canonical="/walmdach-kosten"
-        keywords="walmdach kosten, walmdach sanieren kosten, walmdach eindecken, walmdach reparieren, walmdach erneuern, walmdach neu eindecken kosten, walmdach preis"
-        aiSummary="Walmdach Kosten München: Neueindeckung 80-200€/m², Sanierung 150-400€/m². 089Dach Meisterbetrieb. Tel: 089 12621964."
+        keywords="walmdach kosten münchen, walmdach sanieren preis, walmdach neu eindecken bayern, walmdach reparatur, grat kehle dach kosten"
+        aiSummary="Walmdach Kosten München und Umgebung: Neueindeckung 80-200€/m², Sanierung 150-400€/m². 089Dach - Spezialist für Walmdächer in Bogenhausen, Solln, Grünwald. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Walmdach Kosten", url: "/walmdach-kosten" }]} />
       <ServiceSchema pageName="Walmdach Kosten" services={[{ name: "Walmdach-Sanierung", description: "Eindeckung und Sanierung" }]} />

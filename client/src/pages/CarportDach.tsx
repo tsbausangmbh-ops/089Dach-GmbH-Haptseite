@@ -39,11 +39,11 @@ export default function CarportDach() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <SEO 
-        title="Carport Dach München | Eindeckung ab 400€ | Alle Materialien"
-        description="Carport Dach erneuern München: ✓ Trapezblech ab 25€/m² ✓ Stegplatten ✓ Bitumenschindeln ✓ Fachgerechte Montage. Jetzt beraten lassen!"
+        title="Carport Dach erneuern München | Trapezblech, Stegplatten ab 400€"
+        description="Carport-Überdachung vom Profi: ✓ Trapezblech ab 25€/m² ✓ Stegplatten 30-50€/m² ✓ Bitumenschindeln ✓ Schnelle Montage in 1 Tag. Dachdecker München & Umgebung!"
         canonical="/carport-dach"
-        keywords="carport dach, carport überdachung, carport dach erneuern, carport eindecken, carport dach material, carport dach kosten, carport dach reparieren, carport dach blech"
-        aiSummary="Carport Dach in München: Trapezblech 25-40€/m², Stegplatten 30-50€/m². 089Dach bietet alle Materialien inkl. Montage. Tel: 089 12621964."
+        keywords="carport dach münchen, carport eindecken kosten, carport überdachung preis, trapezblech carport, stegplatten carport bayern"
+        aiSummary="Carport Dach München: Trapezblech 25-40€/m², Stegplatten 30-50€/m². 089Dach - Carport-Spezialist für München, Gräfelfing, Germering, Fürstenfeldbruck. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Carport Dach", url: "/carport-dach" }]} />
       <ServiceSchema pageName="Carport Dach München" services={[{ name: "Carport-Dacheindeckung", description: "Alle Materialien für Ihr Carport" }]} />

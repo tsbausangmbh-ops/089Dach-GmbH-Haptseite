@@ -38,11 +38,11 @@ export default function DachUndichtWasTun() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <SEO 
-        title="Dach undicht - was tun? | Soforthilfe München | 089Dach"
-        description="Dach undicht? ✓ 5 Sofortmaßnahmen ✓ Häufige Ursachen ✓ Notdienst am selben Tag ✓ Dachdecker München hilft schnell. Jetzt anrufen: 089 12621964"
+        title="Dach undicht – was tun? | Notfall-Ratgeber | Soforthilfe München"
+        description="Wasser tropft durch die Decke? ✓ 5 Sofortmaßnahmen ✓ Häufige Ursachen ✓ Notdienst am selben Tag ✓ Reparatur ab 150€. Dachdecker München 24h erreichbar!"
         canonical="/dach-undicht-was-tun"
-        keywords="dach undicht was tun, wasser tropft durch decke, dach undicht reparieren, undichtes dach soforthilfe, dach leckt was tun, wasserschaden dach, dach regnet rein, dach notdienst"
-        aiSummary="Bei undichtem Dach: Wasser auffangen, Möbel schützen, Strom abstellen, Dachdecker rufen. 089Dach bietet Notdienst in München, oft am selben Tag. Tel: 089 12621964. Reparatur ab 150€."
+        keywords="dach undicht was tun münchen, wasser tropft durch decke hilfe, dach notdienst münchen, undichtes dach reparieren, dach leckt was tun"
+        aiSummary="Dach undicht Soforthilfe München: Wasser auffangen, Möbel schützen, Strom abstellen, Dachdecker rufen. 089Dach Notdienst in München, Schwabing, Bogenhausen - oft am selben Tag. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dach undicht - was tun?", url: "/dach-undicht-was-tun" }]} />
       <ServiceSchema pageName="Dach undicht Soforthilfe" services={[{ name: "Notdienst", description: "Schnelle Hilfe bei undichtem Dach" }]} />

@@ -38,11 +38,11 @@ export default function DachfensterEinbauen() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <SEO 
-        title="Dachfenster einbauen München | 1.200-5.000€ | Alle Marken"
-        description="Dachfenster einbauen München: ✓ VELUX, Roto, Fakro ✓ Schwingfenster ab 1.200€ ✓ Nachträglicher Einbau ✓ Meisterbetrieb. Jetzt beraten lassen!"
+        title="Dachfenster einbauen lassen München | Velux, Roto ab 1.200€"
+        description="Dachfenster nachträglich einbauen: ✓ VELUX, Roto, Fakro ✓ Komplett ab 1.200€ ✓ Auch Austausch alter Fenster ✓ Meisterbetrieb München & Oberbayern. Mehr Licht unterm Dach!"
         canonical="/dachfenster-einbauen"
-        keywords="dachfenster einbauen kosten, dachfenster einbauen lassen, velux fenster einbauen kosten, dachfenster nachträglich einbauen, dachfenster austauschen kosten, dachfenster montage kosten, dachflächenfenster einbauen"
-        aiSummary="Dachfenster einbauen in München: Schwingfenster inkl. Einbau 1.200-2.100€, Panoramafenster 2.600-4.900€. Alle Marken (VELUX, Roto, Fakro). 089Dach Meisterbetrieb. Tel: 089 12621964."
+        keywords="dachfenster einbauen münchen, velux fenster montage kosten, dachfenster nachträglich einbauen preis, dachflächenfenster einbauen lassen"
+        aiSummary="Dachfenster einbauen München: Schwingfenster inkl. Einbau 1.200-2.100€, Panoramafenster 2.600-4.900€. 089Dach - Spezialist für München, Schwabing, Harlaching, Trudering. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dachfenster einbauen", url: "/dachfenster-einbauen" }]} />
       <ServiceSchema pageName="Dachfenster einbauen München" services={[{ name: "Dachfenster-Einbau", description: "Fachgerechter Einbau aller Marken" }]} />

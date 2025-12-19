@@ -39,11 +39,11 @@ export default function BlechdachKosten() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <SEO 
-        title="Blechdach Kosten München | 20-150€/m² | Alle Blecharten"
-        description="Blechdach Kosten München: ✓ Trapezblech 25-45€/m² ✓ Stehfalz 50-90€/m² ✓ Kupfer ab 80€/m² ✓ Inkl. Montage. Meisterbetrieb!"
+        title="Metalldach & Blechdach Kosten München | Stehfalz, Trapez ab 20€/m²"
+        description="Blechdach eindecken lassen: ✓ Trapezblech 25-45€/m² ✓ Stehfalz 50-90€/m² ✓ Kupfer 80-150€/m² ✓ 40-80 Jahre Lebensdauer. Dachdecker München & Oberbayern!"
         canonical="/blechdach-kosten"
-        keywords="blechdach kosten, blechdach preis pro qm, metalldach kosten, stehfalzdach kosten, trapezblech dach kosten, blechdach verlegen kosten, dach mit blech eindecken"
-        aiSummary="Blechdach Kosten in München: Trapezblech 25-45€/m², Stehfalz 50-90€/m², Kupfer 80-150€/m². 089Dach verlegt alle Blecharten. Tel: 089 12621964."
+        keywords="blechdach kosten münchen, metalldach preis bayern, stehfalzdach kosten, trapezblech dach eindecken, kupferdach preis"
+        aiSummary="Blechdach Kosten München und Umgebung: Trapezblech 25-45€/m², Stehfalz 50-90€/m², Kupfer 80-150€/m². 089Dach - Blechdach-Spezialist für Pasing, Bogenhausen, Grünwald. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Blechdach Kosten", url: "/blechdach-kosten" }]} />
       <ServiceSchema pageName="Blechdach Kosten München" services={[{ name: "Blechdach", description: "Eindeckung mit allen Blecharten" }]} />

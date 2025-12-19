@@ -37,11 +37,11 @@ export default function DachgeschossDaemmen() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <SEO 
-        title="Dachgeschoss dämmen München | 40-150€/m² | KfW-Förderung"
-        description="Dachgeschoss dämmen München: ✓ Zwischensparren 40-70€/m² ✓ Aufsparren 80-150€/m² ✓ Bis 20% KfW-Förderung ✓ Meisterbetrieb. Jetzt beraten lassen!"
+        title="Dachdämmung München | 40-150€/m² | Bis 30% Heizkosten sparen"
+        description="Dachgeschoss dämmen lassen: ✓ Zwischensparrendämmung 40-70€/m² ✓ Aufsparrendämmung 80-150€/m² ✓ Bis 20% KfW-Förderung ✓ Energieberater im Team. München & Oberbayern!"
         canonical="/dachgeschoss-daemmen"
-        keywords="dachgeschoss dämmen kosten, dachboden dämmen kosten, dachdämmung kosten, dachschräge dämmen, zwischensparrendämmung kosten, aufsparrendämmung kosten, dachgeschoss isolieren"
-        aiSummary="Dachgeschoss dämmen München: Zwischensparren 40-70€/m², Aufsparren 80-150€/m². Bis 20% KfW-Förderung. 089Dach. Tel: 089 12621964."
+        keywords="dachgeschoss dämmen münchen, dachdämmung kosten bayern, zwischensparrendämmung preis, aufsparrendämmung kosten, dachboden isolieren lassen, kfw förderung dachdämmung"
+        aiSummary="Dachgeschoss dämmen München: Zwischensparren 40-70€/m², Aufsparren 80-150€/m². Bis 20% KfW-Förderung. 089Dach - Ihr Dachdecker für München, Pasing, Bogenhausen, Schwabing. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dachgeschoss dämmen", url: "/dachgeschoss-daemmen" }]} />
       <ServiceSchema pageName="Dachgeschoss dämmen" services={[{ name: "Dachdämmung", description: "Alle Dämm-Methoden" }]} />

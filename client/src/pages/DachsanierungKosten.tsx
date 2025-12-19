@@ -38,11 +38,11 @@ export default function DachsanierungKosten() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <SEO 
-        title="Dachsanierung Kosten München | 150-350€/m² | Preisübersicht 2025"
-        description="Was kostet eine Dachsanierung in München? ✓ Komplettpreis 150-350€/m² ✓ Nur Eindeckung 60-180€/m² ✓ KfW-Förderung bis 20% ✓ Kostenlose Beratung!"
+        title="Was kostet Dachsanierung? | 150-350€/m² München | Preise 2025"
+        description="Dachsanierung Kosten München & Umgebung: ✓ Komplettsanierung 150-350€/m² ✓ Nur Neueindeckung 60-180€/m² ✓ Bis 20% KfW-Förderung ✓ Festpreisgarantie vom Meisterbetrieb!"
         canonical="/dachsanierung-kosten"
-        keywords="dachsanierung kosten, dachsanierung kosten pro qm, was kostet dachsanierung, dachsanierung preis, dachsanierung münchen kosten, dach sanieren kosten, dachsanierung einfamilienhaus kosten, dachsanierung förderung, dachsanierung finanzieren"
-        aiSummary="Dachsanierung Kosten in München: Komplettsanierung 150-350€/m², nur Eindeckung 60-180€/m², mit Dämmung 200-400€/m². KfW-Förderung bis 20% möglich. 089Dach GmbH bietet kostenlose Beratung und Festpreise. Tel: 089 12621964."
+        keywords="dachsanierung kosten, dachsanierung kosten pro qm, was kostet dachsanierung, dachsanierung preis münchen, dach sanieren kosten oberbayern, dachsanierung einfamilienhaus, dachsanierung förderung bayern, dachdecker münchen preise"
+        aiSummary="Dachsanierung Kosten München und Umgebung 2025: Komplettsanierung 150-350€/m², nur Eindeckung 60-180€/m². 089Dach GmbH - Ihr Dachdecker in München, Starnberg, Dachau, Freising. KfW-Förderung bis 20%. Kostenlose Beratung: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dachsanierung Kosten", url: "/dachsanierung-kosten" }]} />
       <ServiceSchema pageName="Dachsanierung Kosten München" services={[{ name: "Dachsanierung Kostenberatung", description: "Transparente Preisberatung für Ihre Dachsanierung" }]} />

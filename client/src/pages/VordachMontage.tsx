@@ -28,11 +28,11 @@ export default function VordachMontage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <SEO 
-        title="Vordach Montage München | 300-1.500€ | Glas & mehr"
-        description="Vordach montieren München: ✓ Glasvordach 500-1.500€ ✓ Pultdach ab 300€ ✓ Schnelle Montage ✓ Meisterbetrieb. Jetzt anfragen!"
+        title="Haustür-Vordach & Glasvordach montieren München | Ab 300€"
+        description="Vordach professionell montieren lassen: ✓ Glasvordach 500-1.500€ ✓ Pultdach ab 300€ ✓ Rundbogen ✓ Montage in 2-4 Stunden. Dachdecker München & Umgebung!"
         canonical="/vordach-montage"
-        keywords="vordach montage, vordach montieren lassen, glasvordach montage, haustür vordach, vordach eingang, vordach kosten, vordach glas, hauseingang überdachung"
-        aiSummary="Vordach Montage in München: Glasvordach 500-1.500€, Pultdach 300-800€ inkl. Montage. 089Dach Meisterbetrieb. Tel: 089 12621964."
+        keywords="vordach montage münchen, glasvordach montieren kosten, haustür vordach, hauseingang überdachung, vordach glas münchen"
+        aiSummary="Vordach Montage München und Umgebung: Glasvordach 500-1.500€, Pultdach 300-800€. 089Dach - schnelle Montage für Schwabing, Sendling, Laim. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Vordach Montage", url: "/vordach-montage" }]} />
       <ServiceSchema pageName="Vordach Montage München" services={[{ name: "Vordach-Montage", description: "Alle Vordachtypen" }]} />

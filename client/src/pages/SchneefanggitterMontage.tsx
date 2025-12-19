@@ -28,11 +28,11 @@ export default function SchneefanggitterMontage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <SEO 
-        title="Schneefanggitter Montage München | 25-50€/lfm | Pflicht!"
-        description="Schneefanggitter montieren München: ✓ Schneefang 25-50€/lfm ✓ Pflicht in Bayern ✓ Nachträgliche Montage möglich. Jetzt anfragen!"
+        title="Schneefang montieren München | Pflicht in Bayern | 25-60€/lfm"
+        description="Schneefanggitter & Schneefangrohr: ✓ 25-50€/lfm inkl. Montage ✓ Pflicht in Bayern über Eingängen ✓ Nachträgliche Montage möglich. Dachdecker München & Oberbayern!"
         canonical="/schneefanggitter-montage"
-        keywords="schneefanggitter montage, schneefang dach, schneefangrohr, schneefanggitter kosten, schneefang montieren lassen, schneefang pflicht bayern, dachlawine verhindern"
-        aiSummary="Schneefanggitter Montage München: Gitter 30-50€/lfm, Rohr 25-40€/lfm. In Bayern Pflicht über Eingängen/Wegen. 089Dach. Tel: 089 12621964."
+        keywords="schneefanggitter montage münchen, schneefang pflicht bayern, schneefangrohr kosten, dachlawine verhindern, schneefang nachträglich montieren"
+        aiSummary="Schneefanggitter Montage München und Umgebung: Gitter 30-50€/lfm, Rohr 25-40€/lfm. Pflicht in Bayern über Eingängen. 089Dach - für Schwabing, Trudering, Haar. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Schneefanggitter Montage", url: "/schneefanggitter-montage" }]} />
       <ServiceSchema pageName="Schneefanggitter Montage" services={[{ name: "Schneefang-Montage", description: "Alle Schneefangsysteme" }]} />

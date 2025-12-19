@@ -28,11 +28,11 @@ export default function TerrassendachMuenchen() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <SEO 
-        title="Terrassendach München | 150-700€/m² | Glas & Alu"
-        description="Terrassendach München: ✓ Glasdach 300-500€/m² ✓ Polycarbonat ab 150€ ✓ Lamellendach ✓ Inkl. Montage. Jetzt beraten lassen!"
+        title="Terrassenüberdachung München | Glasdach, Lamellen ab 150€/m²"
+        description="Terrasse überdachen lassen: ✓ Polycarbonat ab 150€/m² ✓ Glasdach 300-500€/m² ✓ Alu-Lamellen 400-700€/m² ✓ Winterfest nach DIN. Planung & Montage München!"
         canonical="/terrassendach-muenchen"
-        keywords="terrassendach münchen, terrassenüberdachung münchen, glasdach terrasse kosten, terrassendach glas, terrassendach alu, lamellendach terrasse, terrassendach kosten"
-        aiSummary="Terrassendach in München: Polycarbonat 150-250€/m², Glas 300-500€/m², Lamellen 400-700€/m². 089Dach plant und montiert. Tel: 089 12621964."
+        keywords="terrassendach münchen, terrassenüberdachung kosten, glasdach terrasse preis, lamellendach terrasse, alu terrassendach bayern"
+        aiSummary="Terrassendach München und Umgebung: Polycarbonat 150-250€/m², Glas 300-500€/m², Lamellen 400-700€/m². 089Dach - Ihr Partner für Solln, Grünwald, Pullach. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Terrassendach", url: "/terrassendach-muenchen" }]} />
       <ServiceSchema pageName="Terrassendach München" services={[{ name: "Terrassenüberdachung", description: "Glas, Alu, Polycarbonat" }]} />

@@ -28,11 +28,11 @@ export default function SchornsteinAbdichten() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <SEO 
-        title="Schornstein abdichten München | 250-800€ | Meisterbetrieb"
-        description="Schornstein abdichten München: ✓ Kaminanschluss 250-500€ ✓ Einfassung erneuern 400-800€ ✓ Schnelle Hilfe bei Undichtigkeit. Jetzt anfragen!"
+        title="Kamin & Schornstein abdichten München | Undicht? Schnelle Hilfe!"
+        description="Schornsteineinfassung undicht? ✓ Kaminanschluss abdichten 250-500€ ✓ Einfassung erneuern 400-800€ ✓ Bleiverwahrung & Flüssigkunststoff. Dachdecker München & Umgebung!"
         canonical="/schornstein-abdichten"
-        keywords="schornstein abdichten, kamin undicht, schornsteineinfassung undicht, kaminanschluss abdichten, schornstein wassereinbruch, bleiverwahrung schornstein, kaminverwahrung erneuern"
-        aiSummary="Schornstein abdichten in München: Kaminanschluss 250-500€, Einfassung erneuern 400-800€. 089Dach Meisterbetrieb. Tel: 089 12621964."
+        keywords="schornstein abdichten münchen, kamin undicht reparieren, schornsteineinfassung erneuern, bleiverwahrung schornstein kosten, kaminanschluss undicht"
+        aiSummary="Schornstein abdichten München und Umgebung: Kaminanschluss 250-500€, Einfassung erneuern 400-800€. 089Dach - Ihr Spezialist in Bogenhausen, Harlaching, Sendling. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Schornstein abdichten", url: "/schornstein-abdichten" }]} />
       <ServiceSchema pageName="Schornstein abdichten München" services={[{ name: "Schornsteinabdichtung", description: "Professionelle Abdichtung von Kamineinfassungen" }]} />

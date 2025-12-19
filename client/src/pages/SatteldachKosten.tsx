@@ -36,11 +36,11 @@ export default function SatteldachKosten() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <SEO 
-        title="Satteldach Kosten München | 60-200€/m² | Eindeckung & Sanierung"
-        description="Satteldach Kosten München: ✓ Betonziegel 60-90€/m² ✓ Tonziegel 80-120€/m² ✓ Schiefer 120-200€/m² ✓ Meisterbetrieb. Jetzt beraten lassen!"
+        title="Satteldach neu eindecken München | 60-200€/m² | Alle Materialien"
+        description="Satteldach Kosten München & Bayern: ✓ Betonziegel 60-90€/m² ✓ Tonziegel 80-120€/m² ✓ Schiefer 120-200€/m² ✓ Alle Farben verfügbar. Der Klassiker vom Meisterbetrieb!"
         canonical="/satteldach-kosten"
-        keywords="satteldach kosten, satteldach sanieren kosten, satteldach neu eindecken, satteldach erneuern, satteldach preis, dachsanierung satteldach, satteldach material"
-        aiSummary="Satteldach Kosten München: Beton 60-90€/m², Ton 80-120€/m², Schiefer 120-200€/m². 089Dach Meisterbetrieb. Tel: 089 12621964."
+        keywords="satteldach kosten münchen, satteldach neu eindecken preis, satteldach sanieren bayern, dachziegel satteldach, dacheindeckung kosten"
+        aiSummary="Satteldach Kosten München: Betonziegel 60-90€/m², Tonziegel 80-120€/m², Schiefer 120-200€/m². 089Dach - Satteldach-Experte für München, Pasing, Schwabing. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Satteldach Kosten", url: "/satteldach-kosten" }]} />
       <ServiceSchema pageName="Satteldach Kosten" services={[{ name: "Satteldach-Sanierung", description: "Alle Materialien" }]} />

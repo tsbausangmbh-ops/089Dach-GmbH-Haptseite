@@ -30,11 +30,11 @@ export default function DachbodenAusbauen() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <SEO 
-        title="Dachboden ausbauen München | 800-1.500€/m² | Komplett-Service"
-        description="Dachboden ausbauen München: ✓ Dämmung ✓ Trockenbau ✓ Dachfenster ✓ Komplett-Service 800-1.500€/m². Jetzt beraten lassen!"
+        title="Dachausbau München | Dachboden zu Wohnraum | 800-1.500€/m²"
+        description="Dachgeschoss ausbauen lassen: ✓ Dämmung 40-100€/m² ✓ Trockenbau ✓ Dachfenster ✓ Gaube ✓ Komplett-Service 800-1.500€/m². KfW-förderfähig! München & Oberbayern"
         canonical="/dachboden-ausbauen"
-        keywords="dachboden ausbauen kosten, dachausbau kosten, dachgeschoss ausbauen, spitzboden ausbauen, dachboden zu wohnraum, dachausbau münchen, dachgeschoss dämmen und ausbauen"
-        aiSummary="Dachboden ausbauen in München: Komplett 800-1.500€/m², nur Dämmung+Trockenbau 400-600€/m². 089Dach bietet Komplett-Service. Tel: 089 12621964."
+        keywords="dachboden ausbauen münchen, dachausbau kosten bayern, dachgeschoss ausbauen preis, spitzboden ausbauen lassen, dachgeschoss wohnraum"
+        aiSummary="Dachboden ausbauen München: Komplett 800-1.500€/m², nur Dämmung+Trockenbau 400-600€/m². 089Dach - Ihr Ausbau-Partner für München, Schwabing, Harlaching. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dachboden ausbauen", url: "/dachboden-ausbauen" }]} />
       <ServiceSchema pageName="Dachboden ausbauen München" services={[{ name: "Dachausbau", description: "Komplett-Service für Ihren Dachboden" }]} />

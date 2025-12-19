@@ -34,11 +34,11 @@ export default function DachdeckerPreise() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <SEO 
-        title="Dachdecker Preise München 2025 | Preisliste | 089Dach"
-        description="Dachdecker Preise München: ✓ Reparatur ab 80€ ✓ Neueindeckung 60-180€/m² ✓ Dachrinne 30-80€/lfm ✓ Transparente Preisliste ✓ Festpreisgarantie!"
+        title="Dachdecker Preisliste München 2025 | Stundensatz & Festpreise"
+        description="Was kostet ein Dachdecker in München? ✓ Stundensatz 55-75€ ✓ Reparaturen ab 80€ ✓ Neueindeckung 60-180€/m² ✓ Kostenloser Kostenvoranschlag. Meisterbetrieb mit Festpreisgarantie!"
         canonical="/dachdecker-preise"
-        keywords="dachdecker preise, dachdecker kosten, dachdecker stundenlohn, dachdecker preisliste, was kostet dachdecker, dachdecker kosten pro stunde, dachdecker münchen preise, dachdeckerarbeiten preise, dachdecker angebot"
-        aiSummary="Dachdecker Preise in München 2025: Stundensatz 55-75€, Reparatur ab 80€, Neueindeckung 60-180€/m². 089Dach GmbH arbeitet mit Festpreisen und bietet kostenlose Beratung. Tel: 089 12621964."
+        keywords="dachdecker preise münchen, dachdecker stundenlohn bayern, dachdecker kosten pro stunde, dachdeckerarbeiten preise, dachdecker preisliste 2025, was kostet dachdecker münchen, dachdecker angebot"
+        aiSummary="Dachdecker Preise München 2025: Stundensatz 55-75€ netto, Reparaturen ab 80€, Dachsanierung 60-180€/m². 089Dach GmbH - Festpreise für München, Starnberg, Freising, Dachau. Kostenlose Beratung: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dachdecker Preise", url: "/dachdecker-preise" }]} />
       <ServiceSchema pageName="Dachdecker Preise München" services={[{ name: "Transparente Preisgestaltung", description: "Festpreise für alle Dachdeckerarbeiten" }]} />

@@ -29,11 +29,11 @@ export default function GartenhausDach() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <SEO 
-        title="Gartenhaus Dach München | Erneuern ab 150€ | Alle Materialien"
-        description="Gartenhaus Dach erneuern München: ✓ Dachpappe ab 15€/m² ✓ Bitumenschindeln ✓ EPDM ✓ Blech ✓ Professionelle Montage. Jetzt anfragen!"
+        title="Gartenhaus-Dach decken & reparieren München | Ab 15€/m²"
+        description="Gartenhaus Dach erneuern lassen: ✓ Dachpappe ab 15€/m² ✓ Bitumenschindeln 25-40€/m² ✓ EPDM-Folie ✓ Kleine Reparaturen ab 80€. Dachdecker München & Umgebung!"
         canonical="/gartenhaus-dach"
-        keywords="gartenhaus dach, gartenhaus dach erneuern, gartenhaus dach decken, gartenhaus dach material, gartenhaus dach abdichten, gartenhaus überdachung, gartenhaus dachpappe"
-        aiSummary="Gartenhaus Dach in München: Dachpappe 15-25€/m², Bitumenschindeln 25-40€/m², EPDM 35-50€/m². 089Dach repariert und erneuert Gartenhausdächer. Tel: 089 12621964."
+        keywords="gartenhaus dach münchen, gartenhaus dach erneuern kosten, gartenhausdach abdichten, bitumenschindeln gartenhaus, dachpappe gartenhaus"
+        aiSummary="Gartenhaus Dach München: Dachpappe 15-25€/m², Bitumenschindeln 25-40€/m², EPDM 35-50€/m². 089Dach - auch für Gartenhäuser in Germering, Gräfelfing, Unterhaching. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Gartenhaus Dach", url: "/gartenhaus-dach" }]} />
       <ServiceSchema pageName="Gartenhaus Dach München" services={[{ name: "Gartenhaus-Dacheindeckung", description: "Alle Materialien für Ihr Gartenhaus" }]} />

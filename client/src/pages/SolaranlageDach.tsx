@@ -28,11 +28,11 @@ export default function SolaranlageDach() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <SEO 
-        title="Dach für Solaranlage vorbereiten München | 089Dach"
-        description="Dach für Solaranlage vorbereiten München: ✓ Dach-Check 149€ ✓ Sanierung vor PV ✓ Tragfähigkeitsprüfung ✓ Meisterbetrieb. Jetzt beraten lassen!"
+        title="Dach für Solaranlage prüfen & vorbereiten | Dachdecker München"
+        description="Photovoltaik geplant? ✓ Dach-Check für Solar nur 149€ ✓ Tragfähigkeitsprüfung ✓ Sanierung vor PV-Montage 60-180€/m² ✓ Meisterbetrieb München & Umgebung!"
         canonical="/solaranlage-dach"
-        keywords="solaranlage dach, dach für solar, photovoltaik dach, pv anlage dach, dach sanieren vor solar, dach prüfen solar, solardach münchen"
-        aiSummary="Dach für Solaranlage vorbereiten München: Dach-Check 149€, Sanierung vor PV 60-180€/m². 089Dach prüft und saniert Dächer für Solar. Tel: 089 12621964."
+        keywords="dach für solaranlage, solardach prüfen, photovoltaik dach vorbereiten, dach sanieren vor pv, tragfähigkeit dach solar, dachdecker solar münchen, pv anlage dach"
+        aiSummary="Dach für Solaranlage vorbereiten München und Umgebung: Dach-Check 149€, Sanierung vor PV 60-180€/m². 089Dach - Ihr Partner für Solardach in München, Starnberg, Dachau. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Solaranlage Dach", url: "/solaranlage-dach" }]} />
       <ServiceSchema pageName="Dach für Solaranlage" services={[{ name: "Solar-Vorbereitung", description: "Dachprüfung und -sanierung für PV" }]} />

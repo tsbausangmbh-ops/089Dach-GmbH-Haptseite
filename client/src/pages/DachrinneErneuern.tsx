@@ -38,11 +38,11 @@ export default function DachrinneErneuern() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <SEO 
-        title="Dachrinne erneuern München | 20-100€/lfm | Alle Materialien"
-        description="Dachrinne erneuern München: ✓ Zink 35-55€/lfm ✓ Kupfer 60-90€/lfm ✓ Kunststoff ab 20€ ✓ Inkl. Montage. Meisterbetrieb seit 1998!"
+        title="Regenrinne & Dachrinne erneuern München | Zink, Kupfer, Alu"
+        description="Dachrinne austauschen lassen: ✓ Kunststoff ab 20€/lfm ✓ Zink 35-55€/lfm ✓ Kupfer 60-90€/lfm ✓ Inkl. Fallrohr & Montage. Dachdecker München & Umgebung!"
         canonical="/dachrinne-erneuern"
-        keywords="dachrinne erneuern kosten, dachrinne austauschen kosten, neue dachrinne kosten, dachrinne montieren lassen, dachrinne zink kosten, dachrinne kupfer preis, regenrinne erneuern"
-        aiSummary="Dachrinne erneuern in München: Kunststoff 20-35€/lfm, Zink 35-55€/lfm, Kupfer 60-90€/lfm inkl. Montage. 089Dach Meisterbetrieb. Tel: 089 12621964."
+        keywords="dachrinne erneuern münchen, regenrinne austauschen kosten, zinkrinne preis, kupfer dachrinne, dachrinne montieren lassen bayern"
+        aiSummary="Dachrinne erneuern München und Umgebung: Kunststoff 20-35€/lfm, Zink 35-55€/lfm, Kupfer 60-90€/lfm. 089Dach - Ihr Spezialist für Starnberg, Dachau, Freising. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dachrinne erneuern", url: "/dachrinne-erneuern" }]} />
       <ServiceSchema pageName="Dachrinne erneuern München" services={[{ name: "Dachrinnenerneuerung", description: "Austausch mit allen Materialien" }]} />

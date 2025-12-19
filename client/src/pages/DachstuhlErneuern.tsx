@@ -28,11 +28,11 @@ export default function DachstuhlErneuern() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <SEO 
-        title="Dachstuhl erneuern München | 80-150€/m² | Meisterbetrieb"
-        description="Dachstuhl erneuern München: ✓ Komplett 80-150€/m² ✓ Teilsanierung ab 50€/m² ✓ Holzschutz ✓ Meisterbetrieb seit 1998. Jetzt beraten lassen!"
+        title="Dachstuhl sanieren & erneuern München | Zimmermeister-Qualität"
+        description="Dachstuhl komplett erneuern: ✓ 80-150€/m² ✓ Teilsanierung ab 50€/m² ✓ Holzschutzbehandlung ✓ Verstärkung. Zimmermeister-Qualität für München & Bayern!"
         canonical="/dachstuhl-erneuern"
-        keywords="dachstuhl erneuern kosten, dachstuhl sanieren, dachstuhl reparieren, neuer dachstuhl kosten, dachstuhl komplett erneuern, dachbalken erneuern kosten, dachkonstruktion erneuern"
-        aiSummary="Dachstuhl erneuern in München: Komplett 80-150€/m², Teilsanierung 50-100€/m². 089Dach Meisterbetrieb. Tel: 089 12621964."
+        keywords="dachstuhl erneuern münchen, dachstuhl sanieren kosten bayern, dachbalken erneuern preis, holzdachstuhl reparieren"
+        aiSummary="Dachstuhl erneuern München und Umgebung: Komplett 80-150€/m², Teilsanierung 50-100€/m². 089Dach - Zimmermeister für Pasing, Solln, Grünwald. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dachstuhl erneuern", url: "/dachstuhl-erneuern" }]} />
       <ServiceSchema pageName="Dachstuhl erneuern München" services={[{ name: "Dachstuhl-Sanierung", description: "Erneuerung und Reparatur" }]} />
