@@ -5,7 +5,7 @@ import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, Shield, Clock, Award, ArrowRight, Droplets, Leaf, Wrench, Calendar } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
-import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, ProductServiceSchema, FAQPageSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 
 export default function Dachrinnenreinigung() {
@@ -19,6 +19,18 @@ export default function Dachrinnenreinigung() {
         aiSummary="089Dach GmbH reinigt Dachrinnen in München zum Festpreis ab 150€. Laub entfernen, Fallrohre spülen, Verstopfungen lösen. Schneller Service vom Meisterbetrieb. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Leistungen", url: "/leistungen" }, { name: "Dachrinnenreinigung", url: "/leistungen/dachrinnenreinigung" }]} />
+      <ProductServiceSchema 
+        name="Dachrinnenreinigung München"
+        description="Professionelle Dachrinnenreinigung zum Festpreis. Laub entfernen, Fallrohre spülen, Verstopfungen lösen."
+        priceFrom={150}
+        priceTo={350}
+        category="Dachrinnenreinigung"
+      />
+      <FAQPageSchema faqs={[
+        { question: "Was kostet Dachrinne reinigen lassen?", answer: "Unsere Dachrinnenreinigung kostet zum Festpreis ab 150€ für ein Einfamilienhaus. Der Preis hängt von der Rinnenmeterlänge und Verschmutzungsgrad ab." },
+        { question: "Wie oft sollte man Dachrinnen reinigen lassen?", answer: "Wir empfehlen 1-2x jährlich: im Spätherbst nach dem Laubfall und im Frühjahr. Bei vielen Bäumen in der Nähe öfter." },
+        { question: "Kann ich Dachrinne selbst reinigen?", answer: "Vom Boden aus mit Teleskopstange ja. Arbeiten auf der Leiter sind gefährlich und sollten Profis überlassen werden. Wir haben die Ausrüstung und Versicherung." }
+      ]} />
       <Navbar />
       <AIBeraterSection />
       

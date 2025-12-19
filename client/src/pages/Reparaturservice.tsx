@@ -10,7 +10,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { AlertTriangle, Clock, Shield, Mail, Wrench, CloudRain, Wind, Check, Quote, MapPin, PhoneCall, ArrowRight, ShieldCheck, Award, Users } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
-import SEO, { BreadcrumbSchema, ServiceSchema, HowToSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, ServiceSchema, HowToSchema, ProductServiceSchema, FAQPageSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/damaged_red_tile_roof_before.png";
 import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
@@ -107,6 +107,18 @@ export default function Reparaturservice() {
         ]}
         totalTime="P1D"
       />
+      <ProductServiceSchema 
+        name="Dachreparatur München"
+        description="Schnelle Dachreparatur bei Wasserschäden, Sturmschäden und undichten Stellen. In der Regel innerhalb von 24h vor Ort."
+        priceFrom={150}
+        priceTo={2500}
+        category="Dachreparatur"
+      />
+      <FAQPageSchema faqs={[
+        { question: "Was tun wenn das Dach undicht ist?", answer: "Sofort handeln: Eimer unterstellen, Schaden fotografieren und uns anrufen (089 12621964). Wir kommen in der Regel innerhalb von 24 Stunden zur Notabdichtung." },
+        { question: "Was kostet eine Dachreparatur?", answer: "Kleine Reparaturen (einzelne Ziegel) kosten 150-300€. Mittlere Schäden 300-1.000€. Größere Reparaturen 1.000-2.500€. Genauen Preis nennen wir nach Begutachtung." },
+        { question: "Zahlt die Versicherung Dachreparaturen?", answer: "Bei Sturm-, Hagel- oder Wasserschäden durch höhere Gewalt zahlt die Wohngebäudeversicherung. Wir erstellen versicherungsgerechte Dokumentation und Kostenvoranschläge." }
+      ]} />
       <Navbar />
       <AIBeraterSection />
       

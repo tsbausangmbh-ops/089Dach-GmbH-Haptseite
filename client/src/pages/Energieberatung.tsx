@@ -7,7 +7,7 @@ import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle2, Euro, Home, Leaf, FileText, Phone, Quote, Award, Shield, Users } from "lucide-react";
-import SEO, { BreadcrumbSchema, ServiceSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, ServiceSchema, FAQPageSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/new_solar_panel_installation.png";
 import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
@@ -46,6 +46,11 @@ export default function Energieberatung() {
           { name: "Sanierungsfahrplan", description: "Individueller Fahrplan für Ihre energetische Sanierung" }
         ]}
       />
+      <FAQPageSchema faqs={[
+        { question: "Was kostet eine Energieberatung für das Dach?", answer: "Eine Vor-Ort-Energieberatung kostet ca. 300-500€. Das BAFA erstattet bis zu 80% der Kosten. Unsere Partner-Energieberater beraten Sie gerne." },
+        { question: "Wie viel Förderung bekomme ich für Dachsanierung?", answer: "KfW und BAFA fördern energetische Dachsanierungen mit bis zu 20% Zuschuss. Bei 30.000€ Projektkosten sind das bis zu 6.000€ Förderung." },
+        { question: "Brauche ich einen Energieberater für KfW-Förderung?", answer: "Ja, für BAFA-Einzelmaßnahmen und KfW-Effizienzhaus ist ein dena-zertifizierter Energieberater Pflicht. Wir vermitteln Sie an unsere Partner." }
+      ]} />
       <Navbar />
       <AIBeraterSection />
       

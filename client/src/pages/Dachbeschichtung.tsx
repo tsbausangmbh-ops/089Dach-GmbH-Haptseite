@@ -5,7 +5,7 @@ import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, Shield, Clock, Award, ArrowRight, Paintbrush, Sparkles, ThumbsUp, AlertTriangle } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
-import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, FAQPageSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 
 export default function Dachbeschichtung() {
@@ -19,6 +19,11 @@ export default function Dachbeschichtung() {
         aiSummary="089Dach GmbH berät ehrlich zur Dachbeschichtung in München. Wann sinnvoll, wann nicht? Professionelle Alternativen zur Beschichtung. Meisterbetrieb mit 10 Jahren Garantie. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Leistungen", url: "/leistungen" }, { name: "Dachbeschichtung", url: "/leistungen/dachbeschichtung" }]} />
+      <FAQPageSchema faqs={[
+        { question: "Ist Dachbeschichtung sinnvoll?", answer: "Nur bei intakten Ziegeln ohne Schäden und wenn das Dach noch 10-15 Jahre hält. Bei porösen, gerissenen oder verwitterten Ziegeln ist eine Neueindeckung die bessere Investition." },
+        { question: "Was kostet Dachbeschichtung pro m²?", answer: "Eine professionelle Dachbeschichtung kostet 15-30€/m² inkl. Reinigung. Bei 100m² Dachfläche sind das 1.500-3.000€. Aber: Eine Neueindeckung hält 3-4x länger!" },
+        { question: "Wie lange hält eine Dachbeschichtung?", answer: "Realistische Lebensdauer: 8-12 Jahre bei guter Verarbeitung. Hersteller-Versprechen von 20+ Jahren sind meist übertrieben. Zum Vergleich: Neue Dachziegel halten 40-100 Jahre." }
+      ]} />
       <Navbar />
       <AIBeraterSection />
       
