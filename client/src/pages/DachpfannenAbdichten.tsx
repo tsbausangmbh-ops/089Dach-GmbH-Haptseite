@@ -88,9 +88,7 @@ export default function DachpfannenAbdichten() {
               <Droplets className="w-5 h-5" />
               <span className="font-medium">Meisterbetrieb seit 1998</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Dachpfannen abdichten München
-            </h1>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"><strong>Dachpfannen abdichten</strong> München</h1>
             <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-3xl mx-auto">
               Professionelle Abdichtung von innen und außen – 
               für ein dauerhaft dichtes Dach ohne teure Neueindeckung.

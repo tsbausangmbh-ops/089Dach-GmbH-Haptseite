@@ -50,7 +50,7 @@ export default function SchornsteinAbdichten() {
               <Flame className="w-5 h-5 text-red-400" />
               <span className="font-medium text-red-300">Kamin dicht – Wärme bleibt</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Schornstein abdichten München</h1>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"><strong>Schornstein abdichten</strong></h1>
             <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-3xl mx-auto">Undichte Kamineinfassung? Wir dichten Ihren Schornstein dauerhaft ab.</p>
             <p className="text-lg text-white/70 mb-8">Ab 250€ • Schnelle Hilfe • Meisterbetrieb</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

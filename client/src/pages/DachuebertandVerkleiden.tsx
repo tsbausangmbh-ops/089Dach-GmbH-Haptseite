@@ -50,7 +50,7 @@ export default function DachuebertandVerkleiden() {
               <Paintbrush className="w-5 h-5 text-purple-400" />
               <span className="font-medium text-purple-300">Nie wieder streichen</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Dachüberstand verkleiden</h1>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"><strong>Dachüberstand verkleiden</strong> München</h1>
             <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-3xl mx-auto">Schluss mit verwittertem Holz – Verkleidung mit Kunststoff, Alu oder HPL.</p>
             <p className="text-lg text-white/70 mb-8">Ab 40€/lfm • Wartungsfrei • Meisterbetrieb</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

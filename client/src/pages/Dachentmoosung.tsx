@@ -58,7 +58,7 @@ export default function Dachentmoosung() {
               <Sparkles className="w-5 h-5 text-green-400" />
               <span className="font-medium text-green-300">Dach wie neu</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Dachentmoosung München</h1>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"><strong>Dachentmoosung</strong></h1>
             <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-3xl mx-auto">Moos, Algen, Flechten – wir reinigen Ihr Dach schonend und gründlich.</p>
             <p className="text-lg text-white/70 mb-8">Ab 10€/m² • Schonende Methoden • Meisterbetrieb</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

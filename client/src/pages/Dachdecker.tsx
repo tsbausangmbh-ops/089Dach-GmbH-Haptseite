@@ -80,9 +80,7 @@ export default function Dachdecker() {
               <Award className="w-5 h-5 text-orange-400" />
               <span className="font-medium text-orange-300">Meisterbetrieb seit 1998</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Dachdecker München
-            </h1>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"><strong>Dachdecker</strong> München</h1>
             <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-3xl mx-auto">
               Ihr zuverlässiger Dachdeckermeister für München und Umgebung – 
               von der kleinen Reparatur bis zur Komplettsanierung.

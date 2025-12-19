@@ -59,7 +59,7 @@ export default function FlachdachAbdichten() {
               <Layers className="w-5 h-5 text-cyan-400" />
               <span className="font-medium text-cyan-300">Alle Abdichtungssysteme</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Flachdach abdichten München</h1>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"><strong>Flachdach abdichten</strong></h1>
             <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-3xl mx-auto">Bitumen, EPDM, PVC oder Flüssigkunststoff – wir finden die beste Lösung für Ihr Flachdach.</p>
             <p className="text-lg text-white/70 mb-8">Ab 40€/m² • Bis 10 Jahre Garantie • Meisterbetrieb</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

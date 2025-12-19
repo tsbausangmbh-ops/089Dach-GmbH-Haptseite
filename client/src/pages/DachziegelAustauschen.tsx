@@ -73,9 +73,7 @@ export default function DachziegelAustauschen() {
               <Hammer className="w-5 h-5" />
               <span className="font-medium">Meisterbetrieb seit 1998</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Dachziegel austauschen München
-            </h1>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"><strong>Dachziegel austauschen</strong> München</h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
               Einzelne Ziegel ab 80€ – passende Ersatzziegel auch für alte Dächer. 
               Schnelle Reparatur durch Ihren Münchner Dachdeckermeister.

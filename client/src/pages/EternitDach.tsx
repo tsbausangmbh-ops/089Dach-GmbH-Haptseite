@@ -74,9 +74,7 @@ export default function EternitDach() {
               <Shield className="w-5 h-5" />
               <span className="font-medium">Zertifiziert nach TRGS 519</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Eternit Dach sanieren München
-            </h1>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"><strong>Eternit Dach sanieren</strong> München</h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
               Fachgerechte Asbestsanierung mit zertifizierter Entsorgung – 
               sicher für Sie und die Umwelt.

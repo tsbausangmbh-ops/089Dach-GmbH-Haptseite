@@ -74,9 +74,7 @@ export default function SchimmelDach() {
               <AlertTriangle className="w-5 h-5 text-yellow-400" />
               <span className="font-medium text-yellow-300">Gesundheitsrisiko – schnell handeln!</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Schimmel unterm Dach?
-            </h1>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"><strong>Schimmel unterm Dach</strong>?</h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
               Wir finden die Ursache und beheben sie dauerhaft – 
               damit Ihr Dachstuhl wieder trocken und gesund wird.

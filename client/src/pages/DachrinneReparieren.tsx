@@ -75,9 +75,7 @@ export default function DachrinneReparieren() {
               <Droplets className="w-5 h-5" />
               <span className="font-medium">Meisterbetrieb seit 1998</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Dachrinne reparieren München
-            </h1>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"><strong>Dachrinne reparieren</strong> München</h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
               Undichte Rinne? Verstopftes Fallrohr? Schnelle Reparatur ab 60€ – 
               damit das Wasser wieder richtig abfließt.

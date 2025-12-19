@@ -60,7 +60,7 @@ export default function DachfensterEinbauen() {
               <Sun className="w-5 h-5 text-yellow-400" />
               <span className="font-medium text-yellow-300">Mehr Licht unterm Dach</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Dachfenster einbauen München</h1>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"><strong>Dachfenster einbauen</strong></h1>
             <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-3xl mx-auto">VELUX, Roto, Fakro – wir bauen alle Marken fachgerecht ein. Auch nachträglich.</p>
             <p className="text-lg text-white/70 mb-8">Ab 1.200€ komplett • 1 Tag Einbauzeit • Meisterbetrieb</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

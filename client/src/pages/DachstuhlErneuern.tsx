@@ -50,7 +50,7 @@ export default function DachstuhlErneuern() {
               <Building className="w-5 h-5 text-amber-400" />
               <span className="font-medium text-amber-300">Tragwerk für Generationen</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Dachstuhl erneuern München</h1>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"><strong>Dachstuhl erneuern</strong></h1>
             <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-3xl mx-auto">Kompletterneuerung oder Teilsanierung – wir machen Ihren Dachstuhl wieder tragfähig.</p>
             <p className="text-lg text-white/70 mb-8">50-150€/m² • Zimmermeister-Qualität • Meisterbetrieb</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

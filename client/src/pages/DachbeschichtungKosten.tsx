@@ -59,7 +59,7 @@ export default function DachbeschichtungKosten() {
               <Paintbrush className="w-5 h-5 text-pink-400" />
               <span className="font-medium text-pink-300">Wie ein neues Dach</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Dachbeschichtung Kosten</h1>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"><strong>Dachbeschichtung</strong></h1>
             <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-3xl mx-auto">Ihr Dach sieht alt aus? Mit professioneller Beschichtung strahlt es wieder wie neu.</p>
             <p className="text-lg text-white/70 mb-8">30-50€/m² komplett • Viele Farben • Meisterbetrieb</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

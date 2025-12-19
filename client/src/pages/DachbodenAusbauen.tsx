@@ -52,7 +52,7 @@ export default function DachbodenAusbauen() {
               <Home className="w-5 h-5 text-violet-400" />
               <span className="font-medium text-violet-300">Mehr Wohnraum schaffen</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Dachboden ausbauen München</h1>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"><strong>Dachboden ausbauen</strong></h1>
             <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-3xl mx-auto">Aus ungenutztem Dachboden wird wertvoller Wohnraum – Dämmung, Fenster, Ausbau.</p>
             <p className="text-lg text-white/70 mb-8">800-1.500€/m² komplett • KfW-förderfähig • Meisterbetrieb</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

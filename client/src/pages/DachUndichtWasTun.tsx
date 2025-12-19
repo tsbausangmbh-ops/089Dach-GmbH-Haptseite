@@ -60,7 +60,7 @@ export default function DachUndichtWasTun() {
               <AlertTriangle className="w-5 h-5 text-red-300" />
               <span className="font-medium text-red-200">Notfall-Ratgeber</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Dach undicht – was tun?</h1>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"><strong>Dach undicht</strong> – was tun?</h1>
             <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-3xl mx-auto">Ihr Dach ist undicht? Keine Panik! Hier erfahren Sie, was Sie sofort tun können und wie wir Ihnen schnell helfen.</p>
             <p className="text-lg text-white/80 mb-8">Notdienst München • Oft am selben Tag • 24h erreichbar</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

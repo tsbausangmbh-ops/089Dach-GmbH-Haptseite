@@ -59,9 +59,9 @@ export default function DachbegruenungKosten() {
               <TreePine className="w-5 h-5 text-green-400" />
               <span className="font-medium text-green-300">Natur aufs Dach</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Dachbegrünung Kosten</h1>
-            <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-3xl mx-auto">Grünes Dach für besseres Klima – extensive oder intensive Begrünung für Ihr Flachdach.</p>
-            <p className="text-lg text-white/70 mb-8">Ab 40€/m² • Förderung möglich • Meisterbetrieb</p>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"><strong>Dachbegrünung Kosten</strong> München</h1>
+            <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-3xl mx-auto"><strong>Grünes Dach</strong> für besseres Klima – <strong>extensive</strong> oder <strong>intensive Begrünung</strong> für Ihr Flachdach.</p>
+            <p className="text-lg text-white/70 mb-8">Ab <strong>40€/m²</strong> • <strong>Förderung</strong> möglich • Meisterbetrieb</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/rueckruf"><Button size="lg" className="bg-green-600 hover:bg-green-700 text-white text-lg px-8 py-6" data-testid="button-hero-callback"><Phone className="mr-2 h-5 w-5" />Kostenlose Beratung</Button></Link>
               <Link href="/beratung"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8 py-6" data-testid="button-hero-online">24h Online Termin</Button></Link>

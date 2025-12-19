@@ -50,7 +50,7 @@ export default function FirstziegelAustauschen() {
               <ArrowUpToLine className="w-5 h-5 text-rose-400" />
               <span className="font-medium text-rose-300">Dachspitze dicht</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Firstziegel austauschen</h1>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"><strong>Firstziegel austauschen</strong> München</h1>
             <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-3xl mx-auto">Undichter First? Wir tauschen defekte Firstziegel und dichten Ihren Dachfirst ab.</p>
             <p className="text-lg text-white/70 mb-8">Ab 50€ pro Ziegel • Schnelle Reparatur • Meisterbetrieb</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

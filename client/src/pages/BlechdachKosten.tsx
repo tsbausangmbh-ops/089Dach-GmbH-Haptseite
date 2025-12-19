@@ -61,7 +61,7 @@ export default function BlechdachKosten() {
               <Layers className="w-5 h-5 text-zinc-300" />
               <span className="font-medium text-zinc-200">Modern & langlebig</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Blechdach Kosten München</h1>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"><strong>Blechdach Kosten</strong></h1>
             <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-3xl mx-auto">Trapezblech, Stehfalz, Kupfer – alle Blechdach-Varianten und ihre Kosten im Überblick.</p>
             <p className="text-lg text-white/70 mb-8">Ab 20€/m² • Lange Lebensdauer • Meisterbetrieb</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

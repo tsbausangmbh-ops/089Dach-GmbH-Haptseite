@@ -72,9 +72,7 @@ export default function Dachdaemmung() {
               <Leaf className="w-5 h-5" />
               <span className="font-medium">KfW-Förderung bis 20%</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Dachdämmung München
-            </h1>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"><strong>Dachdämmung</strong> München</h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
               Bis zu 40% Heizkosten sparen mit professioneller Dachdämmung. 
               Alle Verfahren – von Einblasdämmung bis Aufsparrendämmung.

@@ -61,7 +61,7 @@ export default function DachgaubeKosten() {
               <Home className="w-5 h-5 text-amber-400" />
               <span className="font-medium text-amber-300">Mehr Wohnraum schaffen</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Dachgaube Kosten München</h1>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"><strong>Dachgaube Kosten</strong></h1>
             <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-3xl mx-auto">Mehr Platz, mehr Licht, mehr Wert – alle Gaubentypen und Preise im Überblick.</p>
             <p className="text-lg text-white/70 mb-8">Ab 4.000€ • Inkl. Genehmigung • Meisterbetrieb</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

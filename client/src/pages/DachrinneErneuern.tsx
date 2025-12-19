@@ -60,7 +60,7 @@ export default function DachrinneErneuern() {
               <Droplets className="w-5 h-5 text-blue-400" />
               <span className="font-medium text-blue-300">Regenwasser sicher ableiten</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Dachrinne erneuern München</h1>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"><strong>Dachrinne erneuern</strong></h1>
             <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-3xl mx-auto">Zink, Kupfer, Alu oder Kunststoff – wir erneuern Ihre Dachrinne fachgerecht und schnell.</p>
             <p className="text-lg text-white/70 mb-8">Ab 20€/lfm • Inkl. Montage • Meisterbetrieb</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

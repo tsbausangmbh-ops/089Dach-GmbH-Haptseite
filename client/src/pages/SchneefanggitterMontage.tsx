@@ -50,7 +50,7 @@ export default function SchneefanggitterMontage() {
               <Snowflake className="w-5 h-5 text-sky-400" />
               <span className="font-medium text-sky-300">Schutz vor Dachlawinen</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Schneefanggitter Montage</h1>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"><strong>Schneefanggitter Montage</strong> München</h1>
             <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-3xl mx-auto">Schneefang ist in Bayern Pflicht – wir montieren alle Systeme fachgerecht.</p>
             <p className="text-lg text-white/70 mb-8">Ab 25€/lfm • Pflicht in Bayern • Meisterbetrieb</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

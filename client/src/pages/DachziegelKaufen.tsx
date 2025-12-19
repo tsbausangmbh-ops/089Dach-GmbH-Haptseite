@@ -59,7 +59,7 @@ export default function DachziegelKaufen() {
               <Package className="w-5 h-5 text-orange-400" />
               <span className="font-medium text-orange-300">Alle Ziegelarten verfügbar</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Dachziegel kaufen München</h1>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"><strong>Dachziegel kaufen</strong></h1>
             <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-3xl mx-auto">Beton, Ton, Schiefer – wir beschaffen und verlegen alle Dachziegelarten.</p>
             <p className="text-lg text-white/70 mb-8">Ab 30€/m² Material • Alle Farben • Meisterbetrieb</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

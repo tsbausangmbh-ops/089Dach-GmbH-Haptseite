@@ -74,9 +74,7 @@ export default function SturmschadenDach() {
               <Wind className="w-5 h-5 text-red-400" />
               <span className="font-medium text-red-300">24h Sturmschaden-Notdienst</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Sturmschaden am Dach?
-            </h1>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"><strong>Sturmschaden am Dach</strong>?</h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
               Schnelle Notsicherung und professionelle Reparatur. 
               Wir rechnen direkt mit Ihrer Versicherung ab.

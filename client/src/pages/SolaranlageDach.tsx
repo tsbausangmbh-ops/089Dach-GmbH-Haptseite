@@ -50,7 +50,7 @@ export default function SolaranlageDach() {
               <Zap className="w-5 h-5 text-yellow-400" />
               <span className="font-medium text-yellow-300">Bereit für die Energiewende</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Dach für Solaranlage vorbereiten</h1>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Dach für <strong>Solaranlage</strong> vorbereiten</h1>
             <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-3xl mx-auto">Bevor die Panels drauf kommen: Wir prüfen und sanieren Ihr Dach für die optimale Solarnutzung.</p>
             <p className="text-lg text-white/70 mb-8">Dach-Check 149€ • Sanierung bei Bedarf • Meisterbetrieb</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

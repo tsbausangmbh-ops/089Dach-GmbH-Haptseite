@@ -50,7 +50,7 @@ export default function TerrassendachMuenchen() {
               <Sun className="w-5 h-5 text-orange-400" />
               <span className="font-medium text-orange-300">Ganzjährig draußen genießen</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Terrassendach München</h1>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"><strong>Terrassendach</strong></h1>
             <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-3xl mx-auto">Glasdach, Polycarbonat oder Lamellen – Ihre Terrasse, perfekt überdacht.</p>
             <p className="text-lg text-white/70 mb-8">Ab 150€/m² • Mit Statik • Meisterbetrieb</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -59,7 +59,7 @@ export default function DachgeschossDaemmen() {
               <Thermometer className="w-5 h-5 text-blue-400" />
               <span className="font-medium text-blue-300">Bis 30% Heizkosten sparen</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Dachgeschoss dämmen</h1>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"><strong>Dachgeschoss dämmen</strong> München</h1>
             <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-3xl mx-auto">Wohnkomfort steigern, Heizkosten senken – professionelle Dämmung mit KfW-Förderung.</p>
             <p className="text-lg text-white/70 mb-8">Ab 40€/m² • Bis 20% Förderung • Meisterbetrieb</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
