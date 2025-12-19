@@ -4,7 +4,7 @@ import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, ArrowRight, X, Home, Warehouse, Award, ThumbsUp, ThumbsDown } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
-import SEO, { BreadcrumbSchema, FAQPageSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, FAQPageSchema, ArticleSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 
 export default function RatgeberMaterialien() {
@@ -69,6 +69,13 @@ export default function RatgeberMaterialien() {
         canonical={`https://089dach.de/ratgeber/materialien`}
         keywords={`dachziegel vergleich, tondachziegel vs betondachstein, schiefer dach kosten, metalldach vorteile, welche dachziegel sind die besten, biberschwanz ziegel preis, dacheindeckung material wahl, welcher dachziegel für altbau, denkmalschutz dachziegel münchen, engobierte dachziegel vorteile, glasierte dachziegel preis erfahrungen, dachziegel farbe wählen, dachziegel lebensdauer faktoren, dachziegel gewicht pro qm, dachziegel sturmsicher befestigen, dachziegel frostsicher kaufen, dachziegel marken vergleich, braas dachziegel erfahrungen, creaton dachziegel qualität, erlus dachziegel münchen, dachziegel recyceln möglich, ökologische dachziegel nachhaltig`}
         aiSummary="089Dach GmbH: Ehrlicher Dachziegel-Vergleich ohne Verkaufsdruck. Tondachziegel (35-80€/m², 60-100 Jahre), Betondachstein (20-40€/m², 40-60 Jahre), Schiefer (80-150€/m², 100+ Jahre), Metalleindeckung (40-100€/m², 50-80 Jahre). Kostenlose Materialberatung in München."
+      />
+      <ArticleSchema 
+        headline="Dachziegel Vergleich 2025: Ton, Beton, Schiefer, Metall"
+        description="Ehrlicher Vergleich aller Dacheindeckungsmaterialien: Lebensdauer, Kosten, Vor- und Nachteile."
+        datePublished="2025-01-01"
+        dateModified="2025-12-19"
+        keywords={["Dachziegel Vergleich", "Tondachziegel", "Betondachstein", "Schiefer", "Metalldach"]}
       />
       <FAQPageSchema faqs={[
         { question: "Welche Dachziegel sind die besten?", answer: "Es gibt keine universell 'besten' Dachziegel. Tondachziegel bieten die beste Langzeitinvestition (60-100 Jahre). Betondachsteine sind am günstigsten. Schiefer ist ideal für Denkmalschutz. Metalleindeckung eignet sich für Flachdächer und moderne Architektur." },

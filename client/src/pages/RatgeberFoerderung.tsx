@@ -4,7 +4,7 @@ import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, Euro, ArrowRight, FileText, AlertTriangle, Lightbulb, Award } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
-import SEO, { BreadcrumbSchema, FAQPageSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, FAQPageSchema, ArticleSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 
 export default function RatgeberFoerderung() {
@@ -26,6 +26,13 @@ export default function RatgeberFoerderung() {
         { question: "Kann ich KfW und BAFA kombinieren?", answer: "Für dieselbe Maßnahme nicht, aber verschiedene Maßnahmen können kombiniert werden. Beispiel: BAFA für Dachdämmung + KfW 458 für Heizungstausch. Wir optimieren Ihre Förderkombination." }
       ]} />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Ratgeber", url: "/ratgeber" }, { name: "Förderung", url: "/ratgeber/foerderung" }]} />
+      <ArticleSchema 
+        headline="Dachsanierung Förderung 2025: KfW & BAFA Zuschüsse München"
+        description="Kompletter Überblick: KfW 261, BAFA Einzelmaßnahme, Tilgungszuschüsse und iSFP-Bonus für Ihre Dachsanierung."
+        datePublished="2025-01-01"
+        dateModified="2025-12-19"
+        keywords={["KfW Förderung Dach", "BAFA Zuschuss Dachdämmung", "Förderung 2025", "Energetische Sanierung", "München"]}
+      />
       <Navbar />
       
       <section className="pt-6 pb-8 md:pt-10 md:pb-12 bg-secondary relative overflow-hidden min-h-[35vh] flex items-center">

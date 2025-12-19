@@ -4,7 +4,7 @@ import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, Euro, ArrowRight, Calculator, Home, Warehouse, Info } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
-import SEO, { BreadcrumbSchema, FAQPageSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, FAQPageSchema, ArticleSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 
 export default function RatgeberKosten() {
@@ -26,6 +26,13 @@ export default function RatgeberKosten() {
         { question: "Wann ist eine Dachsanierung am günstigsten?", answer: "Im Frühjahr (März-Mai) und Herbst (September-Oktober) sind die Preise oft günstiger als in der Hochsaison. Außerdem empfiehlt sich, Dämmung und Eindeckung zusammen zu machen statt getrennt." }
       ]} />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Ratgeber", url: "/ratgeber" }, { name: "Kosten", url: "/ratgeber/kosten" }]} />
+      <ArticleSchema 
+        headline="Dachsanierung Kosten 2025: Preise pro m² in München"
+        description="Aktuelle Preisübersicht für Dachsanierung in München: Steildach, Flachdach, mit und ohne Dämmung."
+        datePublished="2025-01-01"
+        dateModified="2025-12-19"
+        keywords={["Dachsanierung Kosten", "Preise pro m²", "München 2025", "Steildach", "Flachdach"]}
+      />
       <Navbar />
       
       <section className="pt-6 pb-8 md:pt-10 md:pb-12 bg-secondary relative overflow-hidden min-h-[35vh] flex items-center">

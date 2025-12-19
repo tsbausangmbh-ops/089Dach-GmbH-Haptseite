@@ -5,7 +5,7 @@ import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, Shield, Clock, AlertTriangle, ArrowRight, CloudRain, Wind, Zap, FileText } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
-import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, FAQPageSchema, HowToSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 
 export default function Sturmschaden() {
@@ -19,6 +19,23 @@ export default function Sturmschaden() {
         aiSummary="089Dach GmbH bietet 24h Soforthilfe bei Sturmschäden am Dach in München. Notsicherung, Reparatur und komplette Versicherungsabwicklung. Schnelle Anfahrt in 2 Stunden. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Leistungen", url: "/leistungen" }, { name: "Sturmschaden", url: "/leistungen/sturmschaden" }]} />
+      <FAQPageSchema faqs={[
+        { question: "Was tun bei Sturmschaden am Dach?", answer: "Sofort handeln: 1. Gebäude auf Sicherheit prüfen, 2. Schäden fotografieren, 3. Versicherung informieren, 4. Dachdecker-Notdienst rufen (089 12621964). Wir kommen in 2 Stunden zur Notsicherung." },
+        { question: "Zahlt die Versicherung Sturmschäden am Dach?", answer: "Ja, die Wohngebäudeversicherung deckt Sturmschäden ab Windstärke 8 (62 km/h). Wichtig: Schaden innerhalb von 72 Stunden melden. Wir erstellen versicherungsgerechte Dokumentation." },
+        { question: "Was kostet eine Sturmschaden-Reparatur?", answer: "Kosten variieren stark: Notsicherung mit Plane 200-500€, einzelne Ziegel 50-200€, größere Reparaturen 500-5.000€. Bei Versicherungsschäden erstellen wir Kostenvoranschlag zur Einreichung." }
+      ]} />
+      <HowToSchema 
+        name="Sturmschaden am Dach - Sofort-Anleitung"
+        description="Was Sie bei Sturmschaden am Dach sofort tun sollten - Schritt für Schritt vom Dachdecker-Meister"
+        totalTime="PT2H"
+        estimatedCost="200-5000"
+        steps={[
+          { name: "Sicherheit prüfen", text: "Betreten Sie keine beschädigten Bereiche. Bei Wassereintritt Strom abschalten." },
+          { name: "Schaden dokumentieren", text: "Fotografieren Sie alle Schäden. Sichern Sie Wetterbericht als Beweis." },
+          { name: "Versicherung informieren", text: "Melden Sie den Schaden innerhalb von 72 Stunden Ihrer Gebäudeversicherung." },
+          { name: "Notdienst rufen", text: "Rufen Sie uns an: 089 12621964. Wir kommen zur Notsicherung und verhindern Folgeschäden." }
+        ]}
+      />
       <Navbar />
       <AIBeraterSection />
       
