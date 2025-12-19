@@ -82,12 +82,7 @@ export default function SturmschadenDach() {
               Wir rechnen direkt mit Ihrer Versicherung ab.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:+498912621964">
-                <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white text-lg px-8 py-6" data-testid="button-hero-call">
-                  <Phone className="mr-2 h-5 w-5" />
-                  Notdienst: 089 12621964
-                </Button>
-              </a>
+              <Link href="/rueckruf"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8" data-testid="button-online">24h Onlinetermin</Button></Link>
               <Link href="/rueckruf">
                 <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8 py-6" data-testid="button-hero-callback">
                   Rückruf anfordern
@@ -198,12 +193,7 @@ export default function SturmschadenDach() {
               24h Notdienst für schnelle Notsicherung und Reparatur
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:+498912621964">
-                <Button size="lg" className="bg-white text-red-700 hover:bg-red-50 text-lg px-8" data-testid="button-cta-call">
-                  <Phone className="mr-2 h-5 w-5" />
-                  089 12621964 anrufen
-                </Button>
-              </a>
+              <Link href="/rueckruf"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8" data-testid="button-online">24h Onlinetermin</Button></Link>
               <Link href="/rueckruf">
                 <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8" data-testid="button-cta-callback">
                   Rückruf anfordern

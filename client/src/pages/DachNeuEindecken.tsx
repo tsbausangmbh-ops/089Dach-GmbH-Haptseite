@@ -118,11 +118,7 @@ export default function DachNeuEindecken() {
                   Kostenloses Angebot
                 </Button>
               </Link>
-              <a href="tel:+498912621964">
-                <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8 py-6" data-testid="button-hero-call">
-                  089 12621964
-                </Button>
-              </a>
+              <Link href="/rueckruf"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8" data-testid="button-online">24h Onlinetermin</Button></Link>
             </div>
           </div>
         </div>
@@ -230,12 +226,7 @@ export default function DachNeuEindecken() {
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
               </Link>
-              <a href="tel:+498912621964">
-                <Button size="lg" variant="outline" className="border-orange-600 text-orange-600 hover:bg-orange-50 text-lg px-8" data-testid="button-cta-call">
-                  <Phone className="mr-2 h-5 w-5" />
-                  089 12621964
-                </Button>
-              </a>
+              <Link href="/rueckruf"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8" data-testid="button-online">24h Onlinetermin</Button></Link>
             </div>
           </div>
         </div>

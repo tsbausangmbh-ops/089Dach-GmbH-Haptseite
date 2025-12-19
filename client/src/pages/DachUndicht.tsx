@@ -80,11 +80,7 @@ export default function DachUndicht() {
               Wir kommen zur Notabdichtung – meist noch am selben Tag.
             </p>
             <div className="flex flex-wrap gap-4 mt-6">
-              <a href="tel:+498912621964">
-                <Button size="lg" className="bg-yellow-500 hover:bg-yellow-400 text-black font-bold" data-testid="button-anrufen-hero">
-                  <Phone className="h-5 w-5 mr-2" /> Jetzt anrufen: 089 12621964
-                </Button>
-              </a>
+              <Link href="/rueckruf"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8" data-testid="button-online">24h Onlinetermin</Button></Link>
               <a href="/kontakt">
                 <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-red-900" data-testid="button-contact-hero">
                   Kontakt aufnehmen
@@ -182,11 +178,7 @@ export default function DachUndicht() {
               Je länger Wasser eindringt, desto größer der Schaden. Schimmel, faule Balken, 
               kaputte Dämmung – das wird schnell teuer. Rufen Sie jetzt an!
             </p>
-            <a href="tel:+498912621964">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-white">
-                <Phone className="h-5 w-5 mr-2" /> 089 12621964 anrufen
-              </Button>
-            </a>
+            <Link href="/rueckruf"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8" data-testid="button-online">24h Onlinetermin</Button></Link>
           </div>
         </div>
       </section>

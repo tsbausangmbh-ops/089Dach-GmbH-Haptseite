@@ -61,7 +61,7 @@ export default function DachdeckerPreise() {
             <p className="text-lg text-white/70 mb-8">Festpreisgarantie • Keine versteckten Kosten • Kostenlose Beratung</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/rueckruf"><Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-6" data-testid="button-hero-callback"><Phone className="mr-2 h-5 w-5" />Kostenloses Angebot</Button></Link>
-              <a href="tel:+498912621964"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8 py-6" data-testid="button-hero-call">089 12621964</Button></a>
+              <Link href="/rueckruf"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8 py-6" data-testid="button-hero-online">24h Onlinetermin</Button></Link>
             </div>
           </div>
         </div>
@@ -145,7 +145,7 @@ export default function DachdeckerPreise() {
             <p className="text-xl text-slate-600 mb-8">Wir erstellen Ihnen ein kostenloses Festpreis-Angebot für Ihr Projekt.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/rueckruf"><Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8" data-testid="button-cta-callback">Kostenloses Angebot<ArrowRight className="ml-2 h-5 w-5" /></Button></Link>
-              <a href="tel:+498912621964"><Button size="lg" variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50 text-lg px-8" data-testid="button-cta-call"><Phone className="mr-2 h-5 w-5" />089 12621964</Button></a>
+              <Link href="/rueckruf"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8" data-testid="button-online-cta">24h Onlinetermin</Button></Link>
             </div>
           </div>
         </div>
