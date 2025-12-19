@@ -8,7 +8,7 @@ import { CheckCircle2, ArrowRight, Home, Warehouse, ShieldCheck, Quote, AlertTri
 import heroImage from "@assets/generated_images/roofer_working_on_red_tile_roof_munich.png";
 import tileImage from "@assets/generated_images/red_roof_tiles_texture_close_up.png";
 import LeadFunnel from "@/components/LeadFunnel";
-import SEO, { BreadcrumbSchema, ServiceSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, ServiceSchema, ProductServiceSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import { FlachdachMuenchenContent } from "@/components/SEOContent";
@@ -31,6 +31,14 @@ export default function Bedachungen() {
           { name: "Flachdach Abdichtung", description: "Premiummaterialien für Garagen, Anbauten und große Gewerbeobjekte" },
           { name: "Energetische Dachsanierung", description: "Moderne Dämmung mit bis zu 30% Heizkostenersparnis inkl. KfW/BAFA Förderberatung" }
         ]}
+      />
+      <ProductServiceSchema 
+        name="Dacheindeckung München"
+        description="Steildach neu eindecken mit Tondachziegeln, Betonsteinen oder Schiefer. 10 Jahre Garantie."
+        priceFrom={80}
+        priceTo={250}
+        priceUnit="pro m²"
+        category="Bedachungen"
       />
       <Navbar />
       <AIBeraterSection />

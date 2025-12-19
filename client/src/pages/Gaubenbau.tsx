@@ -7,7 +7,7 @@ import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle2, Home, Sun, Maximize, Euro, Phone, Quote, Award, Shield, Users } from "lucide-react";
-import SEO, { BreadcrumbSchema, ServiceSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, ServiceSchema, ProductServiceSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/renovated_dormer_window_after.png";
 import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
@@ -45,6 +45,13 @@ export default function Gaubenbau() {
           { name: "Gaubensanierung", description: "Modernisierung und Reparatur bestehender Gauben" },
           { name: "Genehmigungsplanung", description: "Bauanträge und Statik durch unser Partnernetzwerk" }
         ]}
+      />
+      <ProductServiceSchema 
+        name="Gaubenbau München"
+        description="Schleppgaube, Spitzgaube, Flachdachgaube - Komplettservice von Planung bis Fertigstellung inkl. Baugenehmigung."
+        priceFrom={12000}
+        priceTo={35000}
+        category="Gaubenbau"
       />
       <Navbar />
       <AIBeraterSection />

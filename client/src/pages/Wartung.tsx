@@ -10,7 +10,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { CalendarCheck, Shield, Clock, Mail, Search, Droplets, Leaf, Check, Quote, PhoneCall, ArrowRight, ShieldCheck, Award, Users, ClipboardCheck, Settings } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
-import SEO, { BreadcrumbSchema, ServiceSchema, HowToSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, ServiceSchema, HowToSchema, ProductServiceSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/roofer_tools_arranged_cleanly.png";
 import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
@@ -105,6 +105,13 @@ export default function Wartung() {
           { name: "Profi-Inspektion buchen", text: "Lassen Sie einmal jährlich einen Dachdecker-Meister Ihr Dach prüfen. Rufen Sie 089 12621964 für einen Termin." }
         ]}
         totalTime="PT2H"
+      />
+      <ProductServiceSchema 
+        name="Dachwartung München"
+        description="Jährliche Dachinspektion, Dachrinnenreinigung und Moosentfernung. Schäden früh erkennen."
+        priceFrom={250}
+        priceTo={450}
+        category="Dachwartung"
       />
       <Navbar />
       <AIBeraterSection />

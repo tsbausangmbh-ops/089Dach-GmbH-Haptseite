@@ -7,7 +7,7 @@ import { ArrowRight, Wrench, ShieldCheck, PenTool, CheckCircle2, Quote, Hammer, 
 import heroImage from "@assets/generated_images/copper_roof_gutter_detail.png";
 import detailImage from "@assets/generated_images/metal_standing_seam_roof_detail.png";
 import LeadFunnel from "@/components/LeadFunnel";
-import SEO, { BreadcrumbSchema, ServiceSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, ServiceSchema, ProductServiceSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import { SpenglereiMuenchenContent } from "@/components/SEOContent";
@@ -30,6 +30,14 @@ export default function Spenglerei() {
           { name: "Kamineinfassungen", description: "Maßgefertigte Verkleidungen für Schornsteine" },
           { name: "Stehfalzdach", description: "Hochwertige Metalldächer mit langer Lebensdauer" }
         ]}
+      />
+      <ProductServiceSchema 
+        name="Spenglerarbeiten München"
+        description="Dachrinnen aus Kupfer, Zink und Aluminium. Kamineinfassungen, Stehfalzdächer. Handgefertigt in eigener Werkstatt."
+        priceFrom={25}
+        priceTo={120}
+        priceUnit="pro Laufmeter"
+        category="Spenglerei"
       />
       <Navbar />
       <AIBeraterSection />
