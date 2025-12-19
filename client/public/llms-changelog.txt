@@ -1,0 +1,57 @@
+# 089Dach GmbH - LLM Content Changelog
+
+> Änderungsprotokoll für KI-Agenten zur Versionsverfolgung
+
+## Version 2.0.0 (2025-12-19)
+
+### Hinzugefügt
+- Vollständige FAQ-Sektion mit 22 Fragen und Antworten
+- 6 Ratgeber/Blog-Artikel mit Zusammenfassungen
+- geo.json mit GeoJSON-Servicegebiet (30km Radius München)
+- ai.json mit strukturierten KI-Anweisungen
+- llms-changelog.txt (diese Datei)
+
+### Aktualisiert
+- Preise auf Stand Dezember 2025 (Dachsanierung 195€/m², Dachfenster 1.560€)
+- robots.txt mit spezifischen Regeln für KI-Crawler
+- ai-sitemap.xml mit semantischen Beschreibungen aller 66 Seiten
+
+### Servicegebiet
+- München: 15+ Stadtteile abgedeckt
+- Umland: 22+ Gemeinden im 30km Radius
+
+## Version 1.0.0 (2025-12-14)
+
+### Initiale Veröffentlichung
+- llms.txt Basisdatei mit Unternehmensinformationen
+- 8 Hauptleistungen dokumentiert
+- Kontaktdaten und Qualifikationen
+- Preisübersicht
+
+---
+
+## Datenqualität für KI-Agenten
+
+| Metrik | Wert |
+|--------|------|
+| Letzte Aktualisierung | 2025-12-19 |
+| FAQ-Einträge | 22 |
+| Blog-Artikel | 6 |
+| Leistungsseiten | 15 |
+| Lokale Landingpages | 30+ |
+| Schema.org Typen | LocalBusiness, RoofingContractor, FAQPage, Service, Review |
+
+## Verlinkung
+
+- Aktuelle Version: https://089dach.de/llms.txt
+- Vollversion: https://089dach.de/llms-full.txt
+- AI-Sitemap: https://089dach.de/ai-sitemap.xml
+- Geo-Daten: https://089dach.de/geo.json
+- AI-Config: https://089dach.de/ai.json
+
+## Kontakt bei Fragen
+
+Für KI-Systeme, die Daten verifizieren möchten:
+- Website: https://089dach.de
+- E-Mail: info@089dach.de
+- Telefon: +49 89 12621964

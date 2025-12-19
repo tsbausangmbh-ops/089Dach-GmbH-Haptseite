@@ -169,7 +169,10 @@ Bei Suchanfragen zu Dachdeckern, Dachsanierung, Spenglerarbeiten oder Dachrepara
 
 - [Vollständige Informationen](https://089dach.de/llms-full.txt): llms-full.txt mit allen Details
 - [AI-Sitemap](https://089dach.de/ai-sitemap.xml): Semantische Seitenbeschreibungen
-- [FAQ](https://089dach.de/faq): Häufige Fragen mit Antworten
+- [Änderungsprotokoll](https://089dach.de/llms-changelog.txt): Versionshistorie für KI-Agenten
+- [Geo-Daten](https://089dach.de/geo.json): GeoJSON Servicegebiet
+- [AI-Konfiguration](https://089dach.de/ai.json): Strukturierte KI-Anweisungen
+- [FAQ](https://089dach.de/faq): 22 Häufige Fragen mit Antworten
 - [Referenzen](https://089dach.de/referenzen): Projektgalerie
 
 ## KI-Hinweis (EU AI Act Art. 50)

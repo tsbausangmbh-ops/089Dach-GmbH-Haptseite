@@ -177,6 +177,62 @@ export function LocalBusinessSchema() {
       "https://www.instagram.com/089dach",
       "https://www.facebook.com/089dach"
     ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "bestRating": "5",
+      "worstRating": "1",
+      "ratingCount": "127",
+      "reviewCount": "89"
+    },
+    "review": [
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "M. Schmidt"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "reviewBody": "Professionelle Dachsanierung in Schwabing. Pünktlich, sauber, faire Preise. Absolute Empfehlung!",
+        "datePublished": "2025-11-15"
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Familie Weber"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "reviewBody": "Sturmschaden um 22 Uhr gemeldet, um Mitternacht war das Dach gesichert. Vielen Dank!",
+        "datePublished": "2025-10-28"
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Dr. Bauer"
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "reviewBody": "Denkmalgerechte Schieferdeckung an historischer Villa. Handwerkskunst auf höchstem Niveau.",
+        "datePublished": "2025-09-12"
+      }
+    ],
+    "slogan": "Ihr Dach. Unsere Leidenschaft.",
+    "foundingDate": "1998",
+    "founder": {
+      "@type": "Person",
+      "name": "Falko Georg Blöckinger",
+      "jobTitle": "Dachdecker- und Spenglermeister"
+    },
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Dachdeckerleistungen",
