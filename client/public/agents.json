@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2024-12-14",
+  "last_updated": "2025-12-19",
   "organization": {
     "name": "089Dach GmbH",
     "type": "RoofingContractor",
@@ -19,7 +19,12 @@
       "dachfenster münchen",
       "heizkosten sparen dach",
       "dämmung rechner",
-      "kostenvoranschlag dach münchen"
+      "kostenvoranschlag dach münchen",
+      "dachdecker gröbenzell",
+      "dachdecker puchheim",
+      "dachdecker olching",
+      "dachdecker eching",
+      "dachdecker fürstenfeldbruck"
     ],
     "consultation_framework": {
       "name": "NBLP",
@@ -133,6 +138,20 @@
       "VELUX-zertifizierter Partner",
       "TRGS 519 Asbest-Zertifizierung",
       "Mitglied Dachdecker-Innung München"
+    ]
+  },
+  "service_area": {
+    "primary": "München-Obermenzing",
+    "radius_km": 30,
+    "priority_zones": [
+      {"name": "Gröbenzell", "plz": "82194", "url": "/dachdecker-groebenzell", "travel_min": 15},
+      {"name": "Puchheim", "plz": "82178", "url": "/dachdecker-puchheim", "travel_min": 18},
+      {"name": "Olching", "plz": "82140", "url": "/dachdecker-olching", "travel_min": 20},
+      {"name": "Eching", "plz": "85386", "url": "/dachdecker-eching", "travel_min": 25},
+      {"name": "Gräfelfing", "plz": "82166", "url": "/dachdecker-graefelfing", "travel_min": 8},
+      {"name": "Karlsfeld", "plz": "85757", "url": "/dachdecker-karlsfeld", "travel_min": 12},
+      {"name": "Dachau", "plz": "85221", "url": "/dachdecker-dachau", "travel_min": 20},
+      {"name": "Germering", "plz": "82110", "url": "/dachdecker-germering", "travel_min": 15}
     ]
   },
   "seo_signals": {
