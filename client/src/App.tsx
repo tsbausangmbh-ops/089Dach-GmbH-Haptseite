@@ -85,6 +85,9 @@ import Sturmschaden from "@/pages/Sturmschaden";
 import Dachbeschichtung from "@/pages/Dachbeschichtung";
 import Dachrinnenreinigung from "@/pages/Dachrinnenreinigung";
 import Notdienst from "@/pages/Notdienst";
+import Dachreparatur from "@/pages/Dachreparatur";
+import Flachdachsanierung from "@/pages/Flachdachsanierung";
+import DachUndicht from "@/pages/DachUndicht";
 import CookieConsent from "@/components/CookieConsent";
 import BackgroundLogo from "@/components/BackgroundLogo";
 import { LocalBusinessSchema } from "@/components/SEO";
@@ -188,6 +191,9 @@ function Router() {
       <Route path="/leistungen/dachbeschichtung" component={Dachbeschichtung} />
       <Route path="/leistungen/dachrinnenreinigung" component={Dachrinnenreinigung} />
       <Route path="/leistungen/notdienst" component={Notdienst} />
+      <Route path="/dachreparatur" component={Dachreparatur} />
+      <Route path="/flachdachsanierung" component={Flachdachsanierung} />
+      <Route path="/dach-undicht" component={DachUndicht} />
       <Route component={NotFound} />
     </Switch>
     </>
