@@ -95,6 +95,7 @@ import SturmschadenDach from "@/pages/SturmschadenDach";
 import DachrinneReparieren from "@/pages/DachrinneReparieren";
 import SchimmelDach from "@/pages/SchimmelDach";
 import EternitDach from "@/pages/EternitDach";
+import DachpfannenAbdichten from "@/pages/DachpfannenAbdichten";
 import CookieConsent from "@/components/CookieConsent";
 import BackgroundLogo from "@/components/BackgroundLogo";
 import { LocalBusinessSchema } from "@/components/SEO";
@@ -208,6 +209,7 @@ function Router() {
       <Route path="/dachrinne-reparieren" component={DachrinneReparieren} />
       <Route path="/schimmel-dach" component={SchimmelDach} />
       <Route path="/eternit-dach" component={EternitDach} />
+      <Route path="/dachpfannen-abdichten" component={DachpfannenAbdichten} />
       <Route component={NotFound} />
     </Switch>
     </>
