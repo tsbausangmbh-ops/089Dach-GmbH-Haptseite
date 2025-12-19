@@ -6,6 +6,7 @@ import { Phone, CheckCircle2, ArrowRight, Wind, AlertTriangle, FileText, Camera,
 import SEO, { BreadcrumbSchema, ServiceSchema, FAQPageSchema, ProductServiceSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 import { Link } from "wouter";
+import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
 
 export default function SturmschadenDach() {
   const sofortMassnahmen = [
@@ -61,8 +62,12 @@ export default function SturmschadenDach() {
       
       <Navigation />
       
-      <section className="relative py-20 bg-gradient-to-br from-slate-700 via-slate-800 to-slate-900 text-white overflow-hidden">
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0zNiAxOGMtOS45NDEgMC0xOCA4LjA1OS0xOCAxOHM4LjA1OSAxOCAxOCAxOCAxOC04LjA1OSAxOC0xOC04LjA1OS0xOC0xOC0xOHoiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjAzKSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9nPjwvc3ZnPg==')] opacity-20"></div>
+      <section className="relative py-20 text-white overflow-hidden min-h-[60vh] flex items-center">
+        <div 
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: `url(${heroImage})` }}
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-900/95 via-slate-900/85 to-slate-900/70"></div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 bg-red-500/20 backdrop-blur-sm px-4 py-2 rounded-full mb-6 border border-red-500/30">

@@ -100,6 +100,36 @@ import DachAbdichten from "@/pages/DachAbdichten";
 import DachNeuEindecken from "@/pages/DachNeuEindecken";
 import Dachdecker from "@/pages/Dachdecker";
 import DachDecken from "@/pages/DachDecken";
+import DachsanierungKosten from "@/pages/DachsanierungKosten";
+import DachdeckerPreise from "@/pages/DachdeckerPreise";
+import DachUndichtWasTun from "@/pages/DachUndichtWasTun";
+import FlachdachAbdichten from "@/pages/FlachdachAbdichten";
+import DachgaubeKosten from "@/pages/DachgaubeKosten";
+import DachfensterEinbauen from "@/pages/DachfensterEinbauen";
+import DachrinneErneuern from "@/pages/DachrinneErneuern";
+import BlechdachKosten from "@/pages/BlechdachKosten";
+import CarportDach from "@/pages/CarportDach";
+import GartenhausDach from "@/pages/GartenhausDach";
+import TerrassendachMuenchen from "@/pages/TerrassendachMuenchen";
+import VordachMontage from "@/pages/VordachMontage";
+import DachbodenAusbauen from "@/pages/DachbodenAusbauen";
+import SchornsteinAbdichten from "@/pages/SchornsteinAbdichten";
+import Dachentmoosung from "@/pages/Dachentmoosung";
+import SchneefanggitterMontage from "@/pages/SchneefanggitterMontage";
+import DachstuhlErneuern from "@/pages/DachstuhlErneuern";
+import FirstziegelAustauschen from "@/pages/FirstziegelAustauschen";
+import KehleDachReparieren from "@/pages/KehleDachReparieren";
+import DachuebertandVerkleiden from "@/pages/DachuebertandVerkleiden";
+import OrtgangErneuern from "@/pages/OrtgangErneuern";
+import TraufblechMontieren from "@/pages/TraufblechMontieren";
+import SolaranlageDach from "@/pages/SolaranlageDach";
+import DachbegruenungKosten from "@/pages/DachbegruenungKosten";
+import AsbestDachSanieren from "@/pages/AsbestDachSanieren";
+import DachgeschossDaemmen from "@/pages/DachgeschossDaemmen";
+import WalmdachKosten from "@/pages/WalmdachKosten";
+import SatteldachKosten from "@/pages/SatteldachKosten";
+import DachziegelKaufen from "@/pages/DachziegelKaufen";
+import DachbeschichtungKosten from "@/pages/DachbeschichtungKosten";
 import CookieConsent from "@/components/CookieConsent";
 import BackgroundLogo from "@/components/BackgroundLogo";
 import { LocalBusinessSchema } from "@/components/SEO";
@@ -218,6 +248,36 @@ function Router() {
       <Route path="/dach-neu-eindecken" component={DachNeuEindecken} />
       <Route path="/dachdecker-muenchen" component={Dachdecker} />
       <Route path="/dach-decken" component={DachDecken} />
+      <Route path="/dachsanierung-kosten" component={DachsanierungKosten} />
+      <Route path="/dachdecker-preise" component={DachdeckerPreise} />
+      <Route path="/dach-undicht-was-tun" component={DachUndichtWasTun} />
+      <Route path="/flachdach-abdichten" component={FlachdachAbdichten} />
+      <Route path="/dachgaube-kosten" component={DachgaubeKosten} />
+      <Route path="/dachfenster-einbauen" component={DachfensterEinbauen} />
+      <Route path="/dachrinne-erneuern" component={DachrinneErneuern} />
+      <Route path="/blechdach-kosten" component={BlechdachKosten} />
+      <Route path="/carport-dach" component={CarportDach} />
+      <Route path="/gartenhaus-dach" component={GartenhausDach} />
+      <Route path="/terrassendach-muenchen" component={TerrassendachMuenchen} />
+      <Route path="/vordach-montage" component={VordachMontage} />
+      <Route path="/dachboden-ausbauen" component={DachbodenAusbauen} />
+      <Route path="/schornstein-abdichten" component={SchornsteinAbdichten} />
+      <Route path="/dachentmoosung" component={Dachentmoosung} />
+      <Route path="/schneefanggitter-montage" component={SchneefanggitterMontage} />
+      <Route path="/dachstuhl-erneuern" component={DachstuhlErneuern} />
+      <Route path="/firstziegel-austauschen" component={FirstziegelAustauschen} />
+      <Route path="/kehle-dach-reparieren" component={KehleDachReparieren} />
+      <Route path="/dachueberstand-verkleiden" component={DachuebertandVerkleiden} />
+      <Route path="/ortgang-erneuern" component={OrtgangErneuern} />
+      <Route path="/traufblech-montieren" component={TraufblechMontieren} />
+      <Route path="/solaranlage-dach" component={SolaranlageDach} />
+      <Route path="/dachbegruenung-kosten" component={DachbegruenungKosten} />
+      <Route path="/asbest-dach-sanieren" component={AsbestDachSanieren} />
+      <Route path="/dachgeschoss-daemmen" component={DachgeschossDaemmen} />
+      <Route path="/walmdach-kosten" component={WalmdachKosten} />
+      <Route path="/satteldach-kosten" component={SatteldachKosten} />
+      <Route path="/dachziegel-kaufen" component={DachziegelKaufen} />
+      <Route path="/dachbeschichtung-kosten" component={DachbeschichtungKosten} />
       <Route component={NotFound} />
     </Switch>
     </>

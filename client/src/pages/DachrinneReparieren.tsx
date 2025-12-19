@@ -6,6 +6,7 @@ import { Phone, CheckCircle2, ArrowRight, Droplets, Wrench, Euro, AlertTriangle 
 import SEO, { BreadcrumbSchema, ServiceSchema, FAQPageSchema, ProductServiceSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 import { Link } from "wouter";
+import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
 
 export default function DachrinneReparieren() {
   const leistungen = [
@@ -62,8 +63,12 @@ export default function DachrinneReparieren() {
       
       <Navigation />
       
-      <section className="relative py-20 bg-gradient-to-br from-cyan-600 via-blue-600 to-indigo-700 text-white overflow-hidden">
-        <div className="absolute inset-0 bg-black/20"></div>
+      <section className="relative py-20 text-white overflow-hidden min-h-[60vh] flex items-center">
+        <div 
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: `url(${heroImage})` }}
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-900/95 via-slate-900/85 to-slate-900/70"></div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
