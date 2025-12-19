@@ -7,7 +7,7 @@ import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle2, FileText, Ruler, Building2, Phone, Quote, Award, Shield, Users } from "lucide-react";
-import SEO, { BreadcrumbSchema, ServiceSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, ServiceSchema, FAQPageSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/homeowner_roof_consultation_scene.png";
 import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
@@ -46,6 +46,11 @@ export default function Architektenleistungen() {
           { name: "Projektbegleitung", description: "Koordination und Begleitung bis zur Fertigstellung" }
         ]}
       />
+      <FAQPageSchema faqs={[
+        { question: "Brauche ich für Dachausbau eine Baugenehmigung?", answer: "In Bayern ist Dachausbau meist genehmigungspflichtig. Ausnahmen: Reine Dämmung ohne Nutzungsänderung. Gauben und Aufstockungen brauchen immer Genehmigung. Wir klären das für Sie." },
+        { question: "Was kostet ein Bauantrag für Dachausbau?", answer: "Architektenkosten für Bauantrag: ca. 1.500-4.000€ je nach Umfang. Plus Genehmigungsgebühren Stadt München ca. 200-500€. Unsere Partner erstellen verbindliche Angebote." },
+        { question: "Wie lange dauert Baugenehmigung für Dachausbau?", answer: "In München 6-12 Wochen. Bei Denkmalschutz oder komplexen Projekten länger. Tipp: Mit Bauvoranfrage (4 Wochen) vorab Machbarkeit klären." }
+      ]} />
       <Navbar />
       <AIBeraterSection />
       

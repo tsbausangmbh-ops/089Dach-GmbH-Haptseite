@@ -4,7 +4,7 @@ import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
 import { MapPin, Phone, ArrowRight, CheckCircle2 } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
-import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, FAQPageSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 
 const stadtteile = [
@@ -88,6 +88,11 @@ export default function Stadtteile() {
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Stadtteile", url: "/stadtteile" }]} />
       <ServiceAreaListSchema />
+      <FAQPageSchema faqs={[
+        { question: "Wo arbeitet 089Dach überall?", answer: "Wir arbeiten in allen Münchner Stadtteilen und im Umland bis 30 km Radius: Starnberg, Dachau, Fürstenfeldbruck, Germering, Unterschleißheim und mehr." },
+        { question: "Wie weit fährt 089Dach?", answer: "Von unserem Standort in München-Obermenzing fahren wir bis zu 30 km. Bei größeren Projekten auch weiter." },
+        { question: "Gibt es Anfahrtskosten?", answer: "Für München und direktes Umland (ca. 15 km) keine Anfahrtskosten. Darüber hinaus nach Absprache." }
+      ]} />
       <Navbar />
       
       <section className="pt-6 pb-8 md:pt-10 md:pb-12 bg-secondary relative overflow-hidden min-h-[30vh] flex items-center">

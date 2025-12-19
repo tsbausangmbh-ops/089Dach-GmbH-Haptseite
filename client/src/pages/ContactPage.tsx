@@ -5,7 +5,7 @@ import BackButton from "@/components/BackButton";
 import { Button } from "@/components/ui/button";
 import { Phone } from "lucide-react";
 import contactImage from "@assets/generated_images/friendly_woman_on_phone_in_office.png";
-import SEO, { BreadcrumbSchema, LocalBusinessSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, LocalBusinessSchema, FAQPageSchema } from "@/components/SEO";
 
 export default function ContactPage() {
   return (
@@ -19,6 +19,11 @@ export default function ContactPage() {
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Kontakt", url: "/kontakt" }]} />
       <LocalBusinessSchema />
+      <FAQPageSchema faqs={[
+        { question: "Wie kann ich 089Dach am besten erreichen?", answer: "Telefonisch unter 089 12621964 (Mo-Fr 8-17 Uhr), per E-Mail an info@089dach.de oder über unser Kontaktformular. Wir antworten innerhalb von 24 Stunden." },
+        { question: "Wo ist 089Dach?", answer: "Thuillestraße 20, 81247 München-Obermenzing. Gut erreichbar aus ganz München und Umgebung." },
+        { question: "Kostet die Erstberatung etwas?", answer: "Nein, die Vor-Ort-Beratung und der Kostenvoranschlag sind komplett kostenlos und unverbindlich." }
+      ]} />
       <Navbar />
       
       {/* Hero Section */}

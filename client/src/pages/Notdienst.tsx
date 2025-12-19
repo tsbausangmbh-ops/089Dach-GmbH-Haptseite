@@ -5,7 +5,7 @@ import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
 import { Phone, Clock, CheckCircle2, Shield, AlertTriangle, Zap, ArrowRight, MessageCircle } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
-import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, FAQPageSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 
 function EmergencyServiceSchema() {
@@ -55,6 +55,11 @@ export default function Notdienst() {
         aiSummary={`089Dach GmbH bietet 24/7 Dachdecker-Notdienst in München und Umgebung. Schnelle Hilfe bei Sturmschäden, Wasserschäden und Dachnotfällen. Tel: 089 12621964.`}
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Leistungen", url: "/leistungen" }, { name: "Notdienst", url: "/leistungen/notdienst" }]} />
+      <FAQPageSchema faqs={[
+        { question: "Ist der Dachnotdienst wirklich 24 Stunden erreichbar?", answer: "Ja, wir sind 24/7 erreichbar - auch an Wochenenden und Feiertagen. Rufen Sie uns an: 089 12621964." },
+        { question: "Was kostet der Notdienst außerhalb der Geschäftszeiten?", answer: "Es gibt einen Notdienstzuschlag von ca. 50€. Die eigentliche Reparatur wird zum normalen Preis abgerechnet. Keine versteckten Kosten." },
+        { question: "Wie schnell sind Sie bei einem Dachnotfall vor Ort?", answer: "In München und direkter Umgebung in der Regel innerhalb von 1-2 Stunden. Bei extremen Wetterlagen kann es länger dauern." }
+      ]} />
       <EmergencyServiceSchema />
       <Navbar />
       <AIBeraterSection />

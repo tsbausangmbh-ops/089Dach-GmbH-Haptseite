@@ -3,12 +3,13 @@ import Footer from "@/components/Footer";
 import Contact from "@/components/Contact";
 import LeadFunnel from "@/components/LeadFunnel";
 import { ArrowUpRight, Clock, Euro, CheckCircle2, Phone, Shield, Users, Award } from "lucide-react";
-import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, FAQPageSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
 
 import heroImage from "@assets/generated_images/completed_roof_showcase_reference.png";
+import { ItemListSchema } from "@/components/SEO";
 
 import before1 from "@assets/generated_images/obermenzing_einfamilienhaus_vorher.png";
 import img1 from "@assets/generated_images/obermenzing_einfamilienhaus_nachher.png";

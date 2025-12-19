@@ -5,7 +5,7 @@ import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
 import { CheckCircle2, Euro, ArrowRight, Shield, FileText, Calculator, Phone, Users, Star, AlertTriangle, Heart, Lock, Clock } from "lucide-react";
 import { Link } from "wouter";
-import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, ArticleSchema, FAQPageSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 import heroImage from "@assets/generated_images/roof_consultation_with_homeowner.png";
 
@@ -23,6 +23,17 @@ export default function RatgeberBeratung() {
         { name: "Home", url: "/" }, 
         { name: "Tipps & Tricks", url: "/ratgeber" },
         { name: "Kostenlose Beratung + Festpreis", url: "/ratgeber/beratung" }
+      ]} />
+      <ArticleSchema 
+        headline="Kostenlose Dachberatung & Festpreis-Angebot"
+        description="Wie Sie eine kostenlose Vor-Ort-Beratung erhalten und ein verbindliches Festpreis-Angebot für Ihre Dachsanierung bekommen."
+        datePublished="2025-01-15"
+        dateModified="2025-12-19"
+      />
+      <FAQPageSchema faqs={[
+        { question: "Ist die Dachberatung wirklich kostenlos?", answer: "Ja, komplett kostenlos und unverbindlich. Wir kommen zu Ihnen, begutachten das Dach und erstellen ein Festpreis-Angebot - ohne Kosten für Sie." },
+        { question: "Wie verbindlich ist ein Festpreis-Angebot?", answer: "100% verbindlich. Der Preis im Angebot ist der Preis, den Sie zahlen. Bei unvorhergesehenen Problemen (z.B. versteckte Schäden) sprechen wir vorher mit Ihnen." },
+        { question: "Wie schnell bekomme ich ein Angebot?", answer: "Nach dem Vor-Ort-Termin erhalten Sie innerhalb von 3-5 Werktagen ein detailliertes schriftliches Angebot." }
       ]} />
       <Navbar />
       

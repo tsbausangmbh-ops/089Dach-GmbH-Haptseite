@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { CheckCircle2, AlertTriangle, ThermometerSun, Droplets, Leaf, ArrowRight, BookOpen, Quote, Shield, Users, Award, Phone, HelpCircle, Lightbulb } from "lucide-react";
 import { Link } from "wouter";
-import SEO, { BreadcrumbSchema, CollectionPageSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, CollectionPageSchema, FAQPageSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 import gegArticleImage from "@assets/generated_images/homeowner_roof_consultation_scene.png";
 import ratgeberHeroImage from "@assets/generated_images/roofing_expert_with_checklist.png";
@@ -108,6 +108,11 @@ export default function Ratgeber() {
         description="Expertenwissen zu Dachsanierung, Wartung und Förderungen speziell für München und Oberbayern"
         items={guides.map(g => ({ title: g.title, description: g.solution, category: g.category }))}
       />
+      <FAQPageSchema faqs={[
+        { question: "Wann sollte ich mein Dach sanieren lassen?", answer: "Wenn Ziegel brüchig sind, Moos stark wächst, es reinregnet oder Ihr Dach älter als 40 Jahre ist. Eine kostenlose Inspektion schafft Klarheit." },
+        { question: "Wie viel kann ich mit Dämmung sparen?", answer: "Eine gute Dachdämmung spart bis zu 30% Heizkosten. Bei durchschnittlichen Häusern sind das 500-1.500€ pro Jahr." },
+        { question: "Welche Förderung gibt es 2025?", answer: "KfW und BAFA fördern energetische Dachsanierung mit bis zu 20% Zuschuss. Plus 5% Bonus mit Sanierungsfahrplan (iSFP)." }
+      ]} />
       <Navbar />
       
       {/* Hero Section */}

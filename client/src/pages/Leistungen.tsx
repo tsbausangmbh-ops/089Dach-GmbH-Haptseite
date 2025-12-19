@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Home, Warehouse, Wrench, Hammer, ShieldCheck, Ruler, CheckCircle2, Quote, Award, Shield, Users, Phone } from "lucide-react";
 import heroImage from "@assets/generated_images/modern_house_with_anthracite_roof.png";
 import LeadFunnel from "@/components/LeadFunnel";
-import SEO, { BreadcrumbSchema, ServiceSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, ServiceSchema, FAQPageSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 
 export default function Leistungen() {
@@ -169,6 +169,11 @@ export default function Leistungen() {
         aiSummary="089Dach GmbH bietet umfassende Dachdeckerleistungen in München: Dachsanierung, Steildach, Flachdach, Spenglerarbeiten, Dachfenster, Gaubenbau, Wartung und Energieberatung. Meisterbetrieb seit 1998. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Leistungen", url: "/leistungen" }]} />
+      <FAQPageSchema faqs={[
+        { question: "Welche Dacharbeiten bieten Sie an?", answer: "Wir bieten alle Dacharbeiten: Steildach, Flachdach, Spenglerei, Dachfenster, Gaubenbau, Dämmung, Wartung und Reparatur. Alles aus einer Hand vom Meisterbetrieb." },
+        { question: "Wie schnell können Sie einen Termin machen?", answer: "Für Beratungstermine meist innerhalb 1 Woche. Bei Notfällen am selben Tag. Rufen Sie an: 089 12621964." },
+        { question: "Arbeiten Sie auch außerhalb von München?", answer: "Ja, wir arbeiten in ganz München und im Umkreis von 30km: Starnberg, Dachau, Fürstenfeldbruck, Freising, Erding und mehr." }
+      ]} />
       <ServiceSchema 
         pageName="Dachdecker Leistungen München"
         services={[

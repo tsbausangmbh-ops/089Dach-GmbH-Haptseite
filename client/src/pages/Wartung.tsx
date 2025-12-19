@@ -10,7 +10,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { CalendarCheck, Shield, Clock, Mail, Search, Droplets, Leaf, Check, Quote, PhoneCall, ArrowRight, ShieldCheck, Award, Users, ClipboardCheck, Settings } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
-import SEO, { BreadcrumbSchema, ServiceSchema, HowToSchema, ProductServiceSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, ServiceSchema, HowToSchema, ProductServiceSchema, FAQPageSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/roofer_tools_arranged_cleanly.png";
 import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
@@ -113,6 +113,11 @@ export default function Wartung() {
         priceTo={450}
         category="Dachwartung"
       />
+      <FAQPageSchema faqs={[
+        { question: "Wie oft sollte ich mein Dach warten lassen?", answer: "Wir empfehlen eine jährliche Dachinspektion - am besten im Frühjahr nach dem Winter oder im Herbst vor dem Winter. Bei älteren Dächern (40+ Jahre) halbjährlich." },
+        { question: "Was kostet eine Dachwartung?", answer: "Unsere Dachwartung kostet ab 250€ für ein Einfamilienhaus. Inklusive Inspektion, Dachrinnenreinigung und Kleinreparaturen." },
+        { question: "Kann ich mein Dach selbst warten?", answer: "Einfache Kontrollen vom Boden aus sind möglich. Für alles auf dem Dach (Moosentfernung, Rinnenreinigung in der Höhe) empfehlen wir den Profi - zu gefährlich und ohne Versicherung." }
+      ]} />
       <Navbar />
       <AIBeraterSection />
       

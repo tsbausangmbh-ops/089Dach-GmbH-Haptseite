@@ -4,7 +4,7 @@ import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
 import { Phone, MapPin, Clock, CheckCircle2, Star, Shield, Award, ArrowRight } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
-import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, FAQPageSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 
 const stadtteilData = {
@@ -63,6 +63,11 @@ export default function StadtteilObermenzing() {
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Obermenzing. Spezialisiert auf exklusive Villen. Tel: 089 12621964.`}
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Stadtteile", url: "/stadtteile" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-${stadtteilData.name.toLowerCase()}` }]} />
+      <FAQPageSchema faqs={[
+        { question: "Welcher Dachdecker ist für Obermenzing zuständig?", answer: "089Dach GmbH hat seinen Firmensitz direkt in Obermenzing (Thuillestr. 20). Wir sind Ihr lokaler Dachdecker-Meisterbetrieb vor Ort." },
+        { question: "Wie schnell ist 089Dach in Obermenzing vor Ort?", answer: "Da wir in Obermenzing ansässig sind, sind wir bei Notfällen in wenigen Minuten bei Ihnen. Für reguläre Termine vereinbaren wir kurzfristig." },
+        { question: "Arbeitet 089Dach auch mit Schiefer und Kupfer?", answer: "Ja, wir sind auf hochwertige Materialien wie Schiefer und Kupfer spezialisiert - perfekt für die Villen in Obermenzing." }
+      ]} />
       <NearbyServiceSchema />
       <Navbar />
       

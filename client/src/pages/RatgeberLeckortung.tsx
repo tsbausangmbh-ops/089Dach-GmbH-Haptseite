@@ -5,7 +5,7 @@ import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
 import { CheckCircle2, Droplets, ArrowRight, Search, Shield, Clock, Phone, AlertTriangle, TrendingUp, Users, Star, XCircle } from "lucide-react";
 import { Link } from "wouter";
-import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, ArticleSchema, HowToSchema, FAQPageSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 import heroImage from "@assets/generated_images/roof_leak_detection_scene.png";
 import { KeywordLink } from "@/components/KeywordLink";
@@ -24,6 +24,28 @@ export default function RatgeberLeckortung() {
         { name: "Home", url: "/" }, 
         { name: "Tipps & Tricks", url: "/ratgeber" },
         { name: "Leckortung & Reparatur", url: "/ratgeber/leckortung" }
+      ]} />
+      <ArticleSchema 
+        headline="Dachleck finden: Leckortung mit Thermografie"
+        description="Wie wir undichte Stellen im Dach mit Wärmebildkamera präzise lokalisieren und dauerhaft reparieren."
+        datePublished="2025-01-20"
+        dateModified="2025-12-19"
+      />
+      <HowToSchema
+        name="Dachleck finden und reparieren"
+        description="So finden Sie ein Dachleck und lassen es professionell reparieren."
+        steps={[
+          { name: "Wasserfleck dokumentieren", text: "Fotografieren Sie den Wasserfleck an der Decke und markieren Sie die Stelle. Notieren Sie, wann der Fleck größer wird (bei Regen?)." },
+          { name: "Dachboden prüfen", text: "Wenn möglich, schauen Sie im Dachboden nach. Nasse Stellen, Verfärbungen oder Schimmel zeigen die ungefähre Position." },
+          { name: "Fachmann rufen", text: "Kontaktieren Sie uns (089 12621964). Wir kommen mit Thermografie-Kamera und lokalisieren das Leck präzise." },
+          { name: "Leck reparieren", text: "Nach Lokalisierung beheben wir die undichte Stelle dauerhaft - mit 10 Jahren Garantie." }
+        ]}
+        totalTime="PT2H"
+      />
+      <FAQPageSchema faqs={[
+        { question: "Was kostet Leckortung am Dach?", answer: "Thermografie-Leckortung kostet 200-400€. Bei anschließender Reparaturbeauftragung bei uns rechnen wir die Kosten an." },
+        { question: "Kann man Dachlecks selbst finden?", answer: "Schwierig. Wasser läuft oft an Sparren entlang und tritt weit entfernt vom eigentlichen Leck aus. Thermografie zeigt die echte Ursache." },
+        { question: "Zahlt Versicherung Leckortung?", answer: "Bei Sturmschäden oft ja. Wir erstellen versicherungsgerechte Dokumentation und helfen bei der Schadenmeldung." }
       ]} />
       <Navbar />
       

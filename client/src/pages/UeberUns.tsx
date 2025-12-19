@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import portraitGF from "@assets/generated_images/german_businessman_portrait_gf.png";
 import portraitMeister from "@assets/generated_images/german_master_roofer_portrait.png";
 import heroImage from "@assets/generated_images/roofing_team_partnership_handshake.png";
-import SEO, { BreadcrumbSchema, AboutPageSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, AboutPageSchema, FAQPageSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 import { KeywordLink, HighlightedKeyword } from "@/components/KeywordLink";
 
@@ -22,6 +22,11 @@ export default function UeberUns() {
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Über uns", url: "/ueber-uns" }]} />
       <AboutPageSchema />
+      <FAQPageSchema faqs={[
+        { question: "Seit wann gibt es 089Dach?", answer: "Unser Dachdeckermeister arbeitet seit 1998 selbstständig. 089Dach GmbH wurde 2020 gegründet und führt die Tradition weiter." },
+        { question: "Ist 089Dach ein Meisterbetrieb?", answer: "Ja, wir sind ein eingetragener Dachdeckermeisterbetrieb. Unser Meister hat seinen Meisterbrief 1998 erhalten." },
+        { question: "Wie viele Projekte hat 089Dach bereits durchgeführt?", answer: "Über 200 erfolgreich abgeschlossene Dachprojekte in München und Umgebung - von Einfamilienhaus bis Villa, von Reparatur bis Komplettsanierung." }
+      ]} />
       <Navbar />
       
       {/* Hero Section */}
