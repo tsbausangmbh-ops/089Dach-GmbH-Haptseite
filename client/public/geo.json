@@ -1,6 +1,8 @@
 {
   "type": "FeatureCollection",
   "name": "089Dach GmbH Servicegebiet",
+  "description": "Dachdecker-Meisterbetrieb München - Servicegebiet 30km Radius",
+  "lastUpdated": "2025-12-19",
   "features": [
     {
       "type": "Feature",
@@ -8,11 +10,13 @@
         "name": "089Dach GmbH Hauptsitz",
         "type": "headquarters",
         "address": "Thuillestr. 20, 81247 München",
+        "plz": "81247",
         "phone": "+49 89 12621964",
         "email": "info@089dach.de",
         "website": "https://089dach.de",
         "openingHours": "Mo-Fr 07:00-18:00",
-        "serviceRadius": "30km"
+        "serviceRadius": "30km",
+        "url": "https://089dach.de"
       },
       "geometry": {
         "type": "Point",
@@ -46,7 +50,10 @@
       "properties": {
         "name": "München-Obermenzing",
         "type": "priority_district",
-        "priority": 1
+        "priority": 1,
+        "plz": "81247",
+        "travelTime": "0 Min",
+        "url": "https://089dach.de/dachdecker-obermenzing"
       },
       "geometry": {
         "type": "Point",
@@ -58,7 +65,10 @@
       "properties": {
         "name": "München-Pasing",
         "type": "priority_district",
-        "priority": 2
+        "priority": 2,
+        "plz": "81241",
+        "travelTime": "5 Min",
+        "url": "https://089dach.de/dachdecker-pasing"
       },
       "geometry": {
         "type": "Point",
@@ -70,7 +80,10 @@
       "properties": {
         "name": "München-Laim",
         "type": "district",
-        "priority": 3
+        "priority": 3,
+        "plz": "80686",
+        "travelTime": "8 Min",
+        "url": "https://089dach.de/dachdecker-laim"
       },
       "geometry": {
         "type": "Point",
@@ -80,25 +93,91 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "München-Schwabing",
+        "name": "München-Nymphenburg",
         "type": "district",
-        "priority": 4
+        "priority": 4,
+        "plz": "80638",
+        "travelTime": "6 Min",
+        "url": "https://089dach.de/dachdecker-nymphenburg"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [11.5833, 48.1667]
+        "coordinates": [11.5017, 48.1583]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "München-Sendling",
+        "name": "München-Neuhausen",
         "type": "district",
-        "priority": 5
+        "priority": 5,
+        "plz": "80636",
+        "travelTime": "10 Min",
+        "url": "https://089dach.de/dachdecker-neuhausen"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [11.5417, 48.1083]
+        "coordinates": [11.5333, 48.1567]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "München-Moosach",
+        "type": "district",
+        "priority": 6,
+        "plz": "80993",
+        "travelTime": "10 Min",
+        "url": "https://089dach.de/dachdecker-moosach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.5000, 48.1833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "München-Allach",
+        "type": "district",
+        "priority": 7,
+        "plz": "80999",
+        "travelTime": "8 Min",
+        "url": "https://089dach.de/dachdecker-allach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.4500, 48.1917]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "München-Feldmoching",
+        "type": "district",
+        "priority": 8,
+        "plz": "80995",
+        "travelTime": "15 Min",
+        "url": "https://089dach.de/dachdecker-feldmoching"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.5250, 48.2167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "München-Hadern",
+        "type": "district",
+        "priority": 9,
+        "plz": "81375",
+        "travelTime": "5 Min",
+        "url": "https://089dach.de/dachdecker-hadern"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.4667, 48.1167]
       }
     },
     {
@@ -106,7 +185,10 @@
       "properties": {
         "name": "Gräfelfing",
         "type": "surrounding_city",
-        "distance": "5km"
+        "distance": "5km",
+        "plz": "82166",
+        "travelTime": "8 Min",
+        "url": "https://089dach.de/dachdecker-graefelfing"
       },
       "geometry": {
         "type": "Point",
@@ -116,57 +198,11 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Germering",
-        "type": "surrounding_city",
-        "distance": "10km"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [11.3667, 48.1333]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Dachau",
-        "type": "surrounding_city",
-        "distance": "15km"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [11.4342, 48.2603]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Starnberg",
-        "type": "surrounding_city",
-        "distance": "25km"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [11.3406, 47.9981]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Fürstenfeldbruck",
-        "type": "surrounding_city",
-        "distance": "20km"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [11.2547, 48.1789]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Gröbenzell",
         "type": "surrounding_city",
         "distance": "12km",
+        "plz": "82194",
+        "travelTime": "15 Min",
         "url": "https://089dach.de/dachdecker-groebenzell"
       },
       "geometry": {
@@ -180,6 +216,8 @@
         "name": "Puchheim",
         "type": "surrounding_city",
         "distance": "14km",
+        "plz": "82178",
+        "travelTime": "18 Min",
         "url": "https://089dach.de/dachdecker-puchheim"
       },
       "geometry": {
@@ -193,6 +231,8 @@
         "name": "Olching",
         "type": "surrounding_city",
         "distance": "16km",
+        "plz": "82140",
+        "travelTime": "20 Min",
         "url": "https://089dach.de/dachdecker-olching"
       },
       "geometry": {
@@ -203,14 +243,151 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Germering",
+        "type": "surrounding_city",
+        "distance": "10km",
+        "plz": "82110",
+        "travelTime": "15 Min",
+        "url": "https://089dach.de/dachdecker-germering"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.3667, 48.1333]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Karlsfeld",
+        "type": "surrounding_city",
+        "distance": "10km",
+        "plz": "85757",
+        "travelTime": "12 Min",
+        "url": "https://089dach.de/dachdecker-karlsfeld"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.4667, 48.2250]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dachau",
+        "type": "surrounding_city",
+        "distance": "18km",
+        "plz": "85221",
+        "travelTime": "20 Min",
+        "url": "https://089dach.de/dachdecker-dachau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.4342, 48.2603]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Eching",
         "type": "surrounding_city",
         "distance": "20km",
+        "plz": "85386",
+        "travelTime": "25 Min",
         "url": "https://089dach.de/dachdecker-eching"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [11.6167, 48.2833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Unterschleißheim",
+        "type": "surrounding_city",
+        "distance": "15km",
+        "plz": "85716",
+        "travelTime": "18 Min",
+        "url": "https://089dach.de/dachdecker-unterschleissheim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.5750, 48.2833]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fürstenfeldbruck",
+        "type": "surrounding_city",
+        "distance": "20km",
+        "plz": "82256",
+        "travelTime": "22 Min",
+        "url": "https://089dach.de/dachdecker-fuerstenfeldbruck"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.2547, 48.1789]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Starnberg",
+        "type": "surrounding_city",
+        "distance": "25km",
+        "plz": "82319",
+        "travelTime": "25 Min",
+        "url": "https://089dach.de/dachdecker-starnberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.3406, 47.9981]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Freising",
+        "type": "surrounding_city",
+        "distance": "35km",
+        "plz": "85354",
+        "travelTime": "35 Min",
+        "url": "https://089dach.de/dachdecker-freising"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.7489, 48.4028]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Erding",
+        "type": "surrounding_city",
+        "distance": "40km",
+        "plz": "85435",
+        "travelTime": "40 Min",
+        "url": "https://089dach.de/dachdecker-erding"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.9067, 48.3064]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ottobrunn",
+        "type": "surrounding_city",
+        "distance": "18km",
+        "plz": "85521",
+        "travelTime": "25 Min",
+        "url": "https://089dach.de/dachdecker-ottobrunn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.6650, 48.0650]
       }
     }
   ]

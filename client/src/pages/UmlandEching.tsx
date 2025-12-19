@@ -34,10 +34,21 @@ function NearbyServiceSchema() {
     "@type": "Service",
     "@id": "https://089dach.de/dachdecker-eching/#service",
     "name": `Dachdecker ${stadtteilData.fullName}`,
-    "description": `Professionelle Dachdeckerarbeiten in ${stadtteilData.fullName}. Meisterbetrieb aus München.`,
-    "provider": { "@type": "RoofingContractor", "name": "089Dach GmbH", "telephone": "+49-89-12621964" },
-    "areaServed": { "@type": "Place", "name": stadtteilData.fullName },
-    "serviceType": ["Dachsanierung", "Flachdach", "Dachdämmung", "Dachrinnen"]
+    "description": `Professionelle Dachdeckerarbeiten in ${stadtteilData.fullName}. Meisterbetrieb aus München. Dachsanierung ab 195€/m².`,
+    "provider": {
+      "@type": "RoofingContractor",
+      "name": "089Dach GmbH",
+      "telephone": "+49-89-12621964",
+      "address": { "@type": "PostalAddress", "streetAddress": "Thuillestr. 20", "addressLocality": "München", "postalCode": "81247", "addressCountry": "DE" }
+    },
+    "areaServed": {
+      "@type": "Place",
+      "name": stadtteilData.fullName,
+      "geo": { "@type": "GeoCoordinates", "latitude": 48.2833, "longitude": 11.6167 },
+      "address": { "@type": "PostalAddress", "postalCode": "85386", "addressLocality": "Eching", "addressCountry": "DE" }
+    },
+    "serviceType": ["Dachsanierung", "Flachdach", "Dachdämmung", "Dachrinnen"],
+    "offers": { "@type": "Offer", "priceSpecification": { "@type": "PriceSpecification", "price": "195", "priceCurrency": "EUR", "unitText": "pro m²" } }
   };
   return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
 }

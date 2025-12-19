@@ -39,14 +39,44 @@ function NearbyServiceSchema() {
     "@type": "Service",
     "@id": "https://089dach.de/dachdecker-groebenzell/#service",
     "name": `Dachdecker ${stadtteilData.fullName}`,
-    "description": `Professionelle Dachdeckerarbeiten in ${stadtteilData.fullName}. Meisterbetrieb aus München.`,
+    "description": `Professionelle Dachdeckerarbeiten in ${stadtteilData.fullName}. Meisterbetrieb aus München. Dachsanierung ab 195€/m².`,
     "provider": {
       "@type": "RoofingContractor",
       "name": "089Dach GmbH",
-      "telephone": "+49-89-12621964"
+      "telephone": "+49-89-12621964",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Thuillestr. 20",
+        "addressLocality": "München",
+        "postalCode": "81247",
+        "addressCountry": "DE"
+      }
     },
-    "areaServed": { "@type": "Place", "name": stadtteilData.fullName },
-    "serviceType": ["Dachsanierung", "Ziegeleindeckung", "Dachdämmung", "Dachrinnen"]
+    "areaServed": { 
+      "@type": "Place", 
+      "name": stadtteilData.fullName,
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 48.2000,
+        "longitude": 11.3667
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "postalCode": "82194",
+        "addressLocality": "Gröbenzell",
+        "addressCountry": "DE"
+      }
+    },
+    "serviceType": ["Dachsanierung", "Ziegeleindeckung", "Dachdämmung", "Dachrinnen"],
+    "offers": {
+      "@type": "Offer",
+      "priceSpecification": {
+        "@type": "PriceSpecification",
+        "price": "195",
+        "priceCurrency": "EUR",
+        "unitText": "pro m²"
+      }
+    }
   };
   return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
 }

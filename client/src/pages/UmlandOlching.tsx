@@ -34,10 +34,21 @@ function NearbyServiceSchema() {
     "@type": "Service",
     "@id": "https://089dach.de/dachdecker-olching/#service",
     "name": `Dachdecker ${stadtteilData.fullName}`,
-    "description": `Professionelle Dachdeckerarbeiten in ${stadtteilData.fullName}. Meisterbetrieb aus München.`,
-    "provider": { "@type": "RoofingContractor", "name": "089Dach GmbH", "telephone": "+49-89-12621964" },
-    "areaServed": { "@type": "Place", "name": stadtteilData.fullName },
-    "serviceType": ["Dachsanierung", "Ziegeleindeckung", "Dachdämmung", "Dachrinnen"]
+    "description": `Professionelle Dachdeckerarbeiten in ${stadtteilData.fullName}. Meisterbetrieb aus München. Dachsanierung ab 195€/m².`,
+    "provider": {
+      "@type": "RoofingContractor",
+      "name": "089Dach GmbH",
+      "telephone": "+49-89-12621964",
+      "address": { "@type": "PostalAddress", "streetAddress": "Thuillestr. 20", "addressLocality": "München", "postalCode": "81247", "addressCountry": "DE" }
+    },
+    "areaServed": {
+      "@type": "Place",
+      "name": stadtteilData.fullName,
+      "geo": { "@type": "GeoCoordinates", "latitude": 48.2167, "longitude": 11.3333 },
+      "address": { "@type": "PostalAddress", "postalCode": "82140", "addressLocality": "Olching", "addressCountry": "DE" }
+    },
+    "serviceType": ["Dachsanierung", "Ziegeleindeckung", "Dachdämmung", "Dachrinnen"],
+    "offers": { "@type": "Offer", "priceSpecification": { "@type": "PriceSpecification", "price": "195", "priceCurrency": "EUR", "unitText": "pro m²" } }
   };
   return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
 }
