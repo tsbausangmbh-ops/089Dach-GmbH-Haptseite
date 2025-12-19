@@ -66,6 +66,12 @@ import UmlandOttobrunn from "@/pages/UmlandOttobrunn";
 import StadtteilRamersdorf from "@/pages/StadtteilRamersdorf";
 import StadtteilHaidhausen from "@/pages/StadtteilHaidhausen";
 import StadtteilMilbertshofen from "@/pages/StadtteilMilbertshofen";
+import StadtteilMaxvorstadt from "@/pages/StadtteilMaxvorstadt";
+import StadtteilLehel from "@/pages/StadtteilLehel";
+import StadtteilThalkirchen from "@/pages/StadtteilThalkirchen";
+import StadtteilHadern from "@/pages/StadtteilHadern";
+import StadtteilWestend from "@/pages/StadtteilWestend";
+import StadtteilBergAmLaim from "@/pages/StadtteilBergAmLaim";
 import Flachdach from "@/pages/Flachdach";
 import Sturmschaden from "@/pages/Sturmschaden";
 import Dachbeschichtung from "@/pages/Dachbeschichtung";
@@ -155,6 +161,12 @@ function Router() {
       <Route path="/dachdecker-ramersdorf-perlach" component={StadtteilRamersdorf} />
       <Route path="/dachdecker-au-haidhausen" component={StadtteilHaidhausen} />
       <Route path="/dachdecker-milbertshofen" component={StadtteilMilbertshofen} />
+      <Route path="/dachdecker-maxvorstadt" component={StadtteilMaxvorstadt} />
+      <Route path="/dachdecker-lehel" component={StadtteilLehel} />
+      <Route path="/dachdecker-thalkirchen" component={StadtteilThalkirchen} />
+      <Route path="/dachdecker-hadern" component={StadtteilHadern} />
+      <Route path="/dachdecker-westend" component={StadtteilWestend} />
+      <Route path="/dachdecker-berg-am-laim" component={StadtteilBergAmLaim} />
       <Route path="/leistungen/flachdach" component={Flachdach} />
       <Route path="/leistungen/sturmschaden" component={Sturmschaden} />
       <Route path="/leistungen/dachbeschichtung" component={Dachbeschichtung} />
