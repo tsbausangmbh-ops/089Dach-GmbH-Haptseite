@@ -2,30 +2,26 @@ import { MapPin, Clock, Shield } from "lucide-react";
 import { Link } from "wouter";
 
 const stadtteile = [
+  { name: "Allach-Untermenzing", url: "/dachdecker-allach" },
   { name: "Pasing-Obermenzing", url: "/dachdecker-pasing" },
-  { name: "Schwabing", url: "/dachdecker-schwabing" },
-  { name: "Bogenhausen", url: "/dachdecker-bogenhausen" },
-  { name: "Sendling", url: "/dachdecker-sendling" },
-  { name: "Harlaching", url: "/dachdecker-harlaching" },
-  { name: "Trudering", url: "/dachdecker-trudering" },
   { name: "Moosach", url: "/dachdecker-moosach" },
+  { name: "Feldmoching-Hasenbergl", url: "/dachdecker-feldmoching" },
+  { name: "Aubing-Lochhausen", url: "/dachdecker-aubing" },
   { name: "Nymphenburg", url: "/dachdecker-nymphenburg" },
-  { name: "Giesing", url: "/dachdecker-giesing" },
   { name: "Neuhausen", url: "/dachdecker-neuhausen" },
-  { name: "Solln", url: "/dachdecker-solln" },
+  { name: "Laim", url: "/dachdecker-laim" },
   { name: "Hadern", url: "/dachdecker-hadern" }
 ];
 
 const umland = [
+  { name: "Karlsfeld", url: "/dachdecker-karlsfeld" },
+  { name: "Dachau", url: "/dachdecker-dachau" },
+  { name: "Gröbenzell", url: "/dachdecker-groebenzell" },
+  { name: "Puchheim", url: "/dachdecker-puchheim" },
+  { name: "Olching", url: "/dachdecker-olching" },
   { name: "Gräfelfing", url: "/dachdecker-graefelfing" },
-  { name: "Ottobrunn", url: "/dachdecker-ottobrunn" },
-  { name: "Unterföhring", url: "/dachdecker-unterfoehring" },
-  { name: "Pullach", url: "/dachdecker-pullach" },
-  { name: "Grünwald", url: "/dachdecker-gruenwald" },
-  { name: "Planegg", url: "/dachdecker-planegg" },
   { name: "Fürstenfeldbruck", url: "/dachdecker-fuerstenfeldbruck" },
-  { name: "Eching", url: "/dachdecker-eching" },
-  { name: "Baierbrunn", url: "/dachdecker-baierbrunn" }
+  { name: "Eching", url: "/dachdecker-eching" }
 ];
 
 export default function EinzugsgebietSection() {

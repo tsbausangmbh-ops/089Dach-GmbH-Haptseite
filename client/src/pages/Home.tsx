@@ -54,16 +54,15 @@ export default function Home() {
             </div>
             <div className="flex flex-wrap gap-2 mb-4">
               {[
+                { name: "Allach-Untermenzing", href: "/dachdecker-allach" },
                 { name: "Pasing", href: "/dachdecker-pasing" },
-                { name: "Schwabing", href: "/dachdecker-schwabing" },
-                { name: "Sendling", href: "/dachdecker-sendling" },
-                { name: "Bogenhausen", href: "/dachdecker-bogenhausen" },
-                { name: "Nymphenburg", href: "/dachdecker-nymphenburg" },
-                { name: "Harlaching", href: "/dachdecker-harlaching" },
-                { name: "Trudering", href: "/dachdecker-trudering" },
                 { name: "Moosach", href: "/dachdecker-moosach" },
-                { name: "Solln", href: "/dachdecker-solln" },
-                { name: "Giesing", href: "/dachdecker-giesing" },
+                { name: "Feldmoching", href: "/dachdecker-feldmoching" },
+                { name: "Aubing", href: "/dachdecker-aubing" },
+                { name: "Nymphenburg", href: "/dachdecker-nymphenburg" },
+                { name: "Neuhausen", href: "/dachdecker-neuhausen" },
+                { name: "Laim", href: "/dachdecker-laim" },
+                { name: "Hadern", href: "/dachdecker-hadern" },
               ].map((loc, idx) => (
                 <a
                   key={idx}
@@ -80,12 +79,12 @@ export default function Home() {
             <div className="flex flex-wrap gap-2">
               <span className="text-xs text-muted-foreground">Auch im Umland:</span>
               {[
-                { name: "Gräfelfing", href: "/dachdecker-graefelfing" },
-                { name: "Grünwald", href: "/dachdecker-gruenwald" },
-                { name: "Pullach", href: "/dachdecker-pullach" },
+                { name: "Karlsfeld", href: "/dachdecker-karlsfeld" },
+                { name: "Dachau", href: "/dachdecker-dachau" },
+                { name: "Gröbenzell", href: "/dachdecker-groebenzell" },
+                { name: "Puchheim", href: "/dachdecker-puchheim" },
+                { name: "Olching", href: "/dachdecker-olching" },
                 { name: "Fürstenfeldbruck", href: "/dachdecker-fuerstenfeldbruck" },
-                { name: "Eching", href: "/dachdecker-eching" },
-                { name: "Baierbrunn", href: "/dachdecker-baierbrunn" },
               ].map((loc, idx) => (
                 <a
                   key={idx}
