@@ -5,7 +5,7 @@ import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
 import { CheckCircle2, ThermometerSnowflake, ArrowRight, ArrowLeft, Euro, Home, Phone, AlertTriangle, TrendingDown, Clock, Shield, Users, Star, Calculator } from "lucide-react";
 import { Link } from "wouter";
-import SEO, { BreadcrumbSchema, FAQPageSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, FAQPageSchema, ArticleSchema, HowToSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 import heroImage from "@assets/generated_images/roof_insulation_installation_scene.png";
 import { KeywordLink } from "@/components/KeywordLink";
@@ -33,6 +33,27 @@ export default function RatgeberDaemmung() {
         { question: "Muss das Dach für die Dämmung neu eingedeckt werden?", answer: "Bei Aufsparrendämmung ja, da die Dämmung von außen auf die Sparren kommt. Bei Zwischensparrendämmung von innen bleibt die Eindeckung erhalten. Sinnvoll: Beides kombinieren bei ohnehin fälliger Neueindeckung." },
         { question: "Wie lange dauert eine Dachdämmung?", answer: "Eine Zwischensparrendämmung dauert bei einem Einfamilienhaus 3-5 Tage. Eine Aufsparrendämmung mit Neueindeckung dauert 1-2 Wochen, je nach Dachgröße und Wetterbedingungen." }
       ]} />
+      <ArticleSchema 
+        headline="Dachdämmung: Kosten, Förderung und Einsparpotenzial 2025"
+        description="Kompletter Ratgeber zur Dachdämmung: Was kostet Aufsparren- vs. Zwischensparrendämmung? Wie viel Heizkosten sparen Sie? Welche KfW/BAFA-Förderung gibt es?"
+        datePublished="2025-01-15"
+        dateModified="2025-12-19"
+        keywords={["Dachdämmung Kosten", "Aufsparrendämmung", "Zwischensparrendämmung", "KfW Förderung", "BAFA Förderung", "Heizkosten sparen", "München"]}
+      />
+      <HowToSchema 
+        name="Dachdämmung planen und durchführen"
+        description="Schritt-für-Schritt Anleitung zur Planung Ihrer Dachdämmung - von der Bestandsaufnahme bis zur Förderbeantragung"
+        totalTime="P14D"
+        estimatedCost="8000-25000"
+        steps={[
+          { name: "Bestandsaufnahme", text: "Lassen Sie den aktuellen Zustand Ihres Daches von einem Fachmann prüfen. Ein Energieberater kann den U-Wert messen." },
+          { name: "Dämmvariante wählen", text: "Entscheiden Sie zwischen Aufsparrendämmung (besser, teurer) und Zwischensparrendämmung (günstiger, schneller)." },
+          { name: "Förderung beantragen", text: "Beantragen Sie VOR Beginn der Arbeiten die BAFA-Förderung (15-20% Zuschuss). Wir unterstützen Sie dabei." },
+          { name: "Angebote einholen", text: "Holen Sie mindestens 2-3 Angebote ein. Achten Sie auf Festpreise und 10 Jahre Garantie." },
+          { name: "Dämmung durchführen", text: "Die Dämm-Arbeiten dauern 3-14 Tage je nach Variante und Dachgröße." },
+          { name: "Abnahme und Dokumentation", text: "Nach Fertigstellung erhalten Sie alle Unterlagen für Förderung und Energieausweis." }
+        ]}
+      />
       <Navbar />
       
       <section className="relative min-h-[500px] flex items-center">

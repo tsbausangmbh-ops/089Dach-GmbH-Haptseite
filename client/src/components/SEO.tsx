@@ -1328,6 +1328,276 @@ export function NearbyServiceSchema({ stadtteil, entfernung }: { stadtteil?: str
   return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
 }
 
+// Article Schema für Ratgeber-Seiten (bessere Rich Results)
+export function ArticleSchema({ 
+  headline, 
+  description, 
+  datePublished, 
+  dateModified,
+  articleBody,
+  keywords,
+  image
+}: { 
+  headline: string; 
+  description: string; 
+  datePublished: string;
+  dateModified?: string;
+  articleBody?: string;
+  keywords?: string[];
+  image?: string;
+}) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": headline,
+    "description": description,
+    "image": image || "https://089dach.de/opengraph.jpg",
+    "author": {
+      "@type": "Person",
+      "name": "Falko Georg Blöckinger",
+      "jobTitle": "Dachdecker- und Spenglermeister",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "089Dach GmbH"
+      }
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "089Dach GmbH",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://089dach.de/logo.png"
+      }
+    },
+    "datePublished": datePublished,
+    "dateModified": dateModified || datePublished,
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://089dach.de"
+    },
+    ...(articleBody && { "articleBody": articleBody }),
+    ...(keywords && { "keywords": keywords.join(", ") }),
+    "inLanguage": "de-DE",
+    "isAccessibleForFree": true,
+    "speakable": {
+      "@type": "SpeakableSpecification",
+      "xpath": ["/html/head/title", "/html/head/meta[@name='description']/@content"]
+    }
+  };
+
+  return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
+}
+
+// Product Schema mit Preis für einzelne Leistungen
+export function ProductServiceSchema({ 
+  name, 
+  description, 
+  priceFrom, 
+  priceTo,
+  priceUnit,
+  image,
+  category
+}: { 
+  name: string; 
+  description: string; 
+  priceFrom: number;
+  priceTo?: number;
+  priceUnit?: string;
+  image?: string;
+  category?: string;
+}) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": name,
+    "description": description,
+    "image": image || "https://089dach.de/opengraph.jpg",
+    "brand": {
+      "@type": "Brand",
+      "name": "089Dach GmbH"
+    },
+    "category": category || "Dachdeckerleistungen",
+    "offers": {
+      "@type": "AggregateOffer",
+      "lowPrice": priceFrom,
+      "highPrice": priceTo || priceFrom * 2,
+      "priceCurrency": "EUR",
+      "offerCount": 1,
+      "availability": "https://schema.org/InStock",
+      ...(priceUnit && { "unitText": priceUnit })
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "127"
+    }
+  };
+
+  return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
+}
+
+// Event Schema für Notdienst-Verfügbarkeit
+export function EmergencyServiceSchema() {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "@id": "https://089dach.de/#notdienst",
+    "name": "Dachdecker Notdienst München - 24/7",
+    "description": "Sofortige Hilfe bei Sturmschäden, Wasserschäden und Dachnotfällen in München und Umgebung. 24 Stunden am Tag, 7 Tage die Woche erreichbar.",
+    "provider": {
+      "@type": "RoofingContractor",
+      "name": "089Dach GmbH",
+      "telephone": "+49-89-12621964"
+    },
+    "serviceType": "Notdienst",
+    "availableChannel": {
+      "@type": "ServiceChannel",
+      "servicePhone": "+49-89-12621964",
+      "hoursAvailable": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "00:00",
+        "closes": "23:59"
+      }
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "München"
+    },
+    "offers": {
+      "@type": "Offer",
+      "name": "Notdienst Anfahrt",
+      "price": "89",
+      "priceCurrency": "EUR"
+    },
+    "termsOfService": "Schnelle Hilfe bei Dachschäden - auch nachts und am Wochenende"
+  };
+
+  return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
+}
+
+// SiteNavigationElement für bessere Struktur
+export function SiteNavigationSchema() {
+  const navigation = [
+    { name: "Startseite", url: "/" },
+    { name: "Leistungen", url: "/leistungen" },
+    { name: "Dachsanierung", url: "/leistungen/dachsanierung" },
+    { name: "Flachdach", url: "/leistungen/flachdach" },
+    { name: "Spenglerei", url: "/leistungen/spenglerei" },
+    { name: "Dachfenster", url: "/leistungen/dachfenster" },
+    { name: "Notdienst", url: "/leistungen/notdienst" },
+    { name: "Ratgeber", url: "/ratgeber" },
+    { name: "FAQ", url: "/faq" },
+    { name: "Über uns", url: "/ueber-uns" },
+    { name: "Kontakt", url: "/kontakt" },
+    { name: "Referenzen", url: "/referenzen" }
+  ];
+
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "SiteNavigationElement",
+    "name": "Hauptnavigation",
+    "hasPart": navigation.map((item, index) => ({
+      "@type": "WebPage",
+      "name": item.name,
+      "url": `https://089dach.de${item.url}`,
+      "position": index + 1
+    }))
+  };
+
+  return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
+}
+
+// VideoObject Schema für zukünftige Videos
+export function VideoSchema({ 
+  name, 
+  description, 
+  thumbnailUrl, 
+  uploadDate, 
+  duration,
+  contentUrl,
+  embedUrl
+}: { 
+  name: string; 
+  description: string; 
+  thumbnailUrl: string;
+  uploadDate: string;
+  duration: string;
+  contentUrl?: string;
+  embedUrl?: string;
+}) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    "name": name,
+    "description": description,
+    "thumbnailUrl": thumbnailUrl,
+    "uploadDate": uploadDate,
+    "duration": duration,
+    ...(contentUrl && { "contentUrl": contentUrl }),
+    ...(embedUrl && { "embedUrl": embedUrl }),
+    "publisher": {
+      "@type": "Organization",
+      "name": "089Dach GmbH",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://089dach.de/logo.png"
+      }
+    }
+  };
+
+  return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
+}
+
+// LocalBusiness erweitert für spezifische Stadtteile
+export function StadtteilLocalBusinessSchema({ 
+  stadtteil, 
+  plz, 
+  anfahrtszeit,
+  besonderheiten
+}: { 
+  stadtteil: string; 
+  plz: string;
+  anfahrtszeit: string;
+  besonderheiten?: string[];
+}) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "RoofingContractor",
+    "@id": `https://089dach.de/dachdecker-${stadtteil.toLowerCase().replace(/[äöüß]/g, m => ({ä:'ae',ö:'oe',ü:'ue',ß:'ss'})[m] || m).replace(/\s+/g, '-')}#local`,
+    "name": `089Dach GmbH - Dachdecker ${stadtteil}`,
+    "alternateName": [`Dachdecker ${stadtteil}`, `Dachdecker in ${stadtteil}`, `${stadtteil} Dachdecker`],
+    "description": `Ihr Dachdecker-Meisterbetrieb für ${stadtteil} (${plz}). Nur ${anfahrtszeit} Anfahrt von unserem Standort in München-Obermenzing. ${besonderheiten ? besonderheiten.join(', ') : 'Dachsanierung, Reparatur, Notdienst.'}`,
+    "url": `https://089dach.de/dachdecker-${stadtteil.toLowerCase().replace(/[äöüß]/g, m => ({ä:'ae',ö:'oe',ü:'ue',ß:'ss'})[m] || m).replace(/\s+/g, '-')}`,
+    "telephone": "+49-89-12621964",
+    "email": "info@089dach.de",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Thuillestr. 20",
+      "addressLocality": "München",
+      "postalCode": "81247",
+      "addressCountry": "DE"
+    },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": stadtteil,
+      "postalCode": plz
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "127"
+    },
+    "makesOffer": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": `Dachsanierung ${stadtteil}` }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": `Dachreparatur ${stadtteil}` }},
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": `Notdienst ${stadtteil}` }}
+    ]
+  };
+
+  return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
+}
+
 export function PriceSpecificationSchema() {
   const schema = {
     "@context": "https://schema.org",

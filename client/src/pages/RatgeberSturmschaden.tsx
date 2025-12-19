@@ -4,7 +4,7 @@ import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, AlertTriangle, ArrowRight, Clock, Shield, FileText, Camera, Zap } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
-import SEO, { BreadcrumbSchema, FAQPageSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, FAQPageSchema, ArticleSchema, HowToSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 
 export default function RatgeberSturmschaden() {
@@ -26,6 +26,27 @@ export default function RatgeberSturmschaden() {
         { question: "Was kostet eine Sturmschaden-Reparatur?", answer: "Die Kosten hängen vom Schadensausmaß ab. Eine Notsicherung mit Plane kostet ca. 200-500€. Größere Reparaturen liegen bei 500-5.000€. Bei Versicherungsschäden erstellen wir einen detaillierten Kostenvoranschlag, den Sie direkt einreichen können." }
       ]} />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Ratgeber", url: "/ratgeber" }, { name: "Sturmschaden", url: "/ratgeber/sturmschaden" }]} />
+      <ArticleSchema 
+        headline="Sturmschaden am Dach - Was tun? Sofort-Ratgeber 2025"
+        description="Schritt-für-Schritt Anleitung bei Sturmschäden: Sicherheit, Dokumentation, Versicherungsmeldung und professionelle Reparatur."
+        datePublished="2025-01-10"
+        dateModified="2025-12-19"
+        keywords={["Sturmschaden Dach", "Notdienst München", "Versicherung melden", "Dach Reparatur", "24/7 Notdienst"]}
+      />
+      <HowToSchema 
+        name="Sturmschaden am Dach richtig behandeln"
+        description="Notfall-Anleitung: So handeln Sie richtig bei Sturmschäden am Dach - von der Erstsicherung bis zur Versicherungsabwicklung"
+        totalTime="PT4H"
+        estimatedCost="200-5000"
+        steps={[
+          { name: "Sicherheit gewährleisten", text: "Beschädigte Bereiche meiden. Bei Wassereintritt Strom abschalten. Bei Gefahr Haus verlassen." },
+          { name: "Schaden dokumentieren", text: "Fotos und Videos machen. Datum notieren. Wetterbericht sichern. Beschädigte Teile aufbewahren." },
+          { name: "Versicherung informieren", text: "Schaden innerhalb von 72 Stunden bei Ihrer Gebäudeversicherung melden." },
+          { name: "Dachdecker rufen", text: "089Dach GmbH anrufen: 089 12621964. Wir kommen zur Notsicherung und erstellen einen Kostenvoranschlag." },
+          { name: "Notsicherung durchführen", text: "Professionelle Abdeckung mit Planen oder provisorische Reparatur zur Schadensbegrenzung." },
+          { name: "Reparatur beauftragen", text: "Nach Freigabe durch die Versicherung wird die endgültige Reparatur durchgeführt." }
+        ]}
+      />
       <Navbar />
       
       <section className="pt-6 pb-8 md:pt-10 md:pb-12 bg-secondary relative overflow-hidden min-h-[35vh] flex items-center">
