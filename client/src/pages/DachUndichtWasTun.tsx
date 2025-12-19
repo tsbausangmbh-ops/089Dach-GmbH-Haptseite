@@ -64,7 +64,7 @@ export default function DachUndichtWasTun() {
             <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-3xl mx-auto">Ihr Dach ist undicht? Keine Panik! Hier erfahren Sie, was Sie sofort tun können und wie wir Ihnen schnell helfen.</p>
             <p className="text-lg text-white/80 mb-8">Notdienst München • Oft am selben Tag • 24h erreichbar</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/rueckruf"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8" data-testid="button-online-cta">24h Onlinetermin</Button></Link>
+              <Link href="/rueckruf"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8" data-testid="button-online-cta">24h Online Termin</Button></Link>
               <Link href="/rueckruf"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8 py-6" data-testid="button-hero-callback">Rückruf anfordern</Button></Link>
             </div>
           </div>
@@ -156,7 +156,7 @@ export default function DachUndichtWasTun() {
             <h2 className="text-3xl font-bold mb-6">Dach undicht? Wir helfen sofort!</h2>
             <p className="text-xl text-white/90 mb-8">Rufen Sie uns jetzt an – wir sind schnellstmöglich bei Ihnen.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/rueckruf"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8" data-testid="button-online-cta">24h Onlinetermin</Button></Link>
+              <Link href="/rueckruf"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8" data-testid="button-online-cta">24h Online Termin</Button></Link>
               <Link href="/rueckruf"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8" data-testid="button-cta-callback">Rückruf anfordern<ArrowRight className="ml-2 h-5 w-5" /></Button></Link>
             </div>
           </div>
