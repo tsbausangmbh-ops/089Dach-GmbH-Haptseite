@@ -8,6 +8,10 @@ import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema, ProductServiceSchema, FAQPageSchema, LocalBusinessSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 import ImageGallery from "@/components/ImageGallery";
+import AIEnhancedFAQ from "@/components/AIEnhancedFAQ";
+import ProblemSolutionSection from "@/components/ProblemSolutionSection";
+import CTACluster from "@/components/CTACluster";
+import ProofStack from "@/components/ProofStack";
 import flachdachImg1 from "@assets/generated_images/flat_roof_bitumen_detail_with_texture.png";
 import flachdachImg2 from "@assets/generated_images/flat_green_roof_with_natural_variations.png";
 import flachdachImg3 from "@assets/generated_images/realistic_damaged_flat_roof_before.png";
@@ -199,6 +203,71 @@ export default function Flachdach() {
           { src: flachdachImg4, alt: "Saniertes Garagendach mit EPDM-Abdichtung", caption: "Nachher: EPDM-Abdichtung Garage" }
         ]}
       />
+
+      <ProblemSolutionSection
+        sectionTitle="Erkennen Sie Ihr Problem?"
+        problemTitle="Typische Flachdach-Probleme"
+        solutionTitle="Unsere Lösung für Sie"
+        problems={[
+          { symptom: "Wasserpfützen stehen auf dem Flachdach", risk: "Undichtigkeiten und beschleunigte Alterung der Abdichtung" },
+          { symptom: "Blasen oder Wellen in der Abdichtung", risk: "Unter der Blase sammelt sich Feuchtigkeit und zerstört die Dämmung" },
+          { symptom: "Wasser tropft bei Regen durch die Decke", risk: "Schimmelbildung und teure Schäden an der Bausubstanz" },
+          { symptom: "Verstopfte Abläufe oder Notüberläufe", risk: "Bei Starkregen läuft Wasser über die Attika ins Mauerwerk" }
+        ]}
+        solutions={[
+          { title: "Professionelle Leckortung", description: "Wir finden die undichte Stelle mit modernen Messgeräten" },
+          { title: "EPDM oder Bitumen – je nach Bedarf", description: "Wir wählen das beste System für Ihr Dach" },
+          { title: "Gefälle nachträglich erstellen", description: "Damit Wasser zukünftig richtig abläuft" },
+          { title: "10 Jahre Garantie", description: "Auf alle Abdichtungsarbeiten geben wir schriftlich Garantie" }
+        ]}
+        urgencyMessage="Flachdach-Schäden werden schnell teuer – handeln Sie bevor der Winter kommt!"
+      />
+
+      <CTACluster 
+        variant="primary" 
+        title="Flachdach dicht – garantiert!" 
+        subtitle="Kostenlose Beratung · Alle Abdichtungssysteme · 10 Jahre Garantie"
+      />
+
+      <AIEnhancedFAQ
+        title="Häufige Fragen zum Flachdach"
+        faqs={[
+          {
+            question: "Was kostet Flachdach abdichten pro m²?",
+            shortAnswer: "Ab 85€/m² mit Bitumen, ab 95€/m² mit EPDM.",
+            details: "Flachdach-Abdichtung kostet ab 85€/m² mit Bitumen, ab 95€/m² mit EPDM oder Kunststoff. Mit Dämmung ab 180€/m². Für eine Garage (20m²) rechnen Sie mit ca. 2.000-2.500€. Der genaue Preis hängt von Zustand und Zugänglichkeit ab.",
+            priceRange: "Garage 2.000–2.500€",
+            localReference: "In München und Umgebung führen wir wöchentlich Flachdachsanierungen durch.",
+            nextStep: "Kostenloses Angebot anfordern →"
+          },
+          {
+            question: "Welche Abdichtung ist besser: EPDM oder Bitumen?",
+            shortAnswer: "EPDM hält länger (40+ Jahre), Bitumen ist günstiger.",
+            details: "EPDM hält länger (40+ Jahre), ist elastischer und UV-beständiger. Bitumen ist günstiger und bewährt (25-30 Jahre). Für Garagen reicht Bitumen, für Wohngebäude empfehlen wir EPDM. Wir beraten Sie zur optimalen Lösung.",
+            localReference: "Bei Münchner Flachdächern setzen wir meist auf EPDM wegen der extremen Temperaturschwankungen.",
+            nextStep: "Material-Beratung anfordern →"
+          },
+          {
+            question: "Was tun wenn das Flachdach tropft?",
+            shortAnswer: "Sofort Eimer unterstellen und uns anrufen: 089 12621964.",
+            details: "Sofort Eimer unterstellen, Wasserquelle fotografieren und uns anrufen. Wir kommen zur Notabdichtung und verhindern größere Schäden. Oft können wir eine provisorische Abdichtung am selben Tag durchführen.",
+            priceRange: "Notabdichtung ab 195€",
+            localReference: "Unser Notdienst ist in München in 1-2 Stunden vor Ort.",
+            nextStep: "Notdienst anrufen: 089 12621964 →"
+          },
+          {
+            question: "Was kostet Flachdach-Begrünung in München?",
+            shortAnswer: "Extensive Begrünung 40-80€/m², bis zu 50€/m² Förderung möglich.",
+            details: "Extensive Begrünung (Sedum) kostet 40-80€/m², intensive Begrünung (begehbar) 100-200€/m². München fördert Dachbegrünung mit bis zu 50€/m² über das Klimaschutzprogramm. Wir unterstützen Sie beim Förderantrag.",
+            priceRange: "40–200€/m²",
+            localReference: "Dachbegrünungen sind in München durch die Förderung sehr attraktiv geworden.",
+            nextStep: "Begrünungs-Beratung anfragen →"
+          }
+        ]}
+      />
+
+      <ProofStack title="Warum 089Dach für Ihr Flachdach?" />
+
       <LeadFunnel />
       <RelatedServices currentPage="flachdach" relatedIds={["dachsanierung", "energieberatung", "spenglerei", "wartung"]} />
       <Contact />

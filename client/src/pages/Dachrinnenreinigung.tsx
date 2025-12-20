@@ -6,6 +6,10 @@ import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, Shield, Clock, Award, ArrowRight, Droplets, Leaf, Wrench, Calendar } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema, ProductServiceSchema, FAQPageSchema, LocalBusinessSchema } from "@/components/SEO";
+import AIEnhancedFAQ from "@/components/AIEnhancedFAQ";
+import ProblemSolutionSection from "@/components/ProblemSolutionSection";
+import CTACluster from "@/components/CTACluster";
+import ProofStack from "@/components/ProofStack";
 import RelatedServices from "@/components/RelatedServices";
 import ImageGallery from "@/components/ImageGallery";
 import rinnenImg1 from "@assets/generated_images/copper_roof_gutter_detail.png";
@@ -213,6 +217,76 @@ export default function Dachrinnenreinigung() {
           { src: rinnenImg4, alt: "Professionelle Kupferanschlüsse am Schornstein", caption: "Hochwertige Spenglerarbeit" }
         ]}
       />
+
+      <ProblemSolutionSection
+        sectionTitle="Verstopfte Dachrinne?"
+        problemTitle="Warnsignale bei Dachrinnen"
+        solutionTitle="Unsere Lösungen"
+        problems={[
+          { symptom: "Wasser läuft über die Rinne", risk: "Feuchtigkeit an der Fassade, Schimmelgefahr im Mauerwerk" },
+          { symptom: "Fallrohr verstopft", risk: "Wasserstau, im Winter Frostschäden und Eisbildung" },
+          { symptom: "Pflanzen wachsen in der Rinne", risk: "Zeichen für lange Verstopfung, erhöhtes Gewicht belastet Befestigung" },
+          { symptom: "Rinne hängt durch oder tropft", risk: "Wasserschäden an Fassade und Fundament" }
+        ]}
+        solutions={[
+          { title: "Festpreis ab 150€", description: "Komplette Reinigung ohne versteckte Kosten" },
+          { title: "Fallrohre mit Hochdruck spülen", description: "Verstopfungen werden komplett gelöst" },
+          { title: "Laubschutzgitter nachrüsten", description: "Ab 15€/m – verhindert künftige Verstopfungen" },
+          { title: "Kleine Reparaturen sofort", description: "Undichte Stellen werden direkt abgedichtet" }
+        ]}
+        urgencyMessage="Verstopfte Rinnen im Winter = Frostschäden! Jetzt reinigen lassen."
+      />
+
+      <CTACluster
+        title="Dachrinnen-Reinigung zum Festpreis"
+        subtitle="Ab 150€ · Schnelle Termine · Entsorgung inklusive"
+      />
+
+      <AIEnhancedFAQ
+        title="Häufige Fragen zur Dachrinnenreinigung"
+        faqs={[
+          {
+            question: "Was kostet Dachrinne reinigen lassen?",
+            shortAnswer: "Unsere Dachrinnenreinigung kostet zum Festpreis ab 150€ für ein Einfamilienhaus.",
+            details: "Reihenhaus: ab 79€. Doppelhaushälfte: ab 99€. Einfamilienhaus (bis 150m²): ab 149€. Der Preis hängt von der Rinnenmeterlänge und dem Verschmutzungsgrad ab. Inklusive: Laubentfernung, Fallrohrspülung und Entsorgung.",
+            priceRange: "79-350€ je nach Hausgröße",
+            localReference: "Festpreise inkl. Anfahrt im gesamten Münchner Raum",
+            nextStep: "Termin zum Festpreis buchen →"
+          },
+          {
+            question: "Wie oft sollte man Dachrinnen reinigen lassen?",
+            shortAnswer: "1-2x jährlich: im Spätherbst nach Laubfall und optional im Frühjahr.",
+            details: "Bei vielen Bäumen in der Nähe (Bogenhausen, Grünwald, Solln) empfehlen wir 2x jährlich. Nach starken Stürmen lohnt sich eine zusätzliche Kontrolle. Mit Wartungsvertrag sparen Sie 15% und vergessen nie den Termin.",
+            priceRange: "Wartungsvertrag: ab 130€/Jahr (1x) bzw. 220€/Jahr (2x)",
+            localReference: "Besonders wichtig in baumreichen Vierteln wie Bogenhausen, Harlaching, Solln",
+            nextStep: "Wartungsvertrag anfragen →"
+          },
+          {
+            question: "Kann ich die Dachrinne selbst reinigen?",
+            shortAnswer: "Vom Boden aus mit Teleskopstange ja, auf der Leiter ist es gefährlich.",
+            details: "Arbeiten in der Höhe ohne Absturzsicherung sind unfallträchtig. Jährlich passieren über 100.000 Leiterunfälle in Deutschland. Wir haben professionelle Ausrüstung, Versicherung und reinigen schnell und sicher. Bei 2-stöckigen Häusern ist Profi-Reinigung Pflicht.",
+            nextStep: "Profi-Reinigung buchen →"
+          },
+          {
+            question: "Was tun wenn die Dachrinne überläuft?",
+            shortAnswer: "Meist ist eine Verstopfung im Fallrohr die Ursache – wir spülen es mit Hochdruck frei.",
+            details: "Fallrohr-Spülung kostet ab 80€. Bei regelmäßigem Überlauf prüfen wir auch, ob die Rinne zu klein dimensioniert ist oder das Gefälle nicht stimmt. Manchmal muss die Rinne auch neu justiert oder vergrößert werden.",
+            priceRange: "Fallrohr-Spülung ab 80€, Rinnenvergrößerung ab 25€/m",
+            nextStep: "Verstopfung lösen lassen →"
+          },
+          {
+            question: "Helfen Laubschutzgitter für Dachrinnen?",
+            shortAnswer: "Ja! Sie reduzieren die Reinigung auf 1x jährlich.",
+            details: "Wir montieren Edelstahl-Laubschutzgitter ab 15€/m. Besonders sinnvoll bei Häusern mit vielen Bäumen in der Nähe. Die Gitter lassen Wasser durch, halten aber Laub und Äste zurück. Die Investition amortisiert sich nach 3-4 Jahren.",
+            priceRange: "Laubschutzgitter: ab 15€/m inkl. Montage",
+            localReference: "Empfehlenswert in München-Bogenhausen, Grünwald, Solln, Forstenried",
+            nextStep: "Laubschutz nachrüsten lassen →"
+          }
+        ]}
+      />
+
+      <ProofStack title="Warum 089Dach für Ihre Dachrinnen?" />
+
       <LeadFunnel />
       <RelatedServices currentPage="dachrinnenreinigung" relatedIds={["wartung", "spenglerei", "reparaturservice", "dachsanierung"]} />
       <Contact />

@@ -15,11 +15,16 @@ import heroImage from "@assets/generated_images/damaged_red_tile_roof_before.png
 import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import { DachreparaturMuenchenContent } from "@/components/SEOContent";
+import AIEnhancedFAQ from "@/components/AIEnhancedFAQ";
+import ProblemSolutionSection from "@/components/ProblemSolutionSection";
+import CTACluster from "@/components/CTACluster";
+import ProofStack from "@/components/ProofStack";
 import ImageGallery from "@/components/ImageGallery";
 import reparaturImg1 from "@assets/generated_images/damaged_red_tile_roof_before.png";
 import reparaturImg2 from "@assets/generated_images/roofer_working_on_red_tile_roof_munich.png";
 import reparaturImg3 from "@assets/generated_images/damaged_chimney_flashing_before.png";
 import reparaturImg4 from "@assets/generated_images/new_copper_chimney_flashing.png";
+import Contact from "@/components/Contact";
 
 export default function Reparaturservice() {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -500,6 +505,70 @@ export default function Reparaturservice() {
           { src: reparaturImg4, alt: "Neuer Kupfer-Schornsteinanschluss", caption: "Nachher: Neue Kupferverwahrung" }
         ]}
       />
+
+      <ProblemSolutionSection
+        sectionTitle="Erkennen Sie Ihr Problem?"
+        problemTitle="Typische Dachschäden"
+        solutionTitle="Unsere Lösung für Sie"
+        problems={[
+          { symptom: "Wasserflecken an der Decke", risk: "Feuchtigkeit breitet sich aus, Schimmel und Bauschäden drohen" },
+          { symptom: "Ziegel fehlen oder sind verrutscht", risk: "Regen und Wind dringen ins Dach ein" },
+          { symptom: "Kamin- oder Wandanschluss undicht", risk: "Versteckte Wasserschäden im Mauerwerk" },
+          { symptom: "Dachfenster schließt nicht richtig", risk: "Wärmeverlust und Kondenswasserbildung" }
+        ]}
+        solutions={[
+          { title: "Schnelle Reaktion", description: "In der Regel innerhalb von 24 Stunden vor Ort" },
+          { title: "Faire Preise", description: "Transparente Kosten ohne versteckte Aufschläge" },
+          { title: "Versicherungshilfe", description: "Wir dokumentieren den Schaden für Ihre Versicherung" },
+          { title: "10 Jahre Garantie", description: "Auf alle Reparaturarbeiten geben wir Garantie" }
+        ]}
+        urgencyMessage="Kleine Schäden werden schnell teuer – handeln Sie bevor größere Folgeschäden entstehen!"
+      />
+
+      <CTACluster 
+        variant="primary" 
+        title="Schnelle Hilfe bei Dachschäden" 
+        subtitle="Antwort in 24h · Faire Preise · Versicherungsservice"
+      />
+
+      <AIEnhancedFAQ
+        title="Häufige Fragen zur Dachreparatur"
+        faqs={[
+          {
+            question: "Was tun wenn das Dach undicht ist?",
+            shortAnswer: "Sofort Eimer unterstellen, fotografieren und uns anrufen.",
+            details: "Sofort handeln: Eimer unterstellen, Schaden fotografieren und uns anrufen (089 12621964). Wir kommen in der Regel innerhalb von 24 Stunden zur Notabdichtung und verhindern größere Folgeschäden.",
+            localReference: "Wir sind in ganz München und 30km Umkreis schnell vor Ort.",
+            nextStep: "Reparaturanfrage senden →"
+          },
+          {
+            question: "Was kostet eine Dachreparatur?",
+            shortAnswer: "Kleine Reparaturen ab 150€, mittlere 300-1.000€.",
+            details: "Kleine Reparaturen (einzelne Ziegel) kosten 150-300€. Mittlere Schäden 300-1.000€. Größere Reparaturen 1.000-2.500€. Den genauen Preis nennen wir nach Begutachtung vor Ort – kostenlos und unverbindlich.",
+            priceRange: "150–2.500€ je nach Umfang",
+            localReference: "In München bieten wir kostenlose Schadensbegutachtung an.",
+            nextStep: "Kostenloses Angebot anfordern →"
+          },
+          {
+            question: "Zahlt die Versicherung Dachreparaturen?",
+            shortAnswer: "Bei Sturm, Hagel oder höherer Gewalt zahlt die Gebäudeversicherung.",
+            details: "Bei Sturm-, Hagel- oder Wasserschäden durch höhere Gewalt zahlt die Wohngebäudeversicherung. Wir erstellen versicherungsgerechte Dokumentation mit Fotos und Kostenvoranschlag – kostenlos.",
+            localReference: "Wir arbeiten mit allen großen Versicherern in München zusammen.",
+            nextStep: "Versicherungsfall melden →"
+          },
+          {
+            question: "Kann man einzelne Dachziegel austauschen?",
+            shortAnswer: "Ja! Einzelne Ziegel 5-15€, Austausch ab 150€ inkl. Anfahrt.",
+            details: "Ja! Einzelne Ziegel kosten 5-15€ pro Stück, Austausch ab 150€ inkl. Anfahrt. Wir haben gängige Ziegeltypen auf Lager. Bei seltenen Modellen beschaffen wir passende oder optisch ähnliche Ziegel.",
+            priceRange: "Ab 150€ komplett",
+            localReference: "In unserem Lager in München-Obermenzing haben wir viele gängige Ziegeltypen vorrätig.",
+            nextStep: "Ziegel-Austausch anfragen →"
+          }
+        ]}
+      />
+
+      <ProofStack title="Warum 089Dach für Ihre Reparatur?" />
+
       <LeadFunnel />
       <RelatedServices 
         currentPage="reparaturservice" 

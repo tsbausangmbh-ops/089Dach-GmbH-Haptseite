@@ -18,6 +18,10 @@ import ImageGallery from "@/components/ImageGallery";
 import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import { DachfensterMuenchenContent } from "@/components/SEOContent";
+import AIEnhancedFAQ from "@/components/AIEnhancedFAQ";
+import ProblemSolutionSection from "@/components/ProblemSolutionSection";
+import CTACluster from "@/components/CTACluster";
+import ProofStack from "@/components/ProofStack";
 
 export default function Dachfenster() {
   const benefits = [
@@ -276,6 +280,70 @@ export default function Dachfenster() {
       />
 
       <DachfensterMuenchenContent />
+
+      <ProblemSolutionSection
+        sectionTitle="Erkennen Sie Ihr Problem?"
+        problemTitle="Typische Dachfenster-Probleme"
+        solutionTitle="Unsere Lösung für Sie"
+        problems={[
+          { symptom: "Dunkler, ungemütlicher Dachboden", risk: "Ungenutzter Wohnraum und schlechte Lebensqualität" },
+          { symptom: "Kondenswasser am Fenster", risk: "Schimmelgefahr und beschädigte Dichtungen" },
+          { symptom: "Hitze im Sommer unerträglich", risk: "Räume unter dem Dach sind nicht nutzbar" },
+          { symptom: "Altes Fenster schließt nicht richtig", risk: "Wärmeverlust und erhöhte Heizkosten" }
+        ]}
+        solutions={[
+          { title: "Bis zu 40% mehr Tageslicht", description: "Dachfenster bringen deutlich mehr Licht als Fassadenfenster" },
+          { title: "Einbau in 1-2 Tagen", description: "Schnelle, saubere Montage ohne große Baustelle" },
+          { title: "Hitzeschutz inklusive", description: "Außenrollläden und Markisen halten die Hitze draußen" },
+          { title: "Dreifachverglasung Standard", description: "Beste Wärmedämmung und Schallschutz" }
+        ]}
+        urgencyMessage="Ein neues Dachfenster verwandelt ungenutzten Dachboden in wertvollen Wohnraum!"
+      />
+
+      <CTACluster 
+        variant="primary" 
+        title="Lassen Sie endlich Licht in Ihr Leben" 
+        subtitle="Velux & Roto Partner · Einbau in 1-2 Tagen · 10 Jahre Garantie"
+      />
+
+      <AIEnhancedFAQ
+        title="Häufige Fragen zu Dachfenstern"
+        faqs={[
+          {
+            question: "Was kostet ein Dachfenster mit Einbau in München?",
+            shortAnswer: "Standard-Velux ab 1.200€, größere Fenster ab 1.800€ komplett.",
+            details: "Ein Standard-Velux-Dachfenster (78x118cm) mit Einbau kostet ab 1.200€. Größere Fenster (114x140cm) ab 1.800€. Premium-Fenster mit Dreifachverglasung und Rollladen ab 2.500€ komplett. Wir erstellen Ihnen ein individuelles Festpreisangebot.",
+            priceRange: "1.200–3.500€ komplett",
+            localReference: "In München-Schwabing und Maxvorstadt bauen wir regelmäßig Dachfenster in Altbauten ein.",
+            nextStep: "Kostenloses Angebot anfordern →"
+          },
+          {
+            question: "Brauche ich eine Baugenehmigung für Dachfenster in München?",
+            shortAnswer: "Meist nicht – der Einbau ist genehmigungsfrei.",
+            details: "Der Einbau von Dachfenstern ist in Bayern genehmigungsfrei, solange die Dachfläche nicht wesentlich verändert wird. Bei denkmalgeschützten Gebäuden ist eine Abstimmung mit der Denkmalbehörde nötig. Wir prüfen das für Sie.",
+            localReference: "In München beraten wir Sie zu lokalen Bauvorschriften und Bebauungsplänen.",
+            nextStep: "Kostenlose Beratung anfordern →"
+          },
+          {
+            question: "Velux oder Roto – welches Dachfenster ist besser?",
+            shortAnswer: "Beide hochwertig – Velux hat mehr Zubehör, Roto tiefere Griffposition.",
+            details: "Beide Marken sind hochwertig. Velux hat mehr Zubehör und größere Auswahl. Roto punktet bei Schwingfenstern mit tieferer Griff-Position. Als zertifizierter Partner beider Hersteller beraten wir Sie neutral und verbauen beide Marken.",
+            localReference: "In München sind beide Marken etabliert – wir empfehlen je nach Einbausituation.",
+            nextStep: "Herstellerunabhängige Beratung →"
+          },
+          {
+            question: "Wie verhindere ich Hitze im Sommer durch Dachfenster?",
+            shortAnswer: "Außenmarkisen reduzieren Hitze um bis zu 70%.",
+            details: "Am effektivsten: Außenmarkisen oder Außenrollläden (ab 350€). Innenrollos helfen weniger. Dreifachverglasung mit Sonnenschutzglas reduziert Hitze um bis zu 70%. Bei Neueinbau empfehlen wir immer Hitzeschutz mitzuplanen.",
+            priceRange: "Außenmarkise ab 350€",
+            localReference: "Gerade in Münchner Dachgeschossen ist Hitzeschutz unverzichtbar.",
+            nextStep: "Hitzeschutz-Beratung anfragen →"
+          }
+        ]}
+      />
+
+      <ProofStack title="Warum 089Dach für Ihre Dachfenster?" />
+
       <LeadFunnel />
       <RelatedServices 
         currentPage="dachfenster" 

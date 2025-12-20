@@ -12,10 +12,14 @@ import newMetalRoof from "@assets/generated_images/new_metal_standing_seam_roof.
 import copperGutter from "@assets/generated_images/new_copper_chimney_flashing.png";
 import ImageGallery from "@/components/ImageGallery";
 import LeadFunnel from "@/components/LeadFunnel";
-import SEO, { BreadcrumbSchema, ServiceSchema, ProductServiceSchema, LocalBusinessSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, ServiceSchema, ProductServiceSchema, FAQPageSchema, LocalBusinessSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import { SpenglereiMuenchenContent } from "@/components/SEOContent";
+import AIEnhancedFAQ from "@/components/AIEnhancedFAQ";
+import ProblemSolutionSection from "@/components/ProblemSolutionSection";
+import CTACluster from "@/components/CTACluster";
+import ProofStack from "@/components/ProofStack";
 
 export default function Spenglerei() {
   return (
@@ -268,6 +272,71 @@ export default function Spenglerei() {
       />
 
       <SpenglereiMuenchenContent />
+
+      <ProblemSolutionSection
+        sectionTitle="Erkennen Sie Ihr Problem?"
+        problemTitle="Warnsignale bei Spenglerarbeiten"
+        solutionTitle="Unsere Lösung für Sie"
+        problems={[
+          { symptom: "Dachrinne tropft oder läuft über", risk: "Wasser schädigt Fassade, Fundament und kann in den Keller eindringen" },
+          { symptom: "Rost an Fallrohren oder Rinnen", risk: "Durchrostung führt zu komplettem Versagen der Entwässerung" },
+          { symptom: "Undichte Kamineinfassung", risk: "Wasserschäden im Mauerwerk und teure Folgereparaturen" },
+          { symptom: "Veraltete Blechverkleidungen", risk: "Optische Beeinträchtigung und mangelnder Schutz vor Witterung" }
+        ]}
+        solutions={[
+          { title: "Kostenlose Vor-Ort-Prüfung", description: "Wir begutachten Rinnen, Fallrohre und Anschlüsse vor Ort" },
+          { title: "Handgefertigt in eigener Werkstatt", description: "Maßgenaue Bauteile aus Kupfer, Zink oder Aluminium" },
+          { title: "Materialgarantie bis 80 Jahre", description: "Kupfer und Zink halten Jahrzehnte – wir geben Garantie" },
+          { title: "Alles aus einer Hand", description: "Dachdecker und Spengler in einem Betrieb – kurze Wege" }
+        ]}
+        urgencyMessage="Eine undichte Rinne kostet wenig zu reparieren – die Folgeschäden an der Fassade aber Tausende Euro!"
+      />
+
+      <CTACluster 
+        variant="primary" 
+        title="Handwerkskunst für Ihr Dach" 
+        subtitle="Eigene Werkstatt · Maßanfertigung · Jahrzehnte Haltbarkeit"
+      />
+
+      <AIEnhancedFAQ
+        title="Häufige Fragen zu Spenglerarbeiten"
+        faqs={[
+          {
+            question: "Was kostet eine neue Dachrinne in München?",
+            shortAnswer: "Zink ab 25€/m, Kupfer ab 45€/m inklusive Montage.",
+            details: "Zink-Dachrinne ab 25€/m, Kupfer ab 45€/m, Aluminium ab 20€/m jeweils inkl. Montage. Für ein Einfamilienhaus (ca. 30m Rinne) rechnen Sie mit 750-1.500€ je nach Material. Kupfer ist teurer, hält aber 80+ Jahre.",
+            priceRange: "750–1.500€ für Einfamilienhaus",
+            localReference: "In München-Obermenzing fertigen wir alle Rinnen in unserer eigenen Werkstatt.",
+            nextStep: "Kostenloses Angebot anfordern →"
+          },
+          {
+            question: "Kupfer oder Zink – welches Material ist besser für Dachrinnen?",
+            shortAnswer: "Kupfer hält 80-100 Jahre, Zink 30-50 Jahre.",
+            details: "Kupfer hält 80-100 Jahre, entwickelt edle Patina, kostet aber mehr. Zink hält 30-50 Jahre, ist günstiger und zeitlos. Beide sind wartungsfrei. Für Münchner Altbauten empfehlen wir oft Kupfer wegen der Optik und Langlebigkeit.",
+            localReference: "Bei historischen Villen in Bogenhausen und Grünwald ist Kupfer erste Wahl.",
+            nextStep: "Material-Beratung anfordern →"
+          },
+          {
+            question: "Kann man eine tropfende Dachrinne reparieren?",
+            shortAnswer: "Kleine Löcher ab 80€, bei Durchrostung lohnt Austausch.",
+            details: "Kleine Löcher können wir mit Spezialkleber oder Löten reparieren (ab 80€). Bei durchgerosteten Rinnen oder undichten Verbindungen lohnt sich oft der Austausch. Wir prüfen kostenlos vor Ort und beraten Sie ehrlich.",
+            priceRange: "Reparatur ab 80€, Austausch ab 25€/m",
+            localReference: "In ganz München und Umgebung bieten wir kostenlose Rinnen-Checks an.",
+            nextStep: "Kostenlose Prüfung anfordern →"
+          },
+          {
+            question: "Was kostet eine Kamineinfassung aus Kupfer?",
+            shortAnswer: "Maßgefertigt 800-2.000€ je nach Schornsteingröße.",
+            details: "Eine maßgefertigte Kupfer-Kamineinfassung kostet 800-2.000€ je nach Schornsteingröße. Die Investition lohnt sich: Kupfer hält 80+ Jahre und verhindert Wasserschäden zuverlässig. Zink-Einfassungen sind günstiger (ab 400€).",
+            priceRange: "400–2.000€",
+            localReference: "In Münchner Altbauvierteln wie Haidhausen fertigen wir regelmäßig Kamineinfassungen.",
+            nextStep: "Angebot für Kamineinfassung →"
+          }
+        ]}
+      />
+
+      <ProofStack title="Warum 089Dach für Ihre Spenglerarbeiten?" />
+
       <LeadFunnel />
       <RelatedServices 
         currentPage="spenglerei" 

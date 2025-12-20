@@ -8,6 +8,10 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle2, Euro, Home, Leaf, FileText, Phone, Quote, Award, Shield, Users } from "lucide-react";
 import SEO, { BreadcrumbSchema, ServiceSchema, FAQPageSchema, LocalBusinessSchema } from "@/components/SEO";
+import AIEnhancedFAQ from "@/components/AIEnhancedFAQ";
+import ProblemSolutionSection from "@/components/ProblemSolutionSection";
+import CTACluster from "@/components/CTACluster";
+import ProofStack from "@/components/ProofStack";
 import heroImage from "@assets/generated_images/new_solar_panel_installation.png";
 import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
@@ -255,6 +259,77 @@ export default function Energieberatung() {
           { src: energieImg4, alt: "Modernes Haus mit energieeffizientem Dach", caption: "Energieeffizientes Zuhause" }
         ]}
       />
+
+      <ProblemSolutionSection
+        sectionTitle="Förderung nicht verpassen"
+        problemTitle="Typische Förder-Fehler"
+        solutionTitle="So machen wir es richtig"
+        problems={[
+          { symptom: "Antrag NACH Auftragserteilung gestellt", risk: "Förderung komplett verloren – das passiert leider oft" },
+          { symptom: "Falscher U-Wert bei der Dämmung", risk: "Fördervoraussetzungen nicht erfüllt, Geld zurückzahlen" },
+          { symptom: "Ohne Energieberater beantragt", risk: "BAFA/KfW lehnt ab – Pflicht bei vielen Maßnahmen" },
+          { symptom: "Falsche Nachweise eingereicht", risk: "Auszahlung verzögert oder verweigert" }
+        ]}
+        solutions={[
+          { title: "Antrag VOR Auftrag", description: "Wir koordinieren Timing mit unseren Energieberatern" },
+          { title: "Zertifizierte Partner", description: "DENA-gelistete Energieberater aus unserem Netzwerk" },
+          { title: "Komplette Abwicklung", description: "Von Antrag bis Auszahlung alles aus einer Hand" },
+          { title: "Bis 20% Förderung", description: "Maximale Zuschüsse für Ihre Dachsanierung sichern" }
+        ]}
+        urgencyMessage="2025 gibt es noch attraktive Förderungen – aber die Budgets sind begrenzt!"
+      />
+
+      <CTACluster
+        title="Förderung für Ihre Dachsanierung sichern"
+        subtitle="Kostenlose Erstberatung · Energieberater-Netzwerk · Antragsservice"
+      />
+
+      <AIEnhancedFAQ
+        title="Häufige Fragen zu Förderung & Energieberatung"
+        faqs={[
+          {
+            question: "Was kostet eine Energieberatung für das Dach?",
+            shortAnswer: "Eine Vor-Ort-Energieberatung kostet 300-500€, BAFA erstattet bis 80%.",
+            details: "Unsere Partner-Energieberater analysieren Ihr Gebäude vor Ort. Die Kosten liegen bei 300-500€. Das BAFA erstattet davon bis zu 80% (max. 1.300€ für EFH). So zahlen Sie effektiv nur 60-100€ für eine professionelle Beratung.",
+            priceRange: "300-500€ (abzgl. 80% BAFA-Zuschuss)",
+            localReference: "Energieberater aus München und Umgebung aus unserem Partnernetzwerk",
+            nextStep: "Kostenlose Erstberatung vereinbaren →"
+          },
+          {
+            question: "Wie viel Förderung bekomme ich für Dachsanierung?",
+            shortAnswer: "KfW und BAFA fördern mit bis zu 20% Zuschuss.",
+            details: "Bei 30.000€ Projektkosten sind das bis zu 6.000€ Förderung. Mit iSFP-Bonus sogar 5% mehr. Die Förderung gilt für Dämmung, Dachfenster und energetische Verbesserungen. Wichtig: Antrag VOR Auftragserteilung stellen!",
+            priceRange: "15-20% der förderfähigen Kosten",
+            localReference: "Gilt für alle Münchner Stadtteile und Umlandgemeinden",
+            nextStep: "Fördermöglichkeiten prüfen lassen →"
+          },
+          {
+            question: "Brauche ich einen Energieberater für KfW-Förderung?",
+            shortAnswer: "Ja, für BAFA-Einzelmaßnahmen und KfW-Effizienzhaus ist ein dena-zertifizierter Energieberater Pflicht.",
+            details: "Der Energieberater erstellt den Sanierungsfahrplan, bestätigt die technischen Anforderungen und begleitet die Umsetzung. Wir vermitteln Sie direkt an unsere Partner-Energieberater – ohne Wartezeit.",
+            localReference: "Unsere Partner sind in der DENA-Expertenliste für München gelistet",
+            nextStep: "Energieberater-Kontakt anfordern →"
+          },
+          {
+            question: "Was ist ein individueller Sanierungsfahrplan (iSFP)?",
+            shortAnswer: "Ein Schritt-für-Schritt-Plan für Ihre energetische Sanierung mit 5% Förder-Bonus.",
+            details: "Der iSFP zeigt sinnvolle Maßnahmen und deren optimale Reihenfolge. Großer Vorteil: Mit iSFP bekommen Sie 5% mehr Förderung auf alle Einzelmaßnahmen. Bei 20.000€ Dämmkosten sind das 1.000€ extra Zuschuss.",
+            priceRange: "iSFP-Erstellung: 800-1.200€ (BAFA fördert 80%)",
+            nextStep: "iSFP erstellen lassen →"
+          },
+          {
+            question: "Welchen U-Wert muss die Dachdämmung erreichen?",
+            shortAnswer: "Für BAFA-Förderung maximal 0,14 W/(m²K).",
+            details: "Das entspricht ca. 24cm Mineralwolle oder 18cm PU-Dämmung. Bei Altbauten in München oft eine Herausforderung wegen Sparrenhöhe. Wir planen die optimale Lösung: Zwischensparren-, Aufsparren- oder Kombidämmung.",
+            priceRange: "Dämmung: 50-120€/m² je nach Lösung",
+            localReference: "Speziell für Münchner Altbauten mit niedriger Sparrenhöhe",
+            nextStep: "Dämmkonzept erstellen lassen →"
+          }
+        ]}
+      />
+
+      <ProofStack title="Warum 089Dach für Ihre Förderprojekte?" />
+
       <LeadFunnel />
       <RelatedServices 
         currentPage="energieberatung" 

@@ -7,7 +7,11 @@ import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle2, Home, Sun, Maximize, Euro, Phone, Quote, Award, Shield, Users } from "lucide-react";
-import SEO, { BreadcrumbSchema, ServiceSchema, ProductServiceSchema, LocalBusinessSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, ServiceSchema, ProductServiceSchema, FAQPageSchema, LocalBusinessSchema } from "@/components/SEO";
+import AIEnhancedFAQ from "@/components/AIEnhancedFAQ";
+import ProblemSolutionSection from "@/components/ProblemSolutionSection";
+import CTACluster from "@/components/CTACluster";
+import ProofStack from "@/components/ProofStack";
 import heroImage from "@assets/generated_images/renovated_dormer_window_after.png";
 import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
@@ -298,6 +302,74 @@ export default function Gaubenbau() {
           { src: gaubeImg4, alt: "Fertig renovierte Dachgaube", caption: "Nachher: Gaube wie neu" }
         ]}
       />
+
+      <ProblemSolutionSection
+        sectionTitle="Platzprobleme im Dachgeschoss?"
+        problemTitle="Typische Dachgeschoss-Probleme"
+        solutionTitle="Unsere Gauben-Lösungen"
+        problems={[
+          { symptom: "Zu wenig Stehhöhe im Dachgeschoss", risk: "Nutzbare Fläche stark eingeschränkt, Zimmer kaum möblierbar" },
+          { symptom: "Dunkle Räume unterm Dach", risk: "Dachfenster allein bringen oft zu wenig Licht" },
+          { symptom: "Kinder brauchen eigene Zimmer", risk: "Platz wird knapp, teurer Umzug droht" },
+          { symptom: "Home-Office braucht Raum", risk: "Kein ruhiger Arbeitsplatz in der Wohnung" }
+        ]}
+        solutions={[
+          { title: "Schleppgaube ab 12.000€", description: "Maximaler Raumgewinn, klassisches Design" },
+          { title: "Komplettservice", description: "Von Planung über Baugenehmigung bis Fertigstellung" },
+          { title: "5-25m² mehr Wohnfläche", description: "Je nach Gaubenart und Größe" },
+          { title: "Mit KfW-Förderung kombinierbar", description: "Energetische Dämmung wird gefördert" }
+        ]}
+        urgencyMessage="Eine Gaube steigert den Immobilienwert um bis zu 15%!"
+      />
+
+      <CTACluster
+        title="Mehr Wohnraum unterm Dach?"
+        subtitle="Kostenlose Vor-Ort-Beratung · Festpreisangebot · Baugenehmigung inklusive"
+      />
+
+      <AIEnhancedFAQ
+        title="Häufige Fragen zum Gaubenbau"
+        faqs={[
+          {
+            question: "Was kostet eine Gaube in München?",
+            shortAnswer: "Eine Schleppgaube kostet ab 12.000€, Flachdachgauben ab 18.000€.",
+            details: "Die Kosten hängen von Gaubenart, Größe und Ausstattung ab. Schleppgaube (2,5m breit): 12.000-18.000€. Spitzgaube: 15.000-22.000€. Flachdachgaube: 18.000-28.000€. Große Sonderkonstruktionen: 25.000-35.000€. Alle Preise inkl. Planung, Genehmigung und Ausführung.",
+            priceRange: "12.000-35.000€ je nach Größe und Typ",
+            localReference: "Preise für München und Umgebung, inkl. Bauantrag beim Referat für Stadtplanung",
+            nextStep: "Kostenloses Angebot anfordern →"
+          },
+          {
+            question: "Brauche ich eine Baugenehmigung für eine Gaube?",
+            shortAnswer: "Ja, Gauben sind in Bayern genehmigungspflichtig.",
+            details: "Wir arbeiten mit erfahrenen Architekten zusammen und kümmern uns um Planung und Bauantrag. Genehmigungszeit beim Münchner Referat für Stadtplanung: ca. 8-12 Wochen. Bei denkmalgeschützten Gebäuden ist zusätzlich das Denkmalschutzamt einzubinden.",
+            localReference: "Erfahrung mit Bauanträgen in allen Münchner Bezirken",
+            nextStep: "Beratung zur Genehmigung vereinbaren →"
+          },
+          {
+            question: "Wie viel Wohnraum gewinne ich durch eine Gaube?",
+            shortAnswer: "Eine Standard-Schleppgaube bringt 5-8m² zusätzliche Nutzfläche mit Stehhöhe.",
+            details: "Der tatsächliche Raumgewinn hängt von der Dachneigung und Gaubenbreite ab. Bei breiten Gauben oder mehreren Gauben sind 15-25m² möglich. Wir berechnen den genauen Raumgewinn bei der kostenlosen Vor-Ort-Beratung.",
+            priceRange: "5-25m² zusätzlicher Wohnraum",
+            nextStep: "Raumgewinn berechnen lassen →"
+          },
+          {
+            question: "Welche Gaubenart ist die beste für mein Haus?",
+            shortAnswer: "Das hängt von Architektur, Dachneigung und Ihren Wünschen ab.",
+            details: "Schleppgaube: Klassisch, großer Raumgewinn, günstig. Spitzgaube: Elegant für traditionelle Häuser. Flachdachgaube: Modern, maximaler Raumgewinn. Trapezgaube: Vielseitig. Rundgaube: Architektonisches Highlight. Wir beraten vor Ort, welche Gaube zu Ihrem Münchner Haus passt.",
+            localReference: "Erfahrung mit Altbauten in Schwabing, Haidhausen, Sendling und ganz München",
+            nextStep: "Gaubenberatung vor Ort buchen →"
+          },
+          {
+            question: "Wie lange dauert der Bau einer Gaube?",
+            shortAnswer: "Der reine Bau dauert 1-2 Wochen, mit Planung und Genehmigung 3-4 Monate gesamt.",
+            details: "Planungsphase: 2-4 Wochen. Genehmigungsverfahren: 8-12 Wochen. Bauphase: 1-2 Wochen. Tipp: Im Winter planen, im Frühjahr bauen – so nutzen Sie die optimale Bauzeit und haben im Sommer mehr Wohnraum.",
+            nextStep: "Zeitplan erstellen lassen →"
+          }
+        ]}
+      />
+
+      <ProofStack title="Warum 089Dach für Ihren Gaubenbau?" />
+
       <LeadFunnel />
       <RelatedServices 
         currentPage="gaubenbau" 

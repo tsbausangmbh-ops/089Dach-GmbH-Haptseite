@@ -17,6 +17,10 @@ import SEO, { BreadcrumbSchema, ServiceSchema, ProductServiceSchema, FAQPageSche
 import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import { FlachdachMuenchenContent } from "@/components/SEOContent";
+import AIEnhancedFAQ from "@/components/AIEnhancedFAQ";
+import ProblemSolutionSection from "@/components/ProblemSolutionSection";
+import CTACluster from "@/components/CTACluster";
+import ProofStack from "@/components/ProofStack";
 
 export default function Bedachungen() {
   return (
@@ -274,6 +278,71 @@ export default function Bedachungen() {
       />
 
       <FlachdachMuenchenContent />
+
+      <ProblemSolutionSection
+        sectionTitle="Erkennen Sie Ihr Problem?"
+        problemTitle="Warnsignale bei Ihrem Dach"
+        solutionTitle="Unsere Lösung für Sie"
+        problems={[
+          { symptom: "Ziegel sind verrutscht oder fehlen", risk: "Regenwasser dringt ein und schädigt Dämmung und Dachstuhl" },
+          { symptom: "Moos und Flechten überwuchern das Dach", risk: "Feuchtigkeit wird gespeichert, Frost sprengt die Ziegel" },
+          { symptom: "Hohe Heizkosten trotz moderner Heizung", risk: "Bis zu 30% der Wärme entweicht durch ein schlecht gedämmtes Dach" },
+          { symptom: "Wasserflecken an der Decke oder im Dachboden", risk: "Schimmelbildung und Bauschäden sind die teure Folge" }
+        ]}
+        solutions={[
+          { title: "Kostenlose Dachinspektion", description: "Wir prüfen Ihr Dach vor Ort und sagen Ihnen ehrlich, was gemacht werden muss" },
+          { title: "Komplettsanierung mit Dämmung", description: "Neue Eindeckung plus moderne Wärmedämmung – spart bis zu 30% Heizkosten" },
+          { title: "10 Jahre Garantie", description: "Auf alle Arbeiten geben wir schriftlich 10 Jahre Garantie" },
+          { title: "Förderberatung inklusive", description: "Wir helfen bei KfW- und BAFA-Anträgen für bis zu 20% Zuschuss" }
+        ]}
+        urgencyMessage="Je früher Sie handeln, desto günstiger wird die Reparatur – kleine Schäden werden schnell teuer!"
+      />
+
+      <CTACluster 
+        variant="primary" 
+        title="Bereit für Ihr neues Dach?" 
+        subtitle="Kostenlose Beratung · Festpreisangebot · 10 Jahre Garantie"
+      />
+
+      <AIEnhancedFAQ
+        title="Häufige Fragen zur Dacheindeckung"
+        faqs={[
+          {
+            question: "Was kostet Dach neu eindecken ohne Dämmung?",
+            shortAnswer: "Ab 80€/m² für Betondachsteine, ab 100€/m² für Tonziegel.",
+            details: "Eine Neueindeckung ohne Dämmung kostet ab 80€/m² für Betondachsteine, ab 100€/m² für Tonziegel und ab 150€/m² für Schiefer. Bei 100m² Dachfläche rechnen Sie mit 8.000-15.000€. Faktoren wie Dachneigung, Zugänglichkeit und Gerüst beeinflussen den Endpreis.",
+            priceRange: "8.000–15.000€ bei 100m²",
+            localReference: "In München-Obermenzing und Pasing führen wir wöchentlich Dachsanierungen durch.",
+            nextStep: "Kostenloses Angebot anfordern →"
+          },
+          {
+            question: "Steildach oder Flachdach – was ist besser?",
+            shortAnswer: "Steildächer halten länger (50+ Jahre) und bieten Dachraum.",
+            details: "Steildächer sind wartungsärmer und bieten zusätzlichen Wohnraum. Flachdächer sind im Bau günstiger und ermöglichen Begrünung oder Terrassen. Die Wahl hängt von Ihrem Gebäude und Nutzungswünschen ab.",
+            localReference: "In Münchner Neubaugebieten wie Freiham sehen wir beide Varianten.",
+            nextStep: "Beratungstermin vereinbaren →"
+          },
+          {
+            question: "Welche Dachziegel sind die besten?",
+            shortAnswer: "Tondachziegel halten 80+ Jahre und sind farbecht.",
+            details: "Tondachziegel sind langlebig (80+ Jahre), farbecht und natürlich. Betondachsteine sind günstiger, schwerer und halten 40-50 Jahre. Schiefer ist am hochwertigsten (100+ Jahre), aber auch teurer. Für München empfehlen wir meist Tonziegel wegen der Witterungsbeständigkeit.",
+            priceRange: "Tonziegel 5-15€/Stück",
+            localReference: "Im denkmalgeschützten Bogenhausen verwenden wir oft Biberschwanzziegel.",
+            nextStep: "Material-Beratung anfordern →"
+          },
+          {
+            question: "Lohnt sich eine Aufsparrendämmung beim Dachdecken?",
+            shortAnswer: "Ja! Bis zu 30% Heizkostenersparnis und 20% Förderung möglich.",
+            details: "Eine Aufsparrendämmung spart bis zu 30% Heizkosten, wird mit bis zu 20% BAFA-Zuschuss gefördert und steigert den Immobilienwert. Mehrkosten: ca. 80-120€/m² gegenüber reiner Eindeckung. Die Investition amortisiert sich oft in 8-12 Jahren.",
+            priceRange: "+80-120€/m² Mehrkosten",
+            localReference: "Energetische Sanierungen sind in Münchner Altbauvierteln wie Schwabing sehr gefragt.",
+            nextStep: "Förderberatung anfragen →"
+          }
+        ]}
+      />
+
+      <ProofStack title="Warum 089Dach für Ihre Bedachung?" />
+
       <LeadFunnel />
       <RelatedServices 
         currentPage="bedachungen" 

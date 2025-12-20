@@ -6,6 +6,10 @@ import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, Shield, Clock, Award, ArrowRight, Paintbrush, Sparkles, ThumbsUp, AlertTriangle } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema, FAQPageSchema, LocalBusinessSchema } from "@/components/SEO";
+import AIEnhancedFAQ from "@/components/AIEnhancedFAQ";
+import ProblemSolutionSection from "@/components/ProblemSolutionSection";
+import CTACluster from "@/components/CTACluster";
+import ProofStack from "@/components/ProofStack";
 import RelatedServices from "@/components/RelatedServices";
 import ImageGallery from "@/components/ImageGallery";
 import beschichtungImg1 from "@assets/generated_images/aged_red_roof_tiles_closeup.png";
@@ -227,6 +231,73 @@ export default function Dachbeschichtung() {
           { src: beschichtungImg4, alt: "Modernes Haus mit anthrazitfarbenem Dach", caption: "Moderne Dachgestaltung" }
         ]}
       />
+
+      <ProblemSolutionSection
+        sectionTitle="Dachbeschichtung – wirklich sinnvoll?"
+        problemTitle="Wann Beschichtung NICHT hilft"
+        solutionTitle="Unsere ehrliche Empfehlung"
+        problems={[
+          { symptom: "Gebrochene oder poröse Ziegel", risk: "Beschichtung überdeckt nur, repariert nicht – Schaden schreitet fort" },
+          { symptom: "Undichtes Dach", risk: "Farbe dichtet nicht ab! Wasser kommt weiterhin durch" },
+          { symptom: "Ziegel älter als 40 Jahre", risk: "Substanz zu schwach, Beschichtung hält nicht lange" },
+          { symptom: "Beschädigte Unterkonstruktion", risk: "Oberflächenbehandlung nützt nichts bei tieferliegendem Problem" }
+        ]}
+        solutions={[
+          { title: "Ehrliche Vor-Ort-Prüfung", description: "Wir sagen Ihnen, ob Beschichtung sinnvoll ist – kostenlos" },
+          { title: "Beschichtung nur bei intakten Ziegeln", description: "Optische Auffrischung, Moosschutz" },
+          { title: "Alternative: Teilsanierung", description: "Defekte Ziegel tauschen, dann ggf. beschichten" },
+          { title: "Langfristig denken", description: "Neueindeckung oft wirtschaftlicher als Beschichtung" }
+        ]}
+        urgencyMessage="Vorsicht vor unseriösen Haustürgeschäften! Wir beraten ehrlich."
+      />
+
+      <CTACluster
+        title="Ehrliche Beratung zur Dachbeschichtung"
+        subtitle="Kostenlose Vor-Ort-Prüfung · Keine Drückerkolonne · Meisterbetrieb"
+      />
+
+      <AIEnhancedFAQ
+        title="Häufige Fragen zur Dachbeschichtung"
+        faqs={[
+          {
+            question: "Ist Dachbeschichtung sinnvoll?",
+            shortAnswer: "Nur bei intakten Ziegeln ohne Schäden – als optische Auffrischung und Moosschutz.",
+            details: "Eine Beschichtung lohnt sich, wenn die Ziegel intakt sind und das Dach noch 10-15 Jahre halten soll. Bei porösen, gerissenen oder stark verwitterten Ziegeln ist eine Neueindeckung die bessere und langfristig günstigere Investition. Wir prüfen das kostenlos vor Ort.",
+            localReference: "Kostenlose Vor-Ort-Beurteilung in ganz München",
+            nextStep: "Kostenlose Prüfung vereinbaren →"
+          },
+          {
+            question: "Was kostet Dachbeschichtung pro m²?",
+            shortAnswer: "Professionelle Dachbeschichtung kostet 15-30€/m² inkl. Reinigung.",
+            details: "Bei 100m² Dachfläche: 1.500-3.000€. Aber Achtung: Neue Ziegel kosten 80-120€/m² und halten 40-100 Jahre. Beschichtung hält realistisch 8-12 Jahre. Langfristig ist die Neueindeckung oft günstiger pro Jahr!",
+            priceRange: "Reinigung + Beschichtung: 25-35€/m²",
+            nextStep: "Preisvergleich Beschichtung vs. Neueindeckung →"
+          },
+          {
+            question: "Wie lange hält eine Dachbeschichtung?",
+            shortAnswer: "Realistisch 8-12 Jahre bei guter Verarbeitung.",
+            details: "Hersteller-Versprechen von 20+ Jahren sind meist übertrieben. Wetterbedingungen in München (Frost, Schnee, Hagel) beanspruchen die Beschichtung stark. Zum Vergleich: Neue Tondachziegel halten 60-100 Jahre, Betonziegel 40-60 Jahre.",
+            priceRange: "8-12 Jahre Lebensdauer realistisch",
+            nextStep: "Lebensdauer Ihres Daches prüfen →"
+          },
+          {
+            question: "Kann Dachbeschichtung mein Dach abdichten?",
+            shortAnswer: "Nein! Eine Beschichtung ist Farbe/Versiegelung, keine Abdichtung.",
+            details: "Undichte Stellen, gerissene Ziegel oder defekte Unterspannbahnen werden durch Beschichtung NICHT repariert. Das Wasser kommt weiterhin durch. Bei Undichtigkeiten brauchen Sie eine echte Sanierung mit Ziegeltausch oder Neueindeckung.",
+            nextStep: "Undichtigkeit fachgerecht beheben lassen →"
+          },
+          {
+            question: "Woran erkenne ich unseriöse Dachbeschichter?",
+            shortAnswer: "Haustürgeschäfte, extreme Rabatte und unrealistische Garantieversprechen sind Warnsignale.",
+            details: "Seriöse Betriebe prüfen erst das Dach und raten ehrlich – auch wenn das manchmal heißt, keine Beschichtung zu machen. Wir sind Meisterbetrieb seit 1998, kommen nicht unangekündigt und machen keinen Druckverkauf.",
+            localReference: "Münchner Meisterbetrieb mit Innungsmitgliedschaft",
+            nextStep: "Ehrliche Beratung vom Meister →"
+          }
+        ]}
+      />
+
+      <ProofStack title="Warum 089Dach für Ihr Dach?" />
+
       <LeadFunnel />
       <RelatedServices currentPage="dachbeschichtung" relatedIds={["dachsanierung", "reparaturservice", "wartung", "energieberatung"]} />
       <Contact />

@@ -11,6 +11,10 @@ import { CalendarCheck, Shield, Clock, Mail, Search, Droplets, Leaf, Check, Quot
 import { useState } from "react";
 import { toast } from "sonner";
 import SEO, { BreadcrumbSchema, ServiceSchema, HowToSchema, ProductServiceSchema, FAQPageSchema, LocalBusinessSchema } from "@/components/SEO";
+import AIEnhancedFAQ from "@/components/AIEnhancedFAQ";
+import ProblemSolutionSection from "@/components/ProblemSolutionSection";
+import CTACluster from "@/components/CTACluster";
+import ProofStack from "@/components/ProofStack";
 import heroImage from "@assets/generated_images/roofer_tools_arranged_cleanly.png";
 import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
@@ -463,6 +467,75 @@ export default function Wartung() {
           { src: wartungImg4, alt: "Gepflegtes Dach nach regelmäßiger Wartung", caption: "Ergebnis regelmäßiger Wartung" }
         ]}
       />
+
+      <ProblemSolutionSection
+        sectionTitle="Kleine Schäden, große Folgen"
+        problemTitle="Was bei fehlender Wartung passiert"
+        solutionTitle="So schützen wir Ihr Dach"
+        problems={[
+          { symptom: "Verstopfte Dachrinnen", risk: "Wasser läuft über, Feuchtigkeit an Fassade und im Mauerwerk" },
+          { symptom: "Verschobene oder gebrochene Ziegel", risk: "Undichtigkeit, Wasserschäden in der Dämmung" },
+          { symptom: "Moos und Flechten auf dem Dach", risk: "Ziegel werden porös, Frost sprengt sie auf" },
+          { symptom: "Undichte Anschlüsse (Kamin, Fenster)", risk: "Schimmel im Dachgeschoss, teure Folgeschäden" }
+        ]}
+        solutions={[
+          { title: "Jährliche Dachinspektion", description: "Schäden erkennen, bevor sie teuer werden" },
+          { title: "Dachrinnenreinigung", description: "Laub entfernen, Fallrohre spülen, Überlauf verhindern" },
+          { title: "Moosentfernung", description: "Belag schonend entfernen, Ziegel schützen" },
+          { title: "Sofort-Reparatur", description: "Kleine Mängel direkt beim Wartungstermin beheben" }
+        ]}
+        urgencyMessage="1€ Wartung heute spart 10€ Reparatur morgen!"
+      />
+
+      <CTACluster
+        title="Wartungstermin vereinbaren"
+        subtitle="Ab 250€ · Jährliche Inspektion · Protokoll mit Fotos"
+      />
+
+      <AIEnhancedFAQ
+        title="Häufige Fragen zur Dachwartung"
+        faqs={[
+          {
+            question: "Wie oft sollte ich mein Dach warten lassen?",
+            shortAnswer: "Wir empfehlen eine jährliche Dachinspektion – am besten im Frühjahr oder Herbst.",
+            details: "Bei älteren Dächern (40+ Jahre) empfehlen wir halbjährliche Kontrollen. Nach starken Stürmen ist eine zusätzliche Sichtkontrolle sinnvoll. Mit unserem Wartungsvertrag vergessen Sie keinen Termin und sparen 15%.",
+            priceRange: "Jährliche Wartung: ab 250€, Wartungsvertrag: ab 220€/Jahr",
+            localReference: "Flexible Terminierung in ganz München und Umgebung",
+            nextStep: "Wartungsvertrag anfragen →"
+          },
+          {
+            question: "Was kostet eine Dachwartung?",
+            shortAnswer: "Unsere Dachwartung kostet ab 250€ für ein Einfamilienhaus.",
+            details: "Inklusive: Komplette Sichtprüfung aller Dachelemente, Dachrinnenreinigung, Dokumentation mit Fotos und schriftlicher Zustandsbericht. Kleinreparaturen (bis 100€) erledigen wir oft direkt vor Ort.",
+            priceRange: "250-450€ je nach Dachgröße und Aufwand",
+            localReference: "Inkl. Anfahrt im gesamten Münchner Raum",
+            nextStep: "Angebot für Wartung anfordern →"
+          },
+          {
+            question: "Was ist in einer Dachinspektion enthalten?",
+            shortAnswer: "Komplette Sichtprüfung aller Dachelemente mit Fotodokumentation.",
+            details: "Wir prüfen: Ziegel/Eindeckung, First, Ortgang, Kehlen, Dachfenster, Kaminanschlüsse, Dachrinnen, Fallrohre, Lüftungselemente. Sie erhalten einen schriftlichen Zustandsbericht mit Handlungsempfehlungen und Fotos.",
+            nextStep: "Inspektion terminieren →"
+          },
+          {
+            question: "Wann ist der beste Zeitpunkt für Dachwartung?",
+            shortAnswer: "März-April (nach Frost) oder Oktober-November (vor Winter).",
+            details: "Im Frühjahr prüfen wir, ob der Winter Schäden hinterlassen hat. Im Herbst bereiten wir das Dach auf den Winter vor und reinigen die Rinnen vom Laub. Nach Stürmen bieten wir kurzfristige Kontrollen an.",
+            localReference: "Termine auch kurzfristig in München und Umland verfügbar",
+            nextStep: "Termin zum Wunschzeitpunkt buchen →"
+          },
+          {
+            question: "Lohnt sich ein Dachwartungsvertrag?",
+            shortAnswer: "Ja! Sie sparen 15% und bekommen bevorzugte Termine.",
+            details: "Mit unserem Wartungsvertrag (ab 220€/Jahr) erhalten Sie: Jährliche Komplettinspektion inkl. Dachrinnenreinigung, 15% Rabatt gegenüber Einzelaufträgen, bevorzugte Terminvergabe und automatische Erinnerung.",
+            priceRange: "Wartungsvertrag: ab 220€/Jahr (inkl. Rinnenreinigung)",
+            nextStep: "Wartungsvertrag abschließen →"
+          }
+        ]}
+      />
+
+      <ProofStack title="Warum 089Dach für Ihre Dachwartung?" />
+
       <LeadFunnel />
       <RelatedServices 
         currentPage="wartung" 

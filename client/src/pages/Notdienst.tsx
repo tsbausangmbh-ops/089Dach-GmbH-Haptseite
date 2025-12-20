@@ -8,6 +8,10 @@ import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema, FAQPageSchema, LocalBusinessSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 import ImageGallery from "@/components/ImageGallery";
+import AIEnhancedFAQ from "@/components/AIEnhancedFAQ";
+import ProblemSolutionSection from "@/components/ProblemSolutionSection";
+import CTACluster from "@/components/CTACluster";
+import ProofStack from "@/components/ProofStack";
 import notdienstImg1 from "@assets/generated_images/damaged_red_tile_roof_before.png";
 import notdienstImg2 from "@assets/generated_images/completed_roof_showcase_reference.png";
 import notdienstImg3 from "@assets/generated_images/realistic_damaged_flat_roof_before.png";
@@ -269,6 +273,70 @@ export default function Notdienst() {
           { src: notdienstImg4, alt: "Saniertes Dach nach Notdienst-Einsatz", caption: "Nachher: Dauerhaft abgedichtet" }
         ]}
       />
+
+      <ProblemSolutionSection
+        sectionTitle="Dach-Notfall? So helfen wir!"
+        problemTitle="Typische Notfall-Situationen"
+        solutionTitle="Unsere Sofort-Hilfe"
+        problems={[
+          { symptom: "Sturm hat Ziegel abgedeckt", risk: "Regen dringt ein und schädigt Dämmung, Dachstuhl und Innenräume" },
+          { symptom: "Wasser tropft durch die Decke", risk: "Jede Minute Verzögerung vergrößert den Wasserschaden" },
+          { symptom: "Baum oder Ast auf dem Dach", risk: "Gefahr weiterer Beschädigung und Einsturzgefahr" },
+          { symptom: "Dachfenster eingeschlagen", risk: "Offene Stelle lässt Regen und Kälte ungehindert eindringen" }
+        ]}
+        solutions={[
+          { title: "24/7 erreichbar", description: "Auch nachts, am Wochenende und an Feiertagen" },
+          { title: "Schnelle Anfahrt", description: "In München meist innerhalb von 1-2 Stunden vor Ort" },
+          { title: "Sofortige Notsicherung", description: "Plane, Notabdichtung oder provisorische Reparatur" },
+          { title: "Versicherungsdoku", description: "Professionelle Schadensfotos für Ihre Versicherung" }
+        ]}
+        urgencyMessage="Bei Dach-Notfällen zählt jede Minute – rufen Sie jetzt an: 089 12621964!"
+      />
+
+      <CTACluster 
+        variant="emergency" 
+        title="Dach-Notfall? Sofort Hilfe!" 
+        subtitle="24/7 erreichbar · Schnelle Anfahrt · Notsicherung sofort"
+      />
+
+      <AIEnhancedFAQ
+        title="Häufige Fragen zum Dach-Notdienst"
+        faqs={[
+          {
+            question: "Ist der Dachnotdienst wirklich 24 Stunden erreichbar?",
+            shortAnswer: "Ja, wir sind 24/7 erreichbar – auch Wochenende und Feiertage.",
+            details: "Ja, wir sind 24/7 erreichbar - auch an Wochenenden und Feiertagen. Unser Notdienst-Team ist speziell für Nacht- und Wochenendeinsätze ausgestattet. Rufen Sie einfach an: 089 12621964.",
+            localReference: "Unser Einsatzgebiet umfasst ganz München und 30km Umkreis.",
+            nextStep: "Jetzt Notdienst anrufen: 089 12621964 →"
+          },
+          {
+            question: "Was kostet der Notdienst außerhalb der Geschäftszeiten?",
+            shortAnswer: "Notdienstzuschlag ca. 50€, Reparatur zum normalen Preis.",
+            details: "Es gibt einen Notdienstzuschlag von ca. 50€ für Einsätze außerhalb der Geschäftszeiten. Die eigentliche Reparatur wird zum normalen Preis abgerechnet. Keine versteckten Kosten – Sie wissen vorher, was es kostet.",
+            priceRange: "Anfahrt ab 89€ + Reparatur",
+            localReference: "In München sind wir meist innerhalb von 1-2 Stunden bei Ihnen.",
+            nextStep: "Sofort Rückruf anfordern →"
+          },
+          {
+            question: "Was kostet eine Notabdichtung bei Sturmschaden in München?",
+            shortAnswer: "Anfahrt ab 89€, Notsicherung ab 150€, Notabdichtung ab 195€.",
+            details: "Anfahrt Notdienst ab 89€, Notsicherung mit Plane ab 150€, sofortige Notabdichtung ab 195€. Bei Sturmschäden zahlt meist die Gebäudeversicherung. Wir dokumentieren alles für Ihren Versicherungsantrag – kostenlos.",
+            priceRange: "Komplett ab 195€",
+            localReference: "Wir arbeiten mit allen großen Versicherungen in München zusammen.",
+            nextStep: "Notdienst anfordern →"
+          },
+          {
+            question: "Wer zahlt bei Sturmschaden am Dach?",
+            shortAnswer: "Die Wohngebäudeversicherung zahlt bei Sturm ab Windstärke 8.",
+            details: "Die Wohngebäudeversicherung zahlt bei Sturmschäden ab Windstärke 8. Wir erstellen eine detaillierte Schadensdokumentation mit Fotos und Kostenvoranschlag für Ihre Versicherung – kostenlos. Direkte Abrechnung mit vielen Versicherungen möglich.",
+            localReference: "Bei Sturmschäden in München unterstützen wir Sie bei der gesamten Schadensabwicklung.",
+            nextStep: "Versicherungsfall melden →"
+          }
+        ]}
+      />
+
+      <ProofStack title="Warum 089Dach im Notfall?" />
+
       <LeadFunnel />
       <RelatedServices 
         currentPage="reparaturservice" 

@@ -18,6 +18,10 @@ import ImageGallery from "@/components/ImageGallery";
 import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import { DachsanierungMuenchenContent } from "@/components/SEOContent";
+import AIEnhancedFAQ from "@/components/AIEnhancedFAQ";
+import ProblemSolutionSection from "@/components/ProblemSolutionSection";
+import CTACluster from "@/components/CTACluster";
+import ProofStack from "@/components/ProofStack";
 
 export default function Dachsanierung() {
   const warningSignals = [
@@ -301,6 +305,129 @@ export default function Dachsanierung() {
       />
 
       <DachsanierungMuenchenContent />
+
+      <ProblemSolutionSection
+        sectionTitle="Erkennen Sie Ihr Dachproblem?"
+        problemTitle="Warnsignale, die auf Sanierungsbedarf hindeuten"
+        solutionTitle="Unsere Dachsanierung behebt das Problem"
+        problems={[
+          { symptom: "Wasserflecken an der Decke oder im Dachboden", risk: "Feuchtigkeit zerstört die Dämmung und fördert Schimmel – Sanierungskosten können sich verdoppeln." },
+          { symptom: "Verrutschte oder gebrochene Dachziegel", risk: "Offene Stellen lassen Wasser ein. Ein Sturm kann weitere Schäden verursachen." },
+          { symptom: "Heizkosten sind plötzlich deutlich gestiegen", risk: "Alte Dämmung verliert bis zu 40% der Wärme. Sie heizen buchstäblich zum Dach hinaus." },
+          { symptom: "Dach ist älter als 30 Jahre ohne größere Wartung", risk: "Materialien erreichen ihre Lebensdauer. Kleine Schäden werden schnell zu großen Problemen." }
+        ]}
+        solutions={[
+          { title: "Kostenlose Dachinspektion vor Ort", description: "Wir dokumentieren den Zustand mit Fotos und erstellen eine ehrliche Einschätzung – ohne Verkaufsdruck." },
+          { title: "Energetische Sanierung mit bis zu 20% Förderung", description: "KfW und BAFA fördern Ihre Dachsanierung. Wir helfen beim Antrag und maximieren Ihre Zuschüsse." },
+          { title: "Festpreis-Garantie ohne versteckte Kosten", description: "Sie wissen vorher, was es kostet. Keine bösen Überraschungen nach Projektstart." },
+          { title: "10 Jahre Garantie auf alle Arbeiten", description: "Material und Handwerksarbeit sind abgesichert. Bei Problemen sind wir für Sie da." }
+        ]}
+        urgencyMessage="Je länger Sie warten, desto teurer wird die Sanierung. Ein kleiner Schaden heute kann morgen zur Komplettsanierung führen."
+      />
+
+      <CTACluster 
+        variant="primary"
+        title="Bereit für Ihr neues Dach?"
+        subtitle="Kostenlose Beratung · Festpreisangebot · Bis zu 20% Förderung"
+      />
+
+      <AIEnhancedFAQ
+        title="Häufige Fragen zur Dachsanierung"
+        subtitle="Klare Antworten für Ihre Entscheidung – von Münchner Dachdeckermeistern"
+        faqs={[
+          {
+            question: "Was kostet eine Dachsanierung pro m² in München?",
+            shortAnswer: "Ab 195€/m² für eine Komplettsanierung mit Dämmung, ab 120€/m² ohne Dämmung.",
+            details: "Die Kosten hängen von Dachform, Materialgüte und Dämmstandard ab. Ein 120m²-Dach kostet je nach Ausstattung 24.000-42.000€. Wir erstellen Ihnen ein individuelles Festpreisangebot nach der kostenlosen Inspektion.",
+            priceRange: "120-350€ pro m² je nach Umfang",
+            localReference: "In München-Schwabing und Bogenhausen liegen die Kosten tendenziell am oberen Ende wegen Denkmalschutz-Auflagen.",
+            nextStep: "Fordern Sie jetzt ein kostenloses Angebot für Ihr Dach an →"
+          },
+          {
+            question: "Wie lange dauert eine komplette Dachsanierung?",
+            shortAnswer: "Ein Einfamilienhaus (100-150m²) dauert 1-2 Wochen bei guter Witterung.",
+            details: "Die Dauer hängt von Dachgröße, Komplexität und Wetter ab. Doppelhaushälften oft 5-7 Tage, größere Villen 2-3 Wochen. Wir arbeiten von außen – Sie müssen in der Regel nicht ausziehen.",
+            localReference: "In München haben wir pro Jahr etwa 200 Sonnentage – ideale Bedingungen für Dacharbeiten von März bis November.",
+            nextStep: "Vereinbaren Sie einen Beratungstermin für die Zeitplanung →"
+          },
+          {
+            question: "Welche Förderung gibt es für Dachsanierung 2025?",
+            shortAnswer: "BAFA fördert mit 15-20% Zuschuss (bis 6.000€), KfW bietet zinsgünstige Kredite.",
+            details: "Für energetische Sanierung mit U-Wert unter 0,14 W/m²K gibt es 15% Basis-Förderung. Mit individuellem Sanierungsfahrplan (iSFP) erhöhen Sie auf 20%. Wir übernehmen die Antragsstellung und arbeiten mit zertifizierten Energieberatern zusammen.",
+            priceRange: "Förderung von 3.000-12.000€ je nach Maßnahme",
+            localReference: "München bietet zusätzlich das Förderprogramm 'Energieeinsparung' mit bis zu 40% auf Energieberatung.",
+            nextStep: "Lassen Sie uns Ihre Fördermöglichkeiten berechnen →"
+          },
+          {
+            question: "Kann man eine Dachsanierung im Winter durchführen?",
+            shortAnswer: "Ja, bei Temperaturen über 5°C und trockener Witterung ist eine Sanierung möglich.",
+            details: "Wir schützen den Innenraum mit wetterfesten Planen. Dämmarbeiten sind auch bei Kälte machbar. Bitumenbahnen und manche Klebstoffe benötigen allerdings Mindesttemperaturen. Winter-Termine sind oft kurzfristiger verfügbar.",
+            localReference: "In München sind die Monate November bis Februar am herausforderndsten. Wir planen Puffertage ein für Witterungsunterbrechungen.",
+            nextStep: "Fragen Sie nach einem Winter-Termin mit Witterungsgarantie →"
+          },
+          {
+            question: "Brauche ich eine Baugenehmigung für die Dachsanierung?",
+            shortAnswer: "Bei reiner Sanierung (gleiche Form und Höhe) ist in München keine Genehmigung nötig.",
+            details: "Sobald Sie die Dachform ändern, Gauben hinzufügen oder das Dachgeschoss ausbauen, benötigen Sie einen Bauantrag beim Referat für Stadtplanung. In Erhaltungssatzungsgebieten gelten zusätzliche Regeln. Wir beraten Sie vorab, was genehmigungspflichtig ist.",
+            localReference: "Besonders in Altschwabing, Lehel und Bogenhausen gelten strenge Auflagen für Dachänderungen.",
+            nextStep: "Wir klären die Genehmigungsfragen für Sie →"
+          },
+          {
+            question: "Welche Dämmung ist bei Dachsanierung am besten?",
+            shortAnswer: "Aufsparrendämmung ist am effektivsten, Zwischensparrendämmung ist günstiger.",
+            details: "Aufsparrendämmung erreicht U-Werte bis 0,14 W/m²K und kostet ab 200€/m². Sie wird bei Neueindeckung von außen angebracht. Zwischensparrendämmung (ab 80€/m²) ist ideal, wenn die Eindeckung intakt bleiben soll.",
+            priceRange: "Zwischensparren ab 80€/m², Aufsparren ab 200€/m²",
+            localReference: "Für Münchner Altbauten vor 1970 empfehlen wir meist die Aufsparrendämmung – sie vermeidet Wärmebrücken an den Sparren.",
+            nextStep: "Welche Dämmung passt zu Ihrem Dach? Jetzt beraten lassen →"
+          },
+          {
+            question: "Übernimmt die Versicherung Dachsanierungskosten?",
+            shortAnswer: "Bei Sturmschäden (ab Windstärke 8) zahlt die Wohngebäudeversicherung.",
+            details: "Alterungsbedingte Sanierung ist nicht versichert. Wichtig: Schäden sofort dokumentieren und melden. Wir erstellen Ihnen kostenlos einen Schadensbericht mit Fotos für Ihre Versicherung.",
+            localReference: "Nach Sturm Friederike 2018 hatten viele Münchner Dächer Schäden – wir haben über 50 Versicherungsfälle erfolgreich abgewickelt.",
+            nextStep: "Sturmschaden? Rufen Sie uns für die Schadensaufnahme an →"
+          },
+          {
+            question: "Ist eine Dachsanierung steuerlich absetzbar?",
+            shortAnswer: "Ja! Handwerkerkosten können Sie zu 20% (max. 1.200€/Jahr) absetzen.",
+            details: "Alternativ: Bei Vermietung sind alle Kosten als Werbungskosten absetzbar. Energetische Sanierung am selbstgenutzten Wohneigentum kann über 3 Jahre mit 20% direkt von der Steuerschuld abgezogen werden (§35c EStG).",
+            priceRange: "Steuerersparnis von 1.200 bis 40.000€ je nach Situation",
+            localReference: "Wir stellen Rechnungen GoBD-konform aus – optimal für Ihre Steuererklärung.",
+            nextStep: "Sprechen Sie mit Ihrem Steuerberater über Ihre Optionen →"
+          }
+        ]}
+      />
+
+      <ProofStack
+        title="Warum Münchner uns vertrauen"
+        reviews={[
+          {
+            name: "Familie Kramer",
+            location: "München-Laim",
+            rating: 5,
+            text: "Drei Jahre hatten wir gewartet – ein Fehler. Die Sanierung durch 089Dach war dann aber reibungslos. Faire Preise und ein Team, das sauber arbeitet.",
+            project: "Komplettsanierung Steildach",
+            date: "März 2024"
+          },
+          {
+            name: "Dr. M. Steinbach",
+            location: "München-Sendling",
+            rating: 5,
+            text: "35 Jahre altes Dach, Schimmel im Dachgeschoss. Jetzt haben wir 40% weniger Heizkosten und ein neues Spielzimmer für die Enkelkinder unterm Dach.",
+            project: "Energetische Sanierung mit KfW-Förderung",
+            date: "Oktober 2023"
+          },
+          {
+            name: "A. Weber",
+            location: "München-Bogenhausen",
+            rating: 5,
+            text: "Denkmalgerechte Schieferdeckung an unserer Altbau-Villa. Handwerkskunst auf höchstem Niveau. Selbst das Denkmalamt war begeistert.",
+            project: "Denkmalschutz-Dachsanierung",
+            date: "November 2023"
+          }
+        ]}
+      />
+
       <LeadFunnel />
       <RelatedServices 
         currentPage="dachsanierung" 
