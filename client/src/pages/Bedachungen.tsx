@@ -7,6 +7,11 @@ import { Button } from "@/components/ui/button";
 import { CheckCircle2, ArrowRight, Home, Warehouse, ShieldCheck, Quote, AlertTriangle, Award, Shield, Users } from "lucide-react";
 import heroImage from "@assets/generated_images/roofer_working_on_red_tile_roof_munich.png";
 import tileImage from "@assets/generated_images/red_roof_tiles_texture_close_up.png";
+import greenRoof from "@assets/generated_images/flat_green_roof_with_natural_variations.png";
+import historicRoof from "@assets/generated_images/historic_biberschwanz_roof_with_patina.png";
+import anthraciteRoof from "@assets/generated_images/modern_house_with_anthracite_roof.png";
+import flatRoofDetail from "@assets/generated_images/flat_roof_bitumen_detail_with_texture.png";
+import ImageGallery from "@/components/ImageGallery";
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema, ServiceSchema, ProductServiceSchema, FAQPageSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
@@ -252,6 +257,17 @@ export default function Bedachungen() {
           </div>
         </div>
       </section>
+
+      <ImageGallery
+        title="Unsere Bedachungs-Projekte"
+        images={[
+          { src: historicRoof, alt: "Historisches Biberschwanz-Dach mit Patina", caption: "Traditionelle Biberschwanz-Eindeckung" },
+          { src: greenRoof, alt: "Flachdach mit Begrünung", caption: "Extensive Dachbegrünung in München" },
+          { src: anthraciteRoof, alt: "Modernes Haus mit anthrazitfarbenem Dach", caption: "Moderne Flachziegel in Anthrazit" },
+          { src: flatRoofDetail, alt: "Flachdach Bitumenabdichtung", caption: "Professionelle Flachdachabdichtung" }
+        ]}
+        columns={2}
+      />
 
       <FlachdachMuenchenContent />
       <LeadFunnel />

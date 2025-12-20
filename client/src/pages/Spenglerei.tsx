@@ -6,6 +6,11 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Wrench, ShieldCheck, PenTool, CheckCircle2, Quote, Hammer, Award, Shield, Users } from "lucide-react";
 import heroImage from "@assets/generated_images/copper_roof_gutter_detail.png";
 import detailImage from "@assets/generated_images/metal_standing_seam_roof_detail.png";
+import copperChimney from "@assets/generated_images/bogenhausen_chimney_new_copper.png";
+import oldChimney from "@assets/generated_images/bogenhausen_chimney_old_flashing.png";
+import newMetalRoof from "@assets/generated_images/new_metal_standing_seam_roof.png";
+import copperGutter from "@assets/generated_images/new_copper_chimney_flashing.png";
+import ImageGallery from "@/components/ImageGallery";
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema, ServiceSchema, ProductServiceSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
@@ -240,6 +245,17 @@ export default function Spenglerei() {
           </div>
         </div>
       </section>
+
+      <ImageGallery
+        title="Unsere Spenglerarbeiten"
+        images={[
+          { src: oldChimney, alt: "Alter Kamin mit undichter Einfassung", caption: "Vorher: Undichte Kamineinfassung" },
+          { src: copperChimney, alt: "Neuer Kamin mit Kupfereinfassung", caption: "Nachher: Neue Kupfereinfassung" },
+          { src: newMetalRoof, alt: "Neues Stehfalzdach aus Metall", caption: "Stehfalzdach aus Titanzink" },
+          { src: copperGutter, alt: "Kupfer-Kaminanschluss", caption: "Handgefertigter Kaminanschluss" }
+        ]}
+        columns={2}
+      />
 
       <SpenglereiMuenchenContent />
       <LeadFunnel />

@@ -10,6 +10,11 @@ import { Sun, Wind, ThermometerSun, Shield, ArrowRight, Quote, Phone, Check, Lig
 import { Link } from "wouter";
 import SEO, { BreadcrumbSchema, ServiceSchema, ProductServiceSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/bright_attic_room_after_skylights.png";
+import darkAttic from "@assets/generated_images/dark_attic_before_window_installation.png";
+import brightAttic from "@assets/generated_images/bright_attic_room_after_skylights.png";
+import roofWindow from "@assets/generated_images/modern_roof_window_installation.png";
+import damagedDormer from "@assets/generated_images/damaged_dormer_window_before.png";
+import ImageGallery from "@/components/ImageGallery";
 import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import { DachfensterMuenchenContent } from "@/components/SEOContent";
@@ -248,6 +253,17 @@ export default function Dachfenster() {
           </Button>
         </div>
       </section>
+
+      <ImageGallery
+        title="Dachfenster-Einbau vorher/nachher"
+        images={[
+          { src: darkAttic, alt: "Dunkler Dachboden vor Fenstereinbau", caption: "Vorher: Dunkler Dachboden" },
+          { src: brightAttic, alt: "Heller Dachboden nach Fenstereinbau", caption: "Nachher: Lichtdurchflutet" },
+          { src: roofWindow, alt: "Modernes Dachfenster wird eingebaut", caption: "Professioneller Einbau" },
+          { src: damagedDormer, alt: "Beschädigte Gaube vor Renovierung", caption: "Gauben-Sanierung" }
+        ]}
+        columns={2}
+      />
 
       <DachfensterMuenchenContent />
       <LeadFunnel />

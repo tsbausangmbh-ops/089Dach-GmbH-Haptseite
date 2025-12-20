@@ -10,6 +10,11 @@ import { CheckCircle2, AlertTriangle, Clock, Shield, Euro, ThermometerSun, Arrow
 import { Link } from "wouter";
 import SEO, { BreadcrumbSchema, ServiceSchema, ProductServiceSchema, FAQPageSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/realistic_renovated_roof_obermenzing_after.png";
+import damagedRoof from "@assets/generated_images/realistic_damaged_roof_obermenzing_before.png";
+import newTileRoof from "@assets/generated_images/obermenzing_house_new_roof_after.png";
+import roofInsulation from "@assets/generated_images/roof_insulation_installation_scene.png";
+import completedRoof from "@assets/generated_images/completed_roof_showcase_reference.png";
+import ImageGallery from "@/components/ImageGallery";
 import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import { DachsanierungMuenchenContent } from "@/components/SEOContent";
@@ -279,6 +284,17 @@ export default function Dachsanierung() {
           </div>
         </div>
       </section>
+
+      <ImageGallery
+        title="Unsere Dachsanierungen in München"
+        images={[
+          { src: damagedRoof, alt: "Altes beschädigtes Dach vor der Sanierung", caption: "Vorher: Undichtes Dach mit Wasserschäden" },
+          { src: newTileRoof, alt: "Neu eingedecktes Ziegeldach nach Sanierung", caption: "Nachher: Neues Ziegeldach mit Dämmung" },
+          { src: roofInsulation, alt: "Dachdämmung wird eingebaut", caption: "Energetische Sanierung mit Aufsparrendämmung" },
+          { src: completedRoof, alt: "Fertig saniertes Einfamilienhaus-Dach", caption: "Komplettsanierung mit 10 Jahren Garantie" }
+        ]}
+        columns={2}
+      />
 
       <DachsanierungMuenchenContent />
       <LeadFunnel />
