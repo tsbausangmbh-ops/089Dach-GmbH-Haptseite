@@ -110,9 +110,9 @@ export default function Navbar() {
             {desktopDropdownOpen && (
               <div className="absolute top-full left-0 pt-2 z-[100]">
                 <div className="bg-white shadow-lg border border-gray-100 rounded-xl py-2 min-w-[260px]">
-                  {leistungenItems.map((item) => (
+                  {leistungenItems.map((item, idx) => (
                     item.name === "---" ? (
-                      <div key="separator" className="border-t border-gray-200 my-2" />
+                      <div key={`separator-${idx}`} className="border-t border-gray-200 my-2" />
                     ) : (
                       <a
                         key={item.name}
@@ -185,9 +185,9 @@ export default function Navbar() {
                 </div>
                 {leistungenOpen && (
                   <div className="mt-2 ml-4 space-y-2">
-                    {leistungenItems.map((item) => (
+                    {leistungenItems.map((item, idx) => (
                       item.name === "---" ? (
-                        <div key="separator" className="border-t border-gray-200 my-2" />
+                        <div key={`separator-mobile-${idx}`} className="border-t border-gray-200 my-2" />
                       ) : (
                         <a
                           key={item.name}
