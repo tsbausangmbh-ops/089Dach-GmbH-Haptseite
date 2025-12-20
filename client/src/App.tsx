@@ -142,7 +142,6 @@ import DachbeschichtungKosten from "@/pages/DachbeschichtungKosten";
 import CookieConsent from "@/components/CookieConsent";
 import BackgroundLogo from "@/components/BackgroundLogo";
 import { LocalBusinessSchema } from "@/components/SEO";
-import ChatWidget from "@/components/ChatWidget";
 import FloatingCTA from "@/components/FloatingCTA";
 import ChristmasPopup from "@/components/ChristmasPopup";
 import NewYearPopup from "@/components/NewYearPopup";
@@ -310,7 +309,6 @@ function App() {
         <BackgroundLogo />
         <Toaster />
         <Router />
-        <ChatWidget />
         <CookieConsent />
         <ChristmasPopup />
         <NewYearPopup />
