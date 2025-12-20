@@ -129,7 +129,7 @@ export default function Dachreparatur() {
           <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-8 text-center">
             So läuft Ihre Dachreparatur ab
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-7xl mx-auto">
             {ablauf.map((step, idx) => (
               <div key={idx} className="text-center">
                 <div className="bg-primary text-white rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">
@@ -145,7 +145,7 @@ export default function Dachreparatur() {
 
       <section className="py-10 md:py-16">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-6">
               Wann Reparatur, wann Sanierung?
             </h2>

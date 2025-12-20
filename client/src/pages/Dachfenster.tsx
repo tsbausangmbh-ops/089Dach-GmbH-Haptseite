@@ -112,7 +112,7 @@ export default function Dachfenster() {
       {/* Transformation Story */}
       <section className="py-6 md:py-10 bg-secondary text-white">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <div className="grid md:grid-cols-2 gap-4 items-center" data-testid="testimonial-berger">
               <div>
                 <Lightbulb className="h-12 w-12 text-primary mb-6" />

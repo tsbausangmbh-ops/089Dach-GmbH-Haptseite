@@ -55,13 +55,13 @@ export default function DachsanierungKosten() {
         <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${heroImage})` }} />
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/95 via-slate-900/85 to-slate-900/70"></div>
         <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-6xl mx-auto text-center">
+          <div className="max-w-7xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 bg-green-500/20 backdrop-blur-sm px-4 py-2 rounded-full mb-6 border border-green-500/30">
               <Calculator className="w-5 h-5 text-green-400" />
               <span className="font-medium text-green-300">Transparente Preise 2025</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"><strong>Dachsanierung Kosten</strong> München</h1>
-            <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-6xl mx-auto">Was kostet eine <strong>Dachsanierung</strong> wirklich? Alle Preise transparent – von der einfachen <strong>Neueindeckung</strong> bis zur <strong>Komplettsanierung</strong>.</p>
+            <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-7xl mx-auto">Was kostet eine <strong>Dachsanierung</strong> wirklich? Alle Preise transparent – von der einfachen <strong>Neueindeckung</strong> bis zur <strong>Komplettsanierung</strong>.</p>
             <p className="text-lg text-white/70 mb-8"><strong>150-350€/m²</strong> Komplett • Bis 20% <strong>KfW-Förderung</strong> • Festpreisgarantie</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/rueckruf"><Button size="lg" className="bg-green-600 hover:bg-green-700 text-white text-lg px-8 py-6" data-testid="button-hero-callback"><Phone className="mr-2 h-5 w-5" />Kostenlose Beratung</Button></Link>
@@ -73,7 +73,7 @@ export default function DachsanierungKosten() {
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-5xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-4">Dachsanierung Kosten im Überblick</h2>
             <p className="text-center text-slate-600 mb-12">Richtwerte für München und Umgebung – inkl. Material und Arbeit</p>
             <div className="overflow-x-auto">
@@ -102,7 +102,7 @@ export default function DachsanierungKosten() {
 
       <section className="py-16 bg-slate-50">
         <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">Was beeinflusst die Kosten?</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {faktoren.map((f, index) => (
@@ -118,7 +118,7 @@ export default function DachsanierungKosten() {
 
       <section className="py-16 bg-green-600 text-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto text-center">
+          <div className="max-w-7xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-6">Beispielrechnung: 100m² Satteldach</h2>
             <div className="grid md:grid-cols-3 gap-8 mb-8">
               <div className="bg-white/10 rounded-xl p-6">
@@ -141,7 +141,7 @@ export default function DachsanierungKosten() {
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">Häufige Fragen zu Dachsanierung Kosten</h2>
             <div className="space-y-6">
               {faqs.map((faq, index) => (
@@ -157,7 +157,7 @@ export default function DachsanierungKosten() {
 
       <section className="py-16 bg-slate-50">
         <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto text-center">
+          <div className="max-w-7xl mx-auto text-center">
             <h2 className="text-3xl font-bold text-slate-800 mb-6">Kostenloses Angebot für Ihre Dachsanierung</h2>
             <p className="text-xl text-slate-600 mb-8">Wir kommen vorbei, begutachten Ihr Dach und erstellen ein Festpreis-Angebot – kostenlos und unverbindlich.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

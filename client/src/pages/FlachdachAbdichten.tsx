@@ -54,13 +54,13 @@ export default function FlachdachAbdichten() {
         <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${heroImage})` }} />
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/95 via-slate-900/85 to-slate-900/70"></div>
         <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-6xl mx-auto text-center">
+          <div className="max-w-7xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 bg-cyan-500/20 backdrop-blur-sm px-4 py-2 rounded-full mb-6 border border-cyan-500/30">
               <Layers className="w-5 h-5 text-cyan-400" />
               <span className="font-medium text-cyan-300">Alle Abdichtungssysteme</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"><strong>Flachdach abdichten</strong></h1>
-            <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-6xl mx-auto">Bitumen, EPDM, PVC oder Flüssigkunststoff – wir finden die beste Lösung für Ihr Flachdach.</p>
+            <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-7xl mx-auto">Bitumen, EPDM, PVC oder Flüssigkunststoff – wir finden die beste Lösung für Ihr Flachdach.</p>
             <p className="text-lg text-white/70 mb-8">Ab 40€/m² • Bis 10 Jahre Garantie • Meisterbetrieb</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/rueckruf"><Button size="lg" className="bg-cyan-600 hover:bg-cyan-700 text-white text-lg px-8 py-6" data-testid="button-hero-callback"><Phone className="mr-2 h-5 w-5" />Kostenlose Beratung</Button></Link>
@@ -72,7 +72,7 @@ export default function FlachdachAbdichten() {
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-5xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-4">Abdichtungssysteme im Vergleich</h2>
             <p className="text-center text-slate-600 mb-12">Wir beraten Sie zur besten Lösung für Ihr Dach</p>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -95,7 +95,7 @@ export default function FlachdachAbdichten() {
 
       <section className="py-16 bg-slate-50">
         <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">Ihre Vorteile bei 089Dach</h2>
             <div className="grid md:grid-cols-2 gap-4">
               {vorteile.map((v, index) => (
@@ -111,7 +111,7 @@ export default function FlachdachAbdichten() {
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">Häufige Fragen zur Flachdachabdichtung</h2>
             <div className="space-y-6">
               {faqs.map((faq, index) => (
@@ -127,7 +127,7 @@ export default function FlachdachAbdichten() {
 
       <section className="py-16 bg-cyan-600 text-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto text-center">
+          <div className="max-w-7xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-6">Flachdach abdichten lassen?</h2>
             <p className="text-xl text-white/90 mb-8">Kostenlose Vor-Ort-Beratung mit Festpreis-Angebot</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

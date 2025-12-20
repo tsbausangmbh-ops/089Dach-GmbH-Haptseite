@@ -131,7 +131,7 @@ export default function SEODachdeckerNotdienst() {
 
       <section className="py-12 md:py-16 bg-white">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
-          <div className="max-w-6xl mx-auto text-center mb-12">
+          <div className="max-w-7xl mx-auto text-center mb-12">
             <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">
               Wann brauchen Sie unseren <span className="text-primary">Dach-Notdienst</span>?
             </h2>
@@ -140,7 +140,7 @@ export default function SEODachdeckerNotdienst() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-7xl mx-auto">
             {notfaelle.map((notfall, idx) => (
               <div key={idx} className="bg-stone-50 rounded-xl p-6 border border-stone-200">
                 <div className="flex items-center gap-4 mb-4">
@@ -158,7 +158,7 @@ export default function SEODachdeckerNotdienst() {
 
       <section className="py-12 md:py-16 bg-stone-50">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-8 text-center">
               So funktioniert unser <span className="text-primary">Notdienst</span>
             </h2>
@@ -186,7 +186,7 @@ export default function SEODachdeckerNotdienst() {
 
       <section className="py-12 md:py-16 bg-white">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
-          <div className="max-w-6xl mx-auto prose prose-lg text-muted-foreground">
+          <div className="max-w-7xl mx-auto prose prose-lg text-muted-foreground">
             <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-6">
               Sturmschaden am Dach: Was tun?
             </h2>

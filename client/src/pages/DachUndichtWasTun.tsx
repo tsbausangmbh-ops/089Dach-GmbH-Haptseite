@@ -55,13 +55,13 @@ export default function DachUndichtWasTun() {
         <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${heroImage})` }} />
         <div className="absolute inset-0 bg-gradient-to-r from-red-900/95 via-red-900/85 to-red-800/70"></div>
         <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-6xl mx-auto text-center">
+          <div className="max-w-7xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 bg-red-500/30 backdrop-blur-sm px-4 py-2 rounded-full mb-6 border border-red-400/50">
               <AlertTriangle className="w-5 h-5 text-red-300" />
               <span className="font-medium text-red-200">Notfall-Ratgeber</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"><strong>Dach undicht</strong> – was tun?</h1>
-            <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-6xl mx-auto">Ihr Dach ist undicht? Keine Panik! Hier erfahren Sie, was Sie sofort tun können und wie wir Ihnen schnell helfen.</p>
+            <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-7xl mx-auto">Ihr Dach ist undicht? Keine Panik! Hier erfahren Sie, was Sie sofort tun können und wie wir Ihnen schnell helfen.</p>
             <p className="text-lg text-white/80 mb-8">Notdienst München • Oft am selben Tag • 24h erreichbar</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/beratung"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8" data-testid="button-online-cta">24h Online Termin</Button></Link>
@@ -73,7 +73,7 @@ export default function DachUndichtWasTun() {
 
       <section className="py-16 bg-red-50 border-b-4 border-red-500">
         <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-4 flex items-center justify-center gap-3">
               <AlertTriangle className="w-8 h-8 text-red-600" />
               Sofortmaßnahmen bei undichtem Dach
@@ -96,7 +96,7 @@ export default function DachUndichtWasTun() {
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-5xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-4">Warum ist mein Dach undicht?</h2>
             <p className="text-center text-slate-600 mb-12">Häufige Ursachen und was die Reparatur kostet</p>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -114,7 +114,7 @@ export default function DachUndichtWasTun() {
 
       <section className="py-16 bg-slate-800 text-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto text-center">
+          <div className="max-w-7xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-8">Schnelle Hilfe bei undichtem Dach</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div>
@@ -136,7 +136,7 @@ export default function DachUndichtWasTun() {
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">Häufige Fragen bei undichtem Dach</h2>
             <div className="space-y-6">
               {faqs.map((faq, index) => (
@@ -152,7 +152,7 @@ export default function DachUndichtWasTun() {
 
       <section className="py-16 bg-red-600 text-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto text-center">
+          <div className="max-w-7xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-6">Dach undicht? Wir helfen sofort!</h2>
             <p className="text-xl text-white/90 mb-8">Rufen Sie uns jetzt an – wir sind schnellstmöglich bei Ihnen.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

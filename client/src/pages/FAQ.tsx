@@ -222,7 +222,7 @@ export default function FAQ() {
       {/* Ihre Vorteile */}
       <section className="py-10 md:py-16 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-6xl mx-auto text-center mb-8 md:mb-12">
+          <div className="max-w-7xl mx-auto text-center mb-8 md:mb-12">
             <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">
               Warum unsere Kunden uns vertrauen
             </h2>
@@ -267,7 +267,7 @@ export default function FAQ() {
       {/* Problemlöser-Sektion */}
       <section className="py-10 md:py-16 bg-secondary text-white">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <Quote className="h-12 w-12 text-primary mb-6" />
             <blockquote className="text-2xl font-heading italic mb-6 leading-relaxed">
               „Die meisten Hausbesitzer haben Angst, über den Tisch gezogen zu werden. 

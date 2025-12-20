@@ -71,13 +71,13 @@ export default function Dachinspektion() {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/95 via-slate-900/85 to-slate-900/70"></div>
         <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-6xl mx-auto text-center">
+          <div className="max-w-7xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
               <Search className="w-5 h-5" />
               <span className="font-medium">Meisterbetrieb seit 1998</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"><strong>Dachinspektion</strong> München</h1>
-            <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-6xl mx-auto">
+            <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-7xl mx-auto">
               Professionelle Dachprüfung für 149€ pauschal – inklusive Fotodokumentation 
               und schriftlichem Protokoll.
             </p>
@@ -99,7 +99,7 @@ export default function Dachinspektion() {
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-5xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">
               Was wir bei der Dachinspektion prüfen
             </h2>
@@ -120,7 +120,7 @@ export default function Dachinspektion() {
 
       <section className="py-16 bg-slate-50">
         <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <div className="bg-white rounded-2xl p-8 md:p-12 shadow-lg border border-slate-100">
               <div className="text-center mb-8">
                 <h2 className="text-3xl font-bold text-slate-800 mb-4">Unser Inspektions-Paket</h2>
@@ -172,7 +172,7 @@ export default function Dachinspektion() {
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">
               Wann ist eine Dachinspektion sinnvoll?
             </h2>
@@ -190,7 +190,7 @@ export default function Dachinspektion() {
 
       <section className="py-16 bg-slate-50">
         <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">
               Häufige Fragen zur Dachinspektion
             </h2>
@@ -208,7 +208,7 @@ export default function Dachinspektion() {
 
       <section className="py-16 bg-blue-600 text-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto text-center">
+          <div className="max-w-7xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-6">
               Jetzt Dachinspektion buchen
             </h2>

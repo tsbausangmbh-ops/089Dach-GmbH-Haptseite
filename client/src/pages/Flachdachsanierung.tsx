@@ -141,7 +141,7 @@ export default function Flachdachsanierung() {
 
       <section className="py-10 md:py-16 bg-stone-50">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-6 text-center">
               Wann ist eine Flachdachsanierung nötig?
             </h2>
@@ -192,7 +192,7 @@ export default function Flachdachsanierung() {
 
       <section className="py-10 md:py-16">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
-          <div className="max-w-6xl mx-auto text-center">
+          <div className="max-w-7xl mx-auto text-center">
             <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-6">
               Dachbegrünung – die grüne Alternative
             </h2>

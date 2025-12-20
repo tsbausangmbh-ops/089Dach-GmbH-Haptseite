@@ -93,7 +93,7 @@ export default function Spenglerei() {
       {/* Craftmanship Story */}
       <section className="py-4 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <div className="bg-white rounded-xl p-8 md:p-12 shadow-sm border border-border">
               <div className="flex items-start gap-4">
                 <Hammer className="h-10 w-10 text-primary flex-shrink-0" />
@@ -222,7 +222,7 @@ export default function Spenglerei() {
       {/* Customer Story */}
       <section className="py-4 bg-secondary/5">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <div className="flex items-start gap-4">
               <Quote className="h-12 w-12 text-primary flex-shrink-0" />
               <div>

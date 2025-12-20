@@ -333,7 +333,7 @@ export default function Referenzen() {
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-heading font-bold text-secondary mb-4">
               12 echte Dachprojekte aus München und Umgebung
             </h2>
-            <p className="text-lg text-muted-foreground max-w-6xl mx-auto">
+            <p className="text-lg text-muted-foreground max-w-7xl mx-auto">
               Jedes Projekt zeigt den Vorher-Nachher-Vergleich mit Problem, Lösung und Ergebnis. 
               Von der <strong>Steildachsanierung in Obermenzing</strong> bis zur <strong>Flachdachbegrünung im Gewerbepark</strong> – 
               sehen Sie, wie wir Münchner Dächer verwandeln.
@@ -426,7 +426,7 @@ export default function Referenzen() {
             Antworten auf die wichtigsten Fragen rund um Ihr Dachprojekt in München und Umgebung
           </p>
           
-          <div className="max-w-6xl mx-auto space-y-6">
+          <div className="max-w-7xl mx-auto space-y-6">
             <article className="bg-gray-50 p-6 rounded-xl" itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
               <h3 className="text-lg font-bold text-secondary mb-2" itemProp="name">
                 Wie lange dauert eine Dachsanierung in München?

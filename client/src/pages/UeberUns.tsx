@@ -111,7 +111,7 @@ export default function UeberUns() {
       {/* Unsere Mission */}
       <section className="py-10 md:py-16 bg-secondary text-white">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-6xl mx-auto text-center">
+          <div className="max-w-7xl mx-auto text-center">
             <Sparkles className="h-10 md:h-12 w-10 md:w-12 text-primary mx-auto mb-4 md:mb-6" />
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-heading font-bold mb-4 md:mb-6">
               Unsere Mission: Ihre Sorgen beenden
@@ -131,7 +131,7 @@ export default function UeberUns() {
 
       <section id="geschichte" className="py-12 md:py-20 bg-white">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-6xl mx-auto text-center mb-10 md:mb-16">
+          <div className="max-w-7xl mx-auto text-center mb-10 md:mb-16">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Unsere Geschichte</span>
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-heading font-bold text-secondary mt-2 mb-4 md:mb-6">
               Aus Frust wurde Leidenschaft
@@ -242,7 +242,7 @@ export default function UeberUns() {
             </div>
           </div>
 
-          <div className="bg-secondary/5 rounded-xl p-8 md:p-12 border border-secondary/10 max-w-6xl mx-auto">
+          <div className="bg-secondary/5 rounded-xl p-8 md:p-12 border border-secondary/10 max-w-7xl mx-auto">
             <div className="flex items-start gap-4">
               <Quote className="h-12 w-12 text-primary flex-shrink-0" />
               <div>
@@ -263,7 +263,7 @@ export default function UeberUns() {
       {/* Geschichten aus unserem Alltag */}
       <section className="py-12 md:py-20 bg-white">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-6xl mx-auto text-center mb-8 md:mb-12">
+          <div className="max-w-7xl mx-auto text-center mb-8 md:mb-12">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Aus unserem Alltag</span>
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-heading font-bold text-secondary mt-2 mb-4 md:mb-6">
               Geschichten, die zeigen, wer wir sind
@@ -273,7 +273,7 @@ export default function UeberUns() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 max-w-7xl mx-auto">
             
             {/* Geschichte 1: Notfall */}
             <div className="bg-stone-50 rounded-xl p-8 border border-border">
@@ -377,14 +377,14 @@ export default function UeberUns() {
 
       <section className="py-12 md:py-20 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-6xl mx-auto text-center mb-8 md:mb-12">
+          <div className="max-w-7xl mx-auto text-center mb-8 md:mb-12">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Unsere Werte</span>
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-heading font-bold text-secondary mt-2 mb-4 md:mb-6">
               Wofür wir stehen
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 max-w-7xl mx-auto">
             <div className="bg-white p-8 rounded-xl border border-border text-center">
               <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
                 <CheckCircle2 className="h-8 w-8 text-primary" />

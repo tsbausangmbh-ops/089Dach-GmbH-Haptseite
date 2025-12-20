@@ -106,7 +106,7 @@ export default function DachUndicht() {
           <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-8 text-center">
             Was Sie jetzt tun sollten
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
             {sofortMassnahmen.map((item, idx) => (
               <div key={idx} className="bg-white rounded-xl p-6 border-2 border-primary/20 shadow-sm text-center">
                 <div className="bg-primary/10 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
@@ -125,7 +125,7 @@ export default function DachUndicht() {
           <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-8 text-center">
             Häufige Ursachen für undichte Dächer
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
             {ursachen.map((item, idx) => (
               <div key={idx} className="bg-white rounded-xl p-6 border border-gray-100 shadow-sm">
                 <div className="flex justify-between items-start mb-3">
@@ -141,7 +141,7 @@ export default function DachUndicht() {
 
       <section className="py-10 md:py-16">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-6 text-center">
               So läuft unsere Soforthilfe ab
             </h2>
@@ -170,7 +170,7 @@ export default function DachUndicht() {
 
       <section className="py-10 md:py-16 bg-primary/5">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
-          <div className="max-w-6xl mx-auto text-center">
+          <div className="max-w-7xl mx-auto text-center">
             <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">
               Nicht warten – handeln!
             </h2>

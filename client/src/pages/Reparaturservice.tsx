@@ -178,7 +178,7 @@ export default function Reparaturservice() {
       {/* Vertrauenstexte */}
       <section className="py-10 bg-secondary">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Erster Vertrauenstext - Empathie & Verständnis */}
             <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl border-l-4 border-primary">
               <p className="text-lg text-white font-medium mb-3">
@@ -211,7 +211,7 @@ export default function Reparaturservice() {
       {/* Kundengeschichte - Notfall */}
       <section className="py-5 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <div className="bg-white p-8 rounded-xl shadow-sm border-l-4 border-primary" data-testid="testimonial-keller">
               <Quote className="h-10 w-10 text-primary/30 mb-4" />
               <h3 className="text-xl font-bold text-secondary mb-4">
@@ -240,7 +240,7 @@ export default function Reparaturservice() {
       {/* Anfrage-Formular */}
       <section id="anfrage-form" className="py-6 bg-white">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
                 Reparaturanfrage senden
@@ -403,7 +403,7 @@ export default function Reparaturservice() {
       {/* Kleine Reparaturen */}
       <section className="py-6">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
               Kein Notfall, aber auch kein gutes Gefühl?
             </h2>

@@ -122,7 +122,7 @@ export default function Dachsanierung() {
       {/* Kundengeschichte */}
       <section className="py-6 md:py-10 bg-secondary text-white">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-6xl mx-auto" data-testid="testimonial-kramer">
+          <div className="max-w-7xl mx-auto" data-testid="testimonial-kramer">
             <Quote className="h-12 w-12 text-primary mb-6" />
             <blockquote className="text-2xl font-heading italic mb-6 leading-relaxed">
               „Drei Jahre haben wir gewartet. Dann kam der Wasserschaden – 18.000 Euro Folgekosten. 
@@ -248,7 +248,7 @@ export default function Dachsanierung() {
       {/* Zweite Kundengeschichte */}
       <section className="py-5 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-4 items-center" data-testid="case-study-steinbach">
+          <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-4 items-center" data-testid="case-study-steinbach">
             <div>
               <h3 className="text-2xl font-heading font-bold text-secondary mb-4">
                 Aus der Praxis: Familie Steinbach aus Sendling

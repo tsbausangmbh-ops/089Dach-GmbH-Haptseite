@@ -46,13 +46,13 @@ export default function GartenhausDach() {
         <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${heroImage})` }} />
         <div className="absolute inset-0 bg-gradient-to-r from-green-900/95 via-green-900/85 to-green-800/70"></div>
         <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-6xl mx-auto text-center">
+          <div className="max-w-7xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 bg-green-500/20 backdrop-blur-sm px-4 py-2 rounded-full mb-6 border border-green-500/30">
               <Trees className="w-5 h-5 text-green-400" />
               <span className="font-medium text-green-300">Für Ihren Garten</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"><strong>Gartenhaus Dach</strong></h1>
-            <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-6xl mx-auto">Neues Dach für Ihr Gartenhaus – von einfacher Dachpappe bis edlen Schindeln.</p>
+            <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-7xl mx-auto">Neues Dach für Ihr Gartenhaus – von einfacher Dachpappe bis edlen Schindeln.</p>
             <p className="text-lg text-white/70 mb-8">Ab 15€/m² • Auch Reparatur • Meisterbetrieb</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/rueckruf"><Button size="lg" className="bg-green-600 hover:bg-green-700 text-white text-lg px-8 py-6" data-testid="button-hero-callback"><Phone className="mr-2 h-5 w-5" />Kostenloses Angebot</Button></Link>
@@ -64,7 +64,7 @@ export default function GartenhausDach() {
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-5xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-4">Dachmaterialien für Gartenhäuser</h2>
             <p className="text-center text-slate-600 mb-12">Von günstig bis langlebig – für jeden Bedarf</p>
             <div className="overflow-x-auto">
@@ -95,7 +95,7 @@ export default function GartenhausDach() {
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">Häufige Fragen zum Gartenhaus-Dach</h2>
             <div className="space-y-6">
               {faqs.map((faq, index) => (
@@ -111,7 +111,7 @@ export default function GartenhausDach() {
 
       <section className="py-16 bg-green-600 text-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto text-center">
+          <div className="max-w-7xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-6">Gartenhaus-Dach erneuern?</h2>
             <p className="text-xl text-white/90 mb-8">Wir kommen vorbei und erstellen ein kostenloses Angebot</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

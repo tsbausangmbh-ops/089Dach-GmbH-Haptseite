@@ -56,13 +56,13 @@ export default function BlechdachKosten() {
         <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${heroImage})` }} />
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/95 via-slate-900/85 to-slate-900/70"></div>
         <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-6xl mx-auto text-center">
+          <div className="max-w-7xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 bg-zinc-500/30 backdrop-blur-sm px-4 py-2 rounded-full mb-6 border border-zinc-400/50">
               <Layers className="w-5 h-5 text-zinc-300" />
               <span className="font-medium text-zinc-200">Modern & langlebig</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"><strong>Blechdach Kosten</strong></h1>
-            <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-6xl mx-auto">Trapezblech, Stehfalz, Kupfer – alle Blechdach-Varianten und ihre Kosten im Überblick.</p>
+            <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-7xl mx-auto">Trapezblech, Stehfalz, Kupfer – alle Blechdach-Varianten und ihre Kosten im Überblick.</p>
             <p className="text-lg text-white/70 mb-8">Ab 20€/m² • Lange Lebensdauer • Meisterbetrieb</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/rueckruf"><Button size="lg" className="bg-zinc-600 hover:bg-zinc-700 text-white text-lg px-8 py-6" data-testid="button-hero-callback"><Phone className="mr-2 h-5 w-5" />Kostenlose Beratung</Button></Link>
@@ -74,7 +74,7 @@ export default function BlechdachKosten() {
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-5xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-4">Blechdach Preise nach Material</h2>
             <p className="text-center text-slate-600 mb-12">Alle Preise pro m² inkl. Material und Montage</p>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -92,7 +92,7 @@ export default function BlechdachKosten() {
 
       <section className="py-16 bg-slate-50">
         <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">Vorteile eines Blechdachs</h2>
             <div className="grid md:grid-cols-2 gap-4">
               {vorteile.map((v, index) => (
@@ -108,7 +108,7 @@ export default function BlechdachKosten() {
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">Häufige Fragen zu Blechdächern</h2>
             <div className="space-y-6">
               {faqs.map((faq, index) => (
@@ -124,7 +124,7 @@ export default function BlechdachKosten() {
 
       <section className="py-16 bg-zinc-700 text-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto text-center">
+          <div className="max-w-7xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-6">Blechdach planen?</h2>
             <p className="text-xl text-white/90 mb-8">Kostenlose Beratung zu Material, Optik und Kosten</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

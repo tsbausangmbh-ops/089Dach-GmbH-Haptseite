@@ -258,7 +258,7 @@ export default function KostenloseBeratung() {
 
       <section className="py-8 bg-white">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <div className="mb-6">
               <div className="text-center mb-6">
                 <div className="inline-flex items-center justify-center w-16 h-16 bg-primary/10 rounded-full mb-4">
@@ -599,7 +599,7 @@ export default function KostenloseBeratung() {
 
       <section className="py-4 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <h2 className="text-2xl font-heading font-bold text-secondary mb-4 text-center">
               Was Sie von unserer Beratung erwarten können
             </h2>

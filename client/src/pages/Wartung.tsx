@@ -175,7 +175,7 @@ export default function Wartung() {
       {/* Kundengeschichte */}
       <section className="py-5 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <div className="bg-white p-8 rounded-xl shadow-sm border-l-4 border-primary" data-testid="testimonial-wartung">
               <Quote className="h-10 w-10 text-primary/30 mb-4" />
               <h3 className="text-xl font-bold text-secondary mb-4">
@@ -366,7 +366,7 @@ export default function Wartung() {
       {/* Wartungsintervalle */}
       <section className="py-6">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-6xl mx-auto">
+          <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
               Wie oft sollte ein Dach gewartet werden?
             </h2>
