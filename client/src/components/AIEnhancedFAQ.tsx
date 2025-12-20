@@ -1,6 +1,7 @@
 import { ChevronDown, Phone, ArrowRight, CheckCircle2, MapPin, Calculator } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
+import { TextWithKeywordLinks } from "@/components/KeywordLink";
 
 interface FAQItem {
   question: string;
@@ -81,7 +82,7 @@ export default function AIEnhancedFAQ({
                     </div>
 
                     <div className="text-gray-700 leading-relaxed">
-                      {faq.details}
+                      <TextWithKeywordLinks>{faq.details}</TextWithKeywordLinks>
                     </div>
 
                     {faq.priceRange && (

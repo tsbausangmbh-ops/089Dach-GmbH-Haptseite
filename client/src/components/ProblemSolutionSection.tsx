@@ -1,5 +1,6 @@
 import { AlertTriangle, CheckCircle2, ArrowRight, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { TextWithKeywordLinks } from "@/components/KeywordLink";
 
 interface Problem {
   symptom: string;
@@ -51,7 +52,7 @@ export default function ProblemSolutionSection({
                     <span className="text-red-500 font-bold text-lg">!</span>
                     <div>
                       <p className="font-semibold text-red-900">{problem.symptom}</p>
-                      <p className="text-sm text-red-700">{problem.risk}</p>
+                      <p className="text-sm text-red-700"><TextWithKeywordLinks>{problem.risk}</TextWithKeywordLinks></p>
                     </div>
                   </li>
                 ))}
@@ -81,7 +82,7 @@ export default function ProblemSolutionSection({
                     <CheckCircle2 className="h-5 w-5 text-green-600 flex-shrink-0 mt-0.5" />
                     <div>
                       <p className="font-semibold text-green-900">{solution.title}</p>
-                      <p className="text-sm text-green-700">{solution.description}</p>
+                      <p className="text-sm text-green-700"><TextWithKeywordLinks>{solution.description}</TextWithKeywordLinks></p>
                     </div>
                   </li>
                 ))}

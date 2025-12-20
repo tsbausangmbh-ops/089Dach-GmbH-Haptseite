@@ -1,5 +1,6 @@
 import { Euro, Percent, FileText, Gift, ArrowRight, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { TextWithKeywordLinks } from "@/components/KeywordLink";
 
 interface FoerderungBoxProps {
   title?: string;
@@ -78,9 +79,9 @@ export default function FoerderungBox({
                 <div className="flex-1">
                   <h3 className="text-xl font-bold text-secondary mb-2">Unser Förder-Service</h3>
                   <p className="text-muted-foreground mb-4">
-                    Wir beraten Sie kostenlos zu allen Fördermöglichkeiten und vermitteln Sie an zertifizierte 
-                    Energieberater aus unserem Partnernetzwerk. So sichern Sie sich die maximale Förderung 
-                    für Ihre Dachsanierung.
+                    <TextWithKeywordLinks>
+                      Wir beraten Sie kostenlos zu allen Fördermöglichkeiten und vermitteln Sie an zertifizierte Energieberater aus unserem Partnernetzwerk. So sichern Sie sich die maximale Förderung für Ihre Dachsanierung.
+                    </TextWithKeywordLinks>
                   </p>
                   <div className="flex flex-wrap gap-3">
                     <a href="/beratung">

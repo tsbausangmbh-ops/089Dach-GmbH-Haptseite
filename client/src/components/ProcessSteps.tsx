@@ -1,5 +1,6 @@
 import { Phone, ClipboardCheck, FileText, Calendar, Hammer, CheckCircle2, Shield, Clock, Award } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { TextWithKeywordLinks } from "@/components/KeywordLink";
 
 interface ProcessStep {
   step: string;
@@ -99,7 +100,7 @@ export default function ProcessSteps({
                 
                 <div className="pt-4">
                   <h3 className="font-bold text-secondary text-lg mb-2">{item.title}</h3>
-                  <p className="text-gray-600 text-sm mb-3">{item.desc}</p>
+                  <p className="text-gray-600 text-sm mb-3"><TextWithKeywordLinks>{item.desc}</TextWithKeywordLinks></p>
                   
                   {item.highlight && (
                     <div className="inline-flex items-center gap-1.5 bg-primary/10 text-primary text-xs font-medium px-3 py-1.5 rounded-full">
