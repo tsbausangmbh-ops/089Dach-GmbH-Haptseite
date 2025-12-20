@@ -11,7 +11,7 @@ export function DachdeckerKomplettContent() {
   ];
 
   return (
-    <section className="py-16 bg-stone-50">
+    <section className="py-6 bg-stone-50">
       <div className="container mx-auto px-6 lg:px-12">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl font-heading font-bold text-secondary mb-8 text-center">
@@ -146,7 +146,7 @@ export function DachdeckerKomplettContent() {
 
 export function DachdeckerMuenchenContent() {
   return (
-    <section className="py-12 bg-white">
+    <section className="py-4 bg-white">
       <div className="container mx-auto px-6 lg:px-12">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-heading font-bold text-secondary mb-6 text-center">
@@ -322,7 +322,7 @@ export function DachdeckerMuenchenContent() {
 
 export function DachsanierungMuenchenContent() {
   return (
-    <section className="py-12 bg-stone-50">
+    <section className="py-4 bg-stone-50">
       <div className="container mx-auto px-6 lg:px-12">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-heading font-bold text-secondary mb-6 text-center">
@@ -444,7 +444,7 @@ export function DachsanierungMuenchenContent() {
 
 export function SpenglereiMuenchenContent() {
   return (
-    <section className="py-12 bg-white">
+    <section className="py-4 bg-white">
       <div className="container mx-auto px-6 lg:px-12">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-heading font-bold text-secondary mb-6 text-center">
@@ -514,7 +514,7 @@ export function SpenglereiMuenchenContent() {
 
 export function DachfensterMuenchenContent() {
   return (
-    <section className="py-12 bg-stone-50">
+    <section className="py-4 bg-stone-50">
       <div className="container mx-auto px-6 lg:px-12">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-heading font-bold text-secondary mb-6 text-center">
@@ -576,7 +576,7 @@ export function DachfensterMuenchenContent() {
 
 export function DachreparaturMuenchenContent() {
   return (
-    <section className="py-12 bg-white">
+    <section className="py-4 bg-white">
       <div className="container mx-auto px-6 lg:px-12">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-heading font-bold text-secondary mb-6 text-center">
@@ -644,7 +644,7 @@ export function DachreparaturMuenchenContent() {
 
 export function FlachdachMuenchenContent() {
   return (
-    <section className="py-12 bg-stone-50">
+    <section className="py-4 bg-stone-50">
       <div className="container mx-auto px-6 lg:px-12">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-heading font-bold text-secondary mb-6 text-center">

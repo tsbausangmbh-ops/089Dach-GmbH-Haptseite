@@ -220,7 +220,7 @@ export default function FAQ() {
       </section>
 
       {/* Ihre Vorteile */}
-      <section className="py-10 md:py-16 bg-gray-50">
+      <section className="py-4 md:py-6 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-7xl mx-auto text-center mb-8 md:mb-12">
             <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">
@@ -265,7 +265,7 @@ export default function FAQ() {
       </section>
 
       {/* Problemlöser-Sektion */}
-      <section className="py-10 md:py-16 bg-secondary text-white">
+      <section className="py-4 md:py-6 bg-secondary text-white">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-7xl mx-auto">
             <Quote className="h-12 w-12 text-primary mb-6" />
@@ -287,7 +287,7 @@ export default function FAQ() {
         </div>
       </section>
 
-      <section id="fragen" className="py-10 md:py-16 bg-white">
+      <section id="fragen" className="py-4 md:py-6 bg-white">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-2xl mb-8 md:mb-12">
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-heading font-bold text-secondary mb-4">

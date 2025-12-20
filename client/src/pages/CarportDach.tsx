@@ -72,7 +72,7 @@ export default function CarportDach() {
         </div>
       </section>
 
-      <section className="py-16 bg-white">
+      <section className="py-6 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-4">Carport-Dachmaterialien & Preise</h2>
@@ -90,7 +90,7 @@ export default function CarportDach() {
         </div>
       </section>
 
-      <section className="py-16 bg-slate-50">
+      <section className="py-6 bg-slate-50">
         <div className="container mx-auto px-4">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">Unser Service für Ihr Carport</h2>
@@ -106,7 +106,7 @@ export default function CarportDach() {
         </div>
       </section>
 
-      <section className="py-16 bg-white">
+      <section className="py-6 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">Häufige Fragen zum Carport-Dach</h2>
@@ -122,7 +122,7 @@ export default function CarportDach() {
         </div>
       </section>
 
-      <section className="py-16 bg-indigo-600 text-white">
+      <section className="py-6 bg-indigo-600 text-white">
         <div className="container mx-auto px-4">
           <div className="max-w-7xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-6">Carport-Dach erneuern?</h2>

@@ -107,7 +107,7 @@ export default function Energieberatung() {
       <BackButton />
 
       {/* Kundengeschichte */}
-      <section className="py-10 md:py-16 bg-gray-50">
+      <section className="py-4 md:py-6 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-7xl mx-auto">
             <div className="bg-white p-8 rounded-xl shadow-sm border-l-4 border-primary" data-testid="testimonial-mueller">

@@ -65,7 +65,7 @@ export default function CustomerReviews() {
   const totalReviews = 127;
 
   return (
-    <section className="py-10 md:py-16 bg-stone-50" data-testid="section-customer-reviews">
+    <section className="py-4 md:py-6 bg-stone-50" data-testid="section-customer-reviews">
       <div className="container mx-auto px-4 md:px-6 lg:px-12">
         <div className="text-center mb-8 md:mb-12">
           <div className="flex items-center justify-center gap-2 mb-3">

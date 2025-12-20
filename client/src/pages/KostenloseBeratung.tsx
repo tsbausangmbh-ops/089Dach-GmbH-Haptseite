@@ -256,7 +256,7 @@ export default function KostenloseBeratung() {
       </div>
       <BackButton />
 
-      <section className="py-8 bg-white">
+      <section className="py-3 bg-white">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-7xl mx-auto">
             <div className="mb-6">
@@ -364,7 +364,7 @@ export default function KostenloseBeratung() {
                 </Label>
                 
                 {isLoadingSlots ? (
-                  <div className="flex items-center justify-center py-8">
+                  <div className="flex items-center justify-center py-3">
                     <Loader2 className="h-6 w-6 animate-spin text-primary" />
                     <span className="ml-2 text-muted-foreground">Lade verfügbare Termine...</span>
                   </div>

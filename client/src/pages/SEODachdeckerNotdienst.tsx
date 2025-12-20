@@ -134,7 +134,7 @@ export default function SEODachdeckerNotdienst() {
         </div>
       </div>
 
-      <section className="py-12 md:py-16 bg-white">
+      <section className="py-4 md:py-6 bg-white">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
           <div className="max-w-7xl mx-auto text-center mb-12">
             <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">
@@ -161,7 +161,7 @@ export default function SEODachdeckerNotdienst() {
         </div>
       </section>
 
-      <section className="py-12 md:py-16 bg-stone-50">
+      <section className="py-4 md:py-6 bg-stone-50">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-8 text-center">
@@ -189,7 +189,7 @@ export default function SEODachdeckerNotdienst() {
         </div>
       </section>
 
-      <section className="py-12 md:py-16 bg-white">
+      <section className="py-4 md:py-6 bg-white">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
           <div className="max-w-7xl mx-auto prose prose-lg text-muted-foreground">
             <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-6">
@@ -236,7 +236,7 @@ export default function SEODachdeckerNotdienst() {
         columns={2}
       />
 
-      <section className="py-12 md:py-16 bg-red-900 text-white">
+      <section className="py-4 md:py-6 bg-red-900 text-white">
         <div className="container mx-auto px-4 md:px-6 lg:px-12 text-center">
           <AlertTriangle className="h-16 w-16 text-yellow-400 mx-auto mb-6" />
           <h2 className="text-2xl md:text-3xl font-heading font-bold mb-4">

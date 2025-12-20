@@ -102,7 +102,7 @@ export default function LeadFunnel({ externalOpen, onExternalOpenChange }: LeadF
   };
 
   return (
-    <section className="py-10 md:py-20 bg-primary text-white overflow-hidden relative">
+    <section className="py-4 md:py-8 bg-primary text-white overflow-hidden relative">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10 pointer-events-none">
         <div className="absolute -top-24 -right-24 w-96 h-96 rounded-full bg-white blur-3xl"></div>
@@ -185,7 +185,7 @@ export default function LeadFunnel({ externalOpen, onExternalOpenChange }: LeadF
             <DialogTrigger asChild>
               <Button 
                 size="lg" 
-                className="bg-white text-primary hover:bg-gray-100 font-bold text-base md:text-xl px-6 md:px-12 py-6 md:py-8 rounded-xl shadow-xl transition-transform hover:scale-105"
+                className="bg-white text-primary hover:bg-gray-100 font-bold text-base md:text-xl px-6 md:px-12 py-4 md:py-6 rounded-xl shadow-xl transition-transform hover:scale-105"
                 data-testid="button-funnel-open"
               >
                 Ja, ich will mein Problem lösen!

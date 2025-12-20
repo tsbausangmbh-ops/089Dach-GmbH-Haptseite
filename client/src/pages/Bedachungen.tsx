@@ -105,7 +105,7 @@ export default function Bedachungen() {
       <BackButton />
 
       {/* Story Section */}
-      <section className="py-6 md:py-10 bg-gray-50">
+      <section className="py-3 md:py-5 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-7xl mx-auto">
             <div className="bg-white rounded-xl p-8 md:p-12 shadow-sm border border-border">

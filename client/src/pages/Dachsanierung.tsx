@@ -125,7 +125,7 @@ export default function Dachsanierung() {
       <BackButton />
 
       {/* Kundengeschichte */}
-      <section className="py-6 md:py-10 bg-secondary text-white">
+      <section className="py-3 md:py-5 bg-secondary text-white">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-7xl mx-auto" data-testid="testimonial-kramer">
             <Quote className="h-12 w-12 text-primary mb-6" />

@@ -109,7 +109,7 @@ export default function UeberUns() {
       </section>
 
       {/* Unsere Mission */}
-      <section className="py-10 md:py-16 bg-secondary text-white">
+      <section className="py-4 md:py-6 bg-secondary text-white">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-7xl mx-auto text-center">
             <Sparkles className="h-10 md:h-12 w-10 md:w-12 text-primary mx-auto mb-4 md:mb-6" />
@@ -129,7 +129,7 @@ export default function UeberUns() {
         </div>
       </section>
 
-      <section id="geschichte" className="py-12 md:py-20 bg-white">
+      <section id="geschichte" className="py-4 md:py-8 bg-white">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-7xl mx-auto text-center mb-10 md:mb-16">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Unsere Geschichte</span>
@@ -261,7 +261,7 @@ export default function UeberUns() {
       </section>
 
       {/* Geschichten aus unserem Alltag */}
-      <section className="py-12 md:py-20 bg-white">
+      <section className="py-4 md:py-8 bg-white">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-7xl mx-auto text-center mb-8 md:mb-12">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Aus unserem Alltag</span>
@@ -375,7 +375,7 @@ export default function UeberUns() {
         </div>
       </section>
 
-      <section className="py-12 md:py-20 bg-gray-50">
+      <section className="py-4 md:py-8 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-7xl mx-auto text-center mb-8 md:mb-12">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Unsere Werte</span>

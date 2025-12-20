@@ -107,7 +107,7 @@ export default function Architektenleistungen() {
       <BackButton />
 
       {/* Kundengeschichte */}
-      <section className="py-6 md:py-10 bg-gray-50">
+      <section className="py-3 md:py-5 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-7xl mx-auto">
             <div className="bg-white p-8 rounded-xl shadow-sm border-l-4 border-primary" data-testid="testimonial-wagner">

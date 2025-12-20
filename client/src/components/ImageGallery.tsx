@@ -18,7 +18,7 @@ export default function ImageGallery({ images, title, columns = 2 }: ImageGaller
   };
 
   return (
-    <section className="py-8 md:py-12 bg-stone-50">
+    <section className="py-3 md:py-4 bg-stone-50">
       <div className="container mx-auto px-4 md:px-6 lg:px-12">
         {title && (
           <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-8 text-center">

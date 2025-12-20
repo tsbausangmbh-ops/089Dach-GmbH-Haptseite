@@ -9,7 +9,7 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
   return (
     <>
       {/* Sektion 1: Empathie - "Kennen Sie das?" */}
-      <section className="py-6 md:py-8 bg-stone-100">
+      <section className="py-4 md:py-6 bg-stone-100">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
           <div className="text-center max-w-3xl mx-auto mb-4 md:mb-6">
             <span className="text-primary font-bold tracking-wider uppercase text-xs md:text-sm">Kommt Ihnen das bekannt vor?</span>
@@ -75,7 +75,7 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
       </section>
 
       {/* Sektion 2: Vertrauen - Warum 089Dach */}
-      <section className="py-6 md:py-8 bg-white">
+      <section className="py-4 md:py-6 bg-white">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
           <div className="text-center max-w-3xl mx-auto mb-4 md:mb-6">
             <span className="text-primary font-bold tracking-wider uppercase text-xs md:text-sm">Warum 089Dach?</span>
@@ -140,7 +140,7 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
       </section>
 
       {/* Sektion 3: Social Proof */}
-      <section className="py-6 md:py-8 bg-secondary text-white">
+      <section className="py-4 md:py-6 bg-secondary text-white">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
           <div className="text-center mb-4 md:mb-6">
             <div className="flex items-center justify-center gap-0.5 md:gap-1 mb-1 md:mb-2">
@@ -197,7 +197,7 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
       </section>
 
       {/* Sektion 4: Einfacher CTA */}
-      <section className="py-6 md:py-10 bg-primary">
+      <section className="py-3 md:py-5 bg-primary">
         <div className="container mx-auto px-4 md:px-6 lg:px-12 text-center">
           <h2 className="text-xl md:text-4xl font-heading font-bold text-white mb-2 md:mb-4">
             Dachsorgen loswerden?
@@ -248,7 +248,7 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
       </section>
 
       {/* Sektion 5: SEO Content Block */}
-      <section className="py-10 bg-stone-50">
+      <section className="py-4 bg-stone-50">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl font-heading font-bold text-secondary mb-8 text-center">

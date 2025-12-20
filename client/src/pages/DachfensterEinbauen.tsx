@@ -71,7 +71,7 @@ export default function DachfensterEinbauen() {
         </div>
       </section>
 
-      <section className="py-16 bg-white">
+      <section className="py-6 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-4">Dachfenster Preise inkl. Einbau</h2>
@@ -102,7 +102,7 @@ export default function DachfensterEinbauen() {
         </div>
       </section>
 
-      <section className="py-16 bg-slate-50">
+      <section className="py-6 bg-slate-50">
         <div className="container mx-auto px-4">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">Ihre Vorteile bei 089Dach</h2>
@@ -118,7 +118,7 @@ export default function DachfensterEinbauen() {
         </div>
       </section>
 
-      <section className="py-16 bg-white">
+      <section className="py-6 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">Häufige Fragen zu Dachfenstern</h2>
@@ -134,7 +134,7 @@ export default function DachfensterEinbauen() {
         </div>
       </section>
 
-      <section className="py-16 bg-yellow-600 text-white">
+      <section className="py-6 bg-yellow-600 text-white">
         <div className="container mx-auto px-4">
           <div className="max-w-7xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-6">Dachfenster einbauen lassen?</h2>

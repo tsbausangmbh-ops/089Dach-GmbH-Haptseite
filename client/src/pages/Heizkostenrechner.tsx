@@ -99,7 +99,7 @@ export default function Heizkostenrechner() {
         >
           <div className="absolute inset-0 bg-gradient-to-r from-secondary/95 via-secondary/85 to-secondary/60"></div>
         </div>
-        <div className="container mx-auto px-6 lg:px-12 relative z-10 py-16">
+        <div className="container mx-auto px-6 lg:px-12 relative z-10 py-6">
           <div className="max-w-2xl text-white">
             <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mb-6">
               <span className="text-primary">Heizkosten-Rechner</span>
@@ -114,7 +114,7 @@ export default function Heizkostenrechner() {
       </section>
       <BackButton />
 
-      <section className="py-10 bg-stone-50 border-b">
+      <section className="py-4 bg-stone-50 border-b">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-8">
@@ -175,7 +175,7 @@ export default function Heizkostenrechner() {
         </div>
       </section>
 
-      <section className="py-12 bg-white">
+      <section className="py-4 bg-white">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-7xl mx-auto">
             <div className="grid md:grid-cols-2 gap-8 items-stretch">

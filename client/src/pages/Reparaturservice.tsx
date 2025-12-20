@@ -176,7 +176,7 @@ export default function Reparaturservice() {
       </div>
 
       {/* Vertrauenstexte */}
-      <section className="py-10 bg-secondary">
+      <section className="py-4 bg-secondary">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Erster Vertrauenstext - Empathie & Verständnis */}

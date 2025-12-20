@@ -9,7 +9,7 @@ export default function AIBeraterSection() {
   };
 
   return (
-    <section className="py-8 md:py-12 bg-gradient-to-r from-primary via-primary/90 to-primary">
+    <section className="py-3 md:py-4 bg-gradient-to-r from-primary via-primary/90 to-primary">
       <div className="container mx-auto px-6 lg:px-12">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-4">

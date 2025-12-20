@@ -327,7 +327,7 @@ export default function Referenzen() {
       </section>
 
       {/* Case Studies Grid */}
-      <section id="projekte" className="py-10 md:py-16 bg-gray-50">
+      <section id="projekte" className="py-4 md:py-6 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
           <header className="text-center mb-8 md:mb-12">
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-heading font-bold text-secondary mb-4">
@@ -417,7 +417,7 @@ export default function Referenzen() {
       </section>
 
       {/* SEO FAQ Section for Featured Snippets */}
-      <section className="py-10 md:py-16 bg-white" itemScope itemType="https://schema.org/FAQPage">
+      <section className="py-4 md:py-6 bg-white" itemScope itemType="https://schema.org/FAQPage">
         <div className="container mx-auto px-6 lg:px-12">
           <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary text-center mb-4">
             Häufige Fragen zu Dachsanierungen in München

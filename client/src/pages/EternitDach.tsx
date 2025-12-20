@@ -92,7 +92,7 @@ export default function EternitDach() {
         </div>
       </section>
 
-      <section className="py-8 bg-yellow-50 border-b border-yellow-200">
+      <section className="py-3 bg-yellow-50 border-b border-yellow-200">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-center gap-3 text-yellow-800">
             <AlertTriangle className="w-5 h-5" />
@@ -103,7 +103,7 @@ export default function EternitDach() {
         </div>
       </section>
 
-      <section className="py-16 bg-white">
+      <section className="py-6 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">
@@ -124,7 +124,7 @@ export default function EternitDach() {
         </div>
       </section>
 
-      <section className="py-16 bg-slate-50">
+      <section className="py-6 bg-slate-50">
         <div className="container mx-auto px-4">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-4">
@@ -158,7 +158,7 @@ export default function EternitDach() {
         </div>
       </section>
 
-      <section className="py-16 bg-white">
+      <section className="py-6 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">
@@ -176,7 +176,7 @@ export default function EternitDach() {
         </div>
       </section>
 
-      <section className="py-16 bg-slate-50">
+      <section className="py-6 bg-slate-50">
         <div className="container mx-auto px-4">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">
@@ -194,7 +194,7 @@ export default function EternitDach() {
         </div>
       </section>
 
-      <section className="py-16 bg-orange-600 text-white">
+      <section className="py-6 bg-orange-600 text-white">
         <div className="container mx-auto px-4">
           <div className="max-w-7xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-6">

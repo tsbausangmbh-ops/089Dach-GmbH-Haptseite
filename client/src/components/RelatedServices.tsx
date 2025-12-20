@@ -124,7 +124,7 @@ export default function RelatedServices({
   if (servicesToShow.length === 0) return null;
 
   return (
-    <section className="py-12 bg-stone-50 border-t border-stone-200">
+    <section className="py-4 bg-stone-50 border-t border-stone-200">
       <div className="container mx-auto px-6 lg:px-12">
         <div className="text-center mb-8">
           <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary">

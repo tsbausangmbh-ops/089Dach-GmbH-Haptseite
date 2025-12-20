@@ -196,7 +196,7 @@ export default function Ratgeber() {
       </section>
 
       {/* Featured Article */}
-      <section className="py-10 md:py-16">
+      <section className="py-4 md:py-6">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
           <div className="bg-secondary text-white rounded-xl overflow-hidden shadow-xl grid md:grid-cols-2">
             <div className="p-6 md:p-12 flex flex-col justify-center">
@@ -238,7 +238,7 @@ export default function Ratgeber() {
       </section>
 
       {/* Expert Quote */}
-      <section className="py-10 md:py-16 bg-gray-50">
+      <section className="py-4 md:py-6 bg-gray-50">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
           <div className="max-w-7xl mx-auto text-center">
             <Quote className="h-10 w-10 md:h-12 md:w-12 text-primary/30 mx-auto mb-4 md:mb-6" />
@@ -261,7 +261,7 @@ export default function Ratgeber() {
       </section>
 
       {/* Grid of Guides */}
-      <section id="artikel" className="py-12 md:py-20">
+      <section id="artikel" className="py-4 md:py-8">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
           <div className="max-w-2xl mb-8 md:mb-12">
             <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">
@@ -336,7 +336,7 @@ export default function Ratgeber() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-12 md:py-20 bg-secondary text-white">
+      <section className="py-4 md:py-8 bg-secondary text-white">
         <div className="container mx-auto px-4 md:px-6 lg:px-12 text-center">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-heading font-bold mb-4 md:mb-6">
             Ihre Frage ist hier nicht dabei?

@@ -118,7 +118,7 @@ export default function Stadtteile() {
         </div>
       </section>
 
-      <section className="py-8 md:py-12">
+      <section className="py-3 md:py-4">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
           <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-6 md:mb-8">Münchner Stadtteile</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mb-12">
