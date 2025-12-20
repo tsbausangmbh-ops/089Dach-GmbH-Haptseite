@@ -27,7 +27,11 @@ export default function Dachbeschichtung() {
       <FAQPageSchema faqs={[
         { question: "Ist Dachbeschichtung sinnvoll?", answer: "Nur bei intakten Ziegeln ohne Schäden und wenn das Dach noch 10-15 Jahre hält. Bei porösen, gerissenen oder verwitterten Ziegeln ist eine Neueindeckung die bessere Investition." },
         { question: "Was kostet Dachbeschichtung pro m²?", answer: "Eine professionelle Dachbeschichtung kostet 15-30€/m² inkl. Reinigung. Bei 100m² Dachfläche sind das 1.500-3.000€. Aber: Eine Neueindeckung hält 3-4x länger!" },
-        { question: "Wie lange hält eine Dachbeschichtung?", answer: "Realistische Lebensdauer: 8-12 Jahre bei guter Verarbeitung. Hersteller-Versprechen von 20+ Jahren sind meist übertrieben. Zum Vergleich: Neue Dachziegel halten 40-100 Jahre." }
+        { question: "Wie lange hält eine Dachbeschichtung?", answer: "Realistische Lebensdauer: 8-12 Jahre bei guter Verarbeitung. Hersteller-Versprechen von 20+ Jahren sind meist übertrieben. Zum Vergleich: Neue Dachziegel halten 40-100 Jahre." },
+        { question: "Kann Dachbeschichtung mein Dach abdichten?", answer: "Nein! Eine Beschichtung ist nur Farbe/Versiegelung. Undichte Stellen, gerissene Ziegel oder defekte Unterspannbahn werden dadurch nicht repariert. Bei Undichtigkeiten ist eine echte Sanierung nötig." },
+        { question: "Woran erkenne ich unseriöse Dachbeschichter?", answer: "Warnsignale: Haustürgeschäfte, extreme Preisnachlässe, unrealistische Garantieversprechen (20+ Jahre), Druckverkauf. Seriöse Betriebe wie wir prüfen erst das Dach und raten ehrlich - auch wenn das manchmal heißt, keine Beschichtung zu machen." },
+        { question: "Was kostet professionelle Dachreinigung in München?", answer: "Dachreinigung ohne Beschichtung kostet ab 8€/m² (100m² = ab 800€). Inkl. Moos- und Algenentfernung, Hochdruckreinigung und Entsorgung. Wir prüfen dabei kostenlos den Ziegelzustand." },
+        { question: "Dachbeschichtung oder Neueindeckung - was lohnt sich mehr?", answer: "Rechnung: Beschichtung 25€/m² hält 10 Jahre = 2,50€/m²/Jahr. Neueindeckung 120€/m² hält 50 Jahre = 2,40€/m²/Jahr. Langfristig ist die Neueindeckung günstiger und Sie haben ein komplett neues Dach mit Garantie." }
       ]} />
       <LocalBusinessSchema />
       <Navbar />

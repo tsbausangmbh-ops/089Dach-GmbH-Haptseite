@@ -50,7 +50,10 @@ export default function Bedachungen() {
         { question: "Steildach oder Flachdach - was ist besser?", answer: "Steildächer halten länger (50+ Jahre), sind wartungsärmer und bieten Dachraum. Flachdächer sind günstiger im Bau, ermöglichen Begrünung und Terrassen. Die Wahl hängt von Ihrem Gebäude ab." },
         { question: "Welche Dachziegel sind die besten?", answer: "Tondachziegel sind langlebig (80+ Jahre), farbecht und natürlich. Betondachsteine sind günstiger, schwerer und halten 40-50 Jahre. Schiefer ist am hochwertigsten (100+ Jahre), aber auch teurer." },
         { question: "Wie oft muss ein Steildach gewartet werden?", answer: "Einmal jährlich sollten Sie Dachrinnen reinigen, Moos entfernen lassen und lockere Ziegel prüfen. Wir bieten Wartungsverträge ab 250€/Jahr an." },
-        { question: "Kann man eine Dachbegrünung auf jedem Dach machen?", answer: "Extensive Begrünung (Sedum) geht auf Flachdächern bis 15° Neigung. Das Dach muss die zusätzliche Last (60-150 kg/m²) tragen können. Wir prüfen die Statik vorab." }
+        { question: "Kann man eine Dachbegrünung auf jedem Dach machen?", answer: "Extensive Begrünung (Sedum) geht auf Flachdächern bis 15° Neigung. Das Dach muss die zusätzliche Last (60-150 kg/m²) tragen können. Wir prüfen die Statik vorab." },
+        { question: "Wie lange dauert eine komplette Dacheindeckung in München?", answer: "Für ein Einfamilienhaus (100-150m²) planen wir 5-10 Arbeitstage ein. Wetterabhängig. Wir decken Ihr Dach abschnittsweise neu ein, sodass immer ein Regenschutz besteht." },
+        { question: "Welche Vorschriften gelten für Dacheindeckung in München?", answer: "In München gilt die Bayerische Bauordnung. Bebauungspläne können Dachform, Farbe und Material vorschreiben. In denkmalgeschützten Bereichen (z.B. Altstadt, Bogenhausen) sind Abstimmungen mit der Denkmalschutzbehörde nötig." },
+        { question: "Lohnt sich eine Aufsparrendämmung beim Dachdecken?", answer: "Ja! Eine Aufsparrendämmung spart bis zu 30% Heizkosten, wird mit bis zu 20% BAFA-Zuschuss gefördert und steigert den Immobilienwert. Mehrkosten: ca. 80-120€/m² gegenüber reiner Eindeckung." }
       ]} />
       <LocalBusinessSchema />
       <Navbar />

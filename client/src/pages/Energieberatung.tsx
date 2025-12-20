@@ -54,7 +54,11 @@ export default function Energieberatung() {
       <FAQPageSchema faqs={[
         { question: "Was kostet eine Energieberatung für das Dach?", answer: "Eine Vor-Ort-Energieberatung kostet ca. 300-500€. Das BAFA erstattet bis zu 80% der Kosten. Unsere Partner-Energieberater beraten Sie gerne." },
         { question: "Wie viel Förderung bekomme ich für Dachsanierung?", answer: "KfW und BAFA fördern energetische Dachsanierungen mit bis zu 20% Zuschuss. Bei 30.000€ Projektkosten sind das bis zu 6.000€ Förderung." },
-        { question: "Brauche ich einen Energieberater für KfW-Förderung?", answer: "Ja, für BAFA-Einzelmaßnahmen und KfW-Effizienzhaus ist ein dena-zertifizierter Energieberater Pflicht. Wir vermitteln Sie an unsere Partner." }
+        { question: "Brauche ich einen Energieberater für KfW-Förderung?", answer: "Ja, für BAFA-Einzelmaßnahmen und KfW-Effizienzhaus ist ein dena-zertifizierter Energieberater Pflicht. Wir vermitteln Sie an unsere Partner." },
+        { question: "Was ist ein individueller Sanierungsfahrplan (iSFP)?", answer: "Der iSFP ist ein Schritt-für-Schritt-Plan für Ihre energetische Sanierung. Er zeigt sinnvolle Maßnahmen und deren Reihenfolge. Bonus: Mit iSFP gibt es 5% mehr Förderung auf alle Einzelmaßnahmen!" },
+        { question: "Welchen U-Wert muss die Dachdämmung für Förderung erreichen?", answer: "Für BAFA-Förderung (BEG EM) muss das Dach einen U-Wert von max. 0,14 W/(m²K) erreichen. Das entspricht ca. 24cm Mineralwolle oder 18cm PU-Dämmung. Wir planen die optimale Dämmstärke für Ihr Münchner Objekt." },
+        { question: "Kann ich KfW und BAFA kombinieren?", answer: "BAFA-Zuschuss und KfW-Kredit für dieselbe Maßnahme sind nicht kombinierbar - Sie müssen sich entscheiden. Aber: Verschiedene Maßnahmen (z.B. Dach über BAFA, Fenster über KfW) können parallel gefördert werden." },
+        { question: "Wie lange dauert die Förderzusage?", answer: "BAFA-Anträge werden in 4-8 Wochen bearbeitet. Wichtig: Antrag VOR Auftragserteilung stellen! Wir unterstützen Sie beim Timing und der Antragstellung über unsere Energieberater-Partner in München." }
       ]} />
       <LocalBusinessSchema />
       <Navbar />

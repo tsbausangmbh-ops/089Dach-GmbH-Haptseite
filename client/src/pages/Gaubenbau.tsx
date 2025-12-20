@@ -58,6 +58,15 @@ export default function Gaubenbau() {
         priceTo={35000}
         category="Gaubenbau"
       />
+      <FAQPageSchema faqs={[
+        { question: "Was kostet eine Gaube in München?", answer: "Eine Schleppgaube kostet ab 12.000€, eine Spitzgaube ab 15.000€, eine Flachdachgaube ab 18.000€. Große Gauben oder Sonderkonstruktionen 25.000-35.000€. Preis inkl. Planung, Genehmigung und Ausführung." },
+        { question: "Brauche ich eine Baugenehmigung für eine Gaube in München?", answer: "Ja, Gauben sind in Bayern genehmigungspflichtig. Wir arbeiten mit Architekten zusammen und kümmern uns um Planung und Bauantrag. Genehmigungszeit beim Referat für Stadtplanung: ca. 8-12 Wochen." },
+        { question: "Wie viel Wohnraum gewinne ich durch eine Gaube?", answer: "Eine Standard-Schleppgaube (2,5m breit) bringt ca. 5-8m² zusätzliche Nutzfläche mit Stehhöhe. Bei breiten Gauben oder mehreren Gauben sind 15-25m² möglich. Wir berechnen den genauen Raumgewinn für Ihr Dach." },
+        { question: "Welche Gaubenart ist die beste für mein Haus?", answer: "Schleppgaube: klassisch, günstig, großer Raumgewinn. Spitzgaube: elegant für traditionelle Häuser. Flachdachgaube: modern, maximaler Raumgewinn. Wir beraten vor Ort, welche Gaube zu Ihrem Münchner Haus passt." },
+        { question: "Wie lange dauert der Bau einer Gaube?", answer: "Der reine Bau dauert 1-2 Wochen. Mit Planung und Baugenehmigung rechnen Sie mit 3-4 Monaten Gesamtzeit. Tipp: Im Winter planen, im Frühjahr bauen - so nutzen Sie die optimale Bauzeit." },
+        { question: "Gibt es Förderung für Gauben in München?", answer: "Gauben allein werden nicht gefördert. Aber: In Kombination mit energetischer Dämmung (U-Wert ≤ 0,14) gibt es 15-20% BAFA-Zuschuss auf die Dämmkosten. Wir beraten Sie zur optimalen Förderstrategie." },
+        { question: "Kann man eine Gaube nachträglich in jeden Altbau einbauen?", answer: "Fast immer ja! Die Statik muss geprüft werden, meist sind Verstärkungen am Dachstuhl nötig (ca. 2.000-5.000€ extra). Bei denkmalgeschützten Gebäuden in München ist eine Abstimmung mit dem Denkmalschutz erforderlich." }
+      ]} />
       <LocalBusinessSchema />
       <Navbar />
       <AIBeraterSection />

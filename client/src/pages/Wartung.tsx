@@ -121,7 +121,11 @@ export default function Wartung() {
       <FAQPageSchema faqs={[
         { question: "Wie oft sollte ich mein Dach warten lassen?", answer: "Wir empfehlen eine jährliche Dachinspektion - am besten im Frühjahr nach dem Winter oder im Herbst vor dem Winter. Bei älteren Dächern (40+ Jahre) halbjährlich." },
         { question: "Was kostet eine Dachwartung?", answer: "Unsere Dachwartung kostet ab 250€ für ein Einfamilienhaus. Inklusive Inspektion, Dachrinnenreinigung und Kleinreparaturen." },
-        { question: "Kann ich mein Dach selbst warten?", answer: "Einfache Kontrollen vom Boden aus sind möglich. Für alles auf dem Dach (Moosentfernung, Rinnenreinigung in der Höhe) empfehlen wir den Profi - zu gefährlich und ohne Versicherung." }
+        { question: "Kann ich mein Dach selbst warten?", answer: "Einfache Kontrollen vom Boden aus sind möglich. Für alles auf dem Dach (Moosentfernung, Rinnenreinigung in der Höhe) empfehlen wir den Profi - zu gefährlich und ohne Versicherung." },
+        { question: "Was ist in einer Dachinspektion enthalten?", answer: "Komplette Sichtprüfung: Ziegel, First, Ortgang, Kehlen, Dachfenster, Kaminanschlüsse, Dachrinnen. Dokumentation mit Fotos und schriftlichem Zustandsbericht. Auf Wunsch: Drohneninspektion für schwer zugängliche Bereiche." },
+        { question: "Wann ist der beste Zeitpunkt für Dachwartung in München?", answer: "Ideal: März-April (nach Frost, vor Frühjahrsregen) oder Oktober-November (vor Winter). Nach Stürmen empfehlen wir immer eine Kontrolle. Wir terminieren flexibel, auch kurzfristig." },
+        { question: "Lohnt sich ein Dachwartungsvertrag?", answer: "Ja! Sie sparen 15% gegenüber Einzelaufträgen, bekommen bevorzugte Termine und vergessen nie die Wartung. Ab 220€/Jahr für jährliche Komplettinspektion inkl. Dachrinnenreinigung." },
+        { question: "Was passiert wenn bei der Wartung Schäden gefunden werden?", answer: "Wir dokumentieren alle Mängel mit Fotos und erstellen ein Angebot für die Reparatur. Kleinreparaturen (bis 100€) erledigen wir oft direkt vor Ort. Bei größeren Schäden entscheiden Sie in Ruhe." }
       ]} />
       <LocalBusinessSchema />
       <Navbar />

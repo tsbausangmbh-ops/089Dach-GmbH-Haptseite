@@ -59,6 +59,15 @@ export default function Dachfenster() {
         priceTo={3500}
         category="Dachfenster"
       />
+      <FAQPageSchema faqs={[
+        { question: "Was kostet ein Dachfenster mit Einbau in München?", answer: "Ein Standard-Velux-Dachfenster (78x118cm) mit Einbau kostet ab 1.200€. Größere Fenster (114x140cm) ab 1.800€. Premium-Fenster mit Dreifachverglasung und Rollladen ab 2.500€ komplett." },
+        { question: "Wie lange dauert der Einbau eines Dachfensters?", answer: "Der Einbau dauert 1-2 Tage pro Fenster. Bei Austausch eines vorhandenen Fensters oft nur einen halben Tag. Wir arbeiten sauber und hinterlassen keinen Schmutz im Haus." },
+        { question: "Brauche ich eine Baugenehmigung für Dachfenster in München?", answer: "Meist nicht! Der Einbau von Dachfenstern ist in Bayern genehmigungsfrei, solange die Dachfläche nicht wesentlich verändert wird. Bei denkmalgeschützten Gebäuden ist eine Abstimmung nötig." },
+        { question: "Velux oder Roto - welches Dachfenster ist besser?", answer: "Beide Marken sind hochwertig. Velux hat mehr Zubehör und größere Auswahl. Roto punktet bei Schwingfenstern mit tieferer Griff-Position. Wir beraten Sie neutral und verbauen beide Marken." },
+        { question: "Kann man Dachfenster nachträglich in jeden Dachstuhl einbauen?", answer: "Fast immer ja! Die meisten Dachkonstruktionen erlauben den Einbau. Bei tragenden Sparren muss eventuell ein Wechsel eingebaut werden (ca. 200-400€ extra). Wir prüfen die Statik vor Ort." },
+        { question: "Wie verhindere ich Hitze im Sommer durch Dachfenster?", answer: "Am effektivsten: Außenmarkisen oder Außenrollläden (ab 350€). Innenrollos helfen weniger. Dreifachverglasung mit Sonnenschutzglas reduziert Hitze um bis zu 70%. Wir beraten zu optimalen Lösungen." },
+        { question: "Gibt es Förderung für neue Dachfenster?", answer: "Ja! Bei Dachfenstern mit sehr gutem Uw-Wert (unter 1,0) gibt es BAFA-Förderung von 15% der Kosten. Mit iSFP-Bonus sogar 20%. Ein Velux Integra mit Dreifachverglasung erfüllt die Anforderungen." }
+      ]} />
       <LocalBusinessSchema />
       <Navbar />
       <AIBeraterSection />

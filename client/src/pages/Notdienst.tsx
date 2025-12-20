@@ -63,7 +63,10 @@ export default function Notdienst() {
       <FAQPageSchema faqs={[
         { question: "Ist der Dachnotdienst wirklich 24 Stunden erreichbar?", answer: "Ja, wir sind 24/7 erreichbar - auch an Wochenenden und Feiertagen. Rufen Sie uns an: 089 12621964." },
         { question: "Was kostet der Notdienst außerhalb der Geschäftszeiten?", answer: "Es gibt einen Notdienstzuschlag von ca. 50€. Die eigentliche Reparatur wird zum normalen Preis abgerechnet. Keine versteckten Kosten." },
-        { question: "Wie schnell sind Sie bei einem Dachnotfall vor Ort?", answer: "In München und direkter Umgebung in der Regel innerhalb von 1-2 Stunden. Bei extremen Wetterlagen kann es länger dauern." }
+        { question: "Wie schnell sind Sie bei einem Dachnotfall vor Ort?", answer: "In München und direkter Umgebung in der Regel innerhalb von 1-2 Stunden. Bei extremen Wetterlagen kann es länger dauern." },
+        { question: "Was kostet eine Notabdichtung bei Sturmschaden in München?", answer: "Anfahrt Notdienst ab 89€, Notsicherung mit Plane ab 150€, sofortige Notabdichtung ab 195€. Bei Sturmschäden zahlt meist die Gebäudeversicherung. Wir dokumentieren alles für Ihren Versicherungsantrag." },
+        { question: "Wer zahlt bei Sturmschaden am Dach?", answer: "Die Wohngebäudeversicherung zahlt bei Sturmschäden ab Windstärke 8. Wir erstellen eine detaillierte Schadensdokumentation mit Fotos und Kostenvoranschlag für Ihre Versicherung - kostenlos." },
+        { question: "Kann ich bei Dachschaden im Haus bleiben?", answer: "Meist ja. Wir sichern das Dach sofort mit Planen oder Notabdichtung ab. Nur bei Einsturzgefahr oder massivem Wassereintritt raten wir vorübergehend zum Auszug. Ihre Sicherheit hat oberste Priorität." }
       ]} />
       <EmergencyServiceSchema />
       <LocalBusinessSchema />

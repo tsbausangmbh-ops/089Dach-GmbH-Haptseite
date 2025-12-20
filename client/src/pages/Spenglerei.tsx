@@ -44,6 +44,15 @@ export default function Spenglerei() {
         priceUnit="pro Laufmeter"
         category="Spenglerei"
       />
+      <FAQPageSchema faqs={[
+        { question: "Was kostet eine neue Dachrinne in München?", answer: "Zink-Dachrinne ab 25€/m, Kupfer ab 45€/m, Aluminium ab 20€/m jeweils inkl. Montage. Für ein Einfamilienhaus (ca. 30m Rinne) rechnen Sie mit 750-1.500€ je nach Material." },
+        { question: "Kupfer oder Zink - welches Material ist besser für Dachrinnen?", answer: "Kupfer hält 80-100 Jahre, entwickelt edle Patina, kostet aber mehr. Zink hält 30-50 Jahre, ist günstiger und zeitlos. Beide sind wartungsfrei. Für Münchner Altbauten empfehlen wir oft Kupfer wegen der Optik." },
+        { question: "Wie lange dauert ein Dachrinnen-Austausch?", answer: "Für ein Einfamilienhaus 1-2 Tage. Bei Kupfer-Sonderanfertigungen planen wir 3-5 Tage ein. Wir fertigen in unserer Werkstatt in München-Obermenzing maßgenau vor." },
+        { question: "Kann man eine tropfende Dachrinne reparieren?", answer: "Kleine Löcher können wir mit Spezialkleber oder Löten reparieren (ab 80€). Bei durchgerosteten Rinnen oder undichten Verbindungen lohnt sich oft der Austausch. Wir prüfen kostenlos vor Ort." },
+        { question: "Was kostet eine Kamineinfassung aus Kupfer?", answer: "Eine maßgefertigte Kupfer-Kamineinfassung kostet 800-2.000€ je nach Schornsteingröße. Die Investition lohnt sich: Kupfer hält 80+ Jahre und verhindert Wasserschäden zuverlässig." },
+        { question: "Bieten Sie auch Stehfalzdächer in München an?", answer: "Ja! Stehfalzdächer aus Titanzink oder Kupfer kosten ab 120€/m² inkl. Montage. Sie sind ideal für flache Dachneigungen und moderne Architektur. Lebensdauer: 50-100 Jahre." },
+        { question: "Wann sollte ich Dachrinnen erneuern lassen?", answer: "Bei sichtbarem Rost, häufigen Undichtigkeiten, durchhängenden Rinnen oder wenn das Wasser nicht mehr richtig abläuft. Nach 30-40 Jahren (Zink) bzw. 60-80 Jahren (Kupfer) ist ein Austausch sinnvoll." }
+      ]} />
       <LocalBusinessSchema />
       <Navbar />
       <AIBeraterSection />

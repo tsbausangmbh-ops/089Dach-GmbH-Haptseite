@@ -122,7 +122,11 @@ export default function Reparaturservice() {
       <FAQPageSchema faqs={[
         { question: "Was tun wenn das Dach undicht ist?", answer: "Sofort handeln: Eimer unterstellen, Schaden fotografieren und uns anrufen (089 12621964). Wir kommen in der Regel innerhalb von 24 Stunden zur Notabdichtung." },
         { question: "Was kostet eine Dachreparatur?", answer: "Kleine Reparaturen (einzelne Ziegel) kosten 150-300€. Mittlere Schäden 300-1.000€. Größere Reparaturen 1.000-2.500€. Genauen Preis nennen wir nach Begutachtung." },
-        { question: "Zahlt die Versicherung Dachreparaturen?", answer: "Bei Sturm-, Hagel- oder Wasserschäden durch höhere Gewalt zahlt die Wohngebäudeversicherung. Wir erstellen versicherungsgerechte Dokumentation und Kostenvoranschläge." }
+        { question: "Zahlt die Versicherung Dachreparaturen?", answer: "Bei Sturm-, Hagel- oder Wasserschäden durch höhere Gewalt zahlt die Wohngebäudeversicherung. Wir erstellen versicherungsgerechte Dokumentation und Kostenvoranschläge." },
+        { question: "Wie finde ich die undichte Stelle im Dach?", answer: "Wasserflecken zeigen nicht immer die Leckstelle - Wasser läuft oft an Sparren entlang. Wir führen professionelle Leckortung durch: Sichtprüfung, Feuchtemessung und bei Bedarf Rauchtest. Kosten: ab 150€." },
+        { question: "Kann man einzelne Dachziegel austauschen?", answer: "Ja! Einzelne Ziegel kosten 5-15€ pro Stück, Austausch ab 150€ inkl. Anfahrt. Wir haben gängige Ziegeltypen auf Lager. Bei seltenen Modellen beschaffen wir passende oder optisch ähnliche Ziegel." },
+        { question: "Was kostet Schornsteinanschluss abdichten in München?", answer: "Eine neue Kamineinfassung aus Zink kostet 400-800€, aus Kupfer 800-1.500€. Reparatur bestehender Einfassungen ab 200€. Die Investition lohnt sich: Undichte Kaminanschlüsse verursachen oft teure Wasserschäden." },
+        { question: "Reparieren Sie auch Dachfenster?", answer: "Ja! Wir reparieren Velux, Roto und andere Marken. Häufige Probleme: undichte Dichtungen (ab 150€), klemmende Fenster (ab 100€), defekte Rollläden (ab 200€). Bei älteren Fenstern lohnt oft ein Austausch." }
       ]} />
       <LocalBusinessSchema />
       <Navbar />

@@ -34,7 +34,11 @@ export default function Dachrinnenreinigung() {
       <FAQPageSchema faqs={[
         { question: "Was kostet Dachrinne reinigen lassen?", answer: "Unsere Dachrinnenreinigung kostet zum Festpreis ab 150€ für ein Einfamilienhaus. Der Preis hängt von der Rinnenmeterlänge und Verschmutzungsgrad ab." },
         { question: "Wie oft sollte man Dachrinnen reinigen lassen?", answer: "Wir empfehlen 1-2x jährlich: im Spätherbst nach dem Laubfall und im Frühjahr. Bei vielen Bäumen in der Nähe öfter." },
-        { question: "Kann ich Dachrinne selbst reinigen?", answer: "Vom Boden aus mit Teleskopstange ja. Arbeiten auf der Leiter sind gefährlich und sollten Profis überlassen werden. Wir haben die Ausrüstung und Versicherung." }
+        { question: "Kann ich Dachrinne selbst reinigen?", answer: "Vom Boden aus mit Teleskopstange ja. Arbeiten auf der Leiter sind gefährlich und sollten Profis überlassen werden. Wir haben die Ausrüstung und Versicherung." },
+        { question: "Was tun wenn die Dachrinne überläuft?", answer: "Meist ist eine Verstopfung im Fallrohr die Ursache. Wir spülen Fallrohre mit Hochdruck frei (ab 80€). Bei regelmäßigem Überlauf prüfen wir, ob die Rinne zu klein dimensioniert ist oder das Gefälle stimmt." },
+        { question: "Helfen Laubschutzgitter für Dachrinnen?", answer: "Ja! Laubschutzgitter reduzieren die Reinigung auf 1x jährlich. Wir montieren Edelstahl-Gitter ab 15€/m - lohnt sich besonders bei Häusern mit vielen Bäumen in München-Bogenhausen, Grünwald oder Solln." },
+        { question: "Was kostet ein Wartungsvertrag für Dachrinnen?", answer: "Unser Dachrinnen-Wartungsvertrag kostet ab 130€/Jahr für 1x jährliche Reinigung, ab 220€/Jahr für 2x jährliche Reinigung. Sie sparen 15% gegenüber Einzelaufträgen und bekommen bevorzugte Termine." },
+        { question: "Reparieren Sie auch defekte Dachrinnen?", answer: "Ja! Kleine Löcher dichten wir ab 50€ ab. Undichte Verbindungen ab 80€. Kompletter Rinnentausch ab 25€/m (Zink) bzw. 45€/m (Kupfer). Wir prüfen bei der Reinigung kostenlos den Zustand." }
       ]} />
       <LocalBusinessSchema />
       <Navbar />

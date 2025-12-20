@@ -37,7 +37,10 @@ export default function Flachdach() {
         { question: "Welche Abdichtung ist besser: EPDM oder Bitumen?", answer: "EPDM hält länger (40+ Jahre), ist elastischer und UV-beständiger. Bitumen ist günstiger und bewährt (25-30 Jahre). Für Garagen reicht Bitumen, für Wohngebäude empfehlen wir EPDM." },
         { question: "Wie lange hält ein Flachdach?", answer: "Mit guter Pflege: Bitumen 25-30 Jahre, EPDM/Kunststoff 40+ Jahre. Regelmäßige Wartung (Abflüsse reinigen, Kontrolle) verlängert die Lebensdauer erheblich." },
         { question: "Kann man ein Flachdach selbst abdichten?", answer: "Kleine Reparaturen mit Flüssigkunststoff sind möglich. Für komplette Abdichtungen empfehlen wir den Fachmann - Fehler führen zu teuren Wasserschäden." },
-        { question: "Was tun wenn das Flachdach tropft?", answer: "Sofort Eimer unterstellen, Wasserquelle fotografieren und uns anrufen: 089 12621964. Wir kommen zur Notabdichtung und verhindern größere Schäden." }
+        { question: "Was tun wenn das Flachdach tropft?", answer: "Sofort Eimer unterstellen, Wasserquelle fotografieren und uns anrufen: 089 12621964. Wir kommen zur Notabdichtung und verhindern größere Schäden." },
+        { question: "Was kostet Flachdach-Begrünung in München?", answer: "Extensive Begrünung (Sedum) kostet 40-80€/m², intensive Begrünung (begehbar) 100-200€/m². München fördert Dachbegrünung mit bis zu 50€/m² über das Klimaschutzprogramm. Wir unterstützen beim Antrag." },
+        { question: "Kann ich auf mein Flachdach eine Photovoltaik-Anlage montieren?", answer: "Ja! Flachdächer eignen sich ideal für PV-Anlagen mit optimaler Südausrichtung. Die Abdichtung muss intakt sein. Bei Sanierung berücksichtigen wir Durchdringungen für Kabelführungen. Aufgeständerte Module schonen die Abdichtung." },
+        { question: "Wie oft muss ein Flachdach in München gewartet werden?", answer: "Mindestens 2x jährlich: Im Frühjahr nach Frost und im Herbst vor dem Winter. Wichtig: Abläufe und Notüberläufe reinigen, Anschlüsse prüfen. Wir bieten Wartungsverträge ab 180€/Jahr an." }
       ]} />
       <LocalBusinessSchema />
       <Navbar />

@@ -67,7 +67,10 @@ export default function Dachsanierung() {
         { question: "Wie lange dauert eine Dachsanierung?", answer: "Ein Einfamilienhaus (100-150m²) dauert 1-2 Wochen bei guter Witterung. Sie müssen in der Regel nicht ausziehen - wir arbeiten von außen." },
         { question: "Wann muss ein Dach saniert werden?", answer: "Typische Anzeichen: Wasserflecken an der Decke, verrutschte Ziegel, starker Moosbewuchs, hohe Heizkosten, Dach älter als 40 Jahre. Bei diesen Zeichen sollten Sie handeln." },
         { question: "Gibt es Förderung für Dachsanierung 2025?", answer: "Ja! BAFA fördert energetische Dachsanierung mit 15-20% Zuschuss (bis 6.000€). KfW bietet zinsgünstige Kredite bis 150.000€. Wir helfen beim Antrag." },
-        { question: "Kann man eine Dachsanierung im Winter machen?", answer: "Ja, bei Temperaturen über 5°C ist eine Sanierung möglich. Wir schützen den Innenraum mit Planen. Einige Arbeiten wie Dämmung sind auch bei Kälte machbar." }
+        { question: "Kann man eine Dachsanierung im Winter machen?", answer: "Ja, bei Temperaturen über 5°C ist eine Sanierung möglich. Wir schützen den Innenraum mit Planen. Einige Arbeiten wie Dämmung sind auch bei Kälte machbar." },
+        { question: "Brauche ich eine Baugenehmigung für die Dachsanierung in München?", answer: "Bei reiner Sanierung (gleiche Form und Höhe) ist in München keine Genehmigung nötig. Bei Gauben, Dachaufstockung oder Nutzungsänderung ist ein Bauantrag beim Referat für Stadtplanung erforderlich." },
+        { question: "Welche Dämmung ist bei Dachsanierung am besten?", answer: "Aufsparrendämmung ist am effektivsten (U-Wert bis 0,14 W/m²K), kostet aber mehr (ab 200€/m²). Zwischensparrendämmung ist günstiger (ab 80€/m²). Wir beraten Sie zur optimalen Lösung für Ihr Münchner Altbau oder Neubau." },
+        { question: "Übernimmt die Versicherung Dachsanierungskosten?", answer: "Bei Sturmschäden (ab Windstärke 8) zahlt die Wohngebäudeversicherung. Alterungsbedingte Sanierung ist nicht versichert. Wir dokumentieren Sturmschäden für Ihre Versicherung kostenlos." }
       ]} />
       <LocalBusinessSchema />
       <Navbar />
