@@ -121,7 +121,7 @@ export default function Bedachungen() {
                 <AlertTriangle className="h-10 w-10 text-primary flex-shrink-0" />
                 <div>
                   <h2 className="text-2xl font-heading font-bold text-center text-secondary mb-4">
-                    Kennen Sie das auch?
+                    Dach neu eindecken München: Kennen Sie diese Warnsignale bei Ihrem Dach?
                   </h2>
                   <p className="text-lg text-muted-foreground leading-relaxed">
                     Es regnet, und Sie schauen nervös zur Decke. Ein leises Tropfen – war da was? 
@@ -150,7 +150,7 @@ export default function Bedachungen() {
             <div>
               <span className="text-primary font-bold tracking-wider uppercase text-sm">Unsere Expertise</span>
               <h2 className="text-3xl font-heading font-bold text-secondary text-center mt-2 mb-6">
-                Vom ersten Blick bis zum letzten Ziegel: Wir kümmern uns um alles.
+                Dachziegel, Schiefer & Betonsteine: Komplette Dacheindeckung in München vom Meisterbetrieb
               </h2>
               <div className="prose prose-lg text-muted-foreground">
                 <p>

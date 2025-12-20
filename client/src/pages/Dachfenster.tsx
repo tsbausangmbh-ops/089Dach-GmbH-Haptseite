@@ -136,7 +136,7 @@ export default function Dachfenster() {
               <div>
                 <Lightbulb className="h-12 w-12 text-primary mb-6" />
                 <h2 className="text-3xl font-heading font-bold mb-4">
-                  Vorher: Abstellkammer. Nachher: Traumzimmer.
+                  Dachfenster einbauen München: Vorher dunkle Abstellkammer, nachher lichtdurchflutetes Traumzimmer
                 </h2>
                 <p className="text-gray-300 mb-6 leading-relaxed">
                   Familie Berger aus Bogenhausen nutzte ihr Dachgeschoss 20 Jahre lang als Lager. 
@@ -164,7 +164,7 @@ export default function Dachfenster() {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-2xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
-              Was ein neues Dachfenster für Sie tut
+              Velux & Roto Dachfenster München: 4 Vorteile für Ihr Dachgeschoss
             </h2>
             <p className="text-muted-foreground">
               Mehr als nur ein Loch im Dach – ein Gewinn an Lebensqualität.
@@ -192,7 +192,7 @@ export default function Dachfenster() {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-2xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
-              Das richtige Fenster für Ihre Situation
+              Schwingfenster, Klappfenster oder Dachbalkon: Das richtige Dachfenster für Ihr Münchner Zuhause
             </h2>
             <p className="text-muted-foreground">
               Als zertifizierter VELUX-Partner beraten wir Sie herstellerunabhängig – 
@@ -219,7 +219,7 @@ export default function Dachfenster() {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-2xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
-              Von der Idee zum Licht – so läuft's ab
+              Ablauf Dachfenster-Einbau München: In 4 Schritten zu mehr Tageslicht unterm Dach
             </h2>
           </div>
 
@@ -246,7 +246,7 @@ export default function Dachfenster() {
       <section className="py-5 bg-secondary text-white">
         <div className="container mx-auto px-6 lg:px-12 text-center">
           <h2 className="text-3xl font-heading font-bold mb-4">
-            Häufige Fragen zu Dachfenstern
+            Dachfenster Kosten, Einbau & Förderung: Häufige Fragen beantwortet
           </h2>
           <div className="max-w-2xl mx-auto space-y-4 text-left mt-8">
             <div className="bg-white/10 p-4 rounded-xl" data-testid="faq-item-0">

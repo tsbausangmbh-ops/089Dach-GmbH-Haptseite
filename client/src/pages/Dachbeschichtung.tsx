@@ -86,7 +86,7 @@ export default function Dachbeschichtung() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="lg:col-span-2 space-y-8">
               <div>
-                <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Dachbeschichtung: Was Sie wissen sollten</h2>
+                <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Dachbeschichtung München: Wann sinnvoll, wann Neueindeckung besser ist – ehrliche Beratung</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4">
                   Dachbeschichtungen werden oft als günstige Alternative zur Dachsanierung beworben. 
                   Als Meisterbetrieb beraten wir Sie ehrlich: Eine Beschichtung ist <strong>nur in bestimmten Fällen</strong> sinnvoll 

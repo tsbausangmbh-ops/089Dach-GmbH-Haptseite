@@ -157,7 +157,7 @@ export default function Gaubenbau() {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-2xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
-              Warum eine Gaube?
+              Dachgaube bauen München: 4 Vorteile für mehr Wohnraum und Tageslicht unterm Dach
             </h2>
             <p className="text-muted-foreground">
               Eine Gaube ist mehr als nur ein Dachaufbau – sie ist eine Investition in Ihre Lebensqualität.
@@ -185,7 +185,7 @@ export default function Gaubenbau() {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-2xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
-              Die richtige Gaube für Ihr Haus
+              Schleppgaube, Spitzgaube oder Flachdachgaube: Die richtige Gaubenart für Ihr Münchner Haus
             </h2>
             <p className="text-muted-foreground">
               Jede Gaubenart hat ihre Stärken – wir beraten Sie, welche am besten zu Ihrem Haus passt.
@@ -215,7 +215,7 @@ export default function Gaubenbau() {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
-              Gaubensanierung
+              Gaube sanieren München: Abdichtung, Dämmung & neue Bekleidung für alte Gauben
             </h2>
             <p className="text-muted-foreground mb-8 leading-relaxed">
               Ihre bestehende Gaube ist in die Jahre gekommen? Undichte Stellen, veraltete Dämmung oder 
@@ -250,7 +250,7 @@ export default function Gaubenbau() {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-2xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
-              So entsteht Ihre Gaube
+              Ablauf Gaubenbau München: Von der Planung über Baugenehmigung bis zur fertigen Gaube
             </h2>
           </div>
 
@@ -277,7 +277,7 @@ export default function Gaubenbau() {
       <section className="py-5 bg-secondary text-white">
         <div className="container mx-auto px-6 lg:px-12 text-center">
           <h2 className="text-2xl font-heading font-bold text-center mb-4">
-            Mehr Wohnraum unterm Dach?
+            Gaube einbauen München: Jetzt kostenlose Beratung für mehr Wohnraum anfragen
           </h2>
           <p className="text-gray-300 max-w-2xl mx-auto mb-6">
             Lassen Sie sich unverbindlich beraten, wie eine Gaube Ihr Zuhause aufwerten kann. 

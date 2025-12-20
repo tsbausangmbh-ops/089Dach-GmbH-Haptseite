@@ -258,7 +258,7 @@ export default function Reparaturservice() {
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
-                Reparaturanfrage senden
+                Dach undicht München: Reparaturanfrage senden und schnelle Hilfe erhalten
               </h2>
               <p className="text-muted-foreground">
                 Beschreiben Sie Ihr Problem – wir melden uns schnellstmöglich bei Ihnen.
@@ -360,7 +360,7 @@ export default function Reparaturservice() {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-2xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
-              Diese Notfälle lösen wir für Sie
+              Dachreparatur München: Diese Notfälle bei Sturmschaden & Wasserschaden lösen wir sofort
             </h2>
             <p className="text-muted-foreground">
               Egal was passiert ist – wir sichern ab, reparieren und dokumentieren für Ihre Versicherung.
@@ -392,7 +392,7 @@ export default function Reparaturservice() {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-2xl mb-12">
             <h2 className="text-3xl font-heading font-bold mb-4">
-              Warum Sie bei uns richtig sind
+              Dachdecker für Reparatur München: 4 Gründe warum Kunden uns vertrauen
             </h2>
             <p className="text-gray-300">
               Ein Dach-Notfall ist stressig genug. Bei uns bekommen Sie schnelle Hilfe ohne böse Überraschungen.
@@ -420,7 +420,7 @@ export default function Reparaturservice() {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
-              Kein Notfall, aber auch kein gutes Gefühl?
+              Kleine Dachreparaturen München: Ziegel tauschen, Rinnen reinigen & Moos entfernen
             </h2>
             <p className="text-muted-foreground mb-8 leading-relaxed">
               Nicht jeder Schaden ist akut – aber ignorieren sollten Sie ihn trotzdem nicht. 

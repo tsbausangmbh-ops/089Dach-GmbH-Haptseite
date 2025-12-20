@@ -95,7 +95,7 @@ export default function Flachdach() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="lg:col-span-2 space-y-8">
               <div>
-                <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Flachdach-Service aus einer Hand</h2>
+                <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Flachdach abdichten München: EPDM, Bitumen & Begrünung vom Meisterbetrieb</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4">
                   Flachdächer erfordern besondere Expertise. Ob Neubau, Sanierung oder Reparatur – wir bieten Ihnen 
                   professionelle Lösungen für alle Flachdach-Typen: Bitumenbahnen, Kunststoffbahnen (PVC, EPDM), 

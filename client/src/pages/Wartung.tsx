@@ -221,7 +221,7 @@ export default function Wartung() {
           <div className="max-w-2xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
-                Wartungstermin vereinbaren
+                Dachwartung München: Jetzt Termin für Inspektion und Dachrinnenreinigung vereinbaren
               </h2>
               <p className="text-muted-foreground">
                 Beschreiben Sie Ihr Anliegen – wir melden uns mit einem Terminvorschlag.
@@ -322,7 +322,7 @@ export default function Wartung() {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-2xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
-              Was wir bei der Wartung prüfen
+              Dachinspektion München: Ziegel, Rinnen, Moos & Anschlüsse gründlich prüfen
             </h2>
             <p className="text-muted-foreground">
               Eine gründliche Dachwartung umfasst weit mehr als nur einen kurzen Blick aufs Dach.
@@ -354,7 +354,7 @@ export default function Wartung() {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-2xl mb-12">
             <h2 className="text-3xl font-heading font-bold mb-4">
-              Warum regelmäßige Dachwartung?
+              Dachwartung spart Geld: 4 Gründe warum regelmäßige Dachkontrolle in München wichtig ist
             </h2>
             <p className="text-gray-300">
               Viele Hausbesitzer unterschätzen, wie wichtig regelmäßige Wartung für die Lebensdauer ihres Daches ist.
@@ -382,7 +382,7 @@ export default function Wartung() {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
-              Wie oft sollte ein Dach gewartet werden?
+              Dach kontrollieren lassen München: Wie oft ist eine Wartung wirklich nötig?
             </h2>
             <p className="text-muted-foreground mb-8 leading-relaxed">
               Die Häufigkeit der Wartung hängt von verschiedenen Faktoren ab: Alter des Daches, Dachneigung, 
@@ -431,7 +431,7 @@ export default function Wartung() {
       <section className="py-5 bg-primary text-white">
         <div className="container mx-auto px-6 lg:px-12 text-center">
           <h2 className="text-3xl font-heading font-bold mb-4">
-            Schützen Sie Ihr Dach – bevor es zu spät ist
+            Dach Wartungsvertrag München: Regelmäßige Pflege schützt vor teuren Folgeschäden
           </h2>
           <p className="text-white/90 mb-8 max-w-2xl mx-auto">
             Regelmäßige Wartung spart langfristig Geld und Ärger. 

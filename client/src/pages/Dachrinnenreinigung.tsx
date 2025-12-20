@@ -93,7 +93,7 @@ export default function Dachrinnenreinigung() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="lg:col-span-2 space-y-8">
               <div>
-                <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Warum Dachrinnenreinigung wichtig ist</h2>
+                <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Dachrinne reinigen München: Warum verstopfte Rinnen & Fallrohre teure Schäden verursachen</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4">
                   Verstopfte Dachrinnen sind mehr als nur ein optisches Problem. Wenn Laub, Moos und Schmutz 
                   den Wasserabfluss blockieren, kann Regenwasser überlaufen und an der Fassade hinunterlaufen. 

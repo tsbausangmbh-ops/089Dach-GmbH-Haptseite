@@ -122,7 +122,7 @@ export default function Notdienst() {
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-6 text-center">
-              Wann brauchen Sie unseren Notdienst?
+              Dachdecker Notdienst München 24h: Wann Sie uns sofort anrufen sollten
             </h2>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
@@ -173,7 +173,7 @@ export default function Notdienst() {
             </div>
 
             <div className="bg-secondary text-white p-8 rounded-xl mb-12">
-              <h3 className="text-2xl font-bold mb-6 text-center">So läuft unser Notdienst ab</h3>
+              <h3 className="text-2xl font-bold mb-6 text-center">Sturmschaden Dach München: In 4 Schritten zur schnellen Notsicherung</h3>
               <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
                 {[
                   { step: "1", title: "Anruf", desc: "Sie rufen an oder fordern einen Rückruf an" },
@@ -193,7 +193,7 @@ export default function Notdienst() {
             </div>
 
             <div className="bg-stone-100 p-8 rounded-xl mb-12">
-              <h3 className="text-2xl font-bold text-secondary mb-6">Notdienst-Preise</h3>
+              <h3 className="text-2xl font-bold text-secondary mb-6">Dachdecker Notdienst Kosten München: Transparente Preise ohne Überraschungen</h3>
               <p className="text-muted-foreground mb-6">
                 Transparente Preise auch im Notfall. Keine versteckten Kosten – Sie wissen vorher, was es kostet.
               </p>
@@ -224,7 +224,7 @@ export default function Notdienst() {
             <div className="bg-primary/5 p-8 rounded-xl border border-primary/20">
               <h3 className="text-2xl font-bold text-secondary mb-4 flex items-center gap-2">
                 <Shield className="h-6 w-6 text-primary" />
-                Versicherungsfall? Wir helfen!
+                Sturmschaden Versicherung München: Professionelle Dokumentation für Ihren Versicherungsfall
               </h3>
               <ul className="space-y-3 mb-6">
                 {[
@@ -242,7 +242,7 @@ export default function Notdienst() {
             </div>
 
             <div className="mt-12 text-center">
-              <h3 className="text-2xl font-bold text-secondary mb-4">Jetzt Notdienst anfordern</h3>
+              <h3 className="text-2xl font-bold text-secondary mb-4">Dach Notfall München: Jetzt 24/7 Notdienst anfordern – schnelle Hilfe garantiert</h3>
               <p className="text-muted-foreground mb-6">
                 Rufen Sie uns an oder fordern Sie einen sofortigen Rückruf an – wir sind rund um die Uhr für Sie da.
               </p>
