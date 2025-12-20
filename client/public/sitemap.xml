@@ -50,6 +50,38 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- SEO Hauptkeyword-Landingpages -->
+  <url>
+    <loc>https://089dach.de/dachdecker-muenchen</loc>
+    <lastmod>2025-12-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://089dach.de/dachdecker-muenchen-umgebung</loc>
+    <lastmod>2025-12-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://089dach.de/dachdecker-spengler-muenchen</loc>
+    <lastmod>2025-12-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://089dach.de/dachdecker-muenchen-kosten</loc>
+    <lastmod>2025-12-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://089dach.de/dachdecker-notdienst-muenchen</loc>
+    <lastmod>2025-12-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
   <!-- Leistungen Unterseiten -->
   <url>
     <loc>https://089dach.de/leistungen/bedachungen</loc>
