@@ -15,6 +15,11 @@ import heroImage from "@assets/generated_images/damaged_red_tile_roof_before.png
 import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import { DachreparaturMuenchenContent } from "@/components/SEOContent";
+import ImageGallery from "@/components/ImageGallery";
+import reparaturImg1 from "@assets/generated_images/damaged_red_tile_roof_before.png";
+import reparaturImg2 from "@assets/generated_images/roofer_working_on_red_tile_roof_munich.png";
+import reparaturImg3 from "@assets/generated_images/damaged_chimney_flashing_before.png";
+import reparaturImg4 from "@assets/generated_images/new_copper_chimney_flashing.png";
 
 export default function Reparaturservice() {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -480,6 +485,16 @@ export default function Reparaturservice() {
       </section>
 
       <DachreparaturMuenchenContent />
+      <ImageGallery 
+        title="Dachreparatur Vorher-Nachher"
+        columns={2}
+        images={[
+          { src: reparaturImg1, alt: "Beschädigtes Ziegeldach vor Reparatur", caption: "Vorher: Sturmschaden am Dach" },
+          { src: reparaturImg2, alt: "Dachdecker bei der Reparatur in München", caption: "Professionelle Dachreparatur" },
+          { src: reparaturImg3, alt: "Undichter Schornsteinanschluss vor Reparatur", caption: "Vorher: Undichter Kaminanschluss" },
+          { src: reparaturImg4, alt: "Neuer Kupfer-Schornsteinanschluss", caption: "Nachher: Neue Kupferverwahrung" }
+        ]}
+      />
       <LeadFunnel />
       <RelatedServices 
         currentPage="reparaturservice" 

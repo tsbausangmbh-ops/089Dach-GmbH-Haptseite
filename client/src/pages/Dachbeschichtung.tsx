@@ -7,6 +7,11 @@ import { Phone, CheckCircle2, Shield, Clock, Award, ArrowRight, Paintbrush, Spar
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema, FAQPageSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
+import ImageGallery from "@/components/ImageGallery";
+import beschichtungImg1 from "@assets/generated_images/aged_red_roof_tiles_closeup.png";
+import beschichtungImg2 from "@assets/generated_images/historic_biberschwanz_roof_with_patina.png";
+import beschichtungImg3 from "@assets/generated_images/realistic_renovated_roof_obermenzing_after.png";
+import beschichtungImg4 from "@assets/generated_images/modern_house_with_anthracite_roof.png";
 
 export default function Dachbeschichtung() {
   return (
@@ -207,6 +212,16 @@ export default function Dachbeschichtung() {
         </div>
       </section>
 
+      <ImageGallery 
+        title="Dachoberflächen im Vergleich"
+        columns={2}
+        images={[
+          { src: beschichtungImg1, alt: "Alte verwitterte Dachziegel Nahaufnahme", caption: "Verwitterte Dachziegel" },
+          { src: beschichtungImg2, alt: "Historisches Biberschwanzdach mit Patina", caption: "Historische Biberschwanzziegel" },
+          { src: beschichtungImg3, alt: "Saniertes Dach mit neuwertiger Optik", caption: "Nach professioneller Sanierung" },
+          { src: beschichtungImg4, alt: "Modernes Haus mit anthrazitfarbenem Dach", caption: "Moderne Dachgestaltung" }
+        ]}
+      />
       <LeadFunnel />
       <RelatedServices currentPage="dachbeschichtung" relatedIds={["dachsanierung", "reparaturservice", "wartung", "energieberatung"]} />
       <Contact />

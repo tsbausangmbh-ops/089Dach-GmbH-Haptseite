@@ -7,6 +7,11 @@ import { Phone, CheckCircle2, Shield, Clock, Award, ArrowRight, Droplets, Thermo
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema, ProductServiceSchema, FAQPageSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
+import ImageGallery from "@/components/ImageGallery";
+import flachdachImg1 from "@assets/generated_images/flat_roof_bitumen_detail_with_texture.png";
+import flachdachImg2 from "@assets/generated_images/flat_green_roof_with_natural_variations.png";
+import flachdachImg3 from "@assets/generated_images/realistic_damaged_flat_roof_before.png";
+import flachdachImg4 from "@assets/generated_images/realistic_garage_epdm_roof_after.png";
 
 export default function Flachdach() {
   return (
@@ -180,6 +185,16 @@ export default function Flachdach() {
         </div>
       </section>
 
+      <ImageGallery 
+        title="Unsere Flachdach-Projekte"
+        columns={2}
+        images={[
+          { src: flachdachImg1, alt: "Bitumenabdichtung Flachdach Detailansicht", caption: "Professionelle Bitumenabdichtung" },
+          { src: flachdachImg2, alt: "Begrüntes Flachdach mit natürlicher Vegetation", caption: "Extensive Dachbegrünung" },
+          { src: flachdachImg3, alt: "Beschädigtes Flachdach vor der Sanierung", caption: "Vorher: Undichtes Flachdach" },
+          { src: flachdachImg4, alt: "Saniertes Garagendach mit EPDM-Abdichtung", caption: "Nachher: EPDM-Abdichtung Garage" }
+        ]}
+      />
       <LeadFunnel />
       <RelatedServices currentPage="flachdach" relatedIds={["dachsanierung", "energieberatung", "spenglerei", "wartung"]} />
       <Contact />

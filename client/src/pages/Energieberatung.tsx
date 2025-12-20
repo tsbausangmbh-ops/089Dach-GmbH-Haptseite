@@ -11,6 +11,11 @@ import SEO, { BreadcrumbSchema, ServiceSchema, FAQPageSchema } from "@/component
 import heroImage from "@assets/generated_images/new_solar_panel_installation.png";
 import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
+import ImageGallery from "@/components/ImageGallery";
+import energieImg1 from "@assets/generated_images/new_solar_panel_installation.png";
+import energieImg2 from "@assets/generated_images/roof_insulation_installation_scene.png";
+import energieImg3 from "@assets/generated_images/house_with_heat_loss_visualization.png";
+import energieImg4 from "@assets/generated_images/modern_house_with_anthracite_roof.png";
 
 export default function Energieberatung() {
   const benefits = [
@@ -235,6 +240,16 @@ export default function Energieberatung() {
         </div>
       </section>
 
+      <ImageGallery 
+        title="Energetische Sanierung"
+        columns={2}
+        images={[
+          { src: energieImg1, alt: "Photovoltaikanlage auf Hausdach installiert", caption: "Solaranlage für nachhaltige Energie" },
+          { src: energieImg2, alt: "Dachdämmung wird fachgerecht eingebaut", caption: "Professionelle Dachdämmung" },
+          { src: energieImg3, alt: "Wärmebild zeigt Energieverlust am Dach", caption: "Wärmeverlust-Analyse" },
+          { src: energieImg4, alt: "Modernes Haus mit energieeffizientem Dach", caption: "Energieeffizientes Zuhause" }
+        ]}
+      />
       <LeadFunnel />
       <RelatedServices 
         currentPage="energieberatung" 

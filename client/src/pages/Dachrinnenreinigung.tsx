@@ -7,6 +7,11 @@ import { Phone, CheckCircle2, Shield, Clock, Award, ArrowRight, Droplets, Leaf, 
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema, ProductServiceSchema, FAQPageSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
+import ImageGallery from "@/components/ImageGallery";
+import rinnenImg1 from "@assets/generated_images/copper_roof_gutter_detail.png";
+import rinnenImg2 from "@assets/generated_images/bogenhausen_chimney_old_flashing.png";
+import rinnenImg3 from "@assets/generated_images/bogenhausen_chimney_new_copper.png";
+import rinnenImg4 from "@assets/generated_images/new_copper_chimney_flashing.png";
 
 export default function Dachrinnenreinigung() {
   return (
@@ -193,6 +198,16 @@ export default function Dachrinnenreinigung() {
         </div>
       </section>
 
+      <ImageGallery 
+        title="Dachrinnen & Spenglerarbeiten"
+        columns={2}
+        images={[
+          { src: rinnenImg1, alt: "Kupferdachrinne professionell gereinigt", caption: "Saubere Kupferdachrinne" },
+          { src: rinnenImg2, alt: "Alte Dachanschlüsse vor Reinigung", caption: "Vorher: Verschmutzte Anschlüsse" },
+          { src: rinnenImg3, alt: "Neue Kupferanschlüsse nach Reinigung", caption: "Nachher: Gepflegte Kupferarbeiten" },
+          { src: rinnenImg4, alt: "Professionelle Kupferanschlüsse am Schornstein", caption: "Hochwertige Spenglerarbeit" }
+        ]}
+      />
       <LeadFunnel />
       <RelatedServices currentPage="dachrinnenreinigung" relatedIds={["wartung", "spenglerei", "reparaturservice", "dachsanierung"]} />
       <Contact />

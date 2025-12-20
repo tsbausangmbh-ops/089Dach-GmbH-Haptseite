@@ -7,6 +7,11 @@ import { Phone, Clock, CheckCircle2, Shield, AlertTriangle, Zap, ArrowRight, Mes
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema, FAQPageSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
+import ImageGallery from "@/components/ImageGallery";
+import notdienstImg1 from "@assets/generated_images/damaged_red_tile_roof_before.png";
+import notdienstImg2 from "@assets/generated_images/completed_roof_showcase_reference.png";
+import notdienstImg3 from "@assets/generated_images/realistic_damaged_flat_roof_before.png";
+import notdienstImg4 from "@assets/generated_images/realistic_garage_epdm_roof_after.png";
 
 function EmergencyServiceSchema() {
   const schema = {
@@ -250,6 +255,16 @@ export default function Notdienst() {
         </div>
       </section>
 
+      <ImageGallery 
+        title="Notdienst-Einsätze"
+        columns={2}
+        images={[
+          { src: notdienstImg1, alt: "Sturmschaden an Ziegeldach München", caption: "Sturmschaden: Beschädigtes Dach" },
+          { src: notdienstImg2, alt: "Fertig repariertes Dach nach Notdienst", caption: "Nachher: Vollständig repariert" },
+          { src: notdienstImg3, alt: "Undichtes Flachdach vor Notreparatur", caption: "Wasserschaden: Flachdach undicht" },
+          { src: notdienstImg4, alt: "Saniertes Dach nach Notdienst-Einsatz", caption: "Nachher: Dauerhaft abgedichtet" }
+        ]}
+      />
       <LeadFunnel />
       <RelatedServices 
         currentPage="reparaturservice" 

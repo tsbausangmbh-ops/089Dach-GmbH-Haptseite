@@ -11,6 +11,11 @@ import SEO, { BreadcrumbSchema, ServiceSchema, ProductServiceSchema } from "@/co
 import heroImage from "@assets/generated_images/renovated_dormer_window_after.png";
 import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
+import ImageGallery from "@/components/ImageGallery";
+import gaubeImg1 from "@assets/generated_images/altbau_damaged_dormer_before.png";
+import gaubeImg2 from "@assets/generated_images/altbau_renovated_dormer_after.png";
+import gaubeImg3 from "@assets/generated_images/realistic_damaged_dormer_before.png";
+import gaubeImg4 from "@assets/generated_images/realistic_renovated_dormer_after.png";
 
 export default function Gaubenbau() {
   const benefits = [
@@ -273,6 +278,16 @@ export default function Gaubenbau() {
         </div>
       </section>
 
+      <ImageGallery 
+        title="Vorher-Nachher: Gaubenbau"
+        columns={2}
+        images={[
+          { src: gaubeImg1, alt: "Altbau-Gaube vor der Sanierung", caption: "Vorher: Altbau-Gaube renovierungsbedürftig" },
+          { src: gaubeImg2, alt: "Altbau-Gaube nach der Renovierung", caption: "Nachher: Gaube komplett saniert" },
+          { src: gaubeImg3, alt: "Beschädigte Dachgaube vor Reparatur", caption: "Vorher: Gaube mit Schäden" },
+          { src: gaubeImg4, alt: "Fertig renovierte Dachgaube", caption: "Nachher: Gaube wie neu" }
+        ]}
+      />
       <LeadFunnel />
       <RelatedServices 
         currentPage="gaubenbau" 

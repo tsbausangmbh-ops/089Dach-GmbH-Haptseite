@@ -14,6 +14,11 @@ import SEO, { BreadcrumbSchema, ServiceSchema, HowToSchema, ProductServiceSchema
 import heroImage from "@assets/generated_images/roofer_tools_arranged_cleanly.png";
 import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
+import ImageGallery from "@/components/ImageGallery";
+import wartungImg1 from "@assets/generated_images/roofer_working_on_red_tile_roof_munich.png";
+import wartungImg2 from "@assets/generated_images/aged_red_roof_tiles_closeup.png";
+import wartungImg3 from "@assets/generated_images/copper_roof_gutter_detail.png";
+import wartungImg4 from "@assets/generated_images/realistic_renovated_roof_obermenzing_after.png";
 
 export default function Wartung() {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -443,6 +448,16 @@ export default function Wartung() {
         </div>
       </section>
 
+      <ImageGallery 
+        title="Dachwartung in Aktion"
+        columns={2}
+        images={[
+          { src: wartungImg1, alt: "Dachdecker bei der Inspektion in München", caption: "Professionelle Dachinspektion" },
+          { src: wartungImg2, alt: "Dachziegel Nahaufnahme bei der Kontrolle", caption: "Gründliche Ziegelprüfung" },
+          { src: wartungImg3, alt: "Kupferdachrinne nach Reinigung", caption: "Gepflegte Dachrinne" },
+          { src: wartungImg4, alt: "Gepflegtes Dach nach regelmäßiger Wartung", caption: "Ergebnis regelmäßiger Wartung" }
+        ]}
+      />
       <LeadFunnel />
       <RelatedServices 
         currentPage="wartung" 
