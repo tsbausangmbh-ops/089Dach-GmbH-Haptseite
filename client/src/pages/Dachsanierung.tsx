@@ -23,6 +23,7 @@ import ProblemSolutionSection from "@/components/ProblemSolutionSection";
 import CTACluster from "@/components/CTACluster";
 import ProofStack from "@/components/ProofStack";
 import ProcessSteps from "@/components/ProcessSteps";
+import FoerderungBox from "@/components/FoerderungBox";
 
 export default function Dachsanierung() {
   const warningSignals = [
@@ -232,6 +233,8 @@ export default function Dachsanierung() {
         title="Ablauf Dachsanierung München: In 6 Schritten zum neuen Dach"
         subtitle="Planbar, transparent und stressfrei – von der ersten Beratung bis zur 10-Jahres-Garantie."
       />
+
+      <FoerderungBox />
 
       {/* Zweite Kundengeschichte */}
       <section className="py-5 bg-gray-50">
