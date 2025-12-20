@@ -4,7 +4,6 @@ import Hero from "@/components/Hero";
 import EmotionalFunnel from "@/components/EmotionalFunnel";
 import Services from "@/components/Services";
 import Gallery from "@/components/Gallery";
-import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { LocalBusinessSchema, OrganizationSchema, WebSiteSchema, AggregateRatingSchema, GeoServiceAreaSchema, ProfessionalServiceSchema, AIKnowledgeSchema, VoiceSearchFAQSchema, GoogleBusinessProfileSchema, BingPlacesSchema, LocalSEO20kmSchema, NearbyServiceSchema, SiteNavigationSchema, PriceSpecificationSchema, EmergencyServiceSchema } from "@/components/SEO";
@@ -130,7 +129,6 @@ export default function Home() {
 
         <CustomerReviews />
         <Gallery />
-        <Contact />
       </main>
       <Footer />
     </div>
