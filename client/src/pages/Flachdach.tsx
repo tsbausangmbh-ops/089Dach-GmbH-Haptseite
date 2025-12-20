@@ -12,6 +12,7 @@ import AIEnhancedFAQ from "@/components/AIEnhancedFAQ";
 import ProblemSolutionSection from "@/components/ProblemSolutionSection";
 import CTACluster from "@/components/CTACluster";
 import ProofStack from "@/components/ProofStack";
+import ProcessSteps from "@/components/ProcessSteps";
 import flachdachImg1 from "@assets/generated_images/flat_roof_bitumen_detail_with_texture.png";
 import flachdachImg2 from "@assets/generated_images/flat_green_roof_with_natural_variations.png";
 import flachdachImg3 from "@assets/generated_images/realistic_damaged_flat_roof_before.png";
@@ -267,6 +268,11 @@ export default function Flachdach() {
       />
 
       <ProofStack title="Warum 089Dach für Ihr Flachdach?" />
+
+      <ProcessSteps 
+        title="Flachdach-Sanierung: In 6 Schritten zur dichten Abdichtung"
+        subtitle="Planbar, transparent und stressfrei – von der ersten Beratung bis zur Garantie."
+      />
 
       <LeadFunnel />
       <RelatedServices currentPage="flachdach" relatedIds={["dachsanierung", "energieberatung", "spenglerei", "wartung"]} />

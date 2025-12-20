@@ -15,6 +15,7 @@ import AIEnhancedFAQ from "@/components/AIEnhancedFAQ";
 import ProblemSolutionSection from "@/components/ProblemSolutionSection";
 import CTACluster from "@/components/CTACluster";
 import ProofStack from "@/components/ProofStack";
+import ProcessSteps from "@/components/ProcessSteps";
 import heroImage from "@assets/generated_images/roofer_tools_arranged_cleanly.png";
 import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
@@ -535,6 +536,11 @@ export default function Wartung() {
       />
 
       <ProofStack title="Warum 089Dach für Ihre Dachwartung?" />
+
+      <ProcessSteps 
+        title="Dachwartung: In 6 Schritten zum geschützten Dach"
+        subtitle="Planbar, transparent und stressfrei – von der ersten Beratung bis zur Garantie."
+      />
 
       <LeadFunnel />
       <RelatedServices 

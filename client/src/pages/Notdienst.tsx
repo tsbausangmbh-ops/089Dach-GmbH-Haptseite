@@ -12,6 +12,7 @@ import AIEnhancedFAQ from "@/components/AIEnhancedFAQ";
 import ProblemSolutionSection from "@/components/ProblemSolutionSection";
 import CTACluster from "@/components/CTACluster";
 import ProofStack from "@/components/ProofStack";
+import ProcessSteps from "@/components/ProcessSteps";
 import notdienstImg1 from "@assets/generated_images/damaged_red_tile_roof_before.png";
 import notdienstImg2 from "@assets/generated_images/completed_roof_showcase_reference.png";
 import notdienstImg3 from "@assets/generated_images/realistic_damaged_flat_roof_before.png";
@@ -172,25 +173,10 @@ export default function Notdienst() {
               ))}
             </div>
 
-            <div className="bg-secondary text-white p-8 rounded-xl mb-12">
-              <h3 className="text-2xl font-bold mb-6 text-center">Sturmschaden Dach München: In 4 Schritten zur schnellen Notsicherung</h3>
-              <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-                {[
-                  { step: "1", title: "Anruf", desc: "Sie rufen an oder fordern einen Rückruf an" },
-                  { step: "2", title: "Ersteinschätzung", desc: "Wir besprechen die Situation" },
-                  { step: "3", title: "Schnelle Anfahrt", desc: "Wir sind schnellstmöglich vor Ort" },
-                  { step: "4", title: "Notsicherung", desc: "Sofortige Abdichtung und Sicherung" }
-                ].map((item, idx) => (
-                  <div key={idx} className="text-center">
-                    <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-3">
-                      {item.step}
-                    </div>
-                    <h4 className="font-bold mb-1">{item.title}</h4>
-                    <p className="text-sm text-gray-300">{item.desc}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
+            <ProcessSteps 
+              title="Dach-Notdienst: Schnelle Hilfe bei Dachschäden"
+              subtitle="24/7 erreichbar – schnelle Anfahrt, sofortige Sicherung, faire Preise."
+            />
 
             <div className="bg-stone-100 p-8 rounded-xl mb-12">
               <h3 className="text-2xl font-bold text-secondary mb-6">Dachdecker Notdienst Kosten München: Transparente Preise ohne Überraschungen</h3>

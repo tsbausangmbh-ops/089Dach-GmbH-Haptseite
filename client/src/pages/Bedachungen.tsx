@@ -21,6 +21,7 @@ import AIEnhancedFAQ from "@/components/AIEnhancedFAQ";
 import ProblemSolutionSection from "@/components/ProblemSolutionSection";
 import CTACluster from "@/components/CTACluster";
 import ProofStack from "@/components/ProofStack";
+import ProcessSteps from "@/components/ProcessSteps";
 
 export default function Bedachungen() {
   return (
@@ -342,6 +343,11 @@ export default function Bedachungen() {
       />
 
       <ProofStack title="Warum 089Dach für Ihre Bedachung?" />
+
+      <ProcessSteps 
+        title="Ablauf Dacheindeckung München: In 6 Schritten zum neuen Dach"
+        subtitle="Planbar, transparent und stressfrei – von der ersten Beratung bis zur Garantie."
+      />
 
       <LeadFunnel />
       <RelatedServices 

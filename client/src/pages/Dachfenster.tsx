@@ -22,6 +22,7 @@ import AIEnhancedFAQ from "@/components/AIEnhancedFAQ";
 import ProblemSolutionSection from "@/components/ProblemSolutionSection";
 import CTACluster from "@/components/CTACluster";
 import ProofStack from "@/components/ProofStack";
+import ProcessSteps from "@/components/ProcessSteps";
 
 export default function Dachfenster() {
   const benefits = [
@@ -214,33 +215,10 @@ export default function Dachfenster() {
         </div>
       </section>
 
-      {/* Ablauf */}
-      <section className="py-6">
-        <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-2xl mb-12">
-            <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
-              Ablauf Dachfenster-Einbau München: In 4 Schritten zu mehr Tageslicht unterm Dach
-            </h2>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-3">
-            {[
-              { step: "1", title: "Beratung vor Ort", desc: "Wir schauen uns Ihr Dach an und besprechen Ihre Wünsche." },
-              { step: "2", title: "Maßgeschneidertes Angebot", desc: "Sie erhalten ein Festpreisangebot ohne versteckte Kosten." },
-              { step: "3", title: "Einbau in 1-2 Tagen", desc: "Sauber, schnell und ohne große Baustelle im Haus." },
-              { step: "4", title: "Freude am Licht", desc: "Genießen Sie Ihr neues, helles Zuhause." }
-            ].map((item, index) => (
-              <div key={index} className="text-center" data-testid={`step-${index}`}>
-                <div className="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
-                  {item.step}
-                </div>
-                <h3 className="font-bold text-secondary mb-2">{item.title}</h3>
-                <p className="text-muted-foreground text-sm"><TextWithKeywordLinks currentPath="/leistungen/dachfenster">{item.desc}</TextWithKeywordLinks></p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <ProcessSteps 
+        title="Dachfenster-Einbau: In 6 Schritten zu mehr Licht"
+        subtitle="Planbar, transparent und stressfrei – von der ersten Beratung bis zur Garantie."
+      />
 
       {/* FAQ Teaser */}
       <section className="py-5 bg-secondary text-white">

@@ -12,6 +12,7 @@ import AIEnhancedFAQ from "@/components/AIEnhancedFAQ";
 import ProblemSolutionSection from "@/components/ProblemSolutionSection";
 import CTACluster from "@/components/CTACluster";
 import ProofStack from "@/components/ProofStack";
+import ProcessSteps from "@/components/ProcessSteps";
 import heroImage from "@assets/generated_images/renovated_dormer_window_after.png";
 import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
@@ -369,6 +370,11 @@ export default function Gaubenbau() {
       />
 
       <ProofStack title="Warum 089Dach für Ihren Gaubenbau?" />
+
+      <ProcessSteps 
+        title="Gaubenbau: In 6 Schritten zu mehr Wohnraum"
+        subtitle="Planbar, transparent und stressfrei – von der ersten Beratung bis zur Garantie."
+      />
 
       <LeadFunnel />
       <RelatedServices 

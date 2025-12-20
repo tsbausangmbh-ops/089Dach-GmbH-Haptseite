@@ -10,6 +10,7 @@ import AIEnhancedFAQ from "@/components/AIEnhancedFAQ";
 import ProblemSolutionSection from "@/components/ProblemSolutionSection";
 import CTACluster from "@/components/CTACluster";
 import ProofStack from "@/components/ProofStack";
+import ProcessSteps from "@/components/ProcessSteps";
 import RelatedServices from "@/components/RelatedServices";
 import ImageGallery from "@/components/ImageGallery";
 import beschichtungImg1 from "@assets/generated_images/aged_red_roof_tiles_closeup.png";
@@ -297,6 +298,11 @@ export default function Dachbeschichtung() {
       />
 
       <ProofStack title="Warum 089Dach für Ihr Dach?" />
+
+      <ProcessSteps 
+        title="Dachbeschichtung: Ehrliche Beratung in 6 Schritten"
+        subtitle="Planbar, transparent und stressfrei – von der ersten Beratung bis zur Garantie."
+      />
 
       <LeadFunnel />
       <RelatedServices currentPage="dachbeschichtung" relatedIds={["dachsanierung", "reparaturservice", "wartung", "energieberatung"]} />

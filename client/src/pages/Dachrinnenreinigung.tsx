@@ -10,6 +10,7 @@ import AIEnhancedFAQ from "@/components/AIEnhancedFAQ";
 import ProblemSolutionSection from "@/components/ProblemSolutionSection";
 import CTACluster from "@/components/CTACluster";
 import ProofStack from "@/components/ProofStack";
+import ProcessSteps from "@/components/ProcessSteps";
 import RelatedServices from "@/components/RelatedServices";
 import ImageGallery from "@/components/ImageGallery";
 import rinnenImg1 from "@assets/generated_images/copper_roof_gutter_detail.png";
@@ -286,6 +287,11 @@ export default function Dachrinnenreinigung() {
       />
 
       <ProofStack title="Warum 089Dach für Ihre Dachrinnen?" />
+
+      <ProcessSteps 
+        title="Rinnenreinigung: In 6 Schritten zur sauberen Rinne"
+        subtitle="Planbar, transparent und stressfrei – von der ersten Beratung bis zur Garantie."
+      />
 
       <LeadFunnel />
       <RelatedServices currentPage="dachrinnenreinigung" relatedIds={["wartung", "spenglerei", "reparaturservice", "dachsanierung"]} />

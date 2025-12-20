@@ -19,6 +19,7 @@ import AIEnhancedFAQ from "@/components/AIEnhancedFAQ";
 import ProblemSolutionSection from "@/components/ProblemSolutionSection";
 import CTACluster from "@/components/CTACluster";
 import ProofStack from "@/components/ProofStack";
+import ProcessSteps from "@/components/ProcessSteps";
 import ImageGallery from "@/components/ImageGallery";
 import reparaturImg1 from "@assets/generated_images/damaged_red_tile_roof_before.png";
 import reparaturImg2 from "@assets/generated_images/roofer_working_on_red_tile_roof_munich.png";
@@ -568,6 +569,11 @@ export default function Reparaturservice() {
       />
 
       <ProofStack title="Warum 089Dach für Ihre Reparatur?" />
+
+      <ProcessSteps 
+        title="Dachreparatur: In 6 Schritten zum reparierten Dach"
+        subtitle="Planbar, transparent und stressfrei – von der ersten Beratung bis zur Garantie."
+      />
 
       <LeadFunnel />
       <RelatedServices 
