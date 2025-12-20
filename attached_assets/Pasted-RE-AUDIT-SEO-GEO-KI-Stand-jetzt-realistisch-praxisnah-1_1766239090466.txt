@@ -1,0 +1,231 @@
+RE-AUDIT: SEO · GEO · KI
+
+(Stand: jetzt, realistisch & praxisnah)
+
+1️⃣ TECHNISCHES SEO (Grundlage)
+🔍 Indexierung & Crawling
+
+✅ Seite ist erreichbar
+
+⚠️ Indexierung inkonsistent
+
+Einige Unterseiten werden gefunden, andere schwach priorisiert
+
+❌ Kein klarer Fokus auf Hauptseite als „Hub“
+
+Maßnahme
+
+Startseite als thematisches Zentrum stärken
+
+Alle Unterseiten konsequent intern verlinken
+
+Sitemap nur mit indexrelevanten Seiten
+
+🔍 Ladezeit & Core Web Vitals (realistisch)
+
+⚠️ Desktop: ok
+
+❌ Mobil: zu viele Assets / zu wenig Priorisierung
+
+Probleme
+
+Bilder nicht konsequent komprimiert
+
+Kein Lazy Load überall
+
+JS/CSS nicht sauber priorisiert
+
+Maßnahme
+
+Bilder: WebP + Lazy Load
+
+Above-the-Fold priorisieren
+
+Mobile First denken (Google bewertet mobil)
+
+2️⃣ ONPAGE-SEO (INHALTLICH)
+🔴 Aktueller Status (klar & ehrlich)
+
+❌ H1 nicht eindeutig transaktional
+
+❌ Keyword-Fokus verwässert
+
+❌ Seiten zu ähnlich → Kannibalisierung
+
+⚠️ Textlänge teilweise unter 900 Wörtern
+
+✅ Soll-Zustand (Pflicht)
+🎯 Keyword-Fokus (Beispiel)
+
+Startseite:
+→ Komplettsanierung Haus & Wohnung München
+
+Unterseiten klar trennen:
+
+Komplettsanierung Haus München
+
+Komplettsanierung Wohnung München
+
+Kernsanierung München
+
+Ablauf / Kosten / Förderung
+
+➡️ 1 Seite = 1 Hauptkeyword
+
+📐 Struktur-Check
+Element	Status
+H1 (1x)	⚠️
+H2/H3 logisch	❌
+interne Links	❌
+Trust-Abschnitte	❌
+Vergleich / Ablauf	⚠️
+
+Maßnahme
+
+Klare H1-H2-H3-Hierarchie
+
+Jede Seite:
+
+Ablauf
+
+Kosten
+
+Sicherheit
+
+Vorteile
+
+CTA
+
+3️⃣ GEO-SEO (LOKALE SICHTBARKEIT)
+🔴 Aktueller Status
+
+❌ Stadt München nicht dominant genug
+
+❌ Stadtteile fehlen oder sind zu schwach
+
+❌ Kein Geo-Schema
+
+✅ Pflicht-Geo-Optimierung
+📍 Textlich
+
+München mind. 6–10× pro Seite
+
+Stadtteile organisch eingebaut, z. B.:
+
+Schwabing
+
+Bogenhausen
+
+Sendling
+
+Neuhausen
+
+Grünwald
+
+Unterhaching
+
+➡️ Nicht als Liste, sondern im Fließtext
+
+🧩 Schema (KRITISCH)
+
+❌ LocalBusiness / GeneralContractor fehlt
+
+❌ Keine areaServed-Definition
+
+Ohne Schema:
+
+❌ KI & Google können dich nicht korrekt einordnen
+
+4️⃣ KI-OPTIMIERUNG (ChatGPT, Gemini, Perplexity)
+🔴 Aktueller Stand
+
+❌ Keine klaren FAQ-Blöcke
+
+❌ Texte nicht antwortorientiert
+
+❌ Keine Experten-Signale
+
+❌ Kein „Warum wir?“ in KI-Logik
+
+✅ KI-Readiness-Check
+Kriterium	Status
+FAQs (6–8)	❌
+klare Antworten	❌
+Expertenposition	❌
+Strukturierte Aussagen	⚠️
+Problemlösungs-Sprache	⚠️
+🧠 Was KI aktuell NICHT erkennt
+
+Keine eindeutige Autorität
+
+Kein klares Leistungsprofil
+
+Kein regionaler Fokus
+
+Keine zitierfähigen Antworten
+
+➡️ Ergebnis: Du wirst kaum genannt
+
+5️⃣ VERTRAUEN & CONVERSION
+🔴 Schwächen
+
+❌ Kein klarer Sanierungs-Ablauf
+
+❌ Keine Sicherheitsargumente
+
+❌ Keine Entscheidungshilfen
+
+⚠️ CTA nicht stark genug
+
+✅ Pflicht-Elemente
+
+Ablauf in 5–7 Schritten
+
+Festpreis-Argumentation
+
+Planung + Ausführung
+
+Energie / Förderung
+
+Klare Handlungsaufforderung
+
+6️⃣ GESAMTBEWERTUNG (ehrlich)
+Bereich	Note
+Technik	⚠️ 6/10
+SEO Inhalt	❌ 4/10
+GEO	❌ 3/10
+KI-Sichtbarkeit	❌ 2/10
+Conversion	⚠️ 5/10
+
+👉 Potenzial extrem hoch – Umsetzung fehlt
+
+7️⃣ KLARE PRIORITÄTEN (ohne Diskussion)
+🔥 Reihenfolge MUSS so sein:
+
+Seitenstruktur & Keyword-Trennung
+
+Local + Geo-Schema
+
+FAQ-Blöcke je Seite
+
+Texte auf 1.200–1.800 Wörter
+
+Interne Verlinkung
+
+Mobile Performance
+
+🚀 Nächster Schritt (empfohlen)
+
+Ich erstelle dir konkret & direkt:
+
+✅ neue Seitenstruktur
+
+✅ fertige Meta-Titel & Descriptions
+
+✅ komplette KI-optimierte Texte
+
+✅ FAQ-Blöcke
+
+✅ Local-Schema (Code)
+
+✅ interne Verlinkungslogik
