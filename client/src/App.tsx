@@ -103,6 +103,11 @@ import DachpfannenAbdichten from "@/pages/DachpfannenAbdichten";
 import DachAbdichten from "@/pages/DachAbdichten";
 import DachNeuEindecken from "@/pages/DachNeuEindecken";
 import Dachdecker from "@/pages/Dachdecker";
+import SEODachdeckerMuenchen from "@/pages/SEODachdeckerMuenchen";
+import SEODachdeckerUmgebung from "@/pages/SEODachdeckerUmgebung";
+import SEODachdeckerSpengler from "@/pages/SEODachdeckerSpengler";
+import SEODachdeckerKosten from "@/pages/SEODachdeckerKosten";
+import SEODachdeckerNotdienst from "@/pages/SEODachdeckerNotdienst";
 import DachDecken from "@/pages/DachDecken";
 import DachsanierungKosten from "@/pages/DachsanierungKosten";
 import DachdeckerPreise from "@/pages/DachdeckerPreise";
@@ -236,6 +241,11 @@ function Router() {
       <Route path="/dachdecker-hasenbergl" component={StadtteilHasenbergl} />
       <Route path="/dachdecker-oberfoehring" component={StadtteilOberfoehring} />
       <Route path="/dachdecker-aubing-lochhausen-langwied" component={StadtteilAubing} />
+      <Route path="/dachdecker-muenchen" component={SEODachdeckerMuenchen} />
+      <Route path="/dachdecker-muenchen-umgebung" component={SEODachdeckerUmgebung} />
+      <Route path="/dachdecker-spengler-muenchen" component={SEODachdeckerSpengler} />
+      <Route path="/dachdecker-muenchen-kosten" component={SEODachdeckerKosten} />
+      <Route path="/dachdecker-notdienst-muenchen" component={SEODachdeckerNotdienst} />
       <Route path="/leistungen/flachdach" component={Flachdach} />
       <Route path="/leistungen/sturmschaden" component={Sturmschaden} />
       <Route path="/leistungen/dachbeschichtung" component={Dachbeschichtung} />
