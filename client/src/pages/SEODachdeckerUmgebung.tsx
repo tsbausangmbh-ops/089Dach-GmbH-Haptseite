@@ -147,7 +147,7 @@ export default function SEODachdeckerUmgebung() {
 
       <section className="py-12 md:py-16 bg-white">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-6">
               Dachdecker für <span className="text-primary">München und Umgebung</span>
             </h2>
@@ -215,7 +215,7 @@ export default function SEODachdeckerUmgebung() {
 
       <section className="py-12 md:py-16 bg-white">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
-          <div className="max-w-4xl mx-auto prose prose-lg text-muted-foreground">
+          <div className="max-w-6xl mx-auto prose prose-lg text-muted-foreground">
             <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-6">
               Dachdeckerleistungen im Münchner Umland
             </h2>

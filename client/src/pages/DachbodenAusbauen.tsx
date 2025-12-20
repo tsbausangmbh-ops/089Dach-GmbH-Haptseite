@@ -47,13 +47,13 @@ export default function DachbodenAusbauen() {
         <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${heroImage})` }} />
         <div className="absolute inset-0 bg-gradient-to-r from-violet-900/95 via-violet-900/85 to-violet-800/70"></div>
         <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-4xl mx-auto text-center">
+          <div className="max-w-6xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 bg-violet-500/20 backdrop-blur-sm px-4 py-2 rounded-full mb-6 border border-violet-500/30">
               <Home className="w-5 h-5 text-violet-400" />
               <span className="font-medium text-violet-300">Mehr Wohnraum schaffen</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"><strong>Dachboden ausbauen</strong></h1>
-            <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-3xl mx-auto">Aus ungenutztem Dachboden wird wertvoller Wohnraum – Dämmung, Fenster, Ausbau.</p>
+            <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-6xl mx-auto">Aus ungenutztem Dachboden wird wertvoller Wohnraum – Dämmung, Fenster, Ausbau.</p>
             <p className="text-lg text-white/70 mb-8">800-1.500€/m² komplett • KfW-förderfähig • Meisterbetrieb</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/rueckruf"><Button size="lg" className="bg-violet-600 hover:bg-violet-700 text-white text-lg px-8 py-6" data-testid="button-hero-callback"><Phone className="mr-2 h-5 w-5" />Kostenlose Beratung</Button></Link>
@@ -82,7 +82,7 @@ export default function DachbodenAusbauen() {
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">Häufige Fragen zum Dachausbau</h2>
             <div className="space-y-6">
               {faqs.map((faq, index) => (
@@ -98,7 +98,7 @@ export default function DachbodenAusbauen() {
 
       <section className="py-16 bg-violet-600 text-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center">
+          <div className="max-w-6xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-6">Dachboden ausbauen lassen?</h2>
             <p className="text-xl text-white/90 mb-8">Kostenlose Erstberatung mit Potenzialanalyse</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

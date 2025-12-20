@@ -111,7 +111,7 @@ export default function UeberUns() {
       {/* Unsere Mission */}
       <section className="py-10 md:py-16 bg-secondary text-white">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-4xl mx-auto text-center">
+          <div className="max-w-6xl mx-auto text-center">
             <Sparkles className="h-10 md:h-12 w-10 md:w-12 text-primary mx-auto mb-4 md:mb-6" />
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-heading font-bold mb-4 md:mb-6">
               Unsere Mission: Ihre Sorgen beenden
@@ -131,7 +131,7 @@ export default function UeberUns() {
 
       <section id="geschichte" className="py-12 md:py-20 bg-white">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-4xl mx-auto text-center mb-10 md:mb-16">
+          <div className="max-w-6xl mx-auto text-center mb-10 md:mb-16">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Unsere Geschichte</span>
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-heading font-bold text-secondary mt-2 mb-4 md:mb-6">
               Aus Frust wurde Leidenschaft
@@ -242,7 +242,7 @@ export default function UeberUns() {
             </div>
           </div>
 
-          <div className="bg-secondary/5 rounded-xl p-8 md:p-12 border border-secondary/10 max-w-4xl mx-auto">
+          <div className="bg-secondary/5 rounded-xl p-8 md:p-12 border border-secondary/10 max-w-6xl mx-auto">
             <div className="flex items-start gap-4">
               <Quote className="h-12 w-12 text-primary flex-shrink-0" />
               <div>
@@ -263,7 +263,7 @@ export default function UeberUns() {
       {/* Geschichten aus unserem Alltag */}
       <section className="py-12 md:py-20 bg-white">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-4xl mx-auto text-center mb-8 md:mb-12">
+          <div className="max-w-6xl mx-auto text-center mb-8 md:mb-12">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Aus unserem Alltag</span>
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-heading font-bold text-secondary mt-2 mb-4 md:mb-6">
               Geschichten, die zeigen, wer wir sind
@@ -377,7 +377,7 @@ export default function UeberUns() {
 
       <section className="py-12 md:py-20 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-4xl mx-auto text-center mb-8 md:mb-12">
+          <div className="max-w-6xl mx-auto text-center mb-8 md:mb-12">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Unsere Werte</span>
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-heading font-bold text-secondary mt-2 mb-4 md:mb-6">
               Wofür wir stehen

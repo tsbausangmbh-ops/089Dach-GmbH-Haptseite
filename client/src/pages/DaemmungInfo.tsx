@@ -121,12 +121,12 @@ export default function DaemmungInfo() {
 
       <section className="py-10 bg-stone-50 border-b">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             <div className="text-center mb-8">
               <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">
                 Wissen Sie, wohin Ihre Heizwärme wirklich geht?
               </h2>
-              <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-4">
+              <p className="text-lg text-muted-foreground max-w-6xl mx-auto mb-4">
                 Stellen Sie sich vor: Jeden Tag heizen Sie – und ein großer Teil dieser teuren Wärme 
                 <strong className="text-secondary"> verschwindet einfach durch Ihr Dach</strong>. 
                 Tag für Tag, Monat für Monat, Jahr für Jahr.
@@ -182,7 +182,7 @@ export default function DaemmungInfo() {
 
       <section className="py-12 bg-white">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             
             <div className="grid md:grid-cols-2 gap-8 mb-16 items-stretch">
               <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-r-lg">
@@ -426,7 +426,7 @@ export default function DaemmungInfo() {
               <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-6 text-center">
                 Häufige Fragen zur Dachdämmung
               </h2>
-              <div className="max-w-3xl mx-auto space-y-4">
+              <div className="max-w-6xl mx-auto space-y-4">
                 <div className="bg-white p-5 rounded-lg border border-stone-200">
                   <h4 className="font-bold text-secondary mb-2">Lohnt sich eine Dachdämmung bei meinem Altbau überhaupt?</h4>
                   <p className="text-muted-foreground">Gerade bei Altbauten ist die Ersparnis am größten! Ältere Häuser haben oft gar keine oder nur sehr dünne Dämmung. Hier sparen Sie nach der Dämmung am meisten – oft 30% oder mehr Ihrer Heizkosten.</p>

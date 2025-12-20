@@ -51,13 +51,13 @@ export default function DachdeckerPreise() {
         <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${heroImage})` }} />
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/95 via-slate-900/85 to-slate-900/70"></div>
         <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-4xl mx-auto text-center">
+          <div className="max-w-6xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 bg-blue-500/20 backdrop-blur-sm px-4 py-2 rounded-full mb-6 border border-blue-500/30">
               <Euro className="w-5 h-5 text-blue-400" />
               <span className="font-medium text-blue-300">Preisliste 2025</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"><strong>Dachdecker Preise</strong> München</h1>
-            <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-3xl mx-auto">Transparente <strong>Preise</strong> für alle <strong>Dachdeckerarbeiten</strong> – von der kleinen <strong>Reparatur</strong> bis zur <strong>Komplettsanierung</strong>.</p>
+            <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-6xl mx-auto">Transparente <strong>Preise</strong> für alle <strong>Dachdeckerarbeiten</strong> – von der kleinen <strong>Reparatur</strong> bis zur <strong>Komplettsanierung</strong>.</p>
             <p className="text-lg text-white/70 mb-8"><strong>Festpreisgarantie</strong> • Keine versteckten Kosten • Kostenlose Beratung</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/rueckruf"><Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-6" data-testid="button-hero-callback"><Phone className="mr-2 h-5 w-5" />Kostenloses Angebot</Button></Link>
@@ -69,7 +69,7 @@ export default function DachdeckerPreise() {
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-4">Unsere Preisliste</h2>
             <p className="text-center text-slate-600 mb-12">Alle Preise inkl. Material und Arbeit für München und Umgebung</p>
             <div className="overflow-x-auto">
@@ -99,7 +99,7 @@ export default function DachdeckerPreise() {
 
       <section className="py-16 bg-blue-600 text-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold text-center mb-8">Unsere Festpreis-Garantie</h2>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="text-center">
@@ -124,7 +124,7 @@ export default function DachdeckerPreise() {
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">Häufige Fragen zu unseren Preisen</h2>
             <div className="space-y-6">
               {faqs.map((faq, index) => (
@@ -140,7 +140,7 @@ export default function DachdeckerPreise() {
 
       <section className="py-16 bg-slate-50">
         <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center">
+          <div className="max-w-6xl mx-auto text-center">
             <h2 className="text-3xl font-bold text-slate-800 mb-6">Individuelles Angebot gewünscht?</h2>
             <p className="text-xl text-slate-600 mb-8">Wir erstellen Ihnen ein kostenloses Festpreis-Angebot für Ihr Projekt.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

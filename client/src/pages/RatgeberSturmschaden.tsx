@@ -76,7 +76,7 @@ export default function RatgeberSturmschaden() {
 
       <section className="py-8 md:py-12">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             
             <div className="bg-red-50 rounded-xl p-6 border border-red-200 mb-8">
               <h2 className="text-xl font-bold text-red-800 mb-4 flex items-center gap-2">

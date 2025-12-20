@@ -116,12 +116,12 @@ export default function Heizkostenrechner() {
 
       <section className="py-10 bg-stone-50 border-b">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             <div className="text-center mb-8">
               <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">
                 Warum Sie Ihre Heizkosten kennen sollten
               </h2>
-              <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-4">
+              <p className="text-lg text-muted-foreground max-w-6xl mx-auto mb-4">
                 Viele Hausbesitzer zahlen jährlich <strong className="text-secondary">hunderte Euro zu viel</strong> für Heizung – 
                 ohne es zu wissen. Unser Rechner zeigt Ihnen in 30 Sekunden, wo Ihr Geld bleibt und wie Sie es zurückbekommen.
               </p>
@@ -177,7 +177,7 @@ export default function Heizkostenrechner() {
 
       <section className="py-12 bg-white">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-2 gap-8 items-stretch">
               <div className="bg-gray-50 p-8 rounded-xl h-full flex flex-col">
                 <div className="flex items-center gap-3 mb-6">

@@ -60,7 +60,7 @@ export default function RatgeberFoerderung() {
 
       <section className="py-8 md:py-12">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-6xl mx-auto">
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
               <div className="bg-blue-50 rounded-xl p-6 border border-blue-200">

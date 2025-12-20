@@ -369,7 +369,7 @@ export default function Rueckruf() {
 
       <section className="py-4 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-3xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             <h2 className="text-2xl font-heading font-bold text-secondary mb-4 text-center">
               Warum einen Rückruf anfordern?
             </h2>

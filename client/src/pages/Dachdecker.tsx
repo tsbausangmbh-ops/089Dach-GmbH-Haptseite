@@ -75,13 +75,13 @@ export default function Dachdecker() {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/95 via-slate-900/85 to-slate-900/70"></div>
         <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-4xl mx-auto text-center">
+          <div className="max-w-6xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 bg-orange-500/20 backdrop-blur-sm px-4 py-2 rounded-full mb-6 border border-orange-500/30">
               <Award className="w-5 h-5 text-orange-400" />
               <span className="font-medium text-orange-300">Meisterbetrieb seit 1998</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"><strong>Dachdecker</strong> München</h1>
-            <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-3xl mx-auto">
+            <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-6xl mx-auto">
               Ihr zuverlässiger Dachdeckermeister für München und Umgebung – 
               von der kleinen Reparatur bis zur Komplettsanierung.
             </p>
@@ -137,7 +137,7 @@ export default function Dachdecker() {
 
       <section className="py-16 bg-slate-50">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">
               Warum 089Dach Ihr Dachdecker in München sein sollte
             </h2>
@@ -155,7 +155,7 @@ export default function Dachdecker() {
 
       <section className="py-16 bg-orange-600 text-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
+          <div className="max-w-6xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-8">
               089Dach in Zahlen
             </h2>
@@ -183,7 +183,7 @@ export default function Dachdecker() {
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             <div className="flex items-center gap-2 justify-center mb-8">
               <MapPin className="w-6 h-6 text-orange-600" />
               <h2 className="text-3xl font-bold text-slate-800">
@@ -213,7 +213,7 @@ export default function Dachdecker() {
 
       <section className="py-16 bg-slate-50">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">
               Häufige Fragen an unseren Dachdeckerbetrieb
             </h2>
@@ -231,7 +231,7 @@ export default function Dachdecker() {
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center">
+          <div className="max-w-6xl mx-auto text-center">
             <h2 className="text-3xl font-bold text-slate-800 mb-6">
               Dachdecker gesucht? Wir sind für Sie da!
             </h2>

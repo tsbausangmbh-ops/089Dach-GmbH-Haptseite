@@ -111,7 +111,7 @@ export default function Gaubenbau() {
       {/* Kundengeschichte */}
       <section className="py-6 md:py-10 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             <div className="bg-white p-8 rounded-xl shadow-sm border-l-4 border-primary" data-testid="testimonial-schmidt">
               <Quote className="h-10 w-10 text-primary/30 mb-4" />
               <p className="text-xl text-secondary leading-relaxed italic mb-6">
@@ -194,7 +194,7 @@ export default function Gaubenbau() {
       {/* Gaubensanierung */}
       <section className="py-6">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
               Gaubensanierung
             </h2>

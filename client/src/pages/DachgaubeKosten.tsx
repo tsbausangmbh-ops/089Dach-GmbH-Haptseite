@@ -56,13 +56,13 @@ export default function DachgaubeKosten() {
         <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${heroImage})` }} />
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/95 via-slate-900/85 to-slate-900/70"></div>
         <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-4xl mx-auto text-center">
+          <div className="max-w-6xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 bg-amber-500/20 backdrop-blur-sm px-4 py-2 rounded-full mb-6 border border-amber-500/30">
               <Home className="w-5 h-5 text-amber-400" />
               <span className="font-medium text-amber-300">Mehr Wohnraum schaffen</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"><strong>Dachgaube Kosten</strong></h1>
-            <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-3xl mx-auto">Mehr Platz, mehr Licht, mehr Wert – alle Gaubentypen und Preise im Überblick.</p>
+            <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-6xl mx-auto">Mehr Platz, mehr Licht, mehr Wert – alle Gaubentypen und Preise im Überblick.</p>
             <p className="text-lg text-white/70 mb-8">Ab 4.000€ • Inkl. Genehmigung • Meisterbetrieb</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/rueckruf"><Button size="lg" className="bg-amber-600 hover:bg-amber-700 text-white text-lg px-8 py-6" data-testid="button-hero-callback"><Phone className="mr-2 h-5 w-5" />Kostenlose Beratung</Button></Link>
@@ -92,7 +92,7 @@ export default function DachgaubeKosten() {
 
       <section className="py-16 bg-slate-50">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">Was beeinflusst den Preis?</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {kostenFaktoren.map((f, index) => (
@@ -108,9 +108,9 @@ export default function DachgaubeKosten() {
 
       <section className="py-16 bg-amber-600 text-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
+          <div className="max-w-6xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-6">Beispielrechnung: Satteldachgaube 1,5m breit</h2>
-            <div className="grid md:grid-cols-4 gap-4 text-left max-w-3xl mx-auto mb-8">
+            <div className="grid md:grid-cols-4 gap-4 text-left max-w-6xl mx-auto mb-8">
               <div className="bg-white/10 rounded-lg p-4"><p className="text-sm text-white/80">Gaube fertig</p><p className="font-bold">6.500€</p></div>
               <div className="bg-white/10 rounded-lg p-4"><p className="text-sm text-white/80">Einbau</p><p className="font-bold">2.500€</p></div>
               <div className="bg-white/10 rounded-lg p-4"><p className="text-sm text-white/80">Innenausbau</p><p className="font-bold">1.500€</p></div>
@@ -123,7 +123,7 @@ export default function DachgaubeKosten() {
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">Häufige Fragen zu Dachgauben</h2>
             <div className="space-y-6">
               {faqs.map((faq, index) => (
@@ -139,7 +139,7 @@ export default function DachgaubeKosten() {
 
       <section className="py-16 bg-slate-50">
         <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center">
+          <div className="max-w-6xl mx-auto text-center">
             <h2 className="text-3xl font-bold text-slate-800 mb-6">Gaube planen lassen?</h2>
             <p className="text-xl text-slate-600 mb-8">Kostenlose Erstberatung – wir prüfen die Machbarkeit und erstellen ein Angebot.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

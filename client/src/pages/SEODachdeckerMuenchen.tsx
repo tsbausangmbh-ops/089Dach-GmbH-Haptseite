@@ -212,7 +212,7 @@ export default function SEODachdeckerMuenchen() {
 
       <section className="py-12 md:py-16 bg-white">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-heading font-bold text-secondary mb-6 text-center">
               Ihr zuverlässiger <span className="text-primary">Dachdecker in München</span>
             </h2>
@@ -294,7 +294,7 @@ export default function SEODachdeckerMuenchen() {
 
       <section className="py-12 md:py-16 bg-white">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-6">
               Dachdecker München: Was kostet es?
             </h2>
@@ -390,7 +390,7 @@ export default function SEODachdeckerMuenchen() {
 
       <section className="py-12 md:py-16 bg-white">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-6">
               Häufige Fragen zum <span className="text-primary">Dachdecker München</span>
             </h2>
@@ -427,7 +427,7 @@ export default function SEODachdeckerMuenchen() {
 
       <section className="py-12 md:py-16 bg-stone-50">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
-          <div className="max-w-4xl mx-auto prose prose-lg text-muted-foreground">
+          <div className="max-w-6xl mx-auto prose prose-lg text-muted-foreground">
             <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-6">
               Dachdecker München: Ihr Experte für alle Dacharbeiten
             </h2>

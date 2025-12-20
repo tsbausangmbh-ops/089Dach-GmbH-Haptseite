@@ -45,13 +45,13 @@ export default function SolaranlageDach() {
         <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${heroImage})` }} />
         <div className="absolute inset-0 bg-gradient-to-r from-yellow-900/95 via-yellow-900/85 to-yellow-800/70"></div>
         <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-4xl mx-auto text-center">
+          <div className="max-w-6xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 bg-yellow-500/20 backdrop-blur-sm px-4 py-2 rounded-full mb-6 border border-yellow-500/30">
               <Zap className="w-5 h-5 text-yellow-400" />
               <span className="font-medium text-yellow-300">Bereit für die Energiewende</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Dach für <strong>Solaranlage</strong> vorbereiten</h1>
-            <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-3xl mx-auto">Bevor die Panels drauf kommen: Wir prüfen und sanieren Ihr Dach für die optimale Solarnutzung.</p>
+            <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-6xl mx-auto">Bevor die Panels drauf kommen: Wir prüfen und sanieren Ihr Dach für die optimale Solarnutzung.</p>
             <p className="text-lg text-white/70 mb-8">Dach-Check 149€ • Sanierung bei Bedarf • Meisterbetrieb</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/rueckruf"><Button size="lg" className="bg-yellow-600 hover:bg-yellow-700 text-white text-lg px-8 py-6" data-testid="button-hero-callback"><Phone className="mr-2 h-5 w-5" />Kostenlose Beratung</Button></Link>
@@ -82,7 +82,7 @@ export default function SolaranlageDach() {
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">Häufige Fragen</h2>
             <div className="space-y-6">
               {faqs.map((faq, index) => (
@@ -98,7 +98,7 @@ export default function SolaranlageDach() {
 
       <section className="py-16 bg-yellow-600 text-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center">
+          <div className="max-w-6xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-6">Dach-Check für Solar?</h2>
             <p className="text-xl text-white/90 mb-8">Wir prüfen, ob Ihr Dach bereit ist</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

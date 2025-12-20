@@ -55,13 +55,13 @@ export default function DachfensterEinbauen() {
         <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${heroImage})` }} />
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/95 via-slate-900/85 to-slate-900/70"></div>
         <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-4xl mx-auto text-center">
+          <div className="max-w-6xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 bg-yellow-500/20 backdrop-blur-sm px-4 py-2 rounded-full mb-6 border border-yellow-500/30">
               <Sun className="w-5 h-5 text-yellow-400" />
               <span className="font-medium text-yellow-300">Mehr Licht unterm Dach</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"><strong>Dachfenster einbauen</strong></h1>
-            <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-3xl mx-auto">VELUX, Roto, Fakro – wir bauen alle Marken fachgerecht ein. Auch nachträglich.</p>
+            <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-6xl mx-auto">VELUX, Roto, Fakro – wir bauen alle Marken fachgerecht ein. Auch nachträglich.</p>
             <p className="text-lg text-white/70 mb-8">Ab 1.200€ komplett • 1 Tag Einbauzeit • Meisterbetrieb</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/rueckruf"><Button size="lg" className="bg-yellow-600 hover:bg-yellow-700 text-white text-lg px-8 py-6" data-testid="button-hero-callback"><Phone className="mr-2 h-5 w-5" />Kostenlose Beratung</Button></Link>
@@ -104,7 +104,7 @@ export default function DachfensterEinbauen() {
 
       <section className="py-16 bg-slate-50">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">Ihre Vorteile bei 089Dach</h2>
             <div className="grid md:grid-cols-2 gap-4">
               {vorteile.map((v, index) => (
@@ -120,7 +120,7 @@ export default function DachfensterEinbauen() {
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">Häufige Fragen zu Dachfenstern</h2>
             <div className="space-y-6">
               {faqs.map((faq, index) => (
@@ -136,7 +136,7 @@ export default function DachfensterEinbauen() {
 
       <section className="py-16 bg-yellow-600 text-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center">
+          <div className="max-w-6xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-6">Dachfenster einbauen lassen?</h2>
             <p className="text-xl text-white/90 mb-8">Kostenlose Beratung vor Ort – wir finden das richtige Fenster für Sie.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

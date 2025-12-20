@@ -69,13 +69,13 @@ export default function SturmschadenDach() {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/95 via-slate-900/85 to-slate-900/70"></div>
         <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-4xl mx-auto text-center">
+          <div className="max-w-6xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 bg-red-500/20 backdrop-blur-sm px-4 py-2 rounded-full mb-6 border border-red-500/30">
               <Wind className="w-5 h-5 text-red-400" />
               <span className="font-medium text-red-300">24h Sturmschaden-Notdienst</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6"><strong>Sturmschaden am Dach</strong>?</h1>
-            <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
+            <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-6xl mx-auto">
               Schnelle Notsicherung und professionelle Reparatur. 
               Wir rechnen direkt mit Ihrer Versicherung ab.
             </p>
@@ -114,7 +114,7 @@ export default function SturmschadenDach() {
 
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">
               Unsere Sturmschaden-Leistungen
             </h2>
@@ -132,7 +132,7 @@ export default function SturmschadenDach() {
 
       <section className="py-16 bg-slate-800 text-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold text-center mb-12">
               Versicherungsabwicklung – wir kümmern uns
             </h2>
@@ -165,7 +165,7 @@ export default function SturmschadenDach() {
 
       <section className="py-16 bg-slate-50">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">
               Häufige Fragen zu Sturmschäden
             </h2>
@@ -183,7 +183,7 @@ export default function SturmschadenDach() {
 
       <section className="py-16 bg-red-600 text-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center">
+          <div className="max-w-6xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-6">
               Sturmschaden? Jetzt Hilfe holen!
             </h2>

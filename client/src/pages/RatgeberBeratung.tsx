@@ -106,7 +106,7 @@ export default function RatgeberBeratung() {
 
       <section className="py-2 md:py-4 bg-stone-50">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             
             <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-r-lg mb-8">
               <h2 className="text-2xl font-heading font-bold text-secondary mb-4 flex items-center gap-2">
