@@ -3,8 +3,13 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Phone, MapPin, Clock, CheckCircle2, Star, Shield, Award, ArrowRight, Calendar, Euro, Wrench, Droplets, Home } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
+import ImageGallery from "@/components/ImageGallery";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/realistic_house_anthracite_roof.png";
+import copperChimney from "@assets/generated_images/bogenhausen_chimney_new_copper.png";
+import metalRoof from "@assets/generated_images/new_metal_standing_seam_roof.png";
+import copperGutter from "@assets/generated_images/copper_roof_gutter_detail.png";
+import metalDetail from "@assets/generated_images/metal_standing_seam_roof_detail.png";
 
 function CombinedServiceSchema() {
   const schema = {
@@ -276,6 +281,17 @@ export default function SEODachdeckerSpengler() {
           </div>
         </div>
       </section>
+
+      <ImageGallery
+        title="Unsere Spenglerarbeiten in München"
+        images={[
+          { src: copperChimney, alt: "Neuer Kamin mit Kupfereinfassung", caption: "Kupfer-Kamineinfassung in Bogenhausen" },
+          { src: metalRoof, alt: "Stehfalzdach aus Metall", caption: "Titanzink-Stehfalzdach" },
+          { src: copperGutter, alt: "Kupfer-Dachrinne Detail", caption: "Handgefertigte Kupferrinne" },
+          { src: metalDetail, alt: "Stehfalz-Detail", caption: "Präzise Falzarbeit" }
+        ]}
+        columns={2}
+      />
 
       <LeadFunnel />
 

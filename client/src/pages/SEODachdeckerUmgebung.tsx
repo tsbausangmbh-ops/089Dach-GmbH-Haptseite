@@ -3,8 +3,13 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Phone, MapPin, Clock, CheckCircle2, Star, Shield, Award, ArrowRight, Calendar, Euro } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
+import ImageGallery from "@/components/ImageGallery";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/realistic_renovated_roof_obermenzing_after.png";
+import roofWork from "@assets/generated_images/roofer_working_on_red_tile_roof_munich.png";
+import villaRoof from "@assets/generated_images/gruenwald_villa_restored_slate_after.png";
+import haidhausenRoof from "@assets/generated_images/haidhausen_altbau_restored_roof_after.png";
+import modernRoof from "@assets/generated_images/modern_house_with_anthracite_roof.png";
 
 function ServiceAreaSchema() {
   const schema = {
@@ -241,6 +246,17 @@ export default function SEODachdeckerUmgebung() {
           </div>
         </div>
       </section>
+
+      <ImageGallery
+        title="Referenzen aus München und Umgebung"
+        images={[
+          { src: roofWork, alt: "Dachdecker bei der Arbeit auf einem Ziegeldach", caption: "Dacharbeiten in Gräfelfing" },
+          { src: villaRoof, alt: "Saniertes Schieferdach einer Villa", caption: "Villa-Sanierung in Grünwald" },
+          { src: haidhausenRoof, alt: "Altbau-Dach nach der Sanierung", caption: "Altbau-Sanierung in Haidhausen" },
+          { src: modernRoof, alt: "Modernes Haus mit anthrazitfarbenem Dach", caption: "Neubau in Unterschleißheim" }
+        ]}
+        columns={2}
+      />
 
       <LeadFunnel />
 

@@ -3,8 +3,13 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Phone, MapPin, Clock, CheckCircle2, AlertTriangle, Shield, Calendar, Zap, CloudRain, Wind } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
+import ImageGallery from "@/components/ImageGallery";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/realistic_restored_historic_roof_after.png";
+import stormDamage from "@assets/generated_images/damaged_red_tile_roof_before.png";
+import repairedRoof from "@assets/generated_images/completed_roof_showcase_reference.png";
+import flatDamage from "@assets/generated_images/realistic_damaged_flat_roof_before.png";
+import flatRepaired from "@assets/generated_images/realistic_garage_epdm_roof_after.png";
 
 function EmergencyServiceSchema() {
   const schema = {
@@ -219,6 +224,17 @@ export default function SEODachdeckerNotdienst() {
           </div>
         </div>
       </section>
+
+      <ImageGallery
+        title="Notfall-Reparaturen vorher/nachher"
+        images={[
+          { src: stormDamage, alt: "Sturmschaden am Ziegeldach", caption: "Vorher: Sturmschaden an Steildach" },
+          { src: repairedRoof, alt: "Repariertes Dach nach Notdienst-Einsatz", caption: "Nachher: Fachgerechte Reparatur" },
+          { src: flatDamage, alt: "Undichtes Flachdach mit Wasserschaden", caption: "Vorher: Undichtes Flachdach" },
+          { src: flatRepaired, alt: "Saniertes EPDM-Flachdach", caption: "Nachher: Neue EPDM-Abdichtung" }
+        ]}
+        columns={2}
+      />
 
       <section className="py-12 md:py-16 bg-red-900 text-white">
         <div className="container mx-auto px-4 md:px-6 lg:px-12 text-center">

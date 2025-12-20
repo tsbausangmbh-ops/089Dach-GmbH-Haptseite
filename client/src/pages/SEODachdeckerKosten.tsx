@@ -3,8 +3,13 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { MapPin, CheckCircle2, Star, Shield, Calendar, Euro, Calculator, TrendingUp, Percent, FileText } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
+import ImageGallery from "@/components/ImageGallery";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/modern_house_with_anthracite_roof.png";
+import damageBefore from "@assets/generated_images/realistic_damaged_roof_obermenzing_before.png";
+import repairedAfter from "@assets/generated_images/obermenzing_house_new_roof_after.png";
+import flatRoof from "@assets/generated_images/new_epdm_flat_roof_garage.png";
+import solarRoof from "@assets/generated_images/new_solar_panel_installation.png";
 
 function PriceSchema() {
   const schema = {
@@ -274,6 +279,17 @@ export default function SEODachdeckerKosten() {
           </div>
         </div>
       </section>
+
+      <ImageGallery
+        title="Beispiele unserer Dacharbeiten"
+        images={[
+          { src: damageBefore, alt: "Beschädigtes Dach vor der Sanierung", caption: "Vorher: Undichtes Steildach" },
+          { src: repairedAfter, alt: "Saniertes Dach nach der Renovierung", caption: "Nachher: Komplettsanierung" },
+          { src: flatRoof, alt: "Neues EPDM-Flachdach auf Garage", caption: "Flachdach-Sanierung für 110€/m²" },
+          { src: solarRoof, alt: "Dach mit Solaranlage", caption: "Energetische Modernisierung" }
+        ]}
+        columns={2}
+      />
 
       <LeadFunnel />
 

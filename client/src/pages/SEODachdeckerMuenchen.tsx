@@ -3,8 +3,13 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Phone, MapPin, Clock, CheckCircle2, Star, Shield, Award, ArrowRight, Wrench, Home, Building2, Users, Calendar, Euro, FileCheck, Hammer } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
+import ImageGallery from "@/components/ImageGallery";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/realistic_villa_slate_roof_after.png";
+import roofBefore from "@assets/generated_images/realistic_damaged_roof_obermenzing_before.png";
+import roofAfter from "@assets/generated_images/realistic_renovated_roof_obermenzing_after.png";
+import tileRoof from "@assets/generated_images/historic_biberschwanz_roof_with_patina.png";
+import flatRoof from "@assets/generated_images/flat_green_roof_with_natural_variations.png";
 
 function LocalBusinessSchema() {
   const schema = {
@@ -462,6 +467,17 @@ export default function SEODachdeckerMuenchen() {
           </div>
         </div>
       </section>
+
+      <ImageGallery
+        title="Unsere Dachprojekte in München"
+        images={[
+          { src: roofBefore, alt: "Beschädigtes Dach vor der Sanierung in Obermenzing", caption: "Vorher: Altes Dach mit Wasserschäden" },
+          { src: roofAfter, alt: "Saniertes Dach in Obermenzing nach der Renovierung", caption: "Nachher: Neues Ziegeldach mit Dämmung" },
+          { src: tileRoof, alt: "Historisches Biberschwanz-Dach in München", caption: "Traditionelle Dacheindeckung in Schwabing" },
+          { src: flatRoof, alt: "Grünes Flachdach in München", caption: "Dachbegrünung in der Maxvorstadt" }
+        ]}
+        columns={2}
+      />
 
       <LeadFunnel />
 
