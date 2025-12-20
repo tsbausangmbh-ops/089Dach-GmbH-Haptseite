@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle2, AlertTriangle, Clock, Shield, Euro, ThermometerSun, ArrowRight, Quote, Phone, Award, Users } from "lucide-react";
 import { Link } from "wouter";
-import SEO, { BreadcrumbSchema, ServiceSchema, ProductServiceSchema, FAQPageSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, ServiceSchema, ProductServiceSchema, FAQPageSchema, LocalBusinessSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/realistic_renovated_roof_obermenzing_after.png";
 import damagedRoof from "@assets/generated_images/realistic_damaged_roof_obermenzing_before.png";
 import newTileRoof from "@assets/generated_images/obermenzing_house_new_roof_after.png";
@@ -69,6 +69,7 @@ export default function Dachsanierung() {
         { question: "Gibt es Förderung für Dachsanierung 2025?", answer: "Ja! BAFA fördert energetische Dachsanierung mit 15-20% Zuschuss (bis 6.000€). KfW bietet zinsgünstige Kredite bis 150.000€. Wir helfen beim Antrag." },
         { question: "Kann man eine Dachsanierung im Winter machen?", answer: "Ja, bei Temperaturen über 5°C ist eine Sanierung möglich. Wir schützen den Innenraum mit Planen. Einige Arbeiten wie Dämmung sind auch bei Kälte machbar." }
       ]} />
+      <LocalBusinessSchema />
       <Navbar />
       <AIBeraterSection />
       

@@ -5,7 +5,7 @@ import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, Shield, Clock, Award, ArrowRight, Droplets, Leaf, Wrench, Calendar } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
-import SEO, { BreadcrumbSchema, ProductServiceSchema, FAQPageSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, ProductServiceSchema, FAQPageSchema, LocalBusinessSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 import ImageGallery from "@/components/ImageGallery";
 import rinnenImg1 from "@assets/generated_images/copper_roof_gutter_detail.png";
@@ -36,6 +36,7 @@ export default function Dachrinnenreinigung() {
         { question: "Wie oft sollte man Dachrinnen reinigen lassen?", answer: "Wir empfehlen 1-2x jährlich: im Spätherbst nach dem Laubfall und im Frühjahr. Bei vielen Bäumen in der Nähe öfter." },
         { question: "Kann ich Dachrinne selbst reinigen?", answer: "Vom Boden aus mit Teleskopstange ja. Arbeiten auf der Leiter sind gefährlich und sollten Profis überlassen werden. Wir haben die Ausrüstung und Versicherung." }
       ]} />
+      <LocalBusinessSchema />
       <Navbar />
       <AIBeraterSection />
       

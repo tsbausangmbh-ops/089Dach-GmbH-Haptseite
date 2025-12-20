@@ -5,7 +5,7 @@ import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, Shield, Clock, Award, ArrowRight, Paintbrush, Sparkles, ThumbsUp, AlertTriangle } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
-import SEO, { BreadcrumbSchema, FAQPageSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, FAQPageSchema, LocalBusinessSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 import ImageGallery from "@/components/ImageGallery";
 import beschichtungImg1 from "@assets/generated_images/aged_red_roof_tiles_closeup.png";
@@ -29,6 +29,7 @@ export default function Dachbeschichtung() {
         { question: "Was kostet Dachbeschichtung pro m²?", answer: "Eine professionelle Dachbeschichtung kostet 15-30€/m² inkl. Reinigung. Bei 100m² Dachfläche sind das 1.500-3.000€. Aber: Eine Neueindeckung hält 3-4x länger!" },
         { question: "Wie lange hält eine Dachbeschichtung?", answer: "Realistische Lebensdauer: 8-12 Jahre bei guter Verarbeitung. Hersteller-Versprechen von 20+ Jahren sind meist übertrieben. Zum Vergleich: Neue Dachziegel halten 40-100 Jahre." }
       ]} />
+      <LocalBusinessSchema />
       <Navbar />
       <AIBeraterSection />
       

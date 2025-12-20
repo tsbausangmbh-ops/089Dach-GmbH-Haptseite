@@ -13,7 +13,7 @@ import anthraciteRoof from "@assets/generated_images/modern_house_with_anthracit
 import flatRoofDetail from "@assets/generated_images/flat_roof_bitumen_detail_with_texture.png";
 import ImageGallery from "@/components/ImageGallery";
 import LeadFunnel from "@/components/LeadFunnel";
-import SEO, { BreadcrumbSchema, ServiceSchema, ProductServiceSchema, FAQPageSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, ServiceSchema, ProductServiceSchema, FAQPageSchema, LocalBusinessSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import { FlachdachMuenchenContent } from "@/components/SEOContent";
@@ -52,6 +52,7 @@ export default function Bedachungen() {
         { question: "Wie oft muss ein Steildach gewartet werden?", answer: "Einmal jährlich sollten Sie Dachrinnen reinigen, Moos entfernen lassen und lockere Ziegel prüfen. Wir bieten Wartungsverträge ab 250€/Jahr an." },
         { question: "Kann man eine Dachbegrünung auf jedem Dach machen?", answer: "Extensive Begrünung (Sedum) geht auf Flachdächern bis 15° Neigung. Das Dach muss die zusätzliche Last (60-150 kg/m²) tragen können. Wir prüfen die Statik vorab." }
       ]} />
+      <LocalBusinessSchema />
       <Navbar />
       <AIBeraterSection />
       

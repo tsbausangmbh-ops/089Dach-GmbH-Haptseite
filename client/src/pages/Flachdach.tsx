@@ -5,7 +5,7 @@ import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, Shield, Clock, Award, ArrowRight, Droplets, Thermometer, Wrench, Layers } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
-import SEO, { BreadcrumbSchema, ProductServiceSchema, FAQPageSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, ProductServiceSchema, FAQPageSchema, LocalBusinessSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 import ImageGallery from "@/components/ImageGallery";
 import flachdachImg1 from "@assets/generated_images/flat_roof_bitumen_detail_with_texture.png";
@@ -39,6 +39,7 @@ export default function Flachdach() {
         { question: "Kann man ein Flachdach selbst abdichten?", answer: "Kleine Reparaturen mit Flüssigkunststoff sind möglich. Für komplette Abdichtungen empfehlen wir den Fachmann - Fehler führen zu teuren Wasserschäden." },
         { question: "Was tun wenn das Flachdach tropft?", answer: "Sofort Eimer unterstellen, Wasserquelle fotografieren und uns anrufen: 089 12621964. Wir kommen zur Notabdichtung und verhindern größere Schäden." }
       ]} />
+      <LocalBusinessSchema />
       <Navbar />
       <AIBeraterSection />
       

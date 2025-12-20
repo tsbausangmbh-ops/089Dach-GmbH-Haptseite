@@ -12,7 +12,7 @@ import newMetalRoof from "@assets/generated_images/new_metal_standing_seam_roof.
 import copperGutter from "@assets/generated_images/new_copper_chimney_flashing.png";
 import ImageGallery from "@/components/ImageGallery";
 import LeadFunnel from "@/components/LeadFunnel";
-import SEO, { BreadcrumbSchema, ServiceSchema, ProductServiceSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, ServiceSchema, ProductServiceSchema, LocalBusinessSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import { SpenglereiMuenchenContent } from "@/components/SEOContent";
@@ -44,6 +44,7 @@ export default function Spenglerei() {
         priceUnit="pro Laufmeter"
         category="Spenglerei"
       />
+      <LocalBusinessSchema />
       <Navbar />
       <AIBeraterSection />
       

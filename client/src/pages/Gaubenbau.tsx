@@ -7,7 +7,7 @@ import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle2, Home, Sun, Maximize, Euro, Phone, Quote, Award, Shield, Users } from "lucide-react";
-import SEO, { BreadcrumbSchema, ServiceSchema, ProductServiceSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, ServiceSchema, ProductServiceSchema, LocalBusinessSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/renovated_dormer_window_after.png";
 import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
@@ -58,6 +58,7 @@ export default function Gaubenbau() {
         priceTo={35000}
         category="Gaubenbau"
       />
+      <LocalBusinessSchema />
       <Navbar />
       <AIBeraterSection />
       

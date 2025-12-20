@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Sun, Wind, ThermometerSun, Shield, ArrowRight, Quote, Phone, Check, Lightbulb, Award, Users } from "lucide-react";
 import { Link } from "wouter";
-import SEO, { BreadcrumbSchema, ServiceSchema, ProductServiceSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, ServiceSchema, ProductServiceSchema, LocalBusinessSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/bright_attic_room_after_skylights.png";
 import darkAttic from "@assets/generated_images/dark_attic_before_window_installation.png";
 import brightAttic from "@assets/generated_images/bright_attic_room_after_skylights.png";
@@ -59,6 +59,7 @@ export default function Dachfenster() {
         priceTo={3500}
         category="Dachfenster"
       />
+      <LocalBusinessSchema />
       <Navbar />
       <AIBeraterSection />
       

@@ -5,7 +5,7 @@ import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
 import { Phone, Clock, CheckCircle2, Shield, AlertTriangle, Zap, ArrowRight, MessageCircle } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
-import SEO, { BreadcrumbSchema, FAQPageSchema } from "@/components/SEO";
+import SEO, { BreadcrumbSchema, FAQPageSchema, LocalBusinessSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 import ImageGallery from "@/components/ImageGallery";
 import notdienstImg1 from "@assets/generated_images/damaged_red_tile_roof_before.png";
@@ -66,6 +66,7 @@ export default function Notdienst() {
         { question: "Wie schnell sind Sie bei einem Dachnotfall vor Ort?", answer: "In München und direkter Umgebung in der Regel innerhalb von 1-2 Stunden. Bei extremen Wetterlagen kann es länger dauern." }
       ]} />
       <EmergencyServiceSchema />
+      <LocalBusinessSchema />
       <Navbar />
       <AIBeraterSection />
       
