@@ -1,5 +1,11 @@
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Home, Hammer, ShieldCheck, Ruler, Wrench, Warehouse, AlertTriangle, ArrowRight } from "lucide-react";
+import imgSanierung from "@assets/generated_images/realistic_renovated_roof_obermenzing_after.png";
+import imgBedachung from "@assets/generated_images/historic_biberschwanz_roof_with_patina.png";
+import imgSpenglerei from "@assets/generated_images/copper_roof_gutter_detail.png";
+import imgReparatur from "@assets/generated_images/roofer_working_on_red_tile_roof_munich.png";
+import imgNotdienst from "@assets/generated_images/damaged_red_tile_roof_before.png";
+import imgDachfenster from "@assets/generated_images/bright_attic_room_after_skylights.png";
 
 export default function Services() {
   const services = [
@@ -7,6 +13,8 @@ export default function Services() {
       icon: <Home className="h-10 w-10 text-primary" />,
       title: "Dachsanierung München",
       link: "/leistungen/dachsanierung",
+      image: imgSanierung,
+      imageAlt: "Saniertes Dach in München-Obermenzing",
       keywords: ["Energetische Sanierung", "GEG 2024", "Förderung"],
       description: "Weniger heizen, mehr sparen. Eine neue Dämmung macht Ihr Zuhause warm im Winter und kühl im Sommer – und senkt Ihre Energiekosten um bis zu 30%."
     },
@@ -14,6 +22,8 @@ export default function Services() {
       icon: <Warehouse className="h-10 w-10 text-primary" />,
       title: "Steildach & Flachdach",
       link: "/leistungen/bedachungen",
+      image: imgBedachung,
+      imageAlt: "Traditionelles Biberschwanz-Ziegeldach",
       keywords: ["Neueindeckung", "Ziegel", "Abdichtung"],
       description: "Ein Dach für Generationen. Ob klassische Ziegel oder modernes Flachdach – wir bauen dauerhaft dicht und optisch perfekt."
     },
@@ -21,6 +31,8 @@ export default function Services() {
       icon: <Wrench className="h-10 w-10 text-primary" />,
       title: "Dachrinnen & Spenglerei",
       link: "/leistungen/spenglerei",
+      image: imgSpenglerei,
+      imageAlt: "Kupfer-Dachrinne und Spenglerarbeiten",
       keywords: ["Kupfer", "Zink", "Kamineinfassung"],
       description: "Handarbeit mit Präzision. Dachrinnen, Fallrohre und Verblendungen aus Kupfer, Zink oder Alu – passgenau gefertigt in unserer Werkstatt."
     },
@@ -28,6 +40,8 @@ export default function Services() {
       icon: <Hammer className="h-10 w-10 text-primary" />,
       title: "Dachreparatur München",
       link: "/leistungen/reparaturservice",
+      image: imgReparatur,
+      imageAlt: "Dachdecker bei Reparaturarbeiten",
       keywords: ["Leckortung", "Ziegel tauschen", "Soforthilfe"],
       description: "Tropft es durch? Wir finden das Leck und beheben es – schnell und dauerhaft. Damit Sie wieder ruhig schlafen können."
     },
@@ -35,6 +49,8 @@ export default function Services() {
       icon: <AlertTriangle className="h-10 w-10 text-red-500" />,
       title: "Sturmschaden & Notdienst",
       link: "/leistungen/notdienst",
+      image: imgNotdienst,
+      imageAlt: "Sturmschaden an Ziegeldach",
       keywords: ["24/7 Notfall", "Versicherung", "Sofort-Reparatur"],
       description: "Sturm, Hagel oder Wasserschaden? Unser Notdienst ist rund um die Uhr für Sie da – auch am Wochenende.",
       highlight: true
@@ -43,6 +59,8 @@ export default function Services() {
       icon: <Ruler className="h-10 w-10 text-primary" />,
       title: "Dachfenster Einbau",
       link: "/leistungen/dachfenster",
+      image: imgDachfenster,
+      imageAlt: "Heller Dachboden mit Dachfenstern",
       keywords: ["Velux", "Roto", "Austausch"],
       description: "Mehr Licht, mehr Wohnqualität. Neue Dachfenster verwandeln dunkle Räume in helle Lieblingsorte."
     }
@@ -65,10 +83,19 @@ export default function Services() {
           {services.map((service, index) => (
             <a key={index} href={service.link} className="block" data-testid={`service-card-${index}`}>
               <Card className={`border shadow-sm hover:shadow-md transition-all duration-300 rounded-xl overflow-hidden group bg-white h-full cursor-pointer ${service.highlight ? 'border-red-200 hover:border-red-300 bg-red-50/30' : 'border-stone-200 hover:border-primary/20'}`}>
-                <CardHeader className="pb-4">
-                  <div className={`mb-4 p-3 w-fit rounded-xl transition-colors ${service.highlight ? 'bg-red-100 group-hover:bg-red-200' : 'bg-stone-100 group-hover:bg-primary/10'}`}>
+                <div className="relative h-40 overflow-hidden">
+                  <img 
+                    src={service.image} 
+                    alt={service.imageAlt}
+                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                  <div className={`absolute top-3 left-3 p-2 rounded-lg ${service.highlight ? 'bg-red-100' : 'bg-white/90'}`}>
                     {service.icon}
                   </div>
+                </div>
+                <CardHeader className="pb-2 pt-4">
                   <CardTitle className={`text-xl font-heading font-bold transition-colors ${service.highlight ? 'text-red-700 group-hover:text-red-600' : 'text-secondary group-hover:text-primary'}`}>
                     {service.title}
                   </CardTitle>
