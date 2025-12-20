@@ -52,7 +52,7 @@ export default function RatgeberSturmschaden() {
       <section className="pt-6 pb-8 md:pt-10 md:pb-12 bg-secondary relative overflow-hidden min-h-[35vh] flex items-center">
         <div className="absolute inset-0 bg-gradient-to-r from-secondary via-secondary/95 to-secondary/80"></div>
         <div className="container mx-auto px-4 md:px-6 lg:px-12 relative z-10">
-          <div className="max-w-3xl text-white">
+          <div className="max-w-5xl text-white">
             <div className="flex items-center gap-2 mb-3 md:mb-4">
               <AlertTriangle className="h-5 w-5 text-primary" />
               <span className="text-primary font-bold tracking-wider uppercase text-sm">Notfall-Ratgeber</span>

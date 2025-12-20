@@ -85,7 +85,7 @@ export default function SEODachdeckerNotdienst() {
           <div className="absolute inset-0 bg-gradient-to-r from-red-900/95 via-red-900/80 to-red-900/60"></div>
         </div>
         <div className="container mx-auto px-4 md:px-6 lg:px-12 relative z-10">
-          <div className="max-w-4xl text-white">
+          <div className="max-w-6xl text-white">
             <div className="flex items-center gap-2 mb-3 md:mb-4">
               <AlertTriangle className="h-5 w-5 text-yellow-400 animate-pulse" />
               <span className="text-yellow-400 font-bold tracking-wider uppercase text-sm">24/7 Notdienst</span>
@@ -93,7 +93,7 @@ export default function SEODachdeckerNotdienst() {
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-4 md:mb-6">
               Dachdecker Notdienst München
             </h1>
-            <p className="text-lg md:text-xl text-gray-200 max-w-2xl mb-4 md:mb-6">
+            <p className="text-lg md:text-xl text-gray-200 max-w-4xl mb-4 md:mb-6">
               <strong>Sturmschaden? Wasserschaden? Dach undicht?</strong><br />
               Wir sind rund um die Uhr für Sie da – auch nachts, am Wochenende und an Feiertagen.
             </p>
@@ -242,7 +242,7 @@ export default function SEODachdeckerNotdienst() {
           <h2 className="text-2xl md:text-3xl font-heading font-bold mb-4">
             Dach-Notfall? Jetzt anrufen!
           </h2>
-          <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
+          <p className="text-white/90 text-lg mb-8 max-w-4xl mx-auto">
             Unser Notdienst-Team ist rund um die Uhr für Sie da. 
             Wir sichern Ihr Dach schnell und professionell ab.
           </p>

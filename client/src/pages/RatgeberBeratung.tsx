@@ -45,7 +45,7 @@ export default function RatgeberBeratung() {
           <div className="absolute inset-0 bg-gradient-to-r from-secondary/95 via-secondary/85 to-secondary/60"></div>
         </div>
         <div className="container mx-auto px-6 lg:px-12 relative z-10 py-6">
-          <div className="max-w-3xl text-white">
+          <div className="max-w-5xl text-white">
             <div className="flex items-center gap-2 mb-4">
               <Link href="/ratgeber">
                 <span className="text-primary hover:underline cursor-pointer">Tipps & Tricks</span>
@@ -148,7 +148,7 @@ export default function RatgeberBeratung() {
                 <h2 className="text-3xl font-heading font-bold text-secondary mb-2">
                   Unsere Festpreise für München
                 </h2>
-                <p className="text-muted-foreground max-w-2xl mx-auto">
+                <p className="text-muted-foreground max-w-4xl mx-auto">
                   Transparente Preise ohne versteckte Kosten. Bei uns wissen Sie vorher, was es kostet.
                 </p>
               </div>

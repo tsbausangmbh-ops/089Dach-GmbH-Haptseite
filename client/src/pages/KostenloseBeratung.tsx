@@ -199,7 +199,7 @@ export default function KostenloseBeratung() {
         </div>
 
         <div className="container mx-auto px-6 lg:px-12 relative z-10">
-          <div className="max-w-2xl text-white">
+          <div className="max-w-4xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">089Dach Beratung</span>
             <h1 className="text-4xl md:text-6xl font-heading font-bold text-white mt-4 mb-6">
               Klarheit für Ihr Dach.

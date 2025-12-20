@@ -145,7 +145,7 @@ export default function Rueckruf() {
         </div>
 
         <div className="container mx-auto px-4 md:px-6 lg:px-12 relative z-10">
-          <div className="max-w-2xl text-white">
+          <div className="max-w-4xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">089Dach Rückruf-Service</span>
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-heading font-bold text-white mt-4 mb-6">
               Sparen Sie Zeit & Nerven.

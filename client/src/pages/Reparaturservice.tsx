@@ -154,7 +154,7 @@ export default function Reparaturservice() {
         </div>
 
         <div className="container mx-auto px-6 lg:px-12 relative z-10">
-          <div className="max-w-2xl text-white">
+          <div className="max-w-6xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Schnelle Dachreparatur München</span>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mt-4 mb-6">
               <span className="text-primary">Dach-Notfall?</span>
@@ -359,7 +359,7 @@ export default function Reparaturservice() {
       {/* Notfälle, die wir lösen */}
       <section className="py-6 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-2xl mb-12">
+          <div className="max-w-6xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
               Dachreparatur München: Diese Notfälle bei Sturmschaden & Wasserschaden lösen wir sofort
             </h2>
@@ -391,7 +391,7 @@ export default function Reparaturservice() {
       {/* Warum wir */}
       <section className="py-6 bg-secondary text-white">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-2xl mb-12">
+          <div className="max-w-6xl mb-12">
             <h2 className="text-3xl font-heading font-bold mb-4">
               Dachdecker für Reparatur München: 4 Gründe warum Kunden uns vertrauen
             </h2>
@@ -471,7 +471,7 @@ export default function Reparaturservice() {
           <h2 className="text-3xl font-heading font-bold mb-4">
             Schnelle Hilfe – wir rufen Sie zurück
           </h2>
-          <p className="text-white/90 mb-8 max-w-2xl mx-auto">
+          <p className="text-white/90 mb-8 max-w-6xl mx-auto">
             Ob akuter Notfall oder kleine Reparatur – wir sind für Sie da. Senden Sie uns eine Anfrage, 
             und wir melden uns schnellstmöglich bei Ihnen.
           </p>

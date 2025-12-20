@@ -115,7 +115,7 @@ export default function DachpfannenAbdichten() {
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-4">
               Methoden zur Dachpfannen-Abdichtung
             </h2>
-            <p className="text-center text-slate-600 mb-12 max-w-2xl mx-auto">
+            <p className="text-center text-slate-600 mb-12 max-w-4xl mx-auto">
               Wir wählen die optimale Methode für Ihr Dach – je nach Zustand, Budget und Nutzung
             </p>
             <div className="grid lg:grid-cols-3 gap-8">

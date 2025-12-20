@@ -92,7 +92,7 @@ export default function Gaubenbau() {
         </div>
 
         <div className="container mx-auto px-6 lg:px-12 relative z-10">
-          <div className="max-w-2xl text-white">
+          <div className="max-w-6xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Gaubenbau & Sanierung</span>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mt-4 mb-6">
               Mehr Platz und Licht unterm Dach
@@ -156,7 +156,7 @@ export default function Gaubenbau() {
       {/* Vorteile */}
       <section className="py-6">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-2xl mb-12">
+          <div className="max-w-6xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
               Dachgaube bauen München: 4 Vorteile für mehr Wohnraum und Tageslicht unterm Dach
             </h2>
@@ -184,7 +184,7 @@ export default function Gaubenbau() {
       {/* Gaubenarten */}
       <section className="py-6 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-2xl mb-12">
+          <div className="max-w-6xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
               Schleppgaube, Spitzgaube oder Flachdachgaube: Die richtige Gaubenart für Ihr Münchner Haus
             </h2>
@@ -249,7 +249,7 @@ export default function Gaubenbau() {
       {/* Ablauf */}
       <section className="py-6 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-2xl mb-12">
+          <div className="max-w-6xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
               Ablauf Gaubenbau München: Von der Planung über Baugenehmigung bis zur fertigen Gaube
             </h2>
@@ -280,7 +280,7 @@ export default function Gaubenbau() {
           <h2 className="text-2xl font-heading font-bold text-center mb-4">
             Gaube einbauen München: Jetzt kostenlose Beratung für mehr Wohnraum anfragen
           </h2>
-          <p className="text-gray-300 max-w-2xl mx-auto mb-6">
+          <p className="text-gray-300 max-w-6xl mx-auto mb-6">
             Lassen Sie sich unverbindlich beraten, wie eine Gaube Ihr Zuhause aufwerten kann. 
             Wir zeigen Ihnen die Möglichkeiten und erstellen ein transparentes Angebot.
           </p>

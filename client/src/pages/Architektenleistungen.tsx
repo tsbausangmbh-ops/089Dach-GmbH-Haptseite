@@ -70,7 +70,7 @@ export default function Architektenleistungen() {
         </div>
 
         <div className="container mx-auto px-6 lg:px-12 relative z-10">
-          <div className="max-w-2xl text-white">
+          <div className="max-w-4xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Architektenleistungen & Bauanträge</span>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mt-4 mb-6">
               Ihr Dachprojekt – genehmigt und realisiert
@@ -134,7 +134,7 @@ export default function Architektenleistungen() {
       {/* Leistungen */}
       <section className="py-6">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-2xl mb-12">
+          <div className="max-w-4xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
               Unsere Architektenleistungen
             </h2>
@@ -164,7 +164,7 @@ export default function Architektenleistungen() {
       {/* Projektarten */}
       <section className="py-6 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-2xl mb-12">
+          <div className="max-w-4xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
               Projekte, die wir realisieren
             </h2>
@@ -192,7 +192,7 @@ export default function Architektenleistungen() {
       {/* Ablauf */}
       <section className="py-6">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-2xl mb-12">
+          <div className="max-w-4xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
               Von der Idee zur Genehmigung
             </h2>
@@ -223,7 +223,7 @@ export default function Architektenleistungen() {
           <h2 className="text-2xl font-heading font-bold text-center mb-4">
             Architektenleistungen durch unser Partnernetzwerk
           </h2>
-          <p className="text-gray-300 max-w-2xl mx-auto mb-6">
+          <p className="text-gray-300 max-w-4xl mx-auto mb-6">
             Die Architektenleistungen und Bauanträge werden durch erfahrene Architekten aus unserem 
             Partnernetzwerk erstellt. So erhalten Sie alles aus einer Hand – von der Planung bis zum fertigen Dach.
           </p>

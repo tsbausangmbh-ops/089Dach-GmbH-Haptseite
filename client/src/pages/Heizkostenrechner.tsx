@@ -100,7 +100,7 @@ export default function Heizkostenrechner() {
           <div className="absolute inset-0 bg-gradient-to-r from-secondary/95 via-secondary/85 to-secondary/60"></div>
         </div>
         <div className="container mx-auto px-6 lg:px-12 relative z-10 py-6">
-          <div className="max-w-2xl text-white">
+          <div className="max-w-4xl text-white">
             <h1 className="text-4xl md:text-5xl font-heading font-bold text-white mb-6">
               <span className="text-primary">Heizkosten-Rechner</span>
               <br />
@@ -125,7 +125,7 @@ export default function Heizkostenrechner() {
                 Viele Hausbesitzer zahlen jährlich <strong className="text-secondary">hunderte Euro zu viel</strong> für Heizung – 
                 ohne es zu wissen. Unser Rechner zeigt Ihnen in 30 Sekunden, wo Ihr Geld bleibt und wie Sie es zurückbekommen.
               </p>
-              <div className="bg-white/80 border border-stone-200 rounded-xl p-6 max-w-2xl mx-auto mt-6">
+              <div className="bg-white/80 border border-stone-200 rounded-xl p-6 max-w-4xl mx-auto mt-6">
                 <p className="text-muted-foreground mb-3">
                   <strong className="text-secondary">Das Problem:</strong> Ein ungedämmtes Dach ist wie ein offenes Fenster im Winter. 
                   Die Wärme steigt nach oben und entweicht – und mit ihr Ihr hart verdientes Geld. 

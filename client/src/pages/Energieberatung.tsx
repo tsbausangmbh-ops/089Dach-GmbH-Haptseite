@@ -85,7 +85,7 @@ export default function Energieberatung() {
         </div>
 
         <div className="container mx-auto px-6 lg:px-12 relative z-10">
-          <div className="max-w-2xl text-white">
+          <div className="max-w-6xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Energieberatung & Förderung</span>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mt-4 mb-6">
               Maximale Förderung für Ihre Dachsanierung
@@ -148,7 +148,7 @@ export default function Energieberatung() {
       {/* Vorteile */}
       <section className="py-6">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-2xl mb-12">
+          <div className="max-w-6xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
               KfW-Förderung & BAFA-Zuschuss Dach München: 4 Vorteile der Energieberatung
             </h2>
@@ -176,7 +176,7 @@ export default function Energieberatung() {
       {/* Leistungen */}
       <section className="py-6 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-2xl mb-12">
+          <div className="max-w-6xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
               Energieberatung Dach München: iSFP, Förderanträge & Energieausweis vom Experten
             </h2>
@@ -214,7 +214,7 @@ export default function Energieberatung() {
           <h2 className="text-2xl font-heading font-bold text-center mb-4">
             Zertifizierte Energieberater München: DENA-gelistete Partner für Ihre Dachdämmung
           </h2>
-          <p className="text-gray-300 max-w-2xl mx-auto mb-6">
+          <p className="text-gray-300 max-w-6xl mx-auto mb-6">
             Die Energieberatung und Antragsstellung erfolgt durch zertifizierte Energieberater aus unserem 
             Partnernetzwerk. So erhalten Sie alles aus einer Hand – von der Beratung bis zur fertigen Dachsanierung.
           </p>

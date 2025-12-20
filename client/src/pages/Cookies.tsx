@@ -17,7 +17,7 @@ export default function Cookies() {
       
       <section className="pt-10 pb-12 bg-stone-50">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-3xl">
+          <div className="max-w-5xl">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Rechtliches</span>
             <h1 className="text-4xl md:text-5xl font-heading font-bold text-secondary mt-4 mb-6">
               Cookie-Einstellungen
@@ -32,7 +32,7 @@ export default function Cookies() {
 
       <section className="pt-2 md:pt-4 pb-16">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-3xl space-y-12">
+          <div className="max-w-5xl space-y-12">
             
             {/* Einfache Erklärung */}
             <div className="bg-primary/10 p-8 rounded-xl">

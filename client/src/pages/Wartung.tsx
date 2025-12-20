@@ -152,7 +152,7 @@ export default function Wartung() {
         </div>
 
         <div className="container mx-auto px-6 lg:px-12 relative z-10">
-          <div className="max-w-2xl text-white">
+          <div className="max-w-6xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Dachwartung München</span>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mt-4 mb-6">
               Vorsorge ist besser als Reparatur
@@ -219,7 +219,7 @@ export default function Wartung() {
       {/* Anfrage-Formular */}
       <section id="anfrage-form" className="py-6 bg-white">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-2xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
                 Dachwartung München: Jetzt Termin für Inspektion und Dachrinnenreinigung vereinbaren
@@ -321,7 +321,7 @@ export default function Wartung() {
       {/* Unsere Wartungsleistungen */}
       <section className="py-6 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-2xl mb-12">
+          <div className="max-w-6xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
               Dachinspektion München: Ziegel, Rinnen, Moos & Anschlüsse gründlich prüfen
             </h2>
@@ -353,7 +353,7 @@ export default function Wartung() {
       {/* Warum Wartung wichtig ist */}
       <section className="py-6 bg-secondary text-white">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-2xl mb-12">
+          <div className="max-w-6xl mb-12">
             <h2 className="text-3xl font-heading font-bold mb-4">
               Dachwartung spart Geld: 4 Gründe warum regelmäßige Dachkontrolle in München wichtig ist
             </h2>
@@ -434,7 +434,7 @@ export default function Wartung() {
           <h2 className="text-3xl font-heading font-bold mb-4">
             Dach Wartungsvertrag München: Regelmäßige Pflege schützt vor teuren Folgeschäden
           </h2>
-          <p className="text-white/90 mb-8 max-w-2xl mx-auto">
+          <p className="text-white/90 mb-8 max-w-6xl mx-auto">
             Regelmäßige Wartung spart langfristig Geld und Ärger. 
             Lassen Sie uns gemeinsam sicherstellen, dass Ihr Dach Sie noch viele Jahre schützt.
           </p>

@@ -106,7 +106,7 @@ export default function DachDecken() {
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-4">
               Dachmaterialien & Preise
             </h2>
-            <p className="text-center text-slate-600 mb-12 max-w-2xl mx-auto">
+            <p className="text-center text-slate-600 mb-12 max-w-4xl mx-auto">
               Wir decken Ihr Dach mit dem Material Ihrer Wahl – fachgerecht und dauerhaft
             </p>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

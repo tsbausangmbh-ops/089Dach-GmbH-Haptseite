@@ -93,7 +93,7 @@ export default function Dachfenster() {
         </div>
 
         <div className="container mx-auto px-6 lg:px-12 relative z-10">
-          <div className="max-w-2xl text-white">
+          <div className="max-w-6xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Dachfenster München</span>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mt-4 mb-6">
               Lassen Sie endlich Licht in Ihr Leben
@@ -163,7 +163,7 @@ export default function Dachfenster() {
       {/* Vorteile */}
       <section className="py-6">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-2xl mb-12">
+          <div className="max-w-6xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
               Velux & Roto Dachfenster München: 4 Vorteile für Ihr Dachgeschoss
             </h2>
@@ -191,7 +191,7 @@ export default function Dachfenster() {
       {/* Produkte */}
       <section className="py-6 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-2xl mb-12">
+          <div className="max-w-6xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
               Schwingfenster, Klappfenster oder Dachbalkon: Das richtige Dachfenster für Ihr Münchner Zuhause
             </h2>
@@ -226,7 +226,7 @@ export default function Dachfenster() {
           <h2 className="text-3xl font-heading font-bold mb-4">
             Dachfenster Kosten, Einbau & Förderung: Häufige Fragen beantwortet
           </h2>
-          <div className="max-w-2xl mx-auto space-y-4 text-left mt-8">
+          <div className="max-w-6xl mx-auto space-y-4 text-left mt-8">
             <div className="bg-white/10 p-4 rounded-xl" data-testid="faq-item-0">
               <p className="font-bold mb-2">Brauche ich eine Baugenehmigung?</p>
               <p className="text-gray-300">In den meisten Fällen nicht – wir prüfen das für Sie.</p>

@@ -9,7 +9,6 @@ import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
 
 import heroImage from "@assets/generated_images/completed_roof_showcase_reference.png";
-import { ItemListSchema } from "@/components/SEO";
 
 import before1 from "@assets/generated_images/obermenzing_einfamilienhaus_vorher.png";
 import img1 from "@assets/generated_images/obermenzing_einfamilienhaus_nachher.png";
@@ -266,7 +265,7 @@ export default function Referenzen() {
         </div>
         
         <div className="container mx-auto px-6 lg:px-12 relative z-10">
-          <div className="max-w-2xl text-white">
+          <div className="max-w-4xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">089Dach Referenzen</span>
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-heading font-bold text-white mt-4 mb-4 md:mb-6">
               So sieht zufrieden aus
@@ -422,7 +421,7 @@ export default function Referenzen() {
           <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary text-center mb-4">
             Häufige Fragen zu Dachsanierungen in München
           </h2>
-          <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
+          <p className="text-center text-muted-foreground mb-12 max-w-4xl mx-auto">
             Antworten auf die wichtigsten Fragen rund um Ihr Dachprojekt in München und Umgebung
           </p>
           

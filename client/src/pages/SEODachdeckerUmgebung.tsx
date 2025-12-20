@@ -106,7 +106,7 @@ export default function SEODachdeckerUmgebung() {
           <div className="absolute inset-0 bg-gradient-to-r from-secondary/95 via-secondary/80 to-secondary/60"></div>
         </div>
         <div className="container mx-auto px-4 md:px-6 lg:px-12 relative z-10">
-          <div className="max-w-4xl text-white">
+          <div className="max-w-6xl text-white">
             <div className="flex items-center gap-2 mb-3 md:mb-4">
               <MapPin className="h-5 w-5 text-primary" />
               <span className="text-primary font-bold tracking-wider uppercase text-sm">Servicegebiet bis 30km</span>
@@ -114,7 +114,7 @@ export default function SEODachdeckerUmgebung() {
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-4 md:mb-6">
               Dachdecker München und Umgebung
             </h1>
-            <p className="text-lg md:text-xl text-gray-200 max-w-2xl mb-4 md:mb-6">
+            <p className="text-lg md:text-xl text-gray-200 max-w-4xl mb-4 md:mb-6">
               Ihr <strong>Dachdecker-Meisterbetrieb</strong> für München und das gesamte Umland – von Gräfelfing bis Starnberg, von Dachau bis Erding. <strong>Anfahrt kostenlos</strong>, 10 Jahre Garantie.
             </p>
             <div className="flex flex-wrap gap-3 mb-6">
@@ -265,7 +265,7 @@ export default function SEODachdeckerUmgebung() {
           <h2 className="text-2xl md:text-3xl font-heading font-bold text-white mb-4">
             Dachdecker für Ihr Zuhause im Münchner Umland
           </h2>
-          <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
+          <p className="text-white/90 text-lg mb-8 max-w-4xl mx-auto">
             Egal wo Sie im Umland von München wohnen – wir kommen zu Ihnen. 
             Kostenlose Beratung, Festpreisangebot, 10 Jahre Garantie.
           </p>

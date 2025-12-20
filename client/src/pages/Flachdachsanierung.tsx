@@ -79,7 +79,7 @@ export default function Flachdachsanierung() {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/95 via-slate-900/85 to-slate-900/70"></div>
         <div className="container mx-auto px-4 md:px-6 lg:px-12 relative z-10">
-          <div className="max-w-3xl text-white">
+          <div className="max-w-5xl text-white">
             <div className="flex items-center gap-2 mb-3 md:mb-4">
               <Layers className="h-5 w-5 text-primary" />
               <span className="text-primary font-bold tracking-wider uppercase text-sm">Flachdachsanierung München</span>

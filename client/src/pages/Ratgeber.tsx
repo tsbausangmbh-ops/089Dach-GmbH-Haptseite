@@ -132,7 +132,7 @@ export default function Ratgeber() {
         </div>
         
         <div className="container mx-auto px-4 md:px-6 lg:px-12 relative z-10">
-          <div className="max-w-2xl text-white">
+          <div className="max-w-4xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">089Dach Expertenwissen</span>
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-heading font-bold text-white mt-4 mb-4 md:mb-6">
               Endlich verstehen, was Ihr Dach wirklich braucht
@@ -263,7 +263,7 @@ export default function Ratgeber() {
       {/* Grid of Guides */}
       <section id="artikel" className="py-4 md:py-8">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
-          <div className="max-w-2xl mb-8 md:mb-12">
+          <div className="max-w-4xl mb-8 md:mb-12">
             <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">
               Welches Problem beschäftigt Sie gerade?
             </h2>
@@ -341,11 +341,11 @@ export default function Ratgeber() {
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-heading font-bold mb-4 md:mb-6">
             Ihre Frage ist hier nicht dabei?
           </h2>
-          <p className="text-lg md:text-xl text-gray-300 mb-4 max-w-2xl mx-auto">
+          <p className="text-lg md:text-xl text-gray-300 mb-4 max-w-4xl mx-auto">
             Kein Problem. Rufen Sie uns einfach an. Wir nehmen uns Zeit für Ihre Fragen – 
             auch wenn Sie noch gar nicht wissen, ob Sie überhaupt etwas machen wollen.
           </p>
-          <p className="text-gray-400 mb-6 md:mb-8 max-w-xl mx-auto">
+          <p className="text-gray-400 mb-6 md:mb-8 max-w-3xl mx-auto">
             Keine Verkaufsgespräche. Keine Überrumpelung. Nur ehrliche Antworten von echten Handwerkern.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

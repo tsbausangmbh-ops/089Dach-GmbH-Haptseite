@@ -155,7 +155,7 @@ export default function FAQ() {
         </div>
         
         <div className="container mx-auto px-6 lg:px-12 relative z-10">
-          <div className="max-w-2xl text-white">
+          <div className="max-w-4xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">089Dach FAQ</span>
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-heading font-bold text-white mt-4 mb-4 md:mb-6">
               Die Antworten, die Sie wirklich brauchen
@@ -289,7 +289,7 @@ export default function FAQ() {
 
       <section id="fragen" className="py-4 md:py-6 bg-white">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-2xl mb-8 md:mb-12">
+          <div className="max-w-4xl mb-8 md:mb-12">
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-heading font-bold text-secondary mb-4">
               {faqs.length} Antworten auf Ihre wichtigsten Fragen
             </h2>

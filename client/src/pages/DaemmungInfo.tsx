@@ -101,7 +101,7 @@ export default function DaemmungInfo() {
           <div className="absolute inset-0 bg-gradient-to-r from-secondary/95 via-secondary/85 to-secondary/60"></div>
         </div>
         <div className="container mx-auto px-6 lg:px-12 relative z-10 py-6">
-          <div className="max-w-3xl text-white">
+          <div className="max-w-5xl text-white">
             <div className="flex items-center gap-3 mb-4">
               <ThermometerSnowflake className="h-10 w-10 text-primary" />
             </div>
@@ -131,7 +131,7 @@ export default function DaemmungInfo() {
                 <strong className="text-secondary"> verschwindet einfach durch Ihr Dach</strong>. 
                 Tag für Tag, Monat für Monat, Jahr für Jahr.
               </p>
-              <div className="bg-white/80 border border-stone-200 rounded-xl p-6 max-w-2xl mx-auto mt-6">
+              <div className="bg-white/80 border border-stone-200 rounded-xl p-6 max-w-4xl mx-auto mt-6">
                 <p className="text-muted-foreground mb-3">
                   <strong className="text-secondary">Die Wahrheit:</strong> Ein ungedämmtes Dach ist wie ein Loch in Ihrem Geldbeutel. 
                   Warme Luft steigt nach oben – das ist Physik. Und wenn dort keine Barriere ist, entweicht sie einfach nach draußen.
@@ -285,14 +285,14 @@ export default function DaemmungInfo() {
               <h2 className="text-2xl font-heading font-bold text-secondary mb-4 text-center">
                 Finden Sie Ihre persönliche Lösung
               </h2>
-              <p className="text-center text-muted-foreground max-w-2xl mx-auto mb-6">
+              <p className="text-center text-muted-foreground max-w-4xl mx-auto mb-6">
                 Jedes Dach ist anders – und jedes Problem braucht eine individuelle Lösung. 
                 Beantworten Sie <strong className="text-secondary">3 kurze Fragen</strong> und wir zeigen Ihnen, 
                 wie wir Ihnen konkret helfen können.
               </p>
               
               {funnelStep < funnelQuestions.length ? (
-                <div className="max-w-2xl mx-auto">
+                <div className="max-w-4xl mx-auto">
                   <div className="flex justify-center gap-2 mb-6">
                     {funnelQuestions.map((_, i) => (
                       <div 
@@ -324,7 +324,7 @@ export default function DaemmungInfo() {
                   </div>
                 </div>
               ) : (
-                <div className="max-w-2xl mx-auto text-center">
+                <div className="max-w-4xl mx-auto text-center">
                   <div className="bg-green-50 border border-green-200 rounded-lg p-6 mb-6">
                     <CheckCircle2 className="h-12 w-12 text-green-600 mx-auto mb-4" />
                     <h3 className="text-2xl font-bold text-green-800 mb-3">{getSolution().title}</h3>
@@ -394,7 +394,7 @@ export default function DaemmungInfo() {
               <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-6 text-center">
                 So läuft eine Dachdämmung bei uns ab
               </h2>
-              <p className="text-center text-muted-foreground max-w-2xl mx-auto mb-8">
+              <p className="text-center text-muted-foreground max-w-4xl mx-auto mb-8">
                 Viele Hausbesitzer scheuen sich vor einer Dämmung, weil sie nicht wissen, was auf sie zukommt. 
                 Bei uns ist der Prozess <strong className="text-secondary">transparent, planbar und stressfrei</strong>.
               </p>

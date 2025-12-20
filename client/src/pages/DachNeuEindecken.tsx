@@ -128,7 +128,7 @@ export default function DachNeuEindecken() {
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-4">
               Dacheindeckungsmaterialien & Preise
             </h2>
-            <p className="text-center text-slate-600 mb-12 max-w-2xl mx-auto">
+            <p className="text-center text-slate-600 mb-12 max-w-4xl mx-auto">
               Wir verbauen alle gängigen Materialien – von klassisch bis modern
             </p>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">

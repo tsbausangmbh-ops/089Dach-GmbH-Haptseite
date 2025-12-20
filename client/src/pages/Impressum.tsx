@@ -36,7 +36,7 @@ export default function Impressum() {
         </div>
         
         <div className="container mx-auto px-4 md:px-6 lg:px-12 relative z-10">
-          <div className="max-w-2xl text-white">
+          <div className="max-w-4xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Rechtliches</span>
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-heading font-bold text-white mt-4 mb-4 md:mb-6">
               Impressum
@@ -77,7 +77,7 @@ export default function Impressum() {
 
       <section className="pt-2 md:pt-4 pb-10 md:pb-16">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
-          <div className="max-w-3xl space-y-8 md:space-y-12">
+          <div className="max-w-5xl space-y-8 md:space-y-12">
             
             {/* Unternehmensdaten */}
             <div className="bg-gray-50 p-5 md:p-8 rounded-xl">

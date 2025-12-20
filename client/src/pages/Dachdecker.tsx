@@ -107,7 +107,7 @@ export default function Dachdecker() {
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-4">
               Unsere Dachdeckerleistungen
             </h2>
-            <p className="text-center text-slate-600 mb-12 max-w-2xl mx-auto">
+            <p className="text-center text-slate-600 mb-12 max-w-4xl mx-auto">
               Alles rund ums Dach aus einer Hand – fachgerecht und zuverlässig
             </p>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
