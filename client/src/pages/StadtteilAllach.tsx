@@ -14,6 +14,7 @@ import imgWasserschaden from "@assets/generated_images/leaking_roof_with_water_d
 import imgDachUndicht from "@assets/generated_images/leaking_roof_gutter_dripping.png";
 import imgDachsanierung from "@assets/generated_images/roofers_installing_battens_and_tiles.png";
 import imgDachreparatur from "@assets/generated_images/roofer_doing_quick_repairs.png";
+import imgReferenz2 from "@assets/generated_images/anthracite_roof_with_velux_cabrio.png";
 
 const stadtteilData = {
   name: "Allach",
@@ -246,7 +247,7 @@ export default function StadtteilAllach() {
               <div key={idx} className="bg-white rounded-xl overflow-hidden shadow-sm border border-gray-100">
                 <div className="aspect-[4/3] overflow-hidden">
                   <img 
-                    src={idx === 0 ? imgDachsanierung : imgDachreparatur} 
+                    src={idx === 0 ? imgDachsanierung : imgReferenz2} 
                     alt={`Referenzprojekt ${projekt.titel}`}
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                     loading="lazy"
