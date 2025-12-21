@@ -7,12 +7,12 @@ import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 import heroImage from "@assets/generated_images/realistic_row_house_roof_after.png";
-import imgDachrinnenreinigung from "@assets/stock_images/gutter_cleaning_roof_1912828c.jpg";
-import imgSturmschaden from "@assets/stock_images/storm_damage_roof_re_d29f21fd.jpg";
-import imgWasserschaden from "@assets/stock_images/water_damage_roof_le_64ca0faa.jpg";
-import imgDachUndicht from "@assets/stock_images/roof_leak_repair_wor_a5e6349d.jpg";
-import imgDachsanierung from "@assets/stock_images/roof_renovation_tile_edf74b83.jpg";
-import imgDachreparatur from "@assets/stock_images/roofer_worker_repair_b938a1aa.jpg";
+import imgDachrinnenreinigung from "@assets/stock_images/house_roof_gutter_cl_cc2e421b.jpg";
+import imgSturmschaden from "@assets/stock_images/damaged_roof_tiles_m_74e4c530.jpg";
+import imgWasserschaden from "@assets/stock_images/water_stain_ceiling__f643110f.jpg";
+import imgDachUndicht from "@assets/stock_images/roofer_man_working_r_0b569cea.jpg";
+import imgDachsanierung from "@assets/stock_images/new_red_tile_roof_ge_cedd65a2.jpg";
+import imgDachreparatur from "@assets/stock_images/craftsman_roofer_ham_14d56251.jpg";
 
 const stadtteilData = {
   name: "Allach",
