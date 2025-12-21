@@ -224,9 +224,9 @@ export default function DachDecken() {
       </section>
 
       <LeadFunnel 
-        headline="Dach neu decken lassen?"
+        headline="Dach decken in München?"
         subheadline="Wir beraten zu Material und Kosten."
-        description="Eine neue Dacheindeckung ist eine Investition in die Zukunft Ihrer Immobilie."
+        description="Professionell Dach decken in München – wir beraten zu Material und Kosten."
       />
     </div>
   );

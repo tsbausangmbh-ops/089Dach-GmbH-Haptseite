@@ -251,9 +251,9 @@ export default function DachAbdichten() {
       </section>
 
       <LeadFunnel 
-        headline="Dach undicht?"
+        headline="Dach abdichten in München?"
         subheadline="Wir finden und beheben die Undichtigkeit."
-        description="Eine professionelle Dachabdichtung schützt Ihr Haus vor Wasserschäden."
+        description="Professionelle Dachabdichtung ab 25€/m² – alle Dachtypen, 24h Notdienst in München."
       />
     </div>
   );

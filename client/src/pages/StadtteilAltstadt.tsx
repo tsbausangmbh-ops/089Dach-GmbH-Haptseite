@@ -263,9 +263,9 @@ export default function StadtteilAltstadt() {
       </section>
 
       <LeadFunnel 
-        headline="Dachdecker in der Altstadt gesucht?"
+        headline="Dachdecker in Altstadt München gesucht?"
         subheadline="Wir betreuen historische Dächer."
-        description="Denkmalschutz-Kompetenz für Münchens Altstadt – höchste Qualität für historische Gebäude."
+        description="Ihr Dachdecker Altstadt München – Denkmalschutz-Experten für historische Gebäude."
       />
       <Contact 
         title="Dachdecker für die Altstadt gesucht?"

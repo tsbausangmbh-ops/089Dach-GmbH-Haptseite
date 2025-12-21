@@ -220,7 +220,7 @@ export default function StadtteilThalkirchen() {
       <LeadFunnel 
         headline="Dachdecker in Thalkirchen gesucht?"
         subheadline="Wir sind Ihr Partner in Thalkirchen."
-        description="Als Münchner Meisterbetrieb kennen wir Thalkirchen und Obersendling."
+        description="Ihr Dachdecker Thalkirchen – Steildach-Experten für Einfamilienhäuser am Isartal."
       />
       <Contact 
         title="Dachdecker für Thalkirchen gesucht?"

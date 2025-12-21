@@ -218,9 +218,9 @@ export default function StadtteilLehel() {
       </section>
 
       <LeadFunnel 
-        headline="Dachdecker im Lehel gesucht?"
+        headline="Dachdecker in Lehel gesucht?"
         subheadline="Wir betreuen Altbauten im Lehel."
-        description="Denkmalschutz-Kompetenz für das Lehel – wir erhalten historische Dächer."
+        description="Ihr Dachdecker Lehel – Villen-Experten für historische Dächer und Kupferarbeiten."
       />
       <Contact 
         title="Dachdecker fürs Lehel gesucht?"

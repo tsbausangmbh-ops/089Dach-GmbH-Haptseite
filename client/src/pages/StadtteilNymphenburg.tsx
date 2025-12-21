@@ -221,7 +221,7 @@ export default function StadtteilNymphenburg() {
       <LeadFunnel 
         headline="Dachdecker in Nymphenburg gesucht?"
         subheadline="Wir betreuen historische Dächer."
-        description="Denkmalschutz-Kompetenz für Nymphenburg – wir erhalten die Schönheit historischer Dächer."
+        description="Ihr Dachdecker für Nymphenburg – Denkmalschutz-Experten für historische Altbauten."
       />
       <Contact 
         title="Dachdecker für Nymphenburg gesucht?"

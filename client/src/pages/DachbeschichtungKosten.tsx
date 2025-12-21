@@ -138,9 +138,9 @@ export default function DachbeschichtungKosten() {
 
       <EinzugsgebietSection />
       <LeadFunnel 
-        headline="Dachbeschichtung – lohnt sich das?"
+        headline="Dachbeschichtung Kosten – lohnt sich das?"
         subheadline="Wir beraten ehrlich."
-        description="Eine Beschichtung ist nicht immer sinnvoll. Wir prüfen Ihr Dach kostenlos."
+        description="Ehrliche Beratung zu Dachbeschichtung Kosten – wir prüfen kostenlos, ob es sich lohnt."
       />
     </div>
   );

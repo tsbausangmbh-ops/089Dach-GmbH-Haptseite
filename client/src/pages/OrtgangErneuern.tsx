@@ -113,9 +113,9 @@ export default function OrtgangErneuern() {
 
       <EinzugsgebietSection />
       <LeadFunnel 
-        headline="Ortgang erneuern?"
+        headline="Ortgang erneuern in München?"
         subheadline="Wir reparieren den Dachrand."
-        description="Ein sauberer Ortgang schützt die Giebelwand vor Witterung."
+        description="Ortgang erneuern vom Münchner Dachdecker – Schutz für die Giebelwand."
       />
     </div>
   );

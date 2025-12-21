@@ -265,7 +265,7 @@ export default function StadtteilFreimann() {
       <LeadFunnel 
         headline="Dachdecker in Freimann gesucht?"
         subheadline="Wir sind Ihr Partner in Freimann."
-        description="Als Münchner Meisterbetrieb kennen wir Freimann."
+        description="Ihr Dachdecker Freimann – für Wohn- und Gewerbegebäude im Münchner Norden."
       />
       <Contact 
         title="Dachdecker für Freimann gesucht?"

@@ -221,7 +221,7 @@ export default function StadtteilTrudering() {
       <LeadFunnel 
         headline="Dachdecker in Trudering gesucht?"
         subheadline="Wir sind Ihr Partner in Trudering."
-        description="Als Münchner Meisterbetrieb kennen wir Trudering und die typischen Einfamilienhaus-Dächer."
+        description="Ihr Dachdecker für Trudering – Meisterbetrieb mit Erfahrung bei Einfamilien- und Reihenhäusern."
       />
       <Contact 
         title="Dachdecker für Trudering gesucht?"

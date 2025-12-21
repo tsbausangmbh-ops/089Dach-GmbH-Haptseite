@@ -208,7 +208,7 @@ export default function UmlandFuerstenfeldbruck() {
       <LeadFunnel 
         headline="Dachdecker in Fürstenfeldbruck gesucht?"
         subheadline="Wir kommen auch nach FFB."
-        description="Münchner Qualität für Fürstenfeldbruck – wir sind Ihr Partner vor Ort."
+        description="Ihr Dachdecker für Fürstenfeldbruck – schnelle Hilfe aus München für Ihre Dacharbeiten."
       />
       <Footer />
     </div>

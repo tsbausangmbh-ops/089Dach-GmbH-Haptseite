@@ -256,7 +256,7 @@ export default function Dachdecker() {
       <LeadFunnel 
         headline="Dachdecker in München gesucht?"
         subheadline="Wir sind Ihr Meisterbetrieb."
-        description="Kompetenz, Erfahrung und faire Preise – 089Dach seit 1998."
+        description="Ihr Dachdecker in München seit 1998 – Kompetenz, Erfahrung und faire Preise."
       />
     </div>
   );

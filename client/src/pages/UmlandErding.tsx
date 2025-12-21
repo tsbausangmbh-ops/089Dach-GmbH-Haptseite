@@ -208,7 +208,7 @@ export default function UmlandErding() {
       <LeadFunnel 
         headline="Dachdecker in Erding gesucht?"
         subheadline="Wir kommen auch nach Erding."
-        description="Münchner Qualität für Erding – wir sind Ihr Partner für alle Dacharbeiten."
+        description="Ihr Dachdecker für Erding – schnelle Hilfe aus München für Ihre Dacharbeiten."
       />
       <Footer />
     </div>

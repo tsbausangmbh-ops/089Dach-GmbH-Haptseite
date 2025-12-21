@@ -138,9 +138,9 @@ export default function DachgeschossDaemmen() {
 
       <EinzugsgebietSection />
       <LeadFunnel 
-        headline="Dachgeschoss dämmen?"
+        headline="Dachgeschoss dämmen in München?"
         subheadline="Wir zeigen die beste Lösung."
-        description="Eine gute Dämmung spart Heizkosten und steigert den Wohnkomfort."
+        description="Dachgeschoss dämmen vom Profi – Heizkosten sparen und Wohnkomfort steigern."
       />
     </div>
   );

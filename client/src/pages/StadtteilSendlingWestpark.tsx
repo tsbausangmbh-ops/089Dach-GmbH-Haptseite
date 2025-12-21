@@ -221,7 +221,7 @@ export default function StadtteilSendlingWestpark() {
       <LeadFunnel 
         headline="Dachdecker in Sendling-Westpark gesucht?"
         subheadline="Wir sind Ihr Partner vor Ort."
-        description="Als Münchner Meisterbetrieb kennen wir Sendling-Westpark."
+        description="Ihr Dachdecker Sendling-Westpark – Familienstadtteil mit Reihenhaus und Mehrfamilienhaus."
       />
       <Contact 
         title="Dachdecker für Sendling-Westpark gesucht?"

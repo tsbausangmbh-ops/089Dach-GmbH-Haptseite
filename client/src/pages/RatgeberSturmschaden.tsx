@@ -229,9 +229,9 @@ export default function RatgeberSturmschaden() {
       </section>
 
       <LeadFunnel 
-        headline="Sturmschaden richtig melden?"
+        headline="Sturmschaden am Dach – Versicherung richtig melden"
         subheadline="Wir helfen bei der Dokumentation."
-        description="Nach einem Sturm ist die richtige Vorgehensweise wichtig für die Versicherung."
+        description="Ratgeber: So melden Sie einen Sturmschaden am Dach richtig bei der Versicherung."
       />
       <Footer />
     </div>

@@ -126,9 +126,9 @@ export default function GartenhausDach() {
 
       <EinzugsgebietSection />
       <LeadFunnel 
-        headline="Gartenhaus-Dach erneuern?"
+        headline="Gartenhaus Dach in München erneuern?"
         subheadline="Wir decken Gartenhäuser ein."
-        description="Ein neues Dach schützt Ihr Gartenhaus vor Feuchtigkeit und Verfall."
+        description="Neues Dach für Ihr Gartenhaus – Dachpappe, Schindeln oder Blech vom Münchner Profi."
       />
     </div>
   );

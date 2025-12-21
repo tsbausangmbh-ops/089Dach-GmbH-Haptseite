@@ -111,9 +111,9 @@ export default function TerrassendachMuenchen() {
 
       <EinzugsgebietSection />
       <LeadFunnel 
-        headline="Terrassendach für München?"
+        headline="Terrassendach in München bauen?"
         subheadline="Wir bauen Ihr Terrassendach."
-        description="Ganzjährig geschützt – hochwertige Terrassendächer vom Fachmann."
+        description="Ihr Terrassendach in München vom Fachmann – ganzjährig geschützt."
       />
     </div>
   );

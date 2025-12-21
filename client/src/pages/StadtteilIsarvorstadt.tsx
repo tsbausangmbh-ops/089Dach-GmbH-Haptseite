@@ -263,9 +263,9 @@ export default function StadtteilIsarvorstadt() {
       </section>
 
       <LeadFunnel 
-        headline="Dachdecker in der Isarvorstadt gesucht?"
+        headline="Dachdecker in Isarvorstadt gesucht?"
         subheadline="Wir sind Ihr Partner in der Isarvorstadt."
-        description="Altbau-Experten für Glockenbachviertel und Isarvorstadt."
+        description="Ihr Dachdecker Isarvorstadt – Altbau-Experten für Mansarddächer und Gauben."
       />
       <Contact 
         title="Dachdecker für die Isarvorstadt gesucht?"

@@ -295,9 +295,9 @@ export default function SEODachdeckerKosten() {
       />
 
       <LeadFunnel 
-        headline="Dachdecker-Kosten in München?"
+        headline="Dachdecker Kosten in München"
         subheadline="Wir erstellen transparente Angebote."
-        description="Faire Festpreise ohne versteckte Kosten – darauf können Sie sich verlassen."
+        description="Transparente Dachdecker Kosten in München – faire Festpreise vom Meisterbetrieb."
       />
 
       <section className="py-4 md:py-6 bg-primary">

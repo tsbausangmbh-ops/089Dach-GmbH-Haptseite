@@ -151,9 +151,9 @@ export default function DachfensterEinbauen() {
 
       <EinzugsgebietSection />
       <LeadFunnel 
-        headline="Dachfenster einbauen lassen?"
+        headline="Dachfenster einbauen in München?"
         subheadline="Wir montieren Velux, Roto & Co."
-        description="Mehr Licht im Dachgeschoss durch professionellen Dachfenster-Einbau."
+        description="Fachgerechter Einbau aller Marken – mehr Licht unterm Dach durch Ihren Münchner Meisterbetrieb."
       />
     </div>
   );

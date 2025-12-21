@@ -149,9 +149,9 @@ export default function DachziegelKaufen() {
 
       <EinzugsgebietSection />
       <LeadFunnel 
-        headline="Dachziegel kaufen?"
+        headline="Dachziegel kaufen in München?"
         subheadline="Wir beraten zu allen Materialien."
-        description="Ton, Beton oder Schiefer – wir helfen bei der Materialwahl."
+        description="Dachziegel kaufen in München – wir beraten zu Ton, Beton und Schiefer."
       />
     </div>
   );

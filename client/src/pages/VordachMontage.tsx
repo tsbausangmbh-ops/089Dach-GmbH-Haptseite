@@ -111,9 +111,9 @@ export default function VordachMontage() {
 
       <EinzugsgebietSection />
       <LeadFunnel 
-        headline="Vordach montieren lassen?"
+        headline="Vordach Montage in München"
         subheadline="Wir bauen Ihr Vordach."
-        description="Schutz für Ihren Eingang – professionelle Vordach-Montage vom Dachdecker."
+        description="Professionelle Vordach Montage in München – Schutz für Ihren Eingang."
       />
     </div>
   );

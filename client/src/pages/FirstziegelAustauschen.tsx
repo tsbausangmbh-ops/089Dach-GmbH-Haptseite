@@ -113,9 +113,9 @@ export default function FirstziegelAustauschen() {
 
       <EinzugsgebietSection />
       <LeadFunnel 
-        headline="Firstziegel beschädigt?"
+        headline="Firstziegel austauschen in München?"
         subheadline="Wir tauschen Firstziegel aus."
-        description="Der First ist die Krone des Daches – wir reparieren schnell und fachgerecht."
+        description="Firstziegel austauschen vom Meisterbetrieb – schnell und fachgerecht."
       />
     </div>
   );

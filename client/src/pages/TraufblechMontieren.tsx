@@ -113,9 +113,9 @@ export default function TraufblechMontieren() {
 
       <EinzugsgebietSection />
       <LeadFunnel 
-        headline="Traufblech montieren?"
+        headline="Traufblech montieren in München?"
         subheadline="Wir schützen Ihre Dachkante."
-        description="Ein Traufblech schützt die Traufe vor Feuchtigkeit."
+        description="Traufblech montieren vom Münchner Spengler – Schutz für die Dachkante."
       />
     </div>
   );

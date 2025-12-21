@@ -221,9 +221,9 @@ export default function RatgeberFoerderung() {
       </section>
 
       <LeadFunnel 
-        headline="Förderung für Ihr Dachprojekt?"
+        headline="Dachsanierung Förderung – bis zu 20% sparen"
         subheadline="Wir beraten zu KfW und BAFA."
-        description="Bis zu 20% Zuschuss sind möglich – wir helfen beim Antrag."
+        description="Nutzen Sie die Dachsanierung Förderung von KfW und BAFA – wir helfen beim Antrag."
       />
       <Footer />
     </div>

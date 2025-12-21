@@ -137,9 +137,9 @@ export default function SatteldachKosten() {
 
       <EinzugsgebietSection />
       <LeadFunnel 
-        headline="Satteldach-Kosten berechnen?"
+        headline="Satteldach Kosten berechnen?"
         subheadline="Wir erstellen Ihr Angebot."
-        description="Das klassische Satteldach – bewährt und wirtschaftlich."
+        description="Transparente Satteldach Kosten – das bewährte Satteldach wirtschaftlich saniert."
       />
     </div>
   );

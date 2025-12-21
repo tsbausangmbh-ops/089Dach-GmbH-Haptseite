@@ -222,7 +222,7 @@ export default function UmlandGroebenzell() {
       <LeadFunnel 
         headline="Dachdecker in Gröbenzell gesucht?"
         subheadline="Wir sind Ihr Partner in Gröbenzell."
-        description="Kurze Wege von Obermenzing nach Gröbenzell – schnelle Hilfe garantiert."
+        description="Ihr Dachdecker für Gröbenzell – schnelle Hilfe aus München für Ihre Dacharbeiten."
       />
       <Contact 
         title="Dachdecker für Gröbenzell gesucht?"

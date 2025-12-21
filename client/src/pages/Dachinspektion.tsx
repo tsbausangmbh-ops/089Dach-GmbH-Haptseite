@@ -231,9 +231,9 @@ export default function Dachinspektion() {
       </section>
 
       <LeadFunnel 
-        headline="Dachinspektion gewünscht?"
+        headline="Dachinspektion in München?"
         subheadline="Wir prüfen den Zustand Ihres Daches."
-        description="Eine regelmäßige Inspektion verhindert teure Überraschungen."
+        description="Ihre Dachinspektion in München für nur 149€ – Fotodokumentation und Protokoll vom Meisterbetrieb inklusive."
       />
     </div>
   );

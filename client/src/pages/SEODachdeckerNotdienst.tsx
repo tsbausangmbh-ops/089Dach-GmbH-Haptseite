@@ -259,9 +259,9 @@ export default function SEODachdeckerNotdienst() {
       </section>
 
       <LeadFunnel 
-        headline="Dach-Notfall in München?"
+        headline="Dachdecker Notdienst München – 24h Hilfe"
         subheadline="Wir sind in 1-2 Stunden da."
-        description="Sturmschaden, Wassereintritt, akute Probleme – rufen Sie uns jetzt an."
+        description="Schneller Dachdecker Notdienst in München – in 1-2 Stunden vor Ort bei Sturmschaden."
       />
 
       <Footer />

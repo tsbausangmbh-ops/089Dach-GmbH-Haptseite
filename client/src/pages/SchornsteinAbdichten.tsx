@@ -113,9 +113,9 @@ export default function SchornsteinAbdichten() {
 
       <EinzugsgebietSection />
       <LeadFunnel 
-        headline="Schornstein undicht?"
+        headline="Schornstein abdichten in München?"
         subheadline="Wir dichten Kamineinfassungen ab."
-        description="Ein undichter Schornsteinanschluss ist eine häufige Ursache für Wasserschäden."
+        description="Professionelle Schornsteinabdichtung ab 250€ – schnelle Hilfe vom Münchner Meisterbetrieb."
       />
     </div>
   );

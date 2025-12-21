@@ -206,9 +206,9 @@ export default function SchimmelDach() {
       </section>
 
       <LeadFunnel 
-        headline="Schimmel im Dachbereich?"
+        headline="Schimmel Dach in München?"
         subheadline="Wir finden die Ursache."
-        description="Schimmel am Dach entsteht durch Feuchtigkeit – wir beseitigen Ursache und Folgen."
+        description="Professionelle Ursachenanalyse bei Schimmel unterm Dach – Ihr Münchner Meisterbetrieb hilft."
       />
     </div>
   );

@@ -172,9 +172,9 @@ export default function DachsanierungKosten() {
 
       <EinzugsgebietSection />
       <LeadFunnel 
-        headline="Was kostet Ihre Dachsanierung?"
+        headline="Dachsanierung Kosten in München?"
         subheadline="Wir erstellen ein individuelles Angebot."
-        description="Jedes Dach ist anders. Lassen Sie sich kostenlos beraten und erhalten Sie Festpreise."
+        description="Transparente Dachsanierung Kosten vom Münchner Meisterbetrieb – Festpreise ohne versteckte Kosten."
       />
     </div>
   );

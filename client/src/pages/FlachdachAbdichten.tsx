@@ -142,9 +142,9 @@ export default function FlachdachAbdichten() {
 
       <EinzugsgebietSection />
       <LeadFunnel 
-        headline="Flachdach undicht?"
+        headline="Flachdach abdichten in München?"
         subheadline="Wir dichten Ihr Flachdach dauerhaft ab."
-        description="Ein undichtes Flachdach muss schnell abgedichtet werden – bevor der Schaden größer wird."
+        description="Professionelle Flachdachabdichtung mit Bitumen, EPDM oder PVC – Münchner Meisterbetrieb."
       />
     </div>
   );

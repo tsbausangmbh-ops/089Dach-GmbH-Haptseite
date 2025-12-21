@@ -221,7 +221,7 @@ export default function StadtteilMoosach() {
       <LeadFunnel 
         headline="Dachdecker in Moosach gesucht?"
         subheadline="Wir sind Ihr Partner in Moosach."
-        description="Als Münchner Meisterbetrieb kennen wir Moosach und die typischen Dachprobleme."
+        description="Ihr Dachdecker für Moosach – Meisterbetrieb mit kurzen Wegen und schneller Hilfe."
       />
       <Contact 
         title="Dachdecker für Moosach gesucht?"

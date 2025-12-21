@@ -256,7 +256,7 @@ export default function StadtteilAllach() {
       <LeadFunnel 
         headline="Dachdecker in Allach gesucht?"
         subheadline="Wir sind Ihr Partner in Allach."
-        description="Als Münchner Meisterbetrieb kennen wir Allach und die typischen Dachprobleme."
+        description="Ihr Dachdecker für Allach – Meisterbetrieb mit kurzen Wegen und schneller Hilfe."
       />
       <Contact 
         title="Dachdecker für Allach gesucht?"

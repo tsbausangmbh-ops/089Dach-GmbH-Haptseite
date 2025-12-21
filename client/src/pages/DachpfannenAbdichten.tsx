@@ -260,9 +260,9 @@ export default function DachpfannenAbdichten() {
       </section>
 
       <LeadFunnel 
-        headline="Dachpfannen undicht?"
+        headline="Dachpfannen abdichten in München?"
         subheadline="Wir dichten Ihre Dachpfannen ab."
-        description="Kleine Risse in Dachpfannen führen zu großen Schäden. Wir handeln schnell."
+        description="Professionelle Abdichtung von innen und außen – Meisterbetrieb München ab 25€/m²."
       />
     </div>
   );

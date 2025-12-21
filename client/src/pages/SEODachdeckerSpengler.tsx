@@ -297,9 +297,9 @@ export default function SEODachdeckerSpengler() {
       />
 
       <LeadFunnel 
-        headline="Dachdecker und Spengler in einem?"
-        subheadline="Bei uns bekommen Sie alles aus einer Hand."
-        description="Dach und Metall – wir sind Meister in beiden Gewerken."
+        headline="Dachdecker und Spengler München"
+        subheadline="Alles aus einer Hand."
+        description="Dachdecker und Spengler in einem Betrieb in München – alles aus einer Hand."
       />
 
       <section className="py-4 md:py-6 bg-primary">

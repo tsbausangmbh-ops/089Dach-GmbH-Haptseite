@@ -113,9 +113,9 @@ export default function SchneefanggitterMontage() {
 
       <EinzugsgebietSection />
       <LeadFunnel 
-        headline="Schneefanggitter montieren?"
+        headline="Schneefanggitter Montage in München"
         subheadline="Wir sichern Ihr Dach."
-        description="Schneefanggitter schützen Fußgänger und Ihr Eigentum."
+        description="Professionelle Schneefanggitter Montage – Schutz für Fußgänger und Eigentum."
       />
     </div>
   );

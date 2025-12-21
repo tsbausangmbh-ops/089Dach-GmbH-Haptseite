@@ -236,9 +236,9 @@ export default function RatgeberMaterialien() {
       </section>
 
       <LeadFunnel 
-        headline="Welches Material für Ihr Dach?"
+        headline="Dachziegel und Materialien – die richtige Wahl"
         subheadline="Wir beraten neutral und kompetent."
-        description="Ziegel, Schiefer, Blech – jedes Material hat Vor- und Nachteile."
+        description="Ratgeber zu Dachziegel Materialien – Ton, Beton, Schiefer oder Blech im Vergleich."
       />
       <Footer />
     </div>

@@ -208,7 +208,7 @@ export default function StadtteilMilbertshofen() {
       <LeadFunnel 
         headline="Dachdecker in Milbertshofen gesucht?"
         subheadline="Wir sind Ihr Partner in Milbertshofen."
-        description="Als Münchner Meisterbetrieb kennen wir Milbertshofen."
+        description="Ihr Dachdecker Milbertshofen – für Gewerbe, Flachdach und Mehrfamilienhäuser."
       />
       <Footer />
     </div>

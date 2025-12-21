@@ -348,9 +348,9 @@ export default function Dachsanierung() {
       />
 
       <LeadFunnel 
-        headline="Ihre Dachsanierung steht an?"
+        headline="Dachsanierung in München?"
         subheadline="Wir machen Ihr Dach zukunftssicher."
-        description="Eine Dachsanierung in München ist eine Investition, die sich auszahlt. Je länger Sie warten, desto teurer wird es."
+        description="Ihre Dachsanierung vom Münchner Meisterbetrieb – wir sanieren schnell, fair und zuverlässig. Je länger Sie warten, desto teurer wird es."
       />
       <Contact 
         title="Ihr Dach braucht eine Sanierung?"

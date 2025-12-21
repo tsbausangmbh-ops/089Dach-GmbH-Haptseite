@@ -154,7 +154,7 @@ export default function StadtteilSendling() {
       <LeadFunnel 
         headline="Dachdecker in Sendling gesucht?"
         subheadline="Wir sind Ihr Partner in Sendling."
-        description="Als Münchner Meisterbetrieb kennen wir Sendling und die typischen Dachprobleme in Ihrer Nachbarschaft."
+        description="Ihr Dachdecker für Sendling – Meisterbetrieb mit kurzen Wegen und schneller Hilfe."
       />
       <Contact 
         title="Dachdecker für Sendling gesucht?"

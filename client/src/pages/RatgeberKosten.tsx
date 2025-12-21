@@ -231,9 +231,9 @@ export default function RatgeberKosten() {
       </section>
 
       <LeadFunnel 
-        headline="Dach-Kosten im Überblick?"
+        headline="Dachdecker Kosten – der große Ratgeber"
         subheadline="Wir erstellen transparente Angebote."
-        description="Faire Preise und keine Überraschungen – das ist unser Versprechen."
+        description="Umfassender Ratgeber zu Dachdecker Kosten – alle Leistungen im Preisüberblick."
       />
       <Footer />
     </div>

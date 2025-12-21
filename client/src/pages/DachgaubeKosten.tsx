@@ -154,9 +154,9 @@ export default function DachgaubeKosten() {
 
       <EinzugsgebietSection />
       <LeadFunnel 
-        headline="Was kostet eine Dachgaube?"
+        headline="Dachgaube Kosten berechnen?"
         subheadline="Wir berechnen Ihr Projekt."
-        description="Von der Planung bis zur Fertigstellung – transparente Kosten für Ihre Gaube."
+        description="Transparente Dachgaube Kosten – von der Planung bis zur schlüsselfertigen Gaube."
       />
     </div>
   );

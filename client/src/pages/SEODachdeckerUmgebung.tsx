@@ -262,9 +262,9 @@ export default function SEODachdeckerUmgebung() {
       />
 
       <LeadFunnel 
-        headline="Dachdecker im Münchner Umland gesucht?"
+        headline="Dachdecker im Münchner Umland"
         subheadline="Wir kommen auch zu Ihnen."
-        description="Von Starnberg bis Freising – wir sind Ihr Partner im Münchner Umland."
+        description="Ihr Dachdecker für das Münchner Umland – von Starnberg bis Freising."
       />
 
       <section className="py-4 md:py-6 bg-primary">

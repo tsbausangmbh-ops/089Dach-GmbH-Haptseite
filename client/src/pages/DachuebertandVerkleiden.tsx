@@ -113,9 +113,9 @@ export default function DachuebertandVerkleiden() {
 
       <EinzugsgebietSection />
       <LeadFunnel 
-        headline="Dachüberstand verkleiden?"
+        headline="Dachüberstand verkleiden in München?"
         subheadline="Wir gestalten Ihre Dachuntersicht."
-        description="Eine saubere Verkleidung schützt und wertet Ihr Haus optisch auf."
+        description="Dachüberstand verkleiden – saubere Dachuntersicht für Schutz und Optik."
       />
     </div>
   );

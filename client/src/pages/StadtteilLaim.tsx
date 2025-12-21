@@ -227,7 +227,7 @@ export default function StadtteilLaim() {
       <LeadFunnel 
         headline="Dachdecker in Laim gesucht?"
         subheadline="Wir sind Ihr Partner in Laim."
-        description="Als Münchner Meisterbetrieb kennen wir Laim und die typischen Dachprobleme in Ihrer Nachbarschaft."
+        description="Ihr Dachdecker für Laim – Meisterbetrieb mit kurzen Wegen und schneller Hilfe."
       />
       <Contact 
         title="Dachdecker für Laim gesucht?"

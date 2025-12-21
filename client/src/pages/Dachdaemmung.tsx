@@ -211,9 +211,9 @@ export default function Dachdaemmung() {
       </section>
 
       <LeadFunnel 
-        headline="Dachdämmung für weniger Heizkosten?"
+        headline="Dachdämmung in München?"
         subheadline="Wir zeigen Ihnen die beste Dämmlösung."
-        description="Eine gute Dachdämmung spart bis zu 30% Heizkosten und wird staatlich gefördert."
+        description="Ihre Dachdämmung vom Münchner Meisterbetrieb – bis zu 40% Heizkosten sparen mit KfW-Förderung."
       />
     </div>
   );

@@ -265,7 +265,7 @@ export default function StadtteilBogenhausen() {
       <LeadFunnel 
         headline="Dachdecker in Bogenhausen gesucht?"
         subheadline="Wir betreuen Villen und Altbauten."
-        description="Villen-Erfahrung in Bogenhausen – wir kennen die gehobenen Ansprüche im Stadtteil."
+        description="Ihr Dachdecker für Bogenhausen – Premium-Qualität für exklusive Villen und Stadtvillen."
       />
       <Contact 
         title="Dachdecker für Bogenhausen gesucht?"

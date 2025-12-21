@@ -346,9 +346,9 @@ export default function Spenglerei() {
       />
 
       <LeadFunnel 
-        headline="Spenglerarbeiten vom Meister?"
+        headline="Spenglerei München gesucht?"
         subheadline="Präzise Metallarbeit für Ihr Dach."
-        description="Dachrinnen, Kamineinfassungen und Blechverkleidungen müssen perfekt sitzen. Ein Spenglerfehler zeigt sich erst beim nächsten Starkregen."
+        description="Ihre Spenglerei in München – Dachrinnen, Kamineinfassungen und Blechverkleidungen vom Meisterbetrieb. Handgefertigt in eigener Werkstatt."
       />
       <Contact 
         title="Dachrinne, Kamineinfassung oder Blecharbeiten?"

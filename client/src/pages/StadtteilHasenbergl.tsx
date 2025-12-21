@@ -263,9 +263,9 @@ export default function StadtteilHasenbergl() {
       </section>
 
       <LeadFunnel 
-        headline="Dachdecker im Hasenbergl gesucht?"
+        headline="Dachdecker in Hasenbergl gesucht?"
         subheadline="Wir sind Ihr Partner im Hasenbergl."
-        description="Als Münchner Meisterbetrieb kennen wir das Hasenbergl."
+        description="Ihr Dachdecker Hasenbergl – Sanierungs-Experten für Flachdach und Wärmedämmung."
       />
       <Contact 
         title="Dachdecker fürs Hasenbergl gesucht?"

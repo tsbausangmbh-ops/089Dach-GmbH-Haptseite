@@ -263,9 +263,9 @@ export default function StadtteilAubing() {
       </section>
 
       <LeadFunnel 
-        headline="Dachdecker in Aubing-Lochhausen gesucht?"
+        headline="Dachdecker in Aubing gesucht?"
         subheadline="Wir sind Ihr Partner in Aubing."
-        description="Kurze Wege von Obermenzing nach Aubing – schnelle Hilfe garantiert."
+        description="Ihr Dachdecker Aubing – für Einfamilienhäuser und Reihenhäuser im Münchner Westen."
       />
       <Contact 
         title="Dachdecker für Aubing gesucht?"

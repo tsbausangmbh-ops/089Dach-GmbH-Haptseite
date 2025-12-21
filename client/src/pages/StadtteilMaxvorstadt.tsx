@@ -218,9 +218,9 @@ export default function StadtteilMaxvorstadt() {
       </section>
 
       <LeadFunnel 
-        headline="Dachdecker in der Maxvorstadt gesucht?"
+        headline="Dachdecker in Maxvorstadt gesucht?"
         subheadline="Wir betreuen Altbauten in der Maxvorstadt."
-        description="Altbau-Spezialisten für die Maxvorstadt – historische Dächer in besten Händen."
+        description="Ihr Dachdecker Maxvorstadt – Spezialisten für Altbauten und Denkmalschutz."
       />
       <Contact 
         title="Dachdecker für die Maxvorstadt gesucht?"

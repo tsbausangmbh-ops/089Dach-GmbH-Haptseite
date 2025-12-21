@@ -206,9 +206,9 @@ export default function StadtteilRamersdorf() {
         </div>
       </section>
       <LeadFunnel 
-        headline="Dachdecker in Ramersdorf-Perlach gesucht?"
+        headline="Dachdecker in Ramersdorf gesucht?"
         subheadline="Wir sind Ihr Partner in Ramersdorf."
-        description="Als Münchner Meisterbetrieb kennen wir Ramersdorf und Perlach."
+        description="Ihr Dachdecker Ramersdorf – für Siedlungshäuser, Reihenhäuser und Mehrfamilienhäuser."
       />
       <Footer />
     </div>

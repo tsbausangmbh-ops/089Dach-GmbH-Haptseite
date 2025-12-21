@@ -264,7 +264,7 @@ export default function StadtteilHadern() {
       <LeadFunnel 
         headline="Dachdecker in Hadern gesucht?"
         subheadline="Wir sind Ihr Partner in Hadern."
-        description="Als Münchner Meisterbetrieb kennen wir Hadern und Großhadern."
+        description="Ihr Dachdecker Hadern – nur 5 km entfernt, schnelle Hilfe für Flachdach und Bestandsbau."
       />
       <Contact 
         title="Dachdecker für Hadern gesucht?"

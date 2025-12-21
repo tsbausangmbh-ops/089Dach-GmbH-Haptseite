@@ -187,9 +187,9 @@ export default function DachUndicht() {
       </section>
 
       <LeadFunnel 
-        headline="Dach undicht?"
+        headline="Dach undicht in München?"
         subheadline="Wir finden und beheben die Ursache."
-        description="Ein undichtes Dach verursacht teure Folgeschäden. Handeln Sie jetzt."
+        description="Schnelle Hilfe bei undichtem Dach – Notabdichtung in 24h vom Münchner Meisterbetrieb."
       />
     </div>
   );

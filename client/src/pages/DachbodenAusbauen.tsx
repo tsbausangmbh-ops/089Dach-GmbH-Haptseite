@@ -113,9 +113,9 @@ export default function DachbodenAusbauen() {
 
       <EinzugsgebietSection />
       <LeadFunnel 
-        headline="Dachboden ausbauen?"
+        headline="Dachboden ausbauen in München?"
         subheadline="Wir schaffen Wohnraum unterm Dach."
-        description="Ein ausgebautes Dachgeschoss steigert den Wert Ihrer Immobilie erheblich."
+        description="Professioneller Dachausbau mit Dämmung und Trockenbau – Ihr Münchner Meisterbetrieb."
       />
     </div>
   );

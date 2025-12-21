@@ -225,7 +225,7 @@ export default function StadtteilObermenzing() {
       <LeadFunnel 
         headline="Dachdecker in Obermenzing gesucht?"
         subheadline="Hier ist unser Firmensitz!"
-        description="Als Obermenzing-Firme kennen wir jeden Winkel – kurze Wege, schnelle Hilfe."
+        description="Ihr Dachdecker für Obermenzing – direkt vor Ort mit kürzesten Wegen und schneller Hilfe."
       />
       <Contact 
         title="Dachdecker für Obermenzing gesucht?"

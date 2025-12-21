@@ -113,9 +113,9 @@ export default function DachstuhlErneuern() {
 
       <EinzugsgebietSection />
       <LeadFunnel 
-        headline="Dachstuhl erneuern?"
+        headline="Dachstuhl erneuern in München?"
         subheadline="Wir sanieren Ihren Dachstuhl."
-        description="Ein stabiler Dachstuhl ist das Fundament Ihres Daches."
+        description="Dachstuhl erneuern vom Münchner Meisterbetrieb – Fundament für ein stabiles Dach."
       />
     </div>
   );

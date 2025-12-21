@@ -155,9 +155,9 @@ export default function DachdeckerPreise() {
 
       <EinzugsgebietSection />
       <LeadFunnel 
-        headline="Dachdecker-Preise vergleichen?"
+        headline="Dachdecker Preise in München?"
         subheadline="Wir erstellen transparente Angebote."
-        description="Faire Preise vom Meisterbetrieb – ohne versteckte Kosten."
+        description="Faire Dachdecker Preise in München – transparente Angebote vom Meisterbetrieb."
       />
     </div>
   );

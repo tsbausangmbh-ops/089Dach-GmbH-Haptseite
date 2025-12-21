@@ -210,9 +210,9 @@ export default function DachziegelAustauschen() {
       </section>
 
       <LeadFunnel 
-        headline="Dachziegel kaputt oder verrutscht?"
+        headline="Dachziegel austauschen in München?"
         subheadline="Wir tauschen einzelne Ziegel aus."
-        description="Ein einzelner gebrochener Ziegel kann schnell zu einem großen Wasserschaden führen."
+        description="Schneller Austausch beschädigter Dachziegel durch Ihren Münchner Meisterbetrieb – ab 80€."
       />
     </div>
   );

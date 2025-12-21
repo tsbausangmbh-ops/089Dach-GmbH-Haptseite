@@ -113,9 +113,9 @@ export default function SolaranlageDach() {
 
       <EinzugsgebietSection />
       <LeadFunnel 
-        headline="Solaranlage aufs Dach?"
+        headline="Solaranlage aufs Dach in München?"
         subheadline="Wir prüfen die Eignung."
-        description="Vor der PV-Installation prüfen wir, ob Ihr Dach bereit ist."
+        description="Vor Solaranlage aufs Dach – wir prüfen ob Ihr Münchner Dach bereit ist."
       />
     </div>
   );

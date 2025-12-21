@@ -151,9 +151,9 @@ export default function DachrinneErneuern() {
 
       <EinzugsgebietSection />
       <LeadFunnel 
-        headline="Dachrinne durchgerostet?"
+        headline="Dachrinne erneuern in München?"
         subheadline="Wir erneuern Ihre komplette Rinne."
-        description="Neue Dachrinnen aus Zink oder Kupfer halten 30-80 Jahre."
+        description="Neue Dachrinnen aus Zink oder Kupfer – fachgerechte Montage durch Münchner Meisterbetrieb."
       />
     </div>
   );

@@ -277,9 +277,9 @@ export default function Flachdach() {
       />
 
       <LeadFunnel 
-        headline="Ihr Flachdach macht Probleme?"
+        headline="Flachdach-Experten in München"
         subheadline="Wir sorgen für dauerhafte Dichtheit."
-        description="Ein undichtes Flachdach verursacht teure Folgeschäden. Je länger Sie warten, desto größer der Schaden."
+        description="Ihr Flachdach in München in besten Händen – von Abdichtung bis Sanierung. Je länger Sie warten, desto größer der Schaden."
       />
       <Footer />
     </div>

@@ -113,9 +113,9 @@ export default function KehleDachReparieren() {
 
       <EinzugsgebietSection />
       <LeadFunnel 
-        headline="Dachkehle undicht?"
+        headline="Kehle am Dach reparieren?"
         subheadline="Wir reparieren Kehlen fachgerecht."
-        description="Die Kehle ist ein kritischer Punkt am Dach – wir dichten sie dauerhaft ab."
+        description="Kehle am Dach reparieren – der kritische Punkt, fachgerecht abgedichtet."
       />
     </div>
   );

@@ -370,9 +370,9 @@ export default function RatgeberDaemmung() {
       </section>
 
       <LeadFunnel 
-        headline="Dämmung für Ihr Dach?"
+        headline="Dachdämmung – der Ratgeber für Hausbesitzer"
         subheadline="Wir beraten zu allen Möglichkeiten."
-        description="Die richtige Dämmung spart Heizkosten und steigert den Wohnkomfort."
+        description="Umfassender Ratgeber zur Dachdämmung – Materialien, Kosten und Fördermöglichkeiten."
       />
       <Contact 
         title="Dämmung für Ihr Dach planen?"

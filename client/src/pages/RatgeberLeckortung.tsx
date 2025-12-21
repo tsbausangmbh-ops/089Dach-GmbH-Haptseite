@@ -336,9 +336,9 @@ export default function RatgeberLeckortung() {
       </section>
 
       <LeadFunnel 
-        headline="Leck im Dach suchen?"
+        headline="Leckortung am Dach – so finden wir jedes Leck"
         subheadline="Wir finden jede undichte Stelle."
-        description="Mit modernster Technik finden wir Leckagen zerstörungsfrei."
+        description="Professionelle Leckortung am Dach mit modernster Technik – zerstörungsfrei und präzise."
       />
       <Contact 
         title="Undichtigkeit am Dach? Wir finden sie!"

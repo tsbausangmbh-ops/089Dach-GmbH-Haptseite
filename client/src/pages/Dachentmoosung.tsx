@@ -137,9 +137,9 @@ export default function Dachentmoosung() {
 
       <EinzugsgebietSection />
       <LeadFunnel 
-        headline="Moos auf dem Dach?"
+        headline="Dachentmoosung in München gesucht?"
         subheadline="Wir entmoosen schonend und gründlich."
-        description="Moos speichert Feuchtigkeit und schadet den Ziegeln. Entmoosung erhält die Lebensdauer."
+        description="Professionelle Dachentmoosung ab 10€/m² – schonende Methoden vom Münchner Meisterbetrieb."
       />
     </div>
   );

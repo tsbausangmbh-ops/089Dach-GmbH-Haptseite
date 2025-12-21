@@ -139,9 +139,9 @@ export default function CarportDach() {
 
       <EinzugsgebietSection />
       <LeadFunnel 
-        headline="Neues Dach für Ihr Carport?"
+        headline="Carport Dach in München erneuern?"
         subheadline="Wir decken Carports fachgerecht ein."
-        description="Ein dichtes Carport-Dach schützt Ihr Fahrzeug vor Witterung."
+        description="Trapezblech, Stegplatten oder Ziegel – professionelle Carport-Überdachung in München."
       />
     </div>
   );

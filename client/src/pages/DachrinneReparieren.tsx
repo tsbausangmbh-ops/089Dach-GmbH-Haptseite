@@ -182,9 +182,9 @@ export default function DachrinneReparieren() {
       </section>
 
       <LeadFunnel 
-        headline="Dachrinne tropft oder leckt?"
+        headline="Dachrinne reparieren in München?"
         subheadline="Wir reparieren Ihre Dachrinne."
-        description="Eine undichte Dachrinne schädigt Fassade und Fundament."
+        description="Schnelle Reparatur undichter Dachrinnen ab 60€ – Ihr Münchner Meisterbetrieb."
       />
     </div>
   );

@@ -208,7 +208,7 @@ export default function UmlandOttobrunn() {
       <LeadFunnel 
         headline="Dachdecker in Ottobrunn gesucht?"
         subheadline="Wir kommen auch nach Ottobrunn."
-        description="Kurze Wege von München nach Ottobrunn – wir sind schnell bei Ihnen."
+        description="Ihr Dachdecker für Ottobrunn – schnelle Hilfe aus München für Ihre Dacharbeiten."
       />
       <Footer />
     </div>

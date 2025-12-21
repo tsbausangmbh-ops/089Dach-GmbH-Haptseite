@@ -206,9 +206,9 @@ export default function SturmschadenDach() {
       </section>
 
       <LeadFunnel 
-        headline="Sturmschaden am Dach?"
+        headline="Sturmschaden Dach in München?"
         subheadline="Wir reparieren und dokumentieren."
-        description="Nach einem Sturm ist schnelles Handeln wichtig. Wir helfen bei der Schadensmeldung."
+        description="24h Notdienst bei Sturmschäden am Dach – Notsicherung und Direktabrechnung mit Versicherung."
       />
     </div>
   );

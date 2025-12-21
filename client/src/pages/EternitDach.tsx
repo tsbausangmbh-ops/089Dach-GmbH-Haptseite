@@ -219,9 +219,9 @@ export default function EternitDach() {
       </section>
 
       <LeadFunnel 
-        headline="Eternit-Dach sanieren?"
+        headline="Eternit Dach sanieren in München?"
         subheadline="Wir entsorgen Asbest fachgerecht."
-        description="Eternit enthält oft Asbest. Wir sanieren sicher und nach Vorschrift."
+        description="Zertifizierte Asbestsanierung nach TRGS 519 – Komplett-Service vom Münchner Meisterbetrieb."
       />
     </div>
   );
