@@ -145,6 +145,7 @@ import { LocalBusinessSchema } from "@/components/SEO";
 import FloatingCTA from "@/components/FloatingCTA";
 import ChristmasPopup from "@/components/ChristmasPopup";
 import NewYearPopup from "@/components/NewYearPopup";
+import Redirect from "@/components/Redirect";
 
 function ScrollToTop() {
   const [location] = useLocation();
@@ -295,6 +296,44 @@ function Router() {
       <Route path="/satteldach-kosten" component={SatteldachKosten} />
       <Route path="/dachziegel-kaufen" component={DachziegelKaufen} />
       <Route path="/dachbeschichtung-kosten" component={DachbeschichtungKosten} />
+      
+      {/* Redirects für alte URLs */}
+      <Route path="/dachsanierung">{() => <Redirect to="/leistungen/dachsanierung" />}</Route>
+      <Route path="/spenglerei">{() => <Redirect to="/leistungen/spenglerei" />}</Route>
+      <Route path="/bedachungen">{() => <Redirect to="/leistungen/bedachungen" />}</Route>
+      <Route path="/dachfenster">{() => <Redirect to="/leistungen/dachfenster" />}</Route>
+      <Route path="/reparaturservice">{() => <Redirect to="/leistungen/reparaturservice" />}</Route>
+      <Route path="/energieberatung">{() => <Redirect to="/leistungen/energieberatung" />}</Route>
+      <Route path="/architektenleistungen">{() => <Redirect to="/leistungen/architektenleistungen" />}</Route>
+      <Route path="/gaubenbau">{() => <Redirect to="/leistungen/gaubenbau" />}</Route>
+      <Route path="/wartung">{() => <Redirect to="/leistungen/wartung" />}</Route>
+      <Route path="/flachdach">{() => <Redirect to="/leistungen/flachdach" />}</Route>
+      <Route path="/sturmschaden">{() => <Redirect to="/leistungen/sturmschaden" />}</Route>
+      <Route path="/dachbeschichtung">{() => <Redirect to="/leistungen/dachbeschichtung" />}</Route>
+      <Route path="/dachrinnenreinigung">{() => <Redirect to="/leistungen/dachrinnenreinigung" />}</Route>
+      <Route path="/notdienst">{() => <Redirect to="/leistungen/notdienst" />}</Route>
+      <Route path="/daemmung">{() => <Redirect to="/ratgeber/daemmung" />}</Route>
+      <Route path="/leckortung">{() => <Redirect to="/ratgeber/leckortung" />}</Route>
+      <Route path="/foerderung">{() => <Redirect to="/ratgeber/foerderung" />}</Route>
+      <Route path="/kosten">{() => <Redirect to="/ratgeber/kosten" />}</Route>
+      <Route path="/materialien">{() => <Redirect to="/ratgeber/materialien" />}</Route>
+      <Route path="/about">{() => <Redirect to="/ueber-uns" />}</Route>
+      <Route path="/contact">{() => <Redirect to="/kontakt" />}</Route>
+      <Route path="/services">{() => <Redirect to="/leistungen" />}</Route>
+      <Route path="/privacy">{() => <Redirect to="/datenschutz" />}</Route>
+      <Route path="/imprint">{() => <Redirect to="/impressum" />}</Route>
+      <Route path="/callback">{() => <Redirect to="/rueckruf" />}</Route>
+      <Route path="/consultation">{() => <Redirect to="/beratung" />}</Route>
+      <Route path="/projects">{() => <Redirect to="/referenzen" />}</Route>
+      <Route path="/gallery">{() => <Redirect to="/referenzen" />}</Route>
+      <Route path="/portfolio">{() => <Redirect to="/referenzen" />}</Route>
+      <Route path="/blog">{() => <Redirect to="/ratgeber" />}</Route>
+      <Route path="/news">{() => <Redirect to="/ratgeber" />}</Route>
+      <Route path="/articles">{() => <Redirect to="/ratgeber" />}</Route>
+      <Route path="/termin">{() => <Redirect to="/beratung" />}</Route>
+      <Route path="/anfrage">{() => <Redirect to="/beratung" />}</Route>
+      <Route path="/angebot">{() => <Redirect to="/beratung" />}</Route>
+      
       <Route component={NotFound} />
     </Switch>
     </>
