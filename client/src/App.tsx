@@ -1,7 +1,7 @@
 import { Switch, Route, useLocation } from "wouter";
 import { queryClient } from "./lib/queryClient";
 import { QueryClientProvider } from "@tanstack/react-query";
-import { useEffect, Suspense, lazy } from "react";
+import { useEffect, Suspense, lazy, Component, type ReactNode } from "react";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/not-found";
@@ -11,6 +11,54 @@ import BackgroundLogo from "@/components/BackgroundLogo";
 import { LocalBusinessSchema } from "@/components/SEO";
 import FloatingCTA from "@/components/FloatingCTA";
 import Redirect from "@/components/Redirect";
+
+interface ErrorBoundaryState {
+  hasError: boolean;
+}
+
+class ErrorBoundary extends Component<{ children: ReactNode }, ErrorBoundaryState> {
+  constructor(props: { children: ReactNode }) {
+    super(props);
+    this.state = { hasError: false };
+  }
+
+  static getDerivedStateFromError(): ErrorBoundaryState {
+    return { hasError: true };
+  }
+
+  handleRetry = () => {
+    this.setState({ hasError: false });
+    window.location.reload();
+  };
+
+  render() {
+    if (this.state.hasError) {
+      return (
+        <div className="min-h-screen flex items-center justify-center bg-background" role="alert">
+          <div className="text-center p-8 max-w-md">
+            <div className="w-16 h-16 bg-destructive/10 rounded-full flex items-center justify-center mx-auto mb-4">
+              <svg className="w-8 h-8 text-destructive" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+              </svg>
+            </div>
+            <h1 className="text-xl font-semibold text-foreground mb-2">Seite konnte nicht geladen werden</h1>
+            <p className="text-muted-foreground mb-6">
+              Es gab ein Problem beim Laden dieser Seite. Bitte versuchen Sie es erneut.
+            </p>
+            <button
+              onClick={this.handleRetry}
+              className="inline-flex items-center justify-center rounded-md bg-primary px-6 py-3 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition-colors"
+              data-testid="button-retry-load"
+            >
+              Seite neu laden
+            </button>
+          </div>
+        </div>
+      );
+    }
+    return this.props.children;
+  }
+}
 
 // Lazy-loaded pages for better performance (Code-Splitting)
 const Bedachungen = lazy(() => import("@/pages/Bedachungen"));
@@ -175,6 +223,7 @@ function Router() {
   return (
     <>
     <ScrollToTop />
+    <ErrorBoundary>
     <Suspense fallback={<PageLoader />}>
     <Switch>
       <Route path="/" component={Home} />
@@ -321,6 +370,7 @@ function Router() {
       <Route component={NotFound} />
     </Switch>
     </Suspense>
+    </ErrorBoundary>
     </>
   );
 }
