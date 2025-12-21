@@ -224,7 +224,10 @@ export default function StadtteilSchwanthalerhoehe() {
         currentPage="stadtteile" 
         relatedIds={["stadtteile", "referenzen", "spenglerei", "faq"]}
       />
-      <Contact />
+      <Contact 
+        title="Dachdecker für die Schwanthalerhöhe gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb für die Schwanthalerhöhe – mit kurzer Anfahrt und Erfahrung seit 1998."
+      />
       <Footer />
     </div>
   );

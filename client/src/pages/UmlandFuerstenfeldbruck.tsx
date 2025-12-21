@@ -208,7 +208,10 @@ export default function UmlandFuerstenfeldbruck() {
       </section>
       <LeadFunnel />
       <RelatedServices currentPage="stadtteile" relatedIds={["stadtteile", "referenzen", "dachsanierung", "energieberatung"]} />
-      <Contact />
+      <Contact 
+        title="Dachdecker für Fürstenfeldbruck gesucht?"
+        description="Regelmäßig im Landkreis FFB tätig – Ihr Dachdecker-Meisterbetrieb aus München."
+      />
       <Footer />
     </div>
   );

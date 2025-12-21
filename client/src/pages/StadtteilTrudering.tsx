@@ -224,7 +224,10 @@ export default function StadtteilTrudering() {
         currentPage="stadtteile" 
         relatedIds={["stadtteile", "referenzen", "reparaturservice", "dachsanierung"]}
       />
-      <Contact />
+      <Contact 
+        title="Dachdecker für Trudering gesucht?"
+        description="Familienfreundliche Beratung und Termintreue – Ihr Dachdecker-Meisterbetrieb für Trudering."
+      />
       <Footer />
     </div>
   );

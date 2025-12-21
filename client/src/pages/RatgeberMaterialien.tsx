@@ -238,7 +238,10 @@ export default function RatgeberMaterialien() {
 
       <LeadFunnel />
       <RelatedServices currentPage="ratgeber" relatedIds={["bedachungen", "dachsanierung", "referenzen", "beratung"]} />
-      <Contact />
+      <Contact 
+        title="Welches Dachmaterial passt zu Ihrem Haus?"
+        description="Wir beraten Sie zu allen Materialien – von Tonziegel über Schiefer bis Metall. Kostenlos und unverbindlich."
+      />
       <Footer />
     </div>
   );

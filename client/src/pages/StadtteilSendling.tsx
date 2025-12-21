@@ -157,7 +157,10 @@ export default function StadtteilSendling() {
         currentPage="stadtteile" 
         relatedIds={["stadtteile", "referenzen", "dachsanierung", "faq"]}
       />
-      <Contact />
+      <Contact 
+        title="Dachdecker für Sendling gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Sendling – mit kurzer Anfahrt und Erfahrung seit 1998."
+      />
       <Footer />
     </div>
   );

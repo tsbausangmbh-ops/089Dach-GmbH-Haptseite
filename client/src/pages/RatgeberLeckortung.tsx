@@ -339,7 +339,10 @@ export default function RatgeberLeckortung() {
         currentPage="ratgeber" 
         relatedIds={["reparaturservice", "wartung", "bedachungen", "faq"]}
       />
-      <Contact />
+      <Contact 
+        title="Undichtigkeit am Dach? Wir finden sie!"
+        description="Professionelle Leckortung mit modernster Technik. Wir finden das Leck und beheben es nachhaltig."
+      />
       <Footer />
     </div>
   );

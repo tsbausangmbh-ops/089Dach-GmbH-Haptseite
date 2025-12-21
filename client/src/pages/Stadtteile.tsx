@@ -192,7 +192,10 @@ export default function Stadtteile() {
         currentPage="stadtteile" 
         relatedIds={["referenzen", "faq", "dachsanierung", "bedachungen"]}
       />
-      <Contact />
+      <Contact 
+        title="Dachdecker für Ihren Stadtteil?"
+        description="Wir sind in ganz München und Umgebung für Sie da – mit kurzen Anfahrtswegen und lokaler Erfahrung seit 1998."
+      />
       <Footer />
     </div>
   );

@@ -268,7 +268,10 @@ export default function StadtteilIsarvorstadt() {
         currentPage="stadtteile" 
         relatedIds={["referenzen", "spenglerei", "dachsanierung", "wartung"]}
       />
-      <Contact />
+      <Contact 
+        title="Dachdecker für die Isarvorstadt gesucht?"
+        description="Altbau-Erfahrung und Denkmalschutz-Kompetenz – Ihr Dachdecker-Meisterbetrieb für die Isarvorstadt."
+      />
       <Footer />
     </div>
   );

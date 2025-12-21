@@ -223,7 +223,10 @@ export default function StadtteilSchwabing() {
         currentPage="stadtteile" 
         relatedIds={["stadtteile", "referenzen", "spenglerei", "faq"]}
       />
-      <Contact />
+      <Contact 
+        title="Dachdecker für Schwabing gesucht?"
+        description="Altbau-Erfahrung, Denkmalschutz-Kompetenz und lokale Referenzen – Ihr Dachdecker-Meisterbetrieb in Schwabing."
+      />
       <Footer />
     </div>
   );

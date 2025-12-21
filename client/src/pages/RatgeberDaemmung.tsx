@@ -373,7 +373,10 @@ export default function RatgeberDaemmung() {
         currentPage="ratgeber" 
         relatedIds={["dachsanierung", "energieberatung", "wartung", "faq"]}
       />
-      <Contact />
+      <Contact 
+        title="Dämmung für Ihr Dach planen?"
+        description="Wir beraten Sie zu allen Dämm-Methoden und Fördermöglichkeiten – kostenlos und unverbindlich vor Ort."
+      />
       <Footer />
     </div>
   );

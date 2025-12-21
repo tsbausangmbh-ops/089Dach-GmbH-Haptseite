@@ -223,7 +223,10 @@ export default function StadtteilLehel() {
         currentPage="stadtteile" 
         relatedIds={["stadtteile", "referenzen", "spenglerei", "faq"]}
       />
-      <Contact />
+      <Contact 
+        title="Dachdecker fürs Lehel gesucht?"
+        description="Villen-Erfahrung und Premium-Qualität – Ihr Dachdecker-Meisterbetrieb fürs Lehel."
+      />
       <Footer />
     </div>
   );

@@ -208,7 +208,10 @@ export default function UmlandOttobrunn() {
       </section>
       <LeadFunnel />
       <RelatedServices currentPage="stadtteile" relatedIds={["stadtteile", "referenzen", "dachsanierung", "energieberatung"]} />
-      <Contact />
+      <Contact 
+        title="Dachdecker für Ottobrunn gesucht?"
+        description="Schnelle Anfahrt aus München – Ihr Dachdecker-Meisterbetrieb für Ottobrunn."
+      />
       <Footer />
     </div>
   );

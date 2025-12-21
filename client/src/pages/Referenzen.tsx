@@ -481,7 +481,10 @@ export default function Referenzen() {
         currentPage="referenzen" 
         relatedIds={["dachsanierung", "bedachungen", "spenglerei", "faq"]}
       />
-      <Contact />
+      <Contact 
+        title="Begeistert von unseren Referenzen?"
+        description="Lassen Sie sich von unserer Qualität überzeugen – wir beraten Sie gerne zu Ihrem Dachprojekt. Kostenlos und unverbindlich."
+      />
       <Footer />
     </div>
   );

@@ -223,7 +223,10 @@ export default function StadtteilNeuhausen() {
         currentPage="stadtteile" 
         relatedIds={["stadtteile", "referenzen", "dachsanierung", "gaubenbau"]}
       />
-      <Contact />
+      <Contact 
+        title="Dachdecker für Neuhausen gesucht?"
+        description="Altbau-Experten und Denkmalschutz-Erfahrung – Ihr Dachdecker-Meisterbetrieb für Neuhausen."
+      />
       <Footer />
     </div>
   );

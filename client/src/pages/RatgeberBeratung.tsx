@@ -482,7 +482,10 @@ export default function RatgeberBeratung() {
         currentPage="ratgeber" 
         relatedIds={["energieberatung", "dachsanierung", "faq", "referenzen"]}
       />
-      <Contact />
+      <Contact 
+        title="Persönliche Beratung gewünscht?"
+        description="Vereinbaren Sie jetzt Ihren kostenlosen Beratungstermin – vor Ort oder telefonisch, ganz wie Sie möchten."
+      />
       <Footer />
     </div>
   );

@@ -268,7 +268,10 @@ export default function StadtteilAubing() {
         currentPage="stadtteile" 
         relatedIds={["referenzen", "dachsanierung", "reparaturservice", "wartung"]}
       />
-      <Contact />
+      <Contact 
+        title="Dachdecker für Aubing gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Aubing – mit kurzer Anfahrt und Erfahrung seit 1998."
+      />
       <Footer />
     </div>
   );

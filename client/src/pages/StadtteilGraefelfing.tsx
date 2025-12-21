@@ -222,7 +222,10 @@ export default function StadtteilGraefelfing() {
         currentPage="stadtteile" 
         relatedIds={["referenzen", "dachsanierung", "reparaturservice", "wartung"]}
       />
-      <Contact />
+      <Contact 
+        title="Dachdecker für Gräfelfing gesucht?"
+        description="Villen-Erfahrung und Premium-Qualität – Ihr Dachdecker-Meisterbetrieb für Gräfelfing."
+      />
       <Footer />
     </div>
   );

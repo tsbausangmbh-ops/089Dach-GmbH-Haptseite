@@ -267,7 +267,10 @@ export default function StadtteilHadern() {
         currentPage="stadtteile" 
         relatedIds={["referenzen", "dachsanierung", "flachdach", "wartung"]}
       />
-      <Contact />
+      <Contact 
+        title="Dachdecker für Hadern gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Hadern – mit kurzer Anfahrt und Erfahrung seit 1998."
+      />
       <Footer />
     </div>
   );

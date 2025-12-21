@@ -425,7 +425,10 @@ export default function UeberUns() {
         currentPage="ueber-uns" 
         relatedIds={["referenzen", "faq", "dachsanierung", "stadtteile"]}
       />
-      <Contact />
+      <Contact 
+        title="Lernen Sie uns persönlich kennen"
+        description="Vereinbaren Sie einen Termin und überzeugen Sie sich von unserer Qualität und Zuverlässigkeit – seit 1998 in München."
+      />
       <Footer />
     </div>
   );

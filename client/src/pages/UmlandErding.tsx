@@ -208,7 +208,10 @@ export default function UmlandErding() {
       </section>
       <LeadFunnel />
       <RelatedServices currentPage="stadtteile" relatedIds={["stadtteile", "referenzen", "dachsanierung", "dachfenster"]} />
-      <Contact />
+      <Contact 
+        title="Dachdecker für Erding gesucht?"
+        description="Regelmäßig in Erding tätig – Ihr Dachdecker-Meisterbetrieb aus München."
+      />
       <Footer />
     </div>
   );

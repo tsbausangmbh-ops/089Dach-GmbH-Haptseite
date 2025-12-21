@@ -128,7 +128,10 @@ export default function Home() {
         </section>
 
         <CustomerReviews />
-        <Contact />
+        <Contact 
+          title="Sprechen Sie mit uns über Ihr Dach"
+          description="Ob Sanierung, Reparatur oder Neubau – wir beraten Sie kostenlos vor Ort und erstellen Ihnen ein individuelles Angebot."
+        />
       </main>
       <Footer />
     </div>

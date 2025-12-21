@@ -208,7 +208,10 @@ export default function StadtteilMilbertshofen() {
       </section>
       <LeadFunnel />
       <RelatedServices currentPage="stadtteile" relatedIds={["stadtteile", "referenzen", "dachsanierung", "energieberatung"]} />
-      <Contact />
+      <Contact 
+        title="Dachdecker für Milbertshofen gesucht?"
+        description="Gewerbe-Erfahrung und schnelle Anfahrt – Ihr Dachdecker-Meisterbetrieb für Milbertshofen."
+      />
       <Footer />
     </div>
   );

@@ -268,7 +268,10 @@ export default function StadtteilFeldmoching() {
         currentPage="stadtteile" 
         relatedIds={["referenzen", "dachsanierung", "reparaturservice", "wartung"]}
       />
-      <Contact />
+      <Contact 
+        title="Dachdecker für Feldmoching gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Feldmoching – mit kurzer Anfahrt und Erfahrung seit 1998."
+      />
       <Footer />
     </div>
   );

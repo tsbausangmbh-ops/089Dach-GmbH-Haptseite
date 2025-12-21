@@ -208,7 +208,10 @@ export default function StadtteilRamersdorf() {
       </section>
       <LeadFunnel />
       <RelatedServices currentPage="stadtteile" relatedIds={["stadtteile", "referenzen", "dachsanierung", "energieberatung"]} />
-      <Contact />
+      <Contact 
+        title="Dachdecker für Ramersdorf gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Ramersdorf – mit kurzer Anfahrt und Erfahrung seit 1998."
+      />
       <Footer />
     </div>
   );

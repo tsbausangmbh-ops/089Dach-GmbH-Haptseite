@@ -224,7 +224,10 @@ export default function StadtteilSendlingWestpark() {
         currentPage="stadtteile" 
         relatedIds={["stadtteile", "referenzen", "spenglerei", "faq"]}
       />
-      <Contact />
+      <Contact 
+        title="Dachdecker für Sendling-Westpark gesucht?"
+        description="Familienfreundliche Beratung und faire Preise – Ihr Dachdecker-Meisterbetrieb für Sendling-Westpark."
+      />
       <Footer />
     </div>
   );

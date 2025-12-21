@@ -267,7 +267,10 @@ export default function StadtteilGiesing() {
         currentPage="stadtteile" 
         relatedIds={["referenzen", "dachsanierung", "reparaturservice", "wartung"]}
       />
-      <Contact />
+      <Contact 
+        title="Dachdecker für Giesing gesucht?"
+        description="Traditionsreiches Handwerk für Ihr Viertel – Ihr Dachdecker-Meisterbetrieb für Giesing seit 1998."
+      />
       <Footer />
     </div>
   );

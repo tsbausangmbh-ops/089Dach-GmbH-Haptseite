@@ -313,7 +313,10 @@ export default function StadtteilPasing() {
         currentPage="stadtteile" 
         relatedIds={["stadtteile", "referenzen", "dachsanierung", "faq"]}
       />
-      <Contact />
+      <Contact 
+        title="Dachdecker für Pasing gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Pasing – mit kurzer Anfahrt und Erfahrung seit 1998."
+      />
       <Footer />
     </div>
   );

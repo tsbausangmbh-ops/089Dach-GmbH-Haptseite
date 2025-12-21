@@ -224,7 +224,10 @@ export default function StadtteilOberfoehring() {
         currentPage="stadtteile" 
         relatedIds={["stadtteile", "referenzen", "spenglerei", "faq"]}
       />
-      <Contact />
+      <Contact 
+        title="Dachdecker für Oberföhring gesucht?"
+        description="Villen-Erfahrung und Premium-Qualität – Ihr Dachdecker-Meisterbetrieb für Oberföhring."
+      />
       <Footer />
     </div>
   );

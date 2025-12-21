@@ -208,7 +208,10 @@ export default function UmlandFreising() {
       </section>
       <LeadFunnel />
       <RelatedServices currentPage="stadtteile" relatedIds={["stadtteile", "referenzen", "dachsanierung", "energieberatung"]} />
-      <Contact />
+      <Contact 
+        title="Dachdecker für Freising gesucht?"
+        description="Denkmalschutz-Erfahrung und schnelle Anfahrt – Ihr Dachdecker-Meisterbetrieb für Freising."
+      />
       <Footer />
     </div>
   );

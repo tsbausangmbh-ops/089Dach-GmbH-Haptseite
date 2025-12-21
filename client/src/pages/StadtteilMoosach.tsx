@@ -224,7 +224,10 @@ export default function StadtteilMoosach() {
         currentPage="stadtteile" 
         relatedIds={["stadtteile", "referenzen", "reparaturservice", "wartung"]}
       />
-      <Contact />
+      <Contact 
+        title="Dachdecker für Moosach gesucht?"
+        description="Wir sind Ihr direkter Nachbar in Moosach – schnellster Notdienst und Meisterqualität seit 1998."
+      />
       <Footer />
     </div>
   );

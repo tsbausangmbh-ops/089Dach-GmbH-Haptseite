@@ -223,7 +223,10 @@ export default function StadtteilSolln() {
         currentPage="stadtteile" 
         relatedIds={["stadtteile", "referenzen", "dachsanierung", "gaubenbau"]}
       />
-      <Contact />
+      <Contact 
+        title="Dachdecker für Solln gesucht?"
+        description="Villen-Erfahrung und Denkmalschutz-Kompetenz – Ihr Dachdecker-Meisterbetrieb für Solln."
+      />
       <Footer />
     </div>
   );

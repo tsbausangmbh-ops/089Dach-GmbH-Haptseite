@@ -367,7 +367,10 @@ export default function Ratgeber() {
         currentPage="ratgeber" 
         relatedIds={["faq", "referenzen", "dachsanierung", "wartung"]}
       />
-      <Contact />
+      <Contact 
+        title="Noch Fragen zu Ihrem Dachprojekt?"
+        description="Unser Ratgeber-Team beantwortet Ihre Fragen rund um Dach, Dämmung und Förderung – kostenlos und unverbindlich."
+      />
       <Footer />
     </div>
   );

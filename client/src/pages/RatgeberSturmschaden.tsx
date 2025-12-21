@@ -231,7 +231,10 @@ export default function RatgeberSturmschaden() {
 
       <LeadFunnel />
       <RelatedServices currentPage="ratgeber" relatedIds={["notdienst", "sturmschaden", "reparaturservice", "referenzen"]} />
-      <Contact />
+      <Contact 
+        title="Sturmschaden am Dach? Sofort handeln!"
+        description="Wir helfen bei der Schadensdokumentation und Versicherungsabwicklung – schnell und unkompliziert."
+      />
       <Footer />
     </div>
   );

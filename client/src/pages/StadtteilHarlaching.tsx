@@ -268,7 +268,10 @@ export default function StadtteilHarlaching() {
         currentPage="stadtteile" 
         relatedIds={["referenzen", "dachsanierung", "dachfenster", "wartung"]}
       />
-      <Contact />
+      <Contact 
+        title="Dachdecker für Harlaching gesucht?"
+        description="Villen-Erfahrung und Premium-Qualität – Ihr Dachdecker-Meisterbetrieb für Harlaching."
+      />
       <Footer />
     </div>
   );

@@ -84,7 +84,10 @@ export default function ContactPage() {
       </section>
       <BackButton />
 
-      <Contact />
+      <Contact 
+        title="So erreichen Sie uns"
+        description="Ob per Telefon, E-Mail oder persönlich – wir sind für Sie da. Schnelle Antwort innerhalb von 24 Stunden garantiert."
+      />
       
       <Footer />
     </div>

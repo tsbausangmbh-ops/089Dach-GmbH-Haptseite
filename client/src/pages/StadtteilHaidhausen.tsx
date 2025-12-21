@@ -253,7 +253,10 @@ export default function StadtteilHaidhausen() {
 
       <LeadFunnel />
       <RelatedServices currentPage="stadtteile" relatedIds={["referenzen", "gaubenbau", "dachsanierung", "wartung"]} />
-      <Contact />
+      <Contact 
+        title="Dachdecker für Haidhausen gesucht?"
+        description="Altbau-Erfahrung und Denkmalschutz-Kompetenz – Ihr Dachdecker-Meisterbetrieb für Haidhausen."
+      />
       <Footer />
     </div>
   );

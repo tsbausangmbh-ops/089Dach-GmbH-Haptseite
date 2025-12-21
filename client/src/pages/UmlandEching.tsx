@@ -183,7 +183,10 @@ export default function UmlandEching() {
       </section>
       <RelatedServices currentPage="dachdecker-eching" />
       <LeadFunnel />
-      <Contact />
+      <Contact 
+        title="Dachdecker für Eching gesucht?"
+        description="Von München aus schnell bei Ihnen – Ihr Dachdecker-Meisterbetrieb für Eching und Umgebung."
+      />
       <Footer />
     </div>
   );

@@ -183,7 +183,10 @@ export default function UmlandPuchheim() {
       </section>
       <RelatedServices currentPage="dachdecker-puchheim" />
       <LeadFunnel />
-      <Contact />
+      <Contact 
+        title="Dachdecker für Puchheim gesucht?"
+        description="Von München aus schnell bei Ihnen – Ihr Dachdecker-Meisterbetrieb für Puchheim und Umgebung."
+      />
       <Footer />
     </div>
   );

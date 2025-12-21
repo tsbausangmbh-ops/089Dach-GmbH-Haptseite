@@ -233,7 +233,10 @@ export default function RatgeberKosten() {
 
       <LeadFunnel />
       <RelatedServices currentPage="ratgeber" relatedIds={["dachsanierung", "energieberatung", "referenzen", "beratung"]} />
-      <Contact />
+      <Contact 
+        title="Konkrete Kosten für Ihr Dachprojekt?"
+        description="Wir erstellen Ihnen ein unverbindliches Festpreis-Angebot innerhalb von 24 Stunden – ohne versteckte Kosten."
+      />
       <Footer />
     </div>
   );

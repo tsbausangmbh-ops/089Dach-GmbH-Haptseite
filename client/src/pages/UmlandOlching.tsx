@@ -183,7 +183,10 @@ export default function UmlandOlching() {
       </section>
       <RelatedServices currentPage="dachdecker-olching" />
       <LeadFunnel />
-      <Contact />
+      <Contact 
+        title="Dachdecker für Olching gesucht?"
+        description="Von München aus schnell bei Ihnen – Ihr Dachdecker-Meisterbetrieb für Olching und Umgebung."
+      />
       <Footer />
     </div>
   );

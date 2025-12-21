@@ -268,7 +268,10 @@ export default function StadtteilFreimann() {
         currentPage="stadtteile" 
         relatedIds={["referenzen", "dachsanierung", "reparaturservice", "wartung"]}
       />
-      <Contact />
+      <Contact 
+        title="Dachdecker für Freimann gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Freimann – mit kurzer Anfahrt und Erfahrung seit 1998."
+      />
       <Footer />
     </div>
   );

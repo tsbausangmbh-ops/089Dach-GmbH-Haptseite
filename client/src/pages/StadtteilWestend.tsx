@@ -223,7 +223,10 @@ export default function StadtteilWestend() {
         currentPage="stadtteile" 
         relatedIds={["stadtteile", "referenzen", "gaubenbau", "faq"]}
       />
-      <Contact />
+      <Contact 
+        title="Dachdecker fürs Westend gesucht?"
+        description="Privat und Gewerbe – Ihr Dachdecker-Meisterbetrieb fürs Westend mit flexiblen Terminen."
+      />
       <Footer />
     </div>
   );

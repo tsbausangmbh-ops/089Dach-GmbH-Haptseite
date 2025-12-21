@@ -223,7 +223,10 @@ export default function UmlandGermering() {
         currentPage="stadtteile" 
         relatedIds={["stadtteile", "referenzen", "dachsanierung", "energieberatung"]}
       />
-      <Contact />
+      <Contact 
+        title="Dachdecker für Germering gesucht?"
+        description="Schnelle Anfahrt aus München – Ihr Dachdecker-Meisterbetrieb für Germering."
+      />
       <Footer />
     </div>
   );

@@ -268,7 +268,10 @@ export default function StadtteilAltstadt() {
         currentPage="stadtteile" 
         relatedIds={["referenzen", "dachsanierung", "reparaturservice", "wartung"]}
       />
-      <Contact />
+      <Contact 
+        title="Dachdecker für die Altstadt gesucht?"
+        description="Denkmalschutz-Erfahrung und Altbaukompetenz – Ihr Dachdecker-Meisterbetrieb für die Münchner Altstadt."
+      />
       <Footer />
     </div>
   );

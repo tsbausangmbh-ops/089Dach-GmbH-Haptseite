@@ -223,7 +223,10 @@ export default function StadtteilMaxvorstadt() {
         currentPage="stadtteile" 
         relatedIds={["stadtteile", "referenzen", "spenglerei", "faq"]}
       />
-      <Contact />
+      <Contact 
+        title="Dachdecker für die Maxvorstadt gesucht?"
+        description="Denkmalschutz-Erfahrung und Altbaukompetenz – Ihr Dachdecker-Meisterbetrieb für die Maxvorstadt."
+      />
       <Footer />
     </div>
   );

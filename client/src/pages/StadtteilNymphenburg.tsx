@@ -224,7 +224,10 @@ export default function StadtteilNymphenburg() {
         currentPage="stadtteile" 
         relatedIds={["stadtteile", "referenzen", "dachsanierung", "bedachungen"]}
       />
-      <Contact />
+      <Contact 
+        title="Dachdecker für Nymphenburg gesucht?"
+        description="Altbau-Erfahrung und Denkmalschutz-Kompetenz – Ihr Dachdecker-Meisterbetrieb für Nymphenburg."
+      />
       <Footer />
     </div>
   );

@@ -228,7 +228,10 @@ export default function StadtteilObermenzing() {
         currentPage="stadtteile" 
         relatedIds={["stadtteile", "referenzen", "spenglerei", "dachsanierung"]}
       />
-      <Contact />
+      <Contact 
+        title="Dachdecker für Obermenzing gesucht?"
+        description="Unser Firmensitz ist in Obermenzing – kürzeste Anfahrt und Premium-Qualität seit 1998."
+      />
       <Footer />
     </div>
   );

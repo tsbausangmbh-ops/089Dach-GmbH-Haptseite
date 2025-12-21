@@ -322,7 +322,10 @@ export default function FAQ() {
         currentPage="faq" 
         relatedIds={["ratgeber", "referenzen", "dachsanierung", "wartung"]}
       />
-      <Contact />
+      <Contact 
+        title="Ihre Frage ist nicht dabei?"
+        description="Kein Problem – rufen Sie uns an oder schreiben Sie uns. Wir nehmen uns Zeit für Ihre Fragen, auch wenn Sie noch gar nicht wissen, ob Sie etwas machen wollen."
+      />
       <Footer />
     </div>
   );

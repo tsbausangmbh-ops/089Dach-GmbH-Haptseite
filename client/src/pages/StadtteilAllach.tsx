@@ -259,7 +259,10 @@ export default function StadtteilAllach() {
         currentPage="stadtteile" 
         relatedIds={["referenzen", "dachsanierung", "reparaturservice", "wartung"]}
       />
-      <Contact />
+      <Contact 
+        title="Dachdecker für Allach gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Allach – mit kurzer Anfahrt und Erfahrung seit 1998."
+      />
       <Footer />
     </div>
   );

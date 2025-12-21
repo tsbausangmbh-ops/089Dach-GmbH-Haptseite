@@ -268,7 +268,10 @@ export default function StadtteilBogenhausen() {
         currentPage="stadtteile" 
         relatedIds={["referenzen", "dachsanierung", "reparaturservice", "wartung"]}
       />
-      <Contact />
+      <Contact 
+        title="Dachdecker für Bogenhausen gesucht?"
+        description="Villen-Erfahrung und Premium-Qualität – Ihr Dachdecker-Meisterbetrieb für Bogenhausen."
+      />
       <Footer />
     </div>
   );

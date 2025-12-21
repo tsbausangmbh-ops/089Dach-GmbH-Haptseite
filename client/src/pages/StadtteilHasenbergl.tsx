@@ -268,7 +268,10 @@ export default function StadtteilHasenbergl() {
         currentPage="stadtteile" 
         relatedIds={["referenzen", "spenglerei", "dachsanierung", "wartung"]}
       />
-      <Contact />
+      <Contact 
+        title="Dachdecker fürs Hasenbergl gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb im Hasenbergl – mit kurzer Anfahrt und Erfahrung seit 1998."
+      />
       <Footer />
     </div>
   );

@@ -208,7 +208,10 @@ export default function UmlandUnterschleissheim() {
       </section>
       <LeadFunnel />
       <RelatedServices currentPage="stadtteile" relatedIds={["stadtteile", "referenzen", "dachsanierung", "energieberatung"]} />
-      <Contact />
+      <Contact 
+        title="Dachdecker für Unterschleißheim gesucht?"
+        description="Schnelle Anfahrt aus München – Ihr Dachdecker-Meisterbetrieb für Unterschleißheim."
+      />
       <Footer />
     </div>
   );

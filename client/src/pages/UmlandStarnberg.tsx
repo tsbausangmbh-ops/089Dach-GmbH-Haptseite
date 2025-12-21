@@ -223,7 +223,10 @@ export default function UmlandStarnberg() {
         currentPage="stadtteile" 
         relatedIds={["stadtteile", "referenzen", "spenglerei", "dachsanierung"]}
       />
-      <Contact />
+      <Contact 
+        title="Dachdecker für Starnberg gesucht?"
+        description="Villen-Erfahrung und Premium-Qualität – Ihr Dachdecker-Meisterbetrieb für Starnberg und den See."
+      />
       <Footer />
     </div>
   );

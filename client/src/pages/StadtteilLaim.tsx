@@ -230,7 +230,10 @@ export default function StadtteilLaim() {
         currentPage="stadtteile" 
         relatedIds={["stadtteile", "referenzen", "bedachungen", "faq"]}
       />
-      <Contact />
+      <Contact 
+        title="Dachdecker für Laim gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Laim – mit kurzer Anfahrt und Erfahrung seit 1998."
+      />
       <Footer />
     </div>
   );

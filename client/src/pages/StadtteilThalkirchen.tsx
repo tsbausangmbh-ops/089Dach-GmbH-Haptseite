@@ -223,7 +223,10 @@ export default function StadtteilThalkirchen() {
         currentPage="stadtteile" 
         relatedIds={["stadtteile", "referenzen", "dachfenster", "faq"]}
       />
-      <Contact />
+      <Contact 
+        title="Dachdecker für Thalkirchen gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Thalkirchen – mit kurzer Anfahrt und Erfahrung seit 1998."
+      />
       <Footer />
     </div>
   );

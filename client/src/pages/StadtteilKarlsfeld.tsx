@@ -224,7 +224,10 @@ export default function StadtteilKarlsfeld() {
         currentPage="stadtteile" 
         relatedIds={["stadtteile", "referenzen", "dachsanierung", "energieberatung"]}
       />
-      <Contact />
+      <Contact 
+        title="Dachdecker für Karlsfeld gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Karlsfeld – mit kurzer Anfahrt und Erfahrung seit 1998."
+      />
       <Footer />
     </div>
   );

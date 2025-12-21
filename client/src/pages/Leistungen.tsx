@@ -346,7 +346,10 @@ export default function Leistungen() {
       </section>
       */}
 
-            <Contact />
+            <Contact 
+        title="Welche Leistung benötigen Sie?"
+        description="Egal ob Dachsanierung, Flachdach oder Spenglerarbeiten – wir beraten Sie gerne zu allen Dachthemen. Kostenlos und unverbindlich."
+      />
       <Footer />
     </div>
   );

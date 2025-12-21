@@ -223,7 +223,10 @@ export default function RatgeberFoerderung() {
 
       <LeadFunnel />
       <RelatedServices currentPage="ratgeber" relatedIds={["energieberatung", "dachsanierung", "daemmung", "referenzen"]} />
-      <Contact />
+      <Contact 
+        title="Förderung für Ihr Dach sichern?"
+        description="Wir prüfen Ihre Fördermöglichkeiten und helfen beim Antrag. Im Schnitt holen wir 12.000€ für unsere Kunden."
+      />
       <Footer />
     </div>
   );
