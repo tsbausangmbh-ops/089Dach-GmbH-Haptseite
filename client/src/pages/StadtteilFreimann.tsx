@@ -240,22 +240,12 @@ export default function StadtteilFreimann() {
       <section className="py-8 bg-stone-50">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
           <h3 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-6">Referenzprojekte in {stadtteilData.name}</h3>
-          <div className="grid grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {stadtteilData.referenzProjekte.map((projekt, idx) => (
-              <div key={idx} className="bg-white rounded-xl overflow-hidden shadow-sm border border-gray-100">
-                <div className="aspect-[4/3] overflow-hidden">
-                  <img 
-                    src={idx === 0 ? imgDachsanierung : imgReferenz2} 
-                    alt={`Referenzprojekt ${projekt.titel}`}
-                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-                    loading="lazy"
-                  />
-                </div>
-                <div className="p-4 md:p-6">
-                  <h4 className="font-bold text-secondary text-lg mb-2">{projekt.titel}</h4>
-                  <p className="text-muted-foreground mb-2">{projekt.beschreibung}</p>
-                  <p className="text-sm text-primary font-medium">Fertigstellung: {projekt.jahr}</p>
-                </div>
+              <div key={idx} className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+                <h4 className="font-bold text-secondary text-lg mb-2">{projekt.titel}</h4>
+                <p className="text-muted-foreground mb-3">{projekt.beschreibung}</p>
+                <p className="text-sm text-primary font-medium">Fertigstellung: {projekt.jahr}</p>
               </div>
             ))}
           </div>
