@@ -25,7 +25,7 @@ const stadtteilData = {
     "Zinkornamente",
     "Flachdach Stadthäuser"
   ],
-  nachbarStadtteile: ["Altstadt", "Maxvorstadt", "Bogenhausen", "Au-Haidhausen"],
+  nachbarStadtteile: ["Altstadt", "Haidhausen", "Bogenhausen", "Maxvorstadt"],
   referenzProjekt: {
     titel: "Gründerzeitvilla Lehel",
     beschreibung: "Sanierung eines historischen Walmdachs mit Biberschwanzziegel und neuen Kupferrinnen. Restaurierung der originalen Dachornamente.",

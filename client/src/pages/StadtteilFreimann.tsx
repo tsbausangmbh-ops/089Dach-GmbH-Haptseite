@@ -33,7 +33,7 @@ const stadtteilData = {
     "Solaranlage-Vorbereitung",
     "Dachrinnenreinigung"
   ],
-  nachbarStadtteile: ["Milbertshofen", "Schwabing", "Feldmoching", "Bogenhausen"],
+  nachbarStadtteile: ["Milbertshofen", "Schwabing", "Bogenhausen", "Unterföhring"],
   referenzProjekte: [
     {
       titel: "Einfamilienhaus Freimann",

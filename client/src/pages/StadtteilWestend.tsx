@@ -25,7 +25,7 @@ const stadtteilData = {
     "Dachgeschossausbau",
     "Gauben-Einbau"
   ],
-  nachbarStadtteile: ["Schwanthalerhöhe", "Laim", "Sendling", "Ludwigsvorstadt"],
+  nachbarStadtteile: ["Schwanthalerhöhe", "Laim", "Neuhausen", "Sendling"],
   referenzProjekt: {
     titel: "Altbau-Mehrfamilienhaus Westend",
     beschreibung: "Sanierung eines gründerzeitlichen Mansarddachs mit Schiefer und Zink. Erneuerung der Gauben und Einbau von Dachfenstern.",

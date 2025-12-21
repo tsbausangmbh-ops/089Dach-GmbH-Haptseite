@@ -25,7 +25,7 @@ const stadtteilData = {
     "Flachdachabdichtung",
     "Dachfenster für mehr Licht"
   ],
-  nachbarStadtteile: ["Laim", "Hadern", "Thalkirchen", "Westend"],
+  nachbarStadtteile: ["Sendling-Westpark", "Thalkirchen", "Giesing", "Isarvorstadt"],
   referenzProjekt: {
     titel: "Dachausbau mit Gaube Sendling",
     beschreibung: "Ausbau eines ungenutzten Dachbodens zum Wohnraum mit zwei Schleppgauben und drei Velux-Dachfenstern. KfW-Förderung für die Dämmung.",

@@ -26,7 +26,7 @@ const stadtteilData = {
     "Dachdämmung Bestandsbau",
     "Dachfenster-Einbau"
   ],
-  nachbarStadtteile: ["Giesing", "Trudering", "Ottobrunn", "Unterhaching"],
+  nachbarStadtteile: ["Giesing", "Berg am Laim", "Trudering", "Haidhausen"],
   referenzProjekt: {
     titel: "Siedlungshaus Ramersdorf",
     beschreibung: "Komplettsanierung eines Siedlungshauses aus den 1950er Jahren mit neuer Ziegeleindeckung und Aufsparrendämmung.",

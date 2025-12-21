@@ -33,7 +33,7 @@ const stadtteilData = {
     "Kirchendächer",
     "Historische Gauben"
   ],
-  nachbarStadtteile: ["Maxvorstadt", "Lehel", "Isarvorstadt", "Ludwigsvorstadt"],
+  nachbarStadtteile: ["Lehel", "Isarvorstadt", "Maxvorstadt", "Haidhausen"],
   referenzProjekte: [
     {
       titel: "Geschäftshaus am Viktualienmarkt",

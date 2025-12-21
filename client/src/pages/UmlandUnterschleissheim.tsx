@@ -26,7 +26,7 @@ const stadtteilData = {
     "Dachdämmung nach EnEV",
     "Solaranlage-Vorbereitung"
   ],
-  nachbarStadtteile: ["Feldmoching", "Oberschleißheim", "Garching", "Lohhof"],
+  nachbarStadtteile: ["Oberschleißheim", "Garching", "Dachau", "Feldmoching"],
   referenzProjekt: {
     titel: "Reihenhaussiedlung Unterschleißheim",
     beschreibung: "Dachsanierung einer 8er-Reihenhauszeile mit einheitlicher Ziegeleindeckung und neuer Dämmung.",

@@ -26,7 +26,7 @@ const stadtteilData = {
     "Zinkblechdach Villa",
     "Dachflächenfenster Einbau"
   ],
-  nachbarStadtteile: ["Nymphenburg", "Maxvorstadt", "Schwabing", "Moosach"],
+  nachbarStadtteile: ["Nymphenburg", "Laim", "Schwanthalerhöhe", "Maxvorstadt"],
   referenzProjekt: {
     titel: "Gründerzeithaus Neuhausen",
     beschreibung: "Denkmalgerechte Dachsanierung eines 4-geschossigen Altbaus mit originalgetreuen Schiefern und neuer Wärmedämmung.",

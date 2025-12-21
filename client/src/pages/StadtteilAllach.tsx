@@ -33,7 +33,7 @@ const stadtteilData = {
     "Dachdämmung Altbau",
     "Dachrinnen-Erneuerung"
   ],
-  nachbarStadtteile: ["Obermenzing", "Moosach", "Karlsfeld", "Untermenzing"],
+  nachbarStadtteile: ["Obermenzing", "Moosach", "Karlsfeld", "Feldmoching"],
   referenzProjekte: [
     {
       titel: "Siedlungshaus Allach",

@@ -25,7 +25,7 @@ const stadtteilData = {
     "Dachdämmung EnEV",
     "Sturmschaden-Reparatur"
   ],
-  nachbarStadtteile: ["Sendling", "Obersendling", "Solln", "Harlaching"],
+  nachbarStadtteile: ["Sendling", "Harlaching", "Solln", "Forstenried"],
   referenzProjekt: {
     titel: "Einfamilienhaus Thalkirchen",
     beschreibung: "Komplettsanierung eines Satteldachs mit Aufsparrendämmung und neuen Tonziegeln. Inkl. drei neuer VELUX-Dachfenster.",

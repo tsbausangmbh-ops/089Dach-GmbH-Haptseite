@@ -25,7 +25,7 @@ const stadtteilData = {
     "Dachfenster Austausch",
     "Dachrinnenreinigung und -erneuerung"
   ],
-  nachbarStadtteile: ["Pasing", "Obermenzing", "Neuhausen", "Sendling-Westpark"],
+  nachbarStadtteile: ["Pasing", "Hadern", "Sendling-Westpark", "Neuhausen"],
   referenzProjekt: {
     titel: "Flachdachsanierung Wohnanlage Laim",
     beschreibung: "Komplettsanierung eines 600 m² Flachdachs mit EPDM-Abdichtung und extensiver Dachbegrünung. Energetische Verbesserung der Dämmung.",

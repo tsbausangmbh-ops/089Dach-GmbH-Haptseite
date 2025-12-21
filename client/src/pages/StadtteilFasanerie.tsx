@@ -33,7 +33,7 @@ const stadtteilData = {
     "Dachfenster-Einbau",
     "Dachrinnen-Reinigung"
   ],
-  nachbarStadtteile: ["Feldmoching", "Moosach", "Hasenbergl", "Lerchenau"],
+  nachbarStadtteile: ["Feldmoching", "Moosach", "Hasenbergl", "Milbertshofen"],
   referenzProjekte: [
     {
       titel: "Reihenhaus Fasanerie",

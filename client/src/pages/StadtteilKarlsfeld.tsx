@@ -26,7 +26,7 @@ const stadtteilData = {
     "Dachdämmung nach KfW-Standard",
     "Solaranlage-Vorbereitung"
   ],
-  nachbarStadtteile: ["Allach", "Feldmoching", "Dachau", "Moosach"],
+  nachbarStadtteile: ["Allach", "Dachau", "Feldmoching", "Moosach"],
   referenzProjekt: {
     titel: "Mehrfamilienhaus Karlsfeld",
     beschreibung: "Energetische Dachsanierung eines 12-Parteien-Hauses mit Aufsparrendämmung und neuer Ziegeleindeckung nach KfW-Förderstandard.",

@@ -26,7 +26,7 @@ const stadtteilData = {
     "Dachdämmung Bestandsbau",
     "Solaranlage-Vorbereitung"
   ],
-  nachbarStadtteile: ["Riem", "Bogenhausen", "Berg am Laim", "Haar"],
+  nachbarStadtteile: ["Bogenhausen", "Ramersdorf", "Berg am Laim", "Haar"],
   referenzProjekt: {
     titel: "Reihenhauszeile Trudering",
     beschreibung: "Koordinierte Dachsanierung von 6 Reihenhäusern mit einheitlicher Ziegeleindeckung und individueller Dämmung.",

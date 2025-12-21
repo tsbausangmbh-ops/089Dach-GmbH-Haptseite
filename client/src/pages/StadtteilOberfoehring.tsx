@@ -26,7 +26,7 @@ const stadtteilData = {
     "Zinkarbeiten Premium",
     "Dachterrassen"
   ],
-  nachbarStadtteile: ["Bogenhausen", "Englschalking", "Daglfing", "Freimann"],
+  nachbarStadtteile: ["Bogenhausen", "Daglfing", "Englschalking", "Johanneskirchen"],
   referenzProjekt: {
     titel: "Villa Oberföhring",
     beschreibung: "Komplettsanierung eines Villendachs mit Naturschiefer und aufwendigen Zinkarbeiten.",

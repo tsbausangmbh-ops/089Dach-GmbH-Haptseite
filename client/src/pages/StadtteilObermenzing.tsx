@@ -26,7 +26,7 @@ const stadtteilData = {
     "Kupferdach",
     "Dachgauben-Erneuerung"
   ],
-  nachbarStadtteile: ["Pasing", "Allach", "Nymphenburg", "Aubing"],
+  nachbarStadtteile: ["Pasing", "Allach", "Nymphenburg", "Moosach"],
   referenzProjekt: {
     titel: "Jugendstilvilla Obermenzing",
     beschreibung: "Komplette Neueindeckung mit Naturschiefer und Kupferrinnen für eine denkmalgeschützte Villa.",

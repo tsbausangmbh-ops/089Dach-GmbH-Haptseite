@@ -33,7 +33,7 @@ const stadtteilData = {
     "Dachdämmung nach EnEV",
     "Dachfenster-Einbau"
   ],
-  nachbarStadtteile: ["Giesing", "Untergiesing", "Thalkirchen", "Solln"],
+  nachbarStadtteile: ["Giesing", "Thalkirchen", "Solln", "Sendling"],
   referenzProjekte: [
     {
       titel: "Einfamilienhaus Menterschwaige",

@@ -26,7 +26,7 @@ const stadtteilData = {
     "Flachdachsanierung",
     "Spenglerarbeiten"
   ],
-  nachbarStadtteile: ["Westend", "Laim", "Sendling", "Ludwigsvorstadt"],
+  nachbarStadtteile: ["Westend", "Laim", "Sendling", "Neuhausen"],
   referenzProjekt: {
     titel: "Wohnblock Theresienwiese",
     beschreibung: "Sanierung eines Mehrfamilienhauses mit neuem Flachdach und moderner Wärmedämmung nahe der Theresienwiese.",

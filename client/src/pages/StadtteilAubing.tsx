@@ -33,7 +33,7 @@ const stadtteilData = {
     "Solaranlage-Vorbereitung",
     "Gauben"
   ],
-  nachbarStadtteile: ["Pasing", "Obermenzing", "Allach", "Germering"],
+  nachbarStadtteile: ["Pasing", "Germering", "Puchheim", "Neuaubing"],
   referenzProjekte: [
     {
       titel: "Einfamilienhaus Aubing",

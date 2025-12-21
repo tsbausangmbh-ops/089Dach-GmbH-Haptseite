@@ -32,7 +32,7 @@ const stadtteilData = {
     "Flachdach-Sanierung",
     "Garagendach"
   ],
-  nachbarStadtteile: ["Laim", "Pasing", "Sendling-Westpark", "Neuried"],
+  nachbarStadtteile: ["Laim", "Sendling-Westpark", "Blumenau", "Großhadern"],
   referenzProjekte: [
     {
       titel: "Bungalow Hadern",

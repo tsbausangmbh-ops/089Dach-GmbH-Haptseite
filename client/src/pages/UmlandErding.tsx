@@ -26,7 +26,7 @@ const stadtteilData = {
     "Dachdämmung nach EnEV",
     "Dachfenster-Einbau"
   ],
-  nachbarStadtteile: ["Freising", "Dorfen", "Taufkirchen", "Moosinning"],
+  nachbarStadtteile: ["Dorfen", "Moosinning", "Taufkirchen", "Flughafen"],
   referenzProjekt: {
     titel: "Einfamilienhaus Erding",
     beschreibung: "Komplettsanierung mit neuer Ziegeleindeckung und Aufsparrendämmung nach KfW-Standard.",

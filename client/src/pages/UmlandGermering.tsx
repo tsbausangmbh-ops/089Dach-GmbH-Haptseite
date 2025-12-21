@@ -26,7 +26,7 @@ const stadtteilData = {
     "Dachfenster-Einbau",
     "Solaranlage-Vorbereitung"
   ],
-  nachbarStadtteile: ["Pasing", "Gräfelfing", "Puchheim", "Fürstenfeldbruck"],
+  nachbarStadtteile: ["Pasing", "Fürstenfeldbruck", "Puchheim", "Gröbenzell"],
   referenzProjekt: {
     titel: "Einfamilienhaus Germering",
     beschreibung: "Komplettsanierung mit neuer Ziegeleindeckung, Aufsparrendämmung und Vorbereitung für PV-Anlage.",

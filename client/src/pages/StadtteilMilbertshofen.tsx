@@ -26,7 +26,7 @@ const stadtteilData = {
     "Dachdämmung Bestandsbau",
     "Industriedach-Wartung"
   ],
-  nachbarStadtteile: ["Schwabing", "Moosach", "Feldmoching", "Freimann"],
+  nachbarStadtteile: ["Schwabing", "Freimann", "Moosach", "Feldmoching"],
   referenzProjekt: {
     titel: "Mehrfamilienhaus Am Hart",
     beschreibung: "Flachdachsanierung eines 8-Parteien-Hauses mit moderner Dämmung und neuer Abdichtung.",

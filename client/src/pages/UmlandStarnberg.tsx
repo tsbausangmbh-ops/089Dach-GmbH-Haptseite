@@ -26,7 +26,7 @@ const stadtteilData = {
     "Kupferdach-Arbeiten",
     "Denkmalschutz-Projekte"
   ],
-  nachbarStadtteile: ["Gauting", "Tutzing", "Berg", "Feldafing"],
+  nachbarStadtteile: ["Gauting", "Tutzing", "Berg", "Gilching"],
   referenzProjekt: {
     titel: "Seevilla Starnberg",
     beschreibung: "Denkmalgerechte Komplettsanierung einer historischen Seevilla mit Naturschiefer und Kupferrinnen.",

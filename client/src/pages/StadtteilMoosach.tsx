@@ -26,7 +26,7 @@ const stadtteilData = {
     "Dachrinnen-Erneuerung",
     "Notfall-Reparaturen"
   ],
-  nachbarStadtteile: ["Obermenzing", "Neuhausen", "Nymphenburg", "Feldmoching"],
+  nachbarStadtteile: ["Allach", "Feldmoching", "Milbertshofen", "Nymphenburg"],
   referenzProjekt: {
     titel: "Mehrfamilienhaus Pelkovenstraße",
     beschreibung: "Komplettsanierung eines 8-Parteien-Hauses mit neuem Flachdach und energetischer Dämmung nach KfW-Standard.",

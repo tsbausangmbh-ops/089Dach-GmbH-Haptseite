@@ -26,7 +26,7 @@ const stadtteilData = {
     "Dachdämmung nach EnEV",
     "Neubau-Eindeckung"
   ],
-  nachbarStadtteile: ["Unterschleißheim", "Garching", "Moosburg", "Erding"],
+  nachbarStadtteile: ["Eching", "Neufahrn", "Moosburg", "Hallbergmoos"],
   referenzProjekt: {
     titel: "Altstadthaus Freising",
     beschreibung: "Denkmalgerechte Sanierung eines historischen Bürgerhauses mit Biberschwanzziegeln und neuer Dämmung.",

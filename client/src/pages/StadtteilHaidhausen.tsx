@@ -33,7 +33,7 @@ const stadtteilData = {
     "Dachgeschossausbau",
     "Zinkblechdach Reparatur"
   ],
-  nachbarStadtteile: ["Giesing", "Bogenhausen", "Lehel", "Berg am Laim"],
+  nachbarStadtteile: ["Bogenhausen", "Au", "Berg am Laim", "Lehel"],
   referenzProjekte: [
     {
       titel: "Gründerzeithaus Haidhausen",

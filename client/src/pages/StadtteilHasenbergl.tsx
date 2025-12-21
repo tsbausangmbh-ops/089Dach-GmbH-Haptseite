@@ -33,7 +33,7 @@ const stadtteilData = {
     "Dachfenster-Einbau",
     "Dachrinnenreinigung"
   ],
-  nachbarStadtteile: ["Feldmoching", "Milbertshofen", "Freimann", "Karlsfeld"],
+  nachbarStadtteile: ["Feldmoching", "Milbertshofen", "Freimann", "Fasanerie"],
   referenzProjekte: [
     {
       titel: "Mehrfamilienhaus Hasenbergl",

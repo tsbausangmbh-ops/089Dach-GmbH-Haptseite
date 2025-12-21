@@ -25,7 +25,7 @@ const stadtteilData = {
     "Kupferdachrinnen und Ornamente",
     "Gaubenrestaurierung"
   ],
-  nachbarStadtteile: ["Maxvorstadt", "Milbertshofen", "Bogenhausen", "Schwabing-West"],
+  nachbarStadtteile: ["Maxvorstadt", "Bogenhausen", "Milbertshofen", "Schwabing-West"],
   referenzProjekt: {
     titel: "Jugendstilvilla Schwabing",
     beschreibung: "Denkmalgerechte Komplettsanierung eines historischen Mansarddachs mit Naturschiefer und handgefertigten Kupferornamente. Enge Abstimmung mit dem Denkmalschutzamt.",

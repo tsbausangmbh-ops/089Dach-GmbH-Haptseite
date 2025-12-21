@@ -32,7 +32,7 @@ const stadtteilData = {
     "Schiefereindeckung",
     "Dachfenster mit Sonnenschutz"
   ],
-  nachbarStadtteile: ["Planegg", "Obermenzing", "Pasing", "Krailling"],
+  nachbarStadtteile: ["Pasing", "Planegg", "Neuried", "Martinsried"],
   referenzProjekte: [
     {
       titel: "Villendach Gräfelfing",

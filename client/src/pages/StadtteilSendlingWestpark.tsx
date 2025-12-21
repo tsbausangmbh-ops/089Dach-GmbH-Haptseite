@@ -26,7 +26,7 @@ const stadtteilData = {
     "Wärmedämmung",
     "Dachrinnenreinigung"
   ],
-  nachbarStadtteile: ["Sendling", "Hadern", "Laim", "Thalkirchen"],
+  nachbarStadtteile: ["Sendling", "Laim", "Hadern", "Thalkirchen"],
   referenzProjekt: {
     titel: "Reihenhaus am Westpark",
     beschreibung: "Komplettsanierung eines Steildachs mit neuer Wärmedämmung und modernen Dachfenstern.",

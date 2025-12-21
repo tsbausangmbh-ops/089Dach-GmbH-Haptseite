@@ -33,7 +33,7 @@ const stadtteilData = {
     "Dachterrassen",
     "Zinkarbeiten"
   ],
-  nachbarStadtteile: ["Altstadt", "Sendling", "Au-Haidhausen", "Maxvorstadt"],
+  nachbarStadtteile: ["Altstadt", "Sendling", "Giesing", "Glockenbachviertel"],
   referenzProjekte: [
     {
       titel: "Gründerzeithaus Glockenbach",

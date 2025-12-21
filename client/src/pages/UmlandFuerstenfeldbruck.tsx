@@ -26,7 +26,7 @@ const stadtteilData = {
     "Dachdämmung nach EnEV",
     "Ziegeleindeckung"
   ],
-  nachbarStadtteile: ["Germering", "Olching", "Maisach", "Emmering"],
+  nachbarStadtteile: ["Germering", "Olching", "Puchheim", "Gröbenzell"],
   referenzProjekt: {
     titel: "Altstadthaus Fürstenfeldbruck",
     beschreibung: "Denkmalgerechte Sanierung eines historischen Bürgerhauses mit Biberschwanzziegeln.",

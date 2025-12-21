@@ -25,7 +25,7 @@ const stadtteilData = {
     "Gaubenreparatur",
     "Zinkblecharbeiten"
   ],
-  nachbarStadtteile: ["Schwabing", "Neuhausen", "Ludwigsvorstadt", "Lehel"],
+  nachbarStadtteile: ["Schwabing", "Neuhausen", "Altstadt", "Lehel"],
   referenzProjekt: {
     titel: "Gründerzeithaus Maxvorstadt",
     beschreibung: "Komplettsanierung eines denkmalgeschützten Mansarddachs mit Naturschiefer und neuen Zinkrinnen. Enge Abstimmung mit dem Denkmalschutzamt.",

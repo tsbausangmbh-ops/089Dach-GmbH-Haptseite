@@ -26,7 +26,7 @@ const stadtteilData = {
     "Dachgeschossausbau Villa",
     "Biberschwanz-Eindeckung"
   ],
-  nachbarStadtteile: ["Harlaching", "Forstenried", "Obersendling", "Pullach"],
+  nachbarStadtteile: ["Harlaching", "Forstenried", "Thalkirchen", "Obersendling"],
   referenzProjekt: {
     titel: "Landhaus Solln",
     beschreibung: "Denkmalgerechte Sanierung eines historischen Landhauses mit handgestrichenen Biberschwanzziegeln und neuer Dämmung.",

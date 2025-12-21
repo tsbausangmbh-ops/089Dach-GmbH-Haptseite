@@ -26,7 +26,7 @@ const stadtteilData = {
     "Dachdämmung Bestandsbau",
     "Neubau-Eindeckung"
   ],
-  nachbarStadtteile: ["Karlsfeld", "Feldmoching", "Hebertshausen", "Bergkirchen"],
+  nachbarStadtteile: ["Karlsfeld", "Unterschleißheim", "Bergkirchen", "Hebertshausen"],
   referenzProjekt: {
     titel: "Altstadthaus Dachau",
     beschreibung: "Denkmalgerechte Sanierung eines historischen Bürgerhauses in der Altstadt mit handgestrichenen Biberschwanzziegeln.",

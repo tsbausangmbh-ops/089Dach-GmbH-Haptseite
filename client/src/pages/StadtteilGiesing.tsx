@@ -33,7 +33,7 @@ const stadtteilData = {
     "Flachdach-Sanierung",
     "Dachdämmung Bestandsbau"
   ],
-  nachbarStadtteile: ["Harlaching", "Au", "Sendling", "Ramersdorf"],
+  nachbarStadtteile: ["Harlaching", "Ramersdorf", "Au-Haidhausen", "Sendling"],
   referenzProjekte: [
     {
       titel: "Altbau Obergiesing",

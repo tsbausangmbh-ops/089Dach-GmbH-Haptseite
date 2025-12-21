@@ -26,7 +26,7 @@ const stadtteilData = {
     "Dachdämmung nach EnEV",
     "Solaranlage-Vorbereitung"
   ],
-  nachbarStadtteile: ["Trudering", "Neubiberg", "Hohenbrunn", "Riemerling"],
+  nachbarStadtteile: ["Neubiberg", "Riem", "Trudering", "Hohenbrunn"],
   referenzProjekt: {
     titel: "Einfamilienhaus Ottobrunn",
     beschreibung: "Komplettsanierung mit Ziegeleindeckung und Aufsparrendämmung nach KfW-Standard.",

@@ -33,7 +33,7 @@ const stadtteilData = {
     "Dachdämmung Bestandsbau",
     "Sturmschaden-Reparatur"
   ],
-  nachbarStadtteile: ["Fasanerie", "Moosach", "Karlsfeld", "Hasenbergl"],
+  nachbarStadtteile: ["Moosach", "Hasenbergl", "Milbertshofen", "Allach"],
   referenzProjekte: [
     {
       titel: "Mehrfamilienhaus Feldmoching",

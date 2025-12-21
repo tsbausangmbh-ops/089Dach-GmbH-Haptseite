@@ -26,7 +26,7 @@ const stadtteilData = {
     "Dachdämmung",
     "Dachrinnen-Arbeiten"
   ],
-  nachbarStadtteile: ["Neufahrn", "Garching", "Unterschleißheim", "Dietersheim"]
+  nachbarStadtteile: ["Neufahrn", "Garching", "Unterschleißheim", "Freising"]
 };
 
 function NearbyServiceSchema() {
@@ -168,13 +168,17 @@ export default function UmlandEching() {
                   </Button>
                 </a>
               </div>
-              <div className="bg-white rounded-xl p-4 md:p-6 border border-gray-200">
-                <h4 className="font-bold text-secondary mb-3">Nachbarorte</h4>
-                <div className="flex flex-wrap gap-2">
-                  {stadtteilData.nachbarStadtteile.map((ort, idx) => (
-                    <span key={idx} className="bg-stone-100 px-3 py-1 rounded-full text-sm text-muted-foreground">{ort}</span>
+              <div className="bg-white rounded-xl p-4 md:p-6 border border-gray-100">
+                <h4 className="font-bold text-secondary mb-4">Auch in der Nähe tätig:</h4>
+                <ul className="space-y-2">
+                  {stadtteilData.nachbarStadtteile.map((stadtteil, idx) => (
+                    <li key={idx}>
+                      <a href={`/dachdecker-${stadtteil.toLowerCase().replace(/ /g, '-')}`} className="text-primary hover:underline flex items-center gap-2">
+                        <MapPin className="h-4 w-4" />Dachdecker {stadtteil}
+                      </a>
+                    </li>
                   ))}
-                </div>
+                </ul>
               </div>
             </div>
           </div>

@@ -26,7 +26,7 @@ const stadtteilData = {
     "Dachausbau historischer Gebäude",
     "Spengler- und Klempnerarbeiten"
   ],
-  nachbarStadtteile: ["Neuhausen", "Moosach", "Obermenzing", "Laim"],
+  nachbarStadtteile: ["Pasing", "Neuhausen", "Moosach", "Obermenzing"],
   referenzProjekt: {
     titel: "Gründerzeitvilla Nymphenburg",
     beschreibung: "Denkmalgerechte Sanierung eines Mansarddachs mit originalgetreuen Biberschwanzziegeln und restaurierten Ziergiebeln.",
