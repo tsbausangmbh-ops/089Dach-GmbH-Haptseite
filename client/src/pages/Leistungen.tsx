@@ -346,11 +346,7 @@ export default function Leistungen() {
       </section>
       */}
 
-      <RelatedServices 
-        currentPage="leistungen" 
-        relatedIds={["referenzen", "faq", "ratgeber", "stadtteile"]}
-      />
-      <Contact />
+            <Contact />
       <Footer />
     </div>
   );
