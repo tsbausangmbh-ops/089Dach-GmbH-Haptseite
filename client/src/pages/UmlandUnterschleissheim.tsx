@@ -205,7 +205,11 @@ export default function UmlandUnterschleissheim() {
           </div>
         </div>
       </section>
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachdecker in Unterschleißheim gesucht?"
+        subheadline="Wir kommen auch nach Unterschleißheim."
+        description="Kurze Wege von München nach Unterschleißheim – schnelle Hilfe garantiert."
+      />
       <Footer />
     </div>
   );

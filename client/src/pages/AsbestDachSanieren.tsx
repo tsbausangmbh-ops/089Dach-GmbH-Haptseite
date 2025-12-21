@@ -137,7 +137,11 @@ export default function AsbestDachSanieren() {
       </section>
 
       <EinzugsgebietSection />
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Asbest-Dach sanieren?"
+        subheadline="Wir entsorgen sicher und fachgerecht."
+        description="Asbest ist gesundheitsschädlich – wir sanieren nach Vorschrift."
+      />
     </div>
   );
 }

@@ -217,7 +217,11 @@ export default function StadtteilThalkirchen() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachdecker in Thalkirchen gesucht?"
+        subheadline="Wir sind Ihr Partner in Thalkirchen."
+        description="Als Münchner Meisterbetrieb kennen wir Thalkirchen und Obersendling."
+      />
       <Contact 
         title="Dachdecker für Thalkirchen gesucht?"
         description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Thalkirchen – mit kurzer Anfahrt und Erfahrung seit 1998."

@@ -205,7 +205,11 @@ export default function SchimmelDach() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Schimmel im Dachbereich?"
+        subheadline="Wir finden die Ursache."
+        description="Schimmel am Dach entsteht durch Feuchtigkeit – wir beseitigen Ursache und Folgen."
+      />
     </div>
   );
 }

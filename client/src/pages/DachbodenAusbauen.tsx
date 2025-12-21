@@ -112,7 +112,11 @@ export default function DachbodenAusbauen() {
       </section>
 
       <EinzugsgebietSection />
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachboden ausbauen?"
+        subheadline="Wir schaffen Wohnraum unterm Dach."
+        description="Ein ausgebautes Dachgeschoss steigert den Wert Ihrer Immobilie erheblich."
+      />
     </div>
   );
 }

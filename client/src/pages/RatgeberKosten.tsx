@@ -230,7 +230,11 @@ export default function RatgeberKosten() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dach-Kosten im Überblick?"
+        subheadline="Wir erstellen transparente Angebote."
+        description="Faire Preise und keine Überraschungen – das ist unser Versprechen."
+      />
       <Footer />
     </div>
   );

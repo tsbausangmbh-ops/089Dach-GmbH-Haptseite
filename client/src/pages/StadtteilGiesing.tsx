@@ -261,7 +261,11 @@ export default function StadtteilGiesing() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachdecker in Giesing gesucht?"
+        subheadline="Wir sind Ihr Partner in Giesing."
+        description="Altbau-Kompetenz für Giesing – wir sanieren Dächer aller Baujahre."
+      />
       <Contact 
         title="Dachdecker für Giesing gesucht?"
         description="Traditionsreiches Handwerk für Ihr Viertel – Ihr Dachdecker-Meisterbetrieb für Giesing seit 1998."

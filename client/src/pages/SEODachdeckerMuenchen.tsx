@@ -482,7 +482,11 @@ export default function SEODachdeckerMuenchen() {
         columns={2}
       />
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachdecker in München gesucht?"
+        subheadline="Wir sind Ihr Meisterbetrieb."
+        description="Seit 1998 betreuen wir Münchner Dächer – mit Erfahrung, Qualität und fairen Preisen."
+      />
 
       <section className="py-4 md:py-6 bg-primary">
         <div className="container mx-auto px-4 md:px-6 lg:px-12 text-center">

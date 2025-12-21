@@ -137,7 +137,11 @@ export default function DachgeschossDaemmen() {
       </section>
 
       <EinzugsgebietSection />
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachgeschoss dämmen?"
+        subheadline="Wir zeigen die beste Lösung."
+        description="Eine gute Dämmung spart Heizkosten und steigert den Wohnkomfort."
+      />
     </div>
   );
 }

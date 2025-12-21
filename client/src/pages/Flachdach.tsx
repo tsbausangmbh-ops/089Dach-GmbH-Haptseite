@@ -276,7 +276,11 @@ export default function Flachdach() {
         subtitle="Planbar, transparent und stressfrei – von der ersten Beratung bis zur Garantie."
       />
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Ihr Flachdach macht Probleme?"
+        subheadline="Wir sorgen für dauerhafte Dichtheit."
+        description="Ein undichtes Flachdach verursacht teure Folgeschäden. Je länger Sie warten, desto größer der Schaden."
+      />
       <Footer />
     </div>
   );

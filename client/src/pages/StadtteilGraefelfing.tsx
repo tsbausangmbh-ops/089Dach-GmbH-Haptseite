@@ -216,7 +216,11 @@ export default function StadtteilGraefelfing() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachdecker in Gräfelfing gesucht?"
+        subheadline="Wir sind Ihr Partner in Gräfelfing."
+        description="Villen-Experten für Gräfelfing – wir kennen die gehobenen Ansprüche in der Villenkolonie."
+      />
       <Contact 
         title="Dachdecker für Gräfelfing gesucht?"
         description="Villen-Erfahrung und Premium-Qualität – Ihr Dachdecker-Meisterbetrieb für Gräfelfing."

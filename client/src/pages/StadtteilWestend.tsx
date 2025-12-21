@@ -217,7 +217,11 @@ export default function StadtteilWestend() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachdecker im Westend gesucht?"
+        subheadline="Wir sind Ihr Partner im Westend."
+        description="Altbau-Kompetenz für das Westend – wir sanieren Dächer aller Baujahre."
+      />
       <Contact 
         title="Dachdecker fürs Westend gesucht?"
         description="Privat und Gewerbe – Ihr Dachdecker-Meisterbetrieb fürs Westend mit flexiblen Terminen."

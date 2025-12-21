@@ -148,7 +148,11 @@ export default function DachziegelKaufen() {
       </section>
 
       <EinzugsgebietSection />
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachziegel kaufen?"
+        subheadline="Wir beraten zu allen Materialien."
+        description="Ton, Beton oder Schiefer – wir helfen bei der Materialwahl."
+      />
     </div>
   );
 }

@@ -361,7 +361,11 @@ export default function Ratgeber() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Noch Fragen zu Ihrem Dach?"
+        subheadline="Wir beraten Sie kostenlos."
+        description="Nutzen Sie unsere Erfahrung für Ihr Dachprojekt – Beratung ist bei uns kostenlos."
+      />
       <Contact 
         title="Noch Fragen zu Ihrem Dachprojekt?"
         description="Unser Ratgeber-Team beantwortet Ihre Fragen rund um Dach, Dämmung und Förderung – kostenlos und unverbindlich."

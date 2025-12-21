@@ -262,7 +262,11 @@ export default function StadtteilBergAmLaim() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachdecker in Berg am Laim gesucht?"
+        subheadline="Wir sind Ihr Partner in Berg am Laim."
+        description="Als Münchner Meisterbetrieb kennen wir Berg am Laim."
+      />
       <Contact 
         title="Dachdecker für Berg am Laim gesucht?"
         description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Berg am Laim – mit kurzer Anfahrt und Erfahrung seit 1998."

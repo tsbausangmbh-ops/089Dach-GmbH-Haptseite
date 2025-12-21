@@ -347,7 +347,11 @@ export default function Dachsanierung() {
         ]}
       />
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Ihre Dachsanierung steht an?"
+        subheadline="Wir machen Ihr Dach zukunftssicher."
+        description="Eine Dachsanierung in München ist eine Investition, die sich auszahlt. Je länger Sie warten, desto teurer wird es."
+      />
       <Contact 
         title="Ihr Dach braucht eine Sanierung?"
         description="Wir beraten Sie kostenlos vor Ort zu Dachsanierung, Dämmung und Fördermöglichkeiten. Fordern Sie jetzt Ihr unverbindliches Angebot an."

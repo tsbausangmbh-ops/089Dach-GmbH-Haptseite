@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import BackButton from "@/components/BackButton";
 import Contact from "@/components/Contact";
+import LeadFunnel from "@/components/LeadFunnel";
 import { Button } from "@/components/ui/button";
 import { CheckCircle2, Droplets, ArrowRight, Search, Shield, Clock, Phone, AlertTriangle, TrendingUp, Users, Star, XCircle } from "lucide-react";
 import { Link } from "wouter";
@@ -334,6 +335,11 @@ export default function RatgeberLeckortung() {
         </div>
       </section>
 
+      <LeadFunnel 
+        headline="Leck im Dach suchen?"
+        subheadline="Wir finden jede undichte Stelle."
+        description="Mit modernster Technik finden wir Leckagen zerstörungsfrei."
+      />
       <Contact 
         title="Undichtigkeit am Dach? Wir finden sie!"
         description="Professionelle Leckortung mit modernster Technik. Wir finden das Leck und beheben es nachhaltig."

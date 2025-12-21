@@ -138,7 +138,11 @@ export default function BlechdachKosten() {
       </section>
 
       <EinzugsgebietSection />
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Blechdach-Kosten kalkulieren?"
+        subheadline="Wir erstellen Ihr individuelles Angebot."
+        description="Ob Stehfalz oder Trapezblech – wir beraten Sie zu allen Blechdach-Varianten."
+      />
     </div>
   );
 }

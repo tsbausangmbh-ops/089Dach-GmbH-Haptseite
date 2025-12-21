@@ -205,7 +205,11 @@ export default function UmlandFuerstenfeldbruck() {
           </div>
         </div>
       </section>
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachdecker in Fürstenfeldbruck gesucht?"
+        subheadline="Wir kommen auch nach FFB."
+        description="Münchner Qualität für Fürstenfeldbruck – wir sind Ihr Partner vor Ort."
+      />
       <Footer />
     </div>
   );

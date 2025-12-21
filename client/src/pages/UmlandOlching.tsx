@@ -180,6 +180,11 @@ export default function UmlandOlching() {
           </div>
         </div>
       </section>
+      <LeadFunnel 
+        headline="Dachdecker in Olching gesucht?"
+        subheadline="Wir kommen auch nach Olching."
+        description="Münchner Qualität für Olching – wir sind Ihr Partner für alle Dacharbeiten."
+      />
       <Contact 
         title="Dachdecker für Olching gesucht?"
         description="Von München aus schnell bei Ihnen – Ihr Dachdecker-Meisterbetrieb für Olching und Umgebung."

@@ -577,7 +577,11 @@ export default function Reparaturservice() {
         subtitle="Planbar, transparent und stressfrei – von der ersten Beratung bis zur Garantie."
       />
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dach undicht oder beschädigt?"
+        subheadline="Wir reparieren schnell und zuverlässig."
+        description="Eine kleine Reparatur heute verhindert eine große Sanierung morgen."
+      />
       <Footer />
     </div>
   );

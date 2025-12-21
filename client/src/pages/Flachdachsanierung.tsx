@@ -218,7 +218,11 @@ export default function Flachdachsanierung() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Flachdachsanierung fällig?"
+        subheadline="Wir sanieren Ihr Flachdach fachgerecht."
+        description="Eine professionelle Flachdachsanierung schützt Ihr Gebäude für Jahrzehnte."
+      />
     </div>
   );
 }

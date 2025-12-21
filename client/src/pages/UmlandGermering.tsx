@@ -217,7 +217,11 @@ export default function UmlandGermering() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachdecker in Germering gesucht?"
+        subheadline="Wir kommen auch nach Germering."
+        description="Kurze Wege von München nach Germering – wir sind schnell bei Ihnen vor Ort."
+      />
       <Contact 
         title="Dachdecker für Germering gesucht?"
         description="Schnelle Anfahrt aus München – Ihr Dachdecker-Meisterbetrieb für Germering."

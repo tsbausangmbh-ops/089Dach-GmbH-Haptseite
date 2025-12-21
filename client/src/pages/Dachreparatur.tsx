@@ -184,7 +184,11 @@ export default function Dachreparatur() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachreparatur in München?"
+        subheadline="Wir reparieren alle Dachschäden."
+        description="Ob undichte Stelle, gebrochene Ziegel oder lockere Bleche – wir beheben das Problem dauerhaft."
+      />
     </div>
   );
 }

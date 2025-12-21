@@ -210,7 +210,11 @@ export default function Dachdaemmung() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachdämmung für weniger Heizkosten?"
+        subheadline="Wir zeigen Ihnen die beste Dämmlösung."
+        description="Eine gute Dachdämmung spart bis zu 30% Heizkosten und wird staatlich gefördert."
+      />
     </div>
   );
 }

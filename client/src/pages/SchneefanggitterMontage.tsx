@@ -112,7 +112,11 @@ export default function SchneefanggitterMontage() {
       </section>
 
       <EinzugsgebietSection />
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Schneefanggitter montieren?"
+        subheadline="Wir sichern Ihr Dach."
+        description="Schneefanggitter schützen Fußgänger und Ihr Eigentum."
+      />
     </div>
   );
 }

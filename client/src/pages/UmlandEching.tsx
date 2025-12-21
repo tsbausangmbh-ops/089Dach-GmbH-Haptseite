@@ -180,6 +180,11 @@ export default function UmlandEching() {
           </div>
         </div>
       </section>
+      <LeadFunnel 
+        headline="Dachdecker in Eching gesucht?"
+        subheadline="Wir kommen auch nach Eching."
+        description="Kurze Wege von München nach Eching – schnelle Hilfe garantiert."
+      />
       <Contact 
         title="Dachdecker für Eching gesucht?"
         description="Von München aus schnell bei Ihnen – Ihr Dachdecker-Meisterbetrieb für Eching und Umgebung."

@@ -141,7 +141,11 @@ export default function FlachdachAbdichten() {
       </section>
 
       <EinzugsgebietSection />
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Flachdach undicht?"
+        subheadline="Wir dichten Ihr Flachdach dauerhaft ab."
+        description="Ein undichtes Flachdach muss schnell abgedichtet werden – bevor der Schaden größer wird."
+      />
     </div>
   );
 }

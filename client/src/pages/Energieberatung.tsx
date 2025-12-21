@@ -307,7 +307,11 @@ export default function Energieberatung() {
 
       <ProofStack title="Warum 089Dach für Ihre Förderprojekte?" />
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Energieberatung für Ihr Dach?"
+        subheadline="Wir zeigen Förderungen und Einsparpotenziale."
+        description="Eine gute Energieberatung spart bares Geld. Bis zu 20% BAFA-Zuschuss sind möglich."
+      />
       <Contact 
         title="Förderung für Ihre Dachsanierung sichern?"
         description="Wir beraten Sie zu KfW- und BAFA-Förderprogrammen und übernehmen die Antragstellung. Jetzt Förderberatung anfordern."

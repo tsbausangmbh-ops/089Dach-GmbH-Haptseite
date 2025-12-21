@@ -125,7 +125,11 @@ export default function GartenhausDach() {
       </section>
 
       <EinzugsgebietSection />
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Gartenhaus-Dach erneuern?"
+        subheadline="Wir decken Gartenhäuser ein."
+        description="Ein neues Dach schützt Ihr Gartenhaus vor Feuchtigkeit und Verfall."
+      />
     </div>
   );
 }

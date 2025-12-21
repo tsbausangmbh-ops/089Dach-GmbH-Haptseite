@@ -262,7 +262,11 @@ export default function StadtteilFeldmoching() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachdecker in Feldmoching gesucht?"
+        subheadline="Wir sind Ihr Partner in Feldmoching."
+        description="Als Münchner Meisterbetrieb kennen wir Feldmoching und Umgebung."
+      />
       <Contact 
         title="Dachdecker für Feldmoching gesucht?"
         description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Feldmoching – mit kurzer Anfahrt und Erfahrung seit 1998."

@@ -112,7 +112,11 @@ export default function SchornsteinAbdichten() {
       </section>
 
       <EinzugsgebietSection />
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Schornstein undicht?"
+        subheadline="Wir dichten Kamineinfassungen ab."
+        description="Ein undichter Schornsteinanschluss ist eine häufige Ursache für Wasserschäden."
+      />
     </div>
   );
 }

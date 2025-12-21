@@ -336,7 +336,11 @@ export default function Leistungen() {
         </div>
       </section>
       
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Welche Dacharbeiten stehen an?"
+        subheadline="Wir beraten Sie zu allen Leistungen."
+        description="Von Dachsanierung bis Spenglerarbeit – wir sind Ihr Komplettanbieter für alle Dacharbeiten."
+      />
 
       {/* CTA Section - Removed as it's redundant with LeadFunnel, or keep as a secondary one? Removing for cleaner look since LeadFunnel is strong */}
       {/* 

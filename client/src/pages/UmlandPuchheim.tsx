@@ -180,6 +180,11 @@ export default function UmlandPuchheim() {
           </div>
         </div>
       </section>
+      <LeadFunnel 
+        headline="Dachdecker in Puchheim gesucht?"
+        subheadline="Wir kommen auch nach Puchheim."
+        description="Kurze Wege von München nach Puchheim – wir sind schnell bei Ihnen."
+      />
       <Contact 
         title="Dachdecker für Puchheim gesucht?"
         description="Von München aus schnell bei Ihnen – Ihr Dachdecker-Meisterbetrieb für Puchheim und Umgebung."

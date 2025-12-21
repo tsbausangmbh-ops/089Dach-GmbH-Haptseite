@@ -136,7 +136,11 @@ export default function WalmdachKosten() {
       </section>
 
       <EinzugsgebietSection />
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Walmdach-Kosten kalkulieren?"
+        subheadline="Wir erstellen Ihr Angebot."
+        description="Ein Walmdach ist langlebig und wertsteigernd – wir beraten Sie."
+      />
     </div>
   );
 }

@@ -217,7 +217,11 @@ export default function UmlandDachau() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachdecker in Dachau gesucht?"
+        subheadline="Wir kommen auch nach Dachau."
+        description="Kurze Wege von München nach Dachau – wir sind schnell bei Ihnen vor Ort."
+      />
       <Contact 
         title="Dachdecker für Dachau gesucht?"
         description="Von München aus schnell bei Ihnen – Ihr Dachdecker-Meisterbetrieb für Dachau und Umgebung."

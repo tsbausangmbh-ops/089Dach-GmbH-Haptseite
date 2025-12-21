@@ -295,7 +295,11 @@ export default function Dachrinnenreinigung() {
         subtitle="Planbar, transparent und stressfrei – von der ersten Beratung bis zur Garantie."
       />
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachrinne verstopft oder undicht?"
+        subheadline="Wir reinigen und reparieren Ihre Rinnen."
+        description="Verstopfte Dachrinnen führen zu Wasserschäden an der Fassade."
+      />
       <Footer />
     </div>
   );

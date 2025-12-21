@@ -348,7 +348,11 @@ export default function Bedachungen() {
         subtitle="Planbar, transparent und stressfrei – von der ersten Beratung bis zur Garantie."
       />
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Neue Dacheindeckung geplant?"
+        subheadline="Wir beraten Sie zu allen Materialien."
+        description="Die richtige Dacheindeckung schützt Ihr Haus für Jahrzehnte. Wir zeigen Ihnen die beste Lösung für Ihr Münchner Objekt."
+      />
       <Contact 
         title="Neue Dacheindeckung geplant?"
         description="Ob Ziegel, Schiefer oder Metalldach – wir beraten Sie zu allen Materialien und erstellen Ihnen ein maßgeschneidertes Angebot für Ihre Bedachung."

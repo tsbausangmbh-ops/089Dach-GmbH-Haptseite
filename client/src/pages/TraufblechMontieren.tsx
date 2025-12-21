@@ -112,7 +112,11 @@ export default function TraufblechMontieren() {
       </section>
 
       <EinzugsgebietSection />
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Traufblech montieren?"
+        subheadline="Wir schützen Ihre Dachkante."
+        description="Ein Traufblech schützt die Traufe vor Feuchtigkeit."
+      />
     </div>
   );
 }

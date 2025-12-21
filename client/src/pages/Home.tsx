@@ -41,7 +41,13 @@ export default function Home() {
       <main>
         <Hero onOpenFunnel={() => setFunnelOpen(true)} />
         <EmotionalFunnel onOpenFunnel={() => setFunnelOpen(true)} />
-        <LeadFunnel externalOpen={funnelOpen} onExternalOpenChange={setFunnelOpen} />
+        <LeadFunnel 
+          externalOpen={funnelOpen} 
+          onExternalOpenChange={setFunnelOpen}
+          headline="Ihr Dach braucht Aufmerksamkeit?"
+          subheadline="Wir sind Ihr Münchner Dachdecker."
+          description="Als Meisterbetrieb seit 1998 lösen wir jedes Dachproblem – schnell, fair und zuverlässig."
+        />
         <Services />
         
         {/* Interne Stadtteile-Links für lokale SEO */}

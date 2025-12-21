@@ -235,7 +235,11 @@ export default function RatgeberMaterialien() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Welches Material für Ihr Dach?"
+        subheadline="Wir beraten neutral und kompetent."
+        description="Ziegel, Schiefer, Blech – jedes Material hat Vor- und Nachteile."
+      />
       <Footer />
     </div>
   );

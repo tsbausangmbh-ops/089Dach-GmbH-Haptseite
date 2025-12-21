@@ -137,7 +137,11 @@ export default function DachbeschichtungKosten() {
       </section>
 
       <EinzugsgebietSection />
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachbeschichtung – lohnt sich das?"
+        subheadline="Wir beraten ehrlich."
+        description="Eine Beschichtung ist nicht immer sinnvoll. Wir prüfen Ihr Dach kostenlos."
+      />
     </div>
   );
 }

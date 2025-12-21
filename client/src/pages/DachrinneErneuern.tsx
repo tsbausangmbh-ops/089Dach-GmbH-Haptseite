@@ -150,7 +150,11 @@ export default function DachrinneErneuern() {
       </section>
 
       <EinzugsgebietSection />
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachrinne durchgerostet?"
+        subheadline="Wir erneuern Ihre komplette Rinne."
+        description="Neue Dachrinnen aus Zink oder Kupfer halten 30-80 Jahre."
+      />
     </div>
   );
 }

@@ -259,7 +259,11 @@ export default function DachpfannenAbdichten() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachpfannen undicht?"
+        subheadline="Wir dichten Ihre Dachpfannen ab."
+        description="Kleine Risse in Dachpfannen führen zu großen Schäden. Wir handeln schnell."
+      />
     </div>
   );
 }

@@ -223,7 +223,11 @@ export default function DachDecken() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dach neu decken lassen?"
+        subheadline="Wir beraten zu Material und Kosten."
+        description="Eine neue Dacheindeckung ist eine Investition in die Zukunft Ihrer Immobilie."
+      />
     </div>
   );
 }

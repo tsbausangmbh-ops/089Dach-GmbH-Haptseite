@@ -235,7 +235,11 @@ export default function Architektenleistungen() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Planung für Ihr Dachprojekt?"
+        subheadline="Wir unterstützen Architekten und Bauherren."
+        description="Von der Statik bis zur Ausführung – wir sind Ihr Partner für anspruchsvolle Dachprojekte."
+      />
       <Contact 
         title="Planung für Ihr Dachprojekt benötigt?"
         description="Wir vermitteln Ihnen erfahrene Architekten für Bauanträge und Genehmigungen. Alles aus einer Hand – von der Planung bis zum fertigen Dach."

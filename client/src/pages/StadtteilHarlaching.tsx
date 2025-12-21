@@ -262,7 +262,11 @@ export default function StadtteilHarlaching() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachdecker in Harlaching gesucht?"
+        subheadline="Wir betreuen Villen in Harlaching."
+        description="Villen-Erfahrung in Harlaching – wir kennen die gehobenen Ansprüche im Stadtteil."
+      />
       <Contact 
         title="Dachdecker für Harlaching gesucht?"
         description="Villen-Erfahrung und Premium-Qualität – Ihr Dachdecker-Meisterbetrieb für Harlaching."

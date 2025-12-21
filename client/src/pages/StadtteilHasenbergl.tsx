@@ -262,7 +262,11 @@ export default function StadtteilHasenbergl() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachdecker im Hasenbergl gesucht?"
+        subheadline="Wir sind Ihr Partner im Hasenbergl."
+        description="Als Münchner Meisterbetrieb kennen wir das Hasenbergl."
+      />
       <Contact 
         title="Dachdecker fürs Hasenbergl gesucht?"
         description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb im Hasenbergl – mit kurzer Anfahrt und Erfahrung seit 1998."

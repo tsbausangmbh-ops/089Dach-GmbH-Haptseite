@@ -138,7 +138,11 @@ export default function CarportDach() {
       </section>
 
       <EinzugsgebietSection />
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Neues Dach für Ihr Carport?"
+        subheadline="Wir decken Carports fachgerecht ein."
+        description="Ein dichtes Carport-Dach schützt Ihr Fahrzeug vor Witterung."
+      />
     </div>
   );
 }

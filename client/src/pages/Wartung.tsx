@@ -544,7 +544,11 @@ export default function Wartung() {
         subtitle="Planbar, transparent und stressfrei – von der ersten Beratung bis zur Garantie."
       />
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Regelmäßige Dachwartung?"
+        subheadline="Wir halten Ihr Dach in Schuss."
+        description="Professionelle Wartung verlängert die Lebensdauer Ihres Daches um Jahre."
+      />
       <Footer />
     </div>
   );

@@ -217,7 +217,11 @@ export default function StadtteilSchwabing() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachdecker in Schwabing gesucht?"
+        subheadline="Wir sind Ihr Partner in Schwabing."
+        description="Altbauexperten für Schwabing – wir kennen die besonderen Anforderungen historischer Dächer."
+      />
       <Contact 
         title="Dachdecker für Schwabing gesucht?"
         description="Altbau-Erfahrung, Denkmalschutz-Kompetenz und lokale Referenzen – Ihr Dachdecker-Meisterbetrieb in Schwabing."

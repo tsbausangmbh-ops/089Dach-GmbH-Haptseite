@@ -205,7 +205,11 @@ export default function UmlandFreising() {
           </div>
         </div>
       </section>
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachdecker in Freising gesucht?"
+        subheadline="Wir kommen auch nach Freising."
+        description="Münchner Qualität für Freising – wir sind Ihr Partner für alle Dacharbeiten."
+      />
       <Footer />
     </div>
   );

@@ -218,7 +218,11 @@ export default function StadtteilKarlsfeld() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachdecker in Karlsfeld gesucht?"
+        subheadline="Wir sind Ihr Partner in Karlsfeld."
+        description="Kurze Wege nach Karlsfeld – wir sind schnell bei Ihnen vor Ort."
+      />
       <Contact 
         title="Dachdecker für Karlsfeld gesucht?"
         description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Karlsfeld – mit kurzer Anfahrt und Erfahrung seit 1998."

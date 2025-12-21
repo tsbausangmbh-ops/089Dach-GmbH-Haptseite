@@ -166,7 +166,11 @@ export default function DachUndichtWasTun() {
       </section>
 
       <EinzugsgebietSection />
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dach undicht – was tun?"
+        subheadline="Wir zeigen Ihnen die Lösung."
+        description="Bei einem undichten Dach zählt schnelles Handeln. Wir helfen sofort."
+      />
     </div>
   );
 }

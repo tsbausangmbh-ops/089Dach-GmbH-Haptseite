@@ -136,7 +136,11 @@ export default function Dachentmoosung() {
       </section>
 
       <EinzugsgebietSection />
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Moos auf dem Dach?"
+        subheadline="Wir entmoosen schonend und gründlich."
+        description="Moos speichert Feuchtigkeit und schadet den Ziegeln. Entmoosung erhält die Lebensdauer."
+      />
     </div>
   );
 }

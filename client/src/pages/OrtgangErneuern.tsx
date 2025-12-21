@@ -112,7 +112,11 @@ export default function OrtgangErneuern() {
       </section>
 
       <EinzugsgebietSection />
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Ortgang erneuern?"
+        subheadline="Wir reparieren den Dachrand."
+        description="Ein sauberer Ortgang schützt die Giebelwand vor Witterung."
+      />
     </div>
   );
 }

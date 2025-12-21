@@ -203,7 +203,11 @@ export default function Sturmschaden() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Sturmschaden am Dach?"
+        subheadline="Wir helfen bei der Schadensbehebung."
+        description="Nach einem Sturm zählt jede Stunde. Wir dokumentieren und reparieren für Ihre Versicherung."
+      />
       <Footer />
     </div>
   );

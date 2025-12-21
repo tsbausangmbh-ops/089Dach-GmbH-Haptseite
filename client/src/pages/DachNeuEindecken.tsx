@@ -232,7 +232,11 @@ export default function DachNeuEindecken() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dach neu eindecken?"
+        subheadline="Wir beraten zu Material und Kosten."
+        description="Eine neue Dacheindeckung steigert den Wert Ihrer Immobilie und senkt Energiekosten."
+      />
     </div>
   );
 }

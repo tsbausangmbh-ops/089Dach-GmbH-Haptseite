@@ -112,7 +112,11 @@ export default function FirstziegelAustauschen() {
       </section>
 
       <EinzugsgebietSection />
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Firstziegel beschädigt?"
+        subheadline="Wir tauschen Firstziegel aus."
+        description="Der First ist die Krone des Daches – wir reparieren schnell und fachgerecht."
+      />
     </div>
   );
 }

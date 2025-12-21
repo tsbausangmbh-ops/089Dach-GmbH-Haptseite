@@ -218,7 +218,11 @@ export default function StadtteilSchwanthalerhoehe() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachdecker an der Schwanthalerhöhe gesucht?"
+        subheadline="Wir sind Ihr Partner an der Schwanthalerhöhe."
+        description="Als Münchner Meisterbetrieb kennen wir die Schwanthalerhöhe."
+      />
       <Contact 
         title="Dachdecker für die Schwanthalerhöhe gesucht?"
         description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb für die Schwanthalerhöhe – mit kurzer Anfahrt und Erfahrung seit 1998."

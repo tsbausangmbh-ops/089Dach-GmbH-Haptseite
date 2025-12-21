@@ -218,7 +218,11 @@ export default function EternitDach() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Eternit-Dach sanieren?"
+        subheadline="Wir entsorgen Asbest fachgerecht."
+        description="Eternit enthält oft Asbest. Wir sanieren sicher und nach Vorschrift."
+      />
     </div>
   );
 }

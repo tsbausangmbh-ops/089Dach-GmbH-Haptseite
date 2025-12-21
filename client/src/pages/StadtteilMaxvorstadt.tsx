@@ -217,7 +217,11 @@ export default function StadtteilMaxvorstadt() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachdecker in der Maxvorstadt gesucht?"
+        subheadline="Wir betreuen Altbauten in der Maxvorstadt."
+        description="Altbau-Spezialisten für die Maxvorstadt – historische Dächer in besten Händen."
+      />
       <Contact 
         title="Dachdecker für die Maxvorstadt gesucht?"
         description="Denkmalschutz-Erfahrung und Altbaukompetenz – Ihr Dachdecker-Meisterbetrieb für die Maxvorstadt."

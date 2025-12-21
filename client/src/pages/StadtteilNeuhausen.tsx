@@ -217,7 +217,11 @@ export default function StadtteilNeuhausen() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachdecker in Neuhausen gesucht?"
+        subheadline="Wir sind Ihr Partner in Neuhausen."
+        description="Altbau-Spezialisten für Neuhausen – wir kennen die besonderen Anforderungen."
+      />
       <Contact 
         title="Dachdecker für Neuhausen gesucht?"
         description="Altbau-Experten und Denkmalschutz-Erfahrung – Ihr Dachdecker-Meisterbetrieb für Neuhausen."

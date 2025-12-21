@@ -250,7 +250,11 @@ export default function DachAbdichten() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dach undicht?"
+        subheadline="Wir finden und beheben die Undichtigkeit."
+        description="Eine professionelle Dachabdichtung schützt Ihr Haus vor Wasserschäden."
+      />
     </div>
   );
 }

@@ -321,7 +321,11 @@ export default function Dachfenster() {
 
       <ProofStack title="Warum 089Dach für Ihre Dachfenster?" />
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Mehr Licht unterm Dach?"
+        subheadline="Wir verbauen und tauschen Dachfenster."
+        description="Ein neues Dachfenster verwandelt dunkle Dachgeschosse in lichtdurchflutete Wohnräume. Einbau in nur einem Tag."
+      />
       <Contact 
         title="Mehr Licht unterm Dach gewünscht?"
         description="Wir beraten Sie zu Einbau, Austausch und Reparatur von Dachfenstern aller Marken. Jetzt kostenloses Beratungsgespräch vereinbaren."

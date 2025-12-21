@@ -209,7 +209,11 @@ export default function DachziegelAustauschen() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachziegel kaputt oder verrutscht?"
+        subheadline="Wir tauschen einzelne Ziegel aus."
+        description="Ein einzelner gebrochener Ziegel kann schnell zu einem großen Wasserschaden führen."
+      />
     </div>
   );
 }

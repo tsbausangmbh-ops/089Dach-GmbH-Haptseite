@@ -230,7 +230,11 @@ export default function Dachinspektion() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachinspektion gewünscht?"
+        subheadline="Wir prüfen den Zustand Ihres Daches."
+        description="Eine regelmäßige Inspektion verhindert teure Überraschungen."
+      />
     </div>
   );
 }

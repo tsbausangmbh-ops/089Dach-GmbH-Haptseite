@@ -110,7 +110,11 @@ export default function VordachMontage() {
       </section>
 
       <EinzugsgebietSection />
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Vordach montieren lassen?"
+        subheadline="Wir bauen Ihr Vordach."
+        description="Schutz für Ihren Eingang – professionelle Vordach-Montage vom Dachdecker."
+      />
     </div>
   );
 }

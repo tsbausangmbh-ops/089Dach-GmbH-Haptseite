@@ -316,7 +316,11 @@ export default function FAQ() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Noch Fragen offen?"
+        subheadline="Wir beraten Sie gerne persönlich."
+        description="Manche Fragen lassen sich am besten im Gespräch klären. Rufen Sie uns an."
+      />
       <Contact 
         title="Ihre Frage ist nicht dabei?"
         description="Kein Problem – rufen Sie uns an oder schreiben Sie uns. Wir nehmen uns Zeit für Ihre Fragen, auch wenn Sie noch gar nicht wissen, ob Sie etwas machen wollen."

@@ -186,7 +186,11 @@ export default function Stadtteile() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachdecker in Ihrem Stadtteil?"
+        subheadline="Wir kommen zu Ihnen."
+        description="In ganz München und Umgebung sind wir Ihr Partner für alle Dacharbeiten."
+      />
       <Contact 
         title="Dachdecker für Ihren Stadtteil?"
         description="Wir sind in ganz München und Umgebung für Sie da – mit kurzen Anfahrtswegen und lokaler Erfahrung seit 1998."

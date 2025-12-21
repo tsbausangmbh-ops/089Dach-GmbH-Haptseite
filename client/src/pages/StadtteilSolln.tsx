@@ -217,7 +217,11 @@ export default function StadtteilSolln() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachdecker in Solln gesucht?"
+        subheadline="Wir sind Ihr Partner in Solln."
+        description="Villen-Experten für Solln – wir kennen die gehobenen Ansprüche im Stadtteil."
+      />
       <Contact 
         title="Dachdecker für Solln gesucht?"
         description="Villen-Erfahrung und Denkmalschutz-Kompetenz – Ihr Dachdecker-Meisterbetrieb für Solln."

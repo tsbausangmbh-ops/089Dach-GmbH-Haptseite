@@ -181,7 +181,11 @@ export default function DachrinneReparieren() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachrinne tropft oder leckt?"
+        subheadline="Wir reparieren Ihre Dachrinne."
+        description="Eine undichte Dachrinne schädigt Fassade und Fundament."
+      />
     </div>
   );
 }

@@ -296,7 +296,11 @@ export default function SEODachdeckerSpengler() {
         columns={2}
       />
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachdecker und Spengler in einem?"
+        subheadline="Bei uns bekommen Sie alles aus einer Hand."
+        description="Dach und Metall – wir sind Meister in beiden Gewerken."
+      />
 
       <section className="py-4 md:py-6 bg-primary">
         <div className="container mx-auto px-4 md:px-6 lg:px-12 text-center">

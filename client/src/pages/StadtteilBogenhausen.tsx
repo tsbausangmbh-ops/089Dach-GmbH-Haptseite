@@ -262,7 +262,11 @@ export default function StadtteilBogenhausen() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachdecker in Bogenhausen gesucht?"
+        subheadline="Wir betreuen Villen und Altbauten."
+        description="Villen-Erfahrung in Bogenhausen – wir kennen die gehobenen Ansprüche im Stadtteil."
+      />
       <Contact 
         title="Dachdecker für Bogenhausen gesucht?"
         description="Villen-Erfahrung und Premium-Qualität – Ihr Dachdecker-Meisterbetrieb für Bogenhausen."

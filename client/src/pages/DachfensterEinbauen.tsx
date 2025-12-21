@@ -150,7 +150,11 @@ export default function DachfensterEinbauen() {
       </section>
 
       <EinzugsgebietSection />
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachfenster einbauen lassen?"
+        subheadline="Wir montieren Velux, Roto & Co."
+        description="Mehr Licht im Dachgeschoss durch professionellen Dachfenster-Einbau."
+      />
     </div>
   );
 }

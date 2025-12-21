@@ -345,7 +345,11 @@ export default function Spenglerei() {
         subtitle="Planbar, transparent und stressfrei – von der ersten Beratung bis zur Garantie."
       />
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Spenglerarbeiten vom Meister?"
+        subheadline="Präzise Metallarbeit für Ihr Dach."
+        description="Dachrinnen, Kamineinfassungen und Blechverkleidungen müssen perfekt sitzen. Ein Spenglerfehler zeigt sich erst beim nächsten Starkregen."
+      />
       <Contact 
         title="Dachrinne, Kamineinfassung oder Blecharbeiten?"
         description="Unser Spenglermeister berät Sie zu allen Metallarbeiten am Dach. Fordern Sie Ihr individuelles Angebot für Spenglerarbeiten an."

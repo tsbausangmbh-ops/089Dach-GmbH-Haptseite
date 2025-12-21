@@ -306,7 +306,11 @@ export default function Dachbeschichtung() {
         subtitle="Planbar, transparent und stressfrei – von der ersten Beratung bis zur Garantie."
       />
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachbeschichtung statt Neueindeckung?"
+        subheadline="Wir prüfen, ob sich eine Beschichtung lohnt."
+        description="Eine Dachbeschichtung ist nicht immer die beste Lösung. Wir beraten ehrlich."
+      />
       <Footer />
     </div>
   );

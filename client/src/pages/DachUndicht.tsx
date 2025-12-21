@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import LeadFunnel from "@/components/LeadFunnel";
 import { Button } from "@/components/ui/button";
 import { AlertTriangle, Phone, Clock, Shield, Droplets, CheckCircle2, ArrowRight, Camera, FileText, Wrench } from "lucide-react";
+import { Link } from "wouter";
 import SEO, { BreadcrumbSchema, ServiceSchema, FAQPageSchema, ProductServiceSchema } from "@/components/SEO";
 import BackButton from "@/components/BackButton";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
@@ -185,7 +186,11 @@ export default function DachUndicht() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dach undicht?"
+        subheadline="Wir finden und beheben die Ursache."
+        description="Ein undichtes Dach verursacht teure Folgeschäden. Handeln Sie jetzt."
+      />
     </div>
   );
 }

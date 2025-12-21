@@ -375,7 +375,11 @@ export default function Gaubenbau() {
         subtitle="Planbar, transparent und stressfrei – von der ersten Beratung bis zur Garantie."
       />
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Mehr Wohnraum durch eine Gaube?"
+        subheadline="Wir planen und bauen Ihre Dachgaube."
+        description="Eine Gaube bringt Licht, Stehhöhe und zusätzliche Wohnfläche. Die beste Investition für Ihr Dachgeschoss."
+      />
       <Contact 
         title="Mehr Wohnraum durch eine Gaube?"
         description="Wir planen und bauen Ihre Gaube – von der ersten Skizze bis zur Fertigstellung. Jetzt unverbindliche Beratung anfordern."

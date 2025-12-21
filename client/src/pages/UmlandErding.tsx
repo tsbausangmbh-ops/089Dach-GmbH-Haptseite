@@ -205,7 +205,11 @@ export default function UmlandErding() {
           </div>
         </div>
       </section>
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachdecker in Erding gesucht?"
+        subheadline="Wir kommen auch nach Erding."
+        description="Münchner Qualität für Erding – wir sind Ihr Partner für alle Dacharbeiten."
+      />
       <Footer />
     </div>
   );

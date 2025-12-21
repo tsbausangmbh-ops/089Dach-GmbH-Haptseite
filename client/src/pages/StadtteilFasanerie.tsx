@@ -261,7 +261,11 @@ export default function StadtteilFasanerie() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachdecker in der Fasanerie gesucht?"
+        subheadline="Wir sind Ihr Partner in der Fasanerie."
+        description="Als Münchner Meisterbetrieb kennen wir die Fasanerie und Umgebung."
+      />
       <Contact 
         title="Dachdecker für die Fasanerie gesucht?"
         description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in der Fasanerie – mit kurzer Anfahrt und Erfahrung seit 1998."

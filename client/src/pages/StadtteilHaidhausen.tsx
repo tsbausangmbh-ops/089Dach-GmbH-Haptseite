@@ -250,7 +250,11 @@ export default function StadtteilHaidhausen() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachdecker in Haidhausen gesucht?"
+        subheadline="Wir betreuen Altbauten in Haidhausen."
+        description="Altbau-Experten für Au-Haidhausen – wir kennen die besonderen Anforderungen."
+      />
       <Footer />
     </div>
   );

@@ -325,7 +325,11 @@ export default function Notdienst() {
 
       <ProofStack title="Warum 089Dach im Notfall?" />
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dach-Notfall?"
+        subheadline="Wir sind in 1-2 Stunden vor Ort."
+        description="Bei Sturmschäden, Wassereintritt oder akuten Problemen: Rufen Sie uns an."
+      />
       <Contact 
         title="Dach-Notfall? Wir sind sofort für Sie da!"
         description="Bei Wasserschaden, Sturmschaden oder undichtem Dach: Rufen Sie uns jetzt an oder senden Sie Ihre Anfrage – wir melden uns schnellstmöglich."

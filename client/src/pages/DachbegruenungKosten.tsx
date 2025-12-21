@@ -137,7 +137,11 @@ export default function DachbegruenungKosten() {
       </section>
 
       <EinzugsgebietSection />
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachbegrünung für Ihr Flachdach?"
+        subheadline="Wir beraten zu Kosten und Förderung."
+        description="München fördert Dachbegrünung mit bis zu 50€/m² – wir helfen beim Antrag."
+      />
     </div>
   );
 }

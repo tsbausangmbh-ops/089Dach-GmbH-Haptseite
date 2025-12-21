@@ -307,7 +307,11 @@ export default function StadtteilPasing() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachdecker in Pasing gesucht?"
+        subheadline="Wir sind Ihr Partner in Pasing."
+        description="Als Münchner Meisterbetrieb kennen wir Pasing und die typischen Dachprobleme in Ihrer Nachbarschaft."
+      />
       <Contact 
         title="Dachdecker für Pasing gesucht?"
         description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Pasing – mit kurzer Anfahrt und Erfahrung seit 1998."

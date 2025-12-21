@@ -171,7 +171,11 @@ export default function DachsanierungKosten() {
       </section>
 
       <EinzugsgebietSection />
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Was kostet Ihre Dachsanierung?"
+        subheadline="Wir erstellen ein individuelles Angebot."
+        description="Jedes Dach ist anders. Lassen Sie sich kostenlos beraten und erhalten Sie Festpreise."
+      />
     </div>
   );
 }

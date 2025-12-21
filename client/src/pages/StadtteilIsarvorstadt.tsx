@@ -262,7 +262,11 @@ export default function StadtteilIsarvorstadt() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachdecker in der Isarvorstadt gesucht?"
+        subheadline="Wir sind Ihr Partner in der Isarvorstadt."
+        description="Altbau-Experten für Glockenbachviertel und Isarvorstadt."
+      />
       <Contact 
         title="Dachdecker für die Isarvorstadt gesucht?"
         description="Altbau-Erfahrung und Denkmalschutz-Kompetenz – Ihr Dachdecker-Meisterbetrieb für die Isarvorstadt."

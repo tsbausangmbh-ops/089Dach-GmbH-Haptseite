@@ -475,7 +475,11 @@ export default function Referenzen() {
 
       <BackButton />
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Überzeugt von unseren Referenzen?"
+        subheadline="Werden Sie unser nächstes Projekt."
+        description="Über 200 zufriedene Kunden in München sprechen für uns."
+      />
       <Contact 
         title="Begeistert von unseren Referenzen?"
         description="Lassen Sie sich von unserer Qualität überzeugen – wir beraten Sie gerne zu Ihrem Dachprojekt. Kostenlos und unverbindlich."

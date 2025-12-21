@@ -112,7 +112,11 @@ export default function DachstuhlErneuern() {
       </section>
 
       <EinzugsgebietSection />
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachstuhl erneuern?"
+        subheadline="Wir sanieren Ihren Dachstuhl."
+        description="Ein stabiler Dachstuhl ist das Fundament Ihres Daches."
+      />
     </div>
   );
 }

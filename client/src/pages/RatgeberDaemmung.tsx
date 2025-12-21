@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import BackButton from "@/components/BackButton";
 import Contact from "@/components/Contact";
+import LeadFunnel from "@/components/LeadFunnel";
 import { Button } from "@/components/ui/button";
 import { CheckCircle2, ThermometerSnowflake, ArrowRight, ArrowLeft, Euro, Home, Phone, AlertTriangle, TrendingDown, Clock, Shield, Users, Star, Calculator } from "lucide-react";
 import { Link } from "wouter";
@@ -368,6 +369,11 @@ export default function RatgeberDaemmung() {
         </div>
       </section>
 
+      <LeadFunnel 
+        headline="Dämmung für Ihr Dach?"
+        subheadline="Wir beraten zu allen Möglichkeiten."
+        description="Die richtige Dämmung spart Heizkosten und steigert den Wohnkomfort."
+      />
       <Contact 
         title="Dämmung für Ihr Dach planen?"
         description="Wir beraten Sie zu allen Dämm-Methoden und Fördermöglichkeiten – kostenlos und unverbindlich vor Ort."

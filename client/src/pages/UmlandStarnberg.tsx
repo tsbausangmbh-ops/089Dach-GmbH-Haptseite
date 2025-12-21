@@ -217,7 +217,11 @@ export default function UmlandStarnberg() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachdecker in Starnberg gesucht?"
+        subheadline="Wir betreuen Villen am Starnberger See."
+        description="Villen-Erfahrung in Starnberg – wir kennen die gehobenen Ansprüche der Region."
+      />
       <Contact 
         title="Dachdecker für Starnberg gesucht?"
         description="Villen-Erfahrung und Premium-Qualität – Ihr Dachdecker-Meisterbetrieb für Starnberg und den See."

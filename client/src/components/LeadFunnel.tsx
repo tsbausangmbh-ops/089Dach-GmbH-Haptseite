@@ -13,9 +13,18 @@ import { Link } from "wouter";
 interface LeadFunnelProps {
   externalOpen?: boolean;
   onExternalOpenChange?: (open: boolean) => void;
+  headline?: string;
+  subheadline?: string;
+  description?: string;
 }
 
-export default function LeadFunnel({ externalOpen, onExternalOpenChange }: LeadFunnelProps) {
+export default function LeadFunnel({ 
+  externalOpen, 
+  onExternalOpenChange,
+  headline = "Sie wissen, dass etwas getan werden muss.",
+  subheadline = "Wir zeigen Ihnen wie.",
+  description = "Ein Dachproblem verschwindet nicht von allein. Je länger Sie warten, desto teurer wird es."
+}: LeadFunnelProps) {
   const [open, setOpen] = useState(false);
   const [step, setStep] = useState(1);
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -113,11 +122,11 @@ export default function LeadFunnel({ externalOpen, onExternalOpenChange }: LeadF
         <div className="text-center max-w-4xl mx-auto mb-8 md:mb-16">
           {/* NLP: Problem-Agitation */}
           <h2 className="text-3xl md:text-5xl font-heading font-bold mb-6 leading-tight">
-            Sie wissen, dass etwas getan werden muss.<br/>
-            <span className="text-white/90">Wir zeigen Ihnen wie.</span>
+            {headline}<br/>
+            <span className="text-white/90">{subheadline}</span>
           </h2>
           <p className="text-xl text-white/80 max-w-2xl mx-auto mb-8">
-            Ein Dachproblem verschwindet nicht von allein. Je länger Sie warten, desto teurer wird es.
+            {description}
             <strong className="text-white"> Holen Sie sich jetzt Klarheit – kostenlos und unverbindlich.</strong>
           </p>
           

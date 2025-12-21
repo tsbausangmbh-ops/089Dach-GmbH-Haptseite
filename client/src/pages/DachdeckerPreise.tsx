@@ -154,7 +154,11 @@ export default function DachdeckerPreise() {
       </section>
 
       <EinzugsgebietSection />
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachdecker-Preise vergleichen?"
+        subheadline="Wir erstellen transparente Angebote."
+        description="Faire Preise vom Meisterbetrieb – ohne versteckte Kosten."
+      />
     </div>
   );
 }

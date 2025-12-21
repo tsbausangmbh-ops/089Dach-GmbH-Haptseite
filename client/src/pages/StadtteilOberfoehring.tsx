@@ -218,7 +218,11 @@ export default function StadtteilOberfoehring() {
         </div>
       </section>
 
-      <LeadFunnel />
+      <LeadFunnel 
+        headline="Dachdecker in Oberföhring gesucht?"
+        subheadline="Wir sind Ihr Partner in Oberföhring."
+        description="Als Münchner Meisterbetrieb kennen wir Oberföhring."
+      />
       <Contact 
         title="Dachdecker für Oberföhring gesucht?"
         description="Villen-Erfahrung und Premium-Qualität – Ihr Dachdecker-Meisterbetrieb für Oberföhring."
