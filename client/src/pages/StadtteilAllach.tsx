@@ -8,7 +8,7 @@ import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 import heroImage from "@assets/generated_images/realistic_row_house_roof_after.png";
 import imgDachrinnenreinigung from "@assets/stock_images/rain_gutter_full_lea_dbbf6bfe.jpg";
-import imgSturmschaden from "@assets/stock_images/roof_hole_damage_mis_d1d8b43e.jpg";
+import imgSturmschaden from "@assets/stock_images/house_roof_destroyed_dfae740c.jpg";
 import imgWasserschaden from "@assets/stock_images/damaged_roof_missing_c82dc27d.jpg";
 import imgDachUndicht from "@assets/stock_images/roofer_man_working_r_0b569cea.jpg";
 import imgDachsanierung from "@assets/stock_images/new_red_tile_roof_ge_cedd65a2.jpg";
