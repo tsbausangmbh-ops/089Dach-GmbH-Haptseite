@@ -78,7 +78,7 @@ export default function Home() {
                 </a>
               ))}
               <a href="/stadtteile" className="inline-flex items-center gap-1 px-3 py-1.5 bg-primary text-white rounded-full text-sm font-medium hover:bg-primary/90 transition-all">
-                Alle Stadtteile <ArrowRight className="h-3 w-3" />
+                Dachdecker für ganz München <ArrowRight className="h-3 w-3" />
               </a>
             </div>
             <div className="flex flex-wrap gap-2">
