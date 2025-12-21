@@ -169,7 +169,7 @@ export default function SEODachdeckerUmgebung() {
                 Ob <strong>Gräfelfing, Germering, Puchheim</strong> im Westen, <strong>Dachau, Unterschleißheim</strong> im Norden, <strong>Freising, Erding</strong> im Nordosten oder <strong>Starnberg, Fürstenfeldbruck</strong> – wir kommen zu Ihnen. Die <strong>Anfahrt ist kostenlos</strong>, und Sie erhalten wie alle unsere Kunden 10 Jahre Garantie und einen verbindlichen Festpreis.
               </p>
 
-              <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4">Warum Dachdecker aus München auch fürs Umland?</h3>
+              <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4"><strong>Dachdecker Münchner Umland</strong> – Warum wir auch zu Ihnen kommen</h3>
               
               <ul className="space-y-3 mb-6">
                 <li className="flex items-start gap-3">
@@ -232,17 +232,17 @@ export default function SEODachdeckerUmgebung() {
               In allen Städten und Gemeinden rund um München bieten wir das <strong>komplette Spektrum an Dachdeckerleistungen</strong>: Dachsanierung, Dachreparatur, Flachdach-Abdichtung, Spenglerarbeiten, Dachfenster-Einbau und Gaubenbau. Besonders häufig werden wir gerufen für:
             </p>
             
-            <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4">Dachsanierung im Umland</h3>
+            <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4"><strong>Dachsanierung Umland München</strong></h3>
             <p>
               Viele Einfamilienhäuser im <strong>Münchner Umland</strong> stammen aus den 1960er-1980er Jahren und benötigen eine energetische Sanierung. Wir modernisieren Ihr Dach mit neuer Dämmung, Eindeckung und ggf. Dachfenstern – alles aus einer Hand und mit <strong>KfW/BAFA-Förderberatung</strong>.
             </p>
             
-            <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4">Sturmschaden-Reparatur</h3>
+            <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4"><strong>Sturmschaden Reparatur Umland</strong></h3>
             <p>
               Stürme treffen das <strong>Münchner Umland</strong> oft härter als die Innenstadt. Bei Sturmschäden sind wir schnell vor Ort – unser <strong>Notdienst ist 24/7</strong> erreichbar. Wir sichern Ihr Dach sofort und übernehmen die Kommunikation mit Ihrer Versicherung.
             </p>
             
-            <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4">Dacharbeiten für Neubauten</h3>
+            <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4"><strong>Neubau Dach Umland München</strong></h3>
             <p>
               In wachsenden Gemeinden wie <strong>Gröbenzell, Puchheim, Olching</strong> oder <strong>Eching</strong> entstehen viele Neubauten. Wir arbeiten mit Bauträgern und Privatkunden zusammen und liefern termingerechte <strong>Dacheindeckung und Spenglerarbeiten</strong> für Ihren Neubau.
             </p>

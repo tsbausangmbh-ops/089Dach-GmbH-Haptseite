@@ -205,7 +205,7 @@ export default function RatgeberFoerderung() {
             </div>
 
             <div className="bg-primary text-white rounded-xl p-6 text-center">
-              <h3 className="text-2xl font-bold mb-4">Förderberatung – kostenlos & unverbindlich</h3>
+              <h3 className="text-2xl font-bold mb-4"><strong>Förderberatung Dachsanierung</strong> – kostenlos & unverbindlich</h3>
               <p className="text-white/90 mb-6">Wir prüfen Ihre Fördermöglichkeiten und helfen beim Antrag. Im Schnitt holen wir 12.000€ für unsere Kunden.</p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="/foerderung-rechner">

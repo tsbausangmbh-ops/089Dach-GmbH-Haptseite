@@ -391,7 +391,7 @@ export default function UeberUns() {
               <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
                 <CheckCircle2 className="h-8 w-8 text-primary" />
               </div>
-              <h3 className="text-xl font-heading font-bold text-secondary mb-3">Qualität</h3>
+              <h3 className="text-xl font-heading font-bold text-secondary mb-3"><strong>Dachdecker Qualität</strong></h3>
               <p className="text-muted-foreground">
                 Wir verwenden nur hochwertige Materialien und arbeiten nach den höchsten Standards des Handwerks.
               </p>
@@ -401,7 +401,7 @@ export default function UeberUns() {
               <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Users className="h-8 w-8 text-primary" />
               </div>
-              <h3 className="text-xl font-heading font-bold text-secondary mb-3">Vertrauen</h3>
+              <h3 className="text-xl font-heading font-bold text-secondary mb-3"><strong>Dachdecker Vertrauen</strong></h3>
               <p className="text-muted-foreground">
                 Transparente Kommunikation, faire Preise und verlässliche Termine – darauf können Sie sich verlassen.
               </p>
@@ -411,7 +411,7 @@ export default function UeberUns() {
               <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Heart className="h-8 w-8 text-primary" />
               </div>
-              <h3 className="text-xl font-heading font-bold text-secondary mb-3">Leidenschaft</h3>
+              <h3 className="text-xl font-heading font-bold text-secondary mb-3"><strong>Dachdecker Leidenschaft</strong></h3>
               <p className="text-muted-foreground">
                 Jedes Dach ist für uns mehr als nur ein Projekt – es ist der Schutz für Ihr Zuhause und Ihre Familie.
               </p>

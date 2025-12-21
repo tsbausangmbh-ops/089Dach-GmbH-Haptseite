@@ -149,7 +149,7 @@ export default function Flachdachsanierung() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="space-y-4">
-                <h3 className="font-bold text-secondary">Typische Anzeichen:</h3>
+                <h3 className="font-bold text-secondary"><strong>Flachdach Wasserschaden</strong> – Typische Anzeichen:</h3>
                 <ul className="space-y-3">
                   {[
                     "Wasserpfützen, die nicht ablaufen",
@@ -166,7 +166,7 @@ export default function Flachdachsanierung() {
                 </ul>
               </div>
               <div className="space-y-4">
-                <h3 className="font-bold text-secondary">Unsere Empfehlung:</h3>
+                <h3 className="font-bold text-secondary"><strong>Flachdach Dämmung nachrüsten</strong> – Unsere Empfehlung:</h3>
                 <div className="bg-primary/10 rounded-xl p-6">
                   <p className="text-muted-foreground mb-4">
                     Bei einer Sanierung lohnt es sich oft, gleich die Dämmung zu erneuern:

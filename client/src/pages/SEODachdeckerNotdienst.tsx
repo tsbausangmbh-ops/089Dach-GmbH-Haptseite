@@ -199,7 +199,7 @@ export default function SEODachdeckerNotdienst() {
               Sturmschaden am Dach: Was tun?
             </h2>
             
-            <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4">Erste Schritte bei Sturmschaden</h3>
+            <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4"><strong>Sturmschaden Dach</strong> – Erste Schritte</h3>
             <ol className="space-y-2">
               <li><strong>Sicherheit zuerst:</strong> Betreten Sie das Dach nicht selbst!</li>
               <li><strong>Dokumentieren:</strong> Fotografieren Sie die Schäden von unten oder aus dem Fenster</li>
@@ -207,7 +207,7 @@ export default function SEODachdeckerNotdienst() {
               <li><strong>Versicherung informieren:</strong> Melden Sie den Schaden Ihrer Gebäudeversicherung</li>
             </ol>
             
-            <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4">Kosten bei Sturmschäden</h3>
+            <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4"><strong>Sturmschaden Kosten</strong> – Was zahlt die Versicherung?</h3>
             <p>
               Die <strong>Gebäudeversicherung</strong> übernimmt in der Regel die Kosten für Sturmschäden ab Windstärke 8. Wir helfen Ihnen bei der Dokumentation und Kommunikation mit der Versicherung.
             </p>
@@ -217,7 +217,7 @@ export default function SEODachdeckerNotdienst() {
               <li><strong>Dauerhafte Reparatur:</strong> Individuelles Angebot nach Schadensaufnahme</li>
             </ul>
 
-            <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4">Unsere Notdienst-Garantie</h3>
+            <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4"><strong>Dachdecker Notdienst Garantie</strong></h3>
             <ul>
               <li><strong>Schnelle Reaktion:</strong> In der Regel innerhalb von 60 Minuten vor Ort</li>
               <li><strong>Professionelle Absicherung:</strong> Keine provisorischen Lösungen</li>

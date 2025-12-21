@@ -114,7 +114,7 @@ export default function Sturmschaden() {
               </div>
 
               <div className="bg-primary/5 rounded-xl p-6 border border-primary/20">
-                <h3 className="text-xl font-heading font-bold text-secondary mb-4">Unser Vorgehen bei Sturmschäden</h3>
+                <h3 className="text-xl font-heading font-bold text-secondary mb-4"><strong>Sturmschaden Ablauf</strong> – Unser Vorgehen</h3>
                 <ol className="space-y-4">
                   {[
                     { schritt: "1", titel: "Sofort-Absicherung", desc: "Wir sichern Ihr Dach mit Planen ab, um weitere Schäden zu verhindern." },
@@ -137,7 +137,7 @@ export default function Sturmschaden() {
               </div>
 
               <div className="bg-secondary/5 rounded-xl p-6">
-                <h3 className="text-xl font-heading font-bold text-secondary mb-4">Typische Sturmschäden</h3>
+                <h3 className="text-xl font-heading font-bold text-secondary mb-4"><strong>Typische Sturmschäden Dach</strong></h3>
                 <ul className="space-y-3">
                   {[
                     "Abgedeckte oder verschobene Dachziegel",

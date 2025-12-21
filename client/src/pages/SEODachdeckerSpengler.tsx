@@ -146,7 +146,7 @@ export default function SEODachdeckerSpengler() {
                 Unser Inhaber <strong>Falko Georg Blöckinger</strong> ist sowohl Dachdecker- als auch Spengler-Meister. In unserer eigenen Werkstatt fertigen wir <strong>Dachrinnen, Fallrohre, Kamineinfassungen und Blechverkleidungen</strong> maßgenau an – aus Kupfer, Zink oder Aluminium.
               </p>
 
-              <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4">Vorteile: Dachdecker & Spengler aus einer Hand</h3>
+              <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4"><strong>Dachdecker & Spengler München</strong> – Vorteile aus einer Hand</h3>
               
               <ul className="space-y-3 mb-6">
                 <li className="flex items-start gap-3">
@@ -267,17 +267,17 @@ export default function SEODachdeckerSpengler() {
               Materialien für Spenglerarbeiten
             </h2>
             
-            <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4">Kupfer – Der Klassiker</h3>
+            <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4"><strong>Kupfer Dachrinne München</strong> – Der Klassiker</h3>
             <p>
               <strong>Kupfer-Dachrinnen und -verkleidungen</strong> sind die Königsklasse der Spenglerarbeit. Das Material entwickelt eine edle Patina, ist extrem langlebig (80-100 Jahre) und wertet jedes Gebäude optisch auf. Besonders beliebt bei historischen Villen und denkmalgeschützten Gebäuden in München.
             </p>
             
-            <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4">Titanzink – Preis-Leistungs-Sieger</h3>
+            <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4"><strong>Titanzink Dachrinne</strong> – Preis-Leistungs-Sieger</h3>
             <p>
               <strong>Titanzink</strong> bietet hervorragende Eigenschaften zu moderatem Preis: Korrosionsbeständig, langlebig (50-70 Jahre), selbstheilend bei kleinen Kratzern. Die graue Patina passt zu modernen wie traditionellen Gebäuden.
             </p>
             
-            <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4">Aluminium – Leicht und vielseitig</h3>
+            <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4"><strong>Aluminium Dachrinne</strong> – Leicht und vielseitig</h3>
             <p>
               <strong>Aluminium-Spenglerarbeiten</strong> sind leicht, rostfrei und in vielen Farben erhältlich. Ideal für moderne Gebäude und wenn Gewicht eine Rolle spielt. Lebensdauer: 40-50 Jahre.
             </p>

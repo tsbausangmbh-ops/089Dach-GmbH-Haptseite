@@ -166,27 +166,27 @@ export default function SEODachdeckerKosten() {
               Was beeinflusst die Dachdecker-Kosten?
             </h2>
             
-            <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4">1. Dachgröße und Dachform</h3>
+            <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4"><strong>Dachgröße & Dachform</strong> – Kostenfaktor 1</h3>
             <p>
               Die <strong>Quadratmeterzahl</strong> ist der wichtigste Kostenfaktor. Ein einfaches Satteldach ist günstiger als ein Walmdach mit vielen Kehlen und Graten. Gauben und Dachfenster erhöhen den Aufwand.
             </p>
             
-            <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4">2. Materialwahl</h3>
+            <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4"><strong>Dachziegel Preise</strong> – Kostenfaktor 2</h3>
             <p>
               <strong>Betondachsteine</strong> (ab 25€/m²) sind günstiger als <strong>Tondachziegel</strong> (ab 35€/m²). <strong>Naturschiefer</strong> (ab 80€/m²) ist am teuersten, aber auch am langlebigsten.
             </p>
             
-            <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4">3. Dämmung</h3>
+            <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4"><strong>Dachdämmung Kosten</strong> – Kostenfaktor 3</h3>
             <p>
               Eine <strong>energetische Dachsanierung</strong> mit Aufsparrendämmung kostet mehr, spart aber langfristig Heizkosten und wird mit bis zu 20% durch <strong>KfW und BAFA</strong> gefördert.
             </p>
             
-            <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4">4. Zustand des Dachstuhls</h3>
+            <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4"><strong>Dachstuhl Sanierung</strong> – Kostenfaktor 4</h3>
             <p>
               Müssen <strong>Sparren oder Balken</strong> erneuert werden, steigen die Kosten. Bei unserer kostenlosen Dachinspektion prüfen wir den Zustand genau.
             </p>
             
-            <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4">5. Gerüstkosten</h3>
+            <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4"><strong>Gerüst Dachsanierung</strong> – Kostenfaktor 5</h3>
             <p>
               <strong>Gerüstkosten</strong> (ca. 8-12€/m² Fassadenfläche) sind in unseren Festpreisen bereits enthalten – keine bösen Überraschungen.
             </p>

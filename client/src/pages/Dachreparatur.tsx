@@ -154,7 +154,7 @@ export default function Dachreparatur() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-green-50 rounded-xl p-6 border border-green-200">
                 <h3 className="font-bold text-green-800 mb-4 flex items-center gap-2">
-                  <CheckCircle2 className="h-5 w-5" /> Reparatur reicht meist bei:
+                  <CheckCircle2 className="h-5 w-5" /> <strong>Dachreparatur</strong> reicht meist bei:
                 </h3>
                 <ul className="space-y-2 text-green-700 text-sm">
                   <li>• Weniger als 10-20% der Fläche betroffen</li>
@@ -166,7 +166,7 @@ export default function Dachreparatur() {
               </div>
               <div className="bg-orange-50 rounded-xl p-6 border border-orange-200">
                 <h3 className="font-bold text-orange-800 mb-4 flex items-center gap-2">
-                  <AlertTriangle className="h-5 w-5" /> Sanierung sinnvoll bei:
+                  <AlertTriangle className="h-5 w-5" /> <strong>Dachsanierung</strong> sinnvoll bei:
                 </h3>
                 <ul className="space-y-2 text-orange-700 text-sm">
                   <li>• Mehr als 30% der Fläche schadhaft</li>

@@ -171,7 +171,7 @@ export default function Bedachungen() {
                     <Home className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-secondary mb-2">Steildach Sanierung & Neubau</h3>
+                    <h3 className="text-xl font-bold text-secondary mb-2"><strong>Steildach Sanierung München</strong> – Neubau & Eindeckung</h3>
                     <p className="text-muted-foreground">
                       <TextWithKeywordLinks currentPath="/leistungen/bedachungen">
                         Ob Tondachziegel, Betonsteine oder edles Schiefer – wir finden die perfekte Eindeckung für Ihr Haus. Sturmsicher befestigt, fachmännisch verlegt.
@@ -185,7 +185,7 @@ export default function Bedachungen() {
                     <Warehouse className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-secondary mb-2">Flachdach Abdichtung</h3>
+                    <h3 className="text-xl font-bold text-secondary mb-2"><strong>Flachdach Abdichtung München</strong> – Bitumen & EPDM</h3>
                     <p className="text-muted-foreground">
                       <TextWithKeywordLinks currentPath="/leistungen/bedachungen">
                         Flachdächer verzeihen keine Fehler. Deshalb arbeiten wir nur mit Premiummaterialien und erfahrenen Fachkräften. Für Garagen, Anbauten und große Gewerbeobjekte.
@@ -199,7 +199,7 @@ export default function Bedachungen() {
                     <ShieldCheck className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-secondary mb-2">Energetische Dachsanierung</h3>
+                    <h3 className="text-xl font-bold text-secondary mb-2"><strong>Energetische Dachsanierung</strong> – bis 30% Heizkosten sparen</h3>
                     <p className="text-muted-foreground">
                       <TextWithKeywordLinks currentPath="/leistungen/bedachungen">
                         Bis zu 30% weniger Heizkosten durch moderne Dämmung. Wir beraten Sie auch zu KfW-Förderung und BAFA-Zuschüssen – die können mehrere tausend Euro ausmachen!

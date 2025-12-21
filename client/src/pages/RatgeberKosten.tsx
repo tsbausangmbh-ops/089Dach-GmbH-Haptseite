@@ -82,7 +82,7 @@ export default function RatgeberKosten() {
                 <div className="bg-white rounded-xl p-6 border border-gray-200 shadow-sm">
                   <div className="flex items-center gap-3 mb-4">
                     <Home className="h-8 w-8 text-primary" />
-                    <h3 className="text-xl font-bold text-secondary">Steildach</h3>
+                    <h3 className="text-xl font-bold text-secondary"><strong>Steildach Kosten</strong></h3>
                   </div>
                   <div className="space-y-3">
                     {[
@@ -102,7 +102,7 @@ export default function RatgeberKosten() {
                 <div className="bg-white rounded-xl p-6 border border-gray-200 shadow-sm">
                   <div className="flex items-center gap-3 mb-4">
                     <Warehouse className="h-8 w-8 text-primary" />
-                    <h3 className="text-xl font-bold text-secondary">Flachdach</h3>
+                    <h3 className="text-xl font-bold text-secondary"><strong>Flachdach Kosten</strong></h3>
                   </div>
                   <div className="space-y-3">
                     {[
@@ -215,7 +215,7 @@ export default function RatgeberKosten() {
             </div>
 
             <div className="bg-primary text-white rounded-xl p-6 text-center">
-              <h3 className="text-2xl font-bold mb-4">Kostenloses Angebot in 24 Stunden</h3>
+              <h3 className="text-2xl font-bold mb-4"><strong>Dachsanierung Angebot</strong> – kostenlos in 24 Stunden</h3>
               <p className="text-white/90 mb-6">Wir erstellen Ihnen ein unverbindliches Festpreis-Angebot – ohne versteckte Kosten.</p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="/foerderung-rechner">

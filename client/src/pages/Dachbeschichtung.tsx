@@ -103,7 +103,7 @@ export default function Dachbeschichtung() {
 
               <div className="bg-amber-50 rounded-xl p-6 border border-amber-200">
                 <h3 className="text-xl font-heading font-bold text-secondary mb-4 flex items-center gap-2">
-                  <AlertTriangle className="h-6 w-6 text-amber-600" />Wichtig zu wissen
+                  <AlertTriangle className="h-6 w-6 text-amber-600" /><strong>Dachbeschichtung Wissen</strong> – Wichtige Fakten
                 </h3>
                 <ul className="space-y-3">
                   {[
@@ -158,7 +158,7 @@ export default function Dachbeschichtung() {
               </div>
 
               <div className="bg-primary/5 rounded-xl p-6 border border-primary/20">
-                <h3 className="text-xl font-heading font-bold text-secondary mb-4">Unsere Leistungen</h3>
+                <h3 className="text-xl font-heading font-bold text-secondary mb-4"><strong>Dachbeschichtung Leistungen München</strong></h3>
                 <ul className="space-y-3">
                   {[
                     "Kostenlose Vor-Ort-Prüfung und ehrliche Beratung",
@@ -176,7 +176,7 @@ export default function Dachbeschichtung() {
               </div>
 
               <div className="bg-secondary/5 rounded-xl p-6">
-                <h3 className="text-xl font-heading font-bold text-secondary mb-4">Preise (Richtwerte)</h3>
+                <h3 className="text-xl font-heading font-bold text-secondary mb-4"><strong>Dachbeschichtung Preise München</strong> – Richtwerte</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {[
                     { leistung: "Dachreinigung", preis: "ab 8 €/m²" },
