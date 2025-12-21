@@ -241,7 +241,10 @@ export default function Architektenleistungen() {
         currentPage="architektenleistungen" 
         relatedIds={["gaubenbau", "energieberatung", "dachsanierung", "referenzen"]}
       />
-      <Contact />
+      <Contact 
+        title="Planung für Ihr Dachprojekt benötigt?"
+        description="Wir vermitteln Ihnen erfahrene Architekten für Bauanträge und Genehmigungen. Alles aus einer Hand – von der Planung bis zum fertigen Dach."
+      />
       <Footer />
     </div>
   );

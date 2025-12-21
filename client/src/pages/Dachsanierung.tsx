@@ -411,7 +411,10 @@ export default function Dachsanierung() {
         currentPage="dachsanierung" 
         relatedIds={["energieberatung", "bedachungen", "wartung", "referenzen"]}
       />
-      <Contact />
+      <Contact 
+        title="Ihr Dach braucht eine Sanierung?"
+        description="Wir beraten Sie kostenlos vor Ort zu Dachsanierung, Dämmung und Fördermöglichkeiten. Fordern Sie jetzt Ihr unverbindliches Angebot an."
+      />
       <Footer />
     </div>
   );

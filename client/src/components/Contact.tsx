@@ -18,7 +18,15 @@ const serviceOptions = [
   "Sonstiges"
 ];
 
-export default function Contact() {
+interface ContactProps {
+  title?: string;
+  description?: string;
+}
+
+export default function Contact({ 
+  title = "Sprechen Sie mit uns über Ihr Projekt",
+  description = "Gerne beraten wir Sie unverbindlich vor Ort oder erstellen Ihnen ein individuelles Angebot. Wir freuen uns auf Ihre Anfrage."
+}: ContactProps = {}) {
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
@@ -73,11 +81,10 @@ export default function Contact() {
           <div className="flex flex-col">
             <span className="text-primary font-bold tracking-wider uppercase text-sm block text-center md:text-left">Kontakt</span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-secondary mt-2 mb-6 text-center md:text-left">
-              Sprechen Sie mit uns über Ihr Projekt
+              {title}
             </h2>
             <p className="text-muted-foreground text-lg mb-6">
-              Gerne beraten wir Sie unverbindlich vor Ort oder erstellen Ihnen ein individuelles Angebot. 
-              Wir freuen uns auf Ihre Anfrage.
+              {description}
             </p>
 
             <div className="space-y-6">

@@ -298,7 +298,10 @@ export default function Dachrinnenreinigung() {
 
       <LeadFunnel />
       <RelatedServices currentPage="dachrinnenreinigung" relatedIds={["wartung", "spenglerei", "reparaturservice", "dachsanierung"]} />
-      <Contact />
+      <Contact 
+        title="Dachrinne verstopft oder undicht?"
+        description="Wir reinigen, reparieren oder erneuern Ihre Dachrinnen – fachgerecht und zu fairen Preisen. Jetzt Termin vereinbaren."
+      />
       <Footer />
     </div>
   );

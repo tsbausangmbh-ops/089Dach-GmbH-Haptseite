@@ -327,7 +327,10 @@ export default function Dachfenster() {
         currentPage="dachfenster" 
         relatedIds={["gaubenbau", "dachsanierung", "energieberatung", "referenzen"]}
       />
-      <Contact />
+      <Contact 
+        title="Mehr Licht unterm Dach gewünscht?"
+        description="Wir beraten Sie zu Einbau, Austausch und Reparatur von Dachfenstern aller Marken. Jetzt kostenloses Beratungsgespräch vereinbaren."
+      />
       <Footer />
     </div>
   );

@@ -313,7 +313,10 @@ export default function Energieberatung() {
         currentPage="energieberatung" 
         relatedIds={["dachsanierung", "architektenleistungen", "ratgeber", "faq"]}
       />
-      <Contact />
+      <Contact 
+        title="Förderung für Ihre Dachsanierung sichern?"
+        description="Wir beraten Sie zu KfW- und BAFA-Förderprogrammen und übernehmen die Antragstellung. Jetzt Förderberatung anfordern."
+      />
       <Footer />
     </div>
   );

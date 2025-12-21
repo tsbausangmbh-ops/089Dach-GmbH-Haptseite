@@ -309,7 +309,10 @@ export default function Dachbeschichtung() {
 
       <LeadFunnel />
       <RelatedServices currentPage="dachbeschichtung" relatedIds={["dachsanierung", "reparaturservice", "wartung", "energieberatung"]} />
-      <Contact />
+      <Contact 
+        title="Ehrliche Beratung zur Dachbeschichtung?"
+        description="Wir prüfen, ob eine Beschichtung für Ihr Dach sinnvoll ist – und sagen Ihnen ehrlich, wenn eine Sanierung die bessere Lösung wäre."
+      />
       <Footer />
     </div>
   );

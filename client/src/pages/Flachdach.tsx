@@ -279,7 +279,10 @@ export default function Flachdach() {
 
       <LeadFunnel />
       <RelatedServices currentPage="flachdach" relatedIds={["dachsanierung", "energieberatung", "spenglerei", "wartung"]} />
-      <Contact />
+      <Contact 
+        title="Flachdach undicht oder sanierungsbedürftig?"
+        description="Wir beraten Sie zu Abdichtung, Dämmung und Begrünung Ihres Flachdachs. Jetzt kostenlosen Vor-Ort-Termin vereinbaren."
+      />
       <Footer />
     </div>
   );

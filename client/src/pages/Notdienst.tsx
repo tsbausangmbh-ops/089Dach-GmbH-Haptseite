@@ -331,7 +331,10 @@ export default function Notdienst() {
         currentPage="reparaturservice" 
         relatedIds={["reparaturservice", "dachsanierung", "bedachungen", "faq"]}
       />
-      <Contact />
+      <Contact 
+        title="Dach-Notfall? Wir sind sofort für Sie da!"
+        description="Bei Wasserschaden, Sturmschaden oder undichtem Dach: Rufen Sie uns jetzt an oder senden Sie Ihre Anfrage – wir melden uns schnellstmöglich."
+      />
       <Footer />
     </div>
   );

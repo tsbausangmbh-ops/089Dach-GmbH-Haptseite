@@ -206,7 +206,10 @@ export default function Sturmschaden() {
 
       <LeadFunnel />
       <RelatedServices currentPage="sturmschaden" relatedIds={["reparaturservice", "dachsanierung", "notdienst", "wartung"]} />
-      <Contact />
+      <Contact 
+        title="Sturmschaden am Dach? Wir helfen sofort!"
+        description="Melden Sie Ihren Sturmschaden – wir dokumentieren alles für Ihre Versicherung und kümmern uns um die schnelle Reparatur."
+      />
       <Footer />
     </div>
   );

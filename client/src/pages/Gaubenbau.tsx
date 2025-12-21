@@ -381,7 +381,10 @@ export default function Gaubenbau() {
         currentPage="gaubenbau" 
         relatedIds={["dachfenster", "bedachungen", "architektenleistungen", "referenzen"]}
       />
-      <Contact />
+      <Contact 
+        title="Mehr Wohnraum durch eine Gaube?"
+        description="Wir planen und bauen Ihre Gaube – von der ersten Skizze bis zur Fertigstellung. Jetzt unverbindliche Beratung anfordern."
+      />
       <Footer />
     </div>
   );

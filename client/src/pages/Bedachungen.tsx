@@ -354,7 +354,10 @@ export default function Bedachungen() {
         currentPage="bedachungen" 
         relatedIds={["dachsanierung", "spenglerei", "gaubenbau", "referenzen"]}
       />
-      <Contact />
+      <Contact 
+        title="Neue Dacheindeckung geplant?"
+        description="Ob Ziegel, Schiefer oder Metalldach – wir beraten Sie zu allen Materialien und erstellen Ihnen ein maßgeschneidertes Angebot für Ihre Bedachung."
+      />
       <Footer />
     </div>
   );

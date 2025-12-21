@@ -351,7 +351,10 @@ export default function Spenglerei() {
         currentPage="spenglerei" 
         relatedIds={["bedachungen", "dachsanierung", "wartung", "referenzen"]}
       />
-      <Contact />
+      <Contact 
+        title="Dachrinne, Kamineinfassung oder Blecharbeiten?"
+        description="Unser Spenglermeister berät Sie zu allen Metallarbeiten am Dach. Fordern Sie Ihr individuelles Angebot für Spenglerarbeiten an."
+      />
       <Footer />
     </div>
   );
