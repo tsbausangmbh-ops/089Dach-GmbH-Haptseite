@@ -15,11 +15,8 @@ import newTileRoof from "@assets/generated_images/obermenzing_house_new_roof_aft
 import roofInsulation from "@assets/generated_images/roof_insulation_installation_scene.png";
 import completedRoof from "@assets/generated_images/completed_roof_showcase_reference.png";
 import ImageGallery from "@/components/ImageGallery";
-import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
-import { DachsanierungMuenchenContent } from "@/components/SEOContent";
 import AIEnhancedFAQ from "@/components/AIEnhancedFAQ";
-import ProblemSolutionSection from "@/components/ProblemSolutionSection";
 import CTACluster from "@/components/CTACluster";
 import ProofStack from "@/components/ProofStack";
 import ProcessSteps from "@/components/ProcessSteps";
@@ -236,41 +233,6 @@ export default function Dachsanierung() {
 
       <FoerderungBox />
 
-      {/* Zweite Kundengeschichte */}
-      <section className="py-5 bg-gray-50">
-        <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-4 items-center" data-testid="case-study-steinbach">
-            <div>
-              <h3 className="text-2xl font-heading font-bold text-secondary mb-4">
-                Aus der Praxis: Familie Steinbach aus Sendling
-              </h3>
-              <div className="space-y-4 text-muted-foreground">
-                <p>
-                  <strong className="text-secondary">Das Problem:</strong> 35 Jahre altes Dach, 
-                  undichte Stellen, Schimmel im Dachgeschoss. Die Heizkosten waren explodiert.
-                </p>
-                <p>
-                  <strong className="text-secondary">Die Lösung:</strong> Komplettsanierung mit 
-                  moderner Aufsparrendämmung und neuen Tonziegeln. KfW-Förderung: 15.000 Euro.
-                </p>
-                <p>
-                  <strong className="text-secondary">Das Ergebnis:</strong> 40% weniger Heizkosten, 
-                  ein trockenes Dachgeschoss – und endlich ruhiger Schlaf bei Sturm.
-                </p>
-              </div>
-            </div>
-            <div className="bg-secondary p-8 rounded-xl text-white">
-              <Quote className="h-8 w-8 text-primary mb-4" />
-              <p className="italic mb-4">
-                „Wir dachten, wir müssten das Haus verkaufen. Jetzt bleiben wir – und unsere 
-                Enkelkinder lieben das neue Spielzimmer unterm Dach."
-              </p>
-              <p className="font-bold">– Helga Steinbach</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <ImageGallery
         title="Unsere Dachsanierungen in München"
         images={[
@@ -280,27 +242,6 @@ export default function Dachsanierung() {
           { src: completedRoof, alt: "Fertig saniertes Einfamilienhaus-Dach", caption: "Komplettsanierung mit 10 Jahren Garantie" }
         ]}
         columns={2}
-      />
-
-      <DachsanierungMuenchenContent />
-
-      <ProblemSolutionSection
-        sectionTitle="Erkennen Sie Ihr Dachproblem?"
-        problemTitle="Warnsignale, die auf Sanierungsbedarf hindeuten"
-        solutionTitle="Unsere Dachsanierung behebt das Problem"
-        problems={[
-          { symptom: "Wasserflecken an der Decke oder im Dachboden", risk: "Feuchtigkeit zerstört die Dämmung und fördert Schimmel – Sanierungskosten können sich verdoppeln." },
-          { symptom: "Verrutschte oder gebrochene Dachziegel", risk: "Offene Stellen lassen Wasser ein. Ein Sturm kann weitere Schäden verursachen." },
-          { symptom: "Heizkosten sind plötzlich deutlich gestiegen", risk: "Alte Dämmung verliert bis zu 40% der Wärme. Sie heizen buchstäblich zum Dach hinaus." },
-          { symptom: "Dach ist älter als 30 Jahre ohne größere Wartung", risk: "Materialien erreichen ihre Lebensdauer. Kleine Schäden werden schnell zu großen Problemen." }
-        ]}
-        solutions={[
-          { title: "Kostenlose Dachinspektion vor Ort", description: "Wir dokumentieren den Zustand mit Fotos und erstellen eine ehrliche Einschätzung – ohne Verkaufsdruck." },
-          { title: "Energetische Sanierung mit bis zu 20% Förderung", description: "KfW und BAFA fördern Ihre Dachsanierung. Wir helfen beim Antrag und maximieren Ihre Zuschüsse." },
-          { title: "Festpreis-Garantie ohne versteckte Kosten", description: "Sie wissen vorher, was es kostet. Keine bösen Überraschungen nach Projektstart." },
-          { title: "10 Jahre Garantie auf alle Arbeiten", description: "Material und Handwerksarbeit sind abgesichert. Bei Problemen sind wir für Sie da." }
-        ]}
-        urgencyMessage="Je länger Sie warten, desto teurer wird die Sanierung. Ein kleiner Schaden heute kann morgen zur Komplettsanierung führen."
       />
 
       <CTACluster 
@@ -407,10 +348,6 @@ export default function Dachsanierung() {
       />
 
       <LeadFunnel />
-      <RelatedServices 
-        currentPage="dachsanierung" 
-        relatedIds={["energieberatung", "bedachungen", "wartung", "referenzen"]}
-      />
       <Contact 
         title="Ihr Dach braucht eine Sanierung?"
         description="Wir beraten Sie kostenlos vor Ort zu Dachsanierung, Dämmung und Fördermöglichkeiten. Fordern Sie jetzt Ihr unverbindliches Angebot an."
