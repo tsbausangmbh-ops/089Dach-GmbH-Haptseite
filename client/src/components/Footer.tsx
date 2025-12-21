@@ -14,7 +14,7 @@ export default function Footer({ showAIBerater = false }: FooterProps) {
           
           <div className="space-y-2">
             <div className="flex items-start gap-2 group">
-              <img src="/favicon.png" alt="089Dach Logo" className="h-10 w-auto flex-shrink-0" width={40} height={40} loading="lazy" decoding="async" />
+              <img src="/assets/favicon/android-chrome-192x192.ico" alt="089Dach Logo" className="h-10 w-auto flex-shrink-0" width={40} height={40} loading="lazy" decoding="async" />
               <div className="flex flex-col">
                 <span className="font-heading font-bold text-lg leading-none text-white">089Dach GmbH</span>
                 <span className="text-xs font-semibold text-primary">Ihr Dachdecker in München</span>
