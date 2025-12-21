@@ -5,6 +5,7 @@ import imgDachsanierung from "@assets/generated_images/roofers_installing_batten
 import imgReparatur from "@assets/generated_images/roofer_doing_quick_repairs.png";
 import imgReferenzen from "@assets/generated_images/realistic_row_house_roof_after.png";
 import imgStadtteile from "@assets/stock_images/aerial_view_munich_c_04604d54.jpg";
+import imgWartung from "@assets/generated_images/roofing_expert_with_checklist.png";
 
 const allServices = [
   {
@@ -48,7 +49,8 @@ const allServices = [
     icon: <ShieldCheck className="h-6 w-6 text-primary" />,
     title: "Wartung",
     href: "/leistungen/wartung",
-    description: "Jährliche Inspektion und vorbeugende Pflege"
+    description: "Jährliche Inspektion und vorbeugende Pflege",
+    image: imgWartung
   },
   {
     id: "reparaturservice",

@@ -234,7 +234,7 @@ export default function StadtteilAllach() {
       <LeadFunnel />
       <RelatedServices 
         currentPage="stadtteile" 
-        relatedIds={["stadtteile", "referenzen", "dachsanierung", "reparaturservice"]}
+        relatedIds={["referenzen", "dachsanierung", "reparaturservice", "wartung"]}
       />
       <Contact />
       <Footer />
