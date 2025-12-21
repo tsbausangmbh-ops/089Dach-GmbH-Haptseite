@@ -11,7 +11,7 @@ import imgDachrinnenreinigung from "@assets/stock_images/rain_gutter_full_lea_db
 import imgSturmschaden from "@assets/generated_images/damaged_roof_with_missing_tiles.png";
 import imgWasserschaden from "@assets/generated_images/leaking_roof_with_water_damage.png";
 import imgDachUndicht from "@assets/generated_images/leaking_roof_gutter_dripping.png";
-import imgDachsanierung from "@assets/generated_images/leaking_roof_overflowing_gutters.png";
+import imgDachsanierung from "@assets/generated_images/roofers_installing_battens_and_tiles.png";
 import imgDachreparatur from "@assets/generated_images/roofer_doing_quick_repairs.png";
 
 const stadtteilData = {
