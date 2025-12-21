@@ -139,63 +139,6 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
         </div>
       </section>
 
-      {/* Sektion 3: Social Proof */}
-      <section className="py-4 md:py-6 bg-secondary text-white">
-        <div className="container mx-auto px-4 md:px-6 lg:px-12">
-          <div className="text-center mb-4 md:mb-6">
-            <div className="flex items-center justify-center gap-0.5 md:gap-1 mb-1 md:mb-2">
-              {[1,2,3,4,5].map(i => (
-                <Star key={i} className="h-4 w-4 md:h-6 md:w-6 text-yellow-400 fill-yellow-400" />
-              ))}
-            </div>
-            <h2 className="text-xl md:text-3xl font-heading font-bold mb-1 md:mb-2">
-              Das sagen Münchner über uns
-            </h2>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-6 max-w-5xl mx-auto">
-            <div className="bg-white/10 p-4 md:p-6 rounded-xl" data-testid="testimonial-0">
-              <div className="flex gap-0.5 mb-2 md:mb-3">
-                {[1,2,3,4,5].map(i => <Star key={i} className="h-3 w-3 md:h-4 md:w-4 text-yellow-400 fill-yellow-400" />)}
-              </div>
-              <p className="text-sm md:text-base text-gray-200 mb-2 md:mb-4 italic">
-                "Endlich ruhig schlafen! Kosten halb so schlimm wie befürchtet."
-              </p>
-              <div>
-                <p className="font-bold text-sm md:text-base">Martina S.</p>
-                <p className="text-xs md:text-sm text-gray-400">Pasing • Dachsanierung</p>
-              </div>
-            </div>
-
-            <div className="bg-white/10 p-4 md:p-6 rounded-xl" data-testid="testimonial-1">
-              <div className="flex gap-0.5 mb-2 md:mb-3">
-                {[1,2,3,4,5].map(i => <Star key={i} className="h-3 w-3 md:h-4 md:w-4 text-yellow-400 fill-yellow-400" />)}
-              </div>
-              <p className="text-sm md:text-base text-gray-200 mb-2 md:mb-4 italic">
-                "Nach 3 Handwerkern fand 089Dach das Leck in 2 Stunden."
-              </p>
-              <div>
-                <p className="font-bold text-sm md:text-base">Thomas K.</p>
-                <p className="text-xs md:text-sm text-gray-400">Moosach • Leckortung</p>
-              </div>
-            </div>
-
-            <div className="bg-white/10 p-4 md:p-6 rounded-xl" data-testid="testimonial-2">
-              <div className="flex gap-0.5 mb-2 md:mb-3">
-                {[1,2,3,4,5].map(i => <Star key={i} className="h-3 w-3 md:h-4 md:w-4 text-yellow-400 fill-yellow-400" />)}
-              </div>
-              <p className="text-sm md:text-base text-gray-200 mb-2 md:mb-4 italic">
-                "8.000€ mit KfW-Förderung gespart! Super Service."
-              </p>
-              <div>
-                <p className="font-bold text-sm md:text-base">Familie Weber</p>
-                <p className="text-xs md:text-sm text-gray-400">Germering • Sanierung</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Sektion 4: Einfacher CTA */}
       <section className="py-3 md:py-5 bg-primary">
         <div className="container mx-auto px-4 md:px-6 lg:px-12 text-center">
