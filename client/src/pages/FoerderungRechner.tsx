@@ -70,8 +70,12 @@ function berechneErsparnis(
   return { waermeVerlustKwh, jaehrlicheErsparnis, co2Ersparnis };
 }
 
+const MONTH_NAMES = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"];
+
 export default function FoerderungRechner() {
-  const currentYear = new Date().getFullYear();
+  const now = new Date();
+  const currentYear = now.getFullYear();
+  const currentMonth = MONTH_NAMES[now.getMonth()];
   const [flaeche, setFlaeche] = useState<number>(120);
   const [alterUWert, setAlterUWert] = useState<number>(1.8);
   const [heizTyp, setHeizTyp] = useState<HeizTyp>("gas");
@@ -241,6 +245,7 @@ export default function FoerderungRechner() {
                   KfW-Förderung {currentYear}: 20% Zuschuss
                 </p>
                 <p className="text-xs text-green-700 mt-1">Maximal 60.000 € pro Wohneinheit</p>
+                <p className="text-xs text-green-600 mt-2">Stand: {currentMonth} {currentYear}</p>
               </div>
             </div>
 
