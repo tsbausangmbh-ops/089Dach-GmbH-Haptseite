@@ -131,16 +131,71 @@ export default function SEO({
   return null;
 }
 
+export function WebSiteSchema() {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://089dach.de/#website",
+    "url": "https://089dach.de",
+    "name": "089Dach GmbH - Dachdecker München",
+    "description": "Dachdecker-Meisterbetrieb in München für Dachsanierung, Dachreparatur, Flachdach und Spenglerarbeiten",
+    "publisher": {
+      "@id": "https://089dach.de/#organization"
+    },
+    "inLanguage": "de-DE",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://089dach.de/suche?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  };
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+export function SiteNavigationSchema() {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "SiteNavigationElement",
+    "name": "Hauptnavigation",
+    "hasPart": [
+      { "@type": "WebPage", "name": "Dachsanierung", "url": "https://089dach.de/leistungen/dachsanierung" },
+      { "@type": "WebPage", "name": "Dachreparatur", "url": "https://089dach.de/dachreparatur" },
+      { "@type": "WebPage", "name": "Flachdach", "url": "https://089dach.de/leistungen/flachdach" },
+      { "@type": "WebPage", "name": "Spengler", "url": "https://089dach.de/dachdecker-spengler-muenchen" },
+      { "@type": "WebPage", "name": "Kosten", "url": "https://089dach.de/dachdecker-muenchen-kosten" },
+      { "@type": "WebPage", "name": "Notdienst", "url": "https://089dach.de/dachdecker-notdienst-muenchen" },
+      { "@type": "WebPage", "name": "Beratung", "url": "https://089dach.de/beratung" },
+      { "@type": "WebPage", "name": "Kontakt", "url": "https://089dach.de/kontakt" }
+    ]
+  };
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
 export function LocalBusinessSchema() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "RoofingContractor",
     "name": "089Dach GmbH",
     "image": "https://089dach.de/opengraph.jpg",
-    "@id": "https://089dach.de",
+    "@id": "https://089dach.de/#organization",
     "url": "https://089dach.de",
     "telephone": "+49-89-12621964",
     "priceRange": "€€",
+    "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer", "Invoice"],
+    "currenciesAccepted": "EUR",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Thuillestr. 20",
@@ -645,36 +700,6 @@ export function OrganizationSchema() {
       "https://www.facebook.com/089dach",
       "https://www.google.com/maps/place/089Dach+GmbH"
     ]
-  };
-
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-    />
-  );
-}
-
-export function WebSiteSchema() {
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "@id": "https://089dach.de/#website",
-    "url": "https://089dach.de",
-    "name": "089Dach GmbH - Dachdecker München",
-    "description": "Offizielle Website des Dachdecker-Meisterbetriebs 089Dach GmbH in München-Obermenzing",
-    "publisher": {
-      "@id": "https://089dach.de/#organization"
-    },
-    "inLanguage": "de-DE",
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": {
-        "@type": "EntryPoint",
-        "urlTemplate": "https://089dach.de/?s={search_term_string}"
-      },
-      "query-input": "required name=search_term_string"
-    }
   };
 
   return (
@@ -1512,38 +1537,6 @@ export function EmergencyServiceSchema() {
       "priceCurrency": "EUR"
     },
     "termsOfService": "Schnelle Hilfe bei Dachschäden - auch nachts und am Wochenende"
-  };
-
-  return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
-}
-
-// SiteNavigationElement für bessere Struktur
-export function SiteNavigationSchema() {
-  const navigation = [
-    { name: "Startseite", url: "/" },
-    { name: "Leistungen", url: "/leistungen" },
-    { name: "Dachsanierung", url: "/leistungen/dachsanierung" },
-    { name: "Flachdach", url: "/leistungen/flachdach" },
-    { name: "Spenglerei", url: "/leistungen/spenglerei" },
-    { name: "Dachfenster", url: "/leistungen/dachfenster" },
-    { name: "Notdienst", url: "/leistungen/notdienst" },
-    { name: "Ratgeber", url: "/ratgeber" },
-    { name: "FAQ", url: "/faq" },
-    { name: "Über uns", url: "/ueber-uns" },
-    { name: "Kontakt", url: "/kontakt" },
-    { name: "Referenzen", url: "/referenzen" }
-  ];
-
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": "SiteNavigationElement",
-    "name": "Hauptnavigation",
-    "hasPart": navigation.map((item, index) => ({
-      "@type": "WebPage",
-      "name": item.name,
-      "url": `https://089dach.de${item.url}`,
-      "position": index + 1
-    }))
   };
 
   return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
