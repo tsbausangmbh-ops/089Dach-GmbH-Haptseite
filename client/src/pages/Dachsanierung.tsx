@@ -162,7 +162,7 @@ export default function Dachsanierung() {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-6xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
-              Dach sanieren: 6 Warnsignale für dringenden Handlungsbedarf in München
+              <strong>Dach sanieren München</strong> – 6 Warnsignale für dringenden Handlungsbedarf
             </h2>
             <p className="text-muted-foreground">
               Je früher Sie handeln, desto günstiger wird es. Erkennen Sie diese Zeichen?
@@ -206,7 +206,7 @@ export default function Dachsanierung() {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-6xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
-              Vorteile der Dachsanierung: Heizkosten sparen, Wert steigern, Förderung nutzen
+              <strong>Dachsanierung Vorteile</strong> – Heizkosten sparen, Wert steigern
             </h2>
             <p className="text-muted-foreground">
               Eine Dachsanierung ist keine Ausgabe – sie ist eine Investition in Ihr Zuhause.

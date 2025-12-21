@@ -122,7 +122,7 @@ export default function Spenglerei() {
                 <Hammer className="h-10 w-10 text-primary flex-shrink-0" />
                 <div>
                   <h2 className="text-2xl font-heading font-bold text-center text-secondary mb-4">
-                    Dachrinne aus Kupfer, Zink & Aluminium: Handgefertigte Qualität aus eigener Werkstatt München
+                    <strong>Dachrinne Kupfer, Zink & Aluminium</strong> – Handgefertigte Qualität München
                   </h2>
                   <p className="text-lg text-muted-foreground leading-relaxed mb-4">
                     In einer Zeit, in der vieles von der Stange kommt, halten wir an der Tradition fest: 
@@ -151,7 +151,7 @@ export default function Spenglerei() {
             <div>
               <span className="text-primary font-bold tracking-wider uppercase text-sm">Spenglerhandwerk München</span>
               <h2 className="text-3xl font-heading font-bold text-secondary text-center mt-2 mb-6">
-                Spengler München: Dachrinnen, Kamineinfassungen & Stehfalzdächer vom Meister
+                <strong>Spengler München</strong> – Dachrinnen, Kamineinfassungen & Stehfalzdächer
               </h2>
               <div className="prose prose-lg text-muted-foreground">
                 <p>

@@ -114,7 +114,7 @@ export default function UeberUns() {
           <div className="max-w-7xl mx-auto text-center">
             <Sparkles className="h-10 md:h-12 w-10 md:w-12 text-primary mx-auto mb-4 md:mb-6" />
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-heading font-bold mb-4 md:mb-6">
-              Unsere Mission: Ihre Sorgen beenden
+              <strong>Dachdecker München Mission</strong> – Ihre Sorgen beenden
             </h2>
             <p className="text-xl text-gray-300 leading-relaxed mb-6">
               Wir wissen, wie sich das anfühlt: Die Angst vor dem nächsten Sturm. 
@@ -134,7 +134,7 @@ export default function UeberUns() {
           <div className="max-w-7xl mx-auto text-center mb-10 md:mb-16">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Unsere Geschichte</span>
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-heading font-bold text-secondary mt-2 mb-4 md:mb-6">
-              Aus Frust wurde Leidenschaft
+              <strong>089Dach Geschichte</strong> – Aus Frust wurde Leidenschaft
             </h2>
             <div className="text-lg text-muted-foreground leading-relaxed space-y-4 text-left">
               <p>

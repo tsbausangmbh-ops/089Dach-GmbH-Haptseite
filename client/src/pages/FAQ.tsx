@@ -223,7 +223,7 @@ export default function FAQ() {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-7xl mx-auto text-center mb-8 md:mb-12">
             <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">
-              Warum unsere Kunden uns vertrauen
+              <strong>Dachdecker München Vertrauen</strong> – Warum unsere Kunden uns vertrauen
             </h2>
             <p className="text-lg text-muted-foreground">
               Wir wissen: Ein Dachprojekt ist eine große Entscheidung. Deshalb machen wir es Ihnen so leicht wie möglich.
@@ -290,7 +290,7 @@ export default function FAQ() {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mb-8 md:mb-12">
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-heading font-bold text-secondary mb-4">
-              {faqs.length} Antworten auf Ihre wichtigsten Fragen
+              <strong>Dachdecker FAQ</strong> – {faqs.length} Antworten auf Ihre Fragen
             </h2>
             <p className="text-muted-foreground text-lg">
               Diese Fragen hören wir täglich. Die Antworten kommen direkt aus 25 Jahren Erfahrung auf Münchner Dächern.

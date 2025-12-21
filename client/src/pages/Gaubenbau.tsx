@@ -157,7 +157,7 @@ export default function Gaubenbau() {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-6xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
-              Dachgaube bauen München: 4 Vorteile für mehr Wohnraum und Tageslicht unterm Dach
+              <strong>Dachgaube bauen München</strong> – 4 Vorteile für mehr Wohnraum
             </h2>
             <p className="text-muted-foreground">
               Eine Gaube ist mehr als nur ein Dachaufbau – sie ist eine Investition in Ihre Lebensqualität.
@@ -185,7 +185,7 @@ export default function Gaubenbau() {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-6xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
-              Schleppgaube, Spitzgaube oder Flachdachgaube: Die richtige Gaubenart für Ihr Münchner Haus
+              <strong>Schleppgaube, Spitzgaube oder Flachdachgaube</strong> – Die richtige Gaubenart
             </h2>
             <p className="text-muted-foreground">
               Jede Gaubenart hat ihre Stärken – wir beraten Sie, welche am besten zu Ihrem Haus passt.
@@ -215,7 +215,7 @@ export default function Gaubenbau() {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
-              Gaube sanieren München: Abdichtung, Dämmung & neue Bekleidung für alte Gauben
+              <strong>Gaube sanieren München</strong> – Abdichtung, Dämmung & Bekleidung
             </h2>
             <p className="text-muted-foreground mb-8 leading-relaxed">
               Ihre bestehende Gaube ist in die Jahre gekommen? Undichte Stellen, veraltete Dämmung oder 

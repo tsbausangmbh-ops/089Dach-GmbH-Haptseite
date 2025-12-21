@@ -149,7 +149,7 @@ export default function Energieberatung() {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-6xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
-              KfW-Förderung & BAFA-Zuschuss Dach München: 4 Vorteile der Energieberatung
+              <strong>KfW-Förderung & BAFA-Zuschuss Dach</strong> – 4 Vorteile der Energieberatung
             </h2>
             <p className="text-muted-foreground">
               Die richtige Beratung spart Ihnen bares Geld – bei der Sanierung und danach bei den Heizkosten.
@@ -177,7 +177,7 @@ export default function Energieberatung() {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-6xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
-              Energieberatung Dach München: iSFP, Förderanträge & Energieausweis vom Experten
+              <strong>Energieberatung Dach München</strong> – iSFP, Förderanträge & Energieausweis
             </h2>
             <p className="text-muted-foreground">
               Von der ersten Beratung bis zum bewilligten Antrag – wir begleiten Sie.
@@ -211,7 +211,7 @@ export default function Energieberatung() {
       <section className="py-5 bg-secondary text-white">
         <div className="container mx-auto px-6 lg:px-12 text-center">
           <h2 className="text-2xl font-heading font-bold text-center mb-4">
-            Zertifizierte Energieberater München: DENA-gelistete Partner für Ihre Dachdämmung
+            <strong>Zertifizierte Energieberater München</strong> – DENA-gelistete Partner
           </h2>
           <p className="text-gray-300 max-w-6xl mx-auto mb-6">
             Die Energieberatung und Antragsstellung erfolgt durch zertifizierte Energieberater aus unserem 

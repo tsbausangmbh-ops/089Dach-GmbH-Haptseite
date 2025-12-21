@@ -330,7 +330,7 @@ export default function Referenzen() {
         <div className="container mx-auto px-6 lg:px-12">
           <header className="text-center mb-8 md:mb-12">
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-heading font-bold text-secondary mb-4">
-              12 echte Dachprojekte aus München und Umgebung
+              <strong>Dachdecker Projekte München</strong> – 12 echte Referenzen
             </h2>
             <p className="text-lg text-muted-foreground max-w-7xl mx-auto">
               Jedes Projekt zeigt den Vorher-Nachher-Vergleich mit Problem, Lösung und Ergebnis. 

@@ -108,7 +108,7 @@ export default function Dachreparatur() {
       <section className="py-4 md:py-6">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
           <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-8 text-center">
-            Typische Dachreparaturen & Preise
+            <strong>Dachreparatur Kosten München</strong> – Typische Reparaturen & Preise
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {reparaturArten.map((item, idx) => (
@@ -129,7 +129,7 @@ export default function Dachreparatur() {
       <section className="py-4 md:py-6 bg-stone-50">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
           <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-8 text-center">
-            So läuft Ihre Dachreparatur ab
+            <strong>Dachreparatur Ablauf</strong> – So läuft Ihre Reparatur ab
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-7xl mx-auto">
             {ablauf.map((step, idx) => (
@@ -149,7 +149,7 @@ export default function Dachreparatur() {
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-6">
-              Wann Reparatur, wann Sanierung?
+              <strong>Dachreparatur oder Dachsanierung?</strong> Wann was sinnvoll ist
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-green-50 rounded-xl p-6 border border-green-200">
