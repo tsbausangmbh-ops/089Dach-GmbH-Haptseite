@@ -259,19 +259,19 @@ export default function Leistungen() {
       {/* Services List */}
       <section className="pt-2 md:pt-4">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="grid grid-cols-1 gap-5">
+          <div className="grid grid-cols-1 gap-6">
             {services.map((service, index) => (
               <div 
                 key={service.id} 
                 id={service.id}
-                className={`flex flex-col ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} gap-3 lg:gap-4 items-start border-b border-gray-100 pb-5 last:border-0`}
+                className={`flex flex-col ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} gap-3 lg:gap-6 items-start rounded-2xl p-6 md:p-8 ${index % 2 === 0 ? 'bg-stone-100' : 'bg-slate-800'}`}
               >
                 <div className="flex-1 space-y-6">
                   <a href={service.link} className="flex items-center gap-4 group">
-                    <div className="bg-primary/10 p-4 rounded-xl">
+                    <div className={`p-4 rounded-xl ${index % 2 === 0 ? 'bg-primary/10' : 'bg-white/10'}`}>
                       {service.icon}
                     </div>
-                    <h2 className="text-3xl font-heading font-bold text-secondary group-hover:text-primary transition-colors">{service.title}</h2>
+                    <h2 className={`text-3xl font-heading font-bold group-hover:text-primary transition-colors ${index % 2 === 0 ? 'text-secondary' : 'text-white'}`}>{service.title}</h2>
                   </a>
                   
                   <div className="space-y-4">
@@ -294,7 +294,7 @@ export default function Leistungen() {
                   
                   <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-4">
                     {service.details.map((detail, idx) => (
-                      <li key={idx} className="flex items-center gap-2 text-secondary font-medium">
+                      <li key={idx} className={`flex items-center gap-2 font-medium ${index % 2 === 0 ? 'text-secondary' : 'text-white'}`}>
                         <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0" />
                         <span>{detail}</span>
                       </li>
@@ -302,24 +302,24 @@ export default function Leistungen() {
                   </ul>
 
                   <a href="/beratung">
-                    <Button variant="outline" className="mt-4 border-secondary text-secondary hover:bg-secondary hover:text-white rounded-xl" data-testid={`button-beratung-${service.id}`}>
+                    <Button variant="outline" className={`mt-4 rounded-xl ${index % 2 === 0 ? 'border-secondary text-secondary hover:bg-secondary hover:text-white' : 'border-white text-white hover:bg-white hover:text-slate-800'}`} data-testid={`button-beratung-${service.id}`}>
                       Rückruf anfordern
                     </Button>
                   </a>
                 </div>
                 
                 <div className="w-full lg:w-2/5 space-y-4">
-                  <div className="bg-secondary/5 rounded-xl p-6 border border-secondary/10">
+                  <div className={`rounded-xl p-6 ${index % 2 === 0 ? 'bg-white border border-stone-200' : 'bg-white/10 border border-white/20'}`}>
                     <div className="flex items-start gap-3 mb-4">
                       <Quote className="h-8 w-8 text-primary flex-shrink-0" />
-                      <p className="text-secondary italic leading-relaxed">
+                      <p className={`italic leading-relaxed ${index % 2 === 0 ? 'text-secondary' : 'text-white'}`}>
                         {service.story}
                       </p>
                     </div>
                   </div>
                   
-                  <div className="bg-gray-50 rounded-xl p-6 border border-gray-100 text-center">
-                    <div className="mb-4 inline-flex items-center justify-center w-12 h-12 rounded-full bg-white shadow-sm">
+                  <div className="bg-white rounded-xl p-6 border border-gray-100 text-center">
+                    <div className="mb-4 inline-flex items-center justify-center w-12 h-12 rounded-full bg-stone-100 shadow-sm">
                       {service.icon}
                     </div>
                     <h3 className="font-heading font-bold text-lg text-secondary">Haben Sie ein ähnliches Problem?</h3>
