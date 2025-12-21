@@ -1,4 +1,4 @@
-import { Euro, ArrowRight, Calculator } from "lucide-react";
+import { Euro, Calculator } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 interface FoerderungBoxProps {
@@ -8,26 +8,20 @@ interface FoerderungBoxProps {
 
 export default function FoerderungBox({
   title = "Förderung für Dachsanierung in München 2025",
-  subtitle = "Bei einer energetischen Dachsanierung können Sie von attraktiven Förderprogrammen profitieren:"
+  subtitle = "Bei einer energetischen Dachsanierung können Sie von attraktiven Förderprogrammen profitieren. Als erfahrener Dachdecker in München beraten wir Sie kostenlos zu allen Möglichkeiten:"
 }: FoerderungBoxProps) {
   const foerderungen = [
     {
-      icon: Euro,
-      title: "KfW-Förderung",
-      description: "Bis zu 20% Zuschuss für energetische Sanierungsmaßnahmen",
-      highlight: "bis 20%"
+      highlight: "bis 20%",
+      label: "KfW-Zuschuss"
     },
     {
-      icon: Gift,
-      title: "BAFA-Förderung",
-      description: "Zuschüsse für Einzelmaßnahmen an der Gebäudehülle",
-      highlight: "Zuschuss"
+      highlight: "15%",
+      label: "BAFA-Förderung"
     },
     {
-      icon: Percent,
-      title: "Steuerbonus",
-      description: "20% der Handwerkerkosten absetzbar (max. 1.200 €/Jahr)",
-      highlight: "1.200 €"
+      highlight: "1.200 €",
+      label: "Steuerbonus/Jahr"
     }
   ];
 
@@ -57,19 +51,14 @@ export default function FoerderungBox({
                   <span className="text-2xl font-bold text-primary block mb-1">
                     {item.highlight}
                   </span>
-                  <span className="text-zinc-300 text-sm">{item.title}</span>
+                  <span className="text-zinc-300 text-sm">{item.label}</span>
                 </div>
               ))}
             </div>
-            <div className="flex flex-wrap gap-3">
+            <div className="flex justify-center">
               <a href="/foerderung-rechner">
-                <Button className="bg-primary hover:bg-primary/90" data-testid="foerderung-rechner-btn">
-                  <Calculator className="h-4 w-4 mr-2" /> Ersparnis berechnen
-                </Button>
-              </a>
-              <a href="/beratung">
-                <Button variant="outline" className="border-white text-white hover:bg-white hover:text-zinc-800" data-testid="foerderung-beratung-btn">
-                  <ArrowRight className="h-4 w-4 mr-2" /> Förderberatung anfragen
+                <Button size="lg" className="bg-primary hover:bg-primary/90 font-bold" data-testid="foerderung-rechner-btn">
+                  <Calculator className="h-5 w-5 mr-2" /> Förderrechner öffnen
                 </Button>
               </a>
             </div>
