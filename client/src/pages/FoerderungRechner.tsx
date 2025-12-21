@@ -9,6 +9,7 @@ import SEO, { BreadcrumbSchema, LocalBusinessSchema } from "@/components/SEO";
 import BackButton from "@/components/BackButton";
 import LeadFunnel from "@/components/LeadFunnel";
 import Contact from "@/components/Contact";
+import heroImage from "@assets/generated_images/roof_insulation_installation_scene.png";
 
 const GRADTAGZAHL_MUENCHEN = 3400;
 const CO2_FACTOR_GAS = 0.2;
@@ -128,17 +129,30 @@ export default function FoerderungRechner() {
       <LocalBusinessSchema />
       <Navbar />
       
-      <section className="pt-6 pb-4 md:pt-8 md:pb-6 bg-secondary">
-        <div className="container mx-auto px-4 md:px-6 lg:px-12">
+      <section className="pt-6 pb-8 md:pt-10 md:pb-12 bg-secondary relative overflow-hidden min-h-[40vh] flex items-center">
+        <div className="absolute inset-0 z-0">
+          <img
+            src={heroImage}
+            alt="Dachdämmung Installation - Förderrechner für energetische Dachsanierung München"
+            className="w-full h-full object-cover"
+            width={1792}
+            height={1024}
+            fetchPriority="high"
+            decoding="async"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-secondary/90 via-secondary/70 to-secondary/50"></div>
+        </div>
+
+        <div className="container mx-auto px-4 md:px-6 lg:px-12 relative z-10">
           <div className="max-w-4xl text-white">
             <div className="flex items-center gap-2 mb-3">
               <Calculator className="h-5 w-5 text-primary" />
-              <span className="text-primary font-bold tracking-wider uppercase text-sm">Förderung 2025</span>
+              <span className="text-primary font-bold tracking-wider uppercase text-sm">Förderung {currentYear}</span>
             </div>
-            <h1 className="text-2xl md:text-4xl font-heading font-bold mb-3">
+            <h1 className="text-2xl md:text-4xl lg:text-5xl font-heading font-bold mb-3">
               Förderrechner Dachdämmung München
             </h1>
-            <p className="text-lg text-gray-200 max-w-2xl">
+            <p className="text-lg md:text-xl text-gray-200 max-w-2xl">
               Berechnen Sie, wie viel Sie mit einer Dachdämmung sparen – und welche Förderung Sie bekommen.
             </p>
           </div>
