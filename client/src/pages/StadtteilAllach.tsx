@@ -181,9 +181,21 @@ export default function StadtteilAllach() {
               </div>
 
               <div className="bg-secondary/5 rounded-xl p-4 md:p-6">
-                <h3 className="text-xl font-heading font-bold text-secondary mb-2">Referenzprojekt: {stadtteilData.referenzProjekt.titel}</h3>
-                <p className="text-muted-foreground mb-2">{stadtteilData.referenzProjekt.beschreibung}</p>
-                <p className="text-sm text-primary font-medium">Fertigstellung: {stadtteilData.referenzProjekt.jahr}</p>
+                <div className="grid grid-cols-2 gap-6">
+                  <div className="aspect-[4/3] overflow-hidden rounded-lg">
+                    <img 
+                      src={imgDachsanierung} 
+                      alt={`Referenzprojekt ${stadtteilData.referenzProjekt.titel}`}
+                      className="w-full h-full object-cover"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className="flex flex-col justify-center">
+                    <h3 className="text-xl font-heading font-bold text-secondary mb-2">Referenzprojekt: {stadtteilData.referenzProjekt.titel}</h3>
+                    <p className="text-muted-foreground mb-2">{stadtteilData.referenzProjekt.beschreibung}</p>
+                    <p className="text-sm text-primary font-medium">Fertigstellung: {stadtteilData.referenzProjekt.jahr}</p>
+                  </div>
+                </div>
               </div>
             </div>
 
