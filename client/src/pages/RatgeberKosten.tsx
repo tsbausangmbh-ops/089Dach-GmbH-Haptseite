@@ -218,6 +218,11 @@ export default function RatgeberKosten() {
               <h3 className="text-2xl font-bold mb-4">Kostenloses Angebot in 24 Stunden</h3>
               <p className="text-white/90 mb-6">Wir erstellen Ihnen ein unverbindliches Festpreis-Angebot – ohne versteckte Kosten.</p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="/foerderung-rechner">
+                  <Button size="lg" className="bg-green-500/40 hover:bg-green-500/60 text-white font-bold border-0" data-testid="button-foerderrechner">
+                    Förderrechner
+                  </Button>
+                </a>
                 <a href="/beratung">
                   <Button size="lg" variant="secondary" data-testid="button-angebot-cta">
                     Angebot anfordern <ArrowRight className="h-5 w-5 ml-2" />
