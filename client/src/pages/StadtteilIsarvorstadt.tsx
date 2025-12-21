@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button";
 import { Phone, MapPin, Clock, CheckCircle2, Star, Shield, Award, ArrowRight } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
-import RelatedServices from "@/components/RelatedServices";
 import BackButton from "@/components/BackButton";
 import heroImage from "@assets/generated_images/historic_building_roof_renovation.png";
 import imgDachrinnenreinigung from "@assets/stock_images/rain_gutter_full_lea_dbbf6bfe.jpg";
@@ -264,10 +263,6 @@ export default function StadtteilIsarvorstadt() {
       </section>
 
       <LeadFunnel />
-      <RelatedServices 
-        currentPage="stadtteile" 
-        relatedIds={["referenzen", "spenglerei", "dachsanierung", "wartung"]}
-      />
       <Contact 
         title="Dachdecker für die Isarvorstadt gesucht?"
         description="Altbau-Erfahrung und Denkmalschutz-Kompetenz – Ihr Dachdecker-Meisterbetrieb für die Isarvorstadt."

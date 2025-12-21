@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button";
 import { Phone, MapPin, Clock, CheckCircle2, Star, Shield, Award, ArrowRight } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
-import RelatedServices from "@/components/RelatedServices";
 import BackButton from "@/components/BackButton";
 import heroImage from "@assets/generated_images/realistic_renovated_roof_obermenzing_after.png";
 
@@ -207,11 +206,6 @@ export default function UmlandErding() {
         </div>
       </section>
       <LeadFunnel />
-      <RelatedServices currentPage="stadtteile" relatedIds={["stadtteile", "referenzen", "dachsanierung", "dachfenster"]} />
-      <Contact 
-        title="Dachdecker für Erding gesucht?"
-        description="Regelmäßig in Erding tätig – Ihr Dachdecker-Meisterbetrieb aus München."
-      />
       <Footer />
     </div>
   );

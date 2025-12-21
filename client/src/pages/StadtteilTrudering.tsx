@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button";
 import { Phone, MapPin, Clock, CheckCircle2, Star, Shield, Award, ArrowRight } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
-import RelatedServices from "@/components/RelatedServices";
 import BackButton from "@/components/BackButton";
 import heroImage from "@assets/generated_images/realistic_row_house_roof_after.png";
 
@@ -220,10 +219,6 @@ export default function StadtteilTrudering() {
       </section>
 
       <LeadFunnel />
-      <RelatedServices 
-        currentPage="stadtteile" 
-        relatedIds={["stadtteile", "referenzen", "reparaturservice", "dachsanierung"]}
-      />
       <Contact 
         title="Dachdecker für Trudering gesucht?"
         description="Familienfreundliche Beratung und Termintreue – Ihr Dachdecker-Meisterbetrieb für Trudering."

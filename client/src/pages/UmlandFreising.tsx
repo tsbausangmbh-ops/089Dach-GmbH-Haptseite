@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button";
 import { Phone, MapPin, Clock, CheckCircle2, Star, Shield, Award, ArrowRight } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
-import RelatedServices from "@/components/RelatedServices";
 import BackButton from "@/components/BackButton";
 import heroImage from "@assets/generated_images/historic_building_roof_renovation.png";
 
@@ -207,11 +206,6 @@ export default function UmlandFreising() {
         </div>
       </section>
       <LeadFunnel />
-      <RelatedServices currentPage="stadtteile" relatedIds={["stadtteile", "referenzen", "dachsanierung", "energieberatung"]} />
-      <Contact 
-        title="Dachdecker für Freising gesucht?"
-        description="Denkmalschutz-Erfahrung und schnelle Anfahrt – Ihr Dachdecker-Meisterbetrieb für Freising."
-      />
       <Footer />
     </div>
   );

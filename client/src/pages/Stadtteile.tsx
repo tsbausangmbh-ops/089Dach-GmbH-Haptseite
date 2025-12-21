@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button";
 import { MapPin, Phone, ArrowRight, CheckCircle2 } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema, FAQPageSchema } from "@/components/SEO";
-import RelatedServices from "@/components/RelatedServices";
 import BackButton from "@/components/BackButton";
 
 const stadtteile = [
@@ -188,10 +187,6 @@ export default function Stadtteile() {
       </section>
 
       <LeadFunnel />
-      <RelatedServices 
-        currentPage="stadtteile" 
-        relatedIds={["referenzen", "faq", "dachsanierung", "bedachungen"]}
-      />
       <Contact 
         title="Dachdecker für Ihren Stadtteil?"
         description="Wir sind in ganz München und Umgebung für Sie da – mit kurzen Anfahrtswegen und lokaler Erfahrung seit 1998."

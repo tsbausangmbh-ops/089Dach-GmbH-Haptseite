@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button";
 import { Phone, MapPin, Clock, CheckCircle2, Star, Shield, Award, ArrowRight } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
-import RelatedServices from "@/components/RelatedServices";
 import BackButton from "@/components/BackButton";
 import heroImage from "@assets/generated_images/realistic_renovated_roof_obermenzing_after.png";
 
@@ -181,8 +180,6 @@ export default function UmlandPuchheim() {
           </div>
         </div>
       </section>
-      <RelatedServices currentPage="dachdecker-puchheim" />
-      <LeadFunnel />
       <Contact 
         title="Dachdecker für Puchheim gesucht?"
         description="Von München aus schnell bei Ihnen – Ihr Dachdecker-Meisterbetrieb für Puchheim und Umgebung."

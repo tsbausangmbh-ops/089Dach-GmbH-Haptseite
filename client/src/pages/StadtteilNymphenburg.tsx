@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button";
 import { Phone, MapPin, Clock, CheckCircle2, Star, Shield, Award, ArrowRight } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
-import RelatedServices from "@/components/RelatedServices";
 import BackButton from "@/components/BackButton";
 import heroImage from "@assets/generated_images/realistic_villa_slate_roof_after.png";
 
@@ -220,10 +219,6 @@ export default function StadtteilNymphenburg() {
       </section>
 
       <LeadFunnel />
-      <RelatedServices 
-        currentPage="stadtteile" 
-        relatedIds={["stadtteile", "referenzen", "dachsanierung", "bedachungen"]}
-      />
       <Contact 
         title="Dachdecker für Nymphenburg gesucht?"
         description="Altbau-Erfahrung und Denkmalschutz-Kompetenz – Ihr Dachdecker-Meisterbetrieb für Nymphenburg."

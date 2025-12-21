@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button";
 import { Phone, MapPin, Clock, CheckCircle2, Star, Shield, Award, ArrowRight } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
-import RelatedServices from "@/components/RelatedServices";
 import BackButton from "@/components/BackButton";
 import heroImage from "@assets/generated_images/realistic_restored_historic_roof_after.png";
 import imgDachrinnenreinigung from "@assets/stock_images/rain_gutter_full_lea_dbbf6bfe.jpg";
@@ -252,11 +251,6 @@ export default function StadtteilHaidhausen() {
       </section>
 
       <LeadFunnel />
-      <RelatedServices currentPage="stadtteile" relatedIds={["referenzen", "gaubenbau", "dachsanierung", "wartung"]} />
-      <Contact 
-        title="Dachdecker für Haidhausen gesucht?"
-        description="Altbau-Erfahrung und Denkmalschutz-Kompetenz – Ihr Dachdecker-Meisterbetrieb für Haidhausen."
-      />
       <Footer />
     </div>
   );
