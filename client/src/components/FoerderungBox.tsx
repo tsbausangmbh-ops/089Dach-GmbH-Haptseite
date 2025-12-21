@@ -1,4 +1,4 @@
-import { Euro, Percent, FileText, Gift, ArrowRight, Phone } from "lucide-react";
+import { Euro, Percent, FileText, Gift, ArrowRight, Phone, Calculator } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 
@@ -84,6 +84,11 @@ export default function FoerderungBox({
                     </TextWithKeywordLinks>
                   </p>
                   <div className="flex flex-wrap gap-3">
+                    <a href="/foerderung-rechner">
+                      <Button className="bg-green-600 hover:bg-green-700" data-testid="foerderung-rechner-btn">
+                        <Calculator className="h-4 w-4 mr-2" /> Ersparnis berechnen
+                      </Button>
+                    </a>
                     <a href="/beratung">
                       <Button className="bg-primary hover:bg-primary/90" data-testid="foerderung-beratung-btn">
                         <ArrowRight className="h-4 w-4 mr-2" /> Förderberatung anfragen

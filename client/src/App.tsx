@@ -139,6 +139,7 @@ import WalmdachKosten from "@/pages/WalmdachKosten";
 import SatteldachKosten from "@/pages/SatteldachKosten";
 import DachziegelKaufen from "@/pages/DachziegelKaufen";
 import DachbeschichtungKosten from "@/pages/DachbeschichtungKosten";
+import FoerderungRechner from "@/pages/FoerderungRechner";
 import CookieConsent from "@/components/CookieConsent";
 import BackgroundLogo from "@/components/BackgroundLogo";
 import { LocalBusinessSchema } from "@/components/SEO";
@@ -192,6 +193,7 @@ function Router() {
       <Route path="/rueckruf" component={Rueckruf} />
       <Route path="/beratung" component={KostenloseBeratung} />
       <Route path="/heizkostenrechner" component={Heizkostenrechner} />
+      <Route path="/foerderung-rechner" component={FoerderungRechner} />
       <Route path="/daemmung-info" component={DaemmungInfo} />
       <Route path="/stadtteile" component={Stadtteile} />
       <Route path="/dachdecker-pasing" component={StadtteilPasing} />
