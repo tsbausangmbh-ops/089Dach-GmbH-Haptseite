@@ -12,7 +12,7 @@ import imgSturmschaden from "@assets/generated_images/damaged_roof_with_missing_
 import imgWasserschaden from "@assets/generated_images/leaking_roof_with_water_damage.png";
 import imgDachUndicht from "@assets/stock_images/roofer_man_working_r_0b569cea.jpg";
 import imgDachsanierung from "@assets/generated_images/leaking_roof_overflowing_gutters.png";
-import imgDachreparatur from "@assets/stock_images/craftsman_roofer_ham_14d56251.jpg";
+import imgDachreparatur from "@assets/generated_images/roofer_replacing_missing_tiles.png";
 
 const stadtteilData = {
   name: "Allach",
