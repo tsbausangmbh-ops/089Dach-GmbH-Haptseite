@@ -212,40 +212,7 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
               </p>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-8 mb-12">
-              <div className="bg-white p-6 rounded-xl border border-stone-200">
-                <h3 className="text-xl font-bold text-secondary mb-4 flex items-center gap-2">
-                  <Wrench className="h-5 w-5 text-primary" />
-                  Unsere Dachdecker-Leistungen
-                </h3>
-                <ul className="space-y-3">
-                  <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                    <span><strong>Dachsanierung</strong> – Kompletterneuerung für Steildach & Flachdach</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                    <span><strong>Dachreparatur</strong> – Schnelle Hilfe bei Sturmschäden & Undichtigkeiten</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                    <span><strong>Dachdämmung</strong> – Energetische Sanierung für weniger Heizkosten</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                    <span><strong>Dachfenster</strong> – VELUX & Roto Einbau vom Fachmann</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                    <span><strong>Spenglerei</strong> – Dachrinnen, Fallrohre, Blecharbeiten</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                    <span><strong>Flachdach</strong> – Abdichtung, Begrünung, Lichtkuppeln</span>
-                  </li>
-                </ul>
-              </div>
-
+            <div className="max-w-2xl mx-auto mb-12">
               <div className="bg-white p-6 rounded-xl border border-stone-200">
                 <h3 className="text-xl font-bold text-secondary mb-4 flex items-center gap-2">
                   <MapPin className="h-5 w-5 text-primary" />
