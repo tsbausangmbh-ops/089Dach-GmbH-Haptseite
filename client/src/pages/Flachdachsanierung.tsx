@@ -169,7 +169,7 @@ export default function Flachdachsanierung() {
                 <h3 className="font-bold text-secondary"><strong>Flachdach Dämmung nachrüsten</strong> – Unsere Empfehlung:</h3>
                 <div className="bg-primary/10 rounded-xl p-6">
                   <p className="text-muted-foreground mb-4">
-                    Bei einer Sanierung lohnt es sich oft, gleich die Dämmung zu erneuern:
+                    Bei einer <strong>Flachdach-Sanierung</strong> lohnt es sich oft, gleich die <strong>Aufdachdämmung</strong> nach <strong>GEG</strong> zu erneuern:
                   </p>
                   <ul className="space-y-2 text-sm">
                     <li className="flex items-center gap-2">
@@ -199,8 +199,8 @@ export default function Flachdachsanierung() {
               <strong>Dachbegrünung München</strong> – die grüne Alternative
             </h2>
             <p className="text-muted-foreground mb-6">
-              Nutzen Sie die Sanierung, um Ihr Flachdach zu begrünen. Extensive Begrünung mit Sedum-Pflanzen ist 
-              pflegeleicht, verlängert die Lebensdauer der Abdichtung und wird in München gefördert.
+              Nutzen Sie die <strong>Flachdachsanierung</strong>, um Ihr <strong>Flachdach</strong> zu begrünen. <strong>Extensive Begrünung</strong> mit <strong>Sedum-Pflanzen</strong> ist 
+              pflegeleicht, verlängert die <strong>Lebensdauer</strong> der <strong>Abdichtung</strong> und wird in <strong>München</strong> gefördert. Wir sind Ihr <strong>Flachdach Spezialist</strong>.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               {[

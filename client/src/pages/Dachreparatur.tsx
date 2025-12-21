@@ -121,7 +121,7 @@ export default function Dachreparatur() {
             ))}
           </div>
           <p className="text-center text-muted-foreground mt-6 text-sm">
-            Alle Preise sind Richtwerte inkl. Material und Anfahrt im Raum München. Genauen Festpreis erhalten Sie nach Begutachtung.
+            Alle <strong>Dachreparatur Preise</strong> sind Richtwerte inkl. <strong>Material</strong> und <strong>Anfahrt</strong> im Raum <strong>München</strong>. Genauen <strong>Festpreis</strong> erhalten Sie nach <strong>Begutachtung</strong> durch unseren <strong>Dachdeckermeister</strong>.
           </p>
         </div>
       </section>
@@ -178,7 +178,7 @@ export default function Dachreparatur() {
               </div>
             </div>
             <p className="text-muted-foreground mt-6 text-center">
-              Nicht sicher? Wir beraten Sie ehrlich vor Ort – ohne Verkaufsdruck.
+              Nicht sicher, ob <strong>Reparatur</strong> oder <strong>Sanierung</strong>? Wir beraten Sie ehrlich <strong>vor Ort</strong> – ohne Verkaufsdruck. Als <strong>Meisterbetrieb</strong> mit <strong>25 Jahren Erfahrung</strong> finden wir die beste Lösung für Ihr <strong>Dachproblem</strong>.
             </p>
           </div>
         </div>

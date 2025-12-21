@@ -144,7 +144,7 @@ export default function SEODachdeckerNotdienst() {
               Wann brauchen Sie unseren <span className="text-primary">Dach-Notdienst</span>?
             </h2>
             <p className="text-lg text-muted-foreground">
-              Bei diesen Notfällen sind wir schnell für Sie da – 24 Stunden am Tag, 7 Tage die Woche.
+              Bei diesen <strong>Dach Notfällen</strong> sind wir schnell für Sie da – <strong>24 Stunden</strong> am Tag, <strong>7 Tage die Woche</strong>. <strong>Schnelle Hilfe</strong> im gesamten <strong>Raum München</strong>.
             </p>
           </div>
 
@@ -209,7 +209,7 @@ export default function SEODachdeckerNotdienst() {
             
             <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4"><strong>Sturmschaden Kosten</strong> – Was zahlt die Versicherung?</h3>
             <p>
-              Die <strong>Gebäudeversicherung</strong> übernimmt in der Regel die Kosten für Sturmschäden ab Windstärke 8. Wir helfen Ihnen bei der Dokumentation und Kommunikation mit der Versicherung.
+              Die <strong>Gebäudeversicherung</strong> übernimmt in der Regel die <strong>Kosten für Sturmschäden</strong> ab <strong>Windstärke 8</strong>. Wir helfen Ihnen bei der <strong>Dokumentation</strong> und <strong>Kommunikation</strong> mit der <strong>Versicherung</strong>. Inkl. <strong>Kostenvoranschlag</strong> für Ihre <strong>Wohngebäudeversicherung</strong>.
             </p>
             <ul>
               <li><strong>Notdienst-Anfahrt:</strong> 89€</li>
@@ -246,8 +246,8 @@ export default function SEODachdeckerNotdienst() {
             Dach-Notfall? Jetzt anrufen!
           </h2>
           <p className="text-white/90 text-lg mb-8 max-w-4xl mx-auto">
-            Unser Notdienst-Team ist rund um die Uhr für Sie da. 
-            Wir sichern Ihr Dach schnell und professionell ab.
+            Unser <strong>Notdienst-Team</strong> ist rund um die Uhr für Sie da. 
+            Wir sichern Ihr <strong>Dach</strong> schnell und <strong>professionell</strong> ab – in <strong>60 Minuten</strong> vor Ort in <strong>München</strong>.
           </p>
           <a href="tel:+498912621964">
             <Button size="lg" className="bg-yellow-400 hover:bg-yellow-500 text-black text-xl px-10 py-6 font-bold">

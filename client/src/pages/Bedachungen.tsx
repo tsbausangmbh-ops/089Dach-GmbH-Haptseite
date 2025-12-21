@@ -154,14 +154,14 @@ export default function Bedachungen() {
               </h2>
               <div className="prose prose-lg text-muted-foreground">
                 <p>
-                  Ein <strong>Dach München</strong> ist mehr als nur eine Abdeckung – es ist der Schutzschild Ihres Zuhauses. 
+                  Ein <strong>Dach München</strong> ist mehr als nur eine Abdeckung – es ist der Schutzschild Ihres <strong>Zuhauses</strong>. 
                   Wenn dieser Schutz bröckelt, leiden alle darunter: die <strong>Bausubstanz</strong>, Ihr Geldbeutel und 
-                  letztlich Ihre Lebensqualität.
+                  letztlich Ihre <strong>Lebensqualität</strong>. Als <strong>Meisterbetrieb</strong> mit <strong>25 Jahren Erfahrung</strong> sind wir Ihr <strong>Dachdecker in München</strong>.
                 </p>
                 <p className="mt-4">
-                  Wir bei 089Dach nehmen uns Zeit für eine ehrliche Bestandsaufnahme. Nicht jedes alte 
+                  Wir bei 089Dach nehmen uns Zeit für eine ehrliche <strong>Bestandsaufnahme</strong>. Nicht jedes alte 
                   Dach muss komplett <strong>neu eingedeckt</strong> werden – manchmal reicht eine gezielte <strong>Dachreparatur</strong>. Das 
-                  sagen wir Ihnen offen, denn unser Ruf ist uns wichtiger als ein schneller Auftrag.
+                  sagen wir Ihnen offen, denn unser <strong>Ruf</strong> ist uns wichtiger als ein schneller Auftrag. <strong>10 Jahre Garantie</strong> und <strong>Festpreisgarantie</strong> geben Ihnen Sicherheit.
                 </p>
               </div>
 

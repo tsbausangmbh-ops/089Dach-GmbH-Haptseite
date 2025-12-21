@@ -159,7 +159,7 @@ export default function Sturmschaden() {
             <div className="space-y-6">
               <div className="bg-red-600 text-white rounded-xl p-6">
                 <h3 className="text-xl font-bold mb-4">Notfall? Jetzt handeln!</h3>
-                <p className="text-white/90 mb-6">Wir sind 24/7 für Sie erreichbar. Schnelle Hilfe bei Sturmschäden.</p>
+                <p className="text-white/90 mb-6">Unser <strong>Dach Notdienst</strong> ist <strong>24/7 erreichbar</strong>. <strong>Schnelle Hilfe</strong> bei <strong>Sturmschäden</strong> in <strong>München</strong>.</p>
                 <a href="/rueckruf" className="block">
                   <Button size="lg" variant="secondary" className="w-full" data-testid="button-notfall-sidebar">
                     Sofort-Rückruf <ArrowRight className="h-4 w-4 ml-2" />
@@ -206,7 +206,7 @@ export default function Sturmschaden() {
       <LeadFunnel 
         headline="Sturmschaden am Dach?"
         subheadline="Wir helfen bei der Schadensbehebung."
-        description="Nach einem Sturm zählt jede Stunde. Wir dokumentieren und reparieren für Ihre Versicherung."
+        description="Nach einem Sturm zählt jede Stunde. Wir dokumentieren und reparieren für Ihre Wohngebäudeversicherung. Inkl. Kostenvoranschlag und Sachverständigen-Kommunikation."
       />
       <Footer />
     </div>

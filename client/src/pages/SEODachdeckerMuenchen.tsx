@@ -227,11 +227,11 @@ export default function SEODachdeckerMuenchen() {
             
             <div className="prose prose-lg max-w-none text-muted-foreground">
               <p className="text-lg leading-relaxed mb-6">
-                Sie suchen einen <strong>Dachdecker in München</strong>, dem Sie vertrauen können? Die <strong>089Dach GmbH</strong> ist Ihr Dachdecker-Meisterbetrieb in München-Obermenzing – seit 1998 für Qualität, Zuverlässigkeit und faire Preise bekannt. Mit über <strong>25 Jahren Erfahrung</strong> und mehr als 500 erfolgreich abgeschlossenen Projekten gehören wir zu den führenden Dachdeckerbetrieben in München und Umgebung.
+                Sie suchen einen <strong>Dachdecker in München</strong>, dem Sie vertrauen können? Die <strong>089Dach GmbH</strong> ist Ihr <strong>Dachdecker-Meisterbetrieb</strong> in <strong>München-Obermenzing</strong> – seit 1998 für <strong>Qualität</strong>, <strong>Zuverlässigkeit</strong> und faire Preise bekannt. Mit über <strong>25 Jahren Erfahrung</strong> und mehr als 500 erfolgreich abgeschlossenen <strong>Dachprojekten</strong> gehören wir zu den führenden <strong>Dachdeckerbetrieben</strong> in München und <strong>Umgebung</strong>.
               </p>
               
               <p className="text-lg leading-relaxed mb-6">
-                Als familiengeführter Meisterbetrieb legen wir besonderen Wert auf <strong>handwerkliche Qualität</strong> und persönlichen Service. Unser Team aus erfahrenen Dachdeckern und Spenglern arbeitet nach höchsten Standards – mit <strong>10 Jahren Garantie</strong> auf alle ausgeführten Arbeiten und einer transparenten Festpreisgarantie ohne versteckte Kosten.
+                Als <strong>familiengeführter Meisterbetrieb</strong> legen wir besonderen Wert auf <strong>handwerkliche Qualität</strong> und <strong>persönlichen Service</strong>. Unser Team aus erfahrenen <strong>Dachdeckern</strong> und <strong>Spenglern</strong> arbeitet nach höchsten <strong>Standards</strong> – mit <strong>10 Jahren Garantie</strong> auf alle ausgeführten <strong>Dacharbeiten</strong> und einer transparenten <strong>Festpreisgarantie</strong> ohne versteckte Kosten.
               </p>
 
               <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4">Warum 089Dach als Ihr Dachdecker in München?</h3>
@@ -309,7 +309,7 @@ export default function SEODachdeckerMuenchen() {
             
             <div className="prose prose-lg max-w-none text-muted-foreground mb-8">
               <p>
-                Eine der häufigsten Fragen ist: <strong>Was kostet ein Dachdecker in München?</strong> Die Preise variieren je nach Dachgröße, Zustand und gewünschten Arbeiten. Bei 089Dach erhalten Sie immer ein <strong>transparentes Festpreisangebot</strong> nach kostenloser Vor-Ort-Besichtigung.
+                Eine der häufigsten Fragen ist: <strong>Was kostet ein Dachdecker in München?</strong> Die <strong>Preise</strong> variieren je nach <strong>Dachgröße</strong>, <strong>Zustand</strong> und gewünschten Arbeiten. Bei 089Dach erhalten Sie immer ein <strong>transparentes Festpreisangebot</strong> nach kostenloser <strong>Vor-Ort-Besichtigung</strong>. Wir beraten Sie auch zur <strong>KfW-Förderung</strong> und <strong>BAFA-Zuschüssen</strong>.
               </p>
             </div>
 

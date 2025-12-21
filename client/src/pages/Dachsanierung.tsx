@@ -165,7 +165,7 @@ export default function Dachsanierung() {
               <strong>Dach sanieren München</strong> – 6 Warnsignale für dringenden Handlungsbedarf
             </h2>
             <p className="text-muted-foreground">
-              Je früher Sie handeln, desto günstiger wird es. Erkennen Sie diese Zeichen?
+              Je früher Sie bei Ihrer <strong>Dachsanierung Einfamilienhaus</strong> handeln, desto günstiger wird es. Erkennen Sie diese Zeichen bei Ihrem <strong>Steildach</strong> oder <strong>Altbau</strong>?
             </p>
           </div>
 
@@ -192,7 +192,7 @@ export default function Dachsanierung() {
               Erkennen Sie eines oder mehrere dieser Warnsignale?
             </p>
             <p className="text-muted-foreground mb-6">
-              Warten Sie nicht, bis es zu spät ist. Eine kostenlose Dachinspektion gibt Ihnen Klarheit.
+              Warten Sie nicht, bis es zu spät ist. Eine kostenlose <strong>Dachinspektion</strong> durch unseren <strong>Dachdeckermeister</strong> gibt Ihnen Klarheit über <strong>Dachstuhl</strong>, <strong>Eindeckung</strong> und <strong>Bausubstanz</strong>.
             </p>
             <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-xl" data-testid="button-inspection">
               <a href="/beratung">Rückruf anfordern</a>
@@ -209,7 +209,7 @@ export default function Dachsanierung() {
               <strong>Dachsanierung Vorteile</strong> – Heizkosten sparen, Wert steigern
             </h2>
             <p className="text-muted-foreground">
-              Eine Dachsanierung ist keine Ausgabe – sie ist eine Investition in Ihr Zuhause.
+              Eine <strong>Dachsanierung</strong> ist keine Ausgabe – sie ist eine Investition in Ihr <strong>Wohngebäude</strong>. Mit <strong>energetischer Sanierung</strong> und moderner <strong>Wärmedämmung</strong> sparen Sie langfristig.
             </p>
           </div>
 

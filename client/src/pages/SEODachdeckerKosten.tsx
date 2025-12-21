@@ -153,7 +153,7 @@ export default function SEODachdeckerKosten() {
             </div>
 
             <p className="text-center text-muted-foreground">
-              * Alle Preise inkl. MwSt., Material und Arbeitsleistung. Endpreise nach kostenloser Vor-Ort-Besichtigung. Stand: Dezember 2025.
+              * Alle <strong>Dachdecker Preise</strong> inkl. MwSt., <strong>Material</strong> und <strong>Arbeitsleistung</strong>. Endpreise nach kostenloser <strong>Vor-Ort-Besichtigung</strong>. Als <strong>Meisterbetrieb</strong> bieten wir <strong>Festpreisgarantie</strong> ohne versteckte Kosten. Stand: Dezember 2025.
             </p>
           </div>
         </div>
@@ -168,7 +168,7 @@ export default function SEODachdeckerKosten() {
             
             <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4"><strong>Dachgröße & Dachform</strong> – Kostenfaktor 1</h3>
             <p>
-              Die <strong>Quadratmeterzahl</strong> ist der wichtigste Kostenfaktor. Ein einfaches Satteldach ist günstiger als ein Walmdach mit vielen Kehlen und Graten. Gauben und Dachfenster erhöhen den Aufwand.
+              Die <strong>Quadratmeterzahl</strong> ist der wichtigste <strong>Kostenfaktor</strong>. Ein einfaches <strong>Satteldach</strong> ist günstiger als ein <strong>Walmdach</strong> mit vielen <strong>Kehlen</strong> und <strong>Graten</strong>. <strong>Gauben</strong> und <strong>Dachfenster</strong> erhöhen den Aufwand.
             </p>
             
             <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4"><strong>Dachziegel Preise</strong> – Kostenfaktor 2</h3>
@@ -178,7 +178,7 @@ export default function SEODachdeckerKosten() {
             
             <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4"><strong>Dachdämmung Kosten</strong> – Kostenfaktor 3</h3>
             <p>
-              Eine <strong>energetische Dachsanierung</strong> mit Aufsparrendämmung kostet mehr, spart aber langfristig Heizkosten und wird mit bis zu 20% durch <strong>KfW und BAFA</strong> gefördert.
+              Eine <strong>energetische Dachsanierung</strong> mit <strong>Aufsparrendämmung</strong> kostet mehr, spart aber langfristig <strong>Heizkosten</strong> und wird mit bis zu 20% durch <strong>KfW</strong> und <strong>BAFA</strong> gefördert. Die <strong>Wärmedämmung</strong> amortisiert sich in wenigen Jahren.
             </p>
             
             <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4"><strong>Dachstuhl Sanierung</strong> – Kostenfaktor 4</h3>
@@ -188,7 +188,7 @@ export default function SEODachdeckerKosten() {
             
             <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4"><strong>Gerüst Dachsanierung</strong> – Kostenfaktor 5</h3>
             <p>
-              <strong>Gerüstkosten</strong> (ca. 8-12€/m² Fassadenfläche) sind in unseren Festpreisen bereits enthalten – keine bösen Überraschungen.
+              <strong>Gerüstkosten</strong> (ca. 8-12€/m² <strong>Fassadenfläche</strong>) sind in unseren <strong>Festpreisen</strong> bereits enthalten – keine bösen Überraschungen. So wissen Sie genau, was Ihre <strong>Dachsanierung</strong> kostet.
             </p>
           </div>
         </div>

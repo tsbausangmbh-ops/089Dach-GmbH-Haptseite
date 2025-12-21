@@ -139,11 +139,11 @@ export default function SEODachdeckerSpengler() {
             
             <div className="prose prose-lg max-w-none text-muted-foreground">
               <p className="text-lg leading-relaxed mb-6">
-                Bei vielen Dachprojekten brauchen Sie sowohl einen <strong>Dachdecker als auch einen Spengler</strong>: Die Dacheindeckung erfordert Dachdecker-Know-how, die Dachrinnen und Blecharbeiten Spengler-Kompetenz. Bei 089Dach bekommen Sie <strong>beides aus einer Hand</strong> – ohne Koordinationsaufwand und mit klarer Verantwortung.
+                Bei vielen <strong>Dachprojekten</strong> brauchen Sie sowohl einen <strong>Dachdecker</strong> als auch einen <strong>Spengler</strong>: Die <strong>Dacheindeckung</strong> erfordert Dachdecker-Know-how, die <strong>Dachrinnen</strong> und <strong>Blecharbeiten</strong> Spengler-Kompetenz. Bei 089Dach bekommen Sie <strong>beides aus einer Hand</strong> – ohne <strong>Koordinationsaufwand</strong> und mit klarer Verantwortung.
               </p>
               
               <p className="text-lg leading-relaxed mb-6">
-                Unser Inhaber <strong>Falko Georg Blöckinger</strong> ist sowohl Dachdecker- als auch Spengler-Meister. In unserer eigenen Werkstatt fertigen wir <strong>Dachrinnen, Fallrohre, Kamineinfassungen und Blechverkleidungen</strong> maßgenau an – aus Kupfer, Zink oder Aluminium.
+                Unser Inhaber <strong>Falko Georg Blöckinger</strong> ist sowohl <strong>Dachdeckermeister</strong> als auch <strong>Spenglermeister</strong>. In unserer eigenen <strong>Werkstatt</strong> fertigen wir <strong>Dachrinnen</strong>, <strong>Fallrohre</strong>, <strong>Kamineinfassungen</strong> und <strong>Blechverkleidungen</strong> maßgenau an – aus <strong>Kupfer</strong>, <strong>Zink</strong> oder <strong>Aluminium</strong>.
               </p>
 
               <h3 className="text-xl font-heading font-bold text-secondary mt-8 mb-4"><strong>Dachdecker & Spengler München</strong> – Vorteile aus einer Hand</h3>
@@ -253,7 +253,7 @@ export default function SEODachdeckerSpengler() {
                 </table>
               </div>
               <p className="text-sm text-muted-foreground mt-4">
-                * Alle Preise inkl. MwSt. und Material. Endpreis nach Aufmaß.
+                * Alle <strong>Spenglerarbeiten Preise</strong> inkl. MwSt. und <strong>Material</strong>. Endpreis nach <strong>Aufmaß</strong>. <strong>Festpreisgarantie</strong> nach Vor-Ort-Besichtigung.
               </p>
             </div>
           </div>
