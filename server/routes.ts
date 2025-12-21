@@ -174,6 +174,24 @@ export async function registerRoutes(
     }
   });
 
+  // SEO 301 Redirects - keyword-optimierte URLs zu kanonischen Seiten
+  const seoRedirects: Record<string, string> = {
+    "/dachsanierung-muenchen": "/leistungen/dachsanierung",
+    "/spenglerei-muenchen": "/leistungen/spenglerei",
+    "/flachdach-muenchen": "/leistungen/flachdach",
+    "/dachentwaesserung-muenchen": "/leistungen/dachrinnenreinigung",
+    "/dachreparatur-muenchen": "/dachreparatur",
+    "/flachdachsanierung-muenchen": "/flachdachsanierung",
+    "/dachdaemmung-muenchen": "/dachdaemmung",
+    "/dachdecker-angebot-muenchen": "/beratung",
+  };
+
+  Object.entries(seoRedirects).forEach(([from, to]) => {
+    app.get(from, (_req, res) => {
+      res.redirect(301, to);
+    });
+  });
+
   app.post("/api/contact", async (req, res) => {
     try {
       const validatedData = insertContactSchema.parse(req.body);
