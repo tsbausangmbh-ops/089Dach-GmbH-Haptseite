@@ -76,7 +76,7 @@ export default function StadtteilHaidhausen() {
       <NearbyServiceSchema />
       <Navbar />
       
-      <section className="pt-6 pb-8 md:pt-10 md:pb-12 bg-secondary relative overflow-hidden min-h-[40vh] flex items-center">
+      <section className="pt-6 pb-4 md:pt-5 md:pb-6 bg-secondary relative overflow-hidden min-h-[40vh] flex items-center">
         <div className="absolute inset-0 z-0">
           <img
             src={heroImage}
@@ -225,7 +225,7 @@ export default function StadtteilHaidhausen() {
         </div>
       </section>
 
-      <section className="py-8 bg-stone-50">
+      <section className="py-4 bg-stone-50">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
           <h3 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-6">Referenzprojekte in {stadtteilData.name}</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

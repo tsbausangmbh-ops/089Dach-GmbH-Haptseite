@@ -33,7 +33,7 @@ export default function FoerderungBox({
   ];
 
   return (
-    <section className="py-12 md:py-16 bg-gradient-to-b from-green-50 to-white">
+    <section className="py-6 md:py-8 bg-gradient-to-b from-green-50 to-white">
       <div className="container mx-auto px-4 md:px-6 lg:px-12">
         <div className="bg-white rounded-2xl shadow-xl border border-green-100 overflow-hidden">
           <div className="bg-gradient-to-r from-green-600 to-green-500 p-6 md:p-8">

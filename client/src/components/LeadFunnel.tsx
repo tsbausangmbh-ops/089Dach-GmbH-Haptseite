@@ -111,7 +111,7 @@ export default function LeadFunnel({
   };
 
   return (
-    <section className="py-4 md:py-8 bg-primary text-white overflow-hidden relative">
+    <section className="py-4 md:py-4 bg-primary text-white overflow-hidden relative">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10 pointer-events-none">
         <div className="absolute -top-24 -right-24 w-96 h-96 rounded-full bg-white blur-3xl"></div>
