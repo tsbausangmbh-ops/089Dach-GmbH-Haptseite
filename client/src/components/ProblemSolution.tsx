@@ -47,7 +47,7 @@ export default function ProblemSolution({ onOpenFunnel }: ProblemSolutionProps) 
         <div className="text-center max-w-2xl mx-auto mb-6 md:mb-8">
           <span className="text-primary font-bold tracking-wider uppercase text-sm">Das kennen Sie?</span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-secondary mt-2 mb-4">
-            Typische Probleme – und wie wir sie lösen
+            <strong>Dach undicht?</strong> Typische Probleme & Lösungen
           </h2>
         </div>
 

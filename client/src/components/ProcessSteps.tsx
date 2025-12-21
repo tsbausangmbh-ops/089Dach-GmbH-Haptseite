@@ -56,7 +56,7 @@ const defaultSteps: ProcessStep[] = [
 ];
 
 export default function ProcessSteps({
-  title = "So läuft Ihr Projekt ab – transparent und planbar",
+  title = "Dachsanierung Ablauf – so läuft Ihr Projekt ab",
   subtitle = "Von der ersten Beratung bis zur Abnahme: Klare Schritte, feste Termine, keine Überraschungen.",
   steps = defaultSteps,
   variant = "default"

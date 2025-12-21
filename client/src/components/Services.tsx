@@ -72,7 +72,7 @@ export default function Services() {
         <div className="text-center max-w-2xl mx-auto mb-6 md:mb-10">
           <span className="text-primary font-bold tracking-wider uppercase text-sm">Was wir für Sie tun</span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-secondary mt-2 mb-4">
-            Alles rund ums Dach – aus einer Hand
+            <strong>Dachdecker Leistungen München</strong> – alles aus einer Hand
           </h2>
           <p className="text-muted-foreground text-lg">
             Vom kleinen Leck bis zur kompletten Sanierung. Wir beraten ehrlich und arbeiten sauber.

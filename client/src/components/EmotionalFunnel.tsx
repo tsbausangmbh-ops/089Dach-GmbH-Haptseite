@@ -14,7 +14,7 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
           <div className="text-center max-w-3xl mx-auto mb-4 md:mb-6">
             <span className="text-primary font-bold tracking-wider uppercase text-xs md:text-sm">Kommt Ihnen das bekannt vor?</span>
             <h2 className="text-2xl md:text-4xl font-heading font-bold text-secondary mt-1 md:mt-2 mb-2 md:mb-4">
-              Sorgen ums Dach?
+              <strong>Dachprobleme München</strong> – Sorgen ums Dach?
             </h2>
             <p className="text-sm md:text-lg text-muted-foreground">
               Diese Gedanken kennen viele Hausbesitzer in München.
@@ -80,7 +80,7 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
           <div className="text-center max-w-3xl mx-auto mb-4 md:mb-6">
             <span className="text-primary font-bold tracking-wider uppercase text-xs md:text-sm">Warum 089Dach?</span>
             <h2 className="text-2xl md:text-4xl font-heading font-bold text-secondary mt-1 md:mt-2 mb-2 md:mb-4">
-              Wir nehmen Ihnen die Sorgen ab
+              <strong>Dachdecker München Vorteile</strong> – Sorgenfreie Beratung
             </h2>
           </div>
 
@@ -143,7 +143,7 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
       <section className="py-3 md:py-5 bg-primary">
         <div className="container mx-auto px-4 md:px-6 lg:px-12 text-center">
           <h2 className="text-xl md:text-4xl font-heading font-bold text-white mb-2 md:mb-4">
-            Dachsorgen loswerden?
+            <strong>Kostenlose Dachberatung München</strong> anfordern
           </h2>
           <p className="text-sm md:text-xl text-white/90 mb-4 md:mb-8 max-w-2xl mx-auto">
             Rückruf in 2 Minuten anfordern.
@@ -195,7 +195,7 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl font-heading font-bold text-secondary mb-8 text-center">
-              Dachdecker München – Ihr Meisterbetrieb für alle Dacharbeiten
+              <strong>Dachdecker München</strong> – Meisterbetrieb für alle Dacharbeiten
             </h2>
             
             <div className="prose prose-lg max-w-none text-muted-foreground mb-12">

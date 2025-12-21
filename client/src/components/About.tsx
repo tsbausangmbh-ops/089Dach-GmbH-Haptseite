@@ -28,7 +28,7 @@ export default function About() {
           <div className="p-8 lg:p-12 flex flex-col justify-center">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Über 089Dach GmbH</span>
             <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mt-2 mb-6">
-              Handwerk mit Herz und Verstand
+              <strong>Dachdecker Meisterbetrieb</strong> – Handwerk mit Herz
             </h2>
             
             <div className="space-y-4 text-muted-foreground leading-relaxed">
