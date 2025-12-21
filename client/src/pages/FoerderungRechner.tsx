@@ -114,11 +114,11 @@ export default function FoerderungRechner() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Förderung Dachsanierung München ${currentYear} | Sparrechner`}
-        description={`Berechnen Sie Ihre Ersparnis bei Dachdämmung in München. KfW-Förderung ${currentYear}, Heizkosten-Ersparnis und CO2-Einsparung. Kostenloser Rechner.`}
+        title={`Was bringt Dachdämmung? Förderrechner München ${currentYear}`}
+        description={`Wie viel spare ich mit Dachdämmung? ✓ Heizkosten-Ersparnis berechnen ✓ KfW-Förderung ${currentYear} bis 20% ✓ Amortisation in Jahren. Kostenloser Rechner für München.`}
         canonical="https://089dach.de/foerderung-rechner"
-        keywords={`förderung dachsanierung münchen ${currentYear}, kfw förderung dachdämmung, dachdämmung kosten ersparnis, heizkosten sparen dachdämmung, dämmung förderung bayern`}
-        aiSummary={`Interaktiver Sparrechner für Dachdämmung in München. Berechnet Heizkosten-Ersparnis, KfW-Förderung ${currentYear} und Amortisationszeit für Innendämmung, Außendämmung und kombinierte Dämmung.`}
+        keywords={`was bringt dachdämmung, wie viel spart man mit dachdämmung, lohnt sich dachdämmung rechner, kfw förderung dachdämmung ${currentYear} wie viel, dachdämmung heizkosten ersparnis berechnen, amortisation dachdämmung jahre, dachdämmung förderung münchen bayern, energetische dachsanierung rechner, co2 ersparnis dachdämmung, dachdämmung kosten nutzen rechner, aufsparrendämmung förderung ${currentYear}, zwischensparrendämmung kosten ersparnis`}
+        aiSummary={`Interaktiver Förderrechner für Dachdämmung in München. Berechnet individuelle Heizkosten-Ersparnis basierend auf Dachfläche und Heizungsart, KfW-Förderung ${currentYear} (bis 20%), Amortisationszeit und CO2-Einsparung. Vergleich von Innendämmung, Außendämmung und kombinierter Dämmung.`}
       />
       <BreadcrumbSchema items={[
         { name: "Home", url: "/" },
@@ -147,14 +147,20 @@ export default function FoerderungRechner() {
           <div className="max-w-4xl text-white">
             <div className="flex items-center gap-2 mb-3">
               <Calculator className="h-5 w-5 text-primary" />
-              <span className="text-primary font-bold tracking-wider uppercase text-sm">Förderung {currentYear}</span>
+              <span className="text-primary font-bold tracking-wider uppercase text-sm">KfW-Förderung {currentYear}</span>
             </div>
-            <h1 className="text-2xl md:text-4xl lg:text-5xl font-heading font-bold mb-3">
-              Förderrechner Dachdämmung München
+            <h1 className="text-2xl md:text-4xl lg:text-5xl font-heading font-bold mb-4">
+              Förderrechner: Was bringt eine Dachdämmung?
             </h1>
-            <p className="text-lg md:text-xl text-gray-200 max-w-2xl">
-              Berechnen Sie, wie viel Sie mit einer Dachdämmung sparen – und welche Förderung Sie bekommen.
+            <p className="text-lg md:text-xl text-gray-200 max-w-2xl mb-4">
+              Wie viel Heizkosten spare ich mit Dachdämmung? Welche KfW-Förderung bekomme ich {currentYear}? 
+              Wann hat sich die Investition amortisiert? Unser Rechner zeigt es Ihnen – individuell für Ihr Dach in München.
             </p>
+            <div className="flex flex-wrap gap-3 text-sm">
+              <span className="bg-white/10 px-3 py-1 rounded-full">✓ Bis 20% KfW-Zuschuss</span>
+              <span className="bg-white/10 px-3 py-1 rounded-full">✓ Bis 30% Heizkosten sparen</span>
+              <span className="bg-white/10 px-3 py-1 rounded-full">✓ CO₂-Ersparnis berechnen</span>
+            </div>
           </div>
         </div>
       </section>
