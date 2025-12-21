@@ -50,7 +50,18 @@ export default function Dachrinnenreinigung() {
       <AIBeraterSection />
       
       <section className="pt-6 pb-8 md:pt-10 md:pb-12 bg-secondary relative overflow-hidden min-h-[35vh] flex items-center">
-        <div className="absolute inset-0 bg-gradient-to-r from-secondary via-secondary/95 to-secondary/80"></div>
+        <div className="absolute inset-0 z-0">
+          <img
+            src={rinnenImg1}
+            alt="Dachrinnenreinigung München - Professionelle Rinnenreinigung"
+            className="w-full h-full object-cover"
+            width={1792}
+            height={1024}
+            fetchPriority="high"
+            decoding="async"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-secondary/90 via-secondary/70 to-secondary/50"></div>
+        </div>
         <div className="container mx-auto px-4 md:px-6 lg:px-12 relative z-10">
           <div className="max-w-7xl text-white">
             <div className="flex items-center gap-2 mb-3 md:mb-4">
