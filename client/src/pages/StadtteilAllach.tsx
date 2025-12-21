@@ -226,7 +226,7 @@ export default function StadtteilAllach() {
               <div className="bg-gray-50 rounded-xl p-4 md:p-6">
                 <h4 className="font-bold text-secondary mb-4">Warum 089Dach?</h4>
                 <ul className="space-y-3">
-                  {["Meisterbetrieb seit 1998", "Direkter Nachbar", "10 Jahre Garantie", "Schnellster Service", "Über 200 Projekte"].map((item, idx) => (
+                  {["Meisterbetrieb seit 1998", "Direkter Nachbar – kürzeste Anfahrt", "10 Jahre Garantie auf alle Arbeiten", "Schnellster Service in München", "Über 200 abgeschlossene Projekte", "Starkes Partnernetzwerk (Gerüstbau, Elektrik, Sanitär)", "Festpreisgarantie – keine versteckten Kosten", "Persönliche Beratung vor Ort", "Energieberatung & Fördermittel-Hilfe"].map((item, idx) => (
                     <li key={idx} className="flex items-center gap-2 text-sm">
                       <CheckCircle2 className="h-4 w-4 text-primary" />{item}
                     </li>
