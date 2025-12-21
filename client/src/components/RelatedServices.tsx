@@ -1,13 +1,19 @@
 import { ArrowRight, Home, Warehouse, Wrench, Ruler, ShieldCheck, Lightbulb, FileText, Hammer, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
+import imgDachsanierung from "@assets/generated_images/roofers_installing_battens_and_tiles.png";
+import imgReparatur from "@assets/generated_images/roofer_doing_quick_repairs.png";
+import imgReferenzen from "@assets/generated_images/realistic_row_house_roof_after.png";
+import imgStadtteile from "@assets/stock_images/aerial_view_munich_c_04604d54.jpg";
+
 const allServices = [
   {
     id: "dachsanierung",
     icon: <Home className="h-6 w-6 text-primary" />,
     title: "Dachsanierung",
     href: "/leistungen/dachsanierung",
-    description: "Energetische Sanierung mit bis zu 30% Heizkosten-Ersparnis"
+    description: "Energetische Sanierung mit bis zu 30% Heizkosten-Ersparnis",
+    image: imgDachsanierung
   },
   {
     id: "bedachungen",
@@ -49,7 +55,8 @@ const allServices = [
     icon: <Hammer className="h-6 w-6 text-primary" />,
     title: "Reparaturservice",
     href: "/leistungen/reparaturservice",
-    description: "Schnelle Hilfe bei Sturmschäden und Lecks"
+    description: "Schnelle Hilfe bei Sturmschäden und Lecks",
+    image: imgReparatur
   },
   {
     id: "energieberatung",
@@ -70,7 +77,8 @@ const allServices = [
     icon: <Home className="h-6 w-6 text-primary" />,
     title: "Referenzen",
     href: "/referenzen",
-    description: "Unsere abgeschlossenen Projekte in München"
+    description: "Unsere abgeschlossenen Projekte in München",
+    image: imgReferenzen
   },
   {
     id: "ratgeber",
@@ -84,7 +92,8 @@ const allServices = [
     icon: <MapPin className="h-6 w-6 text-primary" />,
     title: "Einsatzgebiete",
     href: "/stadtteile",
-    description: "Dachdecker in Ihrer Nähe"
+    description: "Dachdecker in Ihrer Nähe",
+    image: imgStadtteile
   },
   {
     id: "faq",
@@ -137,20 +146,32 @@ export default function RelatedServices({
             <a 
               key={service.id}
               href={service.href}
-              className="group bg-white rounded-xl p-5 border border-stone-200 hover:border-primary hover:shadow-md transition-all"
+              className="group bg-white rounded-xl overflow-hidden border border-stone-200 hover:border-primary hover:shadow-md transition-all"
               data-testid={`link-related-${service.id}`}
             >
-              <div className="flex items-start gap-3">
-                <div className="bg-primary/10 p-2 rounded-lg shrink-0">
-                  {service.icon}
+              {service.image && (
+                <div className="aspect-[4/3] overflow-hidden">
+                  <img 
+                    src={service.image} 
+                    alt={service.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    loading="lazy"
+                  />
                 </div>
-                <div>
-                  <h3 className="font-heading font-bold text-secondary group-hover:text-primary transition-colors">
-                    {service.title}
-                  </h3>
-                  <p className="text-sm text-muted-foreground mt-1 leading-relaxed">
-                    {service.description}
-                  </p>
+              )}
+              <div className="p-4">
+                <div className="flex items-start gap-3">
+                  <div className="bg-primary/10 p-2 rounded-lg shrink-0">
+                    {service.icon}
+                  </div>
+                  <div>
+                    <h3 className="font-heading font-bold text-secondary group-hover:text-primary transition-colors">
+                      {service.title}
+                    </h3>
+                    <p className="text-sm text-muted-foreground mt-1 leading-relaxed">
+                      {service.description}
+                    </p>
+                  </div>
                 </div>
               </div>
             </a>
