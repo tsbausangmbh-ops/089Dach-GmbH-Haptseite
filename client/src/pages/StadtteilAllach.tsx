@@ -7,6 +7,12 @@ import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 import heroImage from "@assets/generated_images/realistic_row_house_roof_after.png";
+import imgDachrinnenreinigung from "@assets/stock_images/gutter_cleaning_roof_1912828c.jpg";
+import imgSturmschaden from "@assets/stock_images/storm_damage_roof_re_d29f21fd.jpg";
+import imgWasserschaden from "@assets/stock_images/water_damage_roof_le_64ca0faa.jpg";
+import imgDachUndicht from "@assets/stock_images/roof_leak_repair_wor_a5e6349d.jpg";
+import imgDachsanierung from "@assets/stock_images/roof_renovation_tile_edf74b83.jpg";
+import imgDachreparatur from "@assets/stock_images/roofer_worker_repair_b938a1aa.jpg";
 
 const stadtteilData = {
   name: "Allach",
@@ -147,18 +153,28 @@ export default function StadtteilAllach() {
 
               <div>
                 <h3 className="text-xl md:text-2xl font-heading font-bold text-secondary mb-4">Unsere Leistungen in {stadtteilData.name}</h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                   {[
-                    { title: "Dachrinnenreinigung", desc: "Professionelle Rinnenreinigung in Allach" },
-                    { title: "Sturmschaden reparieren", desc: "24h Notdienst bei Sturmschäden" },
-                    { title: "Wasserschaden Dach", desc: "Schnelle Hilfe bei Wasserschäden" },
-                    { title: "Dach undicht", desc: "Leckortung & Abdichtung" },
-                    { title: "Dachsanierung", desc: "Komplettsanierung mit Garantie" },
-                    { title: "Dachreparatur", desc: "Schnelle Reparaturen aller Art" }
+                    { title: "Dachrinnenreinigung", desc: "Professionelle Rinnenreinigung in Allach", img: imgDachrinnenreinigung },
+                    { title: "Sturmschaden reparieren", desc: "24h Notdienst bei Sturmschäden", img: imgSturmschaden },
+                    { title: "Wasserschaden Dach", desc: "Schnelle Hilfe bei Wasserschäden", img: imgWasserschaden },
+                    { title: "Dach undicht", desc: "Leckortung & Abdichtung", img: imgDachUndicht },
+                    { title: "Dachsanierung", desc: "Komplettsanierung mit Garantie", img: imgDachsanierung },
+                    { title: "Dachreparatur", desc: "Schnelle Reparaturen aller Art", img: imgDachreparatur }
                   ].map((service, idx) => (
-                    <div key={idx} className="bg-white rounded-lg p-4 border border-gray-100 shadow-sm">
-                      <h4 className="font-bold text-secondary">{service.title}</h4>
-                      <p className="text-sm text-muted-foreground">{service.desc}</p>
+                    <div key={idx} className="bg-white rounded-xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+                      <div className="aspect-[4/3] overflow-hidden">
+                        <img 
+                          src={service.img} 
+                          alt={`${service.title} in ${stadtteilData.name}`}
+                          className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                          loading="lazy"
+                        />
+                      </div>
+                      <div className="p-4">
+                        <h4 className="font-bold text-secondary text-lg mb-1">{service.title}</h4>
+                        <p className="text-sm text-muted-foreground">{service.desc}</p>
+                      </div>
                     </div>
                   ))}
                 </div>
