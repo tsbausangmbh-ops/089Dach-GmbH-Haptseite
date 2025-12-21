@@ -44,8 +44,8 @@ export default function Navbar() {
       <div className="hidden md:block bg-secondary text-white py-2">
         <div className="container mx-auto px-6 lg:px-12 flex justify-between items-center text-sm font-medium">
           <div className="flex gap-6">
-            <a href="/foerderung-rechner" className="flex items-center gap-2 hover:text-primary transition-colors font-semibold">
-              <span className="text-primary">★</span>
+            <a href="/foerderung-rechner" className="flex items-center gap-2 bg-green-500/40 px-3 py-1 rounded-lg hover:bg-green-500/60 transition-colors font-semibold">
+              <span className="text-white">★</span>
               Förderrechner
             </a>
             <a href="/ratgeber/leckortung" className="flex items-center gap-2 hover:text-primary transition-colors font-semibold">
