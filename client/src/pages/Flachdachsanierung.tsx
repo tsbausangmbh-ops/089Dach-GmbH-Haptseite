@@ -88,8 +88,8 @@ export default function Flachdachsanierung() {
               <strong>Flachdachsanierung München</strong> – dauerhaft dicht
             </h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-xl mb-4">
-              Ihr Flachdach macht Probleme? Wir sanieren mit hochwertigen Materialien – 
-              für ein dichtes Dach, das Jahrzehnte hält.
+              Ihr <strong>Flachdach</strong> macht Probleme? Wir sanieren mit <strong>EPDM</strong>, <strong>Bitumen</strong> oder Flüssigkunststoff – 
+              für ein dichtes <strong>Flachdach München</strong>, das Jahrzehnte hält.
             </p>
             <div className="flex flex-wrap gap-4 mt-6">
               <a href="/rueckruf">

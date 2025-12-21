@@ -154,13 +154,13 @@ export default function Bedachungen() {
               </h2>
               <div className="prose prose-lg text-muted-foreground">
                 <p>
-                  Ein Dach ist mehr als nur eine Abdeckung – es ist der <strong>Schutzschild Ihres Zuhauses</strong>. 
-                  Wenn dieser Schutz bröckelt, leiden alle darunter: die Bausubstanz, Ihr Geldbeutel und 
+                  Ein <strong>Dach München</strong> ist mehr als nur eine Abdeckung – es ist der Schutzschild Ihres Zuhauses. 
+                  Wenn dieser Schutz bröckelt, leiden alle darunter: die <strong>Bausubstanz</strong>, Ihr Geldbeutel und 
                   letztlich Ihre Lebensqualität.
                 </p>
                 <p className="mt-4">
                   Wir bei 089Dach nehmen uns Zeit für eine ehrliche Bestandsaufnahme. Nicht jedes alte 
-                  Dach muss komplett erneuert werden – manchmal reicht eine gezielte Reparatur. Das 
+                  Dach muss komplett <strong>neu eingedeckt</strong> werden – manchmal reicht eine gezielte <strong>Dachreparatur</strong>. Das 
                   sagen wir Ihnen offen, denn unser Ruf ist uns wichtiger als ein schneller Auftrag.
                 </p>
               </div>

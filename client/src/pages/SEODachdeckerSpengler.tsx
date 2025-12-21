@@ -93,7 +93,7 @@ export default function SEODachdeckerSpengler() {
               Dachdecker & Spengler München
             </h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-4xl mb-4 md:mb-6">
-              <strong>Dacharbeiten und Spenglerarbeiten aus einer Hand</strong> – von der Dacheindeckung bis zur Dachrinne. Unser Meisterbetrieb vereint beide Gewerke unter einem Dach.
+              <strong>Spengler München</strong> und <strong>Dachdecker München</strong> aus einer Hand – von der <strong>Dacheindeckung</strong> bis zur <strong>Dachrinne</strong>. Unser Meisterbetrieb vereint beide Gewerke unter einem Dach.
             </p>
             <div className="flex flex-wrap gap-3 mb-6">
               <span className="bg-primary/20 text-primary px-3 py-1 rounded-full text-sm font-medium flex items-center gap-1">

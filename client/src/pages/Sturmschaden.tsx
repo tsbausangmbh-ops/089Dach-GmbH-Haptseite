@@ -88,12 +88,12 @@ export default function Sturmschaden() {
               <div>
                 <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Soforthilfe bei Sturmschäden</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-                  Ein Sturm hat Ihr Dach beschädigt? Handeln Sie schnell! Unser Notdienst ist rund um die Uhr 
-                  erreichbar. Wir sichern Ihr Dach sofort ab, verhindern Folgeschäden und kümmern uns um 
+                  Ein <strong>Sturmschaden am Dach</strong>? Handeln Sie schnell! Unser <strong>Dach Notdienst München</strong> ist rund um die Uhr 
+                  erreichbar. Wir sichern Ihr Dach sofort ab, verhindern <strong>Folgeschäden</strong> und kümmern uns um 
                   die professionelle Reparatur.
                 </p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Wir unterstützen Sie auch bei der Versicherungsabwicklung – von der Schadensdokumentation 
+                  Wir unterstützen Sie auch bei der <strong>Versicherungsabwicklung</strong> – von der Schadensdokumentation 
                   bis zur Kommunikation mit Ihrer Versicherung.
                 </p>
               </div>

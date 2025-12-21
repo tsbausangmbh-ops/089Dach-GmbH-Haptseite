@@ -88,7 +88,7 @@ export default function SEODachdeckerKosten() {
               Was kostet ein Dachdecker in München?
             </h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-4xl mb-4 md:mb-6">
-              <strong>Aktuelle Dachdecker-Preise 2025</strong> für München: Dachsanierung ab 195€/m², Flachdach ab 110€/m². Transparente Festpreise ohne versteckte Kosten.
+              <strong>Dachdecker Kosten München</strong> 2025: <strong>Dachsanierung</strong> ab 195€/m², <strong>Flachdach</strong> ab 110€/m². Transparente <strong>Festpreise</strong> ohne versteckte Kosten.
             </p>
             <div className="flex flex-wrap gap-3 mb-6">
               <span className="bg-primary/20 text-primary px-3 py-1 rounded-full text-sm font-medium flex items-center gap-1">

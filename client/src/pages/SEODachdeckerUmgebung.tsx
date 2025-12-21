@@ -116,7 +116,7 @@ export default function SEODachdeckerUmgebung() {
               Dachdecker München und Umgebung
             </h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-4xl mb-4 md:mb-6">
-              Ihr <strong>Dachdecker-Meisterbetrieb</strong> für München und das gesamte Umland – von Gräfelfing bis Starnberg, von Dachau bis Erding. <strong>Anfahrt kostenlos</strong>, 10 Jahre Garantie.
+              Ihr <strong>Dachdecker Umland München</strong> – <strong>Meisterbetrieb</strong> für Gräfelfing, Starnberg, <strong>Dachau</strong>, Erding und mehr. <strong>Anfahrt kostenlos</strong>, 10 Jahre Garantie.
             </p>
             <div className="flex flex-wrap gap-3 mb-6">
               <span className="bg-primary/20 text-primary px-3 py-1 rounded-full text-sm font-medium flex items-center gap-1">

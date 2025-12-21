@@ -95,8 +95,8 @@ export default function SEODachdeckerNotdienst() {
               Dachdecker Notdienst München
             </h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-4xl mb-4 md:mb-6">
-              <strong>Sturmschaden? Wasserschaden? Dach undicht?</strong><br />
-              Wir sind rund um die Uhr für Sie da – auch nachts, am Wochenende und an Feiertagen.
+              <strong>Sturmschaden Dach</strong>? <strong>Wasserschaden</strong>? <strong>Dach undicht</strong>?<br />
+              Unser <strong>Dachdecker Notdienst München</strong> ist rund um die Uhr für Sie da – auch nachts, am Wochenende und an Feiertagen.
             </p>
             <div className="flex flex-wrap gap-3 mb-6">
               <span className="bg-yellow-400/20 text-yellow-400 px-3 py-1 rounded-full text-sm font-medium flex items-center gap-1">

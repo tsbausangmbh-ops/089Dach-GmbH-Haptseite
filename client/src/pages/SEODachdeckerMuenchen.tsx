@@ -176,7 +176,7 @@ export default function SEODachdeckerMuenchen() {
               Dachdecker München
             </h1>
             <p className="text-lg md:text-xl lg:text-2xl text-gray-200 max-w-4xl mb-4 md:mb-6">
-              Ihr <strong>Dachdecker-Meisterbetrieb</strong> in München-Obermenzing. Dachsanierung, Dachreparatur, Flachdach, Spenglerarbeiten – mit <strong>10 Jahren Garantie</strong> und Festpreisversprechen.
+              Ihr <strong>Dachdecker München</strong> – <strong>Meisterbetrieb</strong> in Obermenzing. <strong>Dachsanierung</strong>, <strong>Dachreparatur</strong>, Flachdach, Spenglerarbeiten – mit 10 Jahren Garantie und Festpreisversprechen.
             </p>
             <div className="flex flex-wrap gap-3 mb-6">
               <span className="bg-primary/20 text-primary px-3 py-1 rounded-full text-sm font-medium flex items-center gap-1">

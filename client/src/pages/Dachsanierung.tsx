@@ -104,10 +104,10 @@ export default function Dachsanierung() {
               <strong>Dachsanierung München</strong> – Kosten, Förderung & Ablauf
             </h1>
             <p className="text-xl text-gray-200 max-w-xl mb-4">
-              Eine Dachsanierung muss kein Albtraum sein. Mit der richtigen Planung, transparenten Kosten und einem erfahrenen Team wird Ihr Zuhause wieder sicher.
+              Eine <strong>Dachsanierung</strong> muss kein Albtraum sein. Mit der richtigen Planung, transparenten Kosten und einem erfahrenen <strong>Meisterbetrieb</strong> wird Ihr Zuhause wieder sicher.
             </p>
             <p className="text-lg text-gray-300 max-w-xl">
-              Wir begleiten Sie vom ersten Anruf bis zur Abnahme – mit bis zu 30% weniger Heizkosten und Förderung durch KfW & BAFA.
+              Wir begleiten Sie vom ersten Anruf bis zur Abnahme – mit bis zu 30% weniger <strong>Heizkosten</strong> und <strong>KfW-Förderung</strong> bis 20%.
             </p>
           </div>
         </div>

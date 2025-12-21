@@ -74,8 +74,8 @@ export default function Dachreparatur() {
               <strong>Dachreparatur München</strong> – schnell, fair & transparent
             </h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-xl mb-4">
-              Ein paar kaputte Ziegel? Eine undichte Stelle? Nicht jedes Problem braucht gleich eine Komplettsanierung. 
-              Wir reparieren schnell und zu fairen Preisen.
+              Ein paar kaputte <strong>Dachziegel</strong>? Eine undichte Stelle? Nicht jedes Problem braucht gleich eine Komplettsanierung. 
+              Wir bieten schnelle <strong>Dachreparatur München</strong> mit <strong>Festpreis</strong> – auch bei <strong>Sturmschäden</strong>.
             </p>
             <div className="flex flex-wrap gap-4 mt-6">
               <a href="/rueckruf">
