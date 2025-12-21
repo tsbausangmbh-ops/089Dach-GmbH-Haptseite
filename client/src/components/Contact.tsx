@@ -4,7 +4,6 @@ import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Checkbox } from "@/components/ui/checkbox";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
-import imgSteildachFlachdach from "@assets/generated_images/steildach_and_flachdach_roofing.png";
 import { useState } from "react";
 import { toast } from "sonner";
 import { Link } from "wouter";
@@ -80,15 +79,6 @@ export default function Contact() {
               Gerne beraten wir Sie unverbindlich vor Ort oder erstellen Ihnen ein individuelles Angebot. 
               Wir freuen uns auf Ihre Anfrage.
             </p>
-
-            <div className="mb-8 rounded-xl overflow-hidden">
-              <img 
-                src={imgSteildachFlachdach} 
-                alt="Steildach Neueindeckung und Flachdach Abdichtung" 
-                className="w-full h-48 md:h-56 object-cover"
-                loading="lazy"
-              />
-            </div>
 
             <div className="space-y-6">
               <div className="flex items-start gap-4">

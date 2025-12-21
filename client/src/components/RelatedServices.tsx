@@ -156,17 +156,7 @@ export default function RelatedServices({
               className="group bg-white rounded-xl overflow-hidden border border-stone-200 hover:border-primary hover:shadow-md transition-all"
               data-testid={`link-related-${service.id}`}
             >
-              {service.image && (
-                <div className="aspect-[4/3] overflow-hidden">
-                  <img 
-                    src={service.image} 
-                    alt={service.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                    loading="lazy"
-                  />
-                </div>
-              )}
-              <div className="p-4">
+                            <div className="p-4">
                 <div className="flex items-start gap-3">
                   <div className="bg-primary/10 p-2 rounded-lg shrink-0">
                     {service.icon}
