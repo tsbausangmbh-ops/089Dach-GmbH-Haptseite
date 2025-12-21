@@ -6,7 +6,7 @@ import Services from "@/components/Services";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import LeadFunnel from "@/components/LeadFunnel";
-import SEO, { LocalBusinessSchema, OrganizationSchema, WebSiteSchema, AggregateRatingSchema, GeoServiceAreaSchema, ProfessionalServiceSchema, AIKnowledgeSchema, VoiceSearchFAQSchema, GoogleBusinessProfileSchema, BingPlacesSchema, LocalSEO20kmSchema, NearbyServiceSchema, SiteNavigationSchema, PriceSpecificationSchema, EmergencyServiceSchema } from "@/components/SEO";
+import SEO, { LocalBusinessSchema, OrganizationSchema, WebSiteSchema, AggregateRatingSchema, GeoServiceAreaSchema, ProfessionalServiceSchema, AIKnowledgeSchema, VoiceSearchFAQSchema, GoogleBusinessProfileSchema, BingPlacesSchema, LocalSEO20kmSchema, NearbyServiceSchema, SiteNavigationSchema, PriceSpecificationSchema, EmergencyServiceSchema, GeoAreaServedSchema } from "@/components/SEO";
 import CustomerReviews from "@/components/CustomerReviews";
 import { MapPin, ArrowRight, BookOpen } from "lucide-react";
 
@@ -37,6 +37,7 @@ export default function Home() {
       <SiteNavigationSchema />
       <PriceSpecificationSchema />
       <EmergencyServiceSchema />
+      <GeoAreaServedSchema />
       <Navbar />
       <main>
         <Hero onOpenFunnel={() => setFunnelOpen(true)} />
