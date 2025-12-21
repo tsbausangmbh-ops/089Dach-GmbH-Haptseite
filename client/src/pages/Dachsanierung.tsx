@@ -42,11 +42,12 @@ export default function Dachsanierung() {
   return (
     <div className="min-h-screen bg-white">
       <SEO 
-        title="Was kostet Dachsanierung München? Preise & Förderung 2025"
-        description="Was kostet Dachsanierung pro m²? Ab 150€/m² inkl. Dämmung. ✓ Bis 30% Heizkosten sparen ✓ 20% KfW-Förderung ✓ Festpreis-Garantie. Kostenlose Beratung ☎ 089 12621964"
+        title="Dachsanierung München ab 195€/m² | KfW-Förderung 2025"
+        description="Dachsanierung München vom Meisterbetrieb: Komplett ab 195€/m² inkl. Dämmung. ✓ Bis 30% Heizkosten sparen ✓ 20% KfW/BAFA-Förderung ✓ 10 Jahre Garantie. Jetzt kostenlos beraten ☎ 089 12621964"
         canonical="https://089dach.de/leistungen/dachsanierung"
-        keywords="was kostet dachsanierung pro qm münchen, dachsanierung einfamilienhaus kosten 2024 2025, wie lange dauert dachsanierung, wann muss dach saniert werden anzeichen, lohnt sich dachsanierung bei altem haus, dachsanierung ohne auszug möglich, kfw förderung dachsanierung 2025 antrag, energetische sanierung dach pflicht geg, dachsanierung mit dämmung kosten erfahrungen, altes dach erneuern oder reparieren, dachsanierung altbau vor 1970 asbest, dachsanierung münchen obermenzing pasing laim schwabing sendling, dachsanierung 100 qm kosten rechner, dachsanierung reihenhaus kosten münchen, doppelhaushälfte dach sanieren kosten, dachsanierung inklusive gerüst preis, welche dachziegel bei sanierung wählen, dachsanierung winter möglich, dachsanierung steuerlich absetzbar 2025, dachsanierung handwerkerkosten absetzen, förderung dachsanierung bayern 2025, bafa einzelmaßnahme dach zuschuss, dachsanierung wertsteigerung immobilie, dachsanierung energieausweis pflicht, dachstuhl sanieren kosten münchen, sparren erneuern kosten pro meter"
-        aiSummary="089Dach GmbH bietet professionelle Dachsanierung in München-Obermenzing mit energetischer Beratung und KfW-Förderung. Kosten ab 150€/m². Bis zu 30% Heizkosten sparen. 10 Jahre Garantie. Telefon: 089 12621964."
+        keywords="dachsanierung münchen kosten, dachsanierung einfamilienhaus münchen, energetische dachsanierung förderung, dach sanieren kosten pro qm, kfw förderung dachsanierung 2025, bafa zuschuss dach, dachsanierung mit dämmung münchen, dachsanierung altbau münchen, dachsanierung münchen obermenzing, dachsanierung münchen pasing, dachsanierung münchen laim, dachsanierung münchen schwabing, dachdecker dachsanierung münchen, dachsanierung festpreis münchen, dachsanierung meisterbetrieb münchen, steildach sanieren münchen, aufsparrendämmung münchen kosten, dachziegel erneuern münchen, dachstuhl sanieren münchen, wärmedämmung dach münchen, dachsanierung förderung bayern 2025, geg dachsanierung pflicht, dachsanierung wertsteigerung, dachsanierung steuerlich absetzbar"
+        geoPlacename="München, Bayern, Deutschland"
+        aiSummary="089Dach GmbH – Dachdecker-Meisterbetrieb in München-Obermenzing. Dachsanierung ab 195€/m² inkl. Dämmung. 30% Heizkosten sparen. 20% KfW/BAFA-Förderung. 10 Jahre Garantie. Festpreisgarantie. Servicegebiet: München und Umland. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dachsanierung", url: "/leistungen/dachsanierung" }]} />
       <ServiceSchema 

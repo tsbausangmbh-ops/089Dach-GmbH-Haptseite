@@ -51,12 +51,12 @@ export default function SEODachdeckerKosten() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Was kostet ein Dachdecker in München? Preise 2025 | 089Dach"
-        description="Dachdecker München Kosten 2025: Dachsanierung ab 195€/m², Flachdach ab 110€/m², Dachfenster ab 1.560€. ✓ Festpreisgarantie ✓ Kostenlose Beratung. ☎ 089 12621964"
+        title="Dachdecker Kosten München 2025 | Preisliste Festpreis"
+        description="Dachdecker Kosten München 2025: Dachsanierung ab 195€/m², Flachdach ab 110€/m², Dachreparatur ab 89€. ✓ Festpreisgarantie ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-muenchen-kosten"
-        keywords="dachdecker münchen kosten, was kostet dachdecker münchen, dachdecker preise münchen, dachsanierung kosten münchen, dachdecker stundenlohn münchen, dachdecker m2 preis, dachdeckerkosten, dachdecker preise 2025, dachsanierung preis pro m2, was kostet ein neues dach"
+        keywords="dachdecker kosten münchen, dachdecker preise münchen 2025, dachsanierung kosten münchen, was kostet dachdecker münchen, dachdecker m2 preis münchen, dachdecker festpreis münchen, flachdach kosten münchen, dachreparatur kosten münchen, dachfenster kosten münchen, dachgaube kosten münchen, dachziegel kosten münchen, spengler kosten münchen, dachdecker preisliste münchen, dachdecker stundensatz münchen"
         geoPlacename="München, Bayern, Deutschland"
-        aiSummary="Dachdecker-Kosten in München 2025 bei 089Dach GmbH: Dachsanierung ab 195€/m², Flachdach ab 110€/m², Dachfenster ab 1.560€, Dachgaube ab 15.600€. Festpreisgarantie, kostenlose Beratung. Tel: 089 12621964."
+        aiSummary="089Dach GmbH – Dachdecker-Preise München 2025: Dachsanierung ab 195€/m², Flachdach ab 110€/m², Dachfenster ab 1.560€, Dachgaube ab 15.600€, Dachreparatur ab 89€. Festpreisgarantie. Kostenlose Beratung. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[
         { name: "Home", url: "/" },

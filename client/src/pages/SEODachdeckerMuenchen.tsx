@@ -138,12 +138,12 @@ export default function SEODachdeckerMuenchen() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker München | Meisterbetrieb ✓ 10 Jahre Garantie ✓ Festpreis"
-        description="Dachdecker in München gesucht? 089Dach GmbH: ✓ Meisterbetrieb seit 1998 ✓ 4.9/5 Sterne ✓ Festpreisgarantie ✓ 10 Jahre Garantie ✓ Kostenlose Beratung. Jetzt anrufen: 089 12621964"
+        title="Dachdecker München | Meisterbetrieb 10 Jahre Garantie"
+        description="Dachdecker München gesucht? 089Dach GmbH: Meisterbetrieb seit 1998 ✓ 4.9/5 Sterne ✓ 10 Jahre Garantie ✓ Festpreisgarantie. Jetzt kostenlos beraten ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-muenchen"
-        keywords="dachdecker münchen, dachdecker münchen empfehlung, dachdecker münchen bewertung, bester dachdecker münchen, dachdecker meisterbetrieb münchen, dachdeckerbetrieb münchen, dachdeckerfirma münchen, dachdecker in der nähe münchen, dachdecker münchen kosten, dachdecker münchen preise, dachsanierung münchen, dachreparatur münchen, flachdach münchen, spengler münchen, dachfenster münchen, gaubenbau münchen, notdienst dachdecker münchen, sturmschaden dach münchen"
+        keywords="dachdecker münchen, dachdecker münchen empfehlung, bester dachdecker münchen, dachdecker meisterbetrieb münchen, dachdeckerfirma münchen, dachdecker obermenzing, dachdecker pasing, dachdecker laim, dachdecker schwabing, dachdecker sendling, dachsanierung münchen, dachreparatur münchen, flachdach münchen, spengler münchen, dachfenster münchen, dachgaube münchen, dachdecker notdienst münchen, sturmschaden dach münchen, dachdecker bewertung münchen"
         geoPlacename="München, Bayern, Deutschland"
-        aiSummary="089Dach GmbH ist der führende Dachdecker-Meisterbetrieb in München. Seit 1998 bieten wir Dachsanierung, Dachreparatur, Flachdach, Spenglerarbeiten und Dachfenster-Einbau. 4.9/5 Sterne, 10 Jahre Garantie, Festpreisgarantie. Tel: 089 12621964."
+        aiSummary="089Dach GmbH – Dachdecker-Meisterbetrieb in München-Obermenzing seit 1998. Dachsanierung, Dachreparatur, Flachdach, Spenglerarbeiten, Dachfenster, Dachgauben. 4.9/5 Sterne (127 Bewertungen). 10 Jahre Garantie. Festpreisgarantie. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[
         { name: "Home", url: "/" },

@@ -26,11 +26,12 @@ export default function Dachreparatur() {
   return (
     <div className="min-h-screen bg-white">
       <SEO 
-        title="Dachreparatur München | Schnelle Hilfe ab 80€ | 089Dach"
-        description="Dachreparatur München: Ziegel tauschen ab 80€, Sturmschaden ab 200€, Leckortung ab 150€. ✓ In 24-48h vor Ort ✓ Festpreis ✓ Versicherungshilfe. Jetzt anrufen ☎ 089 12621964"
+        title="Dachreparatur München ab 80€ | In 24-48h vor Ort"
+        description="Dachreparatur München vom Meisterbetrieb: Ziegel tauschen ab 80€, Sturmschaden ab 200€, Wasserschaden ab 150€. ✓ 24-48h vor Ort ✓ Festpreis ✓ Versicherungshilfe. ☎ 089 12621964"
         canonical="https://089dach.de/dachreparatur"
-        keywords="dachreparatur münchen kosten, dachziegel austauschen kosten münchen, dachdecker reparatur münchen, dach reparieren lassen kosten, einzelne dachziegel ersetzen preis, first undicht reparieren kosten, dachrinne reparieren münchen, dachreparatur notdienst münchen, kleine dachreparatur kosten, dach flicken kosten, dachreparatur einfamilienhaus, dachreparatur nach sturm kosten, dachreparatur versicherung, dachdecker kleinreparatur münchen, dachschaden reparieren kosten"
-        aiSummary="089Dach GmbH bietet schnelle Dachreparaturen in München ab 80€. Ziegel tauschen, Sturmschäden, Wasserschäden. In 24-48h vor Ort. Meisterbetrieb seit 1998. Tel: 089 12621964."
+        keywords="dachreparatur münchen, dach reparieren münchen kosten, dachziegel austauschen münchen, sturmschaden reparatur münchen, dachreparatur festpreis münchen, dachreparatur meisterbetrieb münchen, first reparieren münchen, dachrinne reparieren münchen, wasserschaden dach münchen, dachreparatur einfamilienhaus münchen, schnelle dachreparatur münchen, dachdecker reparatur münchen, dachschaden beheben münchen, kleine dachreparatur münchen, dachreparatur versicherung münchen, dachreparatur notdienst münchen, undichtes dach reparieren münchen"
+        geoPlacename="München, Bayern, Deutschland"
+        aiSummary="089Dach GmbH – Dachreparatur-Service in München. Ab 80€ für einzelne Ziegel, ab 200€ für Sturmschäden. In 24-48h vor Ort. Festpreisgarantie. Versicherungshilfe inklusive. Meisterbetrieb seit 1998. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Leistungen", url: "/leistungen" }, { name: "Dachreparatur", url: "/dachreparatur" }]} />
       <ServiceSchema 

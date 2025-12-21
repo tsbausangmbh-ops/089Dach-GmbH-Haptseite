@@ -58,12 +58,12 @@ export default function SEODachdeckerNotdienst() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Notdienst München 24/7 | Sturmschaden ☎ 089 12621964"
-        description="Dachdecker Notdienst München 24 Stunden ✓ Sturmschaden ✓ Wasserschaden ✓ Schnelle Hilfe. Notruf: 089 12621964. Anfahrt 89€, sofortige Absicherung."
+        title="Dachdecker Notdienst München 24/7 | In 2h vor Ort"
+        description="Dachdecker Notdienst München 24/7 – in 2h vor Ort! ✓ Sturmschaden ✓ Wasserschaden ✓ Notsicherung. Anfahrt 89€. Sofort anrufen ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-notdienst-muenchen"
-        keywords="dachdecker notdienst münchen, dachdecker 24 stunden münchen, dach notfall münchen, sturmschaden dach münchen, dach undicht notdienst, dachdecker notfall, dach reparatur sofort, dachdecker wochenende münchen, dachdecker sofort münchen, dach wasserschaden"
+        keywords="dachdecker notdienst münchen, dach notdienst münchen 24h, dachdecker notfall münchen, sturmschaden dachdecker münchen, wasserschaden dach münchen, dachdecker sofort münchen, dach undicht notdienst münchen, dachdecker wochenende münchen, dachdecker nacht münchen, notsicherung dach münchen, dach abgedeckt münchen, dachdecker blitzschaden münchen"
         geoPlacename="München, Bayern, Deutschland"
-        aiSummary="089Dach GmbH bietet 24/7 Dachdecker-Notdienst in München. Schnelle Hilfe bei Sturmschäden und Wasserschäden. Anfahrt 89€. Notruf: 089 12621964."
+        aiSummary="089Dach GmbH – 24/7 Dachdecker-Notdienst München. In 2 Stunden vor Ort. Sturmschaden, Wasserschaden, Notsicherung. Anfahrt 89€. Versicherungshilfe inklusive. Notruf: 089 12621964."
       />
       <BreadcrumbSchema items={[
         { name: "Home", url: "/" },

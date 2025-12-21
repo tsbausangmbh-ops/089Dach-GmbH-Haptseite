@@ -39,11 +39,12 @@ export default function Flachdachsanierung() {
   return (
     <div className="min-h-screen bg-white">
       <SEO 
-        title="Flachdachsanierung München | EPDM & Bitumen ab 85€/m²"
-        description="Flachdachsanierung München: Bitumen ab 85€/m², EPDM ab 95€/m², mit Dämmung ab 180€/m². ✓ 10 Jahre Garantie ✓ Förderberatung ✓ Meisterbetrieb. Jetzt anfragen ☎ 089 12621964"
+        title="Flachdachsanierung München ab 85€/m² | EPDM & Bitumen"
+        description="Flachdachsanierung München vom Meisterbetrieb: Bitumen ab 85€/m², EPDM ab 95€/m², mit Dämmung ab 180€/m². ✓ 10 Jahre Garantie ✓ GEG-konform ✓ Dachbegrünung. ☎ 089 12621964"
         canonical="https://089dach.de/flachdachsanierung"
-        keywords="flachdachsanierung münchen kosten, flachdach sanieren lassen preis, flachdach komplett erneuern kosten, flachdach sanierung epdm münchen, bitumen flachdach sanieren, flachdachsanierung mit dämmung kosten, flachdach abdichtung erneuern, alte flachdach sanieren, flachdachsanierung garage kosten, flachdachsanierung bungalow, flachdachsanierung förderung 2025, flachdachsanierung geg pflicht, warmdach sanieren kosten, umkehrdach sanieren, flachdachsanierung aufbau schichten"
-        aiSummary="089Dach GmbH führt Flachdachsanierungen in München durch. Bitumen ab 85€/m², EPDM ab 95€/m², mit Dämmung ab 180€/m². 10 Jahre Garantie. Meisterbetrieb seit 1998. KfW/BAFA Förderberatung. Tel: 089 12621964."
+        keywords="flachdachsanierung münchen, flachdach sanieren münchen kosten, epdm abdichtung münchen, bitumen flachdach münchen, flachdach mit dämmung münchen, flachdachsanierung garage münchen, flachdachsanierung bungalow münchen, flachdach begrünung münchen, flachdach spezialist münchen, flachdach abdichten münchen, flachdachsanierung förderung 2025, geg flachdach sanierung, warmdach sanieren münchen, aufdachdämmung flachdach, flachdachsanierung meisterbetrieb münchen, flachdachsanierung preis pro qm, flachdachsanierung festpreis"
+        geoPlacename="München, Bayern, Deutschland"
+        aiSummary="089Dach GmbH – Flachdach-Spezialist in München. Flachdachsanierung: Bitumen ab 85€/m², EPDM ab 95€/m², mit Dämmung ab 180€/m². Dachbegrünung, GEG-konform. 10 Jahre Garantie. Meisterbetrieb seit 1998. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Leistungen", url: "/leistungen" }, { name: "Flachdachsanierung", url: "/flachdachsanierung" }]} />
       <ServiceSchema 

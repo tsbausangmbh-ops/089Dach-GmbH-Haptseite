@@ -22,11 +22,12 @@ export default function Flachdach() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Flachdach abdichten München | EPDM & Bitumen ab 85€/m²"
-        description="Flachdach undicht? Abdichtung ab 85€/m² mit 10 Jahren Garantie. ✓ EPDM ✓ Bitumen ✓ Begrünung. Meisterbetrieb München ☎ 089 12621964"
+        title="Flachdach abdichten München ab 85€/m² | Meisterbetrieb"
+        description="Flachdach abdichten München: EPDM ab 95€/m², Bitumen ab 85€/m², mit Begrünung. ✓ 10 Jahre Garantie ✓ Meisterbetrieb ✓ Festpreis. Jetzt anfragen ☎ 089 12621964"
         canonical="https://089dach.de/leistungen/flachdach"
-        keywords="flachdach abdichten münchen kosten, flachdach undicht was tun, flachdach sanierung preis pro qm, epdm abdichtung erfahrungen, bitumenbahn verlegen lassen, flachdach begrünung förderung münchen, flachdachdämmung aufdach, flachdach lebensdauer erwarten, flachdach obermenzing pasing laim, flachdach garage abdichten kosten, flachdach carport sanieren preis, flüssigkunststoff abdichtung flachdach, gefälle flachdach nachträglich erstellen, attika flachdach abdichten reparieren, flachdach tropft bei regen hilfe, wasserpfütze flachdach ursache, flachdach entwässerung verstopft, flachdach terrassenbelag verlegen, flachdach kies oder begrünung, extensive dachbegrünung kosten münchen, flachdach photovoltaik kombination, warmdach kaltdach unterschied, dampfsperre flachdach erneuern"
-        aiSummary="089Dach GmbH saniert Flachdächer in München ab 85€/m². EPDM, Bitumen, Flüssigabdichtung und Begrünung. 10 Jahre Garantie. Meisterbetrieb seit 1998. Telefon: 089 12621964."
+        keywords="flachdach abdichten münchen, flachdach münchen, flachdach undicht münchen, epdm abdichtung münchen, bitumen flachdach münchen, flachdach sanierung münchen, flachdach begrünung münchen, flachdach spezialist münchen, flachdach garage münchen, flachdach carport münchen, flüssigkunststoff münchen, aufdachdämmung flachdach münchen, flachdach meisterbetrieb münchen, flachdach festpreis münchen, flachdach obermenzing, flachdach pasing, flachdach laim, flachdach wartung münchen, extensive begrünung münchen"
+        geoPlacename="München, Bayern, Deutschland"
+        aiSummary="089Dach GmbH – Flachdach-Spezialist in München. Flachdach abdichten: Bitumen ab 85€/m², EPDM ab 95€/m². Dachbegrünung. 10 Jahre Garantie. Festpreisgarantie. Meisterbetrieb seit 1998. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Leistungen", url: "/leistungen" }, { name: "Flachdach", url: "/leistungen/flachdach" }]} />
       <ProductServiceSchema 

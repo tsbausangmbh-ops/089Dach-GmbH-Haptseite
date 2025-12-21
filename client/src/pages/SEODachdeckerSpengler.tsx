@@ -56,12 +56,12 @@ export default function SEODachdeckerSpengler() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker & Spengler München | Meisterbetrieb ✓ Alles aus einer Hand"
-        description="Dachdecker und Spengler München ✓ Dachrinnen ✓ Fallrohre ✓ Blecharbeiten ✓ Kamineinfassungen. Meisterbetrieb mit eigener Spenglerei. ☎ 089 12621964"
+        title="Spengler München | Dachdecker & Spengler aus einer Hand"
+        description="Spengler München: Dachrinnen ab 45€/lfm, Fallrohre ab 35€/lfm, Kamineinfassungen ab 850€. ✓ Kupfer ✓ Zink ✓ Aluminium. Eigene Werkstatt. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-spengler-muenchen"
-        keywords="dachdecker spengler münchen, spengler münchen, spenglerarbeiten münchen, dachrinnen münchen, fallrohre münchen, blechdach münchen, kupferdach münchen, zinkblech dach, kamineinfassung münchen, dachdecker und spengler, dachspengler münchen, blechner münchen"
+        keywords="spengler münchen, spenglerarbeiten münchen, dachrinnen münchen, fallrohre münchen, blecharbeiten münchen, kupferdach münchen, zinkdachrinne münchen, kamineinfassung münchen, stehfalzdach münchen, mauerabdeckung münchen, dachdecker spengler münchen, spengler meisterbetrieb münchen, dachrinne kupfer münchen, dachrinne zink münchen, blechverkleidung münchen, spengler festpreis münchen"
         geoPlacename="München, Bayern, Deutschland"
-        aiSummary="089Dach GmbH ist Dachdecker- und Spengler-Meisterbetrieb in München. Eigene Spenglerei für Dachrinnen, Fallrohre, Kamineinfassungen, Blechverkleidungen. Kupfer, Zink, Aluminium. Tel: 089 12621964."
+        aiSummary="089Dach GmbH – Dachdecker- und Spengler-Meisterbetrieb in München. Eigene Werkstatt. Dachrinnen (Kupfer, Zink, Alu), Fallrohre, Kamineinfassungen, Stehfalzdach. Festpreisgarantie. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[
         { name: "Home", url: "/" },

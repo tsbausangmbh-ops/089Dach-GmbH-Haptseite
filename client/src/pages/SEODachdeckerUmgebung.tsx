@@ -79,12 +79,12 @@ export default function SEODachdeckerUmgebung() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker München und Umgebung | Meisterbetrieb bis 30km"
-        description="Dachdecker für München und Umgebung ✓ Gräfelfing ✓ Germering ✓ Dachau ✓ Starnberg ✓ FFB. Meisterbetrieb mit 10 Jahren Garantie. Anfahrt kostenlos! ☎ 089 12621964"
+        title="Dachdecker München Umgebung | Kostenlose Anfahrt 30km"
+        description="Dachdecker München & Umgebung bis 30km: Gräfelfing, Germering, Dachau, Starnberg, FFB, Freising, Erding. ✓ Kostenlose Anfahrt ✓ 10 Jahre Garantie. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-muenchen-umgebung"
-        keywords="dachdecker münchen umgebung, dachdecker landkreis münchen, dachdecker fürstenfeldbruck, dachdecker dachau, dachdecker starnberg, dachdecker freising, dachdecker erding, dachdecker oberbayern, dachsanierung münchen umland, dachdecker in meiner nähe, dachdecker umkreis münchen, dachdecker 30 km münchen"
+        keywords="dachdecker münchen umgebung, dachdecker landkreis münchen, dachdecker gräfelfing, dachdecker germering, dachdecker puchheim, dachdecker gröbenzell, dachdecker olching, dachdecker dachau, dachdecker starnberg, dachdecker fürstenfeldbruck, dachdecker unterschleißheim, dachdecker freising, dachdecker erding, dachdecker ottobrunn, dachdecker oberbayern, dachdecker in meiner nähe münchen"
         geoPlacename="München und Umgebung, Bayern, Deutschland"
-        aiSummary="089Dach GmbH bedient München und das gesamte Umland bis 30km: Gräfelfing, Germering, Puchheim, Gröbenzell, Olching, Dachau, Starnberg, Fürstenfeldbruck, Unterschleißheim, Freising, Erding, Ottobrunn. Meisterbetrieb mit 10 Jahren Garantie."
+        aiSummary="089Dach GmbH – Dachdecker-Meisterbetrieb für München und Umgebung bis 30km. Serviceorte: Gräfelfing, Germering, Puchheim, Gröbenzell, Olching, Dachau, Starnberg, FFB, Unterschleißheim, Freising, Erding, Ottobrunn. Kostenlose Anfahrt. 10 Jahre Garantie. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[
         { name: "Home", url: "/" },
