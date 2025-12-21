@@ -6,7 +6,8 @@ import imgReparatur from "@assets/generated_images/roofer_doing_quick_repairs.pn
 import imgReferenzen from "@assets/generated_images/realistic_row_house_roof_after.png";
 import imgStadtteile from "@assets/generated_images/munich_frauenkirche_landmark.png";
 import imgWartung from "@assets/generated_images/roofing_expert_with_checklist.png";
-import imgFAQ from "@assets/generated_images/roofing_faq_consultation_scene.png";
+import imgFAQ from "@assets/generated_images/faq_roofing_consultation.png";
+import imgEnergieberatung from "@assets/generated_images/energy_consulting_kfw_bafa.png";
 
 const allServices = [
   {
@@ -66,7 +67,8 @@ const allServices = [
     icon: <Lightbulb className="h-6 w-6 text-primary" />,
     title: "Energieberatung",
     href: "/leistungen/energieberatung",
-    description: "KfW- und BAFA-Förderungen maximieren"
+    description: "KfW- und BAFA-Förderungen maximieren",
+    image: imgEnergieberatung
   },
   {
     id: "architektenleistungen",
