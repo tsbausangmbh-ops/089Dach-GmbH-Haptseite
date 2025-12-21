@@ -65,8 +65,9 @@ export default function CustomerReviews() {
   const totalReviews = 127;
 
   return (
-    <section className="py-4 md:py-6 bg-slate-800" data-testid="section-customer-reviews">
+    <section className="py-4 md:py-6" data-testid="section-customer-reviews">
       <div className="container mx-auto px-4 md:px-6 lg:px-12">
+        <div className="bg-slate-800 rounded-2xl md:rounded-3xl p-6 md:p-10">
         <div className="text-center mb-8 md:mb-12">
           <div className="flex items-center justify-center gap-2 mb-3">
             <div className="flex items-center gap-0.5">
@@ -150,6 +151,7 @@ export default function CustomerReviews() {
           >
             Werden Sie unser nächster zufriedener Kunde
           </a>
+        </div>
         </div>
       </div>
     </section>
