@@ -141,7 +141,7 @@ export default function RelatedServices({
   return (
     <section className="py-4">
       <div className="container mx-auto px-6 lg:px-12">
-        <div className="bg-green-700 rounded-2xl md:rounded-3xl p-6 md:p-10">
+        <div className="bg-slate-800 rounded-2xl md:rounded-3xl p-6 md:p-10">
         <div className="text-center mb-8">
           <h2 className="text-2xl md:text-3xl font-heading font-bold text-white">
             {title}
@@ -176,7 +176,7 @@ export default function RelatedServices({
         </div>
 
         <div className="text-center mt-8">
-          <Button asChild variant="outline" className="border-white text-white hover:bg-white hover:text-green-700 rounded-xl">
+          <Button asChild variant="outline" className="border-white text-white hover:bg-white hover:text-slate-800 rounded-xl">
             <a href="/leistungen">
               Alle Leistungen ansehen
               <ArrowRight className="ml-2 h-4 w-4" />
