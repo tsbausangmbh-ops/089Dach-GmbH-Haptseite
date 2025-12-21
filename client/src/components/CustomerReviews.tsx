@@ -65,7 +65,7 @@ export default function CustomerReviews() {
   const totalReviews = 127;
 
   return (
-    <section className="py-4 md:py-6 bg-stone-50" data-testid="section-customer-reviews">
+    <section className="py-4 md:py-6 bg-slate-800" data-testid="section-customer-reviews">
       <div className="container mx-auto px-4 md:px-6 lg:px-12">
         <div className="text-center mb-8 md:mb-12">
           <div className="flex items-center justify-center gap-2 mb-3">
@@ -74,12 +74,12 @@ export default function CustomerReviews() {
                 <Star key={star} className="h-6 w-6 fill-amber-400 text-amber-400" />
               ))}
             </div>
-            <span className="text-2xl font-bold text-secondary ml-2">{averageRating}</span>
+            <span className="text-2xl font-bold text-white ml-2">{averageRating}</span>
           </div>
-          <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-2">
+          <h2 className="text-2xl md:text-3xl font-heading font-bold text-white mb-2">
             Das sagen unsere Kunden
           </h2>
-          <p className="text-muted-foreground">
+          <p className="text-gray-300">
             Basierend auf {totalReviews} Bewertungen
           </p>
           <a 
@@ -97,7 +97,7 @@ export default function CustomerReviews() {
           {reviews.map((review, index) => (
             <div 
               key={index}
-              className="bg-white rounded-xl p-5 border border-stone-200 shadow-sm hover:shadow-md transition-shadow"
+              className="bg-white rounded-xl p-5 shadow-lg hover:shadow-xl transition-shadow"
               data-testid={`review-card-${index}`}
             >
               <div className="flex items-start gap-3 mb-3">
