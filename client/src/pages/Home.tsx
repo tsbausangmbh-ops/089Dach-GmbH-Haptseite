@@ -3,7 +3,6 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import EmotionalFunnel from "@/components/EmotionalFunnel";
 import Services from "@/components/Services";
-import Gallery from "@/components/Gallery";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import LeadFunnel from "@/components/LeadFunnel";
@@ -129,7 +128,6 @@ export default function Home() {
         </section>
 
         <CustomerReviews />
-        <Gallery />
         <Contact />
       </main>
       <Footer />
