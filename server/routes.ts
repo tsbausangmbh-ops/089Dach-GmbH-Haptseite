@@ -174,8 +174,57 @@ export async function registerRoutes(
     }
   });
 
-  // SEO 301 Redirects - keyword-optimierte URLs zu kanonischen Seiten
+  // SEO 301 Redirects - alle alten/alternativen URLs zu kanonischen Seiten
   const seoRedirects: Record<string, string> = {
+    // Leistungen ohne Prefix
+    "/dachsanierung": "/leistungen/dachsanierung",
+    "/spenglerei": "/leistungen/spenglerei",
+    "/bedachungen": "/leistungen/bedachungen",
+    "/dachfenster": "/leistungen/dachfenster",
+    "/reparaturservice": "/leistungen/reparaturservice",
+    "/energieberatung": "/leistungen/energieberatung",
+    "/architektenleistungen": "/leistungen/architektenleistungen",
+    "/gaubenbau": "/leistungen/gaubenbau",
+    "/wartung": "/leistungen/wartung",
+    "/flachdach": "/leistungen/flachdach",
+    "/sturmschaden": "/leistungen/sturmschaden",
+    "/dachbeschichtung": "/leistungen/dachbeschichtung",
+    "/dachrinnenreinigung": "/leistungen/dachrinnenreinigung",
+    "/notdienst": "/leistungen/notdienst",
+    
+    // Ratgeber ohne Prefix
+    "/daemmung": "/ratgeber/daemmung",
+    "/leckortung": "/ratgeber/leckortung",
+    "/foerderung": "/ratgeber/foerderung",
+    "/kosten": "/ratgeber/kosten",
+    "/materialien": "/ratgeber/materialien",
+    
+    // Englische URLs
+    "/about": "/ueber-uns",
+    "/contact": "/kontakt",
+    "/services": "/leistungen",
+    "/privacy": "/datenschutz",
+    "/imprint": "/impressum",
+    "/callback": "/rueckruf",
+    "/consultation": "/beratung",
+    "/projects": "/referenzen",
+    "/gallery": "/referenzen",
+    "/portfolio": "/referenzen",
+    "/blog": "/ratgeber",
+    "/news": "/ratgeber",
+    "/articles": "/ratgeber",
+    "/termin": "/beratung",
+    "/anfrage": "/beratung",
+    "/angebot": "/beratung",
+    
+    // Stadtteil-Kurzformen
+    "/dachdecker-ramersdorf": "/dachdecker-ramersdorf-perlach",
+    "/dachdecker-haidhausen": "/dachdecker-au-haidhausen",
+    "/dachdecker-isarvorstadt": "/dachdecker-ludwigsvorstadt-isarvorstadt",
+    "/dachdecker-aubing": "/dachdecker-aubing-lochhausen-langwied",
+    "/umland": "/stadtteile",
+    
+    // SEO Landingpage-Varianten
     "/dachsanierung-muenchen": "/leistungen/dachsanierung",
     "/spenglerei-muenchen": "/leistungen/spenglerei",
     "/flachdach-muenchen": "/leistungen/flachdach",
@@ -184,6 +233,45 @@ export async function registerRoutes(
     "/flachdachsanierung-muenchen": "/flachdachsanierung",
     "/dachdaemmung-muenchen": "/dachdaemmung",
     "/dachdecker-angebot-muenchen": "/beratung",
+    
+    // Tippfehler und alternative Schreibweisen
+    "/dach-sanierung": "/leistungen/dachsanierung",
+    "/dach-reparatur": "/dachreparatur",
+    "/flach-dach": "/leistungen/flachdach",
+    "/sturm-schaden": "/leistungen/sturmschaden",
+    "/dach-fenster": "/leistungen/dachfenster",
+    "/gauben-bau": "/leistungen/gaubenbau",
+    "/energie-beratung": "/leistungen/energieberatung",
+    "/dachdeckerei": "/dachdecker-muenchen",
+    "/dachdeckermeister": "/dachdecker-muenchen",
+    "/dachdecker": "/dachdecker-muenchen",
+    "/spengler": "/dachdecker-spengler-muenchen",
+    "/spengler-muenchen": "/dachdecker-spengler-muenchen",
+    
+    // Notdienst-Varianten
+    "/notfall": "/dachdecker-notdienst-muenchen",
+    "/notfall-dach": "/dachdecker-notdienst-muenchen",
+    "/dach-notdienst": "/dachdecker-notdienst-muenchen",
+    "/24h-notdienst": "/dachdecker-notdienst-muenchen",
+    "/notdienst-muenchen": "/dachdecker-notdienst-muenchen",
+    
+    // Preis-Varianten
+    "/preise": "/dachdecker-muenchen-kosten",
+    "/kosten-dachdecker": "/dachdecker-muenchen-kosten",
+    "/preis": "/dachdecker-muenchen-kosten",
+    "/preisliste": "/dachdecker-muenchen-kosten",
+    "/kostenvoranschlag": "/beratung",
+    
+    // Weitere häufige Suchanfragen
+    "/dach-reparieren": "/dachreparatur",
+    "/dach-sanieren": "/leistungen/dachsanierung",
+    "/dach-erneuern": "/leistungen/dachsanierung",
+    "/neues-dach": "/leistungen/dachsanierung",
+    "/dach-undicht-hilfe": "/dach-undicht",
+    "/wasserschaden-dach": "/dach-undicht",
+    "/dach-leckt": "/dach-undicht",
+    "/ziegel-kaputt": "/dachziegel-austauschen",
+    "/dachziegel-ersetzen": "/dachziegel-austauschen",
   };
 
   Object.entries(seoRedirects).forEach(([from, to]) => {
