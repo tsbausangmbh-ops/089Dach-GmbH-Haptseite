@@ -76,11 +76,13 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
               <Button 
                 size="lg" 
                 className="bg-primary hover:bg-primary/90 text-white font-bold text-lg px-8 py-7 rounded-xl shadow-xl hover:scale-105 transition-transform"
-                onClick={onOpenFunnel}
-                data-testid="button-hero-funnel"
+                asChild
+                data-testid="button-hero-leistungen"
               >
-                Kostenlos beraten lassen
-                <ArrowRight className="ml-2 h-5 w-5" />
+                <a href="/leistungen">
+                  Unsere Dachdecker-Leistungen
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </a>
               </Button>
               <Button 
                 size="lg" 
