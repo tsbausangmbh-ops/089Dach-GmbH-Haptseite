@@ -7,9 +7,11 @@ interface FoerderungBoxProps {
 }
 
 export default function FoerderungBox({
-  title = "Förderung für Dachsanierung in München 2025",
+  title,
   subtitle = "Bei einer energetischen Dachsanierung können Sie von attraktiven Förderprogrammen profitieren. Als erfahrener Dachdecker in München beraten wir Sie kostenlos zu allen Möglichkeiten:"
 }: FoerderungBoxProps) {
+  const currentYear = new Date().getFullYear();
+  const displayTitle = title || `Förderung für Dachsanierung in München ${currentYear}`;
   const foerderungen = [
     {
       highlight: "bis 20%",
@@ -35,7 +37,7 @@ export default function FoerderungBox({
                 <Euro className="h-6 w-6 text-white" />
               </div>
               <h2 className="text-2xl md:text-3xl font-heading font-bold text-white">
-                {title}
+                {displayTitle}
               </h2>
             </div>
             <p className="text-zinc-300 text-lg mb-6">

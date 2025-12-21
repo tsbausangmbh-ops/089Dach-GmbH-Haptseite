@@ -71,6 +71,7 @@ function berechneErsparnis(
 }
 
 export default function FoerderungRechner() {
+  const currentYear = new Date().getFullYear();
   const [flaeche, setFlaeche] = useState<number>(120);
   const [alterUWert, setAlterUWert] = useState<number>(1.8);
   const [heizTyp, setHeizTyp] = useState<HeizTyp>("gas");
@@ -108,11 +109,11 @@ export default function FoerderungRechner() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Förderung Dachsanierung München 2025 | Sparrechner"
-        description="Berechnen Sie Ihre Ersparnis bei Dachdämmung in München. KfW-Förderung 2025, Heizkosten-Ersparnis und CO2-Einsparung. Kostenloser Rechner."
+        title={`Förderung Dachsanierung München ${currentYear} | Sparrechner`}
+        description={`Berechnen Sie Ihre Ersparnis bei Dachdämmung in München. KfW-Förderung ${currentYear}, Heizkosten-Ersparnis und CO2-Einsparung. Kostenloser Rechner.`}
         canonical="https://089dach.de/foerderung-rechner"
-        keywords="förderung dachsanierung münchen 2025, kfw förderung dachdämmung, dachdämmung kosten ersparnis, heizkosten sparen dachdämmung, dämmung förderung bayern"
-        aiSummary="Interaktiver Sparrechner für Dachdämmung in München. Berechnet Heizkosten-Ersparnis, KfW-Förderung 2025 und Amortisationszeit für Innendämmung, Außendämmung und kombinierte Dämmung."
+        keywords={`förderung dachsanierung münchen ${currentYear}, kfw förderung dachdämmung, dachdämmung kosten ersparnis, heizkosten sparen dachdämmung, dämmung förderung bayern`}
+        aiSummary={`Interaktiver Sparrechner für Dachdämmung in München. Berechnet Heizkosten-Ersparnis, KfW-Förderung ${currentYear} und Amortisationszeit für Innendämmung, Außendämmung und kombinierte Dämmung.`}
       />
       <BreadcrumbSchema items={[
         { name: "Home", url: "/" },
@@ -237,7 +238,7 @@ export default function FoerderungRechner() {
               <div className="mt-6 p-4 bg-green-50 rounded-lg border border-green-200">
                 <p className="text-sm font-medium text-green-800 flex items-center gap-2">
                   <CheckCircle2 className="h-4 w-4" />
-                  KfW-Förderung 2025: 20% Zuschuss
+                  KfW-Förderung {currentYear}: 20% Zuschuss
                 </p>
                 <p className="text-xs text-green-700 mt-1">Maximal 60.000 € pro Wohneinheit</p>
               </div>
