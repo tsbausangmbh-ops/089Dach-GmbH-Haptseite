@@ -47,7 +47,7 @@ function NearbyServiceSchema() {
       "telephone": "+49-89-12621964"
     },
     "areaServed": { "@type": "Place", "name": stadtteilData.fullName },
-    "serviceType": ["Dachsanierung", "Flachdach", "Solar-Vorbereitung", "Spenglerarbeiten"]
+    "serviceType": ["Dachsanierung", "Flachdach", "Solar-Vorbereitung", "Dachrinnenreinigung", "Sturmschaden-Reparatur", "Wasserschaden-Sanierung", "Dachreparatur"]
   };
   return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
 }
@@ -57,9 +57,9 @@ export default function StadtteilFreimann() {
     <div className="min-h-screen bg-background font-sans">
       <SEO 
         title="Dachdecker Freimann | München Nord Allianz Arena"
-        description="Dachdecker in Freimann nahe Allianz Arena. ✓ Steildach ✓ Flachdach ✓ 10 Jahre Garantie. Beratung ☎ 089 12621964"
+        description="Dachdecker Freimann: Dach undicht? Sturmschaden? ✓ 24h Notdienst ✓ Dachrinnenreinigung ✓ 10 Jahre Garantie ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-freimann"
-        keywords="dachdecker freimann, dachsanierung münchen nord, dachdecker allianz arena, flachdach freimann, solardach münchen nord, dachdecker 80939 80807, steildach freimann, sturmschaden dach freimann, dachfenster freimann, wärmedämmung dach freimann, gewerbe dachdecker freimann"
+        keywords="dachdecker freimann, dachsanierung münchen nord, dachdecker allianz arena, flachdach freimann, dachdecker 80939 80807, dachrinnenreinigung freimann, sturmschaden dach freimann, wasserschaden dach münchen freimann, dach undicht freimann reparieren, dachschaden freimann"
         geoPlacename="München-Freimann, Bayern, Deutschland"
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Freimann. Wohn- und Gewerbegebäude. Tel: 089 12621964.`}
       />
@@ -150,12 +150,12 @@ export default function StadtteilFreimann() {
                 <h3 className="text-xl md:text-2xl font-heading font-bold text-secondary mb-4">Unsere Leistungen in {stadtteilData.name}</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {[
-                    { title: "Steildach-Sanierung", desc: "Komplett oder Teilsanierung" },
-                    { title: "Flachdach Gewerbe", desc: "Hallen und Bürogebäude" },
-                    { title: "Solar-Vorbereitung", desc: "Dach fit für PV-Anlage" },
-                    { title: "Wärmedämmung", desc: "Energetische Optimierung" },
-                    { title: "Dachrinnen", desc: "Reinigung und Erneuerung" },
-                    { title: "Wartung", desc: "Regelmäßige Dachwartung" }
+                    { title: "Dachrinnenreinigung", desc: "Professionelle Rinnenreinigung in Freimann" },
+                    { title: "Sturmschaden reparieren", desc: "24h Notdienst bei Sturmschäden" },
+                    { title: "Wasserschaden Dach", desc: "Schnelle Hilfe bei Wasserschäden" },
+                    { title: "Dach undicht", desc: "Leckortung & Abdichtung" },
+                    { title: "Dachsanierung", desc: "Komplettsanierung mit Garantie" },
+                    { title: "Dachreparatur", desc: "Schnelle Reparaturen aller Art" }
                   ].map((service, idx) => (
                     <div key={idx} className="bg-white rounded-lg p-4 border border-gray-100 shadow-sm">
                       <h4 className="font-bold text-secondary">{service.title}</h4>

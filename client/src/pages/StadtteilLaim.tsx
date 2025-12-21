@@ -49,7 +49,7 @@ function NearbyServiceSchema() {
       "@type": "Place",
       "name": stadtteilData.fullName
     },
-    "serviceType": ["Dachsanierung", "Dachreparatur", "Flachdach", "Spenglerarbeiten"],
+    "serviceType": ["Dachsanierung", "Dachreparatur", "Dachrinnenreinigung", "Sturmschaden-Reparatur", "Wasserschaden-Sanierung", "Flachdach"],
     "availableChannel": {
       "@type": "ServiceChannel",
       "servicePhone": "+49-89-12621964"
@@ -63,9 +63,9 @@ export default function StadtteilLaim() {
     <div className="min-h-screen bg-background font-sans">
       <SEO 
         title="Dachdecker Laim | Flachdach & Altbau - nur 3km entfernt"
-        description="Flachdach undicht? Dachdecker Laim in 3km Entfernung. ✓ Flachdach-Spezialist ✓ Notdienst ✓ 10 Jahre Garantie. Soforthilfe ☎ 089 12621964"
+        description="Dachdecker Laim: Dach undicht oder Wasserschaden? ✓ 24h Notdienst ✓ Nur 3km entfernt ✓ 10 Jahre Garantie ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-laim"
-        keywords="dachdecker laim empfehlung, flachdach undicht laim soforthilfe, flachdachsanierung kosten münchen, dachdecker in der nähe laim, dachreparatur notdienst laim, dachsanierung mehrfamilienhaus laim, dachfenster laim, sturmschaden dach laim, dachdecker 80686 80687, dachrinne laim, wärmedämmung dach laim"
+        keywords="dachdecker laim empfehlung, dachrinnenreinigung laim, sturmschaden dach laim, wasserschaden dach münchen laim, dach undicht laim reparieren, dachschaden laim, flachdach undicht laim soforthilfe, dachdecker 80686 80687"
         geoPlacename={`München-Laim, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Laim. Nur 3 km entfernt. Spezialist für Flachdach und Dachsanierung. Tel: 089 12621964.`}
       />
@@ -156,12 +156,12 @@ export default function StadtteilLaim() {
                 <h3 className="text-xl md:text-2xl font-heading font-bold text-secondary mb-4">Unsere Leistungen in {stadtteilData.name}</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {[
-                    { title: "Flachdach", desc: "Bitumen, EPDM, PVC Abdichtung" },
-                    { title: "Dachsanierung", desc: "Komplettsanierung mit Dämmung" },
-                    { title: "Dachreparatur", desc: "Schnelle Hilfe bei Undichtigkeiten" },
-                    { title: "Spenglerarbeiten", desc: "Dachrinnen und Blecharbeiten" },
-                    { title: "Dachbegrünung", desc: "Extensiv und intensiv" },
-                    { title: "Dachwartung", desc: "Jährliche Inspektion" }
+                    { title: "Dachrinnenreinigung", desc: "Professionelle Rinnenreinigung in Laim" },
+                    { title: "Sturmschaden reparieren", desc: "24h Notdienst bei Sturmschäden" },
+                    { title: "Wasserschaden Dach", desc: "Schnelle Hilfe bei Wasserschäden" },
+                    { title: "Dach undicht", desc: "Leckortung & Abdichtung" },
+                    { title: "Dachsanierung", desc: "Komplettsanierung mit Garantie" },
+                    { title: "Dachreparatur", desc: "Schnelle Reparaturen aller Art" }
                   ].map((service, idx) => (
                     <div key={idx} className="bg-white rounded-lg p-4 border border-gray-100 shadow-sm">
                       <h4 className="font-bold text-secondary">{service.title}</h4>

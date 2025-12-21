@@ -47,7 +47,7 @@ function NearbyServiceSchema() {
       "telephone": "+49-89-12621964"
     },
     "areaServed": { "@type": "Place", "name": stadtteilData.fullName },
-    "serviceType": ["Dachsanierung", "Denkmalschutz", "Kupferarbeiten", "Schiefereindeckung"]
+    "serviceType": ["Dachsanierung", "Denkmalschutz", "Kupferarbeiten", "Schiefereindeckung", "Dachrinnenreinigung", "Sturmschaden-Reparatur", "Wasserschaden-Sanierung", "Dachreparatur"]
   };
   return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
 }
@@ -57,9 +57,9 @@ export default function StadtteilAltstadt() {
     <div className="min-h-screen bg-background font-sans">
       <SEO 
         title="Dachdecker Altstadt München | Denkmalschutz & historische Dächer"
-        description="Dachdecker für historische Dächer in der Münchner Altstadt. ✓ Denkmalschutz ✓ Kupferarbeiten ✓ 10 Jahre Garantie. Beratung ☎ 089 12621964"
+        description="Dachdecker Altstadt München: Dach undicht? Sturmschaden? ✓ Denkmalschutz ✓ 24h Notdienst ✓ 10 Jahre Garantie ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-altstadt"
-        keywords="dachdecker altstadt münchen, dachsanierung denkmalschutz münchen, dachdecker marienplatz, historische dächer münchen, kupferdach altstadt, dachdecker 80331 80333, schieferdach altstadt, biberschwanz altstadt, sturmschaden dach altstadt, kirchendach münchen"
+        keywords="dachdecker altstadt münchen, dachsanierung denkmalschutz münchen, dachdecker marienplatz, historische dächer münchen, kupferdach altstadt, dachdecker 80331 80333, dachrinnenreinigung altstadt, sturmschaden dach altstadt, wasserschaden dach münchen altstadt, dach undicht altstadt reparieren, dachschaden altstadt"
         geoPlacename="München-Altstadt, Bayern, Deutschland"
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für die Münchner Altstadt. Spezialist für Denkmalschutz. Tel: 089 12621964.`}
       />
@@ -150,12 +150,12 @@ export default function StadtteilAltstadt() {
                 <h3 className="text-xl md:text-2xl font-heading font-bold text-secondary mb-4">Unsere Leistungen in der {stadtteilData.name}</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {[
-                    { title: "Denkmalschutz", desc: "Originalgetreue Restaurierung" },
-                    { title: "Kupferarbeiten", desc: "Rinnen, Verkleidungen, Ornamente" },
-                    { title: "Schiefereindeckung", desc: "Naturschiefer in Altdeutsch" },
-                    { title: "Biberschwanz", desc: "Traditionelle Ziegeleindeckung" },
-                    { title: "Kirchendächer", desc: "Spezialerfahrung vorhanden" },
-                    { title: "Dachsanierung", desc: "Behutsame Komplettsanierung" }
+                    { title: "Dachrinnenreinigung", desc: "Professionelle Rinnenreinigung in der Altstadt" },
+                    { title: "Sturmschaden reparieren", desc: "24h Notdienst bei Sturmschäden" },
+                    { title: "Wasserschaden Dach", desc: "Schnelle Hilfe bei Wasserschäden" },
+                    { title: "Dach undicht", desc: "Leckortung & Abdichtung" },
+                    { title: "Dachsanierung", desc: "Komplettsanierung mit Garantie" },
+                    { title: "Dachreparatur", desc: "Schnelle Reparaturen aller Art" }
                   ].map((service, idx) => (
                     <div key={idx} className="bg-white rounded-lg p-4 border border-gray-100 shadow-sm">
                       <h4 className="font-bold text-secondary">{service.title}</h4>

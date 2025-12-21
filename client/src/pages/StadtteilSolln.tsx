@@ -47,7 +47,7 @@ function NearbyServiceSchema() {
       "telephone": "+49-89-12621964"
     },
     "areaServed": { "@type": "Place", "name": stadtteilData.fullName },
-    "serviceType": ["Dachsanierung", "Denkmalschutz", "Schiefer", "Landhaus"]
+    "serviceType": ["Dachsanierung", "Denkmalschutz", "Schiefer", "Landhaus", "Dachrinnenreinigung", "Sturmschaden-Reparatur", "Wasserschaden-Sanierung", "Dachreparatur"]
   };
   return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
 }
@@ -57,9 +57,9 @@ export default function StadtteilSolln() {
     <div className="min-h-screen bg-background font-sans">
       <SEO 
         title={`Dachdecker Solln | Villen & Landhäuser München`}
-        description={`Dachdecker in München-Solln ✓ Villen ✓ Landhäuser ✓ Denkmalschutz ✓ Premium-Qualität ✓ 10 Jahre Garantie. Tel: 089 12621964`}
+        description={`Dachdecker Solln: Dach undicht? Wasserschaden? ✓ 24h Notdienst ✓ Premium-Qualität ✓ 10 Jahre Garantie. ☎ 089 12621964`}
         canonical={`https://089dach.de/dachdecker-solln`}
-        keywords={`dachdecker solln, dachsanierung solln münchen, villa dachdecker solln, landhaus dach münchen, denkmalschutz dachdecker, dachdecker 81477 81479, biberschwanz solln, schieferdach solln, sturmschaden dach solln, dachfenster solln, kupferdachrinne solln`}
+        keywords={`dachdecker solln, dachsanierung solln münchen, villa dachdecker solln, landhaus dach münchen, denkmalschutz dachdecker, dachdecker 81477 81479, biberschwanz solln, schieferdach solln, sturmschaden dach solln, dachfenster solln, kupferdachrinne solln, dachrinnenreinigung solln, sturmschaden dach solln, wasserschaden dach münchen solln, dach undicht solln reparieren, dachschaden solln`}
         geoPlacename={`München-Solln, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Solln. Spezialisiert auf Villen und historische Landhäuser. Tel: 089 12621964.`}
       />
@@ -149,12 +149,12 @@ export default function StadtteilSolln() {
                 <h3 className="text-xl md:text-2xl font-heading font-bold text-secondary mb-4">Unsere Leistungen in {stadtteilData.name}</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {[
-                    { title: "Landhaussanierung", desc: "Fachgerechte Dacharbeiten" },
-                    { title: "Denkmalschutz", desc: "Originalgetreue Materialien" },
-                    { title: "Naturschiefer", desc: "Edle Eindeckung" },
-                    { title: "Biberschwanz", desc: "Handgestrichene Ziegel" },
-                    { title: "Dachgeschossausbau", desc: "Mehr Wohnraum" },
-                    { title: "Dachdämmung", desc: "Energieeffizient" }
+                    { title: "Dachrinnenreinigung", desc: "Professionelle Rinnenreinigung in Solln" },
+                    { title: "Sturmschaden reparieren", desc: "24h Notdienst bei Sturmschäden" },
+                    { title: "Wasserschaden Dach", desc: "Schnelle Hilfe bei Wasserschäden" },
+                    { title: "Dach undicht", desc: "Leckortung & Abdichtung" },
+                    { title: "Dachsanierung", desc: "Komplettsanierung mit Garantie" },
+                    { title: "Dachreparatur", desc: "Schnelle Reparaturen aller Art" }
                   ].map((service, idx) => (
                     <div key={idx} className="bg-white rounded-lg p-4 border border-gray-100 shadow-sm">
                       <h4 className="font-bold text-secondary">{service.title}</h4>

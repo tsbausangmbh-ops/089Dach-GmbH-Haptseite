@@ -47,7 +47,7 @@ function NearbyServiceSchema() {
       "telephone": "+49-89-12621964"
     },
     "areaServed": { "@type": "Place", "name": stadtteilData.fullName },
-    "serviceType": ["Dachsanierung", "Dachdämmung", "Dachfenster", "Dachrinnen"]
+    "serviceType": ["Dachsanierung", "Dachdämmung", "Dachfenster", "Dachrinnenreinigung", "Sturmschaden-Reparatur", "Wasserschaden-Sanierung", "Dachreparatur"]
   };
   return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
 }
@@ -57,9 +57,9 @@ export default function StadtteilFasanerie() {
     <div className="min-h-screen bg-background font-sans">
       <SEO 
         title={`Dachdecker Fasanerie | Einfamilienhaus-Experten`}
-        description={`Dachdecker in München-Fasanerie ✓ Einfamilienhäuser ✓ Reihenhäuser ✓ Dachdämmung ✓ 10 Jahre Garantie. Tel: 089 12621964`}
+        description={`Dachdecker Fasanerie: Dach undicht? Sturmschaden? ✓ 24h Notdienst ✓ Dachrinnenreinigung ✓ 10 Jahre Garantie ☎ 089 12621964`}
         canonical={`https://089dach.de/dachdecker-fasanerie`}
-        keywords={`dachdecker fasanerie, dachsanierung fasanerie münchen, dachdecker münchen nord, dachdämmung fasanerie, dachfenster fasanerie, dachreparatur fasanerie, dachdecker 80995 80996, sturmschaden dach fasanerie, flachdach fasanerie, dachrinne fasanerie, steildach fasanerie`}
+        keywords={`dachdecker fasanerie, dachsanierung fasanerie münchen, dachdecker münchen nord, dachdecker 80995 80996, dachrinnenreinigung fasanerie, sturmschaden dach fasanerie, wasserschaden dach münchen fasanerie, dach undicht fasanerie reparieren, dachschaden fasanerie`}
         geoPlacename={`München-Fasanerie, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Fasanerie. Spezialisiert auf Einfamilienhäuser und Reihenhäuser. Tel: 089 12621964.`}
       />
@@ -149,12 +149,12 @@ export default function StadtteilFasanerie() {
                 <h3 className="text-xl md:text-2xl font-heading font-bold text-secondary mb-4">Unsere Leistungen in der {stadtteilData.name}</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {[
-                    { title: "Dachsanierung", desc: "Komplettsanierung für Ihr Eigenheim" },
-                    { title: "Dachdämmung", desc: "Energieeffizient und förderfähig" },
-                    { title: "Dachfenster", desc: "VELUX & Roto Einbau" },
-                    { title: "Ziegeleindeckung", desc: "Klassische Tondachziegel" },
-                    { title: "Dachrinnen", desc: "Reinigung und Erneuerung" },
-                    { title: "Dachwartung", desc: "Jährliche Inspektion" }
+                    { title: "Dachrinnenreinigung", desc: "Professionelle Rinnenreinigung in der Fasanerie" },
+                    { title: "Sturmschaden reparieren", desc: "24h Notdienst bei Sturmschäden" },
+                    { title: "Wasserschaden Dach", desc: "Schnelle Hilfe bei Wasserschäden" },
+                    { title: "Dach undicht", desc: "Leckortung & Abdichtung" },
+                    { title: "Dachsanierung", desc: "Komplettsanierung mit Garantie" },
+                    { title: "Dachreparatur", desc: "Schnelle Reparaturen aller Art" }
                   ].map((service, idx) => (
                     <div key={idx} className="bg-white rounded-lg p-4 border border-gray-100 shadow-sm">
                       <h4 className="font-bold text-secondary">{service.title}</h4>

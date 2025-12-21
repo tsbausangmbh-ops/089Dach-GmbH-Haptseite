@@ -47,7 +47,7 @@ function NearbyServiceSchema() {
       "telephone": "+49-89-12621964"
     },
     "areaServed": { "@type": "Place", "name": stadtteilData.fullName },
-    "serviceType": ["Dachsanierung", "Flachdach", "Wärmedämmung", "Spenglerarbeiten"]
+    "serviceType": ["Dachsanierung", "Flachdach", "Dachrinnenreinigung", "Sturmschaden-Reparatur", "Wasserschaden-Sanierung", "Dachreparatur"]
   };
   return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
 }
@@ -57,9 +57,9 @@ export default function StadtteilHasenbergl() {
     <div className="min-h-screen bg-background font-sans">
       <SEO 
         title="Dachdecker Hasenbergl | Dachsanierung München Nord"
-        description="Dachdecker für Dachsanierung im Hasenbergl. ✓ Flachdach ✓ Wärmedämmung ✓ 10 Jahre Garantie. Beratung ☎ 089 12621964"
+        description="Dachdecker Hasenbergl: Dach undicht oder Sturmschaden? ✓ 24h Notdienst ✓ Flachdach ✓ 10 Jahre Garantie ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-hasenbergl"
-        keywords="dachdecker hasenbergl, dachsanierung hasenbergl, flachdach münchen nord, wärmedämmung hasenbergl, dachdecker 80933 80935, sturmschaden dach hasenbergl, dachfenster hasenbergl, steildach hasenbergl, mehrfamilienhaus dach hasenbergl, dachrinne hasenbergl"
+        keywords="dachdecker hasenbergl, dachsanierung hasenbergl, flachdach münchen nord, dachrinnenreinigung hasenbergl, sturmschaden dach hasenbergl, wasserschaden dach münchen hasenbergl, dach undicht hasenbergl reparieren, dachschaden hasenbergl, dachdecker 80933 80935"
         geoPlacename="München-Hasenbergl, Bayern, Deutschland"
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für das Hasenbergl. Spezialist für Sanierung. Tel: 089 12621964.`}
       />
@@ -150,12 +150,12 @@ export default function StadtteilHasenbergl() {
                 <h3 className="text-xl md:text-2xl font-heading font-bold text-secondary mb-4">Unsere Leistungen im {stadtteilData.name}</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {[
-                    { title: "Flachdach-Sanierung", desc: "Moderne Abdichtung" },
-                    { title: "Wärmedämmung", desc: "Energetische Optimierung" },
-                    { title: "Steildach-Sanierung", desc: "Komplett oder Teilsanierung" },
-                    { title: "Dachfenster", desc: "Einbau und Austausch" },
-                    { title: "Dachrinnen", desc: "Reinigung und Erneuerung" },
-                    { title: "Wartung", desc: "Regelmäßige Dachwartung" }
+                    { title: "Dachrinnenreinigung", desc: "Professionelle Rinnenreinigung in Hasenbergl" },
+                    { title: "Sturmschaden reparieren", desc: "24h Notdienst bei Sturmschäden" },
+                    { title: "Wasserschaden Dach", desc: "Schnelle Hilfe bei Wasserschäden" },
+                    { title: "Dach undicht", desc: "Leckortung & Abdichtung" },
+                    { title: "Dachsanierung", desc: "Komplettsanierung mit Garantie" },
+                    { title: "Dachreparatur", desc: "Schnelle Reparaturen aller Art" }
                   ].map((service, idx) => (
                     <div key={idx} className="bg-white rounded-lg p-4 border border-gray-100 shadow-sm">
                       <h4 className="font-bold text-secondary">{service.title}</h4>

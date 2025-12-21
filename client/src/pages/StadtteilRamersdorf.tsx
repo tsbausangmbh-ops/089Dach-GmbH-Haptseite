@@ -43,7 +43,7 @@ function NearbyServiceSchema() {
     "description": `Professionelle Dachdeckerarbeiten in ${stadtteilData.fullName}.`,
     "provider": { "@type": "RoofingContractor", "name": "089Dach GmbH", "telephone": "+49-89-12621964" },
     "areaServed": { "@type": "Place", "name": stadtteilData.fullName },
-    "serviceType": ["Dachsanierung", "Flachdach", "Dachdämmung", "Siedlungshaus"]
+    "serviceType": ["Dachsanierung", "Flachdach", "Dachdämmung", "Siedlungshaus", "Dachrinnenreinigung", "Sturmschaden-Reparatur", "Wasserschaden-Sanierung", "Dachreparatur"]
   };
   return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
 }
@@ -53,9 +53,9 @@ export default function StadtteilRamersdorf() {
     <div className="min-h-screen bg-background font-sans">
       <SEO 
         title={`Dachdecker Ramersdorf-Perlach | München`}
-        description={`Dachdecker in München-Ramersdorf-Perlach ✓ Siedlungshäuser ✓ Flachdach ✓ Dämmung ✓ 10 Jahre Garantie. Tel: 089 12621964`}
+        description={`Dachdecker Ramersdorf-Perlach: Dach undicht? Wasserschaden? ✓ 24h Notdienst ✓ 10 Jahre Garantie. ☎ 089 12621964`}
         canonical={`https://089dach.de/dachdecker-ramersdorf-perlach`}
-        keywords={`dachdecker ramersdorf, dachdecker perlach, dachsanierung neuperlach, flachdach ramersdorf, dachdämmung perlach, dachdecker 81735 81737, sturmschaden dach ramersdorf, dachfenster perlach, siedlungshaus dach perlach, dachrinne ramersdorf, steildach neuperlach`}
+        keywords={`dachdecker ramersdorf, dachdecker perlach, dachsanierung neuperlach, flachdach ramersdorf, dachdämmung perlach, dachdecker 81735 81737, sturmschaden dach ramersdorf, dachfenster perlach, siedlungshaus dach perlach, dachrinne ramersdorf, steildach neuperlach, dachrinnenreinigung ramersdorf, sturmschaden dach ramersdorf, wasserschaden dach münchen ramersdorf, dach undicht ramersdorf reparieren, dachschaden ramersdorf`}
         geoPlacename={`München-Ramersdorf-Perlach, Bayern, Deutschland`}
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Stadtteile", url: "/stadtteile" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-ramersdorf-perlach` }]} />
@@ -142,12 +142,12 @@ export default function StadtteilRamersdorf() {
                 <h3 className="text-xl md:text-2xl font-heading font-bold text-secondary mb-4">Unsere Leistungen</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {[
-                    { title: "Dachsanierung", desc: "Siedlungshäuser" },
-                    { title: "Flachdach", desc: "Abdichtung" },
-                    { title: "Dachdämmung", desc: "KfW-förderfähig" },
-                    { title: "Dachfenster", desc: "Einbau" },
-                    { title: "Dachrinnen", desc: "Erneuerung" },
-                    { title: "Notdienst", desc: "Schnelle Hilfe" }
+                    { title: "Dachrinnenreinigung", desc: "Professionelle Rinnenreinigung in Ramersdorf" },
+                    { title: "Sturmschaden reparieren", desc: "24h Notdienst bei Sturmschäden" },
+                    { title: "Wasserschaden Dach", desc: "Schnelle Hilfe bei Wasserschäden" },
+                    { title: "Dach undicht", desc: "Leckortung & Abdichtung" },
+                    { title: "Dachsanierung", desc: "Komplettsanierung mit Garantie" },
+                    { title: "Dachreparatur", desc: "Schnelle Reparaturen aller Art" }
                   ].map((service, idx) => (
                     <div key={idx} className="bg-white rounded-lg p-4 border border-gray-100 shadow-sm">
                       <h4 className="font-bold text-secondary">{service.title}</h4>

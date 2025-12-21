@@ -47,7 +47,7 @@ function NearbyServiceSchema() {
       "telephone": "+49-89-12621964"
     },
     "areaServed": { "@type": "Place", "name": stadtteilData.fullName },
-    "serviceType": ["Dachsanierung", "Schiefereindeckung", "Zinkarbeiten", "Spenglerarbeiten"]
+    "serviceType": ["Dachsanierung", "Schiefereindeckung", "Dachrinnenreinigung", "Sturmschaden-Reparatur", "Wasserschaden-Sanierung", "Dachreparatur"]
   };
   return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
 }
@@ -57,9 +57,9 @@ export default function StadtteilOberfoehring() {
     <div className="min-h-screen bg-background font-sans">
       <SEO 
         title="Dachdecker Oberföhring | Villen & Premium München"
-        description="Dachdecker für Villen in Oberföhring. ✓ Schiefereindeckung ✓ Premium-Zinkarbeiten ✓ 10 Jahre Garantie. Beratung ☎ 089 12621964"
+        description="Dachdecker Oberföhring: Sturmschaden oder Wasserschaden Dach? ✓ 24h Notdienst ✓ Villen-Experten ✓ 10 Jahre Garantie ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-oberfoehring"
-        keywords="dachdecker oberföhring, dachsanierung villa münchen, dachdecker bogenhausen nord, schieferdach oberföhring, premium dachdecker münchen, dachdecker 81925 81927, sturmschaden dach oberföhring, dachfenster oberföhring, kupferdachrinne oberföhring, zinkarbeiten oberföhring"
+        keywords="dachdecker oberföhring, dachrinnenreinigung oberföhring, sturmschaden dach oberföhring, wasserschaden dach münchen oberföhring, dach undicht oberföhring reparieren, dachschaden oberföhring, dachsanierung villa münchen, dachdecker 81925 81927"
         geoPlacename="München-Oberföhring, Bayern, Deutschland"
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Oberföhring. Spezialist für Villen und Premium-Wohnhäuser. Tel: 089 12621964.`}
       />
@@ -150,12 +150,12 @@ export default function StadtteilOberfoehring() {
                 <h3 className="text-xl md:text-2xl font-heading font-bold text-secondary mb-4">Unsere Leistungen in {stadtteilData.name}</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {[
-                    { title: "Villen-Dachsanierung", desc: "Komplettsanierung auf höchstem Niveau" },
-                    { title: "Schiefereindeckung", desc: "Naturschiefer in Altdeutsch" },
-                    { title: "Premium-Zinkarbeiten", desc: "Rinnen, Verkleidungen, Ornamente" },
-                    { title: "Dachterrassen", desc: "Planung und hochwertige Umsetzung" },
-                    { title: "Kupferarbeiten", desc: "Zeitlose Eleganz" },
-                    { title: "Wartung", desc: "Regelmäßige Premium-Wartung" }
+                    { title: "Dachrinnenreinigung", desc: "Professionelle Rinnenreinigung in Oberföhring" },
+                    { title: "Sturmschaden reparieren", desc: "24h Notdienst bei Sturmschäden" },
+                    { title: "Wasserschaden Dach", desc: "Schnelle Hilfe bei Wasserschäden" },
+                    { title: "Dach undicht", desc: "Leckortung & Abdichtung" },
+                    { title: "Dachsanierung", desc: "Komplettsanierung mit Garantie" },
+                    { title: "Dachreparatur", desc: "Schnelle Reparaturen aller Art" }
                   ].map((service, idx) => (
                     <div key={idx} className="bg-white rounded-lg p-4 border border-gray-100 shadow-sm">
                       <h4 className="font-bold text-secondary">{service.title}</h4>

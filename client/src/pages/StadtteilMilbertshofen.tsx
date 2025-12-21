@@ -43,7 +43,7 @@ function NearbyServiceSchema() {
     "description": `Professionelle Dachdeckerarbeiten in ${stadtteilData.fullName}.`,
     "provider": { "@type": "RoofingContractor", "name": "089Dach GmbH", "telephone": "+49-89-12621964" },
     "areaServed": { "@type": "Place", "name": stadtteilData.fullName },
-    "serviceType": ["Flachdach", "Dachsanierung", "Dachdämmung", "Gewerbe"]
+    "serviceType": ["Flachdach", "Dachsanierung", "Dachrinnenreinigung", "Sturmschaden-Reparatur", "Wasserschaden-Sanierung", "Dachreparatur"]
   };
   return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
 }
@@ -53,9 +53,9 @@ export default function StadtteilMilbertshofen() {
     <div className="min-h-screen bg-background font-sans">
       <SEO 
         title={`Dachdecker Milbertshofen | München Nord`}
-        description={`Dachdecker in München-Milbertshofen ✓ Flachdach ✓ Gewerbe ✓ Mehrfamilienhaus ✓ 10 Jahre Garantie. Tel: 089 12621964`}
+        description={`Dachdecker Milbertshofen: Sturmschaden oder Dach undicht? ✓ 24h Notdienst ✓ Flachdach ✓ 10 Jahre Garantie ☎ 089 12621964`}
         canonical={`https://089dach.de/dachdecker-milbertshofen`}
-        keywords={`dachdecker milbertshofen, dachdecker am hart, flachdach münchen nord, dachsanierung milbertshofen, gewerbe dachdecker, dachdecker 80807 80809, sturmschaden dach milbertshofen, dachfenster milbertshofen, wärmedämmung dach milbertshofen, industriedach münchen, mehrfamilienhaus dach milbertshofen`}
+        keywords={`dachdecker milbertshofen, dachrinnenreinigung milbertshofen, sturmschaden dach milbertshofen, wasserschaden dach münchen milbertshofen, dach undicht milbertshofen reparieren, dachschaden milbertshofen, flachdach münchen nord, dachdecker 80807 80809`}
         geoPlacename={`München Milbertshofen-Am Hart, Bayern, Deutschland`}
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Stadtteile", url: "/stadtteile" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-milbertshofen` }]} />
@@ -142,12 +142,12 @@ export default function StadtteilMilbertshofen() {
                 <h3 className="text-xl md:text-2xl font-heading font-bold text-secondary mb-4">Unsere Leistungen</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {[
-                    { title: "Flachdach", desc: "Gewerbe & Wohnen" },
-                    { title: "Dachsanierung", desc: "Komplett" },
-                    { title: "Dachdämmung", desc: "KfW-förderfähig" },
-                    { title: "Industriedach", desc: "Wartung" },
-                    { title: "Dachrinnen", desc: "Erneuerung" },
-                    { title: "Notdienst", desc: "Schnelle Hilfe" }
+                    { title: "Dachrinnenreinigung", desc: "Professionelle Rinnenreinigung in Milbertshofen" },
+                    { title: "Sturmschaden reparieren", desc: "24h Notdienst bei Sturmschäden" },
+                    { title: "Wasserschaden Dach", desc: "Schnelle Hilfe bei Wasserschäden" },
+                    { title: "Dach undicht", desc: "Leckortung & Abdichtung" },
+                    { title: "Dachsanierung", desc: "Komplettsanierung mit Garantie" },
+                    { title: "Dachreparatur", desc: "Schnelle Reparaturen aller Art" }
                   ].map((service, idx) => (
                     <div key={idx} className="bg-white rounded-lg p-4 border border-gray-100 shadow-sm">
                       <h4 className="font-bold text-secondary">{service.title}</h4>

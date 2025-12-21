@@ -47,7 +47,7 @@ function NearbyServiceSchema() {
       "telephone": "+49-89-12621964"
     },
     "areaServed": { "@type": "Place", "name": stadtteilData.fullName },
-    "serviceType": ["Dachsanierung", "Flachdach", "Notdienst", "Dachrinnen"]
+    "serviceType": ["Dachsanierung", "Flachdach", "Dachrinnenreinigung", "Sturmschaden-Reparatur", "Wasserschaden-Sanierung", "Dachreparatur"]
   };
   return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
 }
@@ -57,9 +57,9 @@ export default function StadtteilMoosach() {
     <div className="min-h-screen bg-background font-sans">
       <SEO 
         title="Dachdecker Moosach | Flachdach & Notdienst - 4km"
-        description="Dachdecker Moosach nur 4km entfernt! ✓ Flachdach ✓ Steildach ✓ Notdienst ✓ 10 Jahre Garantie. Schnelle Hilfe ☎ 089 12621964"
+        description="Dachdecker Moosach: Dach undicht oder Sturmschaden? ✓ 24h Notdienst ✓ Nur 4km entfernt ✓ 10 Jahre Garantie ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-moosach"
-        keywords="dachdecker moosach empfehlung, flachdach moosach abdichten, dachsanierung moosach münchen, dachdecker notdienst moosach, dachrinnen moosach, dachdecker 80992 80993, sturmschaden dach moosach, dachfenster moosach, wärmedämmung dach moosach, steildach moosach"
+        keywords="dachdecker moosach empfehlung, dachrinnenreinigung moosach, sturmschaden dach moosach, wasserschaden dach münchen moosach, dach undicht moosach reparieren, dachschaden moosach, flachdach moosach abdichten, dachdecker 80992 80993"
         geoPlacename={`München-Moosach, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb direkt neben Moosach. Kürzeste Anfahrtswege, schneller Notdienst. Tel: 089 12621964.`}
       />
@@ -150,12 +150,12 @@ export default function StadtteilMoosach() {
                 <h3 className="text-xl md:text-2xl font-heading font-bold text-secondary mb-4">Unsere Leistungen in {stadtteilData.name}</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {[
-                    { title: "Flachdach", desc: "Abdichtung und Sanierung" },
-                    { title: "Steildach", desc: "Ziegeleindeckung und Sanierung" },
-                    { title: "Notdienst", desc: "Schnelle Hilfe bei Schäden" },
-                    { title: "Dachrinnen", desc: "Reinigung und Erneuerung" },
-                    { title: "Dachdämmung", desc: "Energetische Sanierung" },
-                    { title: "Dachwartung", desc: "Regelmäßige Inspektion" }
+                    { title: "Dachrinnenreinigung", desc: "Professionelle Rinnenreinigung in Moosach" },
+                    { title: "Sturmschaden reparieren", desc: "24h Notdienst bei Sturmschäden" },
+                    { title: "Wasserschaden Dach", desc: "Schnelle Hilfe bei Wasserschäden" },
+                    { title: "Dach undicht", desc: "Leckortung & Abdichtung" },
+                    { title: "Dachsanierung", desc: "Komplettsanierung mit Garantie" },
+                    { title: "Dachreparatur", desc: "Schnelle Reparaturen aller Art" }
                   ].map((service, idx) => (
                     <div key={idx} className="bg-white rounded-lg p-4 border border-gray-100 shadow-sm">
                       <h4 className="font-bold text-secondary">{service.title}</h4>

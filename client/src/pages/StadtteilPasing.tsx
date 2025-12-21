@@ -68,7 +68,10 @@ function NearbyServiceSchema() {
       "Dachreparatur", 
       "Dachfenster",
       "Spenglerarbeiten",
-      "Dachwartung"
+      "Dachwartung",
+      "Dachrinnenreinigung",
+      "Sturmschaden-Reparatur",
+      "Wasserschaden-Sanierung"
     ],
     "availableChannel": {
       "@type": "ServiceChannel",
@@ -91,9 +94,9 @@ export default function StadtteilPasing() {
     <div className="min-h-screen bg-background font-sans">
       <SEO 
         title="Dachdecker Pasing | Ihr Nachbar-Dachdecker in 2km"
-        description="Dachdecker Pasing nur 2km entfernt! ✓ Altbau-Experten ✓ Biberschwanz ✓ Festpreis ✓ 10 Jahre Garantie. Schnelle Hilfe ☎ 089 12621964"
+        description="Dachdecker Pasing: Dach undicht? Sturmschaden? ✓ 24h Notdienst ✓ Nur 2km entfernt ✓ 10 Jahre Garantie. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-pasing"
-        keywords="dachdecker pasing empfehlung, dachsanierung pasing altbau, dachdecker in der nähe pasing, biberschwanz pasing, dachfenster einbau pasing, dachreparatur pasing münchen, flachdach pasing, dachgaube pasing, sturmschaden dach pasing, dachdecker 81241 81243, wärmedämmung dach pasing, dachrinnenreinigung pasing"
+        keywords="dachdecker pasing empfehlung, dachsanierung pasing altbau, dachdecker in der nähe pasing, biberschwanz pasing, dachfenster einbau pasing, dachreparatur pasing münchen, flachdach pasing, dachgaube pasing, sturmschaden dach pasing, dachdecker 81241 81243, wärmedämmung dach pasing, dachrinnenreinigung pasing, sturmschaden dach pasing, wasserschaden dach münchen pasing, dach undicht pasing reparieren, dachschaden pasing"
         geoPlacename={`${stadtteilData.fullName}, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für ${stadtteilData.fullName}. Nur ${stadtteilData.entfernung} von unserem Standort in Obermenzing. Dachsanierung, Dachreparatur, Dachfenster und Spenglerarbeiten. Tel: 089 12621964.`}
       />
@@ -213,12 +216,12 @@ export default function StadtteilPasing() {
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {[
-                    { title: "Dachsanierung", desc: "Komplettsanierung mit Dämmung nach GEG" },
-                    { title: "Dachreparatur", desc: "Schnelle Hilfe bei undichtem Dach" },
-                    { title: "Dachfenster", desc: "Velux & Roto Einbau und Austausch" },
-                    { title: "Spenglerarbeiten", desc: "Dachrinnen, Kaminverkleidung" },
-                    { title: "Steildach", desc: "Neueindeckung mit Tonziegel oder Schiefer" },
-                    { title: "Flachdach", desc: "Bitumen- und Kunststoffabdichtung" }
+                    { title: "Dachrinnenreinigung", desc: "Professionelle Rinnenreinigung in Pasing" },
+                    { title: "Sturmschaden reparieren", desc: "24h Notdienst bei Sturmschäden" },
+                    { title: "Wasserschaden Dach", desc: "Schnelle Hilfe bei Wasserschäden" },
+                    { title: "Dach undicht", desc: "Leckortung & Abdichtung" },
+                    { title: "Dachsanierung", desc: "Komplettsanierung mit Garantie" },
+                    { title: "Dachreparatur", desc: "Schnelle Reparaturen aller Art" }
                   ].map((service, idx) => (
                     <div key={idx} className="bg-white rounded-lg p-4 border border-gray-100 shadow-sm">
                       <h4 className="font-bold text-secondary">{service.title}</h4>

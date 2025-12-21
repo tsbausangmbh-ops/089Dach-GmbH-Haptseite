@@ -46,7 +46,7 @@ function NearbyServiceSchema() {
       "telephone": "+49-89-12621964"
     },
     "areaServed": { "@type": "Place", "name": stadtteilData.fullName },
-    "serviceType": ["Dachsanierung", "Flachdach", "Dachausbau", "Gauben"]
+    "serviceType": ["Dachsanierung", "Flachdach", "Dachausbau", "Gauben", "Dachrinnenreinigung", "Sturmschaden-Reparatur", "Wasserschaden-Sanierung", "Dachreparatur"]
   };
   return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
 }
@@ -56,9 +56,9 @@ export default function StadtteilWestend() {
     <div className="min-h-screen bg-background font-sans">
       <SEO 
         title="Dachdecker Westend | Altbau & Gewerbe München"
-        description="Dachdecker für Altbau & Gewerbe im Westend. ✓ Dachsanierung ✓ Flachdach ✓ Gauben ✓ 10 Jahre Garantie. Beratung ☎ 089 12621964"
+        description="Dachdecker Westend: Dach undicht? Wasserschaden? ✓ 24h Notdienst ✓ Altbau & Gewerbe ✓ 10 Jahre Garantie. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-westend"
-        keywords="dachdecker westend münchen, dachsanierung altbau westend, flachdach gewerbe münchen, dachausbau westend, gauben einbau münchen"
+        keywords="dachdecker westend münchen, dachsanierung altbau westend, flachdach gewerbe münchen, dachausbau westend, gauben einbau münchen, dachrinnenreinigung westend, sturmschaden dach westend, wasserschaden dach münchen westend, dach undicht westend reparieren, dachschaden westend"
         geoPlacename="München-Westend, Bayern, Deutschland"
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Westend. Spezialist für Altbau und Gewerbe. Tel: 089 12621964.`}
       />
@@ -149,12 +149,12 @@ export default function StadtteilWestend() {
                 <h3 className="text-xl md:text-2xl font-heading font-bold text-secondary mb-4">Unsere Leistungen im {stadtteilData.name}</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {[
-                    { title: "Altbau-Sanierung", desc: "Mansarddach und Schieferdeckung" },
-                    { title: "Flachdach Gewerbe", desc: "Abdichtung und Wartung" },
-                    { title: "Dachausbau", desc: "Mehr Wohnraum schaffen" },
-                    { title: "Gauben-Einbau", desc: "Licht und Platz" },
-                    { title: "Zinkarbeiten", desc: "Rinnen und Einfassungen" },
-                    { title: "Notdienst", desc: "Schnelle Hilfe bei Schäden" }
+                    { title: "Dachrinnenreinigung", desc: "Professionelle Rinnenreinigung in Westend" },
+                    { title: "Sturmschaden reparieren", desc: "24h Notdienst bei Sturmschäden" },
+                    { title: "Wasserschaden Dach", desc: "Schnelle Hilfe bei Wasserschäden" },
+                    { title: "Dach undicht", desc: "Leckortung & Abdichtung" },
+                    { title: "Dachsanierung", desc: "Komplettsanierung mit Garantie" },
+                    { title: "Dachreparatur", desc: "Schnelle Reparaturen aller Art" }
                   ].map((service, idx) => (
                     <div key={idx} className="bg-white rounded-lg p-4 border border-gray-100 shadow-sm">
                       <h4 className="font-bold text-secondary">{service.title}</h4>

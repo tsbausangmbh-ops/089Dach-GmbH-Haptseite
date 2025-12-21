@@ -47,7 +47,7 @@ function NearbyServiceSchema() {
       "telephone": "+49-89-12621964"
     },
     "areaServed": { "@type": "Place", "name": stadtteilData.fullName },
-    "serviceType": ["Dachsanierung", "Ziegeleindeckung", "Dachdämmung", "Dachrinnen"]
+    "serviceType": ["Dachsanierung", "Ziegeleindeckung", "Dachdämmung", "Dachrinnenreinigung", "Sturmschaden-Reparatur", "Wasserschaden-Sanierung", "Dachreparatur"]
   };
   return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
 }
@@ -57,9 +57,9 @@ export default function StadtteilAllach() {
     <div className="min-h-screen bg-background font-sans">
       <SEO 
         title="Dachdecker Allach | Ihr Nachbar in nur 3km"
-        description="Dachdecker Allach - kürzeste Anfahrt garantiert! ✓ Siedlungshäuser ✓ Einfamilienhäuser ✓ 10 Jahre Garantie. Schnelle Hilfe ☎ 089 12621964"
+        description="Dachdecker Allach: Dach undicht? Sturmschaden? ✓ 24h Notdienst ✓ Dachrinnenreinigung ✓ 10 Jahre Garantie ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-allach"
-        keywords="dachdecker allach empfehlung, dachsanierung allach münchen, dachdecker untermenzing, siedlungshaus dach sanieren, dachziegel allach, dachreparatur münchen nord, dachdecker 80999, flachdach allach, sturmschaden dach allach, dachfenster allach, wärmedämmung dach allach"
+        keywords="dachdecker allach empfehlung, dachsanierung allach münchen, dachdecker untermenzing, siedlungshaus dach sanieren, dachziegel allach, dachreparatur münchen nord, dachdecker 80999, dachrinnenreinigung allach, sturmschaden dach allach, wasserschaden dach münchen allach, dach undicht allach reparieren, dachschaden allach"
         geoPlacename={`München-Allach, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb direkt neben Allach. Kürzeste Anfahrtswege, schneller Service. Tel: 089 12621964.`}
       />
@@ -149,12 +149,12 @@ export default function StadtteilAllach() {
                 <h3 className="text-xl md:text-2xl font-heading font-bold text-secondary mb-4">Unsere Leistungen in {stadtteilData.name}</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {[
-                    { title: "Dachsanierung", desc: "Komplettsanierung für Ihr Eigenheim" },
-                    { title: "Ziegeleindeckung", desc: "Klassische Tondachziegel" },
-                    { title: "Dachdämmung", desc: "Energieeffizient nach EnEV" },
-                    { title: "Dachfenster", desc: "Mehr Licht unterm Dach" },
-                    { title: "Dachrinnen", desc: "Reinigung und Erneuerung" },
-                    { title: "Notdienst", desc: "Schnelle Hilfe bei Schäden" }
+                    { title: "Dachrinnenreinigung", desc: "Professionelle Rinnenreinigung in Allach" },
+                    { title: "Sturmschaden reparieren", desc: "24h Notdienst bei Sturmschäden" },
+                    { title: "Wasserschaden Dach", desc: "Schnelle Hilfe bei Wasserschäden" },
+                    { title: "Dach undicht", desc: "Leckortung & Abdichtung" },
+                    { title: "Dachsanierung", desc: "Komplettsanierung mit Garantie" },
+                    { title: "Dachreparatur", desc: "Schnelle Reparaturen aller Art" }
                   ].map((service, idx) => (
                     <div key={idx} className="bg-white rounded-lg p-4 border border-gray-100 shadow-sm">
                       <h4 className="font-bold text-secondary">{service.title}</h4>

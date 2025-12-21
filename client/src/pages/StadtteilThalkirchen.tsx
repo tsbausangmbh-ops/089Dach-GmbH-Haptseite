@@ -46,7 +46,7 @@ function NearbyServiceSchema() {
       "telephone": "+49-89-12621964"
     },
     "areaServed": { "@type": "Place", "name": stadtteilData.fullName },
-    "serviceType": ["Dachsanierung", "Dachdämmung", "Dachfenster", "Sturmschaden"]
+    "serviceType": ["Dachsanierung", "Dachdämmung", "Dachfenster", "Sturmschaden", "Dachrinnenreinigung", "Sturmschaden-Reparatur", "Wasserschaden-Sanierung", "Dachreparatur"]
   };
   return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
 }
@@ -56,9 +56,9 @@ export default function StadtteilThalkirchen() {
     <div className="min-h-screen bg-background font-sans">
       <SEO 
         title="Dachdecker Thalkirchen | Einfamilienhaus & Steildach München"
-        description="Dachdecker für Einfamilienhäuser in Thalkirchen. ✓ Dachsanierung ✓ Dämmung ✓ Dachfenster ✓ 10 Jahre Garantie. Beratung ☎ 089 12621964"
+        description="Dachdecker Thalkirchen: Dach undicht? Wasserschaden? ✓ 24h Notdienst ✓ 10 Jahre Garantie. Jetzt ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-thalkirchen"
-        keywords="dachdecker thalkirchen, dachsanierung einfamilienhaus münchen, dachdecker isartal, dachfenster thalkirchen, dachdämmung thalkirchen, dachdecker 81379 81475, sturmschaden dach thalkirchen, steildach thalkirchen, dachrinne thalkirchen, ziegeldach thalkirchen"
+        keywords="dachdecker thalkirchen, dachsanierung einfamilienhaus münchen, dachdecker isartal, dachfenster thalkirchen, dachdämmung thalkirchen, dachdecker 81379 81475, sturmschaden dach thalkirchen, steildach thalkirchen, dachrinne thalkirchen, ziegeldach thalkirchen, dachrinnenreinigung thalkirchen, sturmschaden dach thalkirchen, wasserschaden dach münchen thalkirchen, dach undicht thalkirchen reparieren, dachschaden thalkirchen"
         geoPlacename="München-Thalkirchen, Bayern, Deutschland"
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Thalkirchen. Spezialist für Einfamilienhäuser. Tel: 089 12621964.`}
       />
@@ -149,12 +149,12 @@ export default function StadtteilThalkirchen() {
                 <h3 className="text-xl md:text-2xl font-heading font-bold text-secondary mb-4">Unsere Leistungen in {stadtteilData.name}</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {[
-                    { title: "Steildachsanierung", desc: "Komplett mit neuer Eindeckung" },
-                    { title: "Dachdämmung", desc: "EnEV-konforme Lösungen" },
-                    { title: "Dachfenster", desc: "VELUX Partner" },
-                    { title: "Sturmschaden", desc: "Schnelle Hilfe im Notfall" },
-                    { title: "Dachrinnen", desc: "Zink und Kupfer" },
-                    { title: "Solarmontage", desc: "Für Photovoltaik" }
+                    { title: "Dachrinnenreinigung", desc: "Professionelle Rinnenreinigung in Thalkirchen" },
+                    { title: "Sturmschaden reparieren", desc: "24h Notdienst bei Sturmschäden" },
+                    { title: "Wasserschaden Dach", desc: "Schnelle Hilfe bei Wasserschäden" },
+                    { title: "Dach undicht", desc: "Leckortung & Abdichtung" },
+                    { title: "Dachsanierung", desc: "Komplettsanierung mit Garantie" },
+                    { title: "Dachreparatur", desc: "Schnelle Reparaturen aller Art" }
                   ].map((service, idx) => (
                     <div key={idx} className="bg-white rounded-lg p-4 border border-gray-100 shadow-sm">
                       <h4 className="font-bold text-secondary">{service.title}</h4>

@@ -47,7 +47,7 @@ function NearbyServiceSchema() {
       "telephone": "+49-89-12621964"
     },
     "areaServed": { "@type": "Place", "name": stadtteilData.fullName },
-    "serviceType": ["Dachsanierung", "Mansarddach", "Gaubenreparatur", "Zinkarbeiten"]
+    "serviceType": ["Dachsanierung", "Mansarddach", "Dachrinnenreinigung", "Sturmschaden-Reparatur", "Wasserschaden-Sanierung", "Dachreparatur"]
   };
   return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
 }
@@ -57,9 +57,9 @@ export default function StadtteilIsarvorstadt() {
     <div className="min-h-screen bg-background font-sans">
       <SEO 
         title="Dachdecker Glockenbachviertel & Isarvorstadt München"
-        description="Dachdecker für Altbauten im Glockenbachviertel. ✓ Mansarddächer ✓ Gaubenreparatur ✓ 10 Jahre Garantie. Beratung ☎ 089 12621964"
+        description="Dachdecker Isarvorstadt: Wasserschaden Dach? ✓ 24h Notdienst ✓ Altbau-Experten ✓ 10 Jahre Garantie ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-ludwigsvorstadt-isarvorstadt"
-        keywords="dachdecker glockenbachviertel, dachdecker isarvorstadt, dachsanierung altbau münchen, mansarddach sanierung, gaubenreparatur münchen, dachdecker 80337 80469, zinkarbeiten isarvorstadt, sturmschaden dach glockenbachviertel, dachterrasse münchen, denkmalschutz isarvorstadt"
+        keywords="dachdecker glockenbachviertel, dachdecker isarvorstadt, dachrinnenreinigung isarvorstadt, sturmschaden dach isarvorstadt, wasserschaden dach münchen isarvorstadt, dach undicht isarvorstadt reparieren, dachschaden isarvorstadt, mansarddach sanierung, dachdecker 80337 80469"
         geoPlacename="München Ludwigsvorstadt-Isarvorstadt, Bayern, Deutschland"
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für Ludwigsvorstadt-Isarvorstadt. Spezialist für gründerzeitliche Altbauten. Tel: 089 12621964.`}
       />
@@ -150,12 +150,12 @@ export default function StadtteilIsarvorstadt() {
                 <h3 className="text-xl md:text-2xl font-heading font-bold text-secondary mb-4">Unsere Leistungen im Glockenbachviertel</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {[
-                    { title: "Mansarddach", desc: "Typisch für Gründerzeitbauten" },
-                    { title: "Gaubenreparatur", desc: "Originalgetreue Wiederherstellung" },
-                    { title: "Zinkarbeiten", desc: "Rinnen, Fallrohre, Einfassungen" },
-                    { title: "Dachterrassen", desc: "Planung und Umsetzung" },
-                    { title: "Flachdach", desc: "Anbau und Hinterhofgebäude" },
-                    { title: "Dachsanierung", desc: "Behutsame Komplettsanierung" }
+                    { title: "Dachrinnenreinigung", desc: "Professionelle Rinnenreinigung in Isarvorstadt" },
+                    { title: "Sturmschaden reparieren", desc: "24h Notdienst bei Sturmschäden" },
+                    { title: "Wasserschaden Dach", desc: "Schnelle Hilfe bei Wasserschäden" },
+                    { title: "Dach undicht", desc: "Leckortung & Abdichtung" },
+                    { title: "Dachsanierung", desc: "Komplettsanierung mit Garantie" },
+                    { title: "Dachreparatur", desc: "Schnelle Reparaturen aller Art" }
                   ].map((service, idx) => (
                     <div key={idx} className="bg-white rounded-lg p-4 border border-gray-100 shadow-sm">
                       <h4 className="font-bold text-secondary">{service.title}</h4>

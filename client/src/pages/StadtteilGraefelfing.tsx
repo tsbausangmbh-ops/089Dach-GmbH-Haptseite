@@ -42,7 +42,7 @@ function NearbyServiceSchema() {
     "description": `Premium-Dacharbeiten in ${stadtteilData.fullName}. Spezialist für Villen und Einfamilienhäuser.`,
     "provider": { "@type": "RoofingContractor", "name": "089Dach GmbH", "telephone": "+49-89-12621964" },
     "areaServed": { "@type": "Place", "name": stadtteilData.fullName },
-    "serviceType": ["Dachsanierung", "Schiefereindeckung", "Kupferarbeiten", "Premium-Dächer"]
+    "serviceType": ["Dachsanierung", "Schiefereindeckung", "Kupferarbeiten", "Dachrinnenreinigung", "Sturmschaden-Reparatur", "Wasserschaden-Sanierung", "Dachreparatur"]
   };
   return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
 }
@@ -52,9 +52,9 @@ export default function StadtteilGraefelfing() {
     <div className="min-h-screen bg-background font-sans">
       <SEO 
         title={`Dachdecker Gräfelfing | Villa Dachsanierung`}
-        description={`Dachdecker in Gräfelfing für Villen & EFH ✓ Nur 5 km entfernt ✓ Schiefer & Kupfer ✓ Premium-Qualität ✓ 10 Jahre Garantie. Jetzt anfragen: 089 12621964`}
+        description={`Dachdecker Gräfelfing: Dach undicht? Sturmschaden? ✓ 24h Notdienst ✓ Dachrinnenreinigung ✓ 10 Jahre Garantie ☎ 089 12621964`}
         canonical={`https://089dach.de/dachdecker-graefelfing`}
-        keywords={`dachdecker gräfelfing bewertung, villa dachsanierung landkreis münchen, schieferdach eindecken kosten, kupferdachrinne preis, dachdecker planegg germering, bester dachdecker gräfelfing, dachdecker 82166, sturmschaden dach gräfelfing, dachfenster gräfelfing, solardach gräfelfing, premium dach gräfelfing`}
+        keywords={`dachdecker gräfelfing bewertung, villa dachsanierung landkreis münchen, dachdecker 82166, dachrinnenreinigung gräfelfing, sturmschaden dach gräfelfing, wasserschaden dach münchen gräfelfing, dach undicht gräfelfing reparieren, dachschaden gräfelfing`}
         geoPlacename={`Gräfelfing, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker für Gräfelfing. Premium-Dachsanierung für Villen. Nur 5 km entfernt. Tel: 089 12621964.`}
       />
@@ -121,7 +121,7 @@ export default function StadtteilGraefelfing() {
               <div>
                 <h3 className="text-xl md:text-2xl font-heading font-bold text-secondary mb-4">Unsere Leistungen in {stadtteilData.name}</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  {[{ title: "Schiefereindeckung", desc: "Naturschiefer für Villen" }, { title: "Kupferarbeiten", desc: "Dachrinnen und Verkleidungen" }, { title: "Dachsanierung", desc: "Premium-Qualität" }, { title: "Steildach", desc: "Tondachziegel und Schiefer" }, { title: "Dachfenster", desc: "Mit Sonnenschutz" }, { title: "Photovoltaik", desc: "Integration ins Dach" }].map((service, idx) => (
+                  {[{ title: "Dachrinnenreinigung", desc: "Professionelle Rinnenreinigung in Gräfelfing" }, { title: "Sturmschaden reparieren", desc: "24h Notdienst bei Sturmschäden" }, { title: "Wasserschaden Dach", desc: "Schnelle Hilfe bei Wasserschäden" }, { title: "Dach undicht", desc: "Leckortung & Abdichtung" }, { title: "Dachsanierung", desc: "Komplettsanierung mit Garantie" }, { title: "Dachreparatur", desc: "Schnelle Reparaturen aller Art" }].map((service, idx) => (
                     <div key={idx} className="bg-white rounded-lg p-4 border border-gray-100 shadow-sm"><h4 className="font-bold text-secondary">{service.title}</h4><p className="text-sm text-muted-foreground">{service.desc}</p></div>
                   ))}
                 </div>

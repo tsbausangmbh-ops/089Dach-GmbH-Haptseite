@@ -47,7 +47,7 @@ function NearbyServiceSchema() {
       "telephone": "+49-89-12621964"
     },
     "areaServed": { "@type": "Place", "name": stadtteilData.fullName },
-    "serviceType": ["Dachsanierung", "Dachreparatur", "Dachdämmung", "Sturmschaden"]
+    "serviceType": ["Dachsanierung", "Dachreparatur", "Dachdämmung", "Sturmschaden", "Dachrinnenreinigung", "Sturmschaden-Reparatur", "Wasserschaden-Sanierung"]
   };
   return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
 }
@@ -57,9 +57,9 @@ export default function StadtteilTrudering() {
     <div className="min-h-screen bg-background font-sans">
       <SEO 
         title={`Dachdecker Trudering | Einfamilienhaus & Reihenhaus`}
-        description={`Dachdecker in München-Trudering für Einfamilienhäuser & Reihenhäuser ✓ Dachsanierung ✓ Sturmschaden ✓ 10 Jahre Garantie. Tel: 089 12621964`}
+        description={`Dachdecker Trudering: Dach undicht? Wasserschaden? ✓ 24h Notdienst ✓ 10 Jahre Garantie. Jetzt ☎ 089 12621964`}
         canonical={`https://089dach.de/dachdecker-trudering`}
-        keywords={`dachdecker trudering, dachsanierung reihenhaus münchen, dachdecker trudering-riem, sturmschaden dach trudering, dachreparatur trudering, dachdeckerei münchen ost, dachdecker 81825 81827, flachdach trudering, dachfenster trudering, wärmedämmung dach trudering, solardach trudering`}
+        keywords={`dachdecker trudering, dachsanierung reihenhaus münchen, dachdecker trudering-riem, sturmschaden dach trudering, dachreparatur trudering, dachdeckerei münchen ost, dachdecker 81825 81827, flachdach trudering, dachfenster trudering, wärmedämmung dach trudering, solardach trudering, dachrinnenreinigung trudering, sturmschaden dach trudering, wasserschaden dach münchen trudering, dach undicht trudering reparieren, dachschaden trudering`}
         geoPlacename={`München-Trudering, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Trudering. Spezialisiert auf Einfamilienhäuser und Reihenhäuser. Tel: 089 12621964.`}
       />
@@ -150,12 +150,12 @@ export default function StadtteilTrudering() {
                 <h3 className="text-xl md:text-2xl font-heading font-bold text-secondary mb-4">Unsere Leistungen in {stadtteilData.name}</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {[
-                    { title: "Dachsanierung", desc: "Für Einzel- und Reihenhäuser" },
-                    { title: "Sturmschaden", desc: "Schnelle Hilfe nach Unwetter" },
-                    { title: "Dachdämmung", desc: "Energie sparen, Förderung nutzen" },
-                    { title: "Dachfenster", desc: "Mehr Licht unterm Dach" },
-                    { title: "Solaranlage", desc: "Vorbereitung für PV-Montage" },
-                    { title: "Dachrinnen", desc: "Reinigung und Erneuerung" }
+                    { title: "Dachrinnenreinigung", desc: "Professionelle Rinnenreinigung in Trudering" },
+                    { title: "Sturmschaden reparieren", desc: "24h Notdienst bei Sturmschäden" },
+                    { title: "Wasserschaden Dach", desc: "Schnelle Hilfe bei Wasserschäden" },
+                    { title: "Dach undicht", desc: "Leckortung & Abdichtung" },
+                    { title: "Dachsanierung", desc: "Komplettsanierung mit Garantie" },
+                    { title: "Dachreparatur", desc: "Schnelle Reparaturen aller Art" }
                   ].map((service, idx) => (
                     <div key={idx} className="bg-white rounded-lg p-4 border border-gray-100 shadow-sm">
                       <h4 className="font-bold text-secondary">{service.title}</h4>
