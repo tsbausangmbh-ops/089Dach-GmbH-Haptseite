@@ -139,10 +139,11 @@ export default function RelatedServices({
   if (servicesToShow.length === 0) return null;
 
   return (
-    <section className="py-4 bg-stone-50 border-t border-stone-200">
+    <section className="py-4">
       <div className="container mx-auto px-6 lg:px-12">
+        <div className="bg-green-700 rounded-2xl md:rounded-3xl p-6 md:p-10">
         <div className="text-center mb-8">
-          <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary">
+          <h2 className="text-2xl md:text-3xl font-heading font-bold text-white">
             {title}
           </h2>
         </div>
@@ -185,12 +186,13 @@ export default function RelatedServices({
         </div>
 
         <div className="text-center mt-8">
-          <Button asChild variant="outline" className="border-secondary text-secondary hover:bg-secondary hover:text-white rounded-xl">
+          <Button asChild variant="outline" className="border-white text-white hover:bg-white hover:text-green-700 rounded-xl">
             <a href="/leistungen">
               Alle Leistungen ansehen
               <ArrowRight className="ml-2 h-4 w-4" />
             </a>
           </Button>
+        </div>
         </div>
       </div>
     </section>
