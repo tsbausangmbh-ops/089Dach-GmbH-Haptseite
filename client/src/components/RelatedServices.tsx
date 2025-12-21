@@ -4,8 +4,9 @@ import { Button } from "@/components/ui/button";
 import imgDachsanierung from "@assets/generated_images/roofers_installing_battens_and_tiles.png";
 import imgReparatur from "@assets/generated_images/roofer_doing_quick_repairs.png";
 import imgReferenzen from "@assets/generated_images/realistic_row_house_roof_after.png";
-import imgStadtteile from "@assets/stock_images/aerial_view_munich_c_04604d54.jpg";
+import imgStadtteile from "@assets/generated_images/munich_frauenkirche_landmark.png";
 import imgWartung from "@assets/generated_images/roofing_expert_with_checklist.png";
+import imgFAQ from "@assets/generated_images/roofing_faq_consultation_scene.png";
 
 const allServices = [
   {
@@ -102,7 +103,8 @@ const allServices = [
     icon: <Lightbulb className="h-6 w-6 text-primary" />,
     title: "FAQ",
     href: "/faq",
-    description: "Häufige Fragen & Antworten"
+    description: "Häufige Fragen & Antworten",
+    image: imgFAQ
   },
   {
     id: "ueber-uns",
