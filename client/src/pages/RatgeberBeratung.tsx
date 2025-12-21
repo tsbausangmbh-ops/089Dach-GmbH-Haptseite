@@ -35,6 +35,7 @@ export default function RatgeberBeratung() {
         { question: "Wie schnell bekomme ich ein Angebot?", answer: "Nach dem Vor-Ort-Termin erhalten Sie innerhalb von 3-5 Werktagen ein detailliertes schriftliches Angebot." }
       ]} />
       <Navbar />
+      <main id="main-content" role="main" tabIndex={-1}>
       
       <section className="relative min-h-[500px] flex items-center">
         <div 
@@ -481,6 +482,7 @@ export default function RatgeberBeratung() {
         title="Persönliche Beratung gewünscht?"
         description="Vereinbaren Sie jetzt Ihren kostenlosen Beratungstermin – vor Ort oder telefonisch, ganz wie Sie möchten."
       />
+      </main>
       <Footer />
     </div>
   );

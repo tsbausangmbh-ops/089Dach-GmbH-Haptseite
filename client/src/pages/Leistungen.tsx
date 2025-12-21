@@ -184,6 +184,7 @@ export default function Leistungen() {
         ]}
       />
       <Navbar />
+      <main id="main-content" role="main" tabIndex={-1}>
       <AIBeraterSection />
       
       {/* Hero Section */}
@@ -353,6 +354,7 @@ export default function Leistungen() {
         title="Welche Leistung benötigen Sie?"
         description="Egal ob Dachsanierung, Flachdach oder Spenglerarbeiten – wir beraten Sie gerne zu allen Dachthemen. Kostenlos und unverbindlich."
       />
+      </main>
       <Footer />
     </div>
   );

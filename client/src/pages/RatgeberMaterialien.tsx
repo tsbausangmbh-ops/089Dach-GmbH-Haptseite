@@ -88,6 +88,7 @@ export default function RatgeberMaterialien() {
       ]} />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Ratgeber", url: "/ratgeber" }, { name: "Materialien", url: "/ratgeber/materialien" }]} />
       <Navbar />
+      <main id="main-content" role="main" tabIndex={-1}>
       <AIBeraterSection 
         pageName="Dach-Materialien"
         description="Ziegel, Schiefer oder Blech? Unser KI-Berater vergleicht die Materialien."
@@ -245,6 +246,7 @@ export default function RatgeberMaterialien() {
         subheadline="Wir beraten neutral und kompetent."
         description="Ratgeber zu Dachziegel Materialien – Ton, Beton, Schiefer oder Blech im Vergleich."
       />
+      </main>
       <Footer />
     </div>
   );

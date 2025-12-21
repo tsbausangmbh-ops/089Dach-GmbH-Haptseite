@@ -66,6 +66,7 @@ export default function Energieberatung() {
       ]} />
       <LocalBusinessSchema />
       <Navbar />
+      <main id="main-content" role="main" tabIndex={-1}>
       <AIBeraterSection />
       
       {/* Hero Section */}
@@ -316,6 +317,7 @@ export default function Energieberatung() {
         title="Förderung für Ihre Dachsanierung sichern?"
         description="Wir beraten Sie zu KfW- und BAFA-Förderprogrammen und übernehmen die Antragstellung. Jetzt Förderberatung anfordern."
       />
+      </main>
       <Footer />
     </div>
   );

@@ -39,7 +39,7 @@ export default function Home() {
       <EmergencyServiceSchema />
       <GeoAreaServedSchema />
       <Navbar />
-      <main>
+      <main id="main-content" role="main" tabIndex={-1}>
         <Hero onOpenFunnel={() => setFunnelOpen(true)} />
         <EmotionalFunnel onOpenFunnel={() => setFunnelOpen(true)} />
         <LeadFunnel 

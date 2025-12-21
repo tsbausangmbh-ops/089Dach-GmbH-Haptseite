@@ -76,6 +76,7 @@ export default function Notdienst() {
       <EmergencyServiceSchema />
       <LocalBusinessSchema />
       <Navbar />
+      <main id="main-content" role="main" tabIndex={-1}>
       <AIBeraterSection 
         pageName="Dach-Notdienst"
         description="Sturmschaden oder Wassereinbruch? Unser KI-Berater erklärt, was Sie tun können bis wir kommen."
@@ -337,6 +338,7 @@ export default function Notdienst() {
         title="Dach-Notfall? Wir sind sofort für Sie da!"
         description="Bei Wasserschaden, Sturmschaden oder undichtem Dach: Rufen Sie uns jetzt an oder senden Sie Ihre Anfrage – wir melden uns schnellstmöglich."
       />
+      </main>
       <Footer />
     </div>
   );

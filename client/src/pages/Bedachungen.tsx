@@ -62,6 +62,7 @@ export default function Bedachungen() {
       ]} />
       <LocalBusinessSchema />
       <Navbar />
+      <main id="main-content" role="main" tabIndex={-1}>
       <AIBeraterSection />
       
       {/* Hero Section */}
@@ -358,6 +359,7 @@ export default function Bedachungen() {
         title="Neue Dacheindeckung geplant?"
         description="Ob Ziegel, Schiefer oder Metalldach – wir beraten Sie zu allen Materialien und erstellen Ihnen ein maßgeschneidertes Angebot für Ihre Bedachung."
       />
+      </main>
       <Footer />
     </div>
   );

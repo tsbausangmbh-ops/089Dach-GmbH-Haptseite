@@ -78,6 +78,7 @@ export default function Dachsanierung() {
       ]} />
       <LocalBusinessSchema />
       <Navbar />
+      <main id="main-content" role="main" tabIndex={-1}>
       <AIBeraterSection 
         pageName="Dachsanierung"
         description="Was kostet eine Dachsanierung? Welche Förderung gibt es? Unser KI-Berater beantwortet Ihre Fragen zur Dachsanierung sofort."
@@ -360,6 +361,7 @@ export default function Dachsanierung() {
         title="Ihr Dach braucht eine Sanierung?"
         description="Wir beraten Sie kostenlos vor Ort zu Dachsanierung, Dämmung und Fördermöglichkeiten. Fordern Sie jetzt Ihr unverbindliches Angebot an."
       />
+      </main>
       <Footer />
     </div>
   );

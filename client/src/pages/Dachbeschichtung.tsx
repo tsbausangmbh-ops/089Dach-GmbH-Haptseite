@@ -40,6 +40,7 @@ export default function Dachbeschichtung() {
       ]} />
       <LocalBusinessSchema />
       <Navbar />
+      <main id="main-content" role="main" tabIndex={-1}>
       <AIBeraterSection />
       
       <section className="pt-6 pb-8 md:pt-10 md:pb-12 bg-secondary relative overflow-hidden min-h-[35vh] flex items-center">
@@ -311,6 +312,7 @@ export default function Dachbeschichtung() {
         subheadline="Wir prüfen, ob sich eine Beschichtung lohnt."
         description="Eine Dachbeschichtung ist nicht immer die beste Lösung. Wir beraten ehrlich."
       />
+      </main>
       <Footer />
     </div>
   );

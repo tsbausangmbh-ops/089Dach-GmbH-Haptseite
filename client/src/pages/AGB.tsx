@@ -18,6 +18,7 @@ export default function AGB() {
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "AGB", url: "/agb" }]} />
       <Navbar />
+      <main id="main-content" role="main" tabIndex={-1}>
       
       {/* Hero Section */}
       <section className="pt-6 pb-8 md:pt-10 md:pb-12 relative overflow-hidden min-h-[40vh] md:min-h-[50vh] flex items-center">
@@ -453,7 +454,8 @@ export default function AGB() {
 
         </div>
       </div>
-      
+
+      </main>
       <Footer />
     </div>
   );

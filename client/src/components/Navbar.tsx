@@ -39,7 +39,16 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="sticky top-0 z-50 w-full bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/80 border-b border-border/40">
+    <>
+      {/* Skip Link für Barrierefreiheit */}
+      <a 
+        href="#main-content" 
+        className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[100] focus:bg-primary focus:text-white focus:px-4 focus:py-2 focus:rounded-lg focus:outline-none focus:ring-2 focus:ring-ring"
+      >
+        Zum Hauptinhalt springen
+      </a>
+      
+      <nav className="sticky top-0 z-50 w-full bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/80 border-b border-border/40" role="navigation" aria-label="Hauptnavigation">
       {/* Top Bar - Contact Info */}
       <div className="hidden md:block bg-secondary text-white py-2">
         <div className="container mx-auto px-6 lg:px-12 flex justify-between items-center text-sm font-medium">
@@ -226,6 +235,7 @@ export default function Navbar() {
           </SheetContent>
         </Sheet>
       </div>
-    </nav>
+      </nav>
+    </>
   );
 }

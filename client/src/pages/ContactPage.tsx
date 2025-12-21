@@ -25,6 +25,7 @@ export default function ContactPage() {
         { question: "Kostet die Erstberatung etwas?", answer: "Nein, die Vor-Ort-Beratung und der Kostenvoranschlag sind komplett kostenlos und unverbindlich." }
       ]} />
       <Navbar />
+      <main id="main-content" role="main" tabIndex={-1}>
       
       {/* Hero Section */}
       <section className="pt-6 pb-8 md:pt-10 md:pb-12 relative overflow-hidden min-h-[40vh] md:min-h-[50vh] flex items-center">
@@ -88,7 +89,7 @@ export default function ContactPage() {
         title="So erreichen Sie uns"
         description="Ob per Telefon, E-Mail oder persönlich – wir sind für Sie da. Schnelle Antwort innerhalb von 24 Stunden garantiert."
       />
-      
+      </main>
       <Footer />
     </div>
   );

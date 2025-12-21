@@ -35,6 +35,7 @@ export default function RatgeberKosten() {
         keywords={["Dachsanierung Kosten", "Preise pro m²", "München 2025", "Steildach", "Flachdach"]}
       />
       <Navbar />
+      <main id="main-content" role="main" tabIndex={-1}>
       <AIBeraterSection 
         pageName="Dachdecker Kosten"
         description="Was kostet ein Dachdecker? Unser KI-Berater gibt einen Preisüberblick."
@@ -245,6 +246,7 @@ export default function RatgeberKosten() {
         subheadline="Wir erstellen transparente Angebote."
         description="Umfassender Ratgeber zu Dachdecker Kosten – alle Leistungen im Preisüberblick."
       />
+      </main>
       <Footer />
     </div>
   );

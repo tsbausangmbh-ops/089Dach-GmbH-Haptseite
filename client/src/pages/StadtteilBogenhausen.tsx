@@ -80,6 +80,7 @@ export default function StadtteilBogenhausen() {
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Stadtteile", url: "/stadtteile" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-${stadtteilData.name.toLowerCase()}` }]} />
       <NearbyServiceSchema />
       <Navbar />
+      <main id="main-content" role="main" tabIndex={-1}>
       
       <section className="pt-6 pb-8 md:pt-10 md:pb-12 bg-secondary relative overflow-hidden min-h-[40vh] flex items-center">
         <div className="absolute inset-0 z-0">
@@ -261,6 +262,7 @@ export default function StadtteilBogenhausen() {
         title="Dachdecker für Bogenhausen gesucht?"
         description="Villen-Erfahrung und Premium-Qualität – Ihr Dachdecker-Meisterbetrieb für Bogenhausen."
       />
+      </main>
       <Footer />
     </div>
   );

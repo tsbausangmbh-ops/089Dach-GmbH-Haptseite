@@ -136,6 +136,7 @@ export default function Reparaturservice() {
       ]} />
       <LocalBusinessSchema />
       <Navbar />
+      <main id="main-content" role="main" tabIndex={-1}>
       <AIBeraterSection />
       
       {/* Hero Section */}
@@ -582,6 +583,7 @@ export default function Reparaturservice() {
         subheadline="Wir reparieren schnell und zuverlässig."
         description="Eine kleine Reparatur heute verhindert eine große Sanierung morgen."
       />
+      </main>
       <Footer />
     </div>
   );

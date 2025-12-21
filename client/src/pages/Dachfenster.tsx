@@ -74,6 +74,7 @@ export default function Dachfenster() {
       ]} />
       <LocalBusinessSchema />
       <Navbar />
+      <main id="main-content" role="main" tabIndex={-1}>
       <AIBeraterSection />
       
       {/* Hero Section */}
@@ -330,6 +331,7 @@ export default function Dachfenster() {
         title="Mehr Licht unterm Dach gewünscht?"
         description="Wir beraten Sie zu Einbau, Austausch und Reparatur von Dachfenstern aller Marken. Jetzt kostenloses Beratungsgespräch vereinbaren."
       />
+      </main>
       <Footer />
     </div>
   );

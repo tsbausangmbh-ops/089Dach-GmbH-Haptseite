@@ -35,6 +35,7 @@ export default function RatgeberFoerderung() {
         keywords={["KfW Förderung Dach", "BAFA Zuschuss Dachdämmung", "Förderung 2025", "Energetische Sanierung", "München"]}
       />
       <Navbar />
+      <main id="main-content" role="main" tabIndex={-1}>
       <AIBeraterSection 
         pageName="Dach-Förderung"
         description="Welche Förderung gibt es für Dachsanierung? Unser KI-Berater kennt KfW und BAFA."
@@ -235,6 +236,7 @@ export default function RatgeberFoerderung() {
         subheadline="Wir beraten zu KfW und BAFA."
         description="Nutzen Sie die Dachsanierung Förderung von KfW und BAFA – wir helfen beim Antrag."
       />
+      </main>
       <Footer />
     </div>
   );

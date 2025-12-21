@@ -38,6 +38,7 @@ export default function Sturmschaden() {
         ]}
       />
       <Navbar />
+      <main id="main-content" role="main" tabIndex={-1}>
       <AIBeraterSection />
       
       <section className="pt-6 pb-8 md:pt-10 md:pb-12 bg-secondary relative overflow-hidden min-h-[35vh] flex items-center">
@@ -209,6 +210,7 @@ export default function Sturmschaden() {
         subheadline="Wir helfen bei der Schadensbehebung."
         description="Nach einem Sturm zählt jede Stunde. Wir dokumentieren und reparieren für Ihre Wohngebäudeversicherung. Inkl. Kostenvoranschlag und Sachverständigen-Kommunikation."
       />
+      </main>
       <Footer />
     </div>
   );

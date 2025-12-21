@@ -107,6 +107,7 @@ export default function StadtteilPasing() {
       ]} />
       <NearbyServiceSchema />
       <Navbar />
+      <main id="main-content" role="main" tabIndex={-1}>
       
       {/* Hero Section */}
       <section className="pt-6 pb-8 md:pt-10 md:pb-12 bg-secondary relative overflow-hidden min-h-[40vh] flex items-center">
@@ -316,6 +317,7 @@ export default function StadtteilPasing() {
         title="Dachdecker für Pasing gesucht?"
         description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Pasing – mit kurzer Anfahrt und Erfahrung seit 1998."
       />
+      </main>
       <Footer />
     </div>
   );

@@ -50,6 +50,7 @@ export default function Flachdach() {
       ]} />
       <LocalBusinessSchema />
       <Navbar />
+      <main id="main-content" role="main" tabIndex={-1}>
       <AIBeraterSection 
         pageName="Flachdach"
         description="Fragen zu Flachdach-Abdichtung, Kosten oder Begrünung? Unser KI-Berater hilft Ihnen bei allen Flachdach-Themen."
@@ -296,6 +297,7 @@ export default function Flachdach() {
         subheadline="Wir sorgen für dauerhafte Dichtheit."
         description="Ihr Flachdach in München in besten Händen – von Abdichtung bis Sanierung. Je länger Sie warten, desto größer der Schaden."
       />
+      </main>
       <Footer />
     </div>
   );

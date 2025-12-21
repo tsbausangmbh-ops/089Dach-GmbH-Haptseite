@@ -113,6 +113,7 @@ export default function Ratgeber() {
         { question: "Welche Förderung gibt es 2025?", answer: "KfW und BAFA fördern energetische Dachsanierung mit bis zu 20% Zuschuss. Plus 5% Bonus mit Sanierungsfahrplan (iSFP)." }
       ]} />
       <Navbar />
+      <main id="main-content" role="main" tabIndex={-1}>
       
       {/* Hero Section */}
       <section className="pt-6 pb-8 md:pt-10 md:pb-12 relative overflow-hidden min-h-[50vh] flex items-center">
@@ -370,6 +371,7 @@ export default function Ratgeber() {
         title="Noch Fragen zu Ihrem Dachprojekt?"
         description="Unser Ratgeber-Team beantwortet Ihre Fragen rund um Dach, Dämmung und Förderung – kostenlos und unverbindlich."
       />
+      </main>
       <Footer />
     </div>
   );

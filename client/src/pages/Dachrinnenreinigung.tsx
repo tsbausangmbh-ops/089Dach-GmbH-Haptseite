@@ -47,6 +47,7 @@ export default function Dachrinnenreinigung() {
       ]} />
       <LocalBusinessSchema />
       <Navbar />
+      <main id="main-content" role="main" tabIndex={-1}>
       <AIBeraterSection 
         pageName="Dachrinnenreinigung"
         description="Was kostet eine Dachrinnenreinigung? Wie oft ist sie nötig? Unser KI-Berater beantwortet Ihre Fragen sofort."
@@ -314,6 +315,7 @@ export default function Dachrinnenreinigung() {
         subheadline="Wir reinigen und reparieren Ihre Rinnen."
         description="Verstopfte Dachrinnen führen zu Wasserschäden an der Fassade."
       />
+      </main>
       <Footer />
     </div>
   );

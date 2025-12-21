@@ -61,6 +61,7 @@ export default function StadtteilSendling() {
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-${stadtteilData.name.toLowerCase()}` }]} />
       <NearbyServiceSchema />
       <Navbar />
+      <main id="main-content" role="main" tabIndex={-1}>
       
       <section className="pt-6 pb-8 md:pt-10 md:pb-12 bg-secondary relative overflow-hidden min-h-[40vh] flex items-center">
         <div className="absolute inset-0 z-0">
@@ -160,6 +161,7 @@ export default function StadtteilSendling() {
         title="Dachdecker für Sendling gesucht?"
         description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Sendling – mit kurzer Anfahrt und Erfahrung seit 1998."
       />
+      </main>
       <Footer />
     </div>
   );

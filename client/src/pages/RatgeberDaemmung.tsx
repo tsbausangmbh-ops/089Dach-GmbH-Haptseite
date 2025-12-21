@@ -56,6 +56,7 @@ export default function RatgeberDaemmung() {
         ]}
       />
       <Navbar />
+      <main id="main-content" role="main" tabIndex={-1}>
       <AIBeraterSection 
         pageName="Dachdämmung Ratgeber"
         description="Aufsparren oder Zwischensparren? Unser KI-Berater erklärt die Dämmarten."
@@ -383,6 +384,7 @@ export default function RatgeberDaemmung() {
         title="Dämmung für Ihr Dach planen?"
         description="Wir beraten Sie zu allen Dämm-Methoden und Fördermöglichkeiten – kostenlos und unverbindlich vor Ort."
       />
+      </main>
       <Footer />
     </div>
   );

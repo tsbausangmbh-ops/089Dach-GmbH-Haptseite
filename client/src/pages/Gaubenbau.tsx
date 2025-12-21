@@ -73,6 +73,7 @@ export default function Gaubenbau() {
       ]} />
       <LocalBusinessSchema />
       <Navbar />
+      <main id="main-content" role="main" tabIndex={-1}>
       <AIBeraterSection />
       
       {/* Hero Section */}
@@ -384,6 +385,7 @@ export default function Gaubenbau() {
         title="Mehr Wohnraum durch eine Gaube?"
         description="Wir planen und bauen Ihre Gaube – von der ersten Skizze bis zur Fertigstellung. Jetzt unverbindliche Beratung anfordern."
       />
+      </main>
       <Footer />
     </div>
   );

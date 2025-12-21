@@ -94,6 +94,7 @@ export default function Stadtteile() {
         { question: "Gibt es Anfahrtskosten?", answer: "Für München und direktes Umland (ca. 15 km) keine Anfahrtskosten. Darüber hinaus nach Absprache." }
       ]} />
       <Navbar />
+      <main id="main-content" role="main" tabIndex={-1}>
       
       <section className="pt-6 pb-8 md:pt-10 md:pb-12 bg-secondary relative overflow-hidden min-h-[30vh] flex items-center">
         <div className="absolute inset-0 bg-gradient-to-r from-secondary via-secondary/95 to-secondary/80"></div>
@@ -195,6 +196,7 @@ export default function Stadtteile() {
         title="Dachdecker für Ihren Stadtteil?"
         description="Wir sind in ganz München und Umgebung für Sie da – mit kurzen Anfahrtswegen und lokaler Erfahrung seit 1998."
       />
+      </main>
       <Footer />
     </div>
   );

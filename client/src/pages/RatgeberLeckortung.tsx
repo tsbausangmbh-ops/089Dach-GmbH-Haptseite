@@ -49,6 +49,7 @@ export default function RatgeberLeckortung() {
         { question: "Zahlt Versicherung Leckortung?", answer: "Bei Sturmschäden oft ja. Wir erstellen versicherungsgerechte Dokumentation und helfen bei der Schadenmeldung." }
       ]} />
       <Navbar />
+      <main id="main-content" role="main" tabIndex={-1}>
       <AIBeraterSection 
         pageName="Leckortung"
         description="Wie findet man ein Leck im Dach? Unser KI-Berater erklärt die Methoden."
@@ -349,6 +350,7 @@ export default function RatgeberLeckortung() {
         title="Undichtigkeit am Dach? Wir finden sie!"
         description="Professionelle Leckortung mit modernster Technik. Wir finden das Leck und beheben es nachhaltig."
       />
+      </main>
       <Footer />
     </div>
   );

@@ -247,6 +247,7 @@ export default function Referenzen() {
         }}
       />
       <Navbar />
+      <main id="main-content" role="main" tabIndex={-1}>
       
       {/* Hero Section */}
       <section className="pt-6 pb-8 md:pt-10 md:pb-12 relative overflow-hidden min-h-[40vh] md:min-h-[50vh] flex items-center">
@@ -484,6 +485,7 @@ export default function Referenzen() {
         title="Begeistert von unseren Referenzen?"
         description="Lassen Sie sich von unserer Qualität überzeugen – wir beraten Sie gerne zu Ihrem Dachprojekt. Kostenlos und unverbindlich."
       />
+      </main>
       <Footer />
     </div>
   );

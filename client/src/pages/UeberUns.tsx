@@ -28,6 +28,7 @@ export default function UeberUns() {
         { question: "Wie viele Projekte hat 089Dach bereits durchgeführt?", answer: "Über 200 erfolgreich abgeschlossene Dachprojekte in München und Umgebung - von Einfamilienhaus bis Villa, von Reparatur bis Komplettsanierung." }
       ]} />
       <Navbar />
+      <main id="main-content" role="main" tabIndex={-1}>
       
       {/* Hero Section */}
       <section className="pt-6 pb-8 md:pt-10 md:pb-12 relative overflow-hidden min-h-[40vh] md:min-h-[50vh] flex items-center">
@@ -424,6 +425,7 @@ export default function UeberUns() {
         title="Lernen Sie uns persönlich kennen"
         description="Vereinbaren Sie einen Termin und überzeugen Sie sich von unserer Qualität und Zuverlässigkeit – seit 1998 in München."
       />
+      </main>
       <Footer />
     </div>
   );

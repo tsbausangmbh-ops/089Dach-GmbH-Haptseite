@@ -134,6 +134,7 @@ export default function Wartung() {
       ]} />
       <LocalBusinessSchema />
       <Navbar />
+      <main id="main-content" role="main" tabIndex={-1}>
       <AIBeraterSection />
       
       {/* Hero Section */}
@@ -549,6 +550,7 @@ export default function Wartung() {
         subheadline="Wir halten Ihr Dach in Schuss."
         description="Professionelle Wartung verlängert die Lebensdauer Ihres Daches um Jahre."
       />
+      </main>
       <Footer />
     </div>
   );

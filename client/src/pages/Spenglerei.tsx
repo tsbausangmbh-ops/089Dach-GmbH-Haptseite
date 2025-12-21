@@ -60,6 +60,7 @@ export default function Spenglerei() {
       ]} />
       <LocalBusinessSchema />
       <Navbar />
+      <main id="main-content" role="main" tabIndex={-1}>
       <AIBeraterSection 
         pageName="Spenglerei"
         description="Fragen zu Dachrinnen, Kupferarbeiten oder Kamineinfassungen? Unser KI-Berater beantwortet Ihre Spenglerei-Fragen."
@@ -357,6 +358,7 @@ export default function Spenglerei() {
         title="Dachrinne, Kamineinfassung oder Blecharbeiten?"
         description="Unser Spenglermeister berät Sie zu allen Metallarbeiten am Dach. Fordern Sie Ihr individuelles Angebot für Spenglerarbeiten an."
       />
+      </main>
       <Footer />
     </div>
   );

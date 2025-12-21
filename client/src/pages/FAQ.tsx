@@ -136,6 +136,7 @@ export default function FAQ() {
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "FAQ", url: "/faq" }]} />
       <FAQPageSchema faqs={faqs.map(f => ({ question: f.question, answer: f.answer }))} />
       <Navbar />
+      <main id="main-content" role="main" tabIndex={-1}>
       
       {/* Hero Section */}
       <section className="pt-6 pb-8 md:pt-10 md:pb-12 relative overflow-hidden min-h-[40vh] md:min-h-[50vh] flex items-center">
@@ -325,6 +326,7 @@ export default function FAQ() {
         title="Ihre Frage ist nicht dabei?"
         description="Kein Problem – rufen Sie uns an oder schreiben Sie uns. Wir nehmen uns Zeit für Ihre Fragen, auch wenn Sie noch gar nicht wissen, ob Sie etwas machen wollen."
       />
+      </main>
       <Footer />
     </div>
   );
