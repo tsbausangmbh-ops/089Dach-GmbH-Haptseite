@@ -46,7 +46,7 @@ export default function ContactPage() {
           <div className="max-w-4xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">089Dach Kontakt</span>
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-heading font-bold text-white mt-4 mb-6">
-              Wir sind persönlich für Sie da
+              <strong>Dachdecker München kontaktieren</strong> – 089 12621964
             </h1>
             
             <div className="bg-white/10 backdrop-blur-sm p-4 md:p-6 rounded-xl border-l-4 border-primary mb-8">

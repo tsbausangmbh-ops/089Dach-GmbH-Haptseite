@@ -49,7 +49,7 @@ export default function UeberUns() {
           <div className="max-w-4xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Wer wir sind</span>
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-heading font-bold text-white mt-4 mb-4 md:mb-6">
-              Wir machen das aus Leidenschaft
+              <strong>Dachdecker Meisterbetrieb München</strong> seit 1998
             </h1>
             
             {/* Emotionale Problem-Agitation */}

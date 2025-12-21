@@ -101,7 +101,7 @@ export default function Dachsanierung() {
           <div className="max-w-6xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Dachsanierung München</span>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mt-4 mb-6">
-              Ihr Dach macht Ihnen Sorgen?
+              <strong>Dachsanierung München</strong> – Kosten, Förderung & Ablauf
             </h1>
             <p className="text-xl text-gray-200 max-w-xl mb-4">
               Eine Dachsanierung muss kein Albtraum sein. Mit der richtigen Planung, transparenten Kosten und einem erfahrenen Team wird Ihr Zuhause wieder sicher.

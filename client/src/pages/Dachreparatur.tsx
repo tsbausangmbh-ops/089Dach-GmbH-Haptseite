@@ -71,7 +71,7 @@ export default function Dachreparatur() {
               <span className="text-primary font-bold tracking-wider uppercase text-sm">Dachreparatur München</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-4 md:mb-6">
-              Schnelle Dachreparatur – fair & transparent
+              <strong>Dachreparatur München</strong> – schnell, fair & transparent
             </h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-xl mb-4">
               Ein paar kaputte Ziegel? Eine undichte Stelle? Nicht jedes Problem braucht gleich eine Komplettsanierung. 

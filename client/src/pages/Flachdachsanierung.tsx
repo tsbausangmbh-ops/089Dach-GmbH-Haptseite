@@ -85,7 +85,7 @@ export default function Flachdachsanierung() {
               <span className="text-primary font-bold tracking-wider uppercase text-sm">Flachdachsanierung München</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-4 md:mb-6">
-              Flachdach sanieren – dauerhaft dicht
+              <strong>Flachdachsanierung München</strong> – dauerhaft dicht
             </h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-xl mb-4">
               Ihr Flachdach macht Probleme? Wir sanieren mit hochwertigen Materialien – 

@@ -94,7 +94,7 @@ export default function Gaubenbau() {
           <div className="max-w-6xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Gaubenbau & Sanierung</span>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mt-4 mb-6">
-              Mehr Platz und Licht unterm Dach
+              <strong>Gaube bauen München</strong> – mehr Platz unterm Dach
             </h1>
             <p className="text-xl text-gray-200 max-w-xl mb-4">
               Mit einer Gaube verwandeln Sie ungenutzten Dachraum in wertvollen Wohnraum – mehr Platz, mehr Licht, mehr Lebensqualität.

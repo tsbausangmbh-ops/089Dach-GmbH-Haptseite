@@ -55,8 +55,8 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
             </div>
             
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-heading font-extrabold leading-tight mb-4 md:mb-6">
-              Dachprobleme?<br/>
-              <span className="text-primary">Wir lösen sie.</span>
+              <strong>Dachdecker München</strong> –<br/>
+              <span className="text-primary">Ihr Meisterbetrieb</span>
             </h1>
             
             <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-4 md:p-5 mb-4 md:mb-6">

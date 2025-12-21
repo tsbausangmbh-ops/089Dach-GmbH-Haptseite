@@ -157,7 +157,7 @@ export default function FAQ() {
           <div className="max-w-4xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">089Dach FAQ</span>
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-heading font-bold text-white mt-4 mb-4 md:mb-6">
-              Die Antworten, die Sie wirklich brauchen
+              <strong>Dachdecker FAQ München</strong> – Ihre Fragen beantwortet
             </h1>
             
             {/* Problem-Agitation */}

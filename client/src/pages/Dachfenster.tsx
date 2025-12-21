@@ -95,7 +95,7 @@ export default function Dachfenster() {
           <div className="max-w-6xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Dachfenster München</span>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mt-4 mb-6">
-              Lassen Sie endlich Licht in Ihr Leben
+              <strong>Dachfenster einbauen München</strong> – Velux & Roto
             </h1>
             <p className="text-xl text-gray-200 max-w-xl mb-4">
               Mit dem richtigen Dachfenster verwandeln Sie dunkle Räume in lichtdurchflutete Wohlfühloasen – oft in nur einem Tag eingebaut.

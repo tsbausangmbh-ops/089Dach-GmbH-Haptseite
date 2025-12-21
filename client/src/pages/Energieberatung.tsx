@@ -87,7 +87,7 @@ export default function Energieberatung() {
           <div className="max-w-6xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Energieberatung & Förderung</span>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mt-4 mb-6">
-              Maximale Förderung für Ihre Dachsanierung
+              <strong>KfW-Förderung Dachsanierung</strong> – bis 20% Zuschuss
             </h1>
             <p className="text-xl text-gray-200 max-w-xl mb-4">
               Mit der richtigen Beratung und Antragstellung sichern Sie sich bis zu 20% Förderung für Ihre energetische Sanierung.

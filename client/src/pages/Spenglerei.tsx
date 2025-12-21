@@ -84,7 +84,7 @@ export default function Spenglerei() {
           <div className="max-w-6xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Spenglerarbeiten München</span>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mt-4 mb-6">
-              Spenglerei München – Handwerkskunst in Metall
+              <strong>Spenglerei München</strong> – Dachrinnen & Blecharbeiten
             </h1>
             <p className="text-xl text-gray-200 max-w-xl mb-4">
               Wenn Metall auf Meisterhand trifft, entstehen Bauteile, die Generationen überdauern. Maßgefertigt in unserer eigenen Werkstatt.
