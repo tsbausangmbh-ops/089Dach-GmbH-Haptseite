@@ -14,7 +14,6 @@ import flatRoofDetail from "@assets/generated_images/flat_roof_bitumen_detail_wi
 import ImageGallery from "@/components/ImageGallery";
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema, ServiceSchema, ProductServiceSchema, FAQPageSchema, LocalBusinessSchema } from "@/components/SEO";
-import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import { FlachdachMuenchenContent } from "@/components/SEOContent";
 import AIEnhancedFAQ from "@/components/AIEnhancedFAQ";
@@ -350,10 +349,6 @@ export default function Bedachungen() {
       />
 
       <LeadFunnel />
-      <RelatedServices 
-        currentPage="bedachungen" 
-        relatedIds={["dachsanierung", "spenglerei", "gaubenbau", "referenzen"]}
-      />
       <Contact 
         title="Neue Dacheindeckung geplant?"
         description="Ob Ziegel, Schiefer oder Metalldach – wir beraten Sie zu allen Materialien und erstellen Ihnen ein maßgeschneidertes Angebot für Ihre Bedachung."

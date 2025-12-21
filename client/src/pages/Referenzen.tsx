@@ -4,7 +4,6 @@ import Contact from "@/components/Contact";
 import LeadFunnel from "@/components/LeadFunnel";
 import { ArrowUpRight, Clock, Euro, CheckCircle2, Phone, Shield, Users, Award } from "lucide-react";
 import SEO, { BreadcrumbSchema, FAQPageSchema } from "@/components/SEO";
-import RelatedServices from "@/components/RelatedServices";
 import BackButton from "@/components/BackButton";
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
@@ -477,10 +476,6 @@ export default function Referenzen() {
       <BackButton />
 
       <LeadFunnel />
-      <RelatedServices 
-        currentPage="referenzen" 
-        relatedIds={["dachsanierung", "bedachungen", "spenglerei", "faq"]}
-      />
       <Contact 
         title="Begeistert von unseren Referenzen?"
         description="Lassen Sie sich von unserer Qualität überzeugen – wir beraten Sie gerne zu Ihrem Dachprojekt. Kostenlos und unverbindlich."

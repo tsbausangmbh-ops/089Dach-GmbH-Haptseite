@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, ArrowRight, X, Home, Warehouse, Award, ThumbsUp, ThumbsDown } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema, FAQPageSchema, ArticleSchema } from "@/components/SEO";
-import RelatedServices from "@/components/RelatedServices";
 import BackButton from "@/components/BackButton";
 
 export default function RatgeberMaterialien() {
@@ -237,11 +236,6 @@ export default function RatgeberMaterialien() {
       </section>
 
       <LeadFunnel />
-      <RelatedServices currentPage="ratgeber" relatedIds={["bedachungen", "dachsanierung", "referenzen", "beratung"]} />
-      <Contact 
-        title="Welches Dachmaterial passt zu Ihrem Haus?"
-        description="Wir beraten Sie zu allen Materialien – von Tonziegel über Schiefer bis Metall. Kostenlos und unverbindlich."
-      />
       <Footer />
     </div>
   );

@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, Euro, ArrowRight, FileText, AlertTriangle, Lightbulb, Award } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema, FAQPageSchema, ArticleSchema } from "@/components/SEO";
-import RelatedServices from "@/components/RelatedServices";
 import BackButton from "@/components/BackButton";
 
 export default function RatgeberFoerderung() {
@@ -222,11 +221,6 @@ export default function RatgeberFoerderung() {
       </section>
 
       <LeadFunnel />
-      <RelatedServices currentPage="ratgeber" relatedIds={["energieberatung", "dachsanierung", "daemmung", "referenzen"]} />
-      <Contact 
-        title="Förderung für Ihr Dach sichern?"
-        description="Wir prüfen Ihre Fördermöglichkeiten und helfen beim Antrag. Im Schnitt holen wir 12.000€ für unsere Kunden."
-      />
       <Footer />
     </div>
   );

@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, AlertTriangle, ArrowRight, Clock, Shield, FileText, Camera, Zap } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema, FAQPageSchema, ArticleSchema, HowToSchema } from "@/components/SEO";
-import RelatedServices from "@/components/RelatedServices";
 import BackButton from "@/components/BackButton";
 
 export default function RatgeberSturmschaden() {
@@ -230,11 +229,6 @@ export default function RatgeberSturmschaden() {
       </section>
 
       <LeadFunnel />
-      <RelatedServices currentPage="ratgeber" relatedIds={["notdienst", "sturmschaden", "reparaturservice", "referenzen"]} />
-      <Contact 
-        title="Sturmschaden am Dach? Sofort handeln!"
-        description="Wir helfen bei der Schadensdokumentation und Versicherungsabwicklung – schnell und unkompliziert."
-      />
       <Footer />
     </div>
   );

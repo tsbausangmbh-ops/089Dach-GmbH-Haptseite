@@ -6,7 +6,6 @@ import { Button } from "@/components/ui/button";
 import { CheckCircle2, Droplets, ArrowRight, Search, Shield, Clock, Phone, AlertTriangle, TrendingUp, Users, Star, XCircle } from "lucide-react";
 import { Link } from "wouter";
 import SEO, { BreadcrumbSchema, ArticleSchema, HowToSchema, FAQPageSchema } from "@/components/SEO";
-import RelatedServices from "@/components/RelatedServices";
 import heroImage from "@assets/generated_images/roof_leak_detection_scene.png";
 import { KeywordLink } from "@/components/KeywordLink";
 
@@ -335,10 +334,6 @@ export default function RatgeberLeckortung() {
         </div>
       </section>
 
-      <RelatedServices 
-        currentPage="ratgeber" 
-        relatedIds={["reparaturservice", "wartung", "bedachungen", "faq"]}
-      />
       <Contact 
         title="Undichtigkeit am Dach? Wir finden sie!"
         description="Professionelle Leckortung mit modernster Technik. Wir finden das Leck und beheben es nachhaltig."

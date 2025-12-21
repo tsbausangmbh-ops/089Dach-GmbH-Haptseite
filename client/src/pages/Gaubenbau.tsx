@@ -14,7 +14,6 @@ import CTACluster from "@/components/CTACluster";
 import ProofStack from "@/components/ProofStack";
 import ProcessSteps from "@/components/ProcessSteps";
 import heroImage from "@assets/generated_images/renovated_dormer_window_after.png";
-import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import ImageGallery from "@/components/ImageGallery";
 import gaubeImg1 from "@assets/generated_images/altbau_damaged_dormer_before.png";
@@ -377,10 +376,6 @@ export default function Gaubenbau() {
       />
 
       <LeadFunnel />
-      <RelatedServices 
-        currentPage="gaubenbau" 
-        relatedIds={["dachfenster", "bedachungen", "architektenleistungen", "referenzen"]}
-      />
       <Contact 
         title="Mehr Wohnraum durch eine Gaube?"
         description="Wir planen und bauen Ihre Gaube – von der ersten Skizze bis zur Fertigstellung. Jetzt unverbindliche Beratung anfordern."

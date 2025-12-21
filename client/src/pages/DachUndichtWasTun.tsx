@@ -4,7 +4,6 @@ import LeadFunnel from "@/components/LeadFunnel";
 import { Button } from "@/components/ui/button";
 import { Phone, AlertTriangle, ArrowRight, Droplets, Shield, Clock, CheckCircle2 } from "lucide-react";
 import SEO, { BreadcrumbSchema, ServiceSchema, FAQPageSchema, ProductServiceSchema } from "@/components/SEO";
-import RelatedServices from "@/components/RelatedServices";
 import BackButton from "@/components/BackButton";
 import EinzugsgebietSection from "@/components/EinzugsgebietSection";
 import { Link } from "wouter";
@@ -168,8 +167,6 @@ export default function DachUndichtWasTun() {
 
       <EinzugsgebietSection />
       <LeadFunnel />
-      <RelatedServices currentPage="notdienst" />
-      <Footer />
     </div>
   );
 }

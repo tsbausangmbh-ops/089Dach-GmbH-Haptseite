@@ -6,7 +6,6 @@ import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, Shield, Clock, Award, ArrowRight, Droplets, Thermometer, Wrench, Layers } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema, ProductServiceSchema, FAQPageSchema, LocalBusinessSchema } from "@/components/SEO";
-import RelatedServices from "@/components/RelatedServices";
 import BackButton from "@/components/BackButton";
 import ImageGallery from "@/components/ImageGallery";
 import AIEnhancedFAQ from "@/components/AIEnhancedFAQ";
@@ -278,11 +277,6 @@ export default function Flachdach() {
       />
 
       <LeadFunnel />
-      <RelatedServices currentPage="flachdach" relatedIds={["dachsanierung", "energieberatung", "spenglerei", "wartung"]} />
-      <Contact 
-        title="Flachdach undicht oder sanierungsbedürftig?"
-        description="Wir beraten Sie zu Abdichtung, Dämmung und Begrünung Ihres Flachdachs. Jetzt kostenlosen Vor-Ort-Termin vereinbaren."
-      />
       <Footer />
     </div>
   );

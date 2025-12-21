@@ -6,7 +6,6 @@ import { Button } from "@/components/ui/button";
 import { CheckCircle2, ThermometerSnowflake, ArrowRight, ArrowLeft, Euro, Home, Phone, AlertTriangle, TrendingDown, Clock, Shield, Users, Star, Calculator } from "lucide-react";
 import { Link } from "wouter";
 import SEO, { BreadcrumbSchema, FAQPageSchema, ArticleSchema, HowToSchema } from "@/components/SEO";
-import RelatedServices from "@/components/RelatedServices";
 import heroImage from "@assets/generated_images/roof_insulation_installation_scene.png";
 import { KeywordLink } from "@/components/KeywordLink";
 
@@ -369,10 +368,6 @@ export default function RatgeberDaemmung() {
         </div>
       </section>
 
-      <RelatedServices 
-        currentPage="ratgeber" 
-        relatedIds={["dachsanierung", "energieberatung", "wartung", "faq"]}
-      />
       <Contact 
         title="Dämmung für Ihr Dach planen?"
         description="Wir beraten Sie zu allen Dämm-Methoden und Fördermöglichkeiten – kostenlos und unverbindlich vor Ort."

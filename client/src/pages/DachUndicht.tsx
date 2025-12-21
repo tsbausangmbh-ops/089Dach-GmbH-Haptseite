@@ -5,7 +5,6 @@ import LeadFunnel from "@/components/LeadFunnel";
 import { Button } from "@/components/ui/button";
 import { AlertTriangle, Phone, Clock, Shield, Droplets, CheckCircle2, ArrowRight, Camera, FileText, Wrench } from "lucide-react";
 import SEO, { BreadcrumbSchema, ServiceSchema, FAQPageSchema, ProductServiceSchema } from "@/components/SEO";
-import RelatedServices from "@/components/RelatedServices";
 import BackButton from "@/components/BackButton";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
 
@@ -187,8 +186,6 @@ export default function DachUndicht() {
       </section>
 
       <LeadFunnel />
-      <RelatedServices currentPage="notdienst" />
-      <Footer />
     </div>
   );
 }

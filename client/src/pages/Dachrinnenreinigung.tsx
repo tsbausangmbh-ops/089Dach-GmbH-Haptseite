@@ -11,7 +11,6 @@ import ProblemSolutionSection from "@/components/ProblemSolutionSection";
 import CTACluster from "@/components/CTACluster";
 import ProofStack from "@/components/ProofStack";
 import ProcessSteps from "@/components/ProcessSteps";
-import RelatedServices from "@/components/RelatedServices";
 import BackButton from "@/components/BackButton";
 import ImageGallery from "@/components/ImageGallery";
 import rinnenImg1 from "@assets/generated_images/copper_roof_gutter_detail.png";
@@ -297,11 +296,6 @@ export default function Dachrinnenreinigung() {
       />
 
       <LeadFunnel />
-      <RelatedServices currentPage="dachrinnenreinigung" relatedIds={["wartung", "spenglerei", "reparaturservice", "dachsanierung"]} />
-      <Contact 
-        title="Dachrinne verstopft oder undicht?"
-        description="Wir reinigen, reparieren oder erneuern Ihre Dachrinnen – fachgerecht und zu fairen Preisen. Jetzt Termin vereinbaren."
-      />
       <Footer />
     </div>
   );

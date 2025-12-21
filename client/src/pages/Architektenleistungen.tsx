@@ -9,7 +9,6 @@ import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle2, FileText, Ruler, Building2, Phone, Quote, Award, Shield, Users } from "lucide-react";
 import SEO, { BreadcrumbSchema, ServiceSchema, FAQPageSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/homeowner_roof_consultation_scene.png";
-import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 
 export default function Architektenleistungen() {
@@ -237,10 +236,6 @@ export default function Architektenleistungen() {
       </section>
 
       <LeadFunnel />
-      <RelatedServices 
-        currentPage="architektenleistungen" 
-        relatedIds={["gaubenbau", "energieberatung", "dachsanierung", "referenzen"]}
-      />
       <Contact 
         title="Planung für Ihr Dachprojekt benötigt?"
         description="Wir vermitteln Ihnen erfahrene Architekten für Bauanträge und Genehmigungen. Alles aus einer Hand – von der Planung bis zum fertigen Dach."

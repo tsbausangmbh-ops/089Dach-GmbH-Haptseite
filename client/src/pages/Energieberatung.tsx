@@ -14,7 +14,6 @@ import CTACluster from "@/components/CTACluster";
 import ProofStack from "@/components/ProofStack";
 import ProcessSteps from "@/components/ProcessSteps";
 import heroImage from "@assets/generated_images/new_solar_panel_installation.png";
-import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import ImageGallery from "@/components/ImageGallery";
 import energieImg1 from "@assets/generated_images/new_solar_panel_installation.png";
@@ -309,10 +308,6 @@ export default function Energieberatung() {
       <ProofStack title="Warum 089Dach für Ihre Förderprojekte?" />
 
       <LeadFunnel />
-      <RelatedServices 
-        currentPage="energieberatung" 
-        relatedIds={["dachsanierung", "architektenleistungen", "ratgeber", "faq"]}
-      />
       <Contact 
         title="Förderung für Ihre Dachsanierung sichern?"
         description="Wir beraten Sie zu KfW- und BAFA-Förderprogrammen und übernehmen die Antragstellung. Jetzt Förderberatung anfordern."

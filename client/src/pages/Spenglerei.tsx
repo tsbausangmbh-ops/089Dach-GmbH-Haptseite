@@ -13,7 +13,6 @@ import copperGutter from "@assets/generated_images/new_copper_chimney_flashing.p
 import ImageGallery from "@/components/ImageGallery";
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema, ServiceSchema, ProductServiceSchema, FAQPageSchema, LocalBusinessSchema } from "@/components/SEO";
-import RelatedServices from "@/components/RelatedServices";
 import BackButton from "@/components/BackButton";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import { SpenglereiMuenchenContent } from "@/components/SEOContent";
@@ -347,10 +346,6 @@ export default function Spenglerei() {
       />
 
       <LeadFunnel />
-      <RelatedServices 
-        currentPage="spenglerei" 
-        relatedIds={["bedachungen", "dachsanierung", "wartung", "referenzen"]}
-      />
       <Contact 
         title="Dachrinne, Kamineinfassung oder Blecharbeiten?"
         description="Unser Spenglermeister berät Sie zu allen Metallarbeiten am Dach. Fordern Sie Ihr individuelles Angebot für Spenglerarbeiten an."

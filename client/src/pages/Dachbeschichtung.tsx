@@ -11,7 +11,6 @@ import ProblemSolutionSection from "@/components/ProblemSolutionSection";
 import CTACluster from "@/components/CTACluster";
 import ProofStack from "@/components/ProofStack";
 import ProcessSteps from "@/components/ProcessSteps";
-import RelatedServices from "@/components/RelatedServices";
 import BackButton from "@/components/BackButton";
 import ImageGallery from "@/components/ImageGallery";
 import beschichtungImg1 from "@assets/generated_images/aged_red_roof_tiles_closeup.png";
@@ -308,11 +307,6 @@ export default function Dachbeschichtung() {
       />
 
       <LeadFunnel />
-      <RelatedServices currentPage="dachbeschichtung" relatedIds={["dachsanierung", "reparaturservice", "wartung", "energieberatung"]} />
-      <Contact 
-        title="Ehrliche Beratung zur Dachbeschichtung?"
-        description="Wir prüfen, ob eine Beschichtung für Ihr Dach sinnvoll ist – und sagen Ihnen ehrlich, wenn eine Sanierung die bessere Lösung wäre."
-      />
       <Footer />
     </div>
   );

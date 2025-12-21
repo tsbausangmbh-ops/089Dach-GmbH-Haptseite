@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, Euro, ArrowRight, Calculator, Home, Warehouse, Info } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema, FAQPageSchema, ArticleSchema } from "@/components/SEO";
-import RelatedServices from "@/components/RelatedServices";
 import BackButton from "@/components/BackButton";
 
 export default function RatgeberKosten() {
@@ -232,11 +231,6 @@ export default function RatgeberKosten() {
       </section>
 
       <LeadFunnel />
-      <RelatedServices currentPage="ratgeber" relatedIds={["dachsanierung", "energieberatung", "referenzen", "beratung"]} />
-      <Contact 
-        title="Konkrete Kosten für Ihr Dachprojekt?"
-        description="Wir erstellen Ihnen ein unverbindliches Festpreis-Angebot innerhalb von 24 Stunden – ohne versteckte Kosten."
-      />
       <Footer />
     </div>
   );

@@ -15,7 +15,6 @@ import brightAttic from "@assets/generated_images/bright_attic_room_after_skylig
 import roofWindow from "@assets/generated_images/modern_roof_window_installation.png";
 import damagedDormer from "@assets/generated_images/damaged_dormer_window_before.png";
 import ImageGallery from "@/components/ImageGallery";
-import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import { DachfensterMuenchenContent } from "@/components/SEOContent";
 import AIEnhancedFAQ from "@/components/AIEnhancedFAQ";
@@ -323,10 +322,6 @@ export default function Dachfenster() {
       <ProofStack title="Warum 089Dach für Ihre Dachfenster?" />
 
       <LeadFunnel />
-      <RelatedServices 
-        currentPage="dachfenster" 
-        relatedIds={["gaubenbau", "dachsanierung", "energieberatung", "referenzen"]}
-      />
       <Contact 
         title="Mehr Licht unterm Dach gewünscht?"
         description="Wir beraten Sie zu Einbau, Austausch und Reparatur von Dachfenstern aller Marken. Jetzt kostenloses Beratungsgespräch vereinbaren."

@@ -5,7 +5,6 @@ import Contact from "@/components/Contact";
 import LeadFunnel from "@/components/LeadFunnel";
 import heroImage from "@assets/generated_images/roofer_explaining_to_homeowner.png";
 import SEO, { BreadcrumbSchema, FAQPageSchema } from "@/components/SEO";
-import RelatedServices from "@/components/RelatedServices";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import { Button } from "@/components/ui/button";
 import { Phone, Shield, Users, Award, CheckCircle2, Clock, Euro, Heart, Quote } from "lucide-react";
@@ -318,10 +317,6 @@ export default function FAQ() {
       </section>
 
       <LeadFunnel />
-      <RelatedServices 
-        currentPage="faq" 
-        relatedIds={["ratgeber", "referenzen", "dachsanierung", "wartung"]}
-      />
       <Contact 
         title="Ihre Frage ist nicht dabei?"
         description="Kein Problem – rufen Sie uns an oder schreiben Sie uns. Wir nehmen uns Zeit für Ihre Fragen, auch wenn Sie noch gar nicht wissen, ob Sie etwas machen wollen."

@@ -4,7 +4,6 @@ import LeadFunnel from "@/components/LeadFunnel";
 import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, ArrowRight, Euro, Clock, Shield, Award } from "lucide-react";
 import SEO, { BreadcrumbSchema, ServiceSchema, FAQPageSchema, ProductServiceSchema } from "@/components/SEO";
-import RelatedServices from "@/components/RelatedServices";
 import BackButton from "@/components/BackButton";
 import EinzugsgebietSection from "@/components/EinzugsgebietSection";
 import { Link } from "wouter";
@@ -156,8 +155,6 @@ export default function DachdeckerPreise() {
 
       <EinzugsgebietSection />
       <LeadFunnel />
-      <RelatedServices currentPage="dachdecker" />
-      <Footer />
     </div>
   );
 }

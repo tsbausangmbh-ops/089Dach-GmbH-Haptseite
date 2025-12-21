@@ -6,7 +6,6 @@ import { Button } from "@/components/ui/button";
 import { Phone, Clock, CheckCircle2, Shield, AlertTriangle, Zap, ArrowRight, MessageCircle } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema, FAQPageSchema, LocalBusinessSchema } from "@/components/SEO";
-import RelatedServices from "@/components/RelatedServices";
 import BackButton from "@/components/BackButton";
 import ImageGallery from "@/components/ImageGallery";
 import AIEnhancedFAQ from "@/components/AIEnhancedFAQ";
@@ -327,10 +326,6 @@ export default function Notdienst() {
       <ProofStack title="Warum 089Dach im Notfall?" />
 
       <LeadFunnel />
-      <RelatedServices 
-        currentPage="reparaturservice" 
-        relatedIds={["reparaturservice", "dachsanierung", "bedachungen", "faq"]}
-      />
       <Contact 
         title="Dach-Notfall? Wir sind sofort für Sie da!"
         description="Bei Wasserschaden, Sturmschaden oder undichtem Dach: Rufen Sie uns jetzt an oder senden Sie Ihre Anfrage – wir melden uns schnellstmöglich."

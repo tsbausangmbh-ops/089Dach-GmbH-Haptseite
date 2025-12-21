@@ -7,7 +7,6 @@ import portraitGF from "@assets/generated_images/german_businessman_portrait_gf.
 import portraitMeister from "@assets/generated_images/german_master_roofer_portrait.png";
 import heroImage from "@assets/generated_images/roofing_team_partnership_handshake.png";
 import SEO, { BreadcrumbSchema, AboutPageSchema, FAQPageSchema } from "@/components/SEO";
-import RelatedServices from "@/components/RelatedServices";
 import BackButton from "@/components/BackButton";
 import { KeywordLink, HighlightedKeyword } from "@/components/KeywordLink";
 
@@ -421,10 +420,6 @@ export default function UeberUns() {
         </div>
       </section>
 
-      <RelatedServices 
-        currentPage="ueber-uns" 
-        relatedIds={["referenzen", "faq", "dachsanierung", "stadtteile"]}
-      />
       <Contact 
         title="Lernen Sie uns persönlich kennen"
         description="Vereinbaren Sie einen Termin und überzeugen Sie sich von unserer Qualität und Zuverlässigkeit – seit 1998 in München."

@@ -17,7 +17,6 @@ import CTACluster from "@/components/CTACluster";
 import ProofStack from "@/components/ProofStack";
 import ProcessSteps from "@/components/ProcessSteps";
 import heroImage from "@assets/generated_images/roofer_tools_arranged_cleanly.png";
-import RelatedServices from "@/components/RelatedServices";
 import BackButton from "@/components/BackButton";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import ImageGallery from "@/components/ImageGallery";
@@ -546,10 +545,6 @@ export default function Wartung() {
       />
 
       <LeadFunnel />
-      <RelatedServices 
-        currentPage="wartung" 
-        relatedIds={["reparaturservice", "dachsanierung", "spenglerei", "faq"]}
-      />
       <Footer />
     </div>
   );

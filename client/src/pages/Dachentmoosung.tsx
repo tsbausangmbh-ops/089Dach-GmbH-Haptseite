@@ -4,7 +4,6 @@ import LeadFunnel from "@/components/LeadFunnel";
 import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, ArrowRight, Leaf, Sparkles, Shield } from "lucide-react";
 import SEO, { BreadcrumbSchema, ServiceSchema, FAQPageSchema, ProductServiceSchema } from "@/components/SEO";
-import RelatedServices from "@/components/RelatedServices";
 import BackButton from "@/components/BackButton";
 import EinzugsgebietSection from "@/components/EinzugsgebietSection";
 import { Link } from "wouter";
@@ -138,8 +137,6 @@ export default function Dachentmoosung() {
 
       <EinzugsgebietSection />
       <LeadFunnel />
-      <RelatedServices currentPage="wartung" />
-      <Footer />
     </div>
   );
 }

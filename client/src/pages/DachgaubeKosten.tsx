@@ -4,7 +4,6 @@ import LeadFunnel from "@/components/LeadFunnel";
 import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, ArrowRight, Home, Shield, Sun, Euro } from "lucide-react";
 import SEO, { BreadcrumbSchema, ServiceSchema, FAQPageSchema, ProductServiceSchema } from "@/components/SEO";
-import RelatedServices from "@/components/RelatedServices";
 import BackButton from "@/components/BackButton";
 import EinzugsgebietSection from "@/components/EinzugsgebietSection";
 import { Link } from "wouter";
@@ -155,8 +154,6 @@ export default function DachgaubeKosten() {
 
       <EinzugsgebietSection />
       <LeadFunnel />
-      <RelatedServices currentPage="gaube" />
-      <Footer />
     </div>
   );
 }
