@@ -113,7 +113,7 @@ export default function Home() {
             <div className="flex flex-wrap gap-2">
               {[
                 { text: "Was kostet Dachsanierung?", href: "/ratgeber/kosten" },
-                { text: "KfW Förderung 2025", href: "/ratgeber/foerderung" },
+                { text: "Förderung für Dachsanierung in München 2025", href: "/ratgeber/foerderung" },
                 { text: "Sturmschaden – Was tun?", href: "/ratgeber/sturmschaden" },
                 { text: "Dachziegel Vergleich", href: "/ratgeber/materialien" },
                 { text: "Dachdämmung Tipps", href: "/ratgeber/daemmung" },
