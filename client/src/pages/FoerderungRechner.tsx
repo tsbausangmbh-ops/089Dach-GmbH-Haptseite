@@ -167,6 +167,41 @@ export default function FoerderungRechner() {
 
       <BackButton />
 
+      <section className="py-8 bg-stone-50">
+        <div className="container mx-auto px-4 md:px-6 lg:px-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="bg-white p-6 rounded-xl border border-stone-200 text-center">
+              <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Euro className="h-6 w-6 text-primary" />
+              </div>
+              <h3 className="font-bold text-secondary mb-2">Bis zu 20% Förderung</h3>
+              <p className="text-sm text-muted-foreground">KfW und BAFA fördern energetische Dachdämmung mit attraktiven Zuschüssen</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl border border-stone-200 text-center">
+              <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <TrendingDown className="h-6 w-6 text-primary" />
+              </div>
+              <h3 className="font-bold text-secondary mb-2">30% Heizkosten sparen</h3>
+              <p className="text-sm text-muted-foreground">Eine gute Dachdämmung senkt Ihre Energiekosten dauerhaft und spürbar</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl border border-stone-200 text-center">
+              <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Clock className="h-6 w-6 text-primary" />
+              </div>
+              <h3 className="font-bold text-secondary mb-2">Schnelle Amortisation</h3>
+              <p className="text-sm text-muted-foreground">Ihre Investition rechnet sich oft schon nach 8-12 Jahren</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl border border-stone-200 text-center">
+              <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Leaf className="h-6 w-6 text-primary" />
+              </div>
+              <h3 className="font-bold text-secondary mb-2">Klima schützen</h3>
+              <p className="text-sm text-muted-foreground">Weniger Heizenergie bedeutet weniger CO₂-Ausstoß für eine bessere Zukunft</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="py-4 md:py-6">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
