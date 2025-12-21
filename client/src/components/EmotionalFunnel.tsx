@@ -149,10 +149,10 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
             Rückruf in 2 Minuten anfordern.
           </p>
           
-          <div className="flex flex-col gap-2 md:gap-4 justify-center mb-4 md:mb-6">
+          <div className="flex flex-col md:flex-row gap-2 md:gap-4 justify-center mb-4 md:mb-6">
             <Button 
               size="default"
-              className="bg-white text-primary hover:bg-gray-100 font-bold text-sm md:text-lg px-6 md:px-10 py-4 md:py-7 rounded-xl shadow-xl w-full md:w-auto md:mx-auto"
+              className="bg-white text-primary hover:bg-gray-100 font-bold text-sm md:text-lg px-6 md:px-10 py-4 md:py-7 rounded-xl shadow-xl w-full md:w-auto"
               onClick={onOpenFunnel}
               data-testid="button-final-cta"
             >
@@ -162,7 +162,7 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
             <Button 
               size="default"
               variant="outline"
-              className="border-white text-white hover:bg-white hover:text-primary font-bold text-sm md:text-lg px-6 md:px-10 py-4 md:py-7 rounded-xl w-full md:w-auto md:mx-auto"
+              className="border-white text-white hover:bg-white hover:text-primary font-bold text-sm md:text-lg px-6 md:px-10 py-4 md:py-7 rounded-xl w-full md:w-auto"
               asChild
               data-testid="button-final-call"
             >
