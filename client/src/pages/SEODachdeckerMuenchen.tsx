@@ -5,6 +5,7 @@ import { Phone, MapPin, Clock, CheckCircle2, Star, Shield, Award, ArrowRight, Wr
 import LeadFunnel from "@/components/LeadFunnel";
 import ImageGallery from "@/components/ImageGallery";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import BackButton from "@/components/BackButton";
 import heroImage from "@assets/generated_images/realistic_villa_slate_roof_after.png";
 import roofBefore from "@assets/generated_images/realistic_damaged_roof_obermenzing_before.png";
 import roofAfter from "@assets/generated_images/realistic_renovated_roof_obermenzing_after.png";
@@ -214,6 +215,8 @@ export default function SEODachdeckerMuenchen() {
           </div>
         </div>
       </div>
+
+      <BackButton />
 
       <section className="py-4 md:py-6 bg-white">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">

@@ -8,6 +8,7 @@ import portraitMeister from "@assets/generated_images/german_master_roofer_portr
 import heroImage from "@assets/generated_images/roofing_team_partnership_handshake.png";
 import SEO, { BreadcrumbSchema, AboutPageSchema, FAQPageSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
+import BackButton from "@/components/BackButton";
 import { KeywordLink, HighlightedKeyword } from "@/components/KeywordLink";
 
 export default function UeberUns() {
@@ -374,6 +375,8 @@ export default function UeberUns() {
           </div>
         </div>
       </section>
+
+      <BackButton />
 
       <section className="py-4 md:py-8 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-12">

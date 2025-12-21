@@ -12,6 +12,7 @@ import CTACluster from "@/components/CTACluster";
 import ProofStack from "@/components/ProofStack";
 import ProcessSteps from "@/components/ProcessSteps";
 import RelatedServices from "@/components/RelatedServices";
+import BackButton from "@/components/BackButton";
 import ImageGallery from "@/components/ImageGallery";
 import beschichtungImg1 from "@assets/generated_images/aged_red_roof_tiles_closeup.png";
 import beschichtungImg2 from "@assets/generated_images/historic_biberschwanz_roof_with_patina.png";
@@ -81,6 +82,8 @@ export default function Dachbeschichtung() {
           </div>
         </div>
       </div>
+
+      <BackButton />
 
       <section className="py-3 md:py-4">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">

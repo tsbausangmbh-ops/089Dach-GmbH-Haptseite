@@ -18,6 +18,7 @@ import ProofStack from "@/components/ProofStack";
 import ProcessSteps from "@/components/ProcessSteps";
 import heroImage from "@assets/generated_images/roofer_tools_arranged_cleanly.png";
 import RelatedServices from "@/components/RelatedServices";
+import BackButton from "@/components/BackButton";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import ImageGallery from "@/components/ImageGallery";
 import wartungImg1 from "@assets/generated_images/roofer_working_on_red_tile_roof_munich.png";
@@ -166,6 +167,8 @@ export default function Wartung() {
           </div>
         </div>
       </section>
+
+      <BackButton />
 
       {/* Trust Badges */}
       <div className="bg-stone-100 py-2 border-b border-stone-200">

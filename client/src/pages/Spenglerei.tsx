@@ -14,6 +14,7 @@ import ImageGallery from "@/components/ImageGallery";
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema, ServiceSchema, ProductServiceSchema, FAQPageSchema, LocalBusinessSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
+import BackButton from "@/components/BackButton";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import { SpenglereiMuenchenContent } from "@/components/SEOContent";
 import AIEnhancedFAQ from "@/components/AIEnhancedFAQ";
@@ -137,6 +138,8 @@ export default function Spenglerei() {
           </div>
         </div>
       </section>
+
+      <BackButton />
 
       {/* Main Content */}
       <section className="py-4">

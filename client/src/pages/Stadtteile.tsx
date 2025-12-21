@@ -6,6 +6,7 @@ import { MapPin, Phone, ArrowRight, CheckCircle2 } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema, FAQPageSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
+import BackButton from "@/components/BackButton";
 
 const stadtteile = [
   { name: "Obermenzing", entfernung: "0 km", link: "/dachdecker-obermenzing", highlight: true },
@@ -117,6 +118,8 @@ export default function Stadtteile() {
           </div>
         </div>
       </section>
+
+      <BackButton />
 
       <section className="py-3 md:py-4">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">

@@ -13,6 +13,7 @@ import { toast } from "sonner";
 import SEO, { BreadcrumbSchema, ServiceSchema, HowToSchema, ProductServiceSchema, FAQPageSchema, LocalBusinessSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/damaged_red_tile_roof_before.png";
 import RelatedServices from "@/components/RelatedServices";
+import BackButton from "@/components/BackButton";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import { DachreparaturMuenchenContent } from "@/components/SEOContent";
 import AIEnhancedFAQ from "@/components/AIEnhancedFAQ";
@@ -170,6 +171,8 @@ export default function Reparaturservice() {
           </div>
         </div>
       </section>
+
+      <BackButton />
 
       {/* Trust Badges */}
       <div className="bg-stone-100 py-2 border-b border-stone-200">

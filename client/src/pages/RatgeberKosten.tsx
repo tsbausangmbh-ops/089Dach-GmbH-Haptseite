@@ -6,6 +6,7 @@ import { Phone, CheckCircle2, Euro, ArrowRight, Calculator, Home, Warehouse, Inf
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema, FAQPageSchema, ArticleSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
+import BackButton from "@/components/BackButton";
 
 export default function RatgeberKosten() {
   return (
@@ -57,6 +58,8 @@ export default function RatgeberKosten() {
           </div>
         </div>
       </section>
+
+      <BackButton />
 
       <section className="py-3 md:py-4">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">

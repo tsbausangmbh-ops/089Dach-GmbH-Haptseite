@@ -5,6 +5,7 @@ import { MapPin, CheckCircle2, Star, Shield, Calendar, Euro, Calculator, Trendin
 import LeadFunnel from "@/components/LeadFunnel";
 import ImageGallery from "@/components/ImageGallery";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import BackButton from "@/components/BackButton";
 import heroImage from "@assets/generated_images/modern_house_with_anthracite_roof.png";
 import damageBefore from "@assets/generated_images/realistic_damaged_roof_obermenzing_before.png";
 import repairedAfter from "@assets/generated_images/obermenzing_house_new_roof_after.png";
@@ -120,6 +121,8 @@ export default function SEODachdeckerKosten() {
           </div>
         </div>
       </div>
+
+      <BackButton />
 
       <section className="py-4 md:py-6 bg-white">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">

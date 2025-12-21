@@ -7,6 +7,7 @@ import { Phone, CheckCircle2, Shield, Clock, Award, ArrowRight, Droplets, Thermo
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema, ProductServiceSchema, FAQPageSchema, LocalBusinessSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
+import BackButton from "@/components/BackButton";
 import ImageGallery from "@/components/ImageGallery";
 import AIEnhancedFAQ from "@/components/AIEnhancedFAQ";
 import ProblemSolutionSection from "@/components/ProblemSolutionSection";
@@ -90,6 +91,8 @@ export default function Flachdach() {
           </div>
         </div>
       </div>
+
+      <BackButton />
 
       <section className="py-3 md:py-4">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">

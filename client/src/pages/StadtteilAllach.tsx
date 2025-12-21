@@ -6,6 +6,7 @@ import { Phone, MapPin, Clock, CheckCircle2, Star, Shield, Award, ArrowRight } f
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
+import BackButton from "@/components/BackButton";
 import heroImage from "@assets/generated_images/realistic_row_house_roof_after.png";
 import imgDachrinnenreinigung from "@assets/stock_images/rain_gutter_full_lea_dbbf6bfe.jpg";
 import imgSturmschaden from "@assets/generated_images/damaged_roof_with_missing_tiles.png";
@@ -124,6 +125,8 @@ export default function StadtteilAllach() {
           </div>
         </div>
       </div>
+
+      <BackButton />
 
       <section className="py-3 md:py-4">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">

@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, ArrowRight, Search, Camera, FileText, Shield, Calendar } from "lucide-react";
 import SEO, { BreadcrumbSchema, ServiceSchema, FAQPageSchema, ProductServiceSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
+import BackButton from "@/components/BackButton";
 import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
 
@@ -96,6 +97,8 @@ export default function Dachinspektion() {
           </div>
         </div>
       </section>
+
+      <BackButton />
 
       <section className="py-6 bg-white">
         <div className="container mx-auto px-4">

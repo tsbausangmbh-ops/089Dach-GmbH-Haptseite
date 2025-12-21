@@ -6,6 +6,7 @@ import { Phone, MapPin, Clock, CheckCircle2, Star, Shield, Award, ArrowRight } f
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
+import BackButton from "@/components/BackButton";
 import heroImage from "@assets/generated_images/historic_building_roof_renovation.png";
 
 const stadtteilData = {
@@ -118,6 +119,8 @@ export default function UmlandDachau() {
           </div>
         </div>
       </div>
+
+      <BackButton />
 
       <section className="py-3 md:py-4">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">

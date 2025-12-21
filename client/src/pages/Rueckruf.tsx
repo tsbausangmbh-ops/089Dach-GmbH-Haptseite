@@ -10,6 +10,7 @@ import { PhoneCall, ArrowRight, ShieldCheck, Award, Shield, Users, Clock, CheckC
 import { useState, useEffect } from "react";
 import { toast } from "sonner";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import BackButton from "@/components/BackButton";
 import heroImage from "@assets/generated_images/friendly_woman_on_phone_in_office.png";
 import { format, isSameDay } from "date-fns";
 import { de } from "date-fns/locale";
@@ -200,6 +201,8 @@ export default function Rueckruf() {
           </div>
         </div>
       </div>
+
+      <BackButton />
 
       <section className="py-3 bg-white" id="formular">
         <div className="container mx-auto px-6 lg:px-12">

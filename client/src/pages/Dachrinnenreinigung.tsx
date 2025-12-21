@@ -12,6 +12,7 @@ import CTACluster from "@/components/CTACluster";
 import ProofStack from "@/components/ProofStack";
 import ProcessSteps from "@/components/ProcessSteps";
 import RelatedServices from "@/components/RelatedServices";
+import BackButton from "@/components/BackButton";
 import ImageGallery from "@/components/ImageGallery";
 import rinnenImg1 from "@assets/generated_images/copper_roof_gutter_detail.png";
 import rinnenImg2 from "@assets/generated_images/bogenhausen_chimney_old_flashing.png";
@@ -88,6 +89,8 @@ export default function Dachrinnenreinigung() {
           </div>
         </div>
       </div>
+
+      <BackButton />
 
       <section className="py-3 md:py-4">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">

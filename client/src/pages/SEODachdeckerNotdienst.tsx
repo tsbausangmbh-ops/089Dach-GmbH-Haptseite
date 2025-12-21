@@ -5,6 +5,7 @@ import { Phone, MapPin, Clock, CheckCircle2, AlertTriangle, Shield, Calendar, Za
 import LeadFunnel from "@/components/LeadFunnel";
 import ImageGallery from "@/components/ImageGallery";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
+import BackButton from "@/components/BackButton";
 import heroImage from "@assets/generated_images/realistic_restored_historic_roof_after.png";
 import stormDamage from "@assets/generated_images/damaged_red_tile_roof_before.png";
 import repairedRoof from "@assets/generated_images/completed_roof_showcase_reference.png";
@@ -133,6 +134,8 @@ export default function SEODachdeckerNotdienst() {
           </div>
         </div>
       </div>
+
+      <BackButton />
 
       <section className="py-4 md:py-6 bg-white">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">

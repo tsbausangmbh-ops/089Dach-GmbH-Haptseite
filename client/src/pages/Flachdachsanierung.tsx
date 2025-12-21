@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Layers, Droplets, Thermometer, Shield, Clock, Award, Phone, CheckCircle2, ArrowRight, Leaf } from "lucide-react";
 import SEO, { BreadcrumbSchema, ServiceSchema, ProductServiceSchema, FAQPageSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
+import BackButton from "@/components/BackButton";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
 
 export default function Flachdachsanierung() {
@@ -111,6 +112,8 @@ export default function Flachdachsanierung() {
           </div>
         </div>
       </div>
+
+      <BackButton />
 
       <section className="py-4 md:py-6">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">

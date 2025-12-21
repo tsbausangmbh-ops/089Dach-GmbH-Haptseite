@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Phone, AlertTriangle, ArrowRight, Droplets, Shield, Clock, CheckCircle2 } from "lucide-react";
 import SEO, { BreadcrumbSchema, ServiceSchema, FAQPageSchema, ProductServiceSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
+import BackButton from "@/components/BackButton";
 import EinzugsgebietSection from "@/components/EinzugsgebietSection";
 import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
@@ -70,6 +71,8 @@ export default function DachUndichtWasTun() {
           </div>
         </div>
       </section>
+
+      <BackButton />
 
       <section className="py-6 bg-red-50 border-b-4 border-red-500">
         <div className="container mx-auto px-4">
