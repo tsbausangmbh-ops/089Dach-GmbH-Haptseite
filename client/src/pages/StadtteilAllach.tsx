@@ -34,11 +34,20 @@ const stadtteilData = {
     "Dachrinnen-Erneuerung"
   ],
   nachbarStadtteile: ["Obermenzing", "Moosach", "Karlsfeld", "Untermenzing"],
-  referenzProjekt: {
-    titel: "Siedlungshaus Allach",
-    beschreibung: "Komplettsanierung eines historischen Siedlungshauses aus den 1920er Jahren mit originalgetreuen Biberschwanzziegeln und moderner Dämmung.",
-    jahr: "2024"
-  }
+  referenzProjekte: [
+    {
+      titel: "Siedlungshaus Allach",
+      beschreibung: "Komplettsanierung eines historischen Siedlungshauses aus den 1920er Jahren mit originalgetreuen Biberschwanzziegeln und moderner Dämmung.",
+      jahr: "2024",
+      img: "imgDachsanierung"
+    },
+    {
+      titel: "Einfamilienhaus Untermenzing",
+      beschreibung: "Neueindeckung mit anthrazitfarbenen Frankfurter Pfannen inkl. Dachdämmung nach EnEV und neuen Dachfenstern.",
+      jahr: "2023",
+      img: "imgDachreparatur"
+    }
+  ]
 };
 
 function NearbyServiceSchema() {
@@ -183,21 +192,26 @@ export default function StadtteilAllach() {
                 </div>
               </div>
 
-              <div className="bg-secondary/5 rounded-xl p-4 md:p-6">
+              <div>
+                <h3 className="text-xl md:text-2xl font-heading font-bold text-secondary mb-4">Referenzprojekte in {stadtteilData.name}</h3>
                 <div className="grid grid-cols-2 gap-6">
-                  <div className="aspect-[4/3] overflow-hidden rounded-lg">
-                    <img 
-                      src={imgDachsanierung} 
-                      alt={`Referenzprojekt ${stadtteilData.referenzProjekt.titel}`}
-                      className="w-full h-full object-cover"
-                      loading="lazy"
-                    />
-                  </div>
-                  <div className="flex flex-col justify-center">
-                    <h3 className="text-xl font-heading font-bold text-secondary mb-2">Referenzprojekt: {stadtteilData.referenzProjekt.titel}</h3>
-                    <p className="text-muted-foreground mb-2">{stadtteilData.referenzProjekt.beschreibung}</p>
-                    <p className="text-sm text-primary font-medium">Fertigstellung: {stadtteilData.referenzProjekt.jahr}</p>
-                  </div>
+                  {stadtteilData.referenzProjekte.map((projekt, idx) => (
+                    <div key={idx} className="bg-secondary/5 rounded-xl overflow-hidden">
+                      <div className="aspect-[4/3] overflow-hidden">
+                        <img 
+                          src={idx === 0 ? imgDachsanierung : imgDachreparatur} 
+                          alt={`Referenzprojekt ${projekt.titel}`}
+                          className="w-full h-full object-cover"
+                          loading="lazy"
+                        />
+                      </div>
+                      <div className="p-4">
+                        <h4 className="font-bold text-secondary mb-2">{projekt.titel}</h4>
+                        <p className="text-sm text-muted-foreground mb-2">{projekt.beschreibung}</p>
+                        <p className="text-xs text-primary font-medium">Fertigstellung: {projekt.jahr}</p>
+                      </div>
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>
