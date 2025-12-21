@@ -47,7 +47,10 @@ export default function Dachrinnenreinigung() {
       ]} />
       <LocalBusinessSchema />
       <Navbar />
-      <AIBeraterSection />
+      <AIBeraterSection 
+        pageName="Dachrinnenreinigung"
+        description="Was kostet eine Dachrinnenreinigung? Wie oft ist sie nötig? Unser KI-Berater beantwortet Ihre Fragen sofort."
+      />
       
       <section className="pt-6 pb-8 md:pt-10 md:pb-12 bg-secondary relative overflow-hidden min-h-[35vh] flex items-center">
         <div className="absolute inset-0 z-0">

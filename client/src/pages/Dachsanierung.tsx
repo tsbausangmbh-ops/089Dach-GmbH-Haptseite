@@ -77,7 +77,10 @@ export default function Dachsanierung() {
       ]} />
       <LocalBusinessSchema />
       <Navbar />
-      <AIBeraterSection />
+      <AIBeraterSection 
+        pageName="Dachsanierung"
+        description="Was kostet eine Dachsanierung? Welche Förderung gibt es? Unser KI-Berater beantwortet Ihre Fragen zur Dachsanierung sofort."
+      />
       
       {/* Hero Section */}
       <section className="pt-6 pb-8 md:pt-10 md:pb-12 bg-secondary relative overflow-hidden min-h-[40vh] flex items-center">

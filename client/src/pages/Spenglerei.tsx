@@ -60,7 +60,10 @@ export default function Spenglerei() {
       ]} />
       <LocalBusinessSchema />
       <Navbar />
-      <AIBeraterSection />
+      <AIBeraterSection 
+        pageName="Spenglerei"
+        description="Fragen zu Dachrinnen, Kupferarbeiten oder Kamineinfassungen? Unser KI-Berater beantwortet Ihre Spenglerei-Fragen."
+      />
       
       {/* Hero Section */}
       <section className="pt-6 pb-8 md:pt-10 md:pb-12 bg-secondary relative overflow-hidden min-h-[40vh] flex items-center">

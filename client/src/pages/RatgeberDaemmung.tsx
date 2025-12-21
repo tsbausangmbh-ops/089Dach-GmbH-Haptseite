@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import BackButton from "@/components/BackButton";
+import AIBeraterSection from "@/components/AIBeraterSection";
 import Contact from "@/components/Contact";
 import LeadFunnel from "@/components/LeadFunnel";
 import { Button } from "@/components/ui/button";
@@ -55,6 +56,10 @@ export default function RatgeberDaemmung() {
         ]}
       />
       <Navbar />
+      <AIBeraterSection 
+        pageName="Dachdämmung Ratgeber"
+        description="Aufsparren oder Zwischensparren? Unser KI-Berater erklärt die Dämmarten."
+      />
       
       <section className="relative min-h-[500px] flex items-center">
         <div 

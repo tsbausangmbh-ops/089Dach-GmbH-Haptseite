@@ -1,5 +1,6 @@
 import Navigation from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import AIBeraterSection from "@/components/AIBeraterSection";
 import LeadFunnel from "@/components/LeadFunnel";
 import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, ArrowRight, AlertTriangle, Shield } from "lucide-react";
@@ -49,6 +50,10 @@ export default function AsbestDachSanieren() {
       <FAQPageSchema faqs={faqs} />
       
       <Navigation />
+      <AIBeraterSection 
+        pageName="Asbest-Dach sanieren"
+        description="Wie erkenne ich Asbest im Dach? Unser KI-Berater erklärt die sichere Sanierung."
+      />
       
       <section className="relative py-20 text-white overflow-hidden min-h-[60vh] flex items-center">
         <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${heroImage})` }} />

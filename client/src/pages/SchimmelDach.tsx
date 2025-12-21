@@ -1,5 +1,6 @@
 import Navigation from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import AIBeraterSection from "@/components/AIBeraterSection";
 import LeadFunnel from "@/components/LeadFunnel";
 import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, ArrowRight, AlertTriangle, Wind, Thermometer, Home, Shield } from "lucide-react";
@@ -61,6 +62,10 @@ export default function SchimmelDach() {
       <FAQPageSchema faqs={faqs} />
       
       <Navigation />
+      <AIBeraterSection 
+        pageName="Schimmel im Dachbereich"
+        description="Woher kommt Schimmel am Dach? Unser KI-Berater erklärt Ursachen und Lösungen."
+      />
       
       <section className="relative py-20 text-white overflow-hidden min-h-[60vh] flex items-center">
         <div 

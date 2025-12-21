@@ -76,7 +76,10 @@ export default function Notdienst() {
       <EmergencyServiceSchema />
       <LocalBusinessSchema />
       <Navbar />
-      <AIBeraterSection />
+      <AIBeraterSection 
+        pageName="Dach-Notdienst"
+        description="Sturmschaden oder Wassereinbruch? Unser KI-Berater erklärt, was Sie tun können bis wir kommen."
+      />
       
       <section className="pt-6 pb-8 md:pt-10 md:pb-12 bg-red-700 relative overflow-hidden min-h-[40vh] flex items-center">
         <div className="absolute inset-0 bg-gradient-to-r from-red-800 via-red-700 to-red-600"></div>

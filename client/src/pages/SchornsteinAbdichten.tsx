@@ -1,5 +1,6 @@
 import Navigation from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import AIBeraterSection from "@/components/AIBeraterSection";
 import LeadFunnel from "@/components/LeadFunnel";
 import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, ArrowRight, Flame, Shield, Droplets } from "lucide-react";
@@ -40,6 +41,10 @@ export default function SchornsteinAbdichten() {
       <FAQPageSchema faqs={faqs} />
       
       <Navigation />
+      <AIBeraterSection 
+        pageName="Schornstein abdichten"
+        description="Wie wird ein Schornstein abgedichtet? Unser KI-Berater erklärt Materialien und Kosten."
+      />
       
       <section className="relative py-20 text-white overflow-hidden min-h-[60vh] flex items-center">
         <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${heroImage})` }} />

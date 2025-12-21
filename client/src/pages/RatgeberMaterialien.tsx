@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Contact from "@/components/Contact";
+import AIBeraterSection from "@/components/AIBeraterSection";
 import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, ArrowRight, X, Home, Warehouse, Award, ThumbsUp, ThumbsDown } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
@@ -87,6 +88,10 @@ export default function RatgeberMaterialien() {
       ]} />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Ratgeber", url: "/ratgeber" }, { name: "Materialien", url: "/ratgeber/materialien" }]} />
       <Navbar />
+      <AIBeraterSection 
+        pageName="Dach-Materialien"
+        description="Ziegel, Schiefer oder Blech? Unser KI-Berater vergleicht die Materialien."
+      />
       
       <section className="pt-6 pb-8 md:pt-10 md:pb-12 bg-secondary relative overflow-hidden min-h-[35vh] flex items-center">
         <div className="absolute inset-0 bg-gradient-to-r from-secondary via-secondary/95 to-secondary/80"></div>

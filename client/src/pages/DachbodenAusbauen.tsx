@@ -1,5 +1,6 @@
 import Navigation from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import AIBeraterSection from "@/components/AIBeraterSection";
 import LeadFunnel from "@/components/LeadFunnel";
 import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, ArrowRight, Home, Euro, Shield } from "lucide-react";
@@ -42,6 +43,10 @@ export default function DachbodenAusbauen() {
       <FAQPageSchema faqs={faqs} />
       
       <Navigation />
+      <AIBeraterSection 
+        pageName="Dachboden ausbauen"
+        description="Genehmigung, Dämmung, Kosten? Unser KI-Berater beantwortet Ihre Fragen zum Dachausbau."
+      />
       
       <section className="relative py-20 text-white overflow-hidden min-h-[60vh] flex items-center">
         <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${heroImage})` }} />

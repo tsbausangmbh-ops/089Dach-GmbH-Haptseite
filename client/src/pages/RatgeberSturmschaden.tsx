@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Contact from "@/components/Contact";
+import AIBeraterSection from "@/components/AIBeraterSection";
 import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, AlertTriangle, ArrowRight, Clock, Shield, FileText, Camera, Zap } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
@@ -48,6 +49,10 @@ export default function RatgeberSturmschaden() {
         ]}
       />
       <Navbar />
+      <AIBeraterSection 
+        pageName="Sturmschaden melden"
+        description="Wie melde ich einen Sturmschaden richtig? Unser KI-Berater erklärt die Schritte."
+      />
       
       <section className="pt-6 pb-8 md:pt-10 md:pb-12 bg-secondary relative overflow-hidden min-h-[35vh] flex items-center">
         <div className="absolute inset-0 bg-gradient-to-r from-secondary via-secondary/95 to-secondary/80"></div>

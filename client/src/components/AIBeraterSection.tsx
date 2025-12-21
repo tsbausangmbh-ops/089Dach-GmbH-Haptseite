@@ -1,12 +1,29 @@
 import { Bot, MessageCircle } from "lucide-react";
 
-export default function AIBeraterSection() {
+interface AIBeraterSectionProps {
+  pageName?: string;
+  description?: string;
+  buttonText?: string;
+}
+
+export default function AIBeraterSection({ 
+  pageName,
+  description,
+  buttonText = "Fragen zu Kosten, Ablauf & Materialien"
+}: AIBeraterSectionProps) {
   const openChat = () => {
     const chatButton = document.querySelector('[data-testid="button-chat-toggle"]') as HTMLButtonElement;
     if (chatButton) {
       chatButton.click();
     }
   };
+
+  const title = pageName 
+    ? `Ihr persönlicher Berater für ${pageName}`
+    : "Ihr persönlicher 089Dach GmbH-Berater";
+
+  const desc = description 
+    || "Stellen Sie Ihre Fragen zu Kosten, Ablauf, Materialien und mehr. Unser KI-Berater gibt Ihnen sofort Auskunft.";
 
   return (
     <section className="py-3 md:py-4 bg-gradient-to-r from-primary via-primary/90 to-primary">
@@ -18,10 +35,10 @@ export default function AIBeraterSection() {
             </div>
             <div className="text-white">
               <h3 className="text-xl md:text-2xl font-heading font-bold">
-                Ihr persönlicher 089Dach GmbH-Berater
+                {title}
               </h3>
               <p className="text-white/90 text-sm md:text-base mt-1">
-                Stellen Sie Ihre Fragen zu Kosten, Ablauf, Materialien und mehr. Unser KI-Berater gibt Ihnen sofort Auskunft.
+                {desc}
               </p>
             </div>
           </div>
@@ -31,7 +48,7 @@ export default function AIBeraterSection() {
             data-testid="button-open-ai-berater"
           >
             <MessageCircle className="h-5 w-5" />
-            Fragen zu Kosten, Ablauf & Materialien
+            {buttonText}
           </button>
         </div>
       </div>

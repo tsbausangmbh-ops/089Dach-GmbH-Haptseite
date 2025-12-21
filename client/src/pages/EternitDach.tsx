@@ -1,5 +1,6 @@
 import Navigation from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import AIBeraterSection from "@/components/AIBeraterSection";
 import LeadFunnel from "@/components/LeadFunnel";
 import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, ArrowRight, AlertTriangle, Shield, FileText, Truck, Euro, Award } from "lucide-react";
@@ -61,6 +62,10 @@ export default function EternitDach() {
       <FAQPageSchema faqs={faqs} />
       
       <Navigation />
+      <AIBeraterSection 
+        pageName="Eternit-Dach sanieren"
+        description="Enthält mein Dach Asbest? Wie läuft die Sanierung ab? Unser KI-Berater gibt Auskunft."
+      />
       
       <section className="relative py-20 text-white overflow-hidden min-h-[60vh] flex items-center">
         <div 

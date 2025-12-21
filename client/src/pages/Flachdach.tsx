@@ -49,7 +49,10 @@ export default function Flachdach() {
       ]} />
       <LocalBusinessSchema />
       <Navbar />
-      <AIBeraterSection />
+      <AIBeraterSection 
+        pageName="Flachdach"
+        description="Fragen zu Flachdach-Abdichtung, Kosten oder Begrünung? Unser KI-Berater hilft Ihnen bei allen Flachdach-Themen."
+      />
       
       <section className="pt-6 pb-8 md:pt-10 md:pb-12 bg-secondary relative overflow-hidden min-h-[35vh] flex items-center">
         <div className="absolute inset-0 bg-gradient-to-r from-secondary via-secondary/95 to-secondary/80"></div>

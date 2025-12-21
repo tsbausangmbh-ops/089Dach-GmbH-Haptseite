@@ -1,5 +1,6 @@
 import Navigation from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import AIBeraterSection from "@/components/AIBeraterSection";
 import LeadFunnel from "@/components/LeadFunnel";
 import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, ArrowRight, Wind, AlertTriangle, FileText, Camera, Clock, Shield } from "lucide-react";
@@ -61,6 +62,10 @@ export default function SturmschadenDach() {
       <FAQPageSchema faqs={faqs} />
       
       <Navigation />
+      <AIBeraterSection 
+        pageName="Sturmschaden Dach"
+        description="Wie melde ich einen Sturmschaden? Unser KI-Berater erklärt die Schritte."
+      />
       
       <section className="relative py-20 text-white overflow-hidden min-h-[60vh] flex items-center">
         <div 

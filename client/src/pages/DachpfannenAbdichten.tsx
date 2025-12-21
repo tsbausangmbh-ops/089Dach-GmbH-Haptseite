@@ -1,5 +1,6 @@
 import Navigation from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import AIBeraterSection from "@/components/AIBeraterSection";
 import LeadFunnel from "@/components/LeadFunnel";
 import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, ArrowRight, Droplets, Shield, Wrench, Home, AlertTriangle } from "lucide-react";
@@ -75,6 +76,10 @@ export default function DachpfannenAbdichten() {
       <FAQPageSchema faqs={faqs} />
       
       <Navigation />
+      <AIBeraterSection 
+        pageName="Dachpfannen abdichten"
+        description="Wann lohnt sich Abdichten vs. Tauschen? Unser KI-Berater erklärt die Optionen."
+      />
       
       <section className="relative py-20 text-white overflow-hidden min-h-[60vh] flex items-center">
         <div 

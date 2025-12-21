@@ -1,5 +1,6 @@
 import Navigation from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import AIBeraterSection from "@/components/AIBeraterSection";
 import LeadFunnel from "@/components/LeadFunnel";
 import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, ArrowRight, Search, Camera, FileText, Shield, Calendar } from "lucide-react";
@@ -63,6 +64,10 @@ export default function Dachinspektion() {
       <FAQPageSchema faqs={faqs} />
       
       <Navigation />
+      <AIBeraterSection 
+        pageName="Dachinspektion"
+        description="Was wird bei einer Dachinspektion geprüft? Wie oft ist sie nötig? Unser KI-Berater beantwortet Ihre Fragen."
+      />
       
       <section className="relative py-20 text-white overflow-hidden min-h-[60vh] flex items-center">
         <div 

@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Contact from "@/components/Contact";
+import AIBeraterSection from "@/components/AIBeraterSection";
 import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, Euro, ArrowRight, Calculator, Home, Warehouse, Info } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
@@ -34,6 +35,10 @@ export default function RatgeberKosten() {
         keywords={["Dachsanierung Kosten", "Preise pro m²", "München 2025", "Steildach", "Flachdach"]}
       />
       <Navbar />
+      <AIBeraterSection 
+        pageName="Dachdecker Kosten"
+        description="Was kostet ein Dachdecker? Unser KI-Berater gibt einen Preisüberblick."
+      />
       
       <section className="pt-6 pb-8 md:pt-10 md:pb-12 bg-secondary relative overflow-hidden min-h-[35vh] flex items-center">
         <div className="absolute inset-0 bg-gradient-to-r from-secondary via-secondary/95 to-secondary/80"></div>
