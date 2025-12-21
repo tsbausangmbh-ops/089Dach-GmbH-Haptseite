@@ -51,6 +51,7 @@ export default function DachUndichtWasTun() {
       
       <Navigation />
       
+      <main id="main-content" role="main" tabIndex={-1}>
       <section className="relative py-20 text-white overflow-hidden min-h-[60vh] flex items-center">
         <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${heroImage})` }} />
         <div className="absolute inset-0 bg-gradient-to-r from-red-900/95 via-red-900/85 to-red-800/70"></div>
@@ -171,6 +172,7 @@ export default function DachUndichtWasTun() {
         subheadline="Wir zeigen Ihnen die Lösung."
         description="Dach undicht? Was tun? Schnelle Hilfe vom Münchner Dachdecker in 24h."
       />
+      </main>
     </div>
   );
 }

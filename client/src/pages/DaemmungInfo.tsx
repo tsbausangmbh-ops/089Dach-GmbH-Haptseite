@@ -91,6 +91,7 @@ export default function DaemmungInfo() {
         { name: "Dachdämmung verstehen", url: "/daemmung-info" }
       ]} />
       <Navbar />
+      <main id="main-content" role="main" tabIndex={-1}>
       <AIBeraterSection />
       
       <section className="relative min-h-[400px] flex items-center">
@@ -505,6 +506,7 @@ export default function DaemmungInfo() {
         </div>
       </section>
 
+      </main>
       <Footer />
     </div>
   );

@@ -1,152 +1,165 @@
 import { Switch, Route, useLocation } from "wouter";
 import { queryClient } from "./lib/queryClient";
 import { QueryClientProvider } from "@tanstack/react-query";
-import { useEffect } from "react";
+import { useEffect, Suspense, lazy } from "react";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/not-found";
 import Home from "@/pages/Home";
-import Bedachungen from "@/pages/Bedachungen";
-import Leistungen from "@/pages/Leistungen";
-import Spenglerei from "@/pages/Spenglerei";
-import FAQ from "@/pages/FAQ";
-import Datenschutz from "@/pages/Datenschutz";
-import CookiePolicy from "@/pages/CookiePolicy";
-import Referenzen from "@/pages/Referenzen";
-import Ratgeber from "@/pages/Ratgeber";
-import Impressum from "@/pages/Impressum";
-import ContactPage from "@/pages/ContactPage";
-import UeberUns from "@/pages/UeberUns";
-import Dachsanierung from "@/pages/Dachsanierung";
-import Dachfenster from "@/pages/Dachfenster";
-import Reparaturservice from "@/pages/Reparaturservice";
-import Energieberatung from "@/pages/Energieberatung";
-import Architektenleistungen from "@/pages/Architektenleistungen";
-import Gaubenbau from "@/pages/Gaubenbau";
-import Wartung from "@/pages/Wartung";
-import Rueckruf from "@/pages/Rueckruf";
-import KostenloseBeratung from "@/pages/KostenloseBeratung";
-import AGB from "@/pages/AGB";
-import RatgeberDaemmung from "@/pages/RatgeberDaemmung";
-import RatgeberLeckortung from "@/pages/RatgeberLeckortung";
-import RatgeberBeratung from "@/pages/RatgeberBeratung";
-import RatgeberSturmschaden from "@/pages/RatgeberSturmschaden";
-import RatgeberKosten from "@/pages/RatgeberKosten";
-import RatgeberFoerderung from "@/pages/RatgeberFoerderung";
-import RatgeberMaterialien from "@/pages/RatgeberMaterialien";
-import Heizkostenrechner from "@/pages/Heizkostenrechner";
-import DaemmungInfo from "@/pages/DaemmungInfo";
-import Stadtteile from "@/pages/Stadtteile";
-import StadtteilPasing from "@/pages/StadtteilPasing";
-import StadtteilLaim from "@/pages/StadtteilLaim";
-import StadtteilSchwabing from "@/pages/StadtteilSchwabing";
-import StadtteilSendling from "@/pages/StadtteilSendling";
-import StadtteilGraefelfing from "@/pages/StadtteilGraefelfing";
-import StadtteilBogenhausen from "@/pages/StadtteilBogenhausen";
-import StadtteilNymphenburg from "@/pages/StadtteilNymphenburg";
-import StadtteilHarlaching from "@/pages/StadtteilHarlaching";
-import StadtteilTrudering from "@/pages/StadtteilTrudering";
-import StadtteilMoosach from "@/pages/StadtteilMoosach";
-import StadtteilAllach from "@/pages/StadtteilAllach";
-import StadtteilKarlsfeld from "@/pages/StadtteilKarlsfeld";
-import StadtteilFasanerie from "@/pages/StadtteilFasanerie";
-import StadtteilFeldmoching from "@/pages/StadtteilFeldmoching";
-import StadtteilNeuhausen from "@/pages/StadtteilNeuhausen";
-import StadtteilObermenzing from "@/pages/StadtteilObermenzing";
-import StadtteilSolln from "@/pages/StadtteilSolln";
-import StadtteilGiesing from "@/pages/StadtteilGiesing";
-import UmlandGermering from "@/pages/UmlandGermering";
-import UmlandStarnberg from "@/pages/UmlandStarnberg";
-import UmlandDachau from "@/pages/UmlandDachau";
-import UmlandFreising from "@/pages/UmlandFreising";
-import UmlandErding from "@/pages/UmlandErding";
-import UmlandUnterschleissheim from "@/pages/UmlandUnterschleissheim";
-import UmlandFuerstenfeldbruck from "@/pages/UmlandFuerstenfeldbruck";
-import UmlandOttobrunn from "@/pages/UmlandOttobrunn";
-import UmlandGroebenzell from "@/pages/UmlandGroebenzell";
-import UmlandPuchheim from "@/pages/UmlandPuchheim";
-import UmlandOlching from "@/pages/UmlandOlching";
-import UmlandEching from "@/pages/UmlandEching";
-import StadtteilRamersdorf from "@/pages/StadtteilRamersdorf";
-import StadtteilHaidhausen from "@/pages/StadtteilHaidhausen";
-import StadtteilMilbertshofen from "@/pages/StadtteilMilbertshofen";
-import StadtteilMaxvorstadt from "@/pages/StadtteilMaxvorstadt";
-import StadtteilLehel from "@/pages/StadtteilLehel";
-import StadtteilThalkirchen from "@/pages/StadtteilThalkirchen";
-import StadtteilHadern from "@/pages/StadtteilHadern";
-import StadtteilWestend from "@/pages/StadtteilWestend";
-import StadtteilBergAmLaim from "@/pages/StadtteilBergAmLaim";
-import StadtteilAltstadt from "@/pages/StadtteilAltstadt";
-import StadtteilIsarvorstadt from "@/pages/StadtteilIsarvorstadt";
-import StadtteilSchwanthalerhoehe from "@/pages/StadtteilSchwanthalerhoehe";
-import StadtteilSendlingWestpark from "@/pages/StadtteilSendlingWestpark";
-import StadtteilFreimann from "@/pages/StadtteilFreimann";
-import StadtteilHasenbergl from "@/pages/StadtteilHasenbergl";
-import StadtteilOberfoehring from "@/pages/StadtteilOberfoehring";
-import StadtteilAubing from "@/pages/StadtteilAubing";
-import Flachdach from "@/pages/Flachdach";
-import Sturmschaden from "@/pages/Sturmschaden";
-import Dachbeschichtung from "@/pages/Dachbeschichtung";
-import Dachrinnenreinigung from "@/pages/Dachrinnenreinigung";
-import Notdienst from "@/pages/Notdienst";
-import Dachreparatur from "@/pages/Dachreparatur";
-import Flachdachsanierung from "@/pages/Flachdachsanierung";
-import DachUndicht from "@/pages/DachUndicht";
-import DachziegelAustauschen from "@/pages/DachziegelAustauschen";
-import Dachdaemmung from "@/pages/Dachdaemmung";
-import Dachinspektion from "@/pages/Dachinspektion";
-import SturmschadenDach from "@/pages/SturmschadenDach";
-import DachrinneReparieren from "@/pages/DachrinneReparieren";
-import SchimmelDach from "@/pages/SchimmelDach";
-import EternitDach from "@/pages/EternitDach";
-import DachpfannenAbdichten from "@/pages/DachpfannenAbdichten";
-import DachAbdichten from "@/pages/DachAbdichten";
-import DachNeuEindecken from "@/pages/DachNeuEindecken";
-import Dachdecker from "@/pages/Dachdecker";
-import SEODachdeckerMuenchen from "@/pages/SEODachdeckerMuenchen";
-import SEODachdeckerUmgebung from "@/pages/SEODachdeckerUmgebung";
-import SEODachdeckerSpengler from "@/pages/SEODachdeckerSpengler";
-import SEODachdeckerKosten from "@/pages/SEODachdeckerKosten";
-import SEODachdeckerNotdienst from "@/pages/SEODachdeckerNotdienst";
-import DachDecken from "@/pages/DachDecken";
-import DachsanierungKosten from "@/pages/DachsanierungKosten";
-import DachdeckerPreise from "@/pages/DachdeckerPreise";
-import DachUndichtWasTun from "@/pages/DachUndichtWasTun";
-import FlachdachAbdichten from "@/pages/FlachdachAbdichten";
-import DachgaubeKosten from "@/pages/DachgaubeKosten";
-import DachfensterEinbauen from "@/pages/DachfensterEinbauen";
-import DachrinneErneuern from "@/pages/DachrinneErneuern";
-import BlechdachKosten from "@/pages/BlechdachKosten";
-import CarportDach from "@/pages/CarportDach";
-import GartenhausDach from "@/pages/GartenhausDach";
-import TerrassendachMuenchen from "@/pages/TerrassendachMuenchen";
-import VordachMontage from "@/pages/VordachMontage";
-import DachbodenAusbauen from "@/pages/DachbodenAusbauen";
-import SchornsteinAbdichten from "@/pages/SchornsteinAbdichten";
-import Dachentmoosung from "@/pages/Dachentmoosung";
-import SchneefanggitterMontage from "@/pages/SchneefanggitterMontage";
-import DachstuhlErneuern from "@/pages/DachstuhlErneuern";
-import FirstziegelAustauschen from "@/pages/FirstziegelAustauschen";
-import KehleDachReparieren from "@/pages/KehleDachReparieren";
-import DachuebertandVerkleiden from "@/pages/DachuebertandVerkleiden";
-import OrtgangErneuern from "@/pages/OrtgangErneuern";
-import TraufblechMontieren from "@/pages/TraufblechMontieren";
-import SolaranlageDach from "@/pages/SolaranlageDach";
-import DachbegruenungKosten from "@/pages/DachbegruenungKosten";
-import AsbestDachSanieren from "@/pages/AsbestDachSanieren";
-import DachgeschossDaemmen from "@/pages/DachgeschossDaemmen";
-import WalmdachKosten from "@/pages/WalmdachKosten";
-import SatteldachKosten from "@/pages/SatteldachKosten";
-import DachziegelKaufen from "@/pages/DachziegelKaufen";
-import DachbeschichtungKosten from "@/pages/DachbeschichtungKosten";
-import FoerderungRechner from "@/pages/FoerderungRechner";
 import CookieConsent from "@/components/CookieConsent";
 import BackgroundLogo from "@/components/BackgroundLogo";
 import { LocalBusinessSchema } from "@/components/SEO";
 import FloatingCTA from "@/components/FloatingCTA";
-import ChristmasPopup from "@/components/ChristmasPopup";
-import NewYearPopup from "@/components/NewYearPopup";
 import Redirect from "@/components/Redirect";
+
+// Lazy-loaded pages for better performance (Code-Splitting)
+const Bedachungen = lazy(() => import("@/pages/Bedachungen"));
+const Leistungen = lazy(() => import("@/pages/Leistungen"));
+const Spenglerei = lazy(() => import("@/pages/Spenglerei"));
+const FAQ = lazy(() => import("@/pages/FAQ"));
+const Datenschutz = lazy(() => import("@/pages/Datenschutz"));
+const CookiePolicy = lazy(() => import("@/pages/CookiePolicy"));
+const Referenzen = lazy(() => import("@/pages/Referenzen"));
+const Ratgeber = lazy(() => import("@/pages/Ratgeber"));
+const Impressum = lazy(() => import("@/pages/Impressum"));
+const ContactPage = lazy(() => import("@/pages/ContactPage"));
+const UeberUns = lazy(() => import("@/pages/UeberUns"));
+const Dachsanierung = lazy(() => import("@/pages/Dachsanierung"));
+const Dachfenster = lazy(() => import("@/pages/Dachfenster"));
+const Reparaturservice = lazy(() => import("@/pages/Reparaturservice"));
+const Energieberatung = lazy(() => import("@/pages/Energieberatung"));
+const Architektenleistungen = lazy(() => import("@/pages/Architektenleistungen"));
+const Gaubenbau = lazy(() => import("@/pages/Gaubenbau"));
+const Wartung = lazy(() => import("@/pages/Wartung"));
+const Rueckruf = lazy(() => import("@/pages/Rueckruf"));
+const KostenloseBeratung = lazy(() => import("@/pages/KostenloseBeratung"));
+const AGB = lazy(() => import("@/pages/AGB"));
+const RatgeberDaemmung = lazy(() => import("@/pages/RatgeberDaemmung"));
+const RatgeberLeckortung = lazy(() => import("@/pages/RatgeberLeckortung"));
+const RatgeberBeratung = lazy(() => import("@/pages/RatgeberBeratung"));
+const RatgeberSturmschaden = lazy(() => import("@/pages/RatgeberSturmschaden"));
+const RatgeberKosten = lazy(() => import("@/pages/RatgeberKosten"));
+const RatgeberFoerderung = lazy(() => import("@/pages/RatgeberFoerderung"));
+const RatgeberMaterialien = lazy(() => import("@/pages/RatgeberMaterialien"));
+const Heizkostenrechner = lazy(() => import("@/pages/Heizkostenrechner"));
+const DaemmungInfo = lazy(() => import("@/pages/DaemmungInfo"));
+const Stadtteile = lazy(() => import("@/pages/Stadtteile"));
+const StadtteilPasing = lazy(() => import("@/pages/StadtteilPasing"));
+const StadtteilLaim = lazy(() => import("@/pages/StadtteilLaim"));
+const StadtteilSchwabing = lazy(() => import("@/pages/StadtteilSchwabing"));
+const StadtteilSendling = lazy(() => import("@/pages/StadtteilSendling"));
+const StadtteilGraefelfing = lazy(() => import("@/pages/StadtteilGraefelfing"));
+const StadtteilBogenhausen = lazy(() => import("@/pages/StadtteilBogenhausen"));
+const StadtteilNymphenburg = lazy(() => import("@/pages/StadtteilNymphenburg"));
+const StadtteilHarlaching = lazy(() => import("@/pages/StadtteilHarlaching"));
+const StadtteilTrudering = lazy(() => import("@/pages/StadtteilTrudering"));
+const StadtteilMoosach = lazy(() => import("@/pages/StadtteilMoosach"));
+const StadtteilAllach = lazy(() => import("@/pages/StadtteilAllach"));
+const StadtteilKarlsfeld = lazy(() => import("@/pages/StadtteilKarlsfeld"));
+const StadtteilFasanerie = lazy(() => import("@/pages/StadtteilFasanerie"));
+const StadtteilFeldmoching = lazy(() => import("@/pages/StadtteilFeldmoching"));
+const StadtteilNeuhausen = lazy(() => import("@/pages/StadtteilNeuhausen"));
+const StadtteilObermenzing = lazy(() => import("@/pages/StadtteilObermenzing"));
+const StadtteilSolln = lazy(() => import("@/pages/StadtteilSolln"));
+const StadtteilGiesing = lazy(() => import("@/pages/StadtteilGiesing"));
+const UmlandGermering = lazy(() => import("@/pages/UmlandGermering"));
+const UmlandStarnberg = lazy(() => import("@/pages/UmlandStarnberg"));
+const UmlandDachau = lazy(() => import("@/pages/UmlandDachau"));
+const UmlandFreising = lazy(() => import("@/pages/UmlandFreising"));
+const UmlandErding = lazy(() => import("@/pages/UmlandErding"));
+const UmlandUnterschleissheim = lazy(() => import("@/pages/UmlandUnterschleissheim"));
+const UmlandFuerstenfeldbruck = lazy(() => import("@/pages/UmlandFuerstenfeldbruck"));
+const UmlandOttobrunn = lazy(() => import("@/pages/UmlandOttobrunn"));
+const UmlandGroebenzell = lazy(() => import("@/pages/UmlandGroebenzell"));
+const UmlandPuchheim = lazy(() => import("@/pages/UmlandPuchheim"));
+const UmlandOlching = lazy(() => import("@/pages/UmlandOlching"));
+const UmlandEching = lazy(() => import("@/pages/UmlandEching"));
+const StadtteilRamersdorf = lazy(() => import("@/pages/StadtteilRamersdorf"));
+const StadtteilHaidhausen = lazy(() => import("@/pages/StadtteilHaidhausen"));
+const StadtteilMilbertshofen = lazy(() => import("@/pages/StadtteilMilbertshofen"));
+const StadtteilMaxvorstadt = lazy(() => import("@/pages/StadtteilMaxvorstadt"));
+const StadtteilLehel = lazy(() => import("@/pages/StadtteilLehel"));
+const StadtteilThalkirchen = lazy(() => import("@/pages/StadtteilThalkirchen"));
+const StadtteilHadern = lazy(() => import("@/pages/StadtteilHadern"));
+const StadtteilWestend = lazy(() => import("@/pages/StadtteilWestend"));
+const StadtteilBergAmLaim = lazy(() => import("@/pages/StadtteilBergAmLaim"));
+const StadtteilAltstadt = lazy(() => import("@/pages/StadtteilAltstadt"));
+const StadtteilIsarvorstadt = lazy(() => import("@/pages/StadtteilIsarvorstadt"));
+const StadtteilSchwanthalerhoehe = lazy(() => import("@/pages/StadtteilSchwanthalerhoehe"));
+const StadtteilSendlingWestpark = lazy(() => import("@/pages/StadtteilSendlingWestpark"));
+const StadtteilFreimann = lazy(() => import("@/pages/StadtteilFreimann"));
+const StadtteilHasenbergl = lazy(() => import("@/pages/StadtteilHasenbergl"));
+const StadtteilOberfoehring = lazy(() => import("@/pages/StadtteilOberfoehring"));
+const StadtteilAubing = lazy(() => import("@/pages/StadtteilAubing"));
+const Flachdach = lazy(() => import("@/pages/Flachdach"));
+const Sturmschaden = lazy(() => import("@/pages/Sturmschaden"));
+const Dachbeschichtung = lazy(() => import("@/pages/Dachbeschichtung"));
+const Dachrinnenreinigung = lazy(() => import("@/pages/Dachrinnenreinigung"));
+const Notdienst = lazy(() => import("@/pages/Notdienst"));
+const Dachreparatur = lazy(() => import("@/pages/Dachreparatur"));
+const Flachdachsanierung = lazy(() => import("@/pages/Flachdachsanierung"));
+const DachUndicht = lazy(() => import("@/pages/DachUndicht"));
+const DachziegelAustauschen = lazy(() => import("@/pages/DachziegelAustauschen"));
+const Dachdaemmung = lazy(() => import("@/pages/Dachdaemmung"));
+const Dachinspektion = lazy(() => import("@/pages/Dachinspektion"));
+const SturmschadenDach = lazy(() => import("@/pages/SturmschadenDach"));
+const DachrinneReparieren = lazy(() => import("@/pages/DachrinneReparieren"));
+const SchimmelDach = lazy(() => import("@/pages/SchimmelDach"));
+const EternitDach = lazy(() => import("@/pages/EternitDach"));
+const DachpfannenAbdichten = lazy(() => import("@/pages/DachpfannenAbdichten"));
+const DachAbdichten = lazy(() => import("@/pages/DachAbdichten"));
+const DachNeuEindecken = lazy(() => import("@/pages/DachNeuEindecken"));
+const Dachdecker = lazy(() => import("@/pages/Dachdecker"));
+const SEODachdeckerMuenchen = lazy(() => import("@/pages/SEODachdeckerMuenchen"));
+const SEODachdeckerUmgebung = lazy(() => import("@/pages/SEODachdeckerUmgebung"));
+const SEODachdeckerSpengler = lazy(() => import("@/pages/SEODachdeckerSpengler"));
+const SEODachdeckerKosten = lazy(() => import("@/pages/SEODachdeckerKosten"));
+const SEODachdeckerNotdienst = lazy(() => import("@/pages/SEODachdeckerNotdienst"));
+const DachDecken = lazy(() => import("@/pages/DachDecken"));
+const DachsanierungKosten = lazy(() => import("@/pages/DachsanierungKosten"));
+const DachdeckerPreise = lazy(() => import("@/pages/DachdeckerPreise"));
+const DachUndichtWasTun = lazy(() => import("@/pages/DachUndichtWasTun"));
+const FlachdachAbdichten = lazy(() => import("@/pages/FlachdachAbdichten"));
+const DachgaubeKosten = lazy(() => import("@/pages/DachgaubeKosten"));
+const DachfensterEinbauen = lazy(() => import("@/pages/DachfensterEinbauen"));
+const DachrinneErneuern = lazy(() => import("@/pages/DachrinneErneuern"));
+const BlechdachKosten = lazy(() => import("@/pages/BlechdachKosten"));
+const CarportDach = lazy(() => import("@/pages/CarportDach"));
+const GartenhausDach = lazy(() => import("@/pages/GartenhausDach"));
+const TerrassendachMuenchen = lazy(() => import("@/pages/TerrassendachMuenchen"));
+const VordachMontage = lazy(() => import("@/pages/VordachMontage"));
+const DachbodenAusbauen = lazy(() => import("@/pages/DachbodenAusbauen"));
+const SchornsteinAbdichten = lazy(() => import("@/pages/SchornsteinAbdichten"));
+const Dachentmoosung = lazy(() => import("@/pages/Dachentmoosung"));
+const SchneefanggitterMontage = lazy(() => import("@/pages/SchneefanggitterMontage"));
+const DachstuhlErneuern = lazy(() => import("@/pages/DachstuhlErneuern"));
+const FirstziegelAustauschen = lazy(() => import("@/pages/FirstziegelAustauschen"));
+const KehleDachReparieren = lazy(() => import("@/pages/KehleDachReparieren"));
+const DachuebertandVerkleiden = lazy(() => import("@/pages/DachuebertandVerkleiden"));
+const OrtgangErneuern = lazy(() => import("@/pages/OrtgangErneuern"));
+const TraufblechMontieren = lazy(() => import("@/pages/TraufblechMontieren"));
+const SolaranlageDach = lazy(() => import("@/pages/SolaranlageDach"));
+const DachbegruenungKosten = lazy(() => import("@/pages/DachbegruenungKosten"));
+const AsbestDachSanieren = lazy(() => import("@/pages/AsbestDachSanieren"));
+const DachgeschossDaemmen = lazy(() => import("@/pages/DachgeschossDaemmen"));
+const WalmdachKosten = lazy(() => import("@/pages/WalmdachKosten"));
+const SatteldachKosten = lazy(() => import("@/pages/SatteldachKosten"));
+const DachziegelKaufen = lazy(() => import("@/pages/DachziegelKaufen"));
+const DachbeschichtungKosten = lazy(() => import("@/pages/DachbeschichtungKosten"));
+const FoerderungRechner = lazy(() => import("@/pages/FoerderungRechner"));
+const Cookies = lazy(() => import("@/pages/Cookies"));
+
+// Loading component for Suspense
+function PageLoader() {
+  return (
+    <div className="min-h-screen flex items-center justify-center bg-background" role="status" aria-label="Seite wird geladen">
+      <div className="text-center">
+        <div className="w-12 h-12 border-4 border-primary border-t-transparent rounded-full animate-spin mx-auto mb-4" aria-hidden="true"></div>
+        <p className="text-muted-foreground">Wird geladen...</p>
+      </div>
+    </div>
+  );
+}
 
 function ScrollToTop() {
   const [location] = useLocation();
@@ -162,6 +175,7 @@ function Router() {
   return (
     <>
     <ScrollToTop />
+    <Suspense fallback={<PageLoader />}>
     <Switch>
       <Route path="/" component={Home} />
       <Route path="/leistungen" component={Leistungen} />
@@ -188,7 +202,8 @@ function Router() {
       <Route path="/ueber-uns" component={UeberUns} />
       <Route path="/impressum" component={Impressum} />
       <Route path="/datenschutz" component={Datenschutz} />
-      <Route path="/cookies" component={CookiePolicy} />
+      <Route path="/cookies" component={Cookies} />
+      <Route path="/cookie-richtlinie" component={CookiePolicy} />
       <Route path="/agb" component={AGB} />
       <Route path="/rueckruf" component={Rueckruf} />
       <Route path="/beratung" component={KostenloseBeratung} />
@@ -253,121 +268,59 @@ function Router() {
       <Route path="/leistungen/dachbeschichtung" component={Dachbeschichtung} />
       <Route path="/leistungen/dachrinnenreinigung" component={Dachrinnenreinigung} />
       <Route path="/leistungen/notdienst" component={Notdienst} />
-      <Route path="/dachreparatur" component={Dachreparatur} />
-      <Route path="/flachdachsanierung" component={Flachdachsanierung} />
-      <Route path="/dach-undicht" component={DachUndicht} />
-      <Route path="/dachziegel-austauschen" component={DachziegelAustauschen} />
-      <Route path="/dachdaemmung" component={Dachdaemmung} />
-      <Route path="/dachinspektion" component={Dachinspektion} />
-      <Route path="/sturmschaden-dach" component={SturmschadenDach} />
-      <Route path="/dachrinne-reparieren" component={DachrinneReparieren} />
-      <Route path="/schimmel-dach" component={SchimmelDach} />
-      <Route path="/eternit-dach" component={EternitDach} />
-      <Route path="/dachpfannen-abdichten" component={DachpfannenAbdichten} />
-      <Route path="/dach-abdichten" component={DachAbdichten} />
-      <Route path="/dach-neu-eindecken" component={DachNeuEindecken} />
-      <Route path="/dachdecker-muenchen" component={Dachdecker} />
-      <Route path="/dach-decken" component={DachDecken} />
-      <Route path="/dachsanierung-kosten" component={DachsanierungKosten} />
-      <Route path="/dachdecker-preise" component={DachdeckerPreise} />
+      <Route path="/dachreparatur-muenchen" component={Dachreparatur} />
+      <Route path="/flachdachsanierung-muenchen" component={Flachdachsanierung} />
+      <Route path="/dach-undicht-muenchen" component={DachUndicht} />
+      <Route path="/dachziegel-austauschen-muenchen" component={DachziegelAustauschen} />
+      <Route path="/dachdaemmung-muenchen" component={Dachdaemmung} />
+      <Route path="/dachinspektion-muenchen" component={Dachinspektion} />
+      <Route path="/sturmschaden-dach-muenchen" component={SturmschadenDach} />
+      <Route path="/dachrinne-reparieren-muenchen" component={DachrinneReparieren} />
+      <Route path="/schimmel-dach-muenchen" component={SchimmelDach} />
+      <Route path="/eternit-dach-muenchen" component={EternitDach} />
+      <Route path="/dachpfannen-abdichten-muenchen" component={DachpfannenAbdichten} />
+      <Route path="/dach-abdichten-muenchen" component={DachAbdichten} />
+      <Route path="/dach-neu-eindecken-muenchen" component={DachNeuEindecken} />
+      <Route path="/dachdecker" component={Dachdecker} />
+      <Route path="/dach-decken-muenchen" component={DachDecken} />
+      <Route path="/dachsanierung-kosten-muenchen" component={DachsanierungKosten} />
+      <Route path="/dachdecker-preise-muenchen" component={DachdeckerPreise} />
       <Route path="/dach-undicht-was-tun" component={DachUndichtWasTun} />
-      <Route path="/flachdach-abdichten" component={FlachdachAbdichten} />
-      <Route path="/dachgaube-kosten" component={DachgaubeKosten} />
-      <Route path="/dachfenster-einbauen" component={DachfensterEinbauen} />
-      <Route path="/dachrinne-erneuern" component={DachrinneErneuern} />
-      <Route path="/blechdach-kosten" component={BlechdachKosten} />
-      <Route path="/carport-dach" component={CarportDach} />
-      <Route path="/gartenhaus-dach" component={GartenhausDach} />
+      <Route path="/flachdach-abdichten-muenchen" component={FlachdachAbdichten} />
+      <Route path="/dachgaube-kosten-muenchen" component={DachgaubeKosten} />
+      <Route path="/dachfenster-einbauen-muenchen" component={DachfensterEinbauen} />
+      <Route path="/dachrinne-erneuern-muenchen" component={DachrinneErneuern} />
+      <Route path="/blechdach-kosten-muenchen" component={BlechdachKosten} />
+      <Route path="/carport-dach-muenchen" component={CarportDach} />
+      <Route path="/gartenhaus-dach-muenchen" component={GartenhausDach} />
       <Route path="/terrassendach-muenchen" component={TerrassendachMuenchen} />
-      <Route path="/vordach-montage" component={VordachMontage} />
-      <Route path="/dachboden-ausbauen" component={DachbodenAusbauen} />
-      <Route path="/schornstein-abdichten" component={SchornsteinAbdichten} />
-      <Route path="/dachentmoosung" component={Dachentmoosung} />
-      <Route path="/schneefanggitter-montage" component={SchneefanggitterMontage} />
-      <Route path="/dachstuhl-erneuern" component={DachstuhlErneuern} />
-      <Route path="/firstziegel-austauschen" component={FirstziegelAustauschen} />
-      <Route path="/kehle-dach-reparieren" component={KehleDachReparieren} />
-      <Route path="/dachueberstand-verkleiden" component={DachuebertandVerkleiden} />
-      <Route path="/ortgang-erneuern" component={OrtgangErneuern} />
-      <Route path="/traufblech-montieren" component={TraufblechMontieren} />
-      <Route path="/solaranlage-dach" component={SolaranlageDach} />
-      <Route path="/dachbegruenung-kosten" component={DachbegruenungKosten} />
-      <Route path="/asbest-dach-sanieren" component={AsbestDachSanieren} />
-      <Route path="/dachgeschoss-daemmen" component={DachgeschossDaemmen} />
-      <Route path="/walmdach-kosten" component={WalmdachKosten} />
-      <Route path="/satteldach-kosten" component={SatteldachKosten} />
-      <Route path="/dachziegel-kaufen" component={DachziegelKaufen} />
-      <Route path="/dachbeschichtung-kosten" component={DachbeschichtungKosten} />
+      <Route path="/vordach-montage-muenchen" component={VordachMontage} />
+      <Route path="/dachboden-ausbauen-muenchen" component={DachbodenAusbauen} />
+      <Route path="/schornstein-abdichten-muenchen" component={SchornsteinAbdichten} />
+      <Route path="/dachentmoosung-muenchen" component={Dachentmoosung} />
+      <Route path="/schneefanggitter-montage-muenchen" component={SchneefanggitterMontage} />
+      <Route path="/dachstuhl-erneuern-muenchen" component={DachstuhlErneuern} />
+      <Route path="/firstziegel-austauschen-muenchen" component={FirstziegelAustauschen} />
+      <Route path="/kehle-dach-reparieren-muenchen" component={KehleDachReparieren} />
+      <Route path="/dachueberstand-verkleiden-muenchen" component={DachuebertandVerkleiden} />
+      <Route path="/ortgang-erneuern-muenchen" component={OrtgangErneuern} />
+      <Route path="/traufblech-montieren-muenchen" component={TraufblechMontieren} />
+      <Route path="/solaranlage-dach-muenchen" component={SolaranlageDach} />
+      <Route path="/dachbegruenung-kosten-muenchen" component={DachbegruenungKosten} />
+      <Route path="/asbest-dach-sanieren-muenchen" component={AsbestDachSanieren} />
+      <Route path="/dachgeschoss-daemmen-muenchen" component={DachgeschossDaemmen} />
+      <Route path="/walmdach-kosten-muenchen" component={WalmdachKosten} />
+      <Route path="/satteldach-kosten-muenchen" component={SatteldachKosten} />
+      <Route path="/dachziegel-kaufen-muenchen" component={DachziegelKaufen} />
+      <Route path="/dachbeschichtung-kosten-muenchen" component={DachbeschichtungKosten} />
       
-      {/* Redirects für alte URLs */}
-      <Route path="/dachsanierung">{() => <Redirect to="/leistungen/dachsanierung" />}</Route>
-      <Route path="/spenglerei">{() => <Redirect to="/leistungen/spenglerei" />}</Route>
-      <Route path="/bedachungen">{() => <Redirect to="/leistungen/bedachungen" />}</Route>
-      <Route path="/dachfenster">{() => <Redirect to="/leistungen/dachfenster" />}</Route>
-      <Route path="/reparaturservice">{() => <Redirect to="/leistungen/reparaturservice" />}</Route>
-      <Route path="/energieberatung">{() => <Redirect to="/leistungen/energieberatung" />}</Route>
-      <Route path="/architektenleistungen">{() => <Redirect to="/leistungen/architektenleistungen" />}</Route>
-      <Route path="/gaubenbau">{() => <Redirect to="/leistungen/gaubenbau" />}</Route>
-      <Route path="/wartung">{() => <Redirect to="/leistungen/wartung" />}</Route>
-      <Route path="/flachdach">{() => <Redirect to="/leistungen/flachdach" />}</Route>
-      <Route path="/sturmschaden">{() => <Redirect to="/leistungen/sturmschaden" />}</Route>
-      <Route path="/dachbeschichtung">{() => <Redirect to="/leistungen/dachbeschichtung" />}</Route>
-      <Route path="/dachrinnenreinigung">{() => <Redirect to="/leistungen/dachrinnenreinigung" />}</Route>
-      <Route path="/notdienst">{() => <Redirect to="/leistungen/notdienst" />}</Route>
-      <Route path="/daemmung">{() => <Redirect to="/ratgeber/daemmung" />}</Route>
-      <Route path="/leckortung">{() => <Redirect to="/ratgeber/leckortung" />}</Route>
-      <Route path="/foerderung">{() => <Redirect to="/ratgeber/foerderung" />}</Route>
-      <Route path="/kosten">{() => <Redirect to="/ratgeber/kosten" />}</Route>
-      <Route path="/materialien">{() => <Redirect to="/ratgeber/materialien" />}</Route>
-      <Route path="/about">{() => <Redirect to="/ueber-uns" />}</Route>
-      <Route path="/contact">{() => <Redirect to="/kontakt" />}</Route>
-      <Route path="/services">{() => <Redirect to="/leistungen" />}</Route>
-      <Route path="/privacy">{() => <Redirect to="/datenschutz" />}</Route>
-      <Route path="/imprint">{() => <Redirect to="/impressum" />}</Route>
-      <Route path="/callback">{() => <Redirect to="/rueckruf" />}</Route>
-      <Route path="/consultation">{() => <Redirect to="/beratung" />}</Route>
-      <Route path="/projects">{() => <Redirect to="/referenzen" />}</Route>
-      <Route path="/gallery">{() => <Redirect to="/referenzen" />}</Route>
-      <Route path="/portfolio">{() => <Redirect to="/referenzen" />}</Route>
-      <Route path="/blog">{() => <Redirect to="/ratgeber" />}</Route>
-      <Route path="/news">{() => <Redirect to="/ratgeber" />}</Route>
-      <Route path="/articles">{() => <Redirect to="/ratgeber" />}</Route>
-      <Route path="/termin">{() => <Redirect to="/beratung" />}</Route>
-      <Route path="/anfrage">{() => <Redirect to="/beratung" />}</Route>
-      <Route path="/angebot">{() => <Redirect to="/beratung" />}</Route>
-      
-      {/* Sitemap-Redirects für konsistente URLs */}
-      <Route path="/dachdecker-ramersdorf">{() => <Redirect to="/dachdecker-ramersdorf-perlach" />}</Route>
-      <Route path="/dachdecker-haidhausen">{() => <Redirect to="/dachdecker-au-haidhausen" />}</Route>
-      <Route path="/dachdecker-isarvorstadt">{() => <Redirect to="/dachdecker-ludwigsvorstadt-isarvorstadt" />}</Route>
-      <Route path="/dachdecker-aubing">{() => <Redirect to="/dachdecker-aubing-lochhausen-langwied" />}</Route>
-      <Route path="/umland">{() => <Redirect to="/stadtteile" />}</Route>
-      <Route path="/dachsanierung-muenchen">{() => <Redirect to="/leistungen/dachsanierung" />}</Route>
-      <Route path="/dachreparatur-muenchen">{() => <Redirect to="/dachreparatur" />}</Route>
-      <Route path="/flachdach-muenchen">{() => <Redirect to="/leistungen/flachdach" />}</Route>
-      
-      {/* Häufige Tippfehler und alternative Schreibweisen */}
-      <Route path="/dach-sanierung">{() => <Redirect to="/leistungen/dachsanierung" />}</Route>
-      <Route path="/dach-reparatur">{() => <Redirect to="/dachreparatur" />}</Route>
-      <Route path="/flach-dach">{() => <Redirect to="/leistungen/flachdach" />}</Route>
-      <Route path="/sturm-schaden">{() => <Redirect to="/leistungen/sturmschaden" />}</Route>
-      <Route path="/dach-fenster">{() => <Redirect to="/leistungen/dachfenster" />}</Route>
-      <Route path="/gauben-bau">{() => <Redirect to="/leistungen/gaubenbau" />}</Route>
-      <Route path="/energie-beratung">{() => <Redirect to="/leistungen/energieberatung" />}</Route>
-      <Route path="/dachdeckerei">{() => <Redirect to="/dachdecker-muenchen" />}</Route>
-      <Route path="/dachdeckermeister">{() => <Redirect to="/dachdecker-muenchen" />}</Route>
-      <Route path="/dachdecker">{() => <Redirect to="/dachdecker-muenchen" />}</Route>
-      <Route path="/spengler">{() => <Redirect to="/dachdecker-spengler-muenchen" />}</Route>
-      <Route path="/spengler-muenchen">{() => <Redirect to="/dachdecker-spengler-muenchen" />}</Route>
-      <Route path="/notfall">{() => <Redirect to="/dachdecker-notdienst-muenchen" />}</Route>
-      <Route path="/notfall-dach">{() => <Redirect to="/dachdecker-notdienst-muenchen" />}</Route>
-      <Route path="/dach-notdienst">{() => <Redirect to="/dachdecker-notdienst-muenchen" />}</Route>
-      <Route path="/preise">{() => <Redirect to="/dachdecker-muenchen-kosten" />}</Route>
-      <Route path="/kosten-dachdecker">{() => <Redirect to="/dachdecker-muenchen-kosten" />}</Route>
-      <Route path="/preis">{() => <Redirect to="/dachdecker-muenchen-kosten" />}</Route>
+      {/* Redirects for old URLs */}
+      <Route path="/leistungen/dachdecker-muenchen"><Redirect to="/dachdecker-muenchen" /></Route>
+      <Route path="/dachdecker-muenchen-preise"><Redirect to="/dachdecker-preise-muenchen" /></Route>
       
       <Route component={NotFound} />
     </Switch>
+    </Suspense>
     </>
   );
 }
@@ -378,11 +331,10 @@ function App() {
       <TooltipProvider>
         <LocalBusinessSchema />
         <BackgroundLogo />
-        <Toaster />
         <Router />
+        <FloatingCTA />
         <CookieConsent />
-        <ChristmasPopup />
-        <NewYearPopup />
+        <Toaster />
       </TooltipProvider>
     </QueryClientProvider>
   );

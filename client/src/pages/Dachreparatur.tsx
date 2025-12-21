@@ -57,6 +57,7 @@ export default function Dachreparatur() {
         { question: "Kann ich einzelne Dachziegel selbst austauschen?", answer: "Bei niedrigen Dächern und Erfahrung möglich. Wir empfehlen aber den Fachmann - Unfallgefahr und oft ist die Ursache tiefer als nur der Ziegel." }
       ]} />
       <Navbar />
+      <main id="main-content" role="main" tabIndex={-1}>
       <AIBeraterSection />
       
       <section className="relative py-20 text-white overflow-hidden min-h-[60vh] flex items-center">
@@ -190,6 +191,7 @@ export default function Dachreparatur() {
         subheadline="Wir reparieren alle Dachschäden."
         description="Ob undichte Stelle, gebrochene Ziegel oder lockere Bleche – wir beheben das Problem dauerhaft."
       />
+      </main>
     </div>
   );
 }

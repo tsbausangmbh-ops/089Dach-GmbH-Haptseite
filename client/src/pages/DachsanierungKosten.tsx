@@ -51,6 +51,8 @@ export default function DachsanierungKosten() {
       <FAQPageSchema faqs={faqs} />
       
       <Navigation />
+      
+      <main id="main-content" role="main" tabIndex={-1}>
       <AIBeraterSection 
         pageName="Dachsanierung Kosten"
         description="Was kostet eine Dachsanierung pro qm? Unser KI-Berater nennt realistische Preise."
@@ -181,6 +183,7 @@ export default function DachsanierungKosten() {
         subheadline="Wir erstellen ein individuelles Angebot."
         description="Transparente Dachsanierung Kosten vom Münchner Meisterbetrieb – Festpreise ohne versteckte Kosten."
       />
+      </main>
     </div>
   );
 }

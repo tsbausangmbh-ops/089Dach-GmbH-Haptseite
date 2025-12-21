@@ -64,6 +64,7 @@ export default function Dachinspektion() {
       <FAQPageSchema faqs={faqs} />
       
       <Navigation />
+      <main id="main-content" role="main" tabIndex={-1}>
       <AIBeraterSection 
         pageName="Dachinspektion"
         description="Was wird bei einer Dachinspektion geprüft? Wie oft ist sie nötig? Unser KI-Berater beantwortet Ihre Fragen."
@@ -240,6 +241,7 @@ export default function Dachinspektion() {
         subheadline="Wir prüfen den Zustand Ihres Daches."
         description="Ihre Dachinspektion in München für nur 149€ – Fotodokumentation und Protokoll vom Meisterbetrieb inklusive."
       />
+      </main>
     </div>
   );
 }

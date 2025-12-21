@@ -183,6 +183,7 @@ export default function KostenloseBeratung() {
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Kostenlose Beratung", url: "/beratung" }]} />
       <Navbar />
+      <main id="main-content" role="main" tabIndex={-1}>
       
       <section className="pt-10 pb-12 relative overflow-hidden min-h-[50vh] flex items-center">
         <div className="absolute inset-0 z-0">
@@ -622,6 +623,7 @@ export default function KostenloseBeratung() {
         </div>
       </section>
 
+      </main>
       <Footer />
     </div>
   );

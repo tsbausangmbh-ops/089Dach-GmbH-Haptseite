@@ -61,6 +61,7 @@ export default function DachziegelAustauschen() {
       <FAQPageSchema faqs={faqs} />
       
       <Navigation />
+      <main id="main-content" role="main" tabIndex={-1}>
       <AIBeraterSection 
         pageName="Dachziegel austauschen"
         description="Wie erkennt man defekte Ziegel? Was kostet der Austausch? Unser KI-Berater beantwortet Ihre Fragen."
@@ -219,6 +220,7 @@ export default function DachziegelAustauschen() {
         subheadline="Wir tauschen einzelne Ziegel aus."
         description="Schneller Austausch beschädigter Dachziegel durch Ihren Münchner Meisterbetrieb – ab 80€."
       />
+      </main>
     </div>
   );
 }

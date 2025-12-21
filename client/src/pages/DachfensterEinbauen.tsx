@@ -51,6 +51,8 @@ export default function DachfensterEinbauen() {
       <FAQPageSchema faqs={faqs} />
       
       <Navigation />
+      
+      <main id="main-content" role="main" tabIndex={-1}>
       <AIBeraterSection 
         pageName="Dachfenster einbauen"
         description="Velux, Roto oder andere Marken? Unser KI-Berater berät zu Größen und Kosten."
@@ -160,6 +162,7 @@ export default function DachfensterEinbauen() {
         subheadline="Wir montieren Velux, Roto & Co."
         description="Fachgerechter Einbau aller Marken – mehr Licht unterm Dach durch Ihren Münchner Meisterbetrieb."
       />
+      </main>
     </div>
   );
 }

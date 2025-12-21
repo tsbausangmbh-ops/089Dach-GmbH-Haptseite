@@ -67,6 +67,7 @@ export default function Dachdecker() {
       <FAQPageSchema faqs={faqs} />
       
       <Navigation />
+      <main id="main-content" role="main" tabIndex={-1}>
       
       <section className="relative py-20 text-white overflow-hidden min-h-[60vh] flex items-center">
         <div 
@@ -258,6 +259,7 @@ export default function Dachdecker() {
         subheadline="Wir sind Ihr Meisterbetrieb."
         description="Ihr Dachdecker in München seit 1998 – Kompetenz, Erfahrung und faire Preise."
       />
+      </main>
     </div>
   );
 }

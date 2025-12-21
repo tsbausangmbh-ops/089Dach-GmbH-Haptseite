@@ -47,6 +47,8 @@ export default function DachdeckerPreise() {
       <FAQPageSchema faqs={faqs} />
       
       <Navigation />
+      
+      <main id="main-content" role="main" tabIndex={-1}>
       <AIBeraterSection 
         pageName="Dachdecker Preise"
         description="Wie setzen sich Dachdecker-Preise zusammen? Unser KI-Berater erklärt die Kalkulation."
@@ -164,6 +166,7 @@ export default function DachdeckerPreise() {
         subheadline="Wir erstellen transparente Angebote."
         description="Faire Dachdecker Preise in München – transparente Angebote vom Meisterbetrieb."
       />
+      </main>
     </div>
   );
 }

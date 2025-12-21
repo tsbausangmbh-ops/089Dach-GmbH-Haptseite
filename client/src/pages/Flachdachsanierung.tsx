@@ -71,6 +71,7 @@ export default function Flachdachsanierung() {
         { question: "Gibt es Förderung für Flachdachsanierung?", answer: "Ja, wenn Sie gleichzeitig dämmen! BAFA fördert mit 15-20% Zuschuss (bis 6.000€). Voraussetzung: U-Wert ≤ 0,14 W/(m²K) und Energieberater. Wir helfen beim Antrag." }
       ]} />
       <Navbar />
+      <main id="main-content" role="main" tabIndex={-1}>
       <AIBeraterSection />
       
       <section className="relative py-20 text-white overflow-hidden min-h-[60vh] flex items-center">
@@ -224,6 +225,7 @@ export default function Flachdachsanierung() {
         subheadline="Wir sanieren Ihr Flachdach fachgerecht."
         description="Eine professionelle Flachdachsanierung schützt Ihr Gebäude für Jahrzehnte."
       />
+      </main>
     </div>
   );
 }

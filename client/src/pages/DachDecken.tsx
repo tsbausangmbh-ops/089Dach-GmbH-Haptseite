@@ -67,6 +67,7 @@ export default function DachDecken() {
       
       <Navigation />
       
+      <main id="main-content" role="main" tabIndex={-1}>
       <section className="relative py-20 text-white overflow-hidden min-h-[60vh] flex items-center">
         <div 
           className="absolute inset-0 bg-cover bg-center"
@@ -228,6 +229,7 @@ export default function DachDecken() {
         subheadline="Wir beraten zu Material und Kosten."
         description="Professionell Dach decken in München – wir beraten zu Material und Kosten."
       />
+      </main>
     </div>
   );
 }

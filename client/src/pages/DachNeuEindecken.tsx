@@ -88,6 +88,7 @@ export default function DachNeuEindecken() {
       <FAQPageSchema faqs={faqs} />
       
       <Navigation />
+      <main id="main-content" role="main" tabIndex={-1}>
       
       <section className="relative py-20 text-white overflow-hidden min-h-[60vh] flex items-center">
         <div 
@@ -237,6 +238,7 @@ export default function DachNeuEindecken() {
         subheadline="Wir beraten zu Material und Kosten."
         description="Eine neue Dacheindeckung steigert den Wert Ihrer Immobilie und senkt Energiekosten."
       />
+      </main>
     </div>
   );
 }

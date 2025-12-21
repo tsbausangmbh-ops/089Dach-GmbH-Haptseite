@@ -65,6 +65,7 @@ export default function SEODachdeckerKosten() {
       <PriceSchema />
       <Navbar />
       
+      <main id="main-content" role="main" tabIndex={-1}>
       <section className="pt-6 pb-8 md:pt-10 md:pb-12 bg-secondary relative overflow-hidden min-h-[45vh] flex items-center">
         <div className="absolute inset-0 z-0">
           <img
@@ -316,6 +317,7 @@ export default function SEODachdeckerKosten() {
           </a>
         </div>
       </section>
+      </main>
 
       <Footer />
     </div>

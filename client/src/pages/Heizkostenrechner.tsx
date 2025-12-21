@@ -91,6 +91,7 @@ export default function Heizkostenrechner() {
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Heizkosten-Rechner", url: "/heizkostenrechner" }]} />
       <Navbar />
+      <main id="main-content" role="main" tabIndex={-1}>
       
       <section className="relative min-h-[400px] flex items-center">
         <div 
@@ -447,6 +448,7 @@ export default function Heizkostenrechner() {
         </div>
       </section>
 
+      </main>
       <Footer />
     </div>
   );

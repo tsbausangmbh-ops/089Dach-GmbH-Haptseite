@@ -50,6 +50,8 @@ export default function FlachdachAbdichten() {
       <FAQPageSchema faqs={faqs} />
       
       <Navigation />
+      
+      <main id="main-content" role="main" tabIndex={-1}>
       <AIBeraterSection 
         pageName="Flachdach abdichten"
         description="EPDM, Bitumen oder Flüssigabdichtung? Unser KI-Berater erklärt die Unterschiede."
@@ -151,6 +153,7 @@ export default function FlachdachAbdichten() {
         subheadline="Wir dichten Ihr Flachdach dauerhaft ab."
         description="Professionelle Flachdachabdichtung mit Bitumen, EPDM oder PVC – Münchner Meisterbetrieb."
       />
+      </main>
     </div>
   );
 }

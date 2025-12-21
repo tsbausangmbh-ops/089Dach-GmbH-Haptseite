@@ -52,6 +52,8 @@ export default function DachgaubeKosten() {
       <FAQPageSchema faqs={faqs} />
       
       <Navigation />
+      
+      <main id="main-content" role="main" tabIndex={-1}>
       <AIBeraterSection 
         pageName="Dachgaube Kosten"
         description="Was kostet eine Dachgaube? Unser KI-Berater nennt Preise je nach Typ und Größe."
@@ -163,6 +165,7 @@ export default function DachgaubeKosten() {
         subheadline="Wir berechnen Ihr Projekt."
         description="Transparente Dachgaube Kosten – von der Planung bis zur schlüsselfertigen Gaube."
       />
+      </main>
     </div>
   );
 }

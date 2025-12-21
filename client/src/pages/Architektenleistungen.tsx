@@ -51,6 +51,7 @@ export default function Architektenleistungen() {
         { question: "Wie lange dauert Baugenehmigung für Dachausbau?", answer: "In München 6-12 Wochen. Bei Denkmalschutz oder komplexen Projekten länger. Tipp: Mit Bauvoranfrage (4 Wochen) vorab Machbarkeit klären." }
       ]} />
       <Navbar />
+      <main id="main-content" role="main" tabIndex={-1}>
       <AIBeraterSection />
       
       {/* Hero Section */}
@@ -244,6 +245,7 @@ export default function Architektenleistungen() {
         title="Planung für Ihr Dachprojekt benötigt?"
         description="Wir vermitteln Ihnen erfahrene Architekten für Bauanträge und Genehmigungen. Alles aus einer Hand – von der Planung bis zum fertigen Dach."
       />
+      </main>
       <Footer />
     </div>
   );

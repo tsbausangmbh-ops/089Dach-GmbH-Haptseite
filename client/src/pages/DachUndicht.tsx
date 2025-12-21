@@ -59,6 +59,7 @@ export default function DachUndicht() {
         { question: "Wie finde ich die undichte Stelle im Dach?", answer: "Von innen: Wasserflecken und feuchte Stellen am Dachboden. Von außen: Verschobene/gebrochene Ziegel, undichte Anschlüsse. Wir machen professionelle Leckortung mit Sichtkontrolle." }
       ]} />
       <Navbar />
+      <main id="main-content" role="main" tabIndex={-1}>
       <AIBeraterSection 
         pageName="Dach undicht"
         description="Was tun bei einem undichten Dach? Unser KI-Berater erklärt Sofortmaßnahmen und Reparaturoptionen."
@@ -194,6 +195,7 @@ export default function DachUndicht() {
         subheadline="Wir finden und beheben die Ursache."
         description="Schnelle Hilfe bei undichtem Dach – Notabdichtung in 24h vom Münchner Meisterbetrieb."
       />
+      </main>
     </div>
   );
 }

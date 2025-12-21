@@ -60,6 +60,7 @@ export default function Dachdaemmung() {
       <FAQPageSchema faqs={faqs} />
       
       <Navigation />
+      <main id="main-content" role="main" tabIndex={-1}>
       <AIBeraterSection 
         pageName="Dachdämmung"
         description="Welche Dämmung ist die richtige? Wie viel kann ich sparen? Unser KI-Berater beantwortet Ihre Fragen zur Dachdämmung."
@@ -220,6 +221,7 @@ export default function Dachdaemmung() {
         subheadline="Wir zeigen Ihnen die beste Dämmlösung."
         description="Ihre Dachdämmung vom Münchner Meisterbetrieb – bis zu 40% Heizkosten sparen mit KfW-Förderung."
       />
+      </main>
     </div>
   );
 }
