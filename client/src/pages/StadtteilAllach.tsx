@@ -7,7 +7,7 @@ import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import RelatedServices from "@/components/RelatedServices";
 import heroImage from "@assets/generated_images/realistic_row_house_roof_after.png";
-import imgDachrinnenreinigung from "@assets/stock_images/house_roof_gutter_cl_cc2e421b.jpg";
+import imgDachrinnenreinigung from "@assets/stock_images/rain_gutter_full_lea_dbbf6bfe.jpg";
 import imgSturmschaden from "@assets/stock_images/damaged_roof_tiles_m_74e4c530.jpg";
 import imgWasserschaden from "@assets/stock_images/water_stain_ceiling__f643110f.jpg";
 import imgDachUndicht from "@assets/stock_images/roofer_man_working_r_0b569cea.jpg";
