@@ -77,10 +77,10 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
                 size="lg" 
                 className="bg-primary hover:bg-primary/90 text-white font-bold text-lg px-8 py-7 rounded-xl shadow-xl hover:scale-105 transition-transform"
                 asChild
-                data-testid="button-hero-leistungen"
+                data-testid="button-hero-foerderrechner"
               >
-                <a href="/leistungen">
-                  Unsere Dachdecker-Leistungen
+                <a href="/foerderung-rechner">
+                  Förderrechner
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </a>
               </Button>

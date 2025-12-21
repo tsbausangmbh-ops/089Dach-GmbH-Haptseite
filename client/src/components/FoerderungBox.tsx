@@ -1,6 +1,5 @@
-import { Euro, Percent, FileText, Gift, ArrowRight, Phone, Calculator } from "lucide-react";
+import { Euro, ArrowRight, Calculator } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { TextWithKeywordLinks } from "@/components/KeywordLink";
 
 interface FoerderungBoxProps {
   title?: string;
@@ -33,10 +32,10 @@ export default function FoerderungBox({
   ];
 
   return (
-    <section className="py-6 md:py-8 bg-gradient-to-b from-green-50 to-white">
+    <section className="py-6 md:py-8 bg-white">
       <div className="container mx-auto px-4 md:px-6 lg:px-12">
-        <div className="bg-white rounded-2xl shadow-xl border border-green-100 overflow-hidden">
-          <div className="bg-gradient-to-r from-green-600 to-green-500 p-6 md:p-8">
+        <div className="bg-zinc-800 rounded-2xl shadow-xl overflow-hidden">
+          <div className="p-6 md:p-8">
             <div className="flex items-center gap-3 mb-2">
               <div className="bg-white/20 p-2 rounded-lg">
                 <Euro className="h-6 w-6 text-white" />
@@ -45,63 +44,34 @@ export default function FoerderungBox({
                 {title}
               </h2>
             </div>
-            <p className="text-green-100 text-lg">
+            <p className="text-zinc-300 text-lg mb-6">
               {subtitle}
             </p>
-          </div>
-
-          <div className="p-6 md:p-8">
-            <div className="grid md:grid-cols-3 gap-6 mb-8">
+            
+            <div className="grid md:grid-cols-3 gap-4 mb-6">
               {foerderungen.map((item, idx) => (
                 <div 
                   key={idx} 
-                  className="bg-green-50 rounded-xl p-6 border border-green-100 hover:shadow-md transition-shadow"
+                  className="bg-zinc-700 rounded-xl p-4 text-center"
                 >
-                  <div className="flex items-center gap-3 mb-4">
-                    <div className="bg-green-100 p-2 rounded-lg">
-                      <item.icon className="h-5 w-5 text-green-600" />
-                    </div>
-                    <span className="bg-green-600 text-white text-xs font-bold px-2 py-1 rounded">
-                      {item.highlight}
-                    </span>
-                  </div>
-                  <h3 className="text-lg font-bold text-secondary mb-2">{item.title}</h3>
-                  <p className="text-muted-foreground text-sm">{item.description}</p>
+                  <span className="text-2xl font-bold text-primary block mb-1">
+                    {item.highlight}
+                  </span>
+                  <span className="text-zinc-300 text-sm">{item.title}</span>
                 </div>
               ))}
             </div>
-
-            <div className="bg-stone-50 rounded-xl p-6 border border-stone-200">
-              <div className="flex items-start gap-4">
-                <div className="bg-primary/10 p-3 rounded-xl flex-shrink-0">
-                  <FileText className="h-6 w-6 text-primary" />
-                </div>
-                <div className="flex-1">
-                  <h3 className="text-xl font-bold text-secondary mb-2">Unser Förder-Service</h3>
-                  <p className="text-muted-foreground mb-4">
-                    <TextWithKeywordLinks>
-                      Wir beraten Sie kostenlos zu allen Fördermöglichkeiten und vermitteln Sie an zertifizierte Energieberater aus unserem Partnernetzwerk. So sichern Sie sich die maximale Förderung für Ihre Dachsanierung.
-                    </TextWithKeywordLinks>
-                  </p>
-                  <div className="flex flex-wrap gap-3">
-                    <a href="/foerderung-rechner">
-                      <Button className="bg-green-600 hover:bg-green-700" data-testid="foerderung-rechner-btn">
-                        <Calculator className="h-4 w-4 mr-2" /> Ersparnis berechnen
-                      </Button>
-                    </a>
-                    <a href="/beratung">
-                      <Button className="bg-primary hover:bg-primary/90" data-testid="foerderung-beratung-btn">
-                        <ArrowRight className="h-4 w-4 mr-2" /> Förderberatung anfragen
-                      </Button>
-                    </a>
-                    <a href="/rueckruf">
-                      <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-white" data-testid="foerderung-rueckruf-btn">
-                        <Phone className="h-4 w-4 mr-2" /> Rückruf vereinbaren
-                      </Button>
-                    </a>
-                  </div>
-                </div>
-              </div>
+            <div className="flex flex-wrap gap-3">
+              <a href="/foerderung-rechner">
+                <Button className="bg-primary hover:bg-primary/90" data-testid="foerderung-rechner-btn">
+                  <Calculator className="h-4 w-4 mr-2" /> Ersparnis berechnen
+                </Button>
+              </a>
+              <a href="/beratung">
+                <Button variant="outline" className="border-white text-white hover:bg-white hover:text-zinc-800" data-testid="foerderung-beratung-btn">
+                  <ArrowRight className="h-4 w-4 mr-2" /> Förderberatung anfragen
+                </Button>
+              </a>
             </div>
           </div>
         </div>
