@@ -32,7 +32,7 @@ export function DachdeckerKomplettContent() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8 mb-12">
+          <div className="max-w-2xl mx-auto mb-12">
             <div className="bg-white p-6 rounded-xl border border-stone-200">
               <h3 className="text-xl font-bold text-secondary mb-4 flex items-center gap-2">
                 <Award className="h-5 w-5 text-primary" />
@@ -58,35 +58,6 @@ export function DachdeckerKomplettContent() {
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
                   <span>KfW/BAFA-<strong>Förderberatung</strong> für Dachsanierung 2025</span>
-                </li>
-              </ul>
-            </div>
-
-            <div className="bg-white p-6 rounded-xl border border-stone-200">
-              <h3 className="text-xl font-bold text-secondary mb-4 flex items-center gap-2">
-                <Wrench className="h-5 w-5 text-primary" />
-                Unsere Dachdecker-Leistungen
-              </h3>
-              <ul className="space-y-3">
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                  <span><strong>Dachsanierung</strong> & Dacherneuerung</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                  <span><strong>Dachreparatur</strong> & Sturmschaden-Behebung</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                  <span><strong>Flachdach</strong>-Abdichtung & Begrünung</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                  <span><strong>Dachfenster</strong> & Gauben einbauen</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                  <span><strong>Dachrinnen</strong>, Spenglerei & Blecharbeiten</span>
                 </li>
               </ul>
             </div>
