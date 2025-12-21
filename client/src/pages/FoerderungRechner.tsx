@@ -12,7 +12,9 @@ import Contact from "@/components/Contact";
 
 const GRADTAGZAHL_MUENCHEN = 3400;
 const CO2_FACTOR_GAS = 0.2;
+const CO2_FACTOR_OEL = 0.27;
 const CO2_FACTOR_STROM = 0.05;
+const CO2_FACTOR_WAERMEPUMPE = 0.02;
 
 interface DaemmOption {
   name: string;
@@ -46,25 +48,32 @@ const daemmOptionen: DaemmOption[] = [
   }
 ];
 
+type HeizTyp = "gas" | "oel" | "strom" | "waermepumpe";
+
 function berechneErsparnis(
   flaeche: number,
   alterUWert: number,
   neuerUWert: number,
   energiePreis: number,
-  heizTyp: "gas" | "strom"
+  heizTyp: HeizTyp
 ) {
   const deltaU = alterUWert - neuerUWert;
   const waermeVerlustKwh = (flaeche * deltaU * GRADTAGZAHL_MUENCHEN * 24) / 1000;
   const jaehrlicheErsparnis = waermeVerlustKwh * energiePreis;
-  const co2Faktor = heizTyp === "gas" ? CO2_FACTOR_GAS : CO2_FACTOR_STROM;
-  const co2Ersparnis = waermeVerlustKwh * co2Faktor;
+  const co2Faktoren: Record<HeizTyp, number> = {
+    gas: CO2_FACTOR_GAS,
+    oel: CO2_FACTOR_OEL,
+    strom: CO2_FACTOR_STROM,
+    waermepumpe: CO2_FACTOR_WAERMEPUMPE
+  };
+  const co2Ersparnis = waermeVerlustKwh * co2Faktoren[heizTyp];
   return { waermeVerlustKwh, jaehrlicheErsparnis, co2Ersparnis };
 }
 
 export default function FoerderungRechner() {
   const [flaeche, setFlaeche] = useState<number>(120);
   const [alterUWert, setAlterUWert] = useState<number>(1.8);
-  const [heizTyp, setHeizTyp] = useState<"gas" | "strom">("gas");
+  const [heizTyp, setHeizTyp] = useState<HeizTyp>("gas");
   const [energiePreis, setEnergiePreis] = useState<number>(0.12);
 
   const berechnungen = daemmOptionen.map(option => {
@@ -177,20 +186,34 @@ export default function FoerderungRechner() {
 
                 <div>
                   <Label className="text-sm font-medium">Heizungsart</Label>
-                  <div className="flex gap-2 mt-1">
+                  <div className="grid grid-cols-2 gap-2 mt-1">
                     <button
                       onClick={() => { setHeizTyp("gas"); setEnergiePreis(0.12); }}
-                      className={`flex-1 py-2 px-3 rounded-md text-sm font-medium transition-colors ${heizTyp === "gas" ? "bg-primary text-white" : "bg-gray-100 text-gray-700 hover:bg-gray-200"}`}
+                      className={`py-2 px-3 rounded-md text-sm font-medium transition-colors ${heizTyp === "gas" ? "bg-primary text-white" : "bg-gray-100 text-gray-700 hover:bg-gray-200"}`}
                       data-testid="button-gas"
                     >
-                      Gas (12 ct/kWh)
+                      Gas (12 ct)
+                    </button>
+                    <button
+                      onClick={() => { setHeizTyp("oel"); setEnergiePreis(0.10); }}
+                      className={`py-2 px-3 rounded-md text-sm font-medium transition-colors ${heizTyp === "oel" ? "bg-primary text-white" : "bg-gray-100 text-gray-700 hover:bg-gray-200"}`}
+                      data-testid="button-oel"
+                    >
+                      Öl (10 ct)
                     </button>
                     <button
                       onClick={() => { setHeizTyp("strom"); setEnergiePreis(0.35); }}
-                      className={`flex-1 py-2 px-3 rounded-md text-sm font-medium transition-colors ${heizTyp === "strom" ? "bg-primary text-white" : "bg-gray-100 text-gray-700 hover:bg-gray-200"}`}
+                      className={`py-2 px-3 rounded-md text-sm font-medium transition-colors ${heizTyp === "strom" ? "bg-primary text-white" : "bg-gray-100 text-gray-700 hover:bg-gray-200"}`}
                       data-testid="button-strom"
                     >
-                      Strom (35 ct/kWh)
+                      Strom (35 ct)
+                    </button>
+                    <button
+                      onClick={() => { setHeizTyp("waermepumpe"); setEnergiePreis(0.30); }}
+                      className={`py-2 px-3 rounded-md text-sm font-medium transition-colors ${heizTyp === "waermepumpe" ? "bg-primary text-white" : "bg-gray-100 text-gray-700 hover:bg-gray-200"}`}
+                      data-testid="button-waermepumpe"
+                    >
+                      Wärmepumpe
                     </button>
                   </div>
                 </div>
