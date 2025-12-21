@@ -212,24 +212,6 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
               </p>
             </div>
 
-            <div className="max-w-2xl mx-auto mb-12">
-              <div className="bg-white p-6 rounded-xl border border-stone-200">
-                <h3 className="text-xl font-bold text-secondary mb-4 flex items-center gap-2">
-                  <MapPin className="h-5 w-5 text-primary" />
-                  Dachdecker für ganz München
-                </h3>
-                <p className="text-muted-foreground mb-4">
-                  Von unserem Standort in <strong>München-Obermenzing</strong> aus sind wir als <strong>Dachdecker</strong> in allen Stadtteilen für Sie da:
-                </p>
-                <div className="flex flex-wrap gap-2">
-                  {["Dachdecker Pasing", "Dachdecker Laim", "Dachdecker Schwabing", "Dachdecker Sendling", "Dachdecker Bogenhausen", "Dachdecker Moosach", "Dachdecker Nymphenburg", "Dachdecker Gräfelfing", "Dachdecker Germering", "Dachdecker Starnberg"].map((s) => (
-                    <span key={s} className="bg-stone-50 px-3 py-1 rounded-full text-sm border border-stone-200">
-                      {s}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            </div>
 
             <div className="bg-white p-8 rounded-xl border border-stone-200 mb-12">
               <h3 className="text-2xl font-bold text-secondary mb-6 text-center">
