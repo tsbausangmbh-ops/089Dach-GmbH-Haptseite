@@ -141,7 +141,7 @@ export default function RelatedServices({
           </h2>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-4 gap-4">
           {servicesToShow.map((service) => (
             <a 
               key={service.id}
