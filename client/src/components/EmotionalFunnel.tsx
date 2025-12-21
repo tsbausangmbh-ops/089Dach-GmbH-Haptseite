@@ -258,30 +258,32 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
               </p>
             </div>
 
-            <div className="prose prose-lg max-w-none text-muted-foreground">
-              <h3 className="text-2xl font-bold text-secondary mb-4">
-                Förderung für Dachsanierung in München 2025
+            <div className="bg-zinc-800 p-8 rounded-2xl">
+              <h3 className="text-2xl font-bold text-white mb-4">
+                Förderung für Dachsanierung in München {new Date().getFullYear()}
               </h3>
-              <p className="mb-4">
-                Bei einer <strong>energetischen Dachsanierung</strong> können Sie von attraktiven Förderprogrammen profitieren. 
-                Als erfahrener <strong>Dachdecker in München</strong> beraten wir Sie kostenlos zu allen Möglichkeiten:
+              <p className="text-zinc-300 mb-6">
+                Bei einer <strong className="text-white">energetischen Dachsanierung</strong> können Sie von attraktiven Förderprogrammen profitieren. 
+                Als erfahrener <strong className="text-white">Dachdecker in München</strong> beraten wir Sie kostenlos zu allen Möglichkeiten:
               </p>
-              <div className="grid md:grid-cols-3 gap-4 my-6">
-                <div className="bg-white p-4 rounded-xl border border-stone-200 text-center">
+              <div className="grid md:grid-cols-3 gap-4 mb-6">
+                <div className="bg-zinc-700 p-4 rounded-xl text-center">
                   <div className="text-2xl font-bold text-primary mb-1">bis 20%</div>
-                  <div className="text-sm text-muted-foreground">KfW-Zuschuss</div>
+                  <div className="text-sm text-zinc-300">KfW-Zuschuss</div>
                 </div>
-                <div className="bg-white p-4 rounded-xl border border-stone-200 text-center">
+                <div className="bg-zinc-700 p-4 rounded-xl text-center">
                   <div className="text-2xl font-bold text-primary mb-1">15%</div>
-                  <div className="text-sm text-muted-foreground">BAFA-Förderung</div>
+                  <div className="text-sm text-zinc-300">BAFA-Förderung</div>
                 </div>
-                <div className="bg-white p-4 rounded-xl border border-stone-200 text-center">
+                <div className="bg-zinc-700 p-4 rounded-xl text-center">
                   <div className="text-2xl font-bold text-primary mb-1">1.200 €</div>
-                  <div className="text-sm text-muted-foreground">Steuerbonus/Jahr</div>
+                  <div className="text-sm text-zinc-300">Steuerbonus/Jahr</div>
                 </div>
               </div>
-              
-              <h3 className="text-2xl font-bold text-secondary mt-8 mb-4">
+            </div>
+
+            <div className="prose prose-lg max-w-none text-muted-foreground mt-8">
+              <h3 className="text-2xl font-bold text-secondary mb-4">
                 Warum 089Dach als Dachdecker wählen?
               </h3>
               <p className="mb-4">

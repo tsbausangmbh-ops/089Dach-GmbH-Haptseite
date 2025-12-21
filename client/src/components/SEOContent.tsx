@@ -346,41 +346,37 @@ export function DachsanierungMuenchenContent() {
               </p>
             </div>
 
-            <h3 className="text-2xl font-bold text-secondary mt-8 mb-4">
-              Förderung für Dachsanierung in München 2025
-            </h3>
-            
-            <p className="mb-4">
-              Bei einer energetischen Dachsanierung können Sie von attraktiven Förderprogrammen profitieren:
-            </p>
-            
-            <ul className="space-y-3 mb-6">
-              <li className="flex items-start gap-3 bg-white p-4 rounded-xl border border-stone-200">
-                <CheckCircle2 className="h-6 w-6 text-primary shrink-0" />
-                <div>
-                  <strong className="text-secondary">KfW-Förderung:</strong> Bis zu 20% Zuschuss für energetische Sanierungsmaßnahmen
-                </div>
-              </li>
-              <li className="flex items-start gap-3 bg-white p-4 rounded-xl border border-stone-200">
-                <CheckCircle2 className="h-6 w-6 text-primary shrink-0" />
-                <div>
-                  <strong className="text-secondary">BAFA-Förderung:</strong> Zuschüsse für Einzelmaßnahmen an der Gebäudehülle
-                </div>
-              </li>
-              <li className="flex items-start gap-3 bg-white p-4 rounded-xl border border-stone-200">
-                <CheckCircle2 className="h-6 w-6 text-primary shrink-0" />
-                <div>
-                  <strong className="text-secondary">Steuerbonus:</strong> 20% der Handwerkerkosten absetzbar (max. 1.200 €/Jahr)
-                </div>
-              </li>
-            </ul>
-
-            <div className="bg-primary/10 p-6 rounded-xl my-8">
-              <h4 className="text-xl font-bold text-secondary mb-2">Unser Förder-Service</h4>
-              <p className="mb-0">
-                Wir beraten Sie kostenlos zu allen Fördermöglichkeiten und vermitteln Sie an zertifizierte 
-                Energieberater aus unserem Partnernetzwerk. So sichern Sie sich die maximale Förderung für Ihre Dachsanierung.
+            <div className="bg-zinc-800 p-8 rounded-2xl mt-8 mb-8">
+              <h3 className="text-2xl font-bold text-white mb-4">
+                Förderung für Dachsanierung in München {new Date().getFullYear()}
+              </h3>
+              
+              <p className="text-zinc-300 mb-6">
+                Bei einer energetischen Dachsanierung können Sie von attraktiven Förderprogrammen profitieren:
               </p>
+              
+              <div className="grid md:grid-cols-3 gap-4 mb-6">
+                <div className="bg-zinc-700 p-4 rounded-xl text-center">
+                  <div className="text-2xl font-bold text-primary mb-1">bis 20%</div>
+                  <div className="text-sm text-zinc-300">KfW-Zuschuss</div>
+                </div>
+                <div className="bg-zinc-700 p-4 rounded-xl text-center">
+                  <div className="text-2xl font-bold text-primary mb-1">15%</div>
+                  <div className="text-sm text-zinc-300">BAFA-Förderung</div>
+                </div>
+                <div className="bg-zinc-700 p-4 rounded-xl text-center">
+                  <div className="text-2xl font-bold text-primary mb-1">1.200 €</div>
+                  <div className="text-sm text-zinc-300">Steuerbonus/Jahr</div>
+                </div>
+              </div>
+
+              <div className="bg-zinc-700/50 p-4 rounded-xl">
+                <h4 className="text-lg font-bold text-white mb-2">Unser Förder-Service</h4>
+                <p className="text-zinc-300 text-sm mb-0">
+                  Wir beraten Sie kostenlos zu allen Fördermöglichkeiten und vermitteln Sie an zertifizierte 
+                  Energieberater aus unserem Partnernetzwerk. So sichern Sie sich die maximale Förderung für Ihre Dachsanierung.
+                </p>
+              </div>
             </div>
 
             <h3 className="text-2xl font-bold text-secondary mt-8 mb-4">
