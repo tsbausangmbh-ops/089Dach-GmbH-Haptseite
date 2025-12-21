@@ -336,6 +336,36 @@ function Router() {
       <Route path="/anfrage">{() => <Redirect to="/beratung" />}</Route>
       <Route path="/angebot">{() => <Redirect to="/beratung" />}</Route>
       
+      {/* Sitemap-Redirects für konsistente URLs */}
+      <Route path="/dachdecker-ramersdorf">{() => <Redirect to="/dachdecker-ramersdorf-perlach" />}</Route>
+      <Route path="/dachdecker-haidhausen">{() => <Redirect to="/dachdecker-au-haidhausen" />}</Route>
+      <Route path="/dachdecker-isarvorstadt">{() => <Redirect to="/dachdecker-ludwigsvorstadt-isarvorstadt" />}</Route>
+      <Route path="/dachdecker-aubing">{() => <Redirect to="/dachdecker-aubing-lochhausen-langwied" />}</Route>
+      <Route path="/umland">{() => <Redirect to="/stadtteile" />}</Route>
+      <Route path="/dachsanierung-muenchen">{() => <Redirect to="/leistungen/dachsanierung" />}</Route>
+      <Route path="/dachreparatur-muenchen">{() => <Redirect to="/dachreparatur" />}</Route>
+      <Route path="/flachdach-muenchen">{() => <Redirect to="/leistungen/flachdach" />}</Route>
+      
+      {/* Häufige Tippfehler und alternative Schreibweisen */}
+      <Route path="/dach-sanierung">{() => <Redirect to="/leistungen/dachsanierung" />}</Route>
+      <Route path="/dach-reparatur">{() => <Redirect to="/dachreparatur" />}</Route>
+      <Route path="/flach-dach">{() => <Redirect to="/leistungen/flachdach" />}</Route>
+      <Route path="/sturm-schaden">{() => <Redirect to="/leistungen/sturmschaden" />}</Route>
+      <Route path="/dach-fenster">{() => <Redirect to="/leistungen/dachfenster" />}</Route>
+      <Route path="/gauben-bau">{() => <Redirect to="/leistungen/gaubenbau" />}</Route>
+      <Route path="/energie-beratung">{() => <Redirect to="/leistungen/energieberatung" />}</Route>
+      <Route path="/dachdeckerei">{() => <Redirect to="/dachdecker-muenchen" />}</Route>
+      <Route path="/dachdeckermeister">{() => <Redirect to="/dachdecker-muenchen" />}</Route>
+      <Route path="/dachdecker">{() => <Redirect to="/dachdecker-muenchen" />}</Route>
+      <Route path="/spengler">{() => <Redirect to="/dachdecker-spengler-muenchen" />}</Route>
+      <Route path="/spengler-muenchen">{() => <Redirect to="/dachdecker-spengler-muenchen" />}</Route>
+      <Route path="/notfall">{() => <Redirect to="/dachdecker-notdienst-muenchen" />}</Route>
+      <Route path="/notfall-dach">{() => <Redirect to="/dachdecker-notdienst-muenchen" />}</Route>
+      <Route path="/dach-notdienst">{() => <Redirect to="/dachdecker-notdienst-muenchen" />}</Route>
+      <Route path="/preise">{() => <Redirect to="/dachdecker-muenchen-kosten" />}</Route>
+      <Route path="/kosten-dachdecker">{() => <Redirect to="/dachdecker-muenchen-kosten" />}</Route>
+      <Route path="/preis">{() => <Redirect to="/dachdecker-muenchen-kosten" />}</Route>
+      
       <Route component={NotFound} />
     </Switch>
     </>
