@@ -38,6 +38,20 @@ async function buildAll() {
   console.log("building client...");
   await viteBuild();
 
+  console.log("pre-rendering pages...");
+  const { spawn } = await import("child_process");
+  await new Promise<void>((resolve, reject) => {
+    const proc = spawn(process.execPath, ["--import", "tsx", "script/prerender.ts"], {
+      stdio: "inherit",
+      cwd: process.cwd(),
+    });
+    proc.on("close", (code) => {
+      if (code === 0) resolve();
+      else reject(new Error(`Pre-render failed with code ${code}`));
+    });
+    proc.on("error", reject);
+  });
+
   console.log("building server...");
   const pkg = JSON.parse(await readFile("package.json", "utf-8"));
   const allDeps = [
