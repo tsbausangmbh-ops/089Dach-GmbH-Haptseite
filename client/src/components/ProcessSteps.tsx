@@ -123,7 +123,7 @@ export default function ProcessSteps({
               Kostenlose Beratung ohne Verpflichtung. Wir melden uns innerhalb von 24 Stunden.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="/rueckruf">
+              <a href="/rueckruf/">
                 <Button size="lg" className="bg-primary hover:bg-primary/90 text-white w-full sm:w-auto" data-testid="process-cta-callback">
                   <Phone className="h-5 w-5 mr-2" /> Rückruf anfordern
                 </Button>

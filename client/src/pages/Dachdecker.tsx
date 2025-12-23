@@ -90,7 +90,7 @@ export default function Dachdecker() {
               Festpreisgarantie • 5 Jahre Gewährleistung • 24h Notdienst
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/rueckruf">
+              <Link href="/rueckruf/">
                 <Button size="lg" className="bg-orange-500 hover:bg-orange-600 text-white text-lg px-8 py-6" data-testid="button-hero-callback">
                   <Phone className="mr-2 h-5 w-5" />
                   Kostenlose Beratung
@@ -127,7 +127,7 @@ export default function Dachdecker() {
               ))}
             </div>
             <div className="text-center mt-8">
-              <Link href="/leistungen">
+              <Link href="/leistungen//">
                 <Button variant="outline" className="border-orange-600 text-orange-600 hover:bg-orange-50">
                   Alle Leistungen ansehen
                   <ArrowRight className="ml-2 h-4 w-4" />
@@ -242,7 +242,7 @@ export default function Dachdecker() {
               Kostenlose Beratung und Festpreis-Angebot – unverbindlich und schnell
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/rueckruf">
+              <Link href="/rueckruf/">
                 <Button size="lg" className="bg-orange-600 hover:bg-orange-700 text-white text-lg px-8" data-testid="button-cta-callback">
                   Rückruf anfordern
                   <ArrowRight className="ml-2 h-5 w-5" />

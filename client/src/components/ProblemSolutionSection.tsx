@@ -89,7 +89,7 @@ export default function ProblemSolutionSection({
               </ul>
 
               <div className="mt-6">
-                <a href="/rueckruf">
+                <a href="/rueckruf/">
                   <Button className="w-full bg-green-600 hover:bg-green-700" data-testid="problem-solution-cta">
                     <Phone className="h-4 w-4 mr-2" /> Jetzt Lösung besprechen
                   </Button>

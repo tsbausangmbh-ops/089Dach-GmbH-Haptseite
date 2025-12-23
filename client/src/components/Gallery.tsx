@@ -34,7 +34,7 @@ export default function Gallery() {
             </h2>
           </div>
           <Button variant="outline" className="text-white border-white/20 hover:bg-white/10 hover:text-white rounded-xl" asChild>
-            <a href="/referenzen">Alle Projekte ansehen</a>
+            <a href="/referenzen/">Alle Projekte ansehen</a>
           </Button>
         </div>
 

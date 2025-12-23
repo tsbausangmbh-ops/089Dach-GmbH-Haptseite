@@ -63,7 +63,7 @@ export default function DachziegelKaufen() {
             <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-7xl mx-auto">Beton, Ton, Schiefer – wir beschaffen und verlegen alle Dachziegelarten.</p>
             <p className="text-lg text-white/70 mb-8">Ab 30€/m² Material • Alle Farben • Meisterbetrieb</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/rueckruf"><Button size="lg" className="bg-orange-600 hover:bg-orange-700 text-white text-lg px-8 py-6" data-testid="button-hero-callback"><Phone className="mr-2 h-5 w-5" />Kostenlose Beratung</Button></Link>
+              <Link href="/rueckruf/"><Button size="lg" className="bg-orange-600 hover:bg-orange-700 text-white text-lg px-8 py-6" data-testid="button-hero-callback"><Phone className="mr-2 h-5 w-5" />Kostenlose Beratung</Button></Link>
               <Link href="/beratung"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8 py-6" data-testid="button-hero-online">24h Online Termin</Button></Link>
             </div>
           </div>
@@ -140,7 +140,7 @@ export default function DachziegelKaufen() {
             <h2 className="text-3xl font-bold mb-6">Dachziegel-Beratung gewünscht?</h2>
             <p className="text-xl text-white/90 mb-8">Wir finden die passenden Ziegel für Ihr Dach</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/rueckruf"><Button size="lg" className="bg-white text-orange-700 hover:bg-orange-50 text-lg px-8" data-testid="button-cta-callback">Beratung anfordern<ArrowRight className="ml-2 h-5 w-5" /></Button></Link>
+              <Link href="/rueckruf/"><Button size="lg" className="bg-white text-orange-700 hover:bg-orange-50 text-lg px-8" data-testid="button-cta-callback">Beratung anfordern<ArrowRight className="ml-2 h-5 w-5" /></Button></Link>
               <Link href="/beratung"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8" data-testid="button-online-cta">24h Online Termin</Button></Link>
             </div>
           </div>

@@ -80,12 +80,12 @@ export default function Dachreparatur() {
               Wir bieten schnelle <strong>Dachreparatur München</strong> mit <strong>Festpreis</strong> – auch bei <strong>Sturmschäden</strong>.
             </p>
             <div className="flex flex-wrap gap-4 mt-6">
-              <a href="/rueckruf">
+              <a href="/rueckruf/">
                 <Button size="lg" className="bg-primary hover:bg-primary/90 text-white" data-testid="button-rueckruf-hero">
                   <Phone className="h-5 w-5 mr-2" /> Rückruf anfordern
                 </Button>
               </a>
-              <a href="/kontakt">
+              <a href="/kontakt/">
                 <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-secondary" data-testid="button-contact-hero">
                   Kontakt aufnehmen
                 </Button>

@@ -196,7 +196,7 @@ export default function SEODachdeckerMuenchen() {
                   <Calendar className="h-5 w-5 mr-2" /> 24h Online Termin
                 </Button>
               </a>
-              <a href="/kontakt">
+              <a href="/kontakt/">
                 <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-secondary" data-testid="button-contact-hero">
                   Kontakt aufnehmen
                 </Button>
@@ -292,7 +292,7 @@ export default function SEODachdeckerMuenchen() {
           </div>
           
           <div className="text-center mt-8">
-            <a href="/leistungen">
+            <a href="/leistungen//">
               <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-white">
                 Alle Leistungen ansehen <ArrowRight className="h-5 w-5 ml-2" />
               </Button>

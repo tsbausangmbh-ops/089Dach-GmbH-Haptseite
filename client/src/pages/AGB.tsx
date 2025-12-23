@@ -61,7 +61,7 @@ export default function AGB() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-xl" data-testid="button-hero-call">
-                <a href="/rueckruf">
+                <a href="/rueckruf/">
                   <Phone className="mr-2 h-5 w-5" />
                   Rückruf anfordern
                 </a>
@@ -414,7 +414,7 @@ export default function AGB() {
           <h2 className="text-2xl font-bold text-secondary mt-8 mb-4">§ 15 Datenschutz</h2>
           <p>
             Die Verarbeitung personenbezogener Daten erfolgt gemäß unserer Datenschutzerklärung, 
-            die unter <a href="/datenschutz" className="text-primary hover:underline">089dach.de/datenschutz</a> 
+            die unter <a href="/datenschutz/" className="text-primary hover:underline">089dach.de/datenschutz</a> 
             {" "}abrufbar ist.
           </p>
 

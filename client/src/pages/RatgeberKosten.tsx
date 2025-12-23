@@ -210,7 +210,7 @@ export default function RatgeberKosten() {
               <p className="text-blue-700 mb-4">
                 Mit KfW und BAFA können Sie bis zu 20% der Kosten sparen. Bei einem 30.000€ Projekt sind das bis zu 6.000€!
               </p>
-              <a href="/ratgeber/foerderung" className="inline-flex items-center gap-2 text-blue-800 font-bold hover:underline" data-testid="link-ratgeber-foerderung">
+              <a href="/ratgeber/foerderung/" className="inline-flex items-center gap-2 text-blue-800 font-bold hover:underline" data-testid="link-ratgeber-foerderung">
                 Zum Förderungsratgeber <ArrowRight className="h-4 w-4" />
               </a>
             </div>
@@ -229,7 +229,7 @@ export default function RatgeberKosten() {
                     Angebot anfordern <ArrowRight className="h-5 w-5 ml-2" />
                   </Button>
                 </a>
-                <a href="/rueckruf">
+                <a href="/rueckruf/">
                   <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary">
                     <Phone className="h-5 w-5 mr-2" /> Rückruf anfordern
                   </Button>

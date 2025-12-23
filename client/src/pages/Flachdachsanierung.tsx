@@ -94,7 +94,7 @@ export default function Flachdachsanierung() {
               für ein dichtes <strong>Flachdach München</strong>, das Jahrzehnte hält.
             </p>
             <div className="flex flex-wrap gap-4 mt-6">
-              <a href="/rueckruf">
+              <a href="/rueckruf/">
                 <Button size="lg" className="bg-primary hover:bg-primary/90 text-white" data-testid="button-rueckruf-hero">
                   <Phone className="h-5 w-5 mr-2" /> Kostenlose Beratung
                 </Button>

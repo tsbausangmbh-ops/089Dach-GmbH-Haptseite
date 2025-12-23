@@ -91,7 +91,7 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
                 asChild
                 data-testid="button-hero-call"
               >
-                <a href="/rueckruf">
+                <a href="/rueckruf/">
                   <Phone className="mr-2 h-5 w-5" />
                   Rückruf anfordern
                 </a>
@@ -153,7 +153,7 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
               {" "}– M. Keller, Obermenzing
             </p>
             <Button variant="link" className="text-primary font-semibold p-0" asChild data-testid="link-all-services">
-              <a href="/leistungen">Alle Leistungen im Überblick →</a>
+              <a href="/leistungen//">Alle Leistungen im Überblick →</a>
             </Button>
           </div>
         </div>

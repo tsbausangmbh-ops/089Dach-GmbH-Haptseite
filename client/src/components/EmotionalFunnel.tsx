@@ -166,7 +166,7 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
               asChild
               data-testid="button-final-call"
             >
-              <a href="/rueckruf">
+              <a href="/rueckruf/">
                 <Phone className="mr-2 h-4 w-4 md:h-5 md:w-5" />
                 Rückruf anfordern
               </a>
@@ -337,7 +337,7 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
                   asChild
                   data-testid="button-seo-call"
                 >
-                  <a href="/rueckruf">
+                  <a href="/rueckruf/">
                     <Phone className="mr-2 h-5 w-5" />
                     Rückruf anfordern
                   </a>

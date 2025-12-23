@@ -56,12 +56,12 @@ export default function Sturmschaden() {
               Schnelle Hilfe nach Sturm, Hagel oder Unwetter – 24/7 für Sie erreichbar.
             </p>
             <div className="flex flex-wrap gap-4">
-              <a href="/rueckruf">
+              <a href="/rueckruf/">
                 <Button size="lg" className="bg-primary hover:bg-primary/90 text-white" data-testid="button-anrufen-hero">
                   <Phone className="h-5 w-5 mr-2" /> Sofort-Rückruf
                 </Button>
               </a>
-              <a href="/kontakt">
+              <a href="/kontakt/">
                 <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-secondary" data-testid="button-contact-hero">
                   Kontakt aufnehmen
                 </Button>
@@ -162,12 +162,12 @@ export default function Sturmschaden() {
               <div className="bg-red-600 text-white rounded-xl p-6">
                 <h3 className="text-xl font-bold mb-4">Notfall? Jetzt handeln!</h3>
                 <p className="text-white/90 mb-6">Unser <strong>Dach Notdienst</strong> ist <strong>24/7 erreichbar</strong>. <strong>Schnelle Hilfe</strong> bei <strong>Sturmschäden</strong> in <strong>München</strong>.</p>
-                <a href="/rueckruf" className="block">
+                <a href="/rueckruf/" className="block">
                   <Button size="lg" variant="secondary" className="w-full" data-testid="button-notfall-sidebar">
                     Sofort-Rückruf <ArrowRight className="h-4 w-4 ml-2" />
                   </Button>
                 </a>
-                <a href="/kontakt" className="block mt-3">
+                <a href="/kontakt/" className="block mt-3">
                   <Button size="lg" variant="outline" className="w-full border-white text-white hover:bg-white hover:text-red-600" data-testid="button-contact-sidebar">
                     Kontakt aufnehmen
                   </Button>

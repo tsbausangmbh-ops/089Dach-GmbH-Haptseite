@@ -36,21 +36,21 @@ export default function Footer({ showAIBerater = false }: FooterProps) {
           <div>
             <h4 className="font-heading font-bold text-sm mb-2 text-white">Leistungen</h4>
             <ul className="space-y-1 text-gray-400 text-sm">
-              <li><a href="/leistungen/dachsanierung" className="hover:text-primary transition-colors">Dachsanierung</a></li>
-              <li><a href="/leistungen/flachdach" className="hover:text-primary transition-colors">Flachdach</a></li>
-              <li><a href="/leistungen/bedachungen" className="hover:text-primary transition-colors">Steildach</a></li>
-              <li><a href="/leistungen/spenglerei" className="hover:text-primary transition-colors">Spenglerei</a></li>
-              <li><a href="/leistungen/notdienst" className="hover:text-primary transition-colors">🚨 Notdienst 24/7</a></li>
+              <li><a href="/leistungen/dachsanierung/" className="hover:text-primary transition-colors">Dachsanierung</a></li>
+              <li><a href="/leistungen/flachdach/" className="hover:text-primary transition-colors">Flachdach</a></li>
+              <li><a href="/leistungen/bedachungen/" className="hover:text-primary transition-colors">Steildach</a></li>
+              <li><a href="/leistungen/spenglerei/" className="hover:text-primary transition-colors">Spenglerei</a></li>
+              <li><a href="/leistungen/notdienst/" className="hover:text-primary transition-colors">🚨 Notdienst 24/7</a></li>
             </ul>
           </div>
 
           <div>
             <h4 className="font-heading font-bold text-sm mb-2 text-white">Stadtteile</h4>
             <ul className="space-y-1 text-gray-400 text-sm">
-              <li><a href="/dachdecker-pasing" className="hover:text-primary transition-colors">Pasing</a></li>
-              <li><a href="/dachdecker-schwabing" className="hover:text-primary transition-colors">Schwabing</a></li>
-              <li><a href="/dachdecker-sendling" className="hover:text-primary transition-colors">Sendling</a></li>
-              <li><a href="/dachdecker-bogenhausen" className="hover:text-primary transition-colors">Bogenhausen</a></li>
+              <li><a href="/dachdecker-pasing/" className="hover:text-primary transition-colors">Pasing</a></li>
+              <li><a href="/dachdecker-schwabing/" className="hover:text-primary transition-colors">Schwabing</a></li>
+              <li><a href="/dachdecker-sendling/" className="hover:text-primary transition-colors">Sendling</a></li>
+              <li><a href="/dachdecker-bogenhausen/" className="hover:text-primary transition-colors">Bogenhausen</a></li>
               <li><a href="/stadtteile" className="hover:text-primary transition-colors text-primary font-medium">→ Alle</a></li>
             </ul>
           </div>
@@ -59,8 +59,8 @@ export default function Footer({ showAIBerater = false }: FooterProps) {
             <h4 className="font-heading font-bold text-sm mb-2 text-white">Kontakt</h4>
             <ul className="space-y-1 text-gray-400 text-sm">
               <li>Thuillestr. 20, 81247 München</li>
-              <li><a href="/rueckruf" className="hover:text-primary transition-colors text-white font-medium" data-testid="link-footer-phone">📞 Rückruf anfordern</a></li>
-              <li><a href="/kontakt" className="hover:text-primary transition-colors text-white font-medium" data-testid="link-footer-contact">Kontakt</a></li>
+              <li><a href="/rueckruf/" className="hover:text-primary transition-colors text-white font-medium" data-testid="link-footer-phone">📞 Rückruf anfordern</a></li>
+              <li><a href="/kontakt/" className="hover:text-primary transition-colors text-white font-medium" data-testid="link-footer-contact">Kontakt</a></li>
               <li><a href="mailto:info@089dach.de" className="hover:text-primary transition-colors" data-testid="link-footer-email">info@089dach.de</a></li>
             </ul>
           </div>
@@ -70,25 +70,25 @@ export default function Footer({ showAIBerater = false }: FooterProps) {
         {/* SEO + Umland Links combined */}
         <div className="border-t border-white/10 pt-3 mb-3">
           <div className="flex flex-wrap gap-x-3 gap-y-1 text-xs text-gray-500">
-            <a href="/ratgeber/kosten" className="hover:text-primary transition-colors">Kosten</a>
-            <a href="/ratgeber/foerderung" className="hover:text-primary transition-colors">Förderung</a>
-            <a href="/faq" className="hover:text-primary transition-colors">FAQ</a>
-            <a href="/referenzen" className="hover:text-primary transition-colors">Referenzen</a>
+            <a href="/ratgeber/kosten/" className="hover:text-primary transition-colors">Kosten</a>
+            <a href="/ratgeber/foerderung/" className="hover:text-primary transition-colors">Förderung</a>
+            <a href="/faq/" className="hover:text-primary transition-colors">FAQ</a>
+            <a href="/referenzen/" className="hover:text-primary transition-colors">Referenzen</a>
             <span className="text-gray-600">|</span>
-            <a href="/dachdecker-germering" className="hover:text-primary transition-colors">Germering</a>
-            <a href="/dachdecker-starnberg" className="hover:text-primary transition-colors">Starnberg</a>
-            <a href="/dachdecker-dachau" className="hover:text-primary transition-colors">Dachau</a>
-            <a href="/dachdecker-freising" className="hover:text-primary transition-colors">Freising</a>
-            <a href="/dachdecker-fuerstenfeldbruck" className="hover:text-primary transition-colors">FFB</a>
+            <a href="/dachdecker-germering/" className="hover:text-primary transition-colors">Germering</a>
+            <a href="/dachdecker-starnberg/" className="hover:text-primary transition-colors">Starnberg</a>
+            <a href="/dachdecker-dachau/" className="hover:text-primary transition-colors">Dachau</a>
+            <a href="/dachdecker-freising/" className="hover:text-primary transition-colors">Freising</a>
+            <a href="/dachdecker-fuerstenfeldbruck/" className="hover:text-primary transition-colors">FFB</a>
           </div>
         </div>
 
         {/* KI-Hinweis + Legal */}
         <div className="border-t border-white/10 pt-3 flex flex-col md:flex-row justify-between items-start md:items-center gap-2 text-xs text-gray-500">
           <div className="flex flex-wrap gap-3">
-            <a href="/impressum" className="hover:text-primary transition-colors">Impressum</a>
-            <a href="/datenschutz" className="hover:text-primary transition-colors">Datenschutz</a>
-            <a href="/agb" className="hover:text-primary transition-colors">AGB</a>
+            <a href="/impressum/" className="hover:text-primary transition-colors">Impressum</a>
+            <a href="/datenschutz/" className="hover:text-primary transition-colors">Datenschutz</a>
+            <a href="/agb/" className="hover:text-primary transition-colors">AGB</a>
             <span className="hidden md:inline text-gray-600">|</span>
             <span className="hidden md:inline">KI-Hinweis gem. EU AI Act</span>
           </div>

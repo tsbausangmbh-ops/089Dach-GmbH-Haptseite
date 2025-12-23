@@ -71,7 +71,7 @@ export default function DachsanierungKosten() {
             <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-7xl mx-auto">Was kostet eine <strong>Dachsanierung</strong> wirklich? Alle Preise transparent – von der einfachen <strong>Neueindeckung</strong> bis zur <strong>Komplettsanierung</strong>.</p>
             <p className="text-lg text-white/70 mb-8"><strong>150-350€/m²</strong> Komplett • Bis 20% <strong>KfW-Förderung</strong> • Festpreisgarantie</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/rueckruf"><Button size="lg" className="bg-green-600 hover:bg-green-700 text-white text-lg px-8 py-6" data-testid="button-hero-callback"><Phone className="mr-2 h-5 w-5" />Kostenlose Beratung</Button></Link>
+              <Link href="/rueckruf/"><Button size="lg" className="bg-green-600 hover:bg-green-700 text-white text-lg px-8 py-6" data-testid="button-hero-callback"><Phone className="mr-2 h-5 w-5" />Kostenlose Beratung</Button></Link>
               <Link href="/beratung"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8 py-6" data-testid="button-hero-online">24h Online Termin</Button></Link>
             </div>
           </div>
@@ -170,7 +170,7 @@ export default function DachsanierungKosten() {
             <h2 className="text-3xl font-bold text-slate-800 mb-6">Kostenloses Angebot für Ihre Dachsanierung</h2>
             <p className="text-xl text-slate-600 mb-8">Wir kommen vorbei, begutachten Ihr Dach und erstellen ein Festpreis-Angebot – kostenlos und unverbindlich.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/rueckruf"><Button size="lg" className="bg-green-600 hover:bg-green-700 text-white text-lg px-8" data-testid="button-cta-callback">Kostenlose Beratung<ArrowRight className="ml-2 h-5 w-5" /></Button></Link>
+              <Link href="/rueckruf/"><Button size="lg" className="bg-green-600 hover:bg-green-700 text-white text-lg px-8" data-testid="button-cta-callback">Kostenlose Beratung<ArrowRight className="ml-2 h-5 w-5" /></Button></Link>
               <Link href="/beratung"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8" data-testid="button-online-cta">24h Online Termin</Button></Link>
             </div>
           </div>

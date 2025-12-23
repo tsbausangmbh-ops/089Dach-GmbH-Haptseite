@@ -65,7 +65,7 @@ export default function About() {
             
             <div className="mt-8">
               <Button className="bg-secondary hover:bg-secondary/90 text-white rounded-xl px-6 py-5" asChild>
-                <a href="/ueber-uns">Mehr über uns</a>
+                <a href="/ueber-uns/">Mehr über uns</a>
               </Button>
             </div>
           </div>

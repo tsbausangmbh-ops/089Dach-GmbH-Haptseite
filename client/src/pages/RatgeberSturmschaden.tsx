@@ -69,7 +69,7 @@ export default function RatgeberSturmschaden() {
               Schritt-für-Schritt Anleitung für den Ernstfall. So handeln Sie richtig.
             </p>
             <div className="flex flex-wrap gap-4">
-              <a href="/rueckruf">
+              <a href="/rueckruf/">
                 <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white" data-testid="button-notfall-hero">
                   <Phone className="h-5 w-5 mr-2" /> Sofort-Rückruf
                 </Button>
@@ -201,11 +201,11 @@ export default function RatgeberSturmschaden() {
             <div className="bg-stone-50 rounded-xl p-6 border border-stone-200 mb-8">
               <h2 className="text-xl font-heading font-bold text-secondary mb-3">Weitere hilfreiche Ratgeber</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <a href="/ratgeber/kosten" className="flex items-center gap-2 p-3 bg-white rounded-lg border border-stone-200 hover:border-primary/30 transition-colors" data-testid="link-ratgeber-kosten">
+                <a href="/ratgeber/kosten/" className="flex items-center gap-2 p-3 bg-white rounded-lg border border-stone-200 hover:border-primary/30 transition-colors" data-testid="link-ratgeber-kosten">
                   <span className="text-primary font-bold">→</span>
                   <span className="text-muted-foreground text-sm">Was kostet Dachsanierung?</span>
                 </a>
-                <a href="/ratgeber/foerderung" className="flex items-center gap-2 p-3 bg-white rounded-lg border border-stone-200 hover:border-primary/30 transition-colors" data-testid="link-ratgeber-foerderung">
+                <a href="/ratgeber/foerderung/" className="flex items-center gap-2 p-3 bg-white rounded-lg border border-stone-200 hover:border-primary/30 transition-colors" data-testid="link-ratgeber-foerderung">
                   <span className="text-primary font-bold">→</span>
                   <span className="text-muted-foreground text-sm">KfW Förderung 2025</span>
                 </a>
@@ -216,12 +216,12 @@ export default function RatgeberSturmschaden() {
               <h3 className="text-2xl font-bold mb-4">Sturmschaden? Wir helfen sofort!</h3>
               <p className="text-white/90 mb-6">24/7 Notdienst – Schnelle Absicherung – Versicherungsabwicklung</p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="/rueckruf">
+                <a href="/rueckruf/">
                   <Button size="lg" variant="secondary" data-testid="button-notfall-cta">
                     <Phone className="h-5 w-5 mr-2" /> Sofort-Rückruf
                   </Button>
                 </a>
-                <a href="/kontakt">
+                <a href="/kontakt/">
                   <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-red-600" data-testid="button-contact-cta">
                     Kontakt aufnehmen
                   </Button>

@@ -57,11 +57,11 @@ export default function Navbar() {
               <span className="text-white">★</span>
               Förderrechner
             </a>
-            <a href="/ratgeber/leckortung" className="flex items-center gap-2 hover:text-primary transition-colors font-semibold">
+            <a href="/ratgeber/leckortung/" className="flex items-center gap-2 hover:text-primary transition-colors font-semibold">
               <span className="text-primary">★</span>
               Leckortung
             </a>
-            <a href="/ratgeber/beratung" className="flex items-center gap-2 hover:text-primary transition-colors font-semibold">
+            <a href="/ratgeber/beratung/" className="flex items-center gap-2 hover:text-primary transition-colors font-semibold">
               <span className="text-primary">★</span>
               Kostenlose Beratung
             </a>
@@ -99,7 +99,7 @@ export default function Navbar() {
           <a href="/" className="text-sm font-medium text-secondary hover:text-primary transition-colors">
             Startseite
           </a>
-          <a href="/ueber-uns" className="text-sm font-medium text-secondary hover:text-primary transition-colors">
+          <a href="/ueber-uns/" className="text-sm font-medium text-secondary hover:text-primary transition-colors">
             Über uns
           </a>
           
@@ -110,7 +110,7 @@ export default function Navbar() {
             onMouseLeave={() => setDesktopDropdownOpen(false)}
           >
             <a 
-              href="/leistungen"
+              href="/leistungen//"
               className="text-sm font-medium text-secondary hover:text-primary transition-colors flex items-center gap-1"
             >
               Leistungen
@@ -137,16 +137,16 @@ export default function Navbar() {
             )}
           </div>
 
-          <a href="/ratgeber" className="text-sm font-medium text-secondary hover:text-primary transition-colors">
+          <a href="/ratgeber//" className="text-sm font-medium text-secondary hover:text-primary transition-colors">
             Tipps & Tricks
           </a>
-          <a href="/faq" className="text-sm font-medium text-secondary hover:text-primary transition-colors">
+          <a href="/faq/" className="text-sm font-medium text-secondary hover:text-primary transition-colors">
             FAQ
           </a>
-          <a href="/referenzen" className="text-sm font-medium text-secondary hover:text-primary transition-colors">
+          <a href="/referenzen/" className="text-sm font-medium text-secondary hover:text-primary transition-colors">
             Referenzen
           </a>
-          <a href="/kontakt" className="text-sm font-medium text-secondary hover:text-primary transition-colors">
+          <a href="/kontakt/" className="text-sm font-medium text-secondary hover:text-primary transition-colors">
             Kontakt
           </a>
           <Button className="bg-green-500/40 hover:bg-green-500/60 text-white font-bold border-0" asChild>
@@ -170,7 +170,7 @@ export default function Navbar() {
                 Startseite
                 <ChevronRight className="h-4 w-4" />
               </a>
-              <a href="/ueber-uns" className="text-lg font-medium text-foreground hover:text-primary transition-colors flex items-center justify-between border-b pb-2" onClick={() => setIsOpen(false)}>
+              <a href="/ueber-uns/" className="text-lg font-medium text-foreground hover:text-primary transition-colors flex items-center justify-between border-b pb-2" onClick={() => setIsOpen(false)}>
                 Über uns
                 <ChevronRight className="h-4 w-4" />
               </a>
@@ -179,7 +179,7 @@ export default function Navbar() {
               <div className="border-b pb-2">
                 <div className="flex items-center justify-between">
                   <a 
-                    href="/leistungen" 
+                    href="/leistungen//" 
                     className="text-lg font-medium text-foreground hover:text-primary transition-colors flex-1"
                     onClick={() => setIsOpen(false)}
                   >
@@ -212,19 +212,19 @@ export default function Navbar() {
                 )}
               </div>
 
-              <a href="/ratgeber" className="text-lg font-medium text-foreground hover:text-primary transition-colors flex items-center justify-between border-b pb-2" onClick={() => setIsOpen(false)}>
+              <a href="/ratgeber//" className="text-lg font-medium text-foreground hover:text-primary transition-colors flex items-center justify-between border-b pb-2" onClick={() => setIsOpen(false)}>
                 Tipps & Tricks
                 <ChevronRight className="h-4 w-4" />
               </a>
-              <a href="/faq" className="text-lg font-medium text-foreground hover:text-primary transition-colors flex items-center justify-between border-b pb-2" onClick={() => setIsOpen(false)}>
+              <a href="/faq/" className="text-lg font-medium text-foreground hover:text-primary transition-colors flex items-center justify-between border-b pb-2" onClick={() => setIsOpen(false)}>
                 FAQ
                 <ChevronRight className="h-4 w-4" />
               </a>
-              <a href="/referenzen" className="text-lg font-medium text-foreground hover:text-primary transition-colors flex items-center justify-between border-b pb-2" onClick={() => setIsOpen(false)}>
+              <a href="/referenzen/" className="text-lg font-medium text-foreground hover:text-primary transition-colors flex items-center justify-between border-b pb-2" onClick={() => setIsOpen(false)}>
                 Referenzen
                 <ChevronRight className="h-4 w-4" />
               </a>
-              <a href="/kontakt" className="text-lg font-medium text-foreground hover:text-primary transition-colors flex items-center justify-between border-b pb-2" onClick={() => setIsOpen(false)}>
+              <a href="/kontakt/" className="text-lg font-medium text-foreground hover:text-primary transition-colors flex items-center justify-between border-b pb-2" onClick={() => setIsOpen(false)}>
                 Kontakt
                 <ChevronRight className="h-4 w-4" />
               </a>

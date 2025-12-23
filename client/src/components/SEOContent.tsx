@@ -243,13 +243,13 @@ export function DachdeckerMuenchenContent() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-xl" data-testid="button-phone-seo">
-                  <a href="/rueckruf" className="flex items-center gap-2">
+                  <a href="/rueckruf/" className="flex items-center gap-2">
                     <Phone className="h-5 w-5" />
                     Rückruf anfordern
                   </a>
                 </Button>
                 <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white/10 rounded-xl" data-testid="button-contact-seo">
-                  <a href="/kontakt">Kontaktformular</a>
+                  <a href="/kontakt/">Kontaktformular</a>
                 </Button>
               </div>
             </div>
@@ -596,7 +596,7 @@ export function DachreparaturMuenchenContent() {
                 Wir dokumentieren den Schaden fachgerecht für Ihre Versicherung.
               </p>
               <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-xl" data-testid="button-emergency-call">
-                <a href="/rueckruf" className="flex items-center gap-2">
+                <a href="/rueckruf/" className="flex items-center gap-2">
                   <Phone className="h-5 w-5" />
                   Notfall-Rückruf anfordern
                 </a>

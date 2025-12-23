@@ -98,12 +98,12 @@ export default function Notdienst() {
               schnelle Hilfe bei allen Dachnotfällen in München und Umgebung.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="/rueckruf">
+              <a href="/rueckruf/">
                 <Button size="lg" className="bg-yellow-500 hover:bg-yellow-400 text-black font-bold" data-testid="button-notdienst-call">
                   <Phone className="h-5 w-5 mr-2" /> Sofort Rückruf anfordern
                 </Button>
               </a>
-              <a href="/kontakt">
+              <a href="/kontakt/">
                 <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-red-700 font-bold" data-testid="button-contact-hero">
                   Kontakt aufnehmen
                 </Button>
@@ -239,12 +239,12 @@ export default function Notdienst() {
                 Rufen Sie uns an oder fordern Sie einen sofortigen Rückruf an – wir sind rund um die Uhr für Sie da.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="/rueckruf">
+                <a href="/rueckruf/">
                   <Button size="lg" className="bg-red-600 hover:bg-red-700 text-white font-bold" data-testid="button-notdienst-cta">
                     <Phone className="h-5 w-5 mr-2" /> Sofort Rückruf anfordern
                   </Button>
                 </a>
-                <a href="/kontakt">
+                <a href="/kontakt/">
                   <Button size="lg" variant="outline" className="border-red-600 text-red-600 hover:bg-red-600 hover:text-white font-bold" data-testid="button-contact-cta">
                     Kontakt aufnehmen
                   </Button>

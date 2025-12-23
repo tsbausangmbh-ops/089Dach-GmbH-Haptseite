@@ -342,7 +342,7 @@ export default function LeadFunnel({
                         data-testid="checkbox-lead-dsgvo"
                       />
                       <label htmlFor="dsgvo-lead" className="text-sm text-muted-foreground leading-tight cursor-pointer">
-                        Ich habe die <Link href="/datenschutz" className="text-primary underline hover:no-underline">Datenschutzerklärung</Link> gelesen und akzeptiere diese. *
+                        Ich habe die <Link href="/datenschutz/" className="text-primary underline hover:no-underline">Datenschutzerklärung</Link> gelesen und akzeptiere diese. *
                       </label>
                     </div>
 

@@ -230,7 +230,7 @@ export default function KostenloseBeratung() {
                 </a>
               </Button>
               <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-secondary font-bold rounded-xl" data-testid="button-hero-form">
-                <a href="/rueckruf">Rückruf Termin</a>
+                <a href="/rueckruf/">Rückruf Termin</a>
               </Button>
             </div>
           </div>
@@ -576,7 +576,7 @@ export default function KostenloseBeratung() {
                   data-testid="checkbox-beratung-dsgvo"
                 />
                 <label htmlFor="dsgvo" className="text-sm text-muted-foreground leading-tight cursor-pointer">
-                  Ich habe die <Link href="/datenschutz" className="text-primary underline hover:no-underline">Datenschutzerklärung</Link> gelesen und stimme der Verarbeitung meiner Daten zu. *
+                  Ich habe die <Link href="/datenschutz/" className="text-primary underline hover:no-underline">Datenschutzerklärung</Link> gelesen und stimme der Verarbeitung meiner Daten zu. *
                 </label>
               </div>
 

@@ -107,12 +107,12 @@ export default function StadtteilAubing() {
               Ihr Dachdeckermeister für Einfamilienhäuser und Reihenhäuser im Münchner Westen.
             </p>
             <div className="flex flex-wrap gap-4">
-              <a href="/rueckruf">
+              <a href="/rueckruf/">
                 <Button size="lg" className="bg-primary hover:bg-primary/90 text-white" data-testid="button-anrufen-hero">
                   <Phone className="h-5 w-5 mr-2" /> Rückruf anfordern
                 </Button>
               </a>
-              <a href="/kontakt">
+              <a href="/kontakt/">
                 <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-secondary" data-testid="button-contact-hero">
                   Kontakt aufnehmen
                 </Button>
@@ -202,7 +202,7 @@ export default function StadtteilAubing() {
                     Termin vereinbaren <ArrowRight className="h-4 w-4 ml-2" />
                   </Button>
                 </a>
-                <a href="/rueckruf" className="block mt-3">
+                <a href="/rueckruf/" className="block mt-3">
                   <Button size="lg" variant="outline" className="w-full border-white text-white hover:bg-white hover:text-primary" data-testid="button-anrufen-sidebar">
                     <Phone className="h-4 w-4 mr-2" /> Rückruf anfordern
                   </Button>

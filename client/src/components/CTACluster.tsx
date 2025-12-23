@@ -49,7 +49,7 @@ export default function CTACluster({
               </span>
             </a>
 
-            <a href="/rueckruf" className="block">
+            <a href="/rueckruf/" className="block">
               <Button 
                 size="lg" 
                 className="w-full bg-primary text-white hover:bg-primary/90"
@@ -76,7 +76,7 @@ export default function CTACluster({
               </span>
             </a>
 
-            <a href="/kontakt" className="block">
+            <a href="/kontakt/" className="block">
               <Button 
                 size="lg" 
                 variant="outline"

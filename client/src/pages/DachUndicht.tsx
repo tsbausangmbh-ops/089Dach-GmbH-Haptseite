@@ -86,7 +86,7 @@ export default function DachUndicht() {
             </p>
             <div className="flex flex-wrap gap-4 mt-6">
               <Link href="/beratung"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8" data-testid="button-online">24h Online Termin</Button></Link>
-              <a href="/kontakt">
+              <a href="/kontakt/">
                 <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-red-900" data-testid="button-contact-hero">
                   Kontakt aufnehmen
                 </Button>

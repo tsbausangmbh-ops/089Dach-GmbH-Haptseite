@@ -86,7 +86,7 @@ export default function DachrinneReparieren() {
               damit das Wasser wieder richtig abfließt.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/rueckruf">
+              <Link href="/rueckruf/">
                 <Button size="lg" className="bg-white text-blue-700 hover:bg-blue-50 text-lg px-8 py-6" data-testid="button-hero-callback">
                   <Phone className="mr-2 h-5 w-5" />
                   Kostenlos beraten lassen
@@ -174,7 +174,7 @@ export default function DachrinneReparieren() {
               Schnelle Hilfe bei allen Rinnenproblemen – Festpreis vor Arbeitsbeginn!
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/rueckruf">
+              <Link href="/rueckruf/">
                 <Button size="lg" className="bg-white text-blue-700 hover:bg-blue-50 text-lg px-8" data-testid="button-cta-callback">
                   Rückruf anfordern
                   <ArrowRight className="ml-2 h-5 w-5" />

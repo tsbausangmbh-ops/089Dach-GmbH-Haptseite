@@ -110,7 +110,7 @@ export default function Stadtteile() {
             <p className="text-lg md:text-xl text-gray-200 max-w-xl mb-4 md:mb-6">
               Von unserem Standort in München-Obermenzing erreichen wir alle Stadtteile und das Umland in kürzester Zeit.
             </p>
-            <a href="/rueckruf">
+            <a href="/rueckruf/">
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-white" data-testid="button-anrufen-hero">
                 <Phone className="h-5 w-5 mr-2" /> Rückruf anfordern
               </Button>

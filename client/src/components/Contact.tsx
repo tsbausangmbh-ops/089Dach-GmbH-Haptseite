@@ -111,7 +111,7 @@ export default function Contact({
                   <p className="text-muted-foreground">
                     089 12621964
                   </p>
-                  <a href="/rueckruf" className="text-primary text-sm font-medium hover:underline">
+                  <a href="/rueckruf/" className="text-primary text-sm font-medium hover:underline">
                     → Rückruf anfordern
                   </a>
                 </div>
@@ -256,7 +256,7 @@ export default function Contact({
                   data-testid="checkbox-contact-dsgvo"
                 />
                 <label htmlFor="dsgvo-contact" className="text-sm text-muted-foreground leading-tight cursor-pointer">
-                  Ich habe die <Link href="/datenschutz" className="text-primary underline hover:no-underline">Datenschutzerklärung</Link> gelesen und stimme der Verarbeitung meiner Daten zu. *
+                  Ich habe die <Link href="/datenschutz/" className="text-primary underline hover:no-underline">Datenschutzerklärung</Link> gelesen und stimme der Verarbeitung meiner Daten zu. *
                 </label>
               </div>
 

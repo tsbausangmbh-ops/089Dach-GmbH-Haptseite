@@ -85,7 +85,7 @@ export default function EternitDach() {
               sicher für Sie und die Umwelt.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/rueckruf">
+              <Link href="/rueckruf/">
                 <Button size="lg" className="bg-white text-orange-700 hover:bg-orange-50 text-lg px-8 py-6" data-testid="button-hero-callback">
                   <Phone className="mr-2 h-5 w-5" />
                   Kostenlose Beratung
@@ -211,7 +211,7 @@ export default function EternitDach() {
               Kostenlose Vor-Ort-Besichtigung und unverbindliches Angebot
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/rueckruf">
+              <Link href="/rueckruf/">
                 <Button size="lg" className="bg-white text-orange-700 hover:bg-orange-50 text-lg px-8" data-testid="button-cta-callback">
                   Beratungstermin vereinbaren
                   <ArrowRight className="ml-2 h-5 w-5" />

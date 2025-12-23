@@ -84,7 +84,7 @@ export default function Dachdaemmung() {
               Alle Verfahren – von Einblasdämmung bis Aufsparrendämmung.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/rueckruf">
+              <Link href="/rueckruf/">
                 <Button size="lg" className="bg-white text-green-700 hover:bg-green-50 text-lg px-8 py-6" data-testid="button-hero-callback">
                   <Phone className="mr-2 h-5 w-5" />
                   Kostenlose Energieberatung
@@ -204,7 +204,7 @@ export default function Dachdaemmung() {
               Kostenlose Vor-Ort-Beratung mit Wärmebildkamera-Analyse
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/rueckruf">
+              <Link href="/rueckruf/">
                 <Button size="lg" className="bg-green-600 hover:bg-green-700 text-white text-lg px-8" data-testid="button-cta-callback">
                   Beratungstermin vereinbaren
                   <ArrowRight className="ml-2 h-5 w-5" />

@@ -200,7 +200,7 @@ export default function RatgeberFoerderung() {
               <p className="text-muted-foreground mb-4">
                 Bevor Sie Förderung beantragen, sollten Sie wissen, mit welchen Kosten zu rechnen ist. Unser Kostenratgeber zeigt aktuelle Preise für München.
               </p>
-              <a href="/ratgeber/kosten" className="inline-flex items-center gap-2 text-primary font-bold hover:underline" data-testid="link-ratgeber-kosten">
+              <a href="/ratgeber/kosten/" className="inline-flex items-center gap-2 text-primary font-bold hover:underline" data-testid="link-ratgeber-kosten">
                 Zum Kostenratgeber <ArrowRight className="h-4 w-4" />
               </a>
             </div>
@@ -219,7 +219,7 @@ export default function RatgeberFoerderung() {
                     Förderberatung anfordern <ArrowRight className="h-5 w-5 ml-2" />
                   </Button>
                 </a>
-                <a href="/rueckruf">
+                <a href="/rueckruf/">
                   <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary">
                     <Phone className="h-5 w-5 mr-2" /> Rückruf anfordern
                   </Button>

@@ -209,11 +209,11 @@ export default function RatgeberMaterialien() {
             <div className="bg-stone-50 rounded-xl p-6 border border-stone-200 mb-8">
               <h2 className="text-xl font-heading font-bold text-secondary mb-3">Weitere hilfreiche Ratgeber</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <a href="/ratgeber/kosten" className="flex items-center gap-2 p-3 bg-white rounded-lg border border-stone-200 hover:border-primary/30 transition-colors" data-testid="link-ratgeber-kosten">
+                <a href="/ratgeber/kosten/" className="flex items-center gap-2 p-3 bg-white rounded-lg border border-stone-200 hover:border-primary/30 transition-colors" data-testid="link-ratgeber-kosten">
                   <span className="text-primary font-bold">→</span>
                   <span className="text-muted-foreground text-sm">Was kostet Dachsanierung?</span>
                 </a>
-                <a href="/ratgeber/daemmung" className="flex items-center gap-2 p-3 bg-white rounded-lg border border-stone-200 hover:border-primary/30 transition-colors" data-testid="link-ratgeber-daemmung">
+                <a href="/ratgeber/daemmung/" className="flex items-center gap-2 p-3 bg-white rounded-lg border border-stone-200 hover:border-primary/30 transition-colors" data-testid="link-ratgeber-daemmung">
                   <span className="text-primary font-bold">→</span>
                   <span className="text-muted-foreground text-sm">Dachdämmung: Kosten & Förderung</span>
                 </a>
@@ -229,7 +229,7 @@ export default function RatgeberMaterialien() {
                     Beratung anfordern <ArrowRight className="h-5 w-5 ml-2" />
                   </Button>
                 </a>
-                <a href="/rueckruf">
+                <a href="/rueckruf/">
                   <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary">
                     <Phone className="h-5 w-5 mr-2" /> Rückruf anfordern
                   </Button>

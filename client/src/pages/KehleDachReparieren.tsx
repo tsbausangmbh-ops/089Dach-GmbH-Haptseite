@@ -54,7 +54,7 @@ export default function KehleDachReparieren() {
             <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-7xl mx-auto">Kehlen sind Schwachstellen am Dach – wir reparieren und erneuern Kehlbleche fachgerecht.</p>
             <p className="text-lg text-white/70 mb-8">80-150€/lfm • Zink & Kupfer • Meisterbetrieb</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/rueckruf"><Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-6" data-testid="button-hero-callback"><Phone className="mr-2 h-5 w-5" />Rückruf anfordern</Button></Link>
+              <Link href="/rueckruf/"><Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-6" data-testid="button-hero-callback"><Phone className="mr-2 h-5 w-5" />Rückruf anfordern</Button></Link>
               <Link href="/beratung"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8" data-testid="button-online">24h Online Termin</Button></Link>
             </div>
           </div>
@@ -104,7 +104,7 @@ export default function KehleDachReparieren() {
             <h2 className="text-3xl font-bold mb-6">Kehle undicht?</h2>
             <p className="text-xl text-white/90 mb-8">Wir reparieren schnell und fachgerecht</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/rueckruf"><Button size="lg" className="bg-white text-blue-700 hover:bg-blue-50 text-lg px-8" data-testid="button-cta-callback">Rückruf anfordern<ArrowRight className="ml-2 h-5 w-5" /></Button></Link>
+              <Link href="/rueckruf/"><Button size="lg" className="bg-white text-blue-700 hover:bg-blue-50 text-lg px-8" data-testid="button-cta-callback">Rückruf anfordern<ArrowRight className="ml-2 h-5 w-5" /></Button></Link>
               <Link href="/beratung"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8" data-testid="button-online-cta">24h Online Termin</Button></Link>
             </div>
           </div>

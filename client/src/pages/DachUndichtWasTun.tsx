@@ -66,7 +66,7 @@ export default function DachUndichtWasTun() {
             <p className="text-lg text-white/80 mb-8">Notdienst München • Oft am selben Tag • 24h erreichbar</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/beratung"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8" data-testid="button-online-cta">24h Online Termin</Button></Link>
-              <Link href="/rueckruf"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8 py-6" data-testid="button-hero-callback">Rückruf anfordern</Button></Link>
+              <Link href="/rueckruf/"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8 py-6" data-testid="button-hero-callback">Rückruf anfordern</Button></Link>
             </div>
           </div>
         </div>
@@ -160,7 +160,7 @@ export default function DachUndichtWasTun() {
             <p className="text-xl text-white/90 mb-8">Rufen Sie uns jetzt an – wir sind schnellstmöglich bei Ihnen.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/beratung"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8" data-testid="button-online-cta">24h Online Termin</Button></Link>
-              <Link href="/rueckruf"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8" data-testid="button-cta-callback">Rückruf anfordern<ArrowRight className="ml-2 h-5 w-5" /></Button></Link>
+              <Link href="/rueckruf/"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8" data-testid="button-cta-callback">Rückruf anfordern<ArrowRight className="ml-2 h-5 w-5" /></Button></Link>
             </div>
           </div>
         </div>

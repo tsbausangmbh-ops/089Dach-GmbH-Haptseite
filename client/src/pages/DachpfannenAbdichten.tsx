@@ -102,7 +102,7 @@ export default function DachpfannenAbdichten() {
               Ab 25€/m² • Verschiedene Verfahren • 15-25 Jahre Haltbarkeit
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/rueckruf">
+              <Link href="/rueckruf/">
                 <Button size="lg" className="bg-white text-blue-700 hover:bg-blue-50 text-lg px-8 py-6" data-testid="button-hero-callback">
                   <Phone className="mr-2 h-5 w-5" />
                   Kostenlos beraten lassen
@@ -252,7 +252,7 @@ export default function DachpfannenAbdichten() {
               Kostenlose Vor-Ort-Beratung mit Zustandsbewertung Ihres Dachs
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/rueckruf">
+              <Link href="/rueckruf/">
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8" data-testid="button-cta-callback">
                   Beratungstermin vereinbaren
                   <ArrowRight className="ml-2 h-5 w-5" />
