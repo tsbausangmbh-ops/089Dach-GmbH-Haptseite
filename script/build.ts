@@ -52,6 +52,19 @@ async function buildAll() {
     proc.on("error", reject);
   });
 
+  console.log("generating sitemap...");
+  await new Promise<void>((resolve, reject) => {
+    const proc = spawn(process.execPath, ["--import", "tsx", "script/generate-sitemap.ts"], {
+      stdio: "inherit",
+      cwd: process.cwd(),
+    });
+    proc.on("close", (code) => {
+      if (code === 0) resolve();
+      else reject(new Error(`Sitemap generation failed with code ${code}`));
+    });
+    proc.on("error", reject);
+  });
+
   console.log("building server...");
   const pkg = JSON.parse(await readFile("package.json", "utf-8"));
   const allDeps = [
