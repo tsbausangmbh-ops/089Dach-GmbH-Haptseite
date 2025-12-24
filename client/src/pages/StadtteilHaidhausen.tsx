@@ -66,8 +66,8 @@ export default function StadtteilHaidhausen() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Au-Haidhausen | Gründerzeit & Denkmalschutz"
-        description="Dachdecker Haidhausen: Dach undicht? Sturmschaden? ✓ 24h Notdienst ✓ Altbau-Experten ✓ 10 Jahre Garantie ☎ 089 12621964"
+        title="Dachdecker Haidhausen 2025 | Preise ab 90€/m² | Meisterbetrieb"
+        description="Dachdecker Haidhausen: ✓ Dachsanierung ab 90€/m² ✓ 10 Jahre Garantie ✓ Altbau-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical={`https://089dach.de/dachdecker-au-haidhausen`}
         keywords={`dachdecker haidhausen, dachdecker au, dachsanierung haidhausen, altbau dach münchen, denkmalschutz dachdecker, dachdecker 81667 81669, dachrinnenreinigung haidhausen, sturmschaden dach haidhausen, wasserschaden dach münchen haidhausen, dach undicht haidhausen reparieren, dachschaden haidhausen`}
         geoPlacename={`München Au-Haidhausen, Bayern, Deutschland`}

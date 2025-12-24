@@ -70,8 +70,8 @@ export default function StadtteilIsarvorstadt() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Glockenbachviertel & Isarvorstadt München"
-        description="Dachdecker Isarvorstadt: Wasserschaden Dach? ✓ 24h Notdienst ✓ Altbau-Experten ✓ 10 Jahre Garantie ☎ 089 12621964"
+        title="Dachdecker Isarvorstadt 2025 | Preise ab 90€/m² | Meisterbetrieb"
+        description="Dachdecker Isarvorstadt: ✓ Dachsanierung ab 90€/m² ✓ 10 Jahre Garantie ✓ Altbau-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-ludwigsvorstadt-isarvorstadt"
         keywords="dachdecker glockenbachviertel, dachdecker isarvorstadt, dachrinnenreinigung isarvorstadt, sturmschaden dach isarvorstadt, wasserschaden dach münchen isarvorstadt, dach undicht isarvorstadt reparieren, dachschaden isarvorstadt, mansarddach sanierung, dachdecker 80337 80469"
         geoPlacename="München Ludwigsvorstadt-Isarvorstadt, Bayern, Deutschland"

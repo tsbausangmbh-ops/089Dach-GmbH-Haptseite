@@ -70,8 +70,8 @@ export default function StadtteilAltstadt() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Altstadt München | Denkmalschutz & historische Dächer"
-        description="Dachdecker Altstadt München: Dach undicht? Sturmschaden? ✓ Denkmalschutz ✓ 24h Notdienst ✓ 10 Jahre Garantie ☎ 089 12621964"
+        title="Dachdecker Altstadt 2025 | Preise ab 95€/m² | Meisterbetrieb"
+        description="Dachdecker Altstadt: ✓ Dachsanierung ab 95€/m² ✓ 10 Jahre Garantie ✓ Denkmalschutz-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-altstadt"
         keywords="dachdecker altstadt münchen, dachsanierung denkmalschutz münchen, dachdecker marienplatz, historische dächer münchen, kupferdach altstadt, dachdecker 80331 80333, dachrinnenreinigung altstadt, sturmschaden dach altstadt, wasserschaden dach münchen altstadt, dach undicht altstadt reparieren, dachschaden altstadt"
         geoPlacename="München-Altstadt, Bayern, Deutschland"

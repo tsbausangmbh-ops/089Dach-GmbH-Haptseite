@@ -62,8 +62,8 @@ export default function StadtteilLaim() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Laim | Flachdach & Altbau - nur 3km entfernt"
-        description="Dachdecker Laim: Dach undicht oder Wasserschaden? ✓ 24h Notdienst ✓ Nur 3km entfernt ✓ 10 Jahre Garantie ☎ 089 12621964"
+        title="Dachdecker Laim 2025 | Preise ab 85€/m² | Meisterbetrieb"
+        description="Dachdecker Laim: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Nur 3km entfernt ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-laim"
         keywords="dachdecker laim empfehlung, dachrinnenreinigung laim, sturmschaden dach laim, wasserschaden dach münchen laim, dach undicht laim reparieren, dachschaden laim, flachdach undicht laim soforthilfe, dachdecker 80686 80687"
         geoPlacename={`München-Laim, Bayern, Deutschland`}

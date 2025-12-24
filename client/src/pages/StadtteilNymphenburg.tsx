@@ -56,8 +56,8 @@ export default function StadtteilNymphenburg() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Nymphenburg | Denkmalschutz & Biberschwanz"
-        description="Dachdecker Nymphenburg: Dach undicht oder Sturmschaden? ✓ 24h Notdienst ✓ Altbau-Experten ✓ 10 Jahre Garantie ☎ 089 12621964"
+        title="Dachdecker Nymphenburg 2025 | Preise ab 90€/m² | Meisterbetrieb"
+        description="Dachdecker Nymphenburg: ✓ Dachsanierung ab 90€/m² ✓ 10 Jahre Garantie ✓ Denkmalschutz ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-nymphenburg"
         keywords="dachdecker nymphenburg empfehlung, dachrinnenreinigung nymphenburg, sturmschaden dach nymphenburg, wasserschaden dach münchen nymphenburg, dach undicht nymphenburg reparieren, dachschaden nymphenburg, biberschwanz kosten münchen"
         geoPlacename={`München-Nymphenburg, Bayern, Deutschland`}

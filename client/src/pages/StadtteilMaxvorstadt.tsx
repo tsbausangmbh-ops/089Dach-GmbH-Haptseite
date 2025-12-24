@@ -55,8 +55,8 @@ export default function StadtteilMaxvorstadt() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Maxvorstadt | Altbau & Denkmalschutz München"
-        description="Dachdecker Maxvorstadt: Dach undicht oder Wasserschaden? ✓ 24h Notdienst ✓ Altbau-Experten ✓ 10 Jahre Garantie ☎ 089 12621964"
+        title="Dachdecker Maxvorstadt 2025 | Preise ab 90€/m² | Meisterbetrieb"
+        description="Dachdecker Maxvorstadt: ✓ Dachsanierung ab 90€/m² ✓ 10 Jahre Garantie ✓ Altbau-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-maxvorstadt"
         keywords="dachdecker maxvorstadt, dachrinnenreinigung maxvorstadt, sturmschaden dach maxvorstadt, wasserschaden dach münchen maxvorstadt, dach undicht maxvorstadt reparieren, dachschaden maxvorstadt, dachsanierung altbau münchen, dachdecker 80333 80335"
         geoPlacename="München-Maxvorstadt, Bayern, Deutschland"

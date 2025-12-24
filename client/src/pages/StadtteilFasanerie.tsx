@@ -70,8 +70,8 @@ export default function StadtteilFasanerie() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Dachdecker Fasanerie | Einfamilienhaus-Experten`}
-        description={`Dachdecker Fasanerie: Dach undicht? Sturmschaden? ✓ 24h Notdienst ✓ Dachrinnenreinigung ✓ 10 Jahre Garantie ☎ 089 12621964`}
+        title="Dachdecker Fasanerie 2025 | Preise ab 85€/m² | Meisterbetrieb"
+        description="Dachdecker Fasanerie: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Nur 5km entfernt ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical={`https://089dach.de/dachdecker-fasanerie`}
         keywords={`dachdecker fasanerie, dachsanierung fasanerie münchen, dachdecker münchen nord, dachdecker 80995 80996, dachrinnenreinigung fasanerie, sturmschaden dach fasanerie, wasserschaden dach münchen fasanerie, dach undicht fasanerie reparieren, dachschaden fasanerie`}
         geoPlacename={`München-Fasanerie, Bayern, Deutschland`}

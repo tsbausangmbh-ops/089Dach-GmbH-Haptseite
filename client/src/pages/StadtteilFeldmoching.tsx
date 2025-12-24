@@ -70,8 +70,8 @@ export default function StadtteilFeldmoching() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Dachdecker Feldmoching | Alle Gebäudetypen`}
-        description={`Dachdecker Feldmoching: Dach undicht? Sturmschaden? ✓ 24h Notdienst ✓ Dachrinnenreinigung ✓ 10 Jahre Garantie ☎ 089 12621964`}
+        title="Dachdecker Feldmoching 2025 | Preise ab 85€/m² | Meisterbetrieb"
+        description="Dachdecker Feldmoching: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Flachdach & Steildach ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical={`https://089dach.de/dachdecker-feldmoching`}
         keywords={`dachdecker feldmoching, dachsanierung feldmoching münchen, flachdach feldmoching, dachdecker hasenbergl, dachdecker 80933 80995, dachrinnenreinigung feldmoching, sturmschaden dach feldmoching, wasserschaden dach münchen feldmoching, dach undicht feldmoching reparieren, dachschaden feldmoching`}
         geoPlacename={`München-Feldmoching, Bayern, Deutschland`}

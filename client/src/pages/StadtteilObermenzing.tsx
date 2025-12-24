@@ -56,8 +56,8 @@ export default function StadtteilObermenzing() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Obermenzing | Villa & Schiefer-Experten"
-        description="Dachdecker Obermenzing: Dach undicht? Sturmschaden? ✓ 24h Notdienst ✓ Premium-Qualität ✓ 10 Jahre Garantie. Jetzt ☎ 089 12621964"
+        title="Dachdecker Obermenzing 2025 | Preise ab 95€/m² | Meisterbetrieb"
+        description="Dachdecker Obermenzing: ✓ Dachsanierung ab 95€/m² ✓ 10 Jahre Garantie ✓ Villen-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-obermenzing"
         keywords="dachdecker obermenzing empfehlung, villa dach sanieren münchen, schieferdach kosten obermenzing, kupferdach preis, dachsanierung villa obermenzing, dachdecker thuillestraße, dachsanierung einfamilienhaus obermenzing, dachziegel wechseln obermenzing, sturmschaden dach obermenzing, flachdach obermenzing, dachfenster velux obermenzing, dachdecker 81245 81247, dachrinne kupfer obermenzing, dachrinnenreinigung obermenzing, sturmschaden dach obermenzing, wasserschaden dach münchen obermenzing, dach undicht obermenzing reparieren, dachschaden obermenzing"
         geoPlacename={`München-Obermenzing, Bayern, Deutschland`}

@@ -55,8 +55,8 @@ export default function StadtteilWestend() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Westend | Altbau & Gewerbe München"
-        description="Dachdecker Westend: Dach undicht? Wasserschaden? ✓ 24h Notdienst ✓ Altbau & Gewerbe ✓ 10 Jahre Garantie. ☎ 089 12621964"
+        title="Dachdecker Westend 2025 | Preise ab 85€/m² | Meisterbetrieb"
+        description="Dachdecker Westend: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Altbau-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-westend"
         keywords="dachdecker westend münchen, dachsanierung altbau westend, flachdach gewerbe münchen, dachausbau westend, gauben einbau münchen, dachrinnenreinigung westend, sturmschaden dach westend, wasserschaden dach münchen westend, dach undicht westend reparieren, dachschaden westend"
         geoPlacename="München-Westend, Bayern, Deutschland"

@@ -70,8 +70,8 @@ export default function StadtteilHasenbergl() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Hasenbergl | Dachsanierung München Nord"
-        description="Dachdecker Hasenbergl: Dach undicht oder Sturmschaden? ✓ 24h Notdienst ✓ Flachdach ✓ 10 Jahre Garantie ☎ 089 12621964"
+        title="Dachdecker Hasenbergl 2025 | Preise ab 85€/m² | Meisterbetrieb"
+        description="Dachdecker Hasenbergl: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Flachdach-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-hasenbergl"
         keywords="dachdecker hasenbergl, dachsanierung hasenbergl, flachdach münchen nord, dachrinnenreinigung hasenbergl, sturmschaden dach hasenbergl, wasserschaden dach münchen hasenbergl, dach undicht hasenbergl reparieren, dachschaden hasenbergl, dachdecker 80933 80935"
         geoPlacename="München-Hasenbergl, Bayern, Deutschland"

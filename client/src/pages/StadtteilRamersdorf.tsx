@@ -52,8 +52,8 @@ export default function StadtteilRamersdorf() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Dachdecker Ramersdorf-Perlach | München`}
-        description={`Dachdecker Ramersdorf-Perlach: Dach undicht? Wasserschaden? ✓ 24h Notdienst ✓ 10 Jahre Garantie. ☎ 089 12621964`}
+        title="Dachdecker Ramersdorf 2025 | Preise ab 85€/m² | Meisterbetrieb"
+        description="Dachdecker Ramersdorf: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Flachdach-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical={`https://089dach.de/dachdecker-ramersdorf-perlach`}
         keywords={`dachdecker ramersdorf, dachdecker perlach, dachsanierung neuperlach, flachdach ramersdorf, dachdämmung perlach, dachdecker 81735 81737, sturmschaden dach ramersdorf, dachfenster perlach, siedlungshaus dach perlach, dachrinne ramersdorf, steildach neuperlach, dachrinnenreinigung ramersdorf, sturmschaden dach ramersdorf, wasserschaden dach münchen ramersdorf, dach undicht ramersdorf reparieren, dachschaden ramersdorf`}
         geoPlacename={`München-Ramersdorf-Perlach, Bayern, Deutschland`}

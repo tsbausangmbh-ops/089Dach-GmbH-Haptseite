@@ -56,8 +56,8 @@ export default function StadtteilTrudering() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Dachdecker Trudering | Einfamilienhaus & Reihenhaus`}
-        description={`Dachdecker Trudering: Dach undicht? Wasserschaden? ✓ 24h Notdienst ✓ 10 Jahre Garantie. Jetzt ☎ 089 12621964`}
+        title="Dachdecker Trudering 2025 | Preise ab 85€/m² | Meisterbetrieb"
+        description="Dachdecker Trudering: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Reihenhaus-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical={`https://089dach.de/dachdecker-trudering`}
         keywords={`dachdecker trudering, dachsanierung reihenhaus münchen, dachdecker trudering-riem, sturmschaden dach trudering, dachreparatur trudering, dachdeckerei münchen ost, dachdecker 81825 81827, flachdach trudering, dachfenster trudering, wärmedämmung dach trudering, solardach trudering, dachrinnenreinigung trudering, sturmschaden dach trudering, wasserschaden dach münchen trudering, dach undicht trudering reparieren, dachschaden trudering`}
         geoPlacename={`München-Trudering, Bayern, Deutschland`}

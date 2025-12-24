@@ -56,8 +56,8 @@ export default function StadtteilKarlsfeld() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Dachdecker Karlsfeld | Meisterbetrieb aus München`}
-        description={`Dachdecker Karlsfeld: Dach undicht oder Sturmschaden? ✓ 24h Notdienst ✓ Dachrinnenreinigung ✓ 10 Jahre Garantie ☎ 089 12621964`}
+        title="Dachdecker Karlsfeld 2025 | Preise ab 85€/m² | Meisterbetrieb"
+        description="Dachdecker Karlsfeld: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Nur 8km entfernt ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical={`https://089dach.de/dachdecker-karlsfeld`}
         keywords={`dachdecker karlsfeld, dachsanierung karlsfeld, dachrinnenreinigung karlsfeld, sturmschaden dach karlsfeld, wasserschaden dach münchen karlsfeld, dach undicht karlsfeld reparieren, dachschaden karlsfeld, flachdach karlsfeld`}
         geoPlacename={`Karlsfeld, Landkreis Dachau, Bayern, Deutschland`}

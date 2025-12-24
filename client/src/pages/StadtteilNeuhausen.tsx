@@ -56,8 +56,8 @@ export default function StadtteilNeuhausen() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Neuhausen | Altbau & Dachausbau München"
-        description="Dachdecker Neuhausen: Sturmschaden oder Wasserschaden Dach? ✓ 24h Notdienst ✓ Altbau-Experten ✓ 10 Jahre Garantie ☎ 089 12621964"
+        title="Dachdecker Neuhausen 2025 | Preise ab 90€/m² | Meisterbetrieb"
+        description="Dachdecker Neuhausen: ✓ Dachsanierung ab 90€/m² ✓ 10 Jahre Garantie ✓ Altbau-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-neuhausen"
         keywords="dachdecker neuhausen empfehlung, dachrinnenreinigung neuhausen, sturmschaden dach neuhausen, wasserschaden dach münchen neuhausen, dach undicht neuhausen reparieren, dachschaden neuhausen, dachsanierung altbau neuhausen, dachdecker 80634 80636"
         geoPlacename={`München-Neuhausen, Bayern, Deutschland`}

@@ -56,8 +56,8 @@ export default function StadtteilSolln() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Dachdecker Solln | Villen & Landhäuser München`}
-        description={`Dachdecker Solln: Dach undicht? Wasserschaden? ✓ 24h Notdienst ✓ Premium-Qualität ✓ 10 Jahre Garantie. ☎ 089 12621964`}
+        title="Dachdecker Solln 2025 | Preise ab 95€/m² | Meisterbetrieb"
+        description="Dachdecker Solln: ✓ Dachsanierung ab 95€/m² ✓ 10 Jahre Garantie ✓ Villen-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical={`https://089dach.de/dachdecker-solln`}
         keywords={`dachdecker solln, dachsanierung solln münchen, villa dachdecker solln, landhaus dach münchen, denkmalschutz dachdecker, dachdecker 81477 81479, biberschwanz solln, schieferdach solln, sturmschaden dach solln, dachfenster solln, kupferdachrinne solln, dachrinnenreinigung solln, sturmschaden dach solln, wasserschaden dach münchen solln, dach undicht solln reparieren, dachschaden solln`}
         geoPlacename={`München-Solln, Bayern, Deutschland`}

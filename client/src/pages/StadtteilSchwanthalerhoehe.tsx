@@ -56,8 +56,8 @@ export default function StadtteilSchwanthalerhoehe() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Schwanthalerhöhe | Theresienwiese München"
-        description="Dachdecker Schwanthalerhöhe: Dach undicht? Wasserschaden? ✓ 24h Notdienst ✓ 10 Jahre Garantie. ☎ 089 12621964"
+        title="Dachdecker Schwanthalerhöhe 2025 | Preise ab 85€/m² | Meisterbetrieb"
+        description="Dachdecker Schwanthalerhöhe: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Altbau-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-schwanthalerhoehe"
         keywords="dachdecker schwanthalerhöhe, dachdecker theresienwiese, dachsanierung münchen zentral, flachdach schwanthalerhöhe, dachdecker messe münchen, dachrinnenreinigung schwanthalerhöhe, sturmschaden dach schwanthalerhöhe, wasserschaden dach münchen schwanthalerhöhe, dach undicht schwanthalerhöhe reparieren, dachschaden schwanthalerhöhe"
         geoPlacename="München-Schwanthalerhöhe, Bayern, Deutschland"

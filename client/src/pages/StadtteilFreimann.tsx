@@ -70,8 +70,8 @@ export default function StadtteilFreimann() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Freimann | München Nord Allianz Arena"
-        description="Dachdecker Freimann: Dach undicht? Sturmschaden? ✓ 24h Notdienst ✓ Dachrinnenreinigung ✓ 10 Jahre Garantie ☎ 089 12621964"
+        title="Dachdecker Freimann 2025 | Preise ab 85€/m² | Meisterbetrieb"
+        description="Dachdecker Freimann: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ München Nord ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-freimann"
         keywords="dachdecker freimann, dachsanierung münchen nord, dachdecker allianz arena, flachdach freimann, dachdecker 80939 80807, dachrinnenreinigung freimann, sturmschaden dach freimann, wasserschaden dach münchen freimann, dach undicht freimann reparieren, dachschaden freimann"
         geoPlacename="München-Freimann, Bayern, Deutschland"

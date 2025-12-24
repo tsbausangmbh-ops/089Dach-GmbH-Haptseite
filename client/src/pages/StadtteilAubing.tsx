@@ -70,8 +70,8 @@ export default function StadtteilAubing() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Aubing Lochhausen Langwied | München West"
-        description="Dachdecker Aubing: Dach undicht? Sturmschaden? ✓ 24h Notdienst ✓ Dachrinnenreinigung ✓ 10 Jahre Garantie ☎ 089 12621964"
+        title="Dachdecker Aubing 2025 | Preise ab 85€/m² | Meisterbetrieb"
+        description="Dachdecker Aubing: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ München West ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-aubing-lochhausen-langwied"
         keywords="dachdecker aubing, dachdecker lochhausen, dachsanierung aubing münchen, dachdecker 81243 81245 81249, dachrinnenreinigung aubing, sturmschaden dach aubing, wasserschaden dach münchen aubing, dach undicht aubing reparieren, dachschaden aubing"
         geoPlacename="München Aubing-Lochhausen-Langwied, Bayern, Deutschland"

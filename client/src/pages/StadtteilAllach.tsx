@@ -72,8 +72,8 @@ export default function StadtteilAllach() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Allach | Ihr Nachbar in nur 3km"
-        description="Dachdecker Allach: Dach undicht? Sturmschaden? ✓ 24h Notdienst ✓ Dachrinnenreinigung ✓ 10 Jahre Garantie ☎ 089 12621964"
+        title="Dachdecker Allach 2025 | Preise ab 85€/m² | Meisterbetrieb"
+        description="Dachdecker Allach: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Nur 3km entfernt ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-allach"
         keywords="dachdecker allach empfehlung, dachsanierung allach münchen, dachdecker untermenzing, siedlungshaus dach sanieren, dachziegel allach, dachreparatur münchen nord, dachdecker 80999, dachrinnenreinigung allach, sturmschaden dach allach, wasserschaden dach münchen allach, dach undicht allach reparieren, dachschaden allach"
         geoPlacename={`München-Allach, Bayern, Deutschland`}

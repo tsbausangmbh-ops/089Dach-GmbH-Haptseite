@@ -52,8 +52,8 @@ export default function StadtteilMilbertshofen() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Dachdecker Milbertshofen | München Nord`}
-        description={`Dachdecker Milbertshofen: Sturmschaden oder Dach undicht? ✓ 24h Notdienst ✓ Flachdach ✓ 10 Jahre Garantie ☎ 089 12621964`}
+        title="Dachdecker Milbertshofen 2025 | Preise ab 85€/m² | Meisterbetrieb"
+        description="Dachdecker Milbertshofen: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Flachdach-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical={`https://089dach.de/dachdecker-milbertshofen`}
         keywords={`dachdecker milbertshofen, dachrinnenreinigung milbertshofen, sturmschaden dach milbertshofen, wasserschaden dach münchen milbertshofen, dach undicht milbertshofen reparieren, dachschaden milbertshofen, flachdach münchen nord, dachdecker 80807 80809`}
         geoPlacename={`München Milbertshofen-Am Hart, Bayern, Deutschland`}

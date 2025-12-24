@@ -93,8 +93,8 @@ export default function StadtteilPasing() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Pasing | Ihr Nachbar-Dachdecker in 2km"
-        description="Dachdecker Pasing: Dach undicht? Sturmschaden? ✓ 24h Notdienst ✓ Nur 2km entfernt ✓ 10 Jahre Garantie. ☎ 089 12621964"
+        title="Dachdecker Pasing 2025 | Preise ab 85€/m² | Meisterbetrieb"
+        description="Dachdecker Pasing: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Nur 2km entfernt ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-pasing"
         keywords="dachdecker pasing empfehlung, dachsanierung pasing altbau, dachdecker in der nähe pasing, biberschwanz pasing, dachfenster einbau pasing, dachreparatur pasing münchen, flachdach pasing, dachgaube pasing, sturmschaden dach pasing, dachdecker 81241 81243, wärmedämmung dach pasing, dachrinnenreinigung pasing, sturmschaden dach pasing, wasserschaden dach münchen pasing, dach undicht pasing reparieren, dachschaden pasing"
         geoPlacename={`${stadtteilData.fullName}, Bayern, Deutschland`}

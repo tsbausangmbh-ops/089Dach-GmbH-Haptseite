@@ -70,8 +70,8 @@ export default function StadtteilBogenhausen() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Bogenhausen | Villen & Premium-Dächer"
-        description="Dachdecker Bogenhausen: Dach undicht? Sturmschaden? ✓ Villen-Experten ✓ 24h Notdienst ✓ 10 Jahre Garantie ☎ 089 12621964"
+        title="Dachdecker Bogenhausen 2025 | Preise ab 95€/m² | Meisterbetrieb"
+        description="Dachdecker Bogenhausen: ✓ Dachsanierung ab 95€/m² ✓ 10 Jahre Garantie ✓ Villen-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-bogenhausen"
         keywords="dachdecker bogenhausen empfehlung, villa dach sanieren bogenhausen, kupferdach kosten münchen, schieferdach bogenhausen, dachdecker 81675 81677 81679, dachrinnenreinigung bogenhausen, sturmschaden dach bogenhausen, wasserschaden dach münchen bogenhausen, dach undicht bogenhausen reparieren, dachschaden bogenhausen"
         geoPlacename={`München-Bogenhausen, Bayern, Deutschland`}

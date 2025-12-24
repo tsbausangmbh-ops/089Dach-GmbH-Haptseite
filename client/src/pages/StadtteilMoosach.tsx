@@ -56,8 +56,8 @@ export default function StadtteilMoosach() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Moosach | Flachdach & Notdienst - 4km"
-        description="Dachdecker Moosach: Dach undicht oder Sturmschaden? ✓ 24h Notdienst ✓ Nur 4km entfernt ✓ 10 Jahre Garantie ☎ 089 12621964"
+        title="Dachdecker Moosach 2025 | Preise ab 85€/m² | Meisterbetrieb"
+        description="Dachdecker Moosach: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Nur 4km entfernt ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-moosach"
         keywords="dachdecker moosach empfehlung, dachrinnenreinigung moosach, sturmschaden dach moosach, wasserschaden dach münchen moosach, dach undicht moosach reparieren, dachschaden moosach, flachdach moosach abdichten, dachdecker 80992 80993"
         geoPlacename={`München-Moosach, Bayern, Deutschland`}

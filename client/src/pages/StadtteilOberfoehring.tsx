@@ -56,8 +56,8 @@ export default function StadtteilOberfoehring() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Oberföhring | Villen & Premium München"
-        description="Dachdecker Oberföhring: Sturmschaden oder Wasserschaden Dach? ✓ 24h Notdienst ✓ Villen-Experten ✓ 10 Jahre Garantie ☎ 089 12621964"
+        title="Dachdecker Oberföhring 2025 | Preise ab 95€/m² | Meisterbetrieb"
+        description="Dachdecker Oberföhring: ✓ Dachsanierung ab 95€/m² ✓ 10 Jahre Garantie ✓ Villen-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-oberfoehring"
         keywords="dachdecker oberföhring, dachrinnenreinigung oberföhring, sturmschaden dach oberföhring, wasserschaden dach münchen oberföhring, dach undicht oberföhring reparieren, dachschaden oberföhring, dachsanierung villa münchen, dachdecker 81925 81927"
         geoPlacename="München-Oberföhring, Bayern, Deutschland"

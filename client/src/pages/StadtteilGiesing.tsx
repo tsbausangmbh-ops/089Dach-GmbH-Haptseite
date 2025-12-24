@@ -70,8 +70,8 @@ export default function StadtteilGiesing() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Giesing | Altbau & Dachgeschossausbau"
-        description={`Dachdecker Giesing: Dach undicht? Wasserschaden? ✓ 24h Notdienst ✓ Dachrinnenreinigung ✓ 10 Jahre Garantie ☎ 089 12621964`}
+        title="Dachdecker Giesing 2025 | Preise ab 85€/m² | Meisterbetrieb"
+        description="Dachdecker Giesing: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Altbau-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical={`https://089dach.de/dachdecker-giesing`}
         keywords={`dachdecker giesing, dachsanierung giesing münchen, dachgeschossausbau giesing, dachdecker obergiesing, dachdecker 81539 81541, dachrinnenreinigung giesing, sturmschaden dach giesing, wasserschaden dach münchen giesing, dach undicht giesing reparieren, dachschaden giesing`}
         geoPlacename={`München-Giesing, Bayern, Deutschland`}

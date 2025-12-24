@@ -55,8 +55,8 @@ export default function StadtteilThalkirchen() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Thalkirchen | Einfamilienhaus & Steildach München"
-        description="Dachdecker Thalkirchen: Dach undicht? Wasserschaden? ✓ 24h Notdienst ✓ 10 Jahre Garantie. Jetzt ☎ 089 12621964"
+        title="Dachdecker Thalkirchen 2025 | Preise ab 85€/m² | Meisterbetrieb"
+        description="Dachdecker Thalkirchen: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Steildach-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-thalkirchen"
         keywords="dachdecker thalkirchen, dachsanierung einfamilienhaus münchen, dachdecker isartal, dachfenster thalkirchen, dachdämmung thalkirchen, dachdecker 81379 81475, sturmschaden dach thalkirchen, steildach thalkirchen, dachrinne thalkirchen, ziegeldach thalkirchen, dachrinnenreinigung thalkirchen, sturmschaden dach thalkirchen, wasserschaden dach münchen thalkirchen, dach undicht thalkirchen reparieren, dachschaden thalkirchen"
         geoPlacename="München-Thalkirchen, Bayern, Deutschland"

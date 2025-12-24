@@ -51,8 +51,8 @@ export default function StadtteilSendling() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Sendling | Dachausbau & Gaubenbau München"
-        description="Dachdecker Sendling: Dach undicht? Sturmschaden? ✓ 24h Notdienst ✓ Festpreis ✓ 10 Jahre Garantie. ☎ 089 12621964"
+        title="Dachdecker Sendling 2025 | Preise ab 85€/m² | Meisterbetrieb"
+        description="Dachdecker Sendling: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Dachausbau-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-sendling"
         keywords={`dachausbau kosten sendling, dachdecker sendling bewertung, gaube bauen münchen sendling, dachgeschoss ausbauen kosten, kfw förderung dachausbau, dachdecker in der nähe sendling, flachdach sendling, dachfenster sendling, wärmedämmung dach sendling, sturmschaden dach sendling, dachdecker 81369 81371, dachsanierung mehrfamilienhaus sendling, dachrinnenreinigung sendling, sturmschaden dach sendling, wasserschaden dach münchen sendling, dach undicht sendling reparieren, dachschaden sendling`}
         geoPlacename={`München-Sendling, Bayern, Deutschland`}

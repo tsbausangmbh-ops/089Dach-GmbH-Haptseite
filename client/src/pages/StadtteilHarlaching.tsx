@@ -70,8 +70,8 @@ export default function StadtteilHarlaching() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Dachdecker Harlaching | Einfamilienhaus-Experten`}
-        description={`Dachdecker Harlaching: Dach undicht? Sturmschaden? ✓ 24h Notdienst ✓ Dachrinnenreinigung ✓ 10 Jahre Garantie ☎ 089 12621964`}
+        title="Dachdecker Harlaching 2025 | Preise ab 90€/m² | Meisterbetrieb"
+        description="Dachdecker Harlaching: ✓ Dachsanierung ab 90€/m² ✓ 10 Jahre Garantie ✓ Villen-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical={`https://089dach.de/dachdecker-harlaching`}
         keywords={`dachdecker harlaching, dachsanierung einfamilienhaus münchen, dachdecker menterschwaige, dachdecker 81545 81547, dachrinnenreinigung harlaching, sturmschaden dach harlaching, wasserschaden dach münchen harlaching, dach undicht harlaching reparieren, dachschaden harlaching`}
         geoPlacename={`München-Harlaching, Bayern, Deutschland`}

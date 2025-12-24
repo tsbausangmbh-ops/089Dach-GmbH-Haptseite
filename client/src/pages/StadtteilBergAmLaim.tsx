@@ -70,8 +70,8 @@ export default function StadtteilBergAmLaim() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Berg am Laim | Mehrfamilienhaus München"
-        description="Dachdecker Berg am Laim: Dach undicht? Wasserschaden? ✓ 24h Notdienst ✓ Dachrinnenreinigung ✓ 10 Jahre Garantie ☎ 089 12621964"
+        title="Dachdecker Berg am Laim 2025 | Preise ab 85€/m² | Meisterbetrieb"
+        description="Dachdecker Berg am Laim: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Flachdach-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-berg-am-laim"
         keywords="dachdecker berg am laim, dachsanierung münchen ost, flachdach berg am laim, dachrinnenreinigung berg am laim, sturmschaden dach berg am laim, wasserschaden dach münchen berg am laim, dach undicht berg am laim reparieren, dachschaden berg am laim"
         geoPlacename="München-Berg am Laim, Bayern, Deutschland"

@@ -69,8 +69,8 @@ export default function StadtteilHadern() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Hadern | Flachdach & Bestandsbau München"
-        description="Dachdecker Hadern: Dach undicht? Wasserschaden? ✓ 24h Notdienst ✓ Dachrinnenreinigung ✓ 10 Jahre Garantie ☎ 089 12621964"
+        title="Dachdecker Hadern 2025 | Preise ab 85€/m² | Meisterbetrieb"
+        description="Dachdecker Hadern: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Nur 5km entfernt ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-hadern"
         keywords="dachdecker hadern, dachdecker großhadern, flachdach sanierung münchen, dachsanierung hadern, dachdecker 81375 81377, dachrinnenreinigung hadern, sturmschaden dach hadern, wasserschaden dach münchen hadern, dach undicht hadern reparieren, dachschaden hadern"
         geoPlacename="München-Hadern, Bayern, Deutschland"

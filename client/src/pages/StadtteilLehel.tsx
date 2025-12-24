@@ -55,8 +55,8 @@ export default function StadtteilLehel() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Lehel | Villen & Altbau München"
-        description="Dachdecker Lehel: Sturmschaden oder Dach undicht? ✓ 24h Notdienst ✓ Villen-Experten ✓ 10 Jahre Garantie ☎ 089 12621964"
+        title="Dachdecker Lehel 2025 | Preise ab 95€/m² | Meisterbetrieb"
+        description="Dachdecker Lehel: ✓ Dachsanierung ab 95€/m² ✓ 10 Jahre Garantie ✓ Villen-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-lehel"
         keywords="dachdecker lehel, dachrinnenreinigung lehel, sturmschaden dach lehel, wasserschaden dach münchen lehel, dach undicht lehel reparieren, dachschaden lehel, dachsanierung villa münchen, kupferdach lehel, dachdecker 80538 80539"
         geoPlacename="München-Lehel, Bayern, Deutschland"

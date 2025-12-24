@@ -55,8 +55,8 @@ export default function StadtteilSchwabing() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Schwabing | Altbau & Denkmalschutz München"
-        description="Dachdecker Schwabing: Dach undicht? Sturmschaden am Altbau? ✓ 24h Notdienst ✓ Denkmalschutz ✓ 10 Jahre Garantie. ☎ 089 12621964"
+        title="Dachdecker Schwabing 2025 | Preise ab 90€/m² | Meisterbetrieb"
+        description="Dachdecker Schwabing: ✓ Dachsanierung ab 90€/m² ✓ 10 Jahre Garantie ✓ Denkmalschutz ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-schwabing"
         keywords="dachdecker schwabing empfehlung, dachsanierung denkmalschutz münchen, jugendstil dach reparieren, schieferdach schwabing kosten, altbau dach sanieren, dachdecker historische gebäude münchen, kupferdachrinne schwabing, gaubenrestaurierung schwabing, dachdecker 80798 80799 80801, dachsanierung villa schwabing, sturmschaden altbau schwabing, dachrinnenreinigung schwabing, sturmschaden dach schwabing, wasserschaden dach münchen schwabing, dach undicht schwabing reparieren, dachschaden schwabing"
         geoPlacename={`München-Schwabing, Bayern, Deutschland`}
