@@ -6,6 +6,8 @@ import { Phone, MapPin, Clock, CheckCircle2, Star, Shield, Award, ArrowRight } f
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import BackButton from "@/components/BackButton";
+import { GeoLinks } from "@/components/GeoLinks";
+import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import heroImage from "@assets/generated_images/realistic_renovated_roof_obermenzing_after.png";
 
 const stadtteilData = {
@@ -186,14 +188,14 @@ export default function StadtteilPasing() {
             <div className="lg:col-span-2 space-y-8">
               <div>
                 <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">
-                  Ihr lokaler Dachdecker für {stadtteilData.name}
+                  Ihr lokaler <strong>Dachdecker</strong> für {stadtteilData.name}
                 </h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-                  {stadtteilData.beschreibung}
+                  <TextWithKeywordLinks currentPath="/dachdecker-pasing">{stadtteilData.beschreibung}</TextWithKeywordLinks>
                 </p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Als Meisterbetrieb aus München-Obermenzing sind wir in nur {stadtteilData.entfernung} bei Ihnen vor Ort. 
-                  Ob Dachsanierung, Dachreparatur oder neue Dachfenster – wir kennen die typischen Dachkonstruktionen 
+                  Als <strong>Meisterbetrieb</strong> aus München-Obermenzing sind wir in nur {stadtteilData.entfernung} bei Ihnen vor Ort. 
+                  Ob <strong>Dachsanierung</strong>, <strong>Dachreparatur</strong> oder neue <strong>Dachfenster</strong> – wir kennen die typischen <strong>Dachkonstruktionen</strong> 
                   in {stadtteilData.name} und wissen, worauf es ankommt.
                 </p>
               </div>
@@ -239,9 +241,15 @@ export default function StadtteilPasing() {
                 <h3 className="text-xl font-heading font-bold text-secondary mb-2">
                   Referenzprojekt: {stadtteilData.referenzProjekt.titel}
                 </h3>
-                <p className="text-muted-foreground mb-2">{stadtteilData.referenzProjekt.beschreibung}</p>
+                <p className="text-muted-foreground mb-2"><TextWithKeywordLinks currentPath="/dachdecker-pasing">{stadtteilData.referenzProjekt.beschreibung}</TextWithKeywordLinks></p>
                 <p className="text-sm text-primary font-medium">Fertigstellung: {stadtteilData.referenzProjekt.jahr}</p>
               </div>
+
+              {/* GeoLinks Section */}
+              <GeoLinks 
+                currentStadtteil={stadtteilData.name}
+                nachbarStadtteile={stadtteilData.nachbarStadtteile}
+              />
             </div>
 
             {/* Sidebar */}
