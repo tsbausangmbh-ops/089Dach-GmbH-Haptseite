@@ -305,7 +305,7 @@ export function LocalBusinessSchema() {
       "bestRating": 5,
       "worstRating": 1,
       "ratingCount": 127,
-      "reviewCount": 89
+      "reviewCount": 127
     },
     "review": [
       {
@@ -756,7 +756,7 @@ export function AggregateRatingSchema() {
       "bestRating": "5",
       "worstRating": "1",
       "ratingCount": "127",
-      "reviewCount": "89"
+      "reviewCount": "127"
     }
   };
 
