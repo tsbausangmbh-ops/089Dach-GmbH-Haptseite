@@ -62,7 +62,7 @@ const reviews: Review[] = [
 
 export default function CustomerReviews() {
   const averageRating = 4.9;
-  const totalReviews = 127;
+  const totalReviews = 62;
 
   return (
     <section className="py-4 md:py-6" data-testid="section-customer-reviews">

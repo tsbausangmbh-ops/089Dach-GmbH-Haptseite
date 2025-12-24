@@ -67,7 +67,7 @@ export default function ProofStack({
                 </div>
                 <p className="text-2xl font-bold text-secondary">4.9</p>
                 <p className="text-sm text-gray-600">von 5 Sternen</p>
-                <p className="text-xs text-gray-500 mt-1">127 Bewertungen</p>
+                <p className="text-xs text-gray-500 mt-1">62 Bewertungen</p>
               </div>
 
               <div className="bg-stone-50 rounded-xl p-4 text-center">

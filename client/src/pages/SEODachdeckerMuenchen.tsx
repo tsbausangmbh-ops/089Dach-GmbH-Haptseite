@@ -60,7 +60,7 @@ function LocalBusinessSchema() {
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "4.9",
-      "reviewCount": "127",
+      "reviewCount": "62",
       "bestRating": "5"
     },
     "openingHoursSpecification": [
@@ -143,7 +143,7 @@ export default function SEODachdeckerMuenchen() {
         canonical="https://089dach.de/dachdecker-muenchen"
         keywords="dachdecker münchen, dachdecker münchen empfehlung, bester dachdecker münchen, dachdecker meisterbetrieb münchen, dachdeckerfirma münchen, dachdecker obermenzing, dachdecker pasing, dachdecker laim, dachdecker schwabing, dachdecker sendling, dachsanierung münchen, dachreparatur münchen, flachdach münchen, spengler münchen, dachfenster münchen, dachgaube münchen, dachdecker notdienst münchen, sturmschaden dach münchen, dachdecker bewertung münchen"
         geoPlacename="München, Bayern, Deutschland"
-        aiSummary="089Dach GmbH – Dachdecker-Meisterbetrieb in München-Obermenzing seit 1998. Dachsanierung, Dachreparatur, Flachdach, Spenglerarbeiten, Dachfenster, Dachgauben. 4.9/5 Sterne (127 Bewertungen). 10 Jahre Garantie. Festpreisgarantie. Tel: 089 12621964."
+        aiSummary="089Dach GmbH – Dachdecker-Meisterbetrieb in München-Obermenzing seit 1998. Dachsanierung, Dachreparatur, Flachdach, Spenglerarbeiten, Dachfenster, Dachgauben. 4.9/5 Sterne (62 Bewertungen). 10 Jahre Garantie. Festpreisgarantie. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[
         { name: "Home", url: "/" },
@@ -181,7 +181,7 @@ export default function SEODachdeckerMuenchen() {
             </p>
             <div className="flex flex-wrap gap-3 mb-6">
               <span className="bg-primary/20 text-primary px-3 py-1 rounded-full text-sm font-medium flex items-center gap-1">
-                <Star className="h-4 w-4" /> 4.9/5 Sterne (127 Bewertungen)
+                <Star className="h-4 w-4" /> 4.9/5 Sterne (62 Bewertungen)
               </span>
               <span className="bg-white/10 text-white px-3 py-1 rounded-full text-sm font-medium flex items-center gap-1">
                 <Shield className="h-4 w-4" /> 10 Jahre Garantie
@@ -248,7 +248,7 @@ export default function SEODachdeckerMuenchen() {
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-0.5" />
-                  <span><strong>Beste Bewertungen:</strong> 4.9 von 5 Sternen bei 127 Google-Bewertungen</span>
+                  <span><strong>Beste Bewertungen:</strong> 4.9 von 5 Sternen bei 62 Google-Bewertungen</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-0.5" />

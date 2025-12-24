@@ -25,7 +25,7 @@ function PriceSchema() {
       { "@type": "Offer", "name": "Dachfenster Einbau", "price": "1560", "priceCurrency": "EUR" },
       { "@type": "Offer", "name": "Dachgaube komplett", "price": "15600", "priceCurrency": "EUR" }
     ],
-    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "127" }
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "62" }
   };
   return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
 }

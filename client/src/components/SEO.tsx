@@ -88,7 +88,7 @@ export default function SEO({
     setMeta('ai:service_area', 'München, Obermenzing, Pasing, Laim, Schwabing, Sendling, Bogenhausen, Moosach, Neuhausen, Nymphenburg, Gräfelfing, Planegg, Germering, Starnberg, Dachau, Fürstenfeldbruck, Grünwald, Pullach, Ottobrunn, Unterhaching, Haar, Garching, Ismaning, Unterschleißheim, Karlsfeld, Olching, Eichenau, Krailling, Gauting');
     setMeta('ai:business_type', 'Dachdecker-Meisterbetrieb, Spenglermeister, Roofing Contractor');
     setMeta('ai:expertise', 'Dachsanierung, Steildach, Flachdach, Spenglerarbeiten, Dachfenster, Gaubenbau, Energieberatung, Dachreparatur, Sturmschaden-Reparatur, 24h Notdienst');
-    setMeta('ai:rating', '4.9/5 Sterne basierend auf 127 Bewertungen');
+    setMeta('ai:rating', '4.9/5 Sterne basierend auf 62 Bewertungen');
     setMeta('ai:experience', 'Meisterbetrieb seit 1998, über 25 Jahre Erfahrung, 200+ abgeschlossene Projekte');
     setMeta('ai:guarantee', '10 Jahre Garantie auf alle Arbeiten');
     setMeta('ai:funding', 'KfW und BAFA Förderberatung inklusive');
@@ -304,8 +304,8 @@ export function LocalBusinessSchema() {
       "ratingValue": 4.9,
       "bestRating": 5,
       "worstRating": 1,
-      "ratingCount": 127,
-      "reviewCount": 127
+      "ratingCount": 62,
+      "reviewCount": 62
     },
     "review": [
       {
@@ -755,8 +755,8 @@ export function AggregateRatingSchema() {
       "ratingValue": "4.9",
       "bestRating": "5",
       "worstRating": "1",
-      "ratingCount": "127",
-      "reviewCount": "127"
+      "ratingCount": "62",
+      "reviewCount": "62"
     }
   };
 
@@ -1204,7 +1204,7 @@ export function GoogleBusinessProfileSchema() {
     "openingHoursSpecification": [
       { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "07:00", "closes": "18:00" }
     ],
-    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "127", "bestRating": "5", "worstRating": "1" },
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "62", "bestRating": "5", "worstRating": "1" },
     "areaServed": [
       { "@type": "City", "name": "München" },
       { "@type": "AdministrativeArea", "name": "München-Obermenzing" },
@@ -1279,7 +1279,7 @@ export function BingPlacesSchema() {
     "address": { "@type": "PostalAddress", "streetAddress": "Thuillestr. 20", "addressLocality": "München", "addressRegion": "Bayern", "postalCode": "81247", "addressCountry": "Deutschland" },
     "geo": { "@type": "GeoCoordinates", "latitude": "48.1661", "longitude": "11.4728" },
     "openingHours": "Mo-Fr 07:00-18:00",
-    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "127" },
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "62" },
     "review": [
       { "@type": "Review", "author": { "@type": "Person", "name": "Michael S." }, "datePublished": "2024-10-15", "reviewBody": "Hervorragende Arbeit bei unserer Dachsanierung. Sehr professionell und termingerecht.", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }},
       { "@type": "Review", "author": { "@type": "Person", "name": "Andrea K." }, "datePublished": "2024-09-20", "reviewBody": "Kompetente Beratung und faire Preise. Absolut empfehlenswert!", "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }}
@@ -1519,7 +1519,7 @@ export function ProductServiceSchema({
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "4.9",
-      "reviewCount": "127"
+      "reviewCount": "62"
     }
   };
 
@@ -1644,7 +1644,7 @@ export function StadtteilLocalBusinessSchema({
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "4.9",
-      "reviewCount": "127"
+      "reviewCount": "62"
     },
     "makesOffer": [
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": `Dachsanierung ${stadtteil}` }},
