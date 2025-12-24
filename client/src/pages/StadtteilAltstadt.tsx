@@ -6,6 +6,8 @@ import { Phone, MapPin, Clock, CheckCircle2, Star, Shield, Award, ArrowRight } f
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import BackButton from "@/components/BackButton";
+import { GeoLinks } from "@/components/GeoLinks";
+import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import heroImage from "@assets/generated_images/historic_building_roof_renovation.png";
 import imgDachrinnenreinigung from "@assets/stock_images/rain_gutter_full_lea_dbbf6bfe.jpg";
 import imgSturmschaden from "@assets/generated_images/damaged_roof_with_missing_tiles.png";
@@ -140,8 +142,8 @@ export default function StadtteilAltstadt() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="lg:col-span-2 space-y-8">
               <div>
-                <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Denkmalschutz-Experten für die {stadtteilData.name}</h2>
-                <p className="text-lg text-muted-foreground leading-relaxed mb-4">{stadtteilData.beschreibung}</p>
+                <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4"><strong>Dachdecker</strong> & Denkmalschutz-Experten für die {stadtteilData.name}</h2>
+                <p className="text-lg text-muted-foreground leading-relaxed mb-4"><TextWithKeywordLinks currentPath="/dachdecker-altstadt">{stadtteilData.beschreibung}</TextWithKeywordLinks></p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
                   Wir arbeiten seit Jahrzehnten eng mit dem Bayerischen Landesamt für Denkmalpflege zusammen und kennen 
                   die besonderen Anforderungen an Dacharbeiten in der historischen Altstadt.
@@ -251,6 +253,11 @@ export default function StadtteilAltstadt() {
           </div>
         </div>
       </section>
+
+      <GeoLinks 
+        currentStadtteil={stadtteilData.name}
+        nachbarStadtteile={stadtteilData.nachbarStadtteile}
+      />
 
       <LeadFunnel 
         headline="Dachdecker in Altstadt München gesucht?"

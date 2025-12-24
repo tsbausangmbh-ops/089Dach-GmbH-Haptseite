@@ -6,6 +6,8 @@ import { Phone, MapPin, Clock, CheckCircle2, Star, Shield, Award, ArrowRight } f
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import BackButton from "@/components/BackButton";
+import { GeoLinks } from "@/components/GeoLinks";
+import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import heroImage from "@assets/generated_images/realistic_restored_historic_roof_after.png";
 import imgDachrinnenreinigung from "@assets/stock_images/rain_gutter_full_lea_dbbf6bfe.jpg";
 import imgSturmschaden from "@assets/generated_images/damaged_roof_with_missing_tiles.png";
@@ -140,8 +142,8 @@ export default function StadtteilGiesing() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="lg:col-span-2 space-y-8">
               <div>
-                <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Ihr Dachdecker für {stadtteilData.name}</h2>
-                <p className="text-lg text-muted-foreground leading-relaxed mb-4">{stadtteilData.beschreibung}</p>
+                <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Ihr <strong>Dachdecker</strong> für {stadtteilData.name}</h2>
+                <p className="text-lg text-muted-foreground leading-relaxed mb-4"><TextWithKeywordLinks currentPath="/dachdecker-giesing">{stadtteilData.beschreibung}</TextWithKeywordLinks></p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
                   Ob Ober- oder Untergiesing – wir kennen die besonderen Anforderungen des Viertels und sind schnell vor Ort.
                 </p>
@@ -250,6 +252,11 @@ export default function StadtteilGiesing() {
           </div>
         </div>
       </section>
+
+      <GeoLinks 
+        currentStadtteil={stadtteilData.name}
+        nachbarStadtteile={stadtteilData.nachbarStadtteile}
+      />
 
       <LeadFunnel 
         headline="Dachdecker in Giesing gesucht?"

@@ -6,6 +6,8 @@ import { Phone, MapPin, Clock, CheckCircle2, Star, Shield, Award, ArrowRight } f
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import BackButton from "@/components/BackButton";
+import { GeoLinks } from "@/components/GeoLinks";
+import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import heroImage from "@assets/generated_images/realistic_renovated_roof_obermenzing_after.png";
 
 const stadtteilData = {
@@ -132,8 +134,8 @@ export default function StadtteilLaim() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="lg:col-span-2 space-y-8">
               <div>
-                <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Ihr lokaler Dachdecker für {stadtteilData.name}</h2>
-                <p className="text-lg text-muted-foreground leading-relaxed mb-4">{stadtteilData.beschreibung}</p>
+                <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Ihr lokaler <strong>Dachdecker</strong> für {stadtteilData.name}</h2>
+                <p className="text-lg text-muted-foreground leading-relaxed mb-4"><TextWithKeywordLinks currentPath="/dachdecker-laim">{stadtteilData.beschreibung}</TextWithKeywordLinks></p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
                   Von unserem Standort in Obermenzing erreichen wir {stadtteilData.name} in nur wenigen Minuten. 
                   Egal ob Flachdachabdichtung oder Steildachsanierung – wir sind schnell vor Ort.
@@ -175,9 +177,14 @@ export default function StadtteilLaim() {
 
               <div className="bg-secondary/5 rounded-xl p-4 md:p-6">
                 <h3 className="text-xl font-heading font-bold text-secondary mb-2">Referenzprojekt: {stadtteilData.referenzProjekt.titel}</h3>
-                <p className="text-muted-foreground mb-2">{stadtteilData.referenzProjekt.beschreibung}</p>
+                <p className="text-muted-foreground mb-2"><TextWithKeywordLinks currentPath="/dachdecker-laim">{stadtteilData.referenzProjekt.beschreibung}</TextWithKeywordLinks></p>
                 <p className="text-sm text-primary font-medium">Fertigstellung: {stadtteilData.referenzProjekt.jahr}</p>
               </div>
+
+              <GeoLinks 
+                currentStadtteil={stadtteilData.name}
+                nachbarStadtteile={stadtteilData.nachbarStadtteile}
+              />
             </div>
 
             <div className="space-y-6">
