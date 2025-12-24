@@ -6,6 +6,10 @@ import prerender from "prerender-node";
 
 const app = express();
 
+app.get("/health", (_req, res) => {
+  res.status(200).send("ok");
+});
+
 if (process.env.PRERENDER_TOKEN) {
   app.use(prerender
     .set('prerenderToken', process.env.PRERENDER_TOKEN)
