@@ -20,6 +20,8 @@ if (process.env.PRERENDER_TOKEN) {
 }
 
 const httpServer = createServer(app);
+httpServer.keepAliveTimeout = 120000;
+httpServer.headersTimeout = 120000;
 
 declare module "http" {
   interface IncomingMessage {
