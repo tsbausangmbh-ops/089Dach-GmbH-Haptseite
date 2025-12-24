@@ -31,7 +31,7 @@ export default function DachuebertandVerkleiden() {
         title="Dachüberstand verkleiden München | 40-120€/lfm | 089Dach"
         description="Dachüberstand verkleiden München: ✓ Kunststoff 40-70€/lfm ✓ Holz ✓ Aluminium ✓ Wartungsfrei. Jetzt anfragen!"
         canonical="/dachueberstand-verkleiden"
-        keywords="dachüberstand verkleiden, untersparrenverkleidung, dachkasten verkleiden, ortgang verkleiden, traufe verkleiden, dachüberstand kunststoff, dachüberstand kosten"
+        keywords="dachüberstand verkleiden, untersparrenverkleidung, dachkasten verkleiden, ortgang verkleiden, traufe verkleiden, dachüberstand kunststoff, dachüberstand kosten, was kostet dachüberstand verkleiden münchen, dachüberstand verkleiden münchen erfahrungen, wie lange dauert dachüberstand verkleiden, dachüberstand verkleiden selber machen oder profi, dachüberstand verkleiden kosten pro meter, dachüberstand verkleiden münchen günstig, dachüberstand verkleiden festpreis münchen, dachüberstand verkleiden preisvergleich, dachüberstand verkleiden meisterbetrieb münchen, dachüberstand verkleiden fachbetrieb münchen, dachüberstand verkleiden handwerker münchen"
         aiSummary="Dachüberstand verkleiden München: Kunststoff 40-70€/lfm, Holz 50-90€/lfm, Alu 60-100€/lfm. 089Dach Meisterbetrieb. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dachüberstand verkleiden", url: "/dachueberstand-verkleiden" }]} />

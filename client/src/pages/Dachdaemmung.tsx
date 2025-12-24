@@ -38,7 +38,7 @@ export default function Dachdaemmung() {
         title="Dachdämmung München 2025 | Kosten ab 50€/m² | Meisterbetrieb"
         description="Dachdämmung München: ✓ Kosten ab 50€/m² ✓ 10 Jahre Garantie ✓ Kostenlose Beratung ✓ Festpreisangebot. ☎ 089 12621964"
         canonical="/dachdaemmung"
-        keywords="dachdämmung münchen, dach dämmen kosten, aufsparrendämmung münchen, zwischensparrendämmung kosten, einblasdämmung dach, dachisolierung münchen, dachboden dämmen, wärmedämmung dach, energetische sanierung dach, kfw förderung dachdämmung"
+        keywords="dachdämmung münchen, dach dämmen kosten, aufsparrendämmung münchen, zwischensparrendämmung kosten, einblasdämmung dach, dachisolierung münchen, dachboden dämmen, wärmedämmung dach, energetische sanierung dach, kfw förderung dachdämmung, was kostet dachdämmung münchen, dachdämmung münchen erfahrungen, wie lange dauert dachdämmung, dachdämmung selber machen oder profi, dachdämmung kosten pro qm, dachdämmung münchen günstig, dachdämmung festpreis münchen, dachdämmung preisvergleich, dachdämmung dringend münchen, dachdämmung schnell münchen, dachdämmung förderung 2025, dachdämmung kfw förderung, dachdämmung bafa zuschuss, dachdämmung steuerlich absetzbar, dachdämmung meisterbetrieb münchen, dachdämmung fachbetrieb münchen, dachdämmung handwerker münchen"
         aiSummary="Dachdämmung in München durch 089Dach GmbH. Einblasdämmung ab 25€/m², Zwischensparrendämmung 50-80€/m², Aufsparrendämmung 120-180€/m². KfW-Förderung bis 20% möglich. Meisterbetrieb seit 1998. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dachdämmung", url: "/dachdaemmung" }]} />

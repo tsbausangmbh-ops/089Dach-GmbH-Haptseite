@@ -66,7 +66,7 @@ export default function DachNeuEindecken() {
         title="Dach neu eindecken München 2025 | Kosten ab 60€/m² | Meisterbetrieb"
         description="Dach neu eindecken München: ✓ Kosten ab 60€/m² ✓ 10 Jahre Garantie ✓ Kostenlose Beratung ✓ Festpreisangebot. ☎ 089 12621964"
         canonical="/dach-neu-eindecken"
-        keywords="dach neu eindecken kosten, dach neu decken münchen, dacheindeckung kosten, dach neu machen lassen, dachneueindeckung preise, dach erneuern kosten, neue dachziegel kosten, dach komplett erneuern, dachsanierung mit neueindeckung, dachdecker neueindeckung"
+        keywords="dach neu eindecken kosten, dach neu decken münchen, dacheindeckung kosten, dach neu machen lassen, dachneueindeckung preise, dach erneuern kosten, neue dachziegel kosten, dach komplett erneuern, dachsanierung mit neueindeckung, dachdecker neueindeckung, was kostet dach neu eindecken münchen, dach neu eindecken münchen erfahrungen, wie lange dauert dach neu eindecken, dach neu eindecken selber machen oder profi, dach neu eindecken kosten pro qm, dach neu eindecken münchen günstig, dach neu eindecken festpreis münchen, dach neu eindecken preisvergleich, dach neu eindecken förderung 2025, dach neu eindecken kfw förderung, dach neu eindecken steuerlich absetzbar, dach neu eindecken meisterbetrieb münchen, dach neu eindecken fachbetrieb münchen, dach neu eindecken handwerker münchen"
         aiSummary="Dach neu eindecken in München durch 089Dach GmbH. Betondachsteine 60-90€/m², Tonziegel 80-120€/m², Schiefer 120-180€/m². Festpreisgarantie, 5 Jahre Gewährleistung. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dach neu eindecken", url: "/dach-neu-eindecken" }]} />

@@ -63,7 +63,7 @@ export default function DachAbdichten() {
         title="Dach abdichten München 2025 | Kosten ab 25€/m² | Meisterbetrieb"
         description="Dach abdichten München: ✓ Kosten ab 25€/m² ✓ 10 Jahre Garantie ✓ Kostenlose Beratung ✓ Festpreisangebot. ☎ 089 12621964"
         canonical="/dach-abdichten"
-        keywords="dach abdichten münchen, dachabdichtung kosten, dach abdichten flüssigkunststoff, flachdach abdichten, steildach abdichten, dach wasserdicht machen, dachabdichtung bitumen, dach abdichten von innen, undichtes dach reparieren, dachdichtung münchen"
+        keywords="dach abdichten münchen, dachabdichtung kosten, dach abdichten flüssigkunststoff, flachdach abdichten, steildach abdichten, dach wasserdicht machen, dachabdichtung bitumen, dach abdichten von innen, undichtes dach reparieren, dachdichtung münchen, was kostet dach abdichten münchen, dachabdichtung münchen erfahrungen, wie lange dauert dachabdichtung, dach abdichten selber machen oder profi, dachabdichtung kosten pro qm, dach abdichten münchen günstig, dachabdichtung festpreis münchen, dachabdichtung preisvergleich, dach abdichten dringend münchen, dach abdichten schnell münchen, dachabdichtung notfall, dach abdichten meisterbetrieb münchen, dachabdichtung fachbetrieb münchen, dach abdichten handwerker münchen"
         aiSummary="Dach abdichten in München durch 089Dach GmbH. Steildach ab 25€/m², Flachdach ab 35€/m². Flüssigkunststoff, Bitumen, EPDM. 24h Notdienst verfügbar. Meisterbetrieb seit 1998. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dach abdichten", url: "/dach-abdichten" }]} />

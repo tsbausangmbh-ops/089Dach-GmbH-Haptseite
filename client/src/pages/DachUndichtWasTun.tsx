@@ -41,7 +41,7 @@ export default function DachUndichtWasTun() {
         title="Dach undicht – was tun? | Notfall-Ratgeber | Soforthilfe München"
         description="Wasser tropft durch die Decke? ✓ 5 Sofortmaßnahmen ✓ Häufige Ursachen ✓ Notdienst am selben Tag ✓ Reparatur ab 150€. Dachdecker München 24h erreichbar!"
         canonical="/dach-undicht-was-tun"
-        keywords="dach undicht was tun münchen, wasser tropft durch decke hilfe, dach notdienst münchen, undichtes dach reparieren, dach leckt was tun"
+        keywords="dach undicht was tun münchen, wasser tropft durch decke hilfe, dach notdienst münchen, undichtes dach reparieren, dach leckt was tun, was kostet dach undicht reparieren münchen, dach undicht münchen erfahrungen, wie lange dauert dach undicht reparatur, dach undicht reparieren selber machen oder profi, dach undicht kosten pro qm, dach undicht münchen günstig, dach undicht festpreis münchen, dach undicht preisvergleich, dach undicht dringend münchen, dach undicht schnell münchen, dach undicht notfall, dach undicht meisterbetrieb münchen, dach undicht fachbetrieb münchen, dach undicht handwerker münchen"
         aiSummary="Dach undicht Soforthilfe München: Wasser auffangen, Möbel schützen, Strom abstellen, Dachdecker rufen. 089Dach Notdienst in München, Schwabing, Bogenhausen - oft am selben Tag. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dach undicht - was tun?", url: "/dach-undicht-was-tun" }]} />

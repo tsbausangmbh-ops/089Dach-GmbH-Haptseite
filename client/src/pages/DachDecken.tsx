@@ -44,7 +44,7 @@ export default function DachDecken() {
         title="Dach decken München 2025 | Kosten ab 60€/m² | Meisterbetrieb"
         description="Dach decken München: ✓ Kosten ab 60€/m² ✓ 10 Jahre Garantie ✓ Kostenlose Beratung ✓ Festpreisangebot. ☎ 089 12621964"
         canonical="/dach-decken"
-        keywords="dach decken kosten, dach decken lassen, dach decken material, dach decken preis pro qm, dachdecken münchen, dach neu decken, dach selbst decken, dach decken anleitung, was kostet dach decken, dach decken firma"
+        keywords="dach decken kosten, dach decken lassen, dach decken material, dach decken preis pro qm, dachdecken münchen, dach neu decken, dach selbst decken, dach decken anleitung, was kostet dach decken, dach decken firma, was kostet dach decken münchen, dach decken münchen erfahrungen, wie lange dauert dach decken, dach decken selber machen oder profi, dach decken münchen günstig, dach decken festpreis münchen, dach decken preisvergleich, dach decken dringend münchen, dach decken schnell münchen, dach decken meisterbetrieb münchen, dach decken fachbetrieb münchen, dach decken handwerker münchen"
         aiSummary="Dach decken in München durch 089Dach GmbH. Alle Materialien von Dachpappe (25€/m²) bis Schiefer (180€/m²). Festpreisgarantie, 5 Jahre Gewährleistung. Meisterbetrieb seit 1998. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dach decken", url: "/dach-decken" }]} />

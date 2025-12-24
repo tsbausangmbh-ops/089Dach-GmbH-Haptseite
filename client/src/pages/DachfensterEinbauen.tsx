@@ -42,7 +42,7 @@ export default function DachfensterEinbauen() {
         title="Dachfenster einbauen München 2025 | ab 1.200€"
         description="Dachfenster einbauen München: ✓ Kosten ab 1.200€ ✓ 10 Jahre Garantie ✓ Kostenlose Beratung ✓ Festpreisangebot. ☎ 089 12621964"
         canonical="/dachfenster-einbauen"
-        keywords="dachfenster einbauen münchen, velux fenster montage kosten, dachfenster nachträglich einbauen preis, dachflächenfenster einbauen lassen"
+        keywords="dachfenster einbauen münchen, velux fenster montage kosten, dachfenster nachträglich einbauen preis, dachflächenfenster einbauen lassen, was kostet dachfenster einbauen münchen, dachfenster einbauen münchen erfahrungen, wie lange dauert dachfenster einbau, dachfenster einbauen selber machen oder profi, dachfenster einbauen kosten pro stück, dachfenster einbauen münchen günstig, dachfenster einbauen festpreis münchen, dachfenster einbauen preisvergleich, dachfenster förderung 2025, dachfenster kfw förderung, dachfenster einbauen meisterbetrieb münchen, dachfenster einbauen fachbetrieb münchen, dachfenster einbauen handwerker münchen"
         aiSummary="Dachfenster einbauen München: Schwingfenster inkl. Einbau 1.200-2.100€, Panoramafenster 2.600-4.900€. 089Dach - Spezialist für München, Schwabing, Harlaching, Trudering. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dachfenster einbauen", url: "/dachfenster-einbauen" }]} />

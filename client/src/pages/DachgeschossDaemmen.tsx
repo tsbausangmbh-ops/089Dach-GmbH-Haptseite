@@ -40,7 +40,7 @@ export default function DachgeschossDaemmen() {
         title="Dachgeschoss dämmen München 2025 | ab 50€/m²"
         description="Dachgeschoss dämmen München: ✓ Kosten ab 50€/m² ✓ 10 Jahre Garantie ✓ Kostenlose Beratung ✓ Festpreisangebot. ☎ 089 12621964"
         canonical="/dachgeschoss-daemmen"
-        keywords="dachgeschoss dämmen münchen, dachdämmung kosten bayern, zwischensparrendämmung preis, aufsparrendämmung kosten, dachboden isolieren lassen, kfw förderung dachdämmung"
+        keywords="dachgeschoss dämmen münchen, dachdämmung kosten bayern, zwischensparrendämmung preis, aufsparrendämmung kosten, dachboden isolieren lassen, kfw förderung dachdämmung, was kostet dachgeschoss dämmen münchen, dachgeschoss dämmen münchen erfahrungen, wie lange dauert dachgeschoss dämmen, dachgeschoss dämmen selber machen oder profi, dachgeschoss dämmen kosten pro qm, dachgeschoss dämmen münchen günstig, dachgeschoss dämmen festpreis münchen, dachgeschoss dämmen preisvergleich, dachgeschoss dämmen förderung 2025, dachgeschoss dämmen bafa zuschuss, dachgeschoss dämmen steuerlich absetzbar, dachgeschoss dämmen meisterbetrieb münchen, dachgeschoss dämmen fachbetrieb münchen, dachgeschoss dämmen handwerker münchen"
         aiSummary="Dachgeschoss dämmen München: Zwischensparren 40-70€/m², Aufsparren 80-150€/m². Bis 20% KfW-Förderung. 089Dach - Ihr Dachdecker für München, Pasing, Bogenhausen, Schwabing. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dachgeschoss dämmen", url: "/dachgeschoss-daemmen" }]} />

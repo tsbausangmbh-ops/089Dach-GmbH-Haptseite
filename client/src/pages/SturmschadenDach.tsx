@@ -40,7 +40,7 @@ export default function SturmschadenDach() {
         title="Sturmschaden Dach München | 24h Notdienst | Versicherung | 089Dach"
         description="Sturmschaden am Dach in München? ✓ 24h Notdienst ✓ Sofort-Notsicherung ✓ Direktabrechnung mit Versicherung ✓ Meisterbetrieb ✓ Jetzt anrufen: 089 12621964"
         canonical="/sturmschaden-dach"
-        keywords="sturmschaden dach münchen, sturm dachziegel abgedeckt, dach sturm versicherung, notsicherung dach sturm, dachdecker notdienst sturm, sturmschaden reparatur, dach nach sturm, ziegel vom dach geweht, sturmschaden melden, sturmschaden gutachter"
+        keywords="sturmschaden dach münchen, sturm dachziegel abgedeckt, dach sturm versicherung, notsicherung dach sturm, dachdecker notdienst sturm, sturmschaden reparatur, dach nach sturm, ziegel vom dach geweht, sturmschaden melden, sturmschaden gutachter, was kostet sturmschaden dach reparieren münchen, sturmschaden dach münchen erfahrungen, wie lange dauert sturmschaden reparatur, sturmschaden dach kosten pro qm, sturmschaden dach münchen günstig, sturmschaden dach festpreis münchen, sturmschaden dach preisvergleich, sturmschaden dach dringend münchen, sturmschaden dach schnell münchen, sturmschaden dach notfall, sturmschaden dach meisterbetrieb münchen, sturmschaden dach fachbetrieb münchen, sturmschaden dach handwerker münchen"
         aiSummary="Sturmschaden am Dach in München? 089Dach GmbH bietet 24h-Notdienst mit Sofort-Notsicherung. Direktabrechnung mit Versicherung möglich. Notsicherung ab 150€. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Sturmschaden Dach", url: "/sturmschaden-dach" }]} />

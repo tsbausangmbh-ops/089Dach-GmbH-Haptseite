@@ -41,7 +41,7 @@ export default function FlachdachAbdichten() {
         title="Flachdach abdichten München | Bitumen, EPDM, PVC | 40-100€/m²"
         description="Flachdachabdichtung vom Fachmann: ✓ Bitumen 40-70€/m² ✓ EPDM 50-80€/m² ✓ PVC 45-75€/m² ✓ Bis 10 Jahre Garantie ✓ Alle Systeme. Dachdecker München & Oberbayern!"
         canonical="/flachdach-abdichten"
-        keywords="flachdach abdichten münchen, flachdachabdichtung kosten bayern, epdm flachdach preis, bitumenbahn flachdach, flachdach sanieren kosten"
+        keywords="flachdach abdichten münchen, flachdachabdichtung kosten bayern, epdm flachdach preis, bitumenbahn flachdach, flachdach sanieren kosten, was kostet flachdach abdichten münchen, flachdach abdichten münchen erfahrungen, wie lange dauert flachdach abdichten, flachdach abdichten selber machen oder profi, flachdach abdichten kosten pro qm, flachdach abdichten münchen günstig, flachdach abdichten festpreis münchen, flachdach abdichten preisvergleich, flachdach abdichten dringend münchen, flachdach abdichten schnell münchen, flachdach abdichten notfall, flachdach abdichten förderung 2025, flachdach abdichten kfw förderung, flachdach abdichten meisterbetrieb münchen, flachdach abdichten fachbetrieb münchen, flachdach abdichten handwerker münchen"
         aiSummary="Flachdach abdichten München und Umgebung: Bitumen 40-70€/m², EPDM 50-80€/m², PVC 45-75€/m². 089Dach - Flachdach-Spezialist für München, Unterföhring, Ismaning. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Flachdach abdichten", url: "/flachdach-abdichten" }]} />

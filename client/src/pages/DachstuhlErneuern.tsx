@@ -32,7 +32,7 @@ export default function DachstuhlErneuern() {
         title="Dachstuhl erneuern München 2025 | ab 50€/m²"
         description="Dachstuhl erneuern München: ✓ Kosten ab 50€/m² ✓ 10 Jahre Garantie ✓ Kostenlose Beratung ✓ Festpreisangebot. ☎ 089 12621964"
         canonical="/dachstuhl-erneuern"
-        keywords="dachstuhl erneuern münchen, dachstuhl sanieren kosten bayern, dachbalken erneuern preis, holzdachstuhl reparieren"
+        keywords="dachstuhl erneuern münchen, dachstuhl sanieren kosten bayern, dachbalken erneuern preis, holzdachstuhl reparieren, was kostet dachstuhl erneuern münchen, dachstuhl erneuern münchen erfahrungen, wie lange dauert dachstuhl erneuern, dachstuhl erneuern selber machen oder profi, dachstuhl erneuern kosten pro qm, dachstuhl erneuern münchen günstig, dachstuhl erneuern festpreis münchen, dachstuhl erneuern preisvergleich, dachstuhl erneuern meisterbetrieb münchen, dachstuhl erneuern fachbetrieb münchen, dachstuhl erneuern handwerker münchen"
         aiSummary="Dachstuhl erneuern München und Umgebung: Komplett 80-150€/m², Teilsanierung 50-100€/m². 089Dach - Zimmermeister für Pasing, Solln, Grünwald. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dachstuhl erneuern", url: "/dachstuhl-erneuern" }]} />

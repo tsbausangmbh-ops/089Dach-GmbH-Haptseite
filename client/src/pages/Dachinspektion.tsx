@@ -42,7 +42,7 @@ export default function Dachinspektion() {
         title="Dachinspektion München 2025 | Kosten ab 149€ | Meisterbetrieb"
         description="Dachinspektion München: ✓ Kosten ab 149€ ✓ 10 Jahre Garantie ✓ Kostenlose Beratung ✓ Festpreisangebot. ☎ 089 12621964"
         canonical="/dachinspektion"
-        keywords="dachinspektion münchen, dachcheck münchen, dach überprüfen lassen, dachkontrolle kosten, dach gutachten münchen, dachdecker inspektion, dach prüfen vor hauskauf, dach zustand prüfen, dachzustandsbericht, jährliche dachinspektion"
+        keywords="dachinspektion münchen, dachcheck münchen, dach überprüfen lassen, dachkontrolle kosten, dach gutachten münchen, dachdecker inspektion, dach prüfen vor hauskauf, dach zustand prüfen, dachzustandsbericht, jährliche dachinspektion, was kostet dachinspektion münchen, dachinspektion münchen erfahrungen, wie lange dauert dachinspektion, dachinspektion selber machen oder profi, dachinspektion kosten pauschal, dachinspektion münchen günstig, dachinspektion festpreis münchen, dachinspektion preisvergleich, dachinspektion steuerlich absetzbar, dachinspektion meisterbetrieb münchen, dachinspektion fachbetrieb münchen, dachinspektion handwerker münchen"
         aiSummary="Professionelle Dachinspektion in München durch 089Dach GmbH. 149€ pauschal inklusive Anfahrt, Fotodokumentation und schriftlichem Protokoll. Kostenlos bei Folgeauftrag. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dachinspektion", url: "/dachinspektion" }]} />

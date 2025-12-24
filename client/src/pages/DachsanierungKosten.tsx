@@ -42,7 +42,7 @@ export default function DachsanierungKosten() {
         title="Dachsanierung Kosten München 2025 | ab 85€/m² | Meisterbetrieb"
         description="Dachsanierung Kosten München: ✓ Preise ab 85€/m² ✓ 10 Jahre Garantie ✓ Kostenlose Beratung ✓ Festpreisangebot. ☎ 089 12621964"
         canonical="/dachsanierung-kosten"
-        keywords="dachsanierung kosten, dachsanierung kosten pro qm, was kostet dachsanierung, dachsanierung preis münchen, dach sanieren kosten oberbayern, dachsanierung einfamilienhaus, dachsanierung förderung bayern, dachdecker münchen preise"
+        keywords="dachsanierung kosten, dachsanierung kosten pro qm, was kostet dachsanierung, dachsanierung preis münchen, dach sanieren kosten oberbayern, dachsanierung einfamilienhaus, dachsanierung förderung bayern, dachdecker münchen preise, was kostet dachsanierung münchen, dachsanierung kosten münchen erfahrungen, wie lange dauert dachsanierung, dachsanierung selber machen oder profi, dachsanierung münchen günstig, dachsanierung festpreis münchen, dachsanierung preisvergleich, dachsanierung dringend münchen, dachsanierung schnell münchen, dachsanierung notfall, dachsanierung förderung 2025, dachsanierung kfw förderung, dachsanierung bafa zuschuss, dachsanierung steuerlich absetzbar, dachsanierung meisterbetrieb münchen, dachsanierung fachbetrieb münchen, dachsanierung handwerker münchen"
         aiSummary="Dachsanierung Kosten München und Umgebung 2025: Komplettsanierung 150-350€/m², nur Eindeckung 60-180€/m². 089Dach GmbH - Ihr Dachdecker in München, Starnberg, Dachau, Freising. KfW-Förderung bis 20%. Kostenlose Beratung: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dachsanierung Kosten", url: "/dachsanierung-kosten" }]} />

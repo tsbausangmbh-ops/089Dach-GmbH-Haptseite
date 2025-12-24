@@ -40,7 +40,7 @@ export default function DachziegelKaufen() {
         title="Dachziegel Preise 2025 München | Ton, Beton & Schiefer kaufen"
         description="Dachziegel kaufen in München: ✓ Betonziegel 30-50€/m² ✓ Tonziegel 40-80€/m² ✓ Schiefer 80-150€/m² ✓ Lieferung & Verlegung vom Dachdecker. Alle Farben & Hersteller!"
         canonical="/dachziegel-kaufen"
-        keywords="dachziegel kaufen münchen, dachpfannen preis bayern, tonziegel kosten, betonziegel preis pro m2, schiefer dachziegel, dachziegel lieferung"
+        keywords="dachziegel kaufen münchen, dachpfannen preis bayern, tonziegel kosten, betonziegel preis pro m2, schiefer dachziegel, dachziegel lieferung, was kosten dachziegel münchen, dachziegel kaufen münchen erfahrungen, dachziegel kosten pro qm, dachziegel münchen günstig, dachziegel festpreis münchen, dachziegel preisvergleich, dachziegel meisterbetrieb münchen, dachziegel fachbetrieb münchen, dachziegel handwerker münchen"
         aiSummary="Dachziegel Preise München 2025: Beton 30-50€/m², Ton 40-80€/m², Schiefer 80-150€/m². 089Dach beschafft alle Ziegelarten für München, Starnberg, Dachau, Erding. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dachziegel kaufen", url: "/dachziegel-kaufen" }]} />

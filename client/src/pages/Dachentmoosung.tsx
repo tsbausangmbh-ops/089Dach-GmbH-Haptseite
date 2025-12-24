@@ -40,7 +40,7 @@ export default function Dachentmoosung() {
         title="Dachentmoosung München 2025 | Kosten ab 10€/m² | Meisterbetrieb"
         description="Dachentmoosung München: ✓ Kosten ab 10€/m² ✓ 10 Jahre Garantie ✓ Kostenlose Beratung ✓ Festpreisangebot. ☎ 089 12621964"
         canonical="/dachentmoosung"
-        keywords="dachentmoosung kosten, dach moos entfernen, dachreinigung münchen, dach entmoosen lassen, moos auf dach entfernen, dachziegel reinigen, dachentmoosung preis"
+        keywords="dachentmoosung kosten, dach moos entfernen, dachreinigung münchen, dach entmoosen lassen, moos auf dach entfernen, dachziegel reinigen, dachentmoosung preis, was kostet dachentmoosung münchen, dachentmoosung münchen erfahrungen, wie lange dauert dachentmoosung, dachentmoosung selber machen oder profi, dachentmoosung kosten pro qm, dachentmoosung münchen günstig, dachentmoosung festpreis münchen, dachentmoosung preisvergleich, dachentmoosung meisterbetrieb münchen, dachentmoosung fachbetrieb münchen, dachentmoosung handwerker münchen"
         aiSummary="Dachentmoosung in München: Reinigung 8-15€/m², Entmoosung 10-18€/m², mit Beschichtung 25-40€/m². Schonende Methoden. 089Dach. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dachentmoosung", url: "/dachentmoosung" }]} />

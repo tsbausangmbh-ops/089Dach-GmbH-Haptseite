@@ -44,7 +44,7 @@ export default function Dachdecker() {
         title="Dachdecker München 2025 | Kosten ab 80€ | Meisterbetrieb"
         description="Dachdecker München: ✓ Kosten ab 80€ ✓ 10 Jahre Garantie ✓ Kostenlose Beratung ✓ Festpreisangebot. ☎ 089 12621964"
         canonical="/dachdecker-muenchen"
-        keywords="dachdecker münchen, dachdecker in meiner nähe, dachdecker meisterbetrieb münchen, dachdeckerfirma münchen, dachdecker notdienst münchen, dachdecker preise münchen, guter dachdecker münchen, dachdecker empfehlung münchen, zuverlässiger dachdecker"
+        keywords="dachdecker münchen, dachdecker in meiner nähe, dachdecker meisterbetrieb münchen, dachdeckerfirma münchen, dachdecker notdienst münchen, dachdecker preise münchen, guter dachdecker münchen, dachdecker empfehlung münchen, zuverlässiger dachdecker, was kostet dachdecker münchen, dachdecker münchen erfahrungen, dachdecker münchen günstig, dachdecker festpreis münchen, dachdecker dringend münchen, dachdecker schnell münchen, dachdecker notfall, dachdecker fachbetrieb münchen, dachdecker handwerker münchen"
         aiSummary="089Dach GmbH ist ein Dachdecker-Meisterbetrieb in München seit 1998. Leistungen: Dacheindeckung, Dachreparatur, Dachsanierung, Dachabdichtung, Notdienst. Festpreisgarantie und 5 Jahre Gewährleistung. Kostenlose Beratung unter 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dachdecker München", url: "/dachdecker-muenchen" }]} />

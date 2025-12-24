@@ -41,7 +41,7 @@ export default function DachrinneReparieren() {
         title="Dachrinne reparieren München 2025 | Kosten ab 60€ | Meisterbetrieb"
         description="Dachrinne reparieren München: ✓ Kosten ab 60€ ✓ 10 Jahre Garantie ✓ Kostenlose Beratung ✓ Festpreisangebot. ☎ 089 12621964"
         canonical="/dachrinne-reparieren"
-        keywords="dachrinne reparieren münchen, dachrinne undicht, dachrinne abdichten, dachrinne hängt durch, fallrohr verstopft, dachrinnenreparatur kosten, dachrinne erneuern, rinnenhalter austauschen, zinkrinne reparieren, regenrinne reparatur"
+        keywords="dachrinne reparieren münchen, dachrinne undicht, dachrinne abdichten, dachrinne hängt durch, fallrohr verstopft, dachrinnenreparatur kosten, dachrinne erneuern, rinnenhalter austauschen, zinkrinne reparieren, regenrinne reparatur, was kostet dachrinne reparieren münchen, dachrinne reparieren münchen erfahrungen, wie lange dauert dachrinne reparieren, dachrinne reparieren selber machen oder profi, dachrinne reparieren kosten pauschal, dachrinne reparieren münchen günstig, dachrinne reparieren festpreis münchen, dachrinne reparieren preisvergleich, dachrinne reparieren dringend münchen, dachrinne reparieren schnell münchen, dachrinne reparieren notfall, dachrinne reparieren meisterbetrieb münchen, dachrinne reparieren fachbetrieb münchen, dachrinne reparieren handwerker münchen"
         aiSummary="Dachrinne reparieren in München durch 089Dach GmbH. Abdichten ab 60€, Rinne ersetzen ab 35€/lfm. Schnelle Hilfe bei undichten Stellen und durchhängenden Rinnen. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dachrinne reparieren", url: "/dachrinne-reparieren" }]} />

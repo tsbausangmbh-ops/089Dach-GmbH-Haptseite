@@ -42,7 +42,7 @@ export default function DachrinneErneuern() {
         title="Dachrinne erneuern München 2025 | Kosten ab 20€/m | Meisterbetrieb"
         description="Dachrinne erneuern München: ✓ Kosten ab 20€/m ✓ 10 Jahre Garantie ✓ Kostenlose Beratung ✓ Festpreisangebot. ☎ 089 12621964"
         canonical="/dachrinne-erneuern"
-        keywords="dachrinne erneuern münchen, regenrinne austauschen kosten, zinkrinne preis, kupfer dachrinne, dachrinne montieren lassen bayern"
+        keywords="dachrinne erneuern münchen, regenrinne austauschen kosten, zinkrinne preis, kupfer dachrinne, dachrinne montieren lassen bayern, was kostet dachrinne erneuern münchen, dachrinne erneuern münchen erfahrungen, wie lange dauert dachrinne erneuern, dachrinne erneuern selber machen oder profi, dachrinne erneuern kosten pro meter, dachrinne erneuern münchen günstig, dachrinne erneuern festpreis münchen, dachrinne erneuern preisvergleich, dachrinne erneuern meisterbetrieb münchen, dachrinne erneuern fachbetrieb münchen, dachrinne erneuern handwerker münchen"
         aiSummary="Dachrinne erneuern München und Umgebung: Kunststoff 20-35€/lfm, Zink 35-55€/lfm, Kupfer 60-90€/lfm. 089Dach - Ihr Spezialist für Starnberg, Dachau, Freising. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dachrinne erneuern", url: "/dachrinne-erneuern" }]} />

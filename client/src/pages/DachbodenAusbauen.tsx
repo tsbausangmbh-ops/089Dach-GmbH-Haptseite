@@ -34,7 +34,7 @@ export default function DachbodenAusbauen() {
         title="Dachboden ausbauen München 2025 | ab 800€/m²"
         description="Dachboden ausbauen München: ✓ Kosten ab 800€/m² ✓ 10 Jahre Garantie ✓ Kostenlose Beratung ✓ Festpreisangebot. ☎ 089 12621964"
         canonical="/dachboden-ausbauen"
-        keywords="dachboden ausbauen münchen, dachausbau kosten bayern, dachgeschoss ausbauen preis, spitzboden ausbauen lassen, dachgeschoss wohnraum"
+        keywords="dachboden ausbauen münchen, dachausbau kosten bayern, dachgeschoss ausbauen preis, spitzboden ausbauen lassen, dachgeschoss wohnraum, was kostet dachboden ausbauen münchen, dachausbau münchen erfahrungen, wie lange dauert dachausbau, dachboden ausbauen selber machen oder profi, dachausbau kosten pro qm, dachboden ausbauen münchen günstig, dachausbau festpreis münchen, dachausbau preisvergleich, dachausbau förderung 2025, dachausbau kfw förderung, dachausbau steuerlich absetzbar, dachausbau meisterbetrieb münchen, dachboden ausbauen fachbetrieb münchen, dachausbau handwerker münchen"
         aiSummary="Dachboden ausbauen München: Komplett 800-1.500€/m², nur Dämmung+Trockenbau 400-600€/m². 089Dach - Ihr Ausbau-Partner für München, Schwabing, Harlaching. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dachboden ausbauen", url: "/dachboden-ausbauen" }]} />
