@@ -59,7 +59,7 @@ export default function UmlandDachau() {
         title="Dachdecker Dachau 2025 | Preise ab 95€/m² | Meisterbetrieb"
         description="Dachdecker Dachau: ✓ Dachsanierung ab 95€/m² ✓ 10 Jahre Garantie ✓ Nur 25min Anfahrt ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical={`https://089dach.de/dachdecker-dachau`}
-        keywords={`dachdecker dachau, dachsanierung dachau, dachdecker landkreis dachau, denkmalschutz dachau, dachdämmung dachau, altstadt dachau dach, sturmschaden dach dachau, flachdach dachau, dachfenster dachau, dachziegel wechseln dachau, dachdecker 85221`}
+        keywords={`dachdecker dachau, dachsanierung dachau, dachdecker landkreis dachau, denkmalschutz dachau, dachdämmung dachau, altstadt dachau dach, sturmschaden dach dachau, flachdach dachau, dachfenster dachau, dachziegel wechseln dachau, dachdecker 85221, was kostet dachdecker dachau, dachdecker dachau erfahrungen, guter dachdecker dachau, bester dachdecker dachau bei münchen, dach undicht dachau, dach reparieren dachau, notdienst dachdecker dachau, dachdecker dachau preise, dachdecker dachau kosten, dachdecker dachau günstig, dachdecker dachau festpreis, dachdecker in der nähe dachau, dachdeckerbetrieb dachau`}
         geoPlacename={`Dachau, Landkreis Dachau, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für Dachau bei München. Spezialisiert auf Altbau und Denkmalschutz. Tel: 089 12621964.`}
       />

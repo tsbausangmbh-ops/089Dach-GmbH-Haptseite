@@ -55,7 +55,7 @@ export default function UmlandErding() {
         title="Dachdecker Erding 2025 | Preise ab 100€/m² | Meisterbetrieb"
         description="Dachdecker Erding: ✓ Dachsanierung ab 100€/m² ✓ 10 Jahre Garantie ✓ Nur 40min Anfahrt ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical={`https://089dach.de/dachdecker-erding`}
-        keywords={`dachdecker erding, dachsanierung erding, dachdecker landkreis erding, dachdämmung erding, dachfenster erding, dachdecker 85435, sturmschaden dach erding, altstadt erding dach, steildach erding, dachrinne erding, ziegeldach erding`}
+        keywords={`dachdecker erding, dachsanierung erding, dachdecker landkreis erding, dachdämmung erding, dachfenster erding, dachdecker 85435, sturmschaden dach erding, altstadt erding dach, steildach erding, dachrinne erding, ziegeldach erding, was kostet dachdecker erding, dachdecker erding erfahrungen, guter dachdecker erding, bester dachdecker erding bei münchen, dach undicht erding, dach reparieren erding, notdienst dachdecker erding, dachdecker erding preise, dachdecker erding kosten, dachdecker erding günstig, dachdecker erding festpreis, dachdecker in der nähe erding, dachdeckerbetrieb erding`}
         geoPlacename={`Erding, Landkreis Erding, Bayern, Deutschland`}
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Umland", url: "/umland" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-${stadtteilData.name.toLowerCase()}` }]} />

@@ -61,7 +61,7 @@ export default function UmlandOlching() {
         title="Dachdecker Olching 2025 | Preise ab 95€/m² | Meisterbetrieb"
         description="Dachdecker Olching: ✓ Dachsanierung ab 95€/m² ✓ 10 Jahre Garantie ✓ Nur 20min Anfahrt ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-olching"
-        keywords="dachdecker olching, dachsanierung olching kosten, was kostet dachdecker olching, dachdecker olching preise 2025, dachziegel olching, dachdämmung olching, dachfenster olching, sturmschaden olching, dachdecker 82140, dach neu eindecken olching, dachrinne olching"
+        keywords="dachdecker olching, dachsanierung olching kosten, was kostet dachdecker olching, dachdecker olching preise 2025, dachziegel olching, dachdämmung olching, dachfenster olching, sturmschaden olching, dachdecker 82140, dach neu eindecken olching, dachrinne olching, dachdecker olching erfahrungen, guter dachdecker olching, bester dachdecker olching bei münchen, dach undicht olching, dach reparieren olching, sturmschaden dach olching, notdienst dachdecker olching, dachdecker olching kosten, dachdecker olching günstig, dachdecker olching festpreis, dachdecker olching landkreis, dachdecker in der nähe olching, dachdeckerbetrieb olching"
         geoPlacename="Olching, Landkreis Fürstenfeldbruck, Bayern, Deutschland"
         aiSummary="089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für Olching bei München. Dachsanierung ab 95€/m². Tel: 089 12621964."
       />

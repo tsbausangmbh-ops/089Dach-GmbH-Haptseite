@@ -59,7 +59,7 @@ export default function UmlandStarnberg() {
         title="Dachdecker Starnberg 2025 | Preise ab 95€/m² | Meisterbetrieb"
         description="Dachdecker Starnberg: ✓ Dachsanierung ab 95€/m² ✓ 10 Jahre Garantie ✓ Nur 30min Anfahrt ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical={`https://089dach.de/dachdecker-starnberg`}
-        keywords={`dachdecker starnberg, dachsanierung starnberg, villa dachdecker starnberger see, schieferdach starnberg, kupferdach starnberg, denkmalschutz dach starnberg, dachsanierung landkreis starnberg, seevilla dach starnberg, landhausdach starnberg, sturmschaden dach starnberg, dachfenster starnberg, premium dachdecker 82319`}
+        keywords={`dachdecker starnberg, dachsanierung starnberg, villa dachdecker starnberger see, schieferdach starnberg, kupferdach starnberg, denkmalschutz dach starnberg, dachsanierung landkreis starnberg, seevilla dach starnberg, landhausdach starnberg, sturmschaden dach starnberg, dachfenster starnberg, premium dachdecker 82319, was kostet dachdecker starnberg, dachdecker starnberg erfahrungen, guter dachdecker starnberg, bester dachdecker starnberg bei münchen, dach undicht starnberg, dach reparieren starnberg, notdienst dachdecker starnberg, dachdecker starnberg preise, dachdecker starnberg kosten, dachdecker starnberg günstig, dachdecker starnberg festpreis, dachdecker starnberg landkreis, dachdecker in der nähe starnberg, dachdeckerbetrieb starnberg`}
         geoPlacename={`Starnberg, Landkreis Starnberg, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für Starnberg am See. Spezialisiert auf Premium-Villen. Tel: 089 12621964.`}
       />

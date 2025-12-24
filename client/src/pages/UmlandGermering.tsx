@@ -59,7 +59,7 @@ export default function UmlandGermering() {
         title="Dachdecker Germering 2025 | Preise ab 90€/m² | Meisterbetrieb"
         description="Dachdecker Germering: ✓ Dachsanierung ab 90€/m² ✓ 10 Jahre Garantie ✓ Nur 20min Anfahrt ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical={`https://089dach.de/dachdecker-germering`}
-        keywords={`dachdecker germering, dachsanierung germering, dachdecker fürstenfeldbruck, dachdämmung germering, dachfenster germering, sturmschaden dach germering, flachdach germering, solardach germering, dachziegel wechseln germering, dachdecker 82110, dachrinne germering, dachsanierung einfamilienhaus germering`}
+        keywords={`dachdecker germering, dachsanierung germering, dachdecker fürstenfeldbruck, dachdämmung germering, dachfenster germering, sturmschaden dach germering, flachdach germering, solardach germering, dachziegel wechseln germering, dachdecker 82110, dachrinne germering, dachsanierung einfamilienhaus germering, was kostet dachdecker germering, dachdecker germering erfahrungen, guter dachdecker germering, bester dachdecker germering bei münchen, dach undicht germering, dach reparieren germering, notdienst dachdecker germering, dachdecker germering preise, dachdecker germering kosten, dachdecker germering günstig, dachdecker germering festpreis, dachdecker germering landkreis, dachdecker in der nähe germering, dachdeckerbetrieb germering`}
         geoPlacename={`Germering, Landkreis Fürstenfeldbruck, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für Germering bei München. Schnelle Anfahrt aus München. Tel: 089 12621964.`}
       />
