@@ -6,6 +6,8 @@ import { Phone, MapPin, Clock, CheckCircle2, Star, Shield, Award, ArrowRight } f
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import BackButton from "@/components/BackButton";
+import { GeoLinks } from "@/components/GeoLinks";
+import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import heroImage from "@assets/generated_images/realistic_house_anthracite_roof.png";
 
 const stadtteilData = {
@@ -123,8 +125,8 @@ export default function UmlandOlching() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="lg:col-span-2 space-y-8">
               <div>
-                <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Ihr <strong>Dachdecker</strong> für {stadtteilData.name}</h2>
-                <p className="text-lg text-muted-foreground leading-relaxed mb-4">{stadtteilData.beschreibung}</p>
+                <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Ihr <strong>Dachdecker</strong> <strong>Meisterbetrieb</strong> für {stadtteilData.name}</h2>
+                <p className="text-lg text-muted-foreground leading-relaxed mb-4"><TextWithKeywordLinks currentPath="/dachdecker-olching">{stadtteilData.beschreibung}</TextWithKeywordLinks></p>
               </div>
               <div className="bg-primary/5 rounded-xl p-4 md:p-6 border border-primary/20">
                 <h3 className="text-xl font-heading font-bold text-secondary mb-4 flex items-center gap-2">
@@ -157,6 +159,11 @@ export default function UmlandOlching() {
                   ))}
                 </div>
               </div>
+
+              <GeoLinks 
+                currentStadtteil={stadtteilData.name}
+                nachbarStadtteile={stadtteilData.nachbarStadtteile || []}
+              />
             </div>
             <div className="space-y-6">
               <div className="bg-primary text-white rounded-xl p-4 md:p-6">
