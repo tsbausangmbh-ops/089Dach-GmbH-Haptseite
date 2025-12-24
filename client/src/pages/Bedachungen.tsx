@@ -21,6 +21,7 @@ import ProblemSolutionSection from "@/components/ProblemSolutionSection";
 import CTACluster from "@/components/CTACluster";
 import ProofStack from "@/components/ProofStack";
 import ProcessSteps from "@/components/ProcessSteps";
+import { ServiceGeoLinks } from "@/components/GeoLinks";
 
 export default function Bedachungen() {
   return (
@@ -350,6 +351,7 @@ export default function Bedachungen() {
         subtitle="Planbar, transparent und stressfrei – von der ersten Beratung bis zur Garantie."
       />
 
+      <ServiceGeoLinks currentService="Dachsanierung" />
       <LeadFunnel 
         headline="Neue Dacheindeckung geplant?"
         subheadline="Wir beraten Sie zu allen Materialien."

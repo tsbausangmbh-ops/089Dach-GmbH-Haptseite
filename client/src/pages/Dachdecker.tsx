@@ -7,6 +7,8 @@ import SEO, { BreadcrumbSchema, ServiceSchema, FAQPageSchema, ProductServiceSche
 import BackButton from "@/components/BackButton";
 import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
+import { ServiceGeoLinks } from "@/components/GeoLinks";
+import { TextWithKeywordLinks } from "@/components/KeywordLink";
 
 export default function Dachdecker() {
   const leistungen = [
@@ -108,7 +110,7 @@ export default function Dachdecker() {
         <div className="container mx-auto px-4">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-4">
-              Unsere Dachdeckerleistungen
+              Unsere <strong>Dachdecker</strong>-Leistungen in <strong>München</strong>
             </h2>
             <p className="text-center text-slate-600 mb-12 max-w-4xl mx-auto">
               Alles rund ums Dach aus einer Hand – fachgerecht und zuverlässig
@@ -254,12 +256,14 @@ export default function Dachdecker() {
         </div>
       </section>
 
+      <ServiceGeoLinks currentService="Dachreparatur" />
       <LeadFunnel 
         headline="Dachdecker in München gesucht?"
         subheadline="Wir sind Ihr Meisterbetrieb."
         description="Ihr Dachdecker in München seit 1998 – Kompetenz, Erfahrung und faire Preise."
       />
       </main>
+      <Footer />
     </div>
   );
 }

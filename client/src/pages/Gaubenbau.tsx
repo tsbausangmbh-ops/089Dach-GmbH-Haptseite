@@ -15,6 +15,7 @@ import ProofStack from "@/components/ProofStack";
 import ProcessSteps from "@/components/ProcessSteps";
 import heroImage from "@assets/generated_images/renovated_dormer_window_after.png";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
+import { ServiceGeoLinks } from "@/components/GeoLinks";
 import ImageGallery from "@/components/ImageGallery";
 import gaubeImg1 from "@assets/generated_images/altbau_damaged_dormer_before.png";
 import gaubeImg2 from "@assets/generated_images/altbau_renovated_dormer_after.png";
@@ -376,6 +377,7 @@ export default function Gaubenbau() {
         subtitle="Planbar, transparent und stressfrei – von der ersten Beratung bis zur Garantie."
       />
 
+      <ServiceGeoLinks currentService="Gaubenbau" />
       <LeadFunnel 
         headline="Mehr Wohnraum durch eine Gaube?"
         subheadline="Wir planen und bauen Ihre Dachgaube."

@@ -15,6 +15,7 @@ import ProofStack from "@/components/ProofStack";
 import ProcessSteps from "@/components/ProcessSteps";
 import heroImage from "@assets/generated_images/new_solar_panel_installation.png";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
+import { ServiceGeoLinks } from "@/components/GeoLinks";
 import ImageGallery from "@/components/ImageGallery";
 import energieImg1 from "@assets/generated_images/new_solar_panel_installation.png";
 import energieImg2 from "@assets/generated_images/roof_insulation_installation_scene.png";
@@ -308,6 +309,7 @@ export default function Energieberatung() {
 
       <ProofStack title="Warum 089Dach für Ihre Förderprojekte?" />
 
+      <ServiceGeoLinks currentService="Energieberatung" />
       <LeadFunnel 
         headline="Energieberatung für Ihr Dach?"
         subheadline="Wir zeigen Förderungen und Einsparpotenziale."

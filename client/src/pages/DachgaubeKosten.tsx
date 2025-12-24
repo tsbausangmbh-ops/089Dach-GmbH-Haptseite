@@ -9,6 +9,8 @@ import BackButton from "@/components/BackButton";
 import EinzugsgebietSection from "@/components/EinzugsgebietSection";
 import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
+import { ServiceGeoLinks } from "@/components/GeoLinks";
+import { TextWithKeywordLinks } from "@/components/KeywordLink";
 
 export default function DachgaubeKosten() {
   const gaubenTypen = [
@@ -84,7 +86,7 @@ export default function DachgaubeKosten() {
       <section className="py-6 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-7xl mx-auto">
-            <h2 className="text-3xl font-bold text-center text-slate-800 mb-4">Gaubentypen & Preise</h2>
+            <h2 className="text-3xl font-bold text-center text-slate-800 mb-4"><strong>Dachgaube</strong> – Gaubentypen & Preise</h2>
             <p className="text-center text-slate-600 mb-12">Alle Preise inkl. Einbau, Dämmung und Innenverkleidung</p>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {gaubenTypen.map((g, index) => (
@@ -160,12 +162,14 @@ export default function DachgaubeKosten() {
       </section>
 
       <EinzugsgebietSection />
+      <ServiceGeoLinks currentService="Dachsanierung" />
       <LeadFunnel 
         headline="Dachgaube Kosten berechnen?"
         subheadline="Wir berechnen Ihr Projekt."
         description="Transparente Dachgaube Kosten – von der Planung bis zur schlüsselfertigen Gaube."
       />
       </main>
+      <Footer />
     </div>
   );
 }

@@ -8,6 +8,8 @@ import BackButton from "@/components/BackButton";
 import EinzugsgebietSection from "@/components/EinzugsgebietSection";
 import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
+import { ServiceGeoLinks } from "@/components/GeoLinks";
+import { TextWithKeywordLinks } from "@/components/KeywordLink";
 
 export default function DachUndichtWasTun() {
   const sofortmassnahmen = [
@@ -100,7 +102,7 @@ export default function DachUndichtWasTun() {
       <section className="py-6 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-7xl mx-auto">
-            <h2 className="text-3xl font-bold text-center text-slate-800 mb-4">Warum ist mein Dach undicht?</h2>
+            <h2 className="text-3xl font-bold text-center text-slate-800 mb-4"><strong>Dach undicht</strong> – Warum und was tun?</h2>
             <p className="text-center text-slate-600 mb-12">Häufige Ursachen und was die Reparatur kostet</p>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {ursachen.map((u, index) => (
@@ -167,6 +169,15 @@ export default function DachUndichtWasTun() {
       </section>
 
       <EinzugsgebietSection />
+      
+      <section className="py-6 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-7xl mx-auto">
+            <ServiceGeoLinks currentService="Dachreparatur" />
+          </div>
+        </div>
+      </section>
+
       <LeadFunnel 
         headline="Dach undicht – was tun?"
         subheadline="Wir zeigen Ihnen die Lösung."

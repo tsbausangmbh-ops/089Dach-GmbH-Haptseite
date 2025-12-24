@@ -8,6 +8,8 @@ import SEO, { BreadcrumbSchema, ServiceSchema, FAQPageSchema, ProductServiceSche
 import BackButton from "@/components/BackButton";
 import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
+import { ServiceGeoLinks } from "@/components/GeoLinks";
+import { TextWithKeywordLinks } from "@/components/KeywordLink";
 
 export default function Dachdaemmung() {
   const daemmarten = [
@@ -123,7 +125,7 @@ export default function Dachdaemmung() {
         <div className="container mx-auto px-4">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-4">
-              Dämmverfahren & Preise
+              <strong>Dachdämmung</strong> – Dämmverfahren & Preise
             </h2>
             <p className="text-center text-slate-600 mb-12 max-w-4xl mx-auto">
               Wir beraten Sie, welches Verfahren für Ihr Dach am besten geeignet ist
@@ -216,12 +218,14 @@ export default function Dachdaemmung() {
         </div>
       </section>
 
+      <ServiceGeoLinks currentService="Dachsanierung" />
       <LeadFunnel 
         headline="Dachdämmung in München?"
         subheadline="Wir zeigen Ihnen die beste Dämmlösung."
         description="Ihre Dachdämmung vom Münchner Meisterbetrieb – bis zu 40% Heizkosten sparen mit KfW-Förderung."
       />
       </main>
+      <Footer />
     </div>
   );
 }

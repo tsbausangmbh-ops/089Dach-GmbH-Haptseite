@@ -8,6 +8,9 @@ import SEO, { BreadcrumbSchema, ServiceSchema, FAQPageSchema, ProductServiceSche
 import BackButton from "@/components/BackButton";
 import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
+import { ServiceGeoLinks } from "@/components/GeoLinks";
+import { TextWithKeywordLinks } from "@/components/KeywordLink";
+import Footer from "@/components/Footer";
 
 export default function DachAbdichten() {
   const dachtypen = [
@@ -129,7 +132,7 @@ export default function DachAbdichten() {
         <div className="container mx-auto px-4">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-4">
-              Dachabdichtung nach Dachtyp
+              <strong>Dachabdichtung</strong> nach Dachtyp in <strong>München</strong>
             </h2>
             <p className="text-center text-slate-600 mb-12 max-w-4xl mx-auto">
               Jeder Dachtyp erfordert die passende Abdichtungsmethode
@@ -255,11 +258,13 @@ export default function DachAbdichten() {
         </div>
       </section>
 
+      <ServiceGeoLinks currentService="Dachreparatur" />
       <LeadFunnel 
         headline="Dach abdichten in München?"
         subheadline="Wir finden und beheben die Undichtigkeit."
         description="Professionelle Dachabdichtung ab 25€/m² – alle Dachtypen, 24h Notdienst in München."
       />
+      <Footer />
     </div>
   );
 }

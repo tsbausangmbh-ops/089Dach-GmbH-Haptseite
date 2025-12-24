@@ -17,6 +17,8 @@ import rinnenImg1 from "@assets/generated_images/copper_roof_gutter_detail.png";
 import rinnenImg2 from "@assets/generated_images/bogenhausen_chimney_old_flashing.png";
 import rinnenImg3 from "@assets/generated_images/bogenhausen_chimney_new_copper.png";
 import rinnenImg4 from "@assets/generated_images/new_copper_chimney_flashing.png";
+import { ServiceGeoLinks } from "@/components/GeoLinks";
+import { TextWithKeywordLinks } from "@/components/KeywordLink";
 
 export default function Dachrinnenreinigung() {
   return (
@@ -111,7 +113,7 @@ export default function Dachrinnenreinigung() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="lg:col-span-2 space-y-8">
               <div>
-                <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Dachrinne reinigen München: Warum verstopfte Rinnen & Fallrohre teure Schäden verursachen</h2>
+                <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4"><strong>Dachrinne reinigen München</strong>: Warum verstopfte Rinnen & Fallrohre teure Schäden verursachen</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4">
                   Verstopfte Dachrinnen sind mehr als nur ein optisches Problem. Wenn Laub, Moos und Schmutz 
                   den Wasserabfluss blockieren, kann Regenwasser überlaufen und an der Fassade hinunterlaufen. 
@@ -309,6 +311,14 @@ export default function Dachrinnenreinigung() {
         title="Rinnenreinigung: In 6 Schritten zur sauberen Rinne"
         subtitle="Planbar, transparent und stressfrei – von der ersten Beratung bis zur Garantie."
       />
+
+      <section className="py-6 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-7xl mx-auto">
+            <ServiceGeoLinks currentService="Dachrinnenreinigung" />
+          </div>
+        </div>
+      </section>
 
       <LeadFunnel 
         headline="Dachrinne verstopft oder undicht?"

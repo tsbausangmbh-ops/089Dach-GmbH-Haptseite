@@ -9,6 +9,8 @@ import BackButton from "@/components/BackButton";
 import EinzugsgebietSection from "@/components/EinzugsgebietSection";
 import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
+import { ServiceGeoLinks } from "@/components/GeoLinks";
+import { TextWithKeywordLinks } from "@/components/KeywordLink";
 
 export default function Dachentmoosung() {
   const leistungen = [
@@ -79,7 +81,7 @@ export default function Dachentmoosung() {
       <section className="py-6 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-7xl mx-auto">
-            <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">Leistungen & Preise</h2>
+            <h2 className="text-3xl font-bold text-center text-slate-800 mb-12"><strong>Dachentmoosung</strong> – Leistungen & Preise</h2>
             <div className="grid md:grid-cols-2 gap-6">
               {leistungen.map((l, index) => (
                 <div key={index} className="bg-slate-50 rounded-xl p-6 flex justify-between items-start">
@@ -141,11 +143,13 @@ export default function Dachentmoosung() {
       </section>
 
       <EinzugsgebietSection />
+      <ServiceGeoLinks currentService="Dachreparatur" />
       <LeadFunnel 
         headline="Dachentmoosung in München gesucht?"
         subheadline="Wir entmoosen schonend und gründlich."
         description="Professionelle Dachentmoosung ab 10€/m² – schonende Methoden vom Münchner Meisterbetrieb."
       />
+      <Footer />
     </div>
   );
 }

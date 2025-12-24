@@ -13,6 +13,8 @@ import ProofStack from "@/components/ProofStack";
 import ProcessSteps from "@/components/ProcessSteps";
 import BackButton from "@/components/BackButton";
 import ImageGallery from "@/components/ImageGallery";
+import { ServiceGeoLinks } from "@/components/GeoLinks";
+import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import beschichtungImg1 from "@assets/generated_images/aged_red_roof_tiles_closeup.png";
 import beschichtungImg2 from "@assets/generated_images/historic_biberschwanz_roof_with_patina.png";
 import beschichtungImg3 from "@assets/generated_images/realistic_renovated_roof_obermenzing_after.png";
@@ -307,6 +309,7 @@ export default function Dachbeschichtung() {
         subtitle="Planbar, transparent und stressfrei – von der ersten Beratung bis zur Garantie."
       />
 
+      <ServiceGeoLinks currentService="Dachreparatur" />
       <LeadFunnel 
         headline="Dachbeschichtung statt Neueindeckung?"
         subheadline="Wir prüfen, ob sich eine Beschichtung lohnt."

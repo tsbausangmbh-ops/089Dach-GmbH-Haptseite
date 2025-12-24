@@ -10,6 +10,7 @@ import { CheckCircle2, FileText, Ruler, Building2, Phone, Quote, Award, Shield, 
 import SEO, { BreadcrumbSchema, ServiceSchema, FAQPageSchema } from "@/components/SEO";
 import heroImage from "@assets/generated_images/homeowner_roof_consultation_scene.png";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
+import { ServiceGeoLinks } from "@/components/GeoLinks";
 
 export default function Architektenleistungen() {
   const services = [
@@ -136,7 +137,7 @@ export default function Architektenleistungen() {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-4xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
-              Unsere Architektenleistungen
+              Unsere <strong>Architektenleistungen</strong> in <strong>München</strong>
             </h2>
             <p className="text-muted-foreground">
               Von der Idee bis zur Genehmigung – wir begleiten Ihr Projekt.
@@ -236,6 +237,7 @@ export default function Architektenleistungen() {
         </div>
       </section>
 
+      <ServiceGeoLinks currentService="Architektenleistungen" />
       <LeadFunnel 
         headline="Planung für Ihr Dachprojekt?"
         subheadline="Wir unterstützen Architekten und Bauherren."

@@ -7,6 +7,8 @@ import SEO, { BreadcrumbSchema, ServiceSchema, FAQPageSchema, ProductServiceSche
 import BackButton from "@/components/BackButton";
 import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
+import { ServiceGeoLinks } from "@/components/GeoLinks";
+import { TextWithKeywordLinks } from "@/components/KeywordLink";
 
 export default function DachDecken() {
   const materialien = [
@@ -107,7 +109,7 @@ export default function DachDecken() {
         <div className="container mx-auto px-4">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-4">
-              Dachmaterialien & Preise
+              <strong>Dach decken</strong> – Dachmaterialien & Preise
             </h2>
             <p className="text-center text-slate-600 mb-12 max-w-4xl mx-auto">
               Wir decken Ihr Dach mit dem Material Ihrer Wahl – fachgerecht und dauerhaft
@@ -224,12 +226,14 @@ export default function DachDecken() {
         </div>
       </section>
 
+      <ServiceGeoLinks currentService="Dachsanierung" />
       <LeadFunnel 
         headline="Dach decken in München?"
         subheadline="Wir beraten zu Material und Kosten."
         description="Professionell Dach decken in München – wir beraten zu Material und Kosten."
       />
       </main>
+      <Footer />
     </div>
   );
 }

@@ -8,6 +8,8 @@ import BackButton from "@/components/BackButton";
 import EinzugsgebietSection from "@/components/EinzugsgebietSection";
 import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
+import { ServiceGeoLinks } from "@/components/GeoLinks";
+import { TextWithKeywordLinks } from "@/components/KeywordLink";
 
 export default function DachziegelKaufen() {
   const ziegelTypen = [
@@ -75,7 +77,7 @@ export default function DachziegelKaufen() {
       <section className="py-6 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-7xl mx-auto">
-            <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">Dachziegel Preise 2025</h2>
+            <h2 className="text-3xl font-bold text-center text-slate-800 mb-12"><strong>Dachziegel</strong> Preise 2025 <strong>München</strong></h2>
             <div className="overflow-x-auto">
               <table className="w-full border-collapse">
                 <thead>
@@ -105,7 +107,7 @@ export default function DachziegelKaufen() {
       <section className="py-6 bg-slate-50">
         <div className="container mx-auto px-4">
           <div className="max-w-7xl mx-auto">
-            <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">Tipps zum Ziegelkauf</h2>
+            <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">Tipps zum <strong>Dachziegel</strong>-Kauf vom <strong>Meisterbetrieb</strong></h2>
             <div className="space-y-4">
               {tipps.map((t, index) => (
                 <div key={index} className="flex items-center gap-3 p-4 bg-white rounded-lg shadow-sm">
@@ -148,6 +150,7 @@ export default function DachziegelKaufen() {
       </section>
 
       <EinzugsgebietSection />
+      <ServiceGeoLinks currentService="Dachziegel" />
       <LeadFunnel 
         headline="Dachziegel kaufen in München?"
         subheadline="Wir beraten zu allen Materialien."

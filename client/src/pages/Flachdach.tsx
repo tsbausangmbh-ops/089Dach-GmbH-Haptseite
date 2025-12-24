@@ -17,6 +17,8 @@ import flachdachImg1 from "@assets/generated_images/flat_roof_bitumen_detail_wit
 import flachdachImg2 from "@assets/generated_images/flat_green_roof_with_natural_variations.png";
 import flachdachImg3 from "@assets/generated_images/realistic_damaged_flat_roof_before.png";
 import flachdachImg4 from "@assets/generated_images/realistic_garage_epdm_roof_after.png";
+import { ServiceGeoLinks } from "@/components/GeoLinks";
+import { TextWithKeywordLinks } from "@/components/KeywordLink";
 
 export default function Flachdach() {
   return (
@@ -114,7 +116,7 @@ export default function Flachdach() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="lg:col-span-2 space-y-8">
               <div>
-                <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Flachdach abdichten München: EPDM, Bitumen & Begrünung vom Meisterbetrieb</h2>
+                <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4"><strong>Flachdach abdichten München</strong>: EPDM, Bitumen & Begrünung vom <strong>Meisterbetrieb</strong></h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4">
                   <strong>Flachdächer München</strong> erfordern besondere Expertise. Ob Neubau, Sanierung oder Reparatur – wir bieten Ihnen 
                   professionelle Lösungen für alle Flachdach-Typen: <strong>Bitumenbahnen</strong>, Kunststoffbahnen (PVC, <strong>EPDM</strong>), 
@@ -292,6 +294,7 @@ export default function Flachdach() {
         subtitle="Planbar, transparent und stressfrei – von der ersten Beratung bis zur Garantie."
       />
 
+      <ServiceGeoLinks currentService="Flachdach" />
       <LeadFunnel 
         headline="Flachdach-Experten in München"
         subheadline="Wir sorgen für dauerhafte Dichtheit."

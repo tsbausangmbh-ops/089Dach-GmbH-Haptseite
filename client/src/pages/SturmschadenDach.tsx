@@ -8,6 +8,8 @@ import SEO, { BreadcrumbSchema, ServiceSchema, FAQPageSchema, ProductServiceSche
 import BackButton from "@/components/BackButton";
 import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
+import { ServiceGeoLinks } from "@/components/GeoLinks";
+import { TextWithKeywordLinks } from "@/components/KeywordLink";
 
 export default function SturmschadenDach() {
   const sofortMassnahmen = [
@@ -102,7 +104,7 @@ export default function SturmschadenDach() {
         <div className="container mx-auto px-4">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">
-              Sturmschaden? Das sollten Sie jetzt tun:
+              <strong>Sturmschaden</strong>? Das sollten Sie jetzt tun:
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               {sofortMassnahmen.map((item, index) => (
@@ -123,7 +125,7 @@ export default function SturmschadenDach() {
         <div className="container mx-auto px-4">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">
-              Unsere Sturmschaden-Leistungen
+              Unsere <strong>Sturmschaden</strong>-Leistungen in <strong>München</strong>
             </h2>
             <div className="grid md:grid-cols-2 gap-4">
               {leistungen.map((leistung, index) => (
@@ -174,7 +176,7 @@ export default function SturmschadenDach() {
         <div className="container mx-auto px-4">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">
-              Häufige Fragen zu Sturmschäden
+              Häufige Fragen zu <strong>Sturmschäden</strong> am <strong>Dach</strong>
             </h2>
             <div className="space-y-6">
               {faqs.map((faq, index) => (
@@ -210,11 +212,13 @@ export default function SturmschadenDach() {
         </div>
       </section>
 
+      <ServiceGeoLinks currentService="Sturmschaden" />
       <LeadFunnel 
         headline="Sturmschaden Dach in München?"
         subheadline="Wir reparieren und dokumentieren."
         description="24h Notdienst bei Sturmschäden am Dach – Notsicherung und Direktabrechnung mit Versicherung."
       />
+      <Footer />
     </div>
   );
 }

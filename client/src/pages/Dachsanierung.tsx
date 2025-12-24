@@ -16,6 +16,7 @@ import roofInsulation from "@assets/generated_images/roof_insulation_installatio
 import completedRoof from "@assets/generated_images/completed_roof_showcase_reference.png";
 import ImageGallery from "@/components/ImageGallery";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
+import { ServiceGeoLinks } from "@/components/GeoLinks";
 import AIEnhancedFAQ from "@/components/AIEnhancedFAQ";
 import CTACluster from "@/components/CTACluster";
 import ProofStack from "@/components/ProofStack";
@@ -351,6 +352,14 @@ export default function Dachsanierung() {
           }
         ]}
       />
+
+      <section className="py-6 bg-white">
+        <div className="container mx-auto px-6 lg:px-12">
+          <div className="max-w-7xl mx-auto">
+            <ServiceGeoLinks currentService="Dachsanierung" />
+          </div>
+        </div>
+      </section>
 
       <LeadFunnel 
         headline="Dachsanierung in München?"

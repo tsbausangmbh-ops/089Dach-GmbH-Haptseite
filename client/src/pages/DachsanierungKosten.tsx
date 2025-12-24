@@ -9,6 +9,8 @@ import BackButton from "@/components/BackButton";
 import EinzugsgebietSection from "@/components/EinzugsgebietSection";
 import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
+import { ServiceGeoLinks } from "@/components/GeoLinks";
+import { TextWithKeywordLinks } from "@/components/KeywordLink";
 
 export default function DachsanierungKosten() {
   const kostenTabelle = [
@@ -83,7 +85,7 @@ export default function DachsanierungKosten() {
       <section className="py-6 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-7xl mx-auto">
-            <h2 className="text-3xl font-bold text-center text-slate-800 mb-4">Dachsanierung Kosten im Überblick</h2>
+            <h2 className="text-3xl font-bold text-center text-slate-800 mb-4"><strong>Dachsanierung Kosten</strong> im Überblick</h2>
             <p className="text-center text-slate-600 mb-12">Richtwerte für München und Umgebung – inkl. Material und Arbeit</p>
             <div className="overflow-x-auto">
               <table className="w-full border-collapse">
@@ -178,6 +180,15 @@ export default function DachsanierungKosten() {
       </section>
 
       <EinzugsgebietSection />
+      
+      <section className="py-6 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-7xl mx-auto">
+            <ServiceGeoLinks currentService="Dachsanierung" />
+          </div>
+        </div>
+      </section>
+
       <LeadFunnel 
         headline="Dachsanierung Kosten in München?"
         subheadline="Wir erstellen ein individuelles Angebot."

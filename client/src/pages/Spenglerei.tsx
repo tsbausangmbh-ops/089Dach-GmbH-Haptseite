@@ -15,6 +15,7 @@ import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema, ServiceSchema, ProductServiceSchema, FAQPageSchema, LocalBusinessSchema } from "@/components/SEO";
 import BackButton from "@/components/BackButton";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
+import { ServiceGeoLinks } from "@/components/GeoLinks";
 import { SpenglereiMuenchenContent } from "@/components/SEOContent";
 import AIEnhancedFAQ from "@/components/AIEnhancedFAQ";
 import ProblemSolutionSection from "@/components/ProblemSolutionSection";
@@ -349,6 +350,7 @@ export default function Spenglerei() {
         subtitle="Planbar, transparent und stressfrei – von der ersten Beratung bis zur Garantie."
       />
 
+      <ServiceGeoLinks currentService="Spenglerei" />
       <LeadFunnel 
         headline="Spenglerei München gesucht?"
         subheadline="Präzise Metallarbeit für Ihr Dach."

@@ -22,6 +22,7 @@ import ProblemSolutionSection from "@/components/ProblemSolutionSection";
 import CTACluster from "@/components/CTACluster";
 import ProofStack from "@/components/ProofStack";
 import ProcessSteps from "@/components/ProcessSteps";
+import { ServiceGeoLinks } from "@/components/GeoLinks";
 
 export default function Dachfenster() {
   const benefits = [
@@ -322,6 +323,7 @@ export default function Dachfenster() {
 
       <ProofStack title="Warum 089Dach für Ihre Dachfenster?" />
 
+      <ServiceGeoLinks currentService="Dachfenster" />
       <LeadFunnel 
         headline="Mehr Licht unterm Dach?"
         subheadline="Wir verbauen und tauschen Dachfenster."

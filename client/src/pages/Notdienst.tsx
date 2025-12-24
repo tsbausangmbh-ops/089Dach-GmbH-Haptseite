@@ -17,6 +17,8 @@ import notdienstImg1 from "@assets/generated_images/damaged_red_tile_roof_before
 import notdienstImg2 from "@assets/generated_images/completed_roof_showcase_reference.png";
 import notdienstImg3 from "@assets/generated_images/realistic_damaged_flat_roof_before.png";
 import notdienstImg4 from "@assets/generated_images/realistic_garage_epdm_roof_after.png";
+import { ServiceGeoLinks } from "@/components/GeoLinks";
+import { TextWithKeywordLinks } from "@/components/KeywordLink";
 
 function EmergencyServiceSchema() {
   const schema = {
@@ -129,7 +131,7 @@ export default function Notdienst() {
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-6 text-center">
-              Dachdecker Notdienst München 24h: Wann Sie uns sofort anrufen sollten
+              <strong>Dachdecker</strong> Notdienst <strong>München</strong> 24h: Wann Sie uns sofort anrufen sollten
             </h2>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
@@ -185,7 +187,7 @@ export default function Notdienst() {
             />
 
             <div className="bg-stone-100 p-8 rounded-xl mb-12">
-              <h3 className="text-2xl font-bold text-secondary mb-6">Dachdecker Notdienst Kosten München: Transparente Preise ohne Überraschungen</h3>
+              <h3 className="text-2xl font-bold text-secondary mb-6"><strong>Dachdecker</strong> Notdienst Kosten <strong>München</strong>: Transparente Preise ohne Überraschungen</h3>
               <p className="text-muted-foreground mb-6">
                 Transparente Preise auch im Notfall. Keine versteckten Kosten – Sie wissen vorher, was es kostet.
               </p>
@@ -329,6 +331,7 @@ export default function Notdienst() {
 
       <ProofStack title="Warum 089Dach im Notfall?" />
 
+      <ServiceGeoLinks currentService="Notdienst" />
       <LeadFunnel 
         headline="Dach-Notfall?"
         subheadline="Wir sind in 1-2 Stunden vor Ort."

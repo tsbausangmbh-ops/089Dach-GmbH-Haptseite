@@ -7,6 +7,8 @@ import { AlertTriangle, Clock, Shield, Wrench, CloudRain, Wind, Check, Phone, Aw
 import SEO, { BreadcrumbSchema, ServiceSchema, ProductServiceSchema, FAQPageSchema } from "@/components/SEO";
 import BackButton from "@/components/BackButton";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
+import { ServiceGeoLinks } from "@/components/GeoLinks";
+import { TextWithKeywordLinks } from "@/components/KeywordLink";
 
 export default function Dachreparatur() {
   const reparaturArten = [
@@ -182,6 +184,14 @@ export default function Dachreparatur() {
             <p className="text-muted-foreground mt-6 text-center">
               Nicht sicher, ob <strong>Reparatur</strong> oder <strong>Sanierung</strong>? Wir beraten Sie ehrlich <strong>vor Ort</strong> – ohne Verkaufsdruck. Als <strong>Meisterbetrieb</strong> mit <strong>25 Jahren Erfahrung</strong> finden wir die beste Lösung für Ihr <strong>Dachproblem</strong>.
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-6 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-7xl mx-auto">
+            <ServiceGeoLinks currentService="Dachreparatur" />
           </div>
         </div>
       </section>

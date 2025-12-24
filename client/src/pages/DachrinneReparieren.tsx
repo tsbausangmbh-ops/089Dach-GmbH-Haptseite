@@ -8,6 +8,8 @@ import SEO, { BreadcrumbSchema, ServiceSchema, FAQPageSchema, ProductServiceSche
 import BackButton from "@/components/BackButton";
 import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
+import { ServiceGeoLinks } from "@/components/GeoLinks";
+import { TextWithKeywordLinks } from "@/components/KeywordLink";
 
 export default function DachrinneReparieren() {
   const leistungen = [
@@ -104,7 +106,7 @@ export default function DachrinneReparieren() {
         <div className="container mx-auto px-4">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">
-              Typische Dachrinnen-Probleme
+              <strong>Dachrinne reparieren</strong> – Typische Probleme
             </h2>
             <div className="space-y-4">
               {probleme.map((problem, index) => (
@@ -182,6 +184,14 @@ export default function DachrinneReparieren() {
               </Link>
               <Link href="/beratung"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8" data-testid="button-online">24h Online Termin</Button></Link>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-6 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-7xl mx-auto">
+            <ServiceGeoLinks currentService="Dachrinne" />
           </div>
         </div>
       </section>

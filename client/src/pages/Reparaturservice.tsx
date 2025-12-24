@@ -14,6 +14,7 @@ import SEO, { BreadcrumbSchema, ServiceSchema, HowToSchema, ProductServiceSchema
 import heroImage from "@assets/generated_images/damaged_red_tile_roof_before.png";
 import BackButton from "@/components/BackButton";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
+import { ServiceGeoLinks } from "@/components/GeoLinks";
 import { DachreparaturMuenchenContent } from "@/components/SEOContent";
 import AIEnhancedFAQ from "@/components/AIEnhancedFAQ";
 import ProblemSolutionSection from "@/components/ProblemSolutionSection";
@@ -578,6 +579,7 @@ export default function Reparaturservice() {
         subtitle="Planbar, transparent und stressfrei – von der ersten Beratung bis zur Garantie."
       />
 
+      <ServiceGeoLinks currentService="Dachreparatur" />
       <LeadFunnel 
         headline="Dach undicht oder beschädigt?"
         subheadline="Wir reparieren schnell und zuverlässig."
