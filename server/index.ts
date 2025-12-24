@@ -2,8 +2,19 @@ import express, { type Request, Response, NextFunction } from "express";
 import { registerRoutes } from "./routes";
 import { serveStatic } from "./static";
 import { createServer } from "http";
+import prerender from "prerender-node";
 
 const app = express();
+
+if (process.env.PRERENDER_TOKEN) {
+  app.use(prerender
+    .set('prerenderToken', process.env.PRERENDER_TOKEN)
+    .set('protocol', 'https')
+    .set('host', '089dach.de')
+    .set('forwardHeaders', true)
+  );
+}
+
 const httpServer = createServer(app);
 
 declare module "http" {
