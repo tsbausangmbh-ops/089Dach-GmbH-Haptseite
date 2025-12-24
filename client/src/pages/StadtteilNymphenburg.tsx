@@ -59,7 +59,7 @@ export default function StadtteilNymphenburg() {
         title="Dachdecker Nymphenburg 2025 | Preise ab 90€/m² | Meisterbetrieb"
         description="Dachdecker Nymphenburg: ✓ Dachsanierung ab 90€/m² ✓ 10 Jahre Garantie ✓ Denkmalschutz ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-nymphenburg"
-        keywords="dachdecker nymphenburg empfehlung, dachrinnenreinigung nymphenburg, sturmschaden dach nymphenburg, wasserschaden dach münchen nymphenburg, dach undicht nymphenburg reparieren, dachschaden nymphenburg, biberschwanz kosten münchen"
+        keywords="dachdecker nymphenburg empfehlung, dachrinnenreinigung nymphenburg, sturmschaden dach nymphenburg, wasserschaden dach münchen nymphenburg, dach undicht nymphenburg reparieren, dachschaden nymphenburg, biberschwanz kosten münchen, was kostet dachdecker nymphenburg, dachdecker nymphenburg bewertung, guter dachdecker nymphenburg, bester dachdecker nymphenburg, dach undicht nymphenburg, dach reparieren lassen nymphenburg, dachschaden nymphenburg beheben, wasserschaden dach nymphenburg, dachdecker nymphenburg günstig, dachdecker nymphenburg festpreis, dachdecker nymphenburg angebot, dachdecker nymphenburg kostenvoranschlag, dachdecker nymphenburg schnell, dachdecker nymphenburg notdienst, dachdecker nymphenburg sofort, dachdecker in meiner nähe nymphenburg, dachdecker 80638"
         geoPlacename={`München-Nymphenburg, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Nymphenburg. Spezialist für Altbauten und denkmalgeschützte Gebäude. Tel: 089 12621964.`}
       />

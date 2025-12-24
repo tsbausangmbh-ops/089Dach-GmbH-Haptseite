@@ -73,7 +73,7 @@ export default function StadtteilAltstadt() {
         title="Dachdecker Altstadt 2025 | Preise ab 95€/m² | Meisterbetrieb"
         description="Dachdecker Altstadt: ✓ Dachsanierung ab 95€/m² ✓ 10 Jahre Garantie ✓ Denkmalschutz-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-altstadt"
-        keywords="dachdecker altstadt münchen, dachsanierung denkmalschutz münchen, dachdecker marienplatz, historische dächer münchen, kupferdach altstadt, dachdecker 80331 80333, dachrinnenreinigung altstadt, sturmschaden dach altstadt, wasserschaden dach münchen altstadt, dach undicht altstadt reparieren, dachschaden altstadt"
+        keywords="dachdecker altstadt münchen, dachsanierung denkmalschutz münchen, dachdecker marienplatz, historische dächer münchen, kupferdach altstadt, dachdecker 80331 80333, dachrinnenreinigung altstadt, sturmschaden dach altstadt, wasserschaden dach münchen altstadt, dach undicht altstadt reparieren, dachschaden altstadt, was kostet dachdecker altstadt, dachdecker altstadt bewertung, guter dachdecker altstadt, bester dachdecker altstadt, dach undicht altstadt, dach reparieren lassen altstadt, dachschaden altstadt beheben, wasserschaden dach altstadt, dachdecker altstadt günstig, dachdecker altstadt festpreis, dachdecker altstadt angebot, dachdecker altstadt kostenvoranschlag, dachdecker altstadt schnell, dachdecker altstadt notdienst, dachdecker altstadt sofort, dachdecker in meiner nähe altstadt, dachdecker 80331"
         geoPlacename="München-Altstadt, Bayern, Deutschland"
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für die Münchner Altstadt. Spezialist für Denkmalschutz. Tel: 089 12621964.`}
       />

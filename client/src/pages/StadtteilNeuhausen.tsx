@@ -59,7 +59,7 @@ export default function StadtteilNeuhausen() {
         title="Dachdecker Neuhausen 2025 | Preise ab 90€/m² | Meisterbetrieb"
         description="Dachdecker Neuhausen: ✓ Dachsanierung ab 90€/m² ✓ 10 Jahre Garantie ✓ Altbau-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-neuhausen"
-        keywords="dachdecker neuhausen empfehlung, dachrinnenreinigung neuhausen, sturmschaden dach neuhausen, wasserschaden dach münchen neuhausen, dach undicht neuhausen reparieren, dachschaden neuhausen, dachsanierung altbau neuhausen, dachdecker 80634 80636"
+        keywords="dachdecker neuhausen empfehlung, dachrinnenreinigung neuhausen, sturmschaden dach neuhausen, wasserschaden dach münchen neuhausen, dach undicht neuhausen reparieren, dachschaden neuhausen, dachsanierung altbau neuhausen, dachdecker 80634 80636, was kostet dachdecker neuhausen, dachdecker neuhausen bewertung, guter dachdecker neuhausen, bester dachdecker neuhausen, dach undicht neuhausen, dach reparieren lassen neuhausen, dachschaden neuhausen beheben, wasserschaden dach neuhausen, dachdecker neuhausen günstig, dachdecker neuhausen festpreis, dachdecker neuhausen angebot, dachdecker neuhausen kostenvoranschlag, dachdecker neuhausen schnell, dachdecker neuhausen notdienst, dachdecker neuhausen sofort, dachdecker in meiner nähe neuhausen, dachdecker 80634"
         geoPlacename={`München-Neuhausen, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Neuhausen. Spezialisiert auf Altbauten und Denkmalschutz. Tel: 089 12621964.`}
       />

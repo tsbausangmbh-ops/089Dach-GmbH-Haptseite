@@ -58,7 +58,7 @@ export default function StadtteilWestend() {
         title="Dachdecker Westend 2025 | Preise ab 85€/m² | Meisterbetrieb"
         description="Dachdecker Westend: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Altbau-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-westend"
-        keywords="dachdecker westend münchen, dachsanierung altbau westend, flachdach gewerbe münchen, dachausbau westend, gauben einbau münchen, dachrinnenreinigung westend, sturmschaden dach westend, wasserschaden dach münchen westend, dach undicht westend reparieren, dachschaden westend"
+        keywords="dachdecker westend münchen, dachsanierung altbau westend, flachdach gewerbe münchen, dachausbau westend, gauben einbau münchen, dachrinnenreinigung westend, sturmschaden dach westend, wasserschaden dach münchen westend, dach undicht westend reparieren, dachschaden westend, was kostet dachdecker westend, dachdecker westend bewertung, guter dachdecker westend, bester dachdecker westend, dach undicht westend, dach reparieren lassen westend, dachschaden westend beheben, wasserschaden dach westend, dachdecker westend günstig, dachdecker westend festpreis, dachdecker westend angebot, dachdecker westend kostenvoranschlag, dachdecker westend schnell, dachdecker westend notdienst, dachdecker westend sofort, dachdecker in meiner nähe westend, dachdecker 80339"
         geoPlacename="München-Westend, Bayern, Deutschland"
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Westend. Spezialist für Altbau und Gewerbe. Tel: 089 12621964.`}
       />

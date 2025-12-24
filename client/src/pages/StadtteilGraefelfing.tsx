@@ -68,7 +68,7 @@ export default function StadtteilGraefelfing() {
         title="Dachdecker Gräfelfing 2025 | Preise ab 95€/m² | Meisterbetrieb"
         description="Dachdecker Gräfelfing: ✓ Dachsanierung ab 95€/m² ✓ 10 Jahre Garantie ✓ Villen-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical={`https://089dach.de/dachdecker-graefelfing`}
-        keywords={`dachdecker gräfelfing bewertung, villa dachsanierung landkreis münchen, dachdecker 82166, dachrinnenreinigung gräfelfing, sturmschaden dach gräfelfing, wasserschaden dach münchen gräfelfing, dach undicht gräfelfing reparieren, dachschaden gräfelfing`}
+        keywords={`dachdecker gräfelfing bewertung, villa dachsanierung landkreis münchen, dachdecker 82166, dachrinnenreinigung gräfelfing, sturmschaden dach gräfelfing, wasserschaden dach münchen gräfelfing, dach undicht gräfelfing reparieren, dachschaden gräfelfing, was kostet dachdecker gräfelfing, dachdecker gräfelfing bewertung, guter dachdecker gräfelfing, bester dachdecker gräfelfing, dach undicht gräfelfing, dach reparieren lassen gräfelfing, dachschaden gräfelfing beheben, wasserschaden dach gräfelfing, dachdecker gräfelfing günstig, dachdecker gräfelfing festpreis, dachdecker gräfelfing angebot, dachdecker gräfelfing kostenvoranschlag, dachdecker gräfelfing schnell, dachdecker gräfelfing notdienst, dachdecker gräfelfing sofort, dachdecker in meiner nähe gräfelfing, dachdecker 82166`}
         geoPlacename={`Gräfelfing, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker für Gräfelfing. Premium-Dachsanierung für Villen. Nur 5 km entfernt. Tel: 089 12621964.`}
       />

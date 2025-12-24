@@ -58,7 +58,7 @@ export default function StadtteilMaxvorstadt() {
         title="Dachdecker Maxvorstadt 2025 | Preise ab 90€/m² | Meisterbetrieb"
         description="Dachdecker Maxvorstadt: ✓ Dachsanierung ab 90€/m² ✓ 10 Jahre Garantie ✓ Altbau-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-maxvorstadt"
-        keywords="dachdecker maxvorstadt, dachrinnenreinigung maxvorstadt, sturmschaden dach maxvorstadt, wasserschaden dach münchen maxvorstadt, dach undicht maxvorstadt reparieren, dachschaden maxvorstadt, dachsanierung altbau münchen, dachdecker 80333 80335"
+        keywords="dachdecker maxvorstadt, dachrinnenreinigung maxvorstadt, sturmschaden dach maxvorstadt, wasserschaden dach münchen maxvorstadt, dach undicht maxvorstadt reparieren, dachschaden maxvorstadt, dachsanierung altbau münchen, dachdecker 80333 80335, was kostet dachdecker maxvorstadt, dachdecker maxvorstadt bewertung, guter dachdecker maxvorstadt, bester dachdecker maxvorstadt, dach undicht maxvorstadt, dach reparieren lassen maxvorstadt, dachschaden maxvorstadt beheben, wasserschaden dach maxvorstadt, dachdecker maxvorstadt günstig, dachdecker maxvorstadt festpreis, dachdecker maxvorstadt angebot, dachdecker maxvorstadt kostenvoranschlag, dachdecker maxvorstadt schnell, dachdecker maxvorstadt notdienst, dachdecker maxvorstadt sofort, dachdecker in meiner nähe maxvorstadt, dachdecker 80333"
         geoPlacename="München-Maxvorstadt, Bayern, Deutschland"
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Maxvorstadt. Spezialist für Altbauten und Denkmalschutz. Tel: 089 12621964.`}
       />

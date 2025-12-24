@@ -65,7 +65,7 @@ export default function StadtteilLaim() {
         title="Dachdecker Laim 2025 | Preise ab 85€/m² | Meisterbetrieb"
         description="Dachdecker Laim: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Nur 3km entfernt ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-laim"
-        keywords="dachdecker laim empfehlung, dachrinnenreinigung laim, sturmschaden dach laim, wasserschaden dach münchen laim, dach undicht laim reparieren, dachschaden laim, flachdach undicht laim soforthilfe, dachdecker 80686 80687"
+        keywords="dachdecker laim empfehlung, dachrinnenreinigung laim, sturmschaden dach laim, wasserschaden dach münchen laim, dach undicht laim reparieren, dachschaden laim, flachdach undicht laim soforthilfe, dachdecker 80686 80687, was kostet dachdecker laim, dachdecker laim bewertung, guter dachdecker laim, bester dachdecker laim, dach undicht laim, dach reparieren lassen laim, dachschaden laim beheben, wasserschaden dach laim, dachdecker laim günstig, dachdecker laim festpreis, dachdecker laim angebot, dachdecker laim kostenvoranschlag, dachdecker laim schnell, dachdecker laim notdienst, dachdecker laim sofort, dachdecker in meiner nähe laim, dachdecker 80686"
         geoPlacename={`München-Laim, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Laim. Nur 3 km entfernt. Spezialist für Flachdach und Dachsanierung. Tel: 089 12621964.`}
       />

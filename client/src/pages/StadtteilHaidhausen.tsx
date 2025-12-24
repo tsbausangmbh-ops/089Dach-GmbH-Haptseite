@@ -69,7 +69,7 @@ export default function StadtteilHaidhausen() {
         title="Dachdecker Haidhausen 2025 | Preise ab 90€/m² | Meisterbetrieb"
         description="Dachdecker Haidhausen: ✓ Dachsanierung ab 90€/m² ✓ 10 Jahre Garantie ✓ Altbau-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical={`https://089dach.de/dachdecker-au-haidhausen`}
-        keywords={`dachdecker haidhausen, dachdecker au, dachsanierung haidhausen, altbau dach münchen, denkmalschutz dachdecker, dachdecker 81667 81669, dachrinnenreinigung haidhausen, sturmschaden dach haidhausen, wasserschaden dach münchen haidhausen, dach undicht haidhausen reparieren, dachschaden haidhausen`}
+        keywords={`dachdecker haidhausen, dachdecker au, dachsanierung haidhausen, altbau dach münchen, denkmalschutz dachdecker, dachdecker 81667 81669, dachrinnenreinigung haidhausen, sturmschaden dach haidhausen, wasserschaden dach münchen haidhausen, dach undicht haidhausen reparieren, dachschaden haidhausen, was kostet dachdecker haidhausen, dachdecker haidhausen bewertung, guter dachdecker haidhausen, bester dachdecker haidhausen, dach undicht haidhausen, dach reparieren lassen haidhausen, dachschaden haidhausen beheben, wasserschaden dach haidhausen, dachdecker haidhausen günstig, dachdecker haidhausen festpreis, dachdecker haidhausen angebot, dachdecker haidhausen kostenvoranschlag, dachdecker haidhausen schnell, dachdecker haidhausen notdienst, dachdecker haidhausen sofort, dachdecker in meiner nähe haidhausen, dachdecker 81667`}
         geoPlacename={`München Au-Haidhausen, Bayern, Deutschland`}
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Stadtteile", url: "/stadtteile" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-au-haidhausen` }]} />

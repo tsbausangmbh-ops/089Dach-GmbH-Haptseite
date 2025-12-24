@@ -55,7 +55,7 @@ export default function StadtteilMilbertshofen() {
         title="Dachdecker Milbertshofen 2025 | Preise ab 85€/m² | Meisterbetrieb"
         description="Dachdecker Milbertshofen: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Flachdach-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical={`https://089dach.de/dachdecker-milbertshofen`}
-        keywords={`dachdecker milbertshofen, dachrinnenreinigung milbertshofen, sturmschaden dach milbertshofen, wasserschaden dach münchen milbertshofen, dach undicht milbertshofen reparieren, dachschaden milbertshofen, flachdach münchen nord, dachdecker 80807 80809`}
+        keywords={`dachdecker milbertshofen, dachrinnenreinigung milbertshofen, sturmschaden dach milbertshofen, wasserschaden dach münchen milbertshofen, dach undicht milbertshofen reparieren, dachschaden milbertshofen, flachdach münchen nord, dachdecker 80807 80809, was kostet dachdecker milbertshofen, dachdecker milbertshofen bewertung, guter dachdecker milbertshofen, bester dachdecker milbertshofen, dach undicht milbertshofen, dach reparieren lassen milbertshofen, dachschaden milbertshofen beheben, wasserschaden dach milbertshofen, dachdecker milbertshofen günstig, dachdecker milbertshofen festpreis, dachdecker milbertshofen angebot, dachdecker milbertshofen kostenvoranschlag, dachdecker milbertshofen schnell, dachdecker milbertshofen notdienst, dachdecker milbertshofen sofort, dachdecker in meiner nähe milbertshofen, dachdecker 80807`}
         geoPlacename={`München Milbertshofen-Am Hart, Bayern, Deutschland`}
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Stadtteile", url: "/stadtteile" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-milbertshofen` }]} />

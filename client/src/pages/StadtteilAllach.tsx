@@ -75,7 +75,7 @@ export default function StadtteilAllach() {
         title="Dachdecker Allach 2025 | Preise ab 85€/m² | Meisterbetrieb"
         description="Dachdecker Allach: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Nur 3km entfernt ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-allach"
-        keywords="dachdecker allach empfehlung, dachsanierung allach münchen, dachdecker untermenzing, siedlungshaus dach sanieren, dachziegel allach, dachreparatur münchen nord, dachdecker 80999, dachrinnenreinigung allach, sturmschaden dach allach, wasserschaden dach münchen allach, dach undicht allach reparieren, dachschaden allach"
+        keywords="dachdecker allach empfehlung, dachsanierung allach münchen, dachdecker untermenzing, siedlungshaus dach sanieren, dachziegel allach, dachreparatur münchen nord, dachdecker 80999, dachrinnenreinigung allach, sturmschaden dach allach, wasserschaden dach münchen allach, dach undicht allach reparieren, dachschaden allach, was kostet dachdecker allach, dachdecker allach bewertung, guter dachdecker allach, bester dachdecker allach, dach undicht allach, dach reparieren lassen allach, dachschaden allach beheben, wasserschaden dach allach, dachdecker allach günstig, dachdecker allach festpreis, dachdecker allach angebot, dachdecker allach kostenvoranschlag, dachdecker allach schnell, dachdecker allach notdienst, dachdecker allach sofort, dachdecker in meiner nähe allach, dachdecker 80999"
         geoPlacename={`München-Allach, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb direkt neben Allach. Kürzeste Anfahrtswege, schneller Service. Tel: 089 12621964.`}
       />

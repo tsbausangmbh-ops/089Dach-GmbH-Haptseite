@@ -59,7 +59,7 @@ export default function StadtteilMoosach() {
         title="Dachdecker Moosach 2025 | Preise ab 85€/m² | Meisterbetrieb"
         description="Dachdecker Moosach: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Nur 4km entfernt ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-moosach"
-        keywords="dachdecker moosach empfehlung, dachrinnenreinigung moosach, sturmschaden dach moosach, wasserschaden dach münchen moosach, dach undicht moosach reparieren, dachschaden moosach, flachdach moosach abdichten, dachdecker 80992 80993"
+        keywords="dachdecker moosach empfehlung, dachrinnenreinigung moosach, sturmschaden dach moosach, wasserschaden dach münchen moosach, dach undicht moosach reparieren, dachschaden moosach, flachdach moosach abdichten, dachdecker 80992 80993, was kostet dachdecker moosach, dachdecker moosach bewertung, guter dachdecker moosach, bester dachdecker moosach, dach undicht moosach, dach reparieren lassen moosach, dachschaden moosach beheben, wasserschaden dach moosach, dachdecker moosach günstig, dachdecker moosach festpreis, dachdecker moosach angebot, dachdecker moosach kostenvoranschlag, dachdecker moosach schnell, dachdecker moosach notdienst, dachdecker moosach sofort, dachdecker in meiner nähe moosach, dachdecker 80992"
         geoPlacename={`München-Moosach, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb direkt neben Moosach. Kürzeste Anfahrtswege, schneller Notdienst. Tel: 089 12621964.`}
       />

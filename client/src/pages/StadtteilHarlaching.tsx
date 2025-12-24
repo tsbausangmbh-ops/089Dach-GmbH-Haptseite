@@ -73,7 +73,7 @@ export default function StadtteilHarlaching() {
         title="Dachdecker Harlaching 2025 | Preise ab 90€/m² | Meisterbetrieb"
         description="Dachdecker Harlaching: ✓ Dachsanierung ab 90€/m² ✓ 10 Jahre Garantie ✓ Villen-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical={`https://089dach.de/dachdecker-harlaching`}
-        keywords={`dachdecker harlaching, dachsanierung einfamilienhaus münchen, dachdecker menterschwaige, dachdecker 81545 81547, dachrinnenreinigung harlaching, sturmschaden dach harlaching, wasserschaden dach münchen harlaching, dach undicht harlaching reparieren, dachschaden harlaching`}
+        keywords={`dachdecker harlaching, dachsanierung einfamilienhaus münchen, dachdecker menterschwaige, dachdecker 81545 81547, dachrinnenreinigung harlaching, sturmschaden dach harlaching, wasserschaden dach münchen harlaching, dach undicht harlaching reparieren, dachschaden harlaching, was kostet dachdecker harlaching, dachdecker harlaching bewertung, guter dachdecker harlaching, bester dachdecker harlaching, dach undicht harlaching, dach reparieren lassen harlaching, dachschaden harlaching beheben, wasserschaden dach harlaching, dachdecker harlaching günstig, dachdecker harlaching festpreis, dachdecker harlaching angebot, dachdecker harlaching kostenvoranschlag, dachdecker harlaching schnell, dachdecker harlaching notdienst, dachdecker harlaching sofort, dachdecker in meiner nähe harlaching, dachdecker 81545`}
         geoPlacename={`München-Harlaching, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Harlaching. Spezialisiert auf Einfamilienhäuser und hochwertige Dachsanierungen. Tel: 089 12621964.`}
       />

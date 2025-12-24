@@ -58,7 +58,7 @@ export default function StadtteilLehel() {
         title="Dachdecker Lehel 2025 | Preise ab 95€/m² | Meisterbetrieb"
         description="Dachdecker Lehel: ✓ Dachsanierung ab 95€/m² ✓ 10 Jahre Garantie ✓ Villen-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-lehel"
-        keywords="dachdecker lehel, dachrinnenreinigung lehel, sturmschaden dach lehel, wasserschaden dach münchen lehel, dach undicht lehel reparieren, dachschaden lehel, dachsanierung villa münchen, kupferdach lehel, dachdecker 80538 80539"
+        keywords="dachdecker lehel, dachrinnenreinigung lehel, sturmschaden dach lehel, wasserschaden dach münchen lehel, dach undicht lehel reparieren, dachschaden lehel, dachsanierung villa münchen, kupferdach lehel, dachdecker 80538 80539, was kostet dachdecker lehel, dachdecker lehel bewertung, guter dachdecker lehel, bester dachdecker lehel, dach undicht lehel, dach reparieren lassen lehel, dachschaden lehel beheben, wasserschaden dach lehel, dachdecker lehel günstig, dachdecker lehel festpreis, dachdecker lehel angebot, dachdecker lehel kostenvoranschlag, dachdecker lehel schnell, dachdecker lehel notdienst, dachdecker lehel sofort, dachdecker in meiner nähe lehel, dachdecker 80538"
         geoPlacename="München-Lehel, Bayern, Deutschland"
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Lehel. Spezialist für Villen und historische Bauten. Tel: 089 12621964.`}
       />

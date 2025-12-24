@@ -73,7 +73,7 @@ export default function StadtteilBergAmLaim() {
         title="Dachdecker Berg am Laim 2025 | Preise ab 85€/m² | Meisterbetrieb"
         description="Dachdecker Berg am Laim: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Flachdach-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-berg-am-laim"
-        keywords="dachdecker berg am laim, dachsanierung münchen ost, flachdach berg am laim, dachrinnenreinigung berg am laim, sturmschaden dach berg am laim, wasserschaden dach münchen berg am laim, dach undicht berg am laim reparieren, dachschaden berg am laim"
+        keywords="dachdecker berg am laim, dachsanierung münchen ost, flachdach berg am laim, dachrinnenreinigung berg am laim, sturmschaden dach berg am laim, wasserschaden dach münchen berg am laim, dach undicht berg am laim reparieren, dachschaden berg am laim, was kostet dachdecker berg am laim, dachdecker berg am laim bewertung, guter dachdecker berg am laim, bester dachdecker berg am laim, dach undicht berg am laim, dach reparieren lassen berg am laim, dachschaden berg am laim beheben, wasserschaden dach berg am laim, dachdecker berg am laim günstig, dachdecker berg am laim festpreis, dachdecker berg am laim angebot, dachdecker berg am laim kostenvoranschlag, dachdecker berg am laim schnell, dachdecker berg am laim notdienst, dachdecker berg am laim sofort, dachdecker in meiner nähe berg am laim, dachdecker 81671"
         geoPlacename="München-Berg am Laim, Bayern, Deutschland"
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Berg am Laim. Spezialist für Mehrfamilienhäuser. Tel: 089 12621964.`}
       />

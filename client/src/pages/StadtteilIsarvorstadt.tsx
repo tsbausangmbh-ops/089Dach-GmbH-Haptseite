@@ -73,7 +73,7 @@ export default function StadtteilIsarvorstadt() {
         title="Dachdecker Isarvorstadt 2025 | Preise ab 90€/m² | Meisterbetrieb"
         description="Dachdecker Isarvorstadt: ✓ Dachsanierung ab 90€/m² ✓ 10 Jahre Garantie ✓ Altbau-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-ludwigsvorstadt-isarvorstadt"
-        keywords="dachdecker glockenbachviertel, dachdecker isarvorstadt, dachrinnenreinigung isarvorstadt, sturmschaden dach isarvorstadt, wasserschaden dach münchen isarvorstadt, dach undicht isarvorstadt reparieren, dachschaden isarvorstadt, mansarddach sanierung, dachdecker 80337 80469"
+        keywords="dachdecker glockenbachviertel, dachdecker isarvorstadt, dachrinnenreinigung isarvorstadt, sturmschaden dach isarvorstadt, wasserschaden dach münchen isarvorstadt, dach undicht isarvorstadt reparieren, dachschaden isarvorstadt, mansarddach sanierung, dachdecker 80337 80469, was kostet dachdecker isarvorstadt, dachdecker isarvorstadt bewertung, guter dachdecker isarvorstadt, bester dachdecker isarvorstadt, dach undicht isarvorstadt, dach reparieren lassen isarvorstadt, dachschaden isarvorstadt beheben, wasserschaden dach isarvorstadt, dachdecker isarvorstadt günstig, dachdecker isarvorstadt festpreis, dachdecker isarvorstadt angebot, dachdecker isarvorstadt kostenvoranschlag, dachdecker isarvorstadt schnell, dachdecker isarvorstadt notdienst, dachdecker isarvorstadt sofort, dachdecker in meiner nähe isarvorstadt, dachdecker 80337"
         geoPlacename="München Ludwigsvorstadt-Isarvorstadt, Bayern, Deutschland"
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für Ludwigsvorstadt-Isarvorstadt. Spezialist für gründerzeitliche Altbauten. Tel: 089 12621964.`}
       />

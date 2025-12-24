@@ -73,7 +73,7 @@ export default function StadtteilFreimann() {
         title="Dachdecker Freimann 2025 | Preise ab 85€/m² | Meisterbetrieb"
         description="Dachdecker Freimann: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ München Nord ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-freimann"
-        keywords="dachdecker freimann, dachsanierung münchen nord, dachdecker allianz arena, flachdach freimann, dachdecker 80939 80807, dachrinnenreinigung freimann, sturmschaden dach freimann, wasserschaden dach münchen freimann, dach undicht freimann reparieren, dachschaden freimann"
+        keywords="dachdecker freimann, dachsanierung münchen nord, dachdecker allianz arena, flachdach freimann, dachdecker 80939 80807, dachrinnenreinigung freimann, sturmschaden dach freimann, wasserschaden dach münchen freimann, dach undicht freimann reparieren, dachschaden freimann, was kostet dachdecker freimann, dachdecker freimann bewertung, guter dachdecker freimann, bester dachdecker freimann, dach undicht freimann, dach reparieren lassen freimann, dachschaden freimann beheben, wasserschaden dach freimann, dachdecker freimann günstig, dachdecker freimann festpreis, dachdecker freimann angebot, dachdecker freimann kostenvoranschlag, dachdecker freimann schnell, dachdecker freimann notdienst, dachdecker freimann sofort, dachdecker in meiner nähe freimann, dachdecker 80939"
         geoPlacename="München-Freimann, Bayern, Deutschland"
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Freimann. Wohn- und Gewerbegebäude. Tel: 089 12621964.`}
       />

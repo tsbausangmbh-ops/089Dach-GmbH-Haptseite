@@ -73,7 +73,7 @@ export default function StadtteilAubing() {
         title="Dachdecker Aubing 2025 | Preise ab 85€/m² | Meisterbetrieb"
         description="Dachdecker Aubing: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ München West ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-aubing-lochhausen-langwied"
-        keywords="dachdecker aubing, dachdecker lochhausen, dachsanierung aubing münchen, dachdecker 81243 81245 81249, dachrinnenreinigung aubing, sturmschaden dach aubing, wasserschaden dach münchen aubing, dach undicht aubing reparieren, dachschaden aubing"
+        keywords="dachdecker aubing, dachdecker lochhausen, dachsanierung aubing münchen, dachdecker 81243 81245 81249, dachrinnenreinigung aubing, sturmschaden dach aubing, wasserschaden dach münchen aubing, dach undicht aubing reparieren, dachschaden aubing, was kostet dachdecker aubing, dachdecker aubing bewertung, guter dachdecker aubing, bester dachdecker aubing, dach undicht aubing, dach reparieren lassen aubing, dachschaden aubing beheben, wasserschaden dach aubing, dachdecker aubing günstig, dachdecker aubing festpreis, dachdecker aubing angebot, dachdecker aubing kostenvoranschlag, dachdecker aubing schnell, dachdecker aubing notdienst, dachdecker aubing sofort, dachdecker in meiner nähe aubing, dachdecker 81243"
         geoPlacename="München Aubing-Lochhausen-Langwied, Bayern, Deutschland"
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für Aubing-Lochhausen-Langwied. Spezialist für Einfamilienhäuser. Tel: 089 12621964.`}
       />

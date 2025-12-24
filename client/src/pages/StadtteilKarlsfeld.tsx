@@ -59,7 +59,7 @@ export default function StadtteilKarlsfeld() {
         title="Dachdecker Karlsfeld 2025 | Preise ab 85€/m² | Meisterbetrieb"
         description="Dachdecker Karlsfeld: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Nur 8km entfernt ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical={`https://089dach.de/dachdecker-karlsfeld`}
-        keywords={`dachdecker karlsfeld, dachsanierung karlsfeld, dachrinnenreinigung karlsfeld, sturmschaden dach karlsfeld, wasserschaden dach münchen karlsfeld, dach undicht karlsfeld reparieren, dachschaden karlsfeld, flachdach karlsfeld`}
+        keywords={`dachdecker karlsfeld, dachsanierung karlsfeld, dachrinnenreinigung karlsfeld, sturmschaden dach karlsfeld, wasserschaden dach münchen karlsfeld, dach undicht karlsfeld reparieren, dachschaden karlsfeld, flachdach karlsfeld, was kostet dachdecker karlsfeld, dachdecker karlsfeld bewertung, guter dachdecker karlsfeld, bester dachdecker karlsfeld, dach undicht karlsfeld, dach reparieren lassen karlsfeld, dachschaden karlsfeld beheben, wasserschaden dach karlsfeld, dachdecker karlsfeld günstig, dachdecker karlsfeld festpreis, dachdecker karlsfeld angebot, dachdecker karlsfeld kostenvoranschlag, dachdecker karlsfeld schnell, dachdecker karlsfeld notdienst, dachdecker karlsfeld sofort, dachdecker in meiner nähe karlsfeld, dachdecker 85757`}
         geoPlacename={`Karlsfeld, Landkreis Dachau, Bayern, Deutschland`}
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für Karlsfeld bei München. Schnelle Anfahrt aus dem Münchner Norden. Tel: 089 12621964.`}
       />

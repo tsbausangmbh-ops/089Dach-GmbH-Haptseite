@@ -72,7 +72,7 @@ export default function StadtteilHadern() {
         title="Dachdecker Hadern 2025 | Preise ab 85€/m² | Meisterbetrieb"
         description="Dachdecker Hadern: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Nur 5km entfernt ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-hadern"
-        keywords="dachdecker hadern, dachdecker großhadern, flachdach sanierung münchen, dachsanierung hadern, dachdecker 81375 81377, dachrinnenreinigung hadern, sturmschaden dach hadern, wasserschaden dach münchen hadern, dach undicht hadern reparieren, dachschaden hadern"
+        keywords="dachdecker hadern, dachdecker großhadern, flachdach sanierung münchen, dachsanierung hadern, dachdecker 81375 81377, dachrinnenreinigung hadern, sturmschaden dach hadern, wasserschaden dach münchen hadern, dach undicht hadern reparieren, dachschaden hadern, was kostet dachdecker hadern, dachdecker hadern bewertung, guter dachdecker hadern, bester dachdecker hadern, dach undicht hadern, dach reparieren lassen hadern, dachschaden hadern beheben, wasserschaden dach hadern, dachdecker hadern günstig, dachdecker hadern festpreis, dachdecker hadern angebot, dachdecker hadern kostenvoranschlag, dachdecker hadern schnell, dachdecker hadern notdienst, dachdecker hadern sofort, dachdecker in meiner nähe hadern, dachdecker 81375"
         geoPlacename="München-Hadern, Bayern, Deutschland"
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Hadern. Nur 5 km entfernt. Tel: 089 12621964.`}
       />

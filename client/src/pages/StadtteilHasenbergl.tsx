@@ -73,7 +73,7 @@ export default function StadtteilHasenbergl() {
         title="Dachdecker Hasenbergl 2025 | Preise ab 85€/m² | Meisterbetrieb"
         description="Dachdecker Hasenbergl: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Flachdach-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-hasenbergl"
-        keywords="dachdecker hasenbergl, dachsanierung hasenbergl, flachdach münchen nord, dachrinnenreinigung hasenbergl, sturmschaden dach hasenbergl, wasserschaden dach münchen hasenbergl, dach undicht hasenbergl reparieren, dachschaden hasenbergl, dachdecker 80933 80935"
+        keywords="dachdecker hasenbergl, dachsanierung hasenbergl, flachdach münchen nord, dachrinnenreinigung hasenbergl, sturmschaden dach hasenbergl, wasserschaden dach münchen hasenbergl, dach undicht hasenbergl reparieren, dachschaden hasenbergl, dachdecker 80933 80935, was kostet dachdecker hasenbergl, dachdecker hasenbergl bewertung, guter dachdecker hasenbergl, bester dachdecker hasenbergl, dach undicht hasenbergl, dach reparieren lassen hasenbergl, dachschaden hasenbergl beheben, wasserschaden dach hasenbergl, dachdecker hasenbergl günstig, dachdecker hasenbergl festpreis, dachdecker hasenbergl angebot, dachdecker hasenbergl kostenvoranschlag, dachdecker hasenbergl schnell, dachdecker hasenbergl notdienst, dachdecker hasenbergl sofort, dachdecker in meiner nähe hasenbergl, dachdecker 80933"
         geoPlacename="München-Hasenbergl, Bayern, Deutschland"
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für das Hasenbergl. Spezialist für Sanierung. Tel: 089 12621964.`}
       />

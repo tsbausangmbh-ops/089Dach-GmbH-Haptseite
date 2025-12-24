@@ -59,7 +59,7 @@ export default function StadtteilOberfoehring() {
         title="Dachdecker Oberföhring 2025 | Preise ab 95€/m² | Meisterbetrieb"
         description="Dachdecker Oberföhring: ✓ Dachsanierung ab 95€/m² ✓ 10 Jahre Garantie ✓ Villen-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-oberfoehring"
-        keywords="dachdecker oberföhring, dachrinnenreinigung oberföhring, sturmschaden dach oberföhring, wasserschaden dach münchen oberföhring, dach undicht oberföhring reparieren, dachschaden oberföhring, dachsanierung villa münchen, dachdecker 81925 81927"
+        keywords="dachdecker oberföhring, dachrinnenreinigung oberföhring, sturmschaden dach oberföhring, wasserschaden dach münchen oberföhring, dach undicht oberföhring reparieren, dachschaden oberföhring, dachsanierung villa münchen, dachdecker 81925 81927, was kostet dachdecker oberföhring, dachdecker oberföhring bewertung, guter dachdecker oberföhring, bester dachdecker oberföhring, dach undicht oberföhring, dach reparieren lassen oberföhring, dachschaden oberföhring beheben, wasserschaden dach oberföhring, dachdecker oberföhring günstig, dachdecker oberföhring festpreis, dachdecker oberföhring angebot, dachdecker oberföhring kostenvoranschlag, dachdecker oberföhring schnell, dachdecker oberföhring notdienst, dachdecker oberföhring sofort, dachdecker in meiner nähe oberföhring, dachdecker 81925"
         geoPlacename="München-Oberföhring, Bayern, Deutschland"
         aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Oberföhring. Spezialist für Villen und Premium-Wohnhäuser. Tel: 089 12621964.`}
       />
