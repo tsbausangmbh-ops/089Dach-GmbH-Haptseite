@@ -88,10 +88,10 @@ export default function StadtteilLehel() {
               <span className="text-primary font-bold tracking-wider uppercase text-sm">Villen-Experten</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-4 md:mb-6">
-              Dachdecker {stadtteilData.fullName}
+              <strong>Dachdecker {stadtteilData.fullName}</strong>
             </h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-xl mb-4 md:mb-6">
-              Spezialisiert auf herrschaftliche Villen und historische Dächer im {stadtteilData.name}.
+              Ihr <strong>Dachdecker</strong>-<strong>Meisterbetrieb</strong> – spezialisiert auf herrschaftliche Villen und historische Dächer im <strong>{stadtteilData.name}</strong>.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="/rueckruf/">
@@ -130,8 +130,9 @@ export default function StadtteilLehel() {
                 <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Villen-Experten <strong>Dachdecker</strong> für das {stadtteilData.name}</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4"><TextWithKeywordLinks currentPath="/dachdecker-lehel">{stadtteilData.beschreibung}</TextWithKeywordLinks></p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Unser Meister hat jahrzehntelange Erfahrung mit exklusiven Immobilien. Wir verstehen die hohen 
-                  Ansprüche unserer Kunden im Lehel und liefern entsprechend hochwertige Arbeit.
+                  Unser <strong>Meisterbetrieb</strong> aus <strong>München</strong> hat jahrzehntelange Erfahrung mit exklusiven Immobilien. 
+                  Ob <strong>Dachsanierung</strong>, <strong>Dachreparatur</strong> oder <strong>Notdienst</strong> – wir verstehen die hohen 
+                  Ansprüche unserer Kunden im <strong>Lehel</strong> und liefern entsprechend hochwertige Arbeit.
                 </p>
               </div>
 

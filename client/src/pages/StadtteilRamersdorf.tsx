@@ -84,10 +84,10 @@ export default function StadtteilRamersdorf() {
               <span className="text-primary font-bold tracking-wider uppercase text-sm">Meisterbetrieb</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-4 md:mb-6">
-              Dachdecker {stadtteilData.fullName}
+              <strong>Dachdecker {stadtteilData.fullName}</strong>
             </h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-xl mb-4 md:mb-6">
-              Ihr Dachdecker für Siedlungshäuser, Reihenhäuser und Mehrfamilienhäuser in Ramersdorf-Perlach.
+              Ihr <strong>Dachdecker-Meisterbetrieb</strong> für Siedlungshäuser, Reihenhäuser und Mehrfamilienhäuser in <strong>Ramersdorf-Perlach</strong>.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="/rueckruf/">
@@ -126,7 +126,8 @@ export default function StadtteilRamersdorf() {
                 <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Ihr lokaler <strong>Dachdecker</strong> für {stadtteilData.name}</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4"><TextWithKeywordLinks currentPath="/dachdecker-ramersdorf-perlach">{stadtteilData.beschreibung}</TextWithKeywordLinks></p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Ob historischer Ortskern Ramersdorf oder Neuperlach – wir kennen die besonderen Anforderungen des Bezirks.
+                  Als <strong>Meisterbetrieb</strong> aus <strong>München</strong> kennen wir die besonderen Anforderungen – ob historischer Ortskern <strong>Ramersdorf</strong> oder <strong>Neuperlach</strong>. 
+                  <strong>Dachsanierung</strong>, <strong>Dachreparatur</strong> und <strong>Notdienst</strong> sind unsere Spezialgebiete.
                 </p>
               </div>
               <div className="bg-primary/5 rounded-xl p-4 md:p-6 border border-primary/20">

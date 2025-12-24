@@ -88,10 +88,10 @@ export default function StadtteilMaxvorstadt() {
               <span className="text-primary font-bold tracking-wider uppercase text-sm">Altbau-Experten</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-4 md:mb-6">
-              Dachdecker {stadtteilData.fullName}
+              <strong>Dachdecker {stadtteilData.fullName}</strong>
             </h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-xl mb-4 md:mb-6">
-              Spezialisiert auf gründerzeitliche Altbauten und denkmalgeschützte Dächer in der {stadtteilData.name}.
+              Ihr <strong>Dachdecker</strong>-<strong>Meisterbetrieb</strong> – spezialisiert auf gründerzeitliche Altbauten und denkmalgeschützte Dächer in der <strong>{stadtteilData.name}</strong>.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="/rueckruf/">
@@ -130,7 +130,8 @@ export default function StadtteilMaxvorstadt() {
                 <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Altbau-Experten <strong>Dachdecker</strong> für die {stadtteilData.name}</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4"><TextWithKeywordLinks currentPath="/dachdecker-maxvorstadt">{stadtteilData.beschreibung}</TextWithKeywordLinks></p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Unser Meister hat jahrzehntelange Erfahrung mit historischen Dächern. Wir arbeiten eng mit dem 
+                  Unser <strong>Meisterbetrieb</strong> aus <strong>München</strong> hat jahrzehntelange Erfahrung mit historischen Dächern. 
+                  Ob <strong>Dachsanierung</strong>, <strong>Dachreparatur</strong> oder <strong>Notdienst</strong> – wir arbeiten eng mit dem 
                   Denkmalschutzamt zusammen und verwenden nur traditionelle Techniken und authentische Materialien.
                 </p>
               </div>

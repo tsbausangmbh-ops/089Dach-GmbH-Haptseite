@@ -89,10 +89,10 @@ export default function UmlandStarnberg() {
               <span className="text-primary font-bold tracking-wider uppercase text-sm">Premium-Villen am See</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-4 md:mb-6">
-              Dachdecker {stadtteilData.fullName}
+              <strong>Dachdecker {stadtteilData.fullName}</strong>
             </h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-xl mb-4 md:mb-6">
-              Premium-Dacharbeiten für exklusive Villen und Landhäuser am Starnberger See.
+              Ihr <strong>Dachdecker-Meisterbetrieb</strong> für <strong>{stadtteilData.name}</strong> im <strong>Münchner Umland</strong> – <strong>Dachsanierung</strong>, <strong>Dachreparatur</strong> und <strong>Notdienst</strong>.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="/rueckruf/">
@@ -137,7 +137,7 @@ export default function UmlandStarnberg() {
 
               <div className="bg-primary/5 rounded-xl p-4 md:p-6 border border-primary/20">
                 <h3 className="text-xl font-heading font-bold text-secondary mb-4 flex items-center gap-2">
-                  <Award className="h-6 w-6 text-primary" />Besonderheiten in {stadtteilData.name}
+                  <Award className="h-6 w-6 text-primary" />Besonderheiten in <strong>{stadtteilData.name}</strong>
                 </h3>
                 <ul className="space-y-3">
                   {stadtteilData.besonderheiten.map((item, idx) => (
@@ -150,7 +150,7 @@ export default function UmlandStarnberg() {
               </div>
 
               <div>
-                <h3 className="text-xl md:text-2xl font-heading font-bold text-secondary mb-4">Unsere Leistungen in {stadtteilData.name}</h3>
+                <h3 className="text-xl md:text-2xl font-heading font-bold text-secondary mb-4">Unsere Leistungen in <strong>{stadtteilData.name}</strong></h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {[
                     { title: "Villensanierung", desc: "Premium-Qualität" },

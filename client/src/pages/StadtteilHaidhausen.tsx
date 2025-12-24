@@ -98,10 +98,10 @@ export default function StadtteilHaidhausen() {
               <span className="text-primary font-bold tracking-wider uppercase text-sm">Altbau-Experten</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-4 md:mb-6">
-              Dachdecker {stadtteilData.fullName}
+              <strong>Dachdecker {stadtteilData.fullName}</strong>
             </h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-xl mb-4 md:mb-6">
-              Ihr Spezialist für Gründerzeit-Altbauten und denkmalgeschützte Gebäude in Au-Haidhausen.
+              Ihr <strong>Dachdecker-Meisterbetrieb</strong> – Spezialist für Gründerzeit-Altbauten und denkmalgeschützte Gebäude in <strong>Au-Haidhausen</strong>.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="/rueckruf/">
@@ -140,7 +140,7 @@ export default function StadtteilHaidhausen() {
                 <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Ihr <strong>Dachdecker</strong> für {stadtteilData.name}</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4"><TextWithKeywordLinks currentPath="/dachdecker-au-haidhausen">{stadtteilData.beschreibung}</TextWithKeywordLinks></p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Wir verstehen die besonderen Anforderungen historischer Bausubstanz und arbeiten eng mit Denkmalschutzbehörden zusammen.
+                  Als <strong>Meisterbetrieb</strong> verstehen wir die besonderen Anforderungen historischer Bausubstanz in <strong>Haidhausen</strong>. Ob <strong>Dachsanierung</strong>, <strong>Dachreparatur</strong> oder <strong>Notdienst</strong> – wir sind Ihr zuverlässiger <strong>Dachdecker</strong> in <strong>München</strong>.
                 </p>
               </div>
               <div className="bg-primary/5 rounded-xl p-4 md:p-6 border border-primary/20">

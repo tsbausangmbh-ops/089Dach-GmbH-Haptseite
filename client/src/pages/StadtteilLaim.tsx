@@ -95,10 +95,10 @@ export default function StadtteilLaim() {
               <span className="text-primary font-bold tracking-wider uppercase text-sm">Nur {stadtteilData.entfernung} entfernt</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-4 md:mb-6">
-              Dachdecker {stadtteilData.fullName}
+              <strong>Dachdecker {stadtteilData.fullName}</strong>
             </h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-xl mb-4 md:mb-6">
-              Ihr Dachdecker-Meisterbetrieb für {stadtteilData.name}. Spezialisiert auf Flachdach und Steildachsanierung.
+              Ihr <strong>Dachdecker</strong>-<strong>Meisterbetrieb</strong> für <strong>{stadtteilData.name}</strong>. Spezialisiert auf Flachdach und Steildachsanierung.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="/rueckruf/">
@@ -137,8 +137,8 @@ export default function StadtteilLaim() {
                 <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Ihr lokaler <strong>Dachdecker</strong> für {stadtteilData.name}</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4"><TextWithKeywordLinks currentPath="/dachdecker-laim">{stadtteilData.beschreibung}</TextWithKeywordLinks></p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Von unserem Standort in Obermenzing erreichen wir {stadtteilData.name} in nur wenigen Minuten. 
-                  Egal ob Flachdachabdichtung oder Steildachsanierung – wir sind schnell vor Ort.
+                  Von unserem Standort in <strong>München</strong>-Obermenzing erreichen wir <strong>{stadtteilData.name}</strong> in nur wenigen Minuten. 
+                  Ob <strong>Dachsanierung</strong>, <strong>Dachreparatur</strong> oder <strong>Notdienst</strong> – wir sind schnell vor Ort.
                 </p>
               </div>
 

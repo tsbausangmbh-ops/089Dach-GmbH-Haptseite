@@ -97,8 +97,8 @@ export default function StadtteilGraefelfing() {
               <MapPin className="h-5 w-5 text-primary" />
               <span className="text-primary font-bold tracking-wider uppercase text-sm">Nur {stadtteilData.entfernung} entfernt</span>
             </div>
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-4 md:mb-6">Dachdecker {stadtteilData.fullName}</h1>
-            <p className="text-lg md:text-xl text-gray-200 max-w-xl mb-4 md:mb-6">Premium-Dacharbeiten für anspruchsvolle Villen und Einfamilienhäuser.</p>
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-4 md:mb-6"><strong>Dachdecker {stadtteilData.fullName}</strong></h1>
+            <p className="text-lg md:text-xl text-gray-200 max-w-xl mb-4 md:mb-6">Ihr <strong>Dachdecker-Meisterbetrieb</strong> – Premium-Dacharbeiten für anspruchsvolle Villen und Einfamilienhäuser in <strong>Gräfelfing</strong>.</p>
             <div className="flex flex-wrap gap-4">
               <a href="/rueckruf/"><Button size="lg" className="bg-primary hover:bg-primary/90 text-white" data-testid="button-anrufen-hero"><Phone className="h-5 w-5 mr-2" /> Rückruf anfordern</Button></a>
               <a href="/kontakt/"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-secondary" data-testid="button-contact-hero">Kontakt aufnehmen</Button></a>
@@ -127,6 +127,9 @@ export default function StadtteilGraefelfing() {
               <div>
                 <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Ihr <strong>Dachdecker</strong> für {stadtteilData.name}</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4"><TextWithKeywordLinks currentPath="/dachdecker-graefelfing">{stadtteilData.beschreibung}</TextWithKeywordLinks></p>
+                <p className="text-lg text-muted-foreground leading-relaxed">
+                  Als <strong>Meisterbetrieb</strong> sind wir spezialisiert auf exklusive Villen in <strong>Gräfelfing</strong>. Ob <strong>Dachsanierung</strong>, <strong>Dachreparatur</strong> oder <strong>Notdienst</strong> – wir sind Ihr zuverlässiger <strong>Dachdecker</strong> nahe <strong>München</strong>.
+                </p>
               </div>
 
               <div className="bg-primary/5 rounded-xl p-4 md:p-6 border border-primary/20">

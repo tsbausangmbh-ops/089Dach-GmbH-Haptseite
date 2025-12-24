@@ -103,10 +103,10 @@ export default function StadtteilAubing() {
               <span className="text-primary font-bold tracking-wider uppercase text-sm">München West</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-4 md:mb-6">
-              Dachdecker Aubing, Lochhausen & Langwied
+              <strong>Dachdecker Aubing, Lochhausen & Langwied</strong>
             </h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-xl mb-4 md:mb-6">
-              Ihr Dachdeckermeister für Einfamilienhäuser und Reihenhäuser im Münchner Westen.
+              Ihr <strong>Dachdecker-Meisterbetrieb</strong> für Einfamilienhäuser und Reihenhäuser in <strong>Aubing</strong> und <strong>München</strong> West.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="/rueckruf/">
@@ -145,8 +145,7 @@ export default function StadtteilAubing() {
                 <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Ihr <strong>Dachdecker</strong> für Aubing, Lochhausen & Langwied</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4"><TextWithKeywordLinks currentPath="/dachdecker-aubing-lochhausen-langwied">{stadtteilData.beschreibung}</TextWithKeywordLinks></p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Als Meisterbetrieb aus der Nachbarschaft kennen wir die typischen Dachformen im Viertel 
-                  und bieten passgenaue Lösungen für Ihr Eigenheim.
+                  Als <strong>Meisterbetrieb</strong> aus der Nachbarschaft kennen wir die typischen Dachformen in <strong>Aubing</strong>, <strong>Lochhausen</strong> und <strong>Langwied</strong>. Ob <strong>Dachsanierung</strong>, <strong>Dachreparatur</strong> oder <strong>Notdienst</strong> – wir bieten passgenaue Lösungen für Ihr Eigenheim in <strong>München</strong>.
                 </p>
               </div>
 

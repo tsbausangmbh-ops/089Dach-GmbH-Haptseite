@@ -104,10 +104,10 @@ export default function StadtteilBogenhausen() {
               <span className="text-primary font-bold tracking-wider uppercase text-sm">Premium Villen-Experten</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-4 md:mb-6">
-              Dachdecker {stadtteilData.fullName}
+              <strong>Dachdecker {stadtteilData.fullName}</strong>
             </h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-xl mb-4 md:mb-6">
-              Exklusive Dacharbeiten für anspruchsvolle Villen und Stadtvillen in {stadtteilData.name}.
+              Ihr <strong>Dachdecker-Meisterbetrieb</strong> für exklusive Dacharbeiten an anspruchsvollen Villen und Stadtvillen in <strong>{stadtteilData.name}</strong>.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="/rueckruf/">
@@ -146,8 +146,7 @@ export default function StadtteilBogenhausen() {
                 <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Premium-<strong>Dachdecker</strong> für {stadtteilData.name}</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4"><TextWithKeywordLinks currentPath="/dachdecker-bogenhausen">{stadtteilData.beschreibung}</TextWithKeywordLinks></p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Unsere Kunden in Bogenhausen schätzen unsere diskrete und professionelle Arbeitsweise. 
-                  Wir verstehen die besonderen Anforderungen an repräsentative Immobilien und liefern stets höchste Qualität.
+                  Als <strong>Meisterbetrieb</strong> schätzen unsere Kunden in <strong>Bogenhausen</strong> unsere diskrete und professionelle Arbeitsweise. Ob <strong>Dachsanierung</strong>, <strong>Dachreparatur</strong> oder <strong>Notdienst</strong> – wir verstehen die besonderen Anforderungen an repräsentative Immobilien in <strong>München</strong> und liefern stets höchste Qualität.
                 </p>
               </div>
 

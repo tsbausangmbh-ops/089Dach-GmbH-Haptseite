@@ -89,10 +89,10 @@ export default function StadtteilNeuhausen() {
               <span className="text-primary font-bold tracking-wider uppercase text-sm">Altbau-Experten</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-4 md:mb-6">
-              Dachdecker {stadtteilData.fullName}
+              <strong>Dachdecker {stadtteilData.fullName}</strong>
             </h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-xl mb-4 md:mb-6">
-              Ihr Spezialist für Altbauten, Gründerzeithäuser und denkmalgeschützte Gebäude in {stadtteilData.name}.
+              Ihr <strong>Dachdecker</strong>-<strong>Meisterbetrieb</strong> – Spezialist für Altbauten, Gründerzeithäuser und denkmalgeschützte Gebäude in <strong>{stadtteilData.name}</strong>.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="/rueckruf/">
@@ -131,7 +131,8 @@ export default function StadtteilNeuhausen() {
                 <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Ihr <strong>Dachdecker</strong> <strong>Meisterbetrieb</strong> für {stadtteilData.name}</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4"><TextWithKeywordLinks currentPath="/dachdecker-neuhausen">{stadtteilData.beschreibung}</TextWithKeywordLinks></p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Wir kennen die besonderen Anforderungen historischer Bausubstanz und arbeiten eng mit Denkmalschutzbehörden zusammen.
+                  Als <strong>Meisterbetrieb</strong> aus <strong>München</strong> kennen wir die besonderen Anforderungen historischer Bausubstanz in <strong>Neuhausen</strong>. 
+                  Ob <strong>Dachsanierung</strong>, <strong>Dachreparatur</strong> oder <strong>Notdienst</strong> – wir arbeiten eng mit Denkmalschutzbehörden zusammen.
                 </p>
               </div>
 

@@ -103,10 +103,10 @@ export default function StadtteilHasenbergl() {
               <span className="text-primary font-bold tracking-wider uppercase text-sm">Sanierungs-Experten</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-4 md:mb-6">
-              Dachdecker {stadtteilData.fullName}
+              <strong>Dachdecker {stadtteilData.fullName}</strong>
             </h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-xl mb-4 md:mb-6">
-              Ihr Dachdeckermeister für Sanierungsprojekte im Hasenbergl.
+              Ihr <strong>Dachdecker</strong>-<strong>Meisterbetrieb</strong> für Sanierungsprojekte im <strong>Hasenbergl</strong>.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="/rueckruf/">
@@ -145,8 +145,8 @@ export default function StadtteilHasenbergl() {
                 <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Ihr <strong>Dachdecker</strong> für das {stadtteilData.name}</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4"><TextWithKeywordLinks currentPath="/dachdecker-hasenbergl">{stadtteilData.beschreibung}</TextWithKeywordLinks></p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Wir haben jahrelange Erfahrung mit der Sanierung von Gebäuden aus dieser Bauperiode und 
-                  bieten wirtschaftliche Lösungen für nachhaltige Dacherneuerung.
+                  Als <strong>Meisterbetrieb</strong> aus <strong>München</strong> haben wir jahrelange Erfahrung mit der <strong>Dachsanierung</strong> von Gebäuden aus dieser Bauperiode. 
+                  Ob <strong>Dachreparatur</strong> oder <strong>Notdienst</strong> – wir bieten wirtschaftliche Lösungen für nachhaltige Dacherneuerung.
                 </p>
               </div>
 

@@ -89,10 +89,10 @@ export default function StadtteilSchwanthalerhoehe() {
               <span className="text-primary font-bold tracking-wider uppercase text-sm">Zentral in München</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-4 md:mb-6">
-              Dachdecker {stadtteilData.fullName}
+              <strong>Dachdecker {stadtteilData.fullName}</strong>
             </h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-xl mb-4 md:mb-6">
-              Ihr Dachdeckermeister nahe der Theresienwiese – für Altbau und Neubau.
+              Ihr <strong>Dachdecker-Meisterbetrieb</strong> nahe der Theresienwiese – für Altbau und Neubau in <strong>München</strong>.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="/rueckruf/">
@@ -131,8 +131,8 @@ export default function StadtteilSchwanthalerhoehe() {
                 <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Ihr lokaler <strong>Dachdecker</strong> für die {stadtteilData.name}</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4"><TextWithKeywordLinks currentPath="/dachdecker-schwanthalerhoehe">{stadtteilData.beschreibung}</TextWithKeywordLinks></p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Die zentrale Lage ermöglicht uns kurze Anfahrtswege. Wir kennen die Anforderungen des Viertels und 
-                  arbeiten effizient auch in dicht bebauten Gebieten.
+                  Als <strong>Meisterbetrieb</strong> aus <strong>München</strong> ermöglicht uns die zentrale Lage kurze Anfahrtswege zur <strong>Schwanthalerhöhe</strong>. 
+                  Ob <strong>Dachsanierung</strong>, <strong>Dachreparatur</strong> oder <strong>Notdienst</strong> – wir arbeiten effizient auch in dicht bebauten Gebieten.
                 </p>
               </div>
 

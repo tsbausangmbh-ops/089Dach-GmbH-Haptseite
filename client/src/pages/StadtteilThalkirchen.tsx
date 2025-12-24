@@ -88,10 +88,10 @@ export default function StadtteilThalkirchen() {
               <span className="text-primary font-bold tracking-wider uppercase text-sm">Steildach-Experten</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-4 md:mb-6">
-              Dachdecker {stadtteilData.fullName}
+              <strong>Dachdecker {stadtteilData.fullName}</strong>
             </h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-xl mb-4 md:mb-6">
-              Spezialisiert auf Einfamilienhäuser und Steildächer in {stadtteilData.name}.
+              Ihr <strong>Dachdecker-Meisterbetrieb</strong> – spezialisiert auf Einfamilienhäuser und Steildächer in <strong>{stadtteilData.name}</strong>.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="/rueckruf/">
@@ -130,8 +130,8 @@ export default function StadtteilThalkirchen() {
                 <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Ihr lokaler <strong>Dachdecker</strong> für {stadtteilData.name}</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4"><TextWithKeywordLinks currentPath="/dachdecker-thalkirchen">{stadtteilData.beschreibung}</TextWithKeywordLinks></p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Wir kennen die typischen Dachformen und Materialien in Thalkirchen. Von der einfachen Reparatur 
-                  bis zur Komplettsanierung mit energetischer Optimierung sind wir Ihr zuverlässiger Partner.
+                  Als <strong>Meisterbetrieb</strong> aus <strong>München</strong> kennen wir die typischen Dachformen und Materialien in <strong>Thalkirchen</strong>. 
+                  Ob <strong>Dachsanierung</strong>, <strong>Dachreparatur</strong> oder <strong>Notdienst</strong> – von der einfachen Reparatur bis zur Komplettsanierung sind wir Ihr Partner.
                 </p>
               </div>
 

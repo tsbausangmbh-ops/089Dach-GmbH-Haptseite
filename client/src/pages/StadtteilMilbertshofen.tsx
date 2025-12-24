@@ -84,10 +84,10 @@ export default function StadtteilMilbertshofen() {
               <span className="text-primary font-bold tracking-wider uppercase text-sm">München Nord</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-4 md:mb-6">
-              Dachdecker {stadtteilData.fullName}
+              <strong>Dachdecker {stadtteilData.fullName}</strong>
             </h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-xl mb-4 md:mb-6">
-              Ihr Dachdecker für Gewerbe, Flachdach und Mehrfamilienhäuser in Milbertshofen.
+              Ihr <strong>Dachdecker</strong>-<strong>Meisterbetrieb</strong> für Gewerbe, Flachdach und Mehrfamilienhäuser in <strong>Milbertshofen</strong>.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="/rueckruf/">
@@ -126,7 +126,8 @@ export default function StadtteilMilbertshofen() {
                 <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Ihr <strong>Dachdecker</strong> <strong>Meisterbetrieb</strong> für {stadtteilData.name}</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4"><TextWithKeywordLinks currentPath="/dachdecker-milbertshofen">{stadtteilData.beschreibung}</TextWithKeywordLinks></p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Wir sind Ihr Partner für alle Dacharbeiten im Münchner Norden – schnell, professionell, zuverlässig.
+                  Als <strong>Meisterbetrieb</strong> aus <strong>München</strong> sind wir Ihr Partner für alle Dacharbeiten im Münchner Norden. 
+                  Ob <strong>Dachsanierung</strong>, <strong>Dachreparatur</strong> oder <strong>Notdienst</strong> – wir sind schnell, professionell und zuverlässig.
                 </p>
               </div>
               <div className="bg-primary/5 rounded-xl p-4 md:p-6 border border-primary/20">

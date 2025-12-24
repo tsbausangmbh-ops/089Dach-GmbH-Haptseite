@@ -88,10 +88,10 @@ export default function StadtteilWestend() {
               <span className="text-primary font-bold tracking-wider uppercase text-sm">Altbau & Gewerbe</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-4 md:mb-6">
-              Dachdecker {stadtteilData.fullName}
+              <strong>Dachdecker {stadtteilData.fullName}</strong>
             </h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-xl mb-4 md:mb-6">
-              Spezialisiert auf Altbauten und Gewerbegebäude im {stadtteilData.name}.
+              Ihr <strong>Dachdecker-Meisterbetrieb</strong> – spezialisiert auf Altbauten und Gewerbegebäude im <strong>{stadtteilData.name}</strong> in <strong>München</strong>.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="/rueckruf/">
@@ -130,8 +130,8 @@ export default function StadtteilWestend() {
                 <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Ihr lokaler <strong>Dachdecker</strong> im {stadtteilData.name}</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4"><TextWithKeywordLinks currentPath="/dachdecker-westend">{stadtteilData.beschreibung}</TextWithKeywordLinks></p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Ob historisches Mehrfamilienhaus oder modernes Gewerbegebäude - wir haben die Erfahrung 
-                  für alle Dachtypen im Westend. Flexible Terminplanung für minimale Störung.
+                  Als <strong>Meisterbetrieb</strong> aus <strong>München</strong> haben wir die Erfahrung für alle Dachtypen im <strong>Westend</strong>. 
+                  Ob <strong>Dachsanierung</strong>, <strong>Dachreparatur</strong> oder <strong>Notdienst</strong> – flexible Terminplanung für minimale Störung.
                 </p>
               </div>
 

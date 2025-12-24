@@ -103,10 +103,10 @@ export default function StadtteilHarlaching() {
               <span className="text-primary font-bold tracking-wider uppercase text-sm">Einfamilienhaus-Experten</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-4 md:mb-6">
-              Dachdecker {stadtteilData.fullName}
+              <strong>Dachdecker {stadtteilData.fullName}</strong>
             </h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-xl mb-4 md:mb-6">
-              Hochwertige Dacharbeiten für Einfamilienhäuser und Villen in {stadtteilData.name}.
+              Ihr <strong>Dachdecker</strong>-<strong>Meisterbetrieb</strong> für hochwertige Dacharbeiten an Einfamilienhäusern und Villen in <strong>{stadtteilData.name}</strong>.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="/rueckruf/">
@@ -145,7 +145,8 @@ export default function StadtteilHarlaching() {
                 <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Ihr <strong>Dachdecker</strong> für {stadtteilData.name}</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4"><TextWithKeywordLinks currentPath="/dachdecker-harlaching">{stadtteilData.beschreibung}</TextWithKeywordLinks></p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Wir wissen, wie wichtig Ihr Zuhause für Sie ist. Deshalb arbeiten wir mit größter Sorgfalt 
+                  Als <strong>Meisterbetrieb</strong> aus <strong>München</strong>-Obermenzing wissen wir, wie wichtig Ihr Zuhause für Sie ist. 
+                  Ob <strong>Dachsanierung</strong>, <strong>Dachreparatur</strong> oder <strong>Notdienst</strong> – wir arbeiten mit größter Sorgfalt 
                   und hinterlassen die Baustelle stets sauber und ordentlich.
                 </p>
               </div>

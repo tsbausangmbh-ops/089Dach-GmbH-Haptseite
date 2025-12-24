@@ -89,10 +89,10 @@ export default function StadtteilNymphenburg() {
               <span className="text-primary font-bold tracking-wider uppercase text-sm">Altbau-Experten</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-4 md:mb-6">
-              Dachdecker {stadtteilData.fullName}
+              <strong>Dachdecker {stadtteilData.fullName}</strong>
             </h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-xl mb-4 md:mb-6">
-              Ihr Spezialist für historische Altbauten und denkmalgeschützte Dächer in {stadtteilData.name}.
+              Ihr <strong>Dachdecker</strong>-<strong>Meisterbetrieb</strong> – Spezialist für historische Altbauten und denkmalgeschützte Dächer in <strong>{stadtteilData.name}</strong>.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="/rueckruf/">
@@ -131,8 +131,8 @@ export default function StadtteilNymphenburg() {
                 <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Altbau-Experten <strong>Dachdecker</strong> für {stadtteilData.name}</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4"><TextWithKeywordLinks currentPath="/dachdecker-nymphenburg">{stadtteilData.beschreibung}</TextWithKeywordLinks></p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Unser Team hat langjährige Erfahrung mit den besonderen Anforderungen historischer Bauten. 
-                  Wir arbeiten mit traditionellen Techniken und authentischen Materialien.
+                  Unser <strong>Meisterbetrieb</strong> aus <strong>München</strong> hat langjährige Erfahrung mit den besonderen Anforderungen historischer Bauten in <strong>Nymphenburg</strong>. 
+                  Ob <strong>Dachsanierung</strong>, <strong>Dachreparatur</strong> oder <strong>Notdienst</strong> – wir arbeiten mit traditionellen Techniken und authentischen Materialien.
                 </p>
               </div>
 

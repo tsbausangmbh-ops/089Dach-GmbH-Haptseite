@@ -89,10 +89,10 @@ export default function StadtteilMoosach() {
               <span className="text-primary font-bold tracking-wider uppercase text-sm">Ihr Nachbar-Dachdecker</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-4 md:mb-6">
-              Dachdecker {stadtteilData.fullName}
+              <strong>Dachdecker {stadtteilData.fullName}</strong>
             </h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-xl mb-4 md:mb-6">
-              In wenigen Minuten bei Ihnen – Ihr Dachdecker direkt aus der Nachbarschaft.
+              Ihr <strong>Dachdecker</strong>-<strong>Meisterbetrieb</strong> direkt aus der Nachbarschaft – in wenigen Minuten bei Ihnen in <strong>Moosach</strong>.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="/rueckruf/">
@@ -131,8 +131,8 @@ export default function StadtteilMoosach() {
                 <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Ihr Nachbar-<strong>Dachdecker</strong> für {stadtteilData.name}</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4"><TextWithKeywordLinks currentPath="/dachdecker-moosach">{stadtteilData.beschreibung}</TextWithKeywordLinks></p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Als Ihr direkter Nachbar kennen wir Moosach wie unsere Westentasche. Bei Notfällen sind 
-                  wir besonders schnell vor Ort.
+                  Als Ihr direkter Nachbar und <strong>Meisterbetrieb</strong> aus <strong>München</strong> kennen wir <strong>Moosach</strong> wie unsere Westentasche. 
+                  Ob <strong>Dachsanierung</strong>, <strong>Dachreparatur</strong> oder <strong>Notdienst</strong> – bei Notfällen sind wir besonders schnell vor Ort.
                 </p>
               </div>
 

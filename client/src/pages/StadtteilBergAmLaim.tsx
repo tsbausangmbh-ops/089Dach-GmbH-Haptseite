@@ -103,10 +103,10 @@ export default function StadtteilBergAmLaim() {
               <span className="text-primary font-bold tracking-wider uppercase text-sm">München Ost</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-4 md:mb-6">
-              Dachdecker {stadtteilData.fullName}
+              <strong>Dachdecker {stadtteilData.fullName}</strong>
             </h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-xl mb-4 md:mb-6">
-              Spezialisiert auf Mehrfamilienhäuser und Wohnanlagen in {stadtteilData.name}.
+              Ihr <strong>Dachdecker-Meisterbetrieb</strong> – spezialisiert auf Mehrfamilienhäuser und Wohnanlagen in <strong>{stadtteilData.name}</strong>.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="/rueckruf/">
@@ -145,8 +145,7 @@ export default function StadtteilBergAmLaim() {
                 <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Ihr <strong>Dachdecker</strong> für {stadtteilData.name}</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4"><TextWithKeywordLinks currentPath="/dachdecker-berg-am-laim">{stadtteilData.beschreibung}</TextWithKeywordLinks></p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Wir haben Erfahrung mit allen Gebäudetypen in Berg am Laim - von der Altbausanierung 
-                  bis zum Flachdach moderner Wohnanlagen.
+                  Als <strong>Meisterbetrieb</strong> haben wir Erfahrung mit allen Gebäudetypen in <strong>Berg am Laim</strong>. Ob <strong>Dachsanierung</strong>, <strong>Dachreparatur</strong>, Flachdach oder <strong>Notdienst</strong> – wir sind Ihr zuverlässiger <strong>Dachdecker</strong> in <strong>München</strong> Ost.
                 </p>
               </div>
 

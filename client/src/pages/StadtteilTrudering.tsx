@@ -89,10 +89,10 @@ export default function StadtteilTrudering() {
               <span className="text-primary font-bold tracking-wider uppercase text-sm">Familienhaus-Experten</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-4 md:mb-6">
-              Dachdecker {stadtteilData.fullName}
+              <strong>Dachdecker {stadtteilData.fullName}</strong>
             </h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-xl mb-4 md:mb-6">
-              Zuverlässige Dacharbeiten für Familienhäuser in {stadtteilData.name} und Umgebung.
+              Ihr <strong>Dachdecker-Meisterbetrieb</strong> – zuverlässige Dacharbeiten für Familienhäuser in <strong>{stadtteilData.name}</strong> und Umgebung.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="/rueckruf/">
@@ -131,8 +131,8 @@ export default function StadtteilTrudering() {
                 <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Ihr lokaler <strong>Dachdecker</strong> für {stadtteilData.name}</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4"><TextWithKeywordLinks currentPath="/dachdecker-trudering">{stadtteilData.beschreibung}</TextWithKeywordLinks></p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Wir verstehen die Bedürfnisse von Familien: Schnelle, saubere Arbeit mit minimalem Lärm 
-                  und Störung für Ihren Alltag.
+                  Als <strong>Meisterbetrieb</strong> aus <strong>München</strong> verstehen wir die Bedürfnisse von Familien in <strong>Trudering</strong>. 
+                  Ob <strong>Dachsanierung</strong>, <strong>Dachreparatur</strong> oder <strong>Notdienst</strong> – schnelle, saubere Arbeit mit minimalem Lärm.
                 </p>
               </div>
 

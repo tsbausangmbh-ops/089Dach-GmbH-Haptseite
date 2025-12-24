@@ -103,10 +103,10 @@ export default function StadtteilFreimann() {
               <span className="text-primary font-bold tracking-wider uppercase text-sm">München Nord</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-4 md:mb-6">
-              Dachdecker {stadtteilData.fullName}
+              <strong>Dachdecker {stadtteilData.fullName}</strong>
             </h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-xl mb-4 md:mb-6">
-              Ihr Dachdeckermeister im Münchner Norden – für Wohn- und Gewerbegebäude.
+              Ihr <strong>Dachdecker-Meisterbetrieb</strong> in <strong>Freimann</strong> – für Wohn- und Gewerbegebäude in <strong>München</strong> Nord.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="/rueckruf/">
@@ -145,8 +145,7 @@ export default function StadtteilFreimann() {
                 <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Ihr <strong>Dachdecker</strong> für {stadtteilData.name}</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4"><TextWithKeywordLinks currentPath="/dachdecker-freimann">{stadtteilData.beschreibung}</TextWithKeywordLinks></p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Ob Einfamilienhaus oder Gewerbehalle – wir bieten maßgeschneiderte Lösungen für alle 
-                  Dachtypen im Münchner Norden.
+                  Als <strong>Meisterbetrieb</strong> bieten wir maßgeschneiderte Lösungen für alle Dachtypen in <strong>Freimann</strong>. Ob <strong>Dachsanierung</strong>, <strong>Dachreparatur</strong> oder <strong>Notdienst</strong> – wir sind Ihr zuverlässiger <strong>Dachdecker</strong> in <strong>München</strong> Nord.
                 </p>
               </div>
 

@@ -105,10 +105,10 @@ export default function StadtteilAllach() {
               <span className="text-primary font-bold tracking-wider uppercase text-sm">Ihr Nachbar-Dachdecker</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-4 md:mb-6">
-              Dachdecker {stadtteilData.fullName}
+              <strong>Dachdecker {stadtteilData.fullName}</strong>
             </h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-xl mb-4 md:mb-6">
-              Direkt aus der Nachbarschaft – in wenigen Minuten bei Ihnen in {stadtteilData.name}.
+              Ihr <strong>Dachdecker-Meisterbetrieb</strong> direkt aus der Nachbarschaft – in wenigen Minuten bei Ihnen in <strong>{stadtteilData.name}</strong>.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="/rueckruf/">
@@ -147,7 +147,7 @@ export default function StadtteilAllach() {
                 <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Ihr Nachbar-<strong>Dachdecker</strong> für {stadtteilData.name}</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4"><TextWithKeywordLinks currentPath="/dachdecker-allach">{stadtteilData.beschreibung}</TextWithKeywordLinks></p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Als Ihr direkter Nachbar kennen wir Allach bestens. Bei Notfällen sind wir in wenigen Minuten vor Ort.
+                  Als <strong>Meisterbetrieb</strong> und Ihr direkter Nachbar kennen wir <strong>Allach</strong> bestens. Bei <strong>Notdienst</strong>-Einsätzen sind wir in wenigen Minuten vor Ort. Ob <strong>Dachsanierung</strong>, <strong>Dachreparatur</strong> oder <strong>Dachrinnenreinigung</strong> – wir sind Ihr zuverlässiger <strong>Dachdecker</strong> in <strong>München</strong>.
                 </p>
               </div>
 

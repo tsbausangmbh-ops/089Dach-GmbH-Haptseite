@@ -103,10 +103,10 @@ export default function StadtteilAltstadt() {
               <span className="text-primary font-bold tracking-wider uppercase text-sm">Denkmalschutz-Experten</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-4 md:mb-6">
-              Dachdecker {stadtteilData.fullName}
+              <strong>Dachdecker {stadtteilData.fullName}</strong>
             </h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-xl mb-4 md:mb-6">
-              Spezialisiert auf denkmalgeschützte Gebäude und historische Dächer im Herzen Münchens.
+              Ihr <strong>Dachdecker-Meisterbetrieb</strong> – spezialisiert auf denkmalgeschützte Gebäude und historische Dächer in der <strong>Altstadt</strong> von <strong>München</strong>.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="/rueckruf/">
@@ -145,8 +145,7 @@ export default function StadtteilAltstadt() {
                 <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4"><strong>Dachdecker</strong> & Denkmalschutz-Experten für die {stadtteilData.name}</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4"><TextWithKeywordLinks currentPath="/dachdecker-altstadt">{stadtteilData.beschreibung}</TextWithKeywordLinks></p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Wir arbeiten seit Jahrzehnten eng mit dem Bayerischen Landesamt für Denkmalpflege zusammen und kennen 
-                  die besonderen Anforderungen an Dacharbeiten in der historischen Altstadt.
+                  Als <strong>Meisterbetrieb</strong> arbeiten wir seit Jahrzehnten eng mit dem Bayerischen Landesamt für Denkmalpflege zusammen. Ob <strong>Dachsanierung</strong>, <strong>Dachreparatur</strong> oder <strong>Notdienst</strong> – wir kennen die besonderen Anforderungen an Dacharbeiten in der historischen <strong>Altstadt</strong> von <strong>München</strong>.
                 </p>
               </div>
 

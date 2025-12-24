@@ -102,10 +102,10 @@ export default function StadtteilHadern() {
               <span className="text-primary font-bold tracking-wider uppercase text-sm">Nur 5 km entfernt</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-4 md:mb-6">
-              Dachdecker {stadtteilData.fullName}
+              <strong>Dachdecker {stadtteilData.fullName}</strong>
             </h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-xl mb-4 md:mb-6">
-              Ihr Nachbar-Dachdecker für Hadern und Großhadern. Kurze Wege, schnelle Hilfe.
+              Ihr <strong>Dachdecker-Meisterbetrieb</strong> für <strong>Hadern</strong> und Großhadern in <strong>München</strong>. Kurze Wege, schnelle Hilfe.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="/rueckruf/">
@@ -144,8 +144,7 @@ export default function StadtteilHadern() {
                 <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Ihr <strong>Dachdecker</strong> für {stadtteilData.name}</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4"><TextWithKeywordLinks currentPath="/dachdecker-hadern">{stadtteilData.beschreibung}</TextWithKeywordLinks></p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Wir kennen die typischen Gebäude in Hadern und haben bereits zahlreiche Dächer in der 
-                  Nachbarschaft saniert. Profitieren Sie von kurzen Anfahrtswegen und schneller Verfügbarkeit.
+                  Als <strong>Meisterbetrieb</strong> kennen wir die typischen Gebäude in <strong>Hadern</strong>. Ob <strong>Dachsanierung</strong>, <strong>Dachreparatur</strong> oder <strong>Notdienst</strong> – profitieren Sie von kurzen Anfahrtswegen und schneller Verfügbarkeit Ihres <strong>Dachdeckers</strong> in <strong>München</strong>.
                 </p>
               </div>
 

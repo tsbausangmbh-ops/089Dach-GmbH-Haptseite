@@ -103,10 +103,10 @@ export default function StadtteilIsarvorstadt() {
               <span className="text-primary font-bold tracking-wider uppercase text-sm">Altbau-Experten</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-4 md:mb-6">
-              Dachdecker Glockenbachviertel & Isarvorstadt
+              <strong>Dachdecker Glockenbachviertel & Isarvorstadt</strong>
             </h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-xl mb-4 md:mb-6">
-              Spezialisiert auf gründerzeitliche Mansarddächer und aufwendige Dachlandschaften im Szeneviertel.
+              Ihr <strong>Dachdecker</strong>-<strong>Meisterbetrieb</strong> – spezialisiert auf gründerzeitliche Mansarddächer und aufwendige Dachlandschaften in der <strong>Isarvorstadt</strong>.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="/rueckruf/">
@@ -145,8 +145,8 @@ export default function StadtteilIsarvorstadt() {
                 <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Altbau-Experten <strong>Dachdecker</strong> für das Glockenbachviertel</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4"><TextWithKeywordLinks currentPath="/dachdecker-ludwigsvorstadt-isarvorstadt">{stadtteilData.beschreibung}</TextWithKeywordLinks></p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Die enge Bebauung im Viertel erfordert spezielle Logistik. Wir sind darauf spezialisiert und 
-                  arbeiten effizient auch unter beengten Verhältnissen.
+                  Als <strong>Meisterbetrieb</strong> aus <strong>München</strong> sind wir auf die enge Bebauung im Viertel spezialisiert. 
+                  Ob <strong>Dachsanierung</strong>, <strong>Dachreparatur</strong> oder <strong>Notdienst</strong> – wir arbeiten effizient auch unter beengten Verhältnissen.
                 </p>
               </div>
 

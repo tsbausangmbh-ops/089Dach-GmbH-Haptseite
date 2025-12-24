@@ -103,10 +103,10 @@ export default function StadtteilGiesing() {
               <span className="text-primary font-bold tracking-wider uppercase text-sm">Altbau & Dachausbau</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-4 md:mb-6">
-              Dachdecker {stadtteilData.fullName}
+              <strong>Dachdecker {stadtteilData.fullName}</strong>
             </h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-xl mb-4 md:mb-6">
-              Ihr Spezialist für Altbausanierung und Dachgeschossausbau in {stadtteilData.name}.
+              Ihr <strong>Dachdecker-Meisterbetrieb</strong> – Spezialist für Altbausanierung und Dachgeschossausbau in <strong>{stadtteilData.name}</strong>.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="/rueckruf/">
@@ -145,7 +145,7 @@ export default function StadtteilGiesing() {
                 <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Ihr <strong>Dachdecker</strong> für {stadtteilData.name}</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4"><TextWithKeywordLinks currentPath="/dachdecker-giesing">{stadtteilData.beschreibung}</TextWithKeywordLinks></p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Ob Ober- oder Untergiesing – wir kennen die besonderen Anforderungen des Viertels und sind schnell vor Ort.
+                  Als <strong>Meisterbetrieb</strong> kennen wir die besonderen Anforderungen in <strong>Giesing</strong>. Ob <strong>Dachsanierung</strong>, <strong>Dachreparatur</strong> oder <strong>Notdienst</strong> – wir sind Ihr zuverlässiger <strong>Dachdecker</strong> in <strong>München</strong> Süd.
                 </p>
               </div>
 

@@ -103,10 +103,10 @@ export default function StadtteilFasanerie() {
               <span className="text-primary font-bold tracking-wider uppercase text-sm">Einfamilienhaus-Experten</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-4 md:mb-6">
-              Dachdecker {stadtteilData.fullName}
+              <strong>Dachdecker {stadtteilData.fullName}</strong>
             </h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-xl mb-4 md:mb-6">
-              Ihr Dachdecker für Einfamilienhäuser und Reihenhäuser in der Fasanerie.
+              Ihr <strong>Dachdecker-Meisterbetrieb</strong> für Einfamilienhäuser und Reihenhäuser in der <strong>Fasanerie</strong>.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="/rueckruf/">
@@ -145,7 +145,7 @@ export default function StadtteilFasanerie() {
                 <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Ihr <strong>Dachdecker</strong> für die {stadtteilData.name}</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4"><TextWithKeywordLinks currentPath="/dachdecker-fasanerie">{stadtteilData.beschreibung}</TextWithKeywordLinks></p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Wir verstehen die Bedürfnisse von Familien: Schnelle, saubere Arbeit mit minimalem Lärm.
+                  Als <strong>Meisterbetrieb</strong> verstehen wir die Bedürfnisse von Familien in der <strong>Fasanerie</strong>. Ob <strong>Dachsanierung</strong>, <strong>Dachreparatur</strong> oder <strong>Notdienst</strong> – wir bieten schnelle, saubere Arbeit in <strong>München</strong> Nord.
                 </p>
               </div>
 

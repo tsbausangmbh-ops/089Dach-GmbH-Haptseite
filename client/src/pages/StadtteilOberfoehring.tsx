@@ -89,10 +89,10 @@ export default function StadtteilOberfoehring() {
               <span className="text-primary font-bold tracking-wider uppercase text-sm">Villen-Experten</span>
             </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-white mb-4 md:mb-6">
-              Dachdecker {stadtteilData.fullName}
+              <strong>Dachdecker {stadtteilData.fullName}</strong>
             </h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-xl mb-4 md:mb-6">
-              Ihr Dachdeckermeister für Villen und hochwertige Wohnhäuser in Oberföhring.
+              Ihr <strong>Dachdecker</strong>-<strong>Meisterbetrieb</strong> für Villen und hochwertige Wohnhäuser in <strong>Oberföhring</strong>.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="/rueckruf/">
@@ -131,8 +131,8 @@ export default function StadtteilOberfoehring() {
                 <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Villen-Experten <strong>Dachdecker</strong> für {stadtteilData.name}</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4"><TextWithKeywordLinks currentPath="/dachdecker-oberfoehring">{stadtteilData.beschreibung}</TextWithKeywordLinks></p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Unser Meisterbetrieb ist auf anspruchsvolle Projekte spezialisiert. Wir verwenden nur 
-                  hochwertigste Materialien und arbeiten mit größter Sorgfalt.
+                  Unser <strong>Meisterbetrieb</strong> aus <strong>München</strong> ist auf anspruchsvolle Projekte in <strong>Oberföhring</strong> spezialisiert. 
+                  Ob <strong>Dachsanierung</strong>, <strong>Dachreparatur</strong> oder <strong>Notdienst</strong> – wir verwenden nur hochwertigste Materialien und arbeiten mit größter Sorgfalt.
                 </p>
               </div>
 
