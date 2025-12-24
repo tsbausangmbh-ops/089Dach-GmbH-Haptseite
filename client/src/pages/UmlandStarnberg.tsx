@@ -56,8 +56,8 @@ export default function UmlandStarnberg() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Dachdecker Starnberg | Premium-Villen am See`}
-        description={`Dachdecker in Starnberg am See ✓ Premium-Villen ✓ Schiefer ✓ Kupferdach ✓ Denkmalschutz ✓ 10 Jahre Garantie. Tel: 089 12621964`}
+        title="Dachdecker Starnberg 2025 | Preise ab 95€/m² | Meisterbetrieb"
+        description="Dachdecker Starnberg: ✓ Dachsanierung ab 95€/m² ✓ 10 Jahre Garantie ✓ Nur 30min Anfahrt ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical={`https://089dach.de/dachdecker-starnberg`}
         keywords={`dachdecker starnberg, dachsanierung starnberg, villa dachdecker starnberger see, schieferdach starnberg, kupferdach starnberg, denkmalschutz dach starnberg, dachsanierung landkreis starnberg, seevilla dach starnberg, landhausdach starnberg, sturmschaden dach starnberg, dachfenster starnberg, premium dachdecker 82319`}
         geoPlacename={`Starnberg, Landkreis Starnberg, Bayern, Deutschland`}

@@ -58,8 +58,8 @@ export default function UmlandEching() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Eching 2025 | Kosten & Preise vom Meisterbetrieb"
-        description="Was kostet ein Dachdecker in Eching? ✓ Einfamilienhäuser ab 195€/m² ✓ Flachdach Gewerbe ab 110€/m² ✓ Dämmung ✓ 10 Jahre Garantie. Tel: 089 12621964"
+        title="Dachdecker Eching 2025 | Preise ab 95€/m² | Meisterbetrieb"
+        description="Dachdecker Eching: ✓ Dachsanierung ab 95€/m² ✓ 10 Jahre Garantie ✓ Nur 25min Anfahrt ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-eching"
         keywords="dachdecker eching, dachsanierung eching kosten, was kostet dachdecker eching, dachdecker eching preise 2025, flachdach eching, dachdämmung eching, dachfenster eching, sturmschaden eching, dachdecker 85386, dach neu eindecken eching, gewerbe dach eching"
         geoPlacename="Eching, Landkreis Freising, Bayern, Deutschland"

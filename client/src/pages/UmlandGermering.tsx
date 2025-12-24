@@ -56,8 +56,8 @@ export default function UmlandGermering() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Dachdecker Germering | Meisterbetrieb München`}
-        description={`Dachdecker in Germering bei München ✓ Dachsanierung ✓ Dämmung ✓ Solaranlage ✓ 10 Jahre Garantie. Tel: 089 12621964`}
+        title="Dachdecker Germering 2025 | Preise ab 90€/m² | Meisterbetrieb"
+        description="Dachdecker Germering: ✓ Dachsanierung ab 90€/m² ✓ 10 Jahre Garantie ✓ Nur 20min Anfahrt ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical={`https://089dach.de/dachdecker-germering`}
         keywords={`dachdecker germering, dachsanierung germering, dachdecker fürstenfeldbruck, dachdämmung germering, dachfenster germering, sturmschaden dach germering, flachdach germering, solardach germering, dachziegel wechseln germering, dachdecker 82110, dachrinne germering, dachsanierung einfamilienhaus germering`}
         geoPlacename={`Germering, Landkreis Fürstenfeldbruck, Bayern, Deutschland`}

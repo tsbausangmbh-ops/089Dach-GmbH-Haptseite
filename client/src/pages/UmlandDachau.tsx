@@ -56,8 +56,8 @@ export default function UmlandDachau() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Dachdecker Dachau | Meisterbetrieb München`}
-        description={`Dachdecker in Dachau bei München ✓ Altbau ✓ Denkmalschutz ✓ Dämmung ✓ 10 Jahre Garantie. Tel: 089 12621964`}
+        title="Dachdecker Dachau 2025 | Preise ab 95€/m² | Meisterbetrieb"
+        description="Dachdecker Dachau: ✓ Dachsanierung ab 95€/m² ✓ 10 Jahre Garantie ✓ Nur 25min Anfahrt ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical={`https://089dach.de/dachdecker-dachau`}
         keywords={`dachdecker dachau, dachsanierung dachau, dachdecker landkreis dachau, denkmalschutz dachau, dachdämmung dachau, altstadt dachau dach, sturmschaden dach dachau, flachdach dachau, dachfenster dachau, dachziegel wechseln dachau, dachdecker 85221`}
         geoPlacename={`Dachau, Landkreis Dachau, Bayern, Deutschland`}

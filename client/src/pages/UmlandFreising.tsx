@@ -52,8 +52,8 @@ export default function UmlandFreising() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Dachdecker Freising | Meisterbetrieb München`}
-        description={`Dachdecker in Freising bei München ✓ Altbau ✓ Denkmalschutz ✓ Dämmung ✓ 10 Jahre Garantie. Tel: 089 12621964`}
+        title="Dachdecker Freising 2025 | Preise ab 100€/m² | Meisterbetrieb"
+        description="Dachdecker Freising: ✓ Dachsanierung ab 100€/m² ✓ 10 Jahre Garantie ✓ Nur 40min Anfahrt ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical={`https://089dach.de/dachdecker-freising`}
         keywords={`dachdecker freising, dachsanierung freising, dachdecker landkreis freising, denkmalschutz freising, dachdämmung freising, dachdecker 85354, altstadt freising dach, sturmschaden dach freising, dachfenster freising, domstadt freising dach, biberschwanz freising`}
         geoPlacename={`Freising, Landkreis Freising, Bayern, Deutschland`}

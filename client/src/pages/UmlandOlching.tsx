@@ -58,8 +58,8 @@ export default function UmlandOlching() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Olching | Dachsanierung Preise 2025 vom Meister"
-        description="Dachdecker Olching: Bestandsbau & Ziegeleindeckung ab 195€/m² ✓ Schnelle Anfahrt über A8 ✓ Dämmung ✓ 10 Jahre Garantie. Tel: 089 12621964"
+        title="Dachdecker Olching 2025 | Preise ab 95€/m² | Meisterbetrieb"
+        description="Dachdecker Olching: ✓ Dachsanierung ab 95€/m² ✓ 10 Jahre Garantie ✓ Nur 20min Anfahrt ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-olching"
         keywords="dachdecker olching, dachsanierung olching kosten, was kostet dachdecker olching, dachdecker olching preise 2025, dachziegel olching, dachdämmung olching, dachfenster olching, sturmschaden olching, dachdecker 82140, dach neu eindecken olching, dachrinne olching"
         geoPlacename="Olching, Landkreis Fürstenfeldbruck, Bayern, Deutschland"

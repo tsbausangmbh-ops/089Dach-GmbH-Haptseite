@@ -86,8 +86,8 @@ export default function UmlandGroebenzell() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Gröbenzell 2025 | Preise & Kosten vom Meisterbetrieb"
-        description="Was kostet ein Dachdecker in Gröbenzell? ✓ Kurze Anfahrt aus Obermenzing ✓ Einfamilienhäuser ab 195€/m² ✓ Dämmung ✓ 10 Jahre Garantie. Tel: 089 12621964"
+        title="Dachdecker Gröbenzell 2025 | Preise ab 90€/m² | Meisterbetrieb"
+        description="Dachdecker Gröbenzell: ✓ Dachsanierung ab 90€/m² ✓ 10 Jahre Garantie ✓ Nur 15min Anfahrt ✓ Kostenlose Beratung. ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-groebenzell"
         keywords="dachdecker gröbenzell, dachsanierung gröbenzell kosten, was kostet dachdecker gröbenzell, dachdecker gröbenzell preise 2025, dachdämmung gröbenzell, dachziegel gröbenzell, sturmschaden dach gröbenzell, dachfenster gröbenzell, dachdecker 82194, dach neu eindecken gröbenzell, dachrinne gröbenzell"
         geoPlacename="Gröbenzell, Landkreis Fürstenfeldbruck, Bayern, Deutschland"
