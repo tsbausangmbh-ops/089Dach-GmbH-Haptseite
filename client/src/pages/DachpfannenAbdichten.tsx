@@ -51,7 +51,7 @@ export default function DachpfannenAbdichten() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <SEO 
-        title="Dachpfannen abdichten München 2025 | Kosten ab 25€/m² | Meisterbetrieb"
+        title="Dachpfannen abdichten München 2025 | ab 25€/m²"
         description="Dachpfannen abdichten München: ✓ Kosten ab 25€/m² ✓ 10 Jahre Garantie ✓ Kostenlose Beratung ✓ Festpreisangebot. ☎ 089 12621964"
         canonical="/dachpfannen-abdichten"
         keywords="dachpfannen abdichten, dachziegel abdichten von innen, dachziegel abdichten von außen, dach abdichten kosten, undichte dachpfannen reparieren, dachpfannen versiegeln, dachziegel imprägnieren, dach wasserdicht machen, dachabdichtung münchen, dachpfannen reparieren"

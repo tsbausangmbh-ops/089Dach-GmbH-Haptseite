@@ -29,7 +29,7 @@ export default function DachstuhlErneuern() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <SEO 
-        title="Dachstuhl erneuern München 2025 | Kosten ab 50€/m² | Meisterbetrieb"
+        title="Dachstuhl erneuern München 2025 | ab 50€/m²"
         description="Dachstuhl erneuern München: ✓ Kosten ab 50€/m² ✓ 10 Jahre Garantie ✓ Kostenlose Beratung ✓ Festpreisangebot. ☎ 089 12621964"
         canonical="/dachstuhl-erneuern"
         keywords="dachstuhl erneuern münchen, dachstuhl sanieren kosten bayern, dachbalken erneuern preis, holzdachstuhl reparieren"

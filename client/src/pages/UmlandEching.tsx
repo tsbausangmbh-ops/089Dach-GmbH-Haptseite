@@ -63,7 +63,7 @@ export default function UmlandEching() {
         canonical="https://089dach.de/dachdecker-eching"
         keywords="dachdecker eching, dachsanierung eching kosten, was kostet dachdecker eching, dachdecker eching preise 2025, flachdach eching, dachdämmung eching, dachfenster eching, sturmschaden eching, dachdecker 85386, dach neu eindecken eching, gewerbe dach eching"
         geoPlacename="Eching, Landkreis Freising, Bayern, Deutschland"
-        aiSummary="089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für Eching bei München. Dachsanierung ab 195€/m². Tel: 089 12621964."
+        aiSummary="089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für Eching bei München. Dachsanierung ab 95€/m². Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Umland", url: "/umland" }, { name: "Dachdecker Eching", url: "/dachdecker-eching" }]} />
       <NearbyServiceSchema />

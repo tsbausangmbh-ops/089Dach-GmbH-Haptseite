@@ -39,7 +39,7 @@ export default function DachfensterEinbauen() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <SEO 
-        title="Dachfenster einbauen München 2025 | Kosten ab 1.200€ | Meisterbetrieb"
+        title="Dachfenster einbauen München 2025 | ab 1.200€"
         description="Dachfenster einbauen München: ✓ Kosten ab 1.200€ ✓ 10 Jahre Garantie ✓ Kostenlose Beratung ✓ Festpreisangebot. ☎ 089 12621964"
         canonical="/dachfenster-einbauen"
         keywords="dachfenster einbauen münchen, velux fenster montage kosten, dachfenster nachträglich einbauen preis, dachflächenfenster einbauen lassen"

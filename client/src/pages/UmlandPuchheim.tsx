@@ -63,7 +63,7 @@ export default function UmlandPuchheim() {
         canonical="https://089dach.de/dachdecker-puchheim"
         keywords="dachdecker puchheim, dachsanierung puchheim kosten, was kostet dachsanierung puchheim, dachdecker puchheim preise, flachdach puchheim, dachdämmung puchheim, dachfenster puchheim einbauen, sturmschaden puchheim, dachdecker 82178, dach neu eindecken puchheim"
         geoPlacename="Puchheim, Landkreis Fürstenfeldbruck, Bayern, Deutschland"
-        aiSummary="089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für Puchheim bei München. Dachsanierung ab 195€/m². Tel: 089 12621964."
+        aiSummary="089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für Puchheim bei München. Dachsanierung ab 90€/m². Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Umland", url: "/umland" }, { name: "Dachdecker Puchheim", url: "/dachdecker-puchheim" }]} />
       <NearbyServiceSchema />

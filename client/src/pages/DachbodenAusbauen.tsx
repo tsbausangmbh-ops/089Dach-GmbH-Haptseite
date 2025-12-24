@@ -31,7 +31,7 @@ export default function DachbodenAusbauen() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <SEO 
-        title="Dachboden ausbauen München 2025 | Kosten ab 800€/m² | Meisterbetrieb"
+        title="Dachboden ausbauen München 2025 | ab 800€/m²"
         description="Dachboden ausbauen München: ✓ Kosten ab 800€/m² ✓ 10 Jahre Garantie ✓ Kostenlose Beratung ✓ Festpreisangebot. ☎ 089 12621964"
         canonical="/dachboden-ausbauen"
         keywords="dachboden ausbauen münchen, dachausbau kosten bayern, dachgeschoss ausbauen preis, spitzboden ausbauen lassen, dachgeschoss wohnraum"

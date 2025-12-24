@@ -37,7 +37,7 @@ export default function DachgeschossDaemmen() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <SEO 
-        title="Dachgeschoss dämmen München 2025 | Kosten ab 50€/m² | Meisterbetrieb"
+        title="Dachgeschoss dämmen München 2025 | ab 50€/m²"
         description="Dachgeschoss dämmen München: ✓ Kosten ab 50€/m² ✓ 10 Jahre Garantie ✓ Kostenlose Beratung ✓ Festpreisangebot. ☎ 089 12621964"
         canonical="/dachgeschoss-daemmen"
         keywords="dachgeschoss dämmen münchen, dachdämmung kosten bayern, zwischensparrendämmung preis, aufsparrendämmung kosten, dachboden isolieren lassen, kfw förderung dachdämmung"
