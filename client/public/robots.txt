@@ -1,6 +1,16 @@
 # 089Dach GmbH - Dachdecker München
 # https://089dach.de
 
+# ============================================
+# Prerender.io IP-Bereiche (für Firewall-Whitelisting)
+# IPv4: 103.207.40.0/22, 104.224.12.0/22
+# IPv6: 2602:2dd::/36
+# ============================================
+
+# Prerender.io Bot erlauben
+User-agent: Prerender
+Allow: /
+
 # Alle seriösen Suchmaschinen erlauben
 User-agent: *
 Allow: /
