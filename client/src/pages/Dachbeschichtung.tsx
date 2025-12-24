@@ -22,8 +22,8 @@ export default function Dachbeschichtung() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachbeschichtung München | Sinnvoll? Ehrliche Beratung"
-        description="Dachbeschichtung lohnt sich nicht immer! Ehrliche Beratung vom Meister ✓ Wann sinnvoll ✓ Alternativen. Kostenlos beraten ☎ 089 12621964"
+        title="Dachbeschichtung München 2025 | Kosten ab 25€/m² | Meisterbetrieb"
+        description="Dachbeschichtung München: ✓ Kosten ab 25€/m² ✓ 10 Jahre Garantie ✓ Kostenlose Beratung ✓ Festpreisangebot. ☎ 089 12621964"
         canonical="https://089dach.de/leistungen/dachbeschichtung"
         keywords="dachbeschichtung sinnvoll oder nicht, dachbeschichtung kosten pro qm münchen, dachziegel beschichten erfahrungen, dachreinigung münchen preise, dachbeschichtung haltbarkeit, dachbeschichtung nachteile, alternative dachbeschichtung sanierung, dachfarbe streichen kosten, dachziegel versiegeln vorteile, dachbeschichtung moos vorbeugen, dach streichen statt neu eindecken, nanobeschichtung dach erfahrungen, hydrophobierung dachziegel sinnvoll, dachbeschichtung garantie hersteller, druckwäsche dach schädlich, professionelle dachreinigung ablauf, dachbeschichtung risse bilden, wann dachbeschichtung wann neueindeckung"
         aiSummary="089Dach GmbH berät ehrlich zur Dachbeschichtung in München. Wann sinnvoll, wann nicht? Professionelle Alternativen zur Beschichtung. Meisterbetrieb mit 10 Jahren Garantie. Telefon: 089 12621964."

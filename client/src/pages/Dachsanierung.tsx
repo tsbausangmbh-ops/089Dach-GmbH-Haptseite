@@ -42,8 +42,8 @@ export default function Dachsanierung() {
   return (
     <div className="min-h-screen bg-white">
       <SEO 
-        title="Dachsanierung München ab 195€/m² | KfW-Förderung 2025"
-        description="Dachsanierung München vom Meisterbetrieb: Komplett ab 195€/m² inkl. Dämmung. ✓ Bis 30% Heizkosten sparen ✓ 20% KfW/BAFA-Förderung ✓ 10 Jahre Garantie. Jetzt kostenlos beraten ☎ 089 12621964"
+        title="Dachsanierung München 2025 | Kosten ab 85€/m² | Meisterbetrieb"
+        description="Dachsanierung München: ✓ Kosten ab 85€/m² ✓ 10 Jahre Garantie ✓ Kostenlose Beratung ✓ Festpreisangebot. ☎ 089 12621964"
         canonical="https://089dach.de/leistungen/dachsanierung"
         keywords="dachsanierung münchen kosten, dachsanierung einfamilienhaus münchen, energetische dachsanierung förderung, dach sanieren kosten pro qm, kfw förderung dachsanierung 2025, bafa zuschuss dach, dachsanierung mit dämmung münchen, dachsanierung altbau münchen, dachsanierung münchen obermenzing, dachsanierung münchen pasing, dachsanierung münchen laim, dachsanierung münchen schwabing, dachdecker dachsanierung münchen, dachsanierung festpreis münchen, dachsanierung meisterbetrieb münchen, steildach sanieren münchen, aufsparrendämmung münchen kosten, dachziegel erneuern münchen, dachstuhl sanieren münchen, wärmedämmung dach münchen, dachsanierung förderung bayern 2025, geg dachsanierung pflicht, dachsanierung wertsteigerung, dachsanierung steuerlich absetzbar"
         geoPlacename="München, Bayern, Deutschland"

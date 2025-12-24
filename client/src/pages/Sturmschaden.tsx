@@ -12,8 +12,8 @@ export default function Sturmschaden() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Sturmschaden Dach München | 24/7 Notdienst in 2h vor Ort"
-        description="Sturmschaden am Dach in München? 24/7 Notdienst – in 2h vor Ort! ✓ Sofort-Notsicherung ✓ Versicherungsabwicklung ✓ Reparatur. Jetzt anrufen ☎ 089 12621964"
+        title="Sturmschaden München 2025 | Kosten ab 200€ | Meisterbetrieb"
+        description="Sturmschaden München: ✓ Kosten ab 200€ ✓ 10 Jahre Garantie ✓ Kostenlose Beratung ✓ Festpreisangebot. ☎ 089 12621964"
         canonical="https://089dach.de/leistungen/sturmschaden"
         keywords="sturmschaden dach münchen, dach notdienst münchen 24h, sturmschaden reparatur münchen, hagelschaden dach münchen, unwetterschaden dach münchen, dachdecker notdienst münchen, sturmschaden versicherung münchen, notsicherung dach münchen, sturmschaden soforthilfe münchen, dach abgedeckt sturm münchen, ziegel gefallen sturm münchen, dachrinne sturmschaden münchen, first abgedeckt münchen, sturmschaden dokumentation münchen, wohngebäudeversicherung sturmschaden, sturmschaden gutachter münchen, dach nach sturm prüfen münchen, blitzschaden dach münchen"
         geoPlacename="München, Bayern, Deutschland"

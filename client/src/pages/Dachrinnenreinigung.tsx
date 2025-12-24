@@ -22,8 +22,8 @@ export default function Dachrinnenreinigung() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachrinne reinigen München | Festpreis ab 150€"
-        description="Dachrinne verstopft? Profi-Reinigung zum Festpreis ab 150€. ✓ Laub entfernen ✓ Fallrohre spülen ✓ Meisterbetrieb. Jetzt Termin ☎ 089 12621964"
+        title="Dachrinnenreinigung München 2025 | Kosten ab 5€/m | Meisterbetrieb"
+        description="Dachrinnenreinigung München: ✓ Kosten ab 5€/m ✓ 10 Jahre Garantie ✓ Kostenlose Beratung ✓ Festpreisangebot. ☎ 089 12621964"
         canonical="https://089dach.de/leistungen/dachrinnenreinigung"
         keywords="dachrinne reinigen lassen kosten münchen, dachrinne verstopft fallrohr, dachrinnenreinigung preis einfamilienhaus, laub aus dachrinne entfernen, dachrinnenschutz nachrüsten, dachrinne läuft über was tun, fallrohr verstopft münchen, dachrinne reinigen herbst, moos in dachrinne entfernen, dachrinne stinkt ursache, vogelnest in dachrinne entfernen, dachrinne mit hochdruckreiniger, dachrinnenreinigung wie oft nötig, dachrinne winterfest machen, eiszapfen dachrinne gefährlich, laubfanggitter dachrinne preis, dachrinnenreinigung gerüst notwendig"
         aiSummary="089Dach GmbH reinigt Dachrinnen in München zum Festpreis ab 150€. Laub entfernen, Fallrohre spülen, Verstopfungen lösen. Schneller Service vom Meisterbetrieb. Telefon: 089 12621964."

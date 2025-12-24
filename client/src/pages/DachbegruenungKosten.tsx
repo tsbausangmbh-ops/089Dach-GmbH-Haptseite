@@ -38,8 +38,8 @@ export default function DachbegruenungKosten() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <SEO 
-        title="Gründach & Dachbegrünung München | 40-150€/m² mit Förderung"
-        description="Dachbegrünung vom Profi: ✓ Extensiv ab 40€/m² ✓ Intensiv 80-150€/m² ✓ Förderung Stadt München möglich ✓ Flachdach & Carport. Gratis Beratung mit Förder-Check!"
+        title="Dachbegrünung München 2025 | Kosten ab 40€/m² | Meisterbetrieb"
+        description="Dachbegrünung München: ✓ Kosten ab 40€/m² ✓ 10 Jahre Garantie ✓ Kostenlose Beratung ✓ Festpreisangebot. ☎ 089 12621964"
         canonical="/dachbegruenung-kosten"
         keywords="dachbegrünung kosten münchen, gründach förderung bayern, extensives gründach preis, intensive dachbegrünung kosten, sedumdach münchen, dachgarten anlegen lassen"
         aiSummary="Dachbegrünung München und Umgebung: Extensiv 40-80€/m², intensiv 80-150€/m². Förderung durch Stadt München möglich. 089Dach baut Gründächer in München, Starnberg, Gräfelfing. Tel: 089 12621964."

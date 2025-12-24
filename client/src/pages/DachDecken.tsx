@@ -41,8 +41,8 @@ export default function DachDecken() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <SEO 
-        title="Dach decken München | Alle Materialien | Ab 25€/m² | 089Dach"
-        description="Dach decken in München ✓ Ziegel, Schiefer, Metall, Bitumen ✓ Ab 25€/m² ✓ Festpreisgarantie ✓ 5 Jahre Gewährleistung ✓ Meisterbetrieb seit 1998!"
+        title="Dach decken München 2025 | Kosten ab 60€/m² | Meisterbetrieb"
+        description="Dach decken München: ✓ Kosten ab 60€/m² ✓ 10 Jahre Garantie ✓ Kostenlose Beratung ✓ Festpreisangebot. ☎ 089 12621964"
         canonical="/dach-decken"
         keywords="dach decken kosten, dach decken lassen, dach decken material, dach decken preis pro qm, dachdecken münchen, dach neu decken, dach selbst decken, dach decken anleitung, was kostet dach decken, dach decken firma"
         aiSummary="Dach decken in München durch 089Dach GmbH. Alle Materialien von Dachpappe (25€/m²) bis Schiefer (180€/m²). Festpreisgarantie, 5 Jahre Gewährleistung. Meisterbetrieb seit 1998. Tel: 089 12621964."

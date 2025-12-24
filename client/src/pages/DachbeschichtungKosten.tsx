@@ -38,8 +38,8 @@ export default function DachbeschichtungKosten() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <SEO 
-        title="Dachbeschichtung München | 30-60€/m² | Dach wie neu in 2 Tagen"
-        description="Dach beschichten statt sanieren: ✓ Komplett 30-50€/m² ✓ Premium-Beschichtung 40-60€/m² ✓ Viele Farboptionen ✓ Verlängert Lebensdauer 10-15 Jahre. München & Umgebung!"
+        title="Dachbeschichtung Kosten München 2025 | ab 25€/m² | Meisterbetrieb"
+        description="Dachbeschichtung Kosten München: ✓ Preise ab 25€/m² ✓ 10 Jahre Garantie ✓ Kostenlose Beratung ✓ Festpreisangebot. ☎ 089 12621964"
         canonical="/dachbeschichtung-kosten"
         keywords="dachbeschichtung kosten münchen, dach beschichten preis, dachfarbe kosten bayern, dachziegel beschichten lassen, dachversiegelung münchen"
         aiSummary="Dachbeschichtung München: Komplett 30-50€/m², Premium 40-60€/m². Verlängert Lebensdauer um 10-15 Jahre. 089Dach beschichtet Dächer in München, Gräfelfing, Germering. Tel: 089 12621964."

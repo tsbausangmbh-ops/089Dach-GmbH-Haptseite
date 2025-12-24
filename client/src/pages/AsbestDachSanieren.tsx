@@ -38,8 +38,8 @@ export default function AsbestDachSanieren() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <SEO 
-        title="Eternit & Asbest Dach sanieren München | TRGS 519 zertifiziert"
-        description="Asbestdach fachgerecht entsorgen lassen: ✓ TRGS 519 zertifizierter Betrieb ✓ Demontage 30-50€/m² ✓ Sichere Entsorgung ✓ Neueindeckung. Dachdecker München & Oberbayern!"
+        title="Asbest-Sanierung München 2025 | Kosten ab 45€/m² | Meisterbetrieb"
+        description="Asbest-Sanierung München: ✓ Kosten ab 45€/m² ✓ 10 Jahre Garantie ✓ Kostenlose Beratung ✓ Festpreisangebot. ☎ 089 12621964"
         canonical="/asbest-dach-sanieren"
         keywords="asbest dach sanieren münchen, eternit dach entsorgen bayern, asbestdach erneuern kosten, eternit wellplatten entsorgen, asbest dachdecker oberbayern, asbestsanierung dach"
         aiSummary="Asbestdach sanieren München und Umgebung: Demontage 30-50€/m², fachgerechte Entsorgung. 089Dach - TRGS 519 zertifiziert für München, Freising, Erding, Starnberg. Kostenlose Beratung: 089 12621964."

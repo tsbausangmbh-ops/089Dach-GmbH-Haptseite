@@ -57,8 +57,8 @@ export default function Notdienst() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title={`Dachdecker Notdienst München 24h | Sofort-Hilfe ☎ 089 12621964`}
-        description={`Dachdecker Notdienst München ✓ 24/7 erreichbar ✓ Sturmschaden ✓ Wasserschaden ✓ Sofort-Hilfe ✓ Schnelle Anfahrt. Jetzt anrufen: 089 12621964`}
+        title="Notdienst München 2025 | Kosten ab 150€ | Meisterbetrieb"
+        description="Notdienst München: ✓ Kosten ab 150€ Anfahrt ✓ 10 Jahre Garantie ✓ Kostenlose Beratung ✓ Festpreisangebot. ☎ 089 12621964"
         canonical={`https://089dach.de/leistungen/notdienst`}
         keywords={`dachdecker notdienst münchen, dach notfall münchen, sturmschaden dach münchen, dachdecker 24 stunden, dach undicht notdienst, dachschaden sofort hilfe münchen, dachreparatur notfall, dach notdienst wochenende münchen, dachdecker sonntag erreichbar, dach wasserschaden notfall, dachplane notfall aufspannen, first abgeweht notreparatur, dachfenster eingeschlagen notdienst, schneelast dach gefahr, eiszapfen dach gefährlich entfernen, dachrinne überläuft notfall, dachdecker feiertag erreichbar, schnelle hilfe dach münchen, dach notsicherung kosten, dachdecker außerhalb geschäftszeiten`}
         geoPlacename={`München, Bayern, Deutschland`}

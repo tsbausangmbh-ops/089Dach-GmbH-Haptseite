@@ -35,8 +35,8 @@ export default function Dachdaemmung() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <SEO 
-        title="Dachdämmung München | 25-180€/m² | KfW-Förderung | 089Dach"
-        description="Dachdämmung in München ✓ Aufsparren-, Zwischensparren- & Einblasdämmung ✓ Bis 40% Heizkosten sparen ✓ KfW-Förderung ✓ Meisterbetrieb ✓ Jetzt beraten lassen!"
+        title="Dachdämmung München 2025 | Kosten ab 50€/m² | Meisterbetrieb"
+        description="Dachdämmung München: ✓ Kosten ab 50€/m² ✓ 10 Jahre Garantie ✓ Kostenlose Beratung ✓ Festpreisangebot. ☎ 089 12621964"
         canonical="/dachdaemmung"
         keywords="dachdämmung münchen, dach dämmen kosten, aufsparrendämmung münchen, zwischensparrendämmung kosten, einblasdämmung dach, dachisolierung münchen, dachboden dämmen, wärmedämmung dach, energetische sanierung dach, kfw förderung dachdämmung"
         aiSummary="Dachdämmung in München durch 089Dach GmbH. Einblasdämmung ab 25€/m², Zwischensparrendämmung 50-80€/m², Aufsparrendämmung 120-180€/m². KfW-Förderung bis 20% möglich. Meisterbetrieb seit 1998. Tel: 089 12621964."

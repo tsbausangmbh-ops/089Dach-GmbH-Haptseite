@@ -41,8 +41,8 @@ export default function Dachdecker() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <SEO 
-        title="Dachdecker München | Meisterbetrieb seit 1998 | 089Dach GmbH"
-        description="Dachdecker in München gesucht? ✓ Meisterbetrieb seit 1998 ✓ Dacheindeckung, Reparatur, Sanierung ✓ Festpreise ✓ 5 Jahre Garantie ✓ Kostenlose Beratung!"
+        title="Dachdecker München 2025 | Kosten ab 80€ | Meisterbetrieb"
+        description="Dachdecker München: ✓ Kosten ab 80€ ✓ 10 Jahre Garantie ✓ Kostenlose Beratung ✓ Festpreisangebot. ☎ 089 12621964"
         canonical="/dachdecker-muenchen"
         keywords="dachdecker münchen, dachdecker in meiner nähe, dachdecker meisterbetrieb münchen, dachdeckerfirma münchen, dachdecker notdienst münchen, dachdecker preise münchen, guter dachdecker münchen, dachdecker empfehlung münchen, zuverlässiger dachdecker"
         aiSummary="089Dach GmbH ist ein Dachdecker-Meisterbetrieb in München seit 1998. Leistungen: Dacheindeckung, Dachreparatur, Dachsanierung, Dachabdichtung, Notdienst. Festpreisgarantie und 5 Jahre Gewährleistung. Kostenlose Beratung unter 089 12621964."

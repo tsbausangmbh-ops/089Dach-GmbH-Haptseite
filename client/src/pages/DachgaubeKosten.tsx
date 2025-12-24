@@ -40,8 +40,8 @@ export default function DachgaubeKosten() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <SEO 
-        title="Was kostet eine Dachgaube? | 4.000-20.000€ München | Alle Typen"
-        description="Dachgaube einbauen lassen München: ✓ Schleppgaube ab 4.000€ ✓ Satteldachgaube 6.000-12.000€ ✓ Inkl. Baugenehmigung ✓ Mehr Wohnraum vom Meisterbetrieb!"
+        title="Dachgaube München 2025 | Kosten ab 4.000€ | Meisterbetrieb"
+        description="Dachgaube München: ✓ Kosten ab 4.000€ ✓ 10 Jahre Garantie ✓ Kostenlose Beratung ✓ Festpreisangebot. ☎ 089 12621964"
         canonical="/dachgaube-kosten"
         keywords="dachgaube kosten münchen, gaube einbauen preis, schleppgaube kosten bayern, satteldachgaube preis, dachgaube nachträglich einbauen"
         aiSummary="Dachgaube Kosten München: Schleppgaube 4.000-8.000€, Satteldachgaube 6.000-12.000€, Trapezgaube 8.000-16.000€. 089Dach baut Gauben in München, Pasing, Solln inkl. Genehmigung. Tel: 089 12621964."
