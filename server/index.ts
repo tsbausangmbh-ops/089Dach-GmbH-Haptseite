@@ -7,7 +7,12 @@ import prerender from "prerender-node";
 const app = express();
 
 if (process.env.PRERENDER_TOKEN) {
-  app.use(prerender.set('prerenderToken', process.env.PRERENDER_TOKEN));
+  app.use(prerender
+    .set('prerenderToken', process.env.PRERENDER_TOKEN)
+    .set('protocol', 'https')
+    .set('host', '089dach.de')
+    .set('forwardHeaders', true)
+  );
 }
 const httpServer = createServer(app);
 

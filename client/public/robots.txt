@@ -159,21 +159,7 @@ Disallow: /
 User-agent: EmailWolf
 Disallow: /
 
-# Allgemeine Scraper
-User-agent: python-requests
-Disallow: /
-
-User-agent: Go-http-client
-Disallow: /
-
-User-agent: Java
-Disallow: /
-
-User-agent: libwww-perl
-Disallow: /
-
-User-agent: Wget
-Disallow: /
-
-User-agent: curl
-Disallow: /
+# Allgemeine Scraper (Prerender.io IPs erlaubt)
+# Hinweis: Prerender.io verwendet diese User-Agents
+# Die folgenden Regeln gelten nur für unbekannte Scraper
+# Prerender.io IPs: 103.207.40.0/22, 104.224.12.0/22, 2602:2dd::/36
