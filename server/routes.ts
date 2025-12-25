@@ -566,8 +566,8 @@ KONTAKTDATEN:
       const completion = await openai.chat.completions.create({
         model: "gpt-4o-mini",
         messages: conversationMessages,
-        max_tokens: 300
-      }, { timeout: 25000 });
+        max_tokens: 200
+      }, { timeout: 15000 });
 
       const reply = completion.choices[0]?.message?.content || "Entschuldigung, ich konnte keine Antwort generieren.";
       res.json({ reply });
