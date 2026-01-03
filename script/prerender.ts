@@ -91,6 +91,11 @@ async function prerender() {
         `<link rel="alternate" hreflang="x-default" href="${canonicalUrl}" />`
       );
 
+      html = html.replace(
+        /https:\/\/c3cfe89b-bd5d-4dc1-a831-1716e6b0ba0d-00-25v8xb9qce15h\.riker\.replit\.dev\/opengraph\.jpg/g,
+        'https://089dach.de/opengraph.jpg'
+      );
+
       const filePath =
         route === "/"
           ? path.resolve(rootDir, "dist/public/index.html")
