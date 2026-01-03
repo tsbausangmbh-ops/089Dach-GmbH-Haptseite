@@ -2,7 +2,7 @@
 
 > Änderungsprotokoll für KI-Agenten zur Versionsverfolgung
 
-## Version 2.1.0 (2025-12-19)
+## Version 2.1.0 (2026-01-03)
 
 ### Hinzugefügt
 - Vollständige Seitenübersicht mit allen 66 Seiten in llms.txt
@@ -18,7 +18,7 @@
 - 25 Lokale Landingpages (16 Stadtteile + 9 Umland)
 - 4 Rechtliche Seiten
 
-## Version 2.0.0 (2025-12-19)
+## Version 2.0.0 (2026-01-03)
 
 ### Hinzugefügt
 - Vollständige FAQ-Sektion mit 22 Fragen und Antworten
@@ -50,7 +50,7 @@
 
 | Metrik | Wert |
 |--------|------|
-| Letzte Aktualisierung | 2025-12-19 |
+| Letzte Aktualisierung | 2026-01-03 |
 | Gesamtseiten | 66 |
 | FAQ-Einträge | 22 |
 | Blog-Artikel | 7 |

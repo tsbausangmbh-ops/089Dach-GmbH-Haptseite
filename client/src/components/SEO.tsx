@@ -60,7 +60,6 @@ export default function SEO({
     setMeta('ICBM', geoPosition.replace(';', ', '));
     
     // Bing spezifisch
-    setMeta('msvalidate.01', '089DACH-BING-VERIFY');
     setMeta('msnbot', 'index,follow');
     
     // KI-Bot & LLM Optimierung

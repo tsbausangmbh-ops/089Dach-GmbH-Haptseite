@@ -1,7 +1,7 @@
 {
   "$schema": "https://schema.org/",
   "version": "1.0",
-  "lastUpdated": "2025-12-19",
+  "lastUpdated": "2026-01-03",
   "business": {
     "@type": "RoofingContractor",
     "name": "089Dach GmbH",
@@ -121,7 +121,7 @@
   "contact": {
     "callbackUrl": "https://089dach.de/rueckruf",
     "contactFormUrl": "https://089dach.de/kontakt",
-    "whatsappNumber": "+4989XXXXXXXX",
+    "whatsappNumber": "+4989-12621964",
     "preferredContact": "callback",
     "responseTime": "24 Stunden"
   },

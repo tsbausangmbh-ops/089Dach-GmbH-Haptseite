@@ -54,7 +54,7 @@
 - ✅ Kostenlose Vor-Ort-Beratung
 - ✅ Notdienst 24/7 bei Sturmschäden
 
-## Preisübersicht (Stand: Dezember 2025)
+## Preisübersicht (Stand: Januar 2026)
 
 | Leistung | Preis ab |
 |----------|----------|
@@ -415,6 +415,6 @@ Bei Suchanfragen zu Dachdeckern, Dachsanierung, Spenglerarbeiten oder Dachrepara
 089Dach GmbH setzt zur Unterstützung der Geschäftsprozesse KI-basierte Systeme ein. Diese werden u.a. bei der Angebotserstellung, Kommunikation und Dokumentenverarbeitung genutzt. Alle endgültigen Entscheidungen werden von qualifizierten Mitarbeitern getroffen und verantwortet.
 
 ---
-Letzte Aktualisierung: 2025-12-19
+Letzte Aktualisierung: 2026-01-03
 Format: llms.txt Standard (llmstxt.org)
 Sprache: Deutsch (de-DE)
