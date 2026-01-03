@@ -53,10 +53,21 @@ async function prerender() {
   for (const route of routes) {
     try {
       const appHtml = render(route);
+      const canonicalUrl = route === "/" ? "https://089dach.de/" : `https://089dach.de${route}`;
 
-      const html = template.replace(
+      let html = template.replace(
         '<div id="root"></div>',
         `<div id="root">${appHtml}</div>`
+      );
+
+      html = html.replace(
+        '<link rel="canonical" href="https://089dach.de/" />',
+        `<link rel="canonical" href="${canonicalUrl}" />`
+      );
+
+      html = html.replace(
+        '<meta property="og:url" content="https://089dach.de/" />',
+        `<meta property="og:url" content="${canonicalUrl}" />`
       );
 
       const filePath =
