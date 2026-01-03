@@ -24,10 +24,10 @@ export default function Flachdach() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Flachdach München 2025 | Kosten ab 120€/m² | Meisterbetrieb"
-        description="Flachdach München: ✓ Kosten ab 120€/m² ✓ 10 Jahre Garantie ✓ Kostenlose Beratung ✓ Festpreisangebot. ☎ 089 12621964"
+        title="Flachdach München – Abdichtung, Sanierung & Wartung"
+        description="Flachdach München: Abdichtung, Sanierung, Wartung & Gründach. Meisterbetrieb mit 10 Jahren Garantie & Festpreis – jetzt Angebot einholen."
         canonical="https://089dach.de/leistungen/flachdach"
-        keywords="flachdach abdichten münchen, flachdach münchen, flachdach undicht münchen, epdm abdichtung münchen, bitumen flachdach münchen, flachdach sanierung münchen, flachdach begrünung münchen, flachdach spezialist münchen, flachdach garage münchen, flachdach carport münchen, flüssigkunststoff münchen, aufdachdämmung flachdach münchen, flachdach meisterbetrieb münchen, flachdach festpreis münchen, flachdach obermenzing, flachdach pasing, flachdach laim, flachdach wartung münchen, extensive begrünung münchen, was kostet flachdach münchen, flachdach münchen erfahrungen, wie lange dauert flachdach sanierung, flachdach selber machen oder profi, flachdach kosten pro qm, flachdach münchen günstig, flachdach preisvergleich, flachdach dringend münchen, flachdach schnell münchen, flachdach notfall, flachdach förderung 2025, flachdach kfw förderung, flachdach bafa zuschuss, flachdach steuerlich absetzbar, flachdach fachbetrieb münchen, flachdach handwerker münchen"
+        keywords="Flachdach München, Flachdach Abdichtung München, Flachdach Sanierung München, Flachdach Wartung, Gründach München"
         geoPlacename="München, Bayern, Deutschland"
         aiSummary="089Dach GmbH – Flachdach-Spezialist in München. Flachdach abdichten: Bitumen ab 85€/m², EPDM ab 95€/m². Dachbegrünung. 10 Jahre Garantie. Festpreisgarantie. Meisterbetrieb seit 1998. Tel: 089 12621964."
       />

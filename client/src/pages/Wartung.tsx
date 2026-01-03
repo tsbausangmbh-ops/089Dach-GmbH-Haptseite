@@ -89,10 +89,10 @@ export default function Wartung() {
   return (
     <div className="min-h-screen bg-white">
       <SEO 
-        title="Dachwartung München | Dachrinne reinigen & Moos entfernen"
-        description="Dachrinne verstopft? Moos auf dem Dach? Jährliche Wartung ab 250€. ✓ Inspektion ✓ Reinigung ✓ Protokoll. Termin in 48h ☎ 089 12621964"
+        title="Dachwartung München – Inspektion, Reinigung & Prävention"
+        description="Dachwartung München: Regelmäßige Inspektion, Reinigung & Prävention. Schäden früh erkennen, Kosten sparen, Lebensdauer verlängern."
         canonical="https://089dach.de/leistungen/wartung"
-        keywords="dachrinne reinigen lassen kosten münchen, moos vom dach entfernen lassen preis, wie oft dach kontrollieren lassen empfehlung, dachinspektion nach sturm kosten, dachrinne verstopft wasser läuft über, laub in dachrinne verhindern, dachwartung jährlich sinnvoll, dachdecker für kontrolle münchen, dachziegel prüfen lassen kosten, wann dach reinigen lassen, dachwartung obermenzing pasing laim schwabing sendling, dachrinne laubschutz nachrüsten kosten, dachrinne reparieren oder erneuern, fallrohr verstopft reinigen lassen, dachrinne tropft an verbindung, dachwartungsvertrag sinnvoll kosten, dachinspektion drohne münchen, dach frühjahrscheck münchen, dach herbstkontrolle vor winter, flechten auf dachziegeln entfernen, algen dach entfernen umweltfreundlich, dachbeschichtung sinnvoll erfahrungen, dachziegel locker befestigen, first mörtel erneuern kosten, ortgang reparieren kosten"
+        keywords="Dachwartung München, Dachinspektion München, Dach Reinigung München, Dachpflege, Dachprüfung"
         aiSummary="089Dach GmbH bietet Dachwartung in München ab 250€: Jährliche Dachinspektion, Dachrinnenreinigung, Moosentfernung und Kleinreparaturen. Schäden früh erkennen und teure Folgeschäden vermeiden. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Leistungen", url: "/leistungen" }, { name: "Wartung", url: "/leistungen/wartung" }]} />

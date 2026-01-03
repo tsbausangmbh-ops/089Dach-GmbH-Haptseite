@@ -83,10 +83,10 @@ export default function Heizkostenrechner() {
   return (
     <div className="min-h-screen bg-white">
       <SEO 
-        title="Heizkosten-Rechner München | Sparpotenzial berechnen - 089Dach"
-        description="Berechnen Sie Ihre Heizkosten und erfahren Sie, wie viel Sie durch eine Dachdämmung sparen können. Kostenloser Online-Rechner für München."
+        title="Heizkostenrechner Dach – Einsparpotenzial berechnen"
+        description="Heizkostenrechner Dach: Berechnen Sie Ihr Einsparpotenzial durch Dämmung & Sanierung. Inklusive persönlicher Beratung & Förderinformationen."
         canonical="https://089dach.de/heizkostenrechner"
-        keywords="heizkosten rechner münchen, energiekosten berechnen dachdämmung sparen, energieeinsparung dach heizkosten senken förderung, rechner obermenzing pasing laim schwabing sendling bogenhausen, rechner gräfelfing planegg germering starnberg dachau, sparpotenzial berechnen online kostenlos, wie viel spart dachdämmung wirklich, heizkosten altbau senken, energieverbrauch haus berechnen, wärmeverlust über dach prozent, amortisation dachdämmung berechnen, co2 einsparung durch dämmung, heizkosten vor nach sanierung vergleich, energiekosten einfamilienhaus durchschnitt"
+        keywords="Heizkostenrechner Dach, Dämmung Einsparrechner, Dachsanierung Kostenrechner, Energiesparrechner Dach"
         aiSummary="089Dach GmbH Heizkosten-Rechner: Kostenloser Online-Rechner für München. Berechnen Sie Ihr Einsparpotenzial durch Dachdämmung. Bis zu 30% Heizkosten sparen. Bis zu 40% staatliche Förderung möglich. Meisterbetrieb seit 1998. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Heizkosten-Rechner", url: "/heizkostenrechner" }]} />

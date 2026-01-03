@@ -42,10 +42,10 @@ export default function Dachfenster() {
   return (
     <div className="min-h-screen bg-white">
       <SEO 
-        title="Dachfenster München 2025 | Kosten ab 1.200€ | Meisterbetrieb"
-        description="Dachfenster München: ✓ Kosten ab 1.200€ ✓ 10 Jahre Garantie ✓ Kostenlose Beratung ✓ Festpreisangebot. ☎ 089 12621964"
+        title="Dachfenster München – Einbau, Austausch & Wartung"
+        description="Dachfenster München: Professioneller Einbau, Austausch & Wartung. Mehr Licht & Belüftung, Festpreis & 10 Jahre Garantie – jetzt Beratung!"
         canonical="https://089dach.de/leistungen/dachfenster"
-        keywords="was kostet dachfenster mit einbau münchen, dachfenster nachträglich einbauen altbau kosten, velux dachfenster austauschen lassen preis, dachfenster größe berechnen empfehlung, dachfenster undicht was tun reparatur, mehr licht im dachgeschoss lösung, dachfenster schwingfenster oder klappfenster, lichtkuppel flachdach kosten, dachbalkon velux cabrio erfahrungen kosten, dachfenster förderung kfw 2025, dachfenster obermenzing pasing laim schwabing sendling, dachfenster rollo nachrüsten kosten, sonnenschutz dachfenster außen, hitzeschutz dachfenster sommer, dachfenster elektrisch nachrüsten, roto dachfenster austauschen velux, dachfenster kondenswasser beschlagen, dachfenster einbau genehmigung münchen, dachfenster vergrößern möglich, zweites dachfenster einbauen kosten, dachfenster dreifachverglasung preis, dachfenster schallschutz verbessern, klappfenster vs schwingfenster vorteile, dachfenster münchen erfahrungen, wie lange dauert dachfenster einbau, dachfenster selber machen oder profi, dachfenster münchen günstig, dachfenster festpreis münchen, dachfenster preisvergleich, dachfenster dringend münchen, dachfenster schnell münchen, dachfenster förderung 2025, dachfenster bafa zuschuss, dachfenster steuerlich absetzbar, dachfenster meisterbetrieb münchen, dachfenster fachbetrieb münchen, dachfenster handwerker münchen"
+        keywords="Dachfenster München, Dachfenster Einbau München, Dachfenster Austausch München, Velux Einbau München, Dachfenster Wartung"
         aiSummary="089Dach GmbH installiert Dachfenster in München ab 1.200€ komplett. Velux, Roto, Schwingfenster, Lichtkuppeln. Zertifizierter VELUX-Partner. Einbau in 1-2 Tagen ohne Dreck. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dachfenster", url: "/leistungen/dachfenster" }]} />

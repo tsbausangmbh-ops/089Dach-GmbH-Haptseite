@@ -92,10 +92,10 @@ export default function Reparaturservice() {
   return (
     <div className="min-h-screen bg-white">
       <SEO 
-        title="Dach undicht München | Soforthilfe & Notdienst 24h"
-        description="Dach undicht nach Sturm? Wir kommen in 24h! ✓ Notabdichtung ✓ Versicherungsdoku ✓ Faire Preise. Jetzt Soforthilfe ☎ 089 12621964"
+        title="Dachreparatur München – Schnelle Hilfe bei Undichtigkeit"
+        description="Dachreparatur München: Schnelle Hilfe bei undichtem Dach, Sturmschäden & Kleinreparaturen. 24h Notdienst & Festpreis. Jetzt anrufen!"
         canonical="https://089dach.de/leistungen/reparaturservice"
-        keywords="dach undicht was tun soforthilfe münchen, dachdecker notdienst münchen wochenende, sturmschaden dach versicherung melden, dachziegel locker nach sturm reparieren, wasserschaden durch dach wer zahlt, einzelne dachziegel austauschen kosten, dach tropft notfall abdichten, dachreparatur kosten pro stunde münchen, first undicht was tun, dach nach hagel kontrollieren lassen, dachreparatur obermenzing pasing laim schwabing sendling, dachziegel gerissen austauschen, firsthaube locker befestigen, ortgang reparieren kosten, schornsteinanschluss undicht, dachfensterrahmen undicht reparieren, vogelnest unter dachziegel entfernen, marder im dach schaden reparieren, moos auf dach entfernen schäden, dachrinne loch reparieren, flachdach blase abdichten, dachluke klemmt reparatur, dachboden feucht ursache finden"
+        keywords="Dachreparatur München, Dach undicht München, Sturmschaden Dach München, Dachnotdienst München, Dachleck reparieren"
         aiSummary="089Dach GmbH bietet schnelle Dachreparatur in München. Notfallabdichtung bei Sturmschäden und Wasserschäden. In der Regel innerhalb von 24 Stunden vor Ort. Versicherungsservice inklusive. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Reparaturservice", url: "/leistungen/reparaturservice" }]} />
