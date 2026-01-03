@@ -72,12 +72,10 @@ export default function StadtteilBergAmLaim() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Berg am Laim 2025 | Preise ab 85€/m² | Meisterbetrieb"
-        description="Dachdecker Berg am Laim: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Flachdach-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
+        title="Dachdecker Berg am Laim – Sanierung, Reparatur & Notdienst"
+        description="Ihr Dachdecker in Berg am Laim: Dachsanierung, Reparatur, Flachdach, Spengler, Dachfenster. 24/7 Notdienst, Festpreis & 10 Jahre Garantie. Jetzt anrufen!"
         canonical="https://089dach.de/dachdecker-berg-am-laim"
-        keywords="dachdecker berg am laim, dachsanierung münchen ost, flachdach berg am laim, dachrinnenreinigung berg am laim, sturmschaden dach berg am laim, wasserschaden dach münchen berg am laim, dach undicht berg am laim reparieren, dachschaden berg am laim, was kostet dachdecker berg am laim, dachdecker berg am laim bewertung, guter dachdecker berg am laim, bester dachdecker berg am laim, dach undicht berg am laim, dach reparieren lassen berg am laim, dachschaden berg am laim beheben, wasserschaden dach berg am laim, dachdecker berg am laim günstig, dachdecker berg am laim festpreis, dachdecker berg am laim angebot, dachdecker berg am laim kostenvoranschlag, dachdecker berg am laim schnell, dachdecker berg am laim notdienst, dachdecker berg am laim sofort, dachdecker in meiner nähe berg am laim, dachdecker 81671"
-        geoPlacename="München-Berg am Laim, Bayern, Deutschland"
-        aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Berg am Laim. Spezialist für Mehrfamilienhäuser. Tel: 089 12621964.`}
+        keywords="Dachdecker Berg am Laim, Dachsanierung Berg am Laim, Dachreparatur Berg am Laim, Flachdach Berg am Laim, Spengler Berg am Laim, Dach Notdienst Berg am Laim, Dachfenster Berg am Laim"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Stadtteile", url: "/stadtteile" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-${stadtteilData.slug}` }]} />
       <NearbyServiceSchema />
@@ -261,11 +259,11 @@ export default function StadtteilBergAmLaim() {
       <LeadFunnel 
         headline="Dachdecker in Berg am Laim gesucht?"
         subheadline="Wir sind Ihr Partner in Berg am Laim."
-        description="Ihr Dachdecker Berg am Laim – Spezialist für Mehrfamilienhäuser und Wohnanlagen."
+        description="Ihr Dachdecker für Berg am Laim – Meisterbetrieb mit schneller Hilfe."
       />
       <Contact 
-        title="Dachdecker für Berg am Laim gesucht?"
-        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Berg am Laim – mit kurzer Anfahrt und Erfahrung seit 1998."
+        title="Dachdecker in Berg am Laim gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Berg am Laim."
       />
       <Footer />
     </div>

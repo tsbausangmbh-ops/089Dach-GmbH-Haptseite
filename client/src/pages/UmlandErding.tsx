@@ -54,11 +54,10 @@ export default function UmlandErding() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Erding 2025 | Preise ab 100€/m² | Meisterbetrieb"
-        description="Dachdecker Erding: ✓ Dachsanierung ab 100€/m² ✓ 10 Jahre Garantie ✓ Nur 40min Anfahrt ✓ Kostenlose Beratung. ☎ 089 12621964"
-        canonical={`https://089dach.de/dachdecker-erding`}
-        keywords={`dachdecker erding, dachsanierung erding, dachdecker landkreis erding, dachdämmung erding, dachfenster erding, dachdecker 85435, sturmschaden dach erding, altstadt erding dach, steildach erding, dachrinne erding, ziegeldach erding, was kostet dachdecker erding, dachdecker erding erfahrungen, guter dachdecker erding, bester dachdecker erding bei münchen, dach undicht erding, dach reparieren erding, notdienst dachdecker erding, dachdecker erding preise, dachdecker erding kosten, dachdecker erding günstig, dachdecker erding festpreis, dachdecker in der nähe erding, dachdeckerbetrieb erding`}
-        geoPlacename={`Erding, Landkreis Erding, Bayern, Deutschland`}
+        title="Dachdecker Erding – Sanierung, Reparatur & Notdienst"
+        description="Ihr Dachdecker in Erding: Dachsanierung, Reparatur, Flachdach, Spengler, Dachfenster. 24/7 Notdienst, Festpreis & 10 Jahre Garantie. Jetzt anrufen!"
+        canonical=""
+        keywords="Dachdecker Erding, Dachsanierung Erding, Dachreparatur Erding, Flachdach Erding, Spengler Erding, Dach Notdienst Erding, Dachfenster Erding"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Umland", url: "/umland" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-${stadtteilData.name.toLowerCase()}` }]} />
       <NearbyServiceSchema />
@@ -214,8 +213,8 @@ export default function UmlandErding() {
       </section>
       <LeadFunnel 
         headline="Dachdecker in Erding gesucht?"
-        subheadline="Wir kommen auch nach Erding."
-        description="Ihr Dachdecker für Erding – schnelle Hilfe aus München für Ihre Dacharbeiten."
+        subheadline="Wir sind Ihr Partner in Erding."
+        description="Ihr Dachdecker für Erding – Meisterbetrieb mit schneller Hilfe."
       />
       <Footer />
     </div>

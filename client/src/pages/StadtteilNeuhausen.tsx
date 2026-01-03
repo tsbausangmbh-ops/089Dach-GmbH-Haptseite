@@ -58,12 +58,10 @@ export default function StadtteilNeuhausen() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Neuhausen 2025 | Preise ab 90€/m² | Meisterbetrieb"
-        description="Dachdecker Neuhausen: ✓ Dachsanierung ab 90€/m² ✓ 10 Jahre Garantie ✓ Altbau-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
+        title="Dachdecker Neuhausen – Sanierung, Reparatur & Notdienst"
+        description="Ihr Dachdecker in Neuhausen: Dachsanierung, Reparatur, Flachdach, Spengler, Dachfenster. 24/7 Notdienst, Festpreis & 10 Jahre Garantie. Jetzt anrufen!"
         canonical="https://089dach.de/dachdecker-neuhausen"
-        keywords="dachdecker neuhausen empfehlung, dachrinnenreinigung neuhausen, sturmschaden dach neuhausen, wasserschaden dach münchen neuhausen, dach undicht neuhausen reparieren, dachschaden neuhausen, dachsanierung altbau neuhausen, dachdecker 80634 80636, was kostet dachdecker neuhausen, dachdecker neuhausen bewertung, guter dachdecker neuhausen, bester dachdecker neuhausen, dach undicht neuhausen, dach reparieren lassen neuhausen, dachschaden neuhausen beheben, wasserschaden dach neuhausen, dachdecker neuhausen günstig, dachdecker neuhausen festpreis, dachdecker neuhausen angebot, dachdecker neuhausen kostenvoranschlag, dachdecker neuhausen schnell, dachdecker neuhausen notdienst, dachdecker neuhausen sofort, dachdecker in meiner nähe neuhausen, dachdecker 80634"
-        geoPlacename={`München-Neuhausen, Bayern, Deutschland`}
-        aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Neuhausen. Spezialisiert auf Altbauten und Denkmalschutz. Tel: 089 12621964.`}
+        keywords="Dachdecker Neuhausen, Dachsanierung Neuhausen, Dachreparatur Neuhausen, Flachdach Neuhausen, Spengler Neuhausen, Dach Notdienst Neuhausen, Dachfenster Neuhausen"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Stadtteile", url: "/stadtteile" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-${stadtteilData.name.toLowerCase()}` }]} />
       <NearbyServiceSchema />
@@ -228,11 +226,11 @@ export default function StadtteilNeuhausen() {
       <LeadFunnel 
         headline="Dachdecker in Neuhausen gesucht?"
         subheadline="Wir sind Ihr Partner in Neuhausen."
-        description="Ihr Dachdecker für Neuhausen – Altbau-Spezialisten mit Denkmalschutz-Erfahrung."
+        description="Ihr Dachdecker für Neuhausen – Meisterbetrieb mit schneller Hilfe."
       />
       <Contact 
-        title="Dachdecker für Neuhausen gesucht?"
-        description="Altbau-Experten und Denkmalschutz-Erfahrung – Ihr Dachdecker-Meisterbetrieb für Neuhausen."
+        title="Dachdecker in Neuhausen gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Neuhausen."
       />
       <Footer />
     </div>

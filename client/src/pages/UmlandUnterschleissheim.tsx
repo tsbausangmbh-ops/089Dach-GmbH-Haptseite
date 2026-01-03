@@ -54,11 +54,10 @@ export default function UmlandUnterschleissheim() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Unterschleißheim 2025 | ab 90€/m² | Meister"
-        description="Dachdecker Unterschleißheim: ✓ Dachsanierung ab 90€/m² ✓ 10 Jahre Garantie ✓ Nur 20min Anfahrt ✓ Kostenlose Beratung. ☎ 089 12621964"
-        canonical={`https://089dach.de/dachdecker-unterschleissheim`}
-        keywords={`dachdecker unterschleißheim, dachsanierung unterschleißheim, flachdach unterschleißheim, dachdämmung unterschleißheim, dachdecker 85716, sturmschaden dach unterschleißheim, dachfenster unterschleißheim, solardach unterschleißheim, reihenhaus dach unterschleißheim, steildach unterschleißheim, was kostet dachdecker unterschleißheim, dachdecker unterschleißheim erfahrungen, guter dachdecker unterschleißheim, bester dachdecker unterschleißheim bei münchen, dach undicht unterschleißheim, dach reparieren unterschleißheim, notdienst dachdecker unterschleißheim, dachdecker unterschleißheim preise, dachdecker unterschleißheim kosten, dachdecker unterschleißheim günstig, dachdecker unterschleißheim festpreis, dachdecker unterschleißheim landkreis, dachdecker in der nähe unterschleißheim, dachdeckerbetrieb unterschleißheim`}
-        geoPlacename={`Unterschleißheim, Landkreis München, Bayern, Deutschland`}
+        title="Dachdecker Unterschleißheim – Sanierung & Reparatur"
+        description="Ihr Dachdecker in Unterschleißheim: Dachsanierung, Reparatur, Flachdach, Spengler. 24/7 Notdienst, Festpreis & 10 Jahre Garantie. Jetzt anrufen!"
+        canonical="https://089dach.de/dachdecker-unterschleissheim"
+        keywords="Dachdecker Unterschleißheim, Dachsanierung Unterschleißheim, Dachreparatur Unterschleißheim, Flachdach Unterschleißheim, Spengler Unterschleißheim, Dach Notdienst Unterschleißheim, Dachfenster Unterschleißheim"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Umland", url: "/umland" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-unterschleissheim` }]} />
       <NearbyServiceSchema />
@@ -214,8 +213,8 @@ export default function UmlandUnterschleissheim() {
       </section>
       <LeadFunnel 
         headline="Dachdecker in Unterschleißheim gesucht?"
-        subheadline="Wir kommen auch nach Unterschleißheim."
-        description="Ihr Dachdecker für Unterschleißheim – schnelle Hilfe aus München für Ihre Dacharbeiten."
+        subheadline="Wir sind Ihr Partner in Unterschleißheim."
+        description="Ihr Dachdecker für Unterschleißheim – Meisterbetrieb mit schneller Hilfe."
       />
       <Footer />
     </div>

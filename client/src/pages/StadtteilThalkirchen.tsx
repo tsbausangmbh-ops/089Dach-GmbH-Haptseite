@@ -57,12 +57,10 @@ export default function StadtteilThalkirchen() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Thalkirchen 2025 | Preise ab 85€/m² | Meisterbetrieb"
-        description="Dachdecker Thalkirchen: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Steildach-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
+        title="Dachdecker Thalkirchen – Sanierung, Reparatur & Notdienst"
+        description="Ihr Dachdecker in Thalkirchen: Dachsanierung, Reparatur, Flachdach, Spengler, Dachfenster. 24/7 Notdienst, Festpreis & 10 Jahre Garantie. Jetzt anrufen!"
         canonical="https://089dach.de/dachdecker-thalkirchen"
-        keywords="dachdecker thalkirchen, dachsanierung einfamilienhaus münchen, dachdecker isartal, dachfenster thalkirchen, dachdämmung thalkirchen, dachdecker 81379 81475, sturmschaden dach thalkirchen, steildach thalkirchen, dachrinne thalkirchen, ziegeldach thalkirchen, dachrinnenreinigung thalkirchen, sturmschaden dach thalkirchen, wasserschaden dach münchen thalkirchen, dach undicht thalkirchen reparieren, dachschaden thalkirchen, was kostet dachdecker thalkirchen, dachdecker thalkirchen bewertung, guter dachdecker thalkirchen, bester dachdecker thalkirchen, dach undicht thalkirchen, dach reparieren lassen thalkirchen, dachschaden thalkirchen beheben, wasserschaden dach thalkirchen, dachdecker thalkirchen günstig, dachdecker thalkirchen festpreis, dachdecker thalkirchen angebot, dachdecker thalkirchen kostenvoranschlag, dachdecker thalkirchen schnell, dachdecker thalkirchen notdienst, dachdecker thalkirchen sofort, dachdecker in meiner nähe thalkirchen, dachdecker 81379"
-        geoPlacename="München-Thalkirchen, Bayern, Deutschland"
-        aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Thalkirchen. Spezialist für Einfamilienhäuser. Tel: 089 12621964.`}
+        keywords="Dachdecker Thalkirchen, Dachsanierung Thalkirchen, Dachreparatur Thalkirchen, Flachdach Thalkirchen, Spengler Thalkirchen, Dach Notdienst Thalkirchen, Dachfenster Thalkirchen"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-${stadtteilData.name.toLowerCase()}` }]} />
       <NearbyServiceSchema />
@@ -227,11 +225,11 @@ export default function StadtteilThalkirchen() {
       <LeadFunnel 
         headline="Dachdecker in Thalkirchen gesucht?"
         subheadline="Wir sind Ihr Partner in Thalkirchen."
-        description="Ihr Dachdecker Thalkirchen – Steildach-Experten für Einfamilienhäuser am Isartal."
+        description="Ihr Dachdecker für Thalkirchen – Meisterbetrieb mit schneller Hilfe."
       />
       <Contact 
-        title="Dachdecker für Thalkirchen gesucht?"
-        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Thalkirchen – mit kurzer Anfahrt und Erfahrung seit 1998."
+        title="Dachdecker in Thalkirchen gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Thalkirchen."
       />
       <Footer />
     </div>

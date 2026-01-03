@@ -68,11 +68,10 @@ export default function StadtteilHaidhausen() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Haidhausen 2025 | Preise ab 90€/m² | Meisterbetrieb"
-        description="Dachdecker Haidhausen: ✓ Dachsanierung ab 90€/m² ✓ 10 Jahre Garantie ✓ Altbau-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
-        canonical={`https://089dach.de/dachdecker-au-haidhausen`}
-        keywords={`dachdecker haidhausen, dachdecker au, dachsanierung haidhausen, altbau dach münchen, denkmalschutz dachdecker, dachdecker 81667 81669, dachrinnenreinigung haidhausen, sturmschaden dach haidhausen, wasserschaden dach münchen haidhausen, dach undicht haidhausen reparieren, dachschaden haidhausen, was kostet dachdecker haidhausen, dachdecker haidhausen bewertung, guter dachdecker haidhausen, bester dachdecker haidhausen, dach undicht haidhausen, dach reparieren lassen haidhausen, dachschaden haidhausen beheben, wasserschaden dach haidhausen, dachdecker haidhausen günstig, dachdecker haidhausen festpreis, dachdecker haidhausen angebot, dachdecker haidhausen kostenvoranschlag, dachdecker haidhausen schnell, dachdecker haidhausen notdienst, dachdecker haidhausen sofort, dachdecker in meiner nähe haidhausen, dachdecker 81667`}
-        geoPlacename={`München Au-Haidhausen, Bayern, Deutschland`}
+        title="Dachdecker Haidhausen – Sanierung, Reparatur & Notdienst"
+        description="Ihr Dachdecker in Haidhausen: Dachsanierung, Reparatur, Flachdach, Spengler, Dachfenster. 24/7 Notdienst, Festpreis & 10 Jahre Garantie. Jetzt anrufen!"
+        canonical=""
+        keywords="Dachdecker Haidhausen, Dachsanierung Haidhausen, Dachreparatur Haidhausen, Flachdach Haidhausen, Spengler Haidhausen, Dach Notdienst Haidhausen, Dachfenster Haidhausen"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Stadtteile", url: "/stadtteile" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-au-haidhausen` }]} />
       <NearbyServiceSchema />
@@ -249,8 +248,8 @@ export default function StadtteilHaidhausen() {
 
       <LeadFunnel 
         headline="Dachdecker in Haidhausen gesucht?"
-        subheadline="Wir betreuen Altbauten in Haidhausen."
-        description="Ihr Dachdecker Haidhausen – Altbau-Experten für Gründerzeitgebäude und Denkmalschutz."
+        subheadline="Wir sind Ihr Partner in Haidhausen."
+        description="Ihr Dachdecker für Haidhausen – Meisterbetrieb mit schneller Hilfe."
       />
       <Footer />
     </div>

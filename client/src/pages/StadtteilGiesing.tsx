@@ -72,12 +72,10 @@ export default function StadtteilGiesing() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Giesing 2025 | Preise ab 85€/m² | Meisterbetrieb"
-        description="Dachdecker Giesing: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Altbau-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
-        canonical={`https://089dach.de/dachdecker-giesing`}
-        keywords={`dachdecker giesing, dachsanierung giesing münchen, dachgeschossausbau giesing, dachdecker obergiesing, dachdecker 81539 81541, dachrinnenreinigung giesing, sturmschaden dach giesing, wasserschaden dach münchen giesing, dach undicht giesing reparieren, dachschaden giesing, was kostet dachdecker giesing, dachdecker giesing bewertung, guter dachdecker giesing, bester dachdecker giesing, dach undicht giesing, dach reparieren lassen giesing, dachschaden giesing beheben, wasserschaden dach giesing, dachdecker giesing günstig, dachdecker giesing festpreis, dachdecker giesing angebot, dachdecker giesing kostenvoranschlag, dachdecker giesing schnell, dachdecker giesing notdienst, dachdecker giesing sofort, dachdecker in meiner nähe giesing, dachdecker 81539`}
-        geoPlacename={`München-Giesing, Bayern, Deutschland`}
-        aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Giesing. Spezialisiert auf Altbauten und Dachgeschossausbau. Tel: 089 12621964.`}
+        title="Dachdecker Giesing – Sanierung, Reparatur & Notdienst"
+        description="Ihr Dachdecker in Giesing: Dachsanierung, Reparatur, Flachdach, Spengler, Dachfenster. 24/7 Notdienst, Festpreis & 10 Jahre Garantie. Jetzt anrufen!"
+        canonical=""
+        keywords="Dachdecker Giesing, Dachsanierung Giesing, Dachreparatur Giesing, Flachdach Giesing, Spengler Giesing, Dach Notdienst Giesing, Dachfenster Giesing"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Stadtteile", url: "/stadtteile" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-${stadtteilData.name.toLowerCase()}` }]} />
       <NearbyServiceSchema />
@@ -261,11 +259,11 @@ export default function StadtteilGiesing() {
       <LeadFunnel 
         headline="Dachdecker in Giesing gesucht?"
         subheadline="Wir sind Ihr Partner in Giesing."
-        description="Ihr Dachdecker für Giesing – Altbau-Experten für Sanierung und Dachgeschossausbau."
+        description="Ihr Dachdecker für Giesing – Meisterbetrieb mit schneller Hilfe."
       />
       <Contact 
-        title="Dachdecker für Giesing gesucht?"
-        description="Traditionsreiches Handwerk für Ihr Viertel – Ihr Dachdecker-Meisterbetrieb für Giesing seit 1998."
+        title="Dachdecker in Giesing gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Giesing."
       />
       <Footer />
     </div>

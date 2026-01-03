@@ -74,12 +74,10 @@ export default function StadtteilAllach() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Allach 2025 | Preise ab 85€/m² | Meisterbetrieb"
-        description="Dachdecker Allach: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Nur 3km entfernt ✓ Kostenlose Beratung. ☎ 089 12621964"
+        title="Dachdecker Allach – Sanierung, Reparatur & Notdienst"
+        description="Ihr Dachdecker in Allach: Dachsanierung, Reparatur, Flachdach, Spengler, Dachfenster. 24/7 Notdienst, Festpreis & 10 Jahre Garantie. Jetzt anrufen!"
         canonical="https://089dach.de/dachdecker-allach"
-        keywords="dachdecker allach empfehlung, dachsanierung allach münchen, dachdecker untermenzing, siedlungshaus dach sanieren, dachziegel allach, dachreparatur münchen nord, dachdecker 80999, dachrinnenreinigung allach, sturmschaden dach allach, wasserschaden dach münchen allach, dach undicht allach reparieren, dachschaden allach, was kostet dachdecker allach, dachdecker allach bewertung, guter dachdecker allach, bester dachdecker allach, dach undicht allach, dach reparieren lassen allach, dachschaden allach beheben, wasserschaden dach allach, dachdecker allach günstig, dachdecker allach festpreis, dachdecker allach angebot, dachdecker allach kostenvoranschlag, dachdecker allach schnell, dachdecker allach notdienst, dachdecker allach sofort, dachdecker in meiner nähe allach, dachdecker 80999"
-        geoPlacename={`München-Allach, Bayern, Deutschland`}
-        aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb direkt neben Allach. Kürzeste Anfahrtswege, schneller Service. Tel: 089 12621964.`}
+        keywords="Dachdecker Allach, Dachsanierung Allach, Dachreparatur Allach, Flachdach Allach, Spengler Allach, Dach Notdienst Allach, Dachfenster Allach"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Stadtteile", url: "/stadtteile" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-${stadtteilData.name.toLowerCase()}` }]} />
       <NearbyServiceSchema />
@@ -263,11 +261,11 @@ export default function StadtteilAllach() {
       <LeadFunnel 
         headline="Dachdecker in Allach gesucht?"
         subheadline="Wir sind Ihr Partner in Allach."
-        description="Ihr Dachdecker für Allach – Meisterbetrieb mit kurzen Wegen und schneller Hilfe."
+        description="Ihr Dachdecker für Allach – Meisterbetrieb mit schneller Hilfe."
       />
       <Contact 
-        title="Dachdecker für Allach gesucht?"
-        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Allach – mit kurzer Anfahrt und Erfahrung seit 1998."
+        title="Dachdecker in Allach gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Allach."
       />
       <Footer />
     </div>

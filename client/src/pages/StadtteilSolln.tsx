@@ -58,12 +58,10 @@ export default function StadtteilSolln() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Solln 2025 | Preise ab 95€/m² | Meisterbetrieb"
-        description="Dachdecker Solln: ✓ Dachsanierung ab 95€/m² ✓ 10 Jahre Garantie ✓ Villen-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
-        canonical={`https://089dach.de/dachdecker-solln`}
-        keywords={`dachdecker solln, dachsanierung solln münchen, villa dachdecker solln, landhaus dach münchen, denkmalschutz dachdecker, dachdecker 81477 81479, biberschwanz solln, schieferdach solln, sturmschaden dach solln, dachfenster solln, kupferdachrinne solln, dachrinnenreinigung solln, sturmschaden dach solln, wasserschaden dach münchen solln, dach undicht solln reparieren, dachschaden solln, was kostet dachdecker solln, dachdecker solln bewertung, guter dachdecker solln, bester dachdecker solln, dach undicht solln, dach reparieren lassen solln, dachschaden solln beheben, wasserschaden dach solln, dachdecker solln günstig, dachdecker solln festpreis, dachdecker solln angebot, dachdecker solln kostenvoranschlag, dachdecker solln schnell, dachdecker solln notdienst, dachdecker solln sofort, dachdecker in meiner nähe solln, dachdecker 81477`}
-        geoPlacename={`München-Solln, Bayern, Deutschland`}
-        aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Solln. Spezialisiert auf Villen und historische Landhäuser. Tel: 089 12621964.`}
+        title="Dachdecker Solln – Sanierung, Reparatur & Notdienst"
+        description="Ihr Dachdecker in Solln: Dachsanierung, Reparatur, Flachdach, Spengler, Dachfenster. 24/7 Notdienst, Festpreis & 10 Jahre Garantie. Jetzt anrufen!"
+        canonical=""
+        keywords="Dachdecker Solln, Dachsanierung Solln, Dachreparatur Solln, Flachdach Solln, Spengler Solln, Dach Notdienst Solln, Dachfenster Solln"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Stadtteile", url: "/stadtteile" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-${stadtteilData.name.toLowerCase()}` }]} />
       <NearbyServiceSchema />
@@ -228,11 +226,11 @@ export default function StadtteilSolln() {
       <LeadFunnel 
         headline="Dachdecker in Solln gesucht?"
         subheadline="Wir sind Ihr Partner in Solln."
-        description="Ihr Dachdecker für Solln – Premium-Qualität für Villen und historische Landhäuser."
+        description="Ihr Dachdecker für Solln – Meisterbetrieb mit schneller Hilfe."
       />
       <Contact 
-        title="Dachdecker für Solln gesucht?"
-        description="Villen-Erfahrung und Denkmalschutz-Kompetenz – Ihr Dachdecker-Meisterbetrieb für Solln."
+        title="Dachdecker in Solln gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Solln."
       />
       <Footer />
     </div>

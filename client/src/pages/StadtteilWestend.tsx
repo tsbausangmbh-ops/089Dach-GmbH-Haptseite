@@ -57,12 +57,10 @@ export default function StadtteilWestend() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Westend 2025 | Preise ab 85€/m² | Meisterbetrieb"
-        description="Dachdecker Westend: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Altbau-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
+        title="Dachdecker Westend – Sanierung, Reparatur & Notdienst"
+        description="Ihr Dachdecker in Westend: Dachsanierung, Reparatur, Flachdach, Spengler, Dachfenster. 24/7 Notdienst, Festpreis & 10 Jahre Garantie. Jetzt anrufen!"
         canonical="https://089dach.de/dachdecker-westend"
-        keywords="dachdecker westend münchen, dachsanierung altbau westend, flachdach gewerbe münchen, dachausbau westend, gauben einbau münchen, dachrinnenreinigung westend, sturmschaden dach westend, wasserschaden dach münchen westend, dach undicht westend reparieren, dachschaden westend, was kostet dachdecker westend, dachdecker westend bewertung, guter dachdecker westend, bester dachdecker westend, dach undicht westend, dach reparieren lassen westend, dachschaden westend beheben, wasserschaden dach westend, dachdecker westend günstig, dachdecker westend festpreis, dachdecker westend angebot, dachdecker westend kostenvoranschlag, dachdecker westend schnell, dachdecker westend notdienst, dachdecker westend sofort, dachdecker in meiner nähe westend, dachdecker 80339"
-        geoPlacename="München-Westend, Bayern, Deutschland"
-        aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Westend. Spezialist für Altbau und Gewerbe. Tel: 089 12621964.`}
+        keywords="Dachdecker Westend, Dachsanierung Westend, Dachreparatur Westend, Flachdach Westend, Spengler Westend, Dach Notdienst Westend, Dachfenster Westend"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-${stadtteilData.name.toLowerCase()}` }]} />
       <NearbyServiceSchema />
@@ -226,12 +224,12 @@ export default function StadtteilWestend() {
 
       <LeadFunnel 
         headline="Dachdecker in Westend gesucht?"
-        subheadline="Wir sind Ihr Partner im Westend."
-        description="Ihr Dachdecker Westend – Altbau-Kompetenz für Privat und Gewerbe."
+        subheadline="Wir sind Ihr Partner in Westend."
+        description="Ihr Dachdecker für Westend – Meisterbetrieb mit schneller Hilfe."
       />
       <Contact 
-        title="Dachdecker fürs Westend gesucht?"
-        description="Privat und Gewerbe – Ihr Dachdecker-Meisterbetrieb fürs Westend mit flexiblen Terminen."
+        title="Dachdecker in Westend gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Westend."
       />
       <Footer />
     </div>

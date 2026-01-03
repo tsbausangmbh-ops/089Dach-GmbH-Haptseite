@@ -58,12 +58,10 @@ export default function UmlandDachau() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Dachau 2025 | Preise ab 95€/m² | Meisterbetrieb"
-        description="Dachdecker Dachau: ✓ Dachsanierung ab 95€/m² ✓ 10 Jahre Garantie ✓ Nur 25min Anfahrt ✓ Kostenlose Beratung. ☎ 089 12621964"
-        canonical={`https://089dach.de/dachdecker-dachau`}
-        keywords={`dachdecker dachau, dachsanierung dachau, dachdecker landkreis dachau, denkmalschutz dachau, dachdämmung dachau, altstadt dachau dach, sturmschaden dach dachau, flachdach dachau, dachfenster dachau, dachziegel wechseln dachau, dachdecker 85221, was kostet dachdecker dachau, dachdecker dachau erfahrungen, guter dachdecker dachau, bester dachdecker dachau bei münchen, dach undicht dachau, dach reparieren dachau, notdienst dachdecker dachau, dachdecker dachau preise, dachdecker dachau kosten, dachdecker dachau günstig, dachdecker dachau festpreis, dachdecker in der nähe dachau, dachdeckerbetrieb dachau`}
-        geoPlacename={`Dachau, Landkreis Dachau, Bayern, Deutschland`}
-        aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für Dachau bei München. Spezialisiert auf Altbau und Denkmalschutz. Tel: 089 12621964.`}
+        title="Dachdecker Dachau – Sanierung, Reparatur & Notdienst"
+        description="Ihr Dachdecker in Dachau: Dachsanierung, Reparatur, Flachdach, Spengler, Dachfenster. 24/7 Notdienst, Festpreis & 10 Jahre Garantie. Jetzt anrufen!"
+        canonical=""
+        keywords="Dachdecker Dachau, Dachsanierung Dachau, Dachreparatur Dachau, Flachdach Dachau, Spengler Dachau, Dach Notdienst Dachau, Dachfenster Dachau"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Umland", url: "/umland" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-${stadtteilData.name.toLowerCase()}` }]} />
       <NearbyServiceSchema />
@@ -226,12 +224,12 @@ export default function UmlandDachau() {
 
       <LeadFunnel 
         headline="Dachdecker in Dachau gesucht?"
-        subheadline="Wir kommen auch nach Dachau."
-        description="Ihr Dachdecker für Dachau – schnelle Hilfe aus München für Ihre Dacharbeiten."
+        subheadline="Wir sind Ihr Partner in Dachau."
+        description="Ihr Dachdecker für Dachau – Meisterbetrieb mit schneller Hilfe."
       />
       <Contact 
-        title="Dachdecker für Dachau gesucht?"
-        description="Von München aus schnell bei Ihnen – Ihr Dachdecker-Meisterbetrieb für Dachau und Umgebung."
+        title="Dachdecker in Dachau gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Dachau."
       />
       <Footer />
     </div>

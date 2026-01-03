@@ -58,12 +58,10 @@ export default function StadtteilOberfoehring() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Oberföhring 2025 | Preise ab 95€/m² | Meisterbetrieb"
-        description="Dachdecker Oberföhring: ✓ Dachsanierung ab 95€/m² ✓ 10 Jahre Garantie ✓ Villen-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
+        title="Dachdecker Oberföhring – Sanierung, Reparatur & Notdienst"
+        description="Ihr Dachdecker in Oberföhring: Dachsanierung, Reparatur, Flachdach, Spengler, Dachfenster. 24/7 Notdienst, Festpreis & 10 Jahre Garantie. Jetzt anrufen!"
         canonical="https://089dach.de/dachdecker-oberfoehring"
-        keywords="dachdecker oberföhring, dachrinnenreinigung oberföhring, sturmschaden dach oberföhring, wasserschaden dach münchen oberföhring, dach undicht oberföhring reparieren, dachschaden oberföhring, dachsanierung villa münchen, dachdecker 81925 81927, was kostet dachdecker oberföhring, dachdecker oberföhring bewertung, guter dachdecker oberföhring, bester dachdecker oberföhring, dach undicht oberföhring, dach reparieren lassen oberföhring, dachschaden oberföhring beheben, wasserschaden dach oberföhring, dachdecker oberföhring günstig, dachdecker oberföhring festpreis, dachdecker oberföhring angebot, dachdecker oberföhring kostenvoranschlag, dachdecker oberföhring schnell, dachdecker oberföhring notdienst, dachdecker oberföhring sofort, dachdecker in meiner nähe oberföhring, dachdecker 81925"
-        geoPlacename="München-Oberföhring, Bayern, Deutschland"
-        aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Oberföhring. Spezialist für Villen und Premium-Wohnhäuser. Tel: 089 12621964.`}
+        keywords="Dachdecker Oberföhring, Dachsanierung Oberföhring, Dachreparatur Oberföhring, Flachdach Oberföhring, Spengler Oberföhring, Dach Notdienst Oberföhring, Dachfenster Oberföhring"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-${stadtteilData.slug}` }]} />
       <NearbyServiceSchema />
@@ -228,11 +226,11 @@ export default function StadtteilOberfoehring() {
       <LeadFunnel 
         headline="Dachdecker in Oberföhring gesucht?"
         subheadline="Wir sind Ihr Partner in Oberföhring."
-        description="Ihr Dachdecker Oberföhring – Villen-Experten für Premium-Wohnhäuser."
+        description="Ihr Dachdecker für Oberföhring – Meisterbetrieb mit schneller Hilfe."
       />
       <Contact 
-        title="Dachdecker für Oberföhring gesucht?"
-        description="Villen-Erfahrung und Premium-Qualität – Ihr Dachdecker-Meisterbetrieb für Oberföhring."
+        title="Dachdecker in Oberföhring gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Oberföhring."
       />
       <Footer />
     </div>

@@ -72,12 +72,10 @@ export default function StadtteilIsarvorstadt() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Isarvorstadt 2025 | Preise ab 90€/m² | Meisterbetrieb"
-        description="Dachdecker Isarvorstadt: ✓ Dachsanierung ab 90€/m² ✓ 10 Jahre Garantie ✓ Altbau-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
+        title="Dachdecker Ludwigsvorstadt-Isarvorstadt – Sanierung & Reparatur"
+        description="Ihr Dachdecker in Ludwigsvorstadt-Isarvorstadt: Dachsanierung, Reparatur, Flachdach, Spengler. 24/7 Notdienst, Festpreis & 10 Jahre Garantie. Jetzt anrufen!"
         canonical="https://089dach.de/dachdecker-ludwigsvorstadt-isarvorstadt"
-        keywords="dachdecker glockenbachviertel, dachdecker isarvorstadt, dachrinnenreinigung isarvorstadt, sturmschaden dach isarvorstadt, wasserschaden dach münchen isarvorstadt, dach undicht isarvorstadt reparieren, dachschaden isarvorstadt, mansarddach sanierung, dachdecker 80337 80469, was kostet dachdecker isarvorstadt, dachdecker isarvorstadt bewertung, guter dachdecker isarvorstadt, bester dachdecker isarvorstadt, dach undicht isarvorstadt, dach reparieren lassen isarvorstadt, dachschaden isarvorstadt beheben, wasserschaden dach isarvorstadt, dachdecker isarvorstadt günstig, dachdecker isarvorstadt festpreis, dachdecker isarvorstadt angebot, dachdecker isarvorstadt kostenvoranschlag, dachdecker isarvorstadt schnell, dachdecker isarvorstadt notdienst, dachdecker isarvorstadt sofort, dachdecker in meiner nähe isarvorstadt, dachdecker 80337"
-        geoPlacename="München Ludwigsvorstadt-Isarvorstadt, Bayern, Deutschland"
-        aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für Ludwigsvorstadt-Isarvorstadt. Spezialist für gründerzeitliche Altbauten. Tel: 089 12621964.`}
+        keywords="Dachdecker Ludwigsvorstadt-Isarvorstadt, Dachsanierung Ludwigsvorstadt-Isarvorstadt, Dachreparatur Ludwigsvorstadt-Isarvorstadt, Flachdach Ludwigsvorstadt-Isarvorstadt, Spengler Ludwigsvorstadt-Isarvorstadt, Dach Notdienst Ludwigsvorstadt-Isarvorstadt, Dachfenster Ludwigsvorstadt-Isarvorstadt"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Stadtteile", url: "/stadtteile" }, { name: `Dachdecker Isarvorstadt`, url: `/dachdecker-${stadtteilData.slug}` }]} />
       <NearbyServiceSchema />
@@ -260,13 +258,13 @@ export default function StadtteilIsarvorstadt() {
       </section>
 
       <LeadFunnel 
-        headline="Dachdecker in Isarvorstadt gesucht?"
-        subheadline="Wir sind Ihr Partner in der Isarvorstadt."
-        description="Ihr Dachdecker Isarvorstadt – Altbau-Experten für Mansarddächer und Gauben."
+        headline="Dachdecker in Ludwigsvorstadt-Isarvorstadt gesucht?"
+        subheadline="Wir sind Ihr Partner in Ludwigsvorstadt-Isarvorstadt."
+        description="Ihr Dachdecker für Ludwigsvorstadt-Isarvorstadt – Meisterbetrieb mit schneller Hilfe."
       />
       <Contact 
-        title="Dachdecker für die Isarvorstadt gesucht?"
-        description="Altbau-Erfahrung und Denkmalschutz-Kompetenz – Ihr Dachdecker-Meisterbetrieb für die Isarvorstadt."
+        title="Dachdecker in Ludwigsvorstadt-Isarvorstadt gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Ludwigsvorstadt-Isarvorstadt."
       />
       <Footer />
     </div>

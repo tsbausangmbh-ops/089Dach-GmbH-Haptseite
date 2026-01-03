@@ -72,12 +72,10 @@ export default function StadtteilFreimann() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Freimann 2025 | Preise ab 85€/m² | Meisterbetrieb"
-        description="Dachdecker Freimann: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ München Nord ✓ Kostenlose Beratung. ☎ 089 12621964"
+        title="Dachdecker Freimann – Sanierung, Reparatur & Notdienst"
+        description="Ihr Dachdecker in Freimann: Dachsanierung, Reparatur, Flachdach, Spengler, Dachfenster. 24/7 Notdienst, Festpreis & 10 Jahre Garantie. Jetzt anrufen!"
         canonical="https://089dach.de/dachdecker-freimann"
-        keywords="dachdecker freimann, dachsanierung münchen nord, dachdecker allianz arena, flachdach freimann, dachdecker 80939 80807, dachrinnenreinigung freimann, sturmschaden dach freimann, wasserschaden dach münchen freimann, dach undicht freimann reparieren, dachschaden freimann, was kostet dachdecker freimann, dachdecker freimann bewertung, guter dachdecker freimann, bester dachdecker freimann, dach undicht freimann, dach reparieren lassen freimann, dachschaden freimann beheben, wasserschaden dach freimann, dachdecker freimann günstig, dachdecker freimann festpreis, dachdecker freimann angebot, dachdecker freimann kostenvoranschlag, dachdecker freimann schnell, dachdecker freimann notdienst, dachdecker freimann sofort, dachdecker in meiner nähe freimann, dachdecker 80939"
-        geoPlacename="München-Freimann, Bayern, Deutschland"
-        aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Freimann. Wohn- und Gewerbegebäude. Tel: 089 12621964.`}
+        keywords="Dachdecker Freimann, Dachsanierung Freimann, Dachreparatur Freimann, Flachdach Freimann, Spengler Freimann, Dach Notdienst Freimann, Dachfenster Freimann"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Stadtteile", url: "/stadtteile" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-${stadtteilData.slug}` }]} />
       <NearbyServiceSchema />
@@ -261,11 +259,11 @@ export default function StadtteilFreimann() {
       <LeadFunnel 
         headline="Dachdecker in Freimann gesucht?"
         subheadline="Wir sind Ihr Partner in Freimann."
-        description="Ihr Dachdecker Freimann – für Wohn- und Gewerbegebäude im Münchner Norden."
+        description="Ihr Dachdecker für Freimann – Meisterbetrieb mit schneller Hilfe."
       />
       <Contact 
-        title="Dachdecker für Freimann gesucht?"
-        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Freimann – mit kurzer Anfahrt und Erfahrung seit 1998."
+        title="Dachdecker in Freimann gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Freimann."
       />
       <Footer />
     </div>

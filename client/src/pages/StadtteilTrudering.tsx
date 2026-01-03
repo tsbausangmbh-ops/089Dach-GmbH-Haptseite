@@ -58,12 +58,10 @@ export default function StadtteilTrudering() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Trudering 2025 | Preise ab 85€/m² | Meisterbetrieb"
-        description="Dachdecker Trudering: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Reihenhaus-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
-        canonical={`https://089dach.de/dachdecker-trudering`}
-        keywords={`dachdecker trudering, dachsanierung reihenhaus münchen, dachdecker trudering-riem, sturmschaden dach trudering, dachreparatur trudering, dachdeckerei münchen ost, dachdecker 81825 81827, flachdach trudering, dachfenster trudering, wärmedämmung dach trudering, solardach trudering, dachrinnenreinigung trudering, sturmschaden dach trudering, wasserschaden dach münchen trudering, dach undicht trudering reparieren, dachschaden trudering, was kostet dachdecker trudering, dachdecker trudering bewertung, guter dachdecker trudering, bester dachdecker trudering, dach undicht trudering, dach reparieren lassen trudering, dachschaden trudering beheben, wasserschaden dach trudering, dachdecker trudering günstig, dachdecker trudering festpreis, dachdecker trudering angebot, dachdecker trudering kostenvoranschlag, dachdecker trudering schnell, dachdecker trudering notdienst, dachdecker trudering sofort, dachdecker in meiner nähe trudering, dachdecker 81825`}
-        geoPlacename={`München-Trudering, Bayern, Deutschland`}
-        aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Trudering. Spezialisiert auf Einfamilienhäuser und Reihenhäuser. Tel: 089 12621964.`}
+        title="Dachdecker Trudering – Sanierung, Reparatur & Notdienst"
+        description="Ihr Dachdecker in Trudering: Dachsanierung, Reparatur, Flachdach, Spengler, Dachfenster. 24/7 Notdienst, Festpreis & 10 Jahre Garantie. Jetzt anrufen!"
+        canonical=""
+        keywords="Dachdecker Trudering, Dachsanierung Trudering, Dachreparatur Trudering, Flachdach Trudering, Spengler Trudering, Dach Notdienst Trudering, Dachfenster Trudering"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Stadtteile", url: "/stadtteile" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-${stadtteilData.name.toLowerCase()}` }]} />
       <NearbyServiceSchema />
@@ -228,11 +226,11 @@ export default function StadtteilTrudering() {
       <LeadFunnel 
         headline="Dachdecker in Trudering gesucht?"
         subheadline="Wir sind Ihr Partner in Trudering."
-        description="Ihr Dachdecker für Trudering – Meisterbetrieb mit Erfahrung bei Einfamilien- und Reihenhäusern."
+        description="Ihr Dachdecker für Trudering – Meisterbetrieb mit schneller Hilfe."
       />
       <Contact 
-        title="Dachdecker für Trudering gesucht?"
-        description="Familienfreundliche Beratung und Termintreue – Ihr Dachdecker-Meisterbetrieb für Trudering."
+        title="Dachdecker in Trudering gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Trudering."
       />
       <Footer />
     </div>

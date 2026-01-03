@@ -54,11 +54,10 @@ export default function UmlandFreising() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Freising 2025 | Preise ab 100€/m² | Meisterbetrieb"
-        description="Dachdecker Freising: ✓ Dachsanierung ab 100€/m² ✓ 10 Jahre Garantie ✓ Nur 40min Anfahrt ✓ Kostenlose Beratung. ☎ 089 12621964"
-        canonical={`https://089dach.de/dachdecker-freising`}
-        keywords={`dachdecker freising, dachsanierung freising, dachdecker landkreis freising, denkmalschutz freising, dachdämmung freising, dachdecker 85354, altstadt freising dach, sturmschaden dach freising, dachfenster freising, domstadt freising dach, biberschwanz freising, was kostet dachdecker freising, dachdecker freising erfahrungen, guter dachdecker freising, bester dachdecker freising bei münchen, dach undicht freising, dach reparieren freising, notdienst dachdecker freising, dachdecker freising preise, dachdecker freising kosten, dachdecker freising günstig, dachdecker freising festpreis, dachdecker in der nähe freising, dachdeckerbetrieb freising`}
-        geoPlacename={`Freising, Landkreis Freising, Bayern, Deutschland`}
+        title="Dachdecker Freising – Sanierung, Reparatur & Notdienst"
+        description="Ihr Dachdecker in Freising: Dachsanierung, Reparatur, Flachdach, Spengler, Dachfenster. 24/7 Notdienst, Festpreis & 10 Jahre Garantie. Jetzt anrufen!"
+        canonical=""
+        keywords="Dachdecker Freising, Dachsanierung Freising, Dachreparatur Freising, Flachdach Freising, Spengler Freising, Dach Notdienst Freising, Dachfenster Freising"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Umland", url: "/umland" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-${stadtteilData.name.toLowerCase()}` }]} />
       <NearbyServiceSchema />
@@ -214,8 +213,8 @@ export default function UmlandFreising() {
       </section>
       <LeadFunnel 
         headline="Dachdecker in Freising gesucht?"
-        subheadline="Wir kommen auch nach Freising."
-        description="Ihr Dachdecker für Freising – schnelle Hilfe aus München für Ihre Dacharbeiten."
+        subheadline="Wir sind Ihr Partner in Freising."
+        description="Ihr Dachdecker für Freising – Meisterbetrieb mit schneller Hilfe."
       />
       <Footer />
     </div>

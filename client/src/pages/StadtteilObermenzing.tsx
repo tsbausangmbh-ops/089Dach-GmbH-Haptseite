@@ -58,12 +58,10 @@ export default function StadtteilObermenzing() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Obermenzing 2025 | Preise ab 95€/m² | Meisterbetrieb"
-        description="Dachdecker Obermenzing: ✓ Dachsanierung ab 95€/m² ✓ 10 Jahre Garantie ✓ Villen-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
+        title="Dachdecker Obermenzing – Sanierung, Reparatur & Notdienst"
+        description="Ihr Dachdecker in Obermenzing: Dachsanierung, Reparatur, Flachdach, Spengler, Dachfenster. 24/7 Notdienst, Festpreis & 10 Jahre Garantie. Jetzt anrufen!"
         canonical="https://089dach.de/dachdecker-obermenzing"
-        keywords="dachdecker obermenzing empfehlung, villa dach sanieren münchen, schieferdach kosten obermenzing, kupferdach preis, dachsanierung villa obermenzing, dachdecker thuillestraße, dachsanierung einfamilienhaus obermenzing, dachziegel wechseln obermenzing, sturmschaden dach obermenzing, flachdach obermenzing, dachfenster velux obermenzing, dachdecker 81245 81247, dachrinne kupfer obermenzing, dachrinnenreinigung obermenzing, sturmschaden dach obermenzing, wasserschaden dach münchen obermenzing, dach undicht obermenzing reparieren, dachschaden obermenzing, was kostet dachdecker obermenzing, dachdecker obermenzing bewertung, guter dachdecker obermenzing, bester dachdecker obermenzing, dach undicht obermenzing, dach reparieren lassen obermenzing, dachschaden obermenzing beheben, wasserschaden dach obermenzing, dachdecker obermenzing günstig, dachdecker obermenzing festpreis, dachdecker obermenzing angebot, dachdecker obermenzing kostenvoranschlag, dachdecker obermenzing schnell, dachdecker obermenzing notdienst, dachdecker obermenzing sofort, dachdecker in meiner nähe obermenzing, dachdecker 81245"
-        geoPlacename={`München-Obermenzing, Bayern, Deutschland`}
-        aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Obermenzing. Spezialisiert auf exklusive Villen. Tel: 089 12621964.`}
+        keywords="Dachdecker Obermenzing, Dachsanierung Obermenzing, Dachreparatur Obermenzing, Flachdach Obermenzing, Spengler Obermenzing, Dach Notdienst Obermenzing, Dachfenster Obermenzing"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Stadtteile", url: "/stadtteile" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-${stadtteilData.name.toLowerCase()}` }]} />
       <FAQPageSchema faqs={[
@@ -232,12 +230,12 @@ export default function StadtteilObermenzing() {
 
       <LeadFunnel 
         headline="Dachdecker in Obermenzing gesucht?"
-        subheadline="Hier ist unser Firmensitz!"
-        description="Ihr Dachdecker für Obermenzing – direkt vor Ort mit kürzesten Wegen und schneller Hilfe."
+        subheadline="Wir sind Ihr Partner in Obermenzing."
+        description="Ihr Dachdecker für Obermenzing – Meisterbetrieb mit schneller Hilfe."
       />
       <Contact 
-        title="Dachdecker für Obermenzing gesucht?"
-        description="Unser Firmensitz ist in Obermenzing – kürzeste Anfahrt und Premium-Qualität seit 1998."
+        title="Dachdecker in Obermenzing gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Obermenzing."
       />
       <Footer />
     </div>

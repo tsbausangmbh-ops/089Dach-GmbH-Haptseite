@@ -58,12 +58,10 @@ export default function StadtteilKarlsfeld() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Karlsfeld 2025 | Preise ab 85€/m² | Meisterbetrieb"
-        description="Dachdecker Karlsfeld: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Nur 8km entfernt ✓ Kostenlose Beratung. ☎ 089 12621964"
-        canonical={`https://089dach.de/dachdecker-karlsfeld`}
-        keywords={`dachdecker karlsfeld, dachsanierung karlsfeld, dachrinnenreinigung karlsfeld, sturmschaden dach karlsfeld, wasserschaden dach münchen karlsfeld, dach undicht karlsfeld reparieren, dachschaden karlsfeld, flachdach karlsfeld, was kostet dachdecker karlsfeld, dachdecker karlsfeld bewertung, guter dachdecker karlsfeld, bester dachdecker karlsfeld, dach undicht karlsfeld, dach reparieren lassen karlsfeld, dachschaden karlsfeld beheben, wasserschaden dach karlsfeld, dachdecker karlsfeld günstig, dachdecker karlsfeld festpreis, dachdecker karlsfeld angebot, dachdecker karlsfeld kostenvoranschlag, dachdecker karlsfeld schnell, dachdecker karlsfeld notdienst, dachdecker karlsfeld sofort, dachdecker in meiner nähe karlsfeld, dachdecker 85757`}
-        geoPlacename={`Karlsfeld, Landkreis Dachau, Bayern, Deutschland`}
-        aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für Karlsfeld bei München. Schnelle Anfahrt aus dem Münchner Norden. Tel: 089 12621964.`}
+        title="Dachdecker Karlsfeld – Sanierung, Reparatur & Notdienst"
+        description="Ihr Dachdecker in Karlsfeld: Dachsanierung, Reparatur, Flachdach, Spengler, Dachfenster. 24/7 Notdienst, Festpreis & 10 Jahre Garantie. Jetzt anrufen!"
+        canonical=""
+        keywords="Dachdecker Karlsfeld, Dachsanierung Karlsfeld, Dachreparatur Karlsfeld, Flachdach Karlsfeld, Spengler Karlsfeld, Dach Notdienst Karlsfeld, Dachfenster Karlsfeld"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Stadtteile", url: "/stadtteile" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-${stadtteilData.name.toLowerCase()}` }]} />
       <NearbyServiceSchema />
@@ -228,11 +226,11 @@ export default function StadtteilKarlsfeld() {
       <LeadFunnel 
         headline="Dachdecker in Karlsfeld gesucht?"
         subheadline="Wir sind Ihr Partner in Karlsfeld."
-        description="Ihr Dachdecker Karlsfeld – schnelle Anfahrt aus dem Münchner Norden."
+        description="Ihr Dachdecker für Karlsfeld – Meisterbetrieb mit schneller Hilfe."
       />
       <Contact 
-        title="Dachdecker für Karlsfeld gesucht?"
-        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Karlsfeld – mit kurzer Anfahrt und Erfahrung seit 1998."
+        title="Dachdecker in Karlsfeld gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Karlsfeld."
       />
       <Footer />
     </div>

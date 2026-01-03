@@ -60,12 +60,10 @@ export default function UmlandEching() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Eching 2025 | Preise ab 95€/m² | Meisterbetrieb"
-        description="Dachdecker Eching: ✓ Dachsanierung ab 95€/m² ✓ 10 Jahre Garantie ✓ Nur 25min Anfahrt ✓ Kostenlose Beratung. ☎ 089 12621964"
+        title="Dachdecker Eching – Sanierung, Reparatur & Notdienst"
+        description="Ihr Dachdecker in Eching: Dachsanierung, Reparatur, Flachdach, Spengler, Dachfenster. 24/7 Notdienst, Festpreis & 10 Jahre Garantie. Jetzt anrufen!"
         canonical="https://089dach.de/dachdecker-eching"
-        keywords="dachdecker eching, dachsanierung eching kosten, was kostet dachdecker eching, dachdecker eching preise 2025, flachdach eching, dachdämmung eching, dachfenster eching, sturmschaden eching, dachdecker 85386, dach neu eindecken eching, gewerbe dach eching, dachdecker eching erfahrungen, guter dachdecker eching, bester dachdecker eching bei münchen, dach undicht eching, dach reparieren eching, sturmschaden dach eching, notdienst dachdecker eching, dachdecker eching kosten, dachdecker eching günstig, dachdecker eching festpreis, dachdecker eching landkreis, dachdecker in der nähe eching, dachdeckerbetrieb eching"
-        geoPlacename="Eching, Landkreis Freising, Bayern, Deutschland"
-        aiSummary="089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für Eching bei München. Dachsanierung ab 95€/m². Tel: 089 12621964."
+        keywords="Dachdecker Eching, Dachsanierung Eching, Dachreparatur Eching, Flachdach Eching, Spengler Eching, Dach Notdienst Eching, Dachfenster Eching"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Umland", url: "/umland" }, { name: "Dachdecker Eching", url: "/dachdecker-eching" }]} />
       <NearbyServiceSchema />
@@ -193,12 +191,12 @@ export default function UmlandEching() {
       </section>
       <LeadFunnel 
         headline="Dachdecker in Eching gesucht?"
-        subheadline="Wir kommen auch nach Eching."
-        description="Ihr Dachdecker für Eching – schnelle Hilfe aus München für Ihre Dacharbeiten."
+        subheadline="Wir sind Ihr Partner in Eching."
+        description="Ihr Dachdecker für Eching – Meisterbetrieb mit schneller Hilfe."
       />
       <Contact 
-        title="Dachdecker für Eching gesucht?"
-        description="Von München aus schnell bei Ihnen – Ihr Dachdecker-Meisterbetrieb für Eching und Umgebung."
+        title="Dachdecker in Eching gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Eching."
       />
       <Footer />
     </div>

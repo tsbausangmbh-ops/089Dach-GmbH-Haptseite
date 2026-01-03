@@ -80,10 +80,10 @@ export default function Stadtteile() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker München Stadtteile | Alle Bezirke - 089Dach"
+        title="Dachdecker München Stadtteile – Alle Bezirke & Umland"
         description="Ihr Dachdecker für alle Münchner Stadtteile: Pasing, Laim, Schwabing, Sendling, Bogenhausen und mehr. Plus Umland bis 20 km. Tel: 089 12621964"
         canonical="https://089dach.de/stadtteile"
-        keywords="dachdecker münchen stadtteile, dachdecker pasing, dachdecker laim, dachdecker schwabing, dachdecker sendling, dachdecker bogenhausen, dachdecker neuhausen, dachdecker moosach, dachdecker obermenzing, dachdecker in meiner nähe münchen, dachdecker landkreis münchen, dachdecker münchen umland"
+        keywords="Dachdecker München Stadtteile, Dachdecker Pasing, Dachdecker Laim, Dachdecker Schwabing, Dachdecker Sendling, Dachdecker Bogenhausen, Dachdecker Moosach"
         aiSummary="089Dach GmbH bietet Dachdeckerleistungen in allen Münchner Stadtteilen und im Umkreis von 20 km. Standort: München-Obermenzing. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Stadtteile", url: "/stadtteile" }]} />

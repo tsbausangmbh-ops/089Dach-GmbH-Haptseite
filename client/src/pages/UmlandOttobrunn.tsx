@@ -54,11 +54,10 @@ export default function UmlandOttobrunn() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Ottobrunn 2025 | Preise ab 90€/m² | Meisterbetrieb"
-        description="Dachdecker Ottobrunn: ✓ Dachsanierung ab 90€/m² ✓ 10 Jahre Garantie ✓ Nur 15min Anfahrt ✓ Kostenlose Beratung. ☎ 089 12621964"
-        canonical={`https://089dach.de/dachdecker-ottobrunn`}
-        keywords={`dachdecker ottobrunn, dachsanierung ottobrunn, flachdach ottobrunn, dachdämmung ottobrunn, dachdecker münchen süd, dachdecker 85521, sturmschaden dach ottobrunn, dachfenster ottobrunn, solardach ottobrunn, dachziegel wechseln ottobrunn, steildach ottobrunn, was kostet dachdecker ottobrunn, dachdecker ottobrunn erfahrungen, guter dachdecker ottobrunn, bester dachdecker ottobrunn bei münchen, dach undicht ottobrunn, dach reparieren ottobrunn, notdienst dachdecker ottobrunn, dachdecker ottobrunn preise, dachdecker ottobrunn kosten, dachdecker ottobrunn günstig, dachdecker ottobrunn festpreis, dachdecker ottobrunn landkreis, dachdecker in der nähe ottobrunn, dachdeckerbetrieb ottobrunn`}
-        geoPlacename={`Ottobrunn, Landkreis München, Bayern, Deutschland`}
+        title="Dachdecker Ottobrunn – Sanierung, Reparatur & Notdienst"
+        description="Ihr Dachdecker in Ottobrunn: Dachsanierung, Reparatur, Flachdach, Spengler, Dachfenster. 24/7 Notdienst, Festpreis & 10 Jahre Garantie. Jetzt anrufen!"
+        canonical=""
+        keywords="Dachdecker Ottobrunn, Dachsanierung Ottobrunn, Dachreparatur Ottobrunn, Flachdach Ottobrunn, Spengler Ottobrunn, Dach Notdienst Ottobrunn, Dachfenster Ottobrunn"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Umland", url: "/umland" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-${stadtteilData.name.toLowerCase()}` }]} />
       <NearbyServiceSchema />
@@ -214,8 +213,8 @@ export default function UmlandOttobrunn() {
       </section>
       <LeadFunnel 
         headline="Dachdecker in Ottobrunn gesucht?"
-        subheadline="Wir kommen auch nach Ottobrunn."
-        description="Ihr Dachdecker für Ottobrunn – schnelle Hilfe aus München für Ihre Dacharbeiten."
+        subheadline="Wir sind Ihr Partner in Ottobrunn."
+        description="Ihr Dachdecker für Ottobrunn – Meisterbetrieb mit schneller Hilfe."
       />
       <Footer />
     </div>

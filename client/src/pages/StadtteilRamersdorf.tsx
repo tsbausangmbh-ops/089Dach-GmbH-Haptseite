@@ -54,11 +54,10 @@ export default function StadtteilRamersdorf() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Ramersdorf 2025 | Preise ab 85€/m² | Meisterbetrieb"
-        description="Dachdecker Ramersdorf: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Flachdach-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
-        canonical={`https://089dach.de/dachdecker-ramersdorf-perlach`}
-        keywords={`dachdecker ramersdorf, dachdecker perlach, dachsanierung neuperlach, flachdach ramersdorf, dachdämmung perlach, dachdecker 81735 81737, sturmschaden dach ramersdorf, dachfenster perlach, siedlungshaus dach perlach, dachrinne ramersdorf, steildach neuperlach, dachrinnenreinigung ramersdorf, sturmschaden dach ramersdorf, wasserschaden dach münchen ramersdorf, dach undicht ramersdorf reparieren, dachschaden ramersdorf, was kostet dachdecker ramersdorf, dachdecker ramersdorf bewertung, guter dachdecker ramersdorf, bester dachdecker ramersdorf, dach undicht ramersdorf, dach reparieren lassen ramersdorf, dachschaden ramersdorf beheben, wasserschaden dach ramersdorf, dachdecker ramersdorf günstig, dachdecker ramersdorf festpreis, dachdecker ramersdorf angebot, dachdecker ramersdorf kostenvoranschlag, dachdecker ramersdorf schnell, dachdecker ramersdorf notdienst, dachdecker ramersdorf sofort, dachdecker in meiner nähe ramersdorf, dachdecker 81735`}
-        geoPlacename={`München-Ramersdorf-Perlach, Bayern, Deutschland`}
+        title="Dachdecker Ramersdorf-Perlach – Sanierung & Reparatur"
+        description="Ihr Dachdecker in Ramersdorf-Perlach: Dachsanierung, Reparatur, Flachdach, Spengler. 24/7 Notdienst, Festpreis & 10 Jahre Garantie. Jetzt anrufen!"
+        canonical=""
+        keywords="Dachdecker Ramersdorf-Perlach, Dachsanierung Ramersdorf-Perlach, Dachreparatur Ramersdorf-Perlach, Flachdach Ramersdorf-Perlach, Spengler Ramersdorf-Perlach, Dach Notdienst Ramersdorf-Perlach, Dachfenster Ramersdorf-Perlach"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Stadtteile", url: "/stadtteile" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-ramersdorf-perlach` }]} />
       <NearbyServiceSchema />
@@ -214,9 +213,9 @@ export default function StadtteilRamersdorf() {
         </div>
       </section>
       <LeadFunnel 
-        headline="Dachdecker in Ramersdorf gesucht?"
-        subheadline="Wir sind Ihr Partner in Ramersdorf."
-        description="Ihr Dachdecker Ramersdorf – für Siedlungshäuser, Reihenhäuser und Mehrfamilienhäuser."
+        headline="Dachdecker in Ramersdorf-Perlach gesucht?"
+        subheadline="Wir sind Ihr Partner in Ramersdorf-Perlach."
+        description="Ihr Dachdecker für Ramersdorf-Perlach – Meisterbetrieb mit schneller Hilfe."
       />
       <Footer />
     </div>

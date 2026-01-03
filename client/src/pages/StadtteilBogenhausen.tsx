@@ -72,12 +72,10 @@ export default function StadtteilBogenhausen() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Bogenhausen 2025 | Preise ab 95€/m² | Meisterbetrieb"
-        description="Dachdecker Bogenhausen: ✓ Dachsanierung ab 95€/m² ✓ 10 Jahre Garantie ✓ Villen-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
+        title="Dachdecker Bogenhausen – Sanierung, Reparatur & Notdienst"
+        description="Ihr Dachdecker in Bogenhausen: Dachsanierung, Reparatur, Flachdach, Spengler, Dachfenster. 24/7 Notdienst, Festpreis & 10 Jahre Garantie. Jetzt anrufen!"
         canonical="https://089dach.de/dachdecker-bogenhausen"
-        keywords="dachdecker bogenhausen empfehlung, villa dach sanieren bogenhausen, kupferdach kosten münchen, schieferdach bogenhausen, dachdecker 81675 81677 81679, dachrinnenreinigung bogenhausen, sturmschaden dach bogenhausen, wasserschaden dach münchen bogenhausen, dach undicht bogenhausen reparieren, dachschaden bogenhausen, was kostet dachdecker bogenhausen, dachdecker bogenhausen bewertung, guter dachdecker bogenhausen, bester dachdecker bogenhausen, dach undicht bogenhausen, dach reparieren lassen bogenhausen, dachschaden bogenhausen beheben, wasserschaden dach bogenhausen, dachdecker bogenhausen günstig, dachdecker bogenhausen festpreis, dachdecker bogenhausen angebot, dachdecker bogenhausen kostenvoranschlag, dachdecker bogenhausen schnell, dachdecker bogenhausen notdienst, dachdecker bogenhausen sofort, dachdecker in meiner nähe bogenhausen, dachdecker 81675"
-        geoPlacename={`München-Bogenhausen, Bayern, Deutschland`}
-        aiSummary={`089Dach GmbH ist Ihr Premium-Dachdecker für München-Bogenhausen. Spezialisiert auf exklusive Villen und hochwertige Materialien. Tel: 089 12621964.`}
+        keywords="Dachdecker Bogenhausen, Dachsanierung Bogenhausen, Dachreparatur Bogenhausen, Flachdach Bogenhausen, Spengler Bogenhausen, Dach Notdienst Bogenhausen, Dachfenster Bogenhausen"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Stadtteile", url: "/stadtteile" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-${stadtteilData.name.toLowerCase()}` }]} />
       <NearbyServiceSchema />
@@ -261,12 +259,12 @@ export default function StadtteilBogenhausen() {
 
       <LeadFunnel 
         headline="Dachdecker in Bogenhausen gesucht?"
-        subheadline="Wir betreuen Villen und Altbauten."
-        description="Ihr Dachdecker für Bogenhausen – Premium-Qualität für exklusive Villen und Stadtvillen."
+        subheadline="Wir sind Ihr Partner in Bogenhausen."
+        description="Ihr Dachdecker für Bogenhausen – Meisterbetrieb mit schneller Hilfe."
       />
       <Contact 
-        title="Dachdecker für Bogenhausen gesucht?"
-        description="Villen-Erfahrung und Premium-Qualität – Ihr Dachdecker-Meisterbetrieb für Bogenhausen."
+        title="Dachdecker in Bogenhausen gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Bogenhausen."
       />
       </main>
       <Footer />

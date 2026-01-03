@@ -54,11 +54,10 @@ export default function StadtteilMilbertshofen() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Milbertshofen 2025 | Preise ab 85€/m² | Meisterbetrieb"
-        description="Dachdecker Milbertshofen: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Flachdach-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
-        canonical={`https://089dach.de/dachdecker-milbertshofen`}
-        keywords={`dachdecker milbertshofen, dachrinnenreinigung milbertshofen, sturmschaden dach milbertshofen, wasserschaden dach münchen milbertshofen, dach undicht milbertshofen reparieren, dachschaden milbertshofen, flachdach münchen nord, dachdecker 80807 80809, was kostet dachdecker milbertshofen, dachdecker milbertshofen bewertung, guter dachdecker milbertshofen, bester dachdecker milbertshofen, dach undicht milbertshofen, dach reparieren lassen milbertshofen, dachschaden milbertshofen beheben, wasserschaden dach milbertshofen, dachdecker milbertshofen günstig, dachdecker milbertshofen festpreis, dachdecker milbertshofen angebot, dachdecker milbertshofen kostenvoranschlag, dachdecker milbertshofen schnell, dachdecker milbertshofen notdienst, dachdecker milbertshofen sofort, dachdecker in meiner nähe milbertshofen, dachdecker 80807`}
-        geoPlacename={`München Milbertshofen-Am Hart, Bayern, Deutschland`}
+        title="Dachdecker Milbertshofen – Sanierung, Reparatur & Notdienst"
+        description="Ihr Dachdecker in Milbertshofen: Dachsanierung, Reparatur, Flachdach, Spengler, Dachfenster. 24/7 Notdienst, Festpreis & 10 Jahre Garantie. Jetzt anrufen!"
+        canonical=""
+        keywords="Dachdecker Milbertshofen, Dachsanierung Milbertshofen, Dachreparatur Milbertshofen, Flachdach Milbertshofen, Spengler Milbertshofen, Dach Notdienst Milbertshofen, Dachfenster Milbertshofen"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Stadtteile", url: "/stadtteile" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-milbertshofen` }]} />
       <NearbyServiceSchema />
@@ -216,7 +215,7 @@ export default function StadtteilMilbertshofen() {
       <LeadFunnel 
         headline="Dachdecker in Milbertshofen gesucht?"
         subheadline="Wir sind Ihr Partner in Milbertshofen."
-        description="Ihr Dachdecker Milbertshofen – für Gewerbe, Flachdach und Mehrfamilienhäuser."
+        description="Ihr Dachdecker für Milbertshofen – Meisterbetrieb mit schneller Hilfe."
       />
       <Footer />
     </div>

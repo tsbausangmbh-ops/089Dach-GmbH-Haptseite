@@ -72,12 +72,10 @@ export default function StadtteilAubing() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Aubing 2025 | Preise ab 85€/m² | Meisterbetrieb"
-        description="Dachdecker Aubing: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ München West ✓ Kostenlose Beratung. ☎ 089 12621964"
+        title="Dachdecker Aubing – Sanierung, Reparatur & Notdienst"
+        description="Ihr Dachdecker in Aubing: Dachsanierung, Reparatur, Flachdach, Spengler, Dachfenster. 24/7 Notdienst, Festpreis & 10 Jahre Garantie. Jetzt anrufen!"
         canonical="https://089dach.de/dachdecker-aubing-lochhausen-langwied"
-        keywords="dachdecker aubing, dachdecker lochhausen, dachsanierung aubing münchen, dachdecker 81243 81245 81249, dachrinnenreinigung aubing, sturmschaden dach aubing, wasserschaden dach münchen aubing, dach undicht aubing reparieren, dachschaden aubing, was kostet dachdecker aubing, dachdecker aubing bewertung, guter dachdecker aubing, bester dachdecker aubing, dach undicht aubing, dach reparieren lassen aubing, dachschaden aubing beheben, wasserschaden dach aubing, dachdecker aubing günstig, dachdecker aubing festpreis, dachdecker aubing angebot, dachdecker aubing kostenvoranschlag, dachdecker aubing schnell, dachdecker aubing notdienst, dachdecker aubing sofort, dachdecker in meiner nähe aubing, dachdecker 81243"
-        geoPlacename="München Aubing-Lochhausen-Langwied, Bayern, Deutschland"
-        aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für Aubing-Lochhausen-Langwied. Spezialist für Einfamilienhäuser. Tel: 089 12621964.`}
+        keywords="Dachdecker Aubing, Dachsanierung Aubing, Dachreparatur Aubing, Flachdach Aubing, Spengler Aubing, Dach Notdienst Aubing, Dachfenster Aubing"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Stadtteile", url: "/stadtteile" }, { name: `Dachdecker Aubing`, url: `/dachdecker-${stadtteilData.slug}` }]} />
       <NearbyServiceSchema />
@@ -261,11 +259,11 @@ export default function StadtteilAubing() {
       <LeadFunnel 
         headline="Dachdecker in Aubing gesucht?"
         subheadline="Wir sind Ihr Partner in Aubing."
-        description="Ihr Dachdecker Aubing – für Einfamilienhäuser und Reihenhäuser im Münchner Westen."
+        description="Ihr Dachdecker für Aubing – Meisterbetrieb mit schneller Hilfe."
       />
       <Contact 
-        title="Dachdecker für Aubing gesucht?"
-        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Aubing – mit kurzer Anfahrt und Erfahrung seit 1998."
+        title="Dachdecker in Aubing gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Aubing."
       />
       <Footer />
     </div>

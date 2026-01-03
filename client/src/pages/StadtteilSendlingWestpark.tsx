@@ -58,12 +58,10 @@ export default function StadtteilSendlingWestpark() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Sendling-Westpark 2025 | Preise ab 85€/m² | Meisterbetrieb"
-        description="Dachdecker Sendling-Westpark: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Reihenhaus-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
+        title="Dachdecker Sendling-Westpark – Sanierung & Reparatur"
+        description="Ihr Dachdecker in Sendling-Westpark: Dachsanierung, Reparatur, Flachdach, Spengler. 24/7 Notdienst, Festpreis & 10 Jahre Garantie. Jetzt anrufen!"
         canonical="https://089dach.de/dachdecker-sendling-westpark"
-        keywords="dachdecker sendling westpark, dachsanierung westpark münchen, dachdecker reihenhaus münchen, wärmedämmung dach münchen, dachfenster sendling, dachrinnenreinigung sendling-westpark, sturmschaden dach sendling-westpark, wasserschaden dach münchen sendling-westpark, dach undicht sendling-westpark reparieren, dachschaden sendling-westpark, was kostet dachdecker sendling-westpark, dachdecker sendling-westpark bewertung, guter dachdecker sendling-westpark, bester dachdecker sendling-westpark, dach undicht sendling-westpark, dach reparieren lassen sendling-westpark, dachschaden sendling-westpark beheben, wasserschaden dach sendling-westpark, dachdecker sendling-westpark günstig, dachdecker sendling-westpark festpreis, dachdecker sendling-westpark angebot, dachdecker sendling-westpark kostenvoranschlag, dachdecker sendling-westpark schnell, dachdecker sendling-westpark notdienst, dachdecker sendling-westpark sofort, dachdecker in meiner nähe sendling-westpark, dachdecker 81373"
-        geoPlacename="München Sendling-Westpark, Bayern, Deutschland"
-        aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für Sendling-Westpark. Spezialist für Familienhäuser. Tel: 089 12621964.`}
+        keywords="Dachdecker Sendling-Westpark, Dachsanierung Sendling-Westpark, Dachreparatur Sendling-Westpark, Flachdach Sendling-Westpark, Spengler Sendling-Westpark, Dach Notdienst Sendling-Westpark, Dachfenster Sendling-Westpark"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-${stadtteilData.slug}` }]} />
       <NearbyServiceSchema />
@@ -227,12 +225,12 @@ export default function StadtteilSendlingWestpark() {
 
       <LeadFunnel 
         headline="Dachdecker in Sendling-Westpark gesucht?"
-        subheadline="Wir sind Ihr Partner vor Ort."
-        description="Ihr Dachdecker Sendling-Westpark – Familienstadtteil mit Reihenhaus und Mehrfamilienhaus."
+        subheadline="Wir sind Ihr Partner in Sendling-Westpark."
+        description="Ihr Dachdecker für Sendling-Westpark – Meisterbetrieb mit schneller Hilfe."
       />
       <Contact 
-        title="Dachdecker für Sendling-Westpark gesucht?"
-        description="Familienfreundliche Beratung und faire Preise – Ihr Dachdecker-Meisterbetrieb für Sendling-Westpark."
+        title="Dachdecker in Sendling-Westpark gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Sendling-Westpark."
       />
       <Footer />
     </div>

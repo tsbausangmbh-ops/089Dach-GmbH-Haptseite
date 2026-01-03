@@ -72,12 +72,10 @@ export default function StadtteilHarlaching() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Harlaching 2025 | Preise ab 90€/m² | Meisterbetrieb"
-        description="Dachdecker Harlaching: ✓ Dachsanierung ab 90€/m² ✓ 10 Jahre Garantie ✓ Villen-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
-        canonical={`https://089dach.de/dachdecker-harlaching`}
-        keywords={`dachdecker harlaching, dachsanierung einfamilienhaus münchen, dachdecker menterschwaige, dachdecker 81545 81547, dachrinnenreinigung harlaching, sturmschaden dach harlaching, wasserschaden dach münchen harlaching, dach undicht harlaching reparieren, dachschaden harlaching, was kostet dachdecker harlaching, dachdecker harlaching bewertung, guter dachdecker harlaching, bester dachdecker harlaching, dach undicht harlaching, dach reparieren lassen harlaching, dachschaden harlaching beheben, wasserschaden dach harlaching, dachdecker harlaching günstig, dachdecker harlaching festpreis, dachdecker harlaching angebot, dachdecker harlaching kostenvoranschlag, dachdecker harlaching schnell, dachdecker harlaching notdienst, dachdecker harlaching sofort, dachdecker in meiner nähe harlaching, dachdecker 81545`}
-        geoPlacename={`München-Harlaching, Bayern, Deutschland`}
-        aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Harlaching. Spezialisiert auf Einfamilienhäuser und hochwertige Dachsanierungen. Tel: 089 12621964.`}
+        title="Dachdecker Harlaching – Sanierung, Reparatur & Notdienst"
+        description="Ihr Dachdecker in Harlaching: Dachsanierung, Reparatur, Flachdach, Spengler, Dachfenster. 24/7 Notdienst, Festpreis & 10 Jahre Garantie. Jetzt anrufen!"
+        canonical=""
+        keywords="Dachdecker Harlaching, Dachsanierung Harlaching, Dachreparatur Harlaching, Flachdach Harlaching, Spengler Harlaching, Dach Notdienst Harlaching, Dachfenster Harlaching"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Stadtteile", url: "/stadtteile" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-harlaching` }]} />
       <NearbyServiceSchema />
@@ -262,12 +260,12 @@ export default function StadtteilHarlaching() {
 
       <LeadFunnel 
         headline="Dachdecker in Harlaching gesucht?"
-        subheadline="Wir betreuen Villen in Harlaching."
-        description="Ihr Dachdecker für Harlaching – Premium-Qualität für Einfamilienhäuser und Villen."
+        subheadline="Wir sind Ihr Partner in Harlaching."
+        description="Ihr Dachdecker für Harlaching – Meisterbetrieb mit schneller Hilfe."
       />
       <Contact 
-        title="Dachdecker für Harlaching gesucht?"
-        description="Villen-Erfahrung und Premium-Qualität – Ihr Dachdecker-Meisterbetrieb für Harlaching."
+        title="Dachdecker in Harlaching gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Harlaching."
       />
       <Footer />
     </div>

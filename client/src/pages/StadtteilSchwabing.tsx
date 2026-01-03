@@ -57,12 +57,10 @@ export default function StadtteilSchwabing() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Schwabing 2025 | Preise ab 90€/m² | Meisterbetrieb"
-        description="Dachdecker Schwabing: ✓ Dachsanierung ab 90€/m² ✓ 10 Jahre Garantie ✓ Denkmalschutz ✓ Kostenlose Beratung. ☎ 089 12621964"
+        title="Dachdecker Schwabing – Sanierung, Reparatur & Notdienst"
+        description="Ihr Dachdecker in Schwabing: Dachsanierung, Reparatur, Flachdach, Spengler, Dachfenster. 24/7 Notdienst, Festpreis & 10 Jahre Garantie. Jetzt anrufen!"
         canonical="https://089dach.de/dachdecker-schwabing"
-        keywords="dachdecker schwabing empfehlung, dachsanierung denkmalschutz münchen, jugendstil dach reparieren, schieferdach schwabing kosten, altbau dach sanieren, dachdecker historische gebäude münchen, kupferdachrinne schwabing, gaubenrestaurierung schwabing, dachdecker 80798 80799 80801, dachsanierung villa schwabing, sturmschaden altbau schwabing, dachrinnenreinigung schwabing, sturmschaden dach schwabing, wasserschaden dach münchen schwabing, dach undicht schwabing reparieren, dachschaden schwabing, was kostet dachdecker schwabing, dachdecker schwabing bewertung, guter dachdecker schwabing, bester dachdecker schwabing, dach undicht schwabing, dach reparieren lassen schwabing, dachschaden schwabing beheben, wasserschaden dach schwabing, dachdecker schwabing günstig, dachdecker schwabing festpreis, dachdecker schwabing angebot, dachdecker schwabing kostenvoranschlag, dachdecker schwabing schnell, dachdecker schwabing notdienst, dachdecker schwabing sofort, dachdecker in meiner nähe schwabing, dachdecker 80798"
-        geoPlacename={`München-Schwabing, Bayern, Deutschland`}
-        aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Schwabing. Spezialist für denkmalgeschützte Gebäude und Jugendstilbauten. Tel: 089 12621964.`}
+        keywords="Dachdecker Schwabing, Dachsanierung Schwabing, Dachreparatur Schwabing, Flachdach Schwabing, Spengler Schwabing, Dach Notdienst Schwabing, Dachfenster Schwabing"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-${stadtteilData.name.toLowerCase()}` }]} />
       <NearbyServiceSchema />
@@ -229,11 +227,11 @@ export default function StadtteilSchwabing() {
       <LeadFunnel 
         headline="Dachdecker in Schwabing gesucht?"
         subheadline="Wir sind Ihr Partner in Schwabing."
-        description="Ihr Dachdecker für Schwabing – Altbauexperten mit Erfahrung bei historischen Dächern."
+        description="Ihr Dachdecker für Schwabing – Meisterbetrieb mit schneller Hilfe."
       />
       <Contact 
-        title="Dachdecker für Schwabing gesucht?"
-        description="Altbau-Erfahrung, Denkmalschutz-Kompetenz und lokale Referenzen – Ihr Dachdecker-Meisterbetrieb in Schwabing."
+        title="Dachdecker in Schwabing gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Schwabing."
       />
       </main>
       <Footer />

@@ -72,12 +72,10 @@ export default function StadtteilHasenbergl() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Hasenbergl 2025 | Preise ab 85€/m² | Meisterbetrieb"
-        description="Dachdecker Hasenbergl: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Flachdach-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
+        title="Dachdecker Hasenbergl – Sanierung, Reparatur & Notdienst"
+        description="Ihr Dachdecker in Hasenbergl: Dachsanierung, Reparatur, Flachdach, Spengler, Dachfenster. 24/7 Notdienst, Festpreis & 10 Jahre Garantie. Jetzt anrufen!"
         canonical="https://089dach.de/dachdecker-hasenbergl"
-        keywords="dachdecker hasenbergl, dachsanierung hasenbergl, flachdach münchen nord, dachrinnenreinigung hasenbergl, sturmschaden dach hasenbergl, wasserschaden dach münchen hasenbergl, dach undicht hasenbergl reparieren, dachschaden hasenbergl, dachdecker 80933 80935, was kostet dachdecker hasenbergl, dachdecker hasenbergl bewertung, guter dachdecker hasenbergl, bester dachdecker hasenbergl, dach undicht hasenbergl, dach reparieren lassen hasenbergl, dachschaden hasenbergl beheben, wasserschaden dach hasenbergl, dachdecker hasenbergl günstig, dachdecker hasenbergl festpreis, dachdecker hasenbergl angebot, dachdecker hasenbergl kostenvoranschlag, dachdecker hasenbergl schnell, dachdecker hasenbergl notdienst, dachdecker hasenbergl sofort, dachdecker in meiner nähe hasenbergl, dachdecker 80933"
-        geoPlacename="München-Hasenbergl, Bayern, Deutschland"
-        aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für das Hasenbergl. Spezialist für Sanierung. Tel: 089 12621964.`}
+        keywords="Dachdecker Hasenbergl, Dachsanierung Hasenbergl, Dachreparatur Hasenbergl, Flachdach Hasenbergl, Spengler Hasenbergl, Dach Notdienst Hasenbergl, Dachfenster Hasenbergl"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Stadtteile", url: "/stadtteile" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-${stadtteilData.slug}` }]} />
       <NearbyServiceSchema />
@@ -261,12 +259,12 @@ export default function StadtteilHasenbergl() {
 
       <LeadFunnel 
         headline="Dachdecker in Hasenbergl gesucht?"
-        subheadline="Wir sind Ihr Partner im Hasenbergl."
-        description="Ihr Dachdecker Hasenbergl – Sanierungs-Experten für Flachdach und Wärmedämmung."
+        subheadline="Wir sind Ihr Partner in Hasenbergl."
+        description="Ihr Dachdecker für Hasenbergl – Meisterbetrieb mit schneller Hilfe."
       />
       <Contact 
-        title="Dachdecker fürs Hasenbergl gesucht?"
-        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb im Hasenbergl – mit kurzer Anfahrt und Erfahrung seit 1998."
+        title="Dachdecker in Hasenbergl gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Hasenbergl."
       />
       <Footer />
     </div>

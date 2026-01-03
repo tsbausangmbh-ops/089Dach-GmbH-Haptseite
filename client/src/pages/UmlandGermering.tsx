@@ -58,12 +58,10 @@ export default function UmlandGermering() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Germering 2025 | Preise ab 90€/m² | Meisterbetrieb"
-        description="Dachdecker Germering: ✓ Dachsanierung ab 90€/m² ✓ 10 Jahre Garantie ✓ Nur 20min Anfahrt ✓ Kostenlose Beratung. ☎ 089 12621964"
-        canonical={`https://089dach.de/dachdecker-germering`}
-        keywords={`dachdecker germering, dachsanierung germering, dachdecker fürstenfeldbruck, dachdämmung germering, dachfenster germering, sturmschaden dach germering, flachdach germering, solardach germering, dachziegel wechseln germering, dachdecker 82110, dachrinne germering, dachsanierung einfamilienhaus germering, was kostet dachdecker germering, dachdecker germering erfahrungen, guter dachdecker germering, bester dachdecker germering bei münchen, dach undicht germering, dach reparieren germering, notdienst dachdecker germering, dachdecker germering preise, dachdecker germering kosten, dachdecker germering günstig, dachdecker germering festpreis, dachdecker germering landkreis, dachdecker in der nähe germering, dachdeckerbetrieb germering`}
-        geoPlacename={`Germering, Landkreis Fürstenfeldbruck, Bayern, Deutschland`}
-        aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für Germering bei München. Schnelle Anfahrt aus München. Tel: 089 12621964.`}
+        title="Dachdecker Germering – Sanierung, Reparatur & Notdienst"
+        description="Ihr Dachdecker in Germering: Dachsanierung, Reparatur, Flachdach, Spengler, Dachfenster. 24/7 Notdienst, Festpreis & 10 Jahre Garantie. Jetzt anrufen!"
+        canonical=""
+        keywords="Dachdecker Germering, Dachsanierung Germering, Dachreparatur Germering, Flachdach Germering, Spengler Germering, Dach Notdienst Germering, Dachfenster Germering"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Umland", url: "/umland" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-${stadtteilData.name.toLowerCase()}` }]} />
       <NearbyServiceSchema />
@@ -226,12 +224,12 @@ export default function UmlandGermering() {
 
       <LeadFunnel 
         headline="Dachdecker in Germering gesucht?"
-        subheadline="Wir kommen auch nach Germering."
-        description="Ihr Dachdecker für Germering – schnelle Hilfe aus München für Ihre Dacharbeiten."
+        subheadline="Wir sind Ihr Partner in Germering."
+        description="Ihr Dachdecker für Germering – Meisterbetrieb mit schneller Hilfe."
       />
       <Contact 
-        title="Dachdecker für Germering gesucht?"
-        description="Schnelle Anfahrt aus München – Ihr Dachdecker-Meisterbetrieb für Germering."
+        title="Dachdecker in Germering gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Germering."
       />
       <Footer />
     </div>

@@ -64,12 +64,10 @@ export default function StadtteilLaim() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Laim 2025 | Preise ab 85€/m² | Meisterbetrieb"
-        description="Dachdecker Laim: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Nur 3km entfernt ✓ Kostenlose Beratung. ☎ 089 12621964"
+        title="Dachdecker Laim – Sanierung, Reparatur & Notdienst"
+        description="Ihr Dachdecker in Laim: Dachsanierung, Reparatur, Flachdach, Spengler, Dachfenster. 24/7 Notdienst, Festpreis & 10 Jahre Garantie. Jetzt anrufen!"
         canonical="https://089dach.de/dachdecker-laim"
-        keywords="dachdecker laim empfehlung, dachrinnenreinigung laim, sturmschaden dach laim, wasserschaden dach münchen laim, dach undicht laim reparieren, dachschaden laim, flachdach undicht laim soforthilfe, dachdecker 80686 80687, was kostet dachdecker laim, dachdecker laim bewertung, guter dachdecker laim, bester dachdecker laim, dach undicht laim, dach reparieren lassen laim, dachschaden laim beheben, wasserschaden dach laim, dachdecker laim günstig, dachdecker laim festpreis, dachdecker laim angebot, dachdecker laim kostenvoranschlag, dachdecker laim schnell, dachdecker laim notdienst, dachdecker laim sofort, dachdecker in meiner nähe laim, dachdecker 80686"
-        geoPlacename={`München-Laim, Bayern, Deutschland`}
-        aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Laim. Nur 3 km entfernt. Spezialist für Flachdach und Dachsanierung. Tel: 089 12621964.`}
+        keywords="Dachdecker Laim, Dachsanierung Laim, Dachreparatur Laim, Flachdach Laim, Spengler Laim, Dach Notdienst Laim, Dachfenster Laim"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-${stadtteilData.name.toLowerCase()}` }]} />
       <NearbyServiceSchema />
@@ -234,11 +232,11 @@ export default function StadtteilLaim() {
       <LeadFunnel 
         headline="Dachdecker in Laim gesucht?"
         subheadline="Wir sind Ihr Partner in Laim."
-        description="Ihr Dachdecker für Laim – Meisterbetrieb mit kurzen Wegen und schneller Hilfe."
+        description="Ihr Dachdecker für Laim – Meisterbetrieb mit schneller Hilfe."
       />
       <Contact 
-        title="Dachdecker für Laim gesucht?"
-        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Laim – mit kurzer Anfahrt und Erfahrung seit 1998."
+        title="Dachdecker in Laim gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Laim."
       />
       <Footer />
     </div>

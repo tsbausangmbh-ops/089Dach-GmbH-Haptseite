@@ -53,12 +53,10 @@ export default function StadtteilSendling() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Sendling 2025 | Preise ab 85€/m² | Meisterbetrieb"
-        description="Dachdecker Sendling: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Dachausbau-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
+        title="Dachdecker Sendling – Sanierung, Reparatur & Notdienst"
+        description="Ihr Dachdecker in Sendling: Dachsanierung, Reparatur, Flachdach, Spengler, Dachfenster. 24/7 Notdienst, Festpreis & 10 Jahre Garantie. Jetzt anrufen!"
         canonical="https://089dach.de/dachdecker-sendling"
-        keywords={`dachausbau kosten sendling, dachdecker sendling bewertung, gaube bauen münchen sendling, dachgeschoss ausbauen kosten, kfw förderung dachausbau, dachdecker in der nähe sendling, flachdach sendling, dachfenster sendling, wärmedämmung dach sendling, sturmschaden dach sendling, dachdecker 81369 81371, dachsanierung mehrfamilienhaus sendling, dachrinnenreinigung sendling, sturmschaden dach sendling, wasserschaden dach münchen sendling, dach undicht sendling reparieren, dachschaden sendling, was kostet dachdecker sendling, dachdecker sendling bewertung, guter dachdecker sendling, bester dachdecker sendling, dach undicht sendling, dach reparieren lassen sendling, dachschaden sendling beheben, wasserschaden dach sendling, dachdecker sendling günstig, dachdecker sendling festpreis, dachdecker sendling angebot, dachdecker sendling kostenvoranschlag, dachdecker sendling schnell, dachdecker sendling notdienst, dachdecker sendling sofort, dachdecker in meiner nähe sendling, dachdecker 81369`}
-        geoPlacename={`München-Sendling, Bayern, Deutschland`}
-        aiSummary={`089Dach GmbH ist Ihr Dachdecker für München-Sendling. Spezialist für Dachausbau und Gaubenbau. Tel: 089 12621964.`}
+        keywords="Dachdecker Sendling, Dachsanierung Sendling, Dachreparatur Sendling, Flachdach Sendling, Spengler Sendling, Dach Notdienst Sendling, Dachfenster Sendling"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-${stadtteilData.name.toLowerCase()}` }]} />
       <NearbyServiceSchema />
@@ -165,11 +163,11 @@ export default function StadtteilSendling() {
       <LeadFunnel 
         headline="Dachdecker in Sendling gesucht?"
         subheadline="Wir sind Ihr Partner in Sendling."
-        description="Ihr Dachdecker für Sendling – Meisterbetrieb mit kurzen Wegen und schneller Hilfe."
+        description="Ihr Dachdecker für Sendling – Meisterbetrieb mit schneller Hilfe."
       />
       <Contact 
-        title="Dachdecker für Sendling gesucht?"
-        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Sendling – mit kurzer Anfahrt und Erfahrung seit 1998."
+        title="Dachdecker in Sendling gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Sendling."
       />
       </main>
       <Footer />

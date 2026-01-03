@@ -72,12 +72,10 @@ export default function StadtteilFasanerie() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Fasanerie 2025 | Preise ab 85€/m² | Meisterbetrieb"
-        description="Dachdecker Fasanerie: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Nur 5km entfernt ✓ Kostenlose Beratung. ☎ 089 12621964"
-        canonical={`https://089dach.de/dachdecker-fasanerie`}
-        keywords={`dachdecker fasanerie, dachsanierung fasanerie münchen, dachdecker münchen nord, dachdecker 80995 80996, dachrinnenreinigung fasanerie, sturmschaden dach fasanerie, wasserschaden dach münchen fasanerie, dach undicht fasanerie reparieren, dachschaden fasanerie, was kostet dachdecker fasanerie, dachdecker fasanerie bewertung, guter dachdecker fasanerie, bester dachdecker fasanerie, dach undicht fasanerie, dach reparieren lassen fasanerie, dachschaden fasanerie beheben, wasserschaden dach fasanerie, dachdecker fasanerie günstig, dachdecker fasanerie festpreis, dachdecker fasanerie angebot, dachdecker fasanerie kostenvoranschlag, dachdecker fasanerie schnell, dachdecker fasanerie notdienst, dachdecker fasanerie sofort, dachdecker in meiner nähe fasanerie, dachdecker 80995`}
-        geoPlacename={`München-Fasanerie, Bayern, Deutschland`}
-        aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Fasanerie. Spezialisiert auf Einfamilienhäuser und Reihenhäuser. Tel: 089 12621964.`}
+        title="Dachdecker Fasanerie – Sanierung, Reparatur & Notdienst"
+        description="Ihr Dachdecker in Fasanerie: Dachsanierung, Reparatur, Flachdach, Spengler, Dachfenster. 24/7 Notdienst, Festpreis & 10 Jahre Garantie. Jetzt anrufen!"
+        canonical=""
+        keywords="Dachdecker Fasanerie, Dachsanierung Fasanerie, Dachreparatur Fasanerie, Flachdach Fasanerie, Spengler Fasanerie, Dach Notdienst Fasanerie, Dachfenster Fasanerie"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Stadtteile", url: "/stadtteile" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-${stadtteilData.name.toLowerCase()}` }]} />
       <NearbyServiceSchema />
@@ -260,12 +258,12 @@ export default function StadtteilFasanerie() {
 
       <LeadFunnel 
         headline="Dachdecker in Fasanerie gesucht?"
-        subheadline="Wir sind Ihr Partner in der Fasanerie."
-        description="Ihr Dachdecker Fasanerie – Spezialist für Einfamilienhäuser und Reihenhäuser."
+        subheadline="Wir sind Ihr Partner in Fasanerie."
+        description="Ihr Dachdecker für Fasanerie – Meisterbetrieb mit schneller Hilfe."
       />
       <Contact 
-        title="Dachdecker für die Fasanerie gesucht?"
-        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in der Fasanerie – mit kurzer Anfahrt und Erfahrung seit 1998."
+        title="Dachdecker in Fasanerie gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Fasanerie."
       />
       <Footer />
     </div>

@@ -71,12 +71,10 @@ export default function StadtteilHadern() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Hadern 2025 | Preise ab 85€/m² | Meisterbetrieb"
-        description="Dachdecker Hadern: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Nur 5km entfernt ✓ Kostenlose Beratung. ☎ 089 12621964"
+        title="Dachdecker Hadern – Sanierung, Reparatur & Notdienst"
+        description="Ihr Dachdecker in Hadern: Dachsanierung, Reparatur, Flachdach, Spengler, Dachfenster. 24/7 Notdienst, Festpreis & 10 Jahre Garantie. Jetzt anrufen!"
         canonical="https://089dach.de/dachdecker-hadern"
-        keywords="dachdecker hadern, dachdecker großhadern, flachdach sanierung münchen, dachsanierung hadern, dachdecker 81375 81377, dachrinnenreinigung hadern, sturmschaden dach hadern, wasserschaden dach münchen hadern, dach undicht hadern reparieren, dachschaden hadern, was kostet dachdecker hadern, dachdecker hadern bewertung, guter dachdecker hadern, bester dachdecker hadern, dach undicht hadern, dach reparieren lassen hadern, dachschaden hadern beheben, wasserschaden dach hadern, dachdecker hadern günstig, dachdecker hadern festpreis, dachdecker hadern angebot, dachdecker hadern kostenvoranschlag, dachdecker hadern schnell, dachdecker hadern notdienst, dachdecker hadern sofort, dachdecker in meiner nähe hadern, dachdecker 81375"
-        geoPlacename="München-Hadern, Bayern, Deutschland"
-        aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Hadern. Nur 5 km entfernt. Tel: 089 12621964.`}
+        keywords="Dachdecker Hadern, Dachsanierung Hadern, Dachreparatur Hadern, Flachdach Hadern, Spengler Hadern, Dach Notdienst Hadern, Dachfenster Hadern"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Stadtteile", url: "/stadtteile" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-hadern` }]} />
       <NearbyServiceSchema />
@@ -260,11 +258,11 @@ export default function StadtteilHadern() {
       <LeadFunnel 
         headline="Dachdecker in Hadern gesucht?"
         subheadline="Wir sind Ihr Partner in Hadern."
-        description="Ihr Dachdecker Hadern – nur 5 km entfernt, schnelle Hilfe für Flachdach und Bestandsbau."
+        description="Ihr Dachdecker für Hadern – Meisterbetrieb mit schneller Hilfe."
       />
       <Contact 
-        title="Dachdecker für Hadern gesucht?"
-        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Hadern – mit kurzer Anfahrt und Erfahrung seit 1998."
+        title="Dachdecker in Hadern gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Hadern."
       />
       <Footer />
     </div>

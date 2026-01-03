@@ -95,12 +95,10 @@ export default function StadtteilPasing() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Pasing 2025 | Preise ab 85€/m² | Meisterbetrieb"
-        description="Dachdecker Pasing: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Nur 2km entfernt ✓ Kostenlose Beratung. ☎ 089 12621964"
+        title="Dachdecker Pasing – Sanierung, Reparatur & Notdienst"
+        description="Ihr Dachdecker in Pasing: Dachsanierung, Reparatur, Flachdach, Spengler, Dachfenster. 24/7 Notdienst, Festpreis & 10 Jahre Garantie. Jetzt anrufen!"
         canonical="https://089dach.de/dachdecker-pasing"
-        keywords="dachdecker pasing empfehlung, dachsanierung pasing altbau, dachdecker in der nähe pasing, biberschwanz pasing, dachfenster einbau pasing, dachreparatur pasing münchen, flachdach pasing, dachgaube pasing, sturmschaden dach pasing, dachdecker 81241 81243, wärmedämmung dach pasing, dachrinnenreinigung pasing, sturmschaden dach pasing, wasserschaden dach münchen pasing, dach undicht pasing reparieren, dachschaden pasing, was kostet dachdecker pasing, dachdecker pasing bewertung, guter dachdecker pasing, bester dachdecker pasing, dach undicht pasing, dach reparieren lassen pasing, dachschaden pasing beheben, wasserschaden dach pasing, dachdecker pasing günstig, dachdecker pasing festpreis, dachdecker pasing angebot, dachdecker pasing kostenvoranschlag, dachdecker pasing schnell, dachdecker pasing notdienst, dachdecker pasing sofort, dachdecker in meiner nähe pasing, dachdecker 81241"
-        geoPlacename={`${stadtteilData.fullName}, Bayern, Deutschland`}
-        aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für ${stadtteilData.fullName}. Nur ${stadtteilData.entfernung} von unserem Standort in Obermenzing. Dachsanierung, Dachreparatur, Dachfenster und Spenglerarbeiten. Tel: 089 12621964.`}
+        keywords="Dachdecker Pasing, Dachsanierung Pasing, Dachreparatur Pasing, Flachdach Pasing, Spengler Pasing, Dach Notdienst Pasing, Dachfenster Pasing"
       />
       <BreadcrumbSchema items={[
         { name: "Home", url: "/" },
@@ -319,11 +317,11 @@ export default function StadtteilPasing() {
       <LeadFunnel 
         headline="Dachdecker in Pasing gesucht?"
         subheadline="Wir sind Ihr Partner in Pasing."
-        description="Ihr Dachdecker für Pasing – Meisterbetrieb mit kurzen Wegen und schneller Hilfe."
+        description="Ihr Dachdecker für Pasing – Meisterbetrieb mit schneller Hilfe."
       />
       <Contact 
-        title="Dachdecker für Pasing gesucht?"
-        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Pasing – mit kurzer Anfahrt und Erfahrung seit 1998."
+        title="Dachdecker in Pasing gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Pasing."
       />
       </main>
       <Footer />

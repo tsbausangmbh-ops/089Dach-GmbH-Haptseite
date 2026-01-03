@@ -72,12 +72,10 @@ export default function StadtteilFeldmoching() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Feldmoching 2025 | Preise ab 85€/m² | Meisterbetrieb"
-        description="Dachdecker Feldmoching: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Flachdach & Steildach ✓ Kostenlose Beratung. ☎ 089 12621964"
-        canonical={`https://089dach.de/dachdecker-feldmoching`}
-        keywords={`dachdecker feldmoching, dachsanierung feldmoching münchen, flachdach feldmoching, dachdecker hasenbergl, dachdecker 80933 80995, dachrinnenreinigung feldmoching, sturmschaden dach feldmoching, wasserschaden dach münchen feldmoching, dach undicht feldmoching reparieren, dachschaden feldmoching, was kostet dachdecker feldmoching, dachdecker feldmoching bewertung, guter dachdecker feldmoching, bester dachdecker feldmoching, dach undicht feldmoching, dach reparieren lassen feldmoching, dachschaden feldmoching beheben, wasserschaden dach feldmoching, dachdecker feldmoching günstig, dachdecker feldmoching festpreis, dachdecker feldmoching angebot, dachdecker feldmoching kostenvoranschlag, dachdecker feldmoching schnell, dachdecker feldmoching notdienst, dachdecker feldmoching sofort, dachdecker in meiner nähe feldmoching, dachdecker 80933`}
-        geoPlacename={`München-Feldmoching, Bayern, Deutschland`}
-        aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Feldmoching. Spezialisiert auf alle Gebäudetypen. Tel: 089 12621964.`}
+        title="Dachdecker Feldmoching – Sanierung, Reparatur & Notdienst"
+        description="Ihr Dachdecker in Feldmoching: Dachsanierung, Reparatur, Flachdach, Spengler, Dachfenster. 24/7 Notdienst, Festpreis & 10 Jahre Garantie. Jetzt anrufen!"
+        canonical=""
+        keywords="Dachdecker Feldmoching, Dachsanierung Feldmoching, Dachreparatur Feldmoching, Flachdach Feldmoching, Spengler Feldmoching, Dach Notdienst Feldmoching, Dachfenster Feldmoching"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Stadtteile", url: "/stadtteile" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-${stadtteilData.name.toLowerCase()}` }]} />
       <NearbyServiceSchema />
@@ -261,11 +259,11 @@ export default function StadtteilFeldmoching() {
       <LeadFunnel 
         headline="Dachdecker in Feldmoching gesucht?"
         subheadline="Wir sind Ihr Partner in Feldmoching."
-        description="Ihr Dachdecker Feldmoching – Meisterbetrieb mit Erfahrung für alle Gebäudetypen."
+        description="Ihr Dachdecker für Feldmoching – Meisterbetrieb mit schneller Hilfe."
       />
       <Contact 
-        title="Dachdecker für Feldmoching gesucht?"
-        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Feldmoching – mit kurzer Anfahrt und Erfahrung seit 1998."
+        title="Dachdecker in Feldmoching gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Feldmoching."
       />
       <Footer />
     </div>

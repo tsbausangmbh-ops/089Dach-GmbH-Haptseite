@@ -58,12 +58,10 @@ export default function StadtteilNymphenburg() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Nymphenburg 2025 | Preise ab 90€/m² | Meisterbetrieb"
-        description="Dachdecker Nymphenburg: ✓ Dachsanierung ab 90€/m² ✓ 10 Jahre Garantie ✓ Denkmalschutz ✓ Kostenlose Beratung. ☎ 089 12621964"
+        title="Dachdecker Nymphenburg – Sanierung, Reparatur & Notdienst"
+        description="Ihr Dachdecker in Nymphenburg: Dachsanierung, Reparatur, Flachdach, Spengler, Dachfenster. 24/7 Notdienst, Festpreis & 10 Jahre Garantie. Jetzt anrufen!"
         canonical="https://089dach.de/dachdecker-nymphenburg"
-        keywords="dachdecker nymphenburg empfehlung, dachrinnenreinigung nymphenburg, sturmschaden dach nymphenburg, wasserschaden dach münchen nymphenburg, dach undicht nymphenburg reparieren, dachschaden nymphenburg, biberschwanz kosten münchen, was kostet dachdecker nymphenburg, dachdecker nymphenburg bewertung, guter dachdecker nymphenburg, bester dachdecker nymphenburg, dach undicht nymphenburg, dach reparieren lassen nymphenburg, dachschaden nymphenburg beheben, wasserschaden dach nymphenburg, dachdecker nymphenburg günstig, dachdecker nymphenburg festpreis, dachdecker nymphenburg angebot, dachdecker nymphenburg kostenvoranschlag, dachdecker nymphenburg schnell, dachdecker nymphenburg notdienst, dachdecker nymphenburg sofort, dachdecker in meiner nähe nymphenburg, dachdecker 80638"
-        geoPlacename={`München-Nymphenburg, Bayern, Deutschland`}
-        aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Nymphenburg. Spezialist für Altbauten und denkmalgeschützte Gebäude. Tel: 089 12621964.`}
+        keywords="Dachdecker Nymphenburg, Dachsanierung Nymphenburg, Dachreparatur Nymphenburg, Flachdach Nymphenburg, Spengler Nymphenburg, Dach Notdienst Nymphenburg, Dachfenster Nymphenburg"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Stadtteile", url: "/stadtteile" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-${stadtteilData.name.toLowerCase()}` }]} />
       <NearbyServiceSchema />
@@ -227,12 +225,12 @@ export default function StadtteilNymphenburg() {
 
       <LeadFunnel 
         headline="Dachdecker in Nymphenburg gesucht?"
-        subheadline="Wir betreuen historische Dächer."
-        description="Ihr Dachdecker für Nymphenburg – Denkmalschutz-Experten für historische Altbauten."
+        subheadline="Wir sind Ihr Partner in Nymphenburg."
+        description="Ihr Dachdecker für Nymphenburg – Meisterbetrieb mit schneller Hilfe."
       />
       <Contact 
-        title="Dachdecker für Nymphenburg gesucht?"
-        description="Altbau-Erfahrung und Denkmalschutz-Kompetenz – Ihr Dachdecker-Meisterbetrieb für Nymphenburg."
+        title="Dachdecker in Nymphenburg gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Nymphenburg."
       />
       <Footer />
     </div>

@@ -58,12 +58,10 @@ export default function UmlandStarnberg() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Starnberg 2025 | Preise ab 95€/m² | Meisterbetrieb"
-        description="Dachdecker Starnberg: ✓ Dachsanierung ab 95€/m² ✓ 10 Jahre Garantie ✓ Nur 30min Anfahrt ✓ Kostenlose Beratung. ☎ 089 12621964"
-        canonical={`https://089dach.de/dachdecker-starnberg`}
-        keywords={`dachdecker starnberg, dachsanierung starnberg, villa dachdecker starnberger see, schieferdach starnberg, kupferdach starnberg, denkmalschutz dach starnberg, dachsanierung landkreis starnberg, seevilla dach starnberg, landhausdach starnberg, sturmschaden dach starnberg, dachfenster starnberg, premium dachdecker 82319, was kostet dachdecker starnberg, dachdecker starnberg erfahrungen, guter dachdecker starnberg, bester dachdecker starnberg bei münchen, dach undicht starnberg, dach reparieren starnberg, notdienst dachdecker starnberg, dachdecker starnberg preise, dachdecker starnberg kosten, dachdecker starnberg günstig, dachdecker starnberg festpreis, dachdecker starnberg landkreis, dachdecker in der nähe starnberg, dachdeckerbetrieb starnberg`}
-        geoPlacename={`Starnberg, Landkreis Starnberg, Bayern, Deutschland`}
-        aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für Starnberg am See. Spezialisiert auf Premium-Villen. Tel: 089 12621964.`}
+        title="Dachdecker Starnberg – Sanierung, Reparatur & Notdienst"
+        description="Ihr Dachdecker in Starnberg: Dachsanierung, Reparatur, Flachdach, Spengler, Dachfenster. 24/7 Notdienst, Festpreis & 10 Jahre Garantie. Jetzt anrufen!"
+        canonical=""
+        keywords="Dachdecker Starnberg, Dachsanierung Starnberg, Dachreparatur Starnberg, Flachdach Starnberg, Spengler Starnberg, Dach Notdienst Starnberg, Dachfenster Starnberg"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Umland", url: "/umland" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-${stadtteilData.name.toLowerCase()}` }]} />
       <NearbyServiceSchema />
@@ -226,12 +224,12 @@ export default function UmlandStarnberg() {
 
       <LeadFunnel 
         headline="Dachdecker in Starnberg gesucht?"
-        subheadline="Wir betreuen Villen am Starnberger See."
-        description="Ihr Dachdecker für Starnberg – schnelle Hilfe aus München für Ihre Dacharbeiten."
+        subheadline="Wir sind Ihr Partner in Starnberg."
+        description="Ihr Dachdecker für Starnberg – Meisterbetrieb mit schneller Hilfe."
       />
       <Contact 
-        title="Dachdecker für Starnberg gesucht?"
-        description="Villen-Erfahrung und Premium-Qualität – Ihr Dachdecker-Meisterbetrieb für Starnberg und den See."
+        title="Dachdecker in Starnberg gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Starnberg."
       />
       <Footer />
     </div>

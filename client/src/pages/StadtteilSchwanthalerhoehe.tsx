@@ -58,12 +58,10 @@ export default function StadtteilSchwanthalerhoehe() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Schwanthalerhöhe 2025 | Preise ab 85€/m² | Meisterbetrieb"
-        description="Dachdecker Schwanthalerhöhe: ✓ Dachsanierung ab 85€/m² ✓ 10 Jahre Garantie ✓ Altbau-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
+        title="Dachdecker Schwanthalerhöhe – Sanierung & Reparatur"
+        description="Ihr Dachdecker in Schwanthalerhöhe: Dachsanierung, Reparatur, Flachdach, Spengler. 24/7 Notdienst, Festpreis & 10 Jahre Garantie. Jetzt anrufen!"
         canonical="https://089dach.de/dachdecker-schwanthalerhoehe"
-        keywords="dachdecker schwanthalerhöhe, dachdecker theresienwiese, dachsanierung münchen zentral, flachdach schwanthalerhöhe, dachdecker messe münchen, dachrinnenreinigung schwanthalerhöhe, sturmschaden dach schwanthalerhöhe, wasserschaden dach münchen schwanthalerhöhe, dach undicht schwanthalerhöhe reparieren, dachschaden schwanthalerhöhe, was kostet dachdecker schwanthalerhöhe, dachdecker schwanthalerhöhe bewertung, guter dachdecker schwanthalerhöhe, bester dachdecker schwanthalerhöhe, dach undicht schwanthalerhöhe, dach reparieren lassen schwanthalerhöhe, dachschaden schwanthalerhöhe beheben, wasserschaden dach schwanthalerhöhe, dachdecker schwanthalerhöhe günstig, dachdecker schwanthalerhöhe festpreis, dachdecker schwanthalerhöhe angebot, dachdecker schwanthalerhöhe kostenvoranschlag, dachdecker schwanthalerhöhe schnell, dachdecker schwanthalerhöhe notdienst, dachdecker schwanthalerhöhe sofort, dachdecker in meiner nähe schwanthalerhöhe, dachdecker 80339"
-        geoPlacename="München-Schwanthalerhöhe, Bayern, Deutschland"
-        aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für die Schwanthalerhöhe. Altbau bis Neubau. Tel: 089 12621964.`}
+        keywords="Dachdecker Schwanthalerhöhe, Dachsanierung Schwanthalerhöhe, Dachreparatur Schwanthalerhöhe, Flachdach Schwanthalerhöhe, Spengler Schwanthalerhöhe, Dach Notdienst Schwanthalerhöhe, Dachfenster Schwanthalerhöhe"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-${stadtteilData.slug}` }]} />
       <NearbyServiceSchema />
@@ -227,12 +225,12 @@ export default function StadtteilSchwanthalerhoehe() {
 
       <LeadFunnel 
         headline="Dachdecker in Schwanthalerhöhe gesucht?"
-        subheadline="Wir sind Ihr Partner an der Schwanthalerhöhe."
-        description="Ihr Dachdecker Schwanthalerhöhe – zentral in München für Altbau und Neubau."
+        subheadline="Wir sind Ihr Partner in Schwanthalerhöhe."
+        description="Ihr Dachdecker für Schwanthalerhöhe – Meisterbetrieb mit schneller Hilfe."
       />
       <Contact 
-        title="Dachdecker für die Schwanthalerhöhe gesucht?"
-        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb für die Schwanthalerhöhe – mit kurzer Anfahrt und Erfahrung seit 1998."
+        title="Dachdecker in Schwanthalerhöhe gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Schwanthalerhöhe."
       />
       <Footer />
     </div>

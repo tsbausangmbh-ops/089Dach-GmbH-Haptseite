@@ -57,12 +57,10 @@ export default function StadtteilLehel() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Lehel 2025 | Preise ab 95€/m² | Meisterbetrieb"
-        description="Dachdecker Lehel: ✓ Dachsanierung ab 95€/m² ✓ 10 Jahre Garantie ✓ Villen-Experten ✓ Kostenlose Beratung. ☎ 089 12621964"
+        title="Dachdecker Lehel – Sanierung, Reparatur & Notdienst"
+        description="Ihr Dachdecker in Lehel: Dachsanierung, Reparatur, Flachdach, Spengler, Dachfenster. 24/7 Notdienst, Festpreis & 10 Jahre Garantie. Jetzt anrufen!"
         canonical="https://089dach.de/dachdecker-lehel"
-        keywords="dachdecker lehel, dachrinnenreinigung lehel, sturmschaden dach lehel, wasserschaden dach münchen lehel, dach undicht lehel reparieren, dachschaden lehel, dachsanierung villa münchen, kupferdach lehel, dachdecker 80538 80539, was kostet dachdecker lehel, dachdecker lehel bewertung, guter dachdecker lehel, bester dachdecker lehel, dach undicht lehel, dach reparieren lassen lehel, dachschaden lehel beheben, wasserschaden dach lehel, dachdecker lehel günstig, dachdecker lehel festpreis, dachdecker lehel angebot, dachdecker lehel kostenvoranschlag, dachdecker lehel schnell, dachdecker lehel notdienst, dachdecker lehel sofort, dachdecker in meiner nähe lehel, dachdecker 80538"
-        geoPlacename="München-Lehel, Bayern, Deutschland"
-        aiSummary={`089Dach GmbH ist Ihr Dachdecker-Meisterbetrieb für München-Lehel. Spezialist für Villen und historische Bauten. Tel: 089 12621964.`}
+        keywords="Dachdecker Lehel, Dachsanierung Lehel, Dachreparatur Lehel, Flachdach Lehel, Spengler Lehel, Dach Notdienst Lehel, Dachfenster Lehel"
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: `Dachdecker ${stadtteilData.name}`, url: `/dachdecker-${stadtteilData.name.toLowerCase()}` }]} />
       <NearbyServiceSchema />
@@ -227,12 +225,12 @@ export default function StadtteilLehel() {
 
       <LeadFunnel 
         headline="Dachdecker in Lehel gesucht?"
-        subheadline="Wir betreuen Altbauten im Lehel."
-        description="Ihr Dachdecker Lehel – Villen-Experten für historische Dächer und Kupferarbeiten."
+        subheadline="Wir sind Ihr Partner in Lehel."
+        description="Ihr Dachdecker für Lehel – Meisterbetrieb mit schneller Hilfe."
       />
       <Contact 
-        title="Dachdecker fürs Lehel gesucht?"
-        description="Villen-Erfahrung und Premium-Qualität – Ihr Dachdecker-Meisterbetrieb fürs Lehel."
+        title="Dachdecker in Lehel gesucht?"
+        description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Lehel."
       />
       <Footer />
     </div>
