@@ -127,10 +127,10 @@ export default function FAQ() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker Fragen München | Was kostet Dachsanierung? FAQ 2025"
-        description="Was kostet eine Dachsanierung? Wie lange dauert Dachreparatur? 22 Antworten vom Meister. Festpreisgarantie ✓ Kostenlose Beratung ✓ Jetzt informieren!"
+        title="FAQ & Preise Dachdecker München – Kosten, Ablauf & Garantie"
+        description="Häufige Fragen & transparente Preise: Dachinspektion ab 150 €, Infos zu Sanierung, Reparatur, Terminen, Garantie & Förderung. Jetzt Antworten lesen."
         canonical="https://089dach.de/faq"
-        keywords="was kostet dachsanierung münchen, wie lange dauert dachreparatur, dachdecker in der nähe münchen, dach undicht was tun, dachsanierung kosten pro qm, dachfenster einbau kosten, dachrinne erneuern kosten, kfw förderung dach 2025, dachdecker fragen vor auftrag, woran erkennt man guten dachdecker, dachsanierung ablauf schritte, kann ich bei dachsanierung wohnen bleiben, gibt dachdecker garantie, wie oft dach warten lassen, dachdecker bei regen arbeiten, angebot dachdecker verstehen, dachdecker münchner umland, dachdecker empfehlung münchen"
+        keywords="Dachdecker FAQ München, Dachsanierung Fragen, Dachreparatur Fragen, Dachkosten München, Dachförderung München, Dachinspektion Preis München, Dachsanierung Ablauf München"
         aiSummary="089Dach GmbH FAQ: 22 Antworten zu Dachsanierung, Kosten, Förderungen, Wartung und Garantie. Dachdecker-Meisterbetrieb München-Obermenzing seit 1998. Kostenlose Erstberatung. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "FAQ", url: "/faq" }]} />

@@ -12,12 +12,12 @@ export default function Sturmschaden() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Sturmschaden München 2025 | Kosten ab 200€ | Meisterbetrieb"
-        description="Sturmschaden München: ✓ Kosten ab 200€ ✓ 10 Jahre Garantie ✓ Kostenlose Beratung ✓ Festpreisangebot. ☎ 089 12621964"
+        title="Sturmschaden Dach München – Soforthilfe & Versicherung"
+        description="Sturmschaden am Dach? Wir sichern Ihr Dach innerhalb 60 Min., dokumentieren den Schaden & übernehmen die Versicherungsabwicklung. 24/7 erreichbar."
         canonical="https://089dach.de/leistungen/sturmschaden"
-        keywords="sturmschaden dach münchen, dach notdienst münchen 24h, sturmschaden reparatur münchen, hagelschaden dach münchen, unwetterschaden dach münchen, dachdecker notdienst münchen, sturmschaden versicherung münchen, notsicherung dach münchen, sturmschaden soforthilfe münchen, dach abgedeckt sturm münchen, ziegel gefallen sturm münchen, dachrinne sturmschaden münchen, first abgedeckt münchen, sturmschaden dokumentation münchen, wohngebäudeversicherung sturmschaden, sturmschaden gutachter münchen, dach nach sturm prüfen münchen, blitzschaden dach münchen, was kostet sturmschaden reparieren münchen, sturmschaden münchen erfahrungen, wie lange dauert sturmschaden reparatur, sturmschaden kosten pro qm, sturmschaden münchen günstig, sturmschaden festpreis münchen, sturmschaden preisvergleich, sturmschaden dringend münchen, sturmschaden schnell münchen, sturmschaden notfall, sturmschaden meisterbetrieb münchen, sturmschaden fachbetrieb münchen, sturmschaden handwerker münchen"
+        keywords="Sturmschaden Dach München, Dach Sturm Soforthilfe München, Hagelschaden Dach München, Sturmschaden Versicherung München, Dachdeckerei Notdienst München, Dachschaden Reparatur München, Dachversicherung Sturmschaden München"
         geoPlacename="München, Bayern, Deutschland"
-        aiSummary="089Dach GmbH – 24/7 Sturmschaden-Notdienst in München. In 2 Stunden vor Ort. Notsicherung, Reparatur, komplette Versicherungsabwicklung. Kostenvoranschlag für Wohngebäudeversicherung. Meisterbetrieb. Tel: 089 12621964."
+        aiSummary="089Dach GmbH – 24/7 Sturmschaden-Notdienst in München. In 60 Minuten vor Ort. Notsicherung, Reparatur, komplette Versicherungsabwicklung. Kostenvoranschlag für Wohngebäudeversicherung. Meisterbetrieb. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Leistungen", url: "/leistungen" }, { name: "Sturmschaden", url: "/leistungen/sturmschaden" }]} />
       <FAQPageSchema faqs={[

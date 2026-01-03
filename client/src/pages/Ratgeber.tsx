@@ -95,10 +95,10 @@ export default function Ratgeber() {
   return (
     <div className="min-h-screen bg-white">
       <SEO 
-        title="Dach Ratgeber München | Tipps Dämmung Förderung Kosten 2025"
-        description="Wann lohnt sich Dachsanierung? Welche Förderung gibt es 2025? Wie viel spart Dämmung? Experten-Tipps vom Meisterbetrieb. Jetzt informieren!"
+        title="Dach Ratgeber München – Tipps zur Sanierung & Wartung"
+        description="Praxisnahe Tipps zu Dachsanierung, Wartung, Energiesparen und Fördermöglichkeiten. Checklisten & Profi-Ratgeber vom Meisterbetrieb."
         canonical="https://089dach.de/ratgeber"
-        keywords="wann lohnt sich dachsanierung, welche förderung dach 2025, wie viel spart dachdämmung, dach checkliste hausbesitzer, dach probleme erkennen, heizkosten sparen dach, gründach vorteile nachteile, dachmaterial vergleich"
+        keywords="Dachpflege Tipps, Dach Wartung München, Dach Energiesparen, Dachsanierung Ratgeber, Dachdecker Tipps München, Dach winterfest, Dachinspektion Checkliste, Dachdämmung Tipps, Fördermittel Dach"
         aiSummary="089Dach GmbH Ratgeber: Expertenwissen zu Dachsanierung, Dämmung, Leckortung und Förderungen. Tipps vom Meisterbetrieb aus 25 Jahren Erfahrung in München. Kostenlose Beratung. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Tipps & Tricks", url: "/ratgeber" }]} />

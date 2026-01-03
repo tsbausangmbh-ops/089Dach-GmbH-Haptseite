@@ -59,12 +59,12 @@ export default function Notdienst() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Notdienst München 2025 | Kosten ab 150€ | Meisterbetrieb"
-        description="Notdienst München: ✓ Kosten ab 150€ Anfahrt ✓ 10 Jahre Garantie ✓ Kostenlose Beratung ✓ Festpreisangebot. ☎ 089 12621964"
-        canonical={`https://089dach.de/leistungen/notdienst`}
-        keywords={`dachdecker notdienst münchen, dach notfall münchen, sturmschaden dach münchen, dachdecker 24 stunden, dach undicht notdienst, dachschaden sofort hilfe münchen, dachreparatur notfall, dach notdienst wochenende münchen, dachdecker sonntag erreichbar, dach wasserschaden notfall, dachplane notfall aufspannen, first abgeweht notreparatur, dachfenster eingeschlagen notdienst, schneelast dach gefahr, eiszapfen dach gefährlich entfernen, dachrinne überläuft notfall, dachdecker feiertag erreichbar, schnelle hilfe dach münchen, dach notsicherung kosten, dachdecker außerhalb geschäftszeiten, was kostet notdienst dach münchen, notdienst münchen erfahrungen, wie lange dauert notdienst anfahrt, notdienst kosten pauschal, notdienst münchen günstig, notdienst festpreis münchen, notdienst preisvergleich, notdienst dringend münchen, notdienst schnell münchen, notdienst sofort münchen, notdienst meisterbetrieb münchen, notdienst fachbetrieb münchen, notdienst handwerker münchen`}
-        geoPlacename={`München, Bayern, Deutschland`}
-        aiSummary={`089Dach GmbH bietet 24/7 Dachdecker-Notdienst in München und Umgebung. Schnelle Hilfe bei Sturmschäden, Wasserschäden und Dachnotfällen. Tel: 089 12621964.`}
+        title="Notdienst Dach München 24/7 – Soforthilfe & Abdichtung"
+        description="24 h erreichbar: Wir sichern Ihr Dach bei Sturm- und Wasserschäden, führen Notabdichtung & Versicherungssupport durch. Jetzt anrufen für Soforthilfe!"
+        canonical="https://089dach.de/leistungen/notdienst"
+        keywords="Notdienst Dach München, Dachreparatur Notdienst München, Sturmschaden Dach München, Dach undicht Notfall München, Wasserschaden Dach München, 24 h Dachdecker München, Dach Notfall München, Hagelschaden Dach München, Dachversicherungsservice München"
+        geoPlacename="München, Bayern, Deutschland"
+        aiSummary="089Dach GmbH bietet 24/7 Dachdecker-Notdienst in München und Umgebung. Schnelle Hilfe bei Sturmschäden, Wasserschäden und Dachnotfällen. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Leistungen", url: "/leistungen" }, { name: "Notdienst", url: "/leistungen/notdienst" }]} />
       <FAQPageSchema faqs={[

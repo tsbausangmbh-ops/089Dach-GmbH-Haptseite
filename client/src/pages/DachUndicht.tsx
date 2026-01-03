@@ -31,10 +31,10 @@ export default function DachUndicht() {
   return (
     <div className="min-h-screen bg-white">
       <SEO 
-        title="Dach undicht München | Soforthilfe in 24h | 089Dach Notdienst"
-        description="Dach undicht? Wir kommen in 24h zur Notabdichtung! ✓ Leckortung ✓ Sofort-Reparatur ✓ Versicherungshilfe. Jetzt anrufen ☎ 089 12621964 – auch am Wochenende."
+        title="Dach undicht München – Leckortung & Reparatur Sofort-Termin"
+        description="Wassereintritt? Wir finden das Leck, dichten Ihr Dach dauerhaft ab & bieten transparente Festpreise. 24/7 Soforthilfe – heute noch Termin sichern!"
         canonical="https://089dach.de/dach-undicht"
-        keywords="dach undicht was tun münchen, dach undicht soforthilfe, dach tropft wer hilft, dach undicht notdienst münchen, wasserfleck decke dach, dach reparieren undicht, dachundichtigkeit finden, leckortung dach münchen, dach undicht nach sturm, dach undicht versicherung, dach undicht kosten reparatur, dachdecker notfall münchen, dach wasserschaden, dach undicht schnelle hilfe, undichte stelle dach finden, was kostet dach undicht reparieren münchen, dach undicht münchen erfahrungen, wie lange dauert dach undicht reparatur, dach undicht reparieren selber machen oder profi, dach undicht reparatur kosten pro qm, dach undicht münchen günstig, dach undicht festpreis münchen, dach undicht preisvergleich, dach undicht dringend münchen, dach undicht schnell münchen, dach undicht notfall, dach undicht meisterbetrieb münchen, dach undicht fachbetrieb münchen, dach undicht handwerker münchen"
+        keywords="Dach undicht München, Dachleck finden München, Wasserschaden Dach reparieren München, Leckortung Dach München, Dach abdichten München, Notdienst Dach undicht München, Flachdach undicht München"
         aiSummary="Dach undicht in München? 089Dach GmbH hilft mit Notabdichtung innerhalb von 24 Stunden. Leckortung, Sofortreparatur und Versicherungsdokumentation. Meisterbetrieb seit 1998. Notfall-Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Dach undicht", url: "/dach-undicht" }]} />
