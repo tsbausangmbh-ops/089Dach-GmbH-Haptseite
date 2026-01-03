@@ -70,6 +70,27 @@ async function prerender() {
         `<meta property="og:url" content="${canonicalUrl}" />`
       );
 
+      html = html.replace(
+        /<link rel="alternate" hreflang="de" href="https:\/\/089dach\.de\/" \/>/g,
+        `<link rel="alternate" hreflang="de" href="${canonicalUrl}" />`
+      );
+      html = html.replace(
+        /<link rel="alternate" hreflang="de-DE" href="https:\/\/089dach\.de\/" \/>/g,
+        `<link rel="alternate" hreflang="de-DE" href="${canonicalUrl}" />`
+      );
+      html = html.replace(
+        /<link rel="alternate" hreflang="de-AT" href="https:\/\/089dach\.de\/" \/>/g,
+        `<link rel="alternate" hreflang="de-AT" href="${canonicalUrl}" />`
+      );
+      html = html.replace(
+        /<link rel="alternate" hreflang="de-CH" href="https:\/\/089dach\.de\/" \/>/g,
+        `<link rel="alternate" hreflang="de-CH" href="${canonicalUrl}" />`
+      );
+      html = html.replace(
+        /<link rel="alternate" hreflang="x-default" href="https:\/\/089dach\.de\/" \/>/g,
+        `<link rel="alternate" hreflang="x-default" href="${canonicalUrl}" />`
+      );
+
       const filePath =
         route === "/"
           ? path.resolve(rootDir, "dist/public/index.html")
