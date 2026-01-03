@@ -12,9 +12,9 @@ export default function ContactPage() {
     <div className="min-h-screen bg-background font-sans">
       <SEO 
         title="Kontakt – 089Dach Dachdecker München | Termin & Beratung"
-        description="Kontaktieren Sie uns per Telefon, E-Mail oder Formular. Vereinbaren Sie Ihren Beratungstermin oder Notdienst-Einsatz. Wir freuen uns auf Ihre Anfrage."
+        description="Kontakt zu 089Dach: Telefon, E-Mail & Online-Formular. Termin zur Beratung oder Notdienst vereinbaren. Wir freuen uns auf Ihre Anfrage."
         canonical="https://089dach.de/kontakt"
-        keywords="Dachdecker München Kontakt, 089Dach Kontakt, Dachdecker Termin München, Dachdecker Beratung München, Dachdecker Angebot anfordern, Dachdecker Hotline München, Dachdecker Obermenzing Kontakt, Dach Notdienst Kontakt"
+        keywords="Dachdecker München Kontakt, 089Dach Kontakt, Dachdecker Termin München, Dachdecker Beratung München, Angebot anfordern, Notdienst Kontakt"
         aiSummary="089Dach GmbH Kontakt: Telefon 089 12621964, Thuillestr. 20, 81247 München-Obermenzing. Öffnungszeiten Mo-Fr 8-17 Uhr. Kostenlose Vor-Ort-Beratung. Schnelle Terminvergabe."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Kontakt", url: "/kontakt" }]} />

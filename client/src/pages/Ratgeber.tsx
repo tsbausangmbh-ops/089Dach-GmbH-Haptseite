@@ -95,10 +95,10 @@ export default function Ratgeber() {
   return (
     <div className="min-h-screen bg-white">
       <SEO 
-        title="Dach Ratgeber München – Tipps zur Sanierung & Wartung"
-        description="Praxisnahe Tipps zu Dachsanierung, Wartung, Energiesparen und Fördermöglichkeiten. Checklisten & Profi-Ratgeber vom Meisterbetrieb."
+        title="Ratgeber Dach München – Tipps, Förderung & Wartung"
+        description="Ratgeber Dach München: Tipps zur Dachsanierung, Pflege, Förderungen & Energiesparen. Aktuelle Artikel & Checklisten vom Experten."
         canonical="https://089dach.de/ratgeber"
-        keywords="Dachpflege Tipps, Dach Wartung München, Dach Energiesparen, Dachsanierung Ratgeber, Dachdecker Tipps München, Dach winterfest, Dachinspektion Checkliste, Dachdämmung Tipps, Fördermittel Dach"
+        keywords="Ratgeber Dach München, Dachsanierung Tipps, Dachpflege Tipps, Fördermittel Tipps, Energiesparen Dach"
         aiSummary="089Dach GmbH Ratgeber: Expertenwissen zu Dachsanierung, Dämmung, Leckortung und Förderungen. Tipps vom Meisterbetrieb aus 25 Jahren Erfahrung in München. Kostenlose Beratung. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Tipps & Tricks", url: "/ratgeber" }]} />

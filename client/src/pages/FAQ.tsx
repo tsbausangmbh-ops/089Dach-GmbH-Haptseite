@@ -127,10 +127,10 @@ export default function FAQ() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="FAQ & Preise Dachdecker München – Kosten, Ablauf & Garantie"
-        description="Häufige Fragen & transparente Preise: Dachinspektion ab 150 €, Infos zu Sanierung, Reparatur, Terminen, Garantie & Förderung. Jetzt Antworten lesen."
+        title="FAQ Dachdecker München – Preise, Ablauf & Antworten"
+        description="FAQ Dachdecker München: Antworten auf häufige Fragen zu Preisen, Ablauf, Förderungen & Garantien. Transparente Informationen vom Meisterbetrieb."
         canonical="https://089dach.de/faq"
-        keywords="Dachdecker FAQ München, Dachsanierung Fragen, Dachreparatur Fragen, Dachkosten München, Dachförderung München, Dachinspektion Preis München, Dachsanierung Ablauf München"
+        keywords="Dachdecker FAQ München, Dachsanierung Fragen, Dachreparatur Fragen, Dachkosten München, Dachförderung München"
         aiSummary="089Dach GmbH FAQ: 22 Antworten zu Dachsanierung, Kosten, Förderungen, Wartung und Garantie. Dachdecker-Meisterbetrieb München-Obermenzing seit 1998. Kostenlose Erstberatung. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "FAQ", url: "/faq" }]} />

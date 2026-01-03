@@ -13,9 +13,9 @@ export default function Sturmschaden() {
     <div className="min-h-screen bg-background font-sans">
       <SEO 
         title="Sturmschaden Dach München – Soforthilfe & Versicherung"
-        description="Sturmschaden am Dach? Wir sichern Ihr Dach innerhalb 60 Min., dokumentieren den Schaden & übernehmen die Versicherungsabwicklung. 24/7 erreichbar."
+        description="Sturmschaden am Dach? Wir sind in München schnell vor Ort, sichern Ihr Dach & unterstützen bei der Versicherung. 24/7 erreichbar."
         canonical="https://089dach.de/leistungen/sturmschaden"
-        keywords="Sturmschaden Dach München, Dach Sturm Soforthilfe München, Hagelschaden Dach München, Sturmschaden Versicherung München, Dachdeckerei Notdienst München, Dachschaden Reparatur München, Dachversicherung Sturmschaden München"
+        keywords="Sturmschaden Dach München, Hagelschaden Dach München, Dach Sturm Soforthilfe München, Sturmschaden Versicherung München, Dachschaden Reparatur München"
         geoPlacename="München, Bayern, Deutschland"
         aiSummary="089Dach GmbH – 24/7 Sturmschaden-Notdienst in München. In 60 Minuten vor Ort. Notsicherung, Reparatur, komplette Versicherungsabwicklung. Kostenvoranschlag für Wohngebäudeversicherung. Meisterbetrieb. Tel: 089 12621964."
       />

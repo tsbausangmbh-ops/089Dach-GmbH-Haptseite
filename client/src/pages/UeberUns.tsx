@@ -15,9 +15,9 @@ export default function UeberUns() {
     <div className="min-h-screen bg-background font-sans">
       <SEO 
         title="Über uns – 089Dach Meisterbetrieb München seit 1998"
-        description="Lernen Sie unser Team kennen: Meisterbetrieb mit 25+ Jahren Erfahrung. Wir stehen für Qualität, Transparenz, Fairness & 10 Jahre Garantie."
+        description="Über 089Dach: Meisterbetrieb seit 1998, 25+ Jahre Erfahrung in Dachsanierung & Spenglerarbeiten. Lernen Sie unser Team & unsere Werte kennen."
         canonical="https://089dach.de/ueber-uns"
-        keywords="089Dach GmbH, Dachdeckermeister München, Dachdecker Meisterbetrieb, Dachdecker Erfahrung München, Handwerkskammer München Dachdecker, Qualitäts-Dachdecker, Dachdecker mit Garantie München, Dachdecker Unternehmenswerte"
+        keywords="089Dach GmbH, Dachdeckermeister München, Meisterbetrieb Dachdecker, Dachdecker Team München, Dachdecker Erfahrung 25 Jahre"
         aiSummary="089Dach GmbH: Dachdecker- und Spengler-Meisterbetrieb in München-Obermenzing. Gegründet 1998, über 100 zufriedene Kunden. Familiengeführt mit 25+ Jahren Erfahrung. Thuillestr. 20, 81247 München. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Über uns", url: "/ueber-uns" }]} />

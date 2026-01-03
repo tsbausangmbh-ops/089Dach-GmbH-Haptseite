@@ -162,9 +162,9 @@ export default function Leistungen() {
     <div className="min-h-screen bg-background font-sans">
       <SEO 
         title="Dacharbeiten München – Sanierung, Reparatur & Spengler"
-        description="Komplette Dacharbeiten: Steil- und Flachdach, Sanierung, Spenglerarbeiten, Dachfenster & Dachausbau. Festpreis & kostenlose Beratung."
+        description="Komplette Dacharbeiten in München: Sanierung, Reparatur, Spenglerarbeiten, Dachfenster & Wartung. Festpreis & kostenlose Beratung."
         canonical="https://089dach.de/leistungen"
-        keywords="Dacharbeiten München, Dachsanierung München, Dachreparatur München, Flachdach abdichten München, Steildach sanieren München, Dachrinnen Montage München, Dachfenster Einbau München, Dachdämmung München, Wärmedämmung Dach München, Dachausbau München"
+        keywords="Dacharbeiten München, Dachsanierung München, Dachreparatur München, Spengler München, Dachfenster Einbau München, Dachwartung München, Flachdach abdichten München"
         aiSummary="089Dach GmbH bietet umfassende Dachdeckerleistungen in München: Dachsanierung, Steildach, Flachdach, Spenglerarbeiten, Dachfenster, Gaubenbau, Wartung und Energieberatung. Meisterbetrieb seit 1998. Telefon: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Leistungen", url: "/leistungen" }]} />

@@ -59,10 +59,10 @@ export default function Notdienst() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Notdienst Dach München 24/7 – Soforthilfe & Abdichtung"
-        description="24 h erreichbar: Wir sichern Ihr Dach bei Sturm- und Wasserschäden, führen Notabdichtung & Versicherungssupport durch. Jetzt anrufen für Soforthilfe!"
+        title="Dach Notdienst München 24/7 – Soforthilfe & Reparatur"
+        description="24/7 Dach-Notdienst München: Wir sichern Ihr Dach nach Sturm, führen Notsanierungen durch & helfen bei der Versicherung. Soforthilfe – jetzt anrufen!"
         canonical="https://089dach.de/leistungen/notdienst"
-        keywords="Notdienst Dach München, Dachreparatur Notdienst München, Sturmschaden Dach München, Dach undicht Notfall München, Wasserschaden Dach München, 24 h Dachdecker München, Dach Notfall München, Hagelschaden Dach München, Dachversicherungsservice München"
+        keywords="Dach Notdienst München, Dachreparatur Notdienst München, Sturmschaden Dach München, Dach undicht Notfall München, 24h Dachdecker München, Wasserschaden Dach München"
         geoPlacename="München, Bayern, Deutschland"
         aiSummary="089Dach GmbH bietet 24/7 Dachdecker-Notdienst in München und Umgebung. Schnelle Hilfe bei Sturmschäden, Wasserschäden und Dachnotfällen. Tel: 089 12621964."
       />

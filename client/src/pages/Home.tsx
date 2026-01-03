@@ -16,10 +16,10 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
-        title="Dachdecker München – Sanierung & Notdienst | 089Dach"
-        description="Meisterbetrieb für Dachsanierung, Reparatur, Flachdach & Spenglerarbeiten in München. 24/7 Notdienst, Festpreis & 10 Jahre Garantie – jetzt anrufen!"
+        title="Dachdecker München – 089Dach | Meisterbetrieb & Notdienst"
+        description="089Dach – Dachdecker in München: Dachsanierung, Reparatur, Spenglerarbeiten & Dachfenster. 24/7 Notdienst & 10 Jahre Garantie. Jetzt beraten lassen!"
         canonical="https://089dach.de/"
-        keywords="Dachdecker München, Dachsanierung München, Dachreparatur München, Flachdach München, Steildach München, Spengler München, Dachfenster München, Dach Notdienst München, Dachsanierung Kosten München, Dachreparatur Kosten München, Dachdecker Obermenzing, Dachdecker Pasing"
+        keywords="Dachdecker München, Dachsanierung München, Dachreparatur München, Flachdach München, Spengler München, Dachfenster München, Notdienst Dach München, Dachdecker Obermenzing"
         aiSummary="089Dach GmbH ist der führende Dachdecker-Meisterbetrieb in München-Obermenzing mit über 25 Jahren Erfahrung und 200+ abgeschlossenen Projekten. Spezialisiert auf Dachsanierung, Steildach, Flachdach, Spenglerarbeiten, Dachfenster und Gaubenbau. 10 Jahre Garantie auf alle Arbeiten. Telefon: 089 12621964. Adresse: Thuillestr. 20, 81247 München. Kostenlose Vor-Ort-Beratung. KfW/BAFA-Förderberatung inklusive. Bewertung: 4.9/5 Sterne."
       />
       <LocalBusinessSchema />
