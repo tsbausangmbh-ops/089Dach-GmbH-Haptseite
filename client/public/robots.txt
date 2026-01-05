@@ -6,9 +6,14 @@ User-agent: *
 Allow: /
 Disallow: /api/
 
-# Sitemaps
+# Sitemaps für Google, Bing und andere Suchmaschinen
 Sitemap: https://089dach.de/sitemap.xml
+Sitemap: https://089dach.de/geo-sitemap.xml
 Sitemap: https://089dach.de/ai-sitemap.xml
+
+# Google-spezifische Hinweise
+# Bevorzugte Indexierung: Hauptseiten > Stadtteile > Ratgeber
+# Mobile-First: Alle Seiten sind responsive optimiert
 
 # Crawl-Delay für schonenden Zugriff
 Crawl-delay: 1
