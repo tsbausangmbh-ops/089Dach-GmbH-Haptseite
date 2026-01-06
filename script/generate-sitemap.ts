@@ -88,11 +88,11 @@ async function generateSitemap() {
   </url>
 `;
 
-  // Alle anderen Routen (mit trailing slash für Konsistenz)
+  // Alle anderen Routen (ohne trailing slash - konsistent mit App-URLs)
   for (let i = 1; i < routes.length; i++) {
     const route = routes[i];
-    const routeWithSlash = route.endsWith('/') ? route : `${route}/`;
-    const url = `${DOMAIN}${routeWithSlash}`;
+    const cleanRoute = route.endsWith('/') ? route.slice(0, -1) : route;
+    const url = `${DOMAIN}${cleanRoute}`;
     const priority = getPriority(route);
     const changefreq = getChangefreq(route);
 
