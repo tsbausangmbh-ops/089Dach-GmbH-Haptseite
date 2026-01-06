@@ -47,6 +47,22 @@ const reviews: Review[] = [
     date: "August 2025",
     location: "Moosach",
     project: "Flachdach"
+  },
+  {
+    author: "Familie Lehner",
+    rating: 5,
+    text: "KfW-Förderung komplett für uns abgewickelt. 8.000€ gespart! Sehr empfehlenswert.",
+    date: "Juli 2025",
+    location: "Pasing",
+    project: "Energetische Sanierung"
+  },
+  {
+    author: "A. Kraus",
+    rating: 5,
+    text: "Dachfenster-Einbau in nur 2 Tagen. Saubere Arbeit, freundliches Team, fairer Preis.",
+    date: "Juni 2025",
+    location: "Laim",
+    project: "Dachfenster"
   }
 ];
 
@@ -80,7 +96,7 @@ export default function CustomerReviews() {
           </a>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {reviews.map((review, index) => (
             <div 
               key={index}

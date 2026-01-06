@@ -118,27 +118,7 @@ export function WebSiteSchema() {
 }
 
 export function SiteNavigationSchema() {
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": "SiteNavigationElement",
-    "name": "Hauptnavigation",
-    "hasPart": [
-      { "@type": "WebPage", "name": "Dachsanierung", "url": "https://089dach.de/leistungen/dachsanierung" },
-      { "@type": "WebPage", "name": "Dachreparatur", "url": "https://089dach.de/dachreparatur" },
-      { "@type": "WebPage", "name": "Flachdach", "url": "https://089dach.de/leistungen/flachdach" },
-      { "@type": "WebPage", "name": "Spengler", "url": "https://089dach.de/dachdecker-spengler-muenchen" },
-      { "@type": "WebPage", "name": "Kosten", "url": "https://089dach.de/dachdecker-muenchen-kosten" },
-      { "@type": "WebPage", "name": "Notdienst", "url": "https://089dach.de/dachdecker-notdienst-muenchen" },
-      { "@type": "WebPage", "name": "Beratung", "url": "https://089dach.de/beratung" },
-      { "@type": "WebPage", "name": "Kontakt", "url": "https://089dach.de/kontakt" }
-    ]
-  };
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-    />
-  );
+  return null;
 }
 
 export function LocalBusinessSchema() {
@@ -305,20 +285,7 @@ export function ServiceSchema({ services, pageName }: { services: ServiceItem[],
 }
 
 export function AboutPageSchema() {
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": "AboutPage",
-    "mainEntity": {
-      "@id": "https://089dach.de/#organization"
-    }
-  };
-
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-    />
-  );
+  return null;
 }
 
 interface GuideItem {
@@ -328,33 +295,7 @@ interface GuideItem {
 }
 
 export function CollectionPageSchema({ title, description, items }: { title: string, description: string, items: GuideItem[] }) {
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    "name": title,
-    "description": description,
-    "publisher": {
-      "@id": "https://089dach.de/#organization"
-    },
-    "mainEntity": {
-      "@type": "ItemList",
-      "name": "Ratgeber-Artikel",
-      "numberOfItems": items.length,
-      "itemListElement": items.map((item, index) => ({
-        "@type": "ListItem",
-        "position": index + 1,
-        "name": item.title,
-        "description": item.description
-      }))
-    }
-  };
-
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-    />
-  );
+  return null;
 }
 
 export function ContactPageSchema() {
@@ -443,61 +384,11 @@ export function HowToSchema({
   steps: HowToStep[];
   totalTime?: string;
 }) {
-  const schema: Record<string, unknown> = {
-    "@context": "https://schema.org",
-    "@type": "HowTo",
-    "name": name,
-    "description": description,
-    "step": steps.map((step, index) => ({
-      "@type": "HowToStep",
-      "position": index + 1,
-      "name": step.name,
-      "text": step.text,
-      ...(step.image && { "image": step.image })
-    }))
-  };
-
-  if (totalTime) {
-    schema.totalTime = totalTime;
-  }
-
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-    />
-  );
+  return null;
 }
 
 export function EmergencyServiceSchema() {
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "@id": "https://089dach.de/#notdienst",
-    "name": "Dachdecker Notdienst München - 24/7",
-    "description": "Sofortige Hilfe bei Sturmschäden, Wasserschäden und Dachnotfällen in München und Umgebung. 24 Stunden am Tag, 7 Tage die Woche erreichbar.",
-    "provider": {
-      "@id": "https://089dach.de/#organization"
-    },
-    "serviceType": "Notdienst",
-    "availableChannel": {
-      "@type": "ServiceChannel",
-      "servicePhone": "+49-89-12621964",
-      "hoursAvailable": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-        "opens": "00:00",
-        "closes": "23:59"
-      }
-    },
-    "areaServed": {
-      "@type": "AdministrativeArea",
-      "name": "München und Landkreis München"
-    },
-    "termsOfService": "Schnelle Hilfe bei Dachschäden - auch nachts und am Wochenende"
-  };
-
-  return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
+  return null;
 }
 
 export function StadtteilLocalBusinessSchema({ 
@@ -511,23 +402,7 @@ export function StadtteilLocalBusinessSchema({
   anfahrtszeit: string;
   besonderheiten?: string[];
 }) {
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "@id": `https://089dach.de/dachdecker-${stadtteil.toLowerCase().replace(/[äöüß]/g, m => ({ä:'ae',ö:'oe',ü:'ue',ß:'ss'})[m] || m).replace(/\s+/g, '-')}#local`,
-    "name": `Dachdecker ${stadtteil}`,
-    "description": `Ihr Dachdecker-Meisterbetrieb für ${stadtteil} (${plz}). Nur ${anfahrtszeit} Anfahrt. ${besonderheiten ? besonderheiten.join(', ') : 'Dachsanierung, Reparatur, Notdienst.'}`,
-    "provider": {
-      "@id": "https://089dach.de/#organization"
-    },
-    "areaServed": {
-      "@type": "AdministrativeArea",
-      "name": stadtteil
-    },
-    "serviceType": ["Dachsanierung", "Dachreparatur", "Notdienst"]
-  };
-
-  return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
+  return null;
 }
 
 export function ArticleSchema({ 
@@ -547,36 +422,7 @@ export function ArticleSchema({
   keywords?: string[];
   image?: string;
 }) {
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": headline,
-    "description": description,
-    "image": image || "https://089dach.de/opengraph.jpg",
-    "author": {
-      "@type": "Person",
-      "name": "Falko Georg Blöckinger",
-      "jobTitle": "Dachdecker- und Spenglermeister",
-      "worksFor": {
-        "@id": "https://089dach.de/#organization"
-      }
-    },
-    "publisher": {
-      "@id": "https://089dach.de/#organization"
-    },
-    "datePublished": datePublished,
-    "dateModified": dateModified || datePublished,
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://089dach.de"
-    },
-    ...(articleBody && { "articleBody": articleBody }),
-    ...(keywords && { "keywords": keywords.join(", ") }),
-    "inLanguage": "de-DE",
-    "isAccessibleForFree": true
-  };
-
-  return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
+  return null;
 }
 
 export function VideoSchema({ 
@@ -596,22 +442,7 @@ export function VideoSchema({
   contentUrl?: string;
   embedUrl?: string;
 }) {
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": "VideoObject",
-    "name": name,
-    "description": description,
-    "thumbnailUrl": thumbnailUrl,
-    "uploadDate": uploadDate,
-    "duration": duration,
-    ...(contentUrl && { "contentUrl": contentUrl }),
-    ...(embedUrl && { "embedUrl": embedUrl }),
-    "publisher": {
-      "@id": "https://089dach.de/#organization"
-    }
-  };
-
-  return (<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />);
+  return null;
 }
 
 export function OrganizationSchema() {
