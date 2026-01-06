@@ -132,7 +132,7 @@ export default function Services() {
             <a href="/leistungen/energieberatung/" className="text-xs bg-white border border-stone-200 text-muted-foreground px-3 py-1.5 rounded-full hover:border-primary hover:text-primary transition-colors">Energieberatung</a>
             <a href="/leistungen/gaubenbau/" className="text-xs bg-white border border-stone-200 text-muted-foreground px-3 py-1.5 rounded-full hover:border-primary hover:text-primary transition-colors">Gaubenbau</a>
             <a href="/leistungen/wartung/" className="text-xs bg-white border border-stone-200 text-muted-foreground px-3 py-1.5 rounded-full hover:border-primary hover:text-primary transition-colors">Dachwartung</a>
-            <a href="/leistungen//" className="text-xs bg-primary text-white px-3 py-1.5 rounded-full hover:bg-primary/90 transition-colors font-medium">Alle Leistungen →</a>
+            <a href="/leistungen" className="text-xs bg-primary text-white px-3 py-1.5 rounded-full hover:bg-primary/90 transition-colors font-medium">Alle Leistungen →</a>
           </div>
         </div>
       </div>

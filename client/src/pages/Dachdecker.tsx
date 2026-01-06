@@ -129,7 +129,7 @@ export default function Dachdecker() {
               ))}
             </div>
             <div className="text-center mt-8">
-              <Link href="/leistungen//">
+              <Link href="/leistungen">
                 <Button variant="outline" className="border-orange-600 text-orange-600 hover:bg-orange-50">
                   Alle Leistungen ansehen
                   <ArrowRight className="ml-2 h-4 w-4" />

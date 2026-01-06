@@ -1,4 +1,4 @@
-import { Star, Quote, ExternalLink } from "lucide-react";
+import { Quote, ExternalLink } from "lucide-react";
 
 interface Review {
   author: string;
@@ -8,6 +8,12 @@ interface Review {
   location?: string;
   project?: string;
 }
+
+const StarRating = ({ count }: { count: number }) => (
+  <span className="text-amber-400 tracking-tight" aria-label={`${count} von 5 Sternen`}>
+    {"★".repeat(count)}
+  </span>
+);
 
 const reviews: Review[] = [
   {
@@ -41,22 +47,6 @@ const reviews: Review[] = [
     date: "August 2025",
     location: "Moosach",
     project: "Flachdach"
-  },
-  {
-    author: "Familie Lehner",
-    rating: 5,
-    text: "KfW-Förderung komplett für uns abgewickelt. 8.000€ gespart! Sehr empfehlenswert.",
-    date: "Juli 2025",
-    location: "Pasing",
-    project: "Energetische Sanierung"
-  },
-  {
-    author: "A. Kraus",
-    rating: 5,
-    text: "Dachfenster-Einbau in nur 2 Tagen. Saubere Arbeit, freundliches Team, fairer Preis.",
-    date: "Juni 2025",
-    location: "Laim",
-    project: "Dachfenster"
   }
 ];
 
@@ -70,11 +60,7 @@ export default function CustomerReviews() {
         <div className="bg-slate-800 rounded-2xl md:rounded-3xl p-6 md:p-10">
         <div className="text-center mb-8 md:mb-12">
           <div className="flex items-center justify-center gap-2 mb-3">
-            <div className="flex items-center gap-0.5">
-              {[1, 2, 3, 4, 5].map((star) => (
-                <Star key={star} className="h-6 w-6 fill-amber-400 text-amber-400" />
-              ))}
-            </div>
+            <span className="text-2xl"><StarRating count={5} /></span>
             <span className="text-2xl font-bold text-white ml-2">{averageRating}</span>
           </div>
           <h2 className="text-2xl md:text-3xl font-heading font-bold text-white mb-2">
@@ -94,7 +80,7 @@ export default function CustomerReviews() {
           </a>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {reviews.map((review, index) => (
             <div 
               key={index}
@@ -108,11 +94,7 @@ export default function CustomerReviews() {
                 <div className="flex-1">
                   <div className="flex items-center justify-between">
                     <span className="font-bold text-secondary text-sm">{review.author}</span>
-                    <div className="flex items-center gap-0.5">
-                      {[...Array(review.rating)].map((_, i) => (
-                        <Star key={i} className="h-3.5 w-3.5 fill-amber-400 text-amber-400" />
-                      ))}
-                    </div>
+                    <StarRating count={review.rating} />
                   </div>
                   <div className="flex items-center gap-2 text-xs text-muted-foreground">
                     <span>{review.date}</span>

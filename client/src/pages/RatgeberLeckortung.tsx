@@ -65,7 +65,7 @@ export default function RatgeberLeckortung() {
         <div className="container mx-auto px-6 lg:px-12 relative z-10 py-6">
           <div className="max-w-5xl text-white">
             <div className="flex items-center gap-2 mb-4">
-              <Link href="/ratgeber//">
+              <Link href="/ratgeber">
                 <span className="text-primary hover:underline cursor-pointer">Tipps & Tricks</span>
               </Link>
               <span className="text-gray-400">/</span>
@@ -330,7 +330,7 @@ export default function RatgeberLeckortung() {
                 className="font-bold px-8 py-6 rounded-xl"
                 asChild
               >
-                <Link href="/ratgeber//">
+                <Link href="/ratgeber">
                   Zurück zu Tipps & Tricks
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>

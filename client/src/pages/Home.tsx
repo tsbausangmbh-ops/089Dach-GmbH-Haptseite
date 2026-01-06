@@ -127,7 +127,7 @@ export default function Home() {
                   {guide.text} <ArrowRight className="h-3 w-3 opacity-50" />
                 </a>
               ))}
-              <a href="/ratgeber//" className="inline-flex items-center gap-1 px-3 py-1.5 bg-primary text-white rounded-lg text-sm font-medium hover:bg-primary/90 transition-all">
+              <a href="/ratgeber" className="inline-flex items-center gap-1 px-3 py-1.5 bg-primary text-white rounded-lg text-sm font-medium hover:bg-primary/90 transition-all">
                 Alle Ratgeber <ArrowRight className="h-3 w-3" />
               </a>
             </div>

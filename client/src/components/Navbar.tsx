@@ -110,7 +110,7 @@ export default function Navbar() {
             onMouseLeave={() => setDesktopDropdownOpen(false)}
           >
             <a 
-              href="/leistungen//"
+              href="/leistungen"
               className="text-sm font-medium text-secondary hover:text-primary transition-colors flex items-center gap-1"
             >
               Leistungen
@@ -137,7 +137,7 @@ export default function Navbar() {
             )}
           </div>
 
-          <a href="/ratgeber//" className="text-sm font-medium text-secondary hover:text-primary transition-colors">
+          <a href="/ratgeber" className="text-sm font-medium text-secondary hover:text-primary transition-colors">
             Tipps & Tricks
           </a>
           <a href="/faq/" className="text-sm font-medium text-secondary hover:text-primary transition-colors">
@@ -179,7 +179,7 @@ export default function Navbar() {
               <div className="border-b pb-2">
                 <div className="flex items-center justify-between">
                   <a 
-                    href="/leistungen//" 
+                    href="/leistungen" 
                     className="text-lg font-medium text-foreground hover:text-primary transition-colors flex-1"
                     onClick={() => setIsOpen(false)}
                   >
@@ -212,7 +212,7 @@ export default function Navbar() {
                 )}
               </div>
 
-              <a href="/ratgeber//" className="text-lg font-medium text-foreground hover:text-primary transition-colors flex items-center justify-between border-b pb-2" onClick={() => setIsOpen(false)}>
+              <a href="/ratgeber" className="text-lg font-medium text-foreground hover:text-primary transition-colors flex items-center justify-between border-b pb-2" onClick={() => setIsOpen(false)}>
                 Tipps & Tricks
                 <ChevronRight className="h-4 w-4" />
               </a>

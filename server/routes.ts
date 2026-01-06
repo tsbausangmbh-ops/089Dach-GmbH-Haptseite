@@ -272,6 +272,10 @@ export async function registerRoutes(
     "/dach-leckt": "/dach-undicht",
     "/ziegel-kaputt": "/dachziegel-austauschen",
     "/dachziegel-ersetzen": "/dachziegel-austauschen",
+    
+    // Doppelte Slashes korrigieren (falls bereits indiziert)
+    "/leistungen//": "/leistungen",
+    "/ratgeber//": "/ratgeber",
   };
 
   Object.entries(seoRedirects).forEach(([from, to]) => {

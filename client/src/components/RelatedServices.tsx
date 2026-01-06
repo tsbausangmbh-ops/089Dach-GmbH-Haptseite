@@ -177,7 +177,7 @@ export default function RelatedServices({
 
         <div className="text-center mt-8">
           <Button asChild variant="outline" className="border-white text-white hover:bg-white hover:text-slate-800 rounded-xl">
-            <a href="/leistungen//">
+            <a href="/leistungen">
               Alle Leistungen ansehen
               <ArrowRight className="ml-2 h-4 w-4" />
             </a>
