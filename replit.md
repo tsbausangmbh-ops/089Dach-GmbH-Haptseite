@@ -43,6 +43,13 @@ The server uses a simple storage pattern (`server/storage.ts`) that abstracts da
 - **Production**: Custom build script (`script/build.ts`) using esbuild for server bundling and Vite for client
 - **Output**: Compiled to `dist/` directory with static files in `dist/public/`
 
+### SSR & Pre-Rendering (SEO)
+- **Pre-rendering**: All 136 pages are pre-rendered at build time via `script/prerender.ts`
+- **SEO Data**: Route-specific meta tags defined in `shared/seo-data.ts`
+- **Injected Tags**: Title, description, keywords, OG tags, Twitter Cards, canonical URLs, hreflang
+- **Crawler Compatibility**: Full HTML content in initial response, no JS required for meta tags
+- **Schema Markup**: 6 core schemas (LocalBusiness, WebSite, FAQ, Breadcrumb, Service, ContactPage)
+
 ### Key Design Decisions
 
 1. **Shared Schema**: Database schemas are defined in `shared/schema.ts` and shared between frontend and backend, ensuring type safety across the stack.
