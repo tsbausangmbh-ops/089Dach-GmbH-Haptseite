@@ -53,7 +53,20 @@ const umlandOrte = [
   { name: "Starnberg", entfernung: "18 km", link: "/dachdecker-starnberg" },
   { name: "Fürstenfeldbruck", entfernung: "16 km", link: "/dachdecker-fuerstenfeldbruck" },
   { name: "Freising", entfernung: "35 km", link: "/dachdecker-freising" },
-  { name: "Erding", entfernung: "35 km", link: "/dachdecker-erding" }
+  { name: "Erding", entfernung: "35 km", link: "/dachdecker-erding" },
+  { name: "Gröbenzell", entfernung: "6 km", link: "/dachdecker-groebenzell" },
+  { name: "Puchheim", entfernung: "8 km", link: "/dachdecker-puchheim" },
+  { name: "Olching", entfernung: "10 km", link: "/dachdecker-olching" },
+  { name: "Eching", entfernung: "15 km", link: "/dachdecker-eching" }
+];
+
+const seoSeiten = [
+  { name: "Dachdecker München", link: "/dachdecker-muenchen" },
+  { name: "München Umgebung", link: "/dachdecker-muenchen-umgebung" },
+  { name: "Dachdecker Kosten", link: "/dachdecker-muenchen-kosten" },
+  { name: "Dachdecker Preise", link: "/dachdecker-preise-muenchen" },
+  { name: "Dachdecker & Spengler", link: "/dachdecker-spengler-muenchen" },
+  { name: "Notdienst München", link: "/dachdecker-notdienst-muenchen" }
 ];
 
 function ServiceAreaListSchema() {
@@ -157,6 +170,21 @@ export default function Stadtteile() {
                   <span className="font-bold text-secondary">{ort.name}</span>
                 </div>
                 <p className="text-sm text-muted-foreground">{ort.entfernung}</p>
+              </a>
+            ))}
+          </div>
+
+          <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-6 md:mb-8">Weitere Informationen</h2>
+          <div className="flex flex-wrap gap-3 mb-12">
+            {seoSeiten.map((seite, idx) => (
+              <a 
+                key={idx} 
+                href={seite.link}
+                className="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-gray-200 bg-white hover:border-primary hover:shadow-md transition-all text-secondary font-medium"
+                data-testid={`link-seo-${seite.name.toLowerCase().replace(/\s/g, '-')}`}
+              >
+                <ArrowRight className="h-4 w-4 text-primary" />
+                {seite.name}
               </a>
             ))}
           </div>

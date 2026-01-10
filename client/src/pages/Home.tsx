@@ -60,15 +60,22 @@ export default function Home() {
             </div>
             <div className="flex flex-wrap gap-2 mb-4">
               {[
-                { name: "Allach-Untermenzing", href: "/dachdecker-allach" },
+                { name: "Obermenzing", href: "/dachdecker-obermenzing" },
+                { name: "Allach", href: "/dachdecker-allach" },
                 { name: "Pasing", href: "/dachdecker-pasing" },
                 { name: "Moosach", href: "/dachdecker-moosach" },
-                { name: "Feldmoching", href: "/dachdecker-feldmoching" },
-                { name: "Aubing", href: "/dachdecker-aubing" },
                 { name: "Nymphenburg", href: "/dachdecker-nymphenburg" },
                 { name: "Neuhausen", href: "/dachdecker-neuhausen" },
                 { name: "Laim", href: "/dachdecker-laim" },
                 { name: "Hadern", href: "/dachdecker-hadern" },
+                { name: "Schwabing", href: "/dachdecker-schwabing" },
+                { name: "Sendling", href: "/dachdecker-sendling" },
+                { name: "Bogenhausen", href: "/dachdecker-bogenhausen" },
+                { name: "Trudering", href: "/dachdecker-trudering" },
+                { name: "Harlaching", href: "/dachdecker-harlaching" },
+                { name: "Giesing", href: "/dachdecker-giesing" },
+                { name: "Solln", href: "/dachdecker-solln" },
+                { name: "Maxvorstadt", href: "/dachdecker-maxvorstadt" },
               ].map((loc, idx) => (
                 <a
                   key={idx}
@@ -79,7 +86,7 @@ export default function Home() {
                 </a>
               ))}
               <a href="/stadtteile" className="inline-flex items-center gap-1 px-3 py-1.5 bg-primary text-white rounded-full text-sm font-medium hover:bg-primary/90 transition-all">
-                Dachdecker für ganz München <ArrowRight className="h-3 w-3" />
+                Alle 48 Stadtteile <ArrowRight className="h-3 w-3" />
               </a>
             </div>
             <div className="flex flex-wrap gap-2">
@@ -90,7 +97,11 @@ export default function Home() {
                 { name: "Gröbenzell", href: "/dachdecker-groebenzell" },
                 { name: "Puchheim", href: "/dachdecker-puchheim" },
                 { name: "Olching", href: "/dachdecker-olching" },
-                { name: "Fürstenfeldbruck", href: "/dachdecker-fuerstenfeldbruck" },
+                { name: "Germering", href: "/dachdecker-germering" },
+                { name: "Starnberg", href: "/dachdecker-starnberg" },
+                { name: "Freising", href: "/dachdecker-freising" },
+                { name: "Erding", href: "/dachdecker-erding" },
+                { name: "FFB", href: "/dachdecker-fuerstenfeldbruck" },
               ].map((loc, idx) => (
                 <a
                   key={idx}

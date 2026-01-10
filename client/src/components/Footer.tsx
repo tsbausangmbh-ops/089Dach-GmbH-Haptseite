@@ -47,11 +47,15 @@ export default function Footer({ showAIBerater = false }: FooterProps) {
           <div>
             <h4 className="font-heading font-bold text-sm mb-2 text-white">Stadtteile</h4>
             <ul className="space-y-1 text-gray-400 text-sm">
-              <li><a href="/dachdecker-pasing/" className="hover:text-primary transition-colors">Pasing</a></li>
-              <li><a href="/dachdecker-schwabing/" className="hover:text-primary transition-colors">Schwabing</a></li>
-              <li><a href="/dachdecker-sendling/" className="hover:text-primary transition-colors">Sendling</a></li>
-              <li><a href="/dachdecker-bogenhausen/" className="hover:text-primary transition-colors">Bogenhausen</a></li>
-              <li><a href="/stadtteile" className="hover:text-primary transition-colors text-primary font-medium">→ Alle</a></li>
+              <li><a href="/dachdecker-obermenzing" className="hover:text-primary transition-colors">Obermenzing</a></li>
+              <li><a href="/dachdecker-pasing" className="hover:text-primary transition-colors">Pasing</a></li>
+              <li><a href="/dachdecker-schwabing" className="hover:text-primary transition-colors">Schwabing</a></li>
+              <li><a href="/dachdecker-sendling" className="hover:text-primary transition-colors">Sendling</a></li>
+              <li><a href="/dachdecker-bogenhausen" className="hover:text-primary transition-colors">Bogenhausen</a></li>
+              <li><a href="/dachdecker-nymphenburg" className="hover:text-primary transition-colors">Nymphenburg</a></li>
+              <li><a href="/dachdecker-laim" className="hover:text-primary transition-colors">Laim</a></li>
+              <li><a href="/dachdecker-trudering" className="hover:text-primary transition-colors">Trudering</a></li>
+              <li><a href="/stadtteile" className="hover:text-primary transition-colors text-primary font-medium">→ Alle 48 Stadtteile</a></li>
             </ul>
           </div>
 
@@ -70,16 +74,21 @@ export default function Footer({ showAIBerater = false }: FooterProps) {
         {/* SEO + Umland Links combined */}
         <div className="border-t border-white/10 pt-3 mb-3">
           <div className="flex flex-wrap gap-x-3 gap-y-1 text-xs text-gray-500">
-            <a href="/ratgeber/kosten/" className="hover:text-primary transition-colors">Kosten</a>
+            <a href="/dachdecker-muenchen" className="hover:text-primary transition-colors">Dachdecker München</a>
+            <a href="/dachdecker-muenchen-kosten" className="hover:text-primary transition-colors">Kosten</a>
+            <a href="/dachdecker-preise-muenchen" className="hover:text-primary transition-colors">Preise</a>
+            <a href="/dachdecker-notdienst-muenchen" className="hover:text-primary transition-colors">Notdienst</a>
             <a href="/ratgeber/foerderung/" className="hover:text-primary transition-colors">Förderung</a>
             <a href="/faq/" className="hover:text-primary transition-colors">FAQ</a>
-            <a href="/referenzen/" className="hover:text-primary transition-colors">Referenzen</a>
             <span className="text-gray-600">|</span>
-            <a href="/dachdecker-germering/" className="hover:text-primary transition-colors">Germering</a>
-            <a href="/dachdecker-starnberg/" className="hover:text-primary transition-colors">Starnberg</a>
-            <a href="/dachdecker-dachau/" className="hover:text-primary transition-colors">Dachau</a>
-            <a href="/dachdecker-freising/" className="hover:text-primary transition-colors">Freising</a>
-            <a href="/dachdecker-fuerstenfeldbruck/" className="hover:text-primary transition-colors">FFB</a>
+            <a href="/dachdecker-germering" className="hover:text-primary transition-colors">Germering</a>
+            <a href="/dachdecker-starnberg" className="hover:text-primary transition-colors">Starnberg</a>
+            <a href="/dachdecker-dachau" className="hover:text-primary transition-colors">Dachau</a>
+            <a href="/dachdecker-karlsfeld" className="hover:text-primary transition-colors">Karlsfeld</a>
+            <a href="/dachdecker-groebenzell" className="hover:text-primary transition-colors">Gröbenzell</a>
+            <a href="/dachdecker-fuerstenfeldbruck" className="hover:text-primary transition-colors">FFB</a>
+            <a href="/dachdecker-freising" className="hover:text-primary transition-colors">Freising</a>
+            <a href="/dachdecker-erding" className="hover:text-primary transition-colors">Erding</a>
           </div>
         </div>
 
