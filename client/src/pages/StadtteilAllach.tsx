@@ -16,6 +16,8 @@ import imgDachUndicht from "@assets/generated_images/leaking_roof_gutter_drippin
 import imgDachsanierung from "@assets/generated_images/roofers_installing_battens_and_tiles.png";
 import imgDachreparatur from "@assets/generated_images/roofer_doing_quick_repairs.png";
 import imgReferenz2 from "@assets/generated_images/anthracite_roof_with_velux_cabrio.png";
+import { TestimonialSection } from "@/components/TestimonialSection";
+import { getTestimonialsForLocation } from "@shared/testimonials";
 
 const stadtteilData = {
   name: "Allach",
@@ -71,6 +73,7 @@ function NearbyServiceSchema() {
 }
 
 export default function StadtteilAllach() {
+  const testimonials = getTestimonialsForLocation(stadtteilData.name);
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
@@ -222,6 +225,8 @@ export default function StadtteilAllach() {
                   ))}
                 </ul>
               </div>
+
+              <TestimonialSection testimonials={testimonials} stadtteil={stadtteilData.name} />
 
               <div className="bg-gray-50 rounded-xl p-4 md:p-6">
                 <h4 className="font-bold text-secondary mb-4">Warum 089Dach?</h4>

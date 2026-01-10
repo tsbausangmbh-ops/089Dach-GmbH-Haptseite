@@ -9,6 +9,8 @@ import BackButton from "@/components/BackButton";
 import { GeoLinks } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import heroImage from "@assets/generated_images/realistic_renovated_roof_obermenzing_after.png";
+import { TestimonialSection } from "@/components/TestimonialSection";
+import { getTestimonialsForLocation } from "@shared/testimonials";
 
 const stadtteilData = {
   name: "Germering",
@@ -55,6 +57,7 @@ function NearbyServiceSchema() {
 }
 
 export default function UmlandGermering() {
+  const testimonials = getTestimonialsForLocation(stadtteilData.name);
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
@@ -206,6 +209,8 @@ export default function UmlandGermering() {
                   ))}
                 </ul>
               </div>
+
+              <TestimonialSection testimonials={testimonials} stadtteil={stadtteilData.name} />
 
               <div className="bg-gray-50 rounded-xl p-4 md:p-6">
                 <h4 className="font-bold text-secondary mb-4">Warum 089Dach?</h4>

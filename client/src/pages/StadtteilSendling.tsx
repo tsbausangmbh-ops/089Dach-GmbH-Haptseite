@@ -9,6 +9,8 @@ import BackButton from "@/components/BackButton";
 import { GeoLinks } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import heroImage from "@assets/generated_images/realistic_renovated_roof_obermenzing_after.png";
+import { TestimonialSection } from "@/components/TestimonialSection";
+import { getTestimonialsForLocation } from "@shared/testimonials";
 
 const stadtteilData = {
   name: "Sendling",
@@ -50,6 +52,7 @@ function NearbyServiceSchema() {
 }
 
 export default function StadtteilSendling() {
+  const testimonials = getTestimonialsForLocation(stadtteilData.name);
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
@@ -155,6 +158,8 @@ export default function StadtteilSendling() {
                 <h4 className="font-bold text-secondary mb-4">Auch in der Nähe:</h4>
                 <ul className="space-y-2">{stadtteilData.nachbarStadtteile.map((s, i) => (<li key={i}><a href={`/dachdecker-${s.toLowerCase()}`} className="text-primary hover:underline flex items-center gap-2"><MapPin className="h-4 w-4" />Dachdecker {s}</a></li>))}</ul>
               </div>
+
+              <TestimonialSection testimonials={testimonials} stadtteil={stadtteilData.name} />
             </div>
           </div>
         </div>

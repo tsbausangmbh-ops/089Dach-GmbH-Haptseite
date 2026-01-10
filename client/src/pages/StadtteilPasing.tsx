@@ -9,6 +9,8 @@ import BackButton from "@/components/BackButton";
 import { GeoLinks } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import heroImage from "@assets/generated_images/realistic_renovated_roof_obermenzing_after.png";
+import { TestimonialSection } from "@/components/TestimonialSection";
+import { getTestimonialsForLocation } from "@shared/testimonials";
 
 const stadtteilData = {
   name: "Pasing",
@@ -92,6 +94,7 @@ function NearbyServiceSchema() {
 }
 
 export default function StadtteilPasing() {
+  const testimonials = getTestimonialsForLocation(stadtteilData.name);
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
@@ -282,6 +285,8 @@ export default function StadtteilPasing() {
                   ))}
                 </ul>
               </div>
+
+              <TestimonialSection testimonials={testimonials} stadtteil={stadtteilData.name} />
 
               {/* Trust Badges */}
               <div className="bg-gray-50 rounded-xl p-4 md:p-6">

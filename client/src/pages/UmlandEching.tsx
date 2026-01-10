@@ -9,6 +9,8 @@ import BackButton from "@/components/BackButton";
 import { GeoLinks } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import heroImage from "@assets/generated_images/modern_house_with_anthracite_roof.png";
+import { TestimonialSection } from "@/components/TestimonialSection";
+import { getTestimonialsForLocation } from "@shared/testimonials";
 
 const stadtteilData = {
   name: "Eching",
@@ -57,6 +59,7 @@ function NearbyServiceSchema() {
 }
 
 export default function UmlandEching() {
+  const testimonials = getTestimonialsForLocation(stadtteilData.name);
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
@@ -185,6 +188,8 @@ export default function UmlandEching() {
                   ))}
                 </ul>
               </div>
+
+              <TestimonialSection testimonials={testimonials} stadtteil={stadtteilData.name} />
             </div>
           </div>
         </div>

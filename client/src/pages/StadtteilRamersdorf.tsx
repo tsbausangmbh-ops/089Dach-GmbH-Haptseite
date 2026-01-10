@@ -9,6 +9,8 @@ import BackButton from "@/components/BackButton";
 import { GeoLinks } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import heroImage from "@assets/generated_images/realistic_row_house_roof_after.png";
+import { TestimonialSection } from "@/components/TestimonialSection";
+import { getTestimonialsForLocation } from "@shared/testimonials";
 
 const stadtteilData = {
   name: "Ramersdorf-Perlach",
@@ -51,6 +53,7 @@ function NearbyServiceSchema() {
 }
 
 export default function StadtteilRamersdorf() {
+  const testimonials = getTestimonialsForLocation(stadtteilData.name);
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
@@ -198,6 +201,8 @@ export default function StadtteilRamersdorf() {
                   ))}
                 </ul>
               </div>
+
+              <TestimonialSection testimonials={testimonials} stadtteil={stadtteilData.name} />
               <div className="bg-gray-50 rounded-xl p-4 md:p-6">
                 <h4 className="font-bold text-secondary mb-4">Warum 089Dach?</h4>
                 <ul className="space-y-3">
