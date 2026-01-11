@@ -11,7 +11,6 @@ import BackgroundLogo from "@/components/BackgroundLogo";
 import { LocalBusinessSchema } from "@/components/SEO";
 import FloatingCTA from "@/components/FloatingCTA";
 import Redirect from "@/components/Redirect";
-import ChatWidget from "@/components/ChatWidget";
 
 interface ErrorBoundaryState {
   hasError: boolean;
@@ -384,7 +383,6 @@ function App() {
         <BackgroundLogo />
         <Router />
         <FloatingCTA />
-        <ChatWidget />
         <CookieConsent />
         <Toaster />
       </TooltipProvider>
