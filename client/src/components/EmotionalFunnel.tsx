@@ -196,7 +196,7 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
       </section>
 
       {/* Sektion 5: SEO Content Block */}
-      <section className="py-4 bg-stone-50">
+      <section className="pt-10 md:pt-16 pb-4 bg-stone-50">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl font-heading font-bold text-secondary mb-8 text-center">
