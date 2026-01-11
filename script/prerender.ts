@@ -1,12 +1,16 @@
 import { build as viteBuild } from "vite";
-import { readFile, writeFile, mkdir } from "fs/promises";
+import { readFile, writeFile, mkdir, stat } from "fs/promises";
 import path from "path";
 import { fileURLToPath } from "url";
 import { routes } from "../shared/routes.js";
 import { getSEODataForRoute } from "../shared/seo-data.js";
+import pLimit from "p-limit";
+import { parseHTML } from "linkedom";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, "..");
+
+const PARALLEL_WORKERS = 6;
 
 function escapeHtml(text: string): string {
   return text
@@ -17,7 +21,89 @@ function escapeHtml(text: string): string {
     .replace(/'/g, "&#039;");
 }
 
+function updateMetaTag(document: Document, selector: string, attribute: string, value: string) {
+  const element = document.querySelector(selector);
+  if (element) {
+    element.setAttribute(attribute, value);
+  }
+}
+
+function updateLinkTag(document: Document, selector: string, attribute: string, value: string) {
+  const element = document.querySelector(selector);
+  if (element) {
+    element.setAttribute(attribute, value);
+  }
+}
+
+async function prerenderRoute(
+  route: string,
+  template: string,
+  render: (route: string) => string,
+  rootDir: string
+): Promise<{ success: boolean; route: string; error?: string }> {
+  try {
+    const appHtml = render(route);
+    const canonicalUrl = route === "/" ? "https://089dach.de/" : `https://089dach.de${route}`;
+    const seoData = getSEODataForRoute(route);
+
+    const { document } = parseHTML(template);
+
+    const root = document.getElementById("root");
+    if (root) {
+      root.innerHTML = appHtml;
+    }
+
+    const title = document.querySelector("title");
+    if (title) {
+      title.textContent = seoData.title;
+    }
+
+    updateMetaTag(document, 'meta[name="description"]', "content", seoData.description);
+    if (seoData.keywords) {
+      updateMetaTag(document, 'meta[name="keywords"]', "content", seoData.keywords);
+    }
+
+    updateMetaTag(document, 'meta[property="og:title"]', "content", seoData.title);
+    updateMetaTag(document, 'meta[property="og:description"]', "content", seoData.description);
+    updateMetaTag(document, 'meta[property="og:url"]', "content", canonicalUrl);
+
+    updateMetaTag(document, 'meta[name="twitter:title"]', "content", seoData.title);
+    updateMetaTag(document, 'meta[name="twitter:description"]', "content", seoData.description);
+
+    updateLinkTag(document, 'link[rel="canonical"]', "href", canonicalUrl);
+
+    const hreflangTags = document.querySelectorAll('link[rel="alternate"][hreflang]');
+    hreflangTags.forEach((tag) => {
+      const href = tag.getAttribute("href");
+      if (href && href.includes("089dach.de/")) {
+        tag.setAttribute("href", canonicalUrl);
+      }
+    });
+
+    let html = document.toString();
+    
+    html = html.replace(
+      /https:\/\/c3cfe89b-bd5d-4dc1-a831-1716e6b0ba0d-00-25v8xb9qce15h\.riker\.replit\.dev\/opengraph\.jpg/g,
+      'https://089dach.de/opengraph.jpg'
+    );
+
+    const filePath =
+      route === "/"
+        ? path.resolve(rootDir, "dist/public/index.html")
+        : path.resolve(rootDir, `dist/public${route}/index.html`);
+
+    const dir = path.dirname(filePath);
+    await mkdir(dir, { recursive: true });
+    await writeFile(filePath, html);
+
+    return { success: true, route };
+  } catch (err) {
+    return { success: false, route, error: (err as Error).message };
+  }
+}
+
 async function prerender() {
+  const startTime = Date.now();
   console.log("Building SSR bundle...");
 
   await viteBuild({
@@ -46,7 +132,9 @@ async function prerender() {
     logLevel: "warn",
   });
 
-  console.log("Pre-rendering", routes.length, "pages...");
+  const ssrBuildTime = Date.now();
+  console.log(`SSR bundle built in ${((ssrBuildTime - startTime) / 1000).toFixed(2)}s`);
+  console.log(`Pre-rendering ${routes.length} pages with ${PARALLEL_WORKERS} parallel workers...`);
 
   const template = await readFile(
     path.resolve(rootDir, "dist/public/index.html"),
@@ -57,124 +145,39 @@ async function prerender() {
     path.resolve(rootDir, "dist/ssr/entry-server.js")
   );
 
-  let successCount = 0;
-  let errorCount = 0;
+  const limit = pLimit(PARALLEL_WORKERS);
+  let completedCount = 0;
 
-  for (const route of routes) {
-    try {
-      const appHtml = render(route);
-      const canonicalUrl = route === "/" ? "https://089dach.de/" : `https://089dach.de${route}`;
-      const seoData = getSEODataForRoute(route);
-      
-      let html = template.replace(
-        '<div id="root"></div>',
-        `<div id="root">${appHtml}</div>`
-      );
-
-      // Update page title
-      html = html.replace(
-        /<title>[^<]*<\/title>/,
-        `<title>${escapeHtml(seoData.title)}</title>`
-      );
-
-      // Update meta description
-      html = html.replace(
-        /<meta name="description" content="[^"]*" \/>/,
-        `<meta name="description" content="${escapeHtml(seoData.description)}" />`
-      );
-
-      // Update meta keywords if available
-      if (seoData.keywords) {
-        html = html.replace(
-          /<meta name="keywords" content="[^"]*" \/>/,
-          `<meta name="keywords" content="${escapeHtml(seoData.keywords)}" />`
-        );
-      }
-
-      // Update Open Graph tags
-      html = html.replace(
-        /<meta property="og:title" content="[^"]*" \/>/,
-        `<meta property="og:title" content="${escapeHtml(seoData.title)}" />`
-      );
-      html = html.replace(
-        /<meta property="og:description" content="[^"]*" \/>/,
-        `<meta property="og:description" content="${escapeHtml(seoData.description)}" />`
-      );
-      html = html.replace(
-        '<meta property="og:url" content="https://089dach.de/" />',
-        `<meta property="og:url" content="${canonicalUrl}" />`
-      );
-
-      // Update Twitter Card tags
-      html = html.replace(
-        /<meta name="twitter:title" content="[^"]*" \/>/,
-        `<meta name="twitter:title" content="${escapeHtml(seoData.title)}" />`
-      );
-      html = html.replace(
-        /<meta name="twitter:description" content="[^"]*" \/>/,
-        `<meta name="twitter:description" content="${escapeHtml(seoData.description)}" />`
-      );
-
-      // Update canonical URL
-      html = html.replace(
-        '<link rel="canonical" href="https://089dach.de/" />',
-        `<link rel="canonical" href="${canonicalUrl}" />`
-      );
-
-      // Update hreflang tags
-      html = html.replace(
-        /<link rel="alternate" hreflang="de" href="https:\/\/089dach\.de\/" \/>/g,
-        `<link rel="alternate" hreflang="de" href="${canonicalUrl}" />`
-      );
-      html = html.replace(
-        /<link rel="alternate" hreflang="de-DE" href="https:\/\/089dach\.de\/" \/>/g,
-        `<link rel="alternate" hreflang="de-DE" href="${canonicalUrl}" />`
-      );
-      html = html.replace(
-        /<link rel="alternate" hreflang="de-AT" href="https:\/\/089dach\.de\/" \/>/g,
-        `<link rel="alternate" hreflang="de-AT" href="${canonicalUrl}" />`
-      );
-      html = html.replace(
-        /<link rel="alternate" hreflang="de-CH" href="https:\/\/089dach\.de\/" \/>/g,
-        `<link rel="alternate" hreflang="de-CH" href="${canonicalUrl}" />`
-      );
-      html = html.replace(
-        /<link rel="alternate" hreflang="x-default" href="https:\/\/089dach\.de\/" \/>/g,
-        `<link rel="alternate" hreflang="x-default" href="${canonicalUrl}" />`
-      );
-
-      // Fix opengraph image URL
-      html = html.replace(
-        /https:\/\/c3cfe89b-bd5d-4dc1-a831-1716e6b0ba0d-00-25v8xb9qce15h\.riker\.replit\.dev\/opengraph\.jpg/g,
-        'https://089dach.de/opengraph.jpg'
-      );
-
-      const filePath =
-        route === "/"
-          ? path.resolve(rootDir, "dist/public/index.html")
-          : path.resolve(rootDir, `dist/public${route}/index.html`);
-
-      const dir = path.dirname(filePath);
-      await mkdir(dir, { recursive: true });
-      await writeFile(filePath, html);
-
-      successCount++;
-      if (successCount % 20 === 0) {
-        console.log(`Pre-rendered ${successCount}/${routes.length} pages...`);
-      }
-    } catch (err) {
-      errorCount++;
-      console.error(`Error pre-rendering ${route}:`, (err as Error).message);
-    }
-  }
-
-  console.log(
-    `\nPre-rendering complete: ${successCount} pages rendered, ${errorCount} errors`
+  const results = await Promise.all(
+    routes.map((route) =>
+      limit(async () => {
+        const result = await prerenderRoute(route, template, render, rootDir);
+        completedCount++;
+        if (completedCount % 20 === 0 || completedCount === routes.length) {
+          console.log(`Pre-rendered ${completedCount}/${routes.length} pages...`);
+        }
+        return result;
+      })
+    )
   );
 
+  const successCount = results.filter((r) => r.success).length;
+  const errorCount = results.filter((r) => !r.success).length;
+  const totalTime = ((Date.now() - startTime) / 1000).toFixed(2);
+  const prerenderTime = ((Date.now() - ssrBuildTime) / 1000).toFixed(2);
+
+  console.log(`\nPre-rendering complete in ${totalTime}s (prerender: ${prerenderTime}s)`);
+  console.log(`${successCount} pages rendered successfully, ${errorCount} errors`);
+
   if (errorCount > 0) {
-    console.error(`\nWarning: ${errorCount} pages failed to pre-render`);
+    console.error("\nFailed pages:");
+    results
+      .filter((r) => !r.success)
+      .forEach((r) => console.error(`  - ${r.route}: ${r.error}`));
   }
+
+  const avgTimePerPage = (parseFloat(prerenderTime) / routes.length * 1000).toFixed(1);
+  console.log(`\nAverage: ${avgTimePerPage}ms per page`);
 }
 
 prerender().catch((err) => {
