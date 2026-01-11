@@ -88,7 +88,7 @@ export default function DachUndicht() {
               Wir kommen zur Notabdichtung – meist noch am selben Tag.
             </p>
             <div className="flex flex-wrap gap-4 mt-6">
-              <Link href="/beratung"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8" data-testid="button-online">24h Online Termin</Button></Link>
+              <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8" data-testid="button-online"><a href="/beratung">24h Online Termin</a></Button>
               <a href="/kontakt/">
                 <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-red-900" data-testid="button-contact-hero">
                   Kontakt aufnehmen
@@ -188,7 +188,7 @@ export default function DachUndicht() {
               Je länger Wasser eindringt, desto größer der Schaden. Schimmel, faule Balken, 
               kaputte Dämmung – das wird schnell teuer. Rufen Sie jetzt an!
             </p>
-            <Link href="/beratung"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8" data-testid="button-online">24h Online Termin</Button></Link>
+            <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8" data-testid="button-online"><a href="/beratung">24h Online Termin</a></Button>
           </div>
         </div>
       </section>

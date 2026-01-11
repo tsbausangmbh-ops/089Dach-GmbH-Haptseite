@@ -200,7 +200,7 @@ const Cookies = lazy(() => import("@/pages/Cookies"));
 // Loading component for Suspense
 function PageLoader() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background" role="status" aria-label="Seite wird geladen">
+    <div className="min-h-screen flex items-center justify-center bg-background" role="status" aria-busy="true">
       <div className="text-center">
         <div className="w-12 h-12 border-4 border-primary border-t-transparent rounded-full animate-spin mx-auto mb-4" aria-hidden="true"></div>
         <p className="text-muted-foreground">Wird geladen...</p>

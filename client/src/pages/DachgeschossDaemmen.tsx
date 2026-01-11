@@ -66,8 +66,8 @@ export default function DachgeschossDaemmen() {
             <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-7xl mx-auto">Wohnkomfort steigern, Heizkosten senken – professionelle Dämmung mit KfW-Förderung.</p>
             <p className="text-lg text-white/70 mb-8">Ab 40€/m² • Bis 20% Förderung • Meisterbetrieb</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/rueckruf/"><Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-6" data-testid="button-hero-callback"><Phone className="mr-2 h-5 w-5" />Kostenlose Beratung</Button></Link>
-              <Link href="/beratung"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8 py-6" data-testid="button-hero-online">24h Online Termin</Button></Link>
+              <Button asChild size="lg" className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-6" data-testid="button-hero-callback"><a href="/rueckruf/"><Phone className="mr-2 h-5 w-5" />Kostenlose Beratung</a></Button>
+              <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8 py-6" data-testid="button-hero-online"><a href="/beratung">24h Online Termin</a></Button>
             </div>
           </div>
         </div>
@@ -132,8 +132,8 @@ export default function DachgeschossDaemmen() {
             <h2 className="text-3xl font-bold mb-6">Dachgeschoss dämmen lassen?</h2>
             <p className="text-xl text-white/90 mb-8">Kostenlose Beratung mit Förder-Check</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/rueckruf/"><Button size="lg" className="bg-white text-blue-700 hover:bg-blue-50 text-lg px-8" data-testid="button-cta-callback">Beratung anfordern<ArrowRight className="ml-2 h-5 w-5" /></Button></Link>
-              <Link href="/beratung"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8" data-testid="button-online-cta">24h Online Termin</Button></Link>
+              <Button size="lg" className="bg-white text-blue-700 hover:bg-blue-50 text-lg px-8" data-testid="button-cta-callback">Beratung anfordern<ArrowRight className="ml-2 h-5 w-5" /></a></Button>
+              <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8" data-testid="button-online-cta"><a href="/beratung">24h Online Termin</a></Button>
             </div>
           </div>
         </div>

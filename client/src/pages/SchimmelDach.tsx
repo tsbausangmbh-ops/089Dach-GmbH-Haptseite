@@ -86,13 +86,13 @@ export default function SchimmelDach() {
               damit Ihr Dachstuhl wieder trocken und gesund wird.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/rueckruf/">
+              
                 <Button size="lg" className="bg-white text-purple-700 hover:bg-purple-50 text-lg px-8 py-6" data-testid="button-hero-callback">
                   <Phone className="mr-2 h-5 w-5" />
                   Kostenlose Erstberatung
                 </Button>
               </Link>
-              <Link href="/beratung"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8" data-testid="button-online">24h Online Termin</Button></Link>
+              <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8" data-testid="button-online"><a href="/beratung">24h Online Termin</a></Button>
             </div>
           </div>
         </div>
@@ -199,13 +199,13 @@ export default function SchimmelDach() {
               Kostenlose Erstberatung – wir klären, wie wir Ihnen helfen können
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/rueckruf/">
+              
                 <Button size="lg" className="bg-purple-600 hover:bg-purple-700 text-white text-lg px-8" data-testid="button-cta-callback">
                   Beratungstermin vereinbaren
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
               </Link>
-              <Link href="/beratung"><Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8" data-testid="button-online">24h Online Termin</Button></Link>
+              <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8" data-testid="button-online"><a href="/beratung">24h Online Termin</a></Button>
             </div>
           </div>
         </div>
