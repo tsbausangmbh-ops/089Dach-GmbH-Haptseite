@@ -68,8 +68,8 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
             </div>
             
             <p className="text-base md:text-xl text-gray-100 mb-6 md:mb-8 max-w-xl leading-relaxed">
-              <strong className="text-white">Über 100+ zufriedene Kunden</strong> vertrauen 089Dach GmbH München. 
-              <span className="text-primary font-semibold"> Faire Festpreise. Ehrliche Beratung. Saubere Arbeit.</span>
+              <strong className="text-white">Über 100+ Münchner Eigentümer</strong> haben rechtzeitig saniert – bevor kleine Schäden teuer wurden. 
+              <span className="text-primary font-semibold"> Faire Festpreise. KfW-Förderung noch verfügbar.</span>
             </p>
             
             <div className="flex flex-col sm:flex-row gap-3 md:gap-4 mb-4 md:mb-6">
@@ -100,7 +100,7 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
             
             <p className="text-sm text-gray-300 mb-8">
               <CheckCircle2 className="inline h-4 w-4 text-green-400 mr-1" />
-              Kostenlose Beratung • Festpreisangebot • Antwort in 24h
+              Kostenlose Erstberatung • Festpreis-Garantie • Diese Woche noch Termine frei
             </p>
           </div>
         </div>
@@ -134,7 +134,7 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
             <div className="py-4 md:py-6 px-4 text-center text-white">
               <Clock className="h-8 w-8 text-primary mx-auto mb-2" />
               <p className="font-bold text-lg">Schnell vor Ort</p>
-              <p className="text-sm text-gray-400">Termin in 48h möglich</p>
+              <p className="text-sm text-gray-400">Bevor Feuchteschäden teurer werden</p>
             </div>
           </div>
         </div>

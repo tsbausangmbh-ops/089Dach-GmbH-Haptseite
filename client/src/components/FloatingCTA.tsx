@@ -9,7 +9,7 @@ export default function FloatingCTA() {
       data-testid="floating-cta-beratung"
     >
       <Calendar className="h-4 w-4 sm:h-5 sm:w-5" />
-      <span className="font-semibold text-xs sm:text-sm hidden xs:inline">24h Online Termine</span>
+      <span className="font-semibold text-xs sm:text-sm hidden xs:inline">Jetzt Termin sichern</span>
       <span className="font-semibold text-xs sm:hidden">Termin</span>
     </Link>
   );
