@@ -24,8 +24,8 @@ interface ContactProps {
 }
 
 export default function Contact({ 
-  title = "Sprechen Sie mit uns über Ihr Projekt",
-  description = "Da wir pro Woche nur begrenzte Kapazitäten haben, reservieren wir Ihren Termin nach Anfrage-Eingang. Frühzeitige Anfragen vermeiden Wartezeiten."
+  title = "Jetzt ist der richtige Moment",
+  description = "Jeder Tag Verzögerung kann neue Schäden verursachen. Sichern Sie sich jetzt Ihren Beratungstermin – unsere Kapazitäten sind begrenzt."
 }: ContactProps = {}) {
   const [formData, setFormData] = useState({
     name: "",

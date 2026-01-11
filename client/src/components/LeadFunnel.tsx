@@ -22,8 +22,8 @@ export default function LeadFunnel({
   externalOpen, 
   onExternalOpenChange,
   headline = "Sie wissen, dass etwas getan werden muss.",
-  subheadline = "Wir zeigen Ihnen wie.",
-  description = "Jede Woche Verzögerung kann Folgeschäden verursachen, die 3× teurer werden. Sichern Sie sich jetzt Ihren Termin."
+  subheadline = "Heute handeln spart morgen Geld.",
+  description = "Kleine Schäden wachsen schnell. Wer jetzt handelt, zahlt weniger. Wer wartet, riskiert teure Folgeschäden."
 }: LeadFunnelProps) {
   const [open, setOpen] = useState(false);
   const [step, setStep] = useState(1);

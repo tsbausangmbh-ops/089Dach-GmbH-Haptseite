@@ -15,8 +15,8 @@ export default function Services() {
       link: "/leistungen/dachsanierung",
       image: imgSanierung,
       imageAlt: "Saniertes Dach in München-Obermenzing",
-      keywords: ["Energetische Sanierung", "GEG 2024", "Förderung"],
-      description: "Weniger heizen, mehr sparen. Eine neue Dämmung macht Ihr Zuhause warm im Winter und kühl im Sommer – und senkt Ihre Energiekosten um bis zu 30%."
+      keywords: ["Energetische Sanierung", "Wärmedämmung"],
+      description: "Jeder Winter ohne Dämmung kostet Sie bares Geld. Eine Sanierung jetzt senkt Ihre Heizkosten sofort um bis zu 30% – und der Schaden wird nicht größer."
     },
     {
       icon: <Warehouse className="h-10 w-10 text-primary" />,
@@ -25,7 +25,7 @@ export default function Services() {
       image: imgBedachung,
       imageAlt: "Traditionelles Biberschwanz-Ziegeldach",
       keywords: ["Neueindeckung", "Ziegel", "Abdichtung"],
-      description: "Ein Dach für Generationen. Ob klassische Ziegel oder modernes Flachdach – wir bauen dauerhaft dicht und optisch perfekt."
+      description: "Alte Ziegel halten nicht ewig. Je länger Sie warten, desto mehr Schäden entstehen darunter. Handeln Sie, bevor es teurer wird."
     },
     {
       icon: <Wrench className="h-10 w-10 text-primary" />,
@@ -34,7 +34,7 @@ export default function Services() {
       image: imgSpenglerei,
       imageAlt: "Kupfer-Dachrinne und Spenglerarbeiten",
       keywords: ["Kupfer", "Zink", "Kamineinfassung"],
-      description: "Handarbeit mit Präzision. Dachrinnen, Fallrohre und Verblendungen aus Kupfer, Zink oder Alu – passgenau gefertigt in unserer Werkstatt."
+      description: "Verstopfte oder defekte Rinnen führen zu Wasserschäden an der Fassade. Lassen Sie es nicht so weit kommen – wir beheben das Problem schnell."
     },
     {
       icon: <Hammer className="h-10 w-10 text-primary" />,
@@ -43,7 +43,7 @@ export default function Services() {
       image: imgReparatur,
       imageAlt: "Dachdecker bei Reparaturarbeiten",
       keywords: ["Leckortung", "Ziegel tauschen", "Soforthilfe"],
-      description: "Tropft es durch? Wir finden das Leck und beheben es – schnell und dauerhaft. Damit Sie wieder ruhig schlafen können."
+      description: "Ein kleines Leck heute wird morgen zum großen Wasserschaden. Je schneller wir es finden, desto günstiger die Reparatur."
     },
     {
       icon: <AlertTriangle className="h-10 w-10 text-red-500" />,
@@ -52,7 +52,7 @@ export default function Services() {
       image: imgNotdienst,
       imageAlt: "Sturmschaden an Ziegeldach",
       keywords: ["24/7 Notfall", "Versicherung", "Sofort-Reparatur"],
-      description: "Sturm, Hagel oder Wasserschaden? Unser Notdienst ist rund um die Uhr für Sie da – auch am Wochenende.",
+      description: "Nach einem Sturm zählt jede Stunde. Versicherungen verlangen schnelle Dokumentation – wir sind sofort da und sichern Ihre Ansprüche.",
       highlight: true
     },
     {
@@ -62,7 +62,7 @@ export default function Services() {
       image: imgDachfenster,
       imageAlt: "Heller Dachboden mit Dachfenstern",
       keywords: ["Velux", "Roto", "Austausch"],
-      description: "Mehr Licht, mehr Wohnqualität. Neue Dachfenster verwandeln dunkle Räume in helle Lieblingsorte."
+      description: "Alte Dachfenster kosten Sie jeden Tag Energie. Neue Fenster machen sofort mehr Licht und senken die Heizrechnung."
     }
   ];
 
@@ -75,7 +75,7 @@ export default function Services() {
             <strong>Dachdecker Leistungen München</strong> – alles aus einer Hand
           </h2>
           <p className="text-muted-foreground text-lg">
-            Vom kleinen Leck bis zur kompletten Sanierung. Wir beraten ehrlich und arbeiten sauber.
+            Vom kleinen Leck bis zur kompletten Sanierung. Je früher Sie handeln, desto günstiger wird es.
           </p>
         </div>
 

@@ -61,15 +61,15 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
             
             <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-4 md:p-5 mb-4 md:mb-6">
               <p className="text-lg md:text-xl text-white font-medium">
-                <span className="text-primary">✓</span> Undichte Stellen finden und beheben<br/>
-                <span className="text-primary">✓</span> Heizkosten senken durch bessere Dämmung<br/>
-                <span className="text-primary">✓</span> Sturmschäden schnell reparieren
+                <span className="text-primary">✓</span> Undichte Stellen finden – bevor sie teuer werden<br/>
+                <span className="text-primary">✓</span> Heizkosten sofort senken durch bessere Dämmung<br/>
+                <span className="text-primary">✓</span> Sturmschäden beheben, bevor die Versicherung ablehnt
               </p>
             </div>
             
             <p className="text-base md:text-xl text-gray-100 mb-6 md:mb-8 max-w-xl leading-relaxed">
-              <strong className="text-white">Über 100+ Münchner Eigentümer</strong> vertrauen uns bei Dach- und Spenglerarbeiten. 
-              <span className="text-primary font-semibold"> Faire Festpreise. Meisterqualität.</span>
+              <strong className="text-white">Über 100+ Münchner Eigentümer</strong> haben nicht länger gewartet – und sparen jetzt Geld. 
+              <span className="text-primary font-semibold"> Je früher Sie handeln, desto günstiger wird es.</span>
             </p>
             
             <div className="flex flex-col sm:flex-row gap-3 md:gap-4 mb-4 md:mb-6">
