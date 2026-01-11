@@ -42,7 +42,7 @@ export default function UrgencyBanner({
   return (
     <section className={`py-6 ${style.bg} border-y ${style.border}`}>
       <div className="container mx-auto px-6 lg:px-12">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-5xl mx-auto">
           <div className="flex flex-col md:flex-row items-start md:items-center gap-4 md:gap-6">
             <div className={`p-3 rounded-full ${style.bg} border ${style.border}`}>
               <AlertTriangle className={`h-8 w-8 ${style.icon}`} />
@@ -99,7 +99,7 @@ export function CostEscalationBanner() {
   return (
     <section className="py-8 bg-stone-100">
       <div className="container mx-auto px-6 lg:px-12">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-5xl mx-auto">
           <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
             <div className="bg-secondary text-white p-4 text-center">
               <h3 className="text-xl font-bold">Warum schnelles Handeln wichtig ist</h3>
@@ -150,7 +150,7 @@ export function DecisionPressureBanner() {
   return (
     <section className="py-6 bg-gradient-to-r from-primary to-primary/90">
       <div className="container mx-auto px-6 lg:px-12">
-        <div className="max-w-4xl mx-auto text-center text-white">
+        <div className="max-w-5xl mx-auto text-center text-white">
           <h3 className="text-2xl md:text-3xl font-bold mb-3">
             Sie haben das Problem erkannt – jetzt fehlt nur noch die Lösung
           </h3>

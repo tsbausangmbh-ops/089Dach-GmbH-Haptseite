@@ -30,7 +30,7 @@ export default function AIEnhancedFAQ({
   return (
     <section className="py-4 md:py-6 bg-white">
       <div className="container mx-auto px-4 md:px-6 lg:px-12">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-5xl mx-auto">
           <div className="text-center mb-8">
             <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-3">
               {title}

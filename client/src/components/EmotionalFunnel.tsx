@@ -11,7 +11,7 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
       {/* Sektion 1: Empathie - "Kennen Sie das?" */}
       <section className="py-6 md:py-10 bg-gradient-to-b from-stone-100 to-white">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
-          <div className="text-center max-w-3xl mx-auto mb-6 md:mb-8">
+          <div className="text-center max-w-4xl mx-auto mb-6 md:mb-8">
             <span className="inline-block bg-red-100 text-red-700 font-bold tracking-wider uppercase text-xs md:text-sm px-4 py-1.5 rounded-full mb-3">Kommt Ihnen das bekannt vor?</span>
             <h2 className="text-2xl md:text-4xl font-heading font-bold text-secondary mt-1 md:mt-2 mb-3 md:mb-4">
               <strong>Jeder Tag ohne Lösung</strong> kostet Sie Geld

@@ -86,7 +86,7 @@ export default function ProcessSteps({
           </div>
         </div>
 
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {steps.map((item, index) => (
               <div 
@@ -115,7 +115,7 @@ export default function ProcessSteps({
         </div>
 
         <div className="mt-10 text-center">
-          <div className="bg-secondary rounded-xl p-6 md:p-8 max-w-3xl mx-auto">
+          <div className="bg-secondary rounded-xl p-6 md:p-8 max-w-4xl mx-auto">
             <h3 className="text-xl md:text-2xl font-bold text-white mb-3">
               Bereit für den ersten Schritt?
             </h3>
