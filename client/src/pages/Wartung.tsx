@@ -24,6 +24,7 @@ import wartungImg1 from "@assets/generated_images/roofer_working_on_red_tile_roo
 import wartungImg2 from "@assets/generated_images/aged_red_roof_tiles_closeup.png";
 import wartungImg3 from "@assets/generated_images/copper_roof_gutter_detail.png";
 import wartungImg4 from "@assets/generated_images/realistic_renovated_roof_obermenzing_after.png";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function Wartung() {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -545,11 +546,13 @@ export default function Wartung() {
         subtitle="Planbar, transparent und stressfrei – von der ersten Beratung bis zur Garantie."
       />
 
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Regelmäßige Dachwartung?"
         subheadline="Wir halten Ihr Dach in Schuss."
         description="Professionelle Wartung verlängert die Lebensdauer Ihres Daches um Jahre."
       />
+      <DecisionPressureBanner />
       </main>
       <Footer />
     </div>

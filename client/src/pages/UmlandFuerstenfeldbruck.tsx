@@ -4,6 +4,7 @@ import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
 import { Phone, MapPin, Clock, CheckCircle2, Star, Shield, Award, ArrowRight } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import BackButton from "@/components/BackButton";
 import { GeoLinks } from "@/components/GeoLinks";
@@ -221,11 +222,13 @@ export default function UmlandFuerstenfeldbruck() {
           </div>
         </div>
       </section>
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Dachdecker in Fürstenfeldbruck gesucht?"
         subheadline="Wir sind Ihr Partner in Fürstenfeldbruck."
         description="Ihr Dachdecker für Fürstenfeldbruck – Meisterbetrieb mit schneller Hilfe."
       />
+      <DecisionPressureBanner />
       <Footer />
     </div>
   );

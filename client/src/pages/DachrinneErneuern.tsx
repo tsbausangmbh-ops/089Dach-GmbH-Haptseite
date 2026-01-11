@@ -11,6 +11,7 @@ import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
 import { ServiceGeoLinks } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function DachrinneErneuern() {
   const materialien = [
@@ -166,11 +167,13 @@ export default function DachrinneErneuern() {
         </div>
       </section>
 
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Dachrinne erneuern in München?"
         subheadline="Wir erneuern Ihre komplette Rinne."
         description="Neue Dachrinnen aus Zink oder Kupfer – fachgerechte Montage durch Münchner Meisterbetrieb."
       />
+      <DecisionPressureBanner />
     </div>
   );
 }

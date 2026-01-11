@@ -9,6 +9,7 @@ import BackButton from "@/components/BackButton";
 import EinzugsgebietSection from "@/components/EinzugsgebietSection";
 import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function VordachMontage() {
   const vordachTypen = [
@@ -115,11 +116,13 @@ export default function VordachMontage() {
       </section>
 
       <EinzugsgebietSection />
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Vordach Montage in München"
         subheadline="Wir bauen Ihr Vordach."
         description="Professionelle Vordach Montage in München – Schutz für Ihren Eingang."
       />
+      <DecisionPressureBanner />
     </div>
   );
 }

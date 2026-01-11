@@ -19,6 +19,7 @@ import beschichtungImg1 from "@assets/generated_images/aged_red_roof_tiles_close
 import beschichtungImg2 from "@assets/generated_images/historic_biberschwanz_roof_with_patina.png";
 import beschichtungImg3 from "@assets/generated_images/realistic_renovated_roof_obermenzing_after.png";
 import beschichtungImg4 from "@assets/generated_images/modern_house_with_anthracite_roof.png";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function Dachbeschichtung() {
   return (
@@ -310,11 +311,13 @@ export default function Dachbeschichtung() {
       />
 
       <ServiceGeoLinks currentService="Dachreparatur" />
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Dachbeschichtung statt Neueindeckung?"
         subheadline="Wir prüfen, ob sich eine Beschichtung lohnt."
         description="Eine Dachbeschichtung ist nicht immer die beste Lösung. Wir beraten ehrlich."
       />
+      <DecisionPressureBanner />
       </main>
       <Footer />
     </div>

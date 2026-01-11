@@ -8,6 +8,7 @@ import BackButton from "@/components/BackButton";
 import EinzugsgebietSection from "@/components/EinzugsgebietSection";
 import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function SolaranlageDach() {
   const leistungen = [
@@ -112,11 +113,13 @@ export default function SolaranlageDach() {
       </section>
 
       <EinzugsgebietSection />
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Solaranlage aufs Dach in München?"
         subheadline="Wir prüfen die Eignung."
         description="Vor Solaranlage aufs Dach – wir prüfen ob Ihr Münchner Dach bereit ist."
       />
+      <DecisionPressureBanner />
     </div>
   );
 }

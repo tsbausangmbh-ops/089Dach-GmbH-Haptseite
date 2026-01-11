@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Phone, MapPin, Clock, CheckCircle2, Star, Shield, Award, ArrowRight, Wrench, Home, Building2, Users, Calendar, Euro, FileCheck, Hammer } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 import ImageGallery from "@/components/ImageGallery";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import BackButton from "@/components/BackButton";
@@ -483,11 +484,13 @@ export default function SEODachdeckerMuenchen() {
         columns={2}
       />
 
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Dachdecker München – Ihr Meisterbetrieb"
         subheadline="Wir sind Ihr Partner."
         description="Ihr Dachdecker in München seit 1998 – Erfahrung, Qualität und faire Preise."
       />
+      <DecisionPressureBanner />
 
       <section className="py-4 md:py-6 bg-primary">
         <div className="container mx-auto px-4 md:px-6 lg:px-12 text-center">

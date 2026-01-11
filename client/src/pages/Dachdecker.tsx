@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import LeadFunnel from "@/components/LeadFunnel";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 import { Button } from "@/components/ui/button";
 import { Phone, CheckCircle2, ArrowRight, Award, Shield, Clock, Users, Wrench, Home, Star, MapPin } from "lucide-react";
 import SEO, { BreadcrumbSchema, ServiceSchema, FAQPageSchema, ProductServiceSchema } from "@/components/SEO";
@@ -257,11 +258,13 @@ export default function Dachdecker() {
       </section>
 
       <ServiceGeoLinks currentService="Dachreparatur" />
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Dachdecker in München gesucht?"
         subheadline="Wir sind Ihr Meisterbetrieb."
         description="Ihr Dachdecker in München seit 1998 – Kompetenz, Erfahrung und faire Preise."
       />
+      <DecisionPressureBanner />
       </main>
       <Footer />
     </div>

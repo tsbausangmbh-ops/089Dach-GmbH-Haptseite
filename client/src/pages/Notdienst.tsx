@@ -19,6 +19,7 @@ import notdienstImg3 from "@assets/generated_images/realistic_damaged_flat_roof_
 import notdienstImg4 from "@assets/generated_images/realistic_garage_epdm_roof_after.png";
 import { ServiceGeoLinks } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 function EmergencyServiceSchema() {
   const schema = {
@@ -332,11 +333,13 @@ export default function Notdienst() {
       <ProofStack title="Warum 089Dach im Notfall?" />
 
       <ServiceGeoLinks currentService="Notdienst" />
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Dach-Notfall?"
         subheadline="Wir sind in 1-2 Stunden vor Ort."
         description="Bei Sturmschäden, Wassereintritt oder akuten Problemen: Rufen Sie uns an."
       />
+      <DecisionPressureBanner />
       <Contact 
         title="Dach-Notfall? Wir sind sofort für Sie da!"
         description="Bei Wasserschaden, Sturmschaden oder undichtem Dach: Rufen Sie uns jetzt an oder senden Sie Ihre Anfrage – wir melden uns schnellstmöglich."

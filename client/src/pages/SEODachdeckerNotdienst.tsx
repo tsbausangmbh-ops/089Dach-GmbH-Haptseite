@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Phone, MapPin, Clock, CheckCircle2, AlertTriangle, Shield, Calendar, Zap, CloudRain, Wind } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 import ImageGallery from "@/components/ImageGallery";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import BackButton from "@/components/BackButton";
@@ -259,11 +260,13 @@ export default function SEODachdeckerNotdienst() {
         </div>
       </section>
 
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Dachdecker Notdienst München – 24h Hilfe"
         subheadline="Wir sind in 1-2 Stunden da."
         description="Schneller Dachdecker Notdienst in München – in 1-2 Stunden vor Ort bei Sturmschaden."
       />
+      <DecisionPressureBanner />
       </main>
 
       <Footer />

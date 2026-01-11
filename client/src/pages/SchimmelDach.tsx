@@ -8,6 +8,7 @@ import SEO, { BreadcrumbSchema, ServiceSchema, FAQPageSchema, ProductServiceSche
 import BackButton from "@/components/BackButton";
 import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function SchimmelDach() {
   const ursachen = [
@@ -210,11 +211,13 @@ export default function SchimmelDach() {
         </div>
       </section>
 
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Schimmel Dach in München?"
         subheadline="Wir finden die Ursache."
         description="Professionelle Ursachenanalyse bei Schimmel unterm Dach – Ihr Münchner Meisterbetrieb hilft."
       />
+      <DecisionPressureBanner />
     </div>
   );
 }

@@ -21,6 +21,7 @@ import gaubeImg1 from "@assets/generated_images/altbau_damaged_dormer_before.png
 import gaubeImg2 from "@assets/generated_images/altbau_renovated_dormer_after.png";
 import gaubeImg3 from "@assets/generated_images/realistic_damaged_dormer_before.png";
 import gaubeImg4 from "@assets/generated_images/realistic_renovated_dormer_after.png";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function Gaubenbau() {
   const benefits = [
@@ -378,11 +379,13 @@ export default function Gaubenbau() {
       />
 
       <ServiceGeoLinks currentService="Gaubenbau" />
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Mehr Wohnraum durch eine Gaube?"
         subheadline="Wir planen und bauen Ihre Dachgaube."
         description="Eine Gaube bringt Licht, Stehhöhe und zusätzliche Wohnfläche. Die beste Investition für Ihr Dachgeschoss."
       />
+      <DecisionPressureBanner />
       <Contact 
         title="Mehr Wohnraum durch eine Gaube?"
         description="Wir planen und bauen Ihre Gaube – von der ersten Skizze bis zur Fertigstellung. Jetzt unverbindliche Beratung anfordern."

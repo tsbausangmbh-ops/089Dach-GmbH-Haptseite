@@ -10,6 +10,7 @@ import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
 import { ServiceGeoLinks } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function SturmschadenDach() {
   const sofortMassnahmen = [
@@ -213,11 +214,13 @@ export default function SturmschadenDach() {
       </section>
 
       <ServiceGeoLinks currentService="Sturmschaden" />
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Sturmschaden Dach in München?"
         subheadline="Wir reparieren und dokumentieren."
         description="24h Notdienst bei Sturmschäden am Dach – Notsicherung und Direktabrechnung mit Versicherung."
       />
+      <DecisionPressureBanner />
       <Footer />
     </div>
   );

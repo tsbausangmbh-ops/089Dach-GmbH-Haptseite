@@ -11,6 +11,7 @@ import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
 import { ServiceGeoLinks } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function DachfensterEinbauen() {
   const fensterTypen = [
@@ -160,11 +161,13 @@ export default function DachfensterEinbauen() {
 
       <EinzugsgebietSection />
       <ServiceGeoLinks currentService="Dachfenster" />
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Dachfenster einbauen in München?"
         subheadline="Wir montieren Velux, Roto & Co."
         description="Fachgerechter Einbau aller Marken – mehr Licht unterm Dach durch Ihren Münchner Meisterbetrieb."
       />
+      <DecisionPressureBanner />
       </main>
       <Footer />
     </div>

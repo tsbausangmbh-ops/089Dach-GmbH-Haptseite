@@ -4,6 +4,7 @@ import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
 import { Phone, MapPin, Clock, CheckCircle2, Star, Shield, Award, ArrowRight } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import BackButton from "@/components/BackButton";
 import { GeoLinks } from "@/components/GeoLinks";
@@ -233,11 +234,13 @@ export default function StadtteilSchwanthalerhoehe() {
         </div>
       </section>
 
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Dachdecker in Schwanthalerhöhe gesucht?"
         subheadline="Wir sind Ihr Partner in Schwanthalerhöhe."
         description="Ihr Dachdecker für Schwanthalerhöhe – Meisterbetrieb mit schneller Hilfe."
       />
+      <DecisionPressureBanner />
       <Contact 
         title="Dachdecker in Schwanthalerhöhe gesucht?"
         description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Schwanthalerhöhe."

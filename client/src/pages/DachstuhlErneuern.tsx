@@ -11,6 +11,7 @@ import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
 import { ServiceGeoLinks } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function DachstuhlErneuern() {
   const kostenFaktoren = [
@@ -128,11 +129,13 @@ export default function DachstuhlErneuern() {
         </div>
       </section>
 
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Dachstuhl erneuern in München?"
         subheadline="Wir sanieren Ihren Dachstuhl."
         description="Dachstuhl erneuern vom Münchner Meisterbetrieb – Fundament für ein stabiles Dach."
       />
+      <DecisionPressureBanner />
     </div>
   );
 }

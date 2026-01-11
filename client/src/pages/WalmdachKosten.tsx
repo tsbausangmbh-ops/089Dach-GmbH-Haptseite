@@ -9,6 +9,7 @@ import BackButton from "@/components/BackButton";
 import EinzugsgebietSection from "@/components/EinzugsgebietSection";
 import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function WalmdachKosten() {
   const leistungen = [
@@ -141,11 +142,13 @@ export default function WalmdachKosten() {
       </section>
 
       <EinzugsgebietSection />
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Walmdach Kosten berechnen?"
         subheadline="Wir erstellen Ihr Angebot."
         description="Faire Walmdach Kosten – langlebig und wertsteigernd vom Meisterbetrieb."
       />
+      <DecisionPressureBanner />
     </div>
   );
 }

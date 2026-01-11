@@ -8,6 +8,7 @@ import SEO, { BreadcrumbSchema, ServiceSchema, FAQPageSchema, ProductServiceSche
 import BackButton from "@/components/BackButton";
 import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function EternitDach() {
   const ablauf = [
@@ -223,11 +224,13 @@ export default function EternitDach() {
         </div>
       </section>
 
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Eternit Dach sanieren in München?"
         subheadline="Wir entsorgen Asbest fachgerecht."
         description="Zertifizierte Asbestsanierung nach TRGS 519 – Komplett-Service vom Münchner Meisterbetrieb."
       />
+      <DecisionPressureBanner />
     </div>
   );
 }

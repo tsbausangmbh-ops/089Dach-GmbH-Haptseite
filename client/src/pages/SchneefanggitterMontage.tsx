@@ -9,6 +9,7 @@ import BackButton from "@/components/BackButton";
 import EinzugsgebietSection from "@/components/EinzugsgebietSection";
 import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function SchneefanggitterMontage() {
   const typen = [
@@ -117,11 +118,13 @@ export default function SchneefanggitterMontage() {
       </section>
 
       <EinzugsgebietSection />
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Schneefanggitter Montage in München"
         subheadline="Wir sichern Ihr Dach."
         description="Professionelle Schneefanggitter Montage – Schutz für Fußgänger und Eigentum."
       />
+      <DecisionPressureBanner />
     </div>
   );
 }

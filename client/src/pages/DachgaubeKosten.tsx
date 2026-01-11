@@ -11,6 +11,7 @@ import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
 import { ServiceGeoLinks } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function DachgaubeKosten() {
   const gaubenTypen = [
@@ -163,11 +164,13 @@ export default function DachgaubeKosten() {
 
       <EinzugsgebietSection />
       <ServiceGeoLinks currentService="Dachsanierung" />
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Dachgaube Kosten berechnen?"
         subheadline="Wir berechnen Ihr Projekt."
         description="Transparente Dachgaube Kosten – von der Planung bis zur schlüsselfertigen Gaube."
       />
+      <DecisionPressureBanner />
       </main>
       <Footer />
     </div>

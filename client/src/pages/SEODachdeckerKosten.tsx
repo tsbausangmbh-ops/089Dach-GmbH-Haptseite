@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { MapPin, CheckCircle2, Star, Shield, Calendar, Euro, Calculator, TrendingUp, Percent, FileText } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 import ImageGallery from "@/components/ImageGallery";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import BackButton from "@/components/BackButton";
@@ -295,11 +296,13 @@ export default function SEODachdeckerKosten() {
         columns={2}
       />
 
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Dachdecker Kosten in München"
         subheadline="Wir erstellen transparente Angebote."
         description="Transparente Dachdecker Kosten in München – faire Festpreise vom Meisterbetrieb."
       />
+      <DecisionPressureBanner />
 
       <section className="py-4 md:py-6 bg-primary">
         <div className="container mx-auto px-4 md:px-6 lg:px-12 text-center">

@@ -10,6 +10,7 @@ import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
 import { ServiceGeoLinks } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function Dachdaemmung() {
   const daemmarten = [
@@ -219,11 +220,13 @@ export default function Dachdaemmung() {
       </section>
 
       <ServiceGeoLinks currentService="Dachsanierung" />
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Dachdämmung in München?"
         subheadline="Wir zeigen Ihnen die beste Dämmlösung."
         description="Ihre Dachdämmung vom Münchner Meisterbetrieb – bis zu 40% Heizkosten sparen mit KfW-Förderung."
       />
+      <DecisionPressureBanner />
       </main>
       <Footer />
     </div>

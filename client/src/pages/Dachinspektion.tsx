@@ -10,6 +10,7 @@ import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
 import { ServiceGeoLinks } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function Dachinspektion() {
   const leistungen = [
@@ -246,11 +247,13 @@ export default function Dachinspektion() {
         </div>
       </section>
 
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Dachinspektion in München?"
         subheadline="Wir prüfen den Zustand Ihres Daches."
         description="Ihre Dachinspektion in München für nur 149€ – Fotodokumentation und Protokoll vom Meisterbetrieb inklusive."
       />
+      <DecisionPressureBanner />
       </main>
     </div>
   );

@@ -8,6 +8,7 @@ import BackButton from "@/components/BackButton";
 import EinzugsgebietSection from "@/components/EinzugsgebietSection";
 import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function KehleDachReparieren() {
   const leistungen = [
@@ -112,11 +113,13 @@ export default function KehleDachReparieren() {
       </section>
 
       <EinzugsgebietSection />
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Kehle am Dach reparieren?"
         subheadline="Wir reparieren Kehlen fachgerecht."
         description="Kehle am Dach reparieren – der kritische Punkt, fachgerecht abgedichtet."
       />
+      <DecisionPressureBanner />
     </div>
   );
 }

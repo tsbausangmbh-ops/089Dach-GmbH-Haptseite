@@ -9,6 +9,7 @@ import BackButton from "@/components/BackButton";
 import EinzugsgebietSection from "@/components/EinzugsgebietSection";
 import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function BlechdachKosten() {
   const blechTypen = [
@@ -143,11 +144,13 @@ export default function BlechdachKosten() {
       </section>
 
       <EinzugsgebietSection />
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Blechdach Kosten kalkulieren?"
         subheadline="Wir erstellen Ihr individuelles Angebot."
         description="Faire Blechdach Kosten – ob Stehfalz oder Trapezblech, wir beraten transparent."
       />
+      <DecisionPressureBanner />
     </div>
   );
 }

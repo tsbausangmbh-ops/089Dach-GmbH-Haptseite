@@ -10,6 +10,7 @@ import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
 import { ServiceGeoLinks } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function DachgeschossDaemmen() {
   const daemmarten = [
@@ -148,11 +149,13 @@ export default function DachgeschossDaemmen() {
         </div>
       </section>
 
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Dachgeschoss dämmen in München?"
         subheadline="Wir zeigen die beste Lösung."
         description="Dachgeschoss dämmen vom Profi – Heizkosten sparen und Wohnkomfort steigern."
       />
+      <DecisionPressureBanner />
     </div>
   );
 }

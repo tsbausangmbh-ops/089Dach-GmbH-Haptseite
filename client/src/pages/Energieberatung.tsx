@@ -21,6 +21,7 @@ import energieImg1 from "@assets/generated_images/new_solar_panel_installation.p
 import energieImg2 from "@assets/generated_images/roof_insulation_installation_scene.png";
 import energieImg3 from "@assets/generated_images/house_with_heat_loss_visualization.png";
 import energieImg4 from "@assets/generated_images/modern_house_with_anthracite_roof.png";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function Energieberatung() {
   const benefits = [
@@ -310,11 +311,13 @@ export default function Energieberatung() {
       <ProofStack title="Warum 089Dach für Ihre Förderprojekte?" />
 
       <ServiceGeoLinks currentService="Energieberatung" />
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Energieberatung für Ihr Dach?"
         subheadline="Wir zeigen Förderungen und Einsparpotenziale."
         description="Eine gute Energieberatung spart bares Geld. Bis zu 20% BAFA-Zuschuss sind möglich."
       />
+      <DecisionPressureBanner />
       <Contact 
         title="Förderung für Ihre Dachsanierung sichern?"
         description="Wir beraten Sie zu KfW- und BAFA-Förderprogrammen und übernehmen die Antragstellung. Jetzt Förderberatung anfordern."

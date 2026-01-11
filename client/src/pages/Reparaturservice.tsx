@@ -27,6 +27,7 @@ import reparaturImg2 from "@assets/generated_images/roofer_working_on_red_tile_r
 import reparaturImg3 from "@assets/generated_images/damaged_chimney_flashing_before.png";
 import reparaturImg4 from "@assets/generated_images/new_copper_chimney_flashing.png";
 import Contact from "@/components/Contact";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function Reparaturservice() {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -580,11 +581,13 @@ export default function Reparaturservice() {
       />
 
       <ServiceGeoLinks currentService="Dachreparatur" />
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Dach undicht oder beschädigt?"
         subheadline="Wir reparieren schnell und zuverlässig."
         description="Eine kleine Reparatur heute verhindert eine große Sanierung morgen."
       />
+      <DecisionPressureBanner />
       </main>
       <Footer />
     </div>

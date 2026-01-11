@@ -11,6 +11,7 @@ import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
 import { ServiceGeoLinks } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function FlachdachAbdichten() {
   const methoden = [
@@ -151,11 +152,13 @@ export default function FlachdachAbdichten() {
 
       <EinzugsgebietSection />
       <ServiceGeoLinks currentService="Flachdach" />
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Flachdach abdichten in München?"
         subheadline="Wir dichten Ihr Flachdach dauerhaft ab."
         description="Professionelle Flachdachabdichtung mit Bitumen, EPDM oder PVC – Münchner Meisterbetrieb."
       />
+      <DecisionPressureBanner />
       </main>
       <Footer />
     </div>

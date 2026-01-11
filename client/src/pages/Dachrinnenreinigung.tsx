@@ -19,6 +19,7 @@ import rinnenImg3 from "@assets/generated_images/bogenhausen_chimney_new_copper.
 import rinnenImg4 from "@assets/generated_images/new_copper_chimney_flashing.png";
 import { ServiceGeoLinks } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function Dachrinnenreinigung() {
   return (
@@ -320,11 +321,13 @@ export default function Dachrinnenreinigung() {
         </div>
       </section>
 
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Dachrinne verstopft oder undicht?"
         subheadline="Wir reinigen und reparieren Ihre Rinnen."
         description="Verstopfte Dachrinnen führen zu Wasserschäden an der Fassade."
       />
+      <DecisionPressureBanner />
       </main>
       <Footer />
     </div>

@@ -11,7 +11,7 @@ import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
 import { ServiceGeoLinks } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
-import Footer from "@/components/Footer";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function DachbeschichtungKosten() {
   const leistungen = [
@@ -146,11 +146,13 @@ export default function DachbeschichtungKosten() {
 
       <EinzugsgebietSection />
       <ServiceGeoLinks currentService="Dachreparatur" />
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Dachbeschichtung Kosten – lohnt sich das?"
         subheadline="Wir beraten ehrlich."
         description="Ehrliche Beratung zu Dachbeschichtung Kosten – wir prüfen kostenlos, ob es sich lohnt."
       />
+      <DecisionPressureBanner />
       <Footer />
     </div>
   );

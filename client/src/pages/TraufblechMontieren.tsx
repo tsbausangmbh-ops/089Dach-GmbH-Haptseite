@@ -8,6 +8,7 @@ import BackButton from "@/components/BackButton";
 import EinzugsgebietSection from "@/components/EinzugsgebietSection";
 import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function TraufblechMontieren() {
   const leistungen = [
@@ -112,11 +113,13 @@ export default function TraufblechMontieren() {
       </section>
 
       <EinzugsgebietSection />
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Traufblech montieren in München?"
         subheadline="Wir schützen Ihre Dachkante."
         description="Traufblech montieren vom Münchner Spengler – Schutz für die Dachkante."
       />
+      <DecisionPressureBanner />
     </div>
   );
 }

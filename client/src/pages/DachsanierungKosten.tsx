@@ -11,6 +11,7 @@ import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
 import { ServiceGeoLinks } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function DachsanierungKosten() {
   const kostenTabelle = [
@@ -189,11 +190,13 @@ export default function DachsanierungKosten() {
         </div>
       </section>
 
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Dachsanierung Kosten in München?"
         subheadline="Wir erstellen ein individuelles Angebot."
         description="Transparente Dachsanierung Kosten vom Münchner Meisterbetrieb – Festpreise ohne versteckte Kosten."
       />
+      <DecisionPressureBanner />
       </main>
     </div>
   );

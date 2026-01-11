@@ -9,6 +9,7 @@ import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
 import { ServiceGeoLinks } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function DachNeuEindecken() {
   const materialien = [
@@ -243,11 +244,13 @@ export default function DachNeuEindecken() {
         </div>
       </section>
 
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Dach neu eindecken?"
         subheadline="Wir beraten zu Material und Kosten."
         description="Eine neue Dacheindeckung steigert den Wert Ihrer Immobilie und senkt Energiekosten."
       />
+      <DecisionPressureBanner />
       </main>
     </div>
   );

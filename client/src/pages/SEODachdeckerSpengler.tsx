@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Phone, MapPin, Clock, CheckCircle2, Star, Shield, Award, ArrowRight, Calendar, Euro, Wrench, Droplets, Home } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 import ImageGallery from "@/components/ImageGallery";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import BackButton from "@/components/BackButton";
@@ -297,11 +298,13 @@ export default function SEODachdeckerSpengler() {
         columns={2}
       />
 
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Dachdecker und Spengler München"
         subheadline="Alles aus einer Hand."
         description="Dachdecker und Spengler in einem Betrieb in München – alles aus einer Hand."
       />
+      <DecisionPressureBanner />
 
       <section className="py-4 md:py-6 bg-primary">
         <div className="container mx-auto px-4 md:px-6 lg:px-12 text-center">

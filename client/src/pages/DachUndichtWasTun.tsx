@@ -10,6 +10,7 @@ import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
 import { ServiceGeoLinks } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function DachUndichtWasTun() {
   const sofortmassnahmen = [
@@ -178,11 +179,13 @@ export default function DachUndichtWasTun() {
         </div>
       </section>
 
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Dach undicht – was tun?"
         subheadline="Wir zeigen Ihnen die Lösung."
         description="Dach undicht? Was tun? Schnelle Hilfe vom Münchner Dachdecker in 24h."
       />
+      <DecisionPressureBanner />
       </main>
     </div>
   );

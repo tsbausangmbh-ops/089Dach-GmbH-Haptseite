@@ -10,6 +10,7 @@ import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
 import { ServiceGeoLinks } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function DachziegelKaufen() {
   const ziegelTypen = [
@@ -151,11 +152,13 @@ export default function DachziegelKaufen() {
 
       <EinzugsgebietSection />
       <ServiceGeoLinks currentService="Dachziegel" />
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Dachziegel kaufen in München?"
         subheadline="Wir beraten zu allen Materialien."
         description="Dachziegel kaufen in München – wir beraten zu Ton, Beton und Schiefer."
       />
+      <DecisionPressureBanner />
     </div>
   );
 }

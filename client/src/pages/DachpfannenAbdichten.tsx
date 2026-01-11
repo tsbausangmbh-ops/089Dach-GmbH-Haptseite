@@ -10,6 +10,7 @@ import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
 import { ServiceGeoLinks } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function DachpfannenAbdichten() {
   const methoden = [
@@ -274,11 +275,13 @@ export default function DachpfannenAbdichten() {
         </div>
       </section>
 
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Dachpfannen abdichten in München?"
         subheadline="Wir dichten Ihre Dachpfannen ab."
         description="Professionelle Abdichtung von innen und außen – Meisterbetrieb München ab 25€/m²."
       />
+      <DecisionPressureBanner />
     </div>
   );
 }

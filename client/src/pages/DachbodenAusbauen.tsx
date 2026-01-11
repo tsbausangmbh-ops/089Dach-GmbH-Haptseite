@@ -11,6 +11,7 @@ import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
 import { ServiceGeoLinks } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function DachbodenAusbauen() {
   const leistungen = [
@@ -120,11 +121,13 @@ export default function DachbodenAusbauen() {
 
       <EinzugsgebietSection />
       <ServiceGeoLinks currentService="Dachsanierung" />
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Dachboden ausbauen in München?"
         subheadline="Wir schaffen Wohnraum unterm Dach."
         description="Professioneller Dachausbau mit Dämmung und Trockenbau – Ihr Münchner Meisterbetrieb."
       />
+      <DecisionPressureBanner />
       <Footer />
     </div>
   );

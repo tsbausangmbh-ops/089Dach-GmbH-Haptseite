@@ -11,6 +11,7 @@ import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
 import { ServiceGeoLinks } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function Dachentmoosung() {
   const leistungen = [
@@ -144,11 +145,13 @@ export default function Dachentmoosung() {
 
       <EinzugsgebietSection />
       <ServiceGeoLinks currentService="Dachreparatur" />
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Dachentmoosung in München gesucht?"
         subheadline="Wir entmoosen schonend und gründlich."
         description="Professionelle Dachentmoosung ab 10€/m² – schonende Methoden vom Münchner Meisterbetrieb."
       />
+      <DecisionPressureBanner />
       <Footer />
     </div>
   );

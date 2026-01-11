@@ -4,6 +4,7 @@ import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
 import { Phone, MapPin, Clock, CheckCircle2, Star, Shield, Award, ArrowRight } from "lucide-react";
 import LeadFunnel from "@/components/LeadFunnel";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import BackButton from "@/components/BackButton";
 import { GeoLinks } from "@/components/GeoLinks";
@@ -267,11 +268,13 @@ export default function StadtteilIsarvorstadt() {
         </div>
       </section>
 
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Dachdecker in Ludwigsvorstadt-Isarvorstadt gesucht?"
         subheadline="Wir sind Ihr Partner in Ludwigsvorstadt-Isarvorstadt."
         description="Ihr Dachdecker für Ludwigsvorstadt-Isarvorstadt – Meisterbetrieb mit schneller Hilfe."
       />
+      <DecisionPressureBanner />
       <Contact 
         title="Dachdecker in Ludwigsvorstadt-Isarvorstadt gesucht?"
         description="Wir sind Ihr lokaler Dachdecker-Meisterbetrieb in Ludwigsvorstadt-Isarvorstadt."

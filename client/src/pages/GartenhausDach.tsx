@@ -9,6 +9,7 @@ import BackButton from "@/components/BackButton";
 import EinzugsgebietSection from "@/components/EinzugsgebietSection";
 import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function GartenhausDach() {
   const dachMaterialien = [
@@ -130,11 +131,13 @@ export default function GartenhausDach() {
       </section>
 
       <EinzugsgebietSection />
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Gartenhaus Dach in München erneuern?"
         subheadline="Wir decken Gartenhäuser ein."
         description="Neues Dach für Ihr Gartenhaus – Dachpappe, Schindeln oder Blech vom Münchner Profi."
       />
+      <DecisionPressureBanner />
     </div>
   );
 }

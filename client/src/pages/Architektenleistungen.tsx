@@ -11,6 +11,7 @@ import SEO, { BreadcrumbSchema, ServiceSchema, FAQPageSchema } from "@/component
 import heroImage from "@assets/generated_images/homeowner_roof_consultation_scene.png";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import { ServiceGeoLinks } from "@/components/GeoLinks";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function Architektenleistungen() {
   const services = [
@@ -238,11 +239,13 @@ export default function Architektenleistungen() {
       </section>
 
       <ServiceGeoLinks currentService="Architektenleistungen" />
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Planung für Ihr Dachprojekt?"
         subheadline="Wir unterstützen Architekten und Bauherren."
         description="Von der Statik bis zur Ausführung – wir sind Ihr Partner für anspruchsvolle Dachprojekte."
       />
+      <DecisionPressureBanner />
       <Contact 
         title="Planung für Ihr Dachprojekt benötigt?"
         description="Wir vermitteln Ihnen erfahrene Architekten für Bauanträge und Genehmigungen. Alles aus einer Hand – von der Planung bis zum fertigen Dach."

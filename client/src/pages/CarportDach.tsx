@@ -9,6 +9,7 @@ import BackButton from "@/components/BackButton";
 import EinzugsgebietSection from "@/components/EinzugsgebietSection";
 import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function CarportDach() {
   const dachTypen = [
@@ -143,11 +144,13 @@ export default function CarportDach() {
       </section>
 
       <EinzugsgebietSection />
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Carport Dach in München erneuern?"
         subheadline="Wir decken Carports fachgerecht ein."
         description="Trapezblech, Stegplatten oder Ziegel – professionelle Carport-Überdachung in München."
       />
+      <DecisionPressureBanner />
     </div>
   );
 }

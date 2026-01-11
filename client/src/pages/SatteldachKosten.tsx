@@ -9,6 +9,7 @@ import BackButton from "@/components/BackButton";
 import EinzugsgebietSection from "@/components/EinzugsgebietSection";
 import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function SatteldachKosten() {
   const materialien = [
@@ -141,11 +142,13 @@ export default function SatteldachKosten() {
       </section>
 
       <EinzugsgebietSection />
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Satteldach Kosten berechnen?"
         subheadline="Wir erstellen Ihr Angebot."
         description="Transparente Satteldach Kosten – das bewährte Satteldach wirtschaftlich saniert."
       />
+      <DecisionPressureBanner />
     </div>
   );
 }

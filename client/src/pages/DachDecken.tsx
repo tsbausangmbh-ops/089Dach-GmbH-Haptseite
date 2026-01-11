@@ -9,6 +9,7 @@ import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
 import { ServiceGeoLinks } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function DachDecken() {
   const materialien = [
@@ -227,11 +228,13 @@ export default function DachDecken() {
       </section>
 
       <ServiceGeoLinks currentService="Dachsanierung" />
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Dach decken in München?"
         subheadline="Wir beraten zu Material und Kosten."
         description="Professionell Dach decken in München – wir beraten zu Material und Kosten."
       />
+      <DecisionPressureBanner />
       </main>
       <Footer />
     </div>

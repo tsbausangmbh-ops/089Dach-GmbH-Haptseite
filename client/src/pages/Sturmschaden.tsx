@@ -7,6 +7,7 @@ import { Phone, CheckCircle2, Shield, Clock, AlertTriangle, ArrowRight, CloudRai
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema, FAQPageSchema, HowToSchema } from "@/components/SEO";
 import BackButton from "@/components/BackButton";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function Sturmschaden() {
   return (
@@ -82,6 +83,8 @@ export default function Sturmschaden() {
       </div>
 
       <BackButton />
+
+      <CostEscalationBanner />
 
       <section className="py-3 md:py-4">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
@@ -210,6 +213,7 @@ export default function Sturmschaden() {
         subheadline="Wir helfen bei der Schadensbehebung."
         description="Nach einem Sturm zählt jede Stunde. Wir dokumentieren und reparieren für Ihre Wohngebäudeversicherung. Inkl. Kostenvoranschlag und Sachverständigen-Kommunikation."
       />
+      <DecisionPressureBanner />
       </main>
       <Footer />
     </div>

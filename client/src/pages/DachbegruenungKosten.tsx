@@ -11,7 +11,7 @@ import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
 import { ServiceGeoLinks } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
-import Footer from "@/components/Footer";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function DachbegruenungKosten() {
   const typen = [
@@ -146,11 +146,13 @@ export default function DachbegruenungKosten() {
 
       <EinzugsgebietSection />
       <ServiceGeoLinks currentService="Flachdach" />
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Dachbegrünung Kosten in München?"
         subheadline="Wir beraten zu Kosten und Förderung."
         description="Transparente Dachbegrünung Kosten – inklusive bis zu 50€/m² Förderung vom Freistaat."
       />
+      <DecisionPressureBanner />
       <Footer />
     </div>
   );

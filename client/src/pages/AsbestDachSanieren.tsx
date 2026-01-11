@@ -9,6 +9,7 @@ import BackButton from "@/components/BackButton";
 import EinzugsgebietSection from "@/components/EinzugsgebietSection";
 import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function AsbestDachSanieren() {
   const leistungen = [
@@ -142,11 +143,13 @@ export default function AsbestDachSanieren() {
       </section>
 
       <EinzugsgebietSection />
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Asbest Dach sanieren in München?"
         subheadline="Wir entsorgen sicher und fachgerecht."
         description="Asbest Dach sanieren in München – sichere Entsorgung nach Vorschrift."
       />
+      <DecisionPressureBanner />
     </div>
   );
 }

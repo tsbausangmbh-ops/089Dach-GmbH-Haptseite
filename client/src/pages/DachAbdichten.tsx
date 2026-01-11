@@ -10,7 +10,7 @@ import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
 import { ServiceGeoLinks } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
-import Footer from "@/components/Footer";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function DachAbdichten() {
   const dachtypen = [
@@ -259,12 +259,13 @@ export default function DachAbdichten() {
       </section>
 
       <ServiceGeoLinks currentService="Dachreparatur" />
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Dach abdichten in München?"
         subheadline="Wir finden und beheben die Undichtigkeit."
         description="Professionelle Dachabdichtung ab 25€/m² – alle Dachtypen, 24h Notdienst in München."
       />
-      <Footer />
+      <DecisionPressureBanner />
     </div>
   );
 }

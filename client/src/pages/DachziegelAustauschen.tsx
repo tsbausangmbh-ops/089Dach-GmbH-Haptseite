@@ -10,6 +10,7 @@ import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
 import { ServiceGeoLinks } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function DachziegelAustauschen() {
   const ziegelArten = [
@@ -225,11 +226,13 @@ export default function DachziegelAustauschen() {
         </div>
       </section>
 
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Dachziegel austauschen in München?"
         subheadline="Wir tauschen einzelne Ziegel aus."
         description="Schneller Austausch beschädigter Dachziegel durch Ihren Münchner Meisterbetrieb – ab 80€."
       />
+      <DecisionPressureBanner />
       </main>
     </div>
   );

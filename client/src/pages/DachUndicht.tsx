@@ -10,6 +10,7 @@ import BackButton from "@/components/BackButton";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
 import { ServiceGeoLinks } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function DachUndicht() {
   const sofortMassnahmen = [
@@ -200,11 +201,13 @@ export default function DachUndicht() {
         </div>
       </section>
 
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Dach undicht in München?"
         subheadline="Wir finden und beheben die Ursache."
         description="Schnelle Hilfe bei undichtem Dach – Notabdichtung in 24h vom Münchner Meisterbetrieb."
       />
+      <DecisionPressureBanner />
       </main>
     </div>
   );

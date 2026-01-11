@@ -10,6 +10,7 @@ import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
 import { ServiceGeoLinks } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function DachrinneReparieren() {
   const leistungen = [
@@ -196,11 +197,13 @@ export default function DachrinneReparieren() {
         </div>
       </section>
 
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Dachrinne reparieren in München?"
         subheadline="Wir reparieren Ihre Dachrinne."
         description="Schnelle Reparatur undichter Dachrinnen ab 60€ – Ihr Münchner Meisterbetrieb."
       />
+      <DecisionPressureBanner />
     </div>
   );
 }

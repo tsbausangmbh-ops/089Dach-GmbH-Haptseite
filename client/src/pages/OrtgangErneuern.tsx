@@ -9,6 +9,7 @@ import BackButton from "@/components/BackButton";
 import EinzugsgebietSection from "@/components/EinzugsgebietSection";
 import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function OrtgangErneuern() {
   const leistungen = [
@@ -117,11 +118,13 @@ export default function OrtgangErneuern() {
       </section>
 
       <EinzugsgebietSection />
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Ortgang erneuern in München?"
         subheadline="Wir reparieren den Dachrand."
         description="Ortgang erneuern vom Münchner Dachdecker – Schutz für die Giebelwand."
       />
+      <DecisionPressureBanner />
     </div>
   );
 }

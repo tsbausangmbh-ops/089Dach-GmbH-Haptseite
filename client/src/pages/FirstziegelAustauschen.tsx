@@ -9,6 +9,7 @@ import BackButton from "@/components/BackButton";
 import EinzugsgebietSection from "@/components/EinzugsgebietSection";
 import { Link } from "wouter";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function FirstziegelAustauschen() {
   const leistungen = [
@@ -117,11 +118,13 @@ export default function FirstziegelAustauschen() {
       </section>
 
       <EinzugsgebietSection />
+      <CostEscalationBanner />
       <LeadFunnel 
         headline="Firstziegel austauschen in München?"
         subheadline="Wir tauschen Firstziegel aus."
         description="Firstziegel austauschen vom Meisterbetrieb – schnell und fachgerecht."
       />
+      <DecisionPressureBanner />
     </div>
   );
 }
