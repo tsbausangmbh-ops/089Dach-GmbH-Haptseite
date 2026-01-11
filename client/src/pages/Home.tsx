@@ -117,8 +117,8 @@ export default function Home() {
 
         <CustomerReviews />
         <Contact 
-          title="Warten Sie nicht, bis es teurer wird"
-          description="Kleine Schäden werden zu großen Problemen. Jeder Tag Verzögerung kann neue Folgeschäden verursachen. Sichern Sie sich jetzt Ihren kostenlosen Beratungstermin – unsere Kapazitäten sind begrenzt."
+          title="Lassen Sie uns über Ihr Dach sprechen"
+          description="Kleine Schäden wachsen schnell. Je früher wir prüfen, desto günstiger die Lösung. Kostenlose Erstberatung – wir melden uns zeitnah."
         />
       </main>
       <Footer />

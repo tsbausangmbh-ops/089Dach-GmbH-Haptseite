@@ -56,10 +56,12 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
           </div>
 
           <div className="bg-secondary text-white p-4 md:p-6 rounded-xl text-center">
-            <Heart className="h-6 w-6 md:h-8 md:w-8 text-primary mx-auto mb-2" />
-            <h3 className="text-lg md:text-xl font-bold mb-2">Warten macht es nur teurer.</h3>
+            <div className="inline-block bg-primary/80 text-white text-xs font-bold px-3 py-1 rounded-full mb-3">
+              Erfahrungswert unserer Kunden
+            </div>
+            <h3 className="text-lg md:text-xl font-bold mb-2">Kleine Schäden wachsen schnell</h3>
             <p className="text-sm md:text-base text-gray-200 mb-3 md:mb-4">
-              Kleine Schäden werden zu großen Problemen. Handeln Sie jetzt – bevor die Kosten steigen.
+              Feuchtigkeit breitet sich aus, Dämmung verliert Wirkung. <strong className="text-white">Je früher wir prüfen, desto günstiger die Lösung.</strong>
             </p>
             <Button 
               size="default"
@@ -67,7 +69,7 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
               onClick={onOpenFunnel}
               data-testid="button-empathy-cta"
             >
-              Kostenlos beraten lassen
+              Jetzt Schaden stoppen
               <ArrowRight className="ml-2 h-4 w-4 md:h-5 md:w-5" />
             </Button>
           </div>
@@ -142,11 +144,14 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
       {/* Sektion 4: Einfacher CTA */}
       <section className="py-3 md:py-5 bg-primary">
         <div className="container mx-auto px-4 md:px-6 lg:px-12 text-center">
+          <div className="inline-block bg-white/20 backdrop-blur-sm text-white text-xs font-bold px-4 py-1.5 rounded-full mb-3">
+            Schnelle Reaktionszeit
+          </div>
           <h2 className="text-xl md:text-4xl font-heading font-bold text-white mb-2 md:mb-4">
-            <strong>Kostenlose Dachberatung München</strong> anfordern
+            <strong>Je früher Sie handeln,</strong> desto günstiger wird es
           </h2>
           <p className="text-sm md:text-xl text-white/90 mb-4 md:mb-8 max-w-2xl mx-auto">
-            Je früher Sie handeln, desto günstiger wird es. Rückruf in 2 Minuten anfordern.
+            Wir reagieren schnell – damit Ihr Dachproblem nicht größer wird als nötig.
           </p>
           
           <div className="flex flex-col md:flex-row gap-2 md:gap-4 justify-center mb-4 md:mb-6">
@@ -156,7 +161,7 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
               onClick={onOpenFunnel}
               data-testid="button-final-cta"
             >
-              Kostenlos beraten lassen
+              Jetzt Termin sichern
               <ArrowRight className="ml-2 h-4 w-4 md:h-5 md:w-5" />
             </Button>
             <Button 
@@ -176,15 +181,15 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
           <div className="flex flex-wrap items-center justify-center gap-3 md:gap-6 text-white/80 text-xs md:text-sm">
             <span className="flex items-center gap-1">
               <CheckCircle2 className="h-3 w-3 md:h-4 md:w-4" />
-              Kostenlos
+              100% kostenlos
             </span>
             <span className="flex items-center gap-1">
               <CheckCircle2 className="h-3 w-3 md:h-4 md:w-4" />
-              24h Antwort
+              Antwort heute noch
             </span>
             <span className="flex items-center gap-1">
               <CheckCircle2 className="h-3 w-3 md:h-4 md:w-4" />
-              Festpreis
+              Kein Risiko
             </span>
           </div>
         </div>

@@ -24,8 +24,8 @@ interface ContactProps {
 }
 
 export default function Contact({ 
-  title = "Jetzt ist der richtige Moment",
-  description = "Jeder Tag Verzögerung kann neue Schäden verursachen. Sichern Sie sich jetzt Ihren Beratungstermin – unsere Kapazitäten sind begrenzt."
+  title = "Lassen Sie uns über Ihr Dach sprechen",
+  description = "Kleine Schäden wachsen schnell. Je früher wir prüfen, desto günstiger die Lösung. Kostenlose Erstberatung – wir melden uns zeitnah."
 }: ContactProps = {}) {
   const [formData, setFormData] = useState({
     name: "",
@@ -146,9 +146,9 @@ export default function Contact({
 
             <div className="mt-auto pt-8">
               <div className="p-6 bg-primary rounded-xl text-white">
-                <h4 className="font-bold text-lg mb-2">24h Online Termine buchen</h4>
+                <h4 className="font-bold text-lg mb-2">Schnell einen Termin bekommen</h4>
                 <p className="text-white/90 text-sm mb-4">
-                  Jederzeit online Ihren Wunschtermin auswählen – auch außerhalb unserer Öffnungszeiten.
+                  Online Ihren Wunschtermin auswählen – wir melden uns zeitnah zurück.
                 </p>
                 <a href="/beratung">
                   <Button size="lg" variant="secondary" className="w-full font-bold" data-testid="button-24h-booking">
@@ -267,7 +267,7 @@ export default function Contact({
                   disabled={isSubmitting || !dsgvoAccepted}
                   data-testid="button-contact-submit"
                 >
-                  {isSubmitting ? "Wird gesendet..." : "Anfrage absenden"}
+                  {isSubmitting ? "Wird gesendet..." : "Jetzt absenden – bevor es teurer wird"}
                 </Button>
               </div>
             </form>

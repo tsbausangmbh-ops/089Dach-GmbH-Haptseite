@@ -197,7 +197,7 @@ export default function LeadFunnel({
                 className="bg-white text-primary hover:bg-gray-100 font-bold text-base md:text-xl px-6 md:px-12 py-4 md:py-6 rounded-xl shadow-xl transition-transform hover:scale-105"
                 data-testid="button-funnel-open"
               >
-                Ja, ich will mein Problem lösen!
+                Jetzt Schaden stoppen – kostenlos
                 <ArrowRight className="ml-2 h-6 w-6" />
               </Button>
             </DialogTrigger>
@@ -352,7 +352,7 @@ export default function LeadFunnel({
                       disabled={isSubmitting || !dsgvoAccepted}
                       data-testid="button-lead-submit"
                     >
-                      {isSubmitting ? "Wird gesendet..." : "Ja, ich will mein kostenloses Angebot!"}
+                      {isSubmitting ? "Wird gesendet..." : "Jetzt absenden – bevor es teurer wird"}
                     </Button>
 
                     {/* Urgency/Social Proof */}

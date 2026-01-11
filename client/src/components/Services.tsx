@@ -70,12 +70,12 @@ export default function Services() {
     <section id="services" className="py-4 md:py-6 bg-stone-50">
       <div className="container mx-auto px-6 lg:px-12">
         <div className="text-center max-w-2xl mx-auto mb-6 md:mb-10">
-          <span className="text-primary font-bold tracking-wider uppercase text-sm">Was wir für Sie tun</span>
+          <span className="inline-block bg-primary/10 text-primary font-bold tracking-wider uppercase text-sm px-4 py-1 rounded-full mb-2">Unsere Leistungen</span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-secondary mt-2 mb-4">
-            <strong>Dachdecker Leistungen München</strong> – alles aus einer Hand
+            <strong>Dach- und Spenglerarbeiten</strong> aus Meisterhand
           </h2>
           <p className="text-muted-foreground text-lg">
-            Vom kleinen Leck bis zur kompletten Sanierung. Je früher Sie handeln, desto günstiger wird es.
+            Von der Reparatur bis zur Komplettsanierung – je früher wir prüfen, desto günstiger die Lösung.
           </p>
         </div>
 
