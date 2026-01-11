@@ -9,15 +9,15 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
   return (
     <>
       {/* Sektion 1: Empathie - "Kennen Sie das?" */}
-      <section className="py-4 md:py-6 bg-stone-100">
+      <section className="py-6 md:py-10 bg-gradient-to-b from-stone-100 to-white">
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
-          <div className="text-center max-w-3xl mx-auto mb-4 md:mb-6">
-            <span className="text-primary font-bold tracking-wider uppercase text-xs md:text-sm">Kommt Ihnen das bekannt vor?</span>
-            <h2 className="text-2xl md:text-4xl font-heading font-bold text-secondary mt-1 md:mt-2 mb-2 md:mb-4">
-              <strong>Dachprobleme München</strong> – Sorgen ums Dach?
+          <div className="text-center max-w-3xl mx-auto mb-6 md:mb-8">
+            <span className="inline-block bg-red-100 text-red-700 font-bold tracking-wider uppercase text-xs md:text-sm px-4 py-1.5 rounded-full mb-3">Kommt Ihnen das bekannt vor?</span>
+            <h2 className="text-2xl md:text-4xl font-heading font-bold text-secondary mt-1 md:mt-2 mb-3 md:mb-4">
+              <strong>Jeder Tag ohne Lösung</strong> kostet Sie Geld
             </h2>
-            <p className="text-sm md:text-lg text-muted-foreground">
-              Diese Gedanken kennen viele Hausbesitzer in München.
+            <p className="text-base md:text-lg text-muted-foreground">
+              Diese Sorgen haben viele Münchner Hausbesitzer – <strong className="text-secondary">aber nur wer handelt, stoppt den Schaden.</strong>
             </p>
           </div>
 
@@ -26,7 +26,7 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
               <ThermometerSnowflake className="h-5 w-5 md:h-6 md:w-6 text-red-500 mb-1 md:mb-2" />
               <h3 className="font-bold text-secondary text-xs md:text-sm mb-1">"Hohe Heizkosten"</h3>
               <p className="text-xs md:text-sm text-muted-foreground hidden md:block">
-                Die Wärme verschwindet durchs Dach.
+                Jeden Monat verschwindet bares Geld durchs Dach.
               </p>
             </div>
 
@@ -34,7 +34,7 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
               <Droplets className="h-5 w-5 md:h-6 md:w-6 text-red-500 mb-1 md:mb-2" />
               <h3 className="font-bold text-secondary text-xs md:text-sm mb-1">"Feuchte Flecken"</h3>
               <p className="text-xs md:text-sm text-muted-foreground hidden md:block">
-                Woher kommt das Wasser?
+                Heute ein Fleck – morgen Schimmel im ganzen Raum.
               </p>
             </div>
 
@@ -42,15 +42,15 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
               <Home className="h-5 w-5 md:h-6 md:w-6 text-red-500 mb-1 md:mb-2" />
               <h3 className="font-bold text-secondary text-xs md:text-sm mb-1">"Altes Dach"</h3>
               <p className="text-xs md:text-sm text-muted-foreground hidden md:block">
-                Die Angst vor den Kosten lähmt.
+                Warten macht es nur schlimmer und teurer.
               </p>
             </div>
 
             <div className="bg-white p-3 md:p-4 rounded-lg md:rounded-xl border-l-3 md:border-l-4 border-red-400 shadow-sm" data-testid="pain-handwerker">
               <AlertTriangle className="h-5 w-5 md:h-6 md:w-6 text-red-500 mb-1 md:mb-2" />
-              <h3 className="font-bold text-secondary text-xs md:text-sm mb-1">"Schlechte Handwerker"</h3>
+              <h3 className="font-bold text-secondary text-xs md:text-sm mb-1">"Wem vertrauen?"</h3>
               <p className="text-xs md:text-sm text-muted-foreground hidden md:block">
-                Angst vor Enttäuschung.
+                Falsche Entscheidungen kosten doppelt.
               </p>
             </div>
           </div>
@@ -146,7 +146,7 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
             <strong>Kostenlose Dachberatung München</strong> anfordern
           </h2>
           <p className="text-sm md:text-xl text-white/90 mb-4 md:mb-8 max-w-2xl mx-auto">
-            Rückruf in 2 Minuten anfordern.
+            Je früher Sie handeln, desto günstiger wird es. Rückruf in 2 Minuten anfordern.
           </p>
           
           <div className="flex flex-col md:flex-row gap-2 md:gap-4 justify-center mb-4 md:mb-6">
@@ -195,20 +195,20 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl font-heading font-bold text-secondary mb-8 text-center">
-              <strong>Dachdecker München</strong> – Meisterbetrieb für alle Dacharbeiten
+              <strong>Dachdecker & Spengler München</strong> – Meisterbetrieb für Dach und Blech
             </h2>
             
             <div className="prose prose-lg max-w-none text-muted-foreground mb-12">
               <p className="text-lg mb-6">
-                <strong className="text-secondary">Dachdecker in München</strong> gesucht? Die 089Dach GmbH ist Ihr zuverlässiger Partner für professionelle <strong>Dacharbeiten</strong> in München und Umgebung. 
-                Als inhabergeführter <strong>Dachdecker-Meisterbetrieb</strong> mit über 25 Jahren Erfahrung bieten wir Ihnen das komplette Spektrum: 
-                <strong> Dachsanierung München</strong>, <strong>Dachreparatur</strong>, <strong>Flachdach</strong>-Abdichtung, <strong>Steildach</strong>-Eindeckung und <strong>Spenglerarbeiten</strong>.
+                <strong className="text-secondary">Dachdecker und Spengler in München</strong> gesucht? Jeder Tag ohne Reparatur kann neue Schäden verursachen. Die 089Dach GmbH ist Ihr zuverlässiger Partner für professionelle <strong>Dach- und Spenglerarbeiten</strong> in München und Umgebung. 
+                Als inhabergeführter <strong>Dachdecker- und Spenglermeisterbetrieb</strong> mit über 25 Jahren Erfahrung lösen wir Ihr Problem, bevor es teurer wird: 
+                <strong> Dachsanierung</strong>, <strong>Dachreparatur</strong>, <strong>Flachdach</strong>-Abdichtung, <strong>Steildach</strong>-Eindeckung, <strong>Dachrinnen</strong> und <strong>Blechverkleidungen</strong>.
               </p>
               
               <p className="mb-6">
-                Ob Ihr <strong>Dach undicht</strong> ist, Sie eine <strong>energetische Dachsanierung</strong> planen oder <strong>Dachziegel austauschen</strong> lassen möchten – 
-                wir sind der <strong>Dachdecker in Ihrer Nähe</strong>, der schnell, sauber und zu fairen Festpreisen arbeitet. 
-                Mit <strong>10 Jahren Garantie</strong> auf alle Arbeiten und kostenloser <strong>KfW-Förderberatung</strong>.
+                Ob Ihr <strong>Dach undicht</strong> ist, die <strong>Dachrinne leckt</strong> oder Sie eine <strong>Kamineinfassung</strong> benötigen – 
+                warten Sie nicht, bis der Schaden größer wird. Wir sind der <strong>Dachdecker und Spengler in Ihrer Nähe</strong>, der schnell, sauber und zu fairen Festpreisen arbeitet. 
+                Mit <strong>10 Jahren Garantie</strong> auf alle Dach- und Spenglerarbeiten.
               </p>
             </div>
 
@@ -260,35 +260,35 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
 
             <div className="bg-zinc-800 p-8 rounded-2xl">
               <h3 className="text-2xl font-bold text-white mb-4">
-                Förderung für Dachsanierung in München {new Date().getFullYear()}
+                Dach- und Spenglerarbeiten aus einer Hand
               </h3>
               <p className="text-zinc-300 mb-6">
-                Bei einer <strong className="text-white">energetischen Dachsanierung</strong> können Sie von attraktiven Förderprogrammen profitieren. 
-                Als erfahrener <strong className="text-white">Dachdecker in München</strong> beraten wir Sie kostenlos zu allen Möglichkeiten:
+                Als <strong className="text-white">Dachdecker- und Spenglermeister</strong> in München bieten wir Ihnen das komplette Spektrum – 
+                von der Dacheindeckung bis zur maßgefertigten Blechverkleidung. Alles aus einer Hand, ohne Koordinationsprobleme.
               </p>
               <div className="grid md:grid-cols-3 gap-4 mb-6">
                 <div className="bg-zinc-700 p-4 rounded-xl text-center">
-                  <div className="text-2xl font-bold text-primary mb-1">bis 20%</div>
-                  <div className="text-sm text-zinc-300">KfW-Zuschuss</div>
+                  <div className="text-2xl font-bold text-primary mb-1">Dacharbeiten</div>
+                  <div className="text-sm text-zinc-300">Sanierung & Reparatur</div>
                 </div>
                 <div className="bg-zinc-700 p-4 rounded-xl text-center">
-                  <div className="text-2xl font-bold text-primary mb-1">15%</div>
-                  <div className="text-sm text-zinc-300">BAFA-Förderung</div>
+                  <div className="text-2xl font-bold text-primary mb-1">Spenglerei</div>
+                  <div className="text-sm text-zinc-300">Rinnen & Verblendungen</div>
                 </div>
                 <div className="bg-zinc-700 p-4 rounded-xl text-center">
-                  <div className="text-2xl font-bold text-primary mb-1">1.200 €</div>
-                  <div className="text-sm text-zinc-300">Steuerbonus/Jahr</div>
+                  <div className="text-2xl font-bold text-primary mb-1">Notdienst</div>
+                  <div className="text-sm text-zinc-300">24/7 erreichbar</div>
                 </div>
               </div>
             </div>
 
             <div className="prose prose-lg max-w-none text-muted-foreground mt-8">
               <h3 className="text-2xl font-bold text-secondary mb-4">
-                Warum 089Dach als Dachdecker wählen?
+                Warum Münchner Hausbesitzer uns vertrauen
               </h3>
               <p className="mb-4">
-                Als <strong>Dachdecker-Meisterbetrieb</strong> stehen wir für Qualität und Zuverlässigkeit. 
-                Über <strong>200 Dachprojekte</strong> in München sprechen für sich. Unsere Kunden schätzen:
+                Als <strong>Dachdecker- und Spenglermeisterbetrieb</strong> stehen wir für Qualität und Zuverlässigkeit. 
+                Über <strong>200 Dach- und Spenglerprojekte</strong> in München sprechen für sich. Je früher Sie handeln, desto günstiger:
               </p>
               <ul className="space-y-2 mb-6">
                 <li className="flex items-start gap-2">
@@ -297,28 +297,28 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                  <span><strong>Festpreis-Garantie</strong> – Keine versteckten Kosten, keine Nachforderungen</span>
+                  <span><strong>Festpreis-Garantie</strong> – Keine versteckten Kosten, keine bösen Überraschungen</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                  <span><strong>10 Jahre Garantie</strong> – Auf alle Dacharbeiten und Materialien</span>
+                  <span><strong>10 Jahre Garantie</strong> – Auf alle Dach- und Spenglerarbeiten</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                  <span><strong>Schnelle Reaktion</strong> – Bei Notfällen oft innerhalb von 24 Stunden</span>
+                  <span><strong>Schnelle Reaktion</strong> – Bevor aus kleinen Schäden große Probleme werden</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                  <span><strong>Förderberatung</strong> – Kostenlose KfW/BAFA-Beratung inklusive</span>
+                  <span><strong>Alles aus einer Hand</strong> – Dach und Spenglerei ohne Koordinationsprobleme</span>
                 </li>
               </ul>
             </div>
 
             <div className="bg-secondary text-white p-8 rounded-xl text-center mt-8">
-              <h3 className="text-2xl font-bold mb-4">Jetzt Dachdecker aus München kontaktieren</h3>
+              <h3 className="text-2xl font-bold mb-4">Warten kostet – Handeln spart</h3>
               <p className="text-gray-200 mb-6">
-                Kostenlose Beratung, ehrliches Angebot, professionelle Ausführung. 
-                Rufen Sie uns an oder fordern Sie einen Rückruf an.
+                Je länger Sie warten, desto größer wird der Schaden. Sichern Sie sich jetzt Ihre kostenlose Beratung – 
+                unsere Kapazitäten sind begrenzt.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button 

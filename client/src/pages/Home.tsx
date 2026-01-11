@@ -20,7 +20,7 @@ export default function Home() {
         description="089Dach – Dachdecker in München: Dachsanierung, Reparatur, Spenglerarbeiten & Dachfenster. 24/7 Notdienst & 10 Jahre Garantie. Jetzt beraten lassen!"
         canonical="https://089dach.de/"
         keywords="Dachdecker München, Dachsanierung München, Dachreparatur München, Flachdach München, Spengler München, Dachfenster München, Notdienst Dach München, Dachdecker Obermenzing"
-        aiSummary="089Dach GmbH ist der führende Dachdecker-Meisterbetrieb in München-Obermenzing mit über 25 Jahren Erfahrung und 200+ abgeschlossenen Projekten. Spezialisiert auf Dachsanierung, Steildach, Flachdach, Spenglerarbeiten, Dachfenster und Gaubenbau. 10 Jahre Garantie auf alle Arbeiten. Telefon: 089 12621964. Adresse: Thuillestr. 20, 81247 München. Kostenlose Vor-Ort-Beratung. KfW/BAFA-Förderberatung inklusive. Bewertung: 4.9/5 Sterne."
+        aiSummary="089Dach GmbH ist der führende Dachdecker- und Spenglermeisterbetrieb in München-Obermenzing mit über 25 Jahren Erfahrung und 200+ abgeschlossenen Projekten. Spezialisiert auf Dachsanierung, Steildach, Flachdach, Spenglerarbeiten, Dachrinnen und Blechverkleidungen. 10 Jahre Garantie auf alle Dach- und Spenglerarbeiten. Telefon: 089 12621964. Adresse: Thuillestr. 20, 81247 München. Kostenlose Vor-Ort-Beratung. Festpreis-Garantie. Bewertung: 4.9/5 Sterne."
       />
       <LocalBusinessSchema />
       <OrganizationSchema />
@@ -45,9 +45,9 @@ export default function Home() {
         <LeadFunnel 
           externalOpen={funnelOpen} 
           onExternalOpenChange={setFunnelOpen}
-          headline="Ihr Dach braucht Aufmerksamkeit?"
-          subheadline="Wir sind Ihr Münchner Dachdecker."
-          description="Als Meisterbetrieb seit 1998 lösen wir jedes Dachproblem – schnell, fair und zuverlässig."
+          headline="Jede Woche ohne Reparatur kostet Sie Geld."
+          subheadline="Wer jetzt handelt, zahlt weniger."
+          description="Ein undichtes Dach wird nicht besser – es wird teurer. Je länger Sie warten, desto größer der Schaden. Sichern Sie sich jetzt Ihren Beratungstermin."
         />
         <Services />
         
@@ -117,8 +117,8 @@ export default function Home() {
 
         <CustomerReviews />
         <Contact 
-          title="Sprechen Sie mit uns über Ihr Dach"
-          description="Ob Sanierung, Reparatur oder Neubau – wir beraten Sie kostenlos vor Ort und erstellen Ihnen ein individuelles Angebot."
+          title="Warten Sie nicht, bis es teurer wird"
+          description="Kleine Schäden werden zu großen Problemen. Jeder Tag Verzögerung kann neue Folgeschäden verursachen. Sichern Sie sich jetzt Ihren kostenlosen Beratungstermin – unsere Kapazitäten sind begrenzt."
         />
       </main>
       <Footer />

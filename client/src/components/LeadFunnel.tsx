@@ -134,15 +134,15 @@ export default function LeadFunnel({
           <div className="flex flex-wrap justify-center gap-4 md:gap-8 mb-8 text-sm md:text-base font-medium">
             <div className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full backdrop-blur-sm">
               <Users className="h-5 w-5 text-green-400" />
-              <span>62+ Kunden vertrauen uns</span>
+              <span>62+ Kunden haben gehandelt</span>
             </div>
             <div className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full backdrop-blur-sm">
               <ShieldCheck className="h-5 w-5 text-green-400" />
-              <span>Festpreis-Garantie</span>
+              <span>Festpreis ohne Nachforderungen</span>
             </div>
             <div className="flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full backdrop-blur-sm">
               <Clock className="h-5 w-5 text-green-400" />
-              <span>Antwort in 4h</span>
+              <span>Begrenzte Kapazitäten</span>
             </div>
           </div>
         </div>
@@ -157,7 +157,7 @@ export default function LeadFunnel({
               <AlertTriangle className="w-12 h-12 mx-auto mb-4 text-yellow-400" />
               <h3 className="text-xl font-bold mb-2">Sie schildern Ihr Problem</h3>
               <p className="text-white/80">
-                Egal ob undicht, kalt oder unsicher – wir hören zu und verstehen sofort, was zu tun ist.
+                Je schneller wir wissen was los ist, desto schneller können wir helfen – bevor es teurer wird.
               </p>
             </div>
           </div>
@@ -168,9 +168,9 @@ export default function LeadFunnel({
             </div>
             <div className="mt-6 text-center">
               <Sparkles className="w-12 h-12 mx-auto mb-4 text-blue-300" />
-              <h3 className="text-xl font-bold mb-2">Wir entwickeln Ihre Lösung</h3>
+              <h3 className="text-xl font-bold mb-2">Wir stoppen den Schaden</h3>
               <p className="text-white/80">
-                Transparent, fair und auf Ihr Budget abgestimmt. Ohne versteckte Kosten – garantiert.
+                Schnell, transparent und zum Festpreis. Keine versteckten Kosten – damit Sie nicht doppelt zahlen.
               </p>
             </div>
           </div>
@@ -181,9 +181,9 @@ export default function LeadFunnel({
             </div>
             <div className="mt-6 text-center">
               <ShieldCheck className="w-12 h-12 mx-auto mb-4 text-green-400" />
-              <h3 className="text-xl font-bold mb-2">Sie genießen Sicherheit</h3>
+              <h3 className="text-xl font-bold mb-2">Sie sparen langfristig</h3>
               <p className="text-white/80">
-                Endlich Ruhe. Kein Tropfen, keine Zugluft, keine Sorgen mehr. Mit Meister-Garantie.
+                Endlich Ruhe. Keine Folgeschäden, keine steigenden Kosten. Mit 10 Jahren Meister-Garantie.
               </p>
             </div>
           </div>
@@ -382,7 +382,7 @@ export default function LeadFunnel({
           </Dialog>
           
           <p className="mt-6 text-white/60 text-sm">
-            Über 62 Münchner Familien vertrauen uns bereits ihr Dach an.
+            Über 62 Münchner Familien haben nicht länger gewartet – und sind jetzt sorgenfrei.
           </p>
         </div>
       </div>

@@ -51,10 +51,10 @@ const reviews: Review[] = [
   {
     author: "Familie Lehner",
     rating: 5,
-    text: "KfW-Förderung komplett für uns abgewickelt. 8.000€ gespart! Sehr empfehlenswert.",
+    text: "Dachsanierung und neue Dachrinnen in einem Aufwasch. Alles aus einer Hand – kein Stress mit verschiedenen Handwerkern.",
     date: "Juli 2025",
     location: "Pasing",
-    project: "Energetische Sanierung"
+    project: "Dach & Spenglerei"
   },
   {
     author: "A. Kraus",
@@ -147,7 +147,7 @@ export default function CustomerReviews() {
             className="inline-flex items-center justify-center gap-2 bg-primary text-white px-6 py-3 rounded-xl font-bold hover:bg-primary/90 transition-colors"
             data-testid="button-reviews-cta"
           >
-            Werden Sie unser nächster zufriedener Kunde
+            Jetzt handeln – bevor es teurer wird
           </a>
         </div>
         </div>
