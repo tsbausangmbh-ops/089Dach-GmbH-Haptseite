@@ -11,6 +11,8 @@ import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import heroImage from "@assets/generated_images/realistic_renovated_roof_obermenzing_after.png";
 import { TestimonialSection } from "@/components/TestimonialSection";
 import { getTestimonialsForLocation } from "@shared/testimonials";
+import { LocalFAQSection } from "@/components/LocalFAQSection";
+import { getLocationContent } from "@shared/local-faqs";
 
 const stadtteilData = {
   name: "Pasing",
@@ -95,6 +97,7 @@ function NearbyServiceSchema() {
 
 export default function StadtteilPasing() {
   const testimonials = getTestimonialsForLocation(stadtteilData.name);
+  const localContent = getLocationContent(stadtteilData.name);
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
@@ -245,6 +248,8 @@ export default function StadtteilPasing() {
                 <p className="text-muted-foreground mb-2"><TextWithKeywordLinks currentPath="/dachdecker-pasing">{stadtteilData.referenzProjekt.beschreibung}</TextWithKeywordLinks></p>
                 <p className="text-sm text-primary font-medium">Fertigstellung: {stadtteilData.referenzProjekt.jahr}</p>
               </div>
+
+              {localContent && <LocalFAQSection content={localContent} stadtteil={stadtteilData.name} />}
 
               {/* GeoLinks Section */}
               <GeoLinks 

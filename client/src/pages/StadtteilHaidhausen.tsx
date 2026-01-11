@@ -18,6 +18,8 @@ import imgDachreparatur from "@assets/generated_images/roofer_doing_quick_repair
 import imgReferenz2 from "@assets/generated_images/anthracite_roof_with_velux_cabrio.png";
 import { TestimonialSection } from "@/components/TestimonialSection";
 import { getTestimonialsForLocation } from "@shared/testimonials";
+import { LocalFAQSection } from "@/components/LocalFAQSection";
+import { getLocationContent } from "@shared/local-faqs";
 
 const stadtteilData = {
   name: "Au-Haidhausen",
@@ -68,6 +70,7 @@ function NearbyServiceSchema() {
 
 export default function StadtteilHaidhausen() {
   const testimonials = getTestimonialsForLocation(stadtteilData.name);
+  const localContent = getLocationContent(stadtteilData.name);
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
@@ -186,6 +189,9 @@ export default function StadtteilHaidhausen() {
                   ))}
                 </div>
               </div>
+
+              {localContent && <LocalFAQSection content={localContent} stadtteil={stadtteilData.name} />}
+
             </div>
             <div className="space-y-6">
               <div className="bg-primary text-white rounded-xl p-4 md:p-6">

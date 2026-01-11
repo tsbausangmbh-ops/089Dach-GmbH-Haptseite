@@ -18,6 +18,8 @@ import imgDachreparatur from "@assets/generated_images/roofer_doing_quick_repair
 import imgReferenz2 from "@assets/generated_images/anthracite_roof_with_velux_cabrio.png";
 import { TestimonialSection } from "@/components/TestimonialSection";
 import { getTestimonialsForLocation } from "@shared/testimonials";
+import { LocalFAQSection } from "@/components/LocalFAQSection";
+import { getLocationContent } from "@shared/local-faqs";
 
 const stadtteilData = {
   name: "Feldmoching",
@@ -72,6 +74,7 @@ function NearbyServiceSchema() {
 
 export default function StadtteilFeldmoching() {
   const testimonials = getTestimonialsForLocation(stadtteilData.name);
+  const localContent = getLocationContent(stadtteilData.name);
   return (
     <div className="min-h-screen bg-background font-sans">
       <SEO 
@@ -192,6 +195,8 @@ export default function StadtteilFeldmoching() {
                   ))}
                 </div>
               </div>
+
+              {localContent && <LocalFAQSection content={localContent} stadtteil={stadtteilData.name} />}
 
               </div>
 
