@@ -476,6 +476,40 @@ export async function registerRoutes(
     }
   });
 
+  // IndexNow API for instant Google/Bing indexing
+  // Note: IndexNow key is a public verification key (like Google Site Verification)
+  // It's publicly accessible at /{key}.txt - not a secret
+  const INDEXNOW_KEY = process.env.INDEXNOW_KEY || "37773605839026c7ac35ad44e6a6393e";
+  
+  app.post("/api/indexnow", async (req, res) => {
+    try {
+      const { urls } = req.body;
+      if (!urls || !Array.isArray(urls)) {
+        return res.status(400).json({ error: "URLs array required" });
+      }
+      
+      const response = await fetch("https://api.indexnow.org/indexnow", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          host: "089dach.de",
+          key: INDEXNOW_KEY,
+          keyLocation: `https://089dach.de/${INDEXNOW_KEY}.txt`,
+          urlList: urls.map(url => url.startsWith("http") ? url : `https://089dach.de${url}`)
+        })
+      });
+      
+      res.json({ 
+        success: response.ok, 
+        status: response.status,
+        submitted: urls.length 
+      });
+    } catch (error) {
+      console.error("IndexNow error:", error);
+      res.status(500).json({ error: "IndexNow submission failed" });
+    }
+  });
+
   app.post("/api/chat", async (req, res) => {
     try {
       const { message, history } = req.body;

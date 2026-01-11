@@ -47,3 +47,8 @@ waitForPort = 5000
 [agent]
 mockupState = "FULLSTACK"
 integrations = ["javascript_openai_ai_integrations:1.0.0", "google-calendar:1.0.0"]
+
+[userenv]
+
+[userenv.shared]
+INDEXNOW_KEY = "37773605839026c7ac35ad44e6a6393e"
