@@ -68,8 +68,8 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
             </div>
             
             <p className="text-base md:text-xl text-gray-100 mb-6 md:mb-8 max-w-xl leading-relaxed">
-              <strong className="text-white">Über 100+ Münchner Eigentümer</strong> haben rechtzeitig saniert – bevor kleine Schäden teuer wurden. 
-              <span className="text-primary font-semibold"> Faire Festpreise. KfW-Förderung noch verfügbar.</span>
+              <strong className="text-white">Über 100+ Münchner Eigentümer</strong> vertrauen uns bei Dach- und Spenglerarbeiten. 
+              <span className="text-primary font-semibold"> Faire Festpreise. Meisterqualität.</span>
             </p>
             
             <div className="flex flex-col sm:flex-row gap-3 md:gap-4 mb-4 md:mb-6">
@@ -77,10 +77,10 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
                 size="lg" 
                 className="bg-primary hover:bg-primary/90 text-white font-bold text-lg px-8 py-7 rounded-xl shadow-xl hover:scale-105 transition-transform"
                 asChild
-                data-testid="button-hero-foerderrechner"
+                data-testid="button-hero-leistungen"
               >
-                <a href="/foerderung-rechner">
-                  Förderrechner
+                <a href="/leistungen">
+                  Unsere Leistungen
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </a>
               </Button>

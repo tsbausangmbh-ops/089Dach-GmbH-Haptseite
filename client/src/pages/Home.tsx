@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { LocalBusinessSchema, OrganizationSchema, WebSiteSchema, AggregateRatingSchema, GeoServiceAreaSchema, ProfessionalServiceSchema, AIKnowledgeSchema, VoiceSearchFAQSchema, GoogleBusinessProfileSchema, BingPlacesSchema, LocalSEO20kmSchema, NearbyServiceSchema, SiteNavigationSchema, PriceSpecificationSchema, EmergencyServiceSchema, GeoAreaServedSchema } from "@/components/SEO";
 import CustomerReviews from "@/components/CustomerReviews";
-import { MapPin, ArrowRight, BookOpen } from "lucide-react";
+import { MapPin, ArrowRight } from "lucide-react";
 
 export default function Home() {
   const [funnelOpen, setFunnelOpen] = useState(false);
@@ -111,36 +111,6 @@ export default function Home() {
                   {loc.name}
                 </a>
               ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Ratgeber-Links für Content SEO */}
-        <section className="py-6 bg-stone-50 border-t border-stone-100">
-          <div className="container mx-auto px-6 lg:px-12">
-            <div className="flex items-center gap-2 mb-4">
-              <BookOpen className="h-5 w-5 text-primary" />
-              <h2 className="text-lg font-heading font-bold text-secondary">Ratgeber & Tipps</h2>
-            </div>
-            <div className="flex flex-wrap gap-2">
-              {[
-                { text: "Was kostet Dachsanierung?", href: "/ratgeber/kosten" },
-                { text: "Förderung für Dachsanierung in München 2025", href: "/ratgeber/foerderung" },
-                { text: "Sturmschaden – Was tun?", href: "/ratgeber/sturmschaden" },
-                { text: "Dachziegel Vergleich", href: "/ratgeber/materialien" },
-                { text: "Dachdämmung Tipps", href: "/ratgeber/daemmung" },
-              ].map((guide, idx) => (
-                <a
-                  key={idx}
-                  href={guide.href}
-                  className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-stone-200 rounded-lg text-sm text-muted-foreground hover:text-primary hover:border-primary/30 transition-all"
-                >
-                  {guide.text} <ArrowRight className="h-3 w-3 opacity-50" />
-                </a>
-              ))}
-              <a href="/ratgeber" className="inline-flex items-center gap-1 px-3 py-1.5 bg-primary text-white rounded-lg text-sm font-medium hover:bg-primary/90 transition-all">
-                Alle Ratgeber <ArrowRight className="h-3 w-3" />
-              </a>
             </div>
           </div>
         </section>

@@ -23,7 +23,7 @@ export default function LeadFunnel({
   onExternalOpenChange,
   headline = "Sie wissen, dass etwas getan werden muss.",
   subheadline = "Wir zeigen Ihnen wie.",
-  description = "Jede Woche Verzögerung kann Folgeschäden verursachen, die 3× teurer werden. Sichern Sie sich jetzt Ihren Termin – KfW-Förderung 2025 noch verfügbar."
+  description = "Jede Woche Verzögerung kann Folgeschäden verursachen, die 3× teurer werden. Sichern Sie sich jetzt Ihren Termin."
 }: LeadFunnelProps) {
   const [open, setOpen] = useState(false);
   const [step, setStep] = useState(1);
