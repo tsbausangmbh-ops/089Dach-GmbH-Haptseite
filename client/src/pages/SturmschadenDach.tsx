@@ -93,7 +93,6 @@ export default function SturmschadenDach() {
                 <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8 py-6" data-testid="button-hero-callback">
                   Rückruf anfordern
                 </Button>
-              </Link>
             </div>
           </div>
         </div>
@@ -207,7 +206,6 @@ export default function SturmschadenDach() {
                   Rückruf anfordern
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
-              </Link>
             </div>
           </div>
         </div>

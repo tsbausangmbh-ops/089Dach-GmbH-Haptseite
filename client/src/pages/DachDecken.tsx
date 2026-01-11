@@ -97,7 +97,6 @@ export default function DachDecken() {
                   <Phone className="mr-2 h-5 w-5" />
                   Kostenloses Angebot
                 </Button>
-              </Link>
               <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8" data-testid="button-online"><a href="/beratung">24h Online Termin</a></Button>
             </div>
           </div>
@@ -220,7 +219,6 @@ export default function DachDecken() {
                   Kostenloses Angebot anfordern
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
-              </Link>
               <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8" data-testid="button-online"><a href="/beratung">24h Online Termin</a></Button>
             </div>
           </div>

@@ -105,7 +105,7 @@ export default function SolaranlageDach() {
             <h2 className="text-3xl font-bold mb-6">Dach-Check für Solar?</h2>
             <p className="text-xl text-white/90 mb-8">Wir prüfen, ob Ihr Dach bereit ist</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-white text-yellow-700 hover:bg-yellow-50 text-lg px-8" data-testid="button-cta-callback">Beratung anfordern<ArrowRight className="ml-2 h-5 w-5" /></a></Button>
+              <Button asChild size="lg" className="bg-white text-yellow-700 hover:bg-yellow-50 text-lg px-8" data-testid="button-cta-callback"><a href="/rueckruf/">Beratung anfordern<ArrowRight className="ml-2 h-5 w-5" /></a></Button>
               <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8" data-testid="button-online-cta"><a href="/beratung">24h Online Termin</a></Button>
             </div>
           </div>
