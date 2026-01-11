@@ -11,7 +11,7 @@ interface Message {
 const quickQuestions = [
   "Was kostet eine Dachsanierung?",
   "Wie erkenne ich Dachschäden?",
-  "Welche Förderungen gibt es?",
+  "Arbeiten Sie auch in meinem Stadtteil?",
   "Wie lange dauert eine Reparatur?",
 ];
 
