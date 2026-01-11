@@ -16,6 +16,10 @@ export function serveStatic(app: Express) {
     immutable: true,
     etag: true,
     lastModified: true,
+    setHeaders: (res) => {
+      res.setHeader("Vary", "Accept-Encoding");
+      res.setHeader("X-Content-Type-Options", "nosniff");
+    }
   }));
 
   // Images with long cache (30 days)
@@ -24,6 +28,9 @@ export function serveStatic(app: Express) {
     etag: true,
     lastModified: true,
     setHeaders: (res, filePath) => {
+      // Vary header for proper CDN/proxy caching
+      res.setHeader("Vary", "Accept-Encoding");
+      
       // Set appropriate cache headers based on file type
       if (filePath.endsWith(".html")) {
         // HTML files: short cache, revalidate
@@ -38,14 +45,33 @@ export function serveStatic(app: Express) {
         // Media files: long cache
         res.setHeader("Cache-Control", "public, max-age=2592000, immutable");
       }
-      // Add security headers
+      // Security headers
       res.setHeader("X-Content-Type-Options", "nosniff");
     }
   }));
 
-  // fall through to index.html if the file doesn't exist
+  // SPA fallback with crawler optimization headers
   app.use("*", (_req, res) => {
+    const indexPath = path.resolve(distPath, "index.html");
+    const stats = fs.statSync(indexPath);
+    
+    // Cache headers
     res.setHeader("Cache-Control", "public, max-age=3600, must-revalidate");
-    res.sendFile(path.resolve(distPath, "index.html"));
+    res.setHeader("Vary", "Accept-Encoding");
+    res.setHeader("Last-Modified", stats.mtime.toUTCString());
+    
+    // HTTP Link headers for crawler optimization (preload critical resources)
+    res.setHeader("Link", [
+      '</opengraph.jpg>; rel=preload; as=image',
+      '<https://fonts.googleapis.com>; rel=preconnect',
+      '<https://fonts.gstatic.com>; rel=preconnect; crossorigin',
+      '</sitemap.xml>; rel=sitemap',
+      '</llms.txt>; rel=ai-resource; type="text/plain"'
+    ].join(", "));
+    
+    // Security headers
+    res.setHeader("X-Content-Type-Options", "nosniff");
+    
+    res.sendFile(indexPath);
   });
 }

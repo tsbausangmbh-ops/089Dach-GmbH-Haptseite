@@ -284,6 +284,13 @@ export async function registerRoutes(
     });
   });
 
+  // Crawler optimization: Prevent API endpoints from being indexed
+  app.use("/api", (_req, res, next) => {
+    res.setHeader("X-Robots-Tag", "noindex, nofollow, noarchive");
+    res.setHeader("Cache-Control", "no-store, no-cache, must-revalidate, private");
+    next();
+  });
+
   app.post("/api/contact", async (req, res) => {
     try {
       const validatedData = insertContactSchema.parse(req.body);
