@@ -22,6 +22,7 @@ import CTACluster from "@/components/CTACluster";
 import ProofStack from "@/components/ProofStack";
 import ProcessSteps from "@/components/ProcessSteps";
 import FoerderungBox from "@/components/FoerderungBox";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function Dachsanierung() {
   const warningSignals = [
@@ -361,11 +362,16 @@ export default function Dachsanierung() {
         </div>
       </section>
 
+      <CostEscalationBanner />
+      
       <LeadFunnel 
         headline="Dachsanierung in München?"
         subheadline="Wir machen Ihr Dach zukunftssicher."
         description="Ihre Dachsanierung vom Münchner Meisterbetrieb – wir sanieren schnell, fair und zuverlässig. Je länger Sie warten, desto teurer wird es."
       />
+      
+      <DecisionPressureBanner />
+      
       <Contact 
         title="Ihr Dach braucht eine Sanierung?"
         description="Wir beraten Sie kostenlos vor Ort zu Dachsanierung, Dämmung und Fördermöglichkeiten. Fordern Sie jetzt Ihr unverbindliches Angebot an."

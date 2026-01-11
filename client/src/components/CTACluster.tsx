@@ -10,8 +10,8 @@ interface CTAClusterProps {
 
 export default function CTACluster({
   variant = "primary",
-  title = "Bereit für Ihr neues Dach?",
-  subtitle = "Kostenlose Beratung · Festpreisangebot · 10 Jahre Garantie",
+  title = "Warten kostet Geld – Handeln spart",
+  subtitle = "Kostenlose Ersteinschätzung · Festpreis ohne Überraschungen · 10 Jahre Garantie",
   showTrustBadges = true
 }: CTAClusterProps) {
   const bgColors = {
@@ -42,10 +42,10 @@ export default function CTACluster({
                 className="w-full bg-white text-secondary hover:bg-gray-100"
                 data-testid="cta-phone"
               >
-                <Phone className="h-5 w-5 mr-2" /> Anrufen
+                <Phone className="h-5 w-5 mr-2" /> Jetzt anrufen
               </Button>
               <span className={`text-xs ${textColors[variant]} opacity-75 mt-1 block`}>
-                089 12621964
+                Sofort verbunden
               </span>
             </a>
 
@@ -55,10 +55,10 @@ export default function CTACluster({
                 className="w-full bg-primary text-white hover:bg-primary/90"
                 data-testid="cta-callback"
               >
-                <Calendar className="h-5 w-5 mr-2" /> Rückruf
+                <Calendar className="h-5 w-5 mr-2" /> Rückruf sichern
               </Button>
               <span className={`text-xs ${textColors[variant]} opacity-75 mt-1 block`}>
-                Wunschtermin wählen
+                Wir rufen Sie an
               </span>
             </a>
 

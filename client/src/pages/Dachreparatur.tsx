@@ -9,6 +9,7 @@ import BackButton from "@/components/BackButton";
 import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
 import { ServiceGeoLinks } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function Dachreparatur() {
   const reparaturArten = [
@@ -196,11 +197,16 @@ export default function Dachreparatur() {
         </div>
       </section>
 
+      <CostEscalationBanner />
+      
       <LeadFunnel 
         headline="Dachreparatur in München?"
         subheadline="Wir reparieren alle Dachschäden."
         description="Ob undichte Stelle, gebrochene Ziegel oder lockere Bleche – wir beheben das Problem dauerhaft."
       />
+      
+      <DecisionPressureBanner />
+      
       </main>
     </div>
   );

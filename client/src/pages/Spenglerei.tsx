@@ -17,6 +17,7 @@ import BackButton from "@/components/BackButton";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import { ServiceGeoLinks } from "@/components/GeoLinks";
 import { SpenglereiMuenchenContent } from "@/components/SEOContent";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 import AIEnhancedFAQ from "@/components/AIEnhancedFAQ";
 import ProblemSolutionSection from "@/components/ProblemSolutionSection";
 import CTACluster from "@/components/CTACluster";
@@ -351,11 +352,17 @@ export default function Spenglerei() {
       />
 
       <ServiceGeoLinks currentService="Spenglerei" />
+      
+      <CostEscalationBanner />
+      
       <LeadFunnel 
         headline="Spenglerei München gesucht?"
         subheadline="Präzise Metallarbeit für Ihr Dach."
         description="Ihre Spenglerei in München – Dachrinnen, Kamineinfassungen und Blechverkleidungen vom Meisterbetrieb. Handgefertigt in eigener Werkstatt."
       />
+      
+      <DecisionPressureBanner />
+      
       <Contact 
         title="Dachrinne, Kamineinfassung oder Blecharbeiten?"
         description="Unser Spenglermeister berät Sie zu allen Metallarbeiten am Dach. Fordern Sie Ihr individuelles Angebot für Spenglerarbeiten an."

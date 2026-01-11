@@ -24,7 +24,7 @@ export default function AIBeraterSection({
     : "Ihr persönlicher 089Dach GmbH-Berater";
 
   const desc = description 
-    || "Stellen Sie Ihre Fragen zu Kosten, Ablauf, Materialien und mehr. Unser KI-Berater gibt Ihnen sofort Auskunft.";
+    || "Keine Wartezeit, keine Telefonschleife – fragen Sie jetzt und erhalten Sie sofort Antworten zu Kosten und Ablauf.";
 
   return (
     <>

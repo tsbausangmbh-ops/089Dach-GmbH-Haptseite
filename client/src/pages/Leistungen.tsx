@@ -8,6 +8,7 @@ import { ArrowRight, Home, Warehouse, Wrench, Hammer, ShieldCheck, Ruler, CheckC
 import heroImage from "@assets/generated_images/modern_house_with_anthracite_roof.png";
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema, ServiceSchema, FAQPageSchema } from "@/components/SEO";
+import { DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function Leistungen() {
   const services = [
@@ -343,14 +344,9 @@ export default function Leistungen() {
         description="Von Dachsanierung bis Spenglerarbeit – wir sind Ihr Komplettanbieter für alle Dacharbeiten."
       />
 
-      {/* CTA Section - Removed as it's redundant with LeadFunnel, or keep as a secondary one? Removing for cleaner look since LeadFunnel is strong */}
-      {/* 
-      <section className="bg-secondary text-white py-5">
-        ...
-      </section>
-      */}
+      <DecisionPressureBanner />
 
-            <Contact 
+      <Contact 
         title="Welche Leistung benötigen Sie?"
         description="Egal ob Dachsanierung, Flachdach oder Spenglerarbeiten – wir beraten Sie gerne zu allen Dachthemen. Kostenlos und unverbindlich."
       />

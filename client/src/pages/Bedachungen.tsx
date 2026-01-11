@@ -22,6 +22,7 @@ import CTACluster from "@/components/CTACluster";
 import ProofStack from "@/components/ProofStack";
 import ProcessSteps from "@/components/ProcessSteps";
 import { ServiceGeoLinks } from "@/components/GeoLinks";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function Bedachungen() {
   return (
@@ -352,11 +353,17 @@ export default function Bedachungen() {
       />
 
       <ServiceGeoLinks currentService="Dachsanierung" />
+      
+      <CostEscalationBanner />
+      
       <LeadFunnel 
         headline="Neue Dacheindeckung geplant?"
         subheadline="Wir beraten Sie zu allen Materialien."
         description="Die richtige Dacheindeckung schützt Ihr Haus für Jahrzehnte. Wir zeigen Ihnen die beste Lösung für Ihr Münchner Objekt."
       />
+      
+      <DecisionPressureBanner />
+      
       <Contact 
         title="Neue Dacheindeckung geplant?"
         description="Ob Ziegel, Schiefer oder Metalldach – wir beraten Sie zu allen Materialien und erstellen Ihnen ein maßgeschneidertes Angebot für Ihre Bedachung."

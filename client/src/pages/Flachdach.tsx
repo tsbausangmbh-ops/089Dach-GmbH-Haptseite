@@ -19,6 +19,7 @@ import flachdachImg3 from "@assets/generated_images/realistic_damaged_flat_roof_
 import flachdachImg4 from "@assets/generated_images/realistic_garage_epdm_roof_after.png";
 import { ServiceGeoLinks } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
+import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function Flachdach() {
   return (
@@ -295,11 +296,17 @@ export default function Flachdach() {
       />
 
       <ServiceGeoLinks currentService="Flachdach" />
+      
+      <CostEscalationBanner />
+      
       <LeadFunnel 
         headline="Flachdach-Experten in München"
         subheadline="Wir sorgen für dauerhafte Dichtheit."
         description="Ihr Flachdach in München in besten Händen – von Abdichtung bis Sanierung. Je länger Sie warten, desto größer der Schaden."
       />
+      
+      <DecisionPressureBanner />
+      
       </main>
       <Footer />
     </div>
