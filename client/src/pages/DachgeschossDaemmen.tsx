@@ -141,14 +141,7 @@ export default function DachgeschossDaemmen() {
 
       <EinzugsgebietSection />
       
-      <section className="py-6 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-7xl mx-auto">
-            <ServiceGeoLinks currentService="Dachdämmung" />
-          </div>
-        </div>
-      </section>
-
+      <ServiceGeoLinks currentService="Dachdämmung" />
       <CostEscalationBanner />
       <LeadFunnel 
         headline="Dachgeschoss dämmen in München?"

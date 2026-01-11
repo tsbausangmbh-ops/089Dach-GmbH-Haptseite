@@ -181,60 +181,64 @@ export function ServiceGeoLinks({ currentService, className }: ServiceLinksProps
   const services = relatedServices[currentService] || relatedServices["default"];
   
   return (
-    <div className={`bg-gradient-to-br from-primary/5 to-primary/10 rounded-xl p-6 border border-primary/20 ${className || ""}`}>
-      <h3 className="text-xl font-heading font-bold text-secondary mb-6">
-        <strong>{currentService}</strong> in München – alle Stadtteile
-      </h3>
+    <section className="py-6 bg-white">
+      <div className="container mx-auto px-6 lg:px-12">
+        <div className={`max-w-5xl mx-auto bg-gradient-to-br from-primary/5 to-primary/10 rounded-xl p-6 border border-primary/20 ${className || ""}`}>
+          <h3 className="text-xl font-heading font-bold text-secondary mb-6">
+            <strong>{currentService}</strong> in München – alle Stadtteile
+          </h3>
+          
+          <div className="grid md:grid-cols-2 gap-6">
+            <div>
+              <h4 className="font-bold text-secondary mb-3 flex items-center gap-2">
+                <MapPin className="h-4 w-4 text-primary" />
+                Beliebte Stadtteile
+              </h4>
+              <ul className="space-y-2">
+                {stadtteile.map((stadtteil) => (
+                  <li key={stadtteil.name}>
+                    <Link 
+                      href={stadtteil.url}
+                      className="text-primary hover:underline flex items-center gap-2 group"
+                    >
+                      <ArrowRight className="h-3 w-3 opacity-0 group-hover:opacity-100 transition-opacity" />
+                      <strong>{currentService} {stadtteil.name}</strong>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            
+            <div>
+              <h4 className="font-bold text-secondary mb-3 flex items-center gap-2">
+                <Wrench className="h-4 w-4 text-primary" />
+                Verwandte Leistungen
+              </h4>
+              <ul className="space-y-2">
+                {services.map((service) => (
+                  <li key={service.name}>
+                    <Link 
+                      href={service.url}
+                      className="text-primary hover:underline flex items-center gap-2 group"
+                    >
+                      <ArrowRight className="h-3 w-3 opacity-0 group-hover:opacity-100 transition-opacity" />
+                      <strong>{service.name}</strong> München
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
       
-      <div className="grid md:grid-cols-2 gap-6">
-        <div>
-          <h4 className="font-bold text-secondary mb-3 flex items-center gap-2">
-            <MapPin className="h-4 w-4 text-primary" />
-            Beliebte Stadtteile
-          </h4>
-          <ul className="space-y-2">
-            {stadtteile.map((stadtteil) => (
-              <li key={stadtteil.name}>
-                <Link 
-                  href={stadtteil.url}
-                  className="text-primary hover:underline flex items-center gap-2 group"
-                >
-                  <ArrowRight className="h-3 w-3 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  <strong>{currentService} {stadtteil.name}</strong>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-        
-        <div>
-          <h4 className="font-bold text-secondary mb-3 flex items-center gap-2">
-            <Wrench className="h-4 w-4 text-primary" />
-            Verwandte Leistungen
-          </h4>
-          <ul className="space-y-2">
-            {services.map((service) => (
-              <li key={service.name}>
-                <Link 
-                  href={service.url}
-                  className="text-primary hover:underline flex items-center gap-2 group"
-                >
-                  <ArrowRight className="h-3 w-3 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  <strong>{service.name}</strong> München
-                </Link>
-              </li>
-            ))}
-          </ul>
+          <div className="mt-6 pt-4 border-t border-primary/20">
+            <p className="text-sm text-muted-foreground">
+              <strong>089Dach GmbH</strong> – Ihr <strong>Dachdecker-Meisterbetrieb</strong> für <strong>{currentService}</strong> in ganz München und Umgebung. 
+              Kostenlose Beratung: <strong>089 12621964</strong>
+            </p>
+          </div>
         </div>
       </div>
-      
-      <div className="mt-6 pt-4 border-t border-primary/20">
-        <p className="text-sm text-muted-foreground">
-          <strong>089Dach GmbH</strong> – Ihr <strong>Dachdecker-Meisterbetrieb</strong> für <strong>{currentService}</strong> in ganz München und Umgebung. 
-          Kostenlose Beratung: <strong>089 12621964</strong>
-        </p>
-      </div>
-    </div>
+    </section>
   );
 }
 

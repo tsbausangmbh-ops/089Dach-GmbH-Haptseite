@@ -121,14 +121,7 @@ export default function DachstuhlErneuern() {
 
       <EinzugsgebietSection />
       
-      <section className="py-6 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-7xl mx-auto">
-            <ServiceGeoLinks currentService="Dachstuhl" />
-          </div>
-        </div>
-      </section>
-
+      <ServiceGeoLinks currentService="Dachstuhl" />
       <CostEscalationBanner />
       <LeadFunnel 
         headline="Dachstuhl erneuern in München?"
