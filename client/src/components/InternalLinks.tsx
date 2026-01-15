@@ -28,9 +28,10 @@ const locationLinks = [
   { text: "Dachdecker Moosach", href: "/dachdecker-moosach" },
 ];
 
+const currentYear = new Date().getFullYear();
 const guideLinks = [
   { text: "Was kostet Dachsanierung?", href: "/ratgeber/kosten" },
-  { text: "KfW Förderung 2025", href: "/ratgeber/foerderung" },
+  { text: `KfW Förderung ${currentYear}`, href: "/ratgeber/foerderung" },
   { text: "Sturmschaden – Was tun?", href: "/ratgeber/sturmschaden" },
   { text: "Dachziegel Vergleich", href: "/ratgeber/materialien" },
   { text: "Dachdämmung Tipps", href: "/ratgeber/daemmung" },

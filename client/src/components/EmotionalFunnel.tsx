@@ -259,7 +259,7 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
                 </table>
               </div>
               <p className="text-sm text-muted-foreground mt-4 text-center">
-                * Richtpreise für München 2025. Individuelle Angebote nach kostenloser Vor-Ort-Besichtigung.
+                * Richtpreise für München {new Date().getFullYear()}. Individuelle Angebote nach kostenloser Vor-Ort-Besichtigung.
               </p>
             </div>
 

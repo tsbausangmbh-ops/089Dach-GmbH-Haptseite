@@ -15,12 +15,13 @@ const StarRating = ({ count }: { count: number }) => (
   </span>
 );
 
+const currentYear = new Date().getFullYear();
 const reviews: Review[] = [
   {
     author: "M. Schmidt",
     rating: 5,
     text: "Professionelle Dachsanierung in Schwabing. Pünktlich, sauber, faire Preise. Absolute Empfehlung!",
-    date: "November 2025",
+    date: `November ${currentYear}`,
     location: "Schwabing",
     project: "Dachsanierung"
   },
@@ -28,7 +29,7 @@ const reviews: Review[] = [
     author: "Familie Weber",
     rating: 5,
     text: "Sturmschaden um 22 Uhr gemeldet, um Mitternacht war das Dach gesichert. Vielen Dank!",
-    date: "Oktober 2025",
+    date: `Oktober ${currentYear}`,
     location: "Sendling",
     project: "Notfall-Reparatur"
   },
@@ -36,7 +37,7 @@ const reviews: Review[] = [
     author: "Dr. Bauer",
     rating: 5,
     text: "Denkmalgerechte Schieferdeckung an historischer Villa. Handwerkskunst auf höchstem Niveau.",
-    date: "September 2025",
+    date: `September ${currentYear}`,
     location: "Bogenhausen",
     project: "Denkmalschutz"
   },
@@ -44,7 +45,7 @@ const reviews: Review[] = [
     author: "H. Müller",
     rating: 5,
     text: "Flachdach-Sanierung perfekt umgesetzt. Endlich keine undichten Stellen mehr. Super Beratung!",
-    date: "August 2025",
+    date: `August ${currentYear}`,
     location: "Moosach",
     project: "Flachdach"
   },
@@ -52,7 +53,7 @@ const reviews: Review[] = [
     author: "Familie Lehner",
     rating: 5,
     text: "Dachsanierung und neue Dachrinnen in einem Aufwasch. Alles aus einer Hand – kein Stress mit verschiedenen Handwerkern.",
-    date: "Juli 2025",
+    date: `Juli ${currentYear}`,
     location: "Pasing",
     project: "Dach & Spenglerei"
   },
@@ -60,7 +61,7 @@ const reviews: Review[] = [
     author: "A. Kraus",
     rating: 5,
     text: "Dachfenster-Einbau in nur 2 Tagen. Saubere Arbeit, freundliches Team, fairer Preis.",
-    date: "Juni 2025",
+    date: `Juni ${currentYear}`,
     location: "Laim",
     project: "Dachfenster"
   }

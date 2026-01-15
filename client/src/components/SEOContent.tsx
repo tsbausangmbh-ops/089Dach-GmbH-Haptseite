@@ -57,7 +57,7 @@ export function DachdeckerKomplettContent() {
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                  <span>KfW/BAFA-<strong>Förderberatung</strong> für Dachsanierung 2025</span>
+                  <span>KfW/BAFA-<strong>Förderberatung</strong> für Dachsanierung {new Date().getFullYear()}</span>
                 </li>
               </ul>
             </div>

@@ -22,6 +22,7 @@ export default function ProofStack({
   showStats = true,
   showGuarantees = true
 }: ProofStackProps) {
+  const currentYear = new Date().getFullYear();
   const defaultReviews: Review[] = [
     {
       name: "M. Schmidt",
@@ -29,7 +30,7 @@ export default function ProofStack({
       rating: 5,
       text: "Professionelle Dachsanierung, pünktlich abgeschlossen. Faire Preise und top Beratung. Absolute Empfehlung!",
       project: "Komplettsanierung Steildach",
-      date: "November 2025"
+      date: `November ${currentYear}`
     },
     {
       name: "Familie Weber",
@@ -37,7 +38,7 @@ export default function ProofStack({
       rating: 5,
       text: "Sturmschaden um 22 Uhr gemeldet, um Mitternacht war das Dach gesichert. Danke für den schnellen Einsatz!",
       project: "Notdienst Sturmschaden",
-      date: "Oktober 2025"
+      date: `Oktober ${currentYear}`
     },
     {
       name: "Dr. Bauer",
@@ -45,7 +46,7 @@ export default function ProofStack({
       rating: 5,
       text: "Denkmalgerechte Schieferdeckung an historischer Villa. Handwerkskunst auf höchstem Niveau.",
       project: "Denkmalschutz-Sanierung",
-      date: "September 2025"
+      date: `September ${currentYear}`
     }
   ];
 
