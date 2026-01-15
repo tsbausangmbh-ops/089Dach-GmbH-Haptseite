@@ -6,7 +6,7 @@ export interface SEOPageData {
 
 export const routeSEOData: Record<string, SEOPageData> = {
   "/": {
-    title: "Dachdecker München | Spenglerei | 089Dach",
+    title: "Dachdecker und Spengler München | Bedachungen | 089Dach",
     description: "089Dach – Dachdecker in München: Dachsanierung, Reparatur, Spenglerarbeiten & Dachfenster. 24/7 Notdienst & 10 Jahre Garantie. Jetzt beraten lassen!",
     keywords: "Dachdecker München, Dachsanierung München, Dachreparatur München, Flachdach München, Spengler München, Dachfenster München, Notdienst Dach München, Dachdecker Obermenzing"
   },
