@@ -480,7 +480,7 @@ export async function registerRoutes(
     try {
       const startDate = new Date();
       const endDate = new Date();
-      endDate.setDate(endDate.getDate() + 14);
+      endDate.setDate(endDate.getDate() + 30);
       
       const slots = await getAvailableSlots(startDate, endDate);
       res.json({ slots: slots.filter(s => s.available) });
@@ -500,7 +500,7 @@ export async function registerRoutes(
     current.setHours(0, 0, 0, 0);
     
     const endDate = new Date();
-    endDate.setDate(endDate.getDate() + 14);
+    endDate.setDate(endDate.getDate() + 30);
     
     // Simple seeded random for consistent "busy" slots
     const todayFactor = new Date().getDate();
