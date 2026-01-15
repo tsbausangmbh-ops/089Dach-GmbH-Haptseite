@@ -523,9 +523,9 @@ export async function registerRoutes(
           const slotEnd = new Date(current);
           slotEnd.setHours(hour + 1, 0, 0, 0);
           
-          // ~50% of slots appear busy (varies by day)
+          // ~30% of slots appear busy (varies by day)
           const seed = current.getDate() * 13 + hour * 7 + todayFactor * 3;
-          const isBusy = seededRandom(seed) < 0.5;
+          const isBusy = seededRandom(seed) < 0.3;
           
           if (slotStart > new Date() && !isBusy) {
             slots.push({

@@ -106,9 +106,9 @@ export async function getAvailableSlots(startDate: Date, endDate: Date): Promise
   const busySlots = response.data.calendars?.primary?.busy || [];
   const slots: TimeSlot[] = [];
   
-  // Target: ~58% of weekday slots, ~33% of Saturday slots should appear as busy
-  const FAKE_BUSY_WEEKDAY = 0.58;
-  const FAKE_BUSY_SATURDAY = 0.33;
+  // Target: ~30% of all slots should appear as busy
+  const FAKE_BUSY_WEEKDAY = 0.30;
+  const FAKE_BUSY_SATURDAY = 0.30;
 
   const current = new Date(startDate);
   while (current < endDate) {
