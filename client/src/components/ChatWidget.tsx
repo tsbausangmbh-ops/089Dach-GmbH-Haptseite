@@ -9,10 +9,10 @@ interface Message {
 }
 
 const quickQuestions = [
-  "Was kostet eine Dachsanierung?",
-  "Wie erkenne ich Dachschäden?",
-  "Arbeiten Sie auch in meinem Stadtteil?",
-  "Wie lange dauert eine Reparatur?",
+  "Mein Dach ist undicht - was tun?",
+  "Kostenlose Beratung anfragen",
+  "Was kostet meine Dachsanierung?",
+  "Rückruf vereinbaren",
 ];
 
 export default function ChatWidget() {
@@ -20,7 +20,7 @@ export default function ChatWidget() {
   const [messages, setMessages] = useState<Message[]>([
     {
       role: "assistant",
-      content: "Hallo!\nIch bin der digitale Assistent von 089Dach.\nWie kann ich Ihnen bei Ihrem Dach-Anliegen helfen?\nWählen Sie eine Frage oder schreiben Sie uns direkt!"
+      content: "Guten Tag! 👋\n\n🏠 Haben Sie ein Dach-Problem?\n⏰ Diese Woche noch 3 Termine frei!\n\n✅ Kostenlose Erstberatung\n✅ Festpreis-Angebot in 24h\n✅ 10 Jahre Garantie\n\nWie kann ich Ihnen helfen?"
     }
   ]);
   const [input, setInput] = useState("");
@@ -65,13 +65,13 @@ export default function ChatWidget() {
       } else {
         setMessages(prev => [...prev, { 
           role: "assistant", 
-          content: "Entschuldigung, es gab einen Fehler. Bitte rufen Sie uns an unter 089 12621964 oder nutzen Sie unser Rückruf-Formular." 
+          content: "Kurze Störung - aber kein Problem!\n\n📞 Rufen Sie uns direkt an: 089 12621964\n👉 Oder: 089dach.de/rueckruf\n\nWir melden uns innerhalb von 2 Stunden!" 
         }]);
       }
     } catch {
       setMessages(prev => [...prev, { 
         role: "assistant", 
-        content: "Entschuldigung, es gab einen Verbindungsfehler. Bitte rufen Sie uns an unter 089 12621964." 
+        content: "Verbindung kurz unterbrochen.\n\n📞 Direkter Draht: 089 12621964\n👉 Rückruf: 089dach.de/rueckruf\n\nWir sind für Sie da!" 
       }]);
     } finally {
       setIsLoading(false);
@@ -103,13 +103,13 @@ export default function ChatWidget() {
       } else {
         setMessages(prev => [...prev, { 
           role: "assistant", 
-          content: "Entschuldigung, es gab einen Fehler. Bitte rufen Sie uns an unter 089 12621964." 
+          content: "Kurze Störung - aber kein Problem!\n\n📞 Rufen Sie uns direkt an: 089 12621964\n👉 Oder: 089dach.de/rueckruf\n\nWir melden uns innerhalb von 2 Stunden!" 
         }]);
       }
     } catch {
       setMessages(prev => [...prev, { 
         role: "assistant", 
-        content: "Entschuldigung, es gab einen Verbindungsfehler. Bitte rufen Sie uns an unter 089 12621964." 
+        content: "Verbindung kurz unterbrochen.\n\n📞 Direkter Draht: 089 12621964\n👉 Rückruf: 089dach.de/rueckruf\n\nWir sind für Sie da!" 
       }]);
     } finally {
       setIsLoading(false);
