@@ -50,9 +50,25 @@ export function serveStatic(app: Express) {
     }
   }));
 
-  // SPA fallback with crawler optimization headers
-  app.use("*", (_req, res) => {
-    const indexPath = path.resolve(distPath, "index.html");
+  // SSR/Pre-rendered pages fallback with crawler optimization
+  app.use("*", (req, res) => {
+    const requestPath = req.originalUrl.split("?")[0].replace(/\/$/, "") || "/";
+    
+    // Try to serve pre-rendered page first
+    let indexPath: string;
+    if (requestPath === "/") {
+      indexPath = path.resolve(distPath, "index.html");
+    } else {
+      // Check for pre-rendered page at /path/index.html
+      const prerenderPath = path.resolve(distPath, requestPath.slice(1), "index.html");
+      if (fs.existsSync(prerenderPath)) {
+        indexPath = prerenderPath;
+      } else {
+        // Fallback to root index.html for SPA
+        indexPath = path.resolve(distPath, "index.html");
+      }
+    }
+    
     const stats = fs.statSync(indexPath);
     
     // Cache headers
