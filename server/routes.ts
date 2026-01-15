@@ -154,16 +154,6 @@ export async function registerRoutes(
   httpServer: Server,
   app: Express
 ): Promise<Server> {
-  // Trailing slash normalization - redirect /path/ to /path (except root /)
-  app.use((req, res, next) => {
-    if (req.path !== "/" && req.path.endsWith("/")) {
-      const query = req.url.slice(req.path.length);
-      const safePath = req.path.slice(0, -1).replace(/\/+/g, "/");
-      return res.redirect(301, safePath + query);
-    }
-    next();
-  });
-
   // robots.txt muss IMMER verfügbar sein - gesetzliche Pflicht für SEO
   app.get("/robots.txt", (_req, res) => {
     const robotsPath = path.resolve(process.cwd(), "client/public/robots.txt");
