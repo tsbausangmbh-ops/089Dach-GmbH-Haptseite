@@ -52,5 +52,3 @@ expertMode = true
 
 [userenv.shared]
 INDEXNOW_KEY = "37773605839026c7ac35ad44e6a6393e"
-SMTP_HOST = "smtp.ionos.de"
-SMTP_PORT = "587"
