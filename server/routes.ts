@@ -22,27 +22,30 @@ const upload = multer({
   }
 });
 
-const smtpPort = parseInt(process.env.SMTP_PORT || "587");
-const smtpSecure = process.env.SMTP_SECURE === "true";
-const transporter = nodemailer.createTransport({
-  host: process.env.SMTP_HOST?.trim(),
-  port: smtpPort,
-  secure: smtpSecure,
-  auth: {
-    user: process.env.SMTP_USER?.trim(),
-    pass: process.env.SMTP_PASS,
-  },
-  tls: {
-    rejectUnauthorized: false
-  }
-});
-
-console.log("SMTP Config:", {
-  host: process.env.SMTP_HOST?.trim(),
-  port: smtpPort,
-  secure: smtpSecure,
-  user: process.env.SMTP_USER?.trim()
-});
+function getTransporter() {
+  const smtpPort = parseInt(process.env.SMTP_PORT || "587");
+  const smtpSecure = process.env.SMTP_SECURE === "true";
+  
+  console.log("SMTP Config:", {
+    host: process.env.SMTP_HOST?.trim(),
+    port: smtpPort,
+    secure: smtpSecure,
+    user: process.env.SMTP_USER?.trim()
+  });
+  
+  return nodemailer.createTransport({
+    host: process.env.SMTP_HOST?.trim(),
+    port: smtpPort,
+    secure: smtpSecure,
+    auth: {
+      user: process.env.SMTP_USER?.trim(),
+      pass: process.env.SMTP_PASS,
+    },
+    tls: {
+      rejectUnauthorized: false
+    }
+  });
+}
 
 interface Attachment {
   filename: string;
@@ -52,7 +55,7 @@ interface Attachment {
 
 async function sendNotificationEmail(subject: string, htmlContent: string, attachments?: Attachment[]) {
   try {
-    await transporter.sendMail({
+    await getTransporter().sendMail({
       from: `${process.env.SMTP_FROM_NAME || '089Dach GmbH'} <${process.env.SMTP_FROM_EMAIL || process.env.SMTP_USER}>`,
       to: "info@089dach.de",
       subject: subject,
@@ -79,7 +82,7 @@ async function sendContactConfirmationEmail(
   address?: string
 ) {
   try {
-    await transporter.sendMail({
+    await getTransporter().sendMail({
       from: `${process.env.SMTP_FROM_NAME || '089Dach GmbH'} <${process.env.SMTP_FROM_EMAIL || process.env.SMTP_USER}>`,
       to: customerEmail,
       subject: "Bestätigung: Ihre Kontaktanfrage bei 089Dach GmbH",
@@ -202,7 +205,7 @@ async function sendLeadConfirmationEmail(
       `;
     }
 
-    await transporter.sendMail({
+    await getTransporter().sendMail({
       from: `${process.env.SMTP_FROM_NAME || '089Dach GmbH'} <${process.env.SMTP_FROM_EMAIL || process.env.SMTP_USER}>`,
       to: customerEmail,
       subject: subject,
