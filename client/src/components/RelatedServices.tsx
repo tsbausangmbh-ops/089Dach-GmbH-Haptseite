@@ -1,13 +1,13 @@
 import { ArrowRight, Home, Warehouse, Wrench, Ruler, ShieldCheck, Lightbulb, FileText, Hammer, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-import imgDachsanierung from "@assets/generated_images/roofers_installing_battens_and_tiles.png";
-import imgReparatur from "@assets/generated_images/roofer_doing_quick_repairs.png";
-import imgReferenzen from "@assets/generated_images/realistic_row_house_roof_after.png";
-import imgStadtteile from "@assets/generated_images/munich_frauenkirche_landmark.png";
-import imgWartung from "@assets/generated_images/roofing_expert_with_checklist.png";
-import imgFAQ from "@assets/generated_images/faq_roofing_consultation.png";
-import imgEnergieberatung from "@assets/generated_images/energy_consulting_kfw_bafa.png";
+import imgDachsanierung from "@assets/generated_images/roofers_installing_battens_and_tiles.webp";
+import imgReparatur from "@assets/generated_images/roofer_doing_quick_repairs.webp";
+import imgReferenzen from "@assets/generated_images/realistic_row_house_roof_after.webp";
+import imgStadtteile from "@assets/generated_images/munich_frauenkirche_landmark.webp";
+import imgWartung from "@assets/generated_images/roofing_expert_with_checklist.webp";
+import imgFAQ from "@assets/generated_images/faq_roofing_consultation.webp";
+import imgEnergieberatung from "@assets/generated_images/energy_consulting_kfw_bafa.webp";
 
 const allServices = [
   {

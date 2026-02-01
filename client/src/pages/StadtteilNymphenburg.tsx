@@ -9,7 +9,7 @@ import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import BackButton from "@/components/BackButton";
 import { GeoLinks } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
-import heroImage from "@assets/generated_images/realistic_villa_slate_roof_after.png";
+import heroImage from "@assets/generated_images/realistic_villa_slate_roof_after.webp";
 import { TestimonialSection } from "@/components/TestimonialSection";
 import { getTestimonialsForLocation } from "@shared/testimonials";
 import { LocalFAQSection } from "@/components/LocalFAQSection";

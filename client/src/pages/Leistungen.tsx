@@ -5,7 +5,7 @@ import BackButton from "@/components/BackButton";
 import Contact from "@/components/Contact";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Home, Warehouse, Wrench, Hammer, ShieldCheck, Ruler, CheckCircle2, Quote, Award, Shield, Users, Phone } from "lucide-react";
-import heroImage from "@assets/generated_images/modern_house_with_anthracite_roof.png";
+import heroImage from "@assets/generated_images/modern_house_with_anthracite_roof.webp";
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { BreadcrumbSchema, ServiceSchema, FAQPageSchema } from "@/components/SEO";
 import { DecisionPressureBanner } from "@/components/UrgencyBanner";

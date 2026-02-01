@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle2, FileText, Ruler, Building2, Phone, Quote, Award, Shield, Users } from "lucide-react";
 import SEO, { BreadcrumbSchema, ServiceSchema, FAQPageSchema } from "@/components/SEO";
-import heroImage from "@assets/generated_images/homeowner_roof_consultation_scene.png";
+import heroImage from "@assets/generated_images/homeowner_roof_consultation_scene.webp";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import { ServiceGeoLinks } from "@/components/GeoLinks";
 import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";

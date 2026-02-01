@@ -8,33 +8,33 @@ import BackButton from "@/components/BackButton";
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
 
-import heroImage from "@assets/generated_images/completed_roof_showcase_reference.png";
+import heroImage from "@assets/generated_images/completed_roof_showcase_reference.webp";
 
-import before1 from "@assets/generated_images/obermenzing_einfamilienhaus_vorher.png";
-import img1 from "@assets/generated_images/obermenzing_einfamilienhaus_nachher.png";
-import before2 from "@assets/generated_images/haidhausen_altbau_damaged_roof_before.png";
-import img5 from "@assets/generated_images/haidhausen_altbau_restored_roof_after.png";
-import before3 from "@assets/generated_images/commercial_flat_roof_damaged_before.png";
-import img6 from "@assets/generated_images/commercial_green_roof_installed_after.png";
-import before4 from "@assets/generated_images/dark_attic_room_before_skylights.png";
-import img4 from "@assets/generated_images/bright_attic_room_after_skylights.png";
-import before5 from "@assets/generated_images/gruenwald_villa_old_slate_roof_before.png";
-import img7 from "@assets/generated_images/gruenwald_villa_restored_slate_after.png";
-import before6 from "@assets/generated_images/office_building_flat_roof_before.png";
-import img3 from "@assets/generated_images/office_building_flat_roof_after.png";
+import before1 from "@assets/generated_images/obermenzing_einfamilienhaus_vorher.webp";
+import img1 from "@assets/generated_images/obermenzing_einfamilienhaus_nachher.webp";
+import before2 from "@assets/generated_images/haidhausen_altbau_damaged_roof_before.webp";
+import img5 from "@assets/generated_images/haidhausen_altbau_restored_roof_after.webp";
+import before3 from "@assets/generated_images/commercial_flat_roof_damaged_before.webp";
+import img6 from "@assets/generated_images/commercial_green_roof_installed_after.webp";
+import before4 from "@assets/generated_images/dark_attic_room_before_skylights.webp";
+import img4 from "@assets/generated_images/bright_attic_room_after_skylights.webp";
+import before5 from "@assets/generated_images/gruenwald_villa_old_slate_roof_before.webp";
+import img7 from "@assets/generated_images/gruenwald_villa_restored_slate_after.webp";
+import before6 from "@assets/generated_images/office_building_flat_roof_before.webp";
+import img3 from "@assets/generated_images/office_building_flat_roof_after.webp";
 
-import before7 from "@assets/generated_images/warehouse_rusted_metal_roof_before.png";
-import img8 from "@assets/generated_images/warehouse_new_metal_roof_after.png";
-import before8 from "@assets/generated_images/pasing_row_house_old_tiles_before.png";
-import img9 from "@assets/generated_images/pasing_row_house_new_tiles_after.png";
-import before9 from "@assets/generated_images/altbau_damaged_dormer_before.png";
-import img10 from "@assets/generated_images/altbau_renovated_dormer_after.png";
-import before10 from "@assets/generated_images/trudering_garage_damaged_flat_roof.png";
-import img11 from "@assets/generated_images/trudering_garage_new_epdm_roof.png";
-import before11 from "@assets/generated_images/bogenhausen_chimney_old_flashing.png";
-import img12 from "@assets/generated_images/bogenhausen_chimney_new_copper.png";
-import before12 from "@assets/generated_images/unterhaching_house_old_solar_before.png";
-import img13 from "@assets/generated_images/unterhaching_house_new_solar_after.png";
+import before7 from "@assets/generated_images/warehouse_rusted_metal_roof_before.webp";
+import img8 from "@assets/generated_images/warehouse_new_metal_roof_after.webp";
+import before8 from "@assets/generated_images/pasing_row_house_old_tiles_before.webp";
+import img9 from "@assets/generated_images/pasing_row_house_new_tiles_after.webp";
+import before9 from "@assets/generated_images/altbau_damaged_dormer_before.webp";
+import img10 from "@assets/generated_images/altbau_renovated_dormer_after.webp";
+import before10 from "@assets/generated_images/trudering_garage_damaged_flat_roof.webp";
+import img11 from "@assets/generated_images/trudering_garage_new_epdm_roof.webp";
+import before11 from "@assets/generated_images/bogenhausen_chimney_old_flashing.webp";
+import img12 from "@assets/generated_images/bogenhausen_chimney_new_copper.webp";
+import before12 from "@assets/generated_images/unterhaching_house_old_solar_before.webp";
+import img13 from "@assets/generated_images/unterhaching_house_new_solar_after.webp";
 
 export default function Referenzen() {
   const projects = [

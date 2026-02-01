@@ -1,11 +1,11 @@
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Home, Hammer, ShieldCheck, Ruler, Wrench, Warehouse, AlertTriangle, ArrowRight } from "lucide-react";
-import imgSanierung from "@assets/generated_images/realistic_renovated_roof_obermenzing_after.png";
-import imgBedachung from "@assets/generated_images/historic_biberschwanz_roof_with_patina.png";
-import imgSpenglerei from "@assets/generated_images/copper_roof_gutter_detail.png";
-import imgReparatur from "@assets/generated_images/roofer_working_on_red_tile_roof_munich.png";
-import imgNotdienst from "@assets/generated_images/damaged_red_tile_roof_before.png";
-import imgDachfenster from "@assets/generated_images/bright_attic_room_after_skylights.png";
+import imgSanierung from "@assets/generated_images/realistic_renovated_roof_obermenzing_after.webp";
+import imgBedachung from "@assets/generated_images/historic_biberschwanz_roof_with_patina.webp";
+import imgSpenglerei from "@assets/generated_images/copper_roof_gutter_detail.webp";
+import imgReparatur from "@assets/generated_images/roofer_working_on_red_tile_roof_munich.webp";
+import imgNotdienst from "@assets/generated_images/damaged_red_tile_roof_before.webp";
+import imgDachfenster from "@assets/generated_images/bright_attic_room_after_skylights.webp";
 
 export default function Services() {
   const services = [

@@ -4,7 +4,7 @@ import SEO from "@/components/SEO";
 import BackButton from "@/components/BackButton";
 import { Button } from "@/components/ui/button";
 import { Shield, Cookie, Bot, Scale, Lock, FileText, AlertTriangle, Globe, Server, Database, Users, Phone } from "lucide-react";
-import heroImage from "@assets/generated_images/professional_office_legal_documents.png";
+import heroImage from "@assets/generated_images/professional_office_legal_documents.webp";
 
 export default function CookiePolicy() {
   return (

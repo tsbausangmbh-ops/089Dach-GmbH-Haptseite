@@ -4,7 +4,7 @@ import Contact from "@/components/Contact";
 import BackButton from "@/components/BackButton";
 import { Button } from "@/components/ui/button";
 import { Phone } from "lucide-react";
-import contactImage from "@assets/generated_images/friendly_woman_on_phone_in_office.png";
+import contactImage from "@assets/generated_images/friendly_woman_on_phone_in_office.webp";
 import SEO, { BreadcrumbSchema, LocalBusinessSchema, FAQPageSchema } from "@/components/SEO";
 
 export default function ContactPage() {

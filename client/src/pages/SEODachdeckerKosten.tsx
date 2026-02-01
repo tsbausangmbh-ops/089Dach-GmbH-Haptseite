@@ -7,11 +7,11 @@ import { CostEscalationBanner, DecisionPressureBanner } from "@/components/Urgen
 import ImageGallery from "@/components/ImageGallery";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import BackButton from "@/components/BackButton";
-import heroImage from "@assets/generated_images/modern_house_with_anthracite_roof.png";
-import damageBefore from "@assets/generated_images/realistic_damaged_roof_obermenzing_before.png";
-import repairedAfter from "@assets/generated_images/obermenzing_house_new_roof_after.png";
-import flatRoof from "@assets/generated_images/new_epdm_flat_roof_garage.png";
-import solarRoof from "@assets/generated_images/new_solar_panel_installation.png";
+import heroImage from "@assets/generated_images/modern_house_with_anthracite_roof.webp";
+import damageBefore from "@assets/generated_images/realistic_damaged_roof_obermenzing_before.webp";
+import repairedAfter from "@assets/generated_images/obermenzing_house_new_roof_after.webp";
+import flatRoof from "@assets/generated_images/new_epdm_flat_roof_garage.webp";
+import solarRoof from "@assets/generated_images/new_solar_panel_installation.webp";
 
 function PriceSchema() {
   const schema = {

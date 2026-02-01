@@ -13,14 +13,14 @@ import ProblemSolutionSection from "@/components/ProblemSolutionSection";
 import CTACluster from "@/components/CTACluster";
 import ProofStack from "@/components/ProofStack";
 import ProcessSteps from "@/components/ProcessSteps";
-import heroImage from "@assets/generated_images/new_solar_panel_installation.png";
+import heroImage from "@assets/generated_images/new_solar_panel_installation.webp";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import { ServiceGeoLinks } from "@/components/GeoLinks";
 import ImageGallery from "@/components/ImageGallery";
-import energieImg1 from "@assets/generated_images/new_solar_panel_installation.png";
-import energieImg2 from "@assets/generated_images/roof_insulation_installation_scene.png";
-import energieImg3 from "@assets/generated_images/house_with_heat_loss_visualization.png";
-import energieImg4 from "@assets/generated_images/modern_house_with_anthracite_roof.png";
+import energieImg1 from "@assets/generated_images/new_solar_panel_installation.webp";
+import energieImg2 from "@assets/generated_images/roof_insulation_installation_scene.webp";
+import energieImg3 from "@assets/generated_images/house_with_heat_loss_visualization.webp";
+import energieImg4 from "@assets/generated_images/modern_house_with_anthracite_roof.webp";
 import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function Energieberatung() {

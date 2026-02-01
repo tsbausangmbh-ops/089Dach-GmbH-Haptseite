@@ -1,4 +1,4 @@
-import toolsImage from "@assets/generated_images/roofer_tools_arranged_cleanly.png";
+import toolsImage from "@assets/generated_images/roofer_tools_arranged_cleanly.webp";
 import { Button } from "@/components/ui/button";
 import { Award, MapPin } from "lucide-react";
 

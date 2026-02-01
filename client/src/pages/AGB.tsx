@@ -4,7 +4,7 @@ import BackButton from "@/components/BackButton";
 import { Button } from "@/components/ui/button";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import { Scale, FileText, Shield, AlertTriangle, Clock, Hammer, CheckCircle2, Phone } from "lucide-react";
-import heroImage from "@assets/generated_images/professional_office_legal_documents.png";
+import heroImage from "@assets/generated_images/professional_office_legal_documents.webp";
 
 export default function AGB() {
   return (

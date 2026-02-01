@@ -15,10 +15,10 @@ import BackButton from "@/components/BackButton";
 import ImageGallery from "@/components/ImageGallery";
 import { ServiceGeoLinks } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
-import beschichtungImg1 from "@assets/generated_images/aged_red_roof_tiles_closeup.png";
-import beschichtungImg2 from "@assets/generated_images/historic_biberschwanz_roof_with_patina.png";
-import beschichtungImg3 from "@assets/generated_images/realistic_renovated_roof_obermenzing_after.png";
-import beschichtungImg4 from "@assets/generated_images/modern_house_with_anthracite_roof.png";
+import beschichtungImg1 from "@assets/generated_images/aged_red_roof_tiles_closeup.webp";
+import beschichtungImg2 from "@assets/generated_images/historic_biberschwanz_roof_with_patina.webp";
+import beschichtungImg3 from "@assets/generated_images/realistic_renovated_roof_obermenzing_after.webp";
+import beschichtungImg4 from "@assets/generated_images/modern_house_with_anthracite_roof.webp";
 import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function Dachbeschichtung() {

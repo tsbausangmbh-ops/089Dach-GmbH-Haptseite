@@ -9,7 +9,7 @@ import SEO, { BreadcrumbSchema, LocalBusinessSchema } from "@/components/SEO";
 import BackButton from "@/components/BackButton";
 import LeadFunnel from "@/components/LeadFunnel";
 import Contact from "@/components/Contact";
-import heroImage from "@assets/generated_images/roof_insulation_installation_scene.png";
+import heroImage from "@assets/generated_images/roof_insulation_installation_scene.webp";
 
 const GRADTAGZAHL_MUENCHEN = 3400;
 const CO2_FACTOR_GAS = 0.2;

@@ -16,14 +16,14 @@ import ProblemSolutionSection from "@/components/ProblemSolutionSection";
 import CTACluster from "@/components/CTACluster";
 import ProofStack from "@/components/ProofStack";
 import ProcessSteps from "@/components/ProcessSteps";
-import heroImage from "@assets/generated_images/roofer_tools_arranged_cleanly.png";
+import heroImage from "@assets/generated_images/roofer_tools_arranged_cleanly.webp";
 import BackButton from "@/components/BackButton";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import ImageGallery from "@/components/ImageGallery";
-import wartungImg1 from "@assets/generated_images/roofer_working_on_red_tile_roof_munich.png";
-import wartungImg2 from "@assets/generated_images/aged_red_roof_tiles_closeup.png";
-import wartungImg3 from "@assets/generated_images/copper_roof_gutter_detail.png";
-import wartungImg4 from "@assets/generated_images/realistic_renovated_roof_obermenzing_after.png";
+import wartungImg1 from "@assets/generated_images/roofer_working_on_red_tile_roof_munich.webp";
+import wartungImg2 from "@assets/generated_images/aged_red_roof_tiles_closeup.webp";
+import wartungImg3 from "@assets/generated_images/copper_roof_gutter_detail.webp";
+import wartungImg4 from "@assets/generated_images/realistic_renovated_roof_obermenzing_after.webp";
 import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function Wartung() {

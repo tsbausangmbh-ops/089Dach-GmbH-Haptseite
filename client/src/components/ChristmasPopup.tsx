@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import christmasBackground from "@assets/generated_images/festive_christmas_background.png";
+import christmasBackground from "@assets/generated_images/festive_christmas_background.webp";
 
 function isChristmasSeason(): boolean {
   const now = new Date();

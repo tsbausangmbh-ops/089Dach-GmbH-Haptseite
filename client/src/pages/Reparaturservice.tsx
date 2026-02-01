@@ -11,7 +11,7 @@ import { AlertTriangle, Clock, Shield, Mail, Wrench, CloudRain, Wind, Check, Quo
 import { useState } from "react";
 import { toast } from "sonner";
 import SEO, { BreadcrumbSchema, ServiceSchema, HowToSchema, ProductServiceSchema, FAQPageSchema, LocalBusinessSchema } from "@/components/SEO";
-import heroImage from "@assets/generated_images/damaged_red_tile_roof_before.png";
+import heroImage from "@assets/generated_images/damaged_red_tile_roof_before.webp";
 import BackButton from "@/components/BackButton";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import { ServiceGeoLinks } from "@/components/GeoLinks";
@@ -22,10 +22,10 @@ import CTACluster from "@/components/CTACluster";
 import ProofStack from "@/components/ProofStack";
 import ProcessSteps from "@/components/ProcessSteps";
 import ImageGallery from "@/components/ImageGallery";
-import reparaturImg1 from "@assets/generated_images/damaged_red_tile_roof_before.png";
-import reparaturImg2 from "@assets/generated_images/roofer_working_on_red_tile_roof_munich.png";
-import reparaturImg3 from "@assets/generated_images/damaged_chimney_flashing_before.png";
-import reparaturImg4 from "@assets/generated_images/new_copper_chimney_flashing.png";
+import reparaturImg1 from "@assets/generated_images/damaged_red_tile_roof_before.webp";
+import reparaturImg2 from "@assets/generated_images/roofer_working_on_red_tile_roof_munich.webp";
+import reparaturImg3 from "@assets/generated_images/damaged_chimney_flashing_before.webp";
+import reparaturImg4 from "@assets/generated_images/new_copper_chimney_flashing.webp";
 import Contact from "@/components/Contact";
 import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 

@@ -7,11 +7,11 @@ import { CostEscalationBanner, DecisionPressureBanner } from "@/components/Urgen
 import ImageGallery from "@/components/ImageGallery";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import BackButton from "@/components/BackButton";
-import heroImage from "@assets/generated_images/realistic_villa_slate_roof_after.png";
-import roofBefore from "@assets/generated_images/realistic_damaged_roof_obermenzing_before.png";
-import roofAfter from "@assets/generated_images/realistic_renovated_roof_obermenzing_after.png";
-import tileRoof from "@assets/generated_images/historic_biberschwanz_roof_with_patina.png";
-import flatRoof from "@assets/generated_images/flat_green_roof_with_natural_variations.png";
+import heroImage from "@assets/generated_images/realistic_villa_slate_roof_after.webp";
+import roofBefore from "@assets/generated_images/realistic_damaged_roof_obermenzing_before.webp";
+import roofAfter from "@assets/generated_images/realistic_renovated_roof_obermenzing_after.webp";
+import tileRoof from "@assets/generated_images/historic_biberschwanz_roof_with_patina.webp";
+import flatRoof from "@assets/generated_images/flat_green_roof_with_natural_variations.webp";
 
 function LocalBusinessSchema() {
   const schema = {

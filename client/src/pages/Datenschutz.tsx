@@ -4,7 +4,7 @@ import BackButton from "@/components/BackButton";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Shield, Lock, FileText, Globe, Bot, AlertTriangle, Database, Server, Phone } from "lucide-react";
-import heroImage from "@assets/generated_images/friendly_woman_on_phone_in_office.png";
+import heroImage from "@assets/generated_images/friendly_woman_on_phone_in_office.webp";
 
 export default function Datenschutz() {
   return (

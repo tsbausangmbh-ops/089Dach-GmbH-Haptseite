@@ -13,14 +13,14 @@ import ProblemSolutionSection from "@/components/ProblemSolutionSection";
 import CTACluster from "@/components/CTACluster";
 import ProofStack from "@/components/ProofStack";
 import ProcessSteps from "@/components/ProcessSteps";
-import heroImage from "@assets/generated_images/renovated_dormer_window_after.png";
+import heroImage from "@assets/generated_images/renovated_dormer_window_after.webp";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import { ServiceGeoLinks } from "@/components/GeoLinks";
 import ImageGallery from "@/components/ImageGallery";
-import gaubeImg1 from "@assets/generated_images/altbau_damaged_dormer_before.png";
-import gaubeImg2 from "@assets/generated_images/altbau_renovated_dormer_after.png";
-import gaubeImg3 from "@assets/generated_images/realistic_damaged_dormer_before.png";
-import gaubeImg4 from "@assets/generated_images/realistic_renovated_dormer_after.png";
+import gaubeImg1 from "@assets/generated_images/altbau_damaged_dormer_before.webp";
+import gaubeImg2 from "@assets/generated_images/altbau_renovated_dormer_after.webp";
+import gaubeImg3 from "@assets/generated_images/realistic_damaged_dormer_before.webp";
+import gaubeImg4 from "@assets/generated_images/realistic_renovated_dormer_after.webp";
 import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function Gaubenbau() {

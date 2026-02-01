@@ -9,7 +9,7 @@ import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import BackButton from "@/components/BackButton";
 import { GeoLinks } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
-import heroImage from "@assets/generated_images/realistic_renovated_roof_obermenzing_after.png";
+import heroImage from "@assets/generated_images/realistic_renovated_roof_obermenzing_after.webp";
 import { TestimonialSection } from "@/components/TestimonialSection";
 import { getTestimonialsForLocation } from "@shared/testimonials";
 import { LocalFAQSection } from "@/components/LocalFAQSection";

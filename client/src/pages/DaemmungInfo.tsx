@@ -7,7 +7,7 @@ import { CheckCircle2, ThermometerSnowflake, ArrowRight, ArrowLeft, Euro, Home, 
 import { Link } from "wouter";
 import { useState } from "react";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
-import heroImage from "@assets/generated_images/roof_insulation_installation_scene.png";
+import heroImage from "@assets/generated_images/roof_insulation_installation_scene.webp";
 
 export default function DaemmungInfo() {
   const [funnelStep, setFunnelStep] = useState(0);

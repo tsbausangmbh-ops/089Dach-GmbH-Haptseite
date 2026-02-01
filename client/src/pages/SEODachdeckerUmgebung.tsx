@@ -7,11 +7,11 @@ import { CostEscalationBanner, DecisionPressureBanner } from "@/components/Urgen
 import ImageGallery from "@/components/ImageGallery";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import BackButton from "@/components/BackButton";
-import heroImage from "@assets/generated_images/realistic_renovated_roof_obermenzing_after.png";
-import roofWork from "@assets/generated_images/roofer_working_on_red_tile_roof_munich.png";
-import villaRoof from "@assets/generated_images/gruenwald_villa_restored_slate_after.png";
-import haidhausenRoof from "@assets/generated_images/haidhausen_altbau_restored_roof_after.png";
-import modernRoof from "@assets/generated_images/modern_house_with_anthracite_roof.png";
+import heroImage from "@assets/generated_images/realistic_renovated_roof_obermenzing_after.webp";
+import roofWork from "@assets/generated_images/roofer_working_on_red_tile_roof_munich.webp";
+import villaRoof from "@assets/generated_images/gruenwald_villa_restored_slate_after.webp";
+import haidhausenRoof from "@assets/generated_images/haidhausen_altbau_restored_roof_after.webp";
+import modernRoof from "@assets/generated_images/modern_house_with_anthracite_roof.webp";
 
 function ServiceAreaSchema() {
   const schema = {

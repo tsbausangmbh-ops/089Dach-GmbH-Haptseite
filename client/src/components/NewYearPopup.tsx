@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import newYearBackground from "@assets/generated_images/light_background_with_subtle_fireworks.png";
+import newYearBackground from "@assets/generated_images/light_background_with_subtle_fireworks.webp";
 
 function isNewYearsDay(): boolean {
   const now = new Date();

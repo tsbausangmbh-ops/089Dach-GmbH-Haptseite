@@ -1,6 +1,6 @@
-import img1 from "@assets/generated_images/realistic_house_anthracite_roof.png";
-import img2 from "@assets/generated_images/aged_red_roof_tiles_closeup.png";
-import img3 from "@assets/generated_images/weathered_flat_roof_commercial.png";
+import img1 from "@assets/generated_images/realistic_house_anthracite_roof.webp";
+import img2 from "@assets/generated_images/aged_red_roof_tiles_closeup.webp";
+import img3 from "@assets/generated_images/weathered_flat_roof_commercial.webp";
 import { Button } from "@/components/ui/button";
 import { ArrowUpRight } from "lucide-react";
 

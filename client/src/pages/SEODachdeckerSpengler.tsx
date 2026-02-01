@@ -7,11 +7,11 @@ import { CostEscalationBanner, DecisionPressureBanner } from "@/components/Urgen
 import ImageGallery from "@/components/ImageGallery";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import BackButton from "@/components/BackButton";
-import heroImage from "@assets/generated_images/realistic_house_anthracite_roof.png";
-import copperChimney from "@assets/generated_images/bogenhausen_chimney_new_copper.png";
-import metalRoof from "@assets/generated_images/new_metal_standing_seam_roof.png";
-import copperGutter from "@assets/generated_images/copper_roof_gutter_detail.png";
-import metalDetail from "@assets/generated_images/metal_standing_seam_roof_detail.png";
+import heroImage from "@assets/generated_images/realistic_house_anthracite_roof.webp";
+import copperChimney from "@assets/generated_images/bogenhausen_chimney_new_copper.webp";
+import metalRoof from "@assets/generated_images/new_metal_standing_seam_roof.webp";
+import copperGutter from "@assets/generated_images/copper_roof_gutter_detail.webp";
+import metalDetail from "@assets/generated_images/metal_standing_seam_roof_detail.webp";
 
 function CombinedServiceSchema() {
   const schema = {

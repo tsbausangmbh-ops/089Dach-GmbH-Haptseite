@@ -8,7 +8,7 @@ import { Calculator, Flame, Home, Thermometer, TrendingDown, Euro, Leaf, ArrowRi
 import { useState } from "react";
 import { Link } from "wouter";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
-import heroImage from "@assets/generated_images/house_with_heat_loss_visualization.png";
+import heroImage from "@assets/generated_images/house_with_heat_loss_visualization.webp";
 
 interface CalculationResult {
   currentCost: number;

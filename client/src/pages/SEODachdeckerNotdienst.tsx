@@ -7,11 +7,11 @@ import { CostEscalationBanner, DecisionPressureBanner } from "@/components/Urgen
 import ImageGallery from "@/components/ImageGallery";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import BackButton from "@/components/BackButton";
-import heroImage from "@assets/generated_images/realistic_restored_historic_roof_after.png";
-import stormDamage from "@assets/generated_images/damaged_red_tile_roof_before.png";
-import repairedRoof from "@assets/generated_images/completed_roof_showcase_reference.png";
-import flatDamage from "@assets/generated_images/realistic_damaged_flat_roof_before.png";
-import flatRepaired from "@assets/generated_images/realistic_garage_epdm_roof_after.png";
+import heroImage from "@assets/generated_images/realistic_restored_historic_roof_after.webp";
+import stormDamage from "@assets/generated_images/damaged_red_tile_roof_before.webp";
+import repairedRoof from "@assets/generated_images/completed_roof_showcase_reference.webp";
+import flatDamage from "@assets/generated_images/realistic_damaged_flat_roof_before.webp";
+import flatRepaired from "@assets/generated_images/realistic_garage_epdm_roof_after.webp";
 
 function EmergencyServiceSchema() {
   const schema = {
