@@ -470,20 +470,29 @@ export async function registerRoutes(
       }
       
       // Always send confirmation email to customer if they provided email
+      console.log("[Leads] Customer email provided:", validatedData.email);
       if (validatedData.email) {
         let eventStart: Date | null = null;
         if (validatedData.callbackStart) {
           eventStart = new Date(validatedData.callbackStart);
         }
-        await sendLeadConfirmationEmail(
-          validatedData.email,
-          validatedData.name,
-          eventStart,
-          validatedData.problem,
-          validatedData.timing,
-          validatedData.details || undefined,
-          validatedData.phone
-        );
+        console.log("[Leads] Sending customer confirmation to:", validatedData.email);
+        try {
+          await sendLeadConfirmationEmail(
+            validatedData.email,
+            validatedData.name,
+            eventStart,
+            validatedData.problem,
+            validatedData.timing,
+            validatedData.details || undefined,
+            validatedData.phone
+          );
+          console.log("[Leads] Customer confirmation sent successfully");
+        } catch (emailError) {
+          console.error("[Leads] Failed to send customer confirmation:", emailError);
+        }
+      } else {
+        console.log("[Leads] No customer email provided, skipping confirmation");
       }
       
       res.status(201).json({ success: true, data: lead });
@@ -557,20 +566,29 @@ export async function registerRoutes(
       }
       
       // Always send confirmation email to customer if they provided email
+      console.log("[LeadsWithFiles] Customer email provided:", validatedData.email);
       if (validatedData.email) {
         let eventStart: Date | null = null;
         if (validatedData.callbackStart) {
           eventStart = new Date(validatedData.callbackStart);
         }
-        await sendLeadConfirmationEmail(
-          validatedData.email,
-          validatedData.name,
-          eventStart,
-          validatedData.problem,
-          validatedData.timing,
-          validatedData.details || undefined,
-          validatedData.phone
-        );
+        console.log("[LeadsWithFiles] Sending customer confirmation to:", validatedData.email);
+        try {
+          await sendLeadConfirmationEmail(
+            validatedData.email,
+            validatedData.name,
+            eventStart,
+            validatedData.problem,
+            validatedData.timing,
+            validatedData.details || undefined,
+            validatedData.phone
+          );
+          console.log("[LeadsWithFiles] Customer confirmation sent successfully");
+        } catch (emailError) {
+          console.error("[LeadsWithFiles] Failed to send customer confirmation:", emailError);
+        }
+      } else {
+        console.log("[LeadsWithFiles] No customer email provided, skipping confirmation");
       }
       
       res.status(201).json({ success: true, data: lead });
