@@ -51,3 +51,12 @@ expertMode = true
 [userenv]
 
 [userenv.shared]
+
+[userenv.development]
+SMTP_HOST = "smtp.ionos.de"
+SMTP_PORT = "587"
+SMTP_USER = "info@089dach.de"
+SMTP_PASS = "0202aM2810+,"
+SMTP_FROM_EMAIL = "info@089dach.de"
+SMTP_FROM_NAME = "089Dach GmbH"
+SMTP_SECURE = "false"
