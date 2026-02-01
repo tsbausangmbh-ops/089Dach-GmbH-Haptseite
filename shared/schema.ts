@@ -1,58 +1,62 @@
-import { sql } from "drizzle-orm";
-import { pgTable, text, varchar, timestamp } from "drizzle-orm/pg-core";
-import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod";
 
-export const users = pgTable("users", {
-  id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
-  username: text("username").notNull().unique(),
-  password: text("password").notNull(),
-});
-
-export const insertUserSchema = createInsertSchema(users).pick({
-  username: true,
-  password: true,
+export const insertUserSchema = z.object({
+  username: z.string().min(1),
+  password: z.string().min(1),
 });
 
 export type InsertUser = z.infer<typeof insertUserSchema>;
-export type User = typeof users.$inferSelect;
 
-export const contacts = pgTable("contacts", {
-  id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
-  name: text("name").notNull(),
-  email: text("email").notNull(),
-  phone: text("phone"),
-  address: text("address"),
-  subject: text("subject"),
-  message: text("message").notNull(),
-  createdAt: timestamp("created_at").notNull().defaultNow(),
-});
+export interface User {
+  id: string;
+  username: string;
+  password: string;
+}
 
-export const insertContactSchema = createInsertSchema(contacts).omit({
-  id: true,
-  createdAt: true,
+export const insertContactSchema = z.object({
+  name: z.string().min(1),
+  email: z.string().email(),
+  phone: z.string().optional(),
+  address: z.string().optional(),
+  subject: z.string().optional(),
+  message: z.string().min(1),
 });
 
 export type InsertContact = z.infer<typeof insertContactSchema>;
-export type Contact = typeof contacts.$inferSelect;
 
-export const leads = pgTable("leads", {
-  id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
-  problem: text("problem").notNull(),
-  timing: text("timing").notNull(),
-  details: text("details"),
-  name: text("name").notNull(),
-  phone: text("phone").notNull(),
-  email: text("email"),
-  callbackStart: timestamp("callback_start"),
-  callbackEnd: timestamp("callback_end"),
-  createdAt: timestamp("created_at").notNull().defaultNow(),
-});
+export interface Contact {
+  id: string;
+  name: string;
+  email: string;
+  phone?: string;
+  address?: string;
+  subject?: string;
+  message: string;
+  createdAt: Date;
+}
 
-export const insertLeadSchema = createInsertSchema(leads).omit({
-  id: true,
-  createdAt: true,
+export const insertLeadSchema = z.object({
+  problem: z.string().min(1),
+  timing: z.string().min(1),
+  details: z.string().optional(),
+  name: z.string().min(1),
+  phone: z.string().min(1),
+  email: z.string().email().optional(),
+  callbackStart: z.date().optional(),
+  callbackEnd: z.date().optional(),
 });
 
 export type InsertLead = z.infer<typeof insertLeadSchema>;
-export type Lead = typeof leads.$inferSelect;
+
+export interface Lead {
+  id: string;
+  problem: string;
+  timing: string;
+  details?: string;
+  name: string;
+  phone: string;
+  email?: string;
+  callbackStart?: Date;
+  callbackEnd?: Date;
+  createdAt: Date;
+}
