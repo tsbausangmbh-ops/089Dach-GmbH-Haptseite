@@ -22,11 +22,12 @@ const upload = multer({
   }
 });
 
-const smtpPort = parseInt(process.env.SMTP_PORT || "465");
+const smtpPort = parseInt(process.env.SMTP_PORT || "587");
+const smtpSecure = process.env.SMTP_SECURE === "true";
 const transporter = nodemailer.createTransport({
   host: process.env.SMTP_HOST?.trim(),
   port: smtpPort,
-  secure: smtpPort === 465,
+  secure: smtpSecure,
   auth: {
     user: process.env.SMTP_USER?.trim(),
     pass: process.env.SMTP_PASS,
@@ -39,7 +40,7 @@ const transporter = nodemailer.createTransport({
 console.log("SMTP Config:", {
   host: process.env.SMTP_HOST?.trim(),
   port: smtpPort,
-  secure: smtpPort === 465,
+  secure: smtpSecure,
   user: process.env.SMTP_USER?.trim()
 });
 
