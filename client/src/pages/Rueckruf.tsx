@@ -7,11 +7,12 @@ import { Textarea } from "@/components/ui/textarea";
 import { Calendar } from "@/components/ui/calendar";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { PhoneCall, ArrowRight, ShieldCheck, Award, Shield, Users, Clock, CheckCircle, CalendarIcon, Loader2, Phone } from "lucide-react";
+import { Checkbox } from "@/components/ui/checkbox";
 import { useState, useEffect } from "react";
 import { toast } from "sonner";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import BackButton from "@/components/BackButton";
-import heroImage from "@assets/generated_images/friendly_woman_on_phone_in_office.png";
+import heroImage from "@assets/optimized/friendly_woman_on_phone_in_office.webp";
 import { format, isSameDay } from "date-fns";
 import { de } from "date-fns/locale";
 
@@ -31,6 +32,7 @@ export default function Rueckruf() {
     phone: "",
     message: ""
   });
+  const [dsgvoAccepted, setDsgvoAccepted] = useState(false);
 
   useEffect(() => {
     fetchAvailability();
@@ -100,6 +102,7 @@ export default function Rueckruf() {
           description: "Wir rufen Sie zum vereinbarten Termin zurück."
         });
         setFormData({ name: "", phone: "", message: "" });
+        setDsgvoAccepted(false);
         setSelectedSlot(null);
         setSelectedDate(undefined);
         fetchAvailability();
@@ -353,10 +356,22 @@ export default function Rueckruf() {
                 />
               </div>
 
+              <div className="flex items-start space-x-3">
+                <Checkbox 
+                  id="dsgvo-rueckruf" 
+                  checked={dsgvoAccepted}
+                  onCheckedChange={(checked) => setDsgvoAccepted(checked === true)}
+                  data-testid="checkbox-rueckruf-dsgvo"
+                />
+                <label htmlFor="dsgvo-rueckruf" className="text-sm text-muted-foreground leading-tight cursor-pointer">
+                  Ich habe die <a href="/datenschutz/" className="text-primary underline hover:no-underline" onClick={(e) => e.stopPropagation()}>Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Daten zu. *
+                </label>
+              </div>
+
               <Button 
                 type="submit"
                 className="w-full bg-primary hover:bg-primary/90 text-white font-bold py-6 text-lg"
-                disabled={isSubmitting}
+                disabled={isSubmitting || !dsgvoAccepted}
                 data-testid="button-rueckruf-submit"
               >
                 {isSubmitting ? "Wird gesendet..." : selectedSlot ? "Termin buchen" : "Rückruf anfordern"}
