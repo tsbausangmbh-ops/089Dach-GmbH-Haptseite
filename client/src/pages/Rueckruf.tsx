@@ -35,9 +35,20 @@ export default function Rueckruf() {
     message: ""
   });
   const [dsgvoAccepted, setDsgvoAccepted] = useState(false);
+  const [captcha, setCaptcha] = useState({ num1: 0, num2: 0 });
+  const [captchaAnswer, setCaptchaAnswer] = useState("");
+
+  const generateCaptcha = () => {
+    setCaptcha({
+      num1: Math.floor(Math.random() * 10) + 1,
+      num2: Math.floor(Math.random() * 10) + 1
+    });
+    setCaptchaAnswer("");
+  };
 
   useEffect(() => {
     fetchAvailability();
+    generateCaptcha();
   }, []);
 
   const fetchAvailability = async () => {
@@ -76,6 +87,15 @@ export default function Rueckruf() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    
+    if (parseInt(captchaAnswer) !== captcha.num1 + captcha.num2) {
+      toast.error("Sicherheitsfrage falsch", {
+        description: "Bitte lösen Sie die Rechenaufgabe korrekt."
+      });
+      generateCaptcha();
+      return;
+    }
+    
     setIsSubmitting(true);
 
     try {
@@ -368,6 +388,22 @@ export default function Rueckruf() {
                   value={formData.message}
                   onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                   data-testid="textarea-rueckruf-message"
+                />
+              </div>
+
+              <div className="space-y-2">
+                <Label htmlFor="captcha-rueckruf">
+                  Sicherheitsfrage: Was ist {captcha.num1} + {captcha.num2}? *
+                </Label>
+                <Input 
+                  id="captcha-rueckruf"
+                  type="number"
+                  placeholder="Ihre Antwort"
+                  className="w-32"
+                  value={captchaAnswer}
+                  onChange={(e) => setCaptchaAnswer(e.target.value)}
+                  required
+                  data-testid="input-rueckruf-captcha"
                 />
               </div>
 

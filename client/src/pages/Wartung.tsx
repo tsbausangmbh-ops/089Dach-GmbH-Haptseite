@@ -8,7 +8,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { CalendarCheck, Shield, Clock, Mail, Search, Droplets, Leaf, Check, Quote, PhoneCall, ArrowRight, ShieldCheck, Award, Users, ClipboardCheck, Settings } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { toast } from "sonner";
 import SEO, { BreadcrumbSchema, ServiceSchema, HowToSchema, ProductServiceSchema, FAQPageSchema, LocalBusinessSchema } from "@/components/SEO";
 import AIEnhancedFAQ from "@/components/AIEnhancedFAQ";
@@ -35,9 +35,32 @@ export default function Wartung() {
     address: "",
     message: ""
   });
+  const [captcha, setCaptcha] = useState({ num1: 0, num2: 0 });
+  const [captchaAnswer, setCaptchaAnswer] = useState("");
+
+  const generateCaptcha = () => {
+    setCaptcha({
+      num1: Math.floor(Math.random() * 10) + 1,
+      num2: Math.floor(Math.random() * 10) + 1
+    });
+    setCaptchaAnswer("");
+  };
+
+  useEffect(() => {
+    generateCaptcha();
+  }, []);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    
+    if (parseInt(captchaAnswer) !== captcha.num1 + captcha.num2) {
+      toast.error("Sicherheitsfrage falsch", {
+        description: "Bitte lösen Sie die Rechenaufgabe korrekt."
+      });
+      generateCaptcha();
+      return;
+    }
+    
     setIsSubmitting(true);
 
     try {
@@ -300,6 +323,22 @@ export default function Wartung() {
                   value={formData.message}
                   onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                   data-testid="textarea-wartung-message"
+                />
+              </div>
+
+              <div className="space-y-2">
+                <Label htmlFor="captcha-wartung">
+                  Sicherheitsfrage: Was ist {captcha.num1} + {captcha.num2}? *
+                </Label>
+                <Input 
+                  id="captcha-wartung"
+                  type="number"
+                  placeholder="Ihre Antwort"
+                  className="w-32"
+                  value={captchaAnswer}
+                  onChange={(e) => setCaptchaAnswer(e.target.value)}
+                  required
+                  data-testid="input-wartung-captcha"
                 />
               </div>
 
