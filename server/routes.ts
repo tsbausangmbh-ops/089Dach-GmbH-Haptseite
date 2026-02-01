@@ -22,12 +22,18 @@ const upload = multer({
   }
 });
 
+// Runtime env access that can't be optimized away by bundlers
+const getEnv = (key: string): string | undefined => {
+  const env = process['env'];
+  return env[key];
+};
+
 function getTransporter() {
-  const host = process.env.SMTP_HOST?.trim();
-  const user = process.env.SMTP_USER?.trim();
-  const pass = process.env.SMTP_PASS;
-  const smtpPort = parseInt(process.env.SMTP_PORT || "587");
-  const smtpSecure = process.env.SMTP_SECURE === "true";
+  const host = getEnv('SMTP_HOST')?.trim();
+  const user = getEnv('SMTP_USER')?.trim();
+  const pass = getEnv('SMTP_PASS');
+  const smtpPort = parseInt(getEnv('SMTP_PORT') || "587");
+  const smtpSecure = getEnv('SMTP_SECURE') === "true";
   
   console.log("SMTP Config:", {
     host: host,
@@ -69,7 +75,7 @@ interface Attachment {
 async function sendNotificationEmail(subject: string, htmlContent: string, attachments?: Attachment[]) {
   try {
     await getTransporter().sendMail({
-      from: `${process.env.SMTP_FROM_NAME || '089Dach GmbH'} <${process.env.SMTP_FROM_EMAIL || process.env.SMTP_USER}>`,
+      from: `${getEnv('SMTP_FROM_NAME') || '089Dach GmbH'} <${getEnv('SMTP_FROM_EMAIL') || getEnv('SMTP_USER')}>`,
       to: "info@089dach.de",
       subject: subject,
       html: htmlContent,
@@ -96,7 +102,7 @@ async function sendContactConfirmationEmail(
 ) {
   try {
     await getTransporter().sendMail({
-      from: `${process.env.SMTP_FROM_NAME || '089Dach GmbH'} <${process.env.SMTP_FROM_EMAIL || process.env.SMTP_USER}>`,
+      from: `${getEnv('SMTP_FROM_NAME') || '089Dach GmbH'} <${getEnv('SMTP_FROM_EMAIL') || getEnv('SMTP_USER')}>`,
       to: customerEmail,
       subject: "Bestätigung: Ihre Kontaktanfrage bei 089Dach GmbH",
       html: `
@@ -219,7 +225,7 @@ async function sendLeadConfirmationEmail(
     }
 
     await getTransporter().sendMail({
-      from: `${process.env.SMTP_FROM_NAME || '089Dach GmbH'} <${process.env.SMTP_FROM_EMAIL || process.env.SMTP_USER}>`,
+      from: `${getEnv('SMTP_FROM_NAME') || '089Dach GmbH'} <${getEnv('SMTP_FROM_EMAIL') || getEnv('SMTP_USER')}>`,
       to: customerEmail,
       subject: subject,
       html: `
