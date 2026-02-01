@@ -68,11 +68,79 @@ async function sendNotificationEmail(subject: string, htmlContent: string, attac
   }
 }
 
-async function sendCustomerConfirmationEmail(
+// Generic customer confirmation for contact form
+async function sendContactConfirmationEmail(
+  customerEmail: string,
+  customerName: string,
+  subject: string,
+  message: string,
+  phone?: string,
+  address?: string
+) {
+  try {
+    await transporter.sendMail({
+      from: `089Dach GmbH <${process.env.SMTP_USER}>`,
+      to: customerEmail,
+      subject: "Bestätigung: Ihre Kontaktanfrage bei 089Dach GmbH",
+      html: `
+        <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
+          <div style="background-color: #1a365d; padding: 20px; text-align: center;">
+            <h1 style="color: #f59e0b; margin: 0;">089Dach GmbH</h1>
+            <p style="color: white; margin: 5px 0;">Ihr Dachdecker-Meisterbetrieb in München</p>
+          </div>
+          
+          <div style="padding: 30px; background-color: #f8fafc;">
+            <h2 style="color: #1a365d;">Vielen Dank für Ihre Nachricht!</h2>
+            
+            <p>Sehr geehrte/r ${customerName},</p>
+            
+            <p>wir haben Ihre Kontaktanfrage erhalten und werden uns schnellstmöglich bei Ihnen melden.</p>
+            
+            <div style="background-color: white; border-left: 4px solid #f59e0b; padding: 20px; margin: 20px 0;">
+              <h3 style="margin: 0 0 15px 0; color: #1a365d;">Ihre Anfrage:</h3>
+              <p style="margin: 5px 0;"><strong>Betreff:</strong> ${subject || "Allgemeine Anfrage"}</p>
+              <p style="margin: 5px 0;"><strong>Nachricht:</strong></p>
+              <p style="margin: 5px 0; white-space: pre-wrap;">${message}</p>
+              <hr style="border: none; border-top: 1px solid #e2e8f0; margin: 15px 0;">
+              <p style="margin: 5px 0;"><strong>Name:</strong> ${customerName}</p>
+              <p style="margin: 5px 0;"><strong>E-Mail:</strong> ${customerEmail}</p>
+              ${phone ? `<p style="margin: 5px 0;"><strong>Telefon:</strong> ${phone}</p>` : ""}
+              ${address ? `<p style="margin: 5px 0;"><strong>Adresse:</strong> ${address}</p>` : ""}
+            </div>
+            
+            <p>Falls Sie Fragen haben, erreichen Sie uns unter:</p>
+            <ul style="list-style: none; padding: 0;">
+              <li>📞 Telefon: <a href="tel:08912621964" style="color: #f59e0b;">089 12621964</a></li>
+              <li>📧 E-Mail: <a href="mailto:info@089dach.de" style="color: #f59e0b;">info@089dach.de</a></li>
+            </ul>
+            
+            <p>Mit freundlichen Grüßen,<br>
+            <strong>Ihr Team von 089Dach GmbH</strong></p>
+          </div>
+          
+          <div style="background-color: #1a365d; padding: 15px; text-align: center;">
+            <p style="color: #94a3b8; margin: 0; font-size: 12px;">
+              089Dach GmbH | Ihr zuverlässiger Partner für alle Dacharbeiten in München
+            </p>
+          </div>
+        </div>
+      `,
+    });
+    console.log("Contact confirmation email sent to customer:", customerEmail);
+  } catch (error) {
+    console.error("Error sending contact confirmation email:", error);
+  }
+}
+
+// Customer confirmation for callback/consultation requests
+async function sendLeadConfirmationEmail(
   customerEmail: string,
   customerName: string,
   appointmentDate: Date | null,
-  problem: string
+  problem: string,
+  timing: string,
+  details?: string,
+  phone?: string
 ) {
   try {
     let appointmentSection: string;
@@ -99,21 +167,34 @@ async function sendCustomerConfirmationEmail(
         <p>wir freuen uns, Ihnen Ihren Beratungstermin zu bestätigen:</p>
         
         <div style="background-color: white; border-left: 4px solid #f59e0b; padding: 20px; margin: 20px 0;">
+          <h3 style="margin: 0 0 15px 0; color: #1a365d;">Ihr Termin:</h3>
           <p style="margin: 5px 0;"><strong>📅 Datum:</strong> ${formattedDate}</p>
           <p style="margin: 5px 0;"><strong>🕐 Uhrzeit:</strong> ${formattedTime} Uhr</p>
           <p style="margin: 5px 0;"><strong>📋 Thema:</strong> ${problem}</p>
+          ${details ? `<p style="margin: 5px 0;"><strong>📝 Details:</strong> ${details}</p>` : ""}
+          <hr style="border: none; border-top: 1px solid #e2e8f0; margin: 15px 0;">
+          <p style="margin: 5px 0;"><strong>Name:</strong> ${customerName}</p>
+          <p style="margin: 5px 0;"><strong>E-Mail:</strong> ${customerEmail}</p>
+          ${phone ? `<p style="margin: 5px 0;"><strong>Telefon:</strong> ${phone}</p>` : ""}
         </div>
         
         <p><strong>Wir rufen Sie zum vereinbarten Termin an.</strong></p>
       `;
     } else {
-      subject = "Bestätigung: Ihre Beratungsanfrage bei 089Dach GmbH";
-      heading = "Vielen Dank für Ihre Beratungsanfrage!";
+      subject = "Bestätigung: Ihre Rückruf-Anfrage bei 089Dach GmbH";
+      heading = "Vielen Dank für Ihre Anfrage!";
       appointmentSection = `
         <p>wir haben Ihre Anfrage erhalten und werden uns schnellstmöglich bei Ihnen melden.</p>
         
         <div style="background-color: white; border-left: 4px solid #f59e0b; padding: 20px; margin: 20px 0;">
+          <h3 style="margin: 0 0 15px 0; color: #1a365d;">Ihre Anfrage:</h3>
           <p style="margin: 5px 0;"><strong>📋 Thema:</strong> ${problem}</p>
+          <p style="margin: 5px 0;"><strong>⏱️ Dringlichkeit:</strong> ${timing}</p>
+          ${details ? `<p style="margin: 5px 0;"><strong>📝 Details:</strong> ${details}</p>` : ""}
+          <hr style="border: none; border-top: 1px solid #e2e8f0; margin: 15px 0;">
+          <p style="margin: 5px 0;"><strong>Name:</strong> ${customerName}</p>
+          <p style="margin: 5px 0;"><strong>E-Mail:</strong> ${customerEmail}</p>
+          ${phone ? `<p style="margin: 5px 0;"><strong>Telefon:</strong> ${phone}</p>` : ""}
         </div>
         
         <p><strong>Einer unserer Experten wird sich in Kürze telefonisch bei Ihnen melden.</strong></p>
@@ -155,9 +236,9 @@ async function sendCustomerConfirmationEmail(
         </div>
       `,
     });
-    console.log("Customer confirmation email sent successfully");
+    console.log("Lead confirmation email sent to customer:", customerEmail);
   } catch (error) {
-    console.error("Error sending customer confirmation email:", error);
+    console.error("Error sending lead confirmation email:", error);
   }
 }
 
@@ -304,6 +385,7 @@ export async function registerRoutes(
       const validatedData = insertContactSchema.parse(req.body);
       const contact = await storage.createContact(validatedData);
       
+      // Send notification to company
       await sendNotificationEmail(
         `Neue Kontaktanfrage von ${validatedData.name}`,
         `
@@ -317,6 +399,16 @@ export async function registerRoutes(
         <p><strong>Nachricht:</strong></p>
         <p>${validatedData.message}</p>
         `
+      );
+      
+      // Send confirmation to customer
+      await sendContactConfirmationEmail(
+        validatedData.email,
+        validatedData.name,
+        validatedData.subject || "Allgemeine Anfrage",
+        validatedData.message,
+        validatedData.phone || undefined,
+        validatedData.address || undefined
       );
       
       res.status(201).json({ success: true, data: contact });
@@ -373,20 +465,25 @@ export async function registerRoutes(
         );
         console.log("Calendar event created successfully");
 
-        // Send confirmation email to customer if they provided email (from Beratungsseite)
-        // Check if it's from Beratungsseite by looking at timing field
-        const isFromBeratungsseite = validatedData.timing?.includes("Beratungsanfrage") || 
-                                      validatedData.timing?.includes("Gewünschter Termin");
-        if (validatedData.email && isFromBeratungsseite) {
-          await sendCustomerConfirmationEmail(
-            validatedData.email,
-            validatedData.name,
-            validatedData.callbackStart ? eventStart : null,
-            validatedData.problem
-          );
-        }
       } catch (calError) {
         console.error("Error creating calendar event:", calError);
+      }
+      
+      // Always send confirmation email to customer if they provided email
+      if (validatedData.email) {
+        let eventStart: Date | null = null;
+        if (validatedData.callbackStart) {
+          eventStart = new Date(validatedData.callbackStart);
+        }
+        await sendLeadConfirmationEmail(
+          validatedData.email,
+          validatedData.name,
+          eventStart,
+          validatedData.problem,
+          validatedData.timing,
+          validatedData.details || undefined,
+          validatedData.phone
+        );
       }
       
       res.status(201).json({ success: true, data: lead });
@@ -455,19 +552,25 @@ export async function registerRoutes(
           eventStart,
           eventDuration
         );
-
-        const isFromBeratungsseite = validatedData.timing?.includes("Beratungsanfrage") || 
-                                      validatedData.timing?.includes("Gewünschter Termin");
-        if (validatedData.email && isFromBeratungsseite) {
-          await sendCustomerConfirmationEmail(
-            validatedData.email,
-            validatedData.name,
-            validatedData.callbackStart ? eventStart : null,
-            validatedData.problem
-          );
-        }
       } catch (calError) {
         console.error("Error creating calendar event:", calError);
+      }
+      
+      // Always send confirmation email to customer if they provided email
+      if (validatedData.email) {
+        let eventStart: Date | null = null;
+        if (validatedData.callbackStart) {
+          eventStart = new Date(validatedData.callbackStart);
+        }
+        await sendLeadConfirmationEmail(
+          validatedData.email,
+          validatedData.name,
+          eventStart,
+          validatedData.problem,
+          validatedData.timing,
+          validatedData.details || undefined,
+          validatedData.phone
+        );
       }
       
       res.status(201).json({ success: true, data: lead });
