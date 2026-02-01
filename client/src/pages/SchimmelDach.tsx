@@ -7,7 +7,7 @@ import { Phone, CheckCircle2, ArrowRight, AlertTriangle, Wind, Thermometer, Home
 import SEO, { BreadcrumbSchema, ServiceSchema, FAQPageSchema, ProductServiceSchema } from "@/components/SEO";
 import BackButton from "@/components/BackButton";
 import { Link } from "wouter";
-import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
+import heroImage from '@assets/optimized/roofer_working.webp';
 import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 
 export default function SchimmelDach() {

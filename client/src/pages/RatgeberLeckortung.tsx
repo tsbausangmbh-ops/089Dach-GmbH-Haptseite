@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { CheckCircle2, Droplets, ArrowRight, Search, Shield, Clock, Phone, AlertTriangle, TrendingUp, Users, Star, XCircle } from "lucide-react";
 import { Link } from "wouter";
 import SEO, { BreadcrumbSchema, ArticleSchema, HowToSchema, FAQPageSchema } from "@/components/SEO";
-import heroImage from "@assets/generated_images/roof_leak_detection_scene.png";
+import heroImage from "@assets/optimized/roof_leak_detection_scene.webp";
 import { KeywordLink } from "@/components/KeywordLink";
 
 export default function RatgeberLeckortung() {

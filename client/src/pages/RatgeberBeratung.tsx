@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { CheckCircle2, Euro, ArrowRight, Shield, FileText, Calculator, Phone, Users, Star, AlertTriangle, Heart, Lock, Clock } from "lucide-react";
 import { Link } from "wouter";
 import SEO, { BreadcrumbSchema, ArticleSchema, FAQPageSchema } from "@/components/SEO";
-import heroImage from "@assets/generated_images/roof_consultation_with_homeowner.png";
+import heroImage from "@assets/optimized/roof_consultation_with_homeowner.webp";
 
 export default function RatgeberBeratung() {
   return (

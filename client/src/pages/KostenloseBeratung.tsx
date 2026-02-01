@@ -9,7 +9,7 @@ import { Calendar } from "@/components/ui/calendar";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { MessageSquare, ArrowRight, ShieldCheck, Award, Shield, Users, Lightbulb, Target, Heart, CalendarIcon, Loader2, Upload, X, Euro, Phone } from "lucide-react";
-import heroImage from "@assets/generated_images/roofer_explaining_to_homeowner.png";
+import heroImage from "@assets/optimized/roofer_explaining_to_homeowner.webp";
 import { useState, useEffect } from "react";
 import { toast } from "sonner";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";

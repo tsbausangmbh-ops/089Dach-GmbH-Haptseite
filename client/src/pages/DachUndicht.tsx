@@ -7,7 +7,7 @@ import { AlertTriangle, Phone, Clock, Shield, Droplets, CheckCircle2, ArrowRight
 import { Link } from "wouter";
 import SEO, { BreadcrumbSchema, ServiceSchema, FAQPageSchema, ProductServiceSchema } from "@/components/SEO";
 import BackButton from "@/components/BackButton";
-import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
+import heroImage from '@assets/optimized/roofer_working.webp';
 import { ServiceGeoLinks } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";

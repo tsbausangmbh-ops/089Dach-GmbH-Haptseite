@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { CheckCircle2, ThermometerSnowflake, ArrowRight, ArrowLeft, Euro, Home, Phone, AlertTriangle, TrendingDown, Clock, Shield, Users, Star, Calculator } from "lucide-react";
 import { Link } from "wouter";
 import SEO, { BreadcrumbSchema, FAQPageSchema, ArticleSchema, HowToSchema } from "@/components/SEO";
-import heroImage from "@assets/generated_images/roof_insulation_installation_scene.png";
+import heroImage from "@assets/optimized/roof_insulation_installation_scene.webp";
 import { KeywordLink } from "@/components/KeywordLink";
 
 export default function RatgeberDaemmung() {

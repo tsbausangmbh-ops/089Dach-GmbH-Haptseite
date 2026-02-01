@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import BackButton from "@/components/BackButton";
 import Contact from "@/components/Contact";
 import LeadFunnel from "@/components/LeadFunnel";
-import heroImage from "@assets/generated_images/roofer_explaining_to_homeowner.png";
+import heroImage from "@assets/optimized/roofer_explaining_to_homeowner.webp";
 import SEO, { BreadcrumbSchema, FAQPageSchema } from "@/components/SEO";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import { Button } from "@/components/ui/button";

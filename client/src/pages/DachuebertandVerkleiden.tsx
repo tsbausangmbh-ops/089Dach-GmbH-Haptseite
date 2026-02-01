@@ -7,7 +7,7 @@ import SEO, { BreadcrumbSchema, ServiceSchema, FAQPageSchema, ProductServiceSche
 import BackButton from "@/components/BackButton";
 import EinzugsgebietSection from "@/components/EinzugsgebietSection";
 import { Link } from "wouter";
-import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
+import heroImage from '@assets/optimized/roofer_working.webp';
 import { ServiceGeoLinks } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";

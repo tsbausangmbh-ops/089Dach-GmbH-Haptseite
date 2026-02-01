@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Phone, CheckCircle2, Shield, Clock, Star } from "lucide-react";
-import heroImage from "@assets/generated_images/roofer_working_on_red_tile_roof_munich.png";
+import heroImage from "@assets/optimized/roofer_working_on_red_tile_roof_munich.webp";
 
 interface HeroProps {
   onOpenFunnel?: () => void;

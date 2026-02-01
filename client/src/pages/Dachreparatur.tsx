@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { AlertTriangle, Clock, Shield, Wrench, CloudRain, Wind, Check, Phone, Award, Users, ArrowRight, CheckCircle2 } from "lucide-react";
 import SEO, { BreadcrumbSchema, ServiceSchema, ProductServiceSchema, FAQPageSchema } from "@/components/SEO";
 import BackButton from "@/components/BackButton";
-import heroImage from '@assets/stock_images/roofer_working_on_ro_cb52da00.jpg';
+import heroImage from '@assets/optimized/roofer_working.webp';
 import { ServiceGeoLinks } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
