@@ -52,7 +52,7 @@ interface Attachment {
 async function sendNotificationEmail(subject: string, htmlContent: string, attachments?: Attachment[]) {
   try {
     await transporter.sendMail({
-      from: `${process.env.SMTP_FROM_NAME || '089Dach GmbH'} <${process.env.SMTP_USER}>`,
+      from: `${process.env.SMTP_FROM_NAME || '089Dach GmbH'} <${process.env.SMTP_FROM_EMAIL || process.env.SMTP_USER}>`,
       to: "info@089dach.de",
       subject: subject,
       html: htmlContent,
@@ -79,7 +79,7 @@ async function sendContactConfirmationEmail(
 ) {
   try {
     await transporter.sendMail({
-      from: `${process.env.SMTP_FROM_NAME || '089Dach GmbH'} <${process.env.SMTP_USER}>`,
+      from: `${process.env.SMTP_FROM_NAME || '089Dach GmbH'} <${process.env.SMTP_FROM_EMAIL || process.env.SMTP_USER}>`,
       to: customerEmail,
       subject: "Bestätigung: Ihre Kontaktanfrage bei 089Dach GmbH",
       html: `
@@ -202,7 +202,7 @@ async function sendLeadConfirmationEmail(
     }
 
     await transporter.sendMail({
-      from: `${process.env.SMTP_FROM_NAME || '089Dach GmbH'} <${process.env.SMTP_USER}>`,
+      from: `${process.env.SMTP_FROM_NAME || '089Dach GmbH'} <${process.env.SMTP_FROM_EMAIL || process.env.SMTP_USER}>`,
       to: customerEmail,
       subject: subject,
       html: `
