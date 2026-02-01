@@ -45,7 +45,6 @@ export default function KostenloseBeratung() {
     name: "",
     email: "",
     phone: "",
-    privateAddress: "",
     objectAddress: "",
     problem: "",
     urgency: "",
@@ -146,7 +145,6 @@ export default function KostenloseBeratung() {
         details: [
           formData.objectType && `Objektart: ${formData.objectType}`,
           formData.urgency && `Dringlichkeit: ${formData.urgency}`,
-          formData.privateAddress && `Privatadresse: ${formData.privateAddress}`,
           formData.objectAddress && `Adresse des Objekts: ${formData.objectAddress}`,
           formData.message
         ].filter(Boolean).join("\n") || "Keine Details angegeben",
@@ -171,7 +169,7 @@ export default function KostenloseBeratung() {
         toast.success(successMsg, {
           description: "Wir melden uns zum vereinbarten Termin bei Ihnen."
         });
-        setFormData({ name: "", email: "", phone: "", privateAddress: "", objectAddress: "", problem: "", objectType: "", urgency: "", budget: "", message: "" });
+        setFormData({ name: "", email: "", phone: "", objectAddress: "", problem: "", objectType: "", urgency: "", budget: "", message: "" });
         setFiles([]);
         setSelectedSlot(null);
         setSelectedDate(undefined);
@@ -472,17 +470,6 @@ export default function KostenloseBeratung() {
                   onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                   required
                   data-testid="input-beratung-name"
-                />
-              </div>
-
-              <div className="space-y-2">
-                <Label htmlFor="privateAddress">Ihre Privatadresse (optional)</Label>
-                <Input 
-                  id="privateAddress"
-                  placeholder="Straße, PLZ Ort"
-                  value={formData.privateAddress}
-                  onChange={(e) => setFormData({ ...formData, privateAddress: e.target.value })}
-                  data-testid="input-beratung-private-address"
                 />
               </div>
 
