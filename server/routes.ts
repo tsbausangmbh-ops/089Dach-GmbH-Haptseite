@@ -22,14 +22,25 @@ const upload = multer({
   }
 });
 
+const smtpPort = parseInt(process.env.SMTP_PORT || "465");
 const transporter = nodemailer.createTransport({
-  host: process.env.SMTP_HOST,
-  port: parseInt(process.env.SMTP_PORT || "465"),
-  secure: process.env.SMTP_PORT === "465",
+  host: process.env.SMTP_HOST?.trim(),
+  port: smtpPort,
+  secure: smtpPort === 465,
   auth: {
-    user: process.env.SMTP_USER,
+    user: process.env.SMTP_USER?.trim(),
     pass: process.env.SMTP_PASS,
   },
+  tls: {
+    rejectUnauthorized: false
+  }
+});
+
+console.log("SMTP Config:", {
+  host: process.env.SMTP_HOST?.trim(),
+  port: smtpPort,
+  secure: smtpPort === 465,
+  user: process.env.SMTP_USER?.trim()
 });
 
 interface Attachment {
