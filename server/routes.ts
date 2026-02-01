@@ -23,23 +23,36 @@ const upload = multer({
 });
 
 function getTransporter() {
+  const host = process.env.SMTP_HOST?.trim();
+  const user = process.env.SMTP_USER?.trim();
+  const pass = process.env.SMTP_PASS;
   const smtpPort = parseInt(process.env.SMTP_PORT || "587");
   const smtpSecure = process.env.SMTP_SECURE === "true";
   
   console.log("SMTP Config:", {
-    host: process.env.SMTP_HOST?.trim(),
+    host: host,
     port: smtpPort,
     secure: smtpSecure,
-    user: process.env.SMTP_USER?.trim()
+    user: user,
+    hasPassword: !!pass
   });
   
+  if (!host || !user || !pass) {
+    console.error("SMTP configuration incomplete! Missing:", {
+      host: !host ? "SMTP_HOST" : "ok",
+      user: !user ? "SMTP_USER" : "ok", 
+      pass: !pass ? "SMTP_PASS" : "ok"
+    });
+    throw new Error("SMTP configuration incomplete");
+  }
+  
   return nodemailer.createTransport({
-    host: process.env.SMTP_HOST?.trim(),
+    host: host,
     port: smtpPort,
     secure: smtpSecure,
     auth: {
-      user: process.env.SMTP_USER?.trim(),
-      pass: process.env.SMTP_PASS,
+      user: user,
+      pass: pass,
     },
     tls: {
       rejectUnauthorized: false
