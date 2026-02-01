@@ -377,14 +377,45 @@ export function HowToSchema({
   name, 
   description, 
   steps, 
-  totalTime
+  totalTime,
+  estimatedCost
 }: { 
   name: string; 
   description: string; 
   steps: HowToStep[];
   totalTime?: string;
+  estimatedCost?: string;
 }) {
-  return null;
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": name,
+    "description": description,
+    ...(totalTime && { "totalTime": totalTime }),
+    ...(estimatedCost && { 
+      "estimatedCost": {
+        "@type": "MonetaryAmount",
+        "currency": "EUR",
+        "value": estimatedCost
+      }
+    }),
+    "step": steps.map((step, index) => ({
+      "@type": "HowToStep",
+      "position": index + 1,
+      "name": step.name,
+      "text": step.text,
+      ...(step.image && { "image": step.image })
+    })),
+    "tool": [],
+    "supply": []
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
 }
 
 export function EmergencyServiceSchema() {
@@ -422,7 +453,51 @@ export function ArticleSchema({
   keywords?: string[];
   image?: string;
 }) {
-  return null;
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": headline,
+    "description": description,
+    "datePublished": datePublished,
+    "dateModified": dateModified || datePublished,
+    "author": {
+      "@type": "Organization",
+      "name": "089Dach GmbH",
+      "@id": "https://089dach.de/#organization"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "089Dach GmbH",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://089dach.de/logo.png"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `https://089dach.de/${headline.toLowerCase().replace(/\s+/g, '-')}`
+    },
+    ...(articleBody && { "articleBody": articleBody }),
+    ...(keywords && { "keywords": keywords.join(", ") }),
+    ...(image && { 
+      "image": {
+        "@type": "ImageObject",
+        "url": image
+      }
+    }),
+    "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": [".article-summary", ".key-points", "h2", "h3"]
+    },
+    "inLanguage": "de-DE"
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
 }
 
 export function VideoSchema({ 
@@ -466,7 +541,35 @@ export function ProfessionalServiceSchema() {
 }
 
 export function SpeakableSchema({ headline, speakableText, url }: { headline: string; speakableText: string[]; url: string }) {
-  return null;
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": headline,
+    "url": url,
+    "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": speakableText.map((_, i) => `[data-speakable="${i}"]`)
+    },
+    "mainEntity": {
+      "@type": "Article",
+      "headline": headline,
+      "articleBody": speakableText.join(" "),
+      "author": {
+        "@type": "Organization",
+        "name": "089Dach GmbH"
+      },
+      "publisher": {
+        "@id": "https://089dach.de/#organization"
+      }
+    }
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
 }
 
 export function AIKnowledgeSchema() {
@@ -474,7 +577,49 @@ export function AIKnowledgeSchema() {
 }
 
 export function VoiceSearchFAQSchema() {
-  return null;
+  const voiceFAQs = [
+    {
+      question: "Was kostet ein Dachdecker in München?",
+      answer: "Bei 089Dach GmbH beginnt eine Dachsanierung ab 195 Euro pro Quadratmeter inklusive Dämmung. Die Erstberatung ist kostenlos. Rufen Sie an unter 089 12621964."
+    },
+    {
+      question: "Gibt es einen Dachdecker Notdienst in München?",
+      answer: "Ja, 089Dach GmbH bietet 24 Stunden Notdienst bei Sturmschäden und Wasserschäden. Notruf: 089 12621964. Anfahrt ab 89 Euro."
+    },
+    {
+      question: "Wie lange dauert eine Dachsanierung?",
+      answer: "Eine Dachsanierung dauert je nach Größe 1 bis 3 Wochen. 089Dach erstellt vorab einen verbindlichen Zeitplan."
+    },
+    {
+      question: "Welche Garantie gibt ein Dachdecker?",
+      answer: "089Dach GmbH gibt 10 Jahre Garantie auf alle Dach- und Spenglerarbeiten. Material und Ausführung sind abgesichert."
+    }
+  ];
+
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "name": "Häufige Sprachsuche-Fragen Dachdecker München",
+    "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": [".voice-faq-answer"]
+    },
+    "mainEntity": voiceFAQs.map(faq => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
 }
 
 export function GoogleBusinessProfileSchema() {
@@ -534,5 +679,64 @@ export function AIContextSchema({
   targetAudience: string;
   callToAction: string;
 }) {
-  return null;
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "additionalType": pageType,
+    "about": {
+      "@type": "Thing",
+      "name": primaryTopic,
+      "description": `Informationen über ${primaryTopic} von 089Dach GmbH München`
+    },
+    "mentions": relatedTopics.map(topic => ({
+      "@type": "Thing",
+      "name": topic
+    })),
+    "audience": {
+      "@type": "Audience",
+      "audienceType": targetAudience
+    },
+    "potentialAction": {
+      "@type": "Action",
+      "name": callToAction,
+      "target": "https://089dach.de/beratung"
+    },
+    "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": [".passage-block", ".key-answer", "[data-passage]"]
+    }
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+export function PassageOptimizedContent({ 
+  passages 
+}: { 
+  passages: { question: string; answer: string; keywords?: string[] }[] 
+}) {
+  return (
+    <>
+      {passages.map((passage, index) => (
+        <div 
+          key={index} 
+          className="passage-block" 
+          data-passage={index}
+          data-speakable={index}
+          itemScope 
+          itemType="https://schema.org/Question"
+        >
+          <h3 itemProp="name" className="key-answer">{passage.question}</h3>
+          <div itemScope itemType="https://schema.org/Answer" itemProp="acceptedAnswer">
+            <p itemProp="text" className="article-summary">{passage.answer}</p>
+          </div>
+        </div>
+      ))}
+    </>
+  );
 }
