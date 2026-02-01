@@ -31,6 +31,7 @@ export default function Rueckruf() {
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
+    email: "",
     message: ""
   });
   const [dsgvoAccepted, setDsgvoAccepted] = useState(false);
@@ -89,7 +90,7 @@ export default function Rueckruf() {
           details: formData.message || "Keine Nachricht hinterlassen",
           name: formData.name,
           phone: formData.phone,
-          email: "",
+          email: formData.email,
           callbackStart: selectedSlot?.start || null,
           callbackEnd: selectedSlot?.end || null
         })
@@ -102,7 +103,7 @@ export default function Rueckruf() {
         toast.success(successMsg, {
           description: "Wir rufen Sie zum vereinbarten Termin zurück."
         });
-        setFormData({ name: "", phone: "", message: "" });
+        setFormData({ name: "", phone: "", email: "", message: "" });
         setDsgvoAccepted(false);
         setSelectedSlot(null);
         setSelectedDate(undefined);
@@ -344,6 +345,18 @@ export default function Rueckruf() {
                   onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                   required
                   data-testid="input-rueckruf-phone"
+                />
+              </div>
+
+              <div className="space-y-2">
+                <Label htmlFor="email">E-Mail für Bestätigung (optional)</Label>
+                <Input 
+                  id="email"
+                  type="email"
+                  placeholder="ihre@email.de"
+                  value={formData.email}
+                  onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                  data-testid="input-rueckruf-email"
                 />
               </div>
 
