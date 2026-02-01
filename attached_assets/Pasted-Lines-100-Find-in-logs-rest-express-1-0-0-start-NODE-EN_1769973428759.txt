@@ -1,0 +1,80 @@
+Lines:
+100
+Find in logs
+
+
+
+
+
+
+
+
+> rest-express@1.0.0 start
+> NODE_ENV=production node dist/index.cjs
+7:03:56 PM [express] serving on port 3000
+7:04:11 PM [express] POST /api/contact 400 in 12ms :: {"success":false,"error":"Invalid contact data"}
+7:04:13 PM [express] POST /api/contact 400 in 6ms :: {"success":false,"error":"Invalid contact data"}
+npm warn config production Use `--omit=dev` instead.
+(node:20) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Error creating contact: AggregateError [ECONNREFUSED]: 
+at /app/dist/index.cjs:64:13326
+at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+at async /app/dist/index.cjs:124:31371
+at async Dv.createContact (/app/dist/index.cjs:124:99588)
+at async /app/dist/index.cjs:195:3719 {
+code: 'ECONNREFUSED',
+[errors]: [
+Error: connect ECONNREFUSED ::1:5432
+at createConnectionError (node:net:1651:14)
+at afterConnectMultiple (node:net:1681:16) {
+errno: -111,
+code: 'ECONNREFUSED',
+syscall: 'connect',
+address: '::1',
+port: 5432
+},
+Error: connect ECONNREFUSED 127.0.0.1:5432
+at createConnectionError (node:net:1651:14)
+at afterConnectMultiple (node:net:1681:16) {
+errno: -111,
+code: 'ECONNREFUSED',
+syscall: 'connect',
+address: '127.0.0.1',
+port: 5432
+}
+]
+}
+Error creating contact: AggregateError [ECONNREFUSED]: 
+at /app/dist/index.cjs:64:13326
+at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+at async /app/dist/index.cjs:124:31371
+at async Dv.createContact (/app/dist/index.cjs:124:99588)
+at async /app/dist/index.cjs:195:3719 {
+code: 'ECONNREFUSED',
+[errors]: [
+Error: connect ECONNREFUSED ::1:5432
+at createConnectionError (node:net:1651:14)
+at afterConnectMultiple (node:net:1681:16) {
+errno: -111,
+code: 'ECONNREFUSED',
+syscall: 'connect',
+address: '::1',
+port: 5432
+},
+Error: connect ECONNREFUSED 127.0.0.1:5432
+at createConnectionError (node:net:1651:14)
+at afterConnectMultiple (node:net:1681:16) {
+errno: -111,
+code: 'ECONNREFUSED',
+syscall: 'connect',
+address: '127.0.0.1',
+port: 5432
+}
+]
+}
+Error creating contact: AggregateError [ECONNREFUSED]: 
+at /app/dist/index.cjs:64:13326
+at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+at async /app/dist/index.cjs:124:31371
+7:04:34 PM [express] POST /api/contact 400 in 3ms :: {"success":false,"error":"Invalid contact data"}
