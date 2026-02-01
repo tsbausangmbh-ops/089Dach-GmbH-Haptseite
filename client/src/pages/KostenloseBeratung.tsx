@@ -603,7 +603,7 @@ export default function KostenloseBeratung() {
                   data-testid="checkbox-beratung-dsgvo"
                 />
                 <label htmlFor="dsgvo" className="text-sm text-muted-foreground leading-tight cursor-pointer">
-                  Ich habe die <a href="/datenschutz/" className="text-primary underline hover:no-underline" onClick={(e) => e.stopPropagation()}>Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Daten zu. *
+                  Ich habe die <a href="/datenschutz/" className="text-primary underline hover:no-underline" onClick={(e) => { e.preventDefault(); e.stopPropagation(); window.open('/datenschutz/', '_blank'); }}>Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Daten zu. *
                 </label>
               </div>
 
