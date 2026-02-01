@@ -222,14 +222,17 @@ export default function KostenloseBeratung() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-xl" data-testid="button-hero-call">
+              <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-white font-bold rounded-xl" data-testid="button-hero-form">
                 <a href="#formular">
-                  <Phone className="mr-2 h-5 w-5" />
-                  Rückruf anfordern
+                  <MessageSquare className="mr-2 h-5 w-5" />
+                  Beratung anfordern
                 </a>
               </Button>
-              <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-secondary font-bold rounded-xl" data-testid="button-hero-form">
-                <a href="/rueckruf/">Rückruf Termin</a>
+              <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-secondary font-bold rounded-xl" data-testid="button-hero-call">
+                <a href="tel:08912621964">
+                  <Phone className="mr-2 h-5 w-5" />
+                  089 12621964
+                </a>
               </Button>
             </div>
           </div>
