@@ -95,7 +95,7 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop Nav */}
-        <div className="hidden md:flex items-center gap-6">
+        <div className="hidden lg:flex items-center gap-6">
           <a href="/" className="text-sm font-medium text-secondary hover:text-primary transition-colors">
             Startseite
           </a>
@@ -158,7 +158,7 @@ export default function Navbar() {
         </div>
 
         {/* Mobile Nav - Hamburger Button */}
-        <div className="flex md:hidden">
+        <div className="flex lg:hidden">
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon" data-testid="button-mobile-menu" aria-label="Menü öffnen">
