@@ -612,8 +612,8 @@ export async function registerRoutes(
       return x - Math.floor(x);
     };
     
-    // 40% of days fully booked, 40% of slots per available day booked
-    const DAYS_BOOKED_PERCENTAGE = 0.40;
+    // 60% of days fully booked, 40% of slots per available day booked
+    const DAYS_BOOKED_PERCENTAGE = 0.60;
     const SLOTS_BOOKED_PERCENTAGE = 0.40;
     
     while (current < endDate) {

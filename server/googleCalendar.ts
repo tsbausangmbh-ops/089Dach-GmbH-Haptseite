@@ -142,8 +142,8 @@ export async function getAvailableSlots(startDate: Date, endDate: Date): Promise
   const busySlots = response.data.calendars?.primary?.busy || [];
   const slots: TimeSlot[] = [];
   
-  // Target: 40% of days completely booked, 40% of remaining slots per day booked
-  const DAYS_BOOKED_PERCENTAGE = 0.40;
+  // Target: 60% of days completely booked, 40% of remaining slots per day booked
+  const DAYS_BOOKED_PERCENTAGE = 0.60;
   const SLOTS_BOOKED_PERCENTAGE = 0.40;
 
   const current = new Date(startDate);
