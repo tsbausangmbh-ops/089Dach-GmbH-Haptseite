@@ -106,7 +106,7 @@ export default function Footer({ showAIBerater = false }: FooterProps) {
             <span className="text-gray-600">|</span>
             <span>Mo-Fr 08-16:30</span>
             <span className="text-gray-600">|</span>
-            <span>Webdesign powered by <a href="https://extrucon.de" target="_blank" rel="noopener noreferrer" className="text-white hover:text-primary font-medium transition-colors">ExtruCon GmbH</a></span>
+            <span>Webdesign powered by <a href="https://extrucon.de" target="_blank" rel="noopener noreferrer" className="text-white hover:text-primary font-medium transition-colors">ExtruCon GmbH</a> und <a href="https://kshwmont.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-primary font-medium transition-colors">KSHWmont d.o.o.</a></span>
           </div>
         </div>
 
