@@ -83,6 +83,7 @@ const Wartung = lazy(() => import("@/pages/Wartung"));
 const Rueckruf = lazy(() => import("@/pages/Rueckruf"));
 const KostenloseBeratung = lazy(() => import("@/pages/KostenloseBeratung"));
 const AGB = lazy(() => import("@/pages/AGB"));
+const Barrierefreiheit = lazy(() => import("@/pages/Barrierefreiheit"));
 const RatgeberDaemmung = lazy(() => import("@/pages/RatgeberDaemmung"));
 const RatgeberLeckortung = lazy(() => import("@/pages/RatgeberLeckortung"));
 const RatgeberBeratung = lazy(() => import("@/pages/RatgeberBeratung"));
@@ -255,6 +256,7 @@ function Router() {
       <Route path="/cookies" component={Cookies} />
       <Route path="/cookie-richtlinie" component={CookiePolicy} />
       <Route path="/agb" component={AGB} />
+      <Route path="/barrierefreiheit" component={Barrierefreiheit} />
       <Route path="/rueckruf" component={Rueckruf} />
       <Route path="/beratung" component={KostenloseBeratung} />
       <Route path="/heizkostenrechner" component={Heizkostenrechner} />

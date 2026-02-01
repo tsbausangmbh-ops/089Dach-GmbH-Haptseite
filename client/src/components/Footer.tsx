@@ -98,6 +98,7 @@ export default function Footer({ showAIBerater = false }: FooterProps) {
             <a href="/impressum/" className="hover:text-primary transition-colors">Impressum</a>
             <a href="/datenschutz/" className="hover:text-primary transition-colors">Datenschutz</a>
             <a href="/agb/" className="hover:text-primary transition-colors">AGB</a>
+            <a href="/barrierefreiheit/" className="hover:text-primary transition-colors">Barrierefreiheit</a>
             <span className="hidden md:inline text-gray-600">|</span>
             <span className="hidden md:inline">KI-Hinweis gem. EU AI Act</span>
           </div>
