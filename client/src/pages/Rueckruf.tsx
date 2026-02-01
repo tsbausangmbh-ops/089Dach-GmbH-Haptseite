@@ -19,6 +19,7 @@ import { de } from "date-fns/locale";
 interface TimeSlot {
   start: string;
   end: string;
+  available: boolean;
 }
 
 export default function Rueckruf() {
@@ -298,7 +299,9 @@ export default function Rueckruf() {
                               type="button"
                               variant={selectedSlot?.start === slot.start ? "default" : "outline"}
                               size="sm"
-                              onClick={() => setSelectedSlot(slot)}
+                              onClick={() => slot.available && setSelectedSlot(slot)}
+                              disabled={!slot.available}
+                              className={!slot.available ? "opacity-50 line-through cursor-not-allowed" : ""}
                               data-testid={`button-slot-${formatTime(slot.start)}`}
                             >
                               {formatTime(slot.start)} Uhr

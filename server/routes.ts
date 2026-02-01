@@ -484,10 +484,10 @@ export async function registerRoutes(
       endDate.setDate(endDate.getDate() + 90); // 3 Monate
       
       const slots = await getAvailableSlots(startDate, endDate);
-      res.json({ slots: slots.filter(s => s.available) });
+      res.json({ slots }); // Return all slots including booked ones
     } catch (error) {
       console.error("Error fetching availability:", error);
-      // Fallback: Generate available slots without calendar check
+      // Fallback: Generate slots without calendar check
       const fallbackSlots = generateFallbackSlots();
       res.json({ slots: fallbackSlots });
     }
@@ -503,37 +503,47 @@ export async function registerRoutes(
     const endDate = new Date();
     endDate.setDate(endDate.getDate() + 90); // 3 Monate
     
-    // Simple seeded random for consistent "busy" slots
-    const todayFactor = new Date().getDate();
+    // Seeded random for consistent patterns
     const seededRandom = (seed: number) => {
       const x = Math.sin(seed) * 10000;
       return x - Math.floor(x);
     };
     
+    // 40% of days fully booked, 40% of slots per available day booked
+    const DAYS_BOOKED_PERCENTAGE = 0.40;
+    const SLOTS_BOOKED_PERCENTAGE = 0.40;
+    
     while (current < endDate) {
       const dayOfWeek = current.getDay();
       
       if (dayOfWeek !== 0) { // Skip Sunday
-        const startHour = dayOfWeek === 6 ? 10 : 8;
-        const endHour = dayOfWeek === 6 ? 14 : 17;
+        // Check if entire day is "fully booked"
+        const dayDate = current.getFullYear() * 10000 + (current.getMonth() + 1) * 100 + current.getDate();
+        const daySeed = (dayDate * 17 + dayOfWeek * 31) % 100000;
+        const isDayFullyBooked = seededRandom(daySeed) < DAYS_BOOKED_PERCENTAGE;
         
-        for (let hour = startHour; hour < endHour; hour++) {
-          const slotStart = new Date(current);
-          slotStart.setHours(hour, 0, 0, 0);
+        if (!isDayFullyBooked) {
+          const startHour = dayOfWeek === 6 ? 10 : 8;
+          const endHour = dayOfWeek === 6 ? 14 : 17;
           
-          const slotEnd = new Date(current);
-          slotEnd.setHours(hour + 1, 0, 0, 0);
-          
-          // ~30% of slots appear busy (varies by day)
-          const seed = current.getDate() * 13 + hour * 7 + todayFactor * 3;
-          const isBusy = seededRandom(seed) < 0.3;
-          
-          if (slotStart > new Date() && !isBusy) {
-            slots.push({
-              start: slotStart.toISOString(),
-              end: slotEnd.toISOString(),
-              available: true,
-            });
+          for (let hour = startHour; hour < endHour; hour++) {
+            const slotStart = new Date(current);
+            slotStart.setHours(hour, 0, 0, 0);
+            
+            const slotEnd = new Date(current);
+            slotEnd.setHours(hour + 1, 0, 0, 0);
+            
+            // 40% of slots per day appear booked (individual pattern per day)
+            const slotSeed = (dayDate * 13 + hour * 23 + dayOfWeek * 7) % 100000;
+            const isSlotBooked = seededRandom(slotSeed) < SLOTS_BOOKED_PERCENTAGE;
+            
+            if (slotStart > new Date()) {
+              slots.push({
+                start: slotStart.toISOString(),
+                end: slotEnd.toISOString(),
+                available: !isSlotBooked,
+              });
+            }
           }
         }
       }
