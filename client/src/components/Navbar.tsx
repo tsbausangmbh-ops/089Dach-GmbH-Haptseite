@@ -157,13 +157,14 @@ export default function Navbar() {
           </Button>
         </div>
 
-        {/* Mobile Nav */}
-        <Sheet open={isOpen} onOpenChange={setIsOpen}>
-          <SheetTrigger asChild className="md:hidden">
-            <Button variant="ghost" size="icon">
-              <Menu className="h-6 w-6" />
-            </Button>
-          </SheetTrigger>
+        {/* Mobile Nav - Hamburger Button */}
+        <div className="flex md:hidden">
+          <Sheet open={isOpen} onOpenChange={setIsOpen}>
+            <SheetTrigger asChild>
+              <Button variant="ghost" size="icon" data-testid="button-mobile-menu" aria-label="Menü öffnen">
+                <Menu className="h-6 w-6" />
+              </Button>
+            </SheetTrigger>
           <SheetContent side="right" className="w-[300px] sm:w-[400px] overflow-y-auto">
             <nav className="flex flex-col gap-4 mt-8">
               <a href="/" className="text-lg font-medium text-foreground hover:text-primary transition-colors flex items-center justify-between border-b pb-2" onClick={() => setIsOpen(false)}>
@@ -233,7 +234,8 @@ export default function Navbar() {
               </Button>
             </nav>
           </SheetContent>
-        </Sheet>
+          </Sheet>
+        </div>
       </div>
       </nav>
     </>
