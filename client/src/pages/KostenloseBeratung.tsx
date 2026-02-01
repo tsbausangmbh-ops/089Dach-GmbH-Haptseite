@@ -600,11 +600,15 @@ export default function KostenloseBeratung() {
                   id="dsgvo" 
                   checked={dsgvoAccepted}
                   onCheckedChange={(checked) => setDsgvoAccepted(checked === true)}
+                  className="mt-0.5"
                   data-testid="checkbox-beratung-dsgvo"
                 />
-                <label htmlFor="dsgvo" className="text-sm text-muted-foreground leading-tight cursor-pointer">
+                <span 
+                  className="text-sm text-muted-foreground leading-tight cursor-pointer select-none"
+                  onClick={() => setDsgvoAccepted(!dsgvoAccepted)}
+                >
                   Ich habe die <a href="/datenschutz/" className="text-primary underline hover:no-underline" onClick={(e) => { e.preventDefault(); e.stopPropagation(); window.open('/datenschutz/', '_blank'); }}>Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Daten zu. *
-                </label>
+                </span>
               </div>
 
               <Button 

@@ -288,11 +288,15 @@ export default function Contact({
                   id="dsgvo-contact" 
                   checked={dsgvoAccepted}
                   onCheckedChange={(checked) => setDsgvoAccepted(checked === true)}
+                  className="mt-0.5"
                   data-testid="checkbox-contact-dsgvo"
                 />
-                <label htmlFor="dsgvo-contact" className="text-sm text-muted-foreground leading-tight cursor-pointer">
+                <span 
+                  className="text-sm text-muted-foreground leading-tight cursor-pointer select-none"
+                  onClick={() => setDsgvoAccepted(!dsgvoAccepted)}
+                >
                   Ich habe die <a href="/datenschutz/" className="text-primary underline hover:no-underline" onClick={(e) => { e.preventDefault(); e.stopPropagation(); window.open('/datenschutz/', '_blank'); }}>Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Daten zu. *
-                </label>
+                </span>
               </div>
 
               <div className="mt-auto pt-4">
