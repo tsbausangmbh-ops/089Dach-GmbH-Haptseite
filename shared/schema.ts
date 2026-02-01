@@ -41,9 +41,9 @@ export const insertLeadSchema = z.object({
   details: z.string().optional(),
   name: z.string().min(1),
   phone: z.string().min(1),
-  email: z.string().email().optional(),
-  callbackStart: z.date().optional(),
-  callbackEnd: z.date().optional(),
+  email: z.string().transform(val => val === "" ? undefined : val).pipe(z.string().email().optional()),
+  callbackStart: z.string().nullable().optional().transform(val => val ? new Date(val) : undefined),
+  callbackEnd: z.string().nullable().optional().transform(val => val ? new Date(val) : undefined),
 });
 
 export type InsertLead = z.infer<typeof insertLeadSchema>;
