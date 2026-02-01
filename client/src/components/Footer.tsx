@@ -105,7 +105,7 @@ export default function Footer({ showAIBerater = false }: FooterProps) {
           <div className="flex items-center gap-2">
             <span>&copy; {new Date().getFullYear()} 089Dach GmbH</span>
             <span className="text-gray-600">|</span>
-            <span>Mo-Fr 08-16:30</span>
+            <span>Mo-Fr 08-16:30 | Sa-So geschlossen</span>
             <span className="text-gray-600">|</span>
             <span>Webdesign powered by <a href="https://extrucon.de" target="_blank" rel="noopener noreferrer" className="text-white hover:text-primary font-medium transition-colors">ExtruCon GmbH</a> und <a href="https://kshwmont.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-primary font-medium transition-colors">KSHWmont d.o.o.</a></span>
           </div>
