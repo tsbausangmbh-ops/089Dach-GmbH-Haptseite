@@ -1,12 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Checkbox } from "@/components/ui/checkbox";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
-import { Link } from "wouter";
 
 const serviceOptions = [
   "Steildach & Flachdach",
@@ -218,21 +216,20 @@ export default function Contact({
 
               <div className="space-y-2">
                 <label htmlFor="subject" className="text-sm font-medium text-secondary">Betreff</label>
-                <Select
+                <select
+                  id="subject"
+                  className="w-full h-12 px-3 rounded-md border border-input bg-white text-sm"
                   value={formData.subject}
-                  onValueChange={(value) => setFormData({ ...formData, subject: value })}
+                  onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
+                  data-testid="select-contact-subject"
                 >
-                  <SelectTrigger className="bg-white" data-testid="select-contact-subject">
-                    <SelectValue placeholder="Worum geht es?" />
-                  </SelectTrigger>
-                  <SelectContent>
-                    {serviceOptions.map((option) => (
-                      <SelectItem key={option} value={option} data-testid={`option-subject-${option}`}>
-                        {option}
-                      </SelectItem>
-                    ))}
-                  </SelectContent>
-                </Select>
+                  <option value="">Worum geht es?</option>
+                  {serviceOptions.map((option) => (
+                    <option key={option} value={option}>
+                      {option}
+                    </option>
+                  ))}
+                </select>
               </div>
 
               <div className="space-y-2">
@@ -256,7 +253,7 @@ export default function Contact({
                   data-testid="checkbox-contact-dsgvo"
                 />
                 <label htmlFor="dsgvo-contact" className="text-sm text-muted-foreground leading-tight cursor-pointer">
-                  Ich habe die <Link href="/datenschutz/" className="text-primary underline hover:no-underline">Datenschutzerklärung</Link> gelesen und stimme der Verarbeitung meiner Daten zu. *
+                  Ich habe die <a href="/datenschutz/" className="text-primary underline hover:no-underline" onClick={(e) => e.stopPropagation()}>Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Daten zu. *
                 </label>
               </div>
 

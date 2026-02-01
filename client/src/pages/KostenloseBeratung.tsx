@@ -9,7 +9,6 @@ import { Calendar } from "@/components/ui/calendar";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { MessageSquare, ArrowRight, ShieldCheck, Award, Shield, Users, Lightbulb, Target, Heart, CalendarIcon, Loader2, Upload, X, Euro, Phone } from "lucide-react";
-import { Link } from "wouter";
 import heroImage from "@assets/generated_images/roofer_explaining_to_homeowner.png";
 import { useState, useEffect } from "react";
 import { toast } from "sonner";
@@ -576,7 +575,7 @@ export default function KostenloseBeratung() {
                   data-testid="checkbox-beratung-dsgvo"
                 />
                 <label htmlFor="dsgvo" className="text-sm text-muted-foreground leading-tight cursor-pointer">
-                  Ich habe die <Link href="/datenschutz/" className="text-primary underline hover:no-underline">Datenschutzerklärung</Link> gelesen und stimme der Verarbeitung meiner Daten zu. *
+                  Ich habe die <a href="/datenschutz/" className="text-primary underline hover:no-underline" onClick={(e) => e.stopPropagation()}>Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Daten zu. *
                 </label>
               </div>
 
