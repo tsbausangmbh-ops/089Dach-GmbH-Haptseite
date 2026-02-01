@@ -468,14 +468,13 @@ export default function KostenloseBeratung() {
 
               <div className="grid md:grid-cols-2 gap-4">
                 <div className="space-y-2">
-                  <Label htmlFor="phone">Ihre Telefonnummer *</Label>
+                  <Label htmlFor="phone">Ihre Telefonnummer (optional)</Label>
                   <Input 
                     id="phone"
                     type="tel"
                     placeholder="089 ..."
                     value={formData.phone}
                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                    required
                     data-testid="input-beratung-phone"
                   />
                 </div>

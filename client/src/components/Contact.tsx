@@ -175,14 +175,13 @@ export default function Contact({
                   />
                 </div>
                 <div className="space-y-2">
-                  <label htmlFor="phone" className="text-sm font-medium text-secondary">Telefon *</label>
+                  <label htmlFor="phone" className="text-sm font-medium text-secondary">Telefon (optional)</label>
                   <Input 
                     id="phone" 
                     placeholder="Für Rückrufe" 
                     className="bg-white"
                     value={formData.phone}
                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                    required
                     data-testid="input-contact-phone"
                   />
                 </div>

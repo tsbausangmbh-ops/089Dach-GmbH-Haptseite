@@ -40,7 +40,7 @@ export const insertLeadSchema = z.object({
   timing: z.string().min(1),
   details: z.string().optional(),
   name: z.string().min(1),
-  phone: z.string().min(1),
+  phone: z.string().optional(),
   email: z.string().transform(val => val === "" ? undefined : val).pipe(z.string().email().optional()),
   callbackStart: z.string().nullable().optional().transform(val => val ? new Date(val) : undefined),
   callbackEnd: z.string().nullable().optional().transform(val => val ? new Date(val) : undefined),

@@ -270,13 +270,12 @@ export default function Wartung() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="space-y-2">
-                  <Label htmlFor="phone">Telefon für Rückruf *</Label>
+                  <Label htmlFor="phone">Telefon für Rückruf (optional)</Label>
                   <Input 
                     id="phone"
                     placeholder="089 ..."
                     value={formData.phone}
                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                    required
                     data-testid="input-wartung-phone"
                   />
                 </div>
