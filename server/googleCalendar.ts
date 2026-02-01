@@ -142,9 +142,9 @@ export async function getAvailableSlots(startDate: Date, endDate: Date): Promise
   const busySlots = response.data.calendars?.primary?.busy || [];
   const slots: TimeSlot[] = [];
   
-  // Target: ~30% of all slots should appear as busy
-  const FAKE_BUSY_WEEKDAY = 0.30;
-  const FAKE_BUSY_SATURDAY = 0.30;
+  // Target: 40% of days completely booked, 40% of remaining slots per day booked
+  const DAYS_BOOKED_PERCENTAGE = 0.40;
+  const SLOTS_BOOKED_PERCENTAGE = 0.40;
 
   const current = new Date(startDate);
   while (current < endDate) {
@@ -152,47 +152,50 @@ export async function getAvailableSlots(startDate: Date, endDate: Date): Promise
     
     // Skip Sunday (0 = Sunday), Saturday has limited hours
     if (dayOfWeek !== 0) {
-      // Saturday: 10:00-14:00, Weekdays: 8:00-17:00
-      const startHour = dayOfWeek === 6 ? 10 : 8;
-      const endHour = dayOfWeek === 6 ? 14 : 17;
+      // Check if entire day should be marked as "fully booked" (40% of days)
+      const dayDate = current.getFullYear() * 10000 + (current.getMonth() + 1) * 100 + current.getDate();
+      const daySeed = (dayDate * 17 + dayOfWeek * 31) % 100000;
+      const isDayFullyBooked = seededRandom(daySeed) < DAYS_BOOKED_PERCENTAGE;
       
-      for (let hour = startHour; hour < endHour; hour++) {
-        const slotStart = new Date(current);
-        slotStart.setHours(hour, 0, 0, 0);
+      if (!isDayFullyBooked) {
+        // Saturday: 10:00-14:00, Weekdays: 8:00-17:00
+        const startHour = dayOfWeek === 6 ? 10 : 8;
+        const endHour = dayOfWeek === 6 ? 14 : 17;
         
-        const slotEnd = new Date(current);
-        slotEnd.setHours(hour + 1, 0, 0, 0);
-        
-        // Check if slot overlaps with any busy period (including 2-hour buffer)
-        const BUFFER_HOURS = 2;
-        const BUFFER_MS = BUFFER_HOURS * 60 * 60 * 1000;
-        
-        const isReallyBusy = busySlots.some(busy => {
-          const busyStart = new Date(busy.start!);
-          const busyEnd = new Date(busy.end!);
+        for (let hour = startHour; hour < endHour; hour++) {
+          const slotStart = new Date(current);
+          slotStart.setHours(hour, 0, 0, 0);
           
-          // Extend busy period by 2 hours before and after
-          const bufferedBusyStart = new Date(busyStart.getTime() - BUFFER_MS);
-          const bufferedBusyEnd = new Date(busyEnd.getTime() + BUFFER_MS);
+          const slotEnd = new Date(current);
+          slotEnd.setHours(hour + 1, 0, 0, 0);
           
-          return slotStart < bufferedBusyEnd && slotEnd > bufferedBusyStart;
-        });
-        
-        // Generate "fake busy" that rotates daily based on today's date
-        const today = new Date();
-        const todayFactor = today.getFullYear() * 10000 + (today.getMonth() + 1) * 100 + today.getDate();
-        const slotDate = current.getFullYear() * 10000 + (current.getMonth() + 1) * 100 + current.getDate();
-        const seed = (slotDate * 13 + hour * 7 + todayFactor * 3) % 100000;
-        const fakeBusyPercentage = dayOfWeek === 6 ? FAKE_BUSY_SATURDAY : FAKE_BUSY_WEEKDAY;
-        const isFakeBusy = seededRandom(seed) < fakeBusyPercentage;
-        
-        // Only include future slots
-        if (slotStart > new Date()) {
-          slots.push({
-            start: slotStart.toISOString(),
-            end: slotEnd.toISOString(),
-            available: !isReallyBusy && !isFakeBusy,
+          // Check if slot overlaps with any busy period (including 2-hour buffer)
+          const BUFFER_HOURS = 2;
+          const BUFFER_MS = BUFFER_HOURS * 60 * 60 * 1000;
+          
+          const isReallyBusy = busySlots.some(busy => {
+            const busyStart = new Date(busy.start!);
+            const busyEnd = new Date(busy.end!);
+            
+            // Extend busy period by 2 hours before and after
+            const bufferedBusyStart = new Date(busyStart.getTime() - BUFFER_MS);
+            const bufferedBusyEnd = new Date(busyEnd.getTime() + BUFFER_MS);
+            
+            return slotStart < bufferedBusyEnd && slotEnd > bufferedBusyStart;
           });
+          
+          // Generate individual "fake busy" slots (40% per day, different pattern each day)
+          const slotSeed = (dayDate * 13 + hour * 23 + dayOfWeek * 7) % 100000;
+          const isFakeBusy = seededRandom(slotSeed) < SLOTS_BOOKED_PERCENTAGE;
+          
+          // Only include future slots
+          if (slotStart > new Date()) {
+            slots.push({
+              start: slotStart.toISOString(),
+              end: slotEnd.toISOString(),
+              available: !isReallyBusy && !isFakeBusy,
+            });
+          }
         }
       }
     }
