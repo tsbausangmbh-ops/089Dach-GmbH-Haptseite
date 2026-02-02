@@ -22,11 +22,8 @@ const upload = multer({
   }
 });
 
-// Runtime env access that can't be optimized away by bundlers
-const getEnv = (key: string): string | undefined => {
-  const env = process['env'];
-  return env[key];
-};
+// Runtime env access using Function constructor - cannot be optimized by bundlers
+const getEnv = new Function('key', 'return process.env[key]') as (key: string) => string | undefined;
 
 function getTransporter() {
   const host = getEnv('SMTP_HOST')?.trim();
