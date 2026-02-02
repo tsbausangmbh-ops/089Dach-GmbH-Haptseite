@@ -1,0 +1,166 @@
+Environment Variables
++ Add
+Developer view
+Environment variables (secrets) for this resource.
+Sort alphabetically
+Use Docker Build Secrets
+Production Environment Variables
+Environment (secrets) variables for Production.
+OPENAI_API_KEY
+••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+Available at Buildtime
+Available at Runtime
+Is Multiline?
+Is Literal?
+Update
+Lock
+Delete
+NIXPACKS_NODE_VERSION
+••
+Available at Runtime
+Update
+Lock
+Delete
+SMTP_PORT
+•••
+Available at Buildtime
+Available at Runtime
+Is Multiline?
+Is Literal?
+Update
+Lock
+Delete
+SMTP_SECURE
+•••••
+Available at Buildtime
+Available at Runtime
+Is Multiline?
+Is Literal?
+Update
+Lock
+Delete
+SMTP_USER
+•••••••••••••••
+Available at Buildtime
+Available at Runtime
+Is Multiline?
+Is Literal?
+Update
+Lock
+Delete
+SMPT_PASS
+••••••••••••
+Available at Buildtime
+Available at Runtime
+Is Multiline?
+Is Literal?
+Update
+Lock
+Delete
+SMPT_HOST
+•••••••••••••
+Available at Buildtime
+Available at Runtime
+Is Multiline?
+Is Literal?
+Update
+Lock
+Delete
+SMPT_FROM_NAME
+••••••••••••
+Available at Buildtime
+Available at Runtime
+Is Multiline?
+Is Literal?
+Update
+Lock
+Delete
+SMTP_FROM_EMAIL
+•••••••••••••••
+Available at Buildtime
+Available at Runtime
+Is Multiline?
+Is Literal?
+Update
+Lock
+Delete
+Preview Deployments Environment Variables
+Environment (secrets) variables for Preview Deployments.
+NIXPACKS_NODE_VERSION
+••
+Available at Runtime
+Update
+Lock
+Delete
+OPENAI_API_KEY
+••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+Available at Buildtime
+Available at Runtime
+Is Multiline?
+Is Literal?
+Update
+Lock
+Delete
+SMTP_FROM_EMAIL
+•••••••••••••••
+Available at Buildtime
+Available at Runtime
+Is Multiline?
+Is Literal?
+Update
+Lock
+Delete
+SMTP_FROM_NAME
+••••••••••••
+Available at Buildtime
+Available at Runtime
+Is Multiline?
+Is Literal?
+Update
+Lock
+Delete
+SMTP_HOST
+•••••••••••••
+Available at Buildtime
+Available at Runtime
+Is Multiline?
+Is Literal?
+Update
+Lock
+Delete
+SMTP_PASS
+••••••••••••
+Available at Buildtime
+Available at Runtime
+Is Multiline?
+Is Literal?
+Update
+Lock
+Delete
+SMTP_PORT
+•••
+Available at Buildtime
+Available at Runtime
+Is Multiline?
+Is Literal?
+Update
+Lock
+Delete
+SMTP_SECURE
+•••••
+Available at Buildtime
+Available at Runtime
+Is Multiline?
+Is Literal?
+Update
+Lock
+Delete
+SMTP_USER
+•••••••••••••••
+Available at Buildtime
+Available at Runtime
+Is Multiline?
+Is Literal?
+Update
+Lock
+Delete
