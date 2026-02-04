@@ -86,7 +86,7 @@ export default function Navbar() {
       <div className="container mx-auto px-6 lg:px-12 h-20 flex items-center justify-between">
         <Link href="/">
           <div className="flex items-center gap-3 group cursor-pointer">
-            <img src="/assets/logo.png" alt="089Dach Logo" className="h-14 w-auto rounded-lg" width={56} height={56} />
+            <img src="/assets/logo.png" alt="089Dach Logo" className="h-14 w-auto rounded-xl" width={56} height={56} />
             <div className="flex flex-col gap-0.5">
               <span className="font-heading font-bold text-lg leading-none text-secondary">089Dach GmbH</span>
               <span className="text-xs tracking-wide text-primary font-semibold">Ihr Dachdecker in München</span>
