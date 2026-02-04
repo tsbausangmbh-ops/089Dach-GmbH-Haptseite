@@ -72,7 +72,7 @@ export default function Services() {
         <div className="text-center max-w-2xl mx-auto mb-6 md:mb-10">
           <span className="inline-block bg-primary/10 text-primary font-bold tracking-wider uppercase text-sm px-4 py-1 rounded-full mb-2">Unsere Leistungen</span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-secondary mt-2 mb-4">
-            <strong>Dach- und Spenglerarbeiten</strong> aus Meisterhand
+            <strong>Dach- und Spenglerarbeiten</strong> von 089Dach GmbH
           </h2>
           <p className="text-muted-foreground text-lg">
             Von der Reparatur bis zur Komplettsanierung – je früher wir prüfen, desto günstiger die Lösung.

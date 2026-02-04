@@ -81,7 +81,7 @@ export default function CustomerReviews() {
             <span className="text-2xl font-bold text-white ml-2">{averageRating}</span>
           </div>
           <h2 className="text-2xl md:text-3xl font-heading font-bold text-white mb-2">
-            Das sagen unsere Kunden
+            Das sagen Kunden über 089Dach GmbH
           </h2>
           <p className="text-gray-300">
             Basierend auf {totalReviews} Bewertungen

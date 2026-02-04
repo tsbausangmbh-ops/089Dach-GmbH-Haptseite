@@ -14,7 +14,7 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
           <div className="text-center max-w-4xl mx-auto mb-6 md:mb-8">
             <span className="inline-block bg-red-100 text-red-700 font-bold tracking-wider uppercase text-xs md:text-sm px-4 py-1.5 rounded-full mb-3">Kommt Ihnen das bekannt vor?</span>
             <h2 className="text-2xl md:text-4xl font-heading font-bold text-secondary mt-1 md:mt-2 mb-3 md:mb-4">
-              <strong>Jeder Tag ohne Lösung</strong> kostet Sie Geld
+              <strong>Jeder Tag ohne Lösung</strong> kostet Sie Geld – 089Dach GmbH hilft
             </h2>
             <p className="text-base md:text-lg text-muted-foreground">
               Diese Sorgen haben viele Münchner Hausbesitzer – <strong className="text-secondary">aber nur wer handelt, stoppt den Schaden.</strong>
