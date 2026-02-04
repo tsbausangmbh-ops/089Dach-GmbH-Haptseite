@@ -129,7 +129,7 @@ export default function StadtteilRamersdorf() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="lg:col-span-2 space-y-8">
               <div>
-                <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Ihr lokaler <strong>Dachdecker</strong> für {stadtteilData.name}</h2>
+                <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">089Dach GmbH – Ihr lokaler <strong>Dachdecker</strong> für {stadtteilData.name}</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4"><TextWithKeywordLinks currentPath="/dachdecker-ramersdorf-perlach">{stadtteilData.beschreibung}</TextWithKeywordLinks></p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
                   Als <strong>Meisterbetrieb</strong> aus <strong>München</strong> kennen wir die besonderen Anforderungen – ob historischer Ortskern <strong>Ramersdorf</strong> oder <strong>Neuperlach</strong>. 

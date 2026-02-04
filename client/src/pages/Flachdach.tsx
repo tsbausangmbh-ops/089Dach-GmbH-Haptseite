@@ -117,7 +117,7 @@ export default function Flachdach() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="lg:col-span-2 space-y-8">
               <div>
-                <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4"><strong>Flachdach abdichten München</strong>: EPDM, Bitumen & Begrünung vom <strong>Meisterbetrieb</strong></h2>
+                <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4"><strong>Flachdach abdichten München</strong> – 089Dach GmbH: EPDM, Bitumen & Begrünung</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4">
                   <strong>Flachdächer München</strong> erfordern besondere Expertise. Ob Neubau, Sanierung oder Reparatur – wir bieten Ihnen 
                   professionelle Lösungen für alle Flachdach-Typen: <strong>Bitumenbahnen</strong>, Kunststoffbahnen (PVC, <strong>EPDM</strong>), 
@@ -145,7 +145,7 @@ export default function Flachdach() {
               </div>
 
               <div className="bg-primary/5 rounded-xl p-6 border border-primary/20">
-                <h3 className="text-xl font-heading font-bold text-secondary mb-4"><strong>Flachdach Leistungen München</strong></h3>
+                <h3 className="text-xl font-heading font-bold text-secondary mb-4"><strong>Flachdach Leistungen</strong> von 089Dach GmbH</h3>
                 <ul className="space-y-3">
                   {[
                     "Bitumenbahnen-Verlegung (Kalt- und Heißverfahren)",
@@ -166,7 +166,7 @@ export default function Flachdach() {
               </div>
 
               <div className="bg-secondary/5 rounded-xl p-6">
-                <h3 className="text-xl font-heading font-bold text-secondary mb-4"><strong>Flachdach Preise München</strong> – Richtwerte</h3>
+                <h3 className="text-xl font-heading font-bold text-secondary mb-4"><strong>Flachdach Preise</strong> bei 089Dach GmbH – Richtwerte</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {[
                     { leistung: "Bitumenabdichtung", preis: "ab 85 €/m²" },

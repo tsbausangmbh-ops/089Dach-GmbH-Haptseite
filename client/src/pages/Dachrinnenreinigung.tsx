@@ -114,7 +114,7 @@ export default function Dachrinnenreinigung() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="lg:col-span-2 space-y-8">
               <div>
-                <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4"><strong>Dachrinne reinigen München</strong>: Warum verstopfte Rinnen & Fallrohre teure Schäden verursachen</h2>
+                <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4"><strong>Dachrinne reinigen München</strong> – 089Dach GmbH: Warum verstopfte Rinnen & Fallrohre teure Schäden verursachen</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4">
                   Verstopfte Dachrinnen sind mehr als nur ein optisches Problem. Wenn Laub, Moos und Schmutz 
                   den Wasserabfluss blockieren, kann Regenwasser überlaufen und an der Fassade hinunterlaufen. 
@@ -142,7 +142,7 @@ export default function Dachrinnenreinigung() {
               </div>
 
               <div className="bg-primary/5 rounded-xl p-6 border border-primary/20">
-                <h3 className="text-xl font-heading font-bold text-secondary mb-4">Unsere Leistungen</h3>
+                <h3 className="text-xl font-heading font-bold text-secondary mb-4">Leistungen von 089Dach GmbH</h3>
                 <ul className="space-y-3">
                   {[
                     "Reinigung aller Dachrinnen von Hand",

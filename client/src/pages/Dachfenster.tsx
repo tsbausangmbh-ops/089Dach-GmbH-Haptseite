@@ -167,7 +167,7 @@ export default function Dachfenster() {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-6xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
-              <strong>Velux & Roto Dachfenster</strong> – 4 Vorteile für Ihr Dachgeschoss
+              <strong>Velux & Roto Dachfenster</strong> – Ihre Vorteile mit 089Dach GmbH
             </h2>
             <p className="text-muted-foreground">
               Mehr als nur ein Loch im Dach – ein Gewinn an Lebensqualität.
@@ -195,7 +195,7 @@ export default function Dachfenster() {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-6xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
-              <strong>Schwingfenster, Klappfenster oder Dachbalkon</strong> – Das richtige Dachfenster
+              <strong>Schwingfenster, Klappfenster oder Dachbalkon</strong> – 089Dach GmbH berät Sie
             </h2>
             <p className="text-muted-foreground">
               Als zertifizierter VELUX-Partner beraten wir Sie herstellerunabhängig – 
@@ -287,7 +287,7 @@ export default function Dachfenster() {
       />
 
       <AIEnhancedFAQ
-        title="Häufige Fragen zu Dachfenstern"
+        title="Häufige Fragen zu Dachfenstern – 089Dach GmbH"
         faqs={[
           {
             question: "Was kostet ein Dachfenster mit Einbau in München?",

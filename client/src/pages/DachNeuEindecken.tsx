@@ -131,7 +131,7 @@ export default function DachNeuEindecken() {
         <div className="container mx-auto px-4">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-4">
-              <strong>Dacheindeckung</strong> – Materialien & Preise
+              <strong>Dacheindeckung</strong> von 089Dach GmbH – Materialien & Preise
             </h2>
             <p className="text-center text-slate-600 mb-12 max-w-4xl mx-auto">
               Wir verbauen alle gängigen Materialien – von klassisch bis modern

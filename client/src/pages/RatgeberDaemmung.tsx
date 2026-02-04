@@ -137,7 +137,7 @@ export default function RatgeberDaemmung() {
             <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-r-lg mb-12">
               <h2 className="text-2xl font-heading font-bold text-secondary mb-4 flex items-center gap-2">
                 <AlertTriangle className="h-6 w-6 text-red-500" />
-                Das passiert gerade in Ihrem Haus:
+                089Dach GmbH erklärt: Das passiert gerade in Ihrem Haus
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 Sie heizen und heizen – aber richtig warm wird es nie. Die Heizung läuft auf Hochtouren, 

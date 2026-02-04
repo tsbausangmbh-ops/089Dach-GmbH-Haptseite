@@ -132,7 +132,7 @@ export default function Notdienst() {
         <div className="container mx-auto px-4 md:px-6 lg:px-12">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-6 text-center">
-              <strong>Dachdecker</strong> Notdienst <strong>München</strong> 24h: Wann Sie uns sofort anrufen sollten
+              <strong>Dachdecker</strong> Notdienst <strong>München</strong> 24h – 089Dach GmbH: Wann Sie uns sofort anrufen sollten
             </h2>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
@@ -219,7 +219,7 @@ export default function Notdienst() {
             <div className="bg-primary/5 p-8 rounded-xl border border-primary/20">
               <h3 className="text-2xl font-bold text-secondary mb-4 flex items-center gap-2">
                 <Shield className="h-6 w-6 text-primary" />
-                Sturmschaden Versicherung München: Professionelle Dokumentation für Ihren Versicherungsfall
+                Sturmschaden Versicherung München – 089Dach GmbH: Professionelle Dokumentation für Ihren Versicherungsfall
               </h3>
               <ul className="space-y-3 mb-6">
                 {[
@@ -295,7 +295,7 @@ export default function Notdienst() {
       />
 
       <AIEnhancedFAQ
-        title="Häufige Fragen zum Dach-Notdienst"
+        title="Häufige Fragen zum Dach-Notdienst – 089Dach GmbH"
         faqs={[
           {
             question: "Ist der Dachnotdienst wirklich 24 Stunden erreichbar?",

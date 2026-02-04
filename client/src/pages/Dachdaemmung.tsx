@@ -105,7 +105,7 @@ export default function Dachdaemmung() {
         <div className="container mx-auto px-4">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">
-              Warum Dachdämmung sich lohnt
+              Warum Dachdämmung von 089Dach GmbH sich lohnt
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
               {vorteile.map((vorteil, index) => (
@@ -126,7 +126,7 @@ export default function Dachdaemmung() {
         <div className="container mx-auto px-4">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-4">
-              <strong>Dachdämmung</strong> – Dämmverfahren & Preise
+              <strong>Dachdämmung</strong> von 089Dach GmbH – Dämmverfahren & Preise
             </h2>
             <p className="text-center text-slate-600 mb-12 max-w-4xl mx-auto">
               Wir beraten Sie, welches Verfahren für Ihr Dach am besten geeignet ist
@@ -183,7 +183,7 @@ export default function Dachdaemmung() {
         <div className="container mx-auto px-4">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">
-              Häufige Fragen zur Dachdämmung
+              Häufige Fragen zur Dachdämmung – 089Dach GmbH
             </h2>
             <div className="space-y-6">
               {faqs.map((faq, index) => (

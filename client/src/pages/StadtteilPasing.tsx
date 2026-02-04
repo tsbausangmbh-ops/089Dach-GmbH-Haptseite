@@ -193,7 +193,7 @@ export default function StadtteilPasing() {
             <div className="lg:col-span-2 space-y-8">
               <div>
                 <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">
-                  Ihr lokaler <strong>Dachdecker</strong> für {stadtteilData.name}
+                  089Dach GmbH – Ihr lokaler <strong>Dachdecker</strong> für {stadtteilData.name}
                 </h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4">
                   <TextWithKeywordLinks currentPath="/dachdecker-pasing">{stadtteilData.beschreibung}</TextWithKeywordLinks>

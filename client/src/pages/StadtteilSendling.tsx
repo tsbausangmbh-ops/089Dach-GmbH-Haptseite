@@ -117,7 +117,7 @@ export default function StadtteilSendling() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="lg:col-span-2 space-y-8">
               <div>
-                <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Ihr lokaler <strong>Dachdecker</strong> für <strong>{stadtteilData.name}</strong></h2>
+                <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">089Dach GmbH – Ihr lokaler <strong>Dachdecker</strong> für <strong>{stadtteilData.name}</strong></h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4"><TextWithKeywordLinks currentPath="/dachdecker-sendling">{stadtteilData.beschreibung}</TextWithKeywordLinks></p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
                   Als <strong>Meisterbetrieb</strong> aus <strong>München</strong> sind wir Ihr Spezialist für <strong>Dachsanierung</strong>, <strong>Dachreparatur</strong> und <strong>Notdienst</strong> in <strong>Sendling</strong>.

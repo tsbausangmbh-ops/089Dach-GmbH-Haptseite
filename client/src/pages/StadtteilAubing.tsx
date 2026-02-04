@@ -147,7 +147,7 @@ export default function StadtteilAubing() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="lg:col-span-2 space-y-8">
               <div>
-                <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Ihr <strong>Dachdecker</strong> für Aubing, Lochhausen & Langwied</h2>
+                <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">089Dach GmbH – Ihr <strong>Dachdecker</strong> für Aubing, Lochhausen & Langwied</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4"><TextWithKeywordLinks currentPath="/dachdecker-aubing-lochhausen-langwied">{stadtteilData.beschreibung}</TextWithKeywordLinks></p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
                   Als <strong>Meisterbetrieb</strong> aus der Nachbarschaft kennen wir die typischen Dachformen in <strong>Aubing</strong>, <strong>Lochhausen</strong> und <strong>Langwied</strong>. Ob <strong>Dachsanierung</strong>, <strong>Dachreparatur</strong> oder <strong>Notdienst</strong> – wir bieten passgenaue Lösungen für Ihr Eigenheim in <strong>München</strong>.
@@ -156,7 +156,7 @@ export default function StadtteilAubing() {
 
               <div className="bg-primary/5 rounded-xl p-4 md:p-6 border border-primary/20">
                 <h3 className="text-xl font-heading font-bold text-secondary mb-4 flex items-center gap-2">
-                  <Award className="h-6 w-6 text-primary" />Besonderheiten in Aubing
+                  <Award className="h-6 w-6 text-primary" />Besonderheiten in Aubing – 089Dach GmbH kennt sie
                 </h3>
                 <ul className="space-y-3">
                   {stadtteilData.besonderheiten.map((item, idx) => (

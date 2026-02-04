@@ -125,7 +125,7 @@ export default function Bedachungen() {
                 <AlertTriangle className="h-10 w-10 text-primary flex-shrink-0" />
                 <div>
                   <h2 className="text-2xl font-heading font-bold text-center text-secondary mb-4">
-                    Dach neu eindecken München: Kennen Sie diese Warnsignale bei Ihrem Dach?
+                    Dach neu eindecken München – 089Dach GmbH: Kennen Sie diese Warnsignale bei Ihrem Dach?
                   </h2>
                   <p className="text-lg text-muted-foreground leading-relaxed">
                     Es regnet, und Sie schauen nervös zur Decke. Ein leises Tropfen – war da was? 
@@ -154,7 +154,7 @@ export default function Bedachungen() {
             <div>
               <span className="text-primary font-bold tracking-wider uppercase text-sm">Unsere Expertise</span>
               <h2 className="text-3xl font-heading font-bold text-secondary text-center mt-2 mb-6">
-                Dachziegel, Schiefer & Betonsteine: Komplette Dacheindeckung in München vom Meisterbetrieb
+                Dachziegel, Schiefer & Betonsteine: Komplette Dacheindeckung von 089Dach GmbH
               </h2>
               <div className="prose prose-lg text-muted-foreground">
                 <p>
@@ -309,7 +309,7 @@ export default function Bedachungen() {
       />
 
       <AIEnhancedFAQ
-        title="Häufige Fragen zur Dacheindeckung"
+        title="Häufige Fragen zur Dacheindeckung – 089Dach GmbH"
         faqs={[
           {
             question: "Was kostet Dach neu eindecken ohne Dämmung?",

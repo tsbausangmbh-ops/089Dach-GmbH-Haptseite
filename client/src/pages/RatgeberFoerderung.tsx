@@ -128,7 +128,7 @@ export default function RatgeberFoerderung() {
 
             <div className="bg-primary/5 rounded-xl p-6 border border-primary/20 mb-8">
               <h2 className="text-xl font-heading font-bold text-secondary mb-4 flex items-center gap-2">
-                <Lightbulb className="h-6 w-6 text-primary" />Welche Förderung passt zu Ihnen?
+                <Lightbulb className="h-6 w-6 text-primary" />089Dach GmbH hilft: Welche Förderung passt zu Ihnen?
               </h2>
               <div className="space-y-4">
                 {[
@@ -171,7 +171,7 @@ export default function RatgeberFoerderung() {
 
             <div className="bg-secondary/5 rounded-xl p-6 mb-8">
               <h2 className="text-xl font-heading font-bold text-secondary mb-4 flex items-center gap-2">
-                <Award className="h-6 w-6 text-primary" />So läuft die Förderung ab
+                <Award className="h-6 w-6 text-primary" />So läuft die Förderung bei 089Dach GmbH ab
               </h2>
               <ol className="space-y-4">
                 {[

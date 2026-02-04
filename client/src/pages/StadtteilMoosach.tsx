@@ -133,7 +133,7 @@ export default function StadtteilMoosach() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="lg:col-span-2 space-y-8">
               <div>
-                <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Ihr Nachbar-<strong>Dachdecker</strong> für {stadtteilData.name}</h2>
+                <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">089Dach GmbH – Ihr Nachbar-<strong>Dachdecker</strong> für {stadtteilData.name}</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4"><TextWithKeywordLinks currentPath="/dachdecker-moosach">{stadtteilData.beschreibung}</TextWithKeywordLinks></p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
                   Als Ihr direkter Nachbar und <strong>Meisterbetrieb</strong> aus <strong>München</strong> kennen wir <strong>Moosach</strong> wie unsere Westentasche. 

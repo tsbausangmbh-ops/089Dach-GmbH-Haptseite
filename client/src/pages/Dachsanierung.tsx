@@ -166,7 +166,7 @@ export default function Dachsanierung() {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-6xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
-              <strong>Dach sanieren München</strong> – 6 Warnsignale für dringenden Handlungsbedarf
+              <strong>Dach sanieren München</strong> – 089Dach GmbH zeigt 6 Warnsignale
             </h2>
             <p className="text-muted-foreground">
               Je früher Sie bei Ihrer <strong>Dachsanierung Einfamilienhaus</strong> handeln, desto günstiger wird es. Erkennen Sie diese Zeichen bei Ihrem <strong>Steildach</strong> oder <strong>Altbau</strong>?
@@ -210,7 +210,7 @@ export default function Dachsanierung() {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-6xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
-              <strong>Dachsanierung Vorteile</strong> – Heizkosten sparen, Wert steigern
+              <strong>Dachsanierung</strong> mit 089Dach GmbH – Heizkosten sparen, Wert steigern
             </h2>
             <p className="text-muted-foreground">
               Eine <strong>Dachsanierung</strong> ist keine Ausgabe – sie ist eine Investition in Ihr <strong>Wohngebäude</strong>. Mit <strong>energetischer Sanierung</strong> und moderner <strong>Wärmedämmung</strong> sparen Sie langfristig.

@@ -249,7 +249,7 @@ export default function Wartung() {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
-                Dachwartung München: Jetzt Termin für Inspektion und Dachrinnenreinigung vereinbaren
+                Dachwartung München – 089Dach GmbH: Jetzt Termin für Inspektion und Dachrinnenreinigung vereinbaren
               </h2>
               <p className="text-muted-foreground">
                 Beschreiben Sie Ihr Anliegen – wir melden uns mit einem Terminvorschlag.
@@ -365,7 +365,7 @@ export default function Wartung() {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-6xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
-              Dachinspektion München: Ziegel, Rinnen, Moos & Anschlüsse gründlich prüfen
+              Dachinspektion von 089Dach GmbH: Ziegel, Rinnen, Moos & Anschlüsse gründlich prüfen
             </h2>
             <p className="text-muted-foreground">
               Eine gründliche Dachwartung umfasst weit mehr als nur einen kurzen Blick aufs Dach.
@@ -397,7 +397,7 @@ export default function Wartung() {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-6xl mb-12">
             <h2 className="text-3xl font-heading font-bold mb-4">
-              Dachwartung spart Geld: 4 Gründe warum regelmäßige Dachkontrolle in München wichtig ist
+              Dachwartung spart Geld – 089Dach GmbH: 4 Gründe warum regelmäßige Dachkontrolle in München wichtig ist
             </h2>
             <p className="text-gray-300">
               Viele Hausbesitzer unterschätzen, wie wichtig regelmäßige Wartung für die Lebensdauer ihres Daches ist.

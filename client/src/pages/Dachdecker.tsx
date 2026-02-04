@@ -111,7 +111,7 @@ export default function Dachdecker() {
         <div className="container mx-auto px-4">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-4">
-              Unsere <strong>Dachdecker</strong>-Leistungen in <strong>München</strong>
+              <strong>Dachdecker</strong>-Leistungen von 089Dach GmbH in <strong>München</strong>
             </h2>
             <p className="text-center text-slate-600 mb-12 max-w-4xl mx-auto">
               Alles rund ums Dach aus einer Hand – fachgerecht und zuverlässig
@@ -145,7 +145,7 @@ export default function Dachdecker() {
         <div className="container mx-auto px-4">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-slate-800 mb-12">
-              Warum 089Dach Ihr Dachdecker in München sein sollte
+              Warum 089Dach GmbH Ihr Dachdecker in München sein sollte
             </h2>
             <div className="grid md:grid-cols-2 gap-4">
               {vorteile.map((vorteil, index) => (
@@ -193,7 +193,7 @@ export default function Dachdecker() {
             <div className="flex items-center gap-2 justify-center mb-8">
               <MapPin className="w-6 h-6 text-orange-600" />
               <h2 className="text-3xl font-bold text-slate-800">
-                Dachdecker für ganz München
+                089Dach GmbH – Dachdecker für ganz München
               </h2>
             </div>
             <p className="text-center text-slate-600 mb-8">

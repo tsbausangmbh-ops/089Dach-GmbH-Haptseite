@@ -124,7 +124,7 @@ export default function RatgeberMaterialien() {
           <div className="max-w-7xl mx-auto">
             
             <div className="mb-8">
-              <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Materialvergleich auf einen Blick</h2>
+              <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Materialvergleich von 089Dach GmbH auf einen Blick</h2>
               <p className="text-muted-foreground">
                 Jedes Material hat seine Stärken. Die richtige Wahl hängt von Ihrem Budget, dem Gebäudetyp und Ihren persönlichen Vorlieben ab.
               </p>

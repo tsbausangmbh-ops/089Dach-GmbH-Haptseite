@@ -207,7 +207,7 @@ export default function Leistungen() {
           <div className="max-w-4xl text-white">
             <span className="text-primary font-bold tracking-wider uppercase text-sm">Dachdecker München</span>
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-heading font-bold text-white mt-4 mb-6">
-              Unsere Dachdecker-Leistungen
+              Dachdecker-Leistungen von 089Dach GmbH
             </h1>
             
             <div className="bg-white/10 backdrop-blur-sm p-4 md:p-6 rounded-xl border-l-4 border-primary mb-8">
@@ -323,7 +323,7 @@ export default function Leistungen() {
                     <div className="mb-4 inline-flex items-center justify-center w-12 h-12 rounded-full bg-stone-100 shadow-sm">
                       {service.icon}
                     </div>
-                    <h3 className="font-heading font-bold text-lg text-secondary">Haben Sie ein ähnliches Problem?</h3>
+                    <h3 className="font-heading font-bold text-lg text-secondary">Ihr Problem? 089Dach GmbH hilft!</h3>
                     <p className="text-sm text-muted-foreground mt-2 mb-4">Wir finden gemeinsam die beste Lösung für Sie.</p>
                     <a href={service.link} className="w-full">
                       <Button size="sm" className="bg-primary hover:bg-primary/90 text-white rounded-xl w-full" data-testid={`button-termin-${service.id}`}>

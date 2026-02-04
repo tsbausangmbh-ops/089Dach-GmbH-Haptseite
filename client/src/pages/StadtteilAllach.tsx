@@ -149,7 +149,7 @@ export default function StadtteilAllach() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div className="lg:col-span-2 space-y-8">
               <div>
-                <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">Ihr Nachbar-<strong>Dachdecker</strong> für {stadtteilData.name}</h2>
+                <h2 className="text-2xl md:text-3xl font-heading font-bold text-secondary mb-4">089Dach GmbH – Ihr Nachbar-<strong>Dachdecker</strong> für {stadtteilData.name}</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-4"><TextWithKeywordLinks currentPath="/dachdecker-allach">{stadtteilData.beschreibung}</TextWithKeywordLinks></p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
                   Als <strong>Meisterbetrieb</strong> und Ihr direkter Nachbar kennen wir <strong>Allach</strong> bestens. Bei <strong>Notdienst</strong>-Einsätzen sind wir in wenigen Minuten vor Ort. Ob <strong>Dachsanierung</strong>, <strong>Dachreparatur</strong> oder <strong>Dachrinnenreinigung</strong> – wir sind Ihr zuverlässiger <strong>Dachdecker</strong> in <strong>München</strong>.

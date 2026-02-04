@@ -160,7 +160,7 @@ export default function Gaubenbau() {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-6xl mb-12">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
-              <strong>Dachgaube bauen München</strong> – 4 Vorteile für mehr Wohnraum
+              <strong>Dachgaube bauen München</strong> – Ihre Vorteile mit 089Dach GmbH
             </h2>
             <p className="text-muted-foreground">
               Eine Gaube ist mehr als nur ein Dachaufbau – sie ist eine Investition in Ihre Lebensqualität.
@@ -218,7 +218,7 @@ export default function Gaubenbau() {
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-heading font-bold text-secondary text-center mb-4">
-              <strong>Gaube sanieren München</strong> – Abdichtung, Dämmung & Bekleidung
+              <strong>Gaube sanieren München</strong> – 089Dach GmbH für Abdichtung, Dämmung & Bekleidung
             </h2>
             <p className="text-muted-foreground mb-8 leading-relaxed">
               Ihre bestehende Gaube ist in die Jahre gekommen? Undichte Stellen, veraltete Dämmung oder 
@@ -331,7 +331,7 @@ export default function Gaubenbau() {
       />
 
       <AIEnhancedFAQ
-        title="Häufige Fragen zum Gaubenbau"
+        title="Häufige Fragen zum Gaubenbau – 089Dach GmbH"
         faqs={[
           {
             question: "Was kostet eine Gaube in München?",
