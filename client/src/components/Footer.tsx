@@ -17,7 +17,10 @@ export default function Footer({ showAIBerater = false }: FooterProps) {
             {/* Spalte 1: Firma */}
             <div className="col-span-2 md:col-span-1">
               <div className="flex items-center gap-2 mb-3">
-                <img src="/assets/logo.png" alt="089Dach Logo" className="h-8 w-auto flex-shrink-0 rounded-lg" width={32} height={32} loading="lazy" decoding="async" />
+                <picture>
+                  <source srcSet="/assets/logo.webp" type="image/webp" />
+                  <img src="/assets/logo.png" alt="089Dach Logo" className="h-8 w-auto flex-shrink-0 rounded-lg" width={32} height={32} loading="lazy" decoding="async" />
+                </picture>
                 <div>
                   <span className="font-heading font-bold text-base text-white block leading-tight">089Dach GmbH</span>
                   <span className="text-xs text-primary">Meisterbetrieb seit 1998</span>
