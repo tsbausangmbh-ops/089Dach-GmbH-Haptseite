@@ -22,7 +22,11 @@ export default function SEO({
   aiSummary
 }: SEOProps) {
   useEffect(() => {
-    document.title = title;
+    // Ensure company name always appears first in title for Google
+    const formattedTitle = title.includes('089Dach') 
+      ? title 
+      : `089Dach GmbH München | ${title}`;
+    document.title = formattedTitle;
     
     const setMeta = (name: string, content: string, isProperty = false) => {
       const attr = isProperty ? 'property' : 'name';
@@ -40,13 +44,13 @@ export default function SEO({
       setMeta('keywords', keywords);
     }
     
-    setMeta('og:title', title, true);
+    setMeta('og:title', formattedTitle, true);
     setMeta('og:description', description, true);
     setMeta('og:type', 'website', true);
     setMeta('og:locale', 'de_DE', true);
     setMeta('og:site_name', '089Dach GmbH München', true);
     
-    setMeta('twitter:title', title);
+    setMeta('twitter:title', formattedTitle);
     setMeta('twitter:description', description);
     setMeta('twitter:card', 'summary_large_image');
     
