@@ -72,17 +72,6 @@ export default function Footer({ showAIBerater = false }: FooterProps) {
 
           </div>
 
-          {/* Hinweis zum Vertragsabschluss */}
-          <div className="border-t border-white/10 py-4">
-            <h4 className="font-heading font-bold text-xs mb-2 text-white">Hinweis zum Vertragsabschluss</h4>
-            <div className="text-xs text-gray-400 space-y-1.5 leading-relaxed">
-              <p>Die auf dieser Website dargestellten Inhalte, Leistungen und Informationen stellen kein verbindliches Angebot im rechtlichen Sinne dar. Ein Vertragsabschluss über diese Website findet nicht statt.</p>
-              <p>Anfragen über kontaktformulare, E-Mail oder Telefon dienen ausschließlich der unverbindlichen Kontaktaufnahme und der Vorbereitung einer individuellen Angebotserstellung. Ein Vertrag kommt erst nach persönlicher Abstimmung, Besichtigung vor Ort und ausdrücklicher Annahme eines schriftlichen Angebots zustande.</p>
-              <p>Es erfolgt keine kostenpflichtige Bestellung, keine Buchung und keine Online-Zahlung über diese Website.</p>
-              <p className="mt-1"><a href="/impressum/" className="hover:text-primary transition-colors text-gray-300">Impressum</a> · <a href="/agb/" className="hover:text-primary transition-colors text-gray-300">AGB</a></p>
-            </div>
-          </div>
-
           {/* SEO Links - kompakt */}
           <div className="border-t border-white/10 py-3">
             <div className="flex flex-wrap gap-x-4 gap-y-1 text-xs text-gray-500 justify-center">

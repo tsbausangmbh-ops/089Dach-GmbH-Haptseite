@@ -89,6 +89,13 @@ export default function ContactPage() {
         title="So erreichen Sie uns"
         description="Ob per Telefon, E-Mail oder persönlich – wir sind für Sie da. Schnelle Antwort innerhalb von 24 Stunden garantiert."
       />
+      <section className="py-4 bg-muted/30">
+        <div className="container mx-auto px-6 lg:px-12">
+          <p className="text-[10px] text-muted-foreground/60 leading-relaxed">
+            <strong>Hinweis zum Vertragsabschluss:</strong> Die auf dieser Website dargestellten Inhalte, Leistungen und Informationen stellen kein verbindliches Angebot im rechtlichen Sinne dar. Ein Vertragsabschluss über diese Website findet nicht statt. Anfragen über kontaktformulare, E-Mail oder Telefon dienen ausschließlich der unverbindlichen Kontaktaufnahme und der Vorbereitung einer individuellen Angebotserstellung. Ein Vertrag kommt erst nach persönlicher Abstimmung, Besichtigung vor Ort und ausdrücklicher Annahme eines schriftlichen Angebots zustande. Es erfolgt keine kostenpflichtige Bestellung, keine Buchung und keine Online-Zahlung über diese Website. <a href="/impressum/" className="underline hover:text-primary">Impressum</a> · <a href="/agb/" className="underline hover:text-primary">AGB</a>
+          </p>
+        </div>
+      </section>
       </main>
       <Footer />
     </div>
