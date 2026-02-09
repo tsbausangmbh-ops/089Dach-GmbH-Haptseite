@@ -441,7 +441,8 @@ export async function registerRoutes(
   app.post("/api/leads", async (req, res) => {
     try {
       const validatedData = insertLeadSchema.parse(req.body);
-      const lead = await storage.createLead(validatedData);
+      const leadData = { ...validatedData, phone: validatedData.phone || '' };
+      const lead = await storage.createLead(leadData);
       
       await sendNotificationEmail(
         `Neuer Rückruf-Wunsch: ${validatedData.problem}`,
@@ -527,7 +528,8 @@ export async function registerRoutes(
     try {
       const formData = JSON.parse(req.body.data || '{}');
       const validatedData = insertLeadSchema.parse(formData);
-      const lead = await storage.createLead(validatedData);
+      const leadData = { ...validatedData, phone: validatedData.phone || '' };
+      const lead = await storage.createLead(leadData);
       
       // Prepare attachments from uploaded files
       const files = req.files as Express.Multer.File[];

@@ -139,6 +139,7 @@ import DachziegelKaufen from "@/pages/DachziegelKaufen";
 import DachbeschichtungKosten from "@/pages/DachbeschichtungKosten";
 import FoerderungRechner from "@/pages/FoerderungRechner";
 import Cookies from "@/pages/Cookies";
+import Barrierefreiheit from "@/pages/Barrierefreiheit";
 
 function AppSSR() {
   return (
@@ -173,6 +174,7 @@ function AppSSR() {
         <Route path="/cookies" component={Cookies} />
         <Route path="/cookie-richtlinie" component={CookiePolicy} />
         <Route path="/agb" component={AGB} />
+        <Route path="/barrierefreiheit" component={Barrierefreiheit} />
         <Route path="/rueckruf" component={Rueckruf} />
         <Route path="/beratung" component={KostenloseBeratung} />
         <Route path="/heizkostenrechner" component={Heizkostenrechner} />

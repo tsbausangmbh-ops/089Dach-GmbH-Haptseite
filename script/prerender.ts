@@ -83,8 +83,12 @@ async function prerenderRoute(
     let html = document.toString();
     
     html = html.replace(
-      /https:\/\/c3cfe89b-bd5d-4dc1-a831-1716e6b0ba0d-00-25v8xb9qce15h\.riker\.replit\.dev\/opengraph\.jpg/g,
+      /https:\/\/[a-z0-9-]+\.[a-z]+\.replit\.dev\/opengraph\.(jpg|jpeg|png)/g,
       'https://089dach.de/opengraph.jpg'
+    );
+    html = html.replace(
+      /https:\/\/[a-z0-9-]+\.[a-z]+\.replit\.dev/g,
+      'https://089dach.de'
     );
 
     const filePath =

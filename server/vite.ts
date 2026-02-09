@@ -8,6 +8,23 @@ import { nanoid } from "nanoid";
 
 const viteLogger = createLogger();
 
+const CRAWLER_BOTS = [
+  'googlebot', 'google-inspectiontool', 'adsbot-google', 'apis-google',
+  'mediapartners-google', 'storebot-google', 'google-extended', 'googleother',
+  'bingbot', 'bingpreview', 'msnbot', 'slurp', 'duckduckbot',
+  'baiduspider', 'yandexbot', 'sogou', 'facebookexternalhit', 'twitterbot',
+  'linkedinbot', 'whatsapp', 'telegrambot', 'pinterestbot',
+  'ahrefsbot', 'semrushbot', 'screaming frog', 'rogerbot', 'dotbot', 'mj12bot',
+  'gptbot', 'chatgpt-user', 'anthropic-ai', 'claude-web', 'perplexitybot',
+  'applebot', 'archive.org_bot', 'ia_archiver',
+];
+
+function isCrawler(ua: string | undefined): boolean {
+  if (!ua) return false;
+  const lower = ua.toLowerCase();
+  return CRAWLER_BOTS.some(bot => lower.includes(bot));
+}
+
 export async function setupVite(server: Server, app: Express) {
   const serverOptions = {
     middlewareMode: true,
@@ -42,8 +59,22 @@ export async function setupVite(server: Server, app: Express) {
         "index.html",
       );
 
-      // always reload the index.html file from disk incase it changes
       let template = await fs.promises.readFile(clientTemplate, "utf-8");
+
+      if (isCrawler(req.headers['user-agent'])) {
+        try {
+          const { render } = await vite.ssrLoadModule("/src/entry-server.tsx");
+          const appHtml = render(url);
+          template = template.replace(
+            '<div id="root"></div>',
+            `<div id="root">${appHtml}</div>`
+          );
+          console.log(`[SSR-Dev] Rendered for crawler: ${url}`);
+        } catch (ssrErr) {
+          console.error(`[SSR-Dev] SSR failed for ${url}:`, (ssrErr as Error).message);
+        }
+      }
+
       template = template.replace(
         `src="/src/main.tsx"`,
         `src="/src/main.tsx?v=${nanoid()}"`,

@@ -135,4 +135,5 @@ export const routes = [
   "/satteldach-kosten-muenchen",
   "/dachziegel-kaufen-muenchen",
   "/dachbeschichtung-kosten-muenchen",
+  "/barrierefreiheit",
 ];

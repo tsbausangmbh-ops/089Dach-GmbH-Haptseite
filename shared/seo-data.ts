@@ -734,6 +734,11 @@ export const routeSEOData: Record<string, SEOPageData> = {
     title: "Schallschutz Dach München | Dämmung | 089Dach",
     description: "Schallschutz Dach München: Schalldämmung, Lärmschutz unterm Dach. Ruhe & Komfort. Meisterbetrieb!",
     keywords: "Schallschutz Dach, Schalldämmung Dach München"
+  },
+  "/barrierefreiheit": {
+    title: "Barrierefreiheit | 089Dach GmbH München",
+    description: "Erklärung zur Barrierefreiheit der Website 089dach.de. Informationen zur digitalen Zugänglichkeit unserer Webseite.",
+    keywords: "Barrierefreiheit, Zugänglichkeit, 089Dach"
   }
 };
 
