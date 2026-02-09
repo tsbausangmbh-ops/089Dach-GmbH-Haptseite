@@ -1,7 +1,6 @@
 import { Switch, Route } from "wouter";
 import NotFound from "@/pages/not-found";
 import Home from "@/pages/Home";
-import { LocalBusinessSchema } from "@/components/SEO";
 import Redirect from "@/components/Redirect";
 
 import Bedachungen from "@/pages/Bedachungen";
@@ -144,7 +143,6 @@ import Barrierefreiheit from "@/pages/Barrierefreiheit";
 function AppSSR() {
   return (
     <>
-      <LocalBusinessSchema />
       <Switch>
         <Route path="/" component={Home} />
         <Route path="/leistungen" component={Leistungen} />

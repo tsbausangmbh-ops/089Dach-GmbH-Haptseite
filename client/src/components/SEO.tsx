@@ -103,15 +103,7 @@ export function WebSiteSchema() {
     "publisher": {
       "@id": "https://089dach.de/#organization"
     },
-    "inLanguage": "de-DE",
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": {
-        "@type": "EntryPoint",
-        "urlTemplate": "https://089dach.de/suche?q={search_term_string}"
-      },
-      "query-input": "required name=search_term_string"
-    }
+    "inLanguage": "de-DE"
   };
   return (
     <script
@@ -132,8 +124,18 @@ export function LocalBusinessSchema() {
     "@id": "https://089dach.de/#organization",
     "name": "089Dach GmbH",
     "alternateName": ["089 Dach", "Dachdecker München Obermenzing"],
-    "image": "https://089dach.de/opengraph.jpg",
-    "logo": "https://089dach.de/logo.png",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://089dach.de/opengraph.jpg",
+      "width": 1200,
+      "height": 630
+    },
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://089dach.de/logo.png",
+      "width": 200,
+      "height": 60
+    },
     "url": "https://089dach.de",
     "telephone": "+49-89-12621964",
     "email": "info@089dach.de",
@@ -173,24 +175,24 @@ export function LocalBusinessSchema() {
     "hasMap": "https://www.google.com/maps/place/089Dach+GmbH",
     "aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": 4.9,
-      "bestRating": 5,
-      "worstRating": 1,
-      "ratingCount": 62,
-      "reviewCount": 62
+      "ratingValue": "4.9",
+      "bestRating": "5",
+      "worstRating": "1",
+      "ratingCount": "62",
+      "reviewCount": "62"
     },
     "review": [
       {
         "@type": "Review",
         "author": { "@type": "Person", "name": "M. Schmidt" },
-        "reviewRating": { "@type": "Rating", "ratingValue": 5 },
+        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5", "worstRating": "1" },
         "reviewBody": "Professionelle Dachsanierung in Schwabing. Pünktlich, sauber, faire Preise.",
         "datePublished": "2025-11-15"
       },
       {
         "@type": "Review",
         "author": { "@type": "Person", "name": "Familie Weber" },
-        "reviewRating": { "@type": "Rating", "ratingValue": 5 },
+        "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5", "worstRating": "1" },
         "reviewBody": "Sturmschaden um 22 Uhr gemeldet, um Mitternacht war das Dach gesichert.",
         "datePublished": "2025-10-28"
       }

@@ -9,7 +9,6 @@ import NotFound from "@/pages/not-found";
 import Home from "@/pages/Home";
 import CookieConsent from "@/components/CookieConsent";
 import BackgroundLogo from "@/components/BackgroundLogo";
-import { LocalBusinessSchema } from "@/components/SEO";
 import FloatingCTA from "@/components/FloatingCTA";
 import Redirect from "@/components/Redirect";
 
@@ -382,7 +381,6 @@ function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
-        <LocalBusinessSchema />
         <BackgroundLogo />
         <Router />
         <FloatingCTA />
