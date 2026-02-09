@@ -7,7 +7,7 @@ import LeadFunnel from "@/components/LeadFunnel";
 import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import BackButton from "@/components/BackButton";
-import { GeoLinks } from "@/components/GeoLinks";
+import { GeoLinks, stadtteilToUrl } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import heroImage from "@assets/generated_images/realistic_renovated_roof_obermenzing_after.webp";
 import { TestimonialSection } from "@/components/TestimonialSection";
@@ -281,9 +281,9 @@ export default function StadtteilPasing() {
               <div className="bg-white rounded-xl p-4 md:p-6 border border-gray-100">
                 <h4 className="font-bold text-secondary mb-4">Auch in der Nähe tätig:</h4>
                 <ul className="space-y-2">
-                  {stadtteilData.nachbarStadtteile.map((stadtteil, idx) => (
+                  {stadtteilData.nachbarStadtteile.filter(stadtteil => stadtteilToUrl[stadtteil]).map((stadtteil, idx) => (
                     <li key={idx}>
-                      <a href={`/dachdecker-${stadtteil.toLowerCase()}`} className="text-primary hover:underline flex items-center gap-2">
+                      <a href={stadtteilToUrl[stadtteil]} className="text-primary hover:underline flex items-center gap-2">
                         <MapPin className="h-4 w-4" />
                         Dachdecker {stadtteil}
                       </a>

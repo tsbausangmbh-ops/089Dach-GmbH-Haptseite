@@ -7,7 +7,7 @@ interface GeoLinksProps {
   className?: string;
 }
 
-const stadtteilToUrl: Record<string, string> = {
+export const stadtteilToUrl: Record<string, string> = {
   "Pasing": "/dachdecker-pasing",
   "Laim": "/dachdecker-laim",
   "Schwabing": "/dachdecker-schwabing",

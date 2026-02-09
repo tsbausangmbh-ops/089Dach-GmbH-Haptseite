@@ -122,7 +122,7 @@ const stadtteile = [
   { name: "Schwabing", url: "/dachdecker-schwabing", entfernung: "8 km" },
   { name: "Sendling", url: "/dachdecker-sendling", entfernung: "7 km" },
   { name: "Bogenhausen", url: "/dachdecker-bogenhausen", entfernung: "10 km" },
-  { name: "Haidhausen", url: "/dachdecker-haidhausen", entfernung: "9 km" },
+  { name: "Haidhausen", url: "/dachdecker-au-haidhausen", entfernung: "9 km" },
   { name: "Giesing", url: "/dachdecker-giesing", entfernung: "9 km" }
 ];
 

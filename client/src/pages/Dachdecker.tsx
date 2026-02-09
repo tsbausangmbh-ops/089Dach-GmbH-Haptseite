@@ -8,14 +8,14 @@ import SEO, { BreadcrumbSchema, ServiceSchema, FAQPageSchema, ProductServiceSche
 import BackButton from "@/components/BackButton";
 import { Link } from "wouter";
 import heroImage from '@assets/optimized/roofer_working.webp';
-import { ServiceGeoLinks } from "@/components/GeoLinks";
+import { ServiceGeoLinks, stadtteilToUrl } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 
 export default function Dachdecker() {
   const leistungen = [
-    { icon: Home, title: "Dacheindeckung", text: "Neueindeckung und Umdeckung mit allen Materialien", link: "/dach-neu-eindecken" },
-    { icon: Wrench, title: "Dachreparatur", text: "Schnelle Reparatur von Schäden aller Art", link: "/dachreparatur" },
-    { icon: Shield, title: "Dachabdichtung", text: "Professionelle Abdichtung von innen und außen", link: "/dach-abdichten" },
+    { icon: Home, title: "Dacheindeckung", text: "Neueindeckung und Umdeckung mit allen Materialien", link: "/dach-neu-eindecken-muenchen" },
+    { icon: Wrench, title: "Dachreparatur", text: "Schnelle Reparatur von Schäden aller Art", link: "/dachreparatur-muenchen" },
+    { icon: Shield, title: "Dachabdichtung", text: "Professionelle Abdichtung von innen und außen", link: "/dach-abdichten-muenchen" },
     { icon: Star, title: "Dachsanierung", text: "Komplettsanierung inkl. Dämmung", link: "/leistungen/dachsanierung" }
   ];
 
@@ -200,8 +200,8 @@ export default function Dachdecker() {
               Wir sind in allen Münchner Stadtteilen und im Umland für Sie da:
             </p>
             <div className="flex flex-wrap justify-center gap-3">
-              {stadtteile.map((stadtteil, index) => (
-                <Link key={index} href={`/dachdecker-${stadtteil.toLowerCase()}`}>
+              {stadtteile.filter(stadtteil => stadtteilToUrl[stadtteil]).map((stadtteil, index) => (
+                <Link key={index} href={stadtteilToUrl[stadtteil]}>
                   <span className="px-4 py-2 bg-slate-100 rounded-full text-slate-700 hover:bg-orange-100 hover:text-orange-700 transition-colors cursor-pointer">
                     {stadtteil}
                   </span>

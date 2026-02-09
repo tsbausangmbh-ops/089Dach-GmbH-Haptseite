@@ -6,7 +6,7 @@ const stadtteile = [
   { name: "Pasing-Obermenzing", url: "/dachdecker-pasing" },
   { name: "Moosach", url: "/dachdecker-moosach" },
   { name: "Feldmoching-Hasenbergl", url: "/dachdecker-feldmoching" },
-  { name: "Aubing-Lochhausen", url: "/dachdecker-aubing" },
+  { name: "Aubing-Lochhausen", url: "/dachdecker-aubing-lochhausen-langwied" },
   { name: "Nymphenburg", url: "/dachdecker-nymphenburg" },
   { name: "Neuhausen", url: "/dachdecker-neuhausen" },
   { name: "Laim", url: "/dachdecker-laim" },

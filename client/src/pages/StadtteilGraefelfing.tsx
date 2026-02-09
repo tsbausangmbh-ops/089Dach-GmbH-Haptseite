@@ -7,7 +7,7 @@ import LeadFunnel from "@/components/LeadFunnel";
 import { CostEscalationBanner, DecisionPressureBanner } from "@/components/UrgencyBanner";
 import SEO, { BreadcrumbSchema } from "@/components/SEO";
 import BackButton from "@/components/BackButton";
-import { GeoLinks } from "@/components/GeoLinks";
+import { GeoLinks, stadtteilToUrl } from "@/components/GeoLinks";
 import { TextWithKeywordLinks } from "@/components/KeywordLink";
 import heroImage from "@assets/generated_images/realistic_villa_slate_roof_after.webp";
 import imgDachrinnenreinigung from "@assets/stock_images/rain_gutter_full_lea_dbbf6bfe.jpg";
@@ -186,7 +186,7 @@ export default function StadtteilGraefelfing() {
               </div>
               <div className="bg-white rounded-xl p-4 md:p-6 border border-gray-100">
                 <h4 className="font-bold text-secondary mb-4">Auch in der Nähe:</h4>
-                <ul className="space-y-2">{stadtteilData.nachbarStadtteile.map((s, i) => (<li key={i}><a href={`/dachdecker-${s.toLowerCase()}`} className="text-primary hover:underline flex items-center gap-2"><MapPin className="h-4 w-4" />Dachdecker {s}</a></li>))}</ul>
+                <ul className="space-y-2">{stadtteilData.nachbarStadtteile.filter(s => stadtteilToUrl[s]).map((s, i) => (<li key={i}><a href={stadtteilToUrl[s]} className="text-primary hover:underline flex items-center gap-2"><MapPin className="h-4 w-4" />Dachdecker {s}</a></li>))}</ul>
               </div>
 
               <TestimonialSection testimonials={testimonials} stadtteil={stadtteilData.name} />
