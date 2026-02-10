@@ -32,6 +32,8 @@ export default function ImageGallery({ images, title, columns = 2 }: ImageGaller
                 src={image.src}
                 alt={image.alt}
                 className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
+                width={640}
+                height={256}
                 loading="lazy"
                 decoding="async"
               />

@@ -80,6 +80,25 @@ async function prerenderRoute(
       }
     });
 
+    if (route === "/") {
+      const heroImg = root?.querySelector('img[fetchpriority="high"]');
+      if (heroImg) {
+        const heroSrc = heroImg.getAttribute("src");
+        if (heroSrc) {
+          const head = document.querySelector("head");
+          if (head) {
+            const preloadLink = document.createElement("link");
+            preloadLink.setAttribute("rel", "preload");
+            preloadLink.setAttribute("as", "image");
+            preloadLink.setAttribute("href", heroSrc);
+            preloadLink.setAttribute("fetchpriority", "high");
+            preloadLink.setAttribute("type", "image/webp");
+            head.appendChild(preloadLink);
+          }
+        }
+      }
+    }
+
     let html = document.toString();
     
     html = html.replace(
