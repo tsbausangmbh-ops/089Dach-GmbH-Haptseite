@@ -82,7 +82,7 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
           <div className="text-center max-w-3xl mx-auto mb-4 md:mb-6">
             <span className="text-primary font-bold tracking-wider uppercase text-xs md:text-sm">Warum 089Dach?</span>
             <h2 className="text-2xl md:text-4xl font-heading font-bold text-secondary mt-1 md:mt-2 mb-2 md:mb-4">
-              <strong>Dachdecker München Vorteile</strong> – Sorgenfreie Beratung
+              Ihre Vorteile – Sorgenfreie Beratung
             </h2>
           </div>
 
@@ -200,20 +200,20 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
         <div className="container mx-auto px-6 lg:px-12">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl font-heading font-bold text-secondary mb-8 text-center">
-              <strong>Dachdecker & Spengler München</strong> – Meisterbetrieb für Dach und Blech
+              Dachdecker & Spengler in München – Meisterbetrieb für Dach und Blech
             </h2>
             
             <div className="prose prose-lg max-w-none text-muted-foreground mb-12">
               <p className="text-lg mb-6">
-                <strong className="text-secondary">Dachdecker und Spengler in München</strong> gesucht? Jeder Tag ohne Reparatur kann neue Schäden verursachen. Die 089Dach GmbH ist Ihr zuverlässiger Partner für professionelle <strong>Dach- und Spenglerarbeiten</strong> in München und Umgebung. 
-                Als inhabergeführter <strong>Dachdecker- und Spenglermeisterbetrieb</strong> mit über 25 Jahren Erfahrung lösen wir Ihr Problem, bevor es teurer wird: 
-                <strong> Dachsanierung</strong>, <strong>Dachreparatur</strong>, <strong>Flachdach</strong>-Abdichtung, <strong>Steildach</strong>-Eindeckung, <strong>Dachrinnen</strong> und <strong>Blechverkleidungen</strong>.
+                Die 089Dach GmbH ist Ihr zuverlässiger Dachdecker- und Spenglermeisterbetrieb in München und Umgebung. 
+                Mit über 25 Jahren Erfahrung lösen wir Ihr Problem, bevor es teurer wird – 
+                von der Dachsanierung über Dachreparatur und Flachdach-Abdichtung bis hin zu Steildach-Eindeckung, Dachrinnen und Blechverkleidungen.
               </p>
               
               <p className="mb-6">
-                Ob Ihr <strong>Dach undicht</strong> ist, die <strong>Dachrinne leckt</strong> oder Sie eine <strong>Kamineinfassung</strong> benötigen – 
-                warten Sie nicht, bis der Schaden größer wird. Wir sind der <strong>Dachdecker und Spengler in Ihrer Nähe</strong>, der schnell, sauber und zu fairen Festpreisen arbeitet. 
-                Mit <strong>10 Jahren Garantie</strong> auf alle Dach- und Spenglerarbeiten.
+                Ob Ihr Dach undicht ist, die Dachrinne leckt oder Sie eine Kamineinfassung benötigen – 
+                warten Sie nicht, bis der Schaden größer wird. Wir arbeiten schnell, sauber und zu fairen Festpreisen. 
+                Mit 10 Jahren Garantie auf alle Dach- und Spenglerarbeiten.
               </p>
             </div>
 
@@ -268,7 +268,7 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
                 Dach- und Spenglerarbeiten aus einer Hand
               </h3>
               <p className="text-zinc-300 mb-6">
-                Als <strong className="text-white">Dachdecker- und Spenglermeister</strong> in München bieten wir Ihnen das komplette Spektrum – 
+                Als Dachdecker- und Spenglermeister in München bieten wir Ihnen das komplette Spektrum – 
                 von der Dacheindeckung bis zur maßgefertigten Blechverkleidung. Alles aus einer Hand, ohne Koordinationsprobleme.
               </p>
               <div className="grid md:grid-cols-3 gap-4 mb-6">
@@ -292,8 +292,8 @@ export default function EmotionalFunnel({ onOpenFunnel }: EmotionalFunnelProps) 
                 Warum Münchner Hausbesitzer uns vertrauen
               </h3>
               <p className="mb-4">
-                Als <strong>Dachdecker- und Spenglermeisterbetrieb</strong> stehen wir für Qualität und Zuverlässigkeit. 
-                Über <strong>200 Dach- und Spenglerprojekte</strong> in München sprechen für sich. Je früher Sie handeln, desto günstiger:
+                Als Dachdecker- und Spenglermeisterbetrieb stehen wir für Qualität und Zuverlässigkeit. 
+                Über 200 abgeschlossene Projekte in München sprechen für sich. Je früher Sie handeln, desto günstiger:
               </p>
               <ul className="space-y-2 mb-6">
                 <li className="flex items-start gap-2">

@@ -5,9 +5,6 @@ interface SEOProps {
   description: string;
   canonical?: string;
   keywords?: string;
-  geoRegion?: string;
-  geoPlacename?: string;
-  geoPosition?: string;
   aiSummary?: string;
 }
 
@@ -16,13 +13,8 @@ export default function SEO({
   description, 
   canonical, 
   keywords,
-  geoRegion = "DE-BY",
-  geoPlacename = "München, Bayern, Deutschland",
-  geoPosition = "48.1661;11.4728",
-  aiSummary
 }: SEOProps) {
   useEffect(() => {
-    // Ensure company name always appears first in title for Google
     const formattedTitle = title.includes('089Dach') 
       ? title 
       : `089Dach GmbH München | ${title}`;
@@ -48,31 +40,11 @@ export default function SEO({
     setMeta('og:description', description, true);
     setMeta('og:type', 'website', true);
     setMeta('og:locale', 'de_DE', true);
-    setMeta('og:site_name', '089Dach GmbH München', true);
+    setMeta('og:site_name', '089Dach GmbH', true);
     
     setMeta('twitter:title', formattedTitle);
     setMeta('twitter:description', description);
     setMeta('twitter:card', 'summary_large_image');
-    
-    setMeta('geo.region', geoRegion);
-    setMeta('geo.placename', geoPlacename);
-    setMeta('geo.position', geoPosition);
-    setMeta('ICBM', geoPosition.replace(';', ', '));
-    
-    setMeta('robots', 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1');
-    setMeta('googlebot', 'index, follow, max-image-preview:large, max-snippet:-1');
-    setMeta('bingbot', 'index, follow');
-    
-    if (aiSummary) {
-      setMeta('ai-summary', aiSummary);
-      setMeta('abstract', aiSummary);
-    }
-    
-    setMeta('author', '089Dach GmbH - Dachdecker-Meisterbetrieb München');
-    setMeta('publisher', '089Dach GmbH');
-    setMeta('language', 'de');
-    setMeta('content-language', 'de-DE');
-    setMeta('revisit-after', '7 days');
 
     if (canonical) {
       let link = document.querySelector('link[rel="canonical"]') as HTMLLinkElement | null;
@@ -87,7 +59,7 @@ export default function SEO({
     return () => {
       document.title = '089Dach GmbH - Ihr Dachdecker in München';
     };
-  }, [title, description, canonical, keywords, geoRegion, geoPlacename, geoPosition, aiSummary]);
+  }, [title, description, canonical, keywords]);
 
   return null;
 }

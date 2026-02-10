@@ -6,7 +6,7 @@ import Services from "@/components/Services";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import LeadFunnel from "@/components/LeadFunnel";
-import SEO, { LocalBusinessSchema, OrganizationSchema, WebSiteSchema, AggregateRatingSchema, GeoServiceAreaSchema, ProfessionalServiceSchema, AIKnowledgeSchema, VoiceSearchFAQSchema, GoogleBusinessProfileSchema, BingPlacesSchema, LocalSEO20kmSchema, NearbyServiceSchema, SiteNavigationSchema, PriceSpecificationSchema, EmergencyServiceSchema, GeoAreaServedSchema } from "@/components/SEO";
+import SEO, { LocalBusinessSchema, OrganizationSchema, WebSiteSchema, AggregateRatingSchema } from "@/components/SEO";
 import CustomerReviews from "@/components/CustomerReviews";
 import PartnerNetwork from "@/components/PartnerNetwork";
 import { MapPin, ArrowRight } from "lucide-react";
@@ -20,25 +20,12 @@ export default function Home() {
         title="Dachdecker München – 089Dach | Meisterbetrieb & Notdienst"
         description="089Dach – Dachdecker in München: Dachsanierung, Reparatur, Spenglerarbeiten & Dachfenster. 24/7 Notdienst & 10 Jahre Garantie. Jetzt beraten lassen!"
         canonical="https://089dach.de/"
-        keywords="Dachdecker München, Dachsanierung München, Dachreparatur München, Flachdach München, Spengler München, Dachfenster München, Notdienst Dach München, Dachdecker Obermenzing"
-        aiSummary="089Dach GmbH ist der führende Dachdecker- und Spenglermeisterbetrieb in München-Obermenzing mit über 25 Jahren Erfahrung und 200+ abgeschlossenen Projekten. Spezialisiert auf Dachsanierung, Steildach, Flachdach, Spenglerarbeiten, Dachrinnen und Blechverkleidungen. 10 Jahre Garantie auf alle Dach- und Spenglerarbeiten. Telefon: 089 12621964. Adresse: Thuillestr. 20, 81247 München. Kostenlose Vor-Ort-Beratung. Festpreis-Garantie. Bewertung: 4.9/5 Sterne."
+        keywords="Dachdecker München, Dachsanierung, Dachreparatur, Flachdach, Spengler, Dachfenster, Notdienst Dach, Dachdecker Obermenzing"
       />
       <LocalBusinessSchema />
       <OrganizationSchema />
       <WebSiteSchema />
       <AggregateRatingSchema />
-      <GeoServiceAreaSchema />
-      <ProfessionalServiceSchema />
-      <AIKnowledgeSchema />
-      <VoiceSearchFAQSchema />
-      <GoogleBusinessProfileSchema />
-      <BingPlacesSchema />
-      <LocalSEO20kmSchema />
-      <NearbyServiceSchema />
-      <SiteNavigationSchema />
-      <PriceSpecificationSchema />
-      <EmergencyServiceSchema />
-      <GeoAreaServedSchema />
       <Navbar />
       <main id="main-content" role="main" tabIndex={-1}>
         <Hero onOpenFunnel={() => setFunnelOpen(true)} />
