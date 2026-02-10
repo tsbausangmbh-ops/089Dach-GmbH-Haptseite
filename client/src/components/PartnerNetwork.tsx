@@ -13,9 +13,9 @@ const partners = [
     url: "https://komplettsanierungen-haus-wohnung.de/",
   },
   {
-    name: "089Dach GmbH",
-    description: "Dachdecker- & Spenglerarbeiten",
-    url: "https://089dach.de/",
+    name: "Estriche München",
+    description: "Estricharbeiten & Bodenbau",
+    url: "https://estriche-muenchen.de/",
   },
   {
     name: "Extrucon GmbH",
