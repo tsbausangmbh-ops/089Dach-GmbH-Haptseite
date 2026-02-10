@@ -80,6 +80,14 @@ The server uses a simple storage pattern (`server/storage.ts`) that abstracts da
   - GET /api/availability liefert freie Slots für die nächsten 14 Tage
   - 2-Stunden-Puffer: Vor und nach gebuchten Terminen sind 2 Stunden automatisch gesperrt
 
+- **Prerender.io**: Crawler-Prerendering für SEO (Production only)
+  - Eigene Middleware in `server/prerender.ts` (kein prerender-node Paket)
+  - Erkennt 60+ Crawler (Google, Bing, AI-Bots, Social Media, SEO-Tools)
+  - Leitet Crawler-Anfragen an service.prerender.io weiter
+  - Secret: PRERENDER_TOKEN
+  - Env: PRERENDER_BASE_URL (Standard: https://089dach.de)
+  - Fallback auf SSR bei Fehler/Timeout
+
 ### Key NPM Packages
 - `drizzle-orm` / `drizzle-zod`: Database ORM and schema validation
 - `@tanstack/react-query`: Async state management
