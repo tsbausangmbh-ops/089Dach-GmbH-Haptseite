@@ -127,6 +127,23 @@ function seededRandom(seed: number): number {
   return x - Math.floor(x);
 }
 
+function getBerlinOffset(date: Date): number {
+  const month = date.getUTCMonth();
+  const day = date.getUTCDate();
+  const marchLastSunday = 31 - new Date(Date.UTC(date.getUTCFullYear(), 2, 31)).getUTCDay();
+  const octoberLastSunday = 31 - new Date(Date.UTC(date.getUTCFullYear(), 9, 31)).getUTCDay();
+  const isCEST = (month > 2 && month < 9) ||
+    (month === 2 && day >= marchLastSunday) ||
+    (month === 9 && day < octoberLastSunday);
+  return isCEST ? 2 : 1;
+}
+
+function createBerlinDate(year: number, month: number, day: number, hour: number, minute: number = 0): Date {
+  const tempDate = new Date(Date.UTC(year, month, day, 12, 0, 0));
+  const offset = getBerlinOffset(tempDate);
+  return new Date(Date.UTC(year, month, day, hour - offset, minute, 0, 0));
+}
+
 export async function getAvailableSlots(startDate: Date, endDate: Date): Promise<TimeSlot[]> {
   const calendar = await getUncachableGoogleCalendarClient();
   
@@ -142,53 +159,45 @@ export async function getAvailableSlots(startDate: Date, endDate: Date): Promise
   const busySlots = response.data.calendars?.primary?.busy || [];
   const slots: TimeSlot[] = [];
   
-  // Target: 60% of days completely booked, 40% of remaining slots per day booked
   const DAYS_BOOKED_PERCENTAGE = 0.60;
   const SLOTS_BOOKED_PERCENTAGE = 0.40;
 
   const current = new Date(startDate);
+  current.setUTCHours(12, 0, 0, 0);
+  
   while (current < endDate) {
-    const dayOfWeek = current.getDay();
+    const year = current.getUTCFullYear();
+    const month = current.getUTCMonth();
+    const day = current.getUTCDate();
+    const dayOfWeek = current.getUTCDay();
     
-    // Skip Sunday (0 = Sunday), Saturday has limited hours
     if (dayOfWeek !== 0) {
-      // Check if entire day should be marked as "fully booked" (40% of days)
-      const dayDate = current.getFullYear() * 10000 + (current.getMonth() + 1) * 100 + current.getDate();
+      const dayDate = year * 10000 + (month + 1) * 100 + day;
       const daySeed = (dayDate * 17 + dayOfWeek * 31) % 100000;
       const isDayFullyBooked = seededRandom(daySeed) < DAYS_BOOKED_PERCENTAGE;
       
       if (!isDayFullyBooked) {
-        // Saturday: 10:00-14:00, Weekdays: 8:00-17:00
         const startHour = dayOfWeek === 6 ? 10 : 8;
-        const endHour = dayOfWeek === 6 ? 14 : 17;
+        const endHour = dayOfWeek === 6 ? 14 : 18;
         
         for (let hour = startHour; hour < endHour; hour++) {
-          const slotStart = new Date(current);
-          slotStart.setHours(hour, 0, 0, 0);
+          const slotStart = createBerlinDate(year, month, day, hour);
+          const slotEnd = createBerlinDate(year, month, day, hour + 1);
           
-          const slotEnd = new Date(current);
-          slotEnd.setHours(hour + 1, 0, 0, 0);
-          
-          // Check if slot overlaps with any busy period (including 2-hour buffer)
           const BUFFER_HOURS = 2;
           const BUFFER_MS = BUFFER_HOURS * 60 * 60 * 1000;
           
           const isReallyBusy = busySlots.some(busy => {
             const busyStart = new Date(busy.start!);
             const busyEnd = new Date(busy.end!);
-            
-            // Extend busy period by 2 hours before and after
             const bufferedBusyStart = new Date(busyStart.getTime() - BUFFER_MS);
             const bufferedBusyEnd = new Date(busyEnd.getTime() + BUFFER_MS);
-            
             return slotStart < bufferedBusyEnd && slotEnd > bufferedBusyStart;
           });
           
-          // Generate individual "fake busy" slots (40% per day, different pattern each day)
           const slotSeed = (dayDate * 13 + hour * 23 + dayOfWeek * 7) % 100000;
           const isFakeBusy = seededRandom(slotSeed) < SLOTS_BOOKED_PERCENTAGE;
           
-          // Only include future slots
           if (slotStart > new Date()) {
             slots.push({
               start: slotStart.toISOString(),
@@ -200,8 +209,7 @@ export async function getAvailableSlots(startDate: Date, endDate: Date): Promise
       }
     }
     
-    current.setDate(current.getDate() + 1);
-    current.setHours(0, 0, 0, 0);
+    current.setUTCDate(current.getUTCDate() + 1);
   }
 
   return slots;

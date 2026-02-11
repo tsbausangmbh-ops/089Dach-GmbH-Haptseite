@@ -157,7 +157,7 @@ export default function Contact({
                 <div>
                   <h4 className="font-bold text-secondary mb-1">Öffnungszeiten</h4>
                   <p className="text-muted-foreground">
-                    Mo – Fr: 8:00 – 16:30 Uhr<br />
+                    Mo – Fr: 8:00 – 18:00 Uhr<br />
                     Sa – So: geschlossen<br />
                     <span className="text-sm">Notdienst 24/7 erreichbar</span>
                   </p>

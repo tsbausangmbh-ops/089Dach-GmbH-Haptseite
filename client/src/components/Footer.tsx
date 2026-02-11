@@ -26,10 +26,10 @@ export default function Footer({ showAIBerater = false }: FooterProps) {
                   <span className="text-xs text-primary">Meisterbetrieb seit 1998</span>
                 </div>
               </div>
-              <ul className="space-y-1 text-gray-400 text-sm">
+              <ul className="space-y-1 text-gray-300 text-sm">
                 <li>Thuillestr. 20, 81247 München</li>
                 <li><a href="mailto:info@089dach.de" className="hover:text-primary transition-colors">info@089dach.de</a></li>
-                <li>Mo-Fr: 08:00-16:30 Uhr</li>
+                <li>Mo-Fr: 08:00-18:00 Uhr</li>
                 <li>Sa-So: geschlossen</li>
               </ul>
             </div>
@@ -37,7 +37,7 @@ export default function Footer({ showAIBerater = false }: FooterProps) {
             {/* Spalte 2: Leistungen */}
             <div>
               <h4 className="font-heading font-bold text-sm mb-3 text-white">Leistungen</h4>
-              <ul className="space-y-1 text-gray-400 text-sm">
+              <ul className="space-y-1 text-gray-300 text-sm">
                 <li><a href="/leistungen/dachsanierung/" className="hover:text-primary transition-colors">Dachsanierung</a></li>
                 <li><a href="/leistungen/flachdach/" className="hover:text-primary transition-colors">Flachdach</a></li>
                 <li><a href="/leistungen/bedachungen/" className="hover:text-primary transition-colors">Steildach</a></li>
@@ -49,7 +49,7 @@ export default function Footer({ showAIBerater = false }: FooterProps) {
             {/* Spalte 3: Stadtteile */}
             <div>
               <h4 className="font-heading font-bold text-sm mb-3 text-white">Stadtteile</h4>
-              <ul className="space-y-1 text-gray-400 text-sm">
+              <ul className="space-y-1 text-gray-300 text-sm">
                 <li><a href="/dachdecker-obermenzing" className="hover:text-primary transition-colors">Obermenzing</a></li>
                 <li><a href="/dachdecker-pasing" className="hover:text-primary transition-colors">Pasing</a></li>
                 <li><a href="/dachdecker-schwabing" className="hover:text-primary transition-colors">Schwabing</a></li>
@@ -61,7 +61,7 @@ export default function Footer({ showAIBerater = false }: FooterProps) {
             {/* Spalte 4: Kontakt */}
             <div>
               <h4 className="font-heading font-bold text-sm mb-3 text-white">Kontakt</h4>
-              <ul className="space-y-1 text-gray-400 text-sm">
+              <ul className="space-y-1 text-gray-300 text-sm">
                 <li><a href="/rueckruf/" className="hover:text-primary transition-colors text-white font-medium">Rückruf anfordern</a></li>
                 <li><a href="/beratung/" className="hover:text-primary transition-colors">Kostenlose Beratung</a></li>
                 <li><a href="/kontakt/" className="hover:text-primary transition-colors">Kontaktformular</a></li>
@@ -74,7 +74,7 @@ export default function Footer({ showAIBerater = false }: FooterProps) {
 
           {/* SEO Links - kompakt */}
           <div className="border-t border-white/10 py-3">
-            <div className="flex flex-wrap gap-x-4 gap-y-1 text-xs text-gray-500 justify-center">
+            <div className="flex flex-wrap gap-x-4 gap-y-1 text-xs text-gray-400 justify-center">
               <a href="/dachdecker-muenchen" className="hover:text-primary transition-colors">Dachdecker München</a>
               <a href="/dachdecker-muenchen-kosten" className="hover:text-primary transition-colors">Kosten</a>
               <a href="/dachdecker-preise-muenchen" className="hover:text-primary transition-colors">Preise</a>
@@ -88,7 +88,7 @@ export default function Footer({ showAIBerater = false }: FooterProps) {
 
           {/* Bottom Bar - kompakt und einheitlich */}
           <div className="border-t border-white/10 pt-3">
-            <div className="flex flex-col md:flex-row justify-between items-center gap-3 text-xs text-gray-500">
+            <div className="flex flex-col md:flex-row justify-between items-center gap-3 text-xs text-gray-400">
               <div className="flex flex-wrap gap-4 justify-center">
                 <a href="/impressum/" className="hover:text-primary transition-colors">Impressum</a>
                 <a href="/datenschutz/" className="hover:text-primary transition-colors">Datenschutz</a>

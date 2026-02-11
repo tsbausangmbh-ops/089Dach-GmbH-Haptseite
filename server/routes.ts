@@ -636,47 +636,59 @@ export async function registerRoutes(
     }
   });
 
-  // Fallback slot generation when Google Calendar is not available
+  function getBerlinOffset(date: Date): number {
+    const month = date.getUTCMonth();
+    const day = date.getUTCDate();
+    const marchLastSunday = 31 - new Date(Date.UTC(date.getUTCFullYear(), 2, 31)).getUTCDay();
+    const octoberLastSunday = 31 - new Date(Date.UTC(date.getUTCFullYear(), 9, 31)).getUTCDay();
+    const isCEST = (month > 2 && month < 9) ||
+      (month === 2 && day >= marchLastSunday) ||
+      (month === 9 && day < octoberLastSunday);
+    return isCEST ? 2 : 1;
+  }
+
+  function createBerlinDate(year: number, month: number, day: number, hour: number): Date {
+    const tempDate = new Date(Date.UTC(year, month, day, 12, 0, 0));
+    const offset = getBerlinOffset(tempDate);
+    return new Date(Date.UTC(year, month, day, hour - offset, 0, 0, 0));
+  }
+
   function generateFallbackSlots() {
     const slots: { start: string; end: string; available: boolean }[] = [];
     const current = new Date();
-    current.setDate(current.getDate() + 1); // Start tomorrow
-    current.setHours(0, 0, 0, 0);
+    current.setUTCDate(current.getUTCDate() + 1);
+    current.setUTCHours(12, 0, 0, 0);
     
     const endDate = new Date();
-    endDate.setDate(endDate.getDate() + 90); // 3 Monate
+    endDate.setDate(endDate.getDate() + 90);
     
-    // Seeded random for consistent patterns
     const seededRandom = (seed: number) => {
       const x = Math.sin(seed) * 10000;
       return x - Math.floor(x);
     };
     
-    // 60% of days fully booked, 40% of slots per available day booked
     const DAYS_BOOKED_PERCENTAGE = 0.60;
     const SLOTS_BOOKED_PERCENTAGE = 0.40;
     
     while (current < endDate) {
-      const dayOfWeek = current.getDay();
+      const year = current.getUTCFullYear();
+      const month = current.getUTCMonth();
+      const day = current.getUTCDate();
+      const dayOfWeek = current.getUTCDay();
       
-      if (dayOfWeek !== 0) { // Skip Sunday
-        // Check if entire day is "fully booked"
-        const dayDate = current.getFullYear() * 10000 + (current.getMonth() + 1) * 100 + current.getDate();
+      if (dayOfWeek !== 0) {
+        const dayDate = year * 10000 + (month + 1) * 100 + day;
         const daySeed = (dayDate * 17 + dayOfWeek * 31) % 100000;
         const isDayFullyBooked = seededRandom(daySeed) < DAYS_BOOKED_PERCENTAGE;
         
         if (!isDayFullyBooked) {
           const startHour = dayOfWeek === 6 ? 10 : 8;
-          const endHour = dayOfWeek === 6 ? 14 : 17;
+          const endHour = dayOfWeek === 6 ? 14 : 18;
           
           for (let hour = startHour; hour < endHour; hour++) {
-            const slotStart = new Date(current);
-            slotStart.setHours(hour, 0, 0, 0);
+            const slotStart = createBerlinDate(year, month, day, hour);
+            const slotEnd = createBerlinDate(year, month, day, hour + 1);
             
-            const slotEnd = new Date(current);
-            slotEnd.setHours(hour + 1, 0, 0, 0);
-            
-            // 40% of slots per day appear booked (individual pattern per day)
             const slotSeed = (dayDate * 13 + hour * 23 + dayOfWeek * 7) % 100000;
             const isSlotBooked = seededRandom(slotSeed) < SLOTS_BOOKED_PERCENTAGE;
             
@@ -691,7 +703,7 @@ export async function registerRoutes(
         }
       }
       
-      current.setDate(current.getDate() + 1);
+      current.setUTCDate(current.getUTCDate() + 1);
     }
     
     return slots;

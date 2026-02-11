@@ -98,7 +98,7 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
               </Button>
             </div>
             
-            <p className="text-sm text-gray-300 mb-8">
+            <p className="text-sm text-gray-200 mb-8">
               <CheckCircle2 className="inline h-4 w-4 text-green-400 mr-1" />
               Kostenlose Erstberatung • Festpreis-Garantie • Diese Woche noch Termine frei
             </p>
@@ -116,25 +116,25 @@ export default function Hero({ onOpenFunnel }: HeroProps) {
                 ))}
               </div>
               <p className="font-bold text-lg">4.9 von 5 Sternen</p>
-              <p className="text-sm text-gray-400">62+ zufriedene Kunden</p>
+              <p className="text-sm text-gray-200">62+ zufriedene Kunden</p>
             </div>
 
             <div className="py-4 md:py-6 px-4 text-center text-white">
               <Shield className="h-8 w-8 text-primary mx-auto mb-2" />
               <p className="font-bold text-lg">Meister-Qualität</p>
-              <p className="text-sm text-gray-400">Schriftliche Garantie</p>
+              <p className="text-sm text-gray-200">Schriftliche Garantie</p>
             </div>
 
             <div className="py-4 md:py-6 px-4 text-center text-white">
               <p className="text-4xl font-bold text-primary mb-1">25+</p>
               <p className="font-bold text-lg">Jahre Erfahrung</p>
-              <p className="text-sm text-gray-400">in München</p>
+              <p className="text-sm text-gray-200">in München</p>
             </div>
 
             <div className="py-4 md:py-6 px-4 text-center text-white">
               <Clock className="h-8 w-8 text-primary mx-auto mb-2" />
               <p className="font-bold text-lg">Schnell vor Ort</p>
-              <p className="text-sm text-gray-400">Bevor Feuchteschäden teurer werden</p>
+              <p className="text-sm text-gray-200">Bevor Feuchteschäden teurer werden</p>
             </div>
           </div>
         </div>
