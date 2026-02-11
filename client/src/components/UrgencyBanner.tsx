@@ -79,7 +79,7 @@ export function TimeUrgencyBanner() {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 text-white text-center">
           <div className="flex items-center gap-2">
             <Clock className="h-5 w-5 text-primary" />
-            <span className="font-medium">Heute noch erreichbar bis 18:00 Uhr</span>
+            <span className="font-medium">Heute noch erreichbar bis 16:30 Uhr</span>
           </div>
           <span className="hidden sm:inline text-white/50">|</span>
           <a 

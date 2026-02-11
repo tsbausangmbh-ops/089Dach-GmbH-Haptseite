@@ -65,7 +65,7 @@ function LocalBusinessSchema() {
       "bestRating": "5"
     },
     "openingHoursSpecification": [
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "07:00", "closes": "18:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "07:00", "closes": "16:30" },
       { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "14:00" }
     ],
     "sameAs": [
@@ -143,7 +143,6 @@ export default function SEODachdeckerMuenchen() {
         description="Dachdecker München gesucht? 089Dach GmbH: Meisterbetrieb seit 1998 ✓ 4.9/5 Sterne ✓ 10 Jahre Garantie ✓ Festpreisgarantie. Jetzt kostenlos beraten ☎ 089 12621964"
         canonical="https://089dach.de/dachdecker-muenchen"
         keywords="dachdecker münchen, dachdecker münchen empfehlung, bester dachdecker münchen, dachdecker meisterbetrieb münchen, dachdeckerfirma münchen, dachdecker obermenzing, dachdecker pasing, dachdecker laim, dachdecker schwabing, dachdecker sendling, dachsanierung münchen, dachreparatur münchen, flachdach münchen, spengler münchen, dachfenster münchen, dachgaube münchen, dachdecker notdienst münchen, sturmschaden dach münchen, dachdecker bewertung münchen"
-        geoPlacename="München, Bayern, Deutschland"
         aiSummary="089Dach GmbH – Dachdecker-Meisterbetrieb in München-Obermenzing seit 1998. Dachsanierung, Dachreparatur, Flachdach, Spenglerarbeiten, Dachfenster, Dachgauben. 4.9/5 Sterne (62 Bewertungen). 10 Jahre Garantie. Festpreisgarantie. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[

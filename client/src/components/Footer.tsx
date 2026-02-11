@@ -29,7 +29,7 @@ export default function Footer({ showAIBerater = false }: FooterProps) {
               <ul className="space-y-1 text-gray-300 text-sm">
                 <li>Thuillestr. 20, 81247 München</li>
                 <li><a href="mailto:info@089dach.de" className="hover:text-primary transition-colors">info@089dach.de</a></li>
-                <li>Mo-Fr: 08:00-18:00 Uhr</li>
+                <li>Mo-Fr: 08:00-16:30 Uhr</li>
                 <li>Sa-So: geschlossen</li>
               </ul>
             </div>

@@ -77,7 +77,7 @@ export default function Navbar() {
             <span className="flex items-center gap-1.5">
               <span className="text-primary">✓</span> 10 Jahre Garantie
             </span>
-            <span>Mo-Fr: 08:00 - 18:00 | Sa-So geschlossen</span>
+            <span>Mo-Fr: 08:00 - 16:30 | Sa-So geschlossen</span>
           </div>
         </div>
       </div>
