@@ -101,6 +101,9 @@ async function prerenderRoute(
 
     let html = document.toString();
     
+    html = html.replace(/<!--[\s\S]*?-->/g, '');
+    html = html.replace(/\n\s*\n/g, '\n');
+    
     html = html.replace(
       /https:\/\/[a-z0-9-]+\.[a-z]+\.replit\.dev\/opengraph\.(jpg|jpeg|png)/g,
       'https://089dach.de/opengraph.jpg'

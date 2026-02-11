@@ -9,16 +9,19 @@ export default function Gallery() {
     {
       src: img1,
       title: "Einfamilienhaus Obermenzing",
+      alt: "Anthrazitfarbenes Steildach Neubau Einfamilienhaus in München-Obermenzing – 089Dach Referenzprojekt",
       category: "Neubau / Steildach"
     },
     {
       src: img3,
       title: "Gewerbebau Schwabing",
+      alt: "Flachdachsanierung Gewerbegebäude in München-Schwabing – professionelle Abdichtung durch 089Dach",
       category: "Flachdachsanierung"
     },
     {
       src: img2,
       title: "Villa Bogenhausen",
+      alt: "Rote Tondachziegel Nahaufnahme an historischer Villa in München-Bogenhausen – hochwertige Dacheindeckung",
       category: "Dachziegel Detail"
     }
   ];
@@ -43,7 +46,7 @@ export default function Gallery() {
             <div key={index} className="group relative overflow-hidden rounded-xl aspect-[4/3] cursor-pointer bg-gray-800">
               <img 
                 src={project.src} 
-                alt={project.title} 
+                alt={project.alt} 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-90 group-hover:opacity-100"
                 width={1024}
                 height={768}

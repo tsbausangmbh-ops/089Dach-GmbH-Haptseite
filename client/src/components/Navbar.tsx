@@ -88,7 +88,7 @@ export default function Navbar() {
           <div className="flex items-center gap-3 group cursor-pointer">
             <picture>
                   <source srcSet="/assets/logo.webp" type="image/webp" />
-                  <img src="/assets/logo.png" alt="089Dach Logo" className="h-14 w-auto rounded-xl" width={56} height={56} />
+                  <img src="/assets/logo.png" alt="089Dach GmbH – Dachdecker Meisterbetrieb München seit 1998" className="h-14 w-auto rounded-xl" width={56} height={56} />
                 </picture>
             <div className="flex flex-col gap-0.5">
               <span className="font-heading font-bold text-lg leading-none text-secondary">089Dach GmbH</span>

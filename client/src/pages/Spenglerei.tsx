@@ -217,7 +217,7 @@ export default function Spenglerei() {
             <div className="relative">
               <img 
                 src={detailImage} 
-                alt="Stehfalzdach Detail" 
+                alt="Nahaufnahme Stehfalzblech-Eindeckung – präzise Spenglerarbeit am Metalldach München" 
                 className="rounded-xl shadow-xl w-full object-cover aspect-[4/5]"
                 width={1024}
                 height={1280}

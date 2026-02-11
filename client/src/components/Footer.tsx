@@ -19,7 +19,7 @@ export default function Footer({ showAIBerater = false }: FooterProps) {
               <div className="flex items-center gap-2 mb-3">
                 <picture>
                   <source srcSet="/assets/logo.webp" type="image/webp" />
-                  <img src="/assets/logo.png" alt="089Dach Logo" className="h-8 w-auto flex-shrink-0 rounded-lg" width={32} height={32} loading="lazy" decoding="async" />
+                  <img src="/assets/logo.png" alt="089Dach GmbH – Dachdecker Meisterbetrieb München seit 1998" className="h-8 w-auto flex-shrink-0 rounded-lg" width={32} height={32} loading="lazy" decoding="async" />
                 </picture>
                 <div>
                   <span className="font-heading font-bold text-base text-white block leading-tight">089Dach GmbH</span>

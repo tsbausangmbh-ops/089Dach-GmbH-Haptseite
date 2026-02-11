@@ -121,7 +121,7 @@ export default function Ratgeber() {
         <div className="absolute inset-0 z-0">
           <img
             src={ratgeberHeroImage}
-            alt="Dachexperte mit Checkliste"
+            alt="Dachdecker-Meister prüft Checkliste für Dachsanierung – Ratgeber und Expertentipps München"
             className="w-full h-full object-cover"
             width={1792}
             height={1024}
@@ -225,7 +225,7 @@ export default function Ratgeber() {
               <div className="absolute inset-0 bg-gradient-to-r from-secondary/80 to-transparent z-10"></div>
               <img 
                 src={gegArticleImage}
-                alt="Hausbesitzer bei Dachberatung" 
+                alt="Hausbesitzer im Beratungsgespräch mit Dachdecker-Meister über Dachsanierung München" 
                 className="absolute inset-0 w-full h-full object-cover opacity-80"
                 width={1792}
                 height={1024}

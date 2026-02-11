@@ -32,7 +32,6 @@ export default function Bedachungen() {
         description="Dach neu eindecken München: Steildach ab 80€/m², Flachdach ab 85€/m². ✓ Tondachziegel ✓ Betonsteine ✓ Schiefer ✓ 10 Jahre Garantie. Festpreis ☎ 089 12621964"
         canonical="https://089dach.de/leistungen/bedachungen"
         keywords="dach neu eindecken münchen, dacheindeckung münchen kosten, dachziegel münchen, steildach münchen, flachdach münchen, dach eindecken lassen münchen, tondachziegel münchen, betondachsteine münchen, schieferdach münchen, dacheindeckung meisterbetrieb münchen, dacheindeckung festpreis münchen, biberschwanzziegel münchen, dachbegrünung münchen, dacheindeckung obermenzing, dacheindeckung pasing, dacheindeckung laim, dacheindeckung schwabing, dacheindeckung sendling, dachziegel austauschen münchen, dachaufbau münchen"
-        geoPlacename="München, Bayern, Deutschland"
         aiSummary="089Dach GmbH – Dachdecker-Meisterbetrieb München. Dach neu eindecken: Steildach ab 80€/m², Flachdach ab 85€/m². Tondachziegel, Betonsteine, Schiefer. Dachbegrünung. 10 Jahre Garantie. Festpreisgarantie. Tel: 089 12621964."
       />
       <BreadcrumbSchema items={[{ name: "Home", url: "/" }, { name: "Bedachungen", url: "/leistungen/bedachungen" }]} />
