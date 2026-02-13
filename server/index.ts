@@ -2,7 +2,7 @@ import express, { type Request, Response, NextFunction } from "express";
 import compression from "compression";
 import { registerRoutes } from "./routes";
 import { serveStatic } from "./static";
-
+import { prerenderMiddleware } from "./prerender";
 import { createServer } from "http";
 
 const app = express();
@@ -85,6 +85,11 @@ app.use((req, res, next) => {
   // setting up all the other routes so the catch-all route
   // doesn't interfere with the other routes
   if (process.env.NODE_ENV === "production") {
+    const prerenderToken = process.env.PRERENDER_TOKEN;
+    if (!prerenderToken) {
+      console.warn('[prerender] WARNING: PRERENDER_TOKEN not set - prerender.io disabled, using static fallback only');
+    }
+    app.use(prerenderMiddleware(prerenderToken || ''));
     serveStatic(app);
   } else {
     const { setupVite } = await import("./vite");

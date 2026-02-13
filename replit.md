@@ -81,12 +81,13 @@ The server uses a simple storage pattern (`server/storage.ts`) that abstracts da
   - GET /api/availability liefert freie Slots für die nächsten 14 Tage
   - 2-Stunden-Puffer: Vor und nach gebuchten Terminen sind 2 Stunden automatisch gesperrt
 
-- **Eigenes Prerendering**: Statische vorgerenderte HTML-Seiten für SEO (Production only)
+- **Eigenes Prerendering**: Eigene Middleware in `server/prerender.ts` (kein prerender-node Paket)
+  - Priorität 1: prerender.io Service (Secret: PRERENDER_TOKEN)
+  - Fallback: Statische vorgerenderte HTML-Dateien vom Dateisystem
   - Alle 136 Seiten werden beim Build vorgerendert (`script/prerender.ts`)
-  - Crawler-Erkennung in `server/static.ts` (60+ Bots: Google, Bing, AI, Social Media, SEO-Tools)
-  - Crawler erhalten vorgerenderte HTML-Dateien direkt vom Dateisystem (kein externer Service)
-  - Header `X-Prerender: static` bei Crawler-Auslieferung
-  - Kein prerender.io oder prerender-node — komplett eigene Lösung
+  - Crawler-Erkennung: 60+ Bots (Google, Bing, AI, Social Media, SEO-Tools)
+  - Header `X-Prerender: prerender.io` oder `X-Prerender: static-fallback`
+  - Eigene HTTPS-Implementierung, kein prerender-node NPM-Paket
 
 ### Key NPM Packages
 - `drizzle-orm` / `drizzle-zod`: Database ORM and schema validation

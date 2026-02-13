@@ -1,63 +1,7 @@
 import express, { type Express } from "express";
 import fs from "fs";
 import path from "path";
-
-const CRAWLER_USER_AGENTS = [
-  // Google Bots
-  'Googlebot',
-  'Googlebot-Image',
-  'Googlebot-News',
-  'Googlebot-Video',
-  'Google-InspectionTool',
-  'AdsBot-Google',
-  'AdsBot-Google-Mobile',
-  'APIs-Google',
-  'Mediapartners-Google',
-  'Storebot-Google',
-  'Google-Extended',
-  'GoogleOther',
-  // Bing Bots
-  'bingbot',
-  'BingPreview',
-  'msnbot',
-  // Other Search Engines
-  'Slurp',
-  'DuckDuckBot',
-  'Baiduspider',
-  'YandexBot',
-  'Sogou',
-  // Social Media
-  'facebookexternalhit',
-  'Twitterbot',
-  'LinkedInBot',
-  'WhatsApp',
-  'TelegramBot',
-  'Pinterestbot',
-  // SEO Tools
-  'AhrefsBot',
-  'SemrushBot',
-  'Screaming Frog',
-  'rogerbot',
-  'DotBot',
-  'MJ12bot',
-  // AI Bots
-  'GPTBot',
-  'ChatGPT-User',
-  'anthropic-ai',
-  'Claude-Web',
-  'PerplexityBot',
-  'cohere-ai',
-  // Other
-  'Applebot',
-  'archive.org_bot',
-  'ia_archiver',
-];
-
-function isCrawler(userAgent: string | undefined): boolean {
-  if (!userAgent) return false;
-  const ua = userAgent.toLowerCase();
-  return CRAWLER_USER_AGENTS.some(bot => ua.includes(bot.toLowerCase()));
-}
+import { isCrawler } from "./crawler";
 
 export function serveStatic(app: Express) {
   const distPath = path.resolve(__dirname, "public");
