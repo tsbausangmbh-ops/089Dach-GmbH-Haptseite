@@ -100,36 +100,60 @@ export function serveStatic(app: Express) {
     }
   }));
 
-  // SSR/Pre-rendered pages fallback with crawler optimization
+  const STATIC_EXTENSIONS = [
+    '.js', '.css', '.xml', '.png', '.jpg', '.jpeg', '.gif', '.webp',
+    '.svg', '.ico', '.woff', '.woff2', '.ttf', '.json', '.txt',
+    '.pdf', '.mp4', '.webm', '.map',
+  ];
+
   app.use("*", (req, res) => {
-    const requestPath = req.originalUrl.split("?")[0].replace(/\/$/, "") || "/";
+    let requestPath: string;
+    try {
+      requestPath = decodeURIComponent(req.originalUrl.split("?")[0]).replace(/\/$/, "") || "/";
+    } catch {
+      res.status(400).end();
+      return;
+    }
     const userAgent = req.headers['user-agent'];
     const crawlerDetected = isCrawler(userAgent);
-    
+
+    if (STATIC_EXTENSIONS.some(ext => requestPath.toLowerCase().endsWith(ext))) {
+      res.status(404).end();
+      return;
+    }
+
     let indexPath: string;
+    let isPrerendered = false;
+
     if (requestPath === "/") {
       indexPath = path.resolve(distPath, "index.html");
+      isPrerendered = true;
     } else {
       const prerenderPath = path.resolve(distPath, requestPath.slice(1), "index.html");
       if (fs.existsSync(prerenderPath)) {
         indexPath = prerenderPath;
+        isPrerendered = true;
       } else {
+        if (crawlerDetected) {
+          console.log(`[Crawler 404] ${userAgent?.substring(0, 80)} -> ${requestPath}`);
+          res.status(404).type('html').send('<!DOCTYPE html><html><head><title>404</title></head><body><h1>404 - Seite nicht gefunden</h1></body></html>');
+          return;
+        }
         indexPath = path.resolve(distPath, "index.html");
       }
     }
-    
+
     const stats = fs.statSync(indexPath);
-    
-    if (crawlerDetected) {
-      res.setHeader("Cache-Control", "public, max-age=3600, must-revalidate");
+
+    res.setHeader("Cache-Control", "public, max-age=3600, must-revalidate");
+    if (crawlerDetected && isPrerendered) {
       res.setHeader("X-Robots-Tag", "index, follow");
-    } else {
-      res.setHeader("Cache-Control", "public, max-age=3600, must-revalidate");
+      res.setHeader("X-Prerender", "static");
     }
-    
+
     res.setHeader("Vary", "Accept-Encoding, User-Agent");
     res.setHeader("Last-Modified", stats.mtime.toUTCString());
-    
+
     res.setHeader("Link", [
       '</opengraph.jpg>; rel=preload; as=image',
       '<https://fonts.googleapis.com>; rel=preconnect',
@@ -137,13 +161,13 @@ export function serveStatic(app: Express) {
       '</sitemap.xml>; rel=sitemap',
       '</llms.txt>; rel=ai-resource; type="text/plain"'
     ].join(", "));
-    
+
     res.setHeader("X-Content-Type-Options", "nosniff");
-    
+
     if (crawlerDetected) {
       console.log(`[Crawler] ${userAgent?.substring(0, 80)} -> ${requestPath}`);
     }
-    
+
     res.sendFile(indexPath);
   });
 }

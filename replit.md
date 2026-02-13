@@ -76,17 +76,17 @@ The server uses a simple storage pattern (`server/storage.ts`) that abstracts da
 - **Google Calendar**: Automatische Kalendereintrag-Erstellung bei Rückruf-Wünschen
   - Via Replit Connector (OAuth)
   - Erstellt Termine für nächsten Werktag um 9:00 Uhr
-  - Kunden können auf /rueckruf ihren Wunschtermin selbst auswählen (Mo-Fr 8-17 Uhr, Sa 10-14 Uhr)
+  - Kunden können auf /rueckruf ihren Wunschtermin selbst auswählen (Mo-Fr 8-18 Uhr, Sa 10-14 Uhr)
+  - Angezeigte Arbeitszeiten: Mo-Fr 8:00-16:30, Termine buchbar bis 18:00
   - GET /api/availability liefert freie Slots für die nächsten 14 Tage
   - 2-Stunden-Puffer: Vor und nach gebuchten Terminen sind 2 Stunden automatisch gesperrt
 
-- **Prerender.io**: Crawler-Prerendering für SEO (Production only)
-  - Eigene Middleware in `server/prerender.ts` (kein prerender-node Paket)
-  - Erkennt 60+ Crawler (Google, Bing, AI-Bots, Social Media, SEO-Tools)
-  - Leitet Crawler-Anfragen an service.prerender.io weiter
-  - Secret: PRERENDER_TOKEN
-  - Env: PRERENDER_BASE_URL (Standard: https://089dach.de)
-  - Fallback auf SSR bei Fehler/Timeout
+- **Eigenes Prerendering**: Statische vorgerenderte HTML-Seiten für SEO (Production only)
+  - Alle 136 Seiten werden beim Build vorgerendert (`script/prerender.ts`)
+  - Crawler-Erkennung in `server/static.ts` (60+ Bots: Google, Bing, AI, Social Media, SEO-Tools)
+  - Crawler erhalten vorgerenderte HTML-Dateien direkt vom Dateisystem (kein externer Service)
+  - Header `X-Prerender: static` bei Crawler-Auslieferung
+  - Kein prerender.io oder prerender-node — komplett eigene Lösung
 
 ### Key NPM Packages
 - `drizzle-orm` / `drizzle-zod`: Database ORM and schema validation
