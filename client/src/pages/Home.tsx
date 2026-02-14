@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 import LeadFunnel from "@/components/LeadFunnel";
 import SEO, { LocalBusinessSchema, OrganizationSchema, WebSiteSchema, AggregateRatingSchema } from "@/components/SEO";
 import CustomerReviews from "@/components/CustomerReviews";
-import PartnerNetwork from "@/components/PartnerNetwork";
+
 import { MapPin, ArrowRight } from "lucide-react";
 
 export default function Home() {
@@ -104,7 +104,6 @@ export default function Home() {
         </section>
 
         <CustomerReviews />
-        <PartnerNetwork />
         <Contact 
           title="Lassen Sie uns über Ihr Dach sprechen"
           description="Kleine Schäden wachsen schnell. Je früher wir prüfen, desto günstiger die Lösung. Kostenlose Erstberatung – wir melden uns zeitnah."
